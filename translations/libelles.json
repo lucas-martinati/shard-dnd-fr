@@ -1,0 +1,92 @@
+{
+  "$schema": "../docs/translation-pack.schema.json",
+  "schemaVersion": 1,
+  "edition": "2024",
+  "source": "Traductions proposées de libellés SRD 5.2.1 EN · https://www.dndbeyond.com/srd",
+  "entries": [
+    {
+      "id": "ui.bardic-inspiration.use",
+      "kind": "term",
+      "en": "Using Bardic Inspiration",
+      "fr": "Utiliser l’Inspiration bardique"
+    },
+    {
+      "id": "ui.bardic-die",
+      "kind": "term",
+      "en": "Bardic Die",
+      "fr": "Dé bardique"
+    },
+    {
+      "id": "ui.elven-lineages",
+      "kind": "term",
+      "en": "Elven Lineages",
+      "fr": "Lignées elfiques"
+    },
+    {
+      "id": "ui.gnomish-lineages",
+      "kind": "term",
+      "en": "Gnomish Lineages",
+      "fr": "Lignées gnomes"
+    },
+    {
+      "id": "ui.additional.0",
+      "kind": "term",
+      "en": "Blink Steps",
+      "fr": "Pas éclair"
+    },
+    {
+      "id": "ui.additional.1",
+      "kind": "term",
+      "en": "Frenzy Damage",
+      "fr": "Dégâts de Frénésie"
+    },
+    {
+      "id": "ui.additional.2",
+      "kind": "term",
+      "en": "Strength Advantage",
+      "fr": "Avantage en Force"
+    },
+    {
+      "id": "ui.additional.3",
+      "kind": "term",
+      "en": "Force Avantage",
+      "fr": "Avantage en Force"
+    },
+    {
+      "id": "ui.additional.4",
+      "kind": "term",
+      "en": "No Concentration or Spells",
+      "fr": "Ni Concentration ni sorts"
+    },
+    {
+      "id": "ui.additional.5",
+      "kind": "term",
+      "en": "Properties",
+      "fr": "Propriétés"
+    },
+    {
+      "id": "ui.additional.6",
+      "kind": "term",
+      "en": "Martial melee weapon",
+      "fr": "Arme de guerre de corps à corps"
+    },
+    {
+      "id": "ui.additional.7",
+      "kind": "term",
+      "en": "Simple melee weapon",
+      "fr": "Arme courante de corps à corps"
+    },
+    {
+      "id": "ui.additional.8",
+      "kind": "term",
+      "en": "Martial ranged weapon",
+      "fr": "Arme de guerre à distance"
+    },
+    {
+      "id": "ui.additional.9",
+      "kind": "term",
+      "en": "Simple ranged weapon",
+      "fr": "Arme courante à distance"
+    }
+  ]
+}

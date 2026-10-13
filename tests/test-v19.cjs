@@ -14,8 +14,8 @@ function setup(settings={}){
  for(const id of ['aideddAuto','aideddNames','aideddOnline','aideddInline','corrections','english','french','save','remove','json','import','export','reference','aideddReader'])assert.equal(root.getElementById(id),null,id);
  assert.equal(menus.size,3);assert.equal([...menus.keys()].filter(s=>/désactiver|masquer/.test(s)).length,2);
  const button=root.getElementById('badge');button.click();assert.equal(root.getElementById('panel').hidden,false);
- const pos=root.getElementById('buttonPosition');pos.value='hidden';pos.dispatchEvent(new w.Event('change'));assert.equal(button.hidden,true);root.getElementById('close').click();menus.get('D&D FR — Ouvrir la configuration')();assert.equal(root.getElementById('panel').hidden,false);assert.equal(button.hidden,true);
- root.getElementById('close').click();w.document.dispatchEvent(new w.KeyboardEvent('keydown',{altKey:true,shiftKey:true,code:'KeyF',bubbles:true}));assert.equal(root.getElementById('panel').hidden,false);
+ const pos=root.getElementById('buttonPosition');pos.value='hidden';pos.dispatchEvent(new w.Event('change'));assert.equal(button.hidden,true);(root.getElementById('close')||button).click();menus.get('D&D FR — Ouvrir la configuration')();assert.equal(root.getElementById('panel').hidden,false);assert.equal(button.hidden,true);
+ (root.getElementById('close')||button).click();w.document.dispatchEvent(new w.KeyboardEvent('keydown',{altKey:true,shiftKey:true,code:'KeyF',bubbles:true}));assert.equal(root.getElementById('panel').hidden,false);
  for(const p of ['top-left','top-right','bottom-left','bottom-right']){pos.value=p;pos.dispatchEvent(new w.Event('change'));assert.equal(host.style[p.startsWith('top')?'top':'bottom'],'16px');assert.equal(host.style[p.endsWith('right')?'right':'left'],'16px');}
  assert.equal(JSON.parse(saved.get('shard-fr-v1')).buttonPosition,'bottom-right');
  await wait(()=>w.document.querySelector('[data-shard-fr-link] a'));const direct=w.document.querySelector('[data-shard-fr-link] a');assert.equal(direct.href,'https://www.aidedd.org/spell/fr/trait-de-feu');assert.equal(direct.target,'_blank');assert.match(direct.rel,/noopener/);

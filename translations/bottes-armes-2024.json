@@ -1,0 +1,72 @@
+{
+  "$schema": "../docs/translation-pack.schema.json",
+  "schemaVersion": 1,
+  "edition": "2024",
+  "source": "Traduction de passages du SRD 5.2.1 EN · bottes d’arme · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd",
+  "entries": [
+    {
+      "id": "mastery.cleave",
+      "en": "If you hit a creature with a melee attack roll using this weapon, you can make a melee attack roll with the weapon against a second creature within 5 feet of the first that is also within your reach. On a hit, the second creature takes the weapon’s damage, but don’t add your ability modifier to that damage unless that modifier is negative. You can make this extra attack only once per turn.",
+      "fr": "Si vous touchez une créature avec un jet d’attaque de corps à corps utilisant cette arme, vous pouvez effectuer un jet d’attaque de corps à corps avec cette arme contre une seconde créature située à 5 feet ou moins de la première et également à votre portée. Si l’attaque touche, la seconde créature subit les dégâts de l’arme, sans y ajouter votre modificateur de caractéristique, sauf s’il est négatif. Vous ne pouvez effectuer cette attaque supplémentaire qu’une seule fois par tour."
+    },
+    {
+      "id": "mastery.graze",
+      "en": "If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier.",
+      "fr": "Si votre jet d’attaque avec cette arme rate une créature, vous pouvez lui infliger des dégâts égaux au modificateur de caractéristique utilisé pour le jet d’attaque. Ces dégâts sont du même type que ceux de l’arme et ne peuvent être augmentés qu’en augmentant ce modificateur."
+    },
+    {
+      "id": "mastery.nick",
+      "en": "When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.",
+      "fr": "Lorsque vous effectuez l’attaque supplémentaire de la propriété Légère, vous pouvez l’effectuer dans le cadre de l’action Attaquer plutôt que par une action Bonus. Vous ne pouvez effectuer cette attaque supplémentaire qu’une seule fois par tour."
+    },
+    {
+      "id": "mastery.push",
+      "en": "If you hit a creature with this weapon, you can push the creature up to 10 feet straight away from yourself if it is Large or smaller.",
+      "fr": "Si vous touchez une créature avec cette arme, vous pouvez la repousser jusqu’à 10 feet en ligne droite si elle est de taille Grande ou inférieure."
+    },
+    {
+      "id": "mastery.sap",
+      "en": "If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.",
+      "fr": "Si vous touchez une créature avec cette arme, elle subit le Désavantage à son prochain jet d’attaque avant le début de votre prochain tour."
+    },
+    {
+      "id": "mastery.slow",
+      "en": "If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.",
+      "fr": "Si vous touchez une créature avec cette arme et lui infligez des dégâts, vous pouvez réduire sa Vitesse de 10 feet jusqu’au début de votre prochain tour. Si elle est touchée plusieurs fois par des armes dotées de cette propriété, la réduction de Vitesse ne dépasse pas 10 feet."
+    },
+    {
+      "id": "mastery.topple",
+      "en": "If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a failed save, the creature has the Prone condition.",
+      "fr": "Si vous touchez une créature avec cette arme, vous pouvez lui imposer un jet de sauvegarde de Constitution dont le DD est égal à 8 + le modificateur de caractéristique utilisé pour le jet d’attaque + votre bonus de maîtrise. En cas d’échec, elle subit l’état À terre."
+    },
+    {
+      "id": "mastery.vex",
+      "en": "If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.",
+      "fr": "Si vous touchez une créature avec cette arme et lui infligez des dégâts, vous avez l’Avantage à votre prochain jet d’attaque contre elle avant la fin de votre prochain tour."
+    },
+    {
+      "id": "mastery.label.properties",
+      "kind": "term",
+      "en": "Mastery Properties",
+      "fr": "Propriétés de botte"
+    },
+    {
+      "id": "mastery.label.weapon-property",
+      "kind": "term",
+      "en": "Weapon Mastery Property",
+      "fr": "Botte d’arme"
+    },
+    {
+      "id": "mastery.label.weapon-properties",
+      "kind": "term",
+      "en": "Weapon Mastery Properties",
+      "fr": "Bottes d’arme"
+    },
+    {
+      "id": "mastery.label.mastery",
+      "kind": "term",
+      "en": "Mastery",
+      "fr": "Botte d’arme"
+    }
+  ]
+}

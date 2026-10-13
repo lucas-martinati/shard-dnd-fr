@@ -101,6 +101,7 @@
       return converted.join('/')+' feet';
     });
   }
+  const weaponMasteryContext=text=>/(?:\bmastery\b|bottes? d.armes?|propriétés? (?:de )?botte|this weapon|cette arme|slashing|piercing|bludgeoning|tranchant|perforant|contondant|two-handed|à deux mains)/i.test(text);
   function translate(source, context = source) {
     if (!enabled || !source.trim() || source.length > 50000) return source;
     const originalSource=source;
@@ -117,7 +118,8 @@
           const monster=/(?:monster|encounter|combat)/i.test(location.hash)||/(?:Hit Points|Challenge|Armor Class|Points de vie|FP \d)/i.test(context);
           const row=choices.find(r=>r.kind===(monster?'monster':'feat'));if(row)entry=row;
         }
-        if (key === 'light' && /(?:slashing|piercing|bludgeoning|tranchant|perforant|contondant|armor|armure|finesse|two-handed|à deux mains)/i.test(context)) return 'Légère';
+        if (key === 'light' && /(?:slashing|piercing|bludgeoning|tranchant|perforant|contondant|armor|armure|finesse|two-handed|à deux mains|light weapon|arme légère)/i.test(context)) return 'Légère';
+        if (key === 'slow' && weaponMasteryContext(context)) return 'Ralentissement';
         if (key === 'save' && /\b(?:STR|DEX|CON|INT|WIS|CHA|FOR|SAG)\s*(?:DC|DD|[0-9])/i.test(context)) return 'Sauvegarde';
       }
       if (entry.fr === entry.en) return /^[A-Z]{2,4}$/.test(entry.fr) ? entry.fr : matched;
@@ -169,11 +171,12 @@
     const original = prev && current === prev.output ? prev.original : current;
     // Contexte court seulement : ne pas confondre le sort Lumière avec une propriété d’arme.
     let context = original;
-    if (/\b(light|save|tough|piercer)\b/i.test(original) && original.length < 100) {
+    if (/\b(light|slow|save|tough|piercer)\b/i.test(original) && original.length < 100) {
       let el=node.parentElement;
-      for (let depth=0; el && depth<3; depth++,el=el.parentElement) {
-        if (el.textContent.length > 240 || el.matches('button,[role="button"]')) break;
+      for (let depth=0; el && depth<(/\bslow\b/i.test(original)?4:3); depth++,el=el.parentElement) {
+        if (el.textContent.length > (/\bslow\b/i.test(original)?600:240) || el.matches('button,[role="button"]')) break;
         context=el.textContent;
+        if(/\bslow\b/i.test(original)&&el.matches('article,[role="dialog"],tr,.stdcontent'))break;
       }
     }
     if(processSplitLabel(node))return;
@@ -245,7 +248,7 @@
     let node;
     while ((node=walker.nextNode())) {
       if (node.nodeType === Node.TEXT_NODE) processText(node);
-      else {if(node.matches('.pre-wrap,.stdcontent,.description'))discoverRegion(node);processAttrs(node);processInline(node);}
+      else {if(node.matches('article,[role="dialog"],.pre-wrap,.stdcontent,.description'))discoverRegion(node);processAttrs(node);processInline(node);}
       yield;
     }
   }
@@ -319,7 +322,7 @@
   shadow.append(style);
   const panel=document.createElement('section'); panel.id='panel'; panel.hidden=true; panel.setAttribute('aria-label','Traduction D&D en français');
   // Cette interface est créée une fois, à l’écart du DOM géré par Shard.
-  panel.innerHTML=`<label class="primary"><span id="enabledLabel">Traduction activée</span><input id="enabled" type="checkbox" role="switch" aria-label="Activer la traduction"></label><h2>D&D FR · Configuration</h2><label class="secondary"><input id="bilingual" type="checkbox"><span>Ajouter également les trads en anglais <small>(sorts, monstres, objets)</small></span></label><label for="buttonPosition">Bouton D&D FR</label><select id="buttonPosition"><option value="top-right">En haut à droite</option><option value="top-left">En haut à gauche</option><option value="bottom-right">En bas à droite</option><option value="bottom-left">En bas à gauche</option><option value="hidden">Ne pas afficher</option></select><p><small>Configuration accessible via le menu Tampermonkey ou Alt + Maj + F.</small></p><form id="referenceSearch"><label for="search">Rechercher une fiche AideDD</label><div class="row"><input id="search" type="search" placeholder="Nom français ou anglais…" autocomplete="off"><button type="submit">Ouvrir ↗</button></div></form><p id="searchStatus" role="status"></p><div id="results"></div><footer><button id="close" type="button">Fermer</button></footer>`;
+  panel.innerHTML=`<label class="primary"><span id="enabledLabel">Traduction activée</span><input id="enabled" type="checkbox" role="switch" aria-label="Activer la traduction"></label><h2>D&D FR · Configuration</h2><label class="secondary"><input id="bilingual" type="checkbox"><span>Ajouter également les trads en anglais <small>(sorts, monstres, objets)</small></span></label><label for="buttonPosition">Bouton D&D FR</label><select id="buttonPosition"><option value="top-right">En haut à droite</option><option value="top-left">En haut à gauche</option><option value="bottom-right">En bas à droite</option><option value="bottom-left">En bas à gauche</option><option value="hidden">Ne pas afficher</option></select><p><small>Configuration accessible via le menu Tampermonkey ou Alt + Maj + F.</small></p><form id="referenceSearch"><label for="search">Rechercher une fiche AideDD</label><div class="row"><input id="search" type="search" placeholder="Nom français ou anglais…" autocomplete="off"><button type="submit">Ouvrir ↗</button></div></form><p id="searchStatus" role="status"></p><div id="results"></div>`;
   shadow.append(panel);
   const badge=document.createElement('button'); badge.id='badge'; badge.type='button'; badge.textContent='D&D FR'; badge.setAttribute('aria-label','Ouvrir les réglages de traduction'); shadow.append(badge);
   document.body.append(host);
@@ -456,6 +459,7 @@
     let title,rows=[];
     for(const candidate of [...region.querySelectorAll('h1,h2,h3,[role="heading"],.titletext')].slice(0,8)){
       const source=blockEnglish(candidate).trim();if(source.length>150)continue;
+      if(normalize(source)==='slow'&&weaponMasteryContext(blockEnglish(region)))continue;
       const found=referenceRows(source).filter(r=>['spell','monster','magic-item'].includes(r.kind));
       if(found.length){title=candidate;rows=found;break;}
     }
@@ -592,6 +596,30 @@
     // Conserver chaque élément interactif et ses gestionnaires. Seuls les nœuds texte changent.
     const protectedElements=[];
     for(const node of nodes){const owner=node.parentElement.closest('a,button,[role="button"],.dodieroll,[onclick]');if(owner&&el.contains(owner)&&!protectedElements.includes(owner))protectedElements.push(owner);}
+    // Les emphases reconnues sont des repères comme les liens, sans recréer
+    // leurs éléments. Un titre traduit reste dans son <strong>, pas tout le paragraphe.
+    function inlineVariants(en){
+      const trimmed=en.trim(),match=/^(.*?)([.:]?)$/.exec(trimmed);
+      const entry=entries.get(normalize(match[1]));
+      // Les descriptions restent françaises, même si les noms isolés sont bilingues.
+      return [...new Set([translate(en,source),entry?entry.fr+match[2]:null,en].filter(Boolean).map(s=>s.trim()))];
+    }
+    const formatted=[];
+    for(const node of nodes){
+      const owner=node.parentElement.closest('strong,b,em,i,u,mark');
+      if(!owner||owner===el||!el.contains(owner)||formatted.includes(owner)||protectedElements.some(p=>p.contains(owner)||owner.contains(p)))continue;
+      const en=nodes.filter(n=>owner.contains(n)).map(originalNode).join('');
+      if(inlineVariants(en).some(value=>value&&new RegExp(pattern(value),'iu').test(fr)))formatted.push(owner);
+    }
+    // Seules les emphases trouvées dans le bon ordre sont conservées comme repères.
+    // Les ancres interactives restent obligatoires et gardent leur priorité.
+    let formatCursor=0;
+    for(const owner of formatted){
+      const en=nodes.filter(n=>owner.contains(n)).map(originalNode).join('');
+      const matches=inlineVariants(en).filter(Boolean).map(value=>new RegExp(pattern(value),'iu').exec(fr.slice(formatCursor))).filter(Boolean).sort((a,b)=>a.index-b.index);
+      if(matches.length){protectedElements.push(owner);formatCursor+=matches[0].index+matches[0][0].length;}
+    }
+    protectedElements.sort((a,b)=>nodes.findIndex(n=>a.contains(n))-nodes.findIndex(n=>b.contains(n)));
     const visualScope=new Map();if(visualGroups)visualGroups.forEach((g,i)=>g.nodes.forEach(n=>visualScope.set(n,i)));
     const output=new Map(nodes.map(n=>[n,'']));let cursor=0,lastIndex=0;
     function assign(segment,from,to){
@@ -606,7 +634,7 @@
     }
     for(const owner of protectedElements){
       const owned=nodes.filter(n=>owner.contains(n)),first=nodes.indexOf(owned[0]),last=nodes.indexOf(owned.at(-1));
-      const en=owned.map(originalNode).join(''), translated=translate(en),variants=[translated,en].filter(Boolean);
+      const en=owned.map(originalNode).join(''),variants=inlineVariants(en);
       let found=null;
       for(const value of variants){const re=new RegExp(pattern(value.trim()).replace(/\\\+/g,'\\s*\\+\\s*'),'iu');const m=re.exec(fr.slice(cursor));if(m){const text=m[0].trim(),index=m.index+m[0].length-m[0].trimStart().length;if(!found||index<found.index)found={index,text};}}
       if(!found||!assign(fr.slice(cursor,cursor+found.index),lastIndex,first))return;
@@ -708,7 +736,7 @@
     if(!enabled)return;
     for(const title of [...region.querySelectorAll('h1,h2,h3,[role="heading"],.titletext')].slice(0,8)){
       const source=blockEnglish(title).trim();
-      if(source.length<=150)requestInline(inlineChoices(normalize(source)));
+      if(source.length<=150&&!(normalize(source)==='slow'&&weaponMasteryContext(blockEnglish(region))))requestInline(inlineChoices(normalize(source)));
     }
   }
   function discoverInline(node,source){
@@ -717,7 +745,7 @@
     if(!title)return;
     const region=title.closest('[role="dialog"],article')||title.parentElement;
     if(!region||!region.querySelector('p,.description,.stdcontent,.pre-wrap')||region.textContent.length<100)return;
-    requestInline(inlineChoices(normalize(source)));
+    if(!(normalize(source)==='slow'&&weaponMasteryContext(blockEnglish(region))))requestInline(inlineChoices(normalize(source)));
   }
 
   function translateDuration(source){
@@ -752,7 +780,7 @@
     if(!changed)return null;
     for(const piece of pieces)if(piece.en){
       if(!/\p{L}/u.test(piece.en)){piece.fr=piece.en;continue;}
-      const translated=translate(piece.en);if(inlineKey(translated)===inlineKey(piece.en))return null;piece.fr=translated;
+      const translated=translate(piece.en,source);if(inlineKey(translated)===inlineKey(piece.en))return null;piece.fr=translated;
     }
     return pieces.map(p=>p.fr).join(' ');
   }
@@ -784,7 +812,7 @@
   }
   $('buttonPosition').onchange=()=>{const value=$('buttonPosition').value;showButton=value!=='hidden';if(showButton)buttonPosition=value;persist();};
   document.addEventListener('keydown',e=>{if(e.altKey&&e.shiftKey&&e.code==='KeyF'&&!e.ctrlKey&&!e.metaKey){e.preventDefault();panel.hidden=true;openPanel();}});
-  badge.onclick=openPanel;$('close').onclick=()=>{panel.hidden=true;};
+  badge.onclick=openPanel;const closeButton=$('close');if(closeButton)closeButton.onclick=()=>{panel.hidden=true;};
   $('enabled').onchange=()=>{enabled=$('enabled').checked;persist();};
   $('bilingual').onchange=()=>{bilingual=$('bilingual').checked;persist();};
   $('search').oninput=search;

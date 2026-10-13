@@ -1,5 +1,5 @@
 const fs=require('fs'),{JSDOM}=require('jsdom'),assert=require('node:assert/strict');
-const fixture=fs.readFileSync('work/metamagic-fixture-v112.html','utf8');
+const fixture=fs.readFileSync('tests/fixtures/metamagic-v112.html','utf8');
 const w=new JSDOM('<main>'+fixture+'</main>',{url:'https://play.shardtabletop.com/#play?mode=character',runScripts:'outside-only',pretendToBeVisual:true}).window,d=w.document;
 const rows=fs.readFileSync('work/metamagic-descriptions.tsv','utf8').trim().split('\n').map(l=>l.split('|'));
 const key=s=>s.replace(/[’‘]/g,"'").replace(/\s+/g,' ').trim().toLowerCase();const pairs=new Map(rows.map(([en,fr])=>[key(en),fr]));

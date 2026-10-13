@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Pack de traductions Shard D&D FR",
+  "type": "object",
+  "required": ["schemaVersion", "edition", "source", "entries"],
+  "properties": {
+    "schemaVersion": {"const": 1},
+    "edition": {"enum": ["2014", "2024", "any"]},
+    "source": {"type": "string", "minLength": 1},
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "en", "fr"],
+        "properties": {
+          "id": {"type": "string", "minLength": 1},
+          "kind": {"enum": ["description", "term"], "default": "description"},
+          "en": {"type": "string", "minLength": 1},
+          "fr": {"type": "string", "minLength": 1},
+          "variants": {"type": "array", "items": {"type": "string", "minLength": 1}}
+        },
+        "additionalProperties": false
+      }
+    },
+    "$schema": {"type": "string"}
+  },
+  "additionalProperties": false
+}

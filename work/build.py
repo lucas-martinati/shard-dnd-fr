@@ -1,21 +1,28 @@
 from pathlib import Path
 import json,re,unicodedata
+from translation_packs import load_packs
 root=Path(__file__).resolve().parent.parent
 out=root/'outputs';work=root/'work'
+version=json.loads((root/'package.json').read_text())['version']
+pack_rows=load_packs()
+pack_terms={row['en']:row for row in pack_rows if row['kind']=='term'}
 # Ordre explicite : références vérifiées prioritaires, puis corrections personnelles à l’exécution.
 modules=[('MONSTERS','monsters'),('SPELLS','spells'),('TERMS','terms'),('EQUIPMENT','equipment'),('INTERFACE','interface'),('RULES2024','2024'),('MAGICITEMS','magic-items'),('GM','gm'),('EXPANSION','expansion'),('DESCRIPTIONS','descriptions'),('DRUID','druid-descriptions'),('CREATION','creation-2024'),('CANONICAL_SPELLS','canonical-spells'),('CANONICAL_FEATURES','canonical-features'),('CANONICAL_COMBAT','canonical-combat'),('COMBAT_DESCRIPTIONS','combat-descriptions'),('FEATURE_TERMS','feature-terms')]
 def norm(s):return re.sub(r'\s+',' ',re.sub('[‐‑–]','-',re.sub('[’‘ʼ]',"'",unicodedata.normalize('NFC',s)))).strip().lower()
 meta={};records={};parts=[]
-oldheader=(work/'header.txt').read_text()
+oldheader=re.sub(r'(?m)^(// @version\s+).+$',lambda m:m[1]+version,(work/'header.txt').read_text())
 parts=[oldheader,'(() => {\n"use strict";\n']
 for const,name in modules:
- data=(work/(name+'.tsv')).read_text();lines=data.strip().splitlines()
+ data=(work/(name+'.tsv')).read_text()
+ if name=='feature-terms' and pack_terms:data=data.rstrip()+'\n'+'\n'.join(r['en']+'|'+r['fr'] for r in pack_terms.values())+'\n'
+ lines=data.strip().splitlines()
  for i,line in enumerate(lines):
   assert line.count('|')==1,(name,line)
   en,fr=line.split('|');key=norm(en)
   source='Traduction proposée ou usuelle (non vérifiée intégralement)';category='vocabulaire'
   if name.startswith('canonical') or name=='combat-descriptions':source='SRD officiel 5.2.1 FR · CC-BY-4.0'
   elif name=='creation-2024' and i<48:source='AideDD · index des sous-classes 2024 (noms)'
+  if name=='feature-terms' and en in pack_terms:source=pack_terms[en]['source']
   if en=='Dungeon Delver':source='AideDD · index des dons 2014 (nom)'
   if 'spells' in name:category='sort'
   elif name=='creation-2024':category='création de personnage'
@@ -56,6 +63,6 @@ for r in catalog:
  aliases=list(dict.fromkeys(previous.get('aliases',[])+r.get('aliases',[])+([previous['fr']] if previous.get('fr') else [])))
  records[key]={'en':r['en'],'fr':r['fr'],'category':labels[r['kind']],'source':'AideDD · index 2024','url':r['url'],'aliases':[a for a in aliases if a!=r['fr']]}
 (out/'catalogue-aidedd-2024.json').write_text(json.dumps({'date':'2026-10-12','entries':catalog},ensure_ascii=False,indent=2))
-(out/'lexique-en-fr.json').write_text(json.dumps({'version':'1.12.0','reference':'Noms AideDD 2024 prioritaires. Références SRD disponibles séparément. Autres entrées identifiées.','license':'Code MIT ; contenu SRD CC-BY-4.0 https://creativecommons.org/licenses/by/4.0/','sources':['https://www.dndbeyond.com/srd','https://www.aidedd.org/regles-24/classes/'],'entries':list(records.values())},ensure_ascii=False,indent=2))
+(out/'lexique-en-fr.json').write_text(json.dumps({'version':version,'reference':'Noms AideDD 2024 prioritaires. Références SRD disponibles séparément. Autres entrées identifiées.','license':'Code MIT ; contenu SRD CC-BY-4.0 https://creativecommons.org/licenses/by/4.0/','sources':['https://www.dndbeyond.com/srd','https://www.aidedd.org/regles-24/classes/'],'entries':list(records.values())},ensure_ascii=False,indent=2))
 (out/'corrections-srd-2024.json').write_text(json.dumps(srd_corrections,ensure_ascii=False,indent=2))
 print(len(records),'entrées ;',len(refs),'descriptions ;',len(''.join(parts)),'caractères')

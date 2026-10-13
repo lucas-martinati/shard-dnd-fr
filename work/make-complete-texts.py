@@ -1,6 +1,7 @@
 import json,re
 from pathlib import Path
-root=Path('work');pairs=[]
+from translation_packs import load_packs, check_existing
+root=Path(__file__).resolve().parent;pairs=[]
 def add(en,fr,source):
  if en and fr:pairs.append({'en':en,'fr':fr,'source':source})
 def flat(s):return re.sub(r'\s+',' ',s).strip()
@@ -29,5 +30,10 @@ for row in json.loads((root/'feature-texts.json').read_text()):add(row['en'],row
 for row in json.loads((root/'feat-texts.json').read_text()):add(row['en'],row['fr'],row['source'])
 for line in (root/'metamagic-descriptions.tsv').read_text().splitlines():
  en,fr=line.split('|');add(en,fr,'Traduction de l’extrait utilisateur · métamagie et Source de magie anciennes')
+for row in json.loads((root/'spell-sections.json').read_text()):add(row['en'],row['fr'],row['source'])
+pack_rows=load_packs()
+check_existing(pack_rows,pairs)
+for row in pack_rows:
+ if row['kind']=='description':add(row['en'],row['fr'],row['source'])
 (root/'complete-texts.json').write_text(json.dumps(pairs,ensure_ascii=False,separators=(',',':')))
 print(len(pairs),'paires de descriptions et champs complets')

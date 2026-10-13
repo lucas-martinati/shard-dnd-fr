@@ -1,5 +1,5 @@
 {
-  "version": "1.12.0",
+  "version": "1.15.0",
   "reference": "Noms AideDD 2024 prioritaires. Références SRD disponibles séparément. Autres entrées identifiées.",
   "license": "Code MIT ; contenu SRD CC-BY-4.0 https://creativecommons.org/licenses/by/4.0/",
   "sources": [
@@ -24540,10 +24540,12 @@
     },
     {
       "en": "Mastery Properties",
-      "fr": "Propriétés botte",
-      "category": "combat",
-      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
-      "aliases": []
+      "fr": "Propriétés de botte",
+      "category": "vocabulaire",
+      "source": "Traduction de passages du SRD 5.2.1 EN · bottes d’arme · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd",
+      "aliases": [
+        "Propriétés botte"
+      ]
     },
     {
       "en": "Armor of Shadows",
@@ -24787,6 +24789,174 @@
       "fr": "Explorateur de donjons",
       "category": "vocabulaire",
       "source": "AideDD · index des dons 2014 (nom)",
+      "aliases": []
+    },
+    {
+      "en": "Forceful Blow",
+      "fr": "Coup appuyé",
+      "category": "vocabulaire",
+      "source": "Traduction de l’extrait utilisateur · Barbare et Comédien 2024 ; passages SRD 5.2.1 pour les valeurs des dés · adaptations CC-BY-4.0 · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Hamstring Blow",
+      "fr": "Coup au jarret",
+      "category": "vocabulaire",
+      "source": "Traduction de l’extrait utilisateur · Barbare et Comédien 2024 ; passages SRD 5.2.1 pour les valeurs des dés · adaptations CC-BY-4.0 · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Staggering Blow",
+      "fr": "Coup stupéfiant",
+      "category": "vocabulaire",
+      "source": "Traduction de l’extrait utilisateur · Barbare et Comédien 2024 ; passages SRD 5.2.1 pour les valeurs des dés · adaptations CC-BY-4.0 · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Sundering Blow",
+      "fr": "Coup déchirant",
+      "category": "vocabulaire",
+      "source": "Traduction de l’extrait utilisateur · Barbare et Comédien 2024 ; passages SRD 5.2.1 pour les valeurs des dés · adaptations CC-BY-4.0 · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Recover Intimidating Presence",
+      "fr": "Récupérer Présence intimidante",
+      "category": "vocabulaire",
+      "source": "Traduction de l’extrait utilisateur · Barbare et Comédien 2024 ; passages SRD 5.2.1 pour les valeurs des dés · adaptations CC-BY-4.0 · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Impersonation",
+      "fr": "Usurpation d’identité",
+      "category": "vocabulaire",
+      "source": "Traduction de l’extrait utilisateur · Barbare et Comédien 2024 ; passages SRD 5.2.1 pour les valeurs des dés · adaptations CC-BY-4.0 · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Mimicry",
+      "fr": "Imitation",
+      "category": "vocabulaire",
+      "source": "Traduction de l’extrait utilisateur · Barbare et Comédien 2024 ; passages SRD 5.2.1 pour les valeurs des dés · adaptations CC-BY-4.0 · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Weapon Mastery Property",
+      "fr": "Botte d’arme",
+      "category": "vocabulaire",
+      "source": "Traduction de passages du SRD 5.2.1 EN · bottes d’arme · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Weapon Mastery Properties",
+      "fr": "Bottes d’arme",
+      "category": "vocabulaire",
+      "source": "Traduction de passages du SRD 5.2.1 EN · bottes d’arme · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Mastery",
+      "fr": "Botte d’arme",
+      "category": "vocabulaire",
+      "source": "Traduction de passages du SRD 5.2.1 EN · bottes d’arme · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Using Bardic Inspiration",
+      "fr": "Utiliser l’Inspiration bardique",
+      "category": "vocabulaire",
+      "source": "Traductions proposées de libellés SRD 5.2.1 EN · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Bardic Die",
+      "fr": "Dé bardique",
+      "category": "vocabulaire",
+      "source": "Traductions proposées de libellés SRD 5.2.1 EN · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Elven Lineages",
+      "fr": "Lignées elfiques",
+      "category": "vocabulaire",
+      "source": "Traductions proposées de libellés SRD 5.2.1 EN · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Gnomish Lineages",
+      "fr": "Lignées gnomes",
+      "category": "vocabulaire",
+      "source": "Traductions proposées de libellés SRD 5.2.1 EN · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Blink Steps",
+      "fr": "Pas éclair",
+      "category": "vocabulaire",
+      "source": "Traductions proposées de libellés SRD 5.2.1 EN · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Frenzy Damage",
+      "fr": "Dégâts de Frénésie",
+      "category": "vocabulaire",
+      "source": "Traductions proposées de libellés SRD 5.2.1 EN · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Strength Advantage",
+      "fr": "Avantage en Force",
+      "category": "vocabulaire",
+      "source": "Traductions proposées de libellés SRD 5.2.1 EN · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Force Avantage",
+      "fr": "Avantage en Force",
+      "category": "vocabulaire",
+      "source": "Traductions proposées de libellés SRD 5.2.1 EN · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "No Concentration or Spells",
+      "fr": "Ni Concentration ni sorts",
+      "category": "vocabulaire",
+      "source": "Traductions proposées de libellés SRD 5.2.1 EN · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Properties",
+      "fr": "Propriétés",
+      "category": "vocabulaire",
+      "source": "Traductions proposées de libellés SRD 5.2.1 EN · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Martial melee weapon",
+      "fr": "Arme de guerre de corps à corps",
+      "category": "vocabulaire",
+      "source": "Traductions proposées de libellés SRD 5.2.1 EN · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Simple melee weapon",
+      "fr": "Arme courante de corps à corps",
+      "category": "vocabulaire",
+      "source": "Traductions proposées de libellés SRD 5.2.1 EN · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Martial ranged weapon",
+      "fr": "Arme de guerre à distance",
+      "category": "vocabulaire",
+      "source": "Traductions proposées de libellés SRD 5.2.1 EN · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Simple ranged weapon",
+      "fr": "Arme courante à distance",
+      "category": "vocabulaire",
+      "source": "Traductions proposées de libellés SRD 5.2.1 EN · https://www.dndbeyond.com/srd",
       "aliases": []
     },
     {

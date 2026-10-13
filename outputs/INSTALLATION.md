@@ -39,6 +39,38 @@ Les noms utilisent les cinq index AideDD 2024, avec un catalogue intégré de **
 
 Les données enregistrées dans Shard et les commandes de dés ne sont pas modifiées. Les traductions inconnues, les contenus maison et les textes de certains suppléments peuvent rester en anglais.
 
+## Listes, Rage et armes · version 1.15
+
+Complément de **44 descriptions et 10 libellés** : Rage 2024 complète (résistances, dégâts, durée et trois façons de la prolonger), Vol draconique, Souffle et résistance draconique, propriétés d’armes anciennes et 2024, puces de Thaumaturgie et compléments de Prestidigitation. « Blink Steps » reçoit le nom proposé « Pas éclair » ; aucun effet non fourni n’est inventé pour cette capacité.
+
+Les **19 descriptions de propriétés d’armes** couvrent notamment Lourde, Légère, Lancer, Deux mains, Finesse, Allonge, Chargement, Portée, Polyvalente et Munitions. Les versions anciennes et 2024 restent distinctes : la propriété Lourde ancienne concerne les petites créatures, alors que sa version 2024 utilise des seuils de Force ou de Dextérité.
+
+Un nouveau générateur produit **435 correspondances de segments SRD** : effets séparés, introductions et titres de sorts, ainsi que paragraphes d’amélioration et d’emplacements supérieurs. Les options nommées de Thaumaturgie, Prestidigitation, Druidisme, Injonction, Illusion mineure, Modification d’apparence, Détection des pensées, Main arcanique, Invocation de céleste, Glyphe de garde, Symbole et les puces de Malédiction sont appariées explicitement. Les titres d’amélioration sont reconnus dans 124 sorts. Les morceaux dont les dés ne correspondent pas, ou changent d’ordre entre les langues, ne sont pas ajoutés comme blocs complets ; les options connues restent traduisibles séparément.
+
+Les tests vérifient les puces réellement présentes dans les listes, les titres gras, les liens, les commandes de dés, la distinction entre le sort Lumière et la propriété Légère, ainsi que le retour exact au HTML anglais. Les traductions dépendent toujours du texte affiché ; certains suppléments et variantes peuvent rester inconnus.
+
+## Mise en forme et capacités · version 1.14
+
+Les titres et termes reconnus placés dans des balises de gras ou d’italique restent dans leurs balises après traduction. Le moteur conserve les éléments HTML, les liens et les commandes de dés ; un titre en gras ne reçoit plus tout le paragraphe français. Une emphase sur un fragment inconnu ou reformulé sans correspondance identifiable peut encore demander une traduction ciblée.
+
+Ajout de **22 descriptions et 7 libellés** pour les capacités du Barbare et du Berserker à haut niveau, la récupération de Présence intimidante et les effets Usurpation d’identité et Imitation du don Comédien. Les quatre effets de Coup brutal utilisent les noms du SRD français : Coup appuyé, Coup au jarret, Coup stupéfiant et Coup déchirant.
+
+Les dés absents d’un copier-coller sont vérifiés dans les passages SRD correspondants : Frénésie utilise des d6, Coup brutal 1d10 puis 2d10, et Coup déchirant accorde +5. La traduction s’applique au texte correspondant réellement présent dans le DOM ; aucune valeur n’est déduite du niveau du personnage.
+
+## Bottes d’arme · version 1.13.1
+
+Les descriptions des huit bottes sont intégrées : **Enchaînement, Écorchure, Coup double, Poussée, Sape, Ralentissement, Renversement et Ouverture**. Les noms proviennent des correspondances SRD déjà présentes ; les nouvelles descriptions sont des adaptations françaises du SRD 5.2.1 anglais, avec les distances conservées en feet.
+
+Le nom anglais « Slow » est reconnu comme **Ralentissement** dans le contexte d’une arme ou d’une description de botte. Le sort reste **Lenteur**, avec son lien AideDD. Les termes et descriptions inconnus ne sont pas rapprochés approximativement.
+
+## Ajouts de traduction · version 1.13
+
+Le complément comprend **41 descriptions** pour le Guerrier, le Barde, le Paladin, l’Elfe, le Gnome, le Halfelin et l’Humain, ainsi que **4 libellés**. Les descriptions sont des adaptations françaises des passages du SRD 5.2.1 anglais.
+
+Les nouvelles traductions sont organisées en fichiers thématiques détectés automatiquement pendant la génération. Le projet comprend une validation des contradictions et des dés, un audit local des passages anglais inconnus et un guide d’ajout. L’installation utilise toujours le seul fichier `shard-dnd-fr.user.js`.
+
+Les optimisations du moteur sont incluses : catalogues indexés, correspondances de descriptions réutilisées et migration des anciennes clés de cache.
+
 ## Vérifications
 
 Les tests des aptitudes de personnages passent toujours : 54 paragraphes et variantes, descriptions précédées de titres, libellés fragmentés, changement de dés après montée de niveau, commandes de dés cliquables et restauration exacte des textes anglais. Les valeurs des champs de saisie restent intactes et les phrases inconnues ne sont pas traduites mot à mot.

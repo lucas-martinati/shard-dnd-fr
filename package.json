@@ -1,12 +1,14 @@
 {
   "name": "shard-dnd-fr",
-  "version": "1.12.0",
+  "version": "1.15.0",
   "private": true,
   "description": "Traduction française D&D pour Shard Tabletop",
   "scripts": {
-    "build": "python3 work/make-complete-texts.py && python3 work/build.py",
-    "test": "node --check outputs/shard-dnd-fr.user.js && node work/test-v19.cjs && node work/test-v110.cjs && node work/test-v112.cjs && node work/test-runtime.cjs",
-    "benchmark": "node work/benchmark.cjs"
+    "build": "python3 work/make-feature-texts.py && python3 work/make-spell-sections.py && python3 work/make-complete-texts.py && python3 work/build.py",
+    "test": "node --check outputs/shard-dnd-fr.user.js && node tests/test-v19.cjs && node tests/test-v110.cjs && node tests/test-v112.cjs && node tests/test-runtime.cjs && python3 -m unittest discover -s tests -p \"test_*.py\" && node tests/test-packs.cjs && node tests/test-masteries.cjs && node tests/test-formatting.cjs && node tests/test-expanded.cjs && node tests/test-spell-sections.cjs",
+    "benchmark": "node tests/benchmark.cjs",
+    "translations:check": "python3 work/translations.py check",
+    "translations:audit": "python3 work/translations.py audit"
   },
   "devDependencies": {
     "jsdom": "^30.1.2"
