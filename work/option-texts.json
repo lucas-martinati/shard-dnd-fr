@@ -1,0 +1,352 @@
+[
+  {
+    "en": "Cost: 1 Sorcery Point When you cast a spell, such as Charm Person, that can be cast with a higher-level spell slot to target an additional creature, you can spend 1 Sorcery Point to increase the spell’s effective level by 1.",
+    "fr": "Coût : 1 point de Sorcellerie Lorsque vous lancez un sort, comme charme-personne, qui peut être lancé avec un emplacement de sort de plus haut niveau pour cibler une créature supplémentaire, vous pouvez dépenser 1 point de Sorcellerie pour augmenter de 1 le niveau effectif de ce sort.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · metamagic"
+  },
+  {
+    "en": "When you cast a spell, such as Charm Person, that can be cast with a higher-level spell slot to target an additional creature, you can spend 1 Sorcery Point to increase the spell’s effective level by 1.",
+    "fr": "Lorsque vous lancez un sort, comme Charme-personne, qui permet de cibler une créature supplémentaire avec un emplacement supérieur, vous pouvez dépenser 1 point de sorcellerie pour augmenter son niveau effectif de 1.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · metamagic"
+  },
+  {
+    "en": "Cost: 1 Sorcery Point When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell’s full force. To do so, spend 1 Sorcery Point and choose a number of those creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the spell, and it takes no damage if it would normally take half damage on a successful save.",
+    "fr": "Coût : 1 point de Sorcellerie Lorsquevous lancez un sortquicontraintd’autres créatures àeffectuer un jetdesauvegarde, vous pouvez protégercertaines deces créatures des pleins effetsdu sort. À cettefin, dépensez1 pointdeSorcellerieetdésignez des créatures dontlenombren’excèdepas votre modificateur deCharisme(minimum d’unecréature). Les créatures choisies réussissentautomatiquement leur jetdesauvegardecontrelesortetnesubissent aucun dégâtsielles étaientcensées les réduiredemoitiéen cas deréussite.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · metamagic"
+  },
+  {
+    "en": "Cost: 1 Sorcery Point When you cast a spell that has a range of at least 5 feet, you can spend 1 Sorcery Point to double the spell’s range. Or when you cast a spell that has a range of Touch, you can spend 1 Sorcery Point to make the spell’s range 30 feet.",
+    "fr": "Coût : 1 point de Sorcellerie Lorsque vous lancez un sort dont la portée est supérieure ou égale à 5 feet, vous pouvez dépenser 1 point de Sorcellerie pour doubler la portée de ce sort. Si vous lancez un sort dont la portée est « contact » et dépensez 1 point de Sorcellerie, sa portée devient 30 feet.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · metamagic"
+  },
+  {
+    "en": "When you cast a spell that has a range of at least 5 feet, you can spend 1 Sorcery Point to double the spell’s range. Or when you cast a spell that has a range of Touch, you can spend 1 Sorcery Point to make the spell’s range 30 feet.",
+    "fr": "Lorsque vous lancez un sort dont la portée est supérieure ou égale à 5 feet, vous pouvez dépenser 1 point de Sorcellerie pour doubler la portée de ce sort. Si vous lancez un sort dont la portée est « contact » et dépensez 1 point de Sorcellerie, sa portée devient 30 feet.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · metamagic"
+  },
+  {
+    "en": "Cost: 1 Sorcery Point When you roll damage for a spell, you can spend 1 Sorcery Point to reroll a number of the damage dice up to your Charisma modifier (minimum of one), and you must use the new rolls. You can use Empowered Spell even if you’ve already used a different Metamagic option during the casting of the spell.",
+    "fr": "Coût : 1 point de Sorcellerie Quand vous déterminez aléatoirement les dégâts d’un sort, vous pouvez dépenser 1 point de Sorcellerie afin de relancer un nombre de dés de dégâts égal à votre modificateur de Charisme (minimum d’un dé), auquel cas ce sont les nouveaux jets qui s’appliquent. Vous pouvez recourir à Sort renforcé même si vous avez déjà utilisé une autre option de Métamagie durant l’incantation du sort.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · metamagic"
+  },
+  {
+    "en": "When you roll damage for a spell, you can spend 1 Sorcery Point to reroll a number of the damage dice up to your Charisma modifier (minimum of one), and you must use the new rolls. You can use Empowered Spell even if you’ve already used a different Metamagic option during the casting of the spell.",
+    "fr": "Quand vous déterminez aléatoirement les dégâts d’un sort, vous pouvez dépenser 1 point de Sorcellerie afin de relancer un nombre de dés de dégâts égal à votre modificateur de Charisme (minimum d’un dé), auquel cas ce sont les nouveaux jets qui s’appliquent. Vous pouvez recourir à Sort renforcé même si vous avez déjà utilisé une autre option de Métamagie durant l’incantation du sort.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · metamagic"
+  },
+  {
+    "en": "Cost: 1 Sorcery Point When you cast a spell that has a duration of 1 minute or longer, you can spend 1 Sorcery Point to double its duration to a maximum duration of 24 hours. If the affected spell requires Concentration, you have Advantage on any saving throw you make to maintain that Concentration.",
+    "fr": "Coût : 1 point de Sorcellerie Lorsque vous lancez un sort dont la durée est supérieure ou égale à 1 minute, vous pouvez dépenser 1 point de Sorcellerie pour doubler sa durée, jusqu’à un maximum de 24 heures. Si le sort affecté nécessite la Concentration, vous avez l’Avantage à tous les jets de sauvegarde que vous effectuez pour maintenir cette Concentration.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · metamagic"
+  },
+  {
+    "en": "When you cast a spell that has a duration of 1 minute or longer, you can spend 1 Sorcery Point to double its duration to a maximum duration of 24 hours. If the affected spell requires Concentration, you have Advantage on any saving throw you make to maintain that Concentration.",
+    "fr": "Lorsque vous lancez un sort dont la durée est supérieure ou égale à 1 minute, vous pouvez dépenser 1 point de Sorcellerie pour doubler sa durée, jusqu’à un maximum de 24 heures. Si le sort affecté nécessite la Concentration, vous avez l’Avantage à tous les jets de sauvegarde que vous effectuez pour maintenir cette Concentration.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · metamagic"
+  },
+  {
+    "en": "Cost: 2 Sorcery Points When you cast a spell that forces a creature to make a saving throw, you can spend 2 Sorcery Points to give one target of the spell Disadvantage on saves against the spell.",
+    "fr": "Coût : 2 points de Sorcellerie Lorsque vous lancez un sort qui contraint une créature à effectuer un jet de sauvegarde, vous pouvez dépenser 2 points de Sorcellerie pour imposer le Désavantage à une cible du sort lors de ses JS contre ce sort.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · metamagic"
+  },
+  {
+    "en": "When you cast a spell that forces a creature to make a saving throw, you can spend 2 Sorcery Points to give one target of the spell Disadvantage on saves against the spell.",
+    "fr": "Lorsque vous lancez un sort imposant un jet de sauvegarde à une créature, vous pouvez dépenser 2 points de sorcellerie pour imposer le désavantage à une cible aux sauvegardes contre ce sort.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · metamagic"
+  },
+  {
+    "en": "Cost: 2 Sorcery Points When you cast a spell that has a casting time of an action, you can spend 2 Sorcery Points to change the casting time to a Bonus Action for this casting. You can’t modify a spell in this way if you’ve already cast a level 1+ spell on the current turn, nor can you cast a level 1+ spell on this turn after modifying a spell in this way.",
+    "fr": "Coût : 2 points de Sorcellerie Lorsque vous lancez un sort dont le temps d’incantation est égal à une action, vous pouvez dépenser 2 points de Sorcellerie pour réduire son temps d’incantation à une action Bonus pour la présente incantation. Vous ne pouvez pas modifier un sort de cette manière si vous avez déjà lancé un sort du 1er niveau ou supérieur pendant le tour en cours, et pas davantage lancer un sort du 1er niveau ou supérieur pendant le tour en cours si vous avez déjà modifié un sort de cette manière.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · metamagic"
+  },
+  {
+    "en": "When you cast a spell that has a casting time of an action, you can spend 2 Sorcery Points to change the casting time to a Bonus Action for this casting. You can’t modify a spell in this way if you’ve already cast a level 1+ spell on the current turn, nor can you cast a level 1+ spell on this turn after modifying a spell in this way.",
+    "fr": "Lorsque vous lancez un sort dont le temps d’incantation est égal à une action, vous pouvez dépenser 2 points de Sorcellerie pour réduire son temps d’incantation à une action Bonus pour la présente incantation. Vous ne pouvez pas modifier un sort de cette manière si vous avez déjà lancé un sort du 1er niveau ou supérieur pendant le tour en cours, et pas davantage lancer un sort du 1er niveau ou supérieur pendant le tour en cours si vous avez déjà modifié un sort de cette manière.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · metamagic"
+  },
+  {
+    "en": "Cost: 1 Sorcery Point If you make an attack roll for a spell and miss, you can spend 1 Sorcery Point to reroll the d20, and you must use the new roll. You can use Seeking Spell even if you’ve already used a different Metamagic option during the casting of the spell.",
+    "fr": "Coût : 1 point de Sorcellerie Si vous effectuez un jet d’attaque pour un sort et échouez, vous pouvez dépenser 1 point de Sorcellerie pour relancer le d20, auquel cas c’est le nouveau jet qui s’applique. Vous pouvez recourir à Sort chercheur même si vous avez déjà utilisé une autre option de Métamagie durant l’incantation du sort.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · metamagic"
+  },
+  {
+    "en": "If you make an attack roll for a spell and miss, you can spend 1 Sorcery Point to reroll the d20, and you must use the new roll. You can use Seeking Spell even if you’ve already used a different Metamagic option during the casting of the spell.",
+    "fr": "Si vous effectuez un jet d’attaque pour un sort et échouez, vous pouvez dépenser 1 point de Sorcellerie pour relancer le d20, auquel cas c’est le nouveau jet qui s’applique. Vous pouvez recourir à Sort chercheur même si vous avez déjà utilisé une autre option de Métamagie durant l’incantation du sort.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · metamagic"
+  },
+  {
+    "en": "Cost: 1 Sorcery Point When you cast a spell, you can spend 1 Sorcery Point to cast it without any Verbal, Somatic, or Material components, except Material components that are consumed by the spell or that have a cost specified in the spell.",
+    "fr": "Coût : 1 point de Sorcellerie Lorsque vous lancez un sort, vous pouvez dépenser 1 point de Sorcellerie pour le lancer sans ses composantes verbale, somatique ou matérielle, sauf en ce qui concerne les composantes matérielles que le sort consomme ou qui ont un coût exprimé dans le descriptif du sort.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · metamagic"
+  },
+  {
+    "en": "When you cast a spell, you can spend 1 Sorcery Point to cast it without any Verbal, Somatic, or Material components, except Material components that are consumed by the spell or that have a cost specified in the spell.",
+    "fr": "Lorsque vous lancez un sort, vous pouvez dépenser 1 point de sorcellerie pour le lancer sans composantes verbales, somatiques ou matérielles, à l’exception des composantes matérielles consommées ou dont le coût est précisé par le sort.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · metamagic"
+  },
+  {
+    "en": "Cost: 1 Sorcery Point When you cast a spell that deals a type of damage from the following list, you can spend 1 Sorcery Point to change that damage type to one of the other listed types: Acid, Cold, Fire, Lightning, Poison, Thunder.",
+    "fr": "Coût : 1 point de Sorcellerie Lorsque vous lancez un sort qui inflige des dégâts d’un type de la liste suivante, vous pouvez dépenser 1 point de Sorcellerie pour changer ce type de dégâts en un autre de la liste : acide, feu, foudre, froid, poison, tonnerre.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · metamagic"
+  },
+  {
+    "en": "When you cast a spell that deals a type of damage from the following list, you can spend 1 Sorcery Point to change that damage type to one of the other listed types: Acid, Cold, Fire, Lightning, Poison, Thunder.",
+    "fr": "Lorsque vous lancez un sort infligeant un type de dégâts de la liste suivante, vous pouvez dépenser 1 point de sorcellerie pour remplacer ce type par un autre de la liste : acide, froid, feu, foudre, poison ou tonnerre.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · metamagic"
+  },
+  {
+    "en": "You can cast Mage Armor on yourself without expending a spell slot.",
+    "fr": "Vous pouvez lancer armure du mage sur vous-même sans dépenser d’emplacement de sort.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · invocation"
+  },
+  {
+    "en": "Prerequisite: Level 9+ Warlock, Pact of the Blade Invocation Once per turn when you hit a creature with your pact weapon, you can deal an extra 1d6 Necrotic, Psychic, or Radiant damage (your choice) to the creature, and you can expend one of your Hit Point Dice to roll it and regain a number of Hit Points equal to the roll plus your Constitution modifier (minimum of 1 Hit Point).",
+    "fr": "Prérequis : Niveau d’Occultiste 9+, manifestation Pacte de la lame Une fois par tour, lorsque vous touchez une créature avec votre arme de pacte, vous pouvez lui infliger 1d6 points de dégâts supplémentaires nécrotiques, psychiques ou radiants (au choix), et vous pouvez dépenser l’un de vos dés de vie pour le lancer et regagner un nombre de points de vie égal au résultat obtenu + votre modificateur de Constitution (minimum de 1 point de vie).",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · invocation"
+  },
+  {
+    "en": "Once per turn when you hit a creature with your pact weapon, you can deal an extra 1d6 Necrotic, Psychic, or Radiant damage (your choice) to the creature, and you can expend one of your Hit Point Dice to roll it and regain a number of Hit Points equal to the roll plus your Constitution modifier (minimum of 1 Hit Point).",
+    "fr": "Une fois par tour, lorsque vous touchez une créature avec votre arme de pacte, vous pouvez lui infliger 1d6 points de dégâts supplémentaires nécrotiques, psychiques ou radiants (au choix), et vous pouvez dépenser l’un de vos dés de vie pour le lancer et regagner un nombre de points de vie égal au résultat obtenu + votre modificateur de Constitution (minimum de 1 point de vie).",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · invocation"
+  },
+  {
+    "en": "Prerequisite: Level 2+ Warlock, a Warlock Cantrip That Deals Damage Choose one of your known Warlock cantrips that deals damage. You can add your Charisma modifier to that spell’s damage rolls. Repeatable. You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.",
+    "fr": "Prérequis : Niveau d’Occultiste 2+, un sort mineur d’Occultiste infligeant des dégâts Choisissez l’un de vos sorts mineurs d’Occultiste connus qui inflige des dégâts. Vous pouvez ajouter votre modificateur de Charisme aux jets de dégâts de ce sort. Répétable. Vous pouvez recevoir cette manifestation plus d’une fois. Chaque fois, choisissez un sort mineur conforme différent.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · invocation"
+  },
+  {
+    "en": "Choose one of your known Warlock cantrips that deals damage. You can add your Charisma modifier to that spell’s damage rolls. Repeatable. You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.",
+    "fr": "Choisissez l’un de vos sorts mineurs d’Occultiste connus qui inflige des dégâts. Vous pouvez ajouter votre modificateur de Charisme aux jets de dégâts de ce sort. Répétable. Vous pouvez recevoir cette manifestation plus d’une fois. Chaque fois, choisissez un sort mineur conforme différent.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · invocation"
+  },
+  {
+    "en": "Prerequisite: Level 2+ Warlock, a Warlock Cantrip That Deals Damage via an Attack Roll Choose one of your known Warlock cantrips that requires an attack roll. When you hit a Large or smaller creature with that cantrip, you can push the creature up to 10 feet straight away from you. Repeatable. You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.",
+    "fr": "Prérequis : Niveau d’Occultiste 2+, un sort mineur d’Occultiste infligeant des dégâts via un jet d’attaque Choisissez l’un de vos sorts mineurs d’Occultiste connus qui nécessite un jet d’attaque. Lorsque vous touchez une créature de taille G ou inférieure avec ce sort mineur, vous pouvez repousser cette créature de vous d’un maximum de 10 feet, en ligne droite. Répétable. Vous pouvez recevoir cette manifestation plus d’une fois. Chaque fois, choisissez un sort mineur conforme différent.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · invocation"
+  },
+  {
+    "en": "Choose one of your known Warlock cantrips that requires an attack roll. When you hit a Large or smaller creature with that cantrip, you can push the creature up to 10 feet straight away from you. Repeatable. You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.",
+    "fr": "Choisissez l’un de vos sorts mineurs d’Occultiste connus qui nécessite un jet d’attaque. Lorsque vous touchez une créature de taille G ou inférieure avec ce sort mineur, vous pouvez repousser cette créature de vous d’un maximum de 10 feet, en ligne droite. Répétable. Vous pouvez recevoir cette manifestation plus d’une fois. Chaque fois, choisissez un sort mineur conforme différent.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · invocation"
+  },
+  {
+    "en": "Prerequisite: Level 5+ Warlock, Pact of the Chain Invocation When you cast Find Familiar, you infuse the summoned familiar with a measure of your eldritch power, granting the creature the following benefits. Aerial or Aquatic. The familiar gains either a Fly Speed or a Swim Speed (your choice) of 40 feet. Quick Attack. As a Bonus Action, you can command the familiar to take the Attack action. Necrotic or Radiant Damage. Whenever the familiar deals Bludgeoning, Piercing, or Slashing damage, you can make it deal Necrotic or Radiant damage instead. Your Save DC. If the familiar forces a creature to make a saving throw, it uses your spell save DC. Resistance. When the familiar takes damage, you can take a Reaction to grant it Resistance against that damage.",
+    "fr": "Prérequis : Niveau d’Occultiste 5+, manifestation Pacte de la chaîne Lorsque vous lancez appel de familier, vous insufflez une dose de puissance occulte au familier convoqué, ce qui lui octroie les bénéfices suivants. Aérien ou aquatique. Le familier reçoit une Vitesse de vol ou une Vitesse de nage (à votre convenance) de 40 feet. Attaque rapide. Par une action Bonus, vous pouvez ordonner au familier d’entreprendre l’action Attaque. Dégâts radiants ou nécrotiques. Chaque fois que le familier inflige des dégâts contondants, perforants ou tranchants, vous pouvez décider qu’il inflige des dégâts radiants ou nécrotiques à la place. Votre DD de sauvegarde. Si le familier impose un jet de sauvegarde à une créature, il le fait avec votre DD de sauvegarde des sorts. Résistance. Lorsque le familier subit des dégâts, vous pouvez jouer votre Réaction pour lui octroyer la Résistance contre ces dégâts.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · invocation"
+  },
+  {
+    "en": "When you cast Find Familiar, you infuse the summoned familiar with a measure of your eldritch power, granting the creature the following benefits. Aerial or Aquatic. The familiar gains either a Fly Speed or a Swim Speed (your choice) of 40 feet. Quick Attack. As a Bonus Action, you can command the familiar to take the Attack action. Necrotic or Radiant Damage. Whenever the familiar deals Bludgeoning, Piercing, or Slashing damage, you can make it deal Necrotic or Radiant damage instead. Your Save DC. If the familiar forces a creature to make a saving throw, it uses your spell save DC. Resistance. When the familiar takes damage, you can take a Reaction to grant it Resistance against that damage.",
+    "fr": "Lorsque vous lancez appel de familier, vous insufflez une dose de puissance occulte au familier convoqué, ce qui lui octroie les bénéfices suivants. Aérien ou aquatique. Le familier reçoit une Vitesse de vol ou une Vitesse de nage (à votre convenance) de 40 feet. Attaque rapide. Par une action Bonus, vous pouvez ordonner au familier d’entreprendre l’action Attaque. Dégâts radiants ou nécrotiques. Chaque fois que le familier inflige des dégâts contondants, perforants ou tranchants, vous pouvez décider qu’il inflige des dégâts radiants ou nécrotiques à la place. Votre DD de sauvegarde. Si le familier impose un jet de sauvegarde à une créature, il le fait avec votre DD de sauvegarde des sorts. Résistance. Lorsque le familier subit des dégâts, vous pouvez jouer votre Réaction pour lui octroyer la Résistance contre ces dégâts.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · invocation"
+  },
+  {
+    "en": "Prerequisite: Level 2+ Warlock You have received knowledge from an elder entity of the multiverse, allowing you to gain one Origin feat of your choice (see “Feats”). Repeatable. You can gain this invocation more than once. Each time you do so, choose a different Origin feat.",
+    "fr": "Prérequis : Niveau d’Occultiste 2+ Fort de la sapience d’une entité très ancienne du multivers, vous recevez le don d’origines de votre choix (cf. « Dons »). Répétable. Vous pouvez recevoir cette manifestation plus d’une fois. Chaque fois, choisissez un don d’origines différent.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · invocation"
+  },
+  {
+    "en": "You have received knowledge from an elder entity of the multiverse, allowing you to gain one Origin feat of your choice (see “Feats”). Repeatable. You can gain this invocation more than once. Each time you do so, choose a different Origin feat.",
+    "fr": "Vous pouvez recevoir cette manifestation plus d’une fois. Chaque fois, choisissez un don d’origines différent.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · invocation"
+  },
+  {
+    "en": "You have Advantage on Constitution saving throws that you make to maintain Concentration.",
+    "fr": "Vous avez l’Avantage aux jets de sauvegarde de Constitution visant à maintenir la Concentration.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · invocation"
+  },
+  {
+    "en": "Prerequisite: Level 5+ Warlock, Pact of the Blade Invocation Once per turn when you hit a creature with your pact weapon, you can expend a Pact Magic spell slot to deal an extra 1d8 Force damage to the target, plus another 1d8 per level of the spell slot, and you can give the target the Prone condition if it is Huge or smaller.",
+    "fr": "Prérequis : Niveau d’Occultiste 5+, manifestation Pacte de la lame Une fois par tour lorsque vous touchez une créature avec votre arme de pacte, vous pouvez dépenser un emplacement de sort de Magie de pacte pour infliger 1d8 dégâts de force supplémentaires à la cible + 1d8 dégâts de force supplémentaires par niveau de l’emplacement de sort, et faire subir l’état À terre à la cible si celle-ci est de taille TG ou inférieure.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · invocation"
+  },
+  {
+    "en": "Once per turn when you hit a creature with your pact weapon, you can expend a Pact Magic spell slot to deal an extra 1d8 Force damage to the target, plus another 1d8 per level of the spell slot, and you can give the target the Prone condition if it is Huge or smaller.",
+    "fr": "Une fois par tour lorsque vous touchez une créature avec votre arme de pacte, vous pouvez dépenser un emplacement de sort de Magie de pacte pour infliger 1d8 dégâts de force supplémentaires à la cible + 1d8 dégâts de force supplémentaires par niveau de l’emplacement de sort, et faire subir l’état À terre à la cible si celle-ci est de taille TG ou inférieure.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · invocation"
+  },
+  {
+    "en": "Prerequisite: Level 5+ Warlock, Pact of the Blade Invocation You gain the Extra Attack feature for your pact weapon only. With that feature, you can attack twice with the weapon instead of once when you take the Attack action on your turn.",
+    "fr": "Prérequis : Niveau d’Occultiste 5+, manifestation Pacte de la lame Vous recevez l’aptitude Attaque supplémentaire avec votre arme de pacte uniquement. Cette aptitude vous permet d’attaquer deux fois au lieu d’une seule lorsque vous entreprenez l’action Attaque à votre tour.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · invocation"
+  },
+  {
+    "en": "You gain the Extra Attack feature for your pact weapon only. With that feature, you can attack twice with the weapon instead of once when you take the Attack action on your turn.",
+    "fr": "Vous recevez l’aptitude Attaque supplémentaire avec votre arme de pacte uniquement. Cette aptitude vous permet d’attaquer deux fois au lieu d’une seule lorsque vous entreprenez l’action Attaque à votre tour.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · invocation"
+  },
+  {
+    "en": "Prerequisite: Level 12+ Warlock, Thirsting Blade Invocation The Extra Attack of your Thirsting Blade invocation confers two extra attacks rather than one.",
+    "fr": "Prérequis : Niveau d’Occultiste 12+, manifestation Lame assoiffée L’attaque supplémentaire de votre manifestation Lame assoiffée octroie deux attaques supplémentaires au lieu d’une.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · invocation"
+  },
+  {
+    "en": "The Extra Attack of your Thirsting Blade invocation confers two extra attacks rather than one.",
+    "fr": "L’attaque supplémentaire de votre manifestation Lame assoiffée octroie deux attaques supplémentaires au lieu d’une.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · invocation"
+  },
+  {
+    "en": "Prerequisite: Level 2+ Warlock, a Warlock Cantrip That Deals Damage Choose one of your known Warlock cantrips that deals damage and has a range of 10+ feet. When you cast that spell, its range increases by a number of feet equal to 30 times your Warlock level. Repeatable. You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.",
+    "fr": "Prérequis : Niveau d’Occultiste 2+, un sort mineur d’Occultiste infligeant des dégâts Choisissez l’un de vos sorts mineurs d’Occultiste connus qui inflige des dégâts et présente une portée de 10 feet ou plus. Lorsque vous lancez ce sort, sa portée augmente de 30 feet par niveau d’Occultiste. Répétable. Vous pouvez recevoir cette manifestation plus d’une fois. Chaque fois, choisissez un sort mineur conforme différent.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · invocation"
+  },
+  {
+    "en": "Choose one of your known Warlock cantrips that deals damage and has a range of 10+ feet. When you cast that spell, its range increases by a number of feet equal to 30 times your Warlock level. Repeatable. You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.",
+    "fr": "Choisissez l’un de vos sorts mineurs d’Occultiste connus qui inflige des dégâts et présente une portée de 10 feet ou plus. Lorsque vous lancez ce sort, sa portée augmente de 30 feet par niveau d’Occultiste. Répétable. Vous pouvez recevoir cette manifestation plus d’une fois. Chaque fois, choisissez un sort mineur conforme différent.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · invocation"
+  },
+  {
+    "en": "Prerequisite: Level 5+ Warlock You can cast Alter Self without expending a spell slot.",
+    "fr": "Prérequis : Niveau d’Occultiste 5+ Vous pouvez lancer modification d’apparence sans dépenser d’emplacement de sort.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · invocation"
+  },
+  {
+    "en": "You can cast Alter Self without expending a spell slot.",
+    "fr": "Vous pouvez lancer modification d’apparence sans dépenser d’emplacement de sort.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · invocation"
+  },
+  {
+    "en": "Prerequisite: Level 5+ Warlock While you’re in an area of Dim Light or Darkness, you can cast Invisibility on yourself without expending a spell slot.",
+    "fr": "Prérequis : Niveau d’Occultiste 5+ Tant que vous vous trouvez dans une zone de Lumière faible ou de Ténèbres, vous pouvez lancer invisibilité sur vous-même sans dépenser d’emplacement de sort.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · invocation"
+  },
+  {
+    "en": "While you’re in an area of Dim Light or Darkness, you can cast Invisibility on yourself without expending a spell slot.",
+    "fr": "Tant que vous vous trouvez dans une zone de Lumière faible ou de Ténèbres, vous pouvez lancer invisibilité sur vous-même sans dépenser d’emplacement de sort.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · invocation"
+  },
+  {
+    "en": "Prerequisite: Level 2+ Warlock You can cast Disguise Self without expending a spell slot.",
+    "fr": "Prérequis : Niveau d’Occultiste 2+ Vous pouvez lancer déguisement sans dépenser d’emplacement de sort.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · invocation"
+  },
+  {
+    "en": "You can cast Disguise Self without expending a spell slot.",
+    "fr": "Vous pouvez lancer déguisement sans dépenser d’emplacement de sort.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · invocation"
+  },
+  {
+    "en": "Prerequisite: Level 7+ Warlock You can cast Speak with Dead without expending a spell slot.",
+    "fr": "Prérequis : Niveau d’Occultiste 7+ Vous pouvez lancer communication avec les morts sans dépenser d’emplacement de sort.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · invocation"
+  },
+  {
+    "en": "You can cast Speak with Dead without expending a spell slot.",
+    "fr": "Vous pouvez lancer communication avec les morts sans dépenser d’emplacement de sort.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · invocation"
+  },
+  {
+    "en": "As a Bonus Action, you can conjure a pact weapon in your hand—a Simple or Martial Melee weapon of your choice with which you bond—or create a bond with a magic weapon you touch; you can’t bond with a magic weapon if someone else is attuned to it or another Warlock is bonded with it. Until the bond ends, you have proficiency with the weapon, and you can use it as a Spellcasting Focus. Whenever you attack with the bonded weapon, you can use your Charisma modifier for the attack and damage rolls instead of using Strength or Dexterity; and you can cause the weapon to deal Necrotic, Psychic, or Radiant damage or its normal damage type. Your bond with the weapon ends if you use this feature’s Bonus Action again, if the weapon is more than 5 feet away from you for 1 minute or more, or if you die. A conjured weapon disappears when the bond ends.",
+    "fr": "Par une action Bonus, vous pouvez invoquer une arme de pacte dans votre main (arme de corps à corps courante ou de guerre de votre choix) avec laquelle vous créez un lien, ou créer un lien avec une arme magique que vous touchez ; créer un tel lien est impossible avec une arme magique si une autre créature est harmonisée avec celle-ci, ou si un autre Occultiste a déjà créé un lien avec cette arme. Jusqu’à ce que le lien prenne fin, vous avez la maîtrise de l’arme et pouvez l’utiliser comme focaliseur d’incantation. Chaque fois que vous attaquez avec l’arme à laquelle vous êtes lié, vous pouvez utiliser votre modificateur de Charisme pour les jets d’attaque et de dégâts à la place du modificateur de Force ou de Dextérité ; vous pouvez en outre utiliser l’arme pour infliger des dégâts nécrotiques, psychiques ou radiants au lieu de son type de dégâts normal. Votre lien avec l’arme prend fin si vous recourez de nouveau à l’action Bonus de cette aptitude, si l’arme se retrouve à plus de 5 feet de vous pendant 1 minute ou plus, ou si vous mourez. Une arme invoquée disparaît lorsque le lien prend fin.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · invocation"
+  },
+  {
+    "en": "You learn the Find Familiar spell and can cast it as a Magic action without expending a spell slot. When you cast the spell, you choose one of the normal forms for your familiar or one of the following special forms: Imp, Pseudodragon, Quasit, Skeleton, Sphinx of Wonder, Sprite, or Venomous Snake (see “Monsters” for the familiar’s stat block). Additionally, when you take the Attack action, you can forgo one of your own attacks to allow your familiar to make one attack of its own with its Reaction.",
+    "fr": "Vous apprenez le sort appel de familier que vous pouvez lancer au prix de l’action Magie sans dépenser d’emplacement de sort. À l’incantation du sort, vous pouvez choisir l’une des formes normales pour votre familier ou l’une des formes spéciales suivantes : Diablotin, esprit follet, pseudodragon, quasit, sphinx merveilleux, serpent venimeux ou squelette (cf. « Monstres » pour le profil du familier). En outre, lorsque vous entreprenez l’action Attaque, vous pouvez renoncer à l’une de vos attaques pour permettre à votre familier d’effectuer l’une de ses attaques en jouant sa Réaction.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · invocation"
+  },
+  {
+    "en": "Stitching together strands of shadow, you conjure forth a book in your hand at the end of a Short or Long Rest. This Book of Shadows (you determine its appearance) contains eldritch magic that only you can access, granting you the benefits below. The book disappears if you conjure another book with this feature or if you die. Cantrips and Rituals. When the book appears, choose three cantrips, and choose two level 1 spells that have the Ritual tag. The spells can be from any class’s spell list, and they must be spells you don’t already have prepared. While the book is on your person, you have the chosen spells prepared, and they function as Warlock spells for you. Spellcasting Focus. You can use the book as a Spellcasting Focus.",
+    "fr": "En cousant ensemble des filaments d’ombre, vous invoquez un grimoire qui apparaît dans votre main à la fin d’un Repos court ou long. Ce Codex des Ombres (il vous appartient d’en déterminer l’apparence) renferme une magie occulte à laquelle vous seul avez accès, et qui vous octroie les bénéfices suivants. Le grimoire disparaît si vous en invoquez un autre par le biais de cette aptitude ou si vous mourez. Sorts mineurs et rituels. Lorsque le grimoire apparaît, choisissez trois sorts mineurs, puis deux sorts du 1er niveau portant la mention « rituel ». Ces sorts peuvent appartenir à la liste de sorts de n’importe quelle classe, et doivent être des sorts que vous n’avez pas déjà préparés. Tant que le grimoire est sur vous, les sorts choisis sont préparés et fonctionnent pour vous comme des sorts d’Occultiste. Focaliseur d’incantation. Vous pouvez vous servir du grimoire comme focaliseur d’incantation.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · invocation"
+  },
+  {
+    "en": "The book disappears if you conjure another book with this feature or if you die. Cantrips and Rituals. When the book appears, choose three cantrips, and choose two level 1 spells that have the Ritual tag. The spells can be from any class’s spell list, and they must be spells you don’t already have prepared. While the book is on your person, you have the chosen spells prepared, and they function as Warlock spells for you. Spellcasting Focus. You can use the book as a Spellcasting Focus.",
+    "fr": "Lorsque le grimoire apparaît, choisissez trois sorts mineurs, puis deux sorts du 1er niveau portant la mention « rituel ». Ces sorts peuvent appartenir à la liste de sorts de n’importe quelle classe, et doivent être des sorts que vous n’avez pas déjà préparés. Tant que le grimoire est sur vous, les sorts choisis sont préparés et fonctionnent pour vous comme des sorts d’Occultiste. Focaliseur d’incantation. Vous pouvez vous servir du grimoire comme focaliseur d’incantation.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · invocation"
+  },
+  {
+    "en": "Prerequisite: Level 5+ Warlock You can cast Levitate on yourself without expending a spell slot.",
+    "fr": "Prérequis : Niveau d’Occultiste 5+ Vous pouvez lancer lévitation sur vous-même sans dépenser d’emplacement de sort.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · invocation"
+  },
+  {
+    "en": "You can cast Levitate on yourself without expending a spell slot.",
+    "fr": "Vous pouvez lancer lévitation sur vous-même sans dépenser d’emplacement de sort.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · invocation"
+  },
+  {
+    "en": "Prerequisite: Level 5+ Warlock You can use a Bonus Action to touch a willing creature and perceive through its senses until the end of your next turn. As long as the creature is on the same plane of existence as you, you can take a Bonus Action on subsequent turns to maintain this connection, extending the duration until the end of your next turn. The connection ends if you don’t maintain it in this way. While perceiving through the other creature’s senses, you benefit from any special senses possessed by that creature, and you can cast spells as if you were in your space or the other creature’s space if the two of you are within 60 feet of each other.",
+    "fr": "Prérequis : Niveau d’Occultiste 5+ Par une action Bonus, vous pouvez toucher une créature consentante afin de percevoir à travers ses sens jusqu’à la fin de votre tour suivant. Lors des tours suivants et tant que cette créature se trouve sur le même plan d’existence que vous, vous pouvez maintenir cette connexion sensorielle par une action Bonus, ce qui prolonge la durée de l’effet jusqu’à la fin de votre tour suivant. La connexion prend fin si vous cessez de la maintenir par ce biais. Tant que vous percevez le monde par les sens de l’autre créature, vous bénéficiez de tous les sens spéciaux dont elle dispose, et vous pouvez lancer des sorts comme si vous étiez dans votre espace ou dans l’espace de l’autre créature à condition que 60 feet ou moins vous séparent.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · invocation"
+  },
+  {
+    "en": "You can use a Bonus Action to touch a willing creature and perceive through its senses until the end of your next turn. As long as the creature is on the same plane of existence as you, you can take a Bonus Action on subsequent turns to maintain this connection, extending the duration until the end of your next turn. The connection ends if you don’t maintain it in this way. While perceiving through the other creature’s senses, you benefit from any special senses possessed by that creature, and you can cast spells as if you were in your space or the other creature’s space if the two of you are within 60 feet of each other.",
+    "fr": "Par une action Bonus, vous pouvez toucher une créature consentante afin de percevoir à travers ses sens jusqu’à la fin de votre tour suivant. Lors des tours suivants et tant que cette créature se trouve sur le même plan d’existence que vous, vous pouvez maintenir cette connexion sensorielle par une action Bonus, ce qui prolonge la durée de l’effet jusqu’à la fin de votre tour suivant. La connexion prend fin si vous cessez de la maintenir par ce biais. Tant que vous percevez le monde par les sens de l’autre créature, vous bénéficiez de tous les sens spéciaux dont elle dispose, et vous pouvez lancer des sorts comme si vous étiez dans votre espace ou dans l’espace de l’autre créature à condition que 60 feet ou moins vous séparent.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · invocation"
+  },
+  {
+    "en": "Prerequisite: Level 5+ Warlock You can breathe underwater, and you gain a Swim Speed equal to your Speed. You can also cast Water Breathing once without expending a spell slot. You regain the ability to cast it in this way again when you finish a Long Rest.",
+    "fr": "Prérequis : Niveau d’Occultiste 5+ Vous recevez une Vitesse de nage égale à votre Vitesse et pouvez respirer sous l’eau. Vous pouvez en outre lancer respiration aquatique une fois sans dépenser d’emplacement de sort. Vous devez terminer un Repos long avant de pouvoir le relancer ainsi.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · invocation"
+  },
+  {
+    "en": "You can breathe underwater, and you gain a Swim Speed equal to your Speed. You can also cast Water Breathing once without expending a spell slot. You regain the ability to cast it in this way again when you finish a Long Rest.",
+    "fr": "Vous recevez une Vitesse de nage égale à votre Vitesse et pouvez respirer sous l’eau. Vous pouvez en outre lancer respiration aquatique une fois sans dépenser d’emplacement de sort. Vous devez terminer un Repos long avant de pouvoir le relancer ainsi.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · invocation"
+  },
+  {
+    "en": "Prerequisite: Level 9+ Warlock, Pact of the Tome Invocation A new page appears in your Book of Shadows when you conjure it. With your permission, a creature can take an action to write its name on that page, which can contain a number of names equal to your Charisma modifier (minimum of one name). When any creature whose name is on the page is reduced to 0 Hit Points but not killed outright, the creature magically drops to 1 Hit Point instead. Once this magic is triggered, no creature can benefit from it until you finish a Long Rest. As a Magic action, you can erase a name on the page by touching it.",
+    "fr": "Prérequis : Niveau d’Occultiste 9+, manifestation Pacte du grimoire Une nouvelle page apparaît dans votre Codex des Ombres quand vous l’invoquez. Avec votre permission, une créature peut entreprendre une action afin d’écrire son nom sur cette page, qui peut contenir autant de noms que votre modificateur de Charisme (un nom au minimum). Quand une créature dont le nom figure sur la page tombe à 0 point de vie sans être tuée sur le coup, elle tombe en fait magiquement à 1 point de vie. Une fois cette magie activée, aucune créature ne peut plus en profiter jusqu’à ce que vous terminiez un Repos long. Au prix de l’action Magie, vous pouvez effacer un nom figurant sur la page, d’un simple contact.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · invocation"
+  },
+  {
+    "en": "Prerequisite: Level 2+ Warlock You can see normally in Dim Light and Darkness— both magical and nonmagical—within 120 feet of yourself.",
+    "fr": "Prérequis : Niveau d’Occultiste 2+ Vous voyez normalement en conditions de Lumière faible et de Ténèbres, que celles-ci soient magiques ou non, dans un rayon de 120 feet.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · invocation"
+  },
+  {
+    "en": "You can see normally in Dim Light and Darkness— both magical and nonmagical—within 120 feet of yourself.",
+    "fr": "Vous voyez normalement en conditions de Lumière faible et de Ténèbres, que celles-ci soient magiques ou non, dans un rayon de 120 feet.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · invocation"
+  },
+  {
+    "en": "Prerequisite: Level 2+ Warlock You can cast False Life on yourself without expending a spell slot. When you cast the spell with this feature, you don’t roll the die for the Temporary Hit Points; you automatically get the highest number on the die.",
+    "fr": "Prérequis : Niveau d’Occultiste 2+ Vous pouvez lancer simulacre de vie sur vous-même sans dépenser d’emplacement de sort. À l’incantation du sort avec cette aptitude, vous ne lancez pas le dé pour les points de vie temporaires ; vous obtenez automatiquement le résultat le plus élevé du dé.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · invocation"
+  },
+  {
+    "en": "You can cast False Life on yourself without expending a spell slot. When you cast the spell with this feature, you don’t roll the die for the Temporary Hit Points; you automatically get the highest number on the die.",
+    "fr": "Vous pouvez lancer simulacre de vie sur vous-même sans dépenser d’emplacement de sort. À l’incantation du sort avec cette aptitude, vous ne lancez pas le dé pour les points de vie temporaires ; vous obtenez automatiquement le résultat le plus élevé du dé.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · invocation"
+  },
+  {
+    "en": "Prerequisite: Level 2+ Warlock You can cast Jump on yourself without expending a spell slot.",
+    "fr": "Prérequis : Niveau d’Occultiste 2+ Vous pouvez lancer saut sur vous-même sans dépenser d’emplacement de sort.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · invocation"
+  },
+  {
+    "en": "You can cast Jump on yourself without expending a spell slot.",
+    "fr": "Vous pouvez lancer saut sur vous-même sans dépenser d’emplacement de sort.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · invocation"
+  },
+  {
+    "en": "Prerequisite: Level 15+ Warlock You have Truesight with a range of 30 feet.",
+    "fr": "Prérequis : Niveau d’Occultiste 15+ Vous disposez de la Vision lucide sur 30 feet.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · invocation"
+  },
+  {
+    "en": "You have Truesight with a range of 30 feet.",
+    "fr": "Vous disposez de la Vision lucide sur 30 feet.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · invocation"
+  },
+  {
+    "en": "Prerequisite: Level 2+ Warlock You can cast Silent Image without expending a spell slot.",
+    "fr": "Prérequis : Niveau d’Occultiste 2+ Vous pouvez lancer image silencieuse sans dépenser d’emplacement de sort.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · invocation"
+  },
+  {
+    "en": "You can cast Silent Image without expending a spell slot.",
+    "fr": "Vous pouvez lancer image silencieuse sans dépenser d’emplacement de sort.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · invocation"
+  },
+  {
+    "en": "Prerequisite: Level 9+ Warlock You can cast Arcane Eye without expending a spell slot.",
+    "fr": "Prérequis : Niveau d’Occultiste 9+ Vous pouvez lancer œil du mage sans dépenser d’emplacement de sort.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · invocation"
+  },
+  {
+    "en": "You can cast Arcane Eye without expending a spell slot.",
+    "fr": "Vous pouvez lancer œil du mage sans dépenser d’emplacement de sort.",
+    "source": "SRD 5.2.1 EN/FR · CC-BY-4.0 · invocation"
+  }
+]

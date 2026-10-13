@@ -1,0 +1,268 @@
+[
+  {
+    "kind": "metamagic",
+    "en": "Twinned Spell",
+    "fr": "Sort jumeau",
+    "description": true,
+    "pending": null
+  },
+  {
+    "kind": "metamagic",
+    "en": "Careful Spell",
+    "fr": "Sort prévenant",
+    "description": true,
+    "pending": null
+  },
+  {
+    "kind": "metamagic",
+    "en": "Distant Spell",
+    "fr": "Sort ample",
+    "description": true,
+    "pending": null
+  },
+  {
+    "kind": "metamagic",
+    "en": "Empowered Spell",
+    "fr": "Sort renforcé",
+    "description": true,
+    "pending": null
+  },
+  {
+    "kind": "metamagic",
+    "en": "Extended Spell",
+    "fr": "Sort étendu",
+    "description": true,
+    "pending": null
+  },
+  {
+    "kind": "metamagic",
+    "en": "Heightened Spell",
+    "fr": "Sort intensifié",
+    "description": true,
+    "pending": null
+  },
+  {
+    "kind": "metamagic",
+    "en": "Quickened Spell",
+    "fr": "Sort accéléré",
+    "description": true,
+    "pending": null
+  },
+  {
+    "kind": "metamagic",
+    "en": "Seeking Spell",
+    "fr": "Sort chercheur",
+    "description": true,
+    "pending": null
+  },
+  {
+    "kind": "metamagic",
+    "en": "Subtle Spell",
+    "fr": "Sort subtil",
+    "description": true,
+    "pending": null
+  },
+  {
+    "kind": "metamagic",
+    "en": "Transmuted Spell",
+    "fr": "Sort transmuté",
+    "description": true,
+    "pending": null
+  },
+  {
+    "kind": "invocation",
+    "en": "Armor of Shadows",
+    "fr": "Armure d’ombres",
+    "description": true,
+    "pending": null
+  },
+  {
+    "kind": "invocation",
+    "en": "Lifedrinker",
+    "fr": "Buveuse de vie",
+    "description": true,
+    "pending": null
+  },
+  {
+    "kind": "invocation",
+    "en": "Agonizing Blast",
+    "fr": "Décharge déchirante",
+    "description": true,
+    "pending": null
+  },
+  {
+    "kind": "invocation",
+    "en": "Repelling Blast",
+    "fr": "Décharge répulsive",
+    "description": true,
+    "pending": null
+  },
+  {
+    "kind": "invocation",
+    "en": "Investment of the Chain Master",
+    "fr": "Engagement du maître des chaînes",
+    "description": true,
+    "pending": null
+  },
+  {
+    "kind": "invocation",
+    "en": "Lessons of the First Ones",
+    "fr": "Enseignement des Premiers-Nés",
+    "description": true,
+    "pending": null
+  },
+  {
+    "kind": "invocation",
+    "en": "Eldritch Mind",
+    "fr": "Esprit occulte",
+    "description": true,
+    "pending": null
+  },
+  {
+    "kind": "invocation",
+    "en": "Eldritch Smite",
+    "fr": "Frappe occulte",
+    "description": true,
+    "pending": null
+  },
+  {
+    "kind": "invocation",
+    "en": "Thirsting Blade",
+    "fr": "Lame assoiffée",
+    "description": true,
+    "pending": null
+  },
+  {
+    "kind": "invocation",
+    "en": "Devouring Blade",
+    "fr": "Lame dévorante",
+    "description": true,
+    "pending": null
+  },
+  {
+    "kind": "invocation",
+    "en": "Eldritch Spear",
+    "fr": "Lance occulte",
+    "description": true,
+    "pending": null
+  },
+  {
+    "kind": "invocation",
+    "en": "Master of Myriad Forms",
+    "fr": "Maître des formes",
+    "description": true,
+    "pending": null
+  },
+  {
+    "kind": "invocation",
+    "en": "One with Shadows",
+    "fr": "Maître des ombres",
+    "description": true,
+    "pending": null
+  },
+  {
+    "kind": "invocation",
+    "en": "Mask of Many Faces",
+    "fr": "Mille visages",
+    "description": true,
+    "pending": null
+  },
+  {
+    "kind": "invocation",
+    "en": "Whispers of the Grave",
+    "fr": "Murmures de la tombe",
+    "description": true,
+    "pending": null
+  },
+  {
+    "kind": "invocation",
+    "en": "Pact of the Blade",
+    "fr": "Pacte de la lame",
+    "description": true,
+    "pending": null
+  },
+  {
+    "kind": "invocation",
+    "en": "Pact of the Chain",
+    "fr": "Pacte de la chaîne",
+    "description": true,
+    "pending": null
+  },
+  {
+    "kind": "invocation",
+    "en": "Pact of the Tome",
+    "fr": "Pacte du grimoire",
+    "description": true,
+    "pending": null
+  },
+  {
+    "kind": "invocation",
+    "en": "Ascendant Step",
+    "fr": "Pas aérien",
+    "description": true,
+    "pending": null
+  },
+  {
+    "kind": "invocation",
+    "en": "Gaze of Two Minds",
+    "fr": "Perception transférée",
+    "description": true,
+    "pending": null
+  },
+  {
+    "kind": "invocation",
+    "en": "Gift of the Depths",
+    "fr": "Présent des profondeurs",
+    "description": true,
+    "pending": null
+  },
+  {
+    "kind": "invocation",
+    "en": "Gift of the Protectors",
+    "fr": "Présent des sauveurs",
+    "description": true,
+    "pending": null
+  },
+  {
+    "kind": "invocation",
+    "en": "Devil's Sight",
+    "fr": "Vision du diable",
+    "description": true,
+    "pending": null
+  },
+  {
+    "kind": "invocation",
+    "en": "Fiendish Vigor",
+    "fr": "Vigueur fiélonne",
+    "description": true,
+    "pending": null
+  },
+  {
+    "kind": "invocation",
+    "en": "Otherworldly Leap",
+    "fr": "Saut d’outre-monde",
+    "description": true,
+    "pending": null
+  },
+  {
+    "kind": "invocation",
+    "en": "Witch Sight",
+    "fr": "Vision sorcière",
+    "description": true,
+    "pending": null
+  },
+  {
+    "kind": "invocation",
+    "en": "Misty Visions",
+    "fr": "Visions embrumées",
+    "description": true,
+    "pending": null
+  },
+  {
+    "kind": "invocation",
+    "en": "Visions of Distant Realms",
+    "fr": "Royaumes lointains",
+    "description": true,
+    "pending": null
+  }
+]

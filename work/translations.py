@@ -6,6 +6,7 @@ import sys
 from html.parser import HTMLParser
 from pathlib import Path
 from translation_packs import ROOT, key, load_packs
+from translation_sources import source as translation_source
 
 
 class Blocks(HTMLParser):
@@ -45,13 +46,13 @@ class Blocks(HTMLParser):
 
 def audit(path):
     known = set()
-    for filename in (ROOT / 'work').glob('*.tsv'):
+    for filename in (ROOT / 'translations').rglob('*.tsv'):
         for line in filename.read_text().splitlines():
             if '|' in line:
                 en, fr = line.split('|', 1)
                 known.update([key(en), key(fr)])
     for filename in ['complete-texts.json', 'feature-texts.json', 'feat-texts.json']:
-        for row in json.loads((ROOT / 'work' / filename).read_text()):
+        for row in json.loads(translation_source(filename).read_text()):
             known.update([key(row['en']), key(row['fr'])])
     for row in load_packs():
         known.update([key(row['en']), key(row['fr'])])

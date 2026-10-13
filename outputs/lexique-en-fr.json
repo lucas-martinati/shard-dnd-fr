@@ -1,5 +1,5 @@
 {
-  "version": "1.15.0",
+  "version": "1.16.0",
   "reference": "Noms AideDD 2024 prioritaires. Références SRD disponibles séparément. Autres entrées identifiées.",
   "license": "Code MIT ; contenu SRD CC-BY-4.0 https://creativecommons.org/licenses/by/4.0/",
   "sources": [
@@ -24792,6 +24792,27 @@
       "aliases": []
     },
     {
+      "en": "Weapon Mastery Property",
+      "fr": "Botte d’arme",
+      "category": "vocabulaire",
+      "source": "Traduction de passages du SRD 5.2.1 EN · bottes d’arme · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Weapon Mastery Properties",
+      "fr": "Bottes d’arme",
+      "category": "vocabulaire",
+      "source": "Traduction de passages du SRD 5.2.1 EN · bottes d’arme · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Mastery",
+      "fr": "Botte d’arme",
+      "category": "vocabulaire",
+      "source": "Traduction de passages du SRD 5.2.1 EN · bottes d’arme · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
       "en": "Forceful Blow",
       "fr": "Coup appuyé",
       "category": "vocabulaire",
@@ -24838,27 +24859,6 @@
       "fr": "Imitation",
       "category": "vocabulaire",
       "source": "Traduction de l’extrait utilisateur · Barbare et Comédien 2024 ; passages SRD 5.2.1 pour les valeurs des dés · adaptations CC-BY-4.0 · https://www.dndbeyond.com/srd",
-      "aliases": []
-    },
-    {
-      "en": "Weapon Mastery Property",
-      "fr": "Botte d’arme",
-      "category": "vocabulaire",
-      "source": "Traduction de passages du SRD 5.2.1 EN · bottes d’arme · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd",
-      "aliases": []
-    },
-    {
-      "en": "Weapon Mastery Properties",
-      "fr": "Bottes d’arme",
-      "category": "vocabulaire",
-      "source": "Traduction de passages du SRD 5.2.1 EN · bottes d’arme · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd",
-      "aliases": []
-    },
-    {
-      "en": "Mastery",
-      "fr": "Botte d’arme",
-      "category": "vocabulaire",
-      "source": "Traduction de passages du SRD 5.2.1 EN · bottes d’arme · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd",
       "aliases": []
     },
     {

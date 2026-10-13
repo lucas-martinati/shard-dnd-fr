@@ -1,6 +1,6 @@
 const fs=require('node:fs'),assert=require('node:assert/strict'),{JSDOM}=require('jsdom');
-const pack=name=>JSON.parse(fs.readFileSync('translations/'+name+'.json')).entries;
-const rage=pack('rage-dragon-2024'),oldWeapons=pack('proprietes-armes-2014'),newWeapons=pack('proprietes-armes-2024'),thauma=pack('thaumaturgie-puces-2014').filter(r=>!r.id.endsWith('.multiple'));
+const all=require('./translation-fixtures.cjs').entries();
+const rage=all.filter(r=>r.id.startsWith('rage-dragon-2024.')),oldWeapons=all.filter(r=>r.id.startsWith('proprietes-armes-2014.')),newWeapons=all.filter(r=>r.id.startsWith('proprietes-armes-2024.')),thauma=all.filter(r=>r.id.startsWith('thaumaturgie-puces-2014.')&&!r.id.endsWith('.multiple'));
 const sections=JSON.parse(fs.readFileSync('work/spell-sections.json'));
 const w=new JSDOM('<main></main>',{url:'https://play.shardtabletop.com/#play?mode=character',runScripts:'outside-only',pretendToBeVisual:true}).window,d=w.document,main=d.querySelector('main');
 const escape=s=>s.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;');

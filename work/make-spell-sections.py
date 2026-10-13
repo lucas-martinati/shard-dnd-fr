@@ -1,3 +1,4 @@
+from translation_sources import source as translation_source
 """Découper des options SRD vérifiées, en reliant explicitement leurs titres EN/FR.
 
 Les listes FR n’ont pas toujours le même ordre que les listes EN : ne jamais
@@ -43,13 +44,13 @@ ambiguous=set()
 skipped=[]
 reserved={key(row['en']) for row in load_packs() if row['kind']=='description'}
 # Les descriptions déjà traduites par le lexique gardent leur formulation.
-for filename in ROOT.glob('*.tsv'):
+for filename in (ROOT.parent/'translations').rglob('*.tsv'):
     for line in filename.read_text().splitlines():
         if '|' in line:
             en=line.split('|',1)[0]
             if len(en)>=35:reserved.add(key(en))
 for filename in ['feature-texts.json','feat-texts.json','equipment-texts.json']:
-    for row in json.loads((ROOT/filename).read_text()):reserved.add(key(row['en']))
+    for row in json.loads(translation_source(filename).read_text()):reserved.add(key(row['en']))
 def add(en,fr,name,strict=True):
     normalized=key(en)
     if normalized in reserved or normalized in ambiguous:
@@ -64,7 +65,7 @@ def add(en,fr,name,strict=True):
         ambiguous.add(normalized);pairs.pop(normalized);return
     pairs[normalized]={'en':en,'fr':fr,'source':f'SRD officiel 5.2.1 FR · section de {name} · CC-BY-4.0'}
 
-refs={r['en']:r for r in json.loads((ROOT/'spell-reference.json').read_text())}
+refs={r['en']:r for r in json.loads(translation_source('spell-reference.json').read_text())}
 for name,mapping in TABLE.items():
     row=refs[name]
     en_text,fr_text=row['englishBody'],row['frenchBody']

@@ -1,5 +1,5 @@
 const fs=require('node:fs'),assert=require('node:assert/strict'),{JSDOM}=require('jsdom');
-const rows=JSON.parse(fs.readFileSync('translations/barbare-hauts-niveaux-2024.json')).entries;
+const rows=require('./translation-fixtures.cjs').entries();
 const get=id=>rows.find(e=>e.id==='barbarian.high.'+id);
 const w=new JSDOM('<main></main>',{url:'https://play.shardtabletop.com/#play?mode=character',runScripts:'outside-only',pretendToBeVisual:true}).window,d=w.document,main=d.querySelector('main');
 const cases=[
@@ -9,7 +9,7 @@ const cases=[
  ['brutal-strike','Brutal Strike','<strong>Brutal Strike.</strong> ',get('brutal-strike').en.replace('1d10','<b class="dodieroll">1d10</b>'),'Coup brutal.'],
  ['actor.impersonation','Impersonation','<em><strong>Impersonation.</strong></em> ',get('actor.impersonation').en,'Usurpation d’identité.']
 ];
-const example=fs.readFileSync('work/metamagic-descriptions.tsv','utf8').split('\n').find(line=>line.startsWith('To be eligible')).split('|');
+const example=fs.readFileSync('translations/classes/metamagic-descriptions.tsv','utf8').split('\n').find(line=>line.startsWith('To be eligible')).split('|');
 rows.push({id:'barbarian.high.test.spell-link',en:example[0],fr:example[1]});
 cases.push(['test.spell-link','Metamagic','<strong>Metamagic.</strong> ',example[0].replace('magic missile','<a href="#spell-magic-missile"><strong>magic missile</strong></a>'),'Métamagie.']);
 for(const [id,title,label,en]of cases){const p=d.createElement('p');p.dataset.id=id;p.innerHTML=label+en;main.append(p);}

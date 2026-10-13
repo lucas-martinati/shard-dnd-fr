@@ -23,7 +23,8 @@ def signature(text):
 def load_packs(directory=None):
     rows, seen, ids = [], {}, set()
     directory = Path(directory) if directory is not None else ROOT / 'translations'
-    for path in sorted(directory.glob('*.json')):
+    paths = directory.rglob('traductions.json') if directory.resolve() == (ROOT / 'translations').resolve() else directory.glob('*.json')
+    for path in sorted(paths):
         try:
             pack = json.loads(path.read_text(encoding='utf-8'))
         except (ValueError, OSError) as exc:
@@ -43,10 +44,14 @@ def load_packs(directory=None):
             where = f'{path.name}: entrée {i + 1}'
             if not isinstance(entry, dict):
                 raise ValueError(f'{where}: objet attendu')
-            unknown = set(entry) - {'id', 'kind', 'en', 'fr', 'variants'}
+            unknown = set(entry) - {'id', 'kind', 'en', 'fr', 'variants', 'source', 'edition'}
             if unknown:
                 raise ValueError(f'{where}: champs inconnus : {sorted(unknown)}')
             ident, kind = entry.get('id'), entry.get('kind', 'description')
+            source = entry.get('source', pack['source'])
+            edition = entry.get('edition', pack['edition'])
+            if not isinstance(source, str) or not source.strip() or edition not in ['2014', '2024', 'any']:
+                raise ValueError(f'{where}: source ou édition invalide')
             if not isinstance(ident, str) or not ident.strip() or ident in ids:
                 raise ValueError(f'{where}: id manquant ou dupliqué ({ident})')
             ids.add(ident)
@@ -72,7 +77,7 @@ def load_packs(directory=None):
                     if key(old['fr']) != key(entry['fr']) or old['kind'] != kind:
                         raise ValueError(f'{where}: traduction contradictoire avec {old["id"]} pour {en[:80]!r}')
                     continue
-                row = {'id': ident, 'kind': kind, 'en': en, 'fr': entry['fr'], 'source': pack['source'], 'edition': pack['edition']}
+                row = {'id': ident, 'kind': kind, 'en': en, 'fr': entry['fr'], 'source': source, 'edition': edition, 'category': path.parent.name if path.name == 'traductions.json' else 'test'}
                 rows.append(row)
                 seen[normalized] = row
     return rows

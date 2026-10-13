@@ -1,0 +1,22 @@
+{
+  "$schema": "../../docs/translation-pack.schema.json",
+  "schemaVersion": 1,
+  "edition": "any",
+  "source": "Sources détaillées par entrée",
+  "entries": [
+    {
+      "id": "barbarian.high.actor.impersonation",
+      "en": "While you’re disguised as a real or fictional person, you have Advantage on Charisma (Deception or Performance) checks to convince others that you are that person.",
+      "fr": "Tant que vous êtes déguisé en une personne réelle ou fictive, vous avez l’Avantage aux tests de Charisme (Tromperie ou Représentation) effectués pour convaincre les autres que vous êtes cette personne.",
+      "source": "Traduction de l’extrait utilisateur · Barbare et Comédien 2024 ; passages SRD 5.2.1 pour les valeurs des dés · adaptations CC-BY-4.0 · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "barbarian.high.actor.mimicry",
+      "en": "You can mimic the sounds of other creatures, including speech. A creature that hears the mimicry must succeed on a Wisdom (Insight) check to determine the effect is faked (DC 8 plus your Charisma modifier and Proficiency Bonus).",
+      "fr": "Vous pouvez imiter les sons d’autres créatures, y compris leur voix. Une créature qui entend cette imitation doit réussir un test de Sagesse (Intuition) pour reconnaître la supercherie, avec un DD égal à 8 + votre modificateur de Charisme + votre bonus de maîtrise.",
+      "source": "Traduction de l’extrait utilisateur · Barbare et Comédien 2024 ; passages SRD 5.2.1 pour les valeurs des dés · adaptations CC-BY-4.0 · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    }
+  ]
+}

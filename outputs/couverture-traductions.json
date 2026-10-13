@@ -1,0 +1,123 @@
+{
+  "categories": {
+    "sorts": {
+      "nomsCatalogueAideDD2024": 391,
+      "entreesDictionnaires": 511,
+      "blocsEditables": 16
+    },
+    "dons": {
+      "nomsCatalogueAideDD2024": 75,
+      "entreesDictionnaires": 0,
+      "blocsEditables": 2
+    },
+    "classes": {
+      "nomsCatalogueAideDD2024": 28,
+      "entreesDictionnaires": 602,
+      "blocsEditables": 69
+    },
+    "especes": {
+      "nomsCatalogueAideDD2024": 0,
+      "entreesDictionnaires": 0,
+      "blocsEditables": 15
+    },
+    "objets": {
+      "nomsCatalogueAideDD2024": 349,
+      "entreesDictionnaires": 510,
+      "blocsEditables": 0
+    },
+    "armes": {
+      "nomsCatalogueAideDD2024": 0,
+      "entreesDictionnaires": 0,
+      "blocsEditables": 27
+    },
+    "monstres": {
+      "nomsCatalogueAideDD2024": 498,
+      "entreesDictionnaires": 382,
+      "blocsEditables": 0
+    },
+    "regles": {
+      "nomsCatalogueAideDD2024": 0,
+      "entreesDictionnaires": 1299,
+      "blocsEditables": 0
+    },
+    "interface": {
+      "nomsCatalogueAideDD2024": 0,
+      "entreesDictionnaires": 205,
+      "blocsEditables": 0
+    }
+  },
+  "corpusLocaux": {
+    "classesSRD2024": {
+      "barbarian": {
+        "aptitudesIndexees": 24,
+        "proseAppariee": 24
+      },
+      "bard": {
+        "aptitudesIndexees": 16,
+        "proseAppariee": 16
+      },
+      "cleric": {
+        "aptitudesIndexees": 16,
+        "proseAppariee": 16
+      },
+      "druid": {
+        "aptitudesIndexees": 18,
+        "proseAppariee": 18
+      },
+      "fighter": {
+        "aptitudesIndexees": 21,
+        "proseAppariee": 21
+      },
+      "monk": {
+        "aptitudesIndexees": 26,
+        "proseAppariee": 26
+      },
+      "paladin": {
+        "aptitudesIndexees": 22,
+        "proseAppariee": 22
+      },
+      "ranger": {
+        "aptitudesIndexees": 22,
+        "proseAppariee": 22
+      },
+      "rogue": {
+        "aptitudesIndexees": 23,
+        "proseAppariee": 23
+      },
+      "sorcerer": {
+        "aptitudesIndexees": 15,
+        "proseAppariee": 15
+      },
+      "warlock": {
+        "aptitudesIndexees": 14,
+        "proseAppariee": 14
+      },
+      "wizard": {
+        "aptitudesIndexees": 15,
+        "proseAppariee": 15
+      }
+    },
+    "optionsSRD2024": {
+      "metamagic": {
+        "indexees": 10,
+        "proseAppariee": 10
+      },
+      "invocation": {
+        "indexees": 28,
+        "proseAppariee": 28
+      }
+    },
+    "sortsSRD2024": 339,
+    "descriptionsEquipementSRD2024": 72,
+    "blocsDonsEtStylesHistoriques": 218
+  },
+  "aVerifier": [],
+  "limites": [
+    "Le corpus de classes est celui du SRD 5.2.1 : 12 classes et leurs sous-classes SRD, pas toutes les sous-classes des suppléments.",
+    "Prose appariée ne signifie pas que toutes les variantes Shard et toutes les cellules de tableaux sont couvertes.",
+    "Les compteurs de noms AideDD ne mesurent pas la couverture des descriptions.",
+    "Les descriptions AideDD de sorts, monstres, dons, manifestations et objets sont chargées à la consultation et dépendent du réseau et de la correspondance du texte anglais.",
+    "Les blocs historiques de dons ne disposent pas tous d’un identifiant de don : leur couverture par entité est indéterminée.",
+    "Les suppléments, contenus maison et textes Shard non présents dans les sources peuvent rester en anglais."
+  ]
+}

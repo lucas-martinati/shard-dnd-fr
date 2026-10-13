@@ -71,6 +71,14 @@ Les nouvelles traductions sont organisées en fichiers thématiques détectés a
 
 Les optimisations du moteur sont incluses : catalogues indexés, correspondances de descriptions réutilisées et migration des anciennes clés de cache.
 
+## Organisation et corpus · version 1.16
+
+Les traductions sont regroupées par grandes catégories dans le dépôt. L’installation utilise toujours uniquement `shard-dnd-fr.user.js`.
+
+Le corpus local comprend désormais la prose des 232 aptitudes indexées des 12 classes SRD, des 10 métamagies et des 28 manifestations occultes. Les descriptions existantes sont conservées lorsqu’elles couvrent déjà le même texte. Les dés cliquables gardent aussi leur casse originale.
+
+Le rapport `couverture-traductions.json` distingue les noms AideDD, les descriptions locales et les limites. Les sources SRD ne contiennent pas tous les suppléments ni toutes les sous-classes. Les autres fiches publiques AideDD restent chargées à la consultation ; une variante Shard différente peut rester en anglais.
+
 ## Vérifications
 
 Les tests des aptitudes de personnages passent toujours : 54 paragraphes et variantes, descriptions précédées de titres, libellés fragmentés, changement de dés après montée de niveau, commandes de dés cliquables et restauration exacte des textes anglais. Les valeurs des champs de saisie restent intactes et les phrases inconnues ne sont pas traduites mot à mot.

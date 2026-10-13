@@ -1,0 +1,113 @@
+{
+  "$schema": "../../docs/translation-pack.schema.json",
+  "schemaVersion": 1,
+  "edition": "any",
+  "source": "Sources détaillées par entrée",
+  "entries": [
+    {
+      "id": "elf.fey-ancestry",
+      "en": "You have Advantage on saving throws you make to avoid or end the Charmed condition.",
+      "fr": "Vous avez l’Avantage aux jets de sauvegarde visant à éviter l’état Charmé ou à y mettre fin.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "elf.keen-senses",
+      "en": "You have proficiency in the Insight, Perception, or Survival skill.",
+      "fr": "Vous gagnez la maîtrise d’Intuition, de Perception ou de Survie.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "elf.trance",
+      "en": "You don’t need to sleep, and magic can’t put you to sleep. You can finish a Long Rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness.",
+      "fr": "Vous n’avez pas besoin de dormir et la magie ne peut pas vous endormir. Vous pouvez terminer un Repos long en 4 heures si vous les consacrez à une méditation semblable à une transe, pendant laquelle vous restez conscient.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "gnome.cunning",
+      "en": "You have Advantage on Intelligence, Wisdom, and Charisma saving throws.",
+      "fr": "Vous avez l’Avantage aux jets de sauvegarde d’Intelligence, de Sagesse et de Charisme.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "halfling.brave",
+      "en": "You have Advantage on saving throws you make to avoid or end the Frightened condition.",
+      "fr": "Vous avez l’Avantage aux jets de sauvegarde visant à éviter l’état Effrayé ou à y mettre fin.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "halfling.nimble",
+      "en": "You can move through the space of any creature that is a size larger than you, but you can’t stop in the same space.",
+      "fr": "Vous pouvez traverser l’espace d’une créature dont la catégorie de taille est supérieure à la vôtre, mais vous ne pouvez pas vous y arrêter.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "halfling.luck",
+      "en": "When you roll a 1 on the d20 of a D20 Test, you can reroll the die, and you must use the new roll.",
+      "fr": "Lorsque vous obtenez un 1 sur le d20 d’un Test de d20, vous pouvez relancer le dé et devez utiliser le nouveau résultat.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "halfling.stealth",
+      "en": "You can take the Hide action even when you are obscured only by a creature that is at least one size larger than you.",
+      "fr": "Vous pouvez entreprendre l’action Se cacher même si vous n’êtes dissimulé que par une créature dont la catégorie de taille est supérieure à la vôtre.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "human.resourceful",
+      "en": "You gain Heroic Inspiration whenever you finish a Long Rest.",
+      "fr": "Vous gagnez l’Inspiration héroïque à la fin de chaque Repos long.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "human.skillful",
+      "en": "You gain proficiency in one skill of your choice.",
+      "fr": "Vous gagnez la maîtrise d’une compétence de votre choix.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "human.versatile",
+      "en": "You gain an Origin feat of your choice (see “Feats”). Skilled is recommended.",
+      "fr": "Vous gagnez un don d’origine de votre choix (voir « Dons »). Doué est recommandé.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "rage-dragon-2024.dragon.flight",
+      "en": "When you reach character level 5, you can channel draconic magic to give yourself temporary flight. As a Bonus Action, you sprout spectral wings on your back that last for 10 minutes or until you retract the wings (no action required) or have the Incapacitated condition. During that time, you have a Fly Speed equal to your Speed. Your wings appear to be made of the same energy as your Breath Weapon. Once you use this trait, you can’t use it again until you finish a Long Rest.",
+      "fr": "À partir du niveau 5 de personnage, vous pouvez canaliser la magie draconique pour voler temporairement. Par une action Bonus, des ailes spectrales apparaissent dans votre dos pendant 10 minutes, jusqu’à ce que vous les rétractiez sans action, ou jusqu’à ce que vous subissiez l’état Neutralisé. Pendant cette durée, votre Vitesse de vol est égale à votre Vitesse. Vos ailes semblent constituées de la même énergie que votre Souffle. Après avoir utilisé ce trait, vous devez terminer un Repos long avant de pouvoir l’utiliser de nouveau.",
+      "source": "Traduction de l’extrait utilisateur et des passages SRD correspondants · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "rage-dragon-2024.dragon.breath",
+      "en": "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 damage of the type determined by your Draconic Ancestry trait. On a successful save, a creature takes half as much damage. This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).",
+      "fr": "Lorsque vous entreprenez l’action Attaquer à votre tour, vous pouvez remplacer l’une de vos attaques par un souffle d’énergie magique dans un Cône de 15 feet ou une Ligne de 30 feet et de 5 feet de large, au choix à chaque utilisation. Chaque créature dans la zone doit effectuer un jet de sauvegarde de Dextérité dont le DD est égal à 8 + votre modificateur de Constitution + votre bonus de maîtrise. En cas d’échec, elle subit 1d10 dégâts du type déterminé par votre Ascendance draconique. En cas de réussite, elle subit la moitié de ces dégâts. Les dégâts augmentent de 1d10 aux niveaux de personnage 5 (2d10), 11 (3d10) et 17 (4d10).",
+      "source": "Traduction de l’extrait utilisateur et des passages SRD correspondants · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "rage-dragon-2024.dragon.breath-uses",
+      "en": "You can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.",
+      "fr": "Vous pouvez utiliser ce Souffle un nombre de fois égal à votre bonus de maîtrise et récupérez toutes les utilisations dépensées à la fin d’un Repos long.",
+      "source": "Traduction de l’extrait utilisateur et des passages SRD correspondants · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "rage-dragon-2024.dragon.resistance",
+      "en": "You have Resistance to the damage type determined by your Draconic Ancestry trait.",
+      "fr": "Vous bénéficiez de la Résistance au type de dégâts déterminé par votre Ascendance draconique.",
+      "source": "Traduction de l’extrait utilisateur et des passages SRD correspondants · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    }
+  ]
+}

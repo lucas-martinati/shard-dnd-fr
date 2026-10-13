@@ -1,14 +1,14 @@
 # Ajouter des traductions
 
-Les nouvelles traductions se placent dans `translations/*.json`. Chaque fichier est chargé automatiquement pendant `npm run build` : aucun ajout au moteur JavaScript ni à une liste de modules n’est nécessaire. Le fichier généré reste le seul fichier à copier dans Tampermonkey.
+Les nouvelles traductions se placent dans `translations/<catégorie>/traductions.json`. Chaque fichier est chargé automatiquement pendant `npm run build` : aucun ajout au moteur JavaScript ni à une liste de modules n’est nécessaire. Le fichier généré reste le seul fichier à copier dans Tampermonkey.
 
 ## Une traduction par entrée
 
-Créer par exemple `translations/mes-aptitudes.json` avec cette structure :
+Ajouter une entrée dans `translations/classes/traductions.json` avec cette structure :
 
 ```json
 {
-  "$schema": "../docs/translation-pack.schema.json",
+  "$schema": "../../docs/translation-pack.schema.json",
   "schemaVersion": 1,
   "edition": "2024",
   "source": "Traduction proposée à partir de l’extrait fourni",
@@ -71,7 +71,13 @@ L’outil rassemble les textes des paragraphes malgré les balises et les dés, 
 
 Le traitement reste local. Les rapports peuvent contenir des textes de partie : les garder hors du dépôt et de `translations/` jusqu’à leur tri. Le rapport d’audit n’est pas un pack prêt à charger : il faut écrire les traductions et leur source.
 
-Les anciens dictionnaires et descriptions restent dans `work/` pour compatibilité. Pour les ajouts courants, utiliser désormais `translations/`.
+Tous les dictionnaires et descriptions sont rangés dans les catégories de `translations/`. `work/` contient les outils et leurs fichiers intermédiaires générés. Les textes SRD utilisés par les générateurs sont conservés dans `data/srd-5.2.1/`.
+
+Les catégories sont `sorts`, `dons`, `classes`, `especes`, `objets`, `armes`, `monstres`, `regles` et `interface`. Il ne faut plus créer de fichier par personnage, niveau ou correction. Les aptitudes, sous-classes, métamagies et manifestations vont dans `classes/` ; les styles de combat et dons dans `dons/`.
+
+Chaque entrée peut préciser `source` et `edition` pour remplacer les valeurs par défaut du fichier. Les éditions restent séparées par les textes exacts, même dans une catégorie commune.
+
+`npm run translations:coverage` affiche l’inventaire des noms et descriptions disponibles, avec les limites explicites. Ce rapport est aussi régénéré dans `outputs/couverture-traductions.json` pendant le build. Un nom traduit ne compte pas comme une description traduite.
 
 ## Sorts découpés en options et puces
 

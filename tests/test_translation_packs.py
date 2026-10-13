@@ -26,6 +26,15 @@ class PacksTest(unittest.TestCase):
     def entry(self, **values):
         return {'id': 'test.power', 'en': 'You regain 1d10 Hit Points.', 'fr': 'Vous récupérez 1d10 points de vie.', **values}
 
+    def test_entry_provenance_survives_grouping(self):
+        self.write([self.entry(source='SRD français', edition='2014')])
+        row = load_packs(self.root)[0]
+        self.assertEqual(row['source'], 'SRD français')
+        self.assertEqual(row['edition'], '2014')
+        self.write([self.entry(edition='2025')])
+        with self.assertRaisesRegex(ValueError, 'source ou édition invalide'):
+            load_packs(self.root)
+
     def test_numbers_and_dice_are_preserved(self):
         self.write([self.entry(fr='Vous récupérez 1d8 points de vie.')])
         with self.assertRaisesRegex(ValueError, 'nombres ou dés'):

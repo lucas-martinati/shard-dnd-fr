@@ -1,3 +1,4 @@
+from translation_sources import source as translation_source
 from pathlib import Path
 import json,re,unicodedata
 from translation_packs import load_packs
@@ -13,7 +14,7 @@ meta={};records={};parts=[]
 oldheader=re.sub(r'(?m)^(// @version\s+).+$',lambda m:m[1]+version,(work/'header.txt').read_text())
 parts=[oldheader,'(() => {\n"use strict";\n']
 for const,name in modules:
- data=(work/(name+'.tsv')).read_text()
+ data=translation_source(name+'.tsv').read_text()
  if name=='feature-terms' and pack_terms:data=data.rstrip()+'\n'+'\n'.join(r['en']+'|'+r['fr'] for r in pack_terms.values())+'\n'
  lines=data.strip().splitlines()
  for i,line in enumerate(lines):
@@ -37,7 +38,7 @@ for const,name in modules:
   records[key]={'en':en,'fr':fr,'category':category,'source':source,'aliases':aliases}
   meta[key]={'source':source,'category':category,'aliases':aliases}
  parts.append('const '+const+' = '+json.dumps(data,ensure_ascii=False)+';\n')
-refs=json.loads((work/'spell-reference.json').read_text())
+refs=json.loads(translation_source('spell-reference.json').read_text())
 # La version officielle peut employer des noms génériques pour les sorts nommés.
 for r in refs:r.pop('english',None)
 aliases={"Bigby's Hand":"Arcane Hand","Mordenkainen's Sword":"Arcane Sword","Tasha's Hideous Laughter":"Hideous Laughter","Nystul's Magic Aura":"Arcanist's Magic Aura","Melf's Acid Arrow":"Acid Arrow","Leomund's Secret Chest":"Secret Chest","Leomund's Tiny Hut":"Tiny Hut","Tenser's Floating Disk":"Floating Disk","Rary's Telepathic Bond":"Telepathic Bond","Mordenkainen's Private Sanctum":"Private Sanctum","Mordenkainen's Magnificent Mansion":"Magnificent Mansion","Mordenkainen's Faithful Hound":"Faithful Hound","Evard's Black Tentacles":"Black Tentacles","Otiluke's Resilient Sphere":"Resilient Sphere","Otiluke's Freezing Sphere":"Freezing Sphere","Otto's Irresistible Dance":"Irresistible Dance","Drawmij's Instant Summons":"Instant Summons"}

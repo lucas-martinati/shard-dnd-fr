@@ -1,0 +1,1858 @@
+[
+  {
+    "class": "barbarian",
+    "level": 1,
+    "en": "Rage",
+    "fr": "Rage",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "barbarian",
+    "level": 1,
+    "en": "Unarmored Defense",
+    "fr": "Défense sans armure",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "barbarian",
+    "level": 1,
+    "en": "Weapon Mastery",
+    "fr": "Bottes d’arme",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "barbarian",
+    "level": 2,
+    "en": "Danger Sense",
+    "fr": "Sens du danger",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "barbarian",
+    "level": 2,
+    "en": "Reckless Attack",
+    "fr": "Témérité",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "barbarian",
+    "level": 3,
+    "en": "Barbarian Subclass",
+    "fr": "Sous-classe de Barbare",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "barbarian",
+    "level": 3,
+    "en": "Primal Knowledge",
+    "fr": "Savoir primal",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "barbarian",
+    "level": 4,
+    "en": "Ability Score Improvement",
+    "fr": "Amélioration de caractéristique",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "barbarian",
+    "level": 5,
+    "en": "Extra Attack",
+    "fr": "Attaque supplémentaire",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "barbarian",
+    "level": 5,
+    "en": "Fast Movement",
+    "fr": "Déplacement rapide",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "barbarian",
+    "level": 7,
+    "en": "Feral Instinct",
+    "fr": "Instinct sauvage",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "barbarian",
+    "level": 7,
+    "en": "Instinctive Pounce",
+    "fr": "Bond instinctif",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "barbarian",
+    "level": 9,
+    "en": "Brutal Strike",
+    "fr": "Coup brutal",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "barbarian",
+    "level": 11,
+    "en": "Relentless Rage",
+    "fr": "Rage implacable",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "barbarian",
+    "level": 13,
+    "en": "Improved Brutal Strike",
+    "fr": "Coup brutal amélioré",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "barbarian",
+    "level": 15,
+    "en": "Persistent Rage",
+    "fr": "Rage persistante",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "barbarian",
+    "level": 17,
+    "en": "Improved Brutal Strike",
+    "fr": "Coup brutal amélioré",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "barbarian",
+    "level": 18,
+    "en": "Indomitable Might",
+    "fr": "Puissance indomptable",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "barbarian",
+    "level": 19,
+    "en": "Epic Boon",
+    "fr": "Faveur épique",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "barbarian",
+    "level": 20,
+    "en": "Primal Champion",
+    "fr": "Champion primitif",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "barbarian",
+    "level": 3,
+    "en": "Frenzy",
+    "fr": "Frénésie",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "barbarian",
+    "level": 6,
+    "en": "Mindless Rage",
+    "fr": "Rage aveugle",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "barbarian",
+    "level": 10,
+    "en": "Retaliation",
+    "fr": "Représailles",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "barbarian",
+    "level": 14,
+    "en": "Intimidating Presence",
+    "fr": "Présence intimidante",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "bard",
+    "level": 1,
+    "en": "Bardic Inspiration",
+    "fr": "Inspiration bardique",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "bard",
+    "level": 1,
+    "en": "Spellcasting",
+    "fr": "Sorts",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "bard",
+    "level": 2,
+    "en": "Expertise",
+    "fr": "Expertise",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "bard",
+    "level": 2,
+    "en": "Jack of All Trades",
+    "fr": "Touche-à-tout",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "bard",
+    "level": 3,
+    "en": "Bard Subclass",
+    "fr": "Sous-classe de Barde",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "bard",
+    "level": 4,
+    "en": "Ability Score Improvement",
+    "fr": "Amélioration de caractéristique",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "bard",
+    "level": 5,
+    "en": "Font of Inspiration",
+    "fr": "Source d’inspiration",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "bard",
+    "level": 7,
+    "en": "Countercharm",
+    "fr": "Contre-charme",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "bard",
+    "level": 10,
+    "en": "Magical Secrets",
+    "fr": "Secrets magiques",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "bard",
+    "level": 18,
+    "en": "Superior Inspiration",
+    "fr": "Inspiration supérieure",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "bard",
+    "level": 19,
+    "en": "Epic Boon",
+    "fr": "Faveur épique",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "bard",
+    "level": 20,
+    "en": "Words of Creation",
+    "fr": "Verbe de la création",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "bard",
+    "level": 3,
+    "en": "Bonus Proficiencies",
+    "fr": "Maîtrises supplémentaires",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "bard",
+    "level": 3,
+    "en": "Cutting Words",
+    "fr": "Mots cinglants",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "bard",
+    "level": 6,
+    "en": "Magical Discoveries",
+    "fr": "Découvertes magiques",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "bard",
+    "level": 14,
+    "en": "Peerless Skill",
+    "fr": "Compétence hors pair",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "cleric",
+    "level": 1,
+    "en": "Spellcasting",
+    "fr": "Sorts",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "cleric",
+    "level": 1,
+    "en": "Divine Order",
+    "fr": "Ordre divin",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "cleric",
+    "level": 2,
+    "en": "Channel Divinity",
+    "fr": "Conduit divin",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "cleric",
+    "level": 3,
+    "en": "Cleric Subclass",
+    "fr": "Sous-classe de Clerc",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "cleric",
+    "level": 4,
+    "en": "Ability Score Improvement",
+    "fr": "Amélioration de caractéristique",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "cleric",
+    "level": 5,
+    "en": "Sear Undead",
+    "fr": "Calcination de Mort-vivant",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "cleric",
+    "level": 7,
+    "en": "Blessed Strikes",
+    "fr": "Impacts bénis",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "cleric",
+    "level": 10,
+    "en": "Divine Intervention",
+    "fr": "Intervention divine",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "cleric",
+    "level": 14,
+    "en": "Improved Blessed Strikes",
+    "fr": "Impacts bénis améliorés",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "cleric",
+    "level": 19,
+    "en": "Epic Boon",
+    "fr": "Faveur épique",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "cleric",
+    "level": 20,
+    "en": "Greater Divine Intervention",
+    "fr": "Intervention divine suprême",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "cleric",
+    "level": 3,
+    "en": "Disciple of Life",
+    "fr": "Disciple de la Vie",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "cleric",
+    "level": 3,
+    "en": "Life Domain Spells",
+    "fr": "Sorts du Domaine de la Vie",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "cleric",
+    "level": 3,
+    "en": "Preserve Life",
+    "fr": "Survivance",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "cleric",
+    "level": 6,
+    "en": "Blessed Healer",
+    "fr": "Guérisseur béni",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "cleric",
+    "level": 17,
+    "en": "Supreme Healing",
+    "fr": "Guérison suprême",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "druid",
+    "level": 1,
+    "en": "Spellcasting",
+    "fr": "Sorts",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "druid",
+    "level": 1,
+    "en": "Druidic",
+    "fr": "Druidique",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "druid",
+    "level": 1,
+    "en": "Primal Order",
+    "fr": "Ordre primitif",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "druid",
+    "level": 2,
+    "en": "Wild Shape",
+    "fr": "Forme sauvage",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "druid",
+    "level": 2,
+    "en": "Wild Companion",
+    "fr": "Compagnon sauvage",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "druid",
+    "level": 3,
+    "en": "Druid Subclass",
+    "fr": "Sous-classe de Druide",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "druid",
+    "level": 4,
+    "en": "Ability Score Improvement",
+    "fr": "Amélioration de caractéristique",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "druid",
+    "level": 5,
+    "en": "Wild Resurgence",
+    "fr": "Regain sauvage",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "druid",
+    "level": 7,
+    "en": "Elemental Fury",
+    "fr": "Fureur élémentaire",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "druid",
+    "level": 15,
+    "en": "Improved Elemental Fury",
+    "fr": "Fureur élémentaire améliorée",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "druid",
+    "level": 18,
+    "en": "Beast Spells",
+    "fr": "Incantation animale",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "druid",
+    "level": 19,
+    "en": "Epic Boon",
+    "fr": "Faveur épique",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "druid",
+    "level": 20,
+    "en": "Archdruid",
+    "fr": "Archidruide",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "druid",
+    "level": 3,
+    "en": "Circle of the Land Spells",
+    "fr": "Sorts du Cercle de la Terre",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "druid",
+    "level": 3,
+    "en": "Land's Aid",
+    "fr": "Aval de la terre",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "druid",
+    "level": 6,
+    "en": "Natural Recovery",
+    "fr": "Ressourcement",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "druid",
+    "level": 10,
+    "en": "Nature's Ward",
+    "fr": "Protégé de dame Nature",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "druid",
+    "level": 14,
+    "en": "Nature's Sanctuary",
+    "fr": "Sanctuaire de dame Nature",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "fighter",
+    "level": 1,
+    "en": "Fighting Style",
+    "fr": "Style de combat",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "fighter",
+    "level": 1,
+    "en": "Second Wind",
+    "fr": "Second souffle",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "fighter",
+    "level": 1,
+    "en": "Weapon Mastery",
+    "fr": "Bottes d’arme",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "fighter",
+    "level": 2,
+    "en": "Action Surge",
+    "fr": "Fougue",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "fighter",
+    "level": 2,
+    "en": "Tactical Mind",
+    "fr": "Sens tactique",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "fighter",
+    "level": 3,
+    "en": "Fighter Subclass",
+    "fr": "Sous-classe de Guerrier",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "fighter",
+    "level": 4,
+    "en": "Ability Score Improvement",
+    "fr": "Amélioration de caractéristique",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "fighter",
+    "level": 5,
+    "en": "Extra Attack",
+    "fr": "Attaque supplémentaire",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "fighter",
+    "level": 5,
+    "en": "Tactical Shift",
+    "fr": "Décalage tactique",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "fighter",
+    "level": 9,
+    "en": "Indomitable",
+    "fr": "Inflexible",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "fighter",
+    "level": 9,
+    "en": "Tactical Master",
+    "fr": "Botte tactique",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "fighter",
+    "level": 11,
+    "en": "Two Extra Attacks",
+    "fr": "Double attaque",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "fighter",
+    "level": 13,
+    "en": "Studied Attacks",
+    "fr": "Attaques avisées",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "fighter",
+    "level": 19,
+    "en": "Epic Boon",
+    "fr": "Faveur épique",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "fighter",
+    "level": 20,
+    "en": "Three Extra Attacks",
+    "fr": "Triple attaque supplémentaire",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "fighter",
+    "level": 3,
+    "en": "Improved Critical",
+    "fr": "Critique amélioré",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "fighter",
+    "level": 3,
+    "en": "Remarkable Athlete",
+    "fr": "Athlète accompli",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "fighter",
+    "level": 7,
+    "en": "Additional Fighting Style",
+    "fr": "Style de combat",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "fighter",
+    "level": 10,
+    "en": "Heroic Warrior",
+    "fr": "Héros du champ d’honneur",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "fighter",
+    "level": 15,
+    "en": "Superior Critical",
+    "fr": "Critique supérieur",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "fighter",
+    "level": 18,
+    "en": "Survivor",
+    "fr": "Survivant",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "monk",
+    "level": 1,
+    "en": "Martial Arts",
+    "fr": "Arts martiaux",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "monk",
+    "level": 1,
+    "en": "Unarmored Defense",
+    "fr": "Défense sans armure",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "monk",
+    "level": 2,
+    "en": "Monk's Focus",
+    "fr": "Credo du Moine",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "monk",
+    "level": 2,
+    "en": "Unarmored Movement",
+    "fr": "Déplacement sans armure",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "monk",
+    "level": 2,
+    "en": "Uncanny Metabolism",
+    "fr": "Métabolisme surnaturel",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "monk",
+    "level": 3,
+    "en": "Deflect Attacks",
+    "fr": "Déviation d’assaut",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "monk",
+    "level": 3,
+    "en": "Monk Subclass",
+    "fr": "Sous-classe de Moine",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "monk",
+    "level": 4,
+    "en": "Ability Score Improvement",
+    "fr": "Amélioration de caractéristique",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "monk",
+    "level": 4,
+    "en": "Slow Fall",
+    "fr": "Chute ralentie",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "monk",
+    "level": 5,
+    "en": "Extra Attack",
+    "fr": "Attaque supplémentaire",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "monk",
+    "level": 5,
+    "en": "Stunning Strike",
+    "fr": "Frappe étourdissante",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "monk",
+    "level": 6,
+    "en": "Empowered Strikes",
+    "fr": "Frappes renforcées",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "monk",
+    "level": 7,
+    "en": "Evasion",
+    "fr": "Esquive totale",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "monk",
+    "level": 9,
+    "en": "Acrobatic Movement",
+    "fr": "Mouvement acrobatique",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "monk",
+    "level": 10,
+    "en": "Heightened Focus",
+    "fr": "Credo accru",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "monk",
+    "level": 10,
+    "en": "Self-Restoration",
+    "fr": "Autosubsistance",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "monk",
+    "level": 13,
+    "en": "Deflect Energy",
+    "fr": "Parade énergétique",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "monk",
+    "level": 14,
+    "en": "Disciplined Survivor",
+    "fr": "Survivant discipliné",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "monk",
+    "level": 15,
+    "en": "Perfect Focus",
+    "fr": "Credo parachevé",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "monk",
+    "level": 18,
+    "en": "Superior Defense",
+    "fr": "Défense supérieure",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "monk",
+    "level": 19,
+    "en": "Epic Boon",
+    "fr": "Faveur épique",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "monk",
+    "level": 20,
+    "en": "Body and Mind",
+    "fr": "Esprit et corps",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "monk",
+    "level": 3,
+    "en": "Open Hand Technique",
+    "fr": "Technique de la Paume",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "monk",
+    "level": 6,
+    "en": "Wholeness of Body",
+    "fr": "Plénitude physique",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "monk",
+    "level": 11,
+    "en": "Fleet Step",
+    "fr": "Foulée preste",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "monk",
+    "level": 17,
+    "en": "Quivering Palm",
+    "fr": "Paume vibratoire",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "paladin",
+    "level": 1,
+    "en": "Lay On Hands",
+    "fr": "Imposition des mains",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "paladin",
+    "level": 1,
+    "en": "Spellcasting",
+    "fr": "Sorts",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "paladin",
+    "level": 1,
+    "en": "Weapon Mastery",
+    "fr": "Bottes d’arme",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "paladin",
+    "level": 2,
+    "en": "Fighting Style",
+    "fr": "Style de combat",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "paladin",
+    "level": 2,
+    "en": "Paladin's Smite",
+    "fr": "Châtiment de paladin",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "paladin",
+    "level": 3,
+    "en": "Channel Divinity",
+    "fr": "Conduit divin",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "paladin",
+    "level": 3,
+    "en": "Paladin Subclass",
+    "fr": "Sous-classe de Paladin",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "paladin",
+    "level": 4,
+    "en": "Ability Score Improvement",
+    "fr": "Amélioration de caractéristique",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "paladin",
+    "level": 5,
+    "en": "Extra Attack",
+    "fr": "Attaque supplémentaire",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "paladin",
+    "level": 5,
+    "en": "Faithful Steed",
+    "fr": "Fidèle destrier",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "paladin",
+    "level": 6,
+    "en": "Aura of Protection",
+    "fr": "Aura de protection",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "paladin",
+    "level": 9,
+    "en": "Abjure Foes",
+    "fr": "Abjuration d’ennemis",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "paladin",
+    "level": 10,
+    "en": "Aura of Courage",
+    "fr": "Aura de courage",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "paladin",
+    "level": 11,
+    "en": "Radiant Strikes",
+    "fr": "Frappes radiantes",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "paladin",
+    "level": 14,
+    "en": "Restoring Touch",
+    "fr": "Toucher réparateur",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "paladin",
+    "level": 18,
+    "en": "Aura Expansion",
+    "fr": "Aura étendue",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "paladin",
+    "level": 19,
+    "en": "Epic Boon",
+    "fr": "Faveur épique",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "paladin",
+    "level": 3,
+    "en": "Oath of Devotion Spells",
+    "fr": "Sorts du Serment de Dévotion",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "paladin",
+    "level": 3,
+    "en": "Sacred Weapon",
+    "fr": "Arme sacrée",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "paladin",
+    "level": 7,
+    "en": "Aura of Devotion",
+    "fr": "Aura de dévotion",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "paladin",
+    "level": 15,
+    "en": "Smite of Protection",
+    "fr": "Châtiment de protection",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "paladin",
+    "level": 20,
+    "en": "Holy Nimbus",
+    "fr": "Nimbe sacré",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "ranger",
+    "level": 1,
+    "en": "Spellcasting",
+    "fr": "Sorts",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "ranger",
+    "level": 1,
+    "en": "Favored Enemy",
+    "fr": "Ennemi juré",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "ranger",
+    "level": 1,
+    "en": "Weapon Mastery",
+    "fr": "Bottes d’arme",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "ranger",
+    "level": 2,
+    "en": "Deft Explorer",
+    "fr": "Fin explorateur",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "ranger",
+    "level": 2,
+    "en": "Fighting Style",
+    "fr": "Style de combat",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "ranger",
+    "level": 3,
+    "en": "Ranger Subclass",
+    "fr": "Sous-classe de Rôdeur",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "ranger",
+    "level": 4,
+    "en": "Ability Score Improvement",
+    "fr": "Amélioration de caractéristique",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "ranger",
+    "level": 5,
+    "en": "Extra Attack",
+    "fr": "Attaque supplémentaire",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "ranger",
+    "level": 6,
+    "en": "Roving",
+    "fr": "Arpenteur",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "ranger",
+    "level": 9,
+    "en": "Expertise",
+    "fr": "Expertise",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "ranger",
+    "level": 10,
+    "en": "Tireless",
+    "fr": "Infatigable",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "ranger",
+    "level": 13,
+    "en": "Relentless Hunter",
+    "fr": "Chasseur implacable",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "ranger",
+    "level": 14,
+    "en": "Nature's Veil",
+    "fr": "Voile de la nature",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "ranger",
+    "level": 17,
+    "en": "Precise Hunter",
+    "fr": "Chasseur précis",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "ranger",
+    "level": 18,
+    "en": "Feral Senses",
+    "fr": "Sens sauvages",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "ranger",
+    "level": 19,
+    "en": "Epic Boon",
+    "fr": "Faveur épique",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "ranger",
+    "level": 20,
+    "en": "Foe Slayer",
+    "fr": "Tueur implacable",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "ranger",
+    "level": 3,
+    "en": "Hunter's Lore",
+    "fr": "Savoir du Chasseur",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "ranger",
+    "level": 3,
+    "en": "Hunter's Prey",
+    "fr": "Proie du chasseur",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "ranger",
+    "level": 7,
+    "en": "Defensive Tactics",
+    "fr": "Tactiques défensives",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "ranger",
+    "level": 11,
+    "en": "Superior Hunter's Prey",
+    "fr": "Proie du chasseur supérieure",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "ranger",
+    "level": 15,
+    "en": "Superior Hunter's Defense",
+    "fr": "Défense de chasseur supérieure",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "rogue",
+    "level": 1,
+    "en": "Expertise",
+    "fr": "Expertise",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "rogue",
+    "level": 1,
+    "en": "Sneak Attack",
+    "fr": "Attaque sournoise",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "rogue",
+    "level": 1,
+    "en": "Thieves' Cant",
+    "fr": "Argot des voleurs",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "rogue",
+    "level": 1,
+    "en": "Weapon Mastery",
+    "fr": "Bottes d’arme",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "rogue",
+    "level": 2,
+    "en": "Cunning Action",
+    "fr": "Ruse",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "rogue",
+    "level": 3,
+    "en": "Rogue Subclass",
+    "fr": "Sous-classe de Roublard",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "rogue",
+    "level": 3,
+    "en": "Steady Aim",
+    "fr": "Visée appliquée",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "rogue",
+    "level": 4,
+    "en": "Ability Score Improvement",
+    "fr": "Amélioration de caractéristique",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "rogue",
+    "level": 5,
+    "en": "Cunning Strike",
+    "fr": "Frappe malicieuse",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "rogue",
+    "level": 5,
+    "en": "Uncanny Dodge",
+    "fr": "Esquive instinctive",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "rogue",
+    "level": 7,
+    "en": "Evasion",
+    "fr": "Esquive totale",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "rogue",
+    "level": 7,
+    "en": "Reliable Talent",
+    "fr": "Savoir-faire",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "rogue",
+    "level": 11,
+    "en": "Improved Cunning Strike",
+    "fr": "Frappe malicieuse améliorée",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "rogue",
+    "level": 14,
+    "en": "Devious Strikes",
+    "fr": "Coups vicieux",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "rogue",
+    "level": 15,
+    "en": "Slippery Mind",
+    "fr": "Esprit fuyant",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "rogue",
+    "level": 18,
+    "en": "Elusive",
+    "fr": "Insaisissable",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "rogue",
+    "level": 19,
+    "en": "Epic Boon",
+    "fr": "Faveur épique",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "rogue",
+    "level": 20,
+    "en": "Stroke of Luck",
+    "fr": "Coup de chance",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "rogue",
+    "level": 3,
+    "en": "Fast Hands",
+    "fr": "Mains lestes",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "rogue",
+    "level": 3,
+    "en": "Second-Story Work",
+    "fr": "Monte-en-l’air",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "rogue",
+    "level": 9,
+    "en": "Supreme Sneak",
+    "fr": "Furtivité suprême",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "rogue",
+    "level": 13,
+    "en": "Use Magic Device",
+    "fr": "Utilisation d’objets magiques",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "rogue",
+    "level": 17,
+    "en": "Thief's Reflexes",
+    "fr": "Réflexes de voleur",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "sorcerer",
+    "level": 1,
+    "en": "Spellcasting",
+    "fr": "Sorts",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "sorcerer",
+    "level": 1,
+    "en": "Innate Sorcery",
+    "fr": "Sorcellerie innée",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "sorcerer",
+    "level": 2,
+    "en": "Font of Magic",
+    "fr": "Réserve arcanique",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "sorcerer",
+    "level": 2,
+    "en": "Metamagic",
+    "fr": "Métamagie",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "sorcerer",
+    "level": 3,
+    "en": "Sorcerer Subclass",
+    "fr": "Sous-classe d’Ensorceleur",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "sorcerer",
+    "level": 4,
+    "en": "Ability Score Improvement",
+    "fr": "Amélioration de caractéristique",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "sorcerer",
+    "level": 5,
+    "en": "Sorcerous Restoration",
+    "fr": "Restauration ensorcelée",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "sorcerer",
+    "level": 7,
+    "en": "Sorcery Incarnate",
+    "fr": "Sorcellerie incarnée",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "sorcerer",
+    "level": 19,
+    "en": "Epic Boon",
+    "fr": "Faveur épique",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "sorcerer",
+    "level": 20,
+    "en": "Arcane Apotheosis",
+    "fr": "Apothéose arcanique",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "sorcerer",
+    "level": 3,
+    "en": "Draconic Resilience",
+    "fr": "Résistance draconique",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "sorcerer",
+    "level": 3,
+    "en": "Draconic Spells",
+    "fr": "Sorts draconiques",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "sorcerer",
+    "level": 6,
+    "en": "Elemental Affinity",
+    "fr": "Affinité élémentaire",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "sorcerer",
+    "level": 14,
+    "en": "Dragon Wings",
+    "fr": "Ailes draconiques",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "sorcerer",
+    "level": 18,
+    "en": "Dragon Companion",
+    "fr": "Compagnon draconique",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "warlock",
+    "level": 1,
+    "en": "Eldritch Invocations",
+    "fr": "Manifestations occultes",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "warlock",
+    "level": 1,
+    "en": "Pact Magic",
+    "fr": "Magie de pacte",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "warlock",
+    "level": 2,
+    "en": "Magical Cunning",
+    "fr": "Rouerie magique",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "warlock",
+    "level": 3,
+    "en": "Warlock Subclass",
+    "fr": "Sous-classe d’Occultiste",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "warlock",
+    "level": 4,
+    "en": "Ability Score Improvement",
+    "fr": "Amélioration de caractéristique",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "warlock",
+    "level": 9,
+    "en": "Contact Patron",
+    "fr": "Communication avec",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "warlock",
+    "level": 11,
+    "en": "Mystic Arcanum",
+    "fr": "Arcanum mystique",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "warlock",
+    "level": 19,
+    "en": "Epic Boon",
+    "fr": "Faveur épique",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "warlock",
+    "level": 20,
+    "en": "Eldritch Master",
+    "fr": "Maître de l’occulte",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "warlock",
+    "level": 3,
+    "en": "Dark One's Blessing",
+    "fr": "Bénédiction du ténébreux",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "warlock",
+    "level": 3,
+    "en": "Fiend Spells",
+    "fr": "Sorts du Fiélon",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "warlock",
+    "level": 6,
+    "en": "Dark One's Own Luck",
+    "fr": "Chance du ténébreux",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "warlock",
+    "level": 10,
+    "en": "Fiendish Resilience",
+    "fr": "Résistance fiélonne",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "warlock",
+    "level": 14,
+    "en": "Hurl Through Hell",
+    "fr": "Traversée des enfers",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "wizard",
+    "level": 1,
+    "en": "Spellcasting",
+    "fr": "Sorts",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "wizard",
+    "level": 1,
+    "en": "Ritual Adept",
+    "fr": "Savoir rituel",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "wizard",
+    "level": 1,
+    "en": "Arcane Recovery",
+    "fr": "Restauration magique",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "wizard",
+    "level": 2,
+    "en": "Scholar",
+    "fr": "Érudition",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "wizard",
+    "level": 3,
+    "en": "Wizard Subclass",
+    "fr": "Sous-classe de Magicien",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "wizard",
+    "level": 4,
+    "en": "Ability Score Improvement",
+    "fr": "Amélioration de caractéristique",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "wizard",
+    "level": 5,
+    "en": "Memorize Spell",
+    "fr": "Mémorisation de sort",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "wizard",
+    "level": 18,
+    "en": "Spell Mastery",
+    "fr": "Maîtrise des sorts",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "wizard",
+    "level": 19,
+    "en": "Epic Boon",
+    "fr": "Faveur épique",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "wizard",
+    "level": 20,
+    "en": "Signature Spells",
+    "fr": "Sorts de prédilection",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "wizard",
+    "level": 3,
+    "en": "Evocation Savant",
+    "fr": "Évocateur érudit",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "wizard",
+    "level": 3,
+    "en": "Potent Cantrip",
+    "fr": "Sort mineur appuyé",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "wizard",
+    "level": 6,
+    "en": "Sculpt Spells",
+    "fr": "Façonneur de sorts",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "wizard",
+    "level": 10,
+    "en": "Empowered Evocation",
+    "fr": "Évocation améliorée",
+    "description": true,
+    "pending": null
+  },
+  {
+    "class": "wizard",
+    "level": 14,
+    "en": "Overchannel",
+    "fr": "Surcharge magique",
+    "description": true,
+    "pending": null
+  }
+]

@@ -1,8 +1,9 @@
+from translation_sources import source as translation_source
 from pathlib import Path
 import json
 w=Path(__file__).resolve().parent
 pairs=[]
-for line in (w/'feature-descriptions.tsv').read_text().splitlines():
+for line in translation_source('feature-descriptions.tsv').read_text().splitlines():
  en,fr=line.split('|')
  fr=fr.replace('Éclat d’esprit','Piqûre mentale')
  pairs.append(dict(en=en,fr=fr,source='Traduction de textes de personnage 2024 · extraits utilisateur et SRD 5.2.1'))
@@ -12,5 +13,5 @@ fr='Vous savez frapper avec subtilité et exploiter la distraction d’un advers
 for n in range(11):
  dice=f'{n}d6' if n else ''
  pairs.append(dict(en=en.format(dice=dice),fr=fr.format(dice=dice),source='Traduction de l’extrait utilisateur · Attaque sournoise 2024'))
-(w/'feature-texts.json').write_text(json.dumps(pairs,ensure_ascii=False,indent=2))
+translation_source('feature-texts.json').write_text(json.dumps(pairs,ensure_ascii=False,indent=2))
 print(len(pairs),'paragraphes et variantes de personnage')

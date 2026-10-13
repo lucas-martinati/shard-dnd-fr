@@ -31,7 +31,7 @@ npm run build
 npm test
 ```
 
-Les sources et dictionnaires se trouvent dans `work/`. `work/build.py` produit le userscript et les catalogues dans `outputs/`. `work/header.txt` contient les métadonnées Tampermonkey. Les fichiers générés sont versionnés pour faciliter l’installation.
+Les traductions et dictionnaires sont rangés par grandes catégories dans `translations/` : sorts, dons, classes, espèces, objets, armes, monstres, règles et interface. Les outils de génération se trouvent dans `work/`, les sources SRD dans `data/`. `work/build.py` produit le userscript et les catalogues dans `outputs/`. `work/header.txt` contient les métadonnées Tampermonkey. Les fichiers générés sont versionnés pour faciliter l’installation.
 
 Les tests sont regroupés dans `tests/`, avec les extraits HTML dans `tests/fixtures/`. `npm test` lance les suites JavaScript et Python. Les tests inclus couvrent la configuration, la recherche et les liens, les aptitudes de personnages, les variantes de métamagie, les interactions, la migration du cache et le retour au texte anglais.
 
@@ -39,12 +39,13 @@ Les catalogues de noms et de références sont indexés au démarrage. Les liste
 
 ## Ajouter des traductions
 
-Les fichiers de `translations/` sont détectés automatiquement à la génération. Ajouter un texte anglais, son français et sa source suffit ; aucun changement du moteur n’est nécessaire.
+Les fichiers `translations/<catégorie>/traductions.json` sont détectés automatiquement à la génération. Ajouter un texte anglais, son français et sa source suffit ; aucun changement du moteur n’est nécessaire.
 
 Voir le [guide d’ajout de traductions](docs/AJOUTER-DES-TRADUCTIONS.md), qui explique les variantes, les libellés et l’audit d’extraits HTML.
 
 ```sh
 npm run translations:check
+npm run translations:coverage
 npm run translations:audit -- /chemin/extrait.html
 npm run build
 npm test
@@ -59,3 +60,9 @@ Le code est sous licence MIT ; les textes SRD et autres contenus gardent leurs l
 ## Dernier complément
 
 La version 1.15 ajoute Rage et plusieurs traits draconiques, les propriétés d’armes anciennes et 2024, et élargit la traduction des listes et sous-sections de sorts. `work/make-spell-sections.py` produit les correspondances depuis les références SRD embarquées, avec des titres explicitement reliés entre les langues ; leur ordre peut différer. Les commandes de dés ne sont pas déplacées ni réécrites.
+
+## Couverture et organisation · version 1.16
+
+Les corrections ponctuelles sont regroupées dans les catégories générales ; chaque entrée conserve sa source et son édition. L’import SRD porte sur la prose de 232 aptitudes des 12 classes, 10 options de métamagie et 28 manifestations occultes. Les options sont reliées par leur nom, jamais par leur ordre dans le document français. Les descriptions déjà présentes conservent leur priorité.
+
+L’inventaire [couverture des traductions](outputs/couverture-traductions.json) distingue les noms AideDD, les blocs traduits et les corpus appariés. Il ne certifie pas toutes les variantes Shard ni tous les suppléments. Le SRD ne contient qu’une sélection de sous-classes et de dons ; les autres descriptions publiques AideDD restent consultées à la demande.

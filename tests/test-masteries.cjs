@@ -1,5 +1,5 @@
 const fs=require('node:fs'),assert=require('node:assert/strict'),{JSDOM}=require('jsdom');
-const pack=JSON.parse(fs.readFileSync('translations/bottes-armes-2024.json'));
+const pack=require('./translation-fixtures.cjs').pack('armes');
 const slow=pack.entries.find(e=>e.id==='mastery.slow');
 const w=new JSDOM(`<main><table><tbody><tr><td>Longbow</td><td><span>Piercing</span><span id="weapon">Slow</span></td></tr></tbody></table><div id="explicit">Mastery: Slow</div><article id="mastery"><h2>Slow</h2><p>${slow.en}</p></article><article id="spell"><h2>Slow</h2><p>Casting Time: 1 action</p><p>Range: 120 feet</p><p>Duration: Concentration, up to 1 minute</p><p>Source. D&amp;D 2024 Player’s Handbook</p></article></main>`,{url:'https://play.shardtabletop.com/#item',runScripts:'outside-only',pretendToBeVisual:true}).window,d=w.document;
 const original=d.querySelector('main').textContent;w.GM_getValue=(k,f)=>f;w.GM_setValue=()=>{};w.GM_registerMenuCommand=()=>{};

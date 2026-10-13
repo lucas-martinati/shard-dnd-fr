@@ -638,7 +638,7 @@
       let found=null;
       for(const value of variants){const re=new RegExp(pattern(value.trim()).replace(/\\\+/g,'\\s*\\+\\s*'),'iu');const m=re.exec(fr.slice(cursor));if(m){const text=m[0].trim(),index=m.index+m[0].length-m[0].trimStart().length;if(!found||index<found.index)found={index,text};}}
       if(!found||!assign(fr.slice(cursor,cursor+found.index),lastIndex,first))return;
-      output.set(owned[0],found.text);cursor+=found.index+found.text.length;lastIndex=last+1;
+      output.set(owned[0],owner.matches('.dodieroll')?en:found.text);cursor+=found.index+found.text.length;lastIndex=last+1;
     }
     if(!assign(fr.slice(cursor),lastIndex,nodes.length))return;
     const record={el,revision,bilingual,items:nodes.map(node=>({node,original:originalNode(node),output:output.get(node)}))};inlineBlocks.add(record);
