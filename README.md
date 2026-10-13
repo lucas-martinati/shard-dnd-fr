@@ -1,6 +1,6 @@
 # Shard Tabletop — D&D FR
 
-Script Tampermonkey de traduction française pour [Shard Tabletop](https://play.shardtabletop.com/), version **1.12.0**.
+Script Tampermonkey de traduction française pour [Shard Tabletop](https://play.shardtabletop.com/).
 
 ## Installation
 
