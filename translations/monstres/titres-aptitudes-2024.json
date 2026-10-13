@@ -1,0 +1,3160 @@
+{
+  "date": "2026-10-13",
+  "source": "Titres français des aptitudes des références publiques AideDD 2024. Association dans la même rubrique avec conservation des valeurs ; homonymes conflictuels et titres invalides exclus. Les descriptions ne sont pas stockées dans cet index.",
+  "entries": [
+    {
+      "en": "Spellcasting",
+      "fr": "Incantation",
+      "source": "https://www.aidedd.org/monster/fr/yuan-ti-infiltrateur"
+    },
+    {
+      "en": "Feather Fall (1/Day)",
+      "fr": "Feuille morte (1/jour)",
+      "source": "https://www.aidedd.org/monster/fr/aarakocre-aeromancien"
+    },
+    {
+      "en": "Regeneration",
+      "fr": "Régénération",
+      "source": "https://www.aidedd.org/monster/fr/troll"
+    },
+    {
+      "en": "Troll Spawn",
+      "fr": "Trollesquerie",
+      "source": "https://www.aidedd.org/monster/fr/abattis-de-troll"
+    },
+    {
+      "en": "Rend",
+      "fr": "Saignée",
+      "source": "https://www.aidedd.org/monster/fr/troll"
+    },
+    {
+      "en": "Amphibious",
+      "fr": "Amphibie",
+      "source": "https://www.aidedd.org/monster/fr/thalasseen-tirailleur"
+    },
+    {
+      "en": "Tentacle",
+      "fr": "Tentacule",
+      "source": "https://www.aidedd.org/monster/fr/otyugh"
+    },
+    {
+      "en": "Eldritch Restoration",
+      "fr": "Restauration occulte",
+      "source": "https://www.aidedd.org/monster/fr/aboleth"
+    },
+    {
+      "en": "Legendary Resistance (3/Day, or 4/Day in Lair)",
+      "fr": "Résistance légendaire (3/jour, ou 4/jour dans son antre)",
+      "source": "https://www.aidedd.org/monster/fr/vampire"
+    },
+    {
+      "en": "Mucus Cloud",
+      "fr": "Nuage de mucus",
+      "source": "https://www.aidedd.org/monster/fr/aboleth"
+    },
+    {
+      "en": "Probing Telepathy",
+      "fr": "Télépathie inquisitrice",
+      "source": "https://www.aidedd.org/monster/fr/aboleth"
+    },
+    {
+      "en": "Consume Memories",
+      "fr": "Assimilation de mémoire",
+      "source": "https://www.aidedd.org/monster/fr/aboleth"
+    },
+    {
+      "en": "Lash",
+      "fr": "Coup de tentacule",
+      "source": "https://www.aidedd.org/monster/fr/aboleth"
+    },
+    {
+      "en": "Psychic Drain",
+      "fr": "Succion psychique",
+      "source": "https://www.aidedd.org/monster/fr/aboleth"
+    },
+    {
+      "en": "Talons",
+      "fr": "Serres",
+      "source": "https://www.aidedd.org/monster/fr/rukh"
+    },
+    {
+      "en": "Bite",
+      "fr": "Morsure",
+      "source": "https://www.aidedd.org/monster/fr/yuan-ti-malfice-type-2"
+    },
+    {
+      "en": "Sunlight Sensitivity",
+      "fr": "Sensibilité au soleil",
+      "source": "https://www.aidedd.org/monster/fr/troglodyte"
+    },
+    {
+      "en": "Incorporeal Movement",
+      "fr": "Déplacement intangible",
+      "source": "https://www.aidedd.org/monster/fr/spectre"
+    },
+    {
+      "en": "Life Drain",
+      "fr": "Absorption de vie",
+      "source": "https://www.aidedd.org/monster/fr/spectre"
+    },
+    {
+      "en": "Create Specter",
+      "fr": "Création de spectre",
+      "source": "https://www.aidedd.org/monster/fr/ame-en-peine"
+    },
+    {
+      "en": "Tunneler",
+      "fr": "Fouisseur",
+      "source": "https://www.aidedd.org/monster/fr/ver-pourpre"
+    },
+    {
+      "en": "Acid Spray (Recharge 6)",
+      "fr": "Aspersion acide (recharge 6)",
+      "source": "https://www.aidedd.org/monster/fr/ankheg"
+    },
+    {
+      "en": "Tail",
+      "fr": "Queue",
+      "source": "https://www.aidedd.org/monster/fr/tyrannosaure-rex"
+    },
+    {
+      "en": "Spider Climb",
+      "fr": "Pattes d'araignée",
+      "source": "https://www.aidedd.org/monster/fr/yochlol"
+    },
+    {
+      "en": "Web Walker",
+      "fr": "Marche dans les toiles",
+      "source": "https://www.aidedd.org/monster/fr/yochlol"
+    },
+    {
+      "en": "Ethereal Sight",
+      "fr": "Vision éthérée",
+      "source": "https://www.aidedd.org/monster/fr/fantome"
+    },
+    {
+      "en": "Ethereal Jaunt",
+      "fr": "Saut éthéré",
+      "source": "https://www.aidedd.org/monster/fr/araignee-de-phase"
+    },
+    {
+      "en": "Web (Recharge 5–6)",
+      "fr": "Toile d'araignée (recharge 5–6)",
+      "source": "https://www.aidedd.org/monster/fr/araignee-geante"
+    },
+    {
+      "en": "Slam",
+      "fr": "Coup",
+      "source": "https://www.aidedd.org/monster/fr/zombi"
+    },
+    {
+      "en": "Branch",
+      "fr": "Branche",
+      "source": "https://www.aidedd.org/monster/fr/arbroyeux"
+    },
+    {
+      "en": "Grasping Root",
+      "fr": "Étreinte végétale",
+      "source": "https://www.aidedd.org/monster/fr/arbroyeux"
+    },
+    {
+      "en": "Gnash",
+      "fr": "Gnaque",
+      "source": "https://www.aidedd.org/monster/fr/arbroyeux"
+    },
+    {
+      "en": "Rake",
+      "fr": "Ratissage",
+      "source": "https://www.aidedd.org/monster/fr/arbuste-eveille"
+    },
+    {
+      "en": "Magic Resistance",
+      "fr": "Résistance à la magie",
+      "source": "https://www.aidedd.org/monster/fr/yuan-ti-malfice-type-3"
+    },
+    {
+      "en": "Teleport",
+      "fr": "Téléportation",
+      "source": "https://www.aidedd.org/monster/fr/nalfeshnie"
+    },
+    {
+      "en": "Counterspell",
+      "fr": "Contresort",
+      "source": "https://www.aidedd.org/monster/fr/arcanaloth"
+    },
+    {
+      "en": "Fiendish Restoration",
+      "fr": "Restauration fiélonne",
+      "source": "https://www.aidedd.org/monster/fr/ultroloth"
+    },
+    {
+      "en": "Soul Tome",
+      "fr": "Tome spirituel",
+      "source": "https://www.aidedd.org/monster/fr/arcanaloth"
+    },
+    {
+      "en": "Fiendish Burst",
+      "fr": "Décharge fiélonne",
+      "source": "https://www.aidedd.org/monster/fr/arcanaloth"
+    },
+    {
+      "en": "Banishing Claw (Requires Soul Tome)",
+      "fr": "Griffe du ban (nécessite le tome spirituel)",
+      "source": "https://www.aidedd.org/monster/fr/arcanaloth"
+    },
+    {
+      "en": "Coven Magic",
+      "fr": "Magie d'assemblée",
+      "source": "https://www.aidedd.org/monster/fr/guenaude-verte"
+    },
+    {
+      "en": "Legendary Resistance (4/Day, or 5/Day in Lair)",
+      "fr": "Résistance légendaire (4/jour, ou 5/jour dans son antre)",
+      "source": "https://www.aidedd.org/monster/fr/liche"
+    },
+    {
+      "en": "Spiteful Escape",
+      "fr": "Évasion hargneuse",
+      "source": "https://www.aidedd.org/monster/fr/archi-guenaude"
+    },
+    {
+      "en": "Spectral Claw",
+      "fr": "Griffe spectrale",
+      "source": "https://www.aidedd.org/monster/fr/archi-guenaude"
+    },
+    {
+      "en": "Crackling Wave",
+      "fr": "Vague crépitante",
+      "source": "https://www.aidedd.org/monster/fr/archi-guenaude"
+    },
+    {
+      "en": "Witch Strike",
+      "fr": "Et frappe la sorcière",
+      "source": "https://www.aidedd.org/monster/fr/archi-guenaude"
+    },
+    {
+      "en": "Tongue Twister",
+      "fr": "Virelangue",
+      "source": "https://www.aidedd.org/monster/fr/archi-guenaude"
+    },
+    {
+      "en": "Arcane Burst",
+      "fr": "Jaillissement arcanique",
+      "source": "https://www.aidedd.org/monster/fr/mage-apprenti"
+    },
+    {
+      "en": "Misty Step (3/Day)",
+      "fr": "Foulée brumeuse (3/jour)",
+      "source": "https://www.aidedd.org/monster/fr/mage"
+    },
+    {
+      "en": "Protective Magic (3/Day)",
+      "fr": "Magie protectrice (3/jour)",
+      "source": "https://www.aidedd.org/monster/fr/mage"
+    },
+    {
+      "en": "Radiant Burst",
+      "fr": "Éruption radiante",
+      "source": "https://www.aidedd.org/monster/fr/archipretre"
+    },
+    {
+      "en": "Holy Word (Recharge 4–6)",
+      "fr": "Parole divine (recharge 4–6)",
+      "source": "https://www.aidedd.org/monster/fr/archipretre"
+    },
+    {
+      "en": "Divine Aid (3/Day)",
+      "fr": "Soutien divin (3/jour)",
+      "source": "https://www.aidedd.org/monster/fr/solar"
+    },
+    {
+      "en": "Evasion",
+      "fr": "Esquive totale",
+      "source": "https://www.aidedd.org/monster/fr/bandit-baron-du-crime"
+    },
+    {
+      "en": "Shortsword",
+      "fr": "Épée courte",
+      "source": "https://www.aidedd.org/monster/fr/squelette"
+    },
+    {
+      "en": "Light Crossbow",
+      "fr": "Arbalète légère",
+      "source": "https://www.aidedd.org/monster/fr/bandit"
+    },
+    {
+      "en": "Cunning Action",
+      "fr": "Ruse",
+      "source": "https://www.aidedd.org/monster/fr/espion-maitre"
+    },
+    {
+      "en": "Illumination",
+      "fr": "Illumination",
+      "source": "https://www.aidedd.org/monster/fr/squelette-enflamme"
+    },
+    {
+      "en": "Fire Aura",
+      "fr": "Aura de feu",
+      "source": "https://www.aidedd.org/monster/fr/salamandre-serpent-de-feu"
+    },
+    {
+      "en": "Burning Hammer",
+      "fr": "Marteau ardent",
+      "source": "https://www.aidedd.org/monster/fr/azer-sentinelle"
+    },
+    {
+      "en": "Aberrant Ground",
+      "fr": "Sol aberrant",
+      "source": "https://www.aidedd.org/monster/fr/babelien"
+    },
+    {
+      "en": "Gibbering",
+      "fr": "Charabia",
+      "source": "https://www.aidedd.org/monster/fr/babelien"
+    },
+    {
+      "en": "Blinding Spittle (Recharge 5–6)",
+      "fr": "Crachat aveuglant (recharge 5–6)",
+      "source": "https://www.aidedd.org/monster/fr/babelien"
+    },
+    {
+      "en": "Pack Tactics",
+      "fr": "Tactique de meute",
+      "source": "https://www.aidedd.org/monster/fr/vautour-geant"
+    },
+    {
+      "en": "Flyby",
+      "fr": "Repli aérien",
+      "source": "https://www.aidedd.org/monster/fr/serpent-volant"
+    },
+    {
+      "en": "Death Throes",
+      "fr": "Spasmes d'agonie",
+      "source": "https://www.aidedd.org/monster/fr/balor"
+    },
+    {
+      "en": "Legendary Resistance (3/Day)",
+      "fr": "Résistance légendaire (3/jour)",
+      "source": "https://www.aidedd.org/monster/fr/licorne"
+    },
+    {
+      "en": "Flame Whip",
+      "fr": "Fouet embrasé",
+      "source": "https://www.aidedd.org/monster/fr/balor"
+    },
+    {
+      "en": "Lightning Blade",
+      "fr": "Lame de foudre",
+      "source": "https://www.aidedd.org/monster/fr/balor"
+    },
+    {
+      "en": "Scimitar",
+      "fr": "Cimeterre",
+      "source": "https://www.aidedd.org/monster/fr/yuan-ti-infiltrateur"
+    },
+    {
+      "en": "Pistol",
+      "fr": "Pistolet",
+      "source": "https://www.aidedd.org/monster/fr/pirate-capitaine"
+    },
+    {
+      "en": "Deadly Aim",
+      "fr": "Visée meurtrière",
+      "source": "https://www.aidedd.org/monster/fr/bandit-baron-du-crime"
+    },
+    {
+      "en": "Parry",
+      "fr": "Parade",
+      "source": "https://www.aidedd.org/monster/fr/noble"
+    },
+    {
+      "en": "Dagger",
+      "fr": "Dague",
+      "source": "https://www.aidedd.org/monster/fr/pirate"
+    },
+    {
+      "en": "Blinding Flash (Recharge 4–6)",
+      "fr": "Éclat aveuglant (recharge 4–6)",
+      "source": "https://www.aidedd.org/monster/fr/bandit-embrouilleur"
+    },
+    {
+      "en": "Corrupting Touch",
+      "fr": "Contact corrupteur",
+      "source": "https://www.aidedd.org/monster/fr/lamie"
+    },
+    {
+      "en": "Horrify",
+      "fr": "Horreur",
+      "source": "https://www.aidedd.org/monster/fr/banshie"
+    },
+    {
+      "en": "Deathly Wail (1/Day)",
+      "fr": "Plainte funeste (1/jour)",
+      "source": "https://www.aidedd.org/monster/fr/banshie"
+    },
+    {
+      "en": "Demonic Restoration",
+      "fr": "Restauration démoniaque",
+      "source": "https://www.aidedd.org/monster/fr/yochlol"
+    },
+    {
+      "en": "Tormenting Bite",
+      "fr": "Morsure accablante",
+      "source": "https://www.aidedd.org/monster/fr/barlgura"
+    },
+    {
+      "en": "Thrash",
+      "fr": "Rossée",
+      "source": "https://www.aidedd.org/monster/fr/barlgura"
+    },
+    {
+      "en": "Leap",
+      "fr": "Bond",
+      "source": "https://www.aidedd.org/monster/fr/thri-kreen-maraudeur"
+    },
+    {
+      "en": "Petrifying Gaze (Recharge 4–6)",
+      "fr": "Regard pétrifiant (recharge 4–6)",
+      "source": "https://www.aidedd.org/monster/fr/basilic"
+    },
+    {
+      "en": "Sharpened Beak",
+      "fr": "Bec acéré",
+      "source": "https://www.aidedd.org/monster/fr/bec-de-hache-geant-autrache-geante"
+    },
+    {
+      "en": "Beak",
+      "fr": "Bec",
+      "source": "https://www.aidedd.org/monster/fr/vautour"
+    },
+    {
+      "en": "Constrict",
+      "fr": "Constriction",
+      "source": "https://www.aidedd.org/monster/fr/yuan-ti-malfice-type-3"
+    },
+    {
+      "en": "Swallow",
+      "fr": "Engloutissement",
+      "source": "https://www.aidedd.org/monster/fr/ver-pourpre"
+    },
+    {
+      "en": "Lightning Breath (Recharge 5–6)",
+      "fr": "Souffle de foudre (recharge 5–6)",
+      "source": "https://www.aidedd.org/monster/fr/dragon-de-bronze-jeune"
+    },
+    {
+      "en": "Greataxe",
+      "fr": "Hache à deux mains",
+      "source": "https://www.aidedd.org/monster/fr/berserker-chef"
+    },
+    {
+      "en": "Bloodied Frenzy",
+      "fr": "Frénésie du péril",
+      "source": "https://www.aidedd.org/monster/fr/berserker-chef"
+    },
+    {
+      "en": "Frenzied Rush",
+      "fr": "Ruée frénétique",
+      "source": "https://www.aidedd.org/monster/fr/berserker-chef"
+    },
+    {
+      "en": "Stench",
+      "fr": "Puanteur",
+      "source": "https://www.aidedd.org/monster/fr/troglodyte"
+    },
+    {
+      "en": "Speak with Frogs and Toads",
+      "fr": "Communication avec les grenouilles et les crapauds",
+      "source": "https://www.aidedd.org/monster/fr/brutacien-sage-du-marais"
+    },
+    {
+      "en": "Insectile Rapier",
+      "fr": "Rapière venimeuse",
+      "source": "https://www.aidedd.org/monster/fr/brutacien-combattant"
+    },
+    {
+      "en": "Bog Staff",
+      "fr": "Bâton du marais",
+      "source": "https://www.aidedd.org/monster/fr/brutacien-sage-du-marais"
+    },
+    {
+      "en": "Deadly Leap",
+      "fr": "Saut meurtrier",
+      "source": "https://www.aidedd.org/monster/fr/bulette"
+    },
+    {
+      "en": "Water Breathing",
+      "fr": "Respiration aquatique",
+      "source": "https://www.aidedd.org/monster/fr/requin-chasseur"
+    },
+    {
+      "en": "Ink Cloud (1/Day)",
+      "fr": "Nuage d'encre (1/jour)",
+      "source": "https://www.aidedd.org/monster/fr/pieuvre-geante"
+    },
+    {
+      "en": "Fire Ray",
+      "fr": "Rayon de feu",
+      "source": "https://www.aidedd.org/monster/fr/cranefeu"
+    },
+    {
+      "en": "Forest Staff",
+      "fr": "Bâton forestier",
+      "source": "https://www.aidedd.org/monster/fr/centaure-gardien"
+    },
+    {
+      "en": "Sun Ray",
+      "fr": "Rayon du soleil",
+      "source": "https://www.aidedd.org/monster/fr/centaure-gardien"
+    },
+    {
+      "en": "Entangling Trail (Recharge 5–6)",
+      "fr": "Foulées piégeuses (recharge 5–6)",
+      "source": "https://www.aidedd.org/monster/fr/centaure-gardien"
+    },
+    {
+      "en": "Pike",
+      "fr": "Pique",
+      "source": "https://www.aidedd.org/monster/fr/centaure-soldat"
+    },
+    {
+      "en": "Longbow",
+      "fr": "Arc long",
+      "source": "https://www.aidedd.org/monster/fr/hobgobelin-combattant"
+    },
+    {
+      "en": "Trampling Charge (Recharge 5–6)",
+      "fr": "Charge écrasante (recharge 5–6)",
+      "source": "https://www.aidedd.org/monster/fr/centaure-soldat"
+    },
+    {
+      "en": "Agile",
+      "fr": "Agile",
+      "source": "https://www.aidedd.org/monster/fr/rat"
+    },
+    {
+      "en": "Ram",
+      "fr": "Coup de bélier",
+      "source": "https://www.aidedd.org/monster/fr/elan-grand-cervide"
+    },
+    {
+      "en": "Paralyzing Tentacles",
+      "fr": "Tentacules paralysants",
+      "source": "https://www.aidedd.org/monster/fr/grell"
+    },
+    {
+      "en": "Proboscis",
+      "fr": "Trompe",
+      "source": "https://www.aidedd.org/monster/fr/strige"
+    },
+    {
+      "en": "Drone",
+      "fr": "Bourdonnement",
+      "source": "https://www.aidedd.org/monster/fr/chasme"
+    },
+    {
+      "en": "Jumper",
+      "fr": "Sauteur",
+      "source": "https://www.aidedd.org/monster/fr/chat"
+    },
+    {
+      "en": "Scratch",
+      "fr": "Éraflure",
+      "source": "https://www.aidedd.org/monster/fr/tigre-garou"
+    },
+    {
+      "en": "Hooves",
+      "fr": "Sabots",
+      "source": "https://www.aidedd.org/monster/fr/satyre"
+    },
+    {
+      "en": "Greatsword",
+      "fr": "Épée à deux mains",
+      "source": "https://www.aidedd.org/monster/fr/hobgobelin-capitaine"
+    },
+    {
+      "en": "Heavy Crossbow",
+      "fr": "Arbalète lourde",
+      "source": "https://www.aidedd.org/monster/fr/gros-bras-chef"
+    },
+    {
+      "en": "Marshal Undead",
+      "fr": "Brigade des morts-vivants",
+      "source": "https://www.aidedd.org/monster/fr/chevalier-de-la-mort"
+    },
+    {
+      "en": "Undead Restoration",
+      "fr": "Restauration funeste",
+      "source": "https://www.aidedd.org/monster/fr/seigneur-momie-momie-auguste"
+    },
+    {
+      "en": "Dread Blade",
+      "fr": "Lame d'épouvante",
+      "source": "https://www.aidedd.org/monster/fr/chevalier-de-la-mort"
+    },
+    {
+      "en": "Hellfire Orb (Recharge 5–6)",
+      "fr": "Orbe de feu infernal (recharge 5–6)",
+      "source": "https://www.aidedd.org/monster/fr/chevalier-de-la-mort"
+    },
+    {
+      "en": "Fell Word",
+      "fr": "Parole funeste",
+      "source": "https://www.aidedd.org/monster/fr/chevalier-de-la-mort"
+    },
+    {
+      "en": "Aura of Bravery",
+      "fr": "Aura de bravoure",
+      "source": "https://www.aidedd.org/monster/fr/chevalier-errant"
+    },
+    {
+      "en": "Teleport (Recharge 4-6)",
+      "fr": "Téléportation (recharge 4–6)",
+      "source": "https://www.aidedd.org/monster/fr/chien-esquiveur"
+    },
+    {
+      "en": "Fire Breath (Recharge 5–6)",
+      "fr": "Souffle de feu (recharge 5–6)",
+      "source": "https://www.aidedd.org/monster/fr/molosse-infernal"
+    },
+    {
+      "en": "Pincer",
+      "fr": "Pince",
+      "source": "https://www.aidedd.org/monster/fr/glabrezu"
+    },
+    {
+      "en": "Sense Magic",
+      "fr": "Perception de la magie",
+      "source": "https://www.aidedd.org/monster/fr/chuul"
+    },
+    {
+      "en": "Petrifying Bite",
+      "fr": "Morsure pétrifiante",
+      "source": "https://www.aidedd.org/monster/fr/cockatrice"
+    },
+    {
+      "en": "Sap",
+      "fr": "Sape",
+      "source": "https://www.aidedd.org/monster/fr/combattant-commandant"
+    },
+    {
+      "en": "Maneuver",
+      "fr": "Manoeuvre",
+      "source": "https://www.aidedd.org/monster/fr/combattant-commandant"
+    },
+    {
+      "en": "Tactical Charge",
+      "fr": "Charge tactique",
+      "source": "https://www.aidedd.org/monster/fr/combattant-commandant"
+    },
+    {
+      "en": "Counterattack",
+      "fr": "Contre-attaque",
+      "source": "https://www.aidedd.org/monster/fr/combattant-commandant"
+    },
+    {
+      "en": "Spear",
+      "fr": "Lance",
+      "source": "https://www.aidedd.org/monster/fr/kuo-toa"
+    },
+    {
+      "en": "Mimicry",
+      "fr": "Imitation",
+      "source": "https://www.aidedd.org/monster/fr/kenku"
+    },
+    {
+      "en": "Shielded Mind",
+      "fr": "Esprit protégé",
+      "source": "https://www.aidedd.org/monster/fr/couatl"
+    },
+    {
+      "en": "Divine Aid (2/Day)",
+      "fr": "Soutien divin (2/jour)",
+      "source": "https://www.aidedd.org/monster/fr/planetar"
+    },
+    {
+      "en": "Standing Leap",
+      "fr": "Saut sans élan",
+      "source": "https://www.aidedd.org/monster/fr/grenouille-geante"
+    },
+    {
+      "en": "Hold Breath",
+      "fr": "Apnée",
+      "source": "https://www.aidedd.org/monster/fr/plesiosaure"
+    },
+    {
+      "en": "Transparent",
+      "fr": "Transparent",
+      "source": "https://www.aidedd.org/monster/fr/cube-gelatineux"
+    },
+    {
+      "en": "Engulf",
+      "fr": "Enveloppement",
+      "source": "https://www.aidedd.org/monster/fr/tertre-errant"
+    },
+    {
+      "en": "Ooze Cube",
+      "fr": "Cube de vase",
+      "source": "https://www.aidedd.org/monster/fr/cube-gelatineux"
+    },
+    {
+      "en": "Pseudopod",
+      "fr": "Pseudopode",
+      "source": "https://www.aidedd.org/monster/fr/vase-grise"
+    },
+    {
+      "en": "Tentacle Lash",
+      "fr": "Tentacule cinglant",
+      "source": "https://www.aidedd.org/monster/fr/cultiste-d-aberration"
+    },
+    {
+      "en": "Mind Rot",
+      "fr": "Pourriture mentale",
+      "source": "https://www.aidedd.org/monster/fr/cultiste-d-aberration"
+    },
+    {
+      "en": "Counterspell (2/Day)",
+      "fr": "Contresort (2/jour)",
+      "source": "https://www.aidedd.org/monster/fr/cultiste-d-aberration"
+    },
+    {
+      "en": "Elemental Flail",
+      "fr": "Fléau élémentaire",
+      "source": "https://www.aidedd.org/monster/fr/cultiste-d-elementaire"
+    },
+    {
+      "en": "Elemental Claw",
+      "fr": "Griffe élémentaire",
+      "source": "https://www.aidedd.org/monster/fr/cultiste-d-elementaire"
+    },
+    {
+      "en": "Elemental Absorption (1/Day)",
+      "fr": "Absorption élémentaire (1/jour)",
+      "source": "https://www.aidedd.org/monster/fr/cultiste-d-elementaire"
+    },
+    {
+      "en": "Hellish Rebuke",
+      "fr": "Représailles infernales",
+      "source": "https://www.aidedd.org/monster/fr/cultiste-de-fielon"
+    },
+    {
+      "en": "Pact Axe",
+      "fr": "Hache de pacte",
+      "source": "https://www.aidedd.org/monster/fr/cultiste-de-fielon"
+    },
+    {
+      "en": "Pact Blade",
+      "fr": "Lame de pacte",
+      "source": "https://www.aidedd.org/monster/fr/marilith"
+    },
+    {
+      "en": "Spiritual Weapon (2/Day)",
+      "fr": "Arme spirituelle (2/jour)",
+      "source": "https://www.aidedd.org/monster/fr/cultiste-fanatique",
+      "correction": "Parenthèse ouvrante restituée"
+    },
+    {
+      "en": "Dread Scythe",
+      "fr": "Faux de l'effroi",
+      "source": "https://www.aidedd.org/monster/fr/cultiste-funeste"
+    },
+    {
+      "en": "Deathly Ray",
+      "fr": "Rayon nécrosant",
+      "source": "https://www.aidedd.org/monster/fr/cultiste-funeste"
+    },
+    {
+      "en": "Spirit Wail (Recharge 5–6)",
+      "fr": "Gémissement d'outre-tombe (recharge 5–6)",
+      "source": "https://www.aidedd.org/monster/fr/cultiste-funeste"
+    },
+    {
+      "en": "Radiant Ray",
+      "fr": "Rayon radiant",
+      "source": "https://www.aidedd.org/monster/fr/cultiste-hierophante"
+    },
+    {
+      "en": "Ritual Sickle",
+      "fr": "Serpe rituelle",
+      "source": "https://www.aidedd.org/monster/fr/cultiste-sectateur"
+    },
+    {
+      "en": "Stone Club",
+      "fr": "Gourdin de pierre",
+      "source": "https://www.aidedd.org/monster/fr/geant-des-pierres"
+    },
+    {
+      "en": "Limited Foresight (Recharge 6)",
+      "fr": "Prémonition limitée (recharge 6)",
+      "source": "https://www.aidedd.org/monster/fr/cyclope-sentinelle"
+    },
+    {
+      "en": "Draconic Origin",
+      "fr": "Origine draconique",
+      "source": "https://www.aidedd.org/monster/fr/demi-dragon"
+    },
+    {
+      "en": "Dragon's Breath (Recharge 5-6)",
+      "fr": "Souffle du dragon (recharge 5–6)",
+      "source": "https://www.aidedd.org/monster/fr/demi-dragon"
+    },
+    {
+      "en": "Necrotic Burst",
+      "fr": "Décharge nécrotique",
+      "source": "https://www.aidedd.org/monster/fr/demi-liche"
+    },
+    {
+      "en": "Howl (Recharge 5–6)",
+      "fr": "Hurlement (recharge 5–6)",
+      "source": "https://www.aidedd.org/monster/fr/demi-liche"
+    },
+    {
+      "en": "Energy Drain",
+      "fr": "Absorption d'énergie",
+      "source": "https://www.aidedd.org/monster/fr/demi-liche"
+    },
+    {
+      "en": "Grave-Dust Flight",
+      "fr": "Envol funéraire",
+      "source": "https://www.aidedd.org/monster/fr/demi-liche"
+    },
+    {
+      "en": "Necrosis",
+      "fr": "Nécrose",
+      "source": "https://www.aidedd.org/monster/fr/demi-liche"
+    },
+    {
+      "en": "Light Sensitivity",
+      "fr": "Sensibilité à la lumière",
+      "source": "https://www.aidedd.org/monster/fr/manteleur"
+    },
+    {
+      "en": "Umbral Claw",
+      "fr": "Griffe ombreuse",
+      "source": "https://www.aidedd.org/monster/fr/demon-des-ombres"
+    },
+    {
+      "en": "Shadow Stealth",
+      "fr": "Discrétion dans les ombres",
+      "source": "https://www.aidedd.org/monster/fr/ombre"
+    },
+    {
+      "en": "Exalted Restoration",
+      "fr": "Restauration exaltée",
+      "source": "https://www.aidedd.org/monster/fr/solar"
+    },
+    {
+      "en": "Holy Mace",
+      "fr": "Masse sainte",
+      "source": "https://www.aidedd.org/monster/fr/deva"
+    },
+    {
+      "en": "Detect Intelligence",
+      "fr": "Détection de conscience",
+      "source": "https://www.aidedd.org/monster/fr/devoreur-d-intellect"
+    },
+    {
+      "en": "Devour Intellect",
+      "fr": "Dévoration d'intellect",
+      "source": "https://www.aidedd.org/monster/fr/devoreur-d-intellect"
+    },
+    {
+      "en": "Steal Body",
+      "fr": "Pillage corporel",
+      "source": "https://www.aidedd.org/monster/fr/devoreur-d-intellect"
+    },
+    {
+      "en": "Barbed Hide",
+      "fr": "Peau barbelée",
+      "source": "https://www.aidedd.org/monster/fr/diable-barbele"
+    },
+    {
+      "en": "Diabolical Restoration",
+      "fr": "Restauration diabolique",
+      "source": "https://www.aidedd.org/monster/fr/erinye"
+    },
+    {
+      "en": "Hurl Flame",
+      "fr": "Jet de flammes",
+      "source": "https://www.aidedd.org/monster/fr/squelette-enflamme"
+    },
+    {
+      "en": "Beard",
+      "fr": "Barbe",
+      "source": "https://www.aidedd.org/monster/fr/diable-barbu"
+    },
+    {
+      "en": "Infernal Glaive",
+      "fr": "Coutille infernale",
+      "source": "https://www.aidedd.org/monster/fr/diable-barbu"
+    },
+    {
+      "en": "Searing Fork",
+      "fr": "Fourche incendiaire",
+      "source": "https://www.aidedd.org/monster/fr/diable-cornu"
+    },
+    {
+      "en": "Infernal Tail",
+      "fr": "Queue infernale",
+      "source": "https://www.aidedd.org/monster/fr/diable-cornu"
+    },
+    {
+      "en": "Chain",
+      "fr": "Chaîne",
+      "source": "https://www.aidedd.org/monster/fr/diable-des-chaines"
+    },
+    {
+      "en": "Conjure Infernal Chain",
+      "fr": "Invocation de chaîne infernale",
+      "source": "https://www.aidedd.org/monster/fr/diable-des-chaines"
+    },
+    {
+      "en": "Unnerving Gaze",
+      "fr": "Regard dérangeant",
+      "source": "https://www.aidedd.org/monster/fr/diable-des-chaines"
+    },
+    {
+      "en": "Infernal Fork",
+      "fr": "Fourche infernale",
+      "source": "https://www.aidedd.org/monster/fr/diable-epineux"
+    },
+    {
+      "en": "Tail Spine",
+      "fr": "Épine caudale",
+      "source": "https://www.aidedd.org/monster/fr/diable-epineux"
+    },
+    {
+      "en": "Ice Spear",
+      "fr": "Lance de glace",
+      "source": "https://www.aidedd.org/monster/fr/diable-gele"
+    },
+    {
+      "en": "Ice Wall (Recharge 6)",
+      "fr": "Mur de glace (recharge 6)",
+      "source": "https://www.aidedd.org/monster/fr/diable-gele"
+    },
+    {
+      "en": "Infernal Sting",
+      "fr": "Dard infernal",
+      "source": "https://www.aidedd.org/monster/fr/diable-osseux"
+    },
+    {
+      "en": "Sting",
+      "fr": "Dard",
+      "source": "https://www.aidedd.org/monster/fr/wyverne-vouivre"
+    },
+    {
+      "en": "Invisibility",
+      "fr": "Invisibilité",
+      "source": "https://www.aidedd.org/monster/fr/traqueur-invisible"
+    },
+    {
+      "en": "Shape-Shift",
+      "fr": "Changement d'aspect",
+      "source": "https://www.aidedd.org/monster/fr/yuan-ti-malfice-type-3"
+    },
+    {
+      "en": "Fear Aura",
+      "fr": "Aura de terreur",
+      "source": "https://www.aidedd.org/monster/fr/diantrefosse"
+    },
+    {
+      "en": "Legendary Resistance (4/Day)",
+      "fr": "Résistance légendaire (4/jour)",
+      "source": "https://www.aidedd.org/monster/fr/solar"
+    },
+    {
+      "en": "Devilish Claw",
+      "fr": "Griffe diabolique",
+      "source": "https://www.aidedd.org/monster/fr/diantrefosse"
+    },
+    {
+      "en": "Fiery Mace",
+      "fr": "Masse d'armes ardente",
+      "source": "https://www.aidedd.org/monster/fr/diantrefosse"
+    },
+    {
+      "en": "Hellfire Spellcasting (Recharge 4–6)",
+      "fr": "Incantation du feu des enfers (recharge 4–6)",
+      "source": "https://www.aidedd.org/monster/fr/diantrefosse"
+    },
+    {
+      "en": "Elemental Restoration",
+      "fr": "Restauration élémentaire",
+      "source": "https://www.aidedd.org/monster/fr/maride"
+    },
+    {
+      "en": "Wishes",
+      "fr": "Souhaits",
+      "source": "https://www.aidedd.org/monster/fr/maride"
+    },
+    {
+      "en": "Storm Blade",
+      "fr": "Lame d'orage",
+      "source": "https://www.aidedd.org/monster/fr/djinn"
+    },
+    {
+      "en": "Storm Bolt",
+      "fr": "Trait d'orage",
+      "source": "https://www.aidedd.org/monster/fr/kraken"
+    },
+    {
+      "en": "Create Whirlwind",
+      "fr": "Création de tourbillon",
+      "source": "https://www.aidedd.org/monster/fr/djinn"
+    },
+    {
+      "en": "Read Thoughts",
+      "fr": "Lecture des pensées",
+      "source": "https://www.aidedd.org/monster/fr/doppelganger"
+    },
+    {
+      "en": "Unsettling Visage (Recharge 6)",
+      "fr": "Visage déstabilisant (recharge 6)",
+      "source": "https://www.aidedd.org/monster/fr/doppelganger"
+    },
+    {
+      "en": "Frightful Presence",
+      "fr": "Présence terrifiante",
+      "source": "https://www.aidedd.org/monster/fr/dragon-noir-ancien"
+    },
+    {
+      "en": "Ice Walk",
+      "fr": "Marche sur la glace",
+      "source": "https://www.aidedd.org/monster/fr/dragon-blanc-jeune"
+    },
+    {
+      "en": "Cold Breath (Recharge 5–6)",
+      "fr": "Souffle glacial (recharge 5–6)",
+      "source": "https://www.aidedd.org/monster/fr/loup-arctique"
+    },
+    {
+      "en": "Freezing Burst",
+      "fr": "Décharge de gel",
+      "source": "https://www.aidedd.org/monster/fr/dragon-blanc-ancien"
+    },
+    {
+      "en": "Pounce",
+      "fr": "Assaut incisif",
+      "source": "https://www.aidedd.org/monster/fr/dragon-vert-ancien"
+    },
+    {
+      "en": "Sonic Boom",
+      "fr": "Fracas tonitruant",
+      "source": "https://www.aidedd.org/monster/fr/dragon-bleu-ancien"
+    },
+    {
+      "en": "Sleep Breath",
+      "fr": "Souffle soporifique",
+      "source": "https://www.aidedd.org/monster/fr/dragon-d-airain-jeune"
+    },
+    {
+      "en": "Blazing Light",
+      "fr": "Lumière aveuglante",
+      "source": "https://www.aidedd.org/monster/fr/dragon-d-airain-ancien"
+    },
+    {
+      "en": "Scorching Sands",
+      "fr": "Sables brûlants",
+      "source": "https://www.aidedd.org/monster/fr/dragon-d-airain-ancien"
+    },
+    {
+      "en": "Paralyzing Breath",
+      "fr": "Souffle paralysant",
+      "source": "https://www.aidedd.org/monster/fr/dragon-d-argent-jeune"
+    },
+    {
+      "en": "Cold Gale",
+      "fr": "Rafale gelée",
+      "source": "https://www.aidedd.org/monster/fr/dragon-d-argent-ancien"
+    },
+    {
+      "en": "Weakening Breath",
+      "fr": "Souffle affaiblissant",
+      "source": "https://www.aidedd.org/monster/fr/dragon-d-or-jeune"
+    },
+    {
+      "en": "Banish",
+      "fr": "Bannissement",
+      "source": "https://www.aidedd.org/monster/fr/dragon-d-or-ancien"
+    },
+    {
+      "en": "Guiding Light",
+      "fr": "Lumière traçante",
+      "source": "https://www.aidedd.org/monster/fr/dragon-de-bronze-ancien"
+    },
+    {
+      "en": "Repulsion Breath",
+      "fr": "Souffle répulsif",
+      "source": "https://www.aidedd.org/monster/fr/dragon-de-bronze-jeune"
+    },
+    {
+      "en": "Thunderclap",
+      "fr": "Coup de tonnerre",
+      "source": "https://www.aidedd.org/monster/fr/dragon-de-bronze-ancien"
+    },
+    {
+      "en": "Slowing Breath",
+      "fr": "Souffle ralentissant",
+      "source": "https://www.aidedd.org/monster/fr/dragon-de-cuivre-jeune"
+    },
+    {
+      "en": "Acid Breath (Recharge 5–6)",
+      "fr": "Souffle d'acide (recharge 5–6)",
+      "source": "https://www.aidedd.org/monster/fr/dragon-noir-jeune"
+    },
+    {
+      "en": "Giggling Magic",
+      "fr": "Gloussement magique",
+      "source": "https://www.aidedd.org/monster/fr/dragon-de-cuivre-ancien"
+    },
+    {
+      "en": "Mind Jolt",
+      "fr": "Décharge mentale",
+      "source": "https://www.aidedd.org/monster/fr/dragon-de-cuivre-ancien"
+    },
+    {
+      "en": "Cloud of Insects",
+      "fr": "Nuage d'insectes",
+      "source": "https://www.aidedd.org/monster/fr/dragon-noir-ancien"
+    },
+    {
+      "en": "Commanding Presence",
+      "fr": "Autorité naturelle",
+      "source": "https://www.aidedd.org/monster/fr/dragon-rouge-ancien"
+    },
+    {
+      "en": "Fiery Rays",
+      "fr": "Rayons ignés",
+      "source": "https://www.aidedd.org/monster/fr/dragon-rouge-ancien"
+    },
+    {
+      "en": "Poison Breath (Recharge 5–6)",
+      "fr": "Souffle empoisonné (recharge 5–6)",
+      "source": "https://www.aidedd.org/monster/fr/dragon-vert-jeune"
+    },
+    {
+      "en": "Mind Invasion",
+      "fr": "Invasion mentale",
+      "source": "https://www.aidedd.org/monster/fr/dragon-vert-ancien"
+    },
+    {
+      "en": "Noxious Miasma",
+      "fr": "Miasmes nocifs",
+      "source": "https://www.aidedd.org/monster/fr/dragon-vert-ancien"
+    },
+    {
+      "en": "Steam Breath (Recharge 5–6)",
+      "fr": "Souffle de vapeur (recharge 5–6)",
+      "source": "https://www.aidedd.org/monster/fr/dragon-tortue"
+    },
+    {
+      "en": "Fetid Cloud (1/Day)",
+      "fr": "Nuage fétide (1/jour)",
+      "source": "https://www.aidedd.org/monster/fr/dretch"
+    },
+    {
+      "en": "Foreleg",
+      "fr": "Patte avant",
+      "source": "https://www.aidedd.org/monster/fr/drider"
+    },
+    {
+      "en": "Poison Burst",
+      "fr": "Décharge toxique",
+      "source": "https://www.aidedd.org/monster/fr/drider"
+    },
+    {
+      "en": "Magic of the Spider Queen (Recharge 5–6)",
+      "fr": "Magie de la Reine Araignée (recharge 5–6)",
+      "source": "https://www.aidedd.org/monster/fr/drider"
+    },
+    {
+      "en": "Vine Staff",
+      "fr": "Bâton-lierre",
+      "source": "https://www.aidedd.org/monster/fr/druide"
+    },
+    {
+      "en": "Verdant Wisp",
+      "fr": "Éclat verdoyant",
+      "source": "https://www.aidedd.org/monster/fr/druide"
+    },
+    {
+      "en": "Tree Stride",
+      "fr": "Passage par les arbres",
+      "source": "https://www.aidedd.org/monster/fr/dryade"
+    },
+    {
+      "en": "Speak with Beasts and Plants",
+      "fr": "Communication avec les bêtes et les plantes",
+      "source": "https://www.aidedd.org/monster/fr/dryade"
+    },
+    {
+      "en": "Vine Lash",
+      "fr": "Vrille cinglante",
+      "source": "https://www.aidedd.org/monster/fr/dryade"
+    },
+    {
+      "en": "Thorn Burst",
+      "fr": "Décharge d'épines",
+      "source": "https://www.aidedd.org/monster/fr/dryade"
+    },
+    {
+      "en": "Uncanny Dodge",
+      "fr": "Esquive instinctive",
+      "source": "https://www.aidedd.org/monster/fr/saltimbanque"
+    },
+    {
+      "en": "Aim",
+      "fr": "Visée",
+      "source": "https://www.aidedd.org/monster/fr/eclaireur-capitaine"
+    },
+    {
+      "en": "Heated Blade",
+      "fr": "Lame incandescente",
+      "source": "https://www.aidedd.org/monster/fr/efrit"
+    },
+    {
+      "en": "Thunderous Slam",
+      "fr": "Coup tonitruant",
+      "source": "https://www.aidedd.org/monster/fr/elementaire-de-l-air"
+    },
+    {
+      "en": "Whirlwind (Recharge 4–6)",
+      "fr": "Tourbillon (recharge 4–6)",
+      "source": "https://www.aidedd.org/monster/fr/elementaire-de-l-air"
+    },
+    {
+      "en": "Freeze",
+      "fr": "Gel",
+      "source": "https://www.aidedd.org/monster/fr/elementaire-de-l-eau"
+    },
+    {
+      "en": "Whelm (Recharge 4–6)",
+      "fr": "Déluge (recharge 4–6)",
+      "source": "https://www.aidedd.org/monster/fr/elementaire-de-l-eau"
+    },
+    {
+      "en": "Siege Monster",
+      "fr": "Monstre de siège",
+      "source": "https://www.aidedd.org/monster/fr/tarasque"
+    },
+    {
+      "en": "Earth Glide",
+      "fr": "Déplacement tellurique",
+      "source": "https://www.aidedd.org/monster/fr/xorn"
+    },
+    {
+      "en": "Rock Launch",
+      "fr": "Projection de rocher",
+      "source": "https://www.aidedd.org/monster/fr/elementaire-de-la-terre"
+    },
+    {
+      "en": "Fiery Aura",
+      "fr": "Aura de feu",
+      "source": "https://www.aidedd.org/monster/fr/elementaire-du-feu"
+    },
+    {
+      "en": "Burn",
+      "fr": "Brûlure",
+      "source": "https://www.aidedd.org/monster/fr/elementaire-du-feu"
+    },
+    {
+      "en": "Trample",
+      "fr": "Piétinement",
+      "source": "https://www.aidedd.org/monster/fr/mammouth"
+    },
+    {
+      "en": "Reel",
+      "fr": "Traction",
+      "source": "https://www.aidedd.org/monster/fr/ettercap"
+    },
+    {
+      "en": "Slash",
+      "fr": "Taillade",
+      "source": "https://www.aidedd.org/monster/fr/epee-volante-animee"
+    },
+    {
+      "en": "Fearsome Claw",
+      "fr": "Griffe effroyable",
+      "source": "https://www.aidedd.org/monster/fr/epouvantail"
+    },
+    {
+      "en": "Terrifying Glare",
+      "fr": "Regard terrifiant",
+      "source": "https://www.aidedd.org/monster/fr/epouvantail"
+    },
+    {
+      "en": "Withering Sword",
+      "fr": "Épée flétrissante",
+      "source": "https://www.aidedd.org/monster/fr/erinye"
+    },
+    {
+      "en": "Entangling Rope (Requires Magic Rope)",
+      "fr": "Rets implacables (corde magique requise)",
+      "source": "https://www.aidedd.org/monster/fr/erinye"
+    },
+    {
+      "en": "Rapier",
+      "fr": "Rapière",
+      "source": "https://www.aidedd.org/monster/fr/saltimbanque-maestro"
+    },
+    {
+      "en": "Hand Crossbow",
+      "fr": "Arbalète de poing",
+      "source": "https://www.aidedd.org/monster/fr/espion-maitre"
+    },
+    {
+      "en": "Smoke Bomb (1/Day)",
+      "fr": "Bombe fumigène (1/jour)",
+      "source": "https://www.aidedd.org/monster/fr/espion-maitre"
+    },
+    {
+      "en": "Needle Sword",
+      "fr": "Épée-ingle",
+      "source": "https://www.aidedd.org/monster/fr/esprit-follet"
+    },
+    {
+      "en": "Enchanting Bow",
+      "fr": "Arc enchanté",
+      "source": "https://www.aidedd.org/monster/fr/esprit-follet"
+    },
+    {
+      "en": "Heart Sight",
+      "fr": "Perception du for intérieur",
+      "source": "https://www.aidedd.org/monster/fr/esprit-follet"
+    },
+    {
+      "en": "Web Strand (Recharge 5–6)",
+      "fr": "Filandre (recharge 5–6)",
+      "source": "https://www.aidedd.org/monster/fr/ettercap"
+    },
+    {
+      "en": "Battleaxe",
+      "fr": "Hache d'armes",
+      "source": "https://www.aidedd.org/monster/fr/ogrillon-ogre"
+    },
+    {
+      "en": "Morningstar",
+      "fr": "Morgenstern",
+      "source": "https://www.aidedd.org/monster/fr/gobelours-traqueur"
+    },
+    {
+      "en": "Vampiric Connection",
+      "fr": "Lien vampirique",
+      "source": "https://www.aidedd.org/monster/fr/familier-de-vampire"
+    },
+    {
+      "en": "Umbral Dagger",
+      "fr": "Dague des ombres",
+      "source": "https://www.aidedd.org/monster/fr/familier-de-vampire"
+    },
+    {
+      "en": "Deathless Agility",
+      "fr": "Agilité immortelle",
+      "source": "https://www.aidedd.org/monster/fr/vampirien"
+    },
+    {
+      "en": "Etherealness",
+      "fr": "Forme éthérée",
+      "source": "https://www.aidedd.org/monster/fr/fantome"
+    },
+    {
+      "en": "Possession (Recharge 6)",
+      "fr": "Possession (recharge 6)",
+      "source": "https://www.aidedd.org/monster/fr/fantome"
+    },
+    {
+      "en": "Withering Touch",
+      "fr": "Contact flétrissant",
+      "source": "https://www.aidedd.org/monster/fr/fantome"
+    },
+    {
+      "en": "Horrific Visage",
+      "fr": "Visage terrifiant",
+      "source": "https://www.aidedd.org/monster/fr/fantome"
+    },
+    {
+      "en": "Ephemeral",
+      "fr": "Fugace",
+      "source": "https://www.aidedd.org/monster/fr/feu-follet"
+    },
+    {
+      "en": "Shock",
+      "fr": "Décharge",
+      "source": "https://www.aidedd.org/monster/fr/feu-follet"
+    },
+    {
+      "en": "Consume Life",
+      "fr": "Festin d'essence vitale",
+      "source": "https://www.aidedd.org/monster/fr/feu-follet"
+    },
+    {
+      "en": "Vanish",
+      "fr": "Disparition",
+      "source": "https://www.aidedd.org/monster/fr/poltergeist"
+    },
+    {
+      "en": "Tentacles",
+      "fr": "Tentacules",
+      "source": "https://www.aidedd.org/monster/fr/pieuvre-geante"
+    },
+    {
+      "en": "Extract Brain",
+      "fr": "Extraction de cerveau",
+      "source": "https://www.aidedd.org/monster/fr/flagelleur-mental"
+    },
+    {
+      "en": "Mind Blast (Recharge 5–6)",
+      "fr": "Décharge mentale (recharge 5–6)",
+      "source": "https://www.aidedd.org/monster/fr/flagelleur-mental"
+    },
+    {
+      "en": "Advanced Telepathy",
+      "fr": "Télépathie avancée",
+      "source": "https://www.aidedd.org/monster/fr/flumph"
+    },
+    {
+      "en": "Prone Deficiency",
+      "fr": "Syndrome de la tortue",
+      "source": "https://www.aidedd.org/monster/fr/flumph"
+    },
+    {
+      "en": "Telepathic Shroud",
+      "fr": "Camouflage télépathique",
+      "source": "https://www.aidedd.org/monster/fr/flumph"
+    },
+    {
+      "en": "Stench Spray (1/Day)",
+      "fr": "Aspersion nauséabonde (1/jour)",
+      "source": "https://www.aidedd.org/monster/fr/flumph"
+    },
+    {
+      "en": "Warping Hex (Recharge 4–6)",
+      "fr": "Maléfice convulsif (recharge 4–6)",
+      "source": "https://www.aidedd.org/monster/fr/fomoire"
+    },
+    {
+      "en": "Animate Boulders (1/Day)",
+      "fr": "Animation de rochers (1/jour)",
+      "source": "https://www.aidedd.org/monster/fr/galeb-duhr"
+    },
+    {
+      "en": "Fist",
+      "fr": "Poing",
+      "source": "https://www.aidedd.org/monster/fr/singe-geant"
+    },
+    {
+      "en": "Protection",
+      "fr": "Protection",
+      "source": "https://www.aidedd.org/monster/fr/garde-bouclier-anime"
+    },
+    {
+      "en": "Bound",
+      "fr": "Pacte magique",
+      "source": "https://www.aidedd.org/monster/fr/garde-bouclier-anime"
+    },
+    {
+      "en": "Spell Storing",
+      "fr": "Stockage de sort",
+      "source": "https://www.aidedd.org/monster/fr/garde-bouclier-anime"
+    },
+    {
+      "en": "Javelin",
+      "fr": "Javeline",
+      "source": "https://www.aidedd.org/monster/fr/ogrillon-ogre"
+    },
+    {
+      "en": "Longsword",
+      "fr": "Épée longue",
+      "source": "https://www.aidedd.org/monster/fr/hobgobelin-seigneur-de-guerre"
+    },
+    {
+      "en": "Tree Club",
+      "fr": "Arbre-massue",
+      "source": "https://www.aidedd.org/monster/fr/geant-des-collines"
+    },
+    {
+      "en": "Trash Lob",
+      "fr": "Lancer de détritus",
+      "source": "https://www.aidedd.org/monster/fr/geant-des-collines"
+    },
+    {
+      "en": "Misty Step",
+      "fr": "Foulée brumeuse",
+      "source": "https://www.aidedd.org/monster/fr/geant-des-nuages"
+    },
+    {
+      "en": "Thunderous Mace",
+      "fr": "Masse d'armes tonitruante",
+      "source": "https://www.aidedd.org/monster/fr/geant-des-nuages"
+    },
+    {
+      "en": "Thundercloud",
+      "fr": "Nuage de tonnerre",
+      "source": "https://www.aidedd.org/monster/fr/geant-des-nuages"
+    },
+    {
+      "en": "Boulder",
+      "fr": "Rocher",
+      "source": "https://www.aidedd.org/monster/fr/geant-des-pierres"
+    },
+    {
+      "en": "Deflect Missile (Recharge 5–6)",
+      "fr": "Parade de projectile (recharge 5–6)",
+      "source": "https://www.aidedd.org/monster/fr/geant-des-pierres"
+    },
+    {
+      "en": "Storm Sword",
+      "fr": "Épée des orages",
+      "source": "https://www.aidedd.org/monster/fr/geant-des-tempetes"
+    },
+    {
+      "en": "Thunderbolt",
+      "fr": "Foudroiement",
+      "source": "https://www.aidedd.org/monster/fr/geant-des-tempetes"
+    },
+    {
+      "en": "Lightning Storm (Recharge 5–6)",
+      "fr": "Tempête foudroyante (recharge 5–6)",
+      "source": "https://www.aidedd.org/monster/fr/geant-des-tempetes"
+    },
+    {
+      "en": "Flame Sword",
+      "fr": "Épée de feu",
+      "source": "https://www.aidedd.org/monster/fr/geant-du-feu"
+    },
+    {
+      "en": "Hammer Throw",
+      "fr": "Lancer de marteau",
+      "source": "https://www.aidedd.org/monster/fr/geant-du-feu"
+    },
+    {
+      "en": "Frost Axe",
+      "fr": "Hache de givre",
+      "source": "https://www.aidedd.org/monster/fr/geant-du-givre"
+    },
+    {
+      "en": "Great Bow",
+      "fr": "Grand arc",
+      "source": "https://www.aidedd.org/monster/fr/geant-du-givre"
+    },
+    {
+      "en": "War Cry (Recharge 5–6)",
+      "fr": "Cri de guerre (recharge 5–6)",
+      "source": "https://www.aidedd.org/monster/fr/geant-du-givre"
+    },
+    {
+      "en": "Split",
+      "fr": "Division",
+      "source": "https://www.aidedd.org/monster/fr/pouding-noir"
+    },
+    {
+      "en": "Pummel",
+      "fr": "Rincée",
+      "source": "https://www.aidedd.org/monster/fr/glabrezu"
+    },
+    {
+      "en": "Shield Bash",
+      "fr": "Coup de bouclier",
+      "source": "https://www.aidedd.org/monster/fr/gladiateur"
+    },
+    {
+      "en": "Bone Whip",
+      "fr": "Fouet osseux",
+      "source": "https://www.aidedd.org/monster/fr/kuo-toa-cornac"
+    },
+    {
+      "en": "Incite Rampage (Recharge 5–6)",
+      "fr": "Incitation au déchaînement (recharge 5–6)",
+      "source": "https://www.aidedd.org/monster/fr/gnoll-chef-de-meute"
+    },
+    {
+      "en": "Rampage (2/Day)",
+      "fr": "Déchaînement (2/jour)",
+      "source": "https://www.aidedd.org/monster/fr/gnoll-demoniaque"
+    },
+    {
+      "en": "Bone Bow",
+      "fr": "Arc en os",
+      "source": "https://www.aidedd.org/monster/fr/gnoll-combattant"
+    },
+    {
+      "en": "Rampage (1/Day)",
+      "fr": "Déchaînement (1/jour)",
+      "source": "https://www.aidedd.org/monster/fr/hyene-geante"
+    },
+    {
+      "en": "Bone Flail",
+      "fr": "Fléau osseux",
+      "source": "https://www.aidedd.org/monster/fr/gnoll-croc-de-yeenoghu"
+    },
+    {
+      "en": "Abyssal Strike",
+      "fr": "Frappe abyssale",
+      "source": "https://www.aidedd.org/monster/fr/gnoll-demoniaque"
+    },
+    {
+      "en": "Hunger of Yeenoghu (Recharge 5–6)",
+      "fr": "Voracité de Yeenoghu (recharge 5–6)",
+      "source": "https://www.aidedd.org/monster/fr/gnoll-demoniaque"
+    },
+    {
+      "en": "Shortbow",
+      "fr": "Arc court",
+      "source": "https://www.aidedd.org/monster/fr/squelette"
+    },
+    {
+      "en": "Nimble Escape",
+      "fr": "Fuite agile",
+      "source": "https://www.aidedd.org/monster/fr/tigre-a-dents-de-sabre"
+    },
+    {
+      "en": "Redirect Attack",
+      "fr": "Attaque redirigée",
+      "source": "https://www.aidedd.org/monster/fr/gobelin-chef"
+    },
+    {
+      "en": "Hex Stick",
+      "fr": "Bâton à maléfice",
+      "source": "https://www.aidedd.org/monster/fr/gobelin-maleficeur"
+    },
+    {
+      "en": "Jinx",
+      "fr": "Mauvais sort",
+      "source": "https://www.aidedd.org/monster/fr/gobelin-maleficeur"
+    },
+    {
+      "en": "Light Hammer",
+      "fr": "Marteau léger",
+      "source": "https://www.aidedd.org/monster/fr/gobelours-combattant"
+    },
+    {
+      "en": "Abduct",
+      "fr": "Rapt",
+      "source": "https://www.aidedd.org/monster/fr/grell"
+    },
+    {
+      "en": "Grab",
+      "fr": "Empoignade",
+      "source": "https://www.aidedd.org/monster/fr/gobelours-combattant"
+    },
+    {
+      "en": "Quick Grapple",
+      "fr": "Lutte rapide",
+      "source": "https://www.aidedd.org/monster/fr/gobelours-traqueur"
+    },
+    {
+      "en": "Immutable Form",
+      "fr": "Forme immuable",
+      "source": "https://www.aidedd.org/monster/fr/golem-de-pierre"
+    },
+    {
+      "en": "Acid Absorption",
+      "fr": "Absorption de l'acide",
+      "source": "https://www.aidedd.org/monster/fr/golem-d-argile"
+    },
+    {
+      "en": "Berserk",
+      "fr": "Folie furieuse",
+      "source": "https://www.aidedd.org/monster/fr/golem-d-argile"
+    },
+    {
+      "en": "Hasten (Recharge 5–6)",
+      "fr": "Accélération (recharge 5–6)",
+      "source": "https://www.aidedd.org/monster/fr/golem-d-argile"
+    },
+    {
+      "en": "Lightning Absorption",
+      "fr": "Absorption de la foudre",
+      "source": "https://www.aidedd.org/monster/fr/tertre-errant"
+    },
+    {
+      "en": "Aversion to Fire",
+      "fr": "Aversion des flammes",
+      "source": "https://www.aidedd.org/monster/fr/golem-de-chair"
+    },
+    {
+      "en": "Fire Absorption",
+      "fr": "Absorption du feu",
+      "source": "https://www.aidedd.org/monster/fr/golem-de-fer"
+    },
+    {
+      "en": "Bladed Arm",
+      "fr": "Lame brachiale",
+      "source": "https://www.aidedd.org/monster/fr/golem-de-fer"
+    },
+    {
+      "en": "Fiery Bolt",
+      "fr": "Trait enflammé",
+      "source": "https://www.aidedd.org/monster/fr/golem-de-fer"
+    },
+    {
+      "en": "Poison Breath (Recharge 6)",
+      "fr": "Souffle empoisonné (recharge 6)",
+      "source": "https://www.aidedd.org/monster/fr/golem-de-fer"
+    },
+    {
+      "en": "Slow (Recharge 5–6)",
+      "fr": "Lenteur (recharge 5–6)",
+      "source": "https://www.aidedd.org/monster/fr/golem-de-pierre"
+    },
+    {
+      "en": "Petrifying Breath (Recharge 5–6)",
+      "fr": "Souffle pétrifiant (recharge 5–6)",
+      "source": "https://www.aidedd.org/monster/fr/gorgone"
+    },
+    {
+      "en": "Gore",
+      "fr": "Coup de corne",
+      "source": "https://www.aidedd.org/monster/fr/gorgone-ardente"
+    },
+    {
+      "en": "Flame Aura",
+      "fr": "Aura de flammes",
+      "source": "https://www.aidedd.org/monster/fr/gorgone-ardente"
+    },
+    {
+      "en": "Smelting Charge (Recharge 5–6)",
+      "fr": "Charge incandescente (recharge 5–6)",
+      "source": "https://www.aidedd.org/monster/fr/gorgone-ardente"
+    },
+    {
+      "en": "Charge",
+      "fr": "Charge",
+      "source": "https://www.aidedd.org/monster/fr/xorn"
+    },
+    {
+      "en": "Brutal Gore",
+      "fr": "Coup de boutoir",
+      "source": "https://www.aidedd.org/monster/fr/goristro"
+    },
+    {
+      "en": "Rock (Recharge 6)",
+      "fr": "Rocher (recharge 6)",
+      "source": "https://www.aidedd.org/monster/fr/grand-singe"
+    },
+    {
+      "en": "Mace",
+      "fr": "Masse d'armes",
+      "source": "https://www.aidedd.org/monster/fr/pretre-acolyte"
+    },
+    {
+      "en": "Warhammer",
+      "fr": "Marteau de guerre",
+      "source": "https://www.aidedd.org/monster/fr/gros-bras-chef"
+    },
+    {
+      "en": "Vile Appearance",
+      "fr": "Laideur effroyable",
+      "source": "https://www.aidedd.org/monster/fr/guenaude-marine"
+    },
+    {
+      "en": "Death Glare (Recharge 5–6)",
+      "fr": "Regard mortel (recharge 5–6)",
+      "source": "https://www.aidedd.org/monster/fr/guenaude-marine"
+    },
+    {
+      "en": "Illusory Appearance",
+      "fr": "Apparence illusoire",
+      "source": "https://www.aidedd.org/monster/fr/guenaude-marine"
+    },
+    {
+      "en": "Nightmare Haunting (1/Day; Requires Soul Bag)",
+      "fr": "Cauchemars accablants (1/jour ; sac des âmes requis)",
+      "source": "https://www.aidedd.org/monster/fr/guenaude-nocturne"
+    },
+    {
+      "en": "Luring Song",
+      "fr": "Chant captivant",
+      "source": "https://www.aidedd.org/monster/fr/harpie"
+    },
+    {
+      "en": "Bubble Dash",
+      "fr": "Accélération bulleuse",
+      "source": "https://www.aidedd.org/monster/fr/hippocampe-geant"
+    },
+    {
+      "en": "Aura of Authority",
+      "fr": "Aura d'autorité",
+      "source": "https://www.aidedd.org/monster/fr/hobgobelin-capitaine"
+    },
+    {
+      "en": "Telepathic Bond",
+      "fr": "Lien télépathique",
+      "source": "https://www.aidedd.org/monster/fr/homoncule"
+    },
+    {
+      "en": "Arcane Sword",
+      "fr": "Épée arcanique",
+      "source": "https://www.aidedd.org/monster/fr/horreur-casquee"
+    },
+    {
+      "en": "Spell Immunity",
+      "fr": "Immunité magique",
+      "source": "https://www.aidedd.org/monster/fr/horreur-casquee"
+    },
+    {
+      "en": "Hook",
+      "fr": "Crochet",
+      "source": "https://www.aidedd.org/monster/fr/horreur-crochue"
+    },
+    {
+      "en": "Confer Fire Resistance",
+      "fr": "Protection contre les flammes",
+      "source": "https://www.aidedd.org/monster/fr/horriflamme"
+    },
+    {
+      "en": "Ethereal Stride",
+      "fr": "Chevauchée éthérée",
+      "source": "https://www.aidedd.org/monster/fr/horriflamme"
+    },
+    {
+      "en": "Multiple Heads",
+      "fr": "Têtes multiples",
+      "source": "https://www.aidedd.org/monster/fr/hydre"
+    },
+    {
+      "en": "Reactive Heads",
+      "fr": "Têtes réactives",
+      "source": "https://www.aidedd.org/monster/fr/hydre"
+    },
+    {
+      "en": "Succubus Form",
+      "fr": "Forme de succube",
+      "source": "https://www.aidedd.org/monster/fr/incube"
+    },
+    {
+      "en": "Restless Touch",
+      "fr": "Contact fébrile",
+      "source": "https://www.aidedd.org/monster/fr/incube"
+    },
+    {
+      "en": "Nightmare (Recharge 6)",
+      "fr": "Cauchemar (recharge 6)",
+      "source": "https://www.aidedd.org/monster/fr/incube"
+    },
+    {
+      "en": "Shadow Blade",
+      "fr": "Lame d'ombre",
+      "source": "https://www.aidedd.org/monster/fr/kenku"
+    },
+    {
+      "en": "Eldritch Lantern (Recharge 4–6)",
+      "fr": "Lanterne occulte (recharge 4–6)",
+      "source": "https://www.aidedd.org/monster/fr/kenku"
+    },
+    {
+      "en": "Dragon-Tooth Blade",
+      "fr": "Lame en dent de dragon",
+      "source": "https://www.aidedd.org/monster/fr/kobold-aile"
+    },
+    {
+      "en": "Chromatic Spittle",
+      "fr": "Crachat chromatique",
+      "source": "https://www.aidedd.org/monster/fr/kobold-aile"
+    },
+    {
+      "en": "Fling",
+      "fr": "Projection",
+      "source": "https://www.aidedd.org/monster/fr/kraken"
+    },
+    {
+      "en": "Lightning Strike",
+      "fr": "Trait de foudre",
+      "source": "https://www.aidedd.org/monster/fr/kraken"
+    },
+    {
+      "en": "Toxic Ink",
+      "fr": "Encre toxique",
+      "source": "https://www.aidedd.org/monster/fr/kraken"
+    },
+    {
+      "en": "Sticky Net (1/Day)",
+      "fr": "Filet collant (1/jour)",
+      "source": "https://www.aidedd.org/monster/fr/kuo-toa"
+    },
+    {
+      "en": "Sticky Shield",
+      "fr": "Bouclier collant",
+      "source": "https://www.aidedd.org/monster/fr/kuo-toa"
+    },
+    {
+      "en": "Pincer Staff",
+      "fr": "Bâton-tenaille",
+      "source": "https://www.aidedd.org/monster/fr/kuo-toa-fouet"
+    },
+    {
+      "en": "Conjure Slimy Glob",
+      "fr": "Invocation de globule",
+      "source": "https://www.aidedd.org/monster/fr/kuo-toa-fouet"
+    },
+    {
+      "en": "Shield of Faith (2/Day)",
+      "fr": "Bouclier de la foi (2/jour)",
+      "source": "https://www.aidedd.org/monster/fr/kuo-toa-archipretre"
+    },
+    {
+      "en": "Strange Scepter",
+      "fr": "Sceptre cocasse",
+      "source": "https://www.aidedd.org/monster/fr/kuo-toa-archipretre"
+    },
+    {
+      "en": "Hellish Restoration",
+      "fr": "Restauration infernale",
+      "source": "https://www.aidedd.org/monster/fr/nuee-de-lemures"
+    },
+    {
+      "en": "Vile Slime",
+      "fr": "Limon abject",
+      "source": "https://www.aidedd.org/monster/fr/nuee-de-lemures"
+    },
+    {
+      "en": "Spirit Jar",
+      "fr": "Réceptacle spirituel",
+      "source": "https://www.aidedd.org/monster/fr/liche"
+    },
+    {
+      "en": "Eldritch Burst",
+      "fr": "Explosion occulte",
+      "source": "https://www.aidedd.org/monster/fr/liche"
+    },
+    {
+      "en": "Paralyzing Touch",
+      "fr": "Contact paralysant",
+      "source": "https://www.aidedd.org/monster/fr/liche"
+    },
+    {
+      "en": "Protective Magic",
+      "fr": "Magie protectrice",
+      "source": "https://www.aidedd.org/monster/fr/liche"
+    },
+    {
+      "en": "Deathly Teleport",
+      "fr": "Téléportation funeste",
+      "source": "https://www.aidedd.org/monster/fr/liche"
+    },
+    {
+      "en": "Disrupt Life",
+      "fr": "Trouble vital",
+      "source": "https://www.aidedd.org/monster/fr/liche"
+    },
+    {
+      "en": "Frightening Gaze",
+      "fr": "Regard horrifique",
+      "source": "https://www.aidedd.org/monster/fr/liche"
+    },
+    {
+      "en": "Radiant Horn",
+      "fr": "Corne radiante",
+      "source": "https://www.aidedd.org/monster/fr/licorne"
+    },
+    {
+      "en": "Unicorn's Blessing (3/Day)",
+      "fr": "Faveur de la licorne (3/jour)",
+      "source": "https://www.aidedd.org/monster/fr/licorne"
+    },
+    {
+      "en": "Charging Horn",
+      "fr": "Corne la première",
+      "source": "https://www.aidedd.org/monster/fr/licorne"
+    },
+    {
+      "en": "Shimmering Shield",
+      "fr": "Pavois chatoyant",
+      "source": "https://www.aidedd.org/monster/fr/licorne"
+    },
+    {
+      "en": "Constricting Vine",
+      "fr": "Lierre constricteur",
+      "source": "https://www.aidedd.org/monster/fr/lierreux"
+    },
+    {
+      "en": "Entangling Plants (Recharge 5–6)",
+      "fr": "Invasion végétale (recharge 5–6)",
+      "source": "https://www.aidedd.org/monster/fr/lierreux"
+    },
+    {
+      "en": "Running Leap",
+      "fr": "Saut avec élan",
+      "source": "https://www.aidedd.org/monster/fr/tigre-a-dents-de-sabre"
+    },
+    {
+      "en": "Roar",
+      "fr": "Rugissement",
+      "source": "https://www.aidedd.org/monster/fr/lion"
+    },
+    {
+      "en": "Bite (Wolf or Hybrid Form Only)",
+      "fr": "Morsure (forme de loup ou hybride uniquement)",
+      "source": "https://www.aidedd.org/monster/fr/loup-garou"
+    },
+    {
+      "en": "Longbow (Humanoid or Hybrid Form Only)",
+      "fr": "Arc long (forme humanoïde ou hybride uniquement)",
+      "source": "https://www.aidedd.org/monster/fr/tigre-garou"
+    },
+    {
+      "en": "Death Burst",
+      "fr": "Explosion finale",
+      "source": "https://www.aidedd.org/monster/fr/thallophyte-spore-gazeuse"
+    },
+    {
+      "en": "Touch",
+      "fr": "Contact",
+      "source": "https://www.aidedd.org/monster/fr/magmatique"
+    },
+    {
+      "en": "Ignited Illumination",
+      "fr": "Illumination embrasée",
+      "source": "https://www.aidedd.org/monster/fr/magmatique"
+    },
+    {
+      "en": "Crush",
+      "fr": "Écrasement",
+      "source": "https://www.aidedd.org/monster/fr/mante-obscure"
+    },
+    {
+      "en": "Darkness Aura (1/Day)",
+      "fr": "Aura de ténèbres (1/jour)",
+      "source": "https://www.aidedd.org/monster/fr/mante-obscure"
+    },
+    {
+      "en": "Attach",
+      "fr": "Drapement",
+      "source": "https://www.aidedd.org/monster/fr/manteleur"
+    },
+    {
+      "en": "Moan",
+      "fr": "Lamentation",
+      "source": "https://www.aidedd.org/monster/fr/manteleur"
+    },
+    {
+      "en": "Phantasms (Recharge after a Short or Long Rest)",
+      "fr": "Fantasmagories (recharge après un Repos court ou long)",
+      "source": "https://www.aidedd.org/monster/fr/manteleur"
+    },
+    {
+      "en": "Tail Spike",
+      "fr": "Piquant caudal",
+      "source": "https://www.aidedd.org/monster/fr/manticore"
+    },
+    {
+      "en": "Aquatic Lash",
+      "fr": "Gifle des profondeurs",
+      "source": "https://www.aidedd.org/monster/fr/maride"
+    },
+    {
+      "en": "Water Jet",
+      "fr": "Jet d'eau froide",
+      "source": "https://www.aidedd.org/monster/fr/maride"
+    },
+    {
+      "en": "Misty Veil (Recharge 5–6)",
+      "fr": "Voile brumeux (recharge 5–6)",
+      "source": "https://www.aidedd.org/monster/fr/maride"
+    },
+    {
+      "en": "Reactive",
+      "fr": "Réactivité",
+      "source": "https://www.aidedd.org/monster/fr/marilith"
+    },
+    {
+      "en": "Teleport (Recharge 5–6)",
+      "fr": "Téléportation (recharge 5–6)",
+      "source": "https://www.aidedd.org/monster/fr/mezzoloth"
+    },
+    {
+      "en": "Confusing Gaze (Recharge 5–6)",
+      "fr": "Regard déroutant (recharge 5–6)",
+      "source": "https://www.aidedd.org/monster/fr/mastodonte-des-ombres"
+    },
+    {
+      "en": "Snake Hair",
+      "fr": "Chevelure de serpents",
+      "source": "https://www.aidedd.org/monster/fr/meduse"
+    },
+    {
+      "en": "Poison Ray",
+      "fr": "Rayon toxique",
+      "source": "https://www.aidedd.org/monster/fr/yuan-ti-infiltrateur"
+    },
+    {
+      "en": "Petrifying Gaze (Recharge 5–6)",
+      "fr": "Regard pétrifiant (recharge 5–6)",
+      "source": "https://www.aidedd.org/monster/fr/meduse"
+    },
+    {
+      "en": "Mud Breath (Recharge 6)",
+      "fr": "Souffle de boue (recharge 6)",
+      "source": "https://www.aidedd.org/monster/fr/mephite-boueux"
+    },
+    {
+      "en": "Cinder Breath (Recharge 6)",
+      "fr": "Souffle de scories (recharge 6)",
+      "source": "https://www.aidedd.org/monster/fr/mephite-fumant"
+    },
+    {
+      "en": "Fog Cloud (1/Day)",
+      "fr": "Nappe de brouillard (1/jour)",
+      "source": "https://www.aidedd.org/monster/fr/mephite-gele"
+    },
+    {
+      "en": "Frost Breath (Recharge 6)",
+      "fr": "Souffle de givre (recharge 6)",
+      "source": "https://www.aidedd.org/monster/fr/mephite-gele"
+    },
+    {
+      "en": "Fire Breath (Recharge 6)",
+      "fr": "Souffle de feu (recharge 6)",
+      "source": "https://www.aidedd.org/monster/fr/mephite-magmatique"
+    },
+    {
+      "en": "Blinding Breath (Recharge 6)",
+      "fr": "Souffle aveuglant (recharge 6)",
+      "source": "https://www.aidedd.org/monster/fr/mephite-poussiereux"
+    },
+    {
+      "en": "Sleep (1/Day)",
+      "fr": "Sommeil (1/jour)",
+      "source": "https://www.aidedd.org/monster/fr/mephite-poussiereux"
+    },
+    {
+      "en": "Blurred Form",
+      "fr": "Forme floue",
+      "source": "https://www.aidedd.org/monster/fr/mephite-vaporeux"
+    },
+    {
+      "en": "Steam Breath (Recharge 6)",
+      "fr": "Souffle de vapeur (recharge 6)",
+      "source": "https://www.aidedd.org/monster/fr/mephite-vaporeux"
+    },
+    {
+      "en": "Harpoon",
+      "fr": "Harpon",
+      "source": "https://www.aidedd.org/monster/fr/merrow"
+    },
+    {
+      "en": "Mercurial Trident",
+      "fr": "Trident labile",
+      "source": "https://www.aidedd.org/monster/fr/mezzoloth"
+    },
+    {
+      "en": "Adhesive (Object Form Only)",
+      "fr": "Engluage (forme d'objet uniquement)",
+      "source": "https://www.aidedd.org/monster/fr/mimique"
+    },
+    {
+      "en": "Abyssal Glaive",
+      "fr": "Coutille abyssale",
+      "source": "https://www.aidedd.org/monster/fr/minotaure-de-baphomet"
+    },
+    {
+      "en": "Rotting Fist",
+      "fr": "Poing putréfié",
+      "source": "https://www.aidedd.org/monster/fr/seigneur-momie-momie-auguste"
+    },
+    {
+      "en": "Dreadful Glare",
+      "fr": "Regard effroyable",
+      "source": "https://www.aidedd.org/monster/fr/seigneur-momie-momie-auguste"
+    },
+    {
+      "en": "Beast of Burden",
+      "fr": "Bête de somme",
+      "source": "https://www.aidedd.org/monster/fr/mule"
+    },
+    {
+      "en": "Pacifying Spores (1/Day)",
+      "fr": "Spores pacificatrices (1/jour)",
+      "source": "https://www.aidedd.org/monster/fr/myconide-adulte"
+    },
+    {
+      "en": "Rapport Spores",
+      "fr": "Spores de communication",
+      "source": "https://www.aidedd.org/monster/fr/myconide-souverain"
+    },
+    {
+      "en": "Slom",
+      "fr": "Coup",
+      "source": "https://www.aidedd.org/monster/fr/myconide-serviteur-des-spores"
+    },
+    {
+      "en": "Animating Spores (3/Day)",
+      "fr": "Spores d'animation (3/jour)",
+      "source": "https://www.aidedd.org/monster/fr/myconide-souverain"
+    },
+    {
+      "en": "Pacifying Spores",
+      "fr": "Spores pacificatrices",
+      "source": "https://www.aidedd.org/monster/fr/myconide-souverain"
+    },
+    {
+      "en": "Necrotic Ray",
+      "fr": "Rayon nécrotique",
+      "source": "https://www.aidedd.org/monster/fr/naga-corrupteur"
+    },
+    {
+      "en": "Celestial Restoration",
+      "fr": "Restauration céleste",
+      "source": "https://www.aidedd.org/monster/fr/naga-gardien"
+    },
+    {
+      "en": "Poisonous Spittle",
+      "fr": "Crachat venimeux",
+      "source": "https://www.aidedd.org/monster/fr/naga-gardien"
+    },
+    {
+      "en": "Serpentine Gaze",
+      "fr": "Regard ophidien",
+      "source": "https://www.aidedd.org/monster/fr/naga-osseux"
+    },
+    {
+      "en": "Horror Nimbus (Recharge 5–6)",
+      "fr": "Halo d'épouvante (recharge 5–6)",
+      "source": "https://www.aidedd.org/monster/fr/nalfeshnie"
+    },
+    {
+      "en": "Pursuit",
+      "fr": "Poursuite",
+      "source": "https://www.aidedd.org/monster/fr/nalfeshnie"
+    },
+    {
+      "en": "Necrotic Sword",
+      "fr": "Épée nécrotique",
+      "source": "https://www.aidedd.org/monster/fr/necrophage-necronte"
+    },
+    {
+      "en": "Necrotic Bow",
+      "fr": "Arc nécrotique",
+      "source": "https://www.aidedd.org/monster/fr/necrophage-necronte"
+    },
+    {
+      "en": "Beguiling Strike",
+      "fr": "Frappe envoûtante",
+      "source": "https://www.aidedd.org/monster/fr/noble-prodige"
+    },
+    {
+      "en": "Shield (2/Day)",
+      "fr": "Bouclier (2/jour)",
+      "source": "https://www.aidedd.org/monster/fr/noble-prodige"
+    },
+    {
+      "en": "Rotting Gaze",
+      "fr": "Regard putréfiant",
+      "source": "https://www.aidedd.org/monster/fr/nothic"
+    },
+    {
+      "en": "Weird Insight (Recharge 6)",
+      "fr": "Intuition étrange (recharge 6)",
+      "source": "https://www.aidedd.org/monster/fr/nothic"
+    },
+    {
+      "en": "Swarm",
+      "fr": "Nuée",
+      "source": "https://www.aidedd.org/monster/fr/nuee-de-striges"
+    },
+    {
+      "en": "Bites",
+      "fr": "Morsures",
+      "source": "https://www.aidedd.org/monster/fr/nuee-de-serpents-venimeux"
+    },
+    {
+      "en": "Beaks",
+      "fr": "Becs",
+      "source": "https://www.aidedd.org/monster/fr/nuee-de-corbeaux"
+    },
+    {
+      "en": "Cacophony (Recharge 6)",
+      "fr": "Cacophonie (recharge 6)",
+      "source": "https://www.aidedd.org/monster/fr/nuee-de-corbeaux"
+    },
+    {
+      "en": "Fetid Aura",
+      "fr": "Aura fétide",
+      "source": "https://www.aidedd.org/monster/fr/nuee-de-dretches"
+    },
+    {
+      "en": "Swarm of Grasping Hands",
+      "fr": "Nuée de sénestres",
+      "source": "https://www.aidedd.org/monster/fr/nuee-de-griffes-rampantes-senestres"
+    },
+    {
+      "en": "Swarm of Proboscises",
+      "fr": "Nuée de trompes",
+      "source": "https://www.aidedd.org/monster/fr/nuee-de-striges",
+      "correction": "Correction de la coquille française of → de"
+    },
+    {
+      "en": "Mercurial Axe",
+      "fr": "Hache labile",
+      "source": "https://www.aidedd.org/monster/fr/nycaloth"
+    },
+    {
+      "en": "Shadowy Teleport",
+      "fr": "Téléportation ombreuse",
+      "source": "https://www.aidedd.org/monster/fr/nycaloth"
+    },
+    {
+      "en": "Greatclub",
+      "fr": "Massue",
+      "source": "https://www.aidedd.org/monster/fr/ogre"
+    },
+    {
+      "en": "Undead Fortitude",
+      "fr": "Robustesse de la non-vie",
+      "source": "https://www.aidedd.org/monster/fr/zombi"
+    },
+    {
+      "en": "Sunlight Weakness",
+      "fr": "Morsure du soleil",
+      "source": "https://www.aidedd.org/monster/fr/ombre"
+    },
+    {
+      "en": "Draining Swipe",
+      "fr": "Caresse dévitalisante",
+      "source": "https://www.aidedd.org/monster/fr/ombre"
+    },
+    {
+      "en": "Nightmare Ray",
+      "fr": "Rayon de cauchemar",
+      "source": "https://www.aidedd.org/monster/fr/oni"
+    },
+    {
+      "en": "Tentacle Slam",
+      "fr": "Coup de tentacule",
+      "source": "https://www.aidedd.org/monster/fr/otyugh"
+    },
+    {
+      "en": "Bite (Bear or Hybrid Form Only)",
+      "fr": "Morsure (forme d'ours ou hybride uniquement)",
+      "source": "https://www.aidedd.org/monster/fr/ours-garou"
+    },
+    {
+      "en": "Handaxe (Humanoid or Hybrid Form Only)",
+      "fr": "Hachette (forme humanoïde ou hybride uniquement)",
+      "source": "https://www.aidedd.org/monster/fr/ours-garou"
+    },
+    {
+      "en": "Rend (Bear or Hybrid Form Only)",
+      "fr": "Saignée (forme d'ours ou hybride uniquement)",
+      "source": "https://www.aidedd.org/monster/fr/ours-garou"
+    },
+    {
+      "en": "Iron Scent",
+      "fr": "Perception du fer",
+      "source": "https://www.aidedd.org/monster/fr/oxydeur"
+    },
+    {
+      "en": "Antennae",
+      "fr": "Antennes",
+      "source": "https://www.aidedd.org/monster/fr/oxydeur"
+    },
+    {
+      "en": "Destroy Metal",
+      "fr": "Destruction du métal",
+      "source": "https://www.aidedd.org/monster/fr/oxydeur"
+    },
+    {
+      "en": "Reflexive Antennae",
+      "fr": "Antennes réactives",
+      "source": "https://www.aidedd.org/monster/fr/oxydeur"
+    },
+    {
+      "en": "Drop",
+      "fr": "Chute",
+      "source": "https://www.aidedd.org/monster/fr/perceur-perforateur"
+    },
+    {
+      "en": "Enthralling Panache",
+      "fr": "Panache envoûtant",
+      "source": "https://www.aidedd.org/monster/fr/pirate"
+    },
+    {
+      "en": "Poison",
+      "fr": "Poison",
+      "source": "https://www.aidedd.org/monster/fr/pirate-amiral"
+    },
+    {
+      "en": "Awestruck",
+      "fr": "Béat d'admiration",
+      "source": "https://www.aidedd.org/monster/fr/pirate-amiral"
+    },
+    {
+      "en": "Rally (1/Day)",
+      "fr": "Ressaisissement (1/jour)",
+      "source": "https://www.aidedd.org/monster/fr/pirate-amiral"
+    },
+    {
+      "en": "Defensive Stance",
+      "fr": "Posture défensive",
+      "source": "https://www.aidedd.org/monster/fr/pirate-amiral"
+    },
+    {
+      "en": "Captain's Charm",
+      "fr": "Charme du capitaine",
+      "source": "https://www.aidedd.org/monster/fr/pirate-capitaine"
+    },
+    {
+      "en": "Riposte",
+      "fr": "Parade-riposte",
+      "source": "https://www.aidedd.org/monster/fr/pirate-capitaine"
+    },
+    {
+      "en": "Faerie Dust",
+      "fr": "Poussière féerique",
+      "source": "https://www.aidedd.org/monster/fr/pixie"
+    },
+    {
+      "en": "Divine Awareness",
+      "fr": "Vigilance divine",
+      "source": "https://www.aidedd.org/monster/fr/solar"
+    },
+    {
+      "en": "Radiant Sword",
+      "fr": "Épée radiante",
+      "source": "https://www.aidedd.org/monster/fr/planetar"
+    },
+    {
+      "en": "Holy Burst",
+      "fr": "Éruption bénie",
+      "source": "https://www.aidedd.org/monster/fr/planetar"
+    },
+    {
+      "en": "Object Slam",
+      "fr": "Frappe d'objet",
+      "source": "https://www.aidedd.org/monster/fr/poltergeist"
+    },
+    {
+      "en": "Telekinetic Thrust",
+      "fr": "Poussée télékinétique",
+      "source": "https://www.aidedd.org/monster/fr/poltergeist"
+    },
+    {
+      "en": "Corrosive Form",
+      "fr": "Masse corrosive",
+      "source": "https://www.aidedd.org/monster/fr/pouding-noir"
+    },
+    {
+      "en": "Dissolving Pseudopod",
+      "fr": "Pseudopode caustique",
+      "source": "https://www.aidedd.org/monster/fr/pouding-noir"
+    },
+    {
+      "en": "Radiant Flame",
+      "fr": "Flamme radiante",
+      "source": "https://www.aidedd.org/monster/fr/pretre-acolyte"
+    },
+    {
+      "en": "Divine Aid (1/Day)",
+      "fr": "Soutien divin (1/jour)",
+      "source": "https://www.aidedd.org/monster/fr/pretre-acolyte"
+    },
+    {
+      "en": "Bloodied Fury",
+      "fr": "Fureur du péril",
+      "source": "https://www.aidedd.org/monster/fr/sanglier-geant"
+    },
+    {
+      "en": "Greater Magic Resistance",
+      "fr": "Résistance à la magie suprême",
+      "source": "https://www.aidedd.org/monster/fr/rakshasa"
+    },
+    {
+      "en": "Cursed Touch",
+      "fr": "Contact maudit",
+      "source": "https://www.aidedd.org/monster/fr/rakshasa"
+    },
+    {
+      "en": "Baleful Command (Recharge 5–6)",
+      "fr": "Injonction lugubre (recharge 5–6)",
+      "source": "https://www.aidedd.org/monster/fr/rakshasa"
+    },
+    {
+      "en": "Bite (Rat or Hybrid Form Only)",
+      "fr": "Morsure (formes de rat et hybride uniquement)",
+      "source": "https://www.aidedd.org/monster/fr/rat-garou"
+    },
+    {
+      "en": "Hand Crossbow (Humanoid or Hybrid Form Only)",
+      "fr": "Arbalète de poing (forme humanoïde ou hybride uniquement)",
+      "source": "https://www.aidedd.org/monster/fr/rat-garou"
+    },
+    {
+      "en": "Heat Aura",
+      "fr": "Aura de chaleur",
+      "source": "https://www.aidedd.org/monster/fr/remorhaz"
+    },
+    {
+      "en": "Needles",
+      "fr": "Aiguilles",
+      "source": "https://www.aidedd.org/monster/fr/resineux"
+    },
+    {
+      "en": "Vengeful Glare",
+      "fr": "Regard vengeur",
+      "source": "https://www.aidedd.org/monster/fr/revenant"
+    },
+    {
+      "en": "Vow of Revenge (1/Day)",
+      "fr": "Voeu de vengeance (1/jour)",
+      "source": "https://www.aidedd.org/monster/fr/revenant"
+    },
+    {
+      "en": "Club",
+      "fr": "Gourdin",
+      "source": "https://www.aidedd.org/monster/fr/roturier"
+    },
+    {
+      "en": "Training",
+      "fr": "Formation",
+      "source": "https://www.aidedd.org/monster/fr/roturier"
+    },
+    {
+      "en": "Blight Seeds",
+      "fr": "Graines rouilleuses",
+      "source": "https://www.aidedd.org/monster/fr/rouilleux-de-gulthias"
+    },
+    {
+      "en": "Thorn Volley",
+      "fr": "Volée d'épines",
+      "source": "https://www.aidedd.org/monster/fr/rouilleux-de-gulthias"
+    },
+    {
+      "en": "Life-Draining Root",
+      "fr": "Racine vampirique",
+      "source": "https://www.aidedd.org/monster/fr/rouilleux-de-gulthias"
+    },
+    {
+      "en": "Swoop (Recharge 5–6)",
+      "fr": "Piqué (recharge 5–6)",
+      "source": "https://www.aidedd.org/monster/fr/rukh"
+    },
+    {
+      "en": "Blood Frenzy",
+      "fr": "Frénésie sanguinaire",
+      "source": "https://www.aidedd.org/monster/fr/sahuagin-pretre"
+    },
+    {
+      "en": "Trident",
+      "fr": "Trident",
+      "source": "https://www.aidedd.org/monster/fr/sahuagin-baron"
+    },
+    {
+      "en": "Limited Amphibiousness",
+      "fr": "Amphibiose partielle",
+      "source": "https://www.aidedd.org/monster/fr/sahuagin-pretre"
+    },
+    {
+      "en": "Shark Telepathy",
+      "fr": "Télépathie avec les requins",
+      "source": "https://www.aidedd.org/monster/fr/sahuagin-pretre"
+    },
+    {
+      "en": "Fiendish Blood",
+      "fr": "Sang fiélon",
+      "source": "https://www.aidedd.org/monster/fr/sahuagin-baron"
+    },
+    {
+      "en": "Aquatic Charge",
+      "fr": "Charge aquatique",
+      "source": "https://www.aidedd.org/monster/fr/sahuagin-combattant"
+    },
+    {
+      "en": "Spectral Jaws",
+      "fr": "Mâchoire spectrale",
+      "source": "https://www.aidedd.org/monster/fr/sahuagin-pretre"
+    },
+    {
+      "en": "Fiendish Aid (2/Day)",
+      "fr": "Assistance fiélonne (2/jour)",
+      "source": "https://www.aidedd.org/monster/fr/sahuagin-pretre"
+    },
+    {
+      "en": "Flame Spear",
+      "fr": "Lance de flammes",
+      "source": "https://www.aidedd.org/monster/fr/salamandre"
+    },
+    {
+      "en": "Flame Trident",
+      "fr": "Trident de flammes",
+      "source": "https://www.aidedd.org/monster/fr/salamandre-maitresse-des-fournaises"
+    },
+    {
+      "en": "Inferno Blast (Recharge 5–6)",
+      "fr": "Décharge des fournaises (recharge 5–6)",
+      "source": "https://www.aidedd.org/monster/fr/salamandre-maitresse-des-fournaises"
+    },
+    {
+      "en": "Blazing Movement",
+      "fr": "Déplacement ardent",
+      "source": "https://www.aidedd.org/monster/fr/salamandre-maitresse-des-fournaises"
+    },
+    {
+      "en": "Bejeweled Baton",
+      "fr": "Canne gémmée",
+      "source": "https://www.aidedd.org/monster/fr/saltimbanque-legende"
+    },
+    {
+      "en": "Majestic Song",
+      "fr": "Chant majestueux",
+      "source": "https://www.aidedd.org/monster/fr/saltimbanque-legende"
+    },
+    {
+      "en": "Warding Charm",
+      "fr": "Charme protecteur",
+      "source": "https://www.aidedd.org/monster/fr/saltimbanque-legende"
+    },
+    {
+      "en": "Beguiling Song",
+      "fr": "Chant envoûtant",
+      "source": "https://www.aidedd.org/monster/fr/saltimbanque-maestro"
+    },
+    {
+      "en": "Gore (Boar or Hybrid Form Only)",
+      "fr": "Coup de défense (forme de sanglier ou hybride uniquement)",
+      "source": "https://www.aidedd.org/monster/fr/sanglier-garou"
+    },
+    {
+      "en": "Javelin (Humanoid or Hybrid Form Only)",
+      "fr": "Javeline (forme humanoïde ou hybride uniquement)",
+      "source": "https://www.aidedd.org/monster/fr/sanglier-garou"
+    },
+    {
+      "en": "Mockery",
+      "fr": "Moquerie",
+      "source": "https://www.aidedd.org/monster/fr/satyre"
+    },
+    {
+      "en": "Prance",
+      "fr": "Galipette",
+      "source": "https://www.aidedd.org/monster/fr/satyre-maitre-des-rejouissances"
+    },
+    {
+      "en": "Fey Melody (Recharge 4–6)",
+      "fr": "Mélodie féerique (recharge 4–6)",
+      "source": "https://www.aidedd.org/monster/fr/satyre-maitre-des-rejouissances"
+    },
+    {
+      "en": "Charming",
+      "fr": "Charmant",
+      "source": "https://www.aidedd.org/monster/fr/satyre-maitre-des-rejouissances"
+    },
+    {
+      "en": "Frightening",
+      "fr": "Effrayant",
+      "source": "https://www.aidedd.org/monster/fr/satyre-maitre-des-rejouissances"
+    },
+    {
+      "en": "Earth Burst",
+      "fr": "Explosion terreuse",
+      "source": "https://www.aidedd.org/monster/fr/saurial-geomancien"
+    },
+    {
+      "en": "Hail of Stone (Recharge 5–6)",
+      "fr": "Grêle de pierres (recharge 5–6)",
+      "source": "https://www.aidedd.org/monster/fr/saurial-geomancien"
+    },
+    {
+      "en": "Earthen Maul",
+      "fr": "Maillet terrien",
+      "source": "https://www.aidedd.org/monster/fr/saurial-souverain"
+    },
+    {
+      "en": "Channel Negative Energy",
+      "fr": "Conduit d'énergie négative",
+      "source": "https://www.aidedd.org/monster/fr/seigneur-momie-momie-auguste"
+    },
+    {
+      "en": "Whirlwind of Sand",
+      "fr": "Tourbillon de sable",
+      "source": "https://www.aidedd.org/monster/fr/seigneur-momie-momie-auguste"
+    },
+    {
+      "en": "Dread Command",
+      "fr": "Injonction effroyable",
+      "source": "https://www.aidedd.org/monster/fr/seigneur-momie-momie-auguste"
+    },
+    {
+      "en": "Surge",
+      "fr": "Brisant",
+      "source": "https://www.aidedd.org/monster/fr/sibylle-de-l-eau"
+    },
+    {
+      "en": "Boulder Toss (Recharge 6)",
+      "fr": "Jet de rocher (recharge 6)",
+      "source": "https://www.aidedd.org/monster/fr/singe-geant"
+    },
+    {
+      "en": "Mutating Claw",
+      "fr": "Griffe de mutation",
+      "source": "https://www.aidedd.org/monster/fr/slaad-bleu"
+    },
+    {
+      "en": "Chaos Claw",
+      "fr": "Griffe du chaos",
+      "source": "https://www.aidedd.org/monster/fr/slaad-gris"
+    },
+    {
+      "en": "Injecting Claw",
+      "fr": "Griffe d'inoculation",
+      "source": "https://www.aidedd.org/monster/fr/slaad-rouge"
+    },
+    {
+      "en": "Chaos Staff",
+      "fr": "Bâton du chaos",
+      "source": "https://www.aidedd.org/monster/fr/slaad-vert"
+    },
+    {
+      "en": "Flying Sword",
+      "fr": "Épée volante",
+      "source": "https://www.aidedd.org/monster/fr/solar"
+    },
+    {
+      "en": "Slaying Bow",
+      "fr": "Arc tueur",
+      "source": "https://www.aidedd.org/monster/fr/solar"
+    },
+    {
+      "en": "Blinding Gaze",
+      "fr": "Regard aveuglant",
+      "source": "https://www.aidedd.org/monster/fr/solar"
+    },
+    {
+      "en": "Eye Rays",
+      "fr": "Rayons oculaires",
+      "source": "https://www.aidedd.org/monster/fr/tyrannoeil-zombi"
+    },
+    {
+      "en": "1: Confusion Ray",
+      "fr": "1 : Rayon de confusion",
+      "source": "https://www.aidedd.org/monster/fr/spectateur"
+    },
+    {
+      "en": "2: Paralyzing Ray",
+      "fr": "2 : Rayon paralysant",
+      "source": "https://www.aidedd.org/monster/fr/spectateur"
+    },
+    {
+      "en": "3: Fear Ray",
+      "fr": "3 : Rayon de terreur",
+      "source": "https://www.aidedd.org/monster/fr/spectateur"
+    },
+    {
+      "en": "4: Wounding Ray",
+      "fr": "4 : Rayon meurtrissant",
+      "source": "https://www.aidedd.org/monster/fr/spectateur"
+    },
+    {
+      "en": "Spell Reflection",
+      "fr": "Renvoi de sort",
+      "source": "https://www.aidedd.org/monster/fr/spectateur"
+    },
+    {
+      "en": "Inscrutable",
+      "fr": "Insondable",
+      "source": "https://www.aidedd.org/monster/fr/sphinx-valeureux"
+    },
+    {
+      "en": "Mind-Rending Roar (Recharge 5–6)",
+      "fr": "Rugissement débilitant (recharge 5–6)",
+      "source": "https://www.aidedd.org/monster/fr/sphinx-erudit"
+    },
+    {
+      "en": "Arcane Prowl",
+      "fr": "Traque arcanique",
+      "source": "https://www.aidedd.org/monster/fr/sphinx-valeureux"
+    },
+    {
+      "en": "Weight of Years",
+      "fr": "Poids des années",
+      "source": "https://www.aidedd.org/monster/fr/sphinx-valeureux"
+    },
+    {
+      "en": "Burst of Ingenuity (2/Day)",
+      "fr": "Accès d'ingéniosité (2/jour)",
+      "source": "https://www.aidedd.org/monster/fr/sphinx-merveilleux"
+    },
+    {
+      "en": "Roar (3/Day)",
+      "fr": "Rugissement (3/jour)",
+      "source": "https://www.aidedd.org/monster/fr/sphinx-valeureux"
+    },
+    {
+      "en": "Flame Scepter",
+      "fr": "Sceptre enflammé",
+      "source": "https://www.aidedd.org/monster/fr/squelette-enflamme"
+    },
+    {
+      "en": "Incubus Form",
+      "fr": "Forme d'incube",
+      "source": "https://www.aidedd.org/monster/fr/succube"
+    },
+    {
+      "en": "Fiendish Touch",
+      "fr": "Contact fiélon",
+      "source": "https://www.aidedd.org/monster/fr/succube"
+    },
+    {
+      "en": "Charm",
+      "fr": "Charme",
+      "source": "https://www.aidedd.org/monster/fr/succube"
+    },
+    {
+      "en": "Draining Kiss",
+      "fr": "Baiser dévitalisant",
+      "source": "https://www.aidedd.org/monster/fr/succube"
+    },
+    {
+      "en": "Hail of Bark",
+      "fr": "Pluie d'écorce",
+      "source": "https://www.aidedd.org/monster/fr/sylvanien"
+    },
+    {
+      "en": "Animate Trees (1/Day)",
+      "fr": "Animation des arbres (1/jour)",
+      "source": "https://www.aidedd.org/monster/fr/sylvanien"
+    },
+    {
+      "en": "Smother",
+      "fr": "Étouffement",
+      "source": "https://www.aidedd.org/monster/fr/tapis-etrangleur-anime"
+    },
+    {
+      "en": "Legendary Resistance (6/Day)",
+      "fr": "Résistance légendaire (6/jour)",
+      "source": "https://www.aidedd.org/monster/fr/tarasque"
+    },
+    {
+      "en": "Reflective Carapace",
+      "fr": "Carapace réfléchissante",
+      "source": "https://www.aidedd.org/monster/fr/tarasque"
+    },
+    {
+      "en": "Thunderous Bellow (Recharge 5–6)",
+      "fr": "Mugissement tonitruant (recharge 5–6)",
+      "source": "https://www.aidedd.org/monster/fr/tarasque"
+    },
+    {
+      "en": "Onslaught",
+      "fr": "Offensive",
+      "source": "https://www.aidedd.org/monster/fr/tarasque"
+    },
+    {
+      "en": "World-Shaking Movement",
+      "fr": "Déplacement sismique",
+      "source": "https://www.aidedd.org/monster/fr/tarasque"
+    },
+    {
+      "en": "Charged Tendril",
+      "fr": "Vrille électrisée",
+      "source": "https://www.aidedd.org/monster/fr/tertre-errant"
+    },
+    {
+      "en": "Aquatic Burst",
+      "fr": "Décharge aquatique",
+      "source": "https://www.aidedd.org/monster/fr/thalasseen-dompteur-de-l-onde"
+    },
+    {
+      "en": "Watery Rebuke",
+      "fr": "Représailles aqueuses",
+      "source": "https://www.aidedd.org/monster/fr/thalasseen-dompteur-de-l-onde"
+    },
+    {
+      "en": "Ocean Spear",
+      "fr": "Lance océanique",
+      "source": "https://www.aidedd.org/monster/fr/thalasseen-tirailleur"
+    },
+    {
+      "en": "Rotting Touch",
+      "fr": "Contact putréfiant",
+      "source": "https://www.aidedd.org/monster/fr/thallophyte-violette"
+    },
+    {
+      "en": "Shriek",
+      "fr": "Criaillement",
+      "source": "https://www.aidedd.org/monster/fr/thallophyte-criard"
+    },
+    {
+      "en": "Rotting Slam",
+      "fr": "Coup putréfiant",
+      "source": "https://www.aidedd.org/monster/fr/thallophyte-mastonecrofonge"
+    },
+    {
+      "en": "Spore Bomb (Recharge 5-6)",
+      "fr": "Bombe de spores (recharge 5-6)",
+      "source": "https://www.aidedd.org/monster/fr/thallophyte-mastonecrofonge"
+    },
+    {
+      "en": "Absorb Body",
+      "fr": "Absorption corporelle",
+      "source": "https://www.aidedd.org/monster/fr/thallophyte-mastonecrofonge"
+    },
+    {
+      "en": "Tendril",
+      "fr": "Filament",
+      "source": "https://www.aidedd.org/monster/fr/thallophyte-spore-gazeuse"
+    },
+    {
+      "en": "Gythka",
+      "fr": "Gythka",
+      "source": "https://www.aidedd.org/monster/fr/thri-kreen-maraudeur"
+    },
+    {
+      "en": "Psionic Lance",
+      "fr": "Lance psionique",
+      "source": "https://www.aidedd.org/monster/fr/thri-kreen-psion"
+    },
+    {
+      "en": "Bite (Tiger or Hybrid Form Only)",
+      "fr": "Morsure (forme de tigre ou hybride uniquement)",
+      "source": "https://www.aidedd.org/monster/fr/tigre-garou"
+    },
+    {
+      "en": "Prowl (Tiger or Hybrid Form Only)",
+      "fr": "Affût (forme de tigre ou hybride uniquement)",
+      "source": "https://www.aidedd.org/monster/fr/tigre-garou"
+    },
+    {
+      "en": "Bone Cudgel",
+      "fr": "Gourdin en os",
+      "source": "https://www.aidedd.org/monster/fr/torve"
+    },
+    {
+      "en": "Vortex",
+      "fr": "Vortex",
+      "source": "https://www.aidedd.org/monster/fr/traqueur-invisible"
+    },
+    {
+      "en": "Wind Swipe",
+      "fr": "Pique de vent",
+      "source": "https://www.aidedd.org/monster/fr/traqueur-invisible"
+    },
+    {
+      "en": "Loathsome Limbs (4/Day)",
+      "fr": "Membres abominables (4/jour)",
+      "source": "https://www.aidedd.org/monster/fr/troll"
+    },
+    {
+      "en": "1: Paralyzing Ray",
+      "fr": "1 : Rayon paralysant",
+      "source": "https://www.aidedd.org/monster/fr/tyrannoeil-zombi"
+    },
+    {
+      "en": "2: Fear Ray",
+      "fr": "2 : Rayon de terreur",
+      "source": "https://www.aidedd.org/monster/fr/tyrannoeil-zombi"
+    },
+    {
+      "en": "3: Enervation Ray",
+      "fr": "3 : Rayon de nécrose",
+      "source": "https://www.aidedd.org/monster/fr/tyrannoeil-zombi"
+    },
+    {
+      "en": "4: Disintegration Ray",
+      "fr": "4 : Rayon de désintégration",
+      "source": "https://www.aidedd.org/monster/fr/tyrannoeil-zombi"
+    },
+    {
+      "en": "Mercurial Whip",
+      "fr": "Fouet labile",
+      "source": "https://www.aidedd.org/monster/fr/ultroloth"
+    },
+    {
+      "en": "Hypnotic Gaze",
+      "fr": "Regard hypnotisant",
+      "source": "https://www.aidedd.org/monster/fr/ultroloth"
+    },
+    {
+      "en": "Fiendish Guile (Recharge 4–6)",
+      "fr": "Ruse fiélonne (recharge 4–6)",
+      "source": "https://www.aidedd.org/monster/fr/ultroloth"
+    },
+    {
+      "en": "Multiattack (Vampire Form Only)",
+      "fr": "Attaques multiples (forme de vampire uniquement)",
+      "source": "https://www.aidedd.org/monster/fr/vampire"
+    },
+    {
+      "en": "Grave Strike (Vampire Form Only)",
+      "fr": "Frappe funéraire (forme de vampire uniquement)",
+      "source": "https://www.aidedd.org/monster/fr/vampire"
+    },
+    {
+      "en": "Bite (Bat or Vampire Form Only)",
+      "fr": "Morsure (forme de chauve-souris ou de vampire uniquement)",
+      "source": "https://www.aidedd.org/monster/fr/vampire"
+    },
+    {
+      "en": "Charm (Recharge 5–6)",
+      "fr": "Charme (recharge 5–6)",
+      "source": "https://www.aidedd.org/monster/fr/vampire"
+    },
+    {
+      "en": "Deathless Strike",
+      "fr": "Frappe immortelle",
+      "source": "https://www.aidedd.org/monster/fr/vampire"
+    },
+    {
+      "en": "Beguile",
+      "fr": "Subjugation",
+      "source": "https://www.aidedd.org/monster/fr/vampire"
+    },
+    {
+      "en": "Gouge",
+      "fr": "Incision",
+      "source": "https://www.aidedd.org/monster/fr/vautour-geant"
+    },
+    {
+      "en": "Tail Stinger",
+      "fr": "Dard caudal",
+      "source": "https://www.aidedd.org/monster/fr/ver-pourpre"
+    },
+    {
+      "en": "Spores (Recharge 6)",
+      "fr": "Spores (recharge 6)",
+      "source": "https://www.aidedd.org/monster/fr/vrock"
+    },
+    {
+      "en": "Shred",
+      "fr": "Déchiquetage",
+      "source": "https://www.aidedd.org/monster/fr/vrock"
+    },
+    {
+      "en": "Stunning Screech (1/Day)",
+      "fr": "Piaillement étourdissant (1/jour)",
+      "source": "https://www.aidedd.org/monster/fr/vrock"
+    },
+    {
+      "en": "Dreadful Howl (Recharge 5–6)",
+      "fr": "Hurlement (recharge 5–6)",
+      "source": "https://www.aidedd.org/monster/fr/worg-sanguinaire"
+    },
+    {
+      "en": "Warp Step",
+      "fr": "Soubresaut",
+      "source": "https://www.aidedd.org/monster/fr/worg-sanguinaire"
+    },
+    {
+      "en": "Treasure Sense",
+      "fr": "Perception des trésors",
+      "source": "https://www.aidedd.org/monster/fr/xorn"
+    },
+    {
+      "en": "Fear of Fire",
+      "fr": "Aversion du feu",
+      "source": "https://www.aidedd.org/monster/fr/yeti-abominable"
+    },
+    {
+      "en": "Chilling Gaze",
+      "fr": "Regard glaçant",
+      "source": "https://www.aidedd.org/monster/fr/yeti-abominable"
+    },
+    {
+      "en": "Cold Breath (Recharge 6)",
+      "fr": "Souffle glacial (recharge 6)",
+      "source": "https://www.aidedd.org/monster/fr/yeti-abominable"
+    },
+    {
+      "en": "Caustic Lash",
+      "fr": "Vrille caustique",
+      "source": "https://www.aidedd.org/monster/fr/yochlol"
+    },
+    {
+      "en": "Toxic Escape",
+      "fr": "Évasion toxique",
+      "source": "https://www.aidedd.org/monster/fr/yochlol"
+    },
+    {
+      "en": "Poison Spray (Recharge 5–6)",
+      "fr": "Bouffée de poison (recharge 5–6)",
+      "source": "https://www.aidedd.org/monster/fr/yuan-ti-abomination"
+    },
+    {
+      "en": "Spellcasting (Yuan-ti Form Only)",
+      "fr": "Incantation (forme de yuan-ti uniquement)",
+      "source": "https://www.aidedd.org/monster/fr/yuan-ti-malfice-type-3"
+    },
+    {
+      "en": "Poison Ray (Yuan-ti Form Only)",
+      "fr": "Rayon toxique (forme de yuan-ti uniquement)",
+      "source": "https://www.aidedd.org/monster/fr/yuan-ti-malfice-type-1"
+    },
+    {
+      "en": "Poison Burst (Yuan-ti Form Only)",
+      "fr": "Décharge toxique (forme de yuan-ti uniquement)",
+      "source": "https://www.aidedd.org/monster/fr/yuan-ti-malfice-type-3"
+    },
+    {
+      "en": "Avoidance",
+      "fr": "Évitement",
+      "source": "https://www.aidedd.org/monster/fr/bete-eclipsante",
+      "verification": "Titre vérifié dans les deux fiches de la même créature ; seule une description compatible peut être associée à la consultation."
+    },
+    {
+      "en": "Displacement",
+      "fr": "Décalage",
+      "source": "https://www.aidedd.org/monster/fr/bete-eclipsante",
+      "verification": "Titre vérifié dans les deux fiches de la même créature ; seule une description compatible peut être associée à la consultation."
+    },
+    {
+      "en": "Misty Escape",
+      "fr": "Échappatoire brumeuse",
+      "source": "https://www.aidedd.org/monster/fr/vampire",
+      "verification": "Titre vérifié dans les deux fiches de la même créature ; seule une description compatible peut être associée à la consultation."
+    },
+    {
+      "en": "Vampire Weakness",
+      "fr": "Faiblesses des vampires",
+      "source": "https://www.aidedd.org/monster/fr/vampire",
+      "verification": "Titre vérifié dans les deux fiches de la même créature ; seule une description compatible peut être associée à la consultation."
+    },
+    {
+      "en": "Forbiddance",
+      "fr": "Défense d'entrer",
+      "source": "https://www.aidedd.org/monster/fr/vampire",
+      "verification": "Titre vérifié dans les deux fiches de la même créature ; seule une description compatible peut être associée à la consultation."
+    },
+    {
+      "en": "Running Water",
+      "fr": "Eau vive",
+      "source": "https://www.aidedd.org/monster/fr/vampire",
+      "verification": "Titre vérifié dans les deux fiches de la même créature ; seule une description compatible peut être associée à la consultation."
+    },
+    {
+      "en": "Stake to the Heart",
+      "fr": "Pieu dans le coeur",
+      "source": "https://www.aidedd.org/monster/fr/vampire",
+      "verification": "Titre vérifié dans les deux fiches de la même créature ; seule une description compatible peut être associée à la consultation."
+    },
+    {
+      "en": "Sunlight",
+      "fr": "Lumière du soleil",
+      "source": "https://www.aidedd.org/monster/fr/vampire",
+      "verification": "Titre vérifié dans les deux fiches de la même créature ; seule une description compatible peut être associée à la consultation."
+    },
+    {
+      "en": "Sun Sickness",
+      "fr": "Soleillite aiguë",
+      "source": "https://www.aidedd.org/monster/fr/myconide-adulte",
+      "verification": "Titre vérifié dans les deux fiches de la même créature ; seule une description compatible peut être associée à la consultation."
+    },
+    {
+      "en": "Water Susceptibility",
+      "fr": "Vulnérabilité à l'eau",
+      "source": "https://www.aidedd.org/monster/fr/elementaire-du-feu",
+      "verification": "Titre vérifié dans les deux fiches de la même créature ; seule une description compatible peut être associée à la consultation."
+    },
+    {
+      "en": "Invisible in Water",
+      "fr": "Invisibilité aquatique",
+      "source": "https://www.aidedd.org/monster/fr/sibylle-de-l-eau",
+      "verification": "Titre vérifié dans les deux fiches de la même créature ; seule une description compatible peut être associée à la consultation."
+    },
+    {
+      "en": "Water Bound",
+      "fr": "Dépendance aquatique",
+      "source": "https://www.aidedd.org/monster/fr/sibylle-de-l-eau",
+      "verification": "Titre vérifié dans les deux fiches de la même créature ; seule une description compatible peut être associée à la consultation."
+    }
+  ]
+}

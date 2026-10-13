@@ -8,7 +8,11 @@ const pause=ms=>new Promise(r=>setTimeout(r,ms));async function wait(fn){for(let
 const pending=()=>ps.map((p,i)=>({text:p.textContent,row:rows[i]})).filter(({text,row})=>text===row.en&&row.en!==row.fr);
 (async()=>{try{
  w.eval(fs.readFileSync('outputs/shard-dnd-fr.user.js','utf8'));await wait(()=>!pending().length);
- ps.forEach((p,i)=>{const row=rows[i];if(!/\d+\s*-?\s*(?:feet|foot|ft)\b/i.test(row.en))assert.equal(p.textContent,row.fr,row.en.slice(0,80));});
+ ps.forEach((p,i)=>{const row=rows[i];
+  // Messager animal conserve désormais les distances anglaises de Shard,
+  // comme les portées en feet : 50/25 miles, au lieu de 75/37,5 km.
+  const expected=row.en.includes('25 miles')&&row.en.includes('50 miles')?row.fr.replace('75 km','50 miles').replace('37,5 km','25 miles'):row.fr;
+  if(!/\d+\s*-?\s*(?:feet|foot|ft)\b/i.test(row.en))assert.equal(p.textContent,expected,row.en.slice(0,80));});
  dice.forEach((e,i)=>{assert.ok(e.isConnected);assert.equal(e.textContent,values[i]);e.click();});assert.equal(clicks,dice.length);
  const root=[...d.querySelectorAll('[data-shard-fr-ignore]')].map(e=>e.shadowRoot).find(r=>r?.getElementById('enabled')),enabled=root.getElementById('enabled');enabled.checked=false;enabled.dispatchEvent(new w.Event('change'));await wait(()=>main.innerHTML===original);
  console.log(`PASS spell sections: ${rows.length} segments et libellés, ${dice.length} dés cliquables, restauration exacte du HTML.`);

@@ -89,16 +89,20 @@
   function preserveFeet(source,french){
     // Remettre les distances attestées dans le texte anglais, sans toucher aux dés
     // ni convertir les valeurs de la fiche. Aucun rapprochement approximatif de règles.
-    const feet=[...String(source).matchAll(/\b(\d+(?:\.\d+)?(?:\s*\/\s*\d+(?:\.\d+)?)?)\s*-?\s*(?:feet|foot|ft\.?)(?![a-z])/gi)].flatMap(m=>m[1].split('/').map(Number));
-    if(!feet.length)return french;
-    return french.replace(/\b(\d+(?:[.,]\d+)?(?:\s*\/\s*\d+(?:[.,]\d+)?)?)\s*(centimètres?|cm|mètres?|meters?|m)(?![\p{L}\d²³]|\s+(?:carr|cub))/giu,(whole,values,unit)=>{
-      const scale=/^(?:c|cent)/i.test(unit)?100:1, converted=[];
+    const lengths=[...String(source).matchAll(/\b(\d+(?:\.\d+)?(?:\s*\/\s*\d+(?:\.\d+)?)?)\+?\s*-?\s*(feet|foot|ft\.?|inches|inch|miles?)(?![a-z])/gi)].flatMap(m=>m[1].split('/').map(Number).map(value=>({value,unit:/^in/i.test(m[2])?'inch':/^mi/i.test(m[2])?'mile':'foot'})));
+    if(!lengths.length)return french;
+    return french.replace(/\b(\d+(?:[.,]\d+)?(?:\s*\/\s*\d+(?:[.,]\d+)?)?)\s*(centimètres?|cm|kilomètres?|kilometers?|km|mètres?|meters?|m)(?![\p{L}\d²³]|\s+(?:carr|cub))/giu,(whole,values,unit)=>{
+      const scale=/^(?:c|cent)/i.test(unit)?100:/^k/i.test(unit)?0.001:1, converted=[];
       for(const raw of values.split('/')){
         const value=Number(raw.trim().replace(',','.'));
-        const matches=[...new Set(feet.filter(f=>Math.abs(f*0.3*scale-value)<0.011||Math.abs(f*0.3048*scale-value)<0.011))];
+        const rates={foot:[0.3,0.3048],inch:[0.025,0.0254],mile:[1500,1609.344]};
+        const tolerance=scale===100?0.011:0.011*scale;
+        const matches=[...new Map(lengths.filter(length=>rates[length.unit].some(rate=>Math.abs(length.value*rate*scale-value)<tolerance)).map(length=>[length.value+' '+length.unit,length])).values()];
         if(matches.length!==1)return whole;converted.push(matches[0]);
       }
-      return converted.join('/')+(converted.length===1&&converted[0]===1?' foot':' feet');
+      if(converted.some(length=>length.unit!==converted[0].unit))return whole;
+      const kind=converted[0].unit,singular=converted.length===1&&converted[0].value===1;
+      return converted.map(length=>length.value).join('/')+' '+(singular?kind:kind==='foot'?'feet':kind==='inch'?'inches':'miles');
     });
   }
   const weaponMasteryContext=text=>/(?:\bmastery\b|bottes? d.armes?|propriétés? (?:de )?botte|this weapon|cette arme|slashing|piercing|bludgeoning|tranchant|perforant|contondant|two-handed|à deux mains)/i.test(text);
@@ -462,7 +466,11 @@
     for(const candidate of [...region.querySelectorAll('h1,h2,h3,[role="heading"],.titletext')].slice(0,8)){
       const source=blockEnglish(candidate).trim();if(source.length>150)continue;
       if(normalize(source)==='slow'&&weaponMasteryContext(blockEnglish(region)))continue;
-      const found=referenceRows(source).filter(r=>['spell','monster','magic-item'].includes(r.kind));
+      const choices=referenceRows(source);
+      // Perceur/Piercer est aussi bien un don qu’un monstre. Un titre seul
+      // ne permet pas d’ajouter le lien de l’autre catégorie.
+      if(new Set(choices.map(r=>r.kind)).size>1)continue;
+      const found=choices.filter(r=>['spell','monster','magic-item'].includes(r.kind));
       if(found.length){title=candidate;rows=found;break;}
     }
     let existing=directLinks.get(region);
@@ -533,7 +541,7 @@
   // ni rapprocher des valeurs ou des règles différentes (2014 / 2024).
   const contractions={"you've":"you have","we've":"we have","they've":"they have","can't":"cannot","cannot":"cannot","don't":"do not","doesn't":"does not","didn't":"did not","isn't":"is not","aren't":"are not","wasn't":"was not","weren't":"were not","hasn't":"has not","haven't":"have not","hadn't":"had not","won't":"will not","wouldn't":"would not","couldn't":"could not","shouldn't":"should not","mustn't":"must not"};
   const contractionRE=new RegExp('\\b(?:'+Object.keys(contractions).map(escapeRE).join('|')+')\\b','g');
-  const inlineKey=s=>normalize(s).replace(/[“”]/g,'"').replace(contractionRE,m=>contractions[m]).replace(/\s*([.,;:!?()+])\s*/g,'$1').replace(/\s+/g,' ');
+  const inlineKey=s=>normalize(s).replace(/[\uE000-\uF8FF]/g,'').replace(/[“”]/g,'"').replace(contractionRE,m=>contractions[m]).replace(/\b(\d+(?:\.\d+)?)\s*-\s*foot\b/g,'$1 feet').replace(/\b(?:ft|feet|foot)\b\.?/g,'feet').replace(/\s*([.,;:!?()+])\s*/g,'$1').replace(/\s+/g,' ');
   function inlinePriority(key){return inlineSources.has(key)&&(key.length>=35||/[.:]$/.test(key)||key.includes(':')||!entries.has(normalize(key)));}
   function lookupPair(key){
     // Les valeurs courtes d’un champ distant ne remplacent pas un nom du lexique.
@@ -624,7 +632,7 @@
       const entry=entries.get(normalize(match[1]));
       const heading=lookupPair(inlineKey(match[1]+'.'))?.replace(/[.:]$/,'')||lookupPair(inlineKey(match[1]))||entry?.fr;
       // Les descriptions restent françaises, même si les noms isolés sont bilingues.
-      return [...new Set([translate(en,source),heading?heading+match[2]:null,entry?entry.fr+match[2]:null,...(heading&&match[2]?[heading+'.',heading+':']:[]),en].filter(Boolean).map(s=>s.trim()))];
+      return [...new Set([translate(en,source),heading?heading+match[2]:null,entry?entry.fr+match[2]:null,...(heading&&match[2]?[heading+'.',heading+':']:[]),en,en.replace(/[\uE000-\uF8FF]/g,'')].filter(Boolean).map(s=>s.trim()))];
     }
     const formatted=[];
     for(const node of nodes){
@@ -661,7 +669,9 @@
       let found=null;
       for(const value of variants){const re=new RegExp(pattern(value.trim()).replace(/\\\+/g,'\\s*\\+\\s*'),'iu');const m=re.exec(fr.slice(cursor));if(m){const text=m[0].trim(),index=m.index+m[0].length-m[0].trimStart().length;if(!found||index<found.index)found={index,text};}}
       if(!found||!assign(fr.slice(cursor,cursor+found.index),lastIndex,first))return;
-      output.set(owned[0],owner.matches('.dodieroll')?en:found.text);cursor+=found.index+found.text.length;lastIndex=last+1;
+      if(owner.matches('.dodieroll'))for(const node of owned)output.set(node,originalNode(node));
+      else output.set(owned[0],found.text);
+      cursor+=found.index+found.text.length;lastIndex=last+1;
     }
     if(!assign(fr.slice(cursor),lastIndex,nodes.length))return;
     const record={el,revision,bilingual,items:nodes.map(node=>({node,original:originalNode(node),output:output.get(node)}))};inlineBlocks.add(record);
@@ -689,13 +699,36 @@
     return sections.map(section=>({...section,text:section.paragraphs.map(p=>p.text).join(' '),body:section.paragraphs.map((p,i)=>i===0&&section.heading?p.body:p.text).join(' ').trim()}));
   }
   const referenceTitle=s=>inlineKey(s.replace(/[.\s:]+$/,''));
+  const monsterTitleIndex=new Map();
+  for(const row of MONSTER_ACTION_TITLES){const key=referenceTitle(row.en),labels=monsterTitleIndex.get(key)||[];labels.push(referenceTitle(row.fr));monsterTitleIndex.set(key,labels);}
+  function referenceNumbers(text){return (text.match(/\d+(?:[.,]\d+)?/g)||[]).map(v=>Number(v.replace(',','.'))).sort((a,b)=>a-b).join(',');}
+  function referenceCompatible(en,fr){
+    const adapted=preserveFeet(en,fr);
+    const dice=text=>(text.match(/\b\d+d\d+\b/gi)||[]).map(s=>s.toLowerCase()).sort().join(',');
+    return referenceNumbers(en)===referenceNumbers(adapted)&&dice(en)===dice(adapted)&&completeSentenceCoverage(en,adapted);
+  }
+  function matchMonsterActions(english,french){
+    const matches=new Map(),used=new Set();
+    const candidates=(a,known)=>{const labels=[...headingAliases(a.heading),...(monsterTitleIndex.get(referenceTitle(a.heading))||[])];return french.filter(b=>!used.has(b)&&a.group===b.group&&referenceCompatible(a.text,b.text)&&(!known||labels.includes(referenceTitle(b.heading))));};
+    // Commencer par les titres attestés, puis ne retenir une signature de
+    // valeurs que si elle est unique dans les deux sens, dans la même rubrique.
+    for(const a of english){if(!a.heading)continue;const hits=candidates(a,true);if(hits.length===1){matches.set(a,hits[0]);used.add(hits[0]);}}
+    let progress=true;
+    while(progress){progress=false;
+      for(const a of english){if(matches.has(a))continue;const hits=candidates(a,false);if(hits.length!==1)continue;
+        const b=hits[0],reverse=english.filter(other=>!matches.has(other)&&other.group===b.group&&referenceCompatible(other.text,b.text));
+        if(reverse.length===1){matches.set(a,b);used.add(b);progress=true;}
+      }
+    }
+    return matches;
+  }
   function headingAliases(name){
     const base=name.replace(/[.\s:]+$/,''),entry=entries.get(normalize(base));
     return [base,entry?.fr,lookupPair(inlineKey(base)),lookupPair(inlineKey(base+'.')),...(termMeta(normalize(base)).aliases||[])].filter(Boolean).map(referenceTitle);
   }
   function completeSentenceCoverage(en,fr){
     if(!en.trim()||!fr.trim())return !en.trim()&&!fr.trim();
-    const count=text=>text.trim()?text.split(/[.!?](?:\s+|$)/).filter(s=>s.trim()).length:0;
+    const count=text=>text.trim()?text.replace(/\bft\./gi,'feet').split(/[.!?](?:\s+|$)/).filter(s=>s.trim()).length:0;
     // Une fiche FR abrégée ne doit pas faire disparaître une exception de règle EN.
     return count(fr)>=count(en);
   }
@@ -738,11 +771,15 @@
       if(table.some((r,j)=>values(r)!==values(other[j])))return;
       table.forEach((r,j)=>r.forEach((cell,k)=>addInlinePair(cell,other[j][k])));
     });
-    if(row.kind==='monster')for(const action of en.actions){
-      const name=action.heading.replace(/[.\s]+$/,'');
-      const labels=[name,translate(name),...(termMeta(normalize(name)).aliases||[])].map(inlineKey);
-      const hits=fr.actions.filter(a=>labels.includes(inlineKey(a.heading.replace(/[.\s]+$/,''))));
-      if(hits.length===1&&completeSentenceCoverage(action.text,hits[0].text))add(action.text,hits[0].text);
+    if(row.kind==='monster')for(const [a,b]of matchMonsterActions(en.actions,fr.actions)){
+      add(a.text,b.text);if(a.body&&b.body)add(a.body,b.body);
+      if(a.heading&&b.heading)add(a.heading.replace(/[.\s]+$/,'')+'.',b.heading.replace(/[.\s]+$/,'')+'.');
+      // Shard peut séparer en plusieurs P un effet présenté en un seul P sur
+      // la référence. N'apprendre les phrases que si chaque paire garde ses valeurs.
+      const split=text=>text.replace(/\bft\./gi,'feet').split(/(?<=[.!?])\s+/).map(s=>s.trim()).filter(Boolean);
+      const aa=split(a.body),bb=split(b.body);
+      if(aa.length===bb.length&&aa.every((s,i)=>referenceCompatible(s,bb[i])))
+        for(let i=0;i<aa.length;i++)for(let size=1;size<=aa.length-i;size++)add(aa.slice(i,i+size).join(' '),bb.slice(i,i+size).join(' '));
     }
     while(inlinePairs.size>1600){const key=inlinePairs.keys().next().value;inlinePairs.delete(key);inlineSources.delete(key);liveInline.delete(key);}
     saveInlineCache();revision++;queue(document.body);
@@ -852,7 +889,11 @@
     if(!changed)return null;
     for(const piece of pieces)if(piece.en){
       if(!/\p{L}/u.test(piece.en)){piece.fr=piece.en;continue;}
-      const translated=translateHeading(piece.en,source)||translate(piece.en,source);if(inlineKey(translated)===inlineKey(piece.en))return null;piece.fr=translated;
+      const translated=translateHeading(piece.en,source)||translate(piece.en,source);
+      // Expertise, Invisible ou Inspiration sont des libellés attestés qui
+      // s’écrivent de la même manière dans les deux langues.
+      if(inlineKey(translated)===inlineKey(piece.en)&&!knownHeading(piece.en)&&!entries.has(normalize(piece.en)))return null;
+      piece.fr=translated;
     }
     return pieces.map(p=>p.fr).join(' ');
   }

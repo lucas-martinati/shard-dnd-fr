@@ -1,0 +1,458 @@
+{
+  "date": "2026-10-13",
+  "source": "131 cartes et 20 fiches ouvertes relevées dans Shard, références anglaises publiques des dons 2024 et extrait utilisateur des Faveurs épiques. Les références complètent les détails non présents dans les cartes.",
+  "cartesShard": 131,
+  "fichesShardOuvertes": 20,
+  "dons2024": [
+    {
+      "en": "Elemental Adept",
+      "fr": "Adepte élémentaire",
+      "source": "https://www.aidedd.org/feat/elemental-adept",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Fey-Touched",
+      "fr": "Affinité féerique",
+      "source": "https://www.aidedd.org/feat/fey-touched",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Shadow-Touched",
+      "fr": "Affinité ombreuse",
+      "source": "https://www.aidedd.org/feat/shadow-touched",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Ability Score Improvement",
+      "fr": "Amélioration de caractéristique",
+      "source": "https://www.aidedd.org/feat/ability-score-improvement",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Archery",
+      "fr": "Archerie",
+      "source": "https://www.aidedd.org/feat/archery",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Great Weapon Fighting",
+      "fr": "Arme à deux mains",
+      "source": "https://www.aidedd.org/feat/great-weapon-fighting",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Thrown Weapon Fighting",
+      "fr": "Arme de lancer",
+      "source": "https://www.aidedd.org/feat/thrown-weapon-fighting",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Athlete",
+      "fr": "Athlète",
+      "source": "https://www.aidedd.org/feat/athlete",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Tavern Brawler",
+      "fr": "Bagarreur de tavernes",
+      "source": "https://www.aidedd.org/feat/tavern-brawler",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Crusher",
+      "fr": "Broyeur",
+      "source": "https://www.aidedd.org/feat/crusher",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Lucky",
+      "fr": "Chanceux",
+      "source": "https://www.aidedd.org/feat/lucky",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Chef",
+      "fr": "Chef cuisinier",
+      "source": "https://www.aidedd.org/feat/chef",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Two-Weapon Fighting",
+      "fr": "Combat à deux armes",
+      "source": "https://www.aidedd.org/feat/two-weapon-fighting",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Unarmed Fighting",
+      "fr": "Combat à mains nues",
+      "source": "https://www.aidedd.org/feat/unarmed-fighting",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Blind Fighting",
+      "fr": "Combat en aveugle",
+      "source": "https://www.aidedd.org/feat/blind-fighting",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Dual Wielder",
+      "fr": "Combattant à deux armes",
+      "source": "https://www.aidedd.org/feat/dual-wielder",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Mounted Combatant",
+      "fr": "Combattant monté",
+      "source": "https://www.aidedd.org/feat/mounted-combatant",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Actor",
+      "fr": "Comédien",
+      "source": "https://www.aidedd.org/feat/actor",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Defense",
+      "fr": "Défense",
+      "source": "https://www.aidedd.org/feat/defense",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Skulker",
+      "fr": "Discret",
+      "source": "https://www.aidedd.org/feat/skulker",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Skilled",
+      "fr": "Doué",
+      "source": "https://www.aidedd.org/feat/skilled",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Dueling",
+      "fr": "Duel",
+      "source": "https://www.aidedd.org/feat/dueling",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Defensive Duelist",
+      "fr": "Duelliste défensif",
+      "source": "https://www.aidedd.org/feat/defensive-duelist",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Piercer",
+      "fr": "Empaleur",
+      "source": "https://www.aidedd.org/feat/piercer",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Grappler",
+      "fr": "Empoigneur",
+      "source": "https://www.aidedd.org/feat/grappler",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Poisoner",
+      "fr": "Empoisonneur",
+      "source": "https://www.aidedd.org/feat/poisoner",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Keen Mind",
+      "fr": "Esprit affûté",
+      "source": "https://www.aidedd.org/feat/keen-mind",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Skill Expert",
+      "fr": "Expert",
+      "source": "https://www.aidedd.org/feat/skill-expert",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Charger",
+      "fr": "Expert de la charge",
+      "source": "https://www.aidedd.org/feat/charger",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Crafter",
+      "fr": "Façonneur",
+      "source": "https://www.aidedd.org/feat/crafter",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Boon of Irresistible Offense",
+      "fr": "Faveur d'attaque irrésistible",
+      "source": "https://www.aidedd.org/feat/boon-of-irresistible-offense",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Boon of Skill",
+      "fr": "Faveur de compétence",
+      "source": "https://www.aidedd.org/feat/boon-of-skill",
+      "detail": "extrait utilisateur"
+    },
+    {
+      "en": "Boon of Dimensional Travel",
+      "fr": "Faveur de déplacement dimensionnel",
+      "source": "https://www.aidedd.org/feat/boon-of-dimensional-travel",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Boon of the Night Spirit",
+      "fr": "Faveur de l'esprit nocturne",
+      "source": "https://www.aidedd.org/feat/boon-of-the-night-spirit",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Boon of Spell Recall",
+      "fr": "Faveur de mémoire magique",
+      "source": "https://www.aidedd.org/feat/boon-of-spell-recall",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Boon of Combat Prowess",
+      "fr": "Faveur de prouesse martiale",
+      "source": "https://www.aidedd.org/feat/boon-of-combat-prowess",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Boon of Recovery",
+      "fr": "Faveur de récupération",
+      "source": "https://www.aidedd.org/feat/boon-of-recovery",
+      "detail": "fiche Shard"
+    },
+    {
+      "en": "Boon of Energy Resistance",
+      "fr": "Faveur de résistance aux énergies",
+      "source": "https://www.aidedd.org/feat/boon-of-energy-resistance",
+      "detail": "fiche Shard"
+    },
+    {
+      "en": "Boon of Fortitude",
+      "fr": "Faveur de vigueur",
+      "source": "https://www.aidedd.org/feat/boon-of-fortitude",
+      "detail": "fiche Shard"
+    },
+    {
+      "en": "Boon of Truesight",
+      "fr": "Faveur de vision véritable",
+      "source": "https://www.aidedd.org/feat/boon-of-truesight",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Boon of Speed",
+      "fr": "Faveur de vitesse",
+      "source": "https://www.aidedd.org/feat/boon-of-speed",
+      "detail": "extrait utilisateur"
+    },
+    {
+      "en": "Boon of Fate",
+      "fr": "Faveur du destin",
+      "source": "https://www.aidedd.org/feat/boon-of-fate",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Inspiring Leader",
+      "fr": "Figure de proue",
+      "source": "https://www.aidedd.org/feat/inspiring-leader",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Martial Weapon Training",
+      "fr": "Formation aux armes de guerre",
+      "source": "https://www.aidedd.org/feat/martial-weapon-training",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Durable",
+      "fr": "Gaillard",
+      "source": "https://www.aidedd.org/feat/durable",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Healer",
+      "fr": "Guérisseur",
+      "source": "https://www.aidedd.org/feat/healer",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Spell Sniper",
+      "fr": "Incantateur d'élite",
+      "source": "https://www.aidedd.org/feat/spell-sniper",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Magic Initiate",
+      "fr": "Initié à la magie",
+      "source": "https://www.aidedd.org/feat/magic-initiate",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Interception",
+      "fr": "Interception",
+      "source": "https://www.aidedd.org/feat/interception",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "War Caster",
+      "fr": "Mage de guerre",
+      "source": "https://www.aidedd.org/feat/war-caster",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Ritual Caster",
+      "fr": "Magie rituelle",
+      "source": "https://www.aidedd.org/feat/ritual-caster",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Weapon Master",
+      "fr": "Maître d'armes",
+      "source": "https://www.aidedd.org/feat/weapon-master",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Polearm Master",
+      "fr": "Maître d'hast",
+      "source": "https://www.aidedd.org/feat/polearm-master",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Great Weapon Master",
+      "fr": "Maître des armes lourdes",
+      "source": "https://www.aidedd.org/feat/great-weapon-master",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Medium Armor Master",
+      "fr": "Maître des armures intermédiaires",
+      "source": "https://www.aidedd.org/feat/medium-armor-master",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Heavy Armor Master",
+      "fr": "Maître des armures lourdes",
+      "source": "https://www.aidedd.org/feat/heavy-armor-master",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Shield Master",
+      "fr": "Maître des boucliers",
+      "source": "https://www.aidedd.org/feat/shield-master",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Crossbow Expert",
+      "fr": "Maître-arbalétrier",
+      "source": "https://www.aidedd.org/feat/crossbow-expert",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Speedy",
+      "fr": "Mobile",
+      "source": "https://www.aidedd.org/feat/speedy",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Musician",
+      "fr": "Musicien",
+      "source": "https://www.aidedd.org/feat/musician",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Observant",
+      "fr": "Observateur",
+      "source": "https://www.aidedd.org/feat/observant",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Protection",
+      "fr": "Protection",
+      "source": "https://www.aidedd.org/feat/protection",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Moderately Armored",
+      "fr": "Protection intermédiaire",
+      "source": "https://www.aidedd.org/feat/moderately-armored",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Lightly Armored",
+      "fr": "Protection légère",
+      "source": "https://www.aidedd.org/feat/lightly-armored",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Heavily Armored",
+      "fr": "Protection lourde",
+      "source": "https://www.aidedd.org/feat/heavily-armored",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Resilient",
+      "fr": "Résilient",
+      "source": "https://www.aidedd.org/feat/resilient",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Tough",
+      "fr": "Robuste",
+      "source": "https://www.aidedd.org/feat/tough",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Savage Attacker",
+      "fr": "Sauvagerie martiale",
+      "source": "https://www.aidedd.org/feat/savage-attacker",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Sentinel",
+      "fr": "Sentinelle",
+      "source": "https://www.aidedd.org/feat/sentinel",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Telekinetic",
+      "fr": "Télékinésiste",
+      "source": "https://www.aidedd.org/feat/telekinetic",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Telepathic",
+      "fr": "Télépathe",
+      "source": "https://www.aidedd.org/feat/telepathic",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Sharpshooter",
+      "fr": "Tireur d'élite",
+      "source": "https://www.aidedd.org/feat/sharpshooter",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Slasher",
+      "fr": "Trancheur",
+      "source": "https://www.aidedd.org/feat/slasher",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Mage Slayer",
+      "fr": "Tueur de mages",
+      "source": "https://www.aidedd.org/feat/mage-slayer",
+      "detail": "référence anglaise AideDD"
+    },
+    {
+      "en": "Alert",
+      "fr": "Vigilant",
+      "source": "https://www.aidedd.org/feat/alert",
+      "detail": "référence anglaise AideDD"
+    }
+  ]
+}

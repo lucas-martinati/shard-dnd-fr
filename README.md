@@ -51,6 +51,10 @@ La 1.17.4 traduit les descriptions de présentation relevées dans les catalogue
 
 La 1.17.5 complète les 48 fiches relevées dans le catalogue Conditions : états anciens, états 2024 et effets Shard tels que Vision dans le noir, En sang, encombrement, abris, agrandissement et rapetissement. Les règles affichées restent celles de chaque fiche, y compris les différences d’Épuisement et d’Étourdi entre éditions. Les tableaux, liens et dés sont testés à partir du HTML réel ; `translations/regles/conditions-shard.json` inventorie ce corpus.
 
+La 1.17.6 couvre localement les descriptions des 75 dons PHB 2024, dont les 12 faveurs épiques, avec les styles de combat, les prérequis et les variantes anciennes relevées. Les tests portent sur 131 cartes Shard, 20 fiches ouvertes et les descriptions détaillées complétées par les références anglaises et l’extrait utilisateur. Ce corpus comprend 223 extraits et 739 blocs/champs ; les 75 fiches détaillées n’ont pas toutes été vérifiées en direct dans Shard.
+
+Pour le bestiaire, cette version traduit localement la tarasque entière et 217 traits communs relevés sur 183 créatures. Elle ajoute aussi 628 titres d’aptitudes pour améliorer la traduction des descriptions chargées à la consultation. L’audit des 498 références identifie 1 912 appariements sur 2 171 blocs anglais ; ces appariements ne prouvent pas une traduction complète de tous les monstres dans Shard. Les descriptions absentes ou incompatibles restent à compléter. Gras, italiques, liens, paragraphes et dés avec leurs icônes sont testés, ainsi que le retour exact à l’anglais.
+
 ## Ajouter des traductions
 
 Les fichiers `translations/<catégorie>/traductions.json` sont détectés automatiquement à la génération. Ajouter un texte anglais, son français et sa source suffit ; aucun changement du moteur n’est nécessaire.

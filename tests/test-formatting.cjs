@@ -7,7 +7,7 @@ const cases=[
  ['frenzy','Frenzy','<b><i>Frenzy.</i></b> ',get('frenzy').en.replace('Reckless Attack','<strong>Reckless Attack</strong>').replace('d6s','<b class="dodieroll">d6</b>s'),'Frénésie.'],
  ['persistent-rage.2','Persistent Rage','<strong>Persistent Rage.</strong> ',get('persistent-rage.2').en.replace('Unconscious','<a href="#condition-unconscious">Unconscious</a>').replace('Incapacitated','<a href="#condition-incapacitated">Incapacitated</a>'),'Rage persistante.'],
  ['brutal-strike','Brutal Strike','<strong>Brutal Strike.</strong> ',get('brutal-strike').en.replace('1d10','<b class="dodieroll">1d10</b>'),'Coup brutal.'],
- ['actor.impersonation','Impersonation','<em><strong>Impersonation.</strong></em> ',get('actor.impersonation').en,'Usurpation d’identité.']
+ ['actor.impersonation','Impersonation','<em><strong>Impersonation.</strong></em> ',get('actor.impersonation').en,'Imposture.']
 ];
 const example=fs.readFileSync('translations/classes/metamagic-descriptions.tsv','utf8').split('\n').find(line=>line.startsWith('To be eligible')).split('|');
 rows.push({id:'barbarian.high.test.spell-link',en:example[0],fr:example[1]});

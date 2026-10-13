@@ -1,0 +1,90 @@
+{
+  "source": "Extrait utilisateur Tarasque 2024 ; valeurs vérifiées par la référence anglaise AideDD. Structure reproduite avec paragraphes, liens, dés et icônes, sans données de partie.",
+  "html": "<article role=\"dialog\"><h2 class=\"titletext\">Tarrasque</h2><div class=\"description\"><h3>Traits</h3><p class=\"pre-wrap\"><strong><em>Legendary Resistance (6/Day).</em></strong> If the tarrasque fails a saving throw, it can choose to succeed instead.</p><p class=\"pre-wrap\"><strong><em>Magic Resistance.</em></strong> The tarrasque has Advantage on saving throws against spells and other magical effects.</p><p class=\"pre-wrap\"><strong><em>Reflective Carapace.</em></strong> If the tarrasque is targeted by a <a href=\"#reference-magic-missile\">Magic Missile</a> spell or a spell that requires a ranged attack roll, roll <strong class=\"dodieroll\"><span class=\"fas fa-dice-d20\">&#xf6cf;</span>1d6</strong>. On a 1-5, the tarrasque is unaffected. On a <strong class=\"dodieroll\"><span class=\"fas fa-dice-d20\">&#xf6cf;</span>6</strong>, the tarrasque is unaffected and reflects the spell, turning the caster into the target.</p><p class=\"pre-wrap\"><strong><em>Siege Monster.</em></strong> The tarrasque deals double damage to objects and structures.</p><h3>Actions</h3><p class=\"pre-wrap\"><strong><em>Multiattack.</em></strong> The tarrasque makes one Bite attack and three other attacks, using Claw or Tail in any combination.</p><p class=\"pre-wrap\"><strong><em>Bite.</em></strong> Melee Attack Roll: <strong class=\"dodieroll\">+19</strong>, reach 15 ft. Hit: 36 (<strong class=\"dodieroll\"><span class=\"fas fa-dice-d20\">&#xf6cf;</span>4d12 + 10</strong>) Piercing damage, and the target has the <a href=\"#reference-grappled\">Grappled</a> condition (escape DC 20). Until the grapple ends, the target has the <a href=\"#reference-restrained\">Restrained</a> condition and can't teleport.</p><p class=\"pre-wrap\"><strong><em>Claw.</em></strong> Melee Attack Roll: <strong class=\"dodieroll\">+19</strong>, reach 15 ft. Hit: 28 (<strong class=\"dodieroll\"><span class=\"fas fa-dice-d20\">&#xf6cf;</span>4d8 + 10</strong>) Slashing damage.</p><p class=\"pre-wrap\"><strong><em>Tail.</em></strong> Melee Attack Roll: <strong class=\"dodieroll\">+19</strong>, reach 30 ft. Hit: 23 (<strong class=\"dodieroll\"><span class=\"fas fa-dice-d20\">&#xf6cf;</span>3d8 + 10</strong>) Bludgeoning damage. If the target is a Huge or smaller creature, it has the <a href=\"#reference-prone\">Prone</a> condition.</p><p class=\"pre-wrap\"><strong><em>Thunderous Bellow (Recharge 5–6).</em></strong> Constitution Saving Throw: DC 27, each creature and each object that isn't being worn or carried in a 150-foot Cone. Failure: 78 (<strong class=\"dodieroll\"><span class=\"fas fa-dice-d20\">&#xf6cf;</span>12d12</strong>) Thunder damage, and the target has the <a href=\"#reference-deafened\">Deafened</a> and <a href=\"#reference-frightened\">Frightened</a> conditions until the end of its next turn. Success: Half damage only.</p><h3>Bonus Actions</h3><p class=\"pre-wrap\"><strong><em>Swallow.</em></strong> Strength Saving Throw: DC 27, one Large or smaller creature <a href=\"#reference-grappled\">Grappled</a> by the tarrasque (it can have up to six creatures swallowed at a time). Failure: The target is swallowed, and the <a href=\"#reference-grappled\">Grappled</a> condition ends. A swallowed creature has the <a href=\"#reference-blinded\">Blinded</a> and <a href=\"#reference-restrained\">Restrained</a> conditions and can't teleport, it has Total Cover against attacks and other effects outside the tarrasque, and it takes 56 (<strong class=\"dodieroll\"><span class=\"fas fa-dice-d20\">&#xf6cf;</span>16d6</strong>) Acid damage at the start of each of the tarrasque's turns.</p><p class=\"pre-wrap\">If the tarrasque takes 60 damage or more on a single turn from a creature inside it, the tarrasque must succeed on a DC 20 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, each of which falls in a space within 10 feet of the tarrasque and has the <a href=\"#reference-prone\">Prone</a> condition. If the tarrasque dies, any swallowed creature no longer has the <a href=\"#reference-restrained\">Restrained</a> condition and can escape from the corpse using 20 feet of movement, exiting <a href=\"#reference-prone\">Prone</a>.</p><h3>Legendary Actions</h3><p class=\"pre-wrap\">Legendary Action Uses: 3. Immediately after another creature's turn, The tarrasque can expend a use to take one of the following actions. The tarrasque regains all expended uses at the start of each of its turns.</p><p class=\"pre-wrap\"><strong><em>Onslaught.</em></strong> The tarrasque moves up to half its Speed, and it makes one Claw or Tail attack.</p><p class=\"pre-wrap\"><strong><em>World-Shaking Movement.</em></strong> The tarrasque moves up to its Speed. At the end of this movement, the tarrasque creates an instantaneous shock wave in a 60-foot Emanation originating from itself. Creatures in that area lose Concentration and, if Medium or smaller, have the <a href=\"#reference-prone\">Prone</a> condition. The tarrasque can't take this action again until the start of its next turn.</p></div></article>",
+  "expectations": [
+    {
+      "heading": "Legendary Resistance (6/Day)",
+      "frHeading": "Résistance légendaire (6/jour)",
+      "en": "If the tarrasque fails a saving throw, it can choose to succeed instead.",
+      "fr": "Si la tarasque rate un jet de sauvegarde, elle peut décider de le réussir à la place."
+    },
+    {
+      "heading": "Magic Resistance",
+      "frHeading": "Résistance à la magie",
+      "en": "The tarrasque has Advantage on saving throws against spells and other magical effects.",
+      "fr": "La tarasque a l’Avantage aux jets de sauvegarde contre les sorts et les autres effets magiques."
+    },
+    {
+      "heading": "Reflective Carapace",
+      "frHeading": "Carapace réfléchissante",
+      "en": "If the tarrasque is targeted by a Magic Missile spell or a spell that requires a ranged attack roll, roll 1d6. On a 1-5, the tarrasque is unaffected. On a 6, the tarrasque is unaffected and reflects the spell, turning the caster into the target.",
+      "fr": "Si la tarasque est ciblée par le sort Projectile magique ou par un sort qui nécessite un jet d’attaque à distance, lancez 1d6. Sur un résultat de 1–5, la tarasque n’est pas affectée. Sur un 6, elle n’est pas affectée et renvoie le sort sur son incantateur, qui en devient la cible."
+    },
+    {
+      "heading": "Siege Monster",
+      "frHeading": "Monstre de siège",
+      "en": "The tarrasque deals double damage to objects and structures.",
+      "fr": "La tarasque inflige le double de dégâts aux objets et aux structures."
+    },
+    {
+      "heading": "Multiattack",
+      "frHeading": "Attaques multiples",
+      "en": "The tarrasque makes one Bite attack and three other attacks, using Claw or Tail in any combination.",
+      "fr": "La tarasque effectue une attaque de Morsure et trois autres attaques, en combinant Griffe et Queue à sa guise."
+    },
+    {
+      "heading": "Bite",
+      "frHeading": "Morsure",
+      "en": "Melee Attack Roll: +19, reach 15 ft. Hit: 36 (4d12 + 10) Piercing damage, and the target has the Grappled condition (escape DC 20). Until the grapple ends, the target has the Restrained condition and can't teleport.",
+      "fr": "Jet d’attaque de corps à corps : +19, allonge 15 feet. Touché : 36 (4d12 + 10) dégâts perforants, et la cible subit l’état Agrippé (évasion DD 20). Jusqu’à la fin de cet agrippement, la cible subit l’état Entravé et ne peut pas se téléporter."
+    },
+    {
+      "heading": "Claw",
+      "frHeading": "Griffe",
+      "en": "Melee Attack Roll: +19, reach 15 ft. Hit: 28 (4d8 + 10) Slashing damage.",
+      "fr": "Jet d’attaque de corps à corps : +19, allonge 15 feet. Touché : 28 (4d8 + 10) dégâts tranchants."
+    },
+    {
+      "heading": "Tail",
+      "frHeading": "Queue",
+      "en": "Melee Attack Roll: +19, reach 30 ft. Hit: 23 (3d8 + 10) Bludgeoning damage. If the target is a Huge or smaller creature, it has the Prone condition.",
+      "fr": "Jet d’attaque de corps à corps : +19, allonge 30 feet. Touché : 23 (3d8 + 10) dégâts contondants. Si la cible est une créature de taille Très grande ou inférieure, elle subit l’état À terre."
+    },
+    {
+      "heading": "Thunderous Bellow (Recharge 5–6)",
+      "frHeading": "Mugissement tonitruant (recharge 5–6)",
+      "en": "Constitution Saving Throw: DC 27, each creature and each object that isn't being worn or carried in a 150-foot Cone. Failure: 78 (12d12) Thunder damage, and the target has the Deafened and Frightened conditions until the end of its next turn. Success: Half damage only.",
+      "fr": "Jet de sauvegarde de Constitution : DD 27, chaque créature et chaque objet qui n’est ni porté ni transporté dans un Cône de 150 feet. Échec : 78 (12d12) dégâts de tonnerre, et la cible subit les états Assourdi et Effrayé jusqu’à la fin de son prochain tour. Réussite : moitié des dégâts uniquement."
+    },
+    {
+      "heading": "Swallow",
+      "frHeading": "Engloutissement",
+      "en": "Strength Saving Throw: DC 27, one Large or smaller creature Grappled by the tarrasque (it can have up to six creatures swallowed at a time). Failure: The target is swallowed, and the Grappled condition ends. A swallowed creature has the Blinded and Restrained conditions and can't teleport, it has Total Cover against attacks and other effects outside the tarrasque, and it takes 56 (16d6) Acid damage at the start of each of the tarrasque's turns.",
+      "fr": "Jet de sauvegarde de Force : DD 27, une créature de taille Grande ou inférieure Agrippée par la tarasque, qui peut avoir jusqu’à six créatures englouties à la fois. Échec : la cible est engloutie et l’état Agrippé prend fin. Une créature engloutie subit les états Aveuglé et Entravé et ne peut pas se téléporter ; elle bénéficie d’un Abri total contre les attaques et autres effets venant de l’extérieur de la tarasque, et subit 56 (16d6) dégâts d’acide au début de chacun des tours de la tarasque."
+    },
+    {
+      "heading": "",
+      "frHeading": "",
+      "en": "If the tarrasque takes 60 damage or more on a single turn from a creature inside it, the tarrasque must succeed on a DC 20 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, each of which falls in a space within 10 feet of the tarrasque and has the Prone condition. If the tarrasque dies, any swallowed creature no longer has the Restrained condition and can escape from the corpse using 20 feet of movement, exiting Prone.",
+      "fr": "Si la tarasque subit au moins 60 dégâts au cours d’un même tour de la part d’une créature dans son corps, elle doit réussir un jet de sauvegarde de Constitution DD 20 à la fin de ce tour ou régurgiter toutes les créatures englouties. Chacune tombe dans un espace situé à 10 feet ou moins de la tarasque et subit l’état À terre. Si la tarasque meurt, les créatures englouties ne subissent plus l’état Entravé et peuvent sortir du cadavre en dépensant 20 feet de déplacement, en se retrouvant À terre."
+    },
+    {
+      "heading": "",
+      "frHeading": "",
+      "en": "Legendary Action Uses: 3. Immediately after another creature's turn, The tarrasque can expend a use to take one of the following actions. The tarrasque regains all expended uses at the start of each of its turns.",
+      "fr": "Utilisations d’action légendaire : 3. Immédiatement après le tour d’une autre créature, la tarasque peut dépenser une utilisation pour entreprendre l’une des actions suivantes. Elle récupère toutes les utilisations dépensées au début de chacun de ses tours."
+    },
+    {
+      "heading": "Onslaught",
+      "frHeading": "Offensive",
+      "en": "The tarrasque moves up to half its Speed, and it makes one Claw or Tail attack.",
+      "fr": "La tarasque se déplace jusqu’à la moitié de sa Vitesse et effectue une attaque de Griffe ou de Queue."
+    },
+    {
+      "heading": "World-Shaking Movement",
+      "frHeading": "Déplacement sismique",
+      "en": "The tarrasque moves up to its Speed. At the end of this movement, the tarrasque creates an instantaneous shock wave in a 60-foot Emanation originating from itself. Creatures in that area lose Concentration and, if Medium or smaller, have the Prone condition. The tarrasque can't take this action again until the start of its next turn.",
+      "fr": "La tarasque se déplace jusqu’à sa Vitesse. À la fin de ce déplacement, elle crée une onde de choc instantanée dans une Émanation de 60 feet centrée sur elle. Les créatures dans cette zone perdent leur Concentration et, si elles sont de taille Moyenne ou inférieure, subissent l’état À terre. La tarasque ne peut plus entreprendre cette action avant le début de son prochain tour."
+    }
+  ]
+}

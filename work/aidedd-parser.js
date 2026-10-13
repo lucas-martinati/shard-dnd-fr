@@ -67,7 +67,22 @@ function parseAideDDPage(html, row) {
   if(description){collectBlocks(description);flushBlock();}
   // Ne pas associer les paragraphes d’un monstre par simple position : les versions peuvent différer.
   const paragraphs=row.kind==='monster'?[]:(description?plain(description).split(/\n+/).map(x=>x.trim()).filter(Boolean):[]);
-  const actions=row.kind==='monster'?[...content.querySelectorAll('.sansSerif > p')].map(p=>({heading:p.querySelector('strong')?.textContent.trim()||'',text:clean(p)})):[];
+  const actions=[];
+  if(row.kind==='monster'){
+    // Les traits, réactions et introductions légendaires ne sont pas dans
+    // .description. Garder leurs rubriques et leurs limites de paragraphes.
+    let group='traits';
+    const groups={'traits':'traits','actions':'actions','bonus actions':'bonus','actions bonus':'bonus','reactions':'reactions','réactions':'reactions','legendary actions':'legendary','actions légendaires':'legendary','lair actions':'lair','actions d’antre':'lair'};
+    for(const el of content.querySelectorAll('.sansSerif > *')){
+      if(el.matches('h2,h3')){group=groups[clean(el).toLowerCase()]||'other';continue;}
+      if(!el.matches('p,.legend'))continue;
+      let heading=el.matches('.legend')?'':el.querySelector('strong,b')?.textContent.trim()||'';
+      // Certaines fiches mettent tout le paragraphe en gras.
+      if(heading.length>150)heading=/^(.{1,100}?)\.\s/.exec(heading)?.[1]||'';
+      const text=clean(el),body=heading?text.slice(heading.length).replace(/^[\s.:]+/,''):text;
+      if(text)actions.push({heading,text,body,group,paragraphs:plain(el).split(/\n+/).map(s=>s.trim()).filter(Boolean)});
+    }
+  }
   const fields={};for(const cls of ['t','r','c','d','prerequis']){const el=content.querySelector(':scope > .'+cls);if(el){const full=clean(el);fields[cls]={full,value:full.replace(/^[^:]+:\s*/, '')};}}
   const tables=description?[...description.querySelectorAll('table')].map(t=>[...t.rows].map(r=>[...r.cells].map(clean))):[];
   return {title,text,englishURL,frenchURL,fields,description:description?clean(description):'',paragraphs,blocks,actions,tables};

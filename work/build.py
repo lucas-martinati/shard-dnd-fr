@@ -56,6 +56,8 @@ for r in catalog:
 parts.append('const AIDEDD_CATALOG = '+json.dumps(catalog,ensure_ascii=False,separators=(',',':'))+';\n')
 parts.append('const LEGACY_CATALOG = '+(work/'legacy-catalog.json').read_text()+';\n')
 parts.append('const COMPLETE_TEXTS = '+(work/'complete-texts.json').read_text()+';\n')
+monster_titles=json.loads((root/'translations/monstres/titres-aptitudes-2024.json').read_text())['entries']
+parts.append('const MONSTER_ACTION_TITLES = '+json.dumps(monster_titles,ensure_ascii=False,separators=(',',':'))+';\n')
 parts.append((work/'aidedd-parser.js').read_text())
 parts.append((work/'runtime.js').read_text());parts.append('\n})();\n')
 (out/'shard-dnd-fr.user.js').write_text(''.join(parts))

@@ -35,6 +35,11 @@ def report():
     shard_catalogue = json.loads((ROOT/'translations/regles/conditions-shard.json').read_text())
     shard_conditions = shard_catalogue['fiches']
     condition_details = shard_catalogue['fichesOuvertes']
+    feats = json.loads((ROOT/'translations/dons/catalogue-2024.json').read_text())
+    feat_samples = json.loads((ROOT/'tests/fixtures/feat-catalog.json').read_text())
+    monster_titles = json.loads((ROOT/'translations/monstres/titres-aptitudes-2024.json').read_text())['entries']
+    monster_references = json.loads((ROOT/'translations/monstres/couverture-references-2024.json').read_text())['fiches']
+    common_traits = json.loads((ROOT/'translations/monstres/traits-communs-2024.json').read_text())['traits']
     pack_ids = {r['id'] for r in packs}
     if any(ident not in pack_ids for f in presentations for ident in f['paragraphes']):
         raise ValueError('Le catalogue des descriptions visibles référence un bloc absent des packs')
@@ -58,6 +63,9 @@ def report():
             'sortsSRD2024':len(json.loads(source('spell-reference.json').read_text())),
             'descriptionsEquipementSRD2024':len(json.loads(source('equipment-texts.json').read_text())),
             'blocsDonsEtStylesHistoriques':len(json.loads(source('feat-texts.json').read_text())),
+            'donsPHB2024':{'donsIndexes':len(feats['dons2024']),'cartesShardRelevees':feats['cartesShard'],'fichesShardOuvertes':feats['fichesShardOuvertes'],'extraitsTestes':len(feat_samples),'blocsEtChampsTestes':sum(len(s['expectations']) for s in feat_samples)},
+            'aptitudesMonstres2024':{'titresBilingues':len(monster_titles),'referencesComparees':len(monster_references),'blocsAnglaisReleves':sum(r['actionsEN'] for r in monster_references),'appariementsDeReference':sum(r['matched'] for r in monster_references),'blocsDeReferenceAVerifier':sum(len(r['aVerifier']) for r in monster_references),'referencesSansActionsFrancaises':sum(not r['actionsFR'] for r in monster_references),'tarasqueParagraphesTestes':14},
+            'traitsCommunsMonstres2024':{'traitsReleves':len(common_traits),'creaturesConcernees':len({r['monster'] for r in common_traits}),'familles':dict(Counter(r['family'] for r in common_traits))},
             'armesSRD2024':len(json.loads((ROOT/'translations/armes/catalogue-2024.json').read_text())['weapons']),
             'sousSectionsEtVariantesClasses':len(json.loads((ROOT/'work/class-sections.json').read_text())),
             'nomsSousClassesPHB2024':48,
@@ -70,6 +78,9 @@ def report():
             'Les présentations Shard sont celles des cartes relevées : espèces et lignages, classes, 48 sous-classes PHB 2024 et historiques. Elles ne représentent pas toutes les descriptions d’aptitudes des sous-classes ni tous les livres.',
             'Les libellés et blocs éditables comptent les correspondances anglaises distinctes, y compris les variantes ; plusieurs blocs peuvent appartenir à une seule règle.',
             'Les états 2024 sont vérifiés sur des reproductions HTML locales. Les noms du catalogue ne prouvent pas la couverture des états et effets personnalisés de Shard.',
+            'Les 75 dons PHB 2024 ont des descriptions locales testées. Les 131 cartes Shard et 20 fiches ouvertes ont été relevées dans le navigateur ; les autres descriptions détaillées viennent des références anglaises publiques et de l’extrait utilisateur des faveurs épiques, et restent à contrôler dans Shard.',
+            'Les appariements d’aptitudes de monstres comparent les références AideDD : ils ne mesurent pas la traduction effective de toutes les variantes Shard. Les références françaises absentes, abrégées ou avec des valeurs incompatibles restent à vérifier. La tarasque est également couverte localement.',
+            'Les traits communs du bestiaire sont des correspondances locales de corps anglais exacts ; ils ne couvrent pas toutes les autres aptitudes des créatures concernées et ne servent pas de modèles pour des règles inconnues.',
             'Les descriptions AideDD de sorts, monstres, dons, manifestations et objets sont chargées à la consultation et dépendent du réseau et de la correspondance du texte anglais.',
             'Les blocs historiques de dons ne disposent pas tous d’un identifiant de don : leur couverture par entité est indéterminée.',
             'Les suppléments, contenus maison et textes Shard non présents dans les sources peuvent rester en anglais.',

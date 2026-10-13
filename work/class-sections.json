@@ -755,6 +755,21 @@
     "source": "SRD 5.2.1 EN/FR · sous-section de monk / Heightened Focus"
   },
   {
+    "en": "Whenever you hit a creature with an attack granted by your Flurry of Blows, you can impose one of the following effects on that target.",
+    "fr": "Chaque fois que vous touchez une créature avec l’une des attaques octroyées par Déluge de coups, vous pouvez imposer l’un des effets suivants à cette cible. Hésitation. La cible ne peut pas effectuer d’attaque d’Opportunité jusqu’au début de son tour suivant.",
+    "source": "SRD 5.2.1 EN/FR · sous-section de monk / Open Hand Technique"
+  },
+  {
+    "en": "Push. The target must succeed on a Strength saving throw or be pushed up to 15 feet away from you.",
+    "fr": "Bourrade. La cible doit réussir un jet de sauvegarde de Force sous peine d’être repoussée de vous d’un maximum de 15 feet.",
+    "source": "SRD 5.2.1 EN/FR · sous-section de monk / Open Hand Technique"
+  },
+  {
+    "en": "The target must succeed on a Strength saving throw or be pushed up to 15 feet away from you.",
+    "fr": "La cible doit réussir un jet de sauvegarde de Force sous peine d’être repoussée de vous d’un maximum de 15 feet.",
+    "source": "SRD 5.2.1 EN/FR · sous-section de monk / Open Hand Technique"
+  },
+  {
     "en": "Topple. The target must succeed on a Dexterity saving throw or have the Prone condition.",
     "fr": "Renversement. La cible doit réussir un jet de sauvegarde de Dextérité sous peine de subir l’état À terre.",
     "source": "SRD 5.2.1 EN/FR · sous-section de monk / Open Hand Technique"

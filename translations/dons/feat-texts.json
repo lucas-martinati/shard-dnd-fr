@@ -781,13 +781,13 @@
   },
   {
     "en": "Discount. Whenever you buy a nonmagical item, you receive a 20 percent discount on it.",
-    "fr": "Réduction. Lorsque vous achetez un objet non magique, vous bénéficiez d’une réduction de 20 pour cent sur son prix.",
-    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+    "fr": "Ristourne. Lorsque vous achetez un objet non magique, vous bénéficiez d’une réduction de 20 pour cent sur son prix.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB · titre harmonisé avec le lexique des dons 2024"
   },
   {
     "en": "Fast Crafting. When you finish a Long Rest, you can craft one piece of gear from the Fast Crafting table, provided you have the Artisan’s Tools associated with that item and have proficiency with those tools. The item lasts until you finish another Long Rest, at which point the item falls apart.",
-    "fr": "Fabrication rapide. À la fin d’un Repos long, vous pouvez fabriquer un équipement de la table de fabrication rapide si vous possédez les outils d’artisan correspondants et en avez la maîtrise. L’objet dure jusqu’à la fin de votre prochain Repos long, puis se désagrège.",
-    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+    "fr": "Façonnage rapide. À la fin d’un Repos long, vous pouvez fabriquer un équipement de la table de fabrication rapide si vous possédez les outils d’artisan correspondants et en avez la maîtrise. L’objet dure jusqu’à la fin de votre prochain Repos long, puis se désagrège.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB · titre harmonisé avec le lexique des dons 2024"
   },
   {
     "en": "When you’re holding a Melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.",
@@ -806,13 +806,13 @@
   },
   {
     "en": "Ability Score Increase. Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.",
-    "fr": "Amélioration de caractéristique. Augmentez votre Intelligence, votre Sagesse ou votre Charisme de 1, jusqu’à un maximum de 20.",
-    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+    "fr": "Augmentation de caractéristique. Augmentez votre Intelligence, votre Sagesse ou votre Charisme de 1, jusqu’à un maximum de 20.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB · titre harmonisé avec le lexique des dons 2024"
   },
   {
     "en": "Energy Mastery. Choose one of the following damage types: Acid, Cold, Fire, Lightning, or Thunder. Spells you cast ignore Resistance to damage of the chosen type. In addition, when you roll damage for a spell you cast that deals damage of that type, you can treat any 1 on a damage die as a 2.",
-    "fr": "Maîtrise élémentaire. Choisissez un type de dégâts parmi Acide, Froid, Feu, Foudre et Tonnerre. Les sorts que vous lancez ignorent la Résistance aux dégâts du type choisi. De plus, lorsque vous lancez les dégâts d’un sort infligeant ce type de dégâts, vous pouvez traiter tout 1 obtenu sur un dé de dégâts comme un 2.",
-    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+    "fr": "Maîtrise des énergies. Choisissez un type de dégâts parmi Acide, Froid, Feu, Foudre et Tonnerre. Les sorts que vous lancez ignorent la Résistance aux dégâts du type choisi. De plus, lorsque vous lancez les dégâts d’un sort infligeant ce type de dégâts, vous pouvez traiter tout 1 obtenu sur un dé de dégâts comme un 2.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB · titre harmonisé avec le lexique des dons 2024"
   },
   {
     "en": "Repeatable. You can take this feat more than once.",
@@ -826,18 +826,18 @@
   },
   {
     "en": "Ability Score Increase. Increase your Strength score by 1, to a maximum of 20.",
-    "fr": "Amélioration de caractéristique. Augmentez votre Force de 1, jusqu’à un maximum de 20.",
-    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+    "fr": "Augmentation de caractéristique. Augmentez votre Force de 1, jusqu’à un maximum de 20.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB · titre harmonisé avec le lexique des dons 2024"
   },
   {
     "en": "Heavy Weapon Mastery. When you hit a creature with a weapon that has the Heavy property as part of the Attack action on your turn, you can cause the weapon to deal extra damage to the target. The extra damage equals your Proficiency Bonus.",
-    "fr": "Maîtrise des armes lourdes. Lorsque vous touchez une créature avec une arme dotée de la propriété Lourde dans le cadre de l’action Attaquer à votre tour, vous pouvez lui infliger des dégâts supplémentaires avec cette arme. Ces dégâts sont égaux à votre bonus de maîtrise.",
-    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+    "fr": "Expert en armes lourdes. Lorsque vous touchez une créature avec une arme dotée de la propriété Lourde dans le cadre de l’action Attaquer à votre tour, vous pouvez lui infliger des dégâts supplémentaires avec cette arme. Ces dégâts sont égaux à votre bonus de maîtrise.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB · titre harmonisé avec le lexique des dons 2024"
   },
   {
     "en": "Hew. Immediately after you score a Critical Hit with a Melee weapon or reduce a creature to 0 Hit Points with one, you can make one attack with the same weapon as a Bonus Action.",
-    "fr": "Fauchage. Juste après un Coup critique avec une arme de corps à corps ou après avoir réduit une créature à 0 point de vie avec une telle arme, vous pouvez effectuer une attaque avec cette même arme par une action Bonus.",
-    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+    "fr": "Abattage. Juste après un Coup critique avec une arme de corps à corps ou après avoir réduit une créature à 0 point de vie avec une telle arme, vous pouvez effectuer une attaque avec cette même arme par une action Bonus.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB · titre harmonisé avec le lexique des dons 2024"
   },
   {
     "en": "(Prérequis:  Level 4+, Medium Armor Training)",
@@ -886,13 +886,13 @@
   },
   {
     "en": "Ability Score Increase. Increase your Strength or Dexterity score by 1, to a maximum of 20.",
-    "fr": "Amélioration de caractéristique. Augmentez votre Force ou votre Dextérité de 1, jusqu’à un maximum de 20.",
-    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+    "fr": "Augmentation de caractéristique. Augmentez votre Force ou votre Dextérité de 1, jusqu’à un maximum de 20.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB · titre harmonisé avec le lexique des dons 2024"
   },
   {
     "en": "Weapon Proficiency. You gain proficiency with Martial weapons.",
-    "fr": "Maîtrise d’armes. Vous gagnez la maîtrise des armes de guerre.",
-    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+    "fr": "Maîtrise des armes. Vous gagnez la maîtrise des armes de guerre.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB · titre harmonisé avec le lexique des dons 2024"
   },
   {
     "en": "(Prérequis:  Level 4+, Light Armor Training)",
@@ -901,13 +901,13 @@
   },
   {
     "en": "Instrument Training. You gain proficiency with three Musical Instruments of your choice.",
-    "fr": "Formation musicale. Vous gagnez la maîtrise de trois instruments de musique de votre choix.",
-    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+    "fr": "Formation aux instruments. Vous gagnez la maîtrise de trois instruments de musique de votre choix.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB · titre harmonisé avec le lexique des dons 2024"
   },
   {
     "en": "Encouraging Song. As you finish a Short or Long Rest, you can play a song on a Musical Instrument with which you have proficiency and give Heroic Inspiration to allies who hear the song. The number of allies you can affect in this way equals your Proficiency Bonus.",
-    "fr": "Chant encourageant. À la fin d’un Repos court ou long, vous pouvez jouer un morceau sur un instrument de musique dont vous avez la maîtrise pour accorder l’Inspiration héroïque à des alliés qui l’entendent. Le nombre d’alliés pouvant en bénéficier est égal à votre bonus de maîtrise.",
-    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+    "fr": "Chant d’encouragement. À la fin d’un Repos court ou long, vous pouvez jouer un morceau sur un instrument de musique dont vous avez la maîtrise pour accorder l’Inspiration héroïque à des alliés qui l’entendent. Le nombre d’alliés pouvant en bénéficier est égal à votre bonus de maîtrise.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB · titre harmonisé avec le lexique des dons 2024"
   },
   {
     "en": "(Prérequis:  Level 4+, Intelligence or Wisdom 13+)",
@@ -976,8 +976,8 @@
   },
   {
     "en": "Mastery Property. Your training with weapons allows you to use the mastery property of one kind of Simple or Martial weapon of your choice, provided you have proficiency with it. Whenever you finish a Long Rest, you can change the kind of weapon to another eligible kind.",
-    "fr": "Propriété Botte. Votre entraînement vous permet d’utiliser la propriété Botte d’un type d’arme courante ou de guerre de votre choix dont vous avez la maîtrise. À la fin d’un Repos long, vous pouvez choisir un autre type d’arme admissible.",
-    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+    "fr": "Propriété botte. Votre entraînement vous permet d’utiliser la propriété Botte d’un type d’arme courante ou de guerre de votre choix dont vous avez la maîtrise. À la fin d’un Repos long, vous pouvez choisir un autre type d’arme admissible.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB · titre harmonisé avec le lexique des dons 2024"
   },
   {
     "en": "(Prerequisite: Dexterity 13 or higher)",

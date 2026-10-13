@@ -9,8 +9,8 @@
     "dons": {
       "nomsCatalogueAideDD2024": 75,
       "entreesDictionnaires": 0,
-      "libellesEditables": 0,
-      "blocsEditables": 2
+      "libellesEditables": 173,
+      "blocsEditables": 278
     },
     "classes": {
       "nomsCatalogueAideDD2024": 28,
@@ -39,13 +39,13 @@
     "monstres": {
       "nomsCatalogueAideDD2024": 498,
       "entreesDictionnaires": 382,
-      "libellesEditables": 0,
-      "blocsEditables": 0
+      "libellesEditables": 17,
+      "blocsEditables": 294
     },
     "regles": {
       "nomsCatalogueAideDD2024": 0,
       "entreesDictionnaires": 1299,
-      "libellesEditables": 62,
+      "libellesEditables": 61,
       "blocsEditables": 197
     },
     "interface": {
@@ -56,7 +56,7 @@
     }
   },
   "corpusLocaux": {
-    "descriptionsEtChampsLocauxUniques": 2745,
+    "descriptionsEtChampsLocauxUniques": 3318,
     "presentationsShard": {
       "fichesRelevees": 153,
       "avecDescription": 149,
@@ -160,8 +160,39 @@
     "sortsSRD2024": 339,
     "descriptionsEquipementSRD2024": 72,
     "blocsDonsEtStylesHistoriques": 218,
+    "donsPHB2024": {
+      "donsIndexes": 75,
+      "cartesShardRelevees": 131,
+      "fichesShardOuvertes": 20,
+      "extraitsTestes": 223,
+      "blocsEtChampsTestes": 739
+    },
+    "aptitudesMonstres2024": {
+      "titresBilingues": 628,
+      "referencesComparees": 498,
+      "blocsAnglaisReleves": 2171,
+      "appariementsDeReference": 1912,
+      "blocsDeReferenceAVerifier": 259,
+      "referencesSansActionsFrancaises": 30,
+      "tarasqueParagraphesTestes": 14
+    },
+    "traitsCommunsMonstres2024": {
+      "traitsReleves": 217,
+      "creaturesConcernees": 183,
+      "familles": {
+        "amphibious": 39,
+        "legendary-resistance": 39,
+        "incorporeal-movement": 8,
+        "spider-climb": 17,
+        "magic-resistance": 73,
+        "pack-tactics": 20,
+        "flyby": 10,
+        "immutable-form": 5,
+        "siege-monster": 6
+      }
+    },
     "armesSRD2024": 38,
-    "sousSectionsEtVariantesClasses": 284,
+    "sousSectionsEtVariantesClasses": 287,
     "nomsSousClassesPHB2024": 48
   },
   "aVerifier": [],
@@ -172,6 +203,9 @@
     "Les présentations Shard sont celles des cartes relevées : espèces et lignages, classes, 48 sous-classes PHB 2024 et historiques. Elles ne représentent pas toutes les descriptions d’aptitudes des sous-classes ni tous les livres.",
     "Les libellés et blocs éditables comptent les correspondances anglaises distinctes, y compris les variantes ; plusieurs blocs peuvent appartenir à une seule règle.",
     "Les états 2024 sont vérifiés sur des reproductions HTML locales. Les noms du catalogue ne prouvent pas la couverture des états et effets personnalisés de Shard.",
+    "Les 75 dons PHB 2024 ont des descriptions locales testées. Les 131 cartes Shard et 20 fiches ouvertes ont été relevées dans le navigateur ; les autres descriptions détaillées viennent des références anglaises publiques et de l’extrait utilisateur des faveurs épiques, et restent à contrôler dans Shard.",
+    "Les appariements d’aptitudes de monstres comparent les références AideDD : ils ne mesurent pas la traduction effective de toutes les variantes Shard. Les références françaises absentes, abrégées ou avec des valeurs incompatibles restent à vérifier. La tarasque est également couverte localement.",
+    "Les traits communs du bestiaire sont des correspondances locales de corps anglais exacts ; ils ne couvrent pas toutes les autres aptitudes des créatures concernées et ne servent pas de modèles pour des règles inconnues.",
     "Les descriptions AideDD de sorts, monstres, dons, manifestations et objets sont chargées à la consultation et dépendent du réseau et de la correspondance du texte anglais.",
     "Les blocs historiques de dons ne disposent pas tous d’un identifiant de don : leur couverture par entité est indéterminée.",
     "Les suppléments, contenus maison et textes Shard non présents dans les sources peuvent rester en anglais."

@@ -1,5 +1,5 @@
 {
-  "version": "1.17.5",
+  "version": "1.17.6",
   "reference": "Noms AideDD 2024 prioritaires. Références SRD disponibles séparément. Autres entrées identifiées.",
   "license": "Code MIT ; contenu SRD CC-BY-4.0 https://creativecommons.org/licenses/by/4.0/",
   "sources": [
@@ -7633,22 +7633,22 @@
     {
       "en": "Advantage",
       "fr": "Avantage",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
       "aliases": []
     },
     {
       "en": "Disadvantage",
       "fr": "Désavantage",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
       "aliases": []
     },
     {
       "en": "Expertise",
       "fr": "Expertise",
-      "category": "aptitude de classe",
-      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
       "aliases": []
     },
     {
@@ -7919,10 +7919,12 @@
     },
     {
       "en": "Shadow Magic",
-      "fr": "Magie des ombres",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
-      "aliases": []
+      "fr": "Magie de l’Ombre",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": [
+        "Magie des ombres"
+      ]
     },
     {
       "en": "Storm Sorcery",
@@ -8533,8 +8535,8 @@
     {
       "en": "Blindsight",
       "fr": "Vision aveugle",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
       "aliases": []
     },
     {
@@ -8546,10 +8548,12 @@
     },
     {
       "en": "Truesight",
-      "fr": "Vision lucide",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
-      "aliases": []
+      "fr": "Vision véritable",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": [
+        "Vision lucide"
+      ]
     },
     {
       "en": "Bludgeoning",
@@ -8799,8 +8803,8 @@
     {
       "en": "Concentration",
       "fr": "Concentration",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
       "aliases": []
     },
     {
@@ -9228,8 +9232,8 @@
     {
       "en": "Multiattack",
       "fr": "Attaques multiples",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "category": "monstre",
+      "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026",
       "aliases": []
     },
     {
@@ -9948,16 +9952,18 @@
     {
       "en": "Battle Medic",
       "fr": "Médecin de bataille",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
       "aliases": []
     },
     {
       "en": "Healing Rerolls",
-      "fr": "Relance des soins",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
-      "aliases": []
+      "fr": "Retirage des soins",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": [
+        "Relance des soins"
+      ]
     },
     {
       "en": "Rage",
@@ -11368,10 +11374,12 @@
     },
     {
       "en": "Push",
-      "fr": "Poussée",
-      "category": "combat",
-      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
-      "aliases": []
+      "fr": "Bourrade",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": [
+        "Poussée"
+      ]
     },
     {
       "en": "Sap",
@@ -12108,8 +12116,8 @@
     {
       "en": "Cook's Utensils",
       "fr": "Ustensiles de cuisinier",
-      "category": "équipement",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
       "aliases": []
     },
     {
@@ -14632,16 +14640,18 @@
     {
       "en": "Skill Proficiency",
       "fr": "Maîtrise de compétence",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
       "aliases": []
     },
     {
       "en": "Tool Proficiency",
-      "fr": "Maîtrise d’outil",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
-      "aliases": []
+      "fr": "Maîtrise d’outils",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": [
+        "Maîtrise d’outil"
+      ]
     },
     {
       "en": "Skill",
@@ -14772,8 +14782,8 @@
     {
       "en": "Ability Score Increase",
       "fr": "Augmentation de caractéristique",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
       "aliases": []
     },
     {
@@ -14877,36 +14887,36 @@
     {
       "en": "Origin Feat",
       "fr": "Don d’origine",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
       "aliases": []
     },
     {
       "en": "Origin Feats",
       "fr": "Dons d’origine",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
       "aliases": []
     },
     {
       "en": "General Feats",
       "fr": "Dons généraux",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
       "aliases": []
     },
     {
       "en": "Fighting Style Feats",
       "fr": "Dons de style de combat",
-      "category": "création de personnage",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
       "aliases": []
     },
     {
       "en": "Epic Boon Feats",
       "fr": "Dons de faveur épique",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
       "aliases": []
     },
     {
@@ -18129,15 +18139,15 @@
     {
       "en": "Bite",
       "fr": "Morsure",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "category": "monstre",
+      "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026",
       "aliases": []
     },
     {
       "en": "Claw",
       "fr": "Griffe",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "category": "monstre",
+      "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026",
       "aliases": []
     },
     {
@@ -18150,8 +18160,8 @@
     {
       "en": "Tail",
       "fr": "Queue",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "category": "monstre",
+      "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026",
       "aliases": []
     },
     {
@@ -18248,8 +18258,8 @@
     {
       "en": "Swallow",
       "fr": "Engloutissement",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "category": "monstre",
+      "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026",
       "aliases": []
     },
     {
@@ -18381,8 +18391,8 @@
     {
       "en": "Magic Resistance",
       "fr": "Résistance à la magie",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "category": "monstre",
+      "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026",
       "aliases": []
     },
     {
@@ -18583,7 +18593,7 @@
     },
     {
       "en": "Flyby",
-      "fr": "Survol",
+      "fr": "Repli aérien",
       "category": "vocabulaire",
       "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
       "aliases": []
@@ -18619,8 +18629,8 @@
     {
       "en": "Siege Monster",
       "fr": "Monstre de siège",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "category": "monstre",
+      "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026",
       "aliases": []
     },
     {
@@ -18790,8 +18800,8 @@
     {
       "en": "Parry",
       "fr": "Parade",
-      "category": "création de personnage",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
       "aliases": []
     },
     {
@@ -19049,8 +19059,8 @@
     {
       "en": "Fog of War",
       "fr": "Brouillard de guerre",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
       "aliases": []
     },
     {
@@ -20318,31 +20328,35 @@
     },
     {
       "en": "Initiative Swap",
-      "fr": "Échange d’initiative",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "fr": "Échange d’Initiative",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
       "aliases": []
     },
     {
       "en": "Enhanced Unarmed Strike",
       "fr": "Frappe à mains nues améliorée",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
       "aliases": []
     },
     {
       "en": "Damage Rerolls",
-      "fr": "Relance des dégâts",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
-      "aliases": []
+      "fr": "Relancer des dégâts",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": [
+        "Relance des dégâts"
+      ]
     },
     {
       "en": "Improvised Weaponry",
-      "fr": "Armes improvisées",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
-      "aliases": []
+      "fr": "Armement improvisé",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": [
+        "Armes improvisées"
+      ]
     },
     {
       "en": "Musician",
@@ -20873,8 +20887,8 @@
     {
       "en": "Climb Speed",
       "fr": "Vitesse d’escalade",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
       "aliases": []
     },
     {
@@ -22364,8 +22378,8 @@
     {
       "en": "Fighting Style Feat",
       "fr": "Don de style de combat",
-      "category": "création de personnage",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
       "aliases": []
     },
     {
@@ -22630,8 +22644,8 @@
     {
       "en": "Armor Training",
       "fr": "Formation aux armures",
-      "category": "création de personnage",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
       "aliases": []
     },
     {
@@ -24881,9 +24895,9 @@
     },
     {
       "en": "Impersonation",
-      "fr": "Usurpation d’identité",
+      "fr": "Imposture",
       "category": "aptitude de classe",
-      "source": "Traduction de l’extrait utilisateur · Barbare et Comédien 2024 ; passages SRD 5.2.1 pour les valeurs des dés · adaptations CC-BY-4.0 · https://www.dndbeyond.com/srd",
+      "source": "AideDD · titre du bénéfice du don Comédien 2024 · https://www.aidedd.org/feat/fr/comedien",
       "aliases": []
     },
     {
@@ -24905,6 +24919,1014 @@
       "fr": "Briseur de hordes",
       "category": "aptitude de classe",
       "source": "SRD 5.2.1 EN/FR · CC-BY-4.0",
+      "aliases": []
+    },
+    {
+      "en": "Repeatable",
+      "fr": "Répétable",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Hop Up",
+      "fr": "Rétablissement",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Jumping",
+      "fr": "Saut",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Peerless Aim",
+      "fr": "Visée sans égale",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Blink Steps",
+      "fr": "Pas éclair",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Energy Resistances",
+      "fr": "Résistances aux énergies",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Energy Redirection",
+      "fr": "Redirection d’énergie",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Improve Fate",
+      "fr": "Infléchir le destin",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Fortified Health",
+      "fr": "Santé renforcée",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Overcome Defenses",
+      "fr": "Percer les défenses",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Overwhelming Strike",
+      "fr": "Frappe écrasante",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Last Stand",
+      "fr": "Dernier rempart",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Recover Vitality",
+      "fr": "Récupérer sa vitalité",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Energy Mastery",
+      "fr": "Maîtrise des énergies",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Fey Magic",
+      "fr": "Magie des fées",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Enhanced Critical",
+      "fr": "Critique renforcé",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Luck Points",
+      "fr": "Points de chance",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Replenishing Meal",
+      "fr": "Repas reconstituant",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Bolstering Treats",
+      "fr": "Friandises galvanisantes",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Enhanced Dual Wielding",
+      "fr": "Combat à deux armes amélioré",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Quick Draw",
+      "fr": "Dégainage rapide",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Mounted Strike",
+      "fr": "Frappe montée",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Leap Aside",
+      "fr": "Pas de côté",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Veer",
+      "fr": "Déviation",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Sniper",
+      "fr": "Tireur discret",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Puncture",
+      "fr": "Perforation",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Punch and Grab",
+      "fr": "Frappe et empoignade",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Attack Advantage",
+      "fr": "Attaque avec Avantage",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Fast Wrestler",
+      "fr": "Lutteur rapide",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Potent Poison",
+      "fr": "Poison virulent",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Brew Poison",
+      "fr": "Préparation de poison",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Lore Knowledge",
+      "fr": "Érudition",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Quick Study",
+      "fr": "Étude rapide",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Improved Dash",
+      "fr": "Pointe améliorée",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Charge Attack",
+      "fr": "Attaque de charge",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Discount",
+      "fr": "Ristourne",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Fast Crafting",
+      "fr": "Façonnage rapide",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Merge with Shadows",
+      "fr": "Fusion avec les ombres",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Shadowy Form",
+      "fr": "Forme d’ombre",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Free Casting",
+      "fr": "Incantation gratuite",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Bolstering Performance",
+      "fr": "Représentation galvanisante",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Weapon Proficiency",
+      "fr": "Maîtrise des armes",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Speedy Recovery",
+      "fr": "Récupération rapide",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Bypass Cover",
+      "fr": "Contournement d’abri",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Casting in Melee",
+      "fr": "Incantation au corps à corps",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Increased Range",
+      "fr": "Portée améliorée",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Two Cantrips",
+      "fr": "Deux sorts mineurs",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Level 1 Spell",
+      "fr": "Sort de niveau 1",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Spell Change",
+      "fr": "Changement de sort",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Reactive Spell",
+      "fr": "Sort réactif",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Somatic Components",
+      "fr": "Composantes somatiques",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Ritual Spells",
+      "fr": "Sorts rituels",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Quick Ritual",
+      "fr": "Rituel rapide",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Mastery Property",
+      "fr": "Propriété botte",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Pole Strike",
+      "fr": "Frappe double",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Reactive Strike",
+      "fr": "Frappe réactive",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Heavy Weapon Mastery",
+      "fr": "Expert en armes lourdes",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Hew",
+      "fr": "Abattage",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Dexterous Wearer",
+      "fr": "Porteur agile",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Damage Reduction",
+      "fr": "Réduction des dégâts",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Shield Bash",
+      "fr": "Coup de bouclier",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Interpose Shield",
+      "fr": "Interposition de bouclier",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Ignore Loading",
+      "fr": "Chargement rapide",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Firing in Melee",
+      "fr": "Tir au corps à corps",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Dual Wielding",
+      "fr": "Arbalète secondaire",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Speed Increase",
+      "fr": "Vitesse améliorée",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Dash Over Difficult Terrain",
+      "fr": "Pointe sur Terrain difficile",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Agile Movement",
+      "fr": "Déplacement agile",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Instrument Training",
+      "fr": "Formation aux instruments",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Encouraging Song",
+      "fr": "Chant d’encouragement",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Keen Observer",
+      "fr": "Observateur attentif",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Quick Search",
+      "fr": "Observation rapide",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Saving Throw Proficiency",
+      "fr": "Maîtrise des jets de sauvegarde",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Guardian",
+      "fr": "Gardien",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Minor Telekinesis",
+      "fr": "Télékinésie mineure",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Telekinetic Shove",
+      "fr": "Bourrade télékinétique",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Telepathic Utterance",
+      "fr": "Parole télépathique",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Long Shots",
+      "fr": "Longue portée",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Hamstring",
+      "fr": "Coupe-jarret",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Concentration Breaker",
+      "fr": "Briseur de concentration",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Guarded Mind",
+      "fr": "Esprit préservé",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Initiative Proficiency",
+      "fr": "Maîtrise de l’Initiative",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "All-Around Adept",
+      "fr": "Adepte universel",
+      "category": "don",
+      "source": "Traduction proposée de l’extrait utilisateur · chapitre des Faveurs épiques Shard 2024 · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Escape Artist",
+      "fr": "Art de l’évasion",
+      "category": "don",
+      "source": "Traduction proposée de l’extrait utilisateur · chapitre des Faveurs épiques Shard 2024 · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Quickness",
+      "fr": "Célérité",
+      "category": "don",
+      "source": "Traduction proposée de l’extrait utilisateur · chapitre des Faveurs épiques Shard 2024 · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "General Feat",
+      "fr": "Don général",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Epic Boon Feat",
+      "fr": "Don de faveur épique",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "(Prerequisite: Level 4+)",
+      "fr": "(Prérequis : Niveau 4+)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
+      "aliases": []
+    },
+    {
+      "en": "(Prerequisite: Level 4+ , Ability Score Improvement)",
+      "fr": "(Prérequis : Niveau 4+, Amélioration de caractéristique)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
+      "aliases": []
+    },
+    {
+      "en": "(Prerequisite: Level 4+ , Ability Score Improvement 2)",
+      "fr": "(Prérequis : Niveau 4+, Amélioration de caractéristique 2)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
+      "aliases": []
+    },
+    {
+      "en": "(Prerequisite: Level 4+ , Ability Score Improvement 3)",
+      "fr": "(Prérequis : Niveau 4+, Amélioration de caractéristique 3)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
+      "aliases": []
+    },
+    {
+      "en": "(Prerequisite: Level 4+ , Ability Score Improvement 4)",
+      "fr": "(Prérequis : Niveau 4+, Amélioration de caractéristique 4)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
+      "aliases": []
+    },
+    {
+      "en": "(Prerequisite: Level 4+, Charisma 13+)",
+      "fr": "(Prérequis : Niveau 4+, Charisme 13+)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
+      "aliases": []
+    },
+    {
+      "en": "(Prerequisite: Fighting Style Feature)",
+      "fr": "(Prérequis : aptitude Style de combat)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
+      "aliases": []
+    },
+    {
+      "en": "(Prerequisite: Level 4+, Strength or Dexterity 13+)",
+      "fr": "(Prérequis : Niveau 4+, Force ou Dextérité 13+)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
+      "aliases": []
+    },
+    {
+      "en": "(Prerequisite: Level 19+)",
+      "fr": "(Prérequis : Niveau 19+)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
+      "aliases": []
+    },
+    {
+      "en": "(Prerequisite: Level 19+, Spellcasting Feature)",
+      "fr": "(Prérequis : Niveau 19+, aptitude Sorts)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
+      "aliases": []
+    },
+    {
+      "en": "(Prerequisite: Level 4+, Dexterity 13+)",
+      "fr": "(prérequis : niveau 4+, Dextérité 13+)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "(Prerequisite: Dexterity 13 or higher)",
+      "fr": "(Prérequis : Dextérité 13 ou plus)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
+      "aliases": []
+    },
+    {
+      "en": "(Prerequisite: The ability to cast at least one spell)",
+      "fr": "(Prérequis : capacité à lancer au moins un sort)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
+      "aliases": []
+    },
+    {
+      "en": "(Prerequisite: Level 4+, Spellcasting or Pact Magic Feature)",
+      "fr": "(Prérequis : Niveau 4+, aptitude Sorts ou Magie de pacte)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
+      "aliases": []
+    },
+    {
+      "en": "(Prerequisite: Strength 13 or higher)",
+      "fr": "(Prérequis : Force 13 ou plus)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
+      "aliases": []
+    },
+    {
+      "en": "(Prerequisite: Level 4+, Strength 13+)",
+      "fr": "(prérequis : niveau 4+, Force 13+)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "(Prerequisite: Proficiency with medium armor)",
+      "fr": "(Prérequis : maîtrise des armures intermédiaires)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
+      "aliases": []
+    },
+    {
+      "en": "(Prerequisite: Level 4+, Medium Armor Training)",
+      "fr": "(Prérequis : Niveau 4+, formation aux armures intermédiaires)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
+      "aliases": []
+    },
+    {
+      "en": "(Prerequisite: Proficiency with heavy armor)",
+      "fr": "(Prérequis : maîtrise des armures lourdes)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
+      "aliases": []
+    },
+    {
+      "en": "(Prerequisite: Level 4+, Heavy Armor Training)",
+      "fr": "(Prérequis : Niveau 4+, formation aux armures lourdes)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
+      "aliases": []
+    },
+    {
+      "en": "(Prerequisite: Charisma 13 or higher)",
+      "fr": "(Prérequis : Charisme 13 ou plus)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
+      "aliases": []
+    },
+    {
+      "en": "(Prerequisite: Level 4+, Wisdom or Charisma 13+)",
+      "fr": "(Prérequis : Niveau 4+, Sagesse ou Charisme 13+)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
+      "aliases": []
+    },
+    {
+      "en": "(Prerequisite: Level 4+, Intelligence 13+)",
+      "fr": "(prérequis : niveau 4+, Intelligence 13+)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "(Prerequisite: Magic Initiate)",
+      "fr": "(prérequis : Initié à la magie)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "(Prerequisite: Magic Initiate 2)",
+      "fr": "(prérequis : Initié à la magie 2)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "(Prerequisite: Proficiency with light armor)",
+      "fr": "(Prérequis : maîtrise des armures légères)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
+      "aliases": []
+    },
+    {
+      "en": "(Prerequisite: Level 4+, Light Armor Training)",
+      "fr": "(Prérequis : Niveau 4+, formation aux armures légères)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
+      "aliases": []
+    },
+    {
+      "en": "(Prerequisite: Level 4+, Intelligence or Wisdom 13+)",
+      "fr": "(Prérequis : Niveau 4+, Intelligence ou Sagesse 13+)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
+      "aliases": []
+    },
+    {
+      "en": "(Prerequisite: Intelligence or Wisdom 13 or higher)",
+      "fr": "(Prérequis : Intelligence ou Sagesse 13 ou plus)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
+      "aliases": []
+    },
+    {
+      "en": "(Prerequisite: Level 4+; Intelligence, Wisdom, or Charisma 13+)",
+      "fr": "(Prérequis : Niveau 4+ ; Intelligence, Sagesse ou Charisme 13+)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
+      "aliases": []
+    },
+    {
+      "en": "(Prerequisite: Level 4+, Shield Training)",
+      "fr": "(Prérequis : Niveau 4+, formation au bouclier)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
+      "aliases": []
+    },
+    {
+      "en": "(Prerequisite: Skilled)",
+      "fr": "(prérequis : Doué)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "(Prerequisite: Skilled 2)",
+      "fr": "(prérequis : Doué 2)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "(Prerequisite: Skilled 3)",
+      "fr": "(prérequis : Doué 3)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "(Prerequisite: Skilled 4)",
+      "fr": "(prérequis : Doué 4)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "(Prerequisite: Level 4+, Dexterity or Constitution 13+)",
+      "fr": "(Prérequis : Niveau 4+, Dextérité ou Constitution 13+)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
+      "aliases": []
+    },
+    {
+      "en": "(Prerequisite: dwarf or small race)",
+      "fr": "(Prérequis : Nain ou espèce de petite taille)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
+      "aliases": []
+    },
+    {
+      "en": "General Feat (Prerequisite: Level 4+, Spellcasting or Pact Magic Feature)",
+      "fr": "Don général (prérequis : niveau 4+, aptitude Sorts ou Magie de pacte)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "General Feat (Prerequisite: Level 4+)",
+      "fr": "Don général (prérequis : niveau 4+)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Fighting Style Feat (Prerequisite: Fighting Style Feature)",
+      "fr": "Don de style de combat (prérequis : aptitude Style de combat)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "General Feat (Prerequisite: Level 4+, Strength or Dexterity 13+)",
+      "fr": "Don général (prérequis : niveau 4+, Force ou Dextérité 13+)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "General Feat (Prerequisite: Level 4+, Charisma 13+)",
+      "fr": "Don général (prérequis : niveau 4+, Charisme 13+)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "General Feat (Prerequisite: Level 4+, Dexterity 13+)",
+      "fr": "Don général (prérequis : niveau 4+, Dextérité 13+)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "General Feat (Prerequisite: Level 4+, Intelligence 13+)",
+      "fr": "Don général (prérequis : niveau 4+, Intelligence 13+)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Epic Boon Feat (Prerequisite: Level 19+)",
+      "fr": "Don de faveur épique (prérequis : niveau 19+)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Epic Boon Feat (Prerequisite: Level 19+, Spellcasting Feature)",
+      "fr": "Don de faveur épique (prérequis : niveau 19+, aptitude Sorts)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "General Feat (Prerequisite: Level 4+, Wisdom or Charisma 13+)",
+      "fr": "Don général (prérequis : niveau 4+, Sagesse ou Charisme 13+)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "General Feat (Prerequisite: Level 4+, Intelligence, Wisdom, or Charisma 13+)",
+      "fr": "Don général (prérequis : niveau 4+, Intelligence, Sagesse, ou Charisme 13+)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "General Feat (Prerequisite: Level 4+, Strength 13+)",
+      "fr": "Don général (prérequis : niveau 4+, Force 13+)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "General Feat (Prerequisite: Level 4+, Medium Armor Training)",
+      "fr": "Don général (prérequis : niveau 4+, formation aux armures intermédiaires)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "General Feat (Prerequisite: Level 4+, Heavy Armor Training)",
+      "fr": "Don général (prérequis : niveau 4+, formation aux armures lourdes)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "General Feat (Prerequisite: Level 4+, Shield Training)",
+      "fr": "Don général (prérequis : niveau 4+, formation aux boucliers)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "General Feat (Prerequisite: Level 4+, Dexterity or Constitution 13+)",
+      "fr": "Don général (prérequis : niveau 4+, Dextérité ou Constitution 13+)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "General Feat (Prerequisite: Level 4+, Intelligence or Wisdom 13+)",
+      "fr": "Don général (prérequis : niveau 4+, Intelligence ou Sagesse 13+)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "General Feat (Prerequisite: Level 4+, Light Armor Training)",
+      "fr": "Don général (prérequis : niveau 4+, formation aux armures légères)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Case, Pouch",
+      "fr": "Étui, sacoche",
+      "category": "don",
+      "source": "Variantes des cellules de Façonnage rapide · référence anglaise AideDD Artisan · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Bell, Shovel, Tinder Box",
+      "fr": "Cloche, pelle, boîte à amadou",
+      "category": "don",
+      "source": "Variantes des cellules de Façonnage rapide · référence anglaise AideDD Artisan · traduction proposée · 13 octobre 2026",
       "aliases": []
     },
     {
@@ -25384,6 +26406,76 @@
       "aliases": []
     },
     {
+      "en": "Legendary Resistance (6/Day)",
+      "fr": "Résistance légendaire (6/jour)",
+      "category": "monstre",
+      "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Reflective Carapace",
+      "fr": "Carapace réfléchissante",
+      "category": "monstre",
+      "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Thunderous Bellow (Recharge 5–6)",
+      "fr": "Mugissement tonitruant (recharge 5–6)",
+      "category": "monstre",
+      "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Onslaught",
+      "fr": "Offensive",
+      "category": "monstre",
+      "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "World-Shaking Movement",
+      "fr": "Déplacement sismique",
+      "category": "monstre",
+      "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Legendary Resistance (3/Day, or 4/Day in Lair)",
+      "fr": "Résistance légendaire (3/jour, ou 4/jour dans son antre)",
+      "category": "monstre",
+      "source": "Titre du trait commun MM 2024 · https://www.aidedd.org/monster/fr/aboleth",
+      "aliases": []
+    },
+    {
+      "en": "Incorporeal Movement",
+      "fr": "Déplacement intangible",
+      "category": "monstre",
+      "source": "Titre du trait commun MM 2024 · https://www.aidedd.org/monster/fr/ame-en-peine",
+      "aliases": []
+    },
+    {
+      "en": "Legendary Resistance (4/Day, or 5/Day in Lair)",
+      "fr": "Résistance légendaire (4/jour, ou 5/jour dans son antre)",
+      "category": "monstre",
+      "source": "Titre du trait commun MM 2024 · https://www.aidedd.org/monster/fr/archi-guenaude",
+      "aliases": []
+    },
+    {
+      "en": "Legendary Resistance (3/Day)",
+      "fr": "Résistance légendaire (3/jour)",
+      "category": "monstre",
+      "source": "Titre du trait commun MM 2024 · https://www.aidedd.org/monster/fr/balor",
+      "aliases": []
+    },
+    {
+      "en": "Legendary Resistance (4/Day)",
+      "fr": "Résistance légendaire (4/jour)",
+      "category": "monstre",
+      "source": "Titre du trait commun MM 2024 · https://www.aidedd.org/monster/fr/colosse",
+      "aliases": []
+    },
+    {
       "en": "Using Bardic Inspiration",
       "fr": "Utiliser l’Inspiration bardique",
       "category": "règles",
@@ -25409,13 +26501,6 @@
       "fr": "Lignages gnomes",
       "category": "règles",
       "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
-      "aliases": []
-    },
-    {
-      "en": "Blink Steps",
-      "fr": "Pas éclair",
-      "category": "règles",
-      "source": "Traductions proposées de libellés SRD 5.2.1 EN · https://www.dndbeyond.com/srd",
       "aliases": []
     },
     {

@@ -1,0 +1,5594 @@
+{
+  "date": "2026-10-13",
+  "source": "Comparaison structurelle des références publiques anglaises et françaises AideDD 2024 ; titres, rubriques, valeurs et dés. Ce relevé ne mesure pas le rendu effectif de toutes les fiches Shard.",
+  "fiches": [
+    {
+      "en": "Aarakocra Aeromancer",
+      "fr": "Aarakocre, aéromancien",
+      "url": "https://www.aidedd.org/monster/fr/aarakocre-aeromancien",
+      "actionsEN": 4,
+      "actionsFR": 5,
+      "matched": 3,
+      "aVerifier": [
+        {
+          "heading": "Wind Staff",
+          "group": "actions"
+        }
+      ]
+    },
+    {
+      "en": "Aarakocra Skirmisher",
+      "fr": "Aarakocre, tirailleur",
+      "url": "https://www.aidedd.org/monster/fr/aarakocre-tirailleur",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 1,
+      "aVerifier": [
+        {
+          "heading": "Wind Javelin",
+          "group": "actions"
+        }
+      ]
+    },
+    {
+      "en": "Troll Limb",
+      "fr": "Abattis de troll",
+      "url": "https://www.aidedd.org/monster/fr/abattis-de-troll",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Aboleth",
+      "fr": "Aboleth",
+      "url": "https://www.aidedd.org/monster/fr/aboleth",
+      "actionsEN": 12,
+      "actionsFR": 12,
+      "matched": 12,
+      "aVerifier": []
+    },
+    {
+      "en": "Eagle",
+      "fr": "Aigle",
+      "url": "https://www.aidedd.org/monster/fr/aigle",
+      "actionsEN": 1,
+      "actionsFR": 1,
+      "matched": 1,
+      "aVerifier": []
+    },
+    {
+      "en": "Giant Eagle",
+      "fr": "Aigle géant",
+      "url": "https://www.aidedd.org/monster/fr/aigle-geant",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Allosaurus",
+      "fr": "Allosaure",
+      "url": "https://www.aidedd.org/monster/fr/allosaure",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Wraith",
+      "fr": "Âme-en-peine",
+      "url": "https://www.aidedd.org/monster/fr/ame-en-peine",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Ankheg",
+      "fr": "Ankheg",
+      "url": "https://www.aidedd.org/monster/fr/ankheg",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Ankylosaurus",
+      "fr": "Ankylosaure",
+      "url": "https://www.aidedd.org/monster/fr/ankylosaure",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Spider",
+      "fr": "Araignée",
+      "url": "https://www.aidedd.org/monster/fr/araignee",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Phase Spider",
+      "fr": "Araignée de phase",
+      "url": "https://www.aidedd.org/monster/fr/araignee-de-phase",
+      "actionsEN": 6,
+      "actionsFR": 6,
+      "matched": 6,
+      "aVerifier": []
+    },
+    {
+      "en": "Giant Spider",
+      "fr": "Araignée géante",
+      "url": "https://www.aidedd.org/monster/fr/araignee-geante",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Giant Wolf Spider",
+      "fr": "Araignée-loup géante",
+      "url": "https://www.aidedd.org/monster/fr/araignee-loup-geante",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Awakened Tree",
+      "fr": "Arbre éveillé",
+      "url": "https://www.aidedd.org/monster/fr/arbre-eveille",
+      "actionsEN": 1,
+      "actionsFR": 1,
+      "matched": 1,
+      "aVerifier": []
+    },
+    {
+      "en": "Tree Blight",
+      "fr": "Arbroyeux",
+      "url": "https://www.aidedd.org/monster/fr/arbroyeux",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Awakened Shrub",
+      "fr": "Arbuste éveillé",
+      "url": "https://www.aidedd.org/monster/fr/arbuste-eveille",
+      "actionsEN": 1,
+      "actionsFR": 1,
+      "matched": 1,
+      "aVerifier": []
+    },
+    {
+      "en": "Arcanaloth",
+      "fr": "Arcanaloth",
+      "url": "https://www.aidedd.org/monster/fr/arcanaloth",
+      "actionsEN": 9,
+      "actionsFR": 9,
+      "matched": 9,
+      "aVerifier": []
+    },
+    {
+      "en": "Archelon",
+      "fr": "Archélon",
+      "url": "https://www.aidedd.org/monster/fr/archelon",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Arch-hag",
+      "fr": "Archi-guenaude",
+      "url": "https://www.aidedd.org/monster/fr/archi-guenaude",
+      "actionsEN": 13,
+      "actionsFR": 13,
+      "matched": 11,
+      "aVerifier": [
+        {
+          "heading": "Hag's Swipe",
+          "group": "legendary"
+        },
+        {
+          "heading": "Malicious Magic",
+          "group": "legendary"
+        }
+      ]
+    },
+    {
+      "en": "Archmage",
+      "fr": "Archimage",
+      "url": "https://www.aidedd.org/monster/fr/archimage",
+      "actionsEN": 6,
+      "actionsFR": 6,
+      "matched": 6,
+      "aVerifier": []
+    },
+    {
+      "en": "Archpriest",
+      "fr": "Archiprêtre",
+      "url": "https://www.aidedd.org/monster/fr/archipretre",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Animated Armor",
+      "fr": "Armure animée",
+      "url": "https://www.aidedd.org/monster/fr/armure-animee",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Assassin",
+      "fr": "Assassin",
+      "url": "https://www.aidedd.org/monster/fr/assassin",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Azer Pyromancer",
+      "fr": "Azer, pyromancien",
+      "url": "https://www.aidedd.org/monster/fr/azer-pyromancien",
+      "actionsEN": 6,
+      "actionsFR": 0,
+      "matched": 0,
+      "aVerifier": [
+        {
+          "heading": "Fire Aura",
+          "group": "traits"
+        },
+        {
+          "heading": "Illumination",
+          "group": "traits"
+        },
+        {
+          "heading": "Multiattack",
+          "group": "actions"
+        },
+        {
+          "heading": "Flame Burst",
+          "group": "actions"
+        },
+        {
+          "heading": "Spellcasting",
+          "group": "actions"
+        },
+        {
+          "heading": "Hellish Rebuke (2/Day)",
+          "group": "reactions"
+        }
+      ]
+    },
+    {
+      "en": "Azer Sentinel",
+      "fr": "Azer, sentinelle",
+      "url": "https://www.aidedd.org/monster/fr/azer-sentinelle",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Gibbering Mouther",
+      "fr": "Babélien",
+      "url": "https://www.aidedd.org/monster/fr/babelien",
+      "actionsEN": 7,
+      "actionsFR": 7,
+      "matched": 7,
+      "aVerifier": []
+    },
+    {
+      "en": "Baboon",
+      "fr": "Babouin",
+      "url": "https://www.aidedd.org/monster/fr/babouin",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Animated Broom",
+      "fr": "Balai animé",
+      "url": "https://www.aidedd.org/monster/fr/balai-anime",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Balor",
+      "fr": "Balor",
+      "url": "https://www.aidedd.org/monster/fr/balor",
+      "actionsEN": 8,
+      "actionsFR": 8,
+      "matched": 8,
+      "aVerifier": []
+    },
+    {
+      "en": "Bandit",
+      "fr": "Bandit",
+      "url": "https://www.aidedd.org/monster/fr/bandit",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Bandit Crime Lord",
+      "fr": "Bandit, baron du crime",
+      "url": "https://www.aidedd.org/monster/fr/bandit-baron-du-crime",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Bandit Captain",
+      "fr": "Bandit, capitaine",
+      "url": "https://www.aidedd.org/monster/fr/bandit-capitaine",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Bandit Deceiver",
+      "fr": "Bandit, embrouilleur",
+      "url": "https://www.aidedd.org/monster/fr/bandit-embrouilleur",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Banshee",
+      "fr": "Banshie",
+      "url": "https://www.aidedd.org/monster/fr/banshie",
+      "actionsEN": 6,
+      "actionsFR": 6,
+      "matched": 6,
+      "aVerifier": []
+    },
+    {
+      "en": "Barlgura",
+      "fr": "Barlgura",
+      "url": "https://www.aidedd.org/monster/fr/barlgura",
+      "actionsEN": 6,
+      "actionsFR": 6,
+      "matched": 6,
+      "aVerifier": []
+    },
+    {
+      "en": "Basilisk",
+      "fr": "Basilic",
+      "url": "https://www.aidedd.org/monster/fr/basilic",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Giant Axe Beak",
+      "fr": "Bec de hache géant",
+      "url": "https://www.aidedd.org/monster/fr/bec-de-hache-geant-autrache-geante",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Axe Beak",
+      "fr": "Bec de hache",
+      "url": "https://www.aidedd.org/monster/fr/bec-de-hache-autrache",
+      "actionsEN": 1,
+      "actionsFR": 1,
+      "matched": 1,
+      "aVerifier": []
+    },
+    {
+      "en": "Behir",
+      "fr": "Béhir",
+      "url": "https://www.aidedd.org/monster/fr/behir",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Weasel",
+      "fr": "Belette",
+      "url": "https://www.aidedd.org/monster/fr/belette",
+      "actionsEN": 1,
+      "actionsFR": 1,
+      "matched": 1,
+      "aVerifier": []
+    },
+    {
+      "en": "Giant Weasel",
+      "fr": "Belette géante",
+      "url": "https://www.aidedd.org/monster/fr/belette-geante",
+      "actionsEN": 1,
+      "actionsFR": 1,
+      "matched": 1,
+      "aVerifier": []
+    },
+    {
+      "en": "Berserker",
+      "fr": "Berserker",
+      "url": "https://www.aidedd.org/monster/fr/berserker",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Berserker Commander",
+      "fr": "Berserker, chef",
+      "url": "https://www.aidedd.org/monster/fr/berserker-chef",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 4,
+      "aVerifier": [
+        {
+          "heading": "Javelin",
+          "group": "actions"
+        }
+      ]
+    },
+    {
+      "en": "Displacer Beast",
+      "fr": "Bête éclipsante",
+      "url": "https://www.aidedd.org/monster/fr/bete-eclipsante",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Badger",
+      "fr": "Blaireau",
+      "url": "https://www.aidedd.org/monster/fr/blaireau",
+      "actionsEN": 1,
+      "actionsFR": 1,
+      "matched": 1,
+      "aVerifier": []
+    },
+    {
+      "en": "Giant Badger",
+      "fr": "Blaireau géant",
+      "url": "https://www.aidedd.org/monster/fr/blaireau-geant",
+      "actionsEN": 1,
+      "actionsFR": 1,
+      "matched": 1,
+      "aVerifier": []
+    },
+    {
+      "en": "Ghast",
+      "fr": "Blême",
+      "url": "https://www.aidedd.org/monster/fr/bleme",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Ghast Gravecaller",
+      "fr": "Blême fossoyeuse",
+      "url": "https://www.aidedd.org/monster/fr/bleme-fossoyeuse",
+      "actionsEN": 5,
+      "actionsFR": 0,
+      "matched": 0,
+      "aVerifier": [
+        {
+          "heading": "Stench",
+          "group": "traits"
+        },
+        {
+          "heading": "Multiattack",
+          "group": "actions"
+        },
+        {
+          "heading": "Claw",
+          "group": "actions"
+        },
+        {
+          "heading": "Horrific Necrosis",
+          "group": "actions"
+        },
+        {
+          "heading": "Spellcasting",
+          "group": "actions"
+        }
+      ]
+    },
+    {
+      "en": "Blob of Annihilation",
+      "fr": "Blob d'annihilation",
+      "url": "https://www.aidedd.org/monster/fr/blob-d-annihilation",
+      "actionsEN": 1,
+      "actionsFR": 1,
+      "matched": 1,
+      "aVerifier": []
+    },
+    {
+      "en": "Bullywug Warrior",
+      "fr": "Brutacien, combattant",
+      "url": "https://www.aidedd.org/monster/fr/brutacien-combattant",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Bullywug Bog Sage",
+      "fr": "Brutacien, sage du marais",
+      "url": "https://www.aidedd.org/monster/fr/brutacien-sage-du-marais",
+      "actionsEN": 6,
+      "actionsFR": 6,
+      "matched": 6,
+      "aVerifier": []
+    },
+    {
+      "en": "Bulette",
+      "fr": "Bulette",
+      "url": "https://www.aidedd.org/monster/fr/bulette",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Bulette Pup",
+      "fr": "Bulettiot",
+      "url": "https://www.aidedd.org/monster/fr/bulettiot",
+      "actionsEN": 0,
+      "actionsFR": 0,
+      "matched": 0,
+      "aVerifier": []
+    },
+    {
+      "en": "Giant Squid",
+      "fr": "Calamar géant",
+      "url": "https://www.aidedd.org/monster/fr/calamar-geant",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Cambion",
+      "fr": "Cambion",
+      "url": "https://www.aidedd.org/monster/fr/cambion",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Elemental Cataclysm",
+      "fr": "Cataclysme élémentaire",
+      "url": "https://www.aidedd.org/monster/fr/cataclysme-elementaire",
+      "actionsEN": 1,
+      "actionsFR": 1,
+      "matched": 1,
+      "aVerifier": []
+    },
+    {
+      "en": "Centaur Warden",
+      "fr": "Centaure, gardien",
+      "url": "https://www.aidedd.org/monster/fr/centaure-gardien",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Centaur Trooper",
+      "fr": "Centaure, soldat",
+      "url": "https://www.aidedd.org/monster/fr/centaure-soldat",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Deer",
+      "fr": "Cerf",
+      "url": "https://www.aidedd.org/monster/fr/cerf-petit-cervide",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Jackal",
+      "fr": "Chacal",
+      "url": "https://www.aidedd.org/monster/fr/chacal",
+      "actionsEN": 1,
+      "actionsFR": 1,
+      "matched": 1,
+      "aVerifier": []
+    },
+    {
+      "en": "Camel",
+      "fr": "Chameau",
+      "url": "https://www.aidedd.org/monster/fr/chameau",
+      "actionsEN": 1,
+      "actionsFR": 1,
+      "matched": 1,
+      "aVerifier": []
+    },
+    {
+      "en": "Carrion Crawler",
+      "fr": "Charognard rampant",
+      "url": "https://www.aidedd.org/monster/fr/charognard-rampant",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Chasme",
+      "fr": "Chasme",
+      "url": "https://www.aidedd.org/monster/fr/chasme",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Cat",
+      "fr": "Chat",
+      "url": "https://www.aidedd.org/monster/fr/chat",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Bat",
+      "fr": "Chauve-souris",
+      "url": "https://www.aidedd.org/monster/fr/chauve-souris",
+      "actionsEN": 1,
+      "actionsFR": 1,
+      "matched": 1,
+      "aVerifier": []
+    },
+    {
+      "en": "Giant Bat",
+      "fr": "Chauve-souris géante",
+      "url": "https://www.aidedd.org/monster/fr/chauve-souris-geante",
+      "actionsEN": 1,
+      "actionsFR": 1,
+      "matched": 1,
+      "aVerifier": []
+    },
+    {
+      "en": "Warhorse Skeleton",
+      "fr": "Cheval de guerre squelette",
+      "url": "https://www.aidedd.org/monster/fr/cheval-de-guerre-squelette",
+      "actionsEN": 1,
+      "actionsFR": 1,
+      "matched": 1,
+      "aVerifier": []
+    },
+    {
+      "en": "Warhorse",
+      "fr": "Cheval de guerre",
+      "url": "https://www.aidedd.org/monster/fr/cheval-de-guerre-destrier",
+      "actionsEN": 1,
+      "actionsFR": 1,
+      "matched": 1,
+      "aVerifier": []
+    },
+    {
+      "en": "Riding Horse",
+      "fr": "Cheval de selle",
+      "url": "https://www.aidedd.org/monster/fr/cheval-de-selle",
+      "actionsEN": 1,
+      "actionsFR": 1,
+      "matched": 1,
+      "aVerifier": []
+    },
+    {
+      "en": "Draft Horse",
+      "fr": "Cheval de trait",
+      "url": "https://www.aidedd.org/monster/fr/cheval-de-trait",
+      "actionsEN": 1,
+      "actionsFR": 1,
+      "matched": 1,
+      "aVerifier": []
+    },
+    {
+      "en": "Knight",
+      "fr": "Chevalier",
+      "url": "https://www.aidedd.org/monster/fr/chevalier",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Death Knight",
+      "fr": "Chevalier de la mort",
+      "url": "https://www.aidedd.org/monster/fr/chevalier-de-la-mort",
+      "actionsEN": 13,
+      "actionsFR": 13,
+      "matched": 11,
+      "aVerifier": [
+        {
+          "heading": "Dread Authority",
+          "group": "legendary"
+        },
+        {
+          "heading": "Lunge",
+          "group": "legendary"
+        }
+      ]
+    },
+    {
+      "en": "Death Knight Aspirant",
+      "fr": "Chevalier de la mort, aspirant",
+      "url": "https://www.aidedd.org/monster/fr/chevalier-de-la-mort-aspirant",
+      "actionsEN": 7,
+      "actionsFR": 0,
+      "matched": 0,
+      "aVerifier": [
+        {
+          "heading": "Magic Resistance",
+          "group": "traits"
+        },
+        {
+          "heading": "Marshal Undead",
+          "group": "traits"
+        },
+        {
+          "heading": "Multiattack",
+          "group": "actions"
+        },
+        {
+          "heading": "Dread Blade",
+          "group": "actions"
+        },
+        {
+          "heading": "Hellfire Orb (Recharge 5–6)",
+          "group": "actions"
+        },
+        {
+          "heading": "Spellcasting",
+          "group": "actions"
+        },
+        {
+          "heading": "Parry",
+          "group": "reactions"
+        }
+      ]
+    },
+    {
+      "en": "Questing Knight",
+      "fr": "Chevalier errant",
+      "url": "https://www.aidedd.org/monster/fr/chevalier-errant",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Goat",
+      "fr": "Chèvre",
+      "url": "https://www.aidedd.org/monster/fr/chevre",
+      "actionsEN": 1,
+      "actionsFR": 1,
+      "matched": 1,
+      "aVerifier": []
+    },
+    {
+      "en": "Giant Goat",
+      "fr": "Chèvre géante",
+      "url": "https://www.aidedd.org/monster/fr/chevre-geante",
+      "actionsEN": 1,
+      "actionsFR": 1,
+      "matched": 1,
+      "aVerifier": []
+    },
+    {
+      "en": "Death Dog",
+      "fr": "Chien du trépas",
+      "url": "https://www.aidedd.org/monster/fr/chien-du-trepas",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Blink Dog",
+      "fr": "Chien esquiveur",
+      "url": "https://www.aidedd.org/monster/fr/chien-esquiveur",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Chimera",
+      "fr": "Chimère",
+      "url": "https://www.aidedd.org/monster/fr/chimere",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Owl",
+      "fr": "Chouette",
+      "url": "https://www.aidedd.org/monster/fr/chouette",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Giant Owl",
+      "fr": "Chouette géante",
+      "url": "https://www.aidedd.org/monster/fr/chouette-geante",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Chuul",
+      "fr": "Chuul",
+      "url": "https://www.aidedd.org/monster/fr/chuul",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Cockatrice",
+      "fr": "Cockatrice",
+      "url": "https://www.aidedd.org/monster/fr/cockatrice",
+      "actionsEN": 1,
+      "actionsFR": 1,
+      "matched": 1,
+      "aVerifier": []
+    },
+    {
+      "en": "Cockatrice Regent",
+      "fr": "Cockatrice souveraine",
+      "url": "https://www.aidedd.org/monster/fr/cockatrice-souveraine",
+      "actionsEN": 5,
+      "actionsFR": 0,
+      "matched": 0,
+      "aVerifier": [
+        {
+          "heading": "Flyby",
+          "group": "traits"
+        },
+        {
+          "heading": "Multiattack",
+          "group": "actions"
+        },
+        {
+          "heading": "Petrifying Bite",
+          "group": "actions"
+        },
+        {
+          "heading": "Talons",
+          "group": "actions"
+        },
+        {
+          "heading": "Magical Backlash",
+          "group": "reactions"
+        }
+      ]
+    },
+    {
+      "en": "Colossus",
+      "fr": "Colosse",
+      "url": "https://www.aidedd.org/monster/fr/colosse",
+      "actionsEN": 11,
+      "actionsFR": 1,
+      "matched": 0,
+      "aVerifier": [
+        {
+          "heading": "Immutable Form",
+          "group": "traits"
+        },
+        {
+          "heading": "Legendary Resistance (4/Day)",
+          "group": "traits"
+        },
+        {
+          "heading": "Magic Resistance",
+          "group": "traits"
+        },
+        {
+          "heading": "Siege Monster",
+          "group": "traits"
+        },
+        {
+          "heading": "Multiattack",
+          "group": "actions"
+        },
+        {
+          "heading": "Slam",
+          "group": "actions"
+        },
+        {
+          "heading": "Radiant Ray",
+          "group": "actions"
+        },
+        {
+          "heading": "Divine Beam (Recharge 5–6)",
+          "group": "actions"
+        },
+        {
+          "heading": "",
+          "group": "legendary"
+        },
+        {
+          "heading": "Smite",
+          "group": "legendary"
+        },
+        {
+          "heading": "Stomp",
+          "group": "legendary"
+        }
+      ]
+    },
+    {
+      "en": "Warrior Commander",
+      "fr": "Combattant, commandant",
+      "url": "https://www.aidedd.org/monster/fr/combattant-commandant",
+      "actionsEN": 7,
+      "actionsFR": 7,
+      "matched": 7,
+      "aVerifier": []
+    },
+    {
+      "en": "Warrior Infantry",
+      "fr": "Combattant, fantassin",
+      "url": "https://www.aidedd.org/monster/fr/combattant-fantassin",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Warrior Veteran",
+      "fr": "Combattant, vétéran",
+      "url": "https://www.aidedd.org/monster/fr/combattant-veteran",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Raven",
+      "fr": "Corbeau",
+      "url": "https://www.aidedd.org/monster/fr/corbeau",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Couatl",
+      "fr": "Couatl",
+      "url": "https://www.aidedd.org/monster/fr/couatl",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Crab",
+      "fr": "Crabe",
+      "url": "https://www.aidedd.org/monster/fr/crabe",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Giant Crab",
+      "fr": "Crabe géant",
+      "url": "https://www.aidedd.org/monster/fr/crabe-geant",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Flameskull",
+      "fr": "Crânefeu",
+      "url": "https://www.aidedd.org/monster/fr/cranefeu",
+      "actionsEN": 6,
+      "actionsFR": 6,
+      "matched": 6,
+      "aVerifier": []
+    },
+    {
+      "en": "Giant Toad",
+      "fr": "Crapaud géant",
+      "url": "https://www.aidedd.org/monster/fr/crapaud-geant",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Crocodile",
+      "fr": "Crocodile",
+      "url": "https://www.aidedd.org/monster/fr/crocodile",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Giant Crocodile",
+      "fr": "Crocodile géant",
+      "url": "https://www.aidedd.org/monster/fr/crocodile-geant",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Gelatinous Cube",
+      "fr": "Cube gélatineux",
+      "url": "https://www.aidedd.org/monster/fr/cube-gelatineux",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Aberrant Cultist",
+      "fr": "Cultiste, d'Aberration",
+      "url": "https://www.aidedd.org/monster/fr/cultiste-d-aberration",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Elemental Cultist",
+      "fr": "Cultiste, d'Élémentaire",
+      "url": "https://www.aidedd.org/monster/fr/cultiste-d-elementaire",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Fiend Cultist",
+      "fr": "Cultiste, de Fiélon",
+      "url": "https://www.aidedd.org/monster/fr/cultiste-de-fielon",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Cultist Fanatic",
+      "fr": "Cultiste, fanatique",
+      "url": "https://www.aidedd.org/monster/fr/cultiste-fanatique",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Death Cultist",
+      "fr": "Cultiste, funeste",
+      "url": "https://www.aidedd.org/monster/fr/cultiste-funeste",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Cultist Hierophant",
+      "fr": "Cultiste, hiérophante",
+      "url": "https://www.aidedd.org/monster/fr/cultiste-hierophante",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Cultist",
+      "fr": "Cultiste",
+      "url": "https://www.aidedd.org/monster/fr/cultiste-sectateur",
+      "actionsEN": 1,
+      "actionsFR": 1,
+      "matched": 1,
+      "aVerifier": []
+    },
+    {
+      "en": "Cyclops Oracle",
+      "fr": "Cyclope, oracle",
+      "url": "https://www.aidedd.org/monster/fr/cyclope-oracle",
+      "actionsEN": 5,
+      "actionsFR": 0,
+      "matched": 0,
+      "aVerifier": [
+        {
+          "heading": "Multiattack",
+          "group": "actions"
+        },
+        {
+          "heading": "Radiant Strike",
+          "group": "actions"
+        },
+        {
+          "heading": "Flash of Light",
+          "group": "actions"
+        },
+        {
+          "heading": "Spellcasting",
+          "group": "actions"
+        },
+        {
+          "heading": "Portent (Recharge 4–6)",
+          "group": "reactions"
+        }
+      ]
+    },
+    {
+      "en": "Cyclops Sentry",
+      "fr": "Cyclope, sentinelle",
+      "url": "https://www.aidedd.org/monster/fr/cyclope-sentinelle",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 3,
+      "aVerifier": [
+        {
+          "heading": "Rock",
+          "group": "actions"
+        }
+      ]
+    },
+    {
+      "en": "Dao",
+      "fr": "Dao",
+      "url": "https://www.aidedd.org/monster/fr/dao",
+      "actionsEN": 8,
+      "actionsFR": 0,
+      "matched": 0,
+      "aVerifier": [
+        {
+          "heading": "Earth Glide",
+          "group": "traits"
+        },
+        {
+          "heading": "Elemental Restoration",
+          "group": "traits"
+        },
+        {
+          "heading": "Magic Resistance",
+          "group": "traits"
+        },
+        {
+          "heading": "Wishes",
+          "group": "traits"
+        },
+        {
+          "heading": "Multiattack",
+          "group": "actions"
+        },
+        {
+          "heading": "Earthen Maul",
+          "group": "actions"
+        },
+        {
+          "heading": "Earth Burst",
+          "group": "actions"
+        },
+        {
+          "heading": "Spellcasting",
+          "group": "actions"
+        }
+      ]
+    },
+    {
+      "en": "Half-Dragon",
+      "fr": "Demi-dragon",
+      "url": "https://www.aidedd.org/monster/fr/demi-dragon",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Demilich",
+      "fr": "Demi-liche",
+      "url": "https://www.aidedd.org/monster/fr/demi-liche",
+      "actionsEN": 9,
+      "actionsFR": 9,
+      "matched": 9,
+      "aVerifier": []
+    },
+    {
+      "en": "Shadow Demon",
+      "fr": "Démon des ombres",
+      "url": "https://www.aidedd.org/monster/fr/demon-des-ombres",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Deva",
+      "fr": "Déva",
+      "url": "https://www.aidedd.org/monster/fr/deva",
+      "actionsEN": 6,
+      "actionsFR": 6,
+      "matched": 6,
+      "aVerifier": []
+    },
+    {
+      "en": "Intellect Devourer",
+      "fr": "Dévoreur d'intellect",
+      "url": "https://www.aidedd.org/monster/fr/devoreur-d-intellect",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Barbed Devil",
+      "fr": "Diable barbelé",
+      "url": "https://www.aidedd.org/monster/fr/diable-barbele",
+      "actionsEN": 7,
+      "actionsFR": 7,
+      "matched": 7,
+      "aVerifier": []
+    },
+    {
+      "en": "Bearded Devil",
+      "fr": "Diable barbu",
+      "url": "https://www.aidedd.org/monster/fr/diable-barbu",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Horned Devil",
+      "fr": "Diable cornu",
+      "url": "https://www.aidedd.org/monster/fr/diable-cornu",
+      "actionsEN": 6,
+      "actionsFR": 6,
+      "matched": 6,
+      "aVerifier": []
+    },
+    {
+      "en": "Chain Devil",
+      "fr": "Diable des chaînes",
+      "url": "https://www.aidedd.org/monster/fr/diable-des-chaines",
+      "actionsEN": 6,
+      "actionsFR": 6,
+      "matched": 6,
+      "aVerifier": []
+    },
+    {
+      "en": "Spined Devil",
+      "fr": "Diable épineux",
+      "url": "https://www.aidedd.org/monster/fr/diable-epineux",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Ice Devil",
+      "fr": "Diable gelé",
+      "url": "https://www.aidedd.org/monster/fr/diable-gele",
+      "actionsEN": 6,
+      "actionsFR": 6,
+      "matched": 6,
+      "aVerifier": []
+    },
+    {
+      "en": "Bone Devil",
+      "fr": "Diable osseux",
+      "url": "https://www.aidedd.org/monster/fr/diable-osseux",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Imp",
+      "fr": "Diablotin",
+      "url": "https://www.aidedd.org/monster/fr/diablotin",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Pit Fiend",
+      "fr": "Diantrefosse",
+      "url": "https://www.aidedd.org/monster/fr/diantrefosse",
+      "actionsEN": 9,
+      "actionsFR": 9,
+      "matched": 9,
+      "aVerifier": []
+    },
+    {
+      "en": "Djinni",
+      "fr": "Djinn",
+      "url": "https://www.aidedd.org/monster/fr/djinn",
+      "actionsEN": 8,
+      "actionsFR": 8,
+      "matched": 8,
+      "aVerifier": []
+    },
+    {
+      "en": "Doppelganger",
+      "fr": "Doppelganger",
+      "url": "https://www.aidedd.org/monster/fr/doppelganger",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Dracolich",
+      "fr": "Dracoliche",
+      "url": "https://www.aidedd.org/monster/fr/dracoliche",
+      "actionsEN": 12,
+      "actionsFR": 1,
+      "matched": 0,
+      "aVerifier": [
+        {
+          "heading": "Legendary Resistance (3/Day, or 4/Day in Lair)",
+          "group": "traits"
+        },
+        {
+          "heading": "Life Suppression",
+          "group": "traits"
+        },
+        {
+          "heading": "Magic Resistance",
+          "group": "traits"
+        },
+        {
+          "heading": "Soul Gem",
+          "group": "traits"
+        },
+        {
+          "heading": "Multiattack",
+          "group": "actions"
+        },
+        {
+          "heading": "Rend",
+          "group": "actions"
+        },
+        {
+          "heading": "Necrotic Breath (Recharge 5–6)",
+          "group": "actions"
+        },
+        {
+          "heading": "Spellcasting",
+          "group": "actions"
+        },
+        {
+          "heading": "",
+          "group": "legendary"
+        },
+        {
+          "heading": "Pounce",
+          "group": "legendary"
+        },
+        {
+          "heading": "Sickening Ray",
+          "group": "legendary"
+        },
+        {
+          "heading": "Terrifying Presence",
+          "group": "legendary"
+        }
+      ]
+    },
+    {
+      "en": "Adult White Dragon",
+      "fr": "Dragon blanc, adulte",
+      "url": "https://www.aidedd.org/monster/fr/dragon-blanc-adulte",
+      "actionsEN": 9,
+      "actionsFR": 9,
+      "matched": 9,
+      "aVerifier": []
+    },
+    {
+      "en": "Ancient White Dragon",
+      "fr": "Dragon blanc, ancien",
+      "url": "https://www.aidedd.org/monster/fr/dragon-blanc-ancien",
+      "actionsEN": 9,
+      "actionsFR": 9,
+      "matched": 9,
+      "aVerifier": []
+    },
+    {
+      "en": "White Dragon Wyrmling",
+      "fr": "Dragon blanc, dragonnet",
+      "url": "https://www.aidedd.org/monster/fr/dragon-blanc-dragonnet",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Young White Dragon",
+      "fr": "Dragon blanc, jeune",
+      "url": "https://www.aidedd.org/monster/fr/dragon-blanc-jeune",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Adult Blue Dragon",
+      "fr": "Dragon bleu, adulte",
+      "url": "https://www.aidedd.org/monster/fr/dragon-bleu-adulte",
+      "actionsEN": 9,
+      "actionsFR": 9,
+      "matched": 7,
+      "aVerifier": [
+        {
+          "heading": "Cloaked Flight",
+          "group": "legendary"
+        },
+        {
+          "heading": "Tail Swipe",
+          "group": "legendary"
+        }
+      ]
+    },
+    {
+      "en": "Ancient Blue Dragon",
+      "fr": "Dragon bleu, ancien",
+      "url": "https://www.aidedd.org/monster/fr/dragon-bleu-ancien",
+      "actionsEN": 9,
+      "actionsFR": 9,
+      "matched": 7,
+      "aVerifier": [
+        {
+          "heading": "Cloaked Flight",
+          "group": "legendary"
+        },
+        {
+          "heading": "Tail Swipe",
+          "group": "legendary"
+        }
+      ]
+    },
+    {
+      "en": "Blue Dragon Wyrmling",
+      "fr": "Dragon bleu, dragonnet",
+      "url": "https://www.aidedd.org/monster/fr/dragon-bleu-dragonnet",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Young Blue Dragon",
+      "fr": "Dragon bleu, jeune",
+      "url": "https://www.aidedd.org/monster/fr/dragon-bleu-jeune",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Adult Brass Dragon",
+      "fr": "Dragon d'airain, adulte",
+      "url": "https://www.aidedd.org/monster/fr/dragon-d-airain-adulte",
+      "actionsEN": 10,
+      "actionsFR": 10,
+      "matched": 10,
+      "aVerifier": []
+    },
+    {
+      "en": "Ancient Brass Dragon",
+      "fr": "Dragon d'airain, ancien",
+      "url": "https://www.aidedd.org/monster/fr/dragon-d-airain-ancien",
+      "actionsEN": 10,
+      "actionsFR": 10,
+      "matched": 10,
+      "aVerifier": []
+    },
+    {
+      "en": "Brass Dragon Wyrmling",
+      "fr": "Dragon d'airain, dragonnet",
+      "url": "https://www.aidedd.org/monster/fr/dragon-d-airain-dragonnet",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Young Brass Dragon",
+      "fr": "Dragon d'airain, jeune",
+      "url": "https://www.aidedd.org/monster/fr/dragon-d-airain-jeune",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Adult Silver Dragon",
+      "fr": "Dragon d'argent, adulte",
+      "url": "https://www.aidedd.org/monster/fr/dragon-d-argent-adulte",
+      "actionsEN": 10,
+      "actionsFR": 9,
+      "matched": 9,
+      "aVerifier": [
+        {
+          "heading": "Chill",
+          "group": "legendary"
+        }
+      ]
+    },
+    {
+      "en": "Ancient Silver Dragon",
+      "fr": "Dragon d'argent, ancien",
+      "url": "https://www.aidedd.org/monster/fr/dragon-d-argent-ancien",
+      "actionsEN": 10,
+      "actionsFR": 9,
+      "matched": 9,
+      "aVerifier": [
+        {
+          "heading": "Chill",
+          "group": "legendary"
+        }
+      ]
+    },
+    {
+      "en": "Silver Dragon Wyrmling",
+      "fr": "Dragon d'argent, dragonnet",
+      "url": "https://www.aidedd.org/monster/fr/dragon-d-argent-dragonnet",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 3,
+      "aVerifier": [
+        {
+          "heading": "Cold Breath (Recharge 5–6)",
+          "group": "actions"
+        }
+      ]
+    },
+    {
+      "en": "Young Silver Dragon",
+      "fr": "Dragon d'argent, jeune",
+      "url": "https://www.aidedd.org/monster/fr/dragon-d-argent-jeune",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 3,
+      "aVerifier": [
+        {
+          "heading": "Cold Breath (Recharge 5–6)",
+          "group": "actions"
+        }
+      ]
+    },
+    {
+      "en": "Shadow Dragon",
+      "fr": "Dragon d'ombre",
+      "url": "https://www.aidedd.org/monster/fr/dragon-d-ombre",
+      "actionsEN": 10,
+      "actionsFR": 1,
+      "matched": 0,
+      "aVerifier": [
+        {
+          "heading": "Legendary Resistance (3/Day, or 4/Day in Lair)",
+          "group": "traits"
+        },
+        {
+          "heading": "Living Shadow",
+          "group": "traits"
+        },
+        {
+          "heading": "Sunlight Sensitivity",
+          "group": "traits"
+        },
+        {
+          "heading": "Multiattack",
+          "group": "actions"
+        },
+        {
+          "heading": "Rend",
+          "group": "actions"
+        },
+        {
+          "heading": "Shadow Breath (Recharge 5–6)",
+          "group": "actions"
+        },
+        {
+          "heading": "Shadow Stealth",
+          "group": "bonus"
+        },
+        {
+          "heading": "",
+          "group": "legendary"
+        },
+        {
+          "heading": "Pounce",
+          "group": "legendary"
+        },
+        {
+          "heading": "Veil of Shadow",
+          "group": "legendary"
+        }
+      ]
+    },
+    {
+      "en": "Juvenile Shadow Dragon",
+      "fr": "Dragon d'ombre immature",
+      "url": "https://www.aidedd.org/monster/fr/dragon-d-ombre-immature",
+      "actionsEN": 6,
+      "actionsFR": 0,
+      "matched": 0,
+      "aVerifier": [
+        {
+          "heading": "Living Shadow",
+          "group": "traits"
+        },
+        {
+          "heading": "Sunlight Sensitivity",
+          "group": "traits"
+        },
+        {
+          "heading": "Multiattack",
+          "group": "actions"
+        },
+        {
+          "heading": "Rend",
+          "group": "actions"
+        },
+        {
+          "heading": "Shadow Breath (Recharge 5–6)",
+          "group": "actions"
+        },
+        {
+          "heading": "Shadow Stealth",
+          "group": "bonus"
+        }
+      ]
+    },
+    {
+      "en": "Adult Gold Dragon",
+      "fr": "Dragon d'or, adulte",
+      "url": "https://www.aidedd.org/monster/fr/dragon-d-or-adulte",
+      "actionsEN": 11,
+      "actionsFR": 11,
+      "matched": 11,
+      "aVerifier": []
+    },
+    {
+      "en": "Ancient Gold Dragon",
+      "fr": "Dragon d'or, ancien",
+      "url": "https://www.aidedd.org/monster/fr/dragon-d-or-ancien",
+      "actionsEN": 11,
+      "actionsFR": 11,
+      "matched": 10,
+      "aVerifier": [
+        {
+          "heading": "Spellcasting",
+          "group": "actions"
+        }
+      ]
+    },
+    {
+      "en": "Gold Dragon Wyrmling",
+      "fr": "Dragon d'or, dragonnet",
+      "url": "https://www.aidedd.org/monster/fr/dragon-d-or-dragonnet",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Young Gold Dragon",
+      "fr": "Dragon d'or, jeune",
+      "url": "https://www.aidedd.org/monster/fr/dragon-d-or-jeune",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Adult Bronze Dragon",
+      "fr": "Dragon de bronze, adulte",
+      "url": "https://www.aidedd.org/monster/fr/dragon-de-bronze-adulte",
+      "actionsEN": 11,
+      "actionsFR": 11,
+      "matched": 11,
+      "aVerifier": []
+    },
+    {
+      "en": "Ancient Bronze Dragon",
+      "fr": "Dragon de bronze, ancien",
+      "url": "https://www.aidedd.org/monster/fr/dragon-de-bronze-ancien",
+      "actionsEN": 11,
+      "actionsFR": 11,
+      "matched": 11,
+      "aVerifier": []
+    },
+    {
+      "en": "Bronze Dragon Wyrmling",
+      "fr": "Dragon de bronze, dragonnet",
+      "url": "https://www.aidedd.org/monster/fr/dragon-de-bronze-dragonnet",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Young Bronze Dragon",
+      "fr": "Dragon de bronze, jeune",
+      "url": "https://www.aidedd.org/monster/fr/dragon-de-bronze-jeune",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Adult Copper Dragon",
+      "fr": "Dragon de cuivre, adulte",
+      "url": "https://www.aidedd.org/monster/fr/dragon-de-cuivre-adulte",
+      "actionsEN": 10,
+      "actionsFR": 10,
+      "matched": 10,
+      "aVerifier": []
+    },
+    {
+      "en": "Ancient Copper Dragon",
+      "fr": "Dragon de cuivre, ancien",
+      "url": "https://www.aidedd.org/monster/fr/dragon-de-cuivre-ancien",
+      "actionsEN": 10,
+      "actionsFR": 10,
+      "matched": 10,
+      "aVerifier": []
+    },
+    {
+      "en": "Copper Dragon Wyrmling",
+      "fr": "Dragon de cuivre, dragonnet",
+      "url": "https://www.aidedd.org/monster/fr/dragon-de-cuivre-dragonnet",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Young Copper Dragon",
+      "fr": "Dragon de cuivre, jeune",
+      "url": "https://www.aidedd.org/monster/fr/dragon-de-cuivre-jeune",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Faerie Dragon Adult",
+      "fr": "Dragon féerique, adulte",
+      "url": "https://www.aidedd.org/monster/fr/dragon-feerique-adulte",
+      "actionsEN": 5,
+      "actionsFR": 0,
+      "matched": 0,
+      "aVerifier": [
+        {
+          "heading": "Magic Resistance",
+          "group": "traits"
+        },
+        {
+          "heading": "Bite",
+          "group": "actions"
+        },
+        {
+          "heading": "Euphoria Breath (Recharge 5–6)",
+          "group": "actions"
+        },
+        {
+          "heading": "Spellcasting",
+          "group": "actions"
+        },
+        {
+          "heading": "Superior Invisibility",
+          "group": "bonus"
+        }
+      ]
+    },
+    {
+      "en": "Faerie Dragon Youth",
+      "fr": "Dragon féerique, juvénile",
+      "url": "https://www.aidedd.org/monster/fr/dragon-feerique-juvenile",
+      "actionsEN": 5,
+      "actionsFR": 0,
+      "matched": 0,
+      "aVerifier": [
+        {
+          "heading": "Magic Resistance",
+          "group": "traits"
+        },
+        {
+          "heading": "Bite",
+          "group": "actions"
+        },
+        {
+          "heading": "Euphoria Breath (Recharge 5–6)",
+          "group": "actions"
+        },
+        {
+          "heading": "Spellcasting",
+          "group": "actions"
+        },
+        {
+          "heading": "Superior Invisibility",
+          "group": "bonus"
+        }
+      ]
+    },
+    {
+      "en": "Adult Black Dragon",
+      "fr": "Dragon noir, adulte",
+      "url": "https://www.aidedd.org/monster/fr/dragon-noir-adulte",
+      "actionsEN": 10,
+      "actionsFR": 10,
+      "matched": 10,
+      "aVerifier": []
+    },
+    {
+      "en": "Ancient Black Dragon",
+      "fr": "Dragon noir, ancien",
+      "url": "https://www.aidedd.org/monster/fr/dragon-noir-ancien",
+      "actionsEN": 10,
+      "actionsFR": 10,
+      "matched": 10,
+      "aVerifier": []
+    },
+    {
+      "en": "Black Dragon Wyrmling",
+      "fr": "Dragon noir, dragonnet",
+      "url": "https://www.aidedd.org/monster/fr/dragon-noir-dragonnet",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Young Black Dragon",
+      "fr": "Dragon noir, jeune",
+      "url": "https://www.aidedd.org/monster/fr/dragon-noir-jeune",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Adult Red Dragon",
+      "fr": "Dragon rouge, adulte",
+      "url": "https://www.aidedd.org/monster/fr/dragon-rouge-adulte",
+      "actionsEN": 9,
+      "actionsFR": 9,
+      "matched": 9,
+      "aVerifier": []
+    },
+    {
+      "en": "Ancient Red Dragon",
+      "fr": "Dragon rouge, ancien",
+      "url": "https://www.aidedd.org/monster/fr/dragon-rouge-ancien",
+      "actionsEN": 9,
+      "actionsFR": 9,
+      "matched": 9,
+      "aVerifier": []
+    },
+    {
+      "en": "Red Dragon Wyrmling",
+      "fr": "Dragon rouge, dragonnet",
+      "url": "https://www.aidedd.org/monster/fr/dragon-rouge-dragonnet",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Young Red Dragon",
+      "fr": "Dragon rouge, jeune",
+      "url": "https://www.aidedd.org/monster/fr/dragon-rouge-jeune",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Adult Green Dragon",
+      "fr": "Dragon vert, adulte",
+      "url": "https://www.aidedd.org/monster/fr/dragon-vert-adulte",
+      "actionsEN": 10,
+      "actionsFR": 10,
+      "matched": 10,
+      "aVerifier": []
+    },
+    {
+      "en": "Ancient Green Dragon",
+      "fr": "Dragon vert, ancien",
+      "url": "https://www.aidedd.org/monster/fr/dragon-vert-ancien",
+      "actionsEN": 10,
+      "actionsFR": 10,
+      "matched": 10,
+      "aVerifier": []
+    },
+    {
+      "en": "Green Dragon Wyrmling",
+      "fr": "Dragon vert, dragonnet",
+      "url": "https://www.aidedd.org/monster/fr/dragon-vert-dragonnet",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Young Green Dragon",
+      "fr": "Dragon vert, jeune",
+      "url": "https://www.aidedd.org/monster/fr/dragon-vert-jeune",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Dragon Turtle",
+      "fr": "Dragon-tortue",
+      "url": "https://www.aidedd.org/monster/fr/dragon-tortue",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Dretch",
+      "fr": "Dretch",
+      "url": "https://www.aidedd.org/monster/fr/dretch",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Drider",
+      "fr": "Drider",
+      "url": "https://www.aidedd.org/monster/fr/drider",
+      "actionsEN": 7,
+      "actionsFR": 7,
+      "matched": 7,
+      "aVerifier": []
+    },
+    {
+      "en": "Druid",
+      "fr": "Druide",
+      "url": "https://www.aidedd.org/monster/fr/druide",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Dryad",
+      "fr": "Dryade",
+      "url": "https://www.aidedd.org/monster/fr/dryade",
+      "actionsEN": 7,
+      "actionsFR": 7,
+      "matched": 7,
+      "aVerifier": []
+    },
+    {
+      "en": "Scout",
+      "fr": "Éclaireur",
+      "url": "https://www.aidedd.org/monster/fr/eclaireur",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Scout Captain",
+      "fr": "Éclaireur, capitaine",
+      "url": "https://www.aidedd.org/monster/fr/eclaireur-capitaine",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Efreeti",
+      "fr": "Éfrit",
+      "url": "https://www.aidedd.org/monster/fr/efrit",
+      "actionsEN": 7,
+      "actionsFR": 7,
+      "matched": 7,
+      "aVerifier": []
+    },
+    {
+      "en": "Giant Elk",
+      "fr": "Élan géant",
+      "url": "https://www.aidedd.org/monster/fr/elan-geant-cervide-geant",
+      "actionsEN": 1,
+      "actionsFR": 1,
+      "matched": 1,
+      "aVerifier": []
+    },
+    {
+      "en": "Elk",
+      "fr": "Élan",
+      "url": "https://www.aidedd.org/monster/fr/elan-grand-cervide",
+      "actionsEN": 1,
+      "actionsFR": 1,
+      "matched": 1,
+      "aVerifier": []
+    },
+    {
+      "en": "Air Elemental",
+      "fr": "Élémentaire de l'air",
+      "url": "https://www.aidedd.org/monster/fr/elementaire-de-l-air",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Water Elemental",
+      "fr": "Élémentaire de l'eau",
+      "url": "https://www.aidedd.org/monster/fr/elementaire-de-l-eau",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Earth Elemental",
+      "fr": "Élémentaire de la terre",
+      "url": "https://www.aidedd.org/monster/fr/elementaire-de-la-terre",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Fire Elemental",
+      "fr": "Élémentaire du feu",
+      "url": "https://www.aidedd.org/monster/fr/elementaire-du-feu",
+      "actionsEN": 6,
+      "actionsFR": 6,
+      "matched": 5,
+      "aVerifier": [
+        {
+          "heading": "Water Susceptibility",
+          "group": "traits"
+        }
+      ]
+    },
+    {
+      "en": "Elephant",
+      "fr": "Éléphant",
+      "url": "https://www.aidedd.org/monster/fr/elephant",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Empyrean",
+      "fr": "Empyréen",
+      "url": "https://www.aidedd.org/monster/fr/empyreen",
+      "actionsEN": 10,
+      "actionsFR": 1,
+      "matched": 0,
+      "aVerifier": [
+        {
+          "heading": "Legendary Resistance (4/Day)",
+          "group": "traits"
+        },
+        {
+          "heading": "Magic Resistance",
+          "group": "traits"
+        },
+        {
+          "heading": "Multiattack",
+          "group": "actions"
+        },
+        {
+          "heading": "Sacred Weapon",
+          "group": "actions"
+        },
+        {
+          "heading": "Divine Ray",
+          "group": "actions"
+        },
+        {
+          "heading": "Spellcasting",
+          "group": "actions"
+        },
+        {
+          "heading": "",
+          "group": "legendary"
+        },
+        {
+          "heading": "Bolster",
+          "group": "legendary"
+        },
+        {
+          "heading": "Shockwave of Glory",
+          "group": "legendary"
+        },
+        {
+          "heading": "Smite",
+          "group": "legendary"
+        }
+      ]
+    },
+    {
+      "en": "Empyrean Iota",
+      "fr": "Empyréen iota",
+      "url": "https://www.aidedd.org/monster/fr/empyreen-iota",
+      "actionsEN": 5,
+      "actionsFR": 0,
+      "matched": 0,
+      "aVerifier": [
+        {
+          "heading": "Incorporeal Movement",
+          "group": "traits"
+        },
+        {
+          "heading": "Magic Resistance",
+          "group": "traits"
+        },
+        {
+          "heading": "Otherworldly Strike",
+          "group": "actions"
+        },
+        {
+          "heading": "Spellcasting",
+          "group": "actions"
+        },
+        {
+          "heading": "Healing Word (1/Day)",
+          "group": "bonus"
+        }
+      ]
+    },
+    {
+      "en": "Roper",
+      "fr": "Enlaceur",
+      "url": "https://www.aidedd.org/monster/fr/enlaceur",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Killer Whale",
+      "fr": "Épaulard",
+      "url": "https://www.aidedd.org/monster/fr/epaulard",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Animated Flying Sword",
+      "fr": "Épée volante animée",
+      "url": "https://www.aidedd.org/monster/fr/epee-volante-animee",
+      "actionsEN": 1,
+      "actionsFR": 1,
+      "matched": 1,
+      "aVerifier": []
+    },
+    {
+      "en": "Scarecrow",
+      "fr": "Épouvantail",
+      "url": "https://www.aidedd.org/monster/fr/epouvantail",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Erinyes",
+      "fr": "Érinye",
+      "url": "https://www.aidedd.org/monster/fr/erinye",
+      "actionsEN": 7,
+      "actionsFR": 7,
+      "matched": 7,
+      "aVerifier": []
+    },
+    {
+      "en": "Spy",
+      "fr": "Espion",
+      "url": "https://www.aidedd.org/monster/fr/espion",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 2,
+      "aVerifier": [
+        {
+          "heading": "Hand Crossbow",
+          "group": "actions"
+        }
+      ]
+    },
+    {
+      "en": "Spy Master",
+      "fr": "Espion, maître",
+      "url": "https://www.aidedd.org/monster/fr/espion-maitre",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Sprite",
+      "fr": "Esprit follet",
+      "url": "https://www.aidedd.org/monster/fr/esprit-follet",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Ettercap",
+      "fr": "Ettercap",
+      "url": "https://www.aidedd.org/monster/fr/ettercap",
+      "actionsEN": 7,
+      "actionsFR": 7,
+      "matched": 7,
+      "aVerifier": []
+    },
+    {
+      "en": "Ettin",
+      "fr": "Ettin",
+      "url": "https://www.aidedd.org/monster/fr/ettin",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Vampire Familiar",
+      "fr": "Familier de vampire",
+      "url": "https://www.aidedd.org/monster/fr/familier-de-vampire",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Ghost",
+      "fr": "Fantôme",
+      "url": "https://www.aidedd.org/monster/fr/fantome",
+      "actionsEN": 7,
+      "actionsFR": 7,
+      "matched": 7,
+      "aVerifier": []
+    },
+    {
+      "en": "Hawk",
+      "fr": "Faucon",
+      "url": "https://www.aidedd.org/monster/fr/faucon",
+      "actionsEN": 1,
+      "actionsFR": 1,
+      "matched": 1,
+      "aVerifier": []
+    },
+    {
+      "en": "Blood Hawk",
+      "fr": "Faucon de sang",
+      "url": "https://www.aidedd.org/monster/fr/faucon-de-sang",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Will-o'-Wisp",
+      "fr": "Feu follet",
+      "url": "https://www.aidedd.org/monster/fr/feu-follet",
+      "actionsEN": 6,
+      "actionsFR": 6,
+      "matched": 6,
+      "aVerifier": []
+    },
+    {
+      "en": "Mind Flayer",
+      "fr": "Flagelleur mental",
+      "url": "https://www.aidedd.org/monster/fr/flagelleur-mental",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Mind Flayer Arcanist",
+      "fr": "Flagelleur mental, arcaniste",
+      "url": "https://www.aidedd.org/monster/fr/flagelleur-mental-arcaniste",
+      "actionsEN": 6,
+      "actionsFR": 0,
+      "matched": 0,
+      "aVerifier": [
+        {
+          "heading": "Magic Resistance",
+          "group": "traits"
+        },
+        {
+          "heading": "Multiattack",
+          "group": "actions"
+        },
+        {
+          "heading": "Arcane Tentacles",
+          "group": "actions"
+        },
+        {
+          "heading": "Mind Burst (Recharge 5–6)",
+          "group": "actions"
+        },
+        {
+          "heading": "Spellcasting",
+          "group": "actions"
+        },
+        {
+          "heading": "Shield (2/Day)",
+          "group": "reactions"
+        }
+      ]
+    },
+    {
+      "en": "Flumph",
+      "fr": "Flumph",
+      "url": "https://www.aidedd.org/monster/fr/flumph",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Fomorian",
+      "fr": "Fomoire",
+      "url": "https://www.aidedd.org/monster/fr/fomoire",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Galeb Duhr",
+      "fr": "Galeb Duhr",
+      "url": "https://www.aidedd.org/monster/fr/galeb-duhr",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Guard",
+      "fr": "Garde",
+      "url": "https://www.aidedd.org/monster/fr/garde",
+      "actionsEN": 1,
+      "actionsFR": 1,
+      "matched": 1,
+      "aVerifier": []
+    },
+    {
+      "en": "Shield Guardian",
+      "fr": "Garde bouclier",
+      "url": "https://www.aidedd.org/monster/fr/garde-bouclier-anime",
+      "actionsEN": 6,
+      "actionsFR": 6,
+      "matched": 6,
+      "aVerifier": []
+    },
+    {
+      "en": "Guard Captain",
+      "fr": "Garde, capitaine",
+      "url": "https://www.aidedd.org/monster/fr/garde-capitaine",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Gargoyle",
+      "fr": "Gargouille",
+      "url": "https://www.aidedd.org/monster/fr/gargouille",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Jackalwere",
+      "fr": "Garou-chacal",
+      "url": "https://www.aidedd.org/monster/fr/garou-chacal",
+      "actionsEN": 6,
+      "actionsFR": 0,
+      "matched": 0,
+      "aVerifier": [
+        {
+          "heading": "Pack Tactics",
+          "group": "traits"
+        },
+        {
+          "heading": "Multiattack",
+          "group": "actions"
+        },
+        {
+          "heading": "Rend (Jackal or Hybrid Form Only)",
+          "group": "actions"
+        },
+        {
+          "heading": "Slam (Human or Hybrid Form Only)",
+          "group": "actions"
+        },
+        {
+          "heading": "Sleep Gaze (Recharge 5–6)",
+          "group": "actions"
+        },
+        {
+          "heading": "Shape-Shift",
+          "group": "bonus"
+        }
+      ]
+    },
+    {
+      "en": "Hill Giant",
+      "fr": "Géant des collines",
+      "url": "https://www.aidedd.org/monster/fr/geant-des-collines",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Cloud Giant",
+      "fr": "Géant des nuages",
+      "url": "https://www.aidedd.org/monster/fr/geant-des-nuages",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Stone Giant",
+      "fr": "Géant des pierres",
+      "url": "https://www.aidedd.org/monster/fr/geant-des-pierres",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Storm Giant",
+      "fr": "Géant des tempêtes",
+      "url": "https://www.aidedd.org/monster/fr/geant-des-tempetes",
+      "actionsEN": 6,
+      "actionsFR": 6,
+      "matched": 6,
+      "aVerifier": []
+    },
+    {
+      "en": "Fire Giant",
+      "fr": "Géant du feu",
+      "url": "https://www.aidedd.org/monster/fr/geant-du-feu",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Frost Giant",
+      "fr": "Géant du givre",
+      "url": "https://www.aidedd.org/monster/fr/geant-du-givre",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Ochre Jelly",
+      "fr": "Gelée ocre",
+      "url": "https://www.aidedd.org/monster/fr/gelee-ocre",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Githyanki Knight",
+      "fr": "Githyanki, chevalier",
+      "url": "https://www.aidedd.org/monster/fr/githyanki-chevalier",
+      "actionsEN": 4,
+      "actionsFR": 0,
+      "matched": 0,
+      "aVerifier": [
+        {
+          "heading": "Multiattack",
+          "group": "actions"
+        },
+        {
+          "heading": "Silver Sword",
+          "group": "actions"
+        },
+        {
+          "heading": "Spellcasting",
+          "group": "actions"
+        },
+        {
+          "heading": "Misty Step (2/Day)",
+          "group": "bonus"
+        }
+      ]
+    },
+    {
+      "en": "Githyanki Warrior",
+      "fr": "Githyanki, combattant",
+      "url": "https://www.aidedd.org/monster/fr/githyanki-combattant",
+      "actionsEN": 4,
+      "actionsFR": 0,
+      "matched": 0,
+      "aVerifier": [
+        {
+          "heading": "Multiattack",
+          "group": "actions"
+        },
+        {
+          "heading": "Psi Blade",
+          "group": "actions"
+        },
+        {
+          "heading": "Spellcasting",
+          "group": "actions"
+        },
+        {
+          "heading": "Misty Step (2/Day)",
+          "group": "bonus"
+        }
+      ]
+    },
+    {
+      "en": "Githyanki Dracomancer",
+      "fr": "Githyanki, dracomancien",
+      "url": "https://www.aidedd.org/monster/fr/githyanki-dracomancien",
+      "actionsEN": 5,
+      "actionsFR": 0,
+      "matched": 0,
+      "aVerifier": [
+        {
+          "heading": "Multiattack",
+          "group": "actions"
+        },
+        {
+          "heading": "Draconic Strike",
+          "group": "actions"
+        },
+        {
+          "heading": "Conjured Dragon's Breath (Recharge 5–6)",
+          "group": "actions"
+        },
+        {
+          "heading": "Spellcasting",
+          "group": "actions"
+        },
+        {
+          "heading": "Misty Step (3/Day)",
+          "group": "bonus"
+        }
+      ]
+    },
+    {
+      "en": "Githzerai Monk",
+      "fr": "Githzerai, moine",
+      "url": "https://www.aidedd.org/monster/fr/githzerai-moine",
+      "actionsEN": 5,
+      "actionsFR": 0,
+      "matched": 0,
+      "aVerifier": [
+        {
+          "heading": "Multiattack",
+          "group": "actions"
+        },
+        {
+          "heading": "Psi Strike",
+          "group": "actions"
+        },
+        {
+          "heading": "Spellcasting",
+          "group": "actions"
+        },
+        {
+          "heading": "Psi-Powered Leap (2/Day)",
+          "group": "bonus"
+        },
+        {
+          "heading": "Psionic Defense (2/Day)",
+          "group": "reactions"
+        }
+      ]
+    },
+    {
+      "en": "Githzerai Psion",
+      "fr": "Githzerai, psion",
+      "url": "https://www.aidedd.org/monster/fr/githzerai-psion",
+      "actionsEN": 4,
+      "actionsFR": 0,
+      "matched": 0,
+      "aVerifier": [
+        {
+          "heading": "Multiattack",
+          "group": "actions"
+        },
+        {
+          "heading": "Psychic Warp",
+          "group": "actions"
+        },
+        {
+          "heading": "Spellcasting",
+          "group": "actions"
+        },
+        {
+          "heading": "Psionic Defense",
+          "group": "reactions"
+        }
+      ]
+    },
+    {
+      "en": "Githzerai Zerth",
+      "fr": "Githzerai, zerth",
+      "url": "https://www.aidedd.org/monster/fr/githzerai-zerth",
+      "actionsEN": 5,
+      "actionsFR": 0,
+      "matched": 0,
+      "aVerifier": [
+        {
+          "heading": "Multiattack",
+          "group": "actions"
+        },
+        {
+          "heading": "Psi Strike",
+          "group": "actions"
+        },
+        {
+          "heading": "Spellcasting",
+          "group": "actions"
+        },
+        {
+          "heading": "Psi-Powered Leap (2/Day)",
+          "group": "bonus"
+        },
+        {
+          "heading": "Psionic Defense (2/Day)",
+          "group": "reactions"
+        }
+      ]
+    },
+    {
+      "en": "Glabrezu",
+      "fr": "Glabrezu",
+      "url": "https://www.aidedd.org/monster/fr/glabrezu",
+      "actionsEN": 6,
+      "actionsFR": 6,
+      "matched": 6,
+      "aVerifier": []
+    },
+    {
+      "en": "Gladiator",
+      "fr": "Gladiateur",
+      "url": "https://www.aidedd.org/monster/fr/gladiateur",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Gnoll Pack Lord",
+      "fr": "Gnoll, chef de meute",
+      "url": "https://www.aidedd.org/monster/fr/gnoll-chef-de-meute",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 4,
+      "aVerifier": [
+        {
+          "heading": "Bone Javelin",
+          "group": "actions"
+        }
+      ]
+    },
+    {
+      "en": "Gnoll Warrior",
+      "fr": "Gnoll, combattant",
+      "url": "https://www.aidedd.org/monster/fr/gnoll-combattant",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Gnoll Fang of Yeenoghu",
+      "fr": "Gnoll, croc de Yeenoghu",
+      "url": "https://www.aidedd.org/monster/fr/gnoll-croc-de-yeenoghu",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Gnoll Demoniac",
+      "fr": "Gnoll, démoniaque",
+      "url": "https://www.aidedd.org/monster/fr/gnoll-demoniaque",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Goblin Boss",
+      "fr": "Gobelin, chef",
+      "url": "https://www.aidedd.org/monster/fr/gobelin-chef",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Goblin Warrior",
+      "fr": "Gobelin, combattant",
+      "url": "https://www.aidedd.org/monster/fr/gobelin-combattant",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Goblin Hexer",
+      "fr": "Gobelin, maléficeur",
+      "url": "https://www.aidedd.org/monster/fr/gobelin-maleficeur",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Goblin Minion",
+      "fr": "Gobelin, sbire",
+      "url": "https://www.aidedd.org/monster/fr/gobelin-sbire",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Bugbear Warrior",
+      "fr": "Gobelours, combattant",
+      "url": "https://www.aidedd.org/monster/fr/gobelours-combattant",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Bugbear Stalker",
+      "fr": "Gobelours, traqueur",
+      "url": "https://www.aidedd.org/monster/fr/gobelours-traqueur",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Clay Golem",
+      "fr": "Golem d'argile",
+      "url": "https://www.aidedd.org/monster/fr/golem-d-argile",
+      "actionsEN": 7,
+      "actionsFR": 7,
+      "matched": 7,
+      "aVerifier": []
+    },
+    {
+      "en": "Flesh Golem",
+      "fr": "Golem de chair",
+      "url": "https://www.aidedd.org/monster/fr/golem-de-chair",
+      "actionsEN": 7,
+      "actionsFR": 7,
+      "matched": 6,
+      "aVerifier": [
+        {
+          "heading": "Berserk",
+          "group": "traits"
+        }
+      ]
+    },
+    {
+      "en": "Iron Golem",
+      "fr": "Golem de fer",
+      "url": "https://www.aidedd.org/monster/fr/golem-de-fer",
+      "actionsEN": 7,
+      "actionsFR": 7,
+      "matched": 7,
+      "aVerifier": []
+    },
+    {
+      "en": "Stone Golem",
+      "fr": "Golem de pierre",
+      "url": "https://www.aidedd.org/monster/fr/golem-de-pierre",
+      "actionsEN": 6,
+      "actionsFR": 6,
+      "matched": 5,
+      "aVerifier": [
+        {
+          "heading": "Force Bolt",
+          "group": "actions"
+        }
+      ]
+    },
+    {
+      "en": "Gorgon",
+      "fr": "Gorgone",
+      "url": "https://www.aidedd.org/monster/fr/gorgone",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Brazen Gorgon",
+      "fr": "Gorgone ardente",
+      "url": "https://www.aidedd.org/monster/fr/gorgone-ardente",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Goristro",
+      "fr": "Goristro",
+      "url": "https://www.aidedd.org/monster/fr/goristro",
+      "actionsEN": 7,
+      "actionsFR": 7,
+      "matched": 7,
+      "aVerifier": []
+    },
+    {
+      "en": "Ghoul",
+      "fr": "Goule",
+      "url": "https://www.aidedd.org/monster/fr/goule",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Lacedon Ghoul",
+      "fr": "Goule lacédone",
+      "url": "https://www.aidedd.org/monster/fr/goule-lacedone",
+      "actionsEN": 4,
+      "actionsFR": 0,
+      "matched": 0,
+      "aVerifier": [
+        {
+          "heading": "Multiattack",
+          "group": "actions"
+        },
+        {
+          "heading": "Icy Bite",
+          "group": "actions"
+        },
+        {
+          "heading": "Claw",
+          "group": "actions"
+        },
+        {
+          "heading": "Watery Rush",
+          "group": "bonus"
+        }
+      ]
+    },
+    {
+      "en": "Ape",
+      "fr": "Grand singe",
+      "url": "https://www.aidedd.org/monster/fr/grand-singe",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Grell",
+      "fr": "Grell",
+      "url": "https://www.aidedd.org/monster/fr/grell",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Frog",
+      "fr": "Grenouille",
+      "url": "https://www.aidedd.org/monster/fr/grenouille",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Giant Frog",
+      "fr": "Grenouille géante",
+      "url": "https://www.aidedd.org/monster/fr/grenouille-geante",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Grick",
+      "fr": "Grick",
+      "url": "https://www.aidedd.org/monster/fr/grick",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Grick Ancient",
+      "fr": "Grick vénérable",
+      "url": "https://www.aidedd.org/monster/fr/grick-venerable",
+      "actionsEN": 4,
+      "actionsFR": 0,
+      "matched": 0,
+      "aVerifier": [
+        {
+          "heading": "Multiattack",
+          "group": "actions"
+        },
+        {
+          "heading": "Beak",
+          "group": "actions"
+        },
+        {
+          "heading": "Slam",
+          "group": "actions"
+        },
+        {
+          "heading": "Tentacles",
+          "group": "actions"
+        }
+      ]
+    },
+    {
+      "en": "Crawling Claw",
+      "fr": "Griffe rampante",
+      "url": "https://www.aidedd.org/monster/fr/griffe-rampante-senestre",
+      "actionsEN": 1,
+      "actionsFR": 1,
+      "matched": 1,
+      "aVerifier": []
+    },
+    {
+      "en": "Griffon",
+      "fr": "Griffon",
+      "url": "https://www.aidedd.org/monster/fr/griffon",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Tough",
+      "fr": "Gros-bras",
+      "url": "https://www.aidedd.org/monster/fr/gros-bras",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Tough Boss",
+      "fr": "Gros-bras, chef",
+      "url": "https://www.aidedd.org/monster/fr/gros-bras-chef",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Sea Hag",
+      "fr": "Guenaude marine",
+      "url": "https://www.aidedd.org/monster/fr/guenaude-marine",
+      "actionsEN": 6,
+      "actionsFR": 6,
+      "matched": 6,
+      "aVerifier": []
+    },
+    {
+      "en": "Night Hag",
+      "fr": "Guenaude nocturne",
+      "url": "https://www.aidedd.org/monster/fr/guenaude-nocturne",
+      "actionsEN": 8,
+      "actionsFR": 8,
+      "matched": 7,
+      "aVerifier": [
+        {
+          "heading": "Soul Bag",
+          "group": "traits"
+        }
+      ]
+    },
+    {
+      "en": "Green Hag",
+      "fr": "Guenaude verte",
+      "url": "https://www.aidedd.org/monster/fr/guenaude-verte",
+      "actionsEN": 6,
+      "actionsFR": 6,
+      "matched": 6,
+      "aVerifier": []
+    },
+    {
+      "en": "Giant Wasp",
+      "fr": "Guêpe géante",
+      "url": "https://www.aidedd.org/monster/fr/guepe-geante",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Harpy",
+      "fr": "Harpie",
+      "url": "https://www.aidedd.org/monster/fr/harpie",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Hezrou",
+      "fr": "Hezrou",
+      "url": "https://www.aidedd.org/monster/fr/hezrou",
+      "actionsEN": 6,
+      "actionsFR": 6,
+      "matched": 6,
+      "aVerifier": []
+    },
+    {
+      "en": "Seahorse",
+      "fr": "Hippocampe",
+      "url": "https://www.aidedd.org/monster/fr/hippocampe",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Giant Seahorse",
+      "fr": "Hippocampe géant",
+      "url": "https://www.aidedd.org/monster/fr/hippocampe-geant",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Hippogriff",
+      "fr": "Hippogriffe",
+      "url": "https://www.aidedd.org/monster/fr/hippogriffe",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Hippopotamus",
+      "fr": "Hippopotame",
+      "url": "https://www.aidedd.org/monster/fr/hippopotame",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Hobgoblin Captain",
+      "fr": "Hobgobelin, capitaine",
+      "url": "https://www.aidedd.org/monster/fr/hobgobelin-capitaine",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Hobgoblin Warrior",
+      "fr": "Hobgobelin, combattant",
+      "url": "https://www.aidedd.org/monster/fr/hobgobelin-combattant",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Hobgoblin Warlord",
+      "fr": "Hobgobelin, seigneur de guerre",
+      "url": "https://www.aidedd.org/monster/fr/hobgobelin-seigneur-de-guerre",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 3,
+      "aVerifier": [
+        {
+          "heading": "Aura of Authority",
+          "group": "traits"
+        },
+        {
+          "heading": "Javelin",
+          "group": "actions"
+        }
+      ]
+    },
+    {
+      "en": "Homunculus",
+      "fr": "Homoncule",
+      "url": "https://www.aidedd.org/monster/fr/homoncule",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Helmed Horror",
+      "fr": "Horreur casquée",
+      "url": "https://www.aidedd.org/monster/fr/horreur-casquee",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Hook Horror",
+      "fr": "Horreur crochue",
+      "url": "https://www.aidedd.org/monster/fr/horreur-crochue",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Nightmare",
+      "fr": "Horriflamme",
+      "url": "https://www.aidedd.org/monster/fr/horriflamme",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Hydra",
+      "fr": "Hydre",
+      "url": "https://www.aidedd.org/monster/fr/hydre",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Hyena",
+      "fr": "Hyène",
+      "url": "https://www.aidedd.org/monster/fr/hyene",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Giant Hyena",
+      "fr": "Hyène géante",
+      "url": "https://www.aidedd.org/monster/fr/hyene-geante",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Incubus",
+      "fr": "Incube",
+      "url": "https://www.aidedd.org/monster/fr/incube",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Kenku",
+      "fr": "Kenku",
+      "url": "https://www.aidedd.org/monster/fr/kenku",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Winged Kobold",
+      "fr": "Kobold ailé",
+      "url": "https://www.aidedd.org/monster/fr/kobold-aile",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Kobold Warrior",
+      "fr": "Kobold, combattant",
+      "url": "https://www.aidedd.org/monster/fr/kobold-combattant",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Kraken",
+      "fr": "Kraken",
+      "url": "https://www.aidedd.org/monster/fr/kraken",
+      "actionsEN": 11,
+      "actionsFR": 11,
+      "matched": 11,
+      "aVerifier": []
+    },
+    {
+      "en": "Kuo-toa",
+      "fr": "Kuo-toa",
+      "url": "https://www.aidedd.org/monster/fr/kuo-toa",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Kuo-toa Monitor",
+      "fr": "Kuo-toa cornac",
+      "url": "https://www.aidedd.org/monster/fr/kuo-toa-cornac",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Kuo-toa Whip",
+      "fr": "Kuo-toa fouet",
+      "url": "https://www.aidedd.org/monster/fr/kuo-toa-fouet",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Kuo-toa Archpriest",
+      "fr": "Kuo-toa, archiprêtre",
+      "url": "https://www.aidedd.org/monster/fr/kuo-toa-archipretre",
+      "actionsEN": 6,
+      "actionsFR": 6,
+      "matched": 6,
+      "aVerifier": []
+    },
+    {
+      "en": "Lamia",
+      "fr": "Lamie",
+      "url": "https://www.aidedd.org/monster/fr/lamie",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Larva",
+      "fr": "Larve",
+      "url": "https://www.aidedd.org/monster/fr/larve",
+      "actionsEN": 1,
+      "actionsFR": 1,
+      "matched": 1,
+      "aVerifier": []
+    },
+    {
+      "en": "Lemure",
+      "fr": "Lémure",
+      "url": "https://www.aidedd.org/monster/fr/lemure",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Lizard",
+      "fr": "Lézard",
+      "url": "https://www.aidedd.org/monster/fr/lezard",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Giant Lizard",
+      "fr": "Lézard géant",
+      "url": "https://www.aidedd.org/monster/fr/lezard-geant",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Lich",
+      "fr": "Liche",
+      "url": "https://www.aidedd.org/monster/fr/liche",
+      "actionsEN": 11,
+      "actionsFR": 11,
+      "matched": 11,
+      "aVerifier": []
+    },
+    {
+      "en": "Unicorn",
+      "fr": "Licorne",
+      "url": "https://www.aidedd.org/monster/fr/licorne",
+      "actionsEN": 10,
+      "actionsFR": 10,
+      "matched": 10,
+      "aVerifier": []
+    },
+    {
+      "en": "Vine Blight",
+      "fr": "Lierreux",
+      "url": "https://www.aidedd.org/monster/fr/lierreux",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Lion",
+      "fr": "Lion",
+      "url": "https://www.aidedd.org/monster/fr/lion",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Wolf",
+      "fr": "Loup",
+      "url": "https://www.aidedd.org/monster/fr/loup",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Winter Wolf",
+      "fr": "Loup arctique",
+      "url": "https://www.aidedd.org/monster/fr/loup-arctique",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Dire Wolf",
+      "fr": "Loup sanguinaire",
+      "url": "https://www.aidedd.org/monster/fr/loup-sanguinaire",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Werewolf",
+      "fr": "Loup-garou",
+      "url": "https://www.aidedd.org/monster/fr/loup-garou",
+      "actionsEN": 6,
+      "actionsFR": 6,
+      "matched": 6,
+      "aVerifier": []
+    },
+    {
+      "en": "Mage",
+      "fr": "Mage",
+      "url": "https://www.aidedd.org/monster/fr/mage",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Mage Apprentice",
+      "fr": "Mage, apprenti",
+      "url": "https://www.aidedd.org/monster/fr/mage-apprenti",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Magmin",
+      "fr": "Magmatique",
+      "url": "https://www.aidedd.org/monster/fr/magmatique",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Mammoth",
+      "fr": "Mammouth",
+      "url": "https://www.aidedd.org/monster/fr/mammouth",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Manes",
+      "fr": "Mâne",
+      "url": "https://www.aidedd.org/monster/fr/mane",
+      "actionsEN": 1,
+      "actionsFR": 1,
+      "matched": 1,
+      "aVerifier": []
+    },
+    {
+      "en": "Manes Vaporspawn",
+      "fr": "Mâne vaporeux",
+      "url": "https://www.aidedd.org/monster/fr/mane-vaporeux",
+      "actionsEN": 4,
+      "actionsFR": 0,
+      "matched": 0,
+      "aVerifier": [
+        {
+          "heading": "Contortionist",
+          "group": "traits"
+        },
+        {
+          "heading": "Sickening Vapors",
+          "group": "traits"
+        },
+        {
+          "heading": "Claw",
+          "group": "actions"
+        },
+        {
+          "heading": "Shadow Stealth",
+          "group": "bonus"
+        }
+      ]
+    },
+    {
+      "en": "Darkmantle",
+      "fr": "Mante obscure",
+      "url": "https://www.aidedd.org/monster/fr/mante-obscure",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Cloaker",
+      "fr": "Manteleur",
+      "url": "https://www.aidedd.org/monster/fr/manteleur",
+      "actionsEN": 6,
+      "actionsFR": 6,
+      "matched": 6,
+      "aVerifier": []
+    },
+    {
+      "en": "Manticore",
+      "fr": "Manticore",
+      "url": "https://www.aidedd.org/monster/fr/manticore",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Marid",
+      "fr": "Maride",
+      "url": "https://www.aidedd.org/monster/fr/maride",
+      "actionsEN": 8,
+      "actionsFR": 8,
+      "matched": 8,
+      "aVerifier": []
+    },
+    {
+      "en": "Marilith",
+      "fr": "Marilith",
+      "url": "https://www.aidedd.org/monster/fr/marilith",
+      "actionsEN": 8,
+      "actionsFR": 8,
+      "matched": 8,
+      "aVerifier": []
+    },
+    {
+      "en": "Umber Hulk",
+      "fr": "Mastodonte des ombres",
+      "url": "https://www.aidedd.org/monster/fr/mastodonte-des-ombres",
+      "actionsEN": 7,
+      "actionsFR": 7,
+      "matched": 7,
+      "aVerifier": []
+    },
+    {
+      "en": "Medusa",
+      "fr": "Méduse",
+      "url": "https://www.aidedd.org/monster/fr/meduse",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Mud Mephit",
+      "fr": "Méphite boueux",
+      "url": "https://www.aidedd.org/monster/fr/mephite-boueux",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Smoke Mephit",
+      "fr": "Méphite fumant",
+      "url": "https://www.aidedd.org/monster/fr/mephite-fumant",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Ice Mephit",
+      "fr": "Méphite gelé",
+      "url": "https://www.aidedd.org/monster/fr/mephite-gele",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Magma Mephit",
+      "fr": "Méphite magmatique",
+      "url": "https://www.aidedd.org/monster/fr/mephite-magmatique",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Dust Mephit",
+      "fr": "Méphite poussiéreux",
+      "url": "https://www.aidedd.org/monster/fr/mephite-poussiereux",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Steam Mephit",
+      "fr": "Méphite vaporeux",
+      "url": "https://www.aidedd.org/monster/fr/mephite-vaporeux",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Merrow",
+      "fr": "Merrow",
+      "url": "https://www.aidedd.org/monster/fr/merrow",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Mezzoloth",
+      "fr": "Mezzoloth",
+      "url": "https://www.aidedd.org/monster/fr/mezzoloth",
+      "actionsEN": 7,
+      "actionsFR": 7,
+      "matched": 7,
+      "aVerifier": []
+    },
+    {
+      "en": "Giant Centipede",
+      "fr": "Mille-pattes géant",
+      "url": "https://www.aidedd.org/monster/fr/mille-pattes-geant",
+      "actionsEN": 1,
+      "actionsFR": 1,
+      "matched": 1,
+      "aVerifier": []
+    },
+    {
+      "en": "Mimic",
+      "fr": "Mimique",
+      "url": "https://www.aidedd.org/monster/fr/mimique",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Minotaur of Baphomet",
+      "fr": "Minotaure de Baphomet",
+      "url": "https://www.aidedd.org/monster/fr/minotaure-de-baphomet",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Minotaur Skeleton",
+      "fr": "Minotaure squelette",
+      "url": "https://www.aidedd.org/monster/fr/minotaure-squelette",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Mastiff",
+      "fr": "Molosse",
+      "url": "https://www.aidedd.org/monster/fr/molosse",
+      "actionsEN": 1,
+      "actionsFR": 1,
+      "matched": 1,
+      "aVerifier": []
+    },
+    {
+      "en": "Hell Hound",
+      "fr": "Molosse infernal",
+      "url": "https://www.aidedd.org/monster/fr/molosse-infernal",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Mummy",
+      "fr": "Momie",
+      "url": "https://www.aidedd.org/monster/fr/momie",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Mule",
+      "fr": "Mule",
+      "url": "https://www.aidedd.org/monster/fr/mule",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Myconid Adult",
+      "fr": "Myconide, adulte",
+      "url": "https://www.aidedd.org/monster/fr/myconide-adulte",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 3,
+      "aVerifier": [
+        {
+          "heading": "Sun Sickness",
+          "group": "traits"
+        }
+      ]
+    },
+    {
+      "en": "Myconid Sprout",
+      "fr": "Myconide, pousse",
+      "url": "https://www.aidedd.org/monster/fr/myconide-pousse",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 2,
+      "aVerifier": [
+        {
+          "heading": "Sun Sickness",
+          "group": "traits"
+        }
+      ]
+    },
+    {
+      "en": "Myconid Spore Servant",
+      "fr": "Myconide, serviteur des spores",
+      "url": "https://www.aidedd.org/monster/fr/myconide-serviteur-des-spores",
+      "actionsEN": 1,
+      "actionsFR": 1,
+      "matched": 1,
+      "aVerifier": []
+    },
+    {
+      "en": "Myconid Sovereign",
+      "fr": "Myconide, souverain",
+      "url": "https://www.aidedd.org/monster/fr/myconide-souverain",
+      "actionsEN": 6,
+      "actionsFR": 6,
+      "matched": 5,
+      "aVerifier": [
+        {
+          "heading": "Sun Sickness",
+          "group": "traits"
+        }
+      ]
+    },
+    {
+      "en": "Spirit Naga",
+      "fr": "Naga corrupteur",
+      "url": "https://www.aidedd.org/monster/fr/naga-corrupteur",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Guardian Naga",
+      "fr": "Naga gardien",
+      "url": "https://www.aidedd.org/monster/fr/naga-gardien",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Bone Naga",
+      "fr": "Naga osseux",
+      "url": "https://www.aidedd.org/monster/fr/naga-osseux",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Nalfeshnee",
+      "fr": "Nalfeshnie",
+      "url": "https://www.aidedd.org/monster/fr/nalfeshnie",
+      "actionsEN": 7,
+      "actionsFR": 7,
+      "matched": 7,
+      "aVerifier": []
+    },
+    {
+      "en": "Wight",
+      "fr": "Nécrophage",
+      "url": "https://www.aidedd.org/monster/fr/necrophage-necronte",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Twig Blight",
+      "fr": "Nielleux",
+      "url": "https://www.aidedd.org/monster/fr/nielleux",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Noble",
+      "fr": "Noble",
+      "url": "https://www.aidedd.org/monster/fr/noble",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Noble Prodigy",
+      "fr": "Noble, prodige",
+      "url": "https://www.aidedd.org/monster/fr/noble-prodige",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Nothic",
+      "fr": "Nothic",
+      "url": "https://www.aidedd.org/monster/fr/nothic",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Swarm of Insects",
+      "fr": "Nuée d'insectes",
+      "url": "https://www.aidedd.org/monster/fr/nuee-d-insectes",
+      "actionsEN": 3,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": [
+        {
+          "heading": "Bites",
+          "group": "actions"
+        }
+      ]
+    },
+    {
+      "en": "Swarm of Bats",
+      "fr": "Nuée de chauves-souris",
+      "url": "https://www.aidedd.org/monster/fr/nuee-de-chauves-souris",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Swarm of Ravens",
+      "fr": "Nuée de corbeaux",
+      "url": "https://www.aidedd.org/monster/fr/nuee-de-corbeaux",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Swarm of Dretches",
+      "fr": "Nuée de dretches",
+      "url": "https://www.aidedd.org/monster/fr/nuee-de-dretches",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Swarm of Crawling Claws",
+      "fr": "Nuée de griffes rampantes",
+      "url": "https://www.aidedd.org/monster/fr/nuee-de-griffes-rampantes-senestres",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Swarm of Larvae",
+      "fr": "Nuée de larves",
+      "url": "https://www.aidedd.org/monster/fr/nuee-de-larves",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Swarm of Lemures",
+      "fr": "Nuée de lémures",
+      "url": "https://www.aidedd.org/monster/fr/nuee-de-lemures",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Swarm of Piranhas",
+      "fr": "Nuée de piranhas",
+      "url": "https://www.aidedd.org/monster/fr/nuee-de-piranhas",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Swarm of Rats",
+      "fr": "Nuée de rats",
+      "url": "https://www.aidedd.org/monster/fr/nuee-de-rats",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Swarm of Venomous Snakes",
+      "fr": "Nuée de serpents venimeux",
+      "url": "https://www.aidedd.org/monster/fr/nuee-de-serpents-venimeux",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Swarm of Stirges",
+      "fr": "Nuée de striges",
+      "url": "https://www.aidedd.org/monster/fr/nuee-de-striges",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Nycaloth",
+      "fr": "Nycaloth",
+      "url": "https://www.aidedd.org/monster/fr/nycaloth",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Ogre",
+      "fr": "Ogre",
+      "url": "https://www.aidedd.org/monster/fr/ogre",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Ogre Zombie",
+      "fr": "Ogre zombi",
+      "url": "https://www.aidedd.org/monster/fr/ogre-zombi",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Ogrillon Ogre",
+      "fr": "Ogrillon Ogre",
+      "url": "https://www.aidedd.org/monster/fr/ogrillon-ogre",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Shadow",
+      "fr": "Ombre",
+      "url": "https://www.aidedd.org/monster/fr/ombre",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Oni",
+      "fr": "Oni",
+      "url": "https://www.aidedd.org/monster/fr/oni",
+      "actionsEN": 7,
+      "actionsFR": 7,
+      "matched": 7,
+      "aVerifier": []
+    },
+    {
+      "en": "Otyugh",
+      "fr": "Otyugh",
+      "url": "https://www.aidedd.org/monster/fr/otyugh",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Brown Bear",
+      "fr": "Ours brun",
+      "url": "https://www.aidedd.org/monster/fr/ours-brun",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Black Bear",
+      "fr": "Ours noir",
+      "url": "https://www.aidedd.org/monster/fr/ours-noir",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Polar Bear",
+      "fr": "Ours polaire",
+      "url": "https://www.aidedd.org/monster/fr/ours-polaire",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Werebear",
+      "fr": "Ours-garou",
+      "url": "https://www.aidedd.org/monster/fr/ours-garou",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Primeval Owlbear",
+      "fr": "Ours-hibou primitif",
+      "url": "https://www.aidedd.org/monster/fr/ours-hibou-primitif",
+      "actionsEN": 0,
+      "actionsFR": 0,
+      "matched": 0,
+      "aVerifier": []
+    },
+    {
+      "en": "Owlbear",
+      "fr": "Ours-hibou",
+      "url": "https://www.aidedd.org/monster/fr/ours-hibou-hibours",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Rust Monster",
+      "fr": "Oxydeur",
+      "url": "https://www.aidedd.org/monster/fr/oxydeur",
+      "actionsEN": 6,
+      "actionsFR": 6,
+      "matched": 6,
+      "aVerifier": []
+    },
+    {
+      "en": "Panther",
+      "fr": "Panthère",
+      "url": "https://www.aidedd.org/monster/fr/panthere",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Pegasus",
+      "fr": "Pégase",
+      "url": "https://www.aidedd.org/monster/fr/pegase",
+      "actionsEN": 1,
+      "actionsFR": 1,
+      "matched": 1,
+      "aVerifier": []
+    },
+    {
+      "en": "Piercer",
+      "fr": "Perceur",
+      "url": "https://www.aidedd.org/monster/fr/perceur-perforateur",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Peryton",
+      "fr": "Péryton",
+      "url": "https://www.aidedd.org/monster/fr/peryton",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Octopus",
+      "fr": "Pieuvre",
+      "url": "https://www.aidedd.org/monster/fr/pieuvre",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Giant Octopus",
+      "fr": "Pieuvre géante",
+      "url": "https://www.aidedd.org/monster/fr/pieuvre-geante",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Piranha",
+      "fr": "Piranha",
+      "url": "https://www.aidedd.org/monster/fr/piranha",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Pirate",
+      "fr": "Pirate",
+      "url": "https://www.aidedd.org/monster/fr/pirate",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Pirate Admiral",
+      "fr": "Pirate, amiral",
+      "url": "https://www.aidedd.org/monster/fr/pirate-amiral",
+      "actionsEN": 7,
+      "actionsFR": 7,
+      "matched": 7,
+      "aVerifier": []
+    },
+    {
+      "en": "Pirate Captain",
+      "fr": "Pirate, capitaine",
+      "url": "https://www.aidedd.org/monster/fr/pirate-capitaine",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Pixie",
+      "fr": "Pixie",
+      "url": "https://www.aidedd.org/monster/fr/pixie",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Pixie Wonderbringer",
+      "fr": "Pixie émerveilleuse",
+      "url": "https://www.aidedd.org/monster/fr/pixie-emerveilleuse",
+      "actionsEN": 5,
+      "actionsFR": 0,
+      "matched": 0,
+      "aVerifier": [
+        {
+          "heading": "Magic Resistance",
+          "group": "traits"
+        },
+        {
+          "heading": "Multiattack",
+          "group": "actions"
+        },
+        {
+          "heading": "Faerie Dust",
+          "group": "actions"
+        },
+        {
+          "heading": "Spellcasting",
+          "group": "actions"
+        },
+        {
+          "heading": "Burst of Wonder (Recharge 5–6)",
+          "group": "bonus"
+        }
+      ]
+    },
+    {
+      "en": "Planetar",
+      "fr": "Planétar",
+      "url": "https://www.aidedd.org/monster/fr/planetar",
+      "actionsEN": 8,
+      "actionsFR": 8,
+      "matched": 8,
+      "aVerifier": []
+    },
+    {
+      "en": "Plesiosaurus",
+      "fr": "Plésiosaure",
+      "url": "https://www.aidedd.org/monster/fr/plesiosaure",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Poltergeist",
+      "fr": "Poltergeist",
+      "url": "https://www.aidedd.org/monster/fr/poltergeist",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Pony",
+      "fr": "Poney",
+      "url": "https://www.aidedd.org/monster/fr/poney",
+      "actionsEN": 1,
+      "actionsFR": 1,
+      "matched": 1,
+      "aVerifier": []
+    },
+    {
+      "en": "Black Pudding",
+      "fr": "Pouding noir",
+      "url": "https://www.aidedd.org/monster/fr/pouding-noir",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Priest",
+      "fr": "Prêtre",
+      "url": "https://www.aidedd.org/monster/fr/pretre",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 4,
+      "aVerifier": [
+        {
+          "heading": "Spellcasting",
+          "group": "actions"
+        }
+      ]
+    },
+    {
+      "en": "Priest Acolyte",
+      "fr": "Prêtre, acolyte",
+      "url": "https://www.aidedd.org/monster/fr/pretre-acolyte",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Pseudodragon",
+      "fr": "Pseudodragon",
+      "url": "https://www.aidedd.org/monster/fr/pseudodragon",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Pteranodon",
+      "fr": "Ptéranodon",
+      "url": "https://www.aidedd.org/monster/fr/pteranodon",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Quaggoth",
+      "fr": "Quaggoth",
+      "url": "https://www.aidedd.org/monster/fr/quaggoth",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Quaggoth Thonot",
+      "fr": "Quaggoth thonot",
+      "url": "https://www.aidedd.org/monster/fr/quaggoth-thonot",
+      "actionsEN": 5,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": [
+        {
+          "heading": "Psionic Defense (3/Day)",
+          "group": "reactions"
+        }
+      ]
+    },
+    {
+      "en": "Quasit",
+      "fr": "Quasit",
+      "url": "https://www.aidedd.org/monster/fr/quasit",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 4,
+      "aVerifier": [
+        {
+          "heading": "Scare (1/Day)",
+          "group": "actions"
+        }
+      ]
+    },
+    {
+      "en": "Rakshasa",
+      "fr": "Rakshasa",
+      "url": "https://www.aidedd.org/monster/fr/rakshasa",
+      "actionsEN": 6,
+      "actionsFR": 6,
+      "matched": 6,
+      "aVerifier": []
+    },
+    {
+      "en": "Rat",
+      "fr": "Rat",
+      "url": "https://www.aidedd.org/monster/fr/rat",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Giant Rat",
+      "fr": "Rat géant",
+      "url": "https://www.aidedd.org/monster/fr/rat-geant",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Wererat",
+      "fr": "Rat-garou",
+      "url": "https://www.aidedd.org/monster/fr/rat-garou",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Remorhaz",
+      "fr": "Remorhaz",
+      "url": "https://www.aidedd.org/monster/fr/remorhaz",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Young Remorhaz",
+      "fr": "Remorhaz, jeune",
+      "url": "https://www.aidedd.org/monster/fr/remorhaz-jeune",
+      "actionsEN": 2,
+      "actionsFR": 0,
+      "matched": 0,
+      "aVerifier": [
+        {
+          "heading": "Heat Aura",
+          "group": "traits"
+        },
+        {
+          "heading": "Bite",
+          "group": "actions"
+        }
+      ]
+    },
+    {
+      "en": "Reef Shark",
+      "fr": "Requin de récif",
+      "url": "https://www.aidedd.org/monster/fr/requin-de-recif",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Giant Shark",
+      "fr": "Requin géant",
+      "url": "https://www.aidedd.org/monster/fr/requin-geant",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Hunter Shark",
+      "fr": "Requin-chasseur",
+      "url": "https://www.aidedd.org/monster/fr/requin-chasseur",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Needle Blight",
+      "fr": "Résineux",
+      "url": "https://www.aidedd.org/monster/fr/resineux",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Revenant",
+      "fr": "Revenant",
+      "url": "https://www.aidedd.org/monster/fr/revenant",
+      "actionsEN": 6,
+      "actionsFR": 6,
+      "matched": 6,
+      "aVerifier": []
+    },
+    {
+      "en": "Graveyard Revenant",
+      "fr": "Revenant, charnier",
+      "url": "https://www.aidedd.org/monster/fr/revenant-charnier",
+      "actionsEN": 4,
+      "actionsFR": 0,
+      "matched": 0,
+      "aVerifier": [
+        {
+          "heading": "Undead Restoration",
+          "group": "traits"
+        },
+        {
+          "heading": "Multiattack",
+          "group": "actions"
+        },
+        {
+          "heading": "Suffocate",
+          "group": "actions"
+        },
+        {
+          "heading": "Haunting Glare (Recharge 5–6)",
+          "group": "actions"
+        }
+      ]
+    },
+    {
+      "en": "Haunting Revenant",
+      "fr": "Revenant, tourmenteur",
+      "url": "https://www.aidedd.org/monster/fr/revenant-tourmenteur",
+      "actionsEN": 5,
+      "actionsFR": 0,
+      "matched": 0,
+      "aVerifier": [
+        {
+          "heading": "Haunted Zone",
+          "group": "traits"
+        },
+        {
+          "heading": "Undead Restoration",
+          "group": "traits"
+        },
+        {
+          "heading": "Multiattack",
+          "group": "actions"
+        },
+        {
+          "heading": "Object Slam",
+          "group": "actions"
+        },
+        {
+          "heading": "Invitation",
+          "group": "actions"
+        }
+      ]
+    },
+    {
+      "en": "Rhinoceros",
+      "fr": "Rhinocéros",
+      "url": "https://www.aidedd.org/monster/fr/rhinoceros",
+      "actionsEN": 1,
+      "actionsFR": 1,
+      "matched": 1,
+      "aVerifier": []
+    },
+    {
+      "en": "Commoner",
+      "fr": "Roturier",
+      "url": "https://www.aidedd.org/monster/fr/roturier",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Gulthias Blight",
+      "fr": "Rouilleux de Gulthias",
+      "url": "https://www.aidedd.org/monster/fr/rouilleux-de-gulthias",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Roc",
+      "fr": "Rukh",
+      "url": "https://www.aidedd.org/monster/fr/rukh",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Sahuagin Baron",
+      "fr": "Sahuagin, baron",
+      "url": "https://www.aidedd.org/monster/fr/sahuagin-baron",
+      "actionsEN": 6,
+      "actionsFR": 6,
+      "matched": 6,
+      "aVerifier": []
+    },
+    {
+      "en": "Sahuagin Warrior",
+      "fr": "Sahuagin, combattant",
+      "url": "https://www.aidedd.org/monster/fr/sahuagin-combattant",
+      "actionsEN": 6,
+      "actionsFR": 6,
+      "matched": 6,
+      "aVerifier": []
+    },
+    {
+      "en": "Sahuagin Priest",
+      "fr": "Sahuagin, prêtre",
+      "url": "https://www.aidedd.org/monster/fr/sahuagin-pretre",
+      "actionsEN": 7,
+      "actionsFR": 7,
+      "matched": 7,
+      "aVerifier": []
+    },
+    {
+      "en": "Salamander",
+      "fr": "Salamandre",
+      "url": "https://www.aidedd.org/monster/fr/salamandre",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Salamander Inferno Master",
+      "fr": "Salamandre, maîtresse des fournaises",
+      "url": "https://www.aidedd.org/monster/fr/salamandre-maitresse-des-fournaises",
+      "actionsEN": 6,
+      "actionsFR": 6,
+      "matched": 6,
+      "aVerifier": []
+    },
+    {
+      "en": "Salamander Fire Snake",
+      "fr": "Salamandre, serpent de feu",
+      "url": "https://www.aidedd.org/monster/fr/salamandre-serpent-de-feu",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Performer",
+      "fr": "Saltimbanque",
+      "url": "https://www.aidedd.org/monster/fr/saltimbanque",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Performer Legend",
+      "fr": "Saltimbanque, légende",
+      "url": "https://www.aidedd.org/monster/fr/saltimbanque-legende",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Performer Maestro",
+      "fr": "Saltimbanque, maestro",
+      "url": "https://www.aidedd.org/monster/fr/saltimbanque-maestro",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Boar",
+      "fr": "Sanglier",
+      "url": "https://www.aidedd.org/monster/fr/sanglier",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Giant Boar",
+      "fr": "Sanglier géant",
+      "url": "https://www.aidedd.org/monster/fr/sanglier-geant",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Wereboar",
+      "fr": "Sanglier-garou",
+      "url": "https://www.aidedd.org/monster/fr/sanglier-garou",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Satyr",
+      "fr": "Satyre",
+      "url": "https://www.aidedd.org/monster/fr/satyre",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Satyr Revelmaster",
+      "fr": "Satyre, maître des réjouissances",
+      "url": "https://www.aidedd.org/monster/fr/satyre-maitre-des-rejouissances",
+      "actionsEN": 6,
+      "actionsFR": 6,
+      "matched": 6,
+      "aVerifier": []
+    },
+    {
+      "en": "Lizardfolk Geomancer",
+      "fr": "Saurial, géomancien",
+      "url": "https://www.aidedd.org/monster/fr/saurial-geomancien",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Lizardfolk Sovereign",
+      "fr": "Saurial, souverain",
+      "url": "https://www.aidedd.org/monster/fr/saurial-souverain",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Giant Fire Beetle",
+      "fr": "Scarabée de feu géant",
+      "url": "https://www.aidedd.org/monster/fr/scarabee-de-feu-geant",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Scorpion",
+      "fr": "Scorpion",
+      "url": "https://www.aidedd.org/monster/fr/scorpion",
+      "actionsEN": 1,
+      "actionsFR": 1,
+      "matched": 1,
+      "aVerifier": []
+    },
+    {
+      "en": "Giant Scorpion",
+      "fr": "Scorpion géant",
+      "url": "https://www.aidedd.org/monster/fr/scorpion-geant",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Animal Lord",
+      "fr": "Seigneur des bêtes",
+      "url": "https://www.aidedd.org/monster/fr/seigneur-des-betes",
+      "actionsEN": 1,
+      "actionsFR": 1,
+      "matched": 1,
+      "aVerifier": []
+    },
+    {
+      "en": "Mummy Lord",
+      "fr": "Seigneur momie",
+      "url": "https://www.aidedd.org/monster/fr/seigneur-momie-momie-auguste",
+      "actionsEN": 13,
+      "actionsFR": 13,
+      "matched": 11,
+      "aVerifier": [
+        {
+          "heading": "Glare",
+          "group": "legendary"
+        },
+        {
+          "heading": "Necrotic Strike",
+          "group": "legendary"
+        }
+      ]
+    },
+    {
+      "en": "Constrictor Snake",
+      "fr": "Serpent constricteur",
+      "url": "https://www.aidedd.org/monster/fr/serpent-constricteur",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Giant Constrictor Snake",
+      "fr": "Serpent constricteur géant",
+      "url": "https://www.aidedd.org/monster/fr/serpent-constricteur-geant",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Venomous Snake",
+      "fr": "Serpent venimeux",
+      "url": "https://www.aidedd.org/monster/fr/serpent-venimeux",
+      "actionsEN": 1,
+      "actionsFR": 1,
+      "matched": 1,
+      "aVerifier": []
+    },
+    {
+      "en": "Giant Venomous Snake",
+      "fr": "Serpent venimeux géant",
+      "url": "https://www.aidedd.org/monster/fr/serpent-venimeux-geant",
+      "actionsEN": 1,
+      "actionsFR": 1,
+      "matched": 1,
+      "aVerifier": []
+    },
+    {
+      "en": "Flying Snake",
+      "fr": "Serpent volant",
+      "url": "https://www.aidedd.org/monster/fr/serpent-volant",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Water Weird",
+      "fr": "Sibylle de l'eau",
+      "url": "https://www.aidedd.org/monster/fr/sibylle-de-l-eau",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Giant Ape",
+      "fr": "Singe géant",
+      "url": "https://www.aidedd.org/monster/fr/singe-geant",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Blue Slaad",
+      "fr": "Slaad bleu",
+      "url": "https://www.aidedd.org/monster/fr/slaad-bleu",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Death Slaad",
+      "fr": "Slaad funeste",
+      "url": "https://www.aidedd.org/monster/fr/slaad-funeste",
+      "actionsEN": 6,
+      "actionsFR": 6,
+      "matched": 5,
+      "aVerifier": [
+        {
+          "heading": "Chaos Blade",
+          "group": "actions"
+        }
+      ]
+    },
+    {
+      "en": "Gray Slaad",
+      "fr": "Slaad gris",
+      "url": "https://www.aidedd.org/monster/fr/slaad-gris",
+      "actionsEN": 5,
+      "actionsFR": 6,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Red Slaad",
+      "fr": "Slaad rouge",
+      "url": "https://www.aidedd.org/monster/fr/slaad-rouge",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Green Slaad",
+      "fr": "Slaad vert",
+      "url": "https://www.aidedd.org/monster/fr/slaad-vert",
+      "actionsEN": 6,
+      "actionsFR": 6,
+      "matched": 6,
+      "aVerifier": []
+    },
+    {
+      "en": "Slaad Tadpole",
+      "fr": "Slaad, têtard",
+      "url": "https://www.aidedd.org/monster/fr/slaad-tetard",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Solar",
+      "fr": "Solar",
+      "url": "https://www.aidedd.org/monster/fr/solar",
+      "actionsEN": 12,
+      "actionsFR": 12,
+      "matched": 11,
+      "aVerifier": [
+        {
+          "heading": "Radiant Teleport",
+          "group": "legendary"
+        }
+      ]
+    },
+    {
+      "en": "Spectator",
+      "fr": "Spectateur",
+      "url": "https://www.aidedd.org/monster/fr/spectateur",
+      "actionsEN": 8,
+      "actionsFR": 8,
+      "matched": 8,
+      "aVerifier": []
+    },
+    {
+      "en": "Specter",
+      "fr": "Spectre",
+      "url": "https://www.aidedd.org/monster/fr/spectre",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Sphinx of Lore",
+      "fr": "Sphinx érudit",
+      "url": "https://www.aidedd.org/monster/fr/sphinx-erudit",
+      "actionsEN": 9,
+      "actionsFR": 9,
+      "matched": 9,
+      "aVerifier": []
+    },
+    {
+      "en": "Sphinx of Wonder",
+      "fr": "Sphinx merveilleux",
+      "url": "https://www.aidedd.org/monster/fr/sphinx-merveilleux",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Sphinx of Secrets",
+      "fr": "Sphinx mystérieux",
+      "url": "https://www.aidedd.org/monster/fr/sphinx-mysterieux",
+      "actionsEN": 6,
+      "actionsFR": 0,
+      "matched": 0,
+      "aVerifier": [
+        {
+          "heading": "Inscrutable",
+          "group": "traits"
+        },
+        {
+          "heading": "Magic Resistance",
+          "group": "traits"
+        },
+        {
+          "heading": "Multiattack",
+          "group": "actions"
+        },
+        {
+          "heading": "Claw",
+          "group": "actions"
+        },
+        {
+          "heading": "Curse of the Riddle",
+          "group": "actions"
+        },
+        {
+          "heading": "Spellcasting",
+          "group": "actions"
+        }
+      ]
+    },
+    {
+      "en": "Sphinx of Valor",
+      "fr": "Sphinx valeureux",
+      "url": "https://www.aidedd.org/monster/fr/sphinx-valeureux",
+      "actionsEN": 12,
+      "actionsFR": 12,
+      "matched": 9,
+      "aVerifier": [
+        {
+          "heading": "First Roar",
+          "group": "actions"
+        },
+        {
+          "heading": "Second Roar",
+          "group": "actions"
+        },
+        {
+          "heading": "Third Roar",
+          "group": "actions"
+        }
+      ]
+    },
+    {
+      "en": "Skeleton",
+      "fr": "Squelette",
+      "url": "https://www.aidedd.org/monster/fr/squelette",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Flaming Skeleton",
+      "fr": "Squelette enflammé",
+      "url": "https://www.aidedd.org/monster/fr/squelette-enflamme",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Stirge",
+      "fr": "Strige",
+      "url": "https://www.aidedd.org/monster/fr/strige",
+      "actionsEN": 1,
+      "actionsFR": 1,
+      "matched": 1,
+      "aVerifier": []
+    },
+    {
+      "en": "Succubus",
+      "fr": "Succube",
+      "url": "https://www.aidedd.org/monster/fr/succube",
+      "actionsEN": 6,
+      "actionsFR": 6,
+      "matched": 6,
+      "aVerifier": []
+    },
+    {
+      "en": "Treant",
+      "fr": "Sylvanien",
+      "url": "https://www.aidedd.org/monster/fr/sylvanien",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Animated Rug of Smothering",
+      "fr": "Tapis étrangleur animé",
+      "url": "https://www.aidedd.org/monster/fr/tapis-etrangleur-anime",
+      "actionsEN": 1,
+      "actionsFR": 1,
+      "matched": 1,
+      "aVerifier": []
+    },
+    {
+      "en": "Tarrasque",
+      "fr": "Tarasque",
+      "url": "https://www.aidedd.org/monster/fr/tarasque",
+      "actionsEN": 13,
+      "actionsFR": 13,
+      "matched": 13,
+      "aVerifier": []
+    },
+    {
+      "en": "Shambling Mound",
+      "fr": "Tertre errant",
+      "url": "https://www.aidedd.org/monster/fr/tertre-errant",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Merfolk Wavebender",
+      "fr": "Thalasséen, dompteur de l'onde",
+      "url": "https://www.aidedd.org/monster/fr/thalasseen-dompteur-de-l-onde",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Merfolk Skirmisher",
+      "fr": "Thalasséen, tirailleur",
+      "url": "https://www.aidedd.org/monster/fr/thalasseen-tirailleur",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Violet Fungus",
+      "fr": "Thallophyte violette",
+      "url": "https://www.aidedd.org/monster/fr/thallophyte-violette",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Shrieker Fungus",
+      "fr": "Thallophyte, criard",
+      "url": "https://www.aidedd.org/monster/fr/thallophyte-criard",
+      "actionsEN": 1,
+      "actionsFR": 1,
+      "matched": 1,
+      "aVerifier": []
+    },
+    {
+      "en": "Violet Fungus Necrohulk",
+      "fr": "Thallophyte, mastonécrofonge",
+      "url": "https://www.aidedd.org/monster/fr/thallophyte-mastonecrofonge",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Gas Spore Fungus",
+      "fr": "Thallophyte, spore gazeuse",
+      "url": "https://www.aidedd.org/monster/fr/thallophyte-spore-gazeuse",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Thri-kreen Marauder",
+      "fr": "Thri-kreen, maraudeur",
+      "url": "https://www.aidedd.org/monster/fr/thri-kreen-maraudeur",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 3,
+      "aVerifier": [
+        {
+          "heading": "Chatkcha",
+          "group": "actions"
+        }
+      ]
+    },
+    {
+      "en": "Thri-kreen Psion",
+      "fr": "Thri-kreen, psion",
+      "url": "https://www.aidedd.org/monster/fr/thri-kreen-psion",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Tiger",
+      "fr": "Tigre",
+      "url": "https://www.aidedd.org/monster/fr/tigre",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Saber-Toothed Tiger",
+      "fr": "Tigre à dents de sabre",
+      "url": "https://www.aidedd.org/monster/fr/tigre-a-dents-de-sabre",
+      "actionsEN": 4,
+      "actionsFR": 4,
+      "matched": 4,
+      "aVerifier": []
+    },
+    {
+      "en": "Weretiger",
+      "fr": "Tigre-garou",
+      "url": "https://www.aidedd.org/monster/fr/tigre-garou",
+      "actionsEN": 6,
+      "actionsFR": 6,
+      "matched": 6,
+      "aVerifier": []
+    },
+    {
+      "en": "Grimlock",
+      "fr": "Torve",
+      "url": "https://www.aidedd.org/monster/fr/torve",
+      "actionsEN": 1,
+      "actionsFR": 1,
+      "matched": 1,
+      "aVerifier": []
+    },
+    {
+      "en": "Invisible Stalker",
+      "fr": "Traqueur invisible",
+      "url": "https://www.aidedd.org/monster/fr/traqueur-invisible",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Triceratops",
+      "fr": "Tricératops",
+      "url": "https://www.aidedd.org/monster/fr/triceratops",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Troglodyte",
+      "fr": "Troglodyte",
+      "url": "https://www.aidedd.org/monster/fr/troglodyte",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Troll",
+      "fr": "Troll",
+      "url": "https://www.aidedd.org/monster/fr/troll",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Death Tyrant",
+      "fr": "Tyramort",
+      "url": "https://www.aidedd.org/monster/fr/tyramort",
+      "actionsEN": 18,
+      "actionsFR": 1,
+      "matched": 0,
+      "aVerifier": [
+        {
+          "heading": "Legendary Resistance (3/Day, or 4/Day in Lair)",
+          "group": "traits"
+        },
+        {
+          "heading": "Multiattack",
+          "group": "actions"
+        },
+        {
+          "heading": "Bite",
+          "group": "actions"
+        },
+        {
+          "heading": "Eye Rays",
+          "group": "actions"
+        },
+        {
+          "heading": "1: Charm Ray",
+          "group": "actions"
+        },
+        {
+          "heading": "2: Paralyzing Ray",
+          "group": "actions"
+        },
+        {
+          "heading": "3: Fear Ray",
+          "group": "actions"
+        },
+        {
+          "heading": "4: Slowing Ray",
+          "group": "actions"
+        },
+        {
+          "heading": "5: Enervation Ray",
+          "group": "actions"
+        },
+        {
+          "heading": "6: Telekinetic Ray",
+          "group": "actions"
+        },
+        {
+          "heading": "7: Sleep Ray",
+          "group": "actions"
+        },
+        {
+          "heading": "8: Petrification Ray",
+          "group": "actions"
+        },
+        {
+          "heading": "9: Disintegration Ray",
+          "group": "actions"
+        },
+        {
+          "heading": "10: Death Ray",
+          "group": "actions"
+        },
+        {
+          "heading": "Negative Energy Cone",
+          "group": "bonus"
+        },
+        {
+          "heading": "",
+          "group": "legendary"
+        },
+        {
+          "heading": "Chomp",
+          "group": "legendary"
+        },
+        {
+          "heading": "Glare",
+          "group": "legendary"
+        }
+      ]
+    },
+    {
+      "en": "Beholder",
+      "fr": "Tyrannoeil",
+      "url": "https://www.aidedd.org/monster/fr/tyrannoeil",
+      "actionsEN": 1,
+      "actionsFR": 1,
+      "matched": 1,
+      "aVerifier": []
+    },
+    {
+      "en": "Beholder Zombie",
+      "fr": "Tyrannoeil zombi",
+      "url": "https://www.aidedd.org/monster/fr/tyrannoeil-zombi",
+      "actionsEN": 8,
+      "actionsFR": 8,
+      "matched": 8,
+      "aVerifier": []
+    },
+    {
+      "en": "Tyrannosaurus Rex",
+      "fr": "Tyrannosaure Rex",
+      "url": "https://www.aidedd.org/monster/fr/tyrannosaure-rex",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Ultroloth",
+      "fr": "Ultroloth",
+      "url": "https://www.aidedd.org/monster/fr/ultroloth",
+      "actionsEN": 7,
+      "actionsFR": 7,
+      "matched": 7,
+      "aVerifier": []
+    },
+    {
+      "en": "Vampire",
+      "fr": "Vampire",
+      "url": "https://www.aidedd.org/monster/fr/vampire",
+      "actionsEN": 16,
+      "actionsFR": 16,
+      "matched": 15,
+      "aVerifier": [
+        {
+          "heading": "Misty Escape",
+          "group": "traits"
+        }
+      ]
+    },
+    {
+      "en": "Vampire Nightbringer",
+      "fr": "Vampire, héraut de la nuit",
+      "url": "https://www.aidedd.org/monster/fr/vampire-heraut-de-la-nuit",
+      "actionsEN": 5,
+      "actionsFR": 0,
+      "matched": 0,
+      "aVerifier": [
+        {
+          "heading": "Sunlight Hypersensitivity",
+          "group": "traits"
+        },
+        {
+          "heading": "Multiattack",
+          "group": "actions"
+        },
+        {
+          "heading": "Bite",
+          "group": "actions"
+        },
+        {
+          "heading": "Shadow Strike",
+          "group": "actions"
+        },
+        {
+          "heading": "Shadow Stealth",
+          "group": "bonus"
+        }
+      ]
+    },
+    {
+      "en": "Vampire Umbral Lord",
+      "fr": "Vampire, seigneur des ombres",
+      "url": "https://www.aidedd.org/monster/fr/vampire-seigneur-des-ombres",
+      "actionsEN": 15,
+      "actionsFR": 1,
+      "matched": 0,
+      "aVerifier": [
+        {
+          "heading": "Legendary Resistance (3/Day, or 4/Day in Lair)",
+          "group": "traits"
+        },
+        {
+          "heading": "Shadow Escape",
+          "group": "traits"
+        },
+        {
+          "heading": "Vampire Weakness",
+          "group": "traits"
+        },
+        {
+          "heading": "Forbiddance",
+          "group": "traits"
+        },
+        {
+          "heading": "Running Water",
+          "group": "traits"
+        },
+        {
+          "heading": "Stake to the Heart",
+          "group": "traits"
+        },
+        {
+          "heading": "Sunlight",
+          "group": "traits"
+        },
+        {
+          "heading": "Multiattack",
+          "group": "actions"
+        },
+        {
+          "heading": "Grave Strike",
+          "group": "actions"
+        },
+        {
+          "heading": "Hunger of Hadar (Recharge 5–6)",
+          "group": "actions"
+        },
+        {
+          "heading": "Sickening Ray",
+          "group": "actions"
+        },
+        {
+          "heading": "Sanguine Drain",
+          "group": "bonus"
+        },
+        {
+          "heading": "",
+          "group": "legendary"
+        },
+        {
+          "heading": "Beguile",
+          "group": "legendary"
+        },
+        {
+          "heading": "Umbral Strike",
+          "group": "legendary"
+        }
+      ]
+    },
+    {
+      "en": "Vampire Spawn",
+      "fr": "Vampirien",
+      "url": "https://www.aidedd.org/monster/fr/vampirien",
+      "actionsEN": 10,
+      "actionsFR": 10,
+      "matched": 10,
+      "aVerifier": []
+    },
+    {
+      "en": "Gray Ooze",
+      "fr": "Vase grise",
+      "url": "https://www.aidedd.org/monster/fr/vase-grise",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 2,
+      "aVerifier": [
+        {
+          "heading": "Corrosive Form",
+          "group": "traits"
+        }
+      ]
+    },
+    {
+      "en": "Psychic Gray Ooze",
+      "fr": "Vase grise psychique",
+      "url": "https://www.aidedd.org/monster/fr/vase-grise-psychique",
+      "actionsEN": 4,
+      "actionsFR": 0,
+      "matched": 0,
+      "aVerifier": [
+        {
+          "heading": "Amorphous",
+          "group": "traits"
+        },
+        {
+          "heading": "Pseudopod",
+          "group": "actions"
+        },
+        {
+          "heading": "Psychic Crush",
+          "group": "actions"
+        },
+        {
+          "heading": "Mind Corrosion",
+          "group": "reactions"
+        }
+      ]
+    },
+    {
+      "en": "Vulture",
+      "fr": "Vautour",
+      "url": "https://www.aidedd.org/monster/fr/vautour",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Giant Vulture",
+      "fr": "Vautour géant",
+      "url": "https://www.aidedd.org/monster/fr/vautour-geant",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    },
+    {
+      "en": "Purple Worm",
+      "fr": "Ver pourpre",
+      "url": "https://www.aidedd.org/monster/fr/ver-pourpre",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Vrock",
+      "fr": "Vrock",
+      "url": "https://www.aidedd.org/monster/fr/vrock",
+      "actionsEN": 6,
+      "actionsFR": 6,
+      "matched": 6,
+      "aVerifier": []
+    },
+    {
+      "en": "Worg",
+      "fr": "Worg",
+      "url": "https://www.aidedd.org/monster/fr/worg",
+      "actionsEN": 1,
+      "actionsFR": 1,
+      "matched": 1,
+      "aVerifier": []
+    },
+    {
+      "en": "Dire Worg",
+      "fr": "Worg sanguinaire",
+      "url": "https://www.aidedd.org/monster/fr/worg-sanguinaire",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Wyvern",
+      "fr": "Wyverne",
+      "url": "https://www.aidedd.org/monster/fr/wyverne-vouivre",
+      "actionsEN": 3,
+      "actionsFR": 3,
+      "matched": 3,
+      "aVerifier": []
+    },
+    {
+      "en": "Xorn",
+      "fr": "Xorn",
+      "url": "https://www.aidedd.org/monster/fr/xorn",
+      "actionsEN": 6,
+      "actionsFR": 6,
+      "matched": 6,
+      "aVerifier": []
+    },
+    {
+      "en": "Yeti",
+      "fr": "Yéti",
+      "url": "https://www.aidedd.org/monster/fr/yeti",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 4,
+      "aVerifier": [
+        {
+          "heading": "Ice Throw",
+          "group": "actions"
+        }
+      ]
+    },
+    {
+      "en": "Abominable Yeti",
+      "fr": "Yéti abominable",
+      "url": "https://www.aidedd.org/monster/fr/yeti-abominable",
+      "actionsEN": 6,
+      "actionsFR": 6,
+      "matched": 5,
+      "aVerifier": [
+        {
+          "heading": "Ice Throw",
+          "group": "actions"
+        }
+      ]
+    },
+    {
+      "en": "Yochlol",
+      "fr": "Yochlol",
+      "url": "https://www.aidedd.org/monster/fr/yochlol",
+      "actionsEN": 9,
+      "actionsFR": 9,
+      "matched": 9,
+      "aVerifier": []
+    },
+    {
+      "en": "Yuan-ti Abomination",
+      "fr": "Yuan-ti, abomination",
+      "url": "https://www.aidedd.org/monster/fr/yuan-ti-abomination",
+      "actionsEN": 7,
+      "actionsFR": 7,
+      "matched": 7,
+      "aVerifier": []
+    },
+    {
+      "en": "Yuan-ti Infiltrator",
+      "fr": "Yuan-ti, infiltrateur",
+      "url": "https://www.aidedd.org/monster/fr/yuan-ti-infiltrateur",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Yuan-ti Malison (Type 1)",
+      "fr": "Yuan-ti, malfice (type 1)",
+      "url": "https://www.aidedd.org/monster/fr/yuan-ti-malfice-type-1",
+      "actionsEN": 6,
+      "actionsFR": 6,
+      "matched": 6,
+      "aVerifier": []
+    },
+    {
+      "en": "Yuan-ti Malison (Type 2)",
+      "fr": "Yuan-ti, malfice (type 2)",
+      "url": "https://www.aidedd.org/monster/fr/yuan-ti-malfice-type-2",
+      "actionsEN": 5,
+      "actionsFR": 5,
+      "matched": 5,
+      "aVerifier": []
+    },
+    {
+      "en": "Yuan-ti Malison (Type 3)",
+      "fr": "Yuan-ti, malfice (type 3)",
+      "url": "https://www.aidedd.org/monster/fr/yuan-ti-malfice-type-3",
+      "actionsEN": 6,
+      "actionsFR": 6,
+      "matched": 6,
+      "aVerifier": []
+    },
+    {
+      "en": "Zombie",
+      "fr": "Zombi",
+      "url": "https://www.aidedd.org/monster/fr/zombi",
+      "actionsEN": 2,
+      "actionsFR": 2,
+      "matched": 2,
+      "aVerifier": []
+    }
+  ]
+}
