@@ -1,0 +1,490 @@
+Strength|Force
+Dexterity|Dextérité
+Constitution|Constitution
+Intelligence|Intelligence
+Wisdom|Sagesse
+Charisma|Charisme
+STR|FOR
+DEX|DEX
+CON|CON
+INT|INT
+WIS|SAG
+CHA|CHA
+Armor Class|Classe d’armure
+AC|CA
+Hit Dice|Dés de vie
+Hit Die|Dé de vie
+Hit Point Dice|Dés de vie
+Hit Points|Points de vie
+Hit Point|Point de vie
+Temporary Hit Points|Points de vie temporaires
+Temp HP|PV temporaires
+HP|PV
+Max HP|PV max.
+Current HP|PV actuels
+Proficiency Bonus|Bonus de maîtrise
+Proficiencies|Maîtrises
+Proficiency|Maîtrise
+Saving Throws|Jets de sauvegarde
+Saving Throw|Jet de sauvegarde
+Death Saving Throws|Jets de sauvegarde contre la mort
+Death Saves|Sauvegardes contre la mort
+Difficulty Class|Degré de difficulté
+DC|DD
+Initiative|Initiative
+Passive Perception|Perception passive
+Passive Insight|Intuition passive
+Passive Investigation|Investigation passive
+Passive|Passif
+Ability Scores|Valeurs de caractéristique
+Ability Score|Valeur de caractéristique
+Ability Checks|Tests de caractéristique
+Ability Check|Test de caractéristique
+Ability Modifier|Modificateur de caractéristique
+Modifier|Modificateur
+Advantage|Avantage
+Disadvantage|Désavantage
+Expertise|Expertise
+Acrobatics|Acrobaties
+Animal Handling|Dressage
+Arcana|Arcanes
+Athletics|Athlétisme
+Deception|Tromperie
+History|Histoire
+Insight|Intuition
+Intimidation|Intimidation
+Investigation|Investigation
+Investigate|Investigation
+Medicine|Médecine
+Nature|Nature
+Perception|Perception
+Performance|Représentation
+Persuasion|Persuasion
+Religion|Religion
+Sleight of Hand|Escamotage
+Stealth|Discrétion
+Survival|Survie
+Barbarian|Barbare
+Bard|Barde
+Cleric|Clerc
+Druid|Druide
+Fighter|Guerrier
+Monk|Moine
+Paladin|Paladin
+Ranger|Rôdeur
+Rogue|Roublard
+Sorcerer|Ensorceleur
+Warlock|Occultiste
+Wizard|Magicien
+Artificer|Artificier
+Blood Hunter|Chasseur de sang
+Draconic Bloodline|Lignée draconique
+Draconic Sorcery|Sorcellerie draconique
+Wild Magic|Magie sauvage
+Aberrant Mind|Esprit aberrant
+Clockwork Soul|Âme mécanique
+Divine Soul|Âme divine
+Shadow Magic|Magie des ombres
+Storm Sorcery|Sorcellerie des tempêtes
+School of Evocation|École d’évocation
+School of Abjuration|École d’abjuration
+School of Divination|École de divination
+School of Illusion|École d’illusion
+School of Necromancy|École de nécromancie
+School of Enchantment|École d’enchantement
+School of Transmutation|École de transmutation
+School of Conjuration|École d’invocation
+Champion|Champion
+Battle Master|Maître de guerre
+Eldritch Knight|Chevalier occulte
+Arcane Trickster|Escroc arcanique
+Assassin|Assassin
+Thief|Voleur
+Life Domain|Domaine de la Vie
+Light Domain|Domaine de la Lumière
+War Domain|Domaine de la Guerre
+Trickery Domain|Domaine de la Ruse
+Circle of the Moon|Cercle de la Lune
+Circle of the Land|Cercle de la Terre
+Oath of Devotion|Serment de dévotion
+Oath of Vengeance|Serment de vengeance
+Oath of the Ancients|Serment des Anciens
+The Fiend|Le Fiélon
+The Archfey|L’Archifée
+The Great Old One|Le Grand Ancien
+Hexblade|Lame maudite
+Human|Humain
+Elf|Elfe
+High Elf|Haut-elfe
+Wood Elf|Elfe des bois
+Dark Elf|Elfe noir
+Drow|Drow
+Dwarf|Nain
+Hill Dwarf|Nain des collines
+Mountain Dwarf|Nain des montagnes
+Halfling|Halfelin
+Lightfoot Halfling|Halfelin pied-léger
+Stout Halfling|Halfelin robuste
+Gnome|Gnome
+Forest Gnome|Gnome des forêts
+Rock Gnome|Gnome des roches
+Half-Elf|Demi-elfe
+Half-Orc|Demi-orc
+Orc|Orc
+Dragonborn|Drakéide
+Tiefling|Tieffelin
+Aasimar|Aasimar
+Goliath|Goliath
+Genasi|Genasi
+Tabaxi|Tabaxi
+Kenku|Kenku
+Warforged|Forgelier
+Changeling|Changelin
+Bugbear|Gobelours
+Goblin|Gobelin
+Hobgoblin|Hobgobelin
+Kobold|Kobold
+Lizardfolk|Homme-lézard
+Tortle|Tortle
+Acolyte|Acolyte
+Charlatan|Charlatan
+Criminal|Criminel
+Entertainer|Artiste
+Folk Hero|Héros du peuple
+Guild Artisan|Artisan de guilde
+Hermit|Ermite
+Noble|Noble
+Outlander|Étranger
+Sage|Sage
+Sailor|Marin
+Soldier|Soldat
+Urchin|Gamin des rues
+Artisan|Artisan
+Farmer|Fermier
+Guard|Garde
+Guide|Guide
+Merchant|Marchand
+Scribe|Scribe
+Wayfarer|Voyageur
+Common|Commun
+Draconic|Draconique
+Infernal|Infernal
+Abyssal|Abyssal
+Celestial|Céleste
+Deep Speech|Profond
+Dwarvish|Nain
+Elvish|Elfique
+Giant|Géant
+Gnomish|Gnome
+Halfling language|Halfelin
+Orcish|Orc
+Primordial|Primordial
+Sylvan|Sylvestre
+Undercommon|Commun des profondeurs
+Thieves' Cant|Argot des voleurs
+Druidic|Druidique
+Blindsight|Vision aveugle
+Tremorsense|Perception des vibrations
+Truesight|Vision lucide
+Bludgeoning|Contondant
+Piercing|Perforant
+Slashing|Tranchant
+Acid|Acide
+Cold|Froid
+Fire|Feu
+Force|Force
+Lightning|Foudre
+Necrotic|Nécrotique
+Poison|Poison
+Psychic|Psychique
+Radiant|Radiant
+Thunder|Tonnerre
+Damage Resistances|Résistances aux dégâts
+Damage Resistance|Résistance aux dégâts
+Damage Immunities|Immunités aux dégâts
+Damage Immunity|Immunité aux dégâts
+Damage Vulnerabilities|Vulnérabilités aux dégâts
+Damage Vulnerability|Vulnérabilité aux dégâts
+Condition Immunities|Immunités aux états
+Blinded|Aveuglé
+Charmed|Charmé
+Deafened|Assourdi
+Frightened|Effrayé
+Grappled|Agrippé
+Incapacitated|Neutralisé
+Invisible|Invisible
+Paralyzed|Paralysé
+Petrified|Pétrifié
+Poisoned|Empoisonné
+Prone|À terre
+Restrained|Entravé
+Stunned|Étourdi
+Unconscious|Inconscient
+Exhaustion|Épuisement
+Concentration|Concentration
+Bloodied|En sang
+Surprised|Surpris
+Dead|Mort
+Dying|Mourant
+Stable|Stabilisé
+Abjuration|Abjuration
+Conjuration|Invocation
+Divination|Divination
+Enchantment|Enchantement
+Evocation|Évocation
+Illusion|Illusion
+Necromancy|Nécromancie
+Transmutation|Transmutation
+Cantrips|Sorts mineurs
+Cantrip|Sort mineur
+Spell List|Liste des sorts
+Spellcasting Ability|Caractéristique d’incantation
+Spellcasting Modifier|Modificateur d’incantation
+Spell Attack Bonus|Bonus d’attaque des sorts
+Spell Save DC|DD de sauvegarde des sorts
+Spellcasting|Incantation
+Pact Magic|Magie de pacte
+Spell Slots|Emplacements de sort
+Spell Slot|Emplacement de sort
+Spell Slot Level|Niveau de l’emplacement de sort
+Spell Level|Niveau du sort
+Spells Known|Sorts connus
+Known Spells|Sorts connus
+Prepared Spells|Sorts préparés
+Always Prepared|Toujours préparé
+Prepared|Préparé
+Unprepared|Non préparé
+Known|Connu
+At Will|À volonté
+At Higher Levels|Aux niveaux supérieurs
+Using a Higher-Level Spell Slot|Utilisation d’un emplacement de niveau supérieur
+Cantrip Upgrade|Amélioration du sort mineur
+Casting Time|Temps d’incantation
+Duration|Durée
+Components|Composantes
+Verbal|Verbale
+Somatic|Somatique
+Material|Matérielle
+Ritual|Rituel
+Instantaneous|Instantanée
+Until dispelled|Jusqu’à dissipation
+Self|Personnelle
+Touch|Contact
+Unlimited|Illimitée
+Special|Spécial
+Melee Spell Attack|Attaque de sort au corps à corps
+Ranged Spell Attack|Attaque de sort à distance
+Melee Weapon Attack|Attaque d’arme au corps à corps
+Ranged Weapon Attack|Attaque d’arme à distance
+Attack Roll|Jet d’attaque
+Damage Roll|Jet de dégâts
+Critical Hit|Coup critique
+Critical|Critique
+Bonus Action|Action bonus
+Reaction|Réaction
+Opportunity Attack|Attaque d’opportunité
+Multiattack|Attaques multiples
+Extra Attack|Attaque supplémentaire
+Unarmed Strike|Frappe à mains nues
+Unarmed|À mains nues
+Dash|Foncer
+Disengage|Se désengager
+Dodge|Esquiver
+Help|Aider
+Hide|Se cacher
+Ready|Se tenir prêt
+Search|Chercher
+Utilize|Utiliser
+Influence|Influencer
+Study|Étudier
+Short Rest|Repos court
+Long Rest|Repos long
+Rest|Repos
+Turn|Tour
+Round|Round
+Reach|Allonge
+Range|Portée
+Target|Cible
+Targets|Cibles
+Area of Effect|Zone d’effet
+Cone|Cône
+Cube|Cube
+Cylinder|Cylindre
+Sphere|Sphère
+Line|Ligne
+Emanation|Émanation
+Radius|Rayon
+Difficult Terrain|Terrain difficile
+Half Cover|Abri partiel
+Three-Quarters Cover|Abri important
+Total Cover|Abri total
+Grapple|Agripper
+Shove|Bousculer
+Walk|Marche
+Walking|Marche
+Climb|Escalade
+Climbing|Escalade
+Swim|Nage
+Swimming|Nage
+Flying|Vol
+Burrow|Fouissement
+Burrowing|Fouissement
+Hover|Vol stationnaire
+Tiny|Très petite
+Small|Petite
+Medium|Moyenne
+Large|Grande
+Huge|Très grande
+Gargantuan|Gigantesque
+Lawful Good|Loyal bon
+Neutral Good|Neutre bon
+Chaotic Good|Chaotique bon
+Lawful Neutral|Loyal neutre
+True Neutral|Neutre strict
+Neutral|Neutre
+Chaotic Neutral|Chaotique neutre
+Lawful Evil|Loyal mauvais
+Neutral Evil|Neutre mauvais
+Chaotic Evil|Chaotique mauvais
+Unaligned|Sans alignement
+Sorcery Points|Points de sorcellerie
+Sorcery Point Cost|Coût en points de sorcellerie
+Sorcery Point|Point de sorcellerie
+Metamagic|Métamagie
+Metamagic Options|Options de métamagie
+Font of Magic|Source de magie
+Flexible Casting|Flexibilité des sorts
+Creating Spell Slots|Création d’emplacements de sort
+Create Spell Slots|Créer des emplacements de sort
+Convert Spell Slot to Sorcery Points|Convertir un emplacement de sort en points de sorcellerie
+Converting a Spell Slot to Sorcery Points|Conversion d’un emplacement de sort en points de sorcellerie
+Quickened Spell|Sort accéléré
+Subtle Spell|Sort subtil
+Twinned Spell|Sort jumelé
+Careful Spell|Sort prudent
+Distant Spell|Sort distant
+Empowered Spell|Sort renforcé
+Extended Spell|Sort étendu
+Heightened Spell|Sort intensifié
+Seeking Spell|Sort chercheur
+Transmuted Spell|Sort transmuté
+Innate Sorcery|Sorcellerie innée
+Sorcerous Restoration|Restauration ensorcelée
+Sorcery Incarnate|Sorcellerie incarnée
+Arcane Apotheosis|Apothéose arcanique
+Draconic Resilience|Résistance draconique
+Dragon Ancestor|Ancêtre dragon
+Draconic Ancestry|Ascendance draconique
+Elemental Affinity|Affinité élémentaire
+Dragon Wings|Ailes de dragon
+Draconic Presence|Présence draconique
+Infernal Legacy|Ascendance infernale
+Hellish Resistance|Résistance infernale
+Fiendish Legacy|Ascendance fiélonne
+Otherworldly Presence|Présence surnaturelle
+Healer|Guérisseur
+Battle Medic|Médecin de bataille
+Healing Rerolls|Relance des soins
+Rage|Rage
+Reckless Attack|Attaque téméraire
+Unarmored Defense|Défense sans armure
+Danger Sense|Sens du danger
+Bardic Inspiration|Inspiration bardique
+Jack of All Trades|Touche-à-tout
+Song of Rest|Chant reposant
+Channel Divinity|Canalisation d’énergie divine
+Turn Undead|Renvoi des morts-vivants
+Divine Intervention|Intervention divine
+Wild Shape|Forme sauvage
+Second Wind|Second souffle
+Action Surge|Fougue
+Indomitable|Indomptable
+Fighting Style|Style de combat
+Sneak Attack|Attaque sournoise
+Cunning Action|Ruse
+Uncanny Dodge|Esquive instinctive
+Evasion|Esquive totale
+Reliable Talent|Talent fiable
+Martial Arts|Arts martiaux
+Flurry of Blows|Déluge de coups
+Patient Defense|Défense patiente
+Step of the Wind|Déplacement aérien
+Stunning Strike|Frappe étourdissante
+Deflect Missiles|Déviation de projectiles
+Deflect Attacks|Déviation d’attaques
+Slow Fall|Chute ralentie
+Ki Points|Points de ki
+Focus Points|Points de focalisation
+Lay on Hands|Imposition des mains
+Divine Sense|Sens divin
+Aura of Protection|Aura de protection
+Favored Enemy|Ennemi juré
+Natural Explorer|Explorateur-né
+Deft Explorer|Explorateur habile
+Favored Foe|Ennemi favori
+Eldritch Invocations|Invocations occultes
+Agonizing Blast|Décharge déchirante
+Repelling Blast|Décharge répulsive
+Devil's Sight|Vision du diable
+Pact of the Blade|Pacte de la lame
+Pact of the Chain|Pacte de la chaîne
+Pact of the Tome|Pacte du grimoire
+Mystic Arcanum|Arcanum mystique
+Arcane Recovery|Restauration arcanique
+Sculpt Spells|Façonnage des sorts
+Spell Mastery|Maîtrise des sorts
+Signature Spells|Sorts de prédilection
+Fey Ancestry|Ascendance féerique
+Trance|Transe
+Lucky|Chanceux
+Brave|Vaillant
+Halfling Nimbleness|Agilité halfeline
+Dwarven Resilience|Résistance naine
+Stonecunning|Connaissance de la pierre
+Relentless Endurance|Acharnement
+Savage Attacks|Attaques sauvages
+Breath Weapon|Souffle
+Ability Score Improvement|Amélioration de caractéristiques
+Alert|Vigilant
+Athlete|Athlète
+Actor|Comédien
+Charger|Chargeur
+Crossbow Expert|Expert de l’arbalète
+Defensive Duelist|Duelliste défensif
+Dual Wielder|Combattant à deux armes
+Durable|Endurant
+Elemental Adept|Adepte élémentaire
+Grappler|Lutteur
+Great Weapon Master|Maître des armes à deux mains
+Heavy Armor Master|Maître des armures lourdes
+Inspiring Leader|Meneur exaltant
+Keen Mind|Esprit affûté
+Linguist|Linguiste
+Mage Slayer|Tueur de mages
+Magic Initiate|Initié à la magie
+Martial Adept|Adepte martial
+Mobile|Mobile
+Mounted Combatant|Combattant monté
+Observant|Observateur
+Polearm Master|Maître des armes d’hast
+Resilient|Résilient
+Ritual Caster|Lanceur de rituels
+Savage Attacker|Attaquant sauvage
+Sentinel|Sentinelle
+Sharpshooter|Tireur d’élite
+Shield Master|Maître des boucliers
+Skilled|Doué
+Skulker|Furtif
+Spell Sniper|Tireur de sorts d’élite
+Tavern Brawler|Bagarreur de tavernes
+Tough|Robuste
+War Caster|Mage de guerre
+Weapon Master|Maître d’armes
+Fey Touched|Touché par les fées
+Shadow Touched|Touché par les ombres
+Telekinetic|Télékinésiste
+Chef|Chef cuisinier
+Crusher|Broyeur
+Piercer|Perceur
+Slasher|Trancheur
+Skill Expert|Expert en compétence

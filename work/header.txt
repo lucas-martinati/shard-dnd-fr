@@ -1,0 +1,27 @@
+// ==UserScript==
+// @name         Shard Tabletop — D&D français (2024)
+// @namespace    local.shard.dnd.fr
+// @version      1.12.0
+// @description  Lexique D&D FR, sorts, dons, objets, monstres, MJ et descriptions intégrées. Règles 2024 privilégiées. Index et fiches AideDD 2024.
+// @match        https://play.shardtabletop.com/*
+// @run-at       document-idle
+// @grant        GM_getValue
+// @grant        GM_setValue
+// @grant        GM_registerMenuCommand
+// @grant        GM_xmlhttpRequest
+// @connect      www.aidedd.org
+// @noframes
+// @license      MIT; contenu SRD sous CC-BY-4.0
+// ==/UserScript==
+
+/*
+Ce travail utilise des termes et passages adaptés des SRD 5.1 et 5.2.1 de
+Wizards of the Coast LLC, disponibles sur https://www.dndbeyond.com/srd
+sous licence Creative Commons Attribution 4.0 International :
+https://creativecommons.org/licenses/by/4.0/
+Les traductions des passages anglais sont des adaptations ; les noms hors
+SRD peuvent être des traductions usuelles ou proposées, sans validation officielle.
+Script indépendant, non affilié à Shard Tabletop ni à Wizards of the Coast.
+Les noms et liens AideDD sont référencés ; les fiches sont consultées à la demande.
+Les textes fournis par l’utilisateur sont également traduits.
+*/

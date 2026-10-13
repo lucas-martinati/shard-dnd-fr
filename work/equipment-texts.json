@@ -1,0 +1,506 @@
+[
+  {
+    "name": "Acid",
+    "frName": "Acide",
+    "en": "When you take the Attack action, you can replace one of your attacks with throwing a vial of Acid. Target one creature or object you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take 2d6 Acid damage.",
+    "fr": "Lorsque vous effectuez l’action Attaque, vous pouvez remplacer l’une de vos attaques par le jet d’une fiole d’acide. Ciblez une créature ou un objet que vous voyez dans un rayon de 6 m. La cible doit réussir un jet de sauvegarde de Dextérité (DD égal à 8 + votre modificateur de Dextérité + votre bonus de maîtrise) sous peine de subir 2d6 dégâts d’acide.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Alchemist’s Fire",
+    "frName": "Feu grégeois",
+    "en": "When you take the Attack action, you can replace one of your attacks with throwing a flask of Alchemist’s Fire. Target one creature or object you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take 1d4 Fire damage and start burning (see “Rules Glossary”).",
+    "fr": "Lorsque vous effectuez l’action Attaque, vous pouvez remplacer l’une de vos attaques par le jet d’une flasque de feu grégeois. Ciblez une créature ou un objet que vous voyez dans un rayon de 6 m. La cible doit réussir un jet de sauvegarde de Dextérité (DD égal à 8 + votre modificateur de Dextérité + votre bonus de maîtrise) sous peine de subir 1d4 dégâts de feu et de prendre feu (cf. « Glossaire de règles »).",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Backpack",
+    "frName": "Sac à dos",
+    "en": "A Backpack holds up to 30 pounds within 1 cubic foot. It can also serve as a saddlebag.",
+    "fr": "Un sac à dos contient jusqu’à 15 kg pour un volume de 30 litres ou 0,03 m³. Il peut également servir de sacoche de selle.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Ball Bearings",
+    "frName": "Billes",
+    "en": "As a Utilize action, you can spill Ball Bearings from their pouch. They spread to cover a level, 10-foot-square area within 10 feet of yourself. A creature that enters this area for the first time on a turn must succeed on a DC 10 Dexterity saving throw or have the Prone condition. It takes 10 minutes to recover the Ball Bearings.",
+    "fr": "Par une action Utilisation, vous pouvez déverser les billes de leur sacoche. Elles se répandent sur une suface plane de 3 m x 3 m, à une distance maximale de 3 m. Une créature qui traverse cette zone pour la première fois d’un tour doit réussir un jet de sauvegarde de Dextérité DD 10 sous peine de subir l’état À terre. 10 minutes sont nécessaires pour récupérer les billes.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Barrel",
+    "frName": "Tonneau",
+    "en": "A Barrel holds up to 40 gallons of liquid or up to 4 cubic feet of dry goods.",
+    "fr": "Un tonneau contient jusqu’à 140 litres de liquide ou 0,12 m3 de solide.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Basket",
+    "frName": "Panier",
+    "en": "A Basket holds up to 40 pounds within 2 cubic feet.",
+    "fr": "Un panier contient jusqu’à 20 kg pour un volume de 60 litres ou 0,06 m³.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Bedroll",
+    "frName": "Sac de couchage",
+    "en": "A Bedroll sleeps one Small or Medium creature. While in a Bedroll, you automatically succeed on saving throws against extreme cold (see “Gameplay Toolbox”).",
+    "fr": "Un sac de couchage permet à une créature de taille P ou M de dormir. Dans un sac de couchage, vous réussissez automatiquement vos jets de sauvegarde contre le froid extrême (cf. « Boîte à outils ludique »).",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Bell",
+    "frName": "Cloche",
+    "en": "When rung as a Utilize action, a Bell produces a sound that can be heard up to 60 feet away.",
+    "fr": "Actionnée par une action Utilisation, une cloche produit un son audible à 18 m.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Blanket",
+    "frName": "Couverture",
+    "en": "While wrapped in a blanket, you have Advantage on saving throws against extreme cold (see “Gameplay Toolbox”).",
+    "fr": "Enveloppé dans une couverture, vous avez l’Avantage aux jets de sauvegarde contre le froid extrême (cf. « Boîte à outils ludique »).",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Block and Tackle",
+    "frName": "Palan",
+    "en": "A Block and Tackle allows you to hoist up to four times the weight you can normally lift.",
+    "fr": "Un palan vous permet de soulever jusqu’à quatre fois le poids que vous pouvez normalement soulever.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Book",
+    "frName": "Livre",
+    "en": "A Book contains fiction or nonfiction. If you consult an accurate nonfiction Book about its topic, you gain a +5 bonus to Intelligence (Arcana, History, Nature, or Religion) checks you make about that topic.",
+    "fr": "Un livre traite de fiction ou de non-fiction. Si vous consultez un livre de non-fiction précis sur son sujet, vous recevez un bonus de +5 aux tests d’Intelligence (Arcanes, Histoire, Nature ou Religion) que vous effectuez sur ce sujet.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Bottle, Glass",
+    "frName": "Bouteille, verre",
+    "en": "A Glass Bottle holds up to 11/2 pints.",
+    "fr": "Une bouteille en verre peut contenir jusqu’à 75 cl.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Bucket",
+    "frName": "Seau",
+    "en": "A Bucket holds up to half a cubic foot of contents.",
+    "fr": "Un seau contient 15 litres de liquide ou 0,015 m³.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Burglar’s Pack",
+    "frName": "Paquetage de cambrioleur",
+    "en": "A Burglar’s Pack contains the following items: Backpack, Ball Bearings, Bell, 10 Candles, Crowbar, Hooded Lantern, 7 flasks of Oil, 5 days of Rations, Rope, Tinderbox, and Waterskin.",
+    "fr": "Le paquetage de cambrioleur contient les objets suivants : sac à dos, billes, boîte à amadou, 10 bougies, cloche, corde, 7 flasques d’huile, lanterne à capote, outre, pied-de-biche, 5 jours de rations.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Caltrops",
+    "frName": "Chausse-trappes",
+    "en": "As a Utilize action, you can spread Caltrops from their bag to cover a 5-foot-square area within 5 feet of yourself. A creature that enters this area for the first time on a turn must succeed on a DC 15 Dexterity saving throw or take 1 Piercing damage and have its Speed reduced to 0 until the start of its next turn. It takes 10 minutes to recover the Caltrops.",
+    "fr": "Par une action Utilisation, vous pouvez répandre les chausse-trappes depuis leur sac pour couvrir une zone de 1,50 m x 1,50 m à une distance maximale de 1,50 m. Une créature qui traverse cette zone pour la première fois d’un tour doit réussir un jet de sauvegarde de Dextérité DD 15 sous peine de subir 1 dégât perforant et voir sa vitesse réduite à 0 jusqu’au début de son tour suivant. 10 minutes sont nécessaires pour récupérer les chausse-trappes.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Candle",
+    "frName": "Bougie",
+    "en": "For 1 hour, a lit Candle sheds Bright Light in a 5-foot radius and Dim Light for an additional 5 feet.",
+    "fr": "Après allumage et pendant 1 heure, une bougie produit une Lumière vive sur un rayon de 1,50 m et une Lumière faible sur 1,50 m de plus.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Case, Crossbow Bolt",
+    "frName": "Étui pour carreaux d’arbalète",
+    "en": "A Crossbow Bolt Case holds up to 20 Bolts.",
+    "fr": "Cet étui peut contenir 20 carreaux d’arbalète.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Case, Map or Scroll",
+    "frName": "Étui à cartes ou à parchemins",
+    "en": "A Map or Scroll Case holds up to 10 sheets of paper or 5 sheets of parchment.",
+    "fr": "L’étui à cartes ou à parchemins peut contenir 10 feuilles de papier ou 5 feuilles de parchemin.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Chain",
+    "frName": "Chaîne",
+    "en": "As a Utilize action, you can wrap a Chain around an unwilling creature within 5 feet of yourself that has the Grappled, Incapacitated, or Restrained condition if you succeed on a DC 13 Strength (Athletics) check. If the creature’s legs are bound, the creature has the Restrained condition until it escapes. Escaping the Chain requires the creature to make a successful DC 18 Dexterity (Acrobatics) check as an action. Bursting the Chain requires a successful DC 20 Strength (Athletics) check as an action.",
+    "fr": "Par une action Utilisation, vous enroulez une chaîne autour d’une créature non consentante dans un rayon de 1,50 m subissant l’état Agrippé, Entravé ou Neutralisé pour peu que vous réussissiez un test de Force (Athlétisme) DD 13. Si la créature a les jambes enchaînées, elle subit l’état Entravé jusqu’à ce qu’elle se libère. Se libérer de la chaîne nécessite que la créature réussisse un test de Dextérité (Acrobaties) DD 18 au prix d’une action. Briser cette chaîne nécessite de réussir un test de Force (Athlétisme) DD 20 au prix d’une action.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Chest",
+    "frName": "Coffre",
+    "en": "A Chest holds up to 12 cubic feet of contents.",
+    "fr": "Un coffre contient jusqu’à 0,36 m³.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Climber’s Kit",
+    "frName": "Matériel d’escalade",
+    "en": "A Climber’s Kit includes boot tips, gloves, pitons, and a harness. As a Utilize action, you can use the Climber’s Kit to anchor yourself; when you do, you can’t fall more than 25 feet from the anchor point, and you can’t move more than 25 feet from there without undoing the anchor as a Bonus Action.",
+    "fr": "Le matériel d’escalade comprend des crampons de chaussures, des gants, des pitons et un harnais. Par une action Utilisation, vous pouvez recourir au matériel d’escalade pour vous ancrer ; cette précaution prise, vous ne pouvez pas tomber à plus de 7,50 m du point d’ancrage, et vous ne pouvez pas vous en éloigner de plus de 7,50 m sans défaire préalablement l’ancrage par une action Bonus.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Clothes, Traveler’s",
+    "frName": "Tenue de voyage",
+    "en": "Traveler’s Clothes are resilient garments designed for travel in various environments.",
+    "fr": "La tenue de voyage comprend des vêtements résistants, conçus pour voyager dans divers environnements.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Component Pouch",
+    "frName": "Sacoche à composantes",
+    "en": "A Component Pouch is watertight and filled with compartments that hold all the free Material components of your spells.",
+    "fr": "Une sacoche à composantes est étanche et divisée en compartiments qui permettent d’y ranger toutes les composantes matérielles gratuites de vos sorts.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Costume",
+    "frName": "Costume",
+    "en": "While wearing a Costume, you have Advantage on any ability check you make to impersonate the person or type of person it represents.",
+    "fr": "Vêtu d’un costume, vous avez l’Avantage aux tests de caractéristique visant à vous faire passer pour la personne ou le type de personne qu’il représente.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Crowbar",
+    "frName": "Pied-de-biche",
+    "en": "Using a Crowbar gives you Advantage on Strength checks where the Crowbar’s leverage can be applied.",
+    "fr": "Le pied-de-biche vous octroie l’Avantage aux tests de Force chaque fois que son effet de levier peut être pris en compte.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Diplomat’s Pack",
+    "frName": "Paquetage de diplomate",
+    "en": "A Diplomat’s Pack contains the following items: Chest, Fine Clothes, Ink, 5 Ink Pens, Lamp, 2 Map or Scroll Cases, 4 flasks of Oil, 5 sheets of Paper, 5 sheets of Parchment, Perfume, and Tinderbox.",
+    "fr": "Le paquetage de diplomate contient les objets suivants : beaux habits, boîte à amadou, coffre, encre, 2 étuis à cartes et à parchemins, 5 feuilles de papier, 5 feuilles de parchemin, 4 flasques d’huile, lampe, 5 porte-plume, parfum.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Dungeoneer’s Pack",
+    "frName": "Paquetage d’exploration souterraine",
+    "en": "A Dungeoneer’s Pack contains the following items: Backpack, Caltrops, Crowbar, 2 flasks of Oil, 10 days of Rations, Rope, Tinderbox, 10 Torches, and Waterskin.",
+    "fr": "Le paquetage d’exploration souterraine contient les objets suivants : sac à dos, boîte à amadou, chausse-trappes, corde, 2 flasques d’huile, 10 jours de rations, outre, pied-de-biche, 10 torches.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Entertainer’s Pack",
+    "frName": "Paquetage d’artiste",
+    "en": "An Entertainer’s Pack contains the following items: Backpack, Bedroll, Bell, Bullseye Lantern, 3 Costumes, Mirror, 8 flasks of Oil, 9 days of Rations, Tinderbox, and Waterskin.",
+    "fr": "Le paquetage d’artiste contient les objets suivants : sac à dos, boîte à amadou, cloche, 3 costumes, 8 flasques d’huile, 9 jours de rations, lanterne sourde, miroir, outre, sac de couchage.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Explorer’s Pack",
+    "frName": "Paquetage d’explorateur",
+    "en": "An Explorer’s Pack contains the following items: Backpack, Bedroll, 2 flasks of Oil, 10 days of Rations, Rope, Tinderbox, 10 Torches, and Waterskin.",
+    "fr": "Le paquetage d’explorateur contient les objets suivants : sac à dos, sac de couchage, boîte à amadou, corde, 2 flasques d’huile, 10 jours de rations, outre, 10 torches.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Flask",
+    "frName": "Flasque",
+    "en": "A Flask holds up to 1 pint.",
+    "fr": "Une flasque contient 0,5 litre de liquide.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Grappling Hook",
+    "frName": "Grappin",
+    "en": "As a Utilize action, you can throw the Grappling Hook at a railing, a ledge, or another catch within 50 feet of yourself, and the hook catches on if you succeed on a DC 13 Dexterity (Acrobatics) check. If you tied a Rope to the hook, you can then climb it.",
+    "fr": "Par une action Utilisation, vous lancez le grappin sur une balustrade, un rebord ou une autre prise à une distance maximale de 15 m, et le grappin s’accroche si vous réussissez un test de Dextérité (Acrobaties) DD 13. Si vous aviez attaché une corde au grappin, vous pouvez y grimper.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Healer’s Kit",
+    "frName": "Trousse de soins",
+    "en": "A Healer’s Kit has ten uses. As a Utilize action, you can expend one of its uses to stabilize an Unconscious creature that has 0 Hit Points without needing to make a Wisdom (Medicine) check.",
+    "fr": "Une trousse de soins dispose de dix charges. Par une action Utilisation, dépenser une charge permet de stabiliser une créature avec l’état Inconscient et tombée à 0 point de vie sans passer par un test de Sagesse (Médecine).",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Holy Water",
+    "frName": "Eau bénite",
+    "en": "When you take the Attack action, you can replace one of your attacks with throwing a flask of Holy Water. Target one creature you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take 2d8 Radiant damage if it is a Fiend or an Undead.",
+    "fr": "Lorsque vous effectuez l’action Attaque, vous pouvez remplacer l’une de vos attaques par le jet d’une flasque d’eau bénite. Ciblez une créature que vous voyez dans un rayon de 6 m. La cible doit réussir un jet de sauvegarde de Dextérité (DD égal à 8 + votre modificateur de Dextérité + votre bonus de maîtrise) sous peine de subir 2d8 dégâts radiants si elle est de type Fiélon ou Mort-vivant.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Hunting Trap",
+    "frName": "Piège à mâchoires",
+    "en": "As a Utilize action, you can set a Hunting Trap, which is a sawtooth steel ring that snaps shut when a creature steps on a pressure plate in the center. The trap is affixed by a heavy chain to an immobile object, such as a tree or a spike driven into the ground. A creature that steps on the plate must succeed on a DC 13 Dexterity saving throw or take 1d4 Piercing damage and have its Speed reduced to 0 until the start of its next turn. Thereafter, until the creature breaks free of the trap, its movement is limited by the length of the chain (typically 3 feet). A creature can use its action to make a DC 13 Strength (Athletics) check, freeing itself or another creature within its reach on a success. Each failed check deals 1 Piercing damage to the trapped creature.",
+    "fr": "Par une action Utilisation, vous posez un piège à mâchoires, anneau d’acier en dents de scie qui se referme lorsqu’une créature marche sur la plaque de pression centrale. Le piège est ancré par une lourde chaîne à un objet immobile, comme un arbre ou une pointe enfoncée dans le sol. Une créature qui marche sur la plaque doit réussir un jet de sauvegarde de Dextérité DD 13 sous peine de subir 1d4 dégâts perforants et de voir sa Vitesse réduite à 0 jusqu’au début de son tour suivant. Par la suite et jusqu’à ce que la créature se libère du piège, son déplacement est limité par la taille de la chaîne (en règle générale 90 cm de long). Toute créature peut consacrer son action à effectuer un test de Force (Athlétisme) DD 13 et se libère, ou en extrait une autre créature à portée d’allonge, en cas de réussite. Chaque échec au test inflige 1 dégât perforant à la créature piégée.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Ink",
+    "frName": "Encre",
+    "en": "Ink comes in a 1-ounce bottle, which provides enough ink to write about 500 pages.",
+    "fr": "Conditionnée en bouteille de 30 ml, cette quantité d’encre permet de noircir environ 500 pages.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Ink Pen",
+    "frName": "Porte-plume",
+    "en": "Using Ink, an Ink Pen is used to write or draw.",
+    "fr": "Combiné à l’encre, le porte-plume permet d’écrire ou de dessiner.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Jug",
+    "frName": "Cruche",
+    "en": "A Jug holds up to 1 gallon.",
+    "fr": "Une cruche contient jusqu’à 4 litres de liquide.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Ladder",
+    "frName": "Échelle",
+    "en": "A Ladder is 10 feet tall. You must climb to move up or down it.",
+    "fr": "Une échelle mesure 3 m de haut. Grimper dessus permet de monter ou descendre.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Lamp",
+    "frName": "Lampe",
+    "en": "A Lamp burns Oil as fuel to cast Bright Light in a 15-foot radius and Dim Light for an additional 30 feet.",
+    "fr": "Une lampe brûle de l’huile comme combustible et produit une Lumière vive sur un rayon de 4,50 m, ainsi qu’une Lumière faible sur 9 m de plus.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Lantern, Bullseye",
+    "frName": "Lanterne sourde",
+    "en": "A Bullseye Lantern burns Oil as fuel to cast Bright Light in a 60-foot Cone and Dim Light for an additional 60 feet.",
+    "fr": "Une lanterne sourde brûle de l’huile comme combustible et produit une Lumière vive sur un Cône de 18 m, ainsi qu’une Lumière faible sur 18 m de plus.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Lantern, Hooded",
+    "frName": "Lanterne à capote",
+    "en": "A Hooded Lantern burns Oil as fuel to cast Bright Light in a 30-foot radius and Dim Light for an additional 30 feet. As a Bonus Action, you can lower the hood, reducing the light to Dim Light in a 5-foot radius, or raise it again.",
+    "fr": "Une lanterne à capote brûle de l’huile comme combustible et produit une Lumière vive sur un rayon de 9 m, ainsi qu’une Lumière faible sur 9 m de plus. Abaisser la capote par une action Bonus permet de réduire l’éclairage à une Lumière faible sur un rayon de 1,50 m, et la relever de rétablir la pleine lumière.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Lock",
+    "frName": "Cadenas",
+    "en": "A Lock comes with a key. Without the key, a creature can use Thieves’ Tools to pick this Lock with a successful DC 15 Dexterity (Sleight of Hand) check.",
+    "fr": "Un cadenas est livré avec une clef. Sans cette clef, une créature peut crocheter le cadenas à condition de réussir un test de Dextérité (Escamotage) DD 15 avec des outils de voleur.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Magnifying Glass",
+    "frName": "Loupe",
+    "en": "A Magnifying Glass grants Advantage on any ability check made to appraise or inspect a highly detailed item. Lighting a fire with a Magnifying Glass requires light as bright as sunlight to focus, tinder to ignite, and about 5 minutes for the fire to ignite.",
+    "fr": "Une loupe octroie l’Avantage à tout test de caractéristique visant à inspecter ou estimer la valeur d’un objet très détaillé. Démarrer un feu avec une loupe nécessite une lumière aussi vive que celle du soleil, que la lentille concentre sur de l’amadou, lequel s’enflamme au bout d’environ 5 minutes.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Manacles",
+    "frName": "Menottes",
+    "en": "As a Utilize action, you can use Manacles to bind an unwilling Small or Medium creature within 5 feet of yourself that has the Grappled, Incapacitated, or Restrained condition if you succeed on a DC 13 Dexterity (Sleight of Hand) check. While bound, a creature has Disadvantage on attack rolls, and the creature is Restrained if the Manacles are attached to a chain or hook that is fixed in place. Escaping the Manacles requires a successful DC 20 Dexterity (Sleight of Hand) check as an action. Bursting them requires a successful DC 25 Strength (Athletics) check as an action. Each set of Manacles comes with a key. Without the key, a creature can use Thieves’ Tools to pick the Manacles’ lock with a successful DC 15 Dexterity (Sleight of Hand) check.",
+    "fr": "Par une action Utilisation, vous menottez une créature non consentante de taille P ou de taille M située dans un rayon de 1,50 m et qui subit l’état Agrippé, Entravé ou Neutralisé à condition de réussir un test de Dextérité (Escamotage) DD 13. Tant qu’elle est menottée, la créature subit le Désavantage aux jets d’attaque, ainsi que l’état Entravé si les menottes sont attachées à une chaîne ou à un crochet fixe. Se libérer des menottes nécessite de réussir un test de Dextérité (Escamotage) DD 20 au prix d’une action. Les briser nécessite de réussir un test de Force (Athlétisme) DD 25 au prix d’une action. Chaque paire de menottes est fournie avec une clef. Sans cette clef, une créature peut crocheter la serrure des menottes à condition de réussir un test de Dextérité (Escamotage) DD 15 avec des outils de voleur.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Map",
+    "frName": "Carte",
+    "en": "If you consult an accurate Map, you gain a +5 bonus to Wisdom (Survival) checks you make to find your way in the place represented on it.",
+    "fr": "Si vous consultez une carte précise, vous recevez un bonus de +5 aux tests de Sagesse (Survie) effectués pour trouver votre chemin dans le lieu représenté sur la carte.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Mirror",
+    "frName": "Miroir",
+    "en": "A handheld steel Mirror is useful for personal cosmetics but also for peeking around corners and reflecting light as a signal.",
+    "fr": "Ce miroir à main en acier est pratique pour se maquiller, mais aussi pour risquer un œil au détour d’un angle et réfléchir la lumière en guise de signal.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Net",
+    "frName": "Filet",
+    "en": "When you take the Attack action, you can replace one of your attacks with throwing a Net. Target a creature you can see within 15 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or have the Restrained condition until it escapes. The target succeeds automatically if it is Huge or larger. To escape, the target or a creature within 5 feet of it must take an action to make a DC 10 Strength (Athletics) check, freeing the Restrained creature on a success. Destroying the Net (AC 10; 5 HP; Immunity to Bludgeoning, Poison, and Psychic damage) also frees the target, ending the effect.",
+    "fr": "Lorsque vous effectuez l’action Attaque, vous pouvez remplacer l’une de vos attaques par le lancer d’un filet. Ciblez une créature que vous voyez à une distance maximale de 4,50 m. La cible doit réussir un jet de sauvegarde de Dextérité (DD égal à 8 + votre modificateur de Dextérité + votre bonus de maîtrise) sous peine de subir l’état Entravé jusqu’à sa libération. La cible réussit automatiquement si elle est de taille TG ou supérieure. Pour être libérée, la cible (ou une créature dans un rayon de 1,50 m d’elle) doit entreprendre une action et effectuer un test de Force (Athlétisme) DD 10, libérant la créature Entravée en cas de réussite. La destruction du filet (CA 10 ; 5 pv ; Immunité aux dégâts contondants, psychiques et de poison) libère également la cible, mettant un terme à l’effet Entravé.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Oil",
+    "frName": "Huile",
+    "en": "You can douse a creature, object, or space with Oil or use it as fuel, as detailed below. Dousing a Creature or an Object. When you take the Attack action, you can replace one of your attacks with throwing an Oil flask. Target one creature or object within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or be covered in oil. If the target takes Fire damage before the oil dries (after 1 minute), the target takes an extra 5 Fire damage from burning oil. Dousing a Space. You can take the Utilize action to pour an Oil flask on level ground to cover a 5-foot-square area within 5 feet of yourself. If lit, the oil burns until the end of the turn 2 rounds from when the oil was lit (or 12 seconds) and deals 5 Fire damage to any creature that enters the area or ends its turn there. A creature can take this damage only once per turn. Fuel. Oil serves as fuel for Lamps and Lanterns. Once lit, a flask of Oil burns for 6 hours in a Lamp or Lantern. That duration doesn’t need to be consecutive; you can extinguish the burning Oil (as a Utilize action) and rekindle it again until it has burned for a total of 6 hours.",
+    "fr": "Vous pouvez asperger une créature, un objet ou un espace avec de l’huile ou l’utiliser comme combustible, comme détaillé ci-dessous. Asperger une créature ou un objet. Lorsque vous effectuez l’action Attaque, vous pouvez remplacer l’une de vos attaques par le jet d’une flasque d’huile. Ciblez une créature ou un objet à une distance maximale de 6 m. La cible doit réussir un jet de sauvegarde de Dextérité (DD égal à 8 + votre modificateur de Dextérité + votre bonus de maîtrise) sous peine d’être couverte d’huile. Si elle subit des dégâts de feu avant que l’huile ait séché (ce qui demande 1 minute), la cible subit 5 dégâts de feu supplémentaires, provoqués par l’embrasement de l’huile. Asperger un espace. Entreprendre l’action Utilisation permet d’étaler le contenu d’une flasque d’huile sur un sol plan et de couvrir une zone de 1,50 m de côté dans un rayon de 1,50 m. Embrasée, l’huile brûle jusqu’à la fin du tour 2 rounds après son allumage (soit pendant 12 secondes) et inflige 5 dégâts de feu à toute créature qui pénètre dans la zone ou y termine son tour. Une même créature ne peut subir ces dégâts qu’une fois par tour. Combustible. L’huile sert de combustible pour les lampes et les lanternes. Le contenu d’une flasque d’huile embrasée brûle pendant 6 heures dans une lampe ou une lanterne. Cette durée n’est pas nécessairement consécutive ; vous pouvez éteindre l’huile (par une action Utilisation) et la rallumer jusqu’à ce qu’elle ait brûlé pendant un total de 6 heures.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Paper",
+    "frName": "Papier",
+    "en": "One sheet of Paper can hold about 250 handwritten words.",
+    "fr": "Une feuille de papier peut contenir environ 250 mots écrits à la main.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Perfume",
+    "frName": "Parfum",
+    "en": "Perfume comes in a 4-ounce vial. For 1 hour after applying Perfume to yourself, you have Advantage on Charisma (Persuasion) checks made to influence an Indifferent Humanoid within 5 feet of yourself.",
+    "fr": "Le parfum est présenté dans un flacon de 120 ml. Pendant 1 heure après vous être appliqué du parfum, vous avez l’Avantage aux tests de Charisme (Persuasion) effectués afin d’influencer un Humanoïde Indifférent dans un rayon de 1,5 m.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Poison, Basic",
+    "frName": "Poison standard",
+    "en": "As a Bonus Action, you can use a vial of Basic Poison to coat one weapon or up to three pieces of ammunition. A creature that takes Piercing or Slashing damage from the poisoned weapon or ammunition takes an extra 1d4 Poison damage. Once applied, the poison retains potency for 1 minute or until its damage is dealt, whichever comes first.",
+    "fr": "Par une action Bonus, utiliser une fiole de poison standard vous permet d’enduire une arme ou jusqu’à trois munitions. Une créature qui subit des dégâts perforants ou tranchants de l’arme ou des munitions empoisonnées subit 1d4 dégâts de poison supplémentaires. Une fois appliqué, le poison conserve sa virulence pendant 1 minute ou jusqu’à ce que ces dégâts soient infligés, selon ce qui survient en premier.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Pole",
+    "frName": "Perche",
+    "en": "A Pole is 10 feet long. You can use it to touch something up to 10 feet away. If you must make a Strength (Athletics) check as part of a High or Long Jump, you can use the Pole to vault, giving yourself Advantage on the check.",
+    "fr": "Une perche mesure 3 m de long. Vous pouvez l’utiliser pour toucher quelque chose à une distance maximale de 3 m. Si vous effectuez un test de Force (Athlétisme) dans le cadre d’un saut en hauteur ou en longueur, utiliser la perche pour sauter vous octroie l’Avantage à ce test.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Pot, Iron",
+    "frName": "Pot en fer",
+    "en": "An Iron Pot holds up to 1 gallon.",
+    "fr": "Un pot en fer contient jusqu’à 4 litres de liquide.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Potion of Healing",
+    "frName": "Potion de guérison",
+    "en": "This potion is a magic item. As a Bonus Action, you can drink it or administer it to another creature within 5 feet of yourself. The creature that drinks the magical red fluid in this vial regains 2d4 + 2 Hit Points.",
+    "fr": "Cette potion est un objet magique. Par une action Bonus, vous pouvez boire une potion de guérison ou l’administrer à une autre créature dans un rayon de 1,50 m. La créature qui boit le liquide magique rouge contenu dans cette fiole récupère 2d4 + 2 points de vie.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Pouch",
+    "frName": "Sacoche",
+    "en": "A Pouch holds up to 6 pounds within one-fifth of a cubic foot.",
+    "fr": "Une sacoche contient jusqu’à 3 kg pour un volume de 0,006 m³.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Priest’s Pack",
+    "frName": "Paquetage d’ecclésiastique",
+    "en": "A Priest’s Pack contains the following items: Backpack, Blanket, Holy Water, Lamp, 7 days of Rations, Robe, and Tinderbox.",
+    "fr": "Le paquetage d’ecclésiastique contient les objets suivants : sac à dos, boîte à amadou, couverture, eau bénite, lampe, 7 jours de rations, robe.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Quiver",
+    "frName": "Carquois",
+    "en": "A Quiver holds up to 20 Arrows.",
+    "fr": "Un carquois peut contenir jusqu’à 20 flèches.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Ram, Portable",
+    "frName": "Bélier portable",
+    "en": "You can use a Portable Ram to break down doors. When doing so, you gain a +4 bonus to the Strength check. One other character can help you use the ram, giving you Advantage on this check.",
+    "fr": "Vous pouvez utiliser un bélier portable pour enfoncer les portes. Vous recevez alors un bonus de +4 au test de Force associé. Si un autre personnage vous aide à utiliser le bélier, vous recevez l’Avantage à ce test.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Rations",
+    "frName": "Rations",
+    "en": "Rations consist of travel-ready food, including jerky, dried fruit, hardtack, and nuts. See “Malnutrition” in “Rules Glossary” for the risks of not eating.",
+    "fr": "Les rations sont composées d’aliments de voyage, viande séchée, fruits secs, biscuits et fruits à coque. Voir à « Malnutrition » dans le « Glossaire de règles » pour les risques liés à l’absence de nourriture.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Robe",
+    "frName": "Robe",
+    "en": "A Robe has vocational or ceremonial significance. Some events and locations admit only people wearing a Robe bearing certain colors or symbols.",
+    "fr": "Une robe a une signification professionnelle ou cérémonielle. Certains événements et lieux n’admettent que les personnes vêtues d’une robe d’une couleur donnée ou arborant certains symboles.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Rope",
+    "frName": "Corde",
+    "en": "As a Utilize action, you can tie a knot with Rope if you succeed on a DC 10 Dexterity (Sleight of Hand) check. The Rope can be burst with a successful DC 20 Strength (Athletics) check. You can bind an unwilling creature with the Rope only if the creature has the Grappled, Incapacitated, or Restrained condition. If the creature’s legs are bound, the creature has the Restrained condition until it escapes. Escaping the Rope requires the creature to make a successful DC 15 Dexterity (Acrobatics) check as an action.",
+    "fr": "Par une action Utilisation, vous pouvez nouer la corde à condition de réussir un test de Dextérité (Escamotage) DD 10. Rompre la corde nécessite de réussir un test de Force (Athlétisme) DD 20. Attacher une créature non consentante avec la corde nécessite que celle-ci subisse l’état Agrippé, Entravé ou Neutralisé. Si la créature a les jambes attachées, elle subit l’état Entravé jusqu’à ce qu’elle se libère. Se libérer de la corde nécessite que la créature réussisse un test de Dextérité (Acrobaties) DD 15 au prix d’une action.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Sack",
+    "frName": "Sac",
+    "en": "A Sack holds up to 30 pounds within 1 cubic foot.",
+    "fr": "Un sac contient jusqu’à 15 kg pour un volume de 0,03 m³.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Shovel",
+    "frName": "Pelle",
+    "en": "Working for 1 hour, you can use a Shovel to dig a hole that is 5 feet on each side in soil or similar material.",
+    "fr": "Au prix de 1 heure d’efforts, une pelle permet de creuser un trou de 1,5 m de côté pour autant de profondeur dans de la terre ou tout matériau similaire.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Signal Whistle",
+    "frName": "Sifflet",
+    "en": "When blown as a Utilize action, a Signal Whistle produces a sound that can be heard up to 600 feet away.",
+    "fr": "Souffler dans le sifflet par une action Utilisation produit un son audible à 180 m.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Spikes, Iron",
+    "frName": "Pointes en fer",
+    "en": "Iron Spikes come in bundles of ten. As a Utilize action, you can use a blunt object, such as a Light Hammer, to hammer a spike into wood, earth, or a similar material. You can do so to jam a door shut or to then tie a Rope or Chain to the Spike.",
+    "fr": "Les pointes en fer sont vendues par paquets de dix. Par une action Utilisation, vous pouvez recourir à un objet contondant, par exemple un marteau léger, pour enfoncer une pointe dans du bois, de la terre ou tout matériau similaire. Faire ainsi permet de bloquer une porte ou d’attacher une corde ou une chaîne à la pointe.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Spyglass",
+    "frName": "Longue-vue",
+    "en": "Objects viewed through a Spyglass are magnified to twice their size.",
+    "fr": "Une longue-vue permet de grossir jusqu’à deux fois les objets que vous voyez à distance.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "String",
+    "frName": "Ficelle",
+    "en": "String is 10 feet long. You can tie a knot in it as a Utilize action.",
+    "fr": "Cette ficelle mesure 3 m de long. Vous pouvez y faire un nœud par une action Utilisation.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Tent",
+    "frName": "Tente",
+    "en": "A Tent sleeps up to two Small or Medium creatures.",
+    "fr": "Jusqu’à deux créatures de taille P ou M peuvent dormir sous la même tente.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Tinderbox",
+    "frName": "Boîte à amadou",
+    "en": "A Tinderbox is a small container holding flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a Candle, Lamp, Lantern, or Torch—or anything else with exposed fuel—takes a Bonus Action. Lighting any other fire takes 1 minute.",
+    "fr": "Ce petit conteneur renferme silex, pierre à briquet et amorce (généralement un morceau de tissu imbibé d’huile), soit de quoi allumer un feu. L’utiliser pour allumer une bougie, une lampe, une lanterne ou une torche, ou tout autre objet dont le combustible est exposé, s’effectue par une action Bonus. Produire un autre type de flammes demande 1 minute.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Torch",
+    "frName": "Torche",
+    "en": "A Torch burns for 1 hour, casting Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. When you take the Attack action, you can attack with the Torch, using it as a Simple Melee weapon. On a hit, the target takes 1 Fire damage.",
+    "fr": "Une torche brûle pendant 1 heure, produit une Lumière vive sur un rayon de 6 m et une Lumière faible sur 6 m de plus. Dans le cadre de l’action Attaque, vous pouvez attaquer avec la torche, en considérant celle-ci comme une arme courante de corps à corps. Si l’attaque touche, la cible subit 1 dégât de feu.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Vial",
+    "frName": "Fiole",
+    "en": "A Vial holds up to 4 ounces.",
+    "fr": "Une fiole contient 120 ml de liquide.",
+    "source": "SRD 5.2.1 FR · équipement"
+  },
+  {
+    "name": "Waterskin",
+    "frName": "Outre",
+    "en": "A Waterskin holds up to 4 pints. If you don’t drink sufficient water, you risk dehydration (see “Rules Glossary”).",
+    "fr": "Une outre contient 2 litres de liquide. Boire insuffisamment d’eau, c’est s’exposer à la déshydratation (cf. « Glossaire de règles »).",
+    "source": "SRD 5.2.1 FR · équipement"
+  }
+]
