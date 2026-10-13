@@ -23,3 +23,5 @@ Les dictionnaires TSV et références JSON préexistants se trouvent aussi dans 
 Lancer `npm run build`, puis `npm test`. `npm run translations:coverage` distingue les noms traduits, les blocs locaux et les corpus vérifiés. Une catégorie présente ne signifie pas que tous les contenus de tous les suppléments sont disponibles en français.
 
 Voir [le guide détaillé](../docs/AJOUTER-DES-TRADUCTIONS.md).
+
+Les descriptions de présentation des espèces et lignages se trouvent dans `especes/`, celles des classes et sous-classes dans `classes/`, et celles des historiques dans `regles/`. Leurs identifiants commencent par `narrative.`. `descriptions-visibles.json` relie chaque fiche relevée à ses paragraphes ou puces pour mesurer la couverture des textes, séparément de celle des noms.

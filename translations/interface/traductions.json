@@ -3,5 +3,334 @@
   "schemaVersion": 1,
   "edition": "any",
   "source": "Sources détaillées par entrée",
-  "entries": []
+  "entries": [
+    {
+      "id": "shard.interface.my-characters",
+      "kind": "term",
+      "en": "My Characters",
+      "fr": "Mes personnages",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "shard.interface.new-character",
+      "kind": "term",
+      "en": "New Character",
+      "fr": "Nouveau personnage",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "shard.interface.campaigns",
+      "kind": "term",
+      "en": "Campaigns",
+      "fr": "Campagnes",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "shard.interface.campaign",
+      "kind": "term",
+      "en": "Campaign",
+      "fr": "Campagne",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "shard.interface.new-campaign",
+      "kind": "term",
+      "en": "New Campaign",
+      "fr": "Nouvelle campagne",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "shard.interface.gamemaster",
+      "kind": "term",
+      "en": "Gamemaster",
+      "fr": "Maître du jeu",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "shard.interface.player",
+      "kind": "term",
+      "en": "Player",
+      "fr": "Joueur",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "shard.interface.players",
+      "kind": "term",
+      "en": "Players",
+      "fr": "Joueurs",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "shard.interface.library",
+      "kind": "term",
+      "en": "Library",
+      "fr": "Bibliothèque",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "shard.interface.recently-viewed",
+      "kind": "term",
+      "en": "Recently viewed",
+      "fr": "Consultés récemment",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "shard.interface.new-book",
+      "kind": "term",
+      "en": "New Book",
+      "fr": "Nouveau livre",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "shard.interface.books",
+      "kind": "term",
+      "en": "Books",
+      "fr": "Livres",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "shard.interface.book",
+      "kind": "term",
+      "en": "Book",
+      "fr": "Livre",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "shard.interface.reference",
+      "kind": "term",
+      "en": "Reference",
+      "fr": "Références",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "shard.interface.gamemaster-options",
+      "kind": "term",
+      "en": "Gamemaster Options",
+      "fr": "Options du maître du jeu",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "shard.interface.races-species",
+      "kind": "term",
+      "en": "Races/Species",
+      "fr": "Races / Espèces",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "shard.interface.artwork",
+      "kind": "term",
+      "en": "Artwork",
+      "fr": "Illustrations",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "shard.interface.audio-clips",
+      "kind": "term",
+      "en": "Audio Clips",
+      "fr": "Extraits audio",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "shard.interface.pregenerated-characters",
+      "kind": "term",
+      "en": "Pregenerated Characters",
+      "fr": "Personnages prétirés",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "shard.interface.custom-types",
+      "kind": "term",
+      "en": "Custom Types",
+      "fr": "Types personnalisés",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "shard.interface.advanced",
+      "kind": "term",
+      "en": "Advanced",
+      "fr": "Avancé",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "shard.interface.my-creations",
+      "kind": "term",
+      "en": "My Creations",
+      "fr": "Mes créations",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "shard.interface.viewing-all-your-content",
+      "kind": "term",
+      "en": "Viewing all your content",
+      "fr": "Affichage de tous vos contenus",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "shard.interface.new-package",
+      "kind": "term",
+      "en": "New Package:",
+      "fr": "Nouveau contenu :",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "shard.interface.terms-of-service",
+      "kind": "term",
+      "en": "Terms of Service",
+      "fr": "Conditions d’utilisation",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "shard.interface.privacy-statement",
+      "kind": "term",
+      "en": "Privacy Statement",
+      "fr": "Politique de confidentialité",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "shard.interface.not-in-campaign",
+      "kind": "term",
+      "en": "Not in campaign",
+      "fr": "Hors campagne",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "shard.interface.new",
+      "kind": "term",
+      "en": "New",
+      "fr": "Nouveau",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "shard.interface.more",
+      "kind": "term",
+      "en": "more...",
+      "fr": "Plus…",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "shard.interface.advanced-filter",
+      "kind": "term",
+      "en": "Advanced Filter",
+      "fr": "Filtres avancés",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "shard.interface.clear-all",
+      "kind": "term",
+      "en": "Clear All",
+      "fr": "Tout effacer",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "shard.interface.game-system",
+      "kind": "term",
+      "en": "Game System",
+      "fr": "Système de jeu",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "shard.interface.collection",
+      "kind": "term",
+      "en": "Collection",
+      "fr": "Collection",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "shard.interface.publisher",
+      "kind": "term",
+      "en": "Publisher",
+      "fr": "Éditeur",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "shard.interface.open",
+      "kind": "term",
+      "en": "Open",
+      "fr": "Ouvrir",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "shard.interface.search",
+      "kind": "term",
+      "en": "search",
+      "fr": "Rechercher",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "shard.interface.base-race",
+      "kind": "term",
+      "en": "Base Race",
+      "fr": "Espèce de base",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "shard.interface.subraces",
+      "kind": "term",
+      "en": "Subraces",
+      "fr": "Sous-espèces",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "shard.interface.variants",
+      "kind": "term",
+      "en": "Variants",
+      "fr": "Variantes",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "shard.interface.add-to-chat",
+      "kind": "term",
+      "en": "add to chat",
+      "fr": "Ajouter à la discussion",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "shard.interface.book-references",
+      "kind": "term",
+      "en": "book references",
+      "fr": "Références dans les livres",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "edition": "any"
+    }
+  ]
 }

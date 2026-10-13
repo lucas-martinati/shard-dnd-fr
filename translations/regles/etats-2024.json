@@ -1,0 +1,144 @@
+{
+  "edition": "2024",
+  "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+  "conditions": [
+    {
+      "en": "Blinded",
+      "fr": "Aveuglé",
+      "sections": [
+        "conditions.2024.blinded.1.section",
+        "conditions.2024.blinded.2.section"
+      ]
+    },
+    {
+      "en": "Charmed",
+      "fr": "Charmé",
+      "sections": [
+        "conditions.2024.charmed.1.section",
+        "conditions.2024.charmed.2.section"
+      ]
+    },
+    {
+      "en": "Deafened",
+      "fr": "Assourdi",
+      "sections": [
+        "conditions.2024.deafened.1.section"
+      ]
+    },
+    {
+      "en": "Exhaustion",
+      "fr": "Épuisement",
+      "sections": [
+        "conditions.2024.exhaustion.1.section",
+        "conditions.2024.exhaustion.2.section",
+        "conditions.2024.exhaustion.3.section",
+        "conditions.2024.exhaustion.4.section"
+      ]
+    },
+    {
+      "en": "Frightened",
+      "fr": "Effrayé",
+      "sections": [
+        "conditions.2024.frightened.1.section",
+        "conditions.2024.frightened.2.section"
+      ]
+    },
+    {
+      "en": "Grappled",
+      "fr": "Agrippé",
+      "sections": [
+        "conditions.2024.grappled.1.section",
+        "conditions.2024.grappled.2.section",
+        "conditions.2024.grappled.3.section"
+      ]
+    },
+    {
+      "en": "Incapacitated",
+      "fr": "Neutralisé",
+      "sections": [
+        "conditions.2024.incapacitated.1.section",
+        "conditions.2024.incapacitated.2.section",
+        "conditions.2024.incapacitated.3.section",
+        "conditions.2024.incapacitated.4.section"
+      ]
+    },
+    {
+      "en": "Invisible",
+      "fr": "Invisible",
+      "sections": [
+        "conditions.2024.invisible.1.section",
+        "conditions.2024.invisible.2.section",
+        "conditions.2024.invisible.3.section"
+      ]
+    },
+    {
+      "en": "Paralyzed",
+      "fr": "Paralysé",
+      "sections": [
+        "conditions.2024.paralyzed.1.section",
+        "conditions.2024.grappled.1.section",
+        "conditions.2024.paralyzed.3.section",
+        "conditions.2024.paralyzed.4.section",
+        "conditions.2024.paralyzed.5.section"
+      ]
+    },
+    {
+      "en": "Petrified",
+      "fr": "Pétrifié",
+      "sections": [
+        "conditions.2024.petrified.1.section",
+        "conditions.2024.paralyzed.1.section",
+        "conditions.2024.grappled.1.section",
+        "conditions.2024.paralyzed.4.section",
+        "conditions.2024.paralyzed.3.section",
+        "conditions.2024.petrified.6.section",
+        "conditions.2024.petrified.7.section"
+      ]
+    },
+    {
+      "en": "Poisoned",
+      "fr": "Empoisonné",
+      "sections": [
+        "conditions.2024.poisoned.1.section"
+      ]
+    },
+    {
+      "en": "Prone",
+      "fr": "À terre",
+      "sections": [
+        "conditions.2024.prone.1.section",
+        "conditions.2024.prone.2.section"
+      ]
+    },
+    {
+      "en": "Restrained",
+      "fr": "Entravé",
+      "sections": [
+        "conditions.2024.grappled.1.section",
+        "conditions.2024.blinded.2.section",
+        "conditions.2024.restrained.3.section"
+      ]
+    },
+    {
+      "en": "Stunned",
+      "fr": "Étourdi",
+      "sections": [
+        "conditions.2024.paralyzed.1.section",
+        "conditions.2024.paralyzed.3.section",
+        "conditions.2024.paralyzed.4.section"
+      ]
+    },
+    {
+      "en": "Unconscious",
+      "fr": "Inconscient",
+      "sections": [
+        "conditions.2024.unconscious.1.section",
+        "conditions.2024.grappled.1.section",
+        "conditions.2024.paralyzed.4.section",
+        "conditions.2024.paralyzed.3.section",
+        "conditions.2024.paralyzed.5.section",
+        "conditions.2024.unconscious.6.section"
+      ]
+    }
+  ]
+}

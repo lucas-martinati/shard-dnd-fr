@@ -1,5 +1,5 @@
 {
-  "version": "1.17.1",
+  "version": "1.17.4",
   "reference": "Noms AideDD 2024 prioritaires. Références SRD disponibles séparément. Autres entrées identifiées.",
   "license": "Code MIT ; contenu SRD CC-BY-4.0 https://creativecommons.org/licenses/by/4.0/",
   "sources": [
@@ -9296,11 +9296,13 @@
       "aliases": []
     },
     {
-      "en": "Search",
-      "fr": "Chercher",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
-      "aliases": []
+      "en": "search",
+      "fr": "Rechercher",
+      "category": "interface",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "aliases": [
+        "Chercher"
+      ]
     },
     {
       "en": "Utilize",
@@ -9876,8 +9878,8 @@
     {
       "en": "Draconic Ancestry",
       "fr": "Ascendance draconique",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
       "aliases": []
     },
     {
@@ -9919,17 +9921,21 @@
     },
     {
       "en": "Fiendish Legacy",
-      "fr": "Ascendance fiélonne",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
-      "aliases": []
+      "fr": "Héritage fiélon",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": [
+        "Ascendance fiélonne"
+      ]
     },
     {
       "en": "Otherworldly Presence",
-      "fr": "Présence surnaturelle",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
-      "aliases": []
+      "fr": "Présence d’Outremonde",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": [
+        "Présence surnaturelle"
+      ]
     },
     {
       "en": "Healer",
@@ -10352,29 +10358,31 @@
     {
       "en": "Halfling Nimbleness",
       "fr": "Agilité halfeline",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
       "aliases": []
     },
     {
       "en": "Dwarven Resilience",
-      "fr": "Résistance naine",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
-      "aliases": []
+      "fr": "Résilience naine",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": [
+        "Résistance naine"
+      ]
     },
     {
       "en": "Stonecunning",
       "fr": "Connaissance de la pierre",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
       "aliases": []
     },
     {
       "en": "Relentless Endurance",
       "fr": "Acharnement",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
       "aliases": []
     },
     {
@@ -11318,8 +11326,8 @@
     {
       "en": "Versatile",
       "fr": "Polyvalent",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
       "aliases": [
         "Polyvalente"
       ]
@@ -11442,8 +11450,8 @@
     {
       "en": "Book",
       "fr": "Livre",
-      "category": "équipement",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "category": "interface",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
       "aliases": []
     },
     {
@@ -14461,15 +14469,15 @@
     {
       "en": "My Characters",
       "fr": "Mes personnages",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "category": "interface",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
       "aliases": []
     },
     {
       "en": "New Character",
       "fr": "Nouveau personnage",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "category": "interface",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
       "aliases": []
     },
     {
@@ -14652,15 +14660,15 @@
     {
       "en": "Game System",
       "fr": "Système de jeu",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "category": "interface",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
       "aliases": []
     },
     {
       "en": "Not in campaign",
       "fr": "Hors campagne",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "category": "interface",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
       "aliases": []
     },
     {
@@ -14706,10 +14714,10 @@
       "aliases": []
     },
     {
-      "en": "More...",
+      "en": "more...",
       "fr": "Plus…",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "category": "interface",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
       "aliases": []
     },
     {
@@ -14904,16 +14912,18 @@
     {
       "en": "Resourceful",
       "fr": "Ingénieux",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
       "aliases": []
     },
     {
       "en": "Skillful",
-      "fr": "Talentueux",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
-      "aliases": []
+      "fr": "Compétent",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": [
+        "Talentueux"
+      ]
     },
     {
       "en": "Abyssal Legacy",
@@ -14931,45 +14941,57 @@
     },
     {
       "en": "Dwarven Toughness",
-      "fr": "Robustesse naine",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
-      "aliases": []
+      "fr": "Ténacité naine",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": [
+        "Robustesse naine"
+      ]
     },
     {
       "en": "Elven Lineage",
-      "fr": "Lignée elfique",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
-      "aliases": []
+      "fr": "Lignage elfique",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": [
+        "Lignée elfique"
+      ]
     },
     {
       "en": "Gnomish Lineage",
-      "fr": "Lignée gnome",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
-      "aliases": []
+      "fr": "Lignage gnome",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": [
+        "Lignée gnome"
+      ]
     },
     {
       "en": "Giant Ancestry",
-      "fr": "Ascendance des géants",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
-      "aliases": []
+      "fr": "Ascendance gigante",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": [
+        "Ascendance des géants"
+      ]
     },
     {
       "en": "Large Form",
-      "fr": "Grande forme",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
-      "aliases": []
+      "fr": "Forme de géant",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": [
+        "Grande forme"
+      ]
     },
     {
       "en": "Powerful Build",
-      "fr": "Puissante carrure",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
-      "aliases": []
+      "fr": "Forte carrure",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": [
+        "Puissante carrure"
+      ]
     },
     {
       "en": "Draconic Flight",
@@ -14980,10 +15002,12 @@
     },
     {
       "en": "Adrenaline Rush",
-      "fr": "Montée d’adrénaline",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
-      "aliases": []
+      "fr": "Poussée d’adrénaline",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": [
+        "Montée d’adrénaline"
+      ]
     },
     {
       "en": "Celestial Revelation",
@@ -15016,8 +15040,8 @@
     {
       "en": "Naturally Stealthy",
       "fr": "Discrétion naturelle",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
       "aliases": []
     },
     {
@@ -15336,23 +15360,25 @@
     {
       "en": "Infernal Tiefling",
       "fr": "Tieffelin infernal",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
       "aliases": []
     },
     {
       "en": "Abyssal Tiefling",
       "fr": "Tieffelin abyssal",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
       "aliases": []
     },
     {
       "en": "Chthonic Tiefling",
-      "fr": "Tieffelin chthonien",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
-      "aliases": []
+      "fr": "Tieffelin chtonien",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": [
+        "Tieffelin chthonien"
+      ]
     },
     {
       "en": "Creature Type",
@@ -15496,17 +15522,21 @@
     },
     {
       "en": "Subraces",
-      "fr": "Sous-races",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
-      "aliases": []
+      "fr": "Sous-espèces",
+      "category": "interface",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "aliases": [
+        "Sous-races"
+      ]
     },
     {
       "en": "Base Race",
-      "fr": "Race de base",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
-      "aliases": []
+      "fr": "Espèce de base",
+      "category": "interface",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "aliases": [
+        "Race de base"
+      ]
     },
     {
       "en": "Ask Gamemaster",
@@ -24878,6 +24908,482 @@
       "aliases": []
     },
     {
+      "en": "Draconic Ancestors",
+      "fr": "Ancêtres draconiques",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Gnomish Cunning",
+      "fr": "Ruse gnome",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Gnome Cunning",
+      "fr": "Ruse gnome",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Cloud’s Jaunt (Cloud Giant)",
+      "fr": "Saut des nuées (géant des nuages)",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Fire’s Burn (Fire Giant)",
+      "fr": "Brûlure ignée (géant du feu)",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Frost’s Chill (Frost Giant)",
+      "fr": "Froid mordant (géant du givre)",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Hill’s Tumble (Hill Giant)",
+      "fr": "Renversement des coteaux (géant des collines)",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Stone’s Endurance (Stone Giant)",
+      "fr": "Endurance de la pierre (géant des pierres)",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Storm’s Thunder (Storm Giant)",
+      "fr": "Tonnerre des cieux (géant des tempêtes)",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Cloud Goliath",
+      "fr": "Goliath des nuages",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Fire Goliath",
+      "fr": "Goliath du feu",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Frost Goliath",
+      "fr": "Goliath du givre",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Hill Goliath",
+      "fr": "Goliath des collines",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Stone Goliath",
+      "fr": "Goliath des pierres",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Storm Goliath",
+      "fr": "Goliath des tempêtes",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Fiendish Legacies",
+      "fr": "Héritages fiélons",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Cloud’s Jaunt",
+      "fr": "Saut des nuées",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée des variantes générales des ascendances de goliath observées dans Shard · règles SRD 5.2.1 · CC-BY-4.0 · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Fire’s Burn",
+      "fr": "Brûlure ignée",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée des variantes générales des ascendances de goliath observées dans Shard · règles SRD 5.2.1 · CC-BY-4.0 · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Frost’s Chill",
+      "fr": "Froid mordant",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée des variantes générales des ascendances de goliath observées dans Shard · règles SRD 5.2.1 · CC-BY-4.0 · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Hill’s Tumble",
+      "fr": "Renversement des coteaux",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée des variantes générales des ascendances de goliath observées dans Shard · règles SRD 5.2.1 · CC-BY-4.0 · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Stone’s Endurance",
+      "fr": "Endurance de la pierre",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée des variantes générales des ascendances de goliath observées dans Shard · règles SRD 5.2.1 · CC-BY-4.0 · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Storm’s Thunder",
+      "fr": "Tonnerre des cieux",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée des variantes générales des ascendances de goliath observées dans Shard · règles SRD 5.2.1 · CC-BY-4.0 · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Black Dragonborn",
+      "fr": "Drakéide noir",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Blue Dragonborn",
+      "fr": "Drakéide bleu",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Brass Dragonborn",
+      "fr": "Drakéide d’airain",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Bronze Dragonborn",
+      "fr": "Drakéide de bronze",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Copper Dragonborn",
+      "fr": "Drakéide de cuivre",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Gold Dragonborn",
+      "fr": "Drakéide d’or",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Green Dragonborn",
+      "fr": "Drakéide vert",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Red Dragonborn",
+      "fr": "Drakéide rouge",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Silver Dragonborn",
+      "fr": "Drakéide d’argent",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "White Dragonborn",
+      "fr": "Drakéide blanc",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Cavern Dwarf",
+      "fr": "Nain des cavernes",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Green Halfling",
+      "fr": "Halfelin vert",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Woodland Elf",
+      "fr": "Elfe sylvestre",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Sylvan Gnome",
+      "fr": "Gnome sylvestre",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Campaigns",
+      "fr": "Campagnes",
+      "category": "interface",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Campaign",
+      "fr": "Campagne",
+      "category": "interface",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "New Campaign",
+      "fr": "Nouvelle campagne",
+      "category": "interface",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Gamemaster",
+      "fr": "Maître du jeu",
+      "category": "interface",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Player",
+      "fr": "Joueur",
+      "category": "interface",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Players",
+      "fr": "Joueurs",
+      "category": "interface",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Library",
+      "fr": "Bibliothèque",
+      "category": "interface",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Recently viewed",
+      "fr": "Consultés récemment",
+      "category": "interface",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "New Book",
+      "fr": "Nouveau livre",
+      "category": "interface",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Books",
+      "fr": "Livres",
+      "category": "interface",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Reference",
+      "fr": "Références",
+      "category": "interface",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Gamemaster Options",
+      "fr": "Options du maître du jeu",
+      "category": "interface",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Races/Species",
+      "fr": "Races / Espèces",
+      "category": "interface",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Artwork",
+      "fr": "Illustrations",
+      "category": "interface",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Audio Clips",
+      "fr": "Extraits audio",
+      "category": "interface",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Pregenerated Characters",
+      "fr": "Personnages prétirés",
+      "category": "interface",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Custom Types",
+      "fr": "Types personnalisés",
+      "category": "interface",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Advanced",
+      "fr": "Avancé",
+      "category": "interface",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "My Creations",
+      "fr": "Mes créations",
+      "category": "interface",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Viewing all your content",
+      "fr": "Affichage de tous vos contenus",
+      "category": "interface",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "New Package:",
+      "fr": "Nouveau contenu :",
+      "category": "interface",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Terms of Service",
+      "fr": "Conditions d’utilisation",
+      "category": "interface",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Privacy Statement",
+      "fr": "Politique de confidentialité",
+      "category": "interface",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "New",
+      "fr": "Nouveau",
+      "category": "interface",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Advanced Filter",
+      "fr": "Filtres avancés",
+      "category": "interface",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Clear All",
+      "fr": "Tout effacer",
+      "category": "interface",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Collection",
+      "fr": "Collection",
+      "category": "interface",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Publisher",
+      "fr": "Éditeur",
+      "category": "interface",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Open",
+      "fr": "Ouvrir",
+      "category": "interface",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Variants",
+      "fr": "Variantes",
+      "category": "interface",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "add to chat",
+      "fr": "Ajouter à la discussion",
+      "category": "interface",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "book references",
+      "fr": "Références dans les livres",
+      "category": "interface",
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "aliases": []
+    },
+    {
       "en": "Using Bardic Inspiration",
       "fr": "Utiliser l’Inspiration bardique",
       "category": "règles",
@@ -24893,16 +25399,16 @@
     },
     {
       "en": "Elven Lineages",
-      "fr": "Lignées elfiques",
+      "fr": "Lignages elfiques",
       "category": "règles",
-      "source": "Traductions proposées de libellés SRD 5.2.1 EN · https://www.dndbeyond.com/srd",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
       "aliases": []
     },
     {
       "en": "Gnomish Lineages",
-      "fr": "Lignées gnomes",
+      "fr": "Lignages gnomes",
       "category": "règles",
-      "source": "Traductions proposées de libellés SRD 5.2.1 EN · https://www.dndbeyond.com/srd",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
       "aliases": []
     },
     {
@@ -24973,6 +25479,279 @@
       "fr": "Arme courante à distance",
       "category": "règles",
       "source": "Traductions proposées de libellés SRD 5.2.1 EN · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Can’t See.",
+      "fr": "Incapable de voir.",
+      "category": "règles",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Attacks Affected.",
+      "fr": "Effet sur les attaques.",
+      "category": "règles",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Can’t Harm the Charmer.",
+      "fr": "Ne pas nuire au charmeur.",
+      "category": "règles",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Social Advantage.",
+      "fr": "Interaction avec Avantage.",
+      "category": "règles",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Can’t Hear.",
+      "fr": "Incapable d’entendre.",
+      "category": "règles",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Exhaustion Levels.",
+      "fr": "Niveaux d’Épuisement.",
+      "category": "règles",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "D20 Tests Affected.",
+      "fr": "Tests de d20 affectés.",
+      "category": "règles",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Speed Reduced.",
+      "fr": "Vitesse réduite.",
+      "category": "règles",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Removing Exhaustion Levels.",
+      "fr": "Supprimer des niveaux d’Épuisement.",
+      "category": "règles",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Ability Checks and Attacks Affected.",
+      "fr": "Effet sur les tests de caractéristique et les attaques.",
+      "category": "règles",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Can’t Approach.",
+      "fr": "Impossible d’approcher.",
+      "category": "règles",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Speed 0.",
+      "fr": "Vitesse 0.",
+      "category": "règles",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Movable.",
+      "fr": "Déplaçable.",
+      "category": "règles",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Inactive.",
+      "fr": "Inactif.",
+      "category": "règles",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "No Concentration.",
+      "fr": "Concentration brisée.",
+      "category": "règles",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Speechless.",
+      "fr": "Sans voix.",
+      "category": "règles",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Surprised.",
+      "fr": "Surpris.",
+      "category": "règles",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Surprise.",
+      "fr": "Surprise.",
+      "category": "règles",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Concealed.",
+      "fr": "Dissimulé.",
+      "category": "règles",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Incapacitated.",
+      "fr": "Neutralisé.",
+      "category": "règles",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Saving Throws Affected.",
+      "fr": "Effet sur les jets de sauvegarde.",
+      "category": "règles",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Automatic Critical Hits.",
+      "fr": "Coups critiques automatiques.",
+      "category": "règles",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Turned to Inanimate Substance.",
+      "fr": "Transformé en substance inanimée.",
+      "category": "règles",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Resist Damage.",
+      "fr": "Résistance aux dégâts.",
+      "category": "règles",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Poison Immunity.",
+      "fr": "Immunité au poison.",
+      "category": "règles",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Restricted Movement.",
+      "fr": "Déplacement limité.",
+      "category": "règles",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Inert.",
+      "fr": "Inerte.",
+      "category": "règles",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Unaware.",
+      "fr": "Dénué de conscience.",
+      "category": "règles",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Burglar",
+      "fr": "Cambrioleur",
+      "category": "règles",
+      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Deckhand",
+      "fr": "Matelot",
+      "category": "règles",
+      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Elite",
+      "fr": "Notable",
+      "category": "règles",
+      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Herbalist",
+      "fr": "Herboriste",
+      "category": "règles",
+      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Infantry",
+      "fr": "Fantassin",
+      "category": "règles",
+      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Recluse",
+      "fr": "Reclus",
+      "category": "règles",
+      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Researcher",
+      "fr": "Chercheur",
+      "category": "règles",
+      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Snake Oil Seller",
+      "fr": "Vendeur de remèdes miracles",
+      "category": "règles",
+      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Tourist",
+      "fr": "Touriste",
+      "category": "règles",
+      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Vaudevillian",
+      "fr": "Artiste de variétés",
+      "category": "règles",
+      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Giants",
+      "fr": "Géants",
+      "category": "règles",
+      "source": "Pluriel du type de créature Giant du lexique commun · terminologie AideDD",
       "aliases": []
     },
     {

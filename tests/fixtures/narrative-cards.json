@@ -1,0 +1,1164 @@
+[
+  {
+    "id": "catalogue.1",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>Aasimar (pronounced AH-sih-mar) are mortals who carry a spark of the Upper Planes within their souls. Whether descended from an angelic being or infused with celestial power, they can fan that spark to bring light, healing, and heavenly fury.</p><p>Aasimar can arise among any population of mortals. They resemble their parents, but they live for up to 160 years and have features that hint at their celestial heritage, such as metallic freckles, luminous eyes, a halo, or the skin color of an angel (silver, opalescent green, or coppery red). These features start subtle and become obvious when the aasimar learns to reveal their full celestial nature.</p><p>As an Aasimar, you have these special traits.</p></span></div>",
+    "paragraphes": [
+      "narrative.species.aasimar.2024.1",
+      "narrative.species.aasimar.2024.2",
+      "narrative.species.aasimar.2024.3"
+    ]
+  },
+  {
+    "id": "catalogue.2",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>The humanoid descendants of dragons have scaly hide, tails, draconic facial features and coloration, as well as breath weapons. &nbsp;They tend to be both strong and charismatic.</p></span></div>",
+    "paragraphes": [
+      "narrative.species.dragonborn.any.1"
+    ]
+  },
+  {
+    "id": "catalogue.3",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>The ancestors of dragonborn hatched from the eggs of chromatic and metallic dragons. One story holds that these eggs were blessed by the dragon gods Bahamut and Tiamat, who wanted to populate the multiverse with people created in their image. Another story claims that dragons created the first dragonborn without the gods’ blessings. Whatever their origin, dragonborn have made homes for themselves on the Material Plane.</p><p>Dragonborn look like wingless, bipedal dragons—scaly, bright-eyed, and thick-boned with horns on their heads—and their coloration and other features are reminiscent of their draconic ancestors.</p></span></div>",
+    "paragraphes": [
+      "narrative.species.dragonborn.2024.1",
+      "narrative.species.dragonborn.2024.2"
+    ]
+  },
+  {
+    "id": "catalogue.4",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>Stocky and stalwart with a strong sense of fair play, dwarves live to an average age of 350 and generally have a hardy constitution.</p></span></div>",
+    "paragraphes": [
+      "narrative.species.dwarf.any.1"
+    ]
+  },
+  {
+    "id": "catalogue.5",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>Dwarves were raised from the earth in the elder days by a deity of the forge. Called by various names on different worlds—Moradin, Reorx, and others—that god gave dwarves an affinity for stone and metal and for living underground. The god also made them resilient like the mountains, with a life span of about 350 years.</p><p>Squat and often bearded, the original dwarves carved cities and strongholds into mountainsides and under the earth. Their oldest legends tell of conflicts with the monsters of mountaintops and the Underdark, whether those monsters were towering giants or subterranean horrors. Inspired by those tales, dwarves of any culture often sing of valorous deeds—especially of the little overcoming the mighty.</p><p>On some worlds in the multiverse, the first settlements of dwarves were built in hills or mountains, and the families who trace their ancestry to those settlements call themselves hill dwarves or mountain dwarves, respectively.&nbsp;</p></span></div>",
+    "paragraphes": [
+      "narrative.species.dwarf.2024.1",
+      "narrative.species.dwarf.2024.2",
+      "narrative.species.dwarf.2024.3"
+    ]
+  },
+  {
+    "id": "catalogue.6",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>Lithe and somewhat ethereal in outlook due to their exceptionally long lives, elves typically love freedom, variety, and self-expression.</p></span></div>",
+    "paragraphes": [
+      "narrative.species.elf.any.1"
+    ]
+  },
+  {
+    "id": "catalogue.7",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>Elves have pointed ears and lack facial and body hair. They live for around 750 years, and they don’t sleep but instead enter a trance when they need to rest. In that state, they remain aware of their surroundings while immersing themselves in memories and meditations.</p><p>An environment subtly transforms elves after they inhabit it for a millennium or more, and it grants them certain kinds of magic. Drow, high elves, and wood elves are examples of elves who have been transformed thus.</p></span></div>",
+    "paragraphes": [
+      "narrative.species.elf.2024.1",
+      "narrative.species.elf.2024.2"
+    ]
+  },
+  {
+    "id": "catalogue.8",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>Small and highly intelligent, gnomes can be found in a variety of settings and professions; be they inventors, scholars, hopeless tinkers, jewelers or wanderers. Adventuring types tend towards wizardry and sleight of hand rather than brute force.</p></span></div>",
+    "paragraphes": [
+      "narrative.species.gnome.any.1"
+    ]
+  },
+  {
+    "id": "catalogue.9",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>Gnomes are magical folk created by gods of invention, illusions, and life underground. The earliest gnomes were seldom seen by other folk due to the gnomes’ secretive nature and their propensity for living in forests and burrows. What they lacked in size, they made up for in cleverness. They confounded predators with traps and labyrinthine tunnels. They also learned magic from gods like Garl Glittergold, Baervan Wildwanderer, and Baravar Cloakshadow, who visited them in disguise. That magic eventually created the lineages of forest gnomes and rock gnomes.</p><p>Gnomes are petite folk with big eyes and pointed ears, who live around 425 years. Many gnomes like the feeling of a roof over their head, even if that “roof” is nothing more than a hat.</p></span></div>",
+    "paragraphes": [
+      "narrative.species.gnome.2024.1",
+      "narrative.species.gnome.2024.2"
+    ]
+  },
+  {
+    "id": "catalogue.10",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>Towering over most folk, goliaths are distant descendants of giants. Each goliath bears the favors of the first giants—favors that manifest in various supernatural boons, including the ability to quickly grow and temporarily approach the height of goliaths’ gigantic kin.</p><p>Goliaths have physical characteristics that are reminiscent of the giants in their family lines. For example, some goliaths look like stone giants, while others resemble fire giants. Whatever giants they count as kin, goliaths have forged their own path in the multiverse—unencumbered by the internecine conflicts that have ravaged giantkind for ages—and seek heights above those reached by their ancestors. Each goliath also has a specific ability based on the type of giant from which they decend.&nbsp;</p></span></div>",
+    "paragraphes": [
+      "narrative.species.goliath.2024.1",
+      "narrative.species.goliath.2024.2"
+    ]
+  },
+  {
+    "id": "catalogue.11",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>The descendants of mixed human and elven bloodlines tend to be highly charismatic and versatile. &nbsp;They tend to live roughly twice the average lifespan of a human and have adventurous spirits.</p></span></div>",
+    "paragraphes": [
+      "narrative.species.half-elf.any.1"
+    ]
+  },
+  {
+    "id": "catalogue.12",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>The descendants of human and orc bloodlines can be relentless and savage, but much depends on their upbringing.&nbsp;</p></span></div>",
+    "paragraphes": [
+      "narrative.species.half-orc.any.1"
+    ]
+  },
+  {
+    "id": "catalogue.13",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>Small in stature, halflings tend to be brave, lucky, and nimble. &nbsp;Most don't go out of their way to find trouble and stick to their hearth and home. &nbsp;Those few that seek out adventure make fine companions.</p></span></div>",
+    "paragraphes": [
+      "narrative.species.halfling.any.1"
+    ]
+  },
+  {
+    "id": "catalogue.14",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>Cherished and guided by gods who value life, home, and hearth, halflings gravitate toward bucolic havens where family and community help shape their lives. That said, many halflings possess a brave and adventurous spirit that leads them on journeys of discovery, affording them the chance to explore a bigger world and make new friends along the way. Their size—similar to that of a human child—helps them pass through crowds unnoticed and slip through tight spaces.</p><p>Anyone who has spent time around halflings, particularly halfling adventurers, has likely witnessed the storied “luck of the halflings” in action. When a halfling is in mortal danger, an unseen force seems to intervene on the halfling’s behalf. Many halflings believe in the power of luck, and they attribute their unusual gift to one or more of their benevolent gods, including Yondalla, Brandobaris, and Charmalaine. The same gift might contribute to their robust life spans (about 150 years).</p><p>Halfling communities come in all varieties. For every sequestered shire tucked away in an unspoiled part of the world, there’s a crime syndicate like the Boromar Clan in the Eberron setting or a territorial mob of halflings like those in the Dark Sun setting.</p><p>Halflings who prefer to live underground are sometimes called strongheart halflings or stouts. Nomadic halflings, as well as those who live among humans and other tall folk, are sometimes called lightfoot halflings or tallfellows.</p></span></div>",
+    "paragraphes": [
+      "narrative.species.halfling.2024.1",
+      "narrative.species.halfling.2024.2",
+      "narrative.species.halfling.2024.3",
+      "narrative.species.halfling.2024.4"
+    ]
+  },
+  {
+    "id": "catalogue.15",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>Highly adaptable to almost any environments, humans cannot be easily classified and have a wide variety of societal and cultural norms. &nbsp;Humans a capable of incredible good and hideous evil.</p></span></div>",
+    "paragraphes": [
+      "narrative.species.human.any.1"
+    ]
+  },
+  {
+    "id": "catalogue.16",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>Found throughout the multiverse, humans are as varied as they are numerous, and they endeavor to achieve as much as they can in the years they are given. Their ambition and resourcefulness are commended, respected, and feared on many worlds.</p><p>Humans are as diverse in appearance as the people of Earth, and they have many gods. Scholars dispute the origin of humanity, but one of the earliest known human gatherings is said to have occurred in Sigil, the torus-shaped city at the center of the multiverse and the place where the Common language was born. From there, humans could have spread to every part of the multiverse, bringing the City of Doors’ cosmopolitanism with them.</p></span></div>",
+    "paragraphes": [
+      "narrative.species.human.2024.1",
+      "narrative.species.human.2024.2"
+    ]
+  },
+  {
+    "id": "catalogue.17",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>Orcs trace their creation to Gruumsh, a powerful god who roamed the wide open spaces of the Material Plane. Gruumsh equipped his children with gifts to help them wander great plains, vast caverns, and churning seas and to face the monsters that lurk there. Even when they turn their devotion to other gods, orcs retain Gruumsh’s gifts: endurance, determination, and the ability to see in darkness.</p><p>Orcs are, on average, tall and broad. They have gray skin, ears that are sharply pointed, and prominent lower canines that resemble small tusks. Orc youths on some worlds are told about their ancestors’ great travels and travails. Inspired by those tales, many of those orcs wonder when Gruumsh will call on them to match the heroic deeds of old and if they will prove worthy of his favor. Other orcs are happy to leave old tales in the past and find their own way.</p></span></div>",
+    "paragraphes": [
+      "narrative.species.orc.2024.1",
+      "narrative.species.orc.2024.2"
+    ]
+  },
+  {
+    "id": "catalogue.18",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>The blood of a fiend runs in every Tiefling's veins. &nbsp;While not innately evil, many end up there.</p></span></div>",
+    "paragraphes": [
+      "narrative.species.tiefling.any.1"
+    ]
+  },
+  {
+    "id": "catalogue.19",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>Tieflings are either born in the Lower Planes or have fiendish ancestors who originated there. A tiefling (pronounced TEE-fling) is linked by blood to a devil, a demon, or some other Fiend. This connection to the Lower Planes is the tiefling’s fiendish legacy, which comes with the promise of power yet has no effect on the tiefling’s moral outlook.</p></span></div>",
+    "paragraphes": [
+      "narrative.species.tiefling.2024.1"
+    ]
+  },
+  {
+    "id": "catalogue.20",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>The entropy of the Abyss, the chaos of Pandemonium, and the despair of Carceri call to tieflings who have the abyssal legacy. Horns, fur, tusks, and peculiar scents are common physical features of such tieflings, most of whom have the blood of demons coursing through their veins.</p></span></div>",
+    "paragraphes": [
+      "narrative.subspecies.abyssal-tiefling.2024.1"
+    ]
+  },
+  {
+    "id": "catalogue.21",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>You are descendant from a black dragon.</p></span></div>",
+    "paragraphes": [
+      "narrative.subspecies.black-dragonborn.2024.1"
+    ]
+  },
+  {
+    "id": "catalogue.22",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p></p><p>You are descendant from a blue dragon.</p><p></p></span></div>",
+    "paragraphes": [
+      "narrative.subspecies.blue-dragonborn.2024.1"
+    ]
+  },
+  {
+    "id": "catalogue.23",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p></p><p>You are descendant from a brass dragon.</p><p></p></span></div>",
+    "paragraphes": [
+      "narrative.subspecies.brass-dragonborn.2024.1"
+    ]
+  },
+  {
+    "id": "catalogue.24",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p></p><p>You are descendant from a bronze dragon.</p><p></p></span></div>",
+    "paragraphes": [
+      "narrative.subspecies.bronze-dragonborn.2024.1"
+    ]
+  },
+  {
+    "id": "catalogue.25",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>Cavern dwarves delve deep under the earth and make their homes in mountainous regions rich in iron and precious metals.</p></span></div>",
+    "paragraphes": [
+      "narrative.subspecies.cavern-dwarf.any.1"
+    ]
+  },
+  {
+    "id": "catalogue.26",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>Tieflings who have the chthonic legacy feel not only the tug of Carceri but also the greed of Gehenna and the gloom of Hades. Some of these tieflings look cadaverous. Others possess the unearthly beauty of a succubus, or they have physical features in common with a night hag, a yugoloth, or some other Neutral Evil fiendish ancestor.</p></span></div>",
+    "paragraphes": [
+      "narrative.subspecies.chthonic-tiefling.2024.1"
+    ]
+  },
+  {
+    "id": "catalogue.27",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>You are descendant from cloud giants.</p></span></div>",
+    "paragraphes": [
+      "species.goliath.origin.cloud"
+    ]
+  },
+  {
+    "id": "catalogue.28",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p></p><p>You are descendant from a cooper dragon.</p><p></p></span></div>",
+    "paragraphes": [
+      "narrative.subspecies.copper-dragonborn.2024.1"
+    ]
+  },
+  {
+    "id": "catalogue.29",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p></p><p>Drow typically dwell in the Underdark and have been shaped by it. Some drow individuals and societies avoid the Underdark altogether yet carry its magic.&nbsp;</p><p></p></span></div>",
+    "paragraphes": [
+      "narrative.subspecies.drow.2024.1"
+    ]
+  },
+  {
+    "id": "catalogue.30",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>You are descendant from fire giants.</p></span></div>",
+    "paragraphes": [
+      "species.goliath.origin.fire"
+    ]
+  },
+  {
+    "id": "catalogue.31",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>Forest gnomes have a particular affinity for animals and illusions.</p></span></div>",
+    "paragraphes": [
+      "narrative.subspecies.forest-gnome.2024.1"
+    ]
+  },
+  {
+    "id": "catalogue.32",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>You are descendant from frost giants.</p></span></div>",
+    "paragraphes": [
+      "species.goliath.origin.frost"
+    ]
+  },
+  {
+    "id": "catalogue.33",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p></p><p>You are descendant from a gold dragon.</p><p></p></span></div>",
+    "paragraphes": [
+      "narrative.subspecies.gold-dragonborn.2024.1"
+    ]
+  },
+  {
+    "id": "catalogue.34",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p></p><p>You are descendant from a green dragon.</p><p></p></span></div>",
+    "paragraphes": [
+      "narrative.subspecies.green-dragonborn.2024.1"
+    ]
+  },
+  {
+    "id": "catalogue.35",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>As a Green halfling, you are very aware of the natural world and your thoughtful contemplation has made you wiser than average. &nbsp;Green Halfings are cautious folk. &nbsp;Slow to trust, but steadfast allies once they do.</p></span></div>",
+    "paragraphes": [
+      "narrative.subspecies.green-halfling.any.1"
+    ]
+  },
+  {
+    "id": "catalogue.36",
+    "html": "<div class=\"pre-wrap ll-8\"><span></span></div>",
+    "paragraphes": []
+  },
+  {
+    "id": "catalogue.37",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>High elves have been infused with the magic of crossings between the Feywild and the Material Plane. On some worlds, high elves refer to themselves by other names.&nbsp;</p></span></div>",
+    "paragraphes": [
+      "narrative.subspecies.high-elf.2024.1"
+    ]
+  },
+  {
+    "id": "catalogue.38",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>As a hill dwarf, you have keen senses, deep intuition, and remarkable resilience.</p></span></div>",
+    "paragraphes": [
+      "narrative.subspecies.hill-dwarf.any.1"
+    ]
+  },
+  {
+    "id": "catalogue.39",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>You are descendant from hill giants.</p></span></div>",
+    "paragraphes": [
+      "species.goliath.origin.hill"
+    ]
+  },
+  {
+    "id": "catalogue.40",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p></p><p>The infernal legacy connects tieflings not only to Gehenna but also the Nine Hells and the raging battlefields of Acheron. Horns, spines, tails, golden eyes, and a faint odor of sulfur or smoke are common physical features of such tieflings, most of whom trace their ancestry to devils.</p><p></p></span></div>",
+    "paragraphes": [
+      "narrative.subspecies.infernal-tiefling.2024.1"
+    ]
+  },
+  {
+    "id": "catalogue.41",
+    "html": "<div class=\"pre-wrap ll-8\"><span></span></div>",
+    "paragraphes": []
+  },
+  {
+    "id": "catalogue.42",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p></p><p>You are descendant from a red dragon.</p><p></p></span></div>",
+    "paragraphes": [
+      "narrative.subspecies.red-dragonborn.2024.1"
+    ]
+  },
+  {
+    "id": "catalogue.43",
+    "html": "<div class=\"pre-wrap ll-8\"><span></span></div>",
+    "paragraphes": []
+  },
+  {
+    "id": "catalogue.44",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>Rock gnomes are inventors and have an affinity for clockwork gadgets that they infuse with magic.</p></span></div>",
+    "paragraphes": [
+      "narrative.subspecies.rock-gnome.2024.1"
+    ]
+  },
+  {
+    "id": "catalogue.45",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p></p><p>You are descendant from a silver dragon.</p><p></p></span></div>",
+    "paragraphes": [
+      "narrative.subspecies.silver-dragonborn.2024.1"
+    ]
+  },
+  {
+    "id": "catalogue.46",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>You are descendant from stone giants.</p></span></div>",
+    "paragraphes": [
+      "species.goliath.origin.stone"
+    ]
+  },
+  {
+    "id": "catalogue.47",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>You are descendant from storm giants.</p></span></div>",
+    "paragraphes": [
+      "species.goliath.origin.storm"
+    ]
+  },
+  {
+    "id": "catalogue.48",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>Slyvan gnomes are sly and quick, difficult to spot and harder to catch. &nbsp;They live in the forests of world and delight in tricks of all kinds.</p></span></div>",
+    "paragraphes": [
+      "narrative.subspecies.sylvan-gnome.any.1"
+    ]
+  },
+  {
+    "id": "catalogue.49",
+    "html": "<div class=\"pre-wrap ll-8\"><span></span></div>",
+    "paragraphes": []
+  },
+  {
+    "id": "catalogue.50",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p></p><p>You are descendant from a white dragon.</p><p></p></span></div>",
+    "paragraphes": [
+      "narrative.subspecies.white-dragonborn.2024.1"
+    ]
+  },
+  {
+    "id": "catalogue.51",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p></p><p>Wood elves carry the magic of primeval forests within themselves. They are known by many other names, including wild elves, green elves, and forest elves.&nbsp;</p><p></p></span></div>",
+    "paragraphes": [
+      "narrative.subspecies.wood-elf.2024.1"
+    ]
+  },
+  {
+    "id": "catalogue.52",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>Woodland elves roam the high forests in small family groups. &nbsp;The tend to be reclusive and nomadic, but sometimes form permanent communities. &nbsp;Their sacred places nest high among the trees in old growth forests.</p></span></div>",
+    "paragraphes": [
+      "narrative.subspecies.woodland-elf.any.1"
+    ]
+  },
+  {
+    "id": "catalogue.53",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>Surrounded by goblins, the ax wielding half orc, spins in a furious circle, laughing maniacally.</p><p>Barbarians are quick to anger and difficult to defeat. They take the primal instinct to rage and channel it into a powerful force, granting them the ability to fight when others might fall.</p></span></div>",
+    "paragraphes": [
+      "narrative.class.barbarian.any.1",
+      "narrative.class.barbarian.any.2"
+    ]
+  },
+  {
+    "id": "catalogue.54",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>Surrounded by goblins, the ax wielding half orc, spins in a furious circle, laughing maniacally.</p><p>Barbarians are quick to anger and difficult to defeat. They take the primal instinct to rage and channel it into a powerful force, granting them the ability to fight when others might fall.</p></span></div>",
+    "paragraphes": [
+      "narrative.class.barbarian.any.1",
+      "narrative.class.barbarian.any.2"
+    ]
+  },
+  {
+    "id": "catalogue.55",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>His magic, subtle as the evening breeze, flows from his lute to inspire his friends and terrify his foes.</p><p>Music is magic and the Bard knows that all too well, spinning words into subtle magic the Bard can mystify, empower, and deceive.</p></span></div>",
+    "paragraphes": [
+      "narrative.class.bard.any.1",
+      "narrative.class.bard.any.2"
+    ]
+  },
+  {
+    "id": "catalogue.56",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>Magic, subtle as the evening breeze, flows from the lute to inspire friends and terrify foes. Music is magic and the Bard knows that all too well. Spinning words into subtle magic the Bard can mystify, empower, and deceive.</p></span></div>",
+    "paragraphes": [
+      "narrative.class.bard.2024.1"
+    ]
+  },
+  {
+    "id": "catalogue.57",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>Arms outstretched over a fallen comrade the Cleric calls out for mercy and healing.</p><p>Divine powers channel their magic and influence thru the Cleric, enabling them to heal and destroy.</p></span></div>",
+    "paragraphes": [
+      "narrative.class.cleric.any.1",
+      "narrative.class.cleric.any.2"
+    ]
+  },
+  {
+    "id": "catalogue.58",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>Arms outstretched over a fallen comrade the Cleric calls out for mercy and healing.</p><p>Divine powers channel their magic and influence thru the Cleric, enabling them to heal and destroy.</p></span></div>",
+    "paragraphes": [
+      "narrative.class.cleric.any.1",
+      "narrative.class.cleric.any.2"
+    ]
+  },
+  {
+    "id": "catalogue.59",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>A sturdy staff by her side, the Druid waves her hand and the earth responds to her bidding, Nature itself her ally.</p><p>Able to rely on the elemental forces of nature, the Druid can embody natures’ creatures and call upon its brutal power.</p></span></div>",
+    "paragraphes": [
+      "narrative.class.druid.any.1",
+      "narrative.class.druid.any.2"
+    ]
+  },
+  {
+    "id": "catalogue.60",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>A sturdy staff by her side, the Druid waves her hand and the earth responds to her bidding, Nature itself her ally.</p><p>Able to rely on the elemental forces of nature, the Druid can embody natures’ creatures and call upon its brutal power.</p></span></div>",
+    "paragraphes": [
+      "narrative.class.druid.any.1",
+      "narrative.class.druid.any.2"
+    ]
+  },
+  {
+    "id": "catalogue.61",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>Hard earned weapons and tactics knowledge fuel the fighter’s success in both the arena and the battle campaign.</p><p>Analytical and well-trained fighters can take many forms, from gladiators to foot soldiers, they are able to call upon their mastery with weapons and armor with great success</p></span></div>",
+    "paragraphes": [
+      "narrative.class.fighter.any.1",
+      "narrative.class.fighter.any.2"
+    ]
+  },
+  {
+    "id": "catalogue.62",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>Hard earned weapons and tactics knowledge fuel the fighter’s success in both the arena and the battle campaign.</p><p>Analytical and well-trained fighters can take many forms, from gladiators to foot soldiers, they are able to call upon their mastery with weapons and armor with great success</p></span></div>",
+    "paragraphes": [
+      "narrative.class.fighter.any.1",
+      "narrative.class.fighter.any.2"
+    ]
+  },
+  {
+    "id": "catalogue.63",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>Harnessing the magic of the multiverse, Monks possess the ability to exceed their mortal limitations.</p><p>In tune with the energy of the universe, Monks can harness it to deal devastating blows and maintain subtle defenses.</p></span></div>",
+    "paragraphes": [
+      "narrative.class.monk.any.1",
+      "narrative.class.monk.any.2"
+    ]
+  },
+  {
+    "id": "catalogue.64",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>Harnessing the magic of the multiverse, Monks possess the ability to exceed their mortal limitations.</p><p>In tune with the energy of the universe, Monks can harness it to deal devastating blows and maintain subtle defenses.</p></span></div>",
+    "paragraphes": [
+      "narrative.class.monk.any.1",
+      "narrative.class.monk.any.2"
+    ]
+  },
+  {
+    "id": "catalogue.65",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>A Paladin’s oath is her bond, most stand firm against the forces of evil, giving them divine power to defeat their enemies.</p><p>Paladin’s are devout warriors, sworn to uphold their oaths, empowering them to become champions.</p></span></div>",
+    "paragraphes": [
+      "narrative.class.paladin.any.1",
+      "narrative.class.paladin.any.2"
+    ]
+  },
+  {
+    "id": "catalogue.66",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>A Paladin’s oath is her bond, most stand firm against the forces of evil, giving them divine power to defeat their enemies.</p><p>Paladin’s are devout warriors, sworn to uphold their oaths, empowering them to become champions.</p></span></div>",
+    "paragraphes": [
+      "narrative.class.paladin.any.1",
+      "narrative.class.paladin.any.2"
+    ]
+  },
+  {
+    "id": "catalogue.67",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>Loners, wandering the wild places, Rangers are often the first and last line of defense against the ravage of evil.</p><p>The last line of defense against the ravages of the wild, Rangers protect civilization</p></span></div>",
+    "paragraphes": [
+      "narrative.class.ranger.any.1",
+      "narrative.class.ranger.any.2"
+    ]
+  },
+  {
+    "id": "catalogue.68",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>Loners, wandering the wild places, Rangers are often the first and last line of defense against the ravage of evil.</p><p>The last line of defense against the ravages of the wild, Rangers protect civilization.</p></span></div>",
+    "paragraphes": [
+      "narrative.class.ranger.any.1",
+      "narrative.class.ranger.2024.2"
+    ]
+  },
+  {
+    "id": "catalogue.69",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>Natural thieves and assassins, Rogues rely upon stealth to gain the upper hand.</p></span></div>",
+    "paragraphes": [
+      "narrative.class.rogue.any.1"
+    ]
+  },
+  {
+    "id": "catalogue.70",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>Natural thieves and assassins, Rogues rely upon stealth to gain the upper hand.</p></span></div>",
+    "paragraphes": [
+      "narrative.class.rogue.any.1"
+    ]
+  },
+  {
+    "id": "catalogue.71",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>The Sorcerer does not choose magic, magic chooses the Sorcerer. Powerful and erratic, Sorcerers have no use for spell books or dusty libraries, their magic springs directly from more primal sources.</p></span></div>",
+    "paragraphes": [
+      "narrative.class.sorcerer.any.1"
+    ]
+  },
+  {
+    "id": "catalogue.72",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>The Sorcerer does not choose magic, magic chooses the Sorcerer. Powerful and erratic, Sorcerers have no use for spell books or dusty libraries, their magic springs directly from more primal sources.</p></span></div>",
+    "paragraphes": [
+      "narrative.class.sorcerer.any.1"
+    ]
+  },
+  {
+    "id": "catalogue.73",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>Sworn to service with an otherworldly creature, Warlocks abilities range from physical changes to the use of powerful spells and an ability with simple weapons.</p></span></div>",
+    "paragraphes": [
+      "narrative.class.warlock.any.1"
+    ]
+  },
+  {
+    "id": "catalogue.74",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>Sworn to service with an otherworldly creature, Warlocks abilities range from physical changes to the use of powerful spells and an ability with simple weapons.</p></span></div>",
+    "paragraphes": [
+      "narrative.class.warlock.any.1"
+    ]
+  },
+  {
+    "id": "catalogue.75",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>Able to learn and cast spells, Wizards are always searching for hidden knowledge and power.</p></span></div>",
+    "paragraphes": [
+      "narrative.class.wizard.any.1"
+    ]
+  },
+  {
+    "id": "catalogue.76",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>Able to learn and cast spells, Wizards are always searching for hidden knowledge and power.</p></span></div>",
+    "paragraphes": [
+      "narrative.class.wizard.any.1"
+    ]
+  },
+  {
+    "id": "catalogue.77",
+    "html": "<div class=\"pre-wrap \"><span><p><i><i>Channel Rage into Violent Fury</i></i></p><p>Barbarians who walk the Path of the Berserker direct their Rage primarily toward violence. Their path is one of untrammeled fury, and they thrill in the chaos of battle as they allow their Rage to seize and empower them.</p></span></div>",
+    "paragraphes": [
+      "narrative.subclass.path-of-the-berserker.2024.1",
+      "narrative.subclass.path-of-the-berserker.2024.2"
+    ]
+  },
+  {
+    "id": "catalogue.78",
+    "html": "<div class=\"pre-wrap \"><span><p><i><i>Walk in Community with the Animal World</i></i></p><p>Barbarians who follow the Path of the Wild Heart view themselves as kin to animals. These Barbarians learn magical means to communicate with animals, and their Rage heightens their connection to animals as it fills them with supernatural might.</p></span></div>",
+    "paragraphes": [
+      "narrative.subclass.path-of-the-wild-heart.2024.1",
+      "narrative.subclass.path-of-the-wild-heart.2024.2"
+    ]
+  },
+  {
+    "id": "catalogue.79",
+    "html": "<div class=\"pre-wrap \"><span><p><i><i>Trace the Roots and Branches of the Multiverse</i></i></p><p>Barbarians who follow the Path of the World Tree connect with the cosmic tree Yggdrasil through their Rage. This tree grows among the Outer Planes, connecting them to each other and the Material Plane. These Barbarians draw on the tree’s magic for vitality and as a means of dimensional travel.</p></span></div>",
+    "paragraphes": [
+      "narrative.subclass.path-of-the-world-tree.2024.1",
+      "narrative.subclass.path-of-the-world-tree.2024.2"
+    ]
+  },
+  {
+    "id": "catalogue.80",
+    "html": "<div class=\"pre-wrap \"><span><p><i><i>Rage in Ecstatic Union with a God</i></i></p><p>Barbarians who walk the Path of the Zealot receive boons from a god or pantheon. These Barbarians experience their Rage as an ecstatic episode of divine union that infuses them with power. They are often allies to the priests and other followers of their god or pantheon.</p></span></div>",
+    "paragraphes": [
+      "narrative.subclass.path-of-the-zealot.2024.1",
+      "narrative.subclass.path-of-the-zealot.2024.2"
+    ]
+  },
+  {
+    "id": "catalogue.81",
+    "html": "<div class=\"pre-wrap \"><span><p><i><i>Move in Harmony with the Cosmos</i></i></p><p>Bards of the College of Dance know that the Words of Creation can’t be contained within speech or song; the words are uttered by the movements of celestial bodies and flow through the motions of the smallest creatures. These Bards practice a way of being in harmony with the whirling cosmos that emphasizes agility, speed, and grace.</p></span></div>",
+    "paragraphes": [
+      "narrative.subclass.college-of-dance.2024.1",
+      "narrative.subclass.college-of-dance.2024.2"
+    ]
+  },
+  {
+    "id": "catalogue.82",
+    "html": "<div class=\"pre-wrap \"><span><p><i><i>Weave Beguiling Fey Magic</i></i></p><p>The College of Glamour traces its origins to the beguiling magic of the Feywild. Bards who study this magic weave threads of beauty and terror into their songs and stories, and the mightiest among them can cloak themselves in otherworldly majesty. Their performances stir up wistful longing for forgotten innocence, evoke unconscious memories of long-held fears, and tug at the emotions of even the most hard-hearted listeners.</p></span></div>",
+    "paragraphes": [
+      "narrative.subclass.college-of-glamour.2024.1",
+      "narrative.subclass.college-of-glamour.2024.2"
+    ]
+  },
+  {
+    "id": "catalogue.83",
+    "html": "<div class=\"pre-wrap \"><span><p><i><i>Plumb the Depths of Magical Knowledge</i></i></p><p>Bards of the College of Lore collect spells and secrets from diverse sources, such as scholarly tomes, mystical rites, and peasant tales. The college’s members gather in libraries and universities to share their lore with one another. They also meet at festivals or affairs of state, where they can expose corruption, unravel lies, and poke fun at self-important figures of authority.</p></span></div>",
+    "paragraphes": [
+      "narrative.subclass.college-of-lore.2024.1",
+      "narrative.subclass.college-of-lore.2024.2"
+    ]
+  },
+  {
+    "id": "catalogue.84",
+    "html": "<div class=\"pre-wrap \"><span><p><i><i>Sing the Deeds of Ancient Heroes</i></i></p><p>Bards of the College of Valor are daring storytellers whose tales preserve the memory of the great heroes of the past. These Bards sing the deeds of the mighty in vaulted halls or to crowds gathered around great bonfires. They travel to witness great events firsthand and to ensure that the memory of these events doesn’t pass away. With their songs, they inspire new generations to reach the same heights of accomplishment as the heroes of old.</p></span></div>",
+    "paragraphes": [
+      "narrative.subclass.college-of-valor.2024.1",
+      "narrative.subclass.college-of-valor.2024.2"
+    ]
+  },
+  {
+    "id": "catalogue.85",
+    "html": "<div class=\"pre-wrap \"><span><p><i><i>Soothe the Hurts of the World</i></i></p><p>The Life Domain focuses on the positive energy that helps sustain all life in the multiverse. Clerics who tap into this domain are masters of healing, using that life force to cure many hurts.</p><p>Existence itself relies on the positive energy associated with this domain, so a Cleric of almost any religious tradition might choose it. This domain is particularly associated with agricultural deities, gods of healing or endurance, and gods of home and community. Religious orders of healing also seek the magic of this domain.</p></span></div>",
+    "paragraphes": [
+      "narrative.subclass.life-domain.2024.1",
+      "narrative.subclass.life-domain.2024.2",
+      "narrative.subclass.life-domain.2024.3"
+    ]
+  },
+  {
+    "id": "catalogue.86",
+    "html": "<div class=\"pre-wrap \"><span><p><i><i>Bring Light to Banish Darkness</i></i></p><p>The Light Domain emphasizes the divine power to bring about blazing fire and revelation. Clerics who wield this power are enlightened souls infused with radiance and the power of their deities’ discerning vision, charged with chasing away lies and burning away darkness.</p><p>The Light Domain is associated with gods of truth, vigilance, beauty, insight, and renewal. Some of these gods are identified with the sun or as charioteers who guide the sun across the sky. Others are sentinels who pierce deception. Some are deities of beauty and artistry who teach that art is a vehicle for the soul’s improvement.</p></span></div>",
+    "paragraphes": [
+      "narrative.subclass.light-domain.2024.1",
+      "narrative.subclass.light-domain.2024.2",
+      "narrative.subclass.light-domain.2024.3"
+    ]
+  },
+  {
+    "id": "catalogue.87",
+    "html": "<div class=\"pre-wrap \"><span><p><i><i>Make Mischief and Challenge Authority</i></i></p><p>The Trickery Domain offers magic of deception, illusion, and stealth. Clerics who wield this magic are a disruptive force in the world, puncturing pride, mocking tyrants, freeing captives, and flouting hollow traditions. They prefer subterfuge and pranks to direct confrontation.</p><p>Gods of trickery are mischief-makers and instigators who stand as a constant challenge to the accepted order among both gods and mortals. They embody the forces of change and social upheaval, and they’re patrons of thieves, scoundrels, gamblers, rebels, and liberators. Religious orders that operate in secret, especially those that seek to undermine oppressive governments or hierarchies, also draw on the power of the Trickery Domain.</p></span></div>",
+    "paragraphes": [
+      "narrative.subclass.trickery-domain.2024.1",
+      "narrative.subclass.trickery-domain.2024.2",
+      "narrative.subclass.trickery-domain.2024.3"
+    ]
+  },
+  {
+    "id": "catalogue.88",
+    "html": "<div class=\"pre-wrap \"><span><p><i><i>Inspire Valor and Smite Foes</i></i></p><p>War has many manifestations. It can make heroes of ordinary people. It can be desperate and horrific, with acts of cruelty and cowardice eclipsing instances of excellence and courage. Clerics who tap into the magic of the War Domain excel in battle, inspiring others to fight the good fight or offering acts of violence as prayers.</p><p>Gods of the War Domain watch over warriors and reward them for their great deeds. They include champions of honor and chivalry as well as gods of destruction and pillage. Other war gods take a more neutral stance, promoting war in all its manifestations and supporting warriors in any circumstance.</p></span></div>",
+    "paragraphes": [
+      "narrative.subclass.war-domain.2024.1",
+      "narrative.subclass.war-domain.2024.2",
+      "narrative.subclass.war-domain.2024.3"
+    ]
+  },
+  {
+    "id": "catalogue.89",
+    "html": "<div class=\"pre-wrap \"><span><p><i><i>Celebrate Connection to the Natural World</i></i></p><p>The Circle of the Land comprises mystics and sages who safeguard ancient knowledge and rites. These Druids meet within sacred circles of trees or standing stones to whisper primal secrets in Druidic. The circle’s wisest members preside as the chief priests of their communities.</p></span></div>",
+    "paragraphes": [
+      "narrative.subclass.circle-of-the-land.2024.1",
+      "narrative.subclass.circle-of-the-land.2024.2"
+    ]
+  },
+  {
+    "id": "catalogue.90",
+    "html": "<div class=\"pre-wrap \"><span><p><i><i>Adopt Animal Forms to Guard the Wilds</i></i></p><p>Druids of the Circle of the Moon draw on lunar magic to transform themselves. Their order gathers under the moon to share news and perform rituals.</p><p>Changeable as the moon, a Druid of this circle might prowl as a great cat one night, soar over the treetops as an eagle the next day, and then crash through undergrowth as a bear to drive off a trespassing monster. The wild is in the Druid’s blood.</p></span></div>",
+    "paragraphes": [
+      "narrative.subclass.circle-of-the-moon.2024.1",
+      "narrative.subclass.circle-of-the-moon.2024.2",
+      "narrative.subclass.circle-of-the-moon.2024.3"
+    ]
+  },
+  {
+    "id": "catalogue.91",
+    "html": "<div class=\"pre-wrap \"><span><p><i><i>Become One with Tides and Storms</i></i></p><p>Druids of the Circle of the Sea draw on the tempestuous forces of oceans and storms. Some view themselves as embodiments of nature’s wrath, seeking vengeance against those who despoil nature. Others seek mystical unity with nature by attuning themselves to the ebb and flow of the tides, following the rush of currents and waves and listening to the inscrutable whispers and roars of the winds.</p></span></div>",
+    "paragraphes": [
+      "narrative.subclass.circle-of-the-sea.2024.1",
+      "narrative.subclass.circle-of-the-sea.2024.2"
+    ]
+  },
+  {
+    "id": "catalogue.92",
+    "html": "<div class=\"pre-wrap \"><span><p><i><i>Harness Secrets Hidden in Constellations</i></i></p><p>The Circle of the Stars has tracked heavenly patterns since time immemorial, discovering secrets hidden amid the constellations. By understanding these secrets, the Druids of this circle seek to harness the powers of the cosmos.</p></span></div>",
+    "paragraphes": [
+      "narrative.subclass.circle-of-the-stars.2024.1",
+      "narrative.subclass.circle-of-the-stars.2024.2"
+    ]
+  },
+  {
+    "id": "catalogue.93",
+    "html": "<div class=\"pre-wrap \"><span><p><i><i>Master Sophisticated Battle Maneuvers</i></i></p><p>Battle Masters are students of the art of battle, learning martial techniques passed down through generations. The most accomplished Battle Masters are well-rounded figures who combine their carefully honed combat skills with academic study in the fields of history, theory, and the arts.</p></span></div>",
+    "paragraphes": [
+      "narrative.subclass.battle-master.2024.1",
+      "narrative.subclass.battle-master.2024.2"
+    ]
+  },
+  {
+    "id": "catalogue.94",
+    "html": "<div class=\"pre-wrap \"><span><p><i><i>Pursue Physical Excellence in Combat</i></i></p><p>A Champion focuses on the development of martial prowess in a relentless pursuit of victory. Champions combine rigorous training with physical excellence to deal devastating blows, withstand peril, and garner glory. Whether in athletic contests or bloody battle, Champions strive for the crown of the victor.</p></span></div>",
+    "paragraphes": [
+      "narrative.subclass.champion.2024.1",
+      "narrative.subclass.champion.2024.2"
+    ]
+  },
+  {
+    "id": "catalogue.95",
+    "html": "<div class=\"pre-wrap \"><span><p><i><i>Support Combat Skills with Arcane Magic</i></i></p><p>Eldritch Knights combine the martial mastery common to all Fighters with a careful study of magic. Their spells both complement and extend their combat skills, providing additional protection to shore up their armor and also allowing them to engage many foes at once with explosive magic.</p></span></div>",
+    "paragraphes": [
+      "narrative.subclass.eldritch-knight.2024.1",
+      "narrative.subclass.eldritch-knight.2024.2"
+    ]
+  },
+  {
+    "id": "catalogue.96",
+    "html": "<div class=\"pre-wrap \"><span><p><i><i>Augment Physical Might with Psionic Power</i></i></p><p>Psi Warriors awaken the power of their minds to augment their physical might. They harness this psionic power to infuse their weapon strikes, lash out with telekinetic energy, and create barriers of mental force.</p></span></div>",
+    "paragraphes": [
+      "narrative.subclass.psi-warrior.2024.1",
+      "narrative.subclass.psi-warrior.2024.2"
+    ]
+  },
+  {
+    "id": "catalogue.97",
+    "html": "<div class=\"pre-wrap \"><span><p><i><i>Manipulate Forces of Life and Death</i></i></p><p>Warriors of Mercy manipulate the life force of others. These Monks are wandering physicians, but they bring a swift end to their enemies. They often wear masks, presenting themselves as faceless bringers of life and death.</p></span></div>",
+    "paragraphes": [
+      "narrative.subclass.warrior-of-mercy.2024.1",
+      "narrative.subclass.warrior-of-mercy.2024.2"
+    ]
+  },
+  {
+    "id": "catalogue.98",
+    "html": "<div class=\"pre-wrap \"><span><p><i><i>Harness Shadow Power for Stealth and Subterfuge</i></i></p><p>Warriors of Shadow practice stealth and subterfuge, harnessing the power of the Shadowfell. They are at home in darkness, able to draw gloom around themselves to hide, leap from shadow to shadow, and take on a wraithlike form.</p></span></div>",
+    "paragraphes": [
+      "narrative.subclass.warrior-of-shadow.2024.1",
+      "narrative.subclass.warrior-of-shadow.2024.2"
+    ]
+  },
+  {
+    "id": "catalogue.99",
+    "html": "<div class=\"pre-wrap \"><span><p><i><i>Wield Strikes and Bursts of Elemental Power</i></i></p><p>Warriors of the Elements tap into the power of the Elemental Planes. Harnessing their supernatural focus, these Monks momentarily tame the energy of the Elemental Chaos to empower themselves in and out of battle.</p></span></div>",
+    "paragraphes": [
+      "narrative.subclass.warrior-of-the-elements.2024.1",
+      "narrative.subclass.warrior-of-the-elements.2024.2"
+    ]
+  },
+  {
+    "id": "catalogue.100",
+    "html": "<div class=\"pre-wrap \"><span><p><i><i>Master Unarmed Combat Techniques</i></i></p><p>Warriors of the Open Hand are masters of unarmed combat. They learn techniques to push and trip their opponents and manipulate their own energy to protect themselves from harm.</p></span></div>",
+    "paragraphes": [
+      "narrative.subclass.warrior-of-the-open-hand.2024.1",
+      "narrative.subclass.warrior-of-the-open-hand.2024.2"
+    ]
+  },
+  {
+    "id": "catalogue.101",
+    "html": "<div class=\"pre-wrap \"><span><p><i><i>Uphold the Ideals of Justice and Order</i></i></p><p>The Oath of Devotion binds Paladins to the ideals of justice and order. These Paladins meet the archetype of the knight in shining armor. They hold themselves to the highest standards of conduct, and some—for better or worse—hold the rest of the world to the same standards.</p><p>Many who swear this oath are devoted to gods of law and good and use their gods’ tenets as the measure of personal devotion. Others hold angels as their ideals and incorporate images of angelic wings into their helmets or coats of arms.</p><p>These paladins share the following tenets:</p><ul><li>Let your word be your promise.</li><li>Protect the weak and never fear to act.</li><li>Let your honorable deeds be an example.</li></ul></span></div>",
+    "paragraphes": [
+      "narrative.subclass.oath-of-devotion.2024.1",
+      "narrative.subclass.oath-of-devotion.2024.2",
+      "narrative.subclass.oath-of-devotion.2024.3",
+      "narrative.subclass.oath-of-devotion.2024.4",
+      "narrative.subclass.oath-of-devotion.2024.5",
+      "narrative.subclass.oath-of-devotion.2024.6",
+      "narrative.subclass.oath-of-devotion.2024.7"
+    ]
+  },
+  {
+    "id": "catalogue.102",
+    "html": "<div class=\"pre-wrap \"><span><p><i><i>Strive for the Heights of Heroism</i></i></p><p>Paladins who take the Oath of Glory believe they and their companions are destined to achieve glory through deeds of heroism. They train diligently and encourage their companions, so they’re all ready when destiny calls.</p><p>These paladins share the following tenets:</p><ul><li>Endeavor to be known by your deeds.</li><li>Face hardships with courage.</li><li>Inspire others to strive for glory.</li></ul></span></div>",
+    "paragraphes": [
+      "narrative.subclass.oath-of-glory.2024.1",
+      "narrative.subclass.oath-of-glory.2024.2",
+      "narrative.subclass.oath-of-devotion.2024.4",
+      "narrative.subclass.oath-of-glory.2024.4",
+      "narrative.subclass.oath-of-glory.2024.5",
+      "narrative.subclass.oath-of-glory.2024.6"
+    ]
+  },
+  {
+    "id": "catalogue.103",
+    "html": "<div class=\"pre-wrap \"><span><p><i><i>Preserve Life and Light in the World</i></i></p><p>The Oath of the Ancients is as old as the first elves. Paladins who swear this oath cherish the light; they love the beautiful and life-giving things of the world more than any principles of honor, courage, and justice. They often adorn their armor and clothing with images of growing things—leaves, antlers, or flowers—to reflect their commitment to preserving life and light.</p><p>These paladins share the following tenets:</p><ul><li>Kindle the light of hope.</li><li>Shelter life.</li><li>Delight in art and laughter.</li></ul></span></div>",
+    "paragraphes": [
+      "narrative.subclass.oath-of-the-ancients.2024.1",
+      "narrative.subclass.oath-of-the-ancients.2024.2",
+      "narrative.subclass.oath-of-devotion.2024.4",
+      "narrative.subclass.oath-of-the-ancients.2024.4",
+      "narrative.subclass.oath-of-the-ancients.2024.5",
+      "narrative.subclass.oath-of-the-ancients.2024.6"
+    ]
+  },
+  {
+    "id": "catalogue.104",
+    "html": "<div class=\"pre-wrap \"><span><p><i><i>Punish Evildoers at Any Cost</i></i></p><p>The Oath of Vengeance is a solemn commitment to punish those who have committed grievously evil acts. When evil armies slaughter helpless villagers, when a tyrant defies the will of the gods, when a thieves’ guild grows too violent, when a dragon rampages through the countryside—at times like these, paladins arise and swear an Oath of Vengeance to set right what has gone wrong.</p><p>These paladins share the following tenets:</p><ul><li>Show the wicked no mercy.</li><li>Fight injustice and its causes.</li><li>Aid those harmed by injustice.</li></ul></span></div>",
+    "paragraphes": [
+      "narrative.subclass.oath-of-vengeance.2024.1",
+      "narrative.subclass.oath-of-vengeance.2024.2",
+      "narrative.subclass.oath-of-devotion.2024.4",
+      "narrative.subclass.oath-of-vengeance.2024.4",
+      "narrative.subclass.oath-of-vengeance.2024.5",
+      "narrative.subclass.oath-of-vengeance.2024.6"
+    ]
+  },
+  {
+    "id": "catalogue.105",
+    "html": "<div class=\"pre-wrap \"><span><p><i><i>Bond with a Primal Beast</i></i></p><p>A Beast Master forms a mystical bond with a special animal, drawing on primal magic and a deep connection to the natural world.</p></span></div>",
+    "paragraphes": [
+      "narrative.subclass.beast-master.2024.1",
+      "narrative.subclass.beast-master.2024.2"
+    ]
+  },
+  {
+    "id": "catalogue.106",
+    "html": "<div class=\"pre-wrap \"><span><p><i><i>Wield Fey Mirth and Fury</i></i></p><p>A fey mystique surrounds you, thanks to the boon of an archfey or a location in the Feywild that transformed you. However you gained fey magic, you are now a Fey Wanderer. Your joyful laughter brightens the hearts of the downtrodden, and your martial prowess strikes terror in your foes, for great is the mirth of the fey and dreadful is their fury.</p></span></div>",
+    "paragraphes": [
+      "narrative.subclass.fey-wanderer.2024.1",
+      "narrative.subclass.fey-wanderer.2024.2"
+    ]
+  },
+  {
+    "id": "catalogue.107",
+    "html": "<div class=\"pre-wrap \"><span><p><i><i>Draw on Shadow Magic to Fight Your Foes</i></i></p><p>Gloom Stalkers are at home in the darkest places, wielding magic drawn from the Shadowfell to combat enemies that lurk in darkness.</p></span></div>",
+    "paragraphes": [
+      "narrative.subclass.gloom-stalker.2024.1",
+      "narrative.subclass.gloom-stalker.2024.2"
+    ]
+  },
+  {
+    "id": "catalogue.108",
+    "html": "<div class=\"pre-wrap \"><span><p><i><i>Protect Nature and People from Destruction</i></i></p><p>You stalk prey in the wilds and elsewhere, using your abilities as a Hunter to protect nature and people everywhere from forces that would destroy them.</p></span></div>",
+    "paragraphes": [
+      "narrative.subclass.hunter.2024.1",
+      "narrative.subclass.hunter.2024.2"
+    ]
+  },
+  {
+    "id": "catalogue.109",
+    "html": "<div class=\"pre-wrap \"><span><p><i><i>Enhance Stealth with Arcane Spells</i></i></p><p>Some Rogues enhance their fine-honed skills of stealth and agility with spells, learning magical tricks to aid them in their trade. Some Arcane Tricksters use their talents as pickpockets and burglars, while others are pranksters.</p></span></div>",
+    "paragraphes": [
+      "narrative.subclass.arcane-trickster.2024.1",
+      "narrative.subclass.arcane-trickster.2024.2"
+    ]
+  },
+  {
+    "id": "catalogue.110",
+    "html": "<div class=\"pre-wrap \"><span><p><i><i>Practice the Grim Art of Death</i></i></p><p>An Assassin’s training focuses on using stealth, poison, and disguise to eliminate foes with deadly efficiency. While some Rogues who follow this path are hired killers, spies, or bounty hunters, the capabilities of this subclass are equally useful for adventurers facing a variety of monstrous enemies.</p></span></div>",
+    "paragraphes": [
+      "narrative.subclass.assassin.2024.1",
+      "narrative.subclass.assassin.2024.2"
+    ]
+  },
+  {
+    "id": "catalogue.111",
+    "html": "<div class=\"pre-wrap \"><span><p><i><i>Strike Foes with Psionic Blades</i></i></p><p>A Soulknife strikes with the mind, cutting through barriers both physical and psychic. These Rogues discover psionic power within themselves and channel it to do their roguish work. As a Soulknife, your psionic abilities might have haunted you since childhood, revealing their full potential only as you experienced the stress of adventure. Or you might have sought out an order of psychic adepts and spent years learning how to manifest your power.</p></span></div>",
+    "paragraphes": [
+      "narrative.subclass.soulknife.2024.1",
+      "narrative.subclass.soulknife.2024.2"
+    ]
+  },
+  {
+    "id": "catalogue.112",
+    "html": "<div class=\"pre-wrap \"><span><p><i><i>Hunt for Treasure as a Classic Adventurer</i></i></p><p>A mix of burglar, treasure hunter, and explorer, you are the epitome of an adventurer. In addition to improving your agility and stealth, you gain abilities useful for delving into ruins and getting maximum benefit from the magic items you find there.</p></span></div>",
+    "paragraphes": [
+      "narrative.subclass.thief.2024.1",
+      "narrative.subclass.thief.2024.2"
+    ]
+  },
+  {
+    "id": "catalogue.113",
+    "html": "<div class=\"pre-wrap \"><span><p><i><i>Wield Unnatural Psionic Power</i></i></p><p>An alien influence has wrapped its tendrils around your mind, giving you psionic power. You can now touch other minds with that power and alter the world around you. Will this power shine from you as a hopeful beacon to others? Or will you be a terror to those who feel the stab of your mind?</p><p>Perhaps a psychic wind from the Astral Plane carried psionic energy to you, or you were exposed to the Far Realm’s warping influence. Alternatively, you were implanted with a mind flayer tadpole, but your transformation into a mind flayer never occurred; now the tadpole’s psionic power is yours. However you acquired this power, your mind is aflame with it.</p></span></div>",
+    "paragraphes": [
+      "narrative.subclass.aberrant-sorcery.2024.1",
+      "narrative.subclass.aberrant-sorcery.2024.2",
+      "narrative.subclass.aberrant-sorcery.2024.3"
+    ]
+  },
+  {
+    "id": "catalogue.114",
+    "html": "<div class=\"pre-wrap \"><span><p><i><i>Channel Cosmic Forces of Order</i></i></p><p>The cosmic force of order has suffused you with magic. That power arises from Mechanus or a realm like it—a plane of existence shaped entirely by clockwork efficiency. You or someone from your lineage might have become entangled in the machinations of modrons, the orderly beings who inhabit Mechanus. Perhaps your ancestor even took part in the Great Modron March. Whatever its origin within you, the power of order can seem strange to others, but for you, it’s part of a vast and glorious system.</p></span></div>",
+    "paragraphes": [
+      "narrative.subclass.clockwork-sorcery.2024.1",
+      "narrative.subclass.clockwork-sorcery.2024.2"
+    ]
+  },
+  {
+    "id": "catalogue.115",
+    "html": "<div class=\"pre-wrap \"><span><p><i><i>Breathe the Magic of Dragons</i></i></p><p>Your innate magic comes from the gift of a dragon. Perhaps an ancient dragon facing death bequeathed some of its magical power to you or your ancestor. You might have absorbed magic from a site infused with dragons’ power. Or perhaps you handled a treasure taken from a dragon’s hoard that was steeped in draconic power. Or you might have a dragon for an ancestor.</p></span></div>",
+    "paragraphes": [
+      "narrative.subclass.draconic-sorcery.2024.1",
+      "narrative.subclass.draconic-sorcery.2024.2"
+    ]
+  },
+  {
+    "id": "catalogue.116",
+    "html": "<div class=\"pre-wrap \"><span><p><i><i>Unleash Chaotic Magic</i></i></p><p>Your innate magic stems from the forces of chaos that underlie the order of creation. You or an ancestor might have endured exposure to raw magic, perhaps through a planar portal leading to Limbo or the Elemental Planes. Perhaps you were blessed by a fey being or marked by a demon. Or your magic could be a fluke with no apparent cause. Whatever its source, this magic churns within you, waiting for any outlet.</p></span></div>",
+    "paragraphes": [
+      "narrative.subclass.wild-magic-sorcery.2024.1",
+      "narrative.subclass.wild-magic-sorcery.2024.2"
+    ]
+  },
+  {
+    "id": "catalogue.117",
+    "html": "<div class=\"pre-wrap \"><span><p><i><i>Bargain with Whimsical Fey</i></i></p><p>Your pact draws on the power of the Feywild. When you choose this subclass, you might make a deal with an archfey, such as the Prince of Frost; the Queen of Air and Darkness, ruler of the Gloaming Court; Titania of the Summer Court; or an ancient hag. Or you might call on a spectrum of Fey, weaving a web of favors and debts. Whoever they are, your patron is often inscrutable and whimsical.</p></span></div>",
+    "paragraphes": [
+      "narrative.subclass.archfey-patron.2024.1",
+      "narrative.subclass.archfey-patron.2024.2"
+    ]
+  },
+  {
+    "id": "catalogue.118",
+    "html": "<div class=\"pre-wrap \"><span><p><i><i>Call on the Power of the Heavens</i></i></p><p>Your pact draws on the Upper Planes, the realms of everlasting bliss. You might enter an agreement with an empyrean, a couatl, a sphinx, a unicorn, or another heavenly entity. Or you might call on numerous such beings as you pursue goals aligned with theirs. Your pact allows you to experience a hint of the holy light that illuminates the multiverse.</p></span></div>",
+    "paragraphes": [
+      "narrative.subclass.celestial-patron.2024.1",
+      "narrative.subclass.celestial-patron.2024.2"
+    ]
+  },
+  {
+    "id": "catalogue.119",
+    "html": "<div class=\"pre-wrap \"><span><p><i><i>Make a Deal with the Lower Planes</i></i></p><p>Your pact draws on the Lower Planes, the realms of perdition. You might forge a bargain with a demon lord such as Demogorgon or Orcus; an archdevil such as Asmodeus; or a pit fiend, balor, yugoloth, or night hag that is especially mighty. That patron’s aims are evil—the corruption or destruction of all things, ultimately including you—and your path is defined by the extent to which you strive against those aims.</p></span></div>",
+    "paragraphes": [
+      "narrative.subclass.fiend-patron.2024.1",
+      "narrative.subclass.fiend-patron.2024.2"
+    ]
+  },
+  {
+    "id": "catalogue.120",
+    "html": "<div class=\"pre-wrap \"><span><p><i><i>Unearth Forbidden Lore of Ineffable Beings</i></i></p><p>When you choose this subclass, you might bind yourself to an unspeakable being from the Far Realm or an elder god—a being such as Tharizdun, the Chained God; Zargon, the Returner; Hadar, the Dark Hunger; or Great Cthulhu. Or you might invoke several entities without yoking yourself to one. The motives of these beings are incomprehensible, and the Great Old One might be indifferent to your existence. But the secrets you’ve learned nevertheless allow you to draw strange magic from it.</p></span></div>",
+    "paragraphes": [
+      "narrative.subclass.great-old-one-patron.2024.1",
+      "narrative.subclass.great-old-one-patron.2024.2"
+    ]
+  },
+  {
+    "id": "catalogue.121",
+    "html": "<div class=\"pre-wrap \"><span><p><i><i>Shield Companions and Banish Foes</i></i></p><p>Your study of magic is focused on spells that block, banish, or protect—ending harmful effects, banishing evil influences, and protecting the weak. Abjurers are sought when baleful spirits require exorcism, when locations must be guarded against magical spying, and when portals to other planes of existence must be closed. Adventuring parties value Abjurers for the protection they provide against a variety of hostile magic and other attacks.</p></span></div>",
+    "paragraphes": [
+      "narrative.subclass.abjurer.2024.1",
+      "narrative.subclass.abjurer.2024.2"
+    ]
+  },
+  {
+    "id": "catalogue.122",
+    "html": "<div class=\"pre-wrap \"><span><p><i><i>Learn the Secrets of the Multiverse</i></i></p><p>The counsel of a Diviner is sought by those who want a clearer understanding of the past, present, and future. As a Diviner, you strive to part the veils of space, time, and consciousness. You work to master spells of discernment, remote viewing, supernatural knowledge, and foresight.</p></span></div>",
+    "paragraphes": [
+      "narrative.subclass.diviner.2024.1",
+      "narrative.subclass.diviner.2024.2"
+    ]
+  },
+  {
+    "id": "catalogue.123",
+    "html": "<div class=\"pre-wrap \"><span><p><i><i>Create Explosive Elemental Effects</i></i></p><p>Your studies focus on magic that creates powerful elemental effects such as bitter cold, searing flame, rolling thunder, crackling lightning, and burning acid. Some Evokers find employment in military forces, serving as artillery to blast armies from afar. Others use their power to protect others, while some seek their own gain.</p></span></div>",
+    "paragraphes": [
+      "narrative.subclass.evoker.2024.1",
+      "narrative.subclass.evoker.2024.2"
+    ]
+  },
+  {
+    "id": "catalogue.124",
+    "html": "<div class=\"pre-wrap \"><span><p><i><i>Weave Subtle Spells of Deception</i></i></p><p>You specialize in magic that dazzles the senses and tricks the mind, and the illusions you craft make the impossible seem real.</p></span></div>",
+    "paragraphes": [
+      "narrative.subclass.illusionist.2024.1",
+      "narrative.subclass.illusionist.2024.2"
+    ]
+  },
+  {
+    "id": "catalogue.125",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>Acolytes study of the history, the tenets of their faith and their relationships to temples, shrines, or hierarchies affect their mannerisms and ideals. Their flaws might be some hidden hypocrisy or heretical idea, or an ideal or bond taken to an extreme.</p></span></div>",
+    "paragraphes": [
+      "narrative.background.acolyte.any.1"
+    ]
+  },
+  {
+    "id": "catalogue.126",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>You devoted yourself to service in a temple, either nestled in a town or secluded in a sacred grove. There you performed rites in honor of a god or pantheon. You served under a priest and studied religion. Thanks to your priest’s instruction and your own devotion, you also learned how to channel a modicum of divine power in service to your place of worship and the people who prayed there.</p></span></div>",
+    "paragraphes": [
+      "narrative.background.acolyte.2024.1"
+    ]
+  },
+  {
+    "id": "catalogue.127",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>You began mopping floors and scrubbing counters in an artisan’s workshop for a few coppers per day as soon as you were strong enough to carry a bucket. When you were old enough to apprentice, you learned to create basic crafts of your own, as well as how to sweet-talk the occasional demanding customer. Your trade has also given you a keen eye for detail.</p></span></div>",
+    "paragraphes": [
+      "narrative.background.artisan.2024.1"
+    ]
+  },
+  {
+    "id": "catalogue.128",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>Sneaking into and out of places is your trade. &nbsp;Second story work is second nature.</p></span></div>",
+    "paragraphes": [
+      "narrative.background.burglar.any.1"
+    ]
+  },
+  {
+    "id": "catalogue.129",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>Once you were old enough to order an ale, you soon had a favorite stool in every tavern within ten miles of where you were born. As you traveled the circuit from public house to watering hole, you learned to prey on unfortunates who were in the market for a comforting lie or two—perhaps a sham potion or forged ancestry records.</p></span></div>",
+    "paragraphes": [
+      "narrative.background.charlatan.2024.1"
+    ]
+  },
+  {
+    "id": "catalogue.130",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>You eked out a living in dark alleyways, cutting purses or burgling shops. Perhaps you were part of a small gang of like-minded wrongdoers who looked out for each other. Or maybe you were a lone wolf, fending for yourself against the local thieves’ guild and more fearsome lawbreakers.</p></span></div>",
+    "paragraphes": [
+      "narrative.background.criminal.2024.1"
+    ]
+  },
+  {
+    "id": "catalogue.131",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>There's nothing like sea life, the power of the oceans, the comradery of your crew. Being a Deckhand taught you that the world is bigger than yourself, you're quick to react and a loyal friend.</p></span></div>",
+    "paragraphes": [
+      "narrative.background.deckhand.any.1"
+    ]
+  },
+  {
+    "id": "catalogue.132",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>You are accustomed to dealing with the highest powers in the land, not easily intimidated, you are an excellent negotiator and a natural leader.</p></span></div>",
+    "paragraphes": [
+      "narrative.background.elite.any.1"
+    ]
+  },
+  {
+    "id": "catalogue.133",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>You spent much of your youth following roving fairs and carnivals, performing odd jobs for musicians and acrobats in exchange for lessons. You may have learned how to walk a tightrope, how to play a lute in a distinct style, or how to recite poetry with impeccable diction. To this day, you thrive on applause and long for the stage.</p></span></div>",
+    "paragraphes": [
+      "narrative.background.entertainer.2024.1"
+    ]
+  },
+  {
+    "id": "catalogue.134",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>You grew up close to the land. Years tending animals and cultivating the earth rewarded you with patience and good health. You have a keen appreciation for nature’s bounty alongside a healthy respect for nature’s wrath.</p></span></div>",
+    "paragraphes": [
+      "narrative.background.farmer.2024.1"
+    ]
+  },
+  {
+    "id": "catalogue.135",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>Your feet ache when you remember the countless hours you spent at your post in the tower. You were trained to keep one eye looking outside the wall, watching for marauders sweeping from the nearby forest, and your other eye looking inside the wall, searching for cutpurses and troublemakers.</p></span></div>",
+    "paragraphes": [
+      "narrative.background.guard.2024.1"
+    ]
+  },
+  {
+    "id": "catalogue.136",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>You came of age outdoors, far from settled lands. Your home was anywhere you chose to spread your bedroll. There are wonders in the wilderness—strange monsters, pristine forests and streams, overgrown ruins of great halls once trod by giants—and you learned to fend for yourself as you explored them. From time to time, you guided friendly nature priests who instructed you in the fundamentals of channeling the magic of the wild.</p></span></div>",
+    "paragraphes": [
+      "narrative.background.guide.2024.1"
+    ]
+  },
+  {
+    "id": "catalogue.137",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>Healers are defined by their desire to aid and heal and their characteristics reflect these choices. Healers will not relish or deliberately seek to harm their fellow humanoids.</p></span></div>",
+    "paragraphes": [
+      "narrative.background.healer.any.1"
+    ]
+  },
+  {
+    "id": "catalogue.138",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>Herbalists are known for their free spirit and interest in the natural world, ever curious they pay great attention to their surroundings.</p></span></div>",
+    "paragraphes": [
+      "narrative.background.herbalist.any.1"
+    ]
+  },
+  {
+    "id": "catalogue.139",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>You spent your early years secluded in a hut or monastery located well beyond the outskirts of the nearest settlement. In those days, your only companions were the creatures of the forest and those who would occasionally visit to bring news of the outside world and supplies. The solitude allowed you to spend many hours pondering the mysteries of creation.</p></span></div>",
+    "paragraphes": [
+      "narrative.background.hermit.2024.1"
+    ]
+  },
+  {
+    "id": "catalogue.140",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>You are one with the wilderness, attuned to the world around you, the wilderness is in your blood. A primal hunter, you have stalked every prey animal and been hunted by some of the fiercest predators. And you have survived the worst the elements could throw at you.</p></span></div>",
+    "paragraphes": [
+      "narrative.background.hunter.any.1"
+    ]
+  },
+  {
+    "id": "catalogue.141",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>The drudgery of the military paired with the terror and thrill of battle have marked you. You prefer organization and don't shy away from a fight.</p></span></div>",
+    "paragraphes": [
+      "narrative.background.infantry.any.1"
+    ]
+  },
+  {
+    "id": "catalogue.142",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>You were apprenticed to a trader, caravan master, or shopkeeper, learning the fundamentals of commerce. You traveled broadly, and you earned a living by buying and selling the raw materials artisans need to practice their craft or finished works from such crafters. You might have transported goods from one place to another (by ship, wagon, or caravan) or bought them from traveling traders and sold them in your own shop.</p></span></div>",
+    "paragraphes": [
+      "narrative.background.merchant.2024.1"
+    ]
+  },
+  {
+    "id": "catalogue.143",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>You were raised in a castle, surrounded by wealth, power, and privilege. Your family of minor aristocrats ensured that you received a first-class education, some of which you appreciated and some of which you resented. Your time in the castle, especially the many hours you spent observing your family at court, also taught you a great deal about leadership.</p></span></div>",
+    "paragraphes": [
+      "narrative.background.noble.2024.1"
+    ]
+  },
+  {
+    "id": "catalogue.144",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>You chose to flee civilization for a simpler and quieter life, living simply and at one with nature you have found inner peace and a communion with the plants and animals.</p></span></div>",
+    "paragraphes": [
+      "narrative.background.recluse.any.1"
+    ]
+  },
+  {
+    "id": "catalogue.145",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>Your life has been dedicated to the libraries and laboratories of the world, you are highly analytical and a bit out of touch with dealing with actual people.</p></span></div>",
+    "paragraphes": [
+      "narrative.background.researcher.any.1"
+    ]
+  },
+  {
+    "id": "catalogue.146",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>You spent your formative years traveling between manors and monasteries, performing various odd jobs and services in exchange for access to their libraries. You whiled away many a long evening studying books and scrolls, learning the lore of the multiverse—even the rudiments of magic—and your mind yearns for more.</p></span></div>",
+    "paragraphes": [
+      "narrative.background.sage.2024.1"
+    ]
+  },
+  {
+    "id": "catalogue.147",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>You lived as a seafarer, wind at your back and decks swaying beneath your feet. You’ve perched on barstools in more ports of call than you can remember, faced mighty storms, and swapped stories with folk who live beneath the waves.</p></span></div>",
+    "paragraphes": [
+      "narrative.background.sailor.2024.1"
+    ]
+  },
+  {
+    "id": "catalogue.148",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>You spent formative years in a scriptorium, a monastery dedicated to the preservation of knowledge, or a government agency, where you learned to write with a clear hand and produce finely written texts. Perhaps you scribed government documents or copied tomes of literature. You might have some skill as a writer of poetry, narrative, or scholarly research. Above all, you have a careful attention to detail, helping you avoid introducing mistakes to the documents you copy and create.</p></span></div>",
+    "paragraphes": [
+      "narrative.background.scribe.2024.1"
+    ]
+  },
+  {
+    "id": "catalogue.149",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>Snake Oil Sellers are manipulators, but they truly believe their customers will benefit in some obscure way from their concoctions.</p></span></div>",
+    "paragraphes": [
+      "narrative.background.snake-oil-seller.any.1"
+    ]
+  },
+  {
+    "id": "catalogue.150",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>You began training for war as soon as you reached adulthood and carry precious few memories of life before you took up arms. Battle is in your blood. Sometimes you catch yourself reflexively performing the basic fighting exercises you learned first. Eventually, you put that training to use on the battlefield, protecting the realm by waging war.</p></span></div>",
+    "paragraphes": [
+      "narrative.background.soldier.2024.1"
+    ]
+  },
+  {
+    "id": "catalogue.151",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>Your heart is filled with wanderlust, the desire to see new things consumes you. You avidly observe strange and unique ways of life and compare them to your own existence. Your experiences give you a unique view of life and often lead you to innovative decisions and observations.</p></span></div>",
+    "paragraphes": [
+      "narrative.background.tourist.any.1"
+    ]
+  },
+  {
+    "id": "catalogue.152",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>A flamboyant character with a zeal for life, always willing to take on an impromptu role or provide the distraction.</p></span></div>",
+    "paragraphes": [
+      "narrative.background.vaudevillian.any.1"
+    ]
+  },
+  {
+    "id": "catalogue.153",
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>You grew up on the streets surrounded by similarly ill-fated castoffs, a few of them friends and a few of them rivals. You slept where you could and did odd jobs for food. At times, when the hunger became unbearable, you resorted to theft. Still, you never lost your pride and never abandoned hope. Fate is not yet finished with you.</p></span></div>",
+    "paragraphes": [
+      "narrative.background.wayfarer.2024.1"
+    ]
+  }
+]

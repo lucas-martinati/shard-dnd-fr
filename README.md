@@ -45,6 +45,10 @@ Les tests sont regroupés dans `tests/`, avec les extraits HTML dans `tests/fixt
 
 Les catalogues de noms et de références sont indexés au démarrage. Les listes de correspondances de descriptions sont réutilisées jusqu’à leur prochaine modification. `npm run benchmark` mesure l’initialisation dans JSDOM ; il ne mesure pas le chargement complet de Shard ni les appels réseau.
 
+L'[audit de couverture du 13 octobre 2026](docs/AUDIT-COUVERTURE.md) distingue les pages observées avec Tampermonkey, les corpus locaux et les zones encore à examiner. La version 1.17.2 complète notamment la navigation, les 15 états SRD 2024 et les traits/lignages d'espèce ; la 1.17.3 ajoute les variantes des ascendances de goliath repérées dans Shard. Les tests vérifient aussi les titres Shard rendus avec les classes CSS de gras/italique.
+
+La 1.17.4 traduit les descriptions de présentation relevées dans les catalogues : 10 espèces et 24 lignages 2024, 12 classes, 48 sous-classes et 16 historiques, ainsi que les présentations anciennes disponibles. Les 248 paragraphes et puces des cartes sont testés avec leur HTML d'origine, y compris les accroches en italique et les préceptes des paladins. Le catalogue `translations/descriptions-visibles.json` distingue cette couverture des descriptions d'aptitudes.
+
 ## Ajouter des traductions
 
 Les fichiers `translations/<catégorie>/traductions.json` sont détectés automatiquement à la génération. Ajouter un texte anglais, son français et sa source suffit ; aucun changement du moteur n’est nécessaire.

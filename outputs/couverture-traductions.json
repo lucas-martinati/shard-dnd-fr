@@ -3,50 +3,93 @@
     "sorts": {
       "nomsCatalogueAideDD2024": 391,
       "entreesDictionnaires": 511,
+      "libellesEditables": 0,
       "blocsEditables": 16
     },
     "dons": {
       "nomsCatalogueAideDD2024": 75,
       "entreesDictionnaires": 0,
+      "libellesEditables": 0,
       "blocsEditables": 2
     },
     "classes": {
       "nomsCatalogueAideDD2024": 28,
       "entreesDictionnaires": 602,
-      "blocsEditables": 70
+      "libellesEditables": 9,
+      "blocsEditables": 208
     },
     "especes": {
       "nomsCatalogueAideDD2024": 0,
       "entreesDictionnaires": 0,
-      "blocsEditables": 15
+      "libellesEditables": 57,
+      "blocsEditables": 125
     },
     "objets": {
       "nomsCatalogueAideDD2024": 349,
       "entreesDictionnaires": 510,
+      "libellesEditables": 0,
       "blocsEditables": 0
     },
     "armes": {
       "nomsCatalogueAideDD2024": 0,
       "entreesDictionnaires": 0,
+      "libellesEditables": 42,
       "blocsEditables": 31
     },
     "monstres": {
       "nomsCatalogueAideDD2024": 498,
       "entreesDictionnaires": 382,
+      "libellesEditables": 0,
       "blocsEditables": 0
     },
     "regles": {
       "nomsCatalogueAideDD2024": 0,
       "entreesDictionnaires": 1299,
-      "blocsEditables": 0
+      "libellesEditables": 53,
+      "blocsEditables": 140
     },
     "interface": {
       "nomsCatalogueAideDD2024": 0,
       "entreesDictionnaires": 205,
+      "libellesEditables": 41,
       "blocsEditables": 0
     }
   },
   "corpusLocaux": {
+    "descriptionsEtChampsLocauxUniques": 2688,
+    "presentationsShard": {
+      "fichesRelevees": 153,
+      "avecDescription": 149,
+      "paragraphesEtPucesReferences": 248,
+      "blocsUniques": 228,
+      "parType": {
+        "species": {
+          "fiches2024": 10,
+          "autresFiches": 9
+        },
+        "subspecies": {
+          "fiches2024": 24,
+          "autresFiches": 9
+        },
+        "class": {
+          "fiches2024": 12,
+          "autresFiches": 12
+        },
+        "subclass": {
+          "fiches2024": 48,
+          "autresFiches": 0
+        },
+        "background": {
+          "fiches2024": 16,
+          "autresFiches": 13
+        }
+      }
+    },
+    "etatsSRD2024": {
+      "etatsIndexes": 15,
+      "sectionsReferencees": 48,
+      "sectionsUniques": 34
+    },
     "classesSRD2024": {
       "barbarian": {
         "aptitudesIndexees": 24,
@@ -119,6 +162,9 @@
     "Le corpus de classes est celui du SRD 5.2.1 : 12 classes et leurs sous-classes SRD, pas toutes les sous-classes des suppléments.",
     "Prose appariée ne signifie pas que toutes les variantes Shard et toutes les cellules de tableaux sont couvertes.",
     "Les compteurs de noms AideDD ne mesurent pas la couverture des descriptions.",
+    "Les présentations Shard sont celles des cartes relevées : espèces et lignages, classes, 48 sous-classes PHB 2024 et historiques. Elles ne représentent pas toutes les descriptions d’aptitudes des sous-classes ni tous les livres.",
+    "Les libellés et blocs éditables comptent les correspondances anglaises distinctes, y compris les variantes ; plusieurs blocs peuvent appartenir à une seule règle.",
+    "Les états 2024 sont vérifiés sur des reproductions HTML locales. Les noms du catalogue ne prouvent pas la couverture des états et effets personnalisés de Shard.",
     "Les descriptions AideDD de sorts, monstres, dons, manifestations et objets sont chargées à la consultation et dépendent du réseau et de la correspondance du texte anglais.",
     "Les blocs historiques de dons ne disposent pas tous d’un identifiant de don : leur couverture par entité est indéterminée.",
     "Les suppléments, contenus maison et textes Shard non présents dans les sources peuvent rester en anglais."

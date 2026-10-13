@@ -24,16 +24,16 @@
       "id": "ui.elven-lineages",
       "kind": "term",
       "en": "Elven Lineages",
-      "fr": "Lignées elfiques",
-      "source": "Traductions proposées de libellés SRD 5.2.1 EN · https://www.dndbeyond.com/srd",
+      "fr": "Lignages elfiques",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
       "edition": "2024"
     },
     {
       "id": "ui.gnomish-lineages",
       "kind": "term",
       "en": "Gnomish Lineages",
-      "fr": "Lignées gnomes",
-      "source": "Traductions proposées de libellés SRD 5.2.1 EN · https://www.dndbeyond.com/srd",
+      "fr": "Lignages gnomes",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
       "edition": "2024"
     },
     {
@@ -115,6 +115,1298 @@
       "fr": "Arme courante à distance",
       "source": "Traductions proposées de libellés SRD 5.2.1 EN · https://www.dndbeyond.com/srd",
       "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.blinded.1.body",
+      "en": "You can’t see and automatically fail any ability check that requires sight.",
+      "fr": "Vous ne pouvez pas voir et échouez automatiquement à tout test de caractéristique qui nécessite la vue.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.blinded.1.section",
+      "en": "Can’t See. You can’t see and automatically fail any ability check that requires sight.",
+      "fr": "Incapable de voir. Vous ne pouvez pas voir et échouez automatiquement à tout test de caractéristique qui nécessite la vue.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.blinded.2.body",
+      "en": "Attack rolls against you have Advantage, and your attack rolls have Disadvantage.",
+      "fr": "Les jets d’attaque contre vous ont l’Avantage et vos jets d’attaque subissent le Désavantage.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.blinded.2.section",
+      "en": "Attacks Affected. Attack rolls against you have Advantage, and your attack rolls have Disadvantage.",
+      "fr": "Effet sur les attaques. Les jets d’attaque contre vous ont l’Avantage et vos jets d’attaque subissent le Désavantage.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.blinded.intro",
+      "en": "While you have the Blinded condition, you experience the following effects.",
+      "fr": "Tant que vous subissez l’état Aveuglé, vous êtes affecté par les effets suivants.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.blinded.full",
+      "en": "While you have the Blinded condition, you experience the following effects. Can’t See. You can’t see and automatically fail any ability check that requires sight. Attacks Affected. Attack rolls against you have Advantage, and your attack rolls have Disadvantage.",
+      "fr": "Tant que vous subissez l’état Aveuglé, vous êtes affecté par les effets suivants. Incapable de voir. Vous ne pouvez pas voir et échouez automatiquement à tout test de caractéristique qui nécessite la vue. Effet sur les attaques. Les jets d’attaque contre vous ont l’Avantage et vos jets d’attaque subissent le Désavantage.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.blinded.effects",
+      "en": "Can’t See. You can’t see and automatically fail any ability check that requires sight. Attacks Affected. Attack rolls against you have Advantage, and your attack rolls have Disadvantage.",
+      "fr": "Incapable de voir. Vous ne pouvez pas voir et échouez automatiquement à tout test de caractéristique qui nécessite la vue. Effet sur les attaques. Les jets d’attaque contre vous ont l’Avantage et vos jets d’attaque subissent le Désavantage.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.charmed.1.body",
+      "en": "You can’t attack the charmer or target the charmer with damaging abilities or magical effects.",
+      "fr": "Vous ne pouvez pas attaquer votre charmeur ni le cibler avec des aptitudes ou des effets magiques infligeant des dégâts.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.charmed.1.section",
+      "en": "Can’t Harm the Charmer. You can’t attack the charmer or target the charmer with damaging abilities or magical effects.",
+      "fr": "Ne pas nuire au charmeur. Vous ne pouvez pas attaquer votre charmeur ni le cibler avec des aptitudes ou des effets magiques infligeant des dégâts.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.charmed.2.body",
+      "en": "The charmer has Advantage on any ability check to interact with you socially.",
+      "fr": "Le charmeur a l’Avantage aux tests de caractéristique pour interagir socialement avec vous.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.charmed.2.section",
+      "en": "Social Advantage. The charmer has Advantage on any ability check to interact with you socially.",
+      "fr": "Interaction avec Avantage. Le charmeur a l’Avantage aux tests de caractéristique pour interagir socialement avec vous.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.charmed.intro",
+      "en": "While you have the Charmed condition, you experience the following effects.",
+      "fr": "Tant que vous subissez l’état Charmé, vous êtes affecté par les effets suivants.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.charmed.full",
+      "en": "While you have the Charmed condition, you experience the following effects. Can’t Harm the Charmer. You can’t attack the charmer or target the charmer with damaging abilities or magical effects. Social Advantage. The charmer has Advantage on any ability check to interact with you socially.",
+      "fr": "Tant que vous subissez l’état Charmé, vous êtes affecté par les effets suivants. Ne pas nuire au charmeur. Vous ne pouvez pas attaquer votre charmeur ni le cibler avec des aptitudes ou des effets magiques infligeant des dégâts. Interaction avec Avantage. Le charmeur a l’Avantage aux tests de caractéristique pour interagir socialement avec vous.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.charmed.effects",
+      "en": "Can’t Harm the Charmer. You can’t attack the charmer or target the charmer with damaging abilities or magical effects. Social Advantage. The charmer has Advantage on any ability check to interact with you socially.",
+      "fr": "Ne pas nuire au charmeur. Vous ne pouvez pas attaquer votre charmeur ni le cibler avec des aptitudes ou des effets magiques infligeant des dégâts. Interaction avec Avantage. Le charmeur a l’Avantage aux tests de caractéristique pour interagir socialement avec vous.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.deafened.1.body",
+      "en": "You can’t hear and automatically fail any ability check that requires hearing.",
+      "fr": "Vous ne pouvez pas entendre et échouez automatiquement à tout test de caractéristique qui nécessite l’ouïe.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.deafened.1.section",
+      "en": "Can’t Hear. You can’t hear and automatically fail any ability check that requires hearing.",
+      "fr": "Incapable d’entendre. Vous ne pouvez pas entendre et échouez automatiquement à tout test de caractéristique qui nécessite l’ouïe.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.deafened.intro",
+      "en": "While you have the Deafened condition, you experience the following effect.",
+      "fr": "Tant que vous subissez l’état Assourdi, vous êtes affecté par les effets suivants.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.deafened.full",
+      "en": "While you have the Deafened condition, you experience the following effect. Can’t Hear. You can’t hear and automatically fail any ability check that requires hearing.",
+      "fr": "Tant que vous subissez l’état Assourdi, vous êtes affecté par les effets suivants. Incapable d’entendre. Vous ne pouvez pas entendre et échouez automatiquement à tout test de caractéristique qui nécessite l’ouïe.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.exhaustion.1.body",
+      "en": "This condition is cumulative. Each time you receive it, you gain 1 Exhaustion level. You die if your Exhaustion level is 6.",
+      "fr": "Cet état est cumulatif. Chaque fois que vous le recevez, vous gagnez 1 niveau d’Épuisement. Vous mourez si votre niveau d’Épuisement atteint 6.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.exhaustion.1.section",
+      "en": "Exhaustion Levels. This condition is cumulative. Each time you receive it, you gain 1 Exhaustion level. You die if your Exhaustion level is 6.",
+      "fr": "Niveaux d’Épuisement. Cet état est cumulatif. Chaque fois que vous le recevez, vous gagnez 1 niveau d’Épuisement. Vous mourez si votre niveau d’Épuisement atteint 6.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.exhaustion.2.body",
+      "en": "When you make a D20 Test, the roll is reduced by 2 times your Exhaustion level.",
+      "fr": "Lorsque vous effectuez un Test de d20, son résultat est réduit de 2 fois votre niveau d’Épuisement.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.exhaustion.2.section",
+      "en": "D20 Tests Affected. When you make a D20 Test, the roll is reduced by 2 times your Exhaustion level.",
+      "fr": "Tests de d20 affectés. Lorsque vous effectuez un Test de d20, son résultat est réduit de 2 fois votre niveau d’Épuisement.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.exhaustion.3.body",
+      "en": "Your Speed is reduced by a number of feet equal to 5 times your Exhaustion level.",
+      "fr": "Votre Vitesse est réduite d’un nombre de feet égal à 5 fois votre niveau d’Épuisement.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.exhaustion.3.section",
+      "en": "Speed Reduced. Your Speed is reduced by a number of feet equal to 5 times your Exhaustion level.",
+      "fr": "Vitesse réduite. Votre Vitesse est réduite d’un nombre de feet égal à 5 fois votre niveau d’Épuisement.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.exhaustion.4.body",
+      "en": "Finishing a Long Rest removes 1 of your Exhaustion levels. When your Exhaustion level reaches 0, the condition ends.",
+      "fr": "Terminer un Repos long supprime 1 de vos niveaux d’Épuisement. Lorsque votre niveau d’Épuisement atteint 0, cet état prend fin.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.exhaustion.4.section",
+      "en": "Removing Exhaustion Levels. Finishing a Long Rest removes 1 of your Exhaustion levels. When your Exhaustion level reaches 0, the condition ends.",
+      "fr": "Supprimer des niveaux d’Épuisement. Terminer un Repos long supprime 1 de vos niveaux d’Épuisement. Lorsque votre niveau d’Épuisement atteint 0, cet état prend fin.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.exhaustion.intro",
+      "en": "While you have the Exhaustion condition, you experience the following effects.",
+      "fr": "Tant que vous subissez l’état Épuisement, vous êtes affecté par les effets suivants.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.exhaustion.full",
+      "en": "While you have the Exhaustion condition, you experience the following effects. Exhaustion Levels. This condition is cumulative. Each time you receive it, you gain 1 Exhaustion level. You die if your Exhaustion level is 6. D20 Tests Affected. When you make a D20 Test, the roll is reduced by 2 times your Exhaustion level. Speed Reduced. Your Speed is reduced by a number of feet equal to 5 times your Exhaustion level. Removing Exhaustion Levels. Finishing a Long Rest removes 1 of your Exhaustion levels. When your Exhaustion level reaches 0, the condition ends.",
+      "fr": "Tant que vous subissez l’état Épuisement, vous êtes affecté par les effets suivants. Niveaux d’Épuisement. Cet état est cumulatif. Chaque fois que vous le recevez, vous gagnez 1 niveau d’Épuisement. Vous mourez si votre niveau d’Épuisement atteint 6. Tests de d20 affectés. Lorsque vous effectuez un Test de d20, son résultat est réduit de 2 fois votre niveau d’Épuisement. Vitesse réduite. Votre Vitesse est réduite d’un nombre de feet égal à 5 fois votre niveau d’Épuisement. Supprimer des niveaux d’Épuisement. Terminer un Repos long supprime 1 de vos niveaux d’Épuisement. Lorsque votre niveau d’Épuisement atteint 0, cet état prend fin.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.exhaustion.effects",
+      "en": "Exhaustion Levels. This condition is cumulative. Each time you receive it, you gain 1 Exhaustion level. You die if your Exhaustion level is 6. D20 Tests Affected. When you make a D20 Test, the roll is reduced by 2 times your Exhaustion level. Speed Reduced. Your Speed is reduced by a number of feet equal to 5 times your Exhaustion level. Removing Exhaustion Levels. Finishing a Long Rest removes 1 of your Exhaustion levels. When your Exhaustion level reaches 0, the condition ends.",
+      "fr": "Niveaux d’Épuisement. Cet état est cumulatif. Chaque fois que vous le recevez, vous gagnez 1 niveau d’Épuisement. Vous mourez si votre niveau d’Épuisement atteint 6. Tests de d20 affectés. Lorsque vous effectuez un Test de d20, son résultat est réduit de 2 fois votre niveau d’Épuisement. Vitesse réduite. Votre Vitesse est réduite d’un nombre de feet égal à 5 fois votre niveau d’Épuisement. Supprimer des niveaux d’Épuisement. Terminer un Repos long supprime 1 de vos niveaux d’Épuisement. Lorsque votre niveau d’Épuisement atteint 0, cet état prend fin.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.frightened.1.body",
+      "en": "You have Disadvantage on ability checks and attack rolls while the source of fear is within line of sight.",
+      "fr": "Vous subissez le Désavantage aux tests de caractéristique et aux jets d’attaque tant que la source de votre peur est dans votre champ de vision.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.frightened.1.section",
+      "en": "Ability Checks and Attacks Affected. You have Disadvantage on ability checks and attack rolls while the source of fear is within line of sight.",
+      "fr": "Effet sur les tests de caractéristique et les attaques. Vous subissez le Désavantage aux tests de caractéristique et aux jets d’attaque tant que la source de votre peur est dans votre champ de vision.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.frightened.2.body",
+      "en": "You can’t willingly move closer to the source of fear.",
+      "fr": "Vous ne pouvez pas vous rapprocher volontairement de la source de votre peur.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.frightened.2.section",
+      "en": "Can’t Approach. You can’t willingly move closer to the source of fear.",
+      "fr": "Impossible d’approcher. Vous ne pouvez pas vous rapprocher volontairement de la source de votre peur.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.frightened.intro",
+      "en": "While you have the Frightened condition, you experience the following effects.",
+      "fr": "Tant que vous subissez l’état Effrayé, vous êtes affecté par les effets suivants.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.frightened.full",
+      "en": "While you have the Frightened condition, you experience the following effects. Ability Checks and Attacks Affected. You have Disadvantage on ability checks and attack rolls while the source of fear is within line of sight. Can’t Approach. You can’t willingly move closer to the source of fear.",
+      "fr": "Tant que vous subissez l’état Effrayé, vous êtes affecté par les effets suivants. Effet sur les tests de caractéristique et les attaques. Vous subissez le Désavantage aux tests de caractéristique et aux jets d’attaque tant que la source de votre peur est dans votre champ de vision. Impossible d’approcher. Vous ne pouvez pas vous rapprocher volontairement de la source de votre peur.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.frightened.effects",
+      "en": "Ability Checks and Attacks Affected. You have Disadvantage on ability checks and attack rolls while the source of fear is within line of sight. Can’t Approach. You can’t willingly move closer to the source of fear.",
+      "fr": "Effet sur les tests de caractéristique et les attaques. Vous subissez le Désavantage aux tests de caractéristique et aux jets d’attaque tant que la source de votre peur est dans votre champ de vision. Impossible d’approcher. Vous ne pouvez pas vous rapprocher volontairement de la source de votre peur.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.grappled.1.body",
+      "en": "Your Speed is 0 and can’t increase.",
+      "fr": "Votre Vitesse est de 0 et ne peut pas augmenter.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.grappled.1.section",
+      "en": "Speed 0. Your Speed is 0 and can’t increase.",
+      "fr": "Vitesse 0. Votre Vitesse est de 0 et ne peut pas augmenter.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.grappled.2.body",
+      "en": "You have Disadvantage on attack rolls against any target other than the grappler.",
+      "fr": "Vous subissez le Désavantage aux jets d’attaque contre toute cible autre que la créature qui vous agrippe.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.grappled.2.section",
+      "en": "Attacks Affected. You have Disadvantage on attack rolls against any target other than the grappler.",
+      "fr": "Effet sur les attaques. Vous subissez le Désavantage aux jets d’attaque contre toute cible autre que la créature qui vous agrippe.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.grappled.3.body",
+      "en": "The grappler can drag or carry you when it moves, but every foot of movement costs it 1 extra foot unless you are Tiny or two or more sizes smaller than it.",
+      "fr": "La créature qui vous agrippe peut vous traîner ou vous porter quand elle se déplace, mais chaque foot de déplacement lui coûte 1 foot supplémentaire, sauf si vous êtes de taille Très petite ou d’au moins deux catégories de taille de moins qu’elle.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.grappled.3.section",
+      "en": "Movable. The grappler can drag or carry you when it moves, but every foot of movement costs it 1 extra foot unless you are Tiny or two or more sizes smaller than it.",
+      "fr": "Déplaçable. La créature qui vous agrippe peut vous traîner ou vous porter quand elle se déplace, mais chaque foot de déplacement lui coûte 1 foot supplémentaire, sauf si vous êtes de taille Très petite ou d’au moins deux catégories de taille de moins qu’elle.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.grappled.intro",
+      "en": "While you have the Grappled condition, you experience the following effects.",
+      "fr": "Tant que vous subissez l’état Agrippé, vous êtes affecté par les effets suivants.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.grappled.full",
+      "en": "While you have the Grappled condition, you experience the following effects. Speed 0. Your Speed is 0 and can’t increase. Attacks Affected. You have Disadvantage on attack rolls against any target other than the grappler. Movable. The grappler can drag or carry you when it moves, but every foot of movement costs it 1 extra foot unless you are Tiny or two or more sizes smaller than it.",
+      "fr": "Tant que vous subissez l’état Agrippé, vous êtes affecté par les effets suivants. Vitesse 0. Votre Vitesse est de 0 et ne peut pas augmenter. Effet sur les attaques. Vous subissez le Désavantage aux jets d’attaque contre toute cible autre que la créature qui vous agrippe. Déplaçable. La créature qui vous agrippe peut vous traîner ou vous porter quand elle se déplace, mais chaque foot de déplacement lui coûte 1 foot supplémentaire, sauf si vous êtes de taille Très petite ou d’au moins deux catégories de taille de moins qu’elle.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.grappled.effects",
+      "en": "Speed 0. Your Speed is 0 and can’t increase. Attacks Affected. You have Disadvantage on attack rolls against any target other than the grappler. Movable. The grappler can drag or carry you when it moves, but every foot of movement costs it 1 extra foot unless you are Tiny or two or more sizes smaller than it.",
+      "fr": "Vitesse 0. Votre Vitesse est de 0 et ne peut pas augmenter. Effet sur les attaques. Vous subissez le Désavantage aux jets d’attaque contre toute cible autre que la créature qui vous agrippe. Déplaçable. La créature qui vous agrippe peut vous traîner ou vous porter quand elle se déplace, mais chaque foot de déplacement lui coûte 1 foot supplémentaire, sauf si vous êtes de taille Très petite ou d’au moins deux catégories de taille de moins qu’elle.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.incapacitated.1.body",
+      "en": "You can’t take any action, Bonus Action, or Reaction.",
+      "fr": "Vous ne pouvez entreprendre ni action, ni action Bonus, ni Réaction.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.incapacitated.1.section",
+      "en": "Inactive. You can’t take any action, Bonus Action, or Reaction.",
+      "fr": "Inactif. Vous ne pouvez entreprendre ni action, ni action Bonus, ni Réaction.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.incapacitated.2.body",
+      "en": "Your Concentration is broken.",
+      "fr": "Votre Concentration est brisée.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.incapacitated.2.section",
+      "en": "No Concentration. Your Concentration is broken.",
+      "fr": "Concentration brisée. Votre Concentration est brisée.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.incapacitated.3.body",
+      "en": "You can’t speak.",
+      "fr": "Vous ne pouvez pas parler.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.incapacitated.3.section",
+      "en": "Speechless. You can’t speak.",
+      "fr": "Sans voix. Vous ne pouvez pas parler.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.incapacitated.4.body",
+      "en": "If you’re Incapacitated when you roll Initiative, you have Disadvantage on the roll.",
+      "fr": "Si vous êtes Neutralisé lorsque vous lancez l’Initiative, vous subissez le Désavantage à ce jet.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.incapacitated.4.section",
+      "en": "Surprised. If you’re Incapacitated when you roll Initiative, you have Disadvantage on the roll.",
+      "fr": "Surpris. Si vous êtes Neutralisé lorsque vous lancez l’Initiative, vous subissez le Désavantage à ce jet.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.incapacitated.intro",
+      "en": "While you have the Incapacitated condition, you experience the following effects.",
+      "fr": "Tant que vous subissez l’état Neutralisé, vous êtes affecté par les effets suivants.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.incapacitated.full",
+      "en": "While you have the Incapacitated condition, you experience the following effects. Inactive. You can’t take any action, Bonus Action, or Reaction. No Concentration. Your Concentration is broken. Speechless. You can’t speak. Surprised. If you’re Incapacitated when you roll Initiative, you have Disadvantage on the roll.",
+      "fr": "Tant que vous subissez l’état Neutralisé, vous êtes affecté par les effets suivants. Inactif. Vous ne pouvez entreprendre ni action, ni action Bonus, ni Réaction. Concentration brisée. Votre Concentration est brisée. Sans voix. Vous ne pouvez pas parler. Surpris. Si vous êtes Neutralisé lorsque vous lancez l’Initiative, vous subissez le Désavantage à ce jet.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.incapacitated.effects",
+      "en": "Inactive. You can’t take any action, Bonus Action, or Reaction. No Concentration. Your Concentration is broken. Speechless. You can’t speak. Surprised. If you’re Incapacitated when you roll Initiative, you have Disadvantage on the roll.",
+      "fr": "Inactif. Vous ne pouvez entreprendre ni action, ni action Bonus, ni Réaction. Concentration brisée. Votre Concentration est brisée. Sans voix. Vous ne pouvez pas parler. Surpris. Si vous êtes Neutralisé lorsque vous lancez l’Initiative, vous subissez le Désavantage à ce jet.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.invisible.1.body",
+      "en": "If you’re Invisible when you roll Initiative, you have Advantage on the roll.",
+      "fr": "Si vous êtes Invisible lorsque vous lancez l’Initiative, vous avez l’Avantage à ce jet.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.invisible.1.section",
+      "en": "Surprise. If you’re Invisible when you roll Initiative, you have Advantage on the roll.",
+      "fr": "Surprise. Si vous êtes Invisible lorsque vous lancez l’Initiative, vous avez l’Avantage à ce jet.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.invisible.2.body",
+      "en": "You aren’t affected by any effect that requires its target to be seen unless the effect’s creator can somehow see you. Any equipment you are wearing or carrying is also concealed.",
+      "fr": "Vous n’êtes pas affecté par un effet qui exige que sa cible soit vue, sauf si le créateur de l’effet peut vous voir d’une manière ou d’une autre. Tout équipement que vous portez est également dissimulé.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.invisible.2.section",
+      "en": "Concealed. You aren’t affected by any effect that requires its target to be seen unless the effect’s creator can somehow see you. Any equipment you are wearing or carrying is also concealed.",
+      "fr": "Dissimulé. Vous n’êtes pas affecté par un effet qui exige que sa cible soit vue, sauf si le créateur de l’effet peut vous voir d’une manière ou d’une autre. Tout équipement que vous portez est également dissimulé.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.invisible.3.body",
+      "en": "Attack rolls against you have Disadvantage, and your attack rolls have Advantage. If a creature can somehow see you, you don’t gain this benefit against that creature.",
+      "fr": "Les jets d’attaque contre vous subissent le Désavantage et vos jets d’attaque ont l’Avantage. Si une créature peut vous voir d’une manière ou d’une autre, vous ne recevez pas ce bénéfice contre elle.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.invisible.3.section",
+      "en": "Attacks Affected. Attack rolls against you have Disadvantage, and your attack rolls have Advantage. If a creature can somehow see you, you don’t gain this benefit against that creature.",
+      "fr": "Effet sur les attaques. Les jets d’attaque contre vous subissent le Désavantage et vos jets d’attaque ont l’Avantage. Si une créature peut vous voir d’une manière ou d’une autre, vous ne recevez pas ce bénéfice contre elle.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.invisible.intro",
+      "en": "While you have the Invisible condition, you experience the following effects.",
+      "fr": "Tant que vous subissez l’état Invisible, vous êtes affecté par les effets suivants.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.invisible.full",
+      "en": "While you have the Invisible condition, you experience the following effects. Surprise. If you’re Invisible when you roll Initiative, you have Advantage on the roll. Concealed. You aren’t affected by any effect that requires its target to be seen unless the effect’s creator can somehow see you. Any equipment you are wearing or carrying is also concealed. Attacks Affected. Attack rolls against you have Disadvantage, and your attack rolls have Advantage. If a creature can somehow see you, you don’t gain this benefit against that creature.",
+      "fr": "Tant que vous subissez l’état Invisible, vous êtes affecté par les effets suivants. Surprise. Si vous êtes Invisible lorsque vous lancez l’Initiative, vous avez l’Avantage à ce jet. Dissimulé. Vous n’êtes pas affecté par un effet qui exige que sa cible soit vue, sauf si le créateur de l’effet peut vous voir d’une manière ou d’une autre. Tout équipement que vous portez est également dissimulé. Effet sur les attaques. Les jets d’attaque contre vous subissent le Désavantage et vos jets d’attaque ont l’Avantage. Si une créature peut vous voir d’une manière ou d’une autre, vous ne recevez pas ce bénéfice contre elle.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.invisible.effects",
+      "en": "Surprise. If you’re Invisible when you roll Initiative, you have Advantage on the roll. Concealed. You aren’t affected by any effect that requires its target to be seen unless the effect’s creator can somehow see you. Any equipment you are wearing or carrying is also concealed. Attacks Affected. Attack rolls against you have Disadvantage, and your attack rolls have Advantage. If a creature can somehow see you, you don’t gain this benefit against that creature.",
+      "fr": "Surprise. Si vous êtes Invisible lorsque vous lancez l’Initiative, vous avez l’Avantage à ce jet. Dissimulé. Vous n’êtes pas affecté par un effet qui exige que sa cible soit vue, sauf si le créateur de l’effet peut vous voir d’une manière ou d’une autre. Tout équipement que vous portez est également dissimulé. Effet sur les attaques. Les jets d’attaque contre vous subissent le Désavantage et vos jets d’attaque ont l’Avantage. Si une créature peut vous voir d’une manière ou d’une autre, vous ne recevez pas ce bénéfice contre elle.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.paralyzed.1.body",
+      "en": "You have the Incapacitated condition.",
+      "fr": "Vous subissez l’état Neutralisé.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.paralyzed.1.section",
+      "en": "Incapacitated. You have the Incapacitated condition.",
+      "fr": "Neutralisé. Vous subissez l’état Neutralisé.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.paralyzed.3.body",
+      "en": "You automatically fail Strength and Dexterity saving throws.",
+      "fr": "Vous échouez automatiquement aux jets de sauvegarde de Force et de Dextérité.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.paralyzed.3.section",
+      "en": "Saving Throws Affected. You automatically fail Strength and Dexterity saving throws.",
+      "fr": "Effet sur les jets de sauvegarde. Vous échouez automatiquement aux jets de sauvegarde de Force et de Dextérité.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.paralyzed.4.body",
+      "en": "Attack rolls against you have Advantage.",
+      "fr": "Les jets d’attaque contre vous ont l’Avantage.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.paralyzed.4.section",
+      "en": "Attacks Affected. Attack rolls against you have Advantage.",
+      "fr": "Effet sur les attaques. Les jets d’attaque contre vous ont l’Avantage.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.paralyzed.5.body",
+      "en": "Any attack roll that hits you is a Critical Hit if the attacker is within 5 feet of you.",
+      "fr": "Tout jet d’attaque qui vous touche est un Coup critique si l’attaquant est à 5 feet ou moins de vous.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.paralyzed.5.section",
+      "en": "Automatic Critical Hits. Any attack roll that hits you is a Critical Hit if the attacker is within 5 feet of you.",
+      "fr": "Coups critiques automatiques. Tout jet d’attaque qui vous touche est un Coup critique si l’attaquant est à 5 feet ou moins de vous.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.paralyzed.intro",
+      "en": "While you have the Paralyzed condition, you experience the following effects.",
+      "fr": "Tant que vous subissez l’état Paralysé, vous êtes affecté par les effets suivants.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.paralyzed.full",
+      "en": "While you have the Paralyzed condition, you experience the following effects. Incapacitated. You have the Incapacitated condition. Speed 0. Your Speed is 0 and can’t increase. Saving Throws Affected. You automatically fail Strength and Dexterity saving throws. Attacks Affected. Attack rolls against you have Advantage. Automatic Critical Hits. Any attack roll that hits you is a Critical Hit if the attacker is within 5 feet of you.",
+      "fr": "Tant que vous subissez l’état Paralysé, vous êtes affecté par les effets suivants. Neutralisé. Vous subissez l’état Neutralisé. Vitesse 0. Votre Vitesse est de 0 et ne peut pas augmenter. Effet sur les jets de sauvegarde. Vous échouez automatiquement aux jets de sauvegarde de Force et de Dextérité. Effet sur les attaques. Les jets d’attaque contre vous ont l’Avantage. Coups critiques automatiques. Tout jet d’attaque qui vous touche est un Coup critique si l’attaquant est à 5 feet ou moins de vous.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.paralyzed.effects",
+      "en": "Incapacitated. You have the Incapacitated condition. Speed 0. Your Speed is 0 and can’t increase. Saving Throws Affected. You automatically fail Strength and Dexterity saving throws. Attacks Affected. Attack rolls against you have Advantage. Automatic Critical Hits. Any attack roll that hits you is a Critical Hit if the attacker is within 5 feet of you.",
+      "fr": "Neutralisé. Vous subissez l’état Neutralisé. Vitesse 0. Votre Vitesse est de 0 et ne peut pas augmenter. Effet sur les jets de sauvegarde. Vous échouez automatiquement aux jets de sauvegarde de Force et de Dextérité. Effet sur les attaques. Les jets d’attaque contre vous ont l’Avantage. Coups critiques automatiques. Tout jet d’attaque qui vous touche est un Coup critique si l’attaquant est à 5 feet ou moins de vous.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.petrified.1.body",
+      "en": "You are transformed, along with any nonmagical objects you are wearing and carrying, into a solid inanimate substance (usually stone). Your weight increases by a factor of ten, and you cease aging.",
+      "fr": "Vous êtes transformé, ainsi que tous les objets non magiques que vous portez, en une substance solide et inanimée, généralement de la pierre. Votre poids est multiplié par dix et vous cessez de vieillir.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.petrified.1.section",
+      "en": "Turned to Inanimate Substance. You are transformed, along with any nonmagical objects you are wearing and carrying, into a solid inanimate substance (usually stone). Your weight increases by a factor of ten, and you cease aging.",
+      "fr": "Transformé en substance inanimée. Vous êtes transformé, ainsi que tous les objets non magiques que vous portez, en une substance solide et inanimée, généralement de la pierre. Votre poids est multiplié par dix et vous cessez de vieillir.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.petrified.6.body",
+      "en": "You have Resistance to all damage.",
+      "fr": "Vous avez la Résistance à tous les dégâts.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.petrified.6.section",
+      "en": "Resist Damage. You have Resistance to all damage.",
+      "fr": "Résistance aux dégâts. Vous avez la Résistance à tous les dégâts.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.petrified.7.body",
+      "en": "You have Immunity to the Poisoned condition.",
+      "fr": "Vous êtes immunisé contre l’état Empoisonné.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.petrified.7.section",
+      "en": "Poison Immunity. You have Immunity to the Poisoned condition.",
+      "fr": "Immunité au poison. Vous êtes immunisé contre l’état Empoisonné.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.petrified.intro",
+      "en": "While you have the Petrified condition, you experience the following effects.",
+      "fr": "Tant que vous subissez l’état Pétrifié, vous êtes affecté par les effets suivants.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.petrified.full",
+      "en": "While you have the Petrified condition, you experience the following effects. Turned to Inanimate Substance. You are transformed, along with any nonmagical objects you are wearing and carrying, into a solid inanimate substance (usually stone). Your weight increases by a factor of ten, and you cease aging. Incapacitated. You have the Incapacitated condition. Speed 0. Your Speed is 0 and can’t increase. Attacks Affected. Attack rolls against you have Advantage. Saving Throws Affected. You automatically fail Strength and Dexterity saving throws. Resist Damage. You have Resistance to all damage. Poison Immunity. You have Immunity to the Poisoned condition.",
+      "fr": "Tant que vous subissez l’état Pétrifié, vous êtes affecté par les effets suivants. Transformé en substance inanimée. Vous êtes transformé, ainsi que tous les objets non magiques que vous portez, en une substance solide et inanimée, généralement de la pierre. Votre poids est multiplié par dix et vous cessez de vieillir. Neutralisé. Vous subissez l’état Neutralisé. Vitesse 0. Votre Vitesse est de 0 et ne peut pas augmenter. Effet sur les attaques. Les jets d’attaque contre vous ont l’Avantage. Effet sur les jets de sauvegarde. Vous échouez automatiquement aux jets de sauvegarde de Force et de Dextérité. Résistance aux dégâts. Vous avez la Résistance à tous les dégâts. Immunité au poison. Vous êtes immunisé contre l’état Empoisonné.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.petrified.effects",
+      "en": "Turned to Inanimate Substance. You are transformed, along with any nonmagical objects you are wearing and carrying, into a solid inanimate substance (usually stone). Your weight increases by a factor of ten, and you cease aging. Incapacitated. You have the Incapacitated condition. Speed 0. Your Speed is 0 and can’t increase. Attacks Affected. Attack rolls against you have Advantage. Saving Throws Affected. You automatically fail Strength and Dexterity saving throws. Resist Damage. You have Resistance to all damage. Poison Immunity. You have Immunity to the Poisoned condition.",
+      "fr": "Transformé en substance inanimée. Vous êtes transformé, ainsi que tous les objets non magiques que vous portez, en une substance solide et inanimée, généralement de la pierre. Votre poids est multiplié par dix et vous cessez de vieillir. Neutralisé. Vous subissez l’état Neutralisé. Vitesse 0. Votre Vitesse est de 0 et ne peut pas augmenter. Effet sur les attaques. Les jets d’attaque contre vous ont l’Avantage. Effet sur les jets de sauvegarde. Vous échouez automatiquement aux jets de sauvegarde de Force et de Dextérité. Résistance aux dégâts. Vous avez la Résistance à tous les dégâts. Immunité au poison. Vous êtes immunisé contre l’état Empoisonné.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.poisoned.1.body",
+      "en": "You have Disadvantage on attack rolls and ability checks.",
+      "fr": "Vous subissez le Désavantage aux jets d’attaque et aux tests de caractéristique.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.poisoned.1.section",
+      "en": "Ability Checks and Attacks Affected. You have Disadvantage on attack rolls and ability checks.",
+      "fr": "Effet sur les tests de caractéristique et les attaques. Vous subissez le Désavantage aux jets d’attaque et aux tests de caractéristique.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.poisoned.intro",
+      "en": "While you have the Poisoned condition, you experience the following effect.",
+      "fr": "Tant que vous subissez l’état Empoisonné, vous êtes affecté par les effets suivants.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.poisoned.full",
+      "en": "While you have the Poisoned condition, you experience the following effect. Ability Checks and Attacks Affected. You have Disadvantage on attack rolls and ability checks.",
+      "fr": "Tant que vous subissez l’état Empoisonné, vous êtes affecté par les effets suivants. Effet sur les tests de caractéristique et les attaques. Vous subissez le Désavantage aux jets d’attaque et aux tests de caractéristique.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.prone.1.body",
+      "en": "Your only movement options are to crawl or to spend an amount of movement equal to half your Speed (round down) to right yourself and thereby end the condition. If your Speed is 0, you can’t right yourself.",
+      "fr": "Vos seules possibilités de déplacement sont de ramper ou de dépenser la moitié de votre Vitesse, arrondie à l’inférieur, pour vous relever et mettre fin à cet état. Si votre Vitesse est de 0, vous ne pouvez pas vous relever.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.prone.1.section",
+      "en": "Restricted Movement. Your only movement options are to crawl or to spend an amount of movement equal to half your Speed (round down) to right yourself and thereby end the condition. If your Speed is 0, you can’t right yourself.",
+      "fr": "Déplacement limité. Vos seules possibilités de déplacement sont de ramper ou de dépenser la moitié de votre Vitesse, arrondie à l’inférieur, pour vous relever et mettre fin à cet état. Si votre Vitesse est de 0, vous ne pouvez pas vous relever.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.prone.2.body",
+      "en": "You have Disadvantage on attack rolls. An attack roll against you has Advantage if the attacker is within 5 feet of you. Otherwise, that attack roll has Disadvantage.",
+      "fr": "Vous subissez le Désavantage aux jets d’attaque. Un jet d’attaque contre vous a l’Avantage si l’attaquant est à 5 feet ou moins de vous. Dans le cas contraire, ce jet subit le Désavantage.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.prone.2.section",
+      "en": "Attacks Affected. You have Disadvantage on attack rolls. An attack roll against you has Advantage if the attacker is within 5 feet of you. Otherwise, that attack roll has Disadvantage.",
+      "fr": "Effet sur les attaques. Vous subissez le Désavantage aux jets d’attaque. Un jet d’attaque contre vous a l’Avantage si l’attaquant est à 5 feet ou moins de vous. Dans le cas contraire, ce jet subit le Désavantage.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.prone.intro",
+      "en": "While you have the Prone condition, you experience the following effects.",
+      "fr": "Tant que vous subissez l’état À terre, vous êtes affecté par les effets suivants.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.prone.full",
+      "en": "While you have the Prone condition, you experience the following effects. Restricted Movement. Your only movement options are to crawl or to spend an amount of movement equal to half your Speed (round down) to right yourself and thereby end the condition. If your Speed is 0, you can’t right yourself. Attacks Affected. You have Disadvantage on attack rolls. An attack roll against you has Advantage if the attacker is within 5 feet of you. Otherwise, that attack roll has Disadvantage.",
+      "fr": "Tant que vous subissez l’état À terre, vous êtes affecté par les effets suivants. Déplacement limité. Vos seules possibilités de déplacement sont de ramper ou de dépenser la moitié de votre Vitesse, arrondie à l’inférieur, pour vous relever et mettre fin à cet état. Si votre Vitesse est de 0, vous ne pouvez pas vous relever. Effet sur les attaques. Vous subissez le Désavantage aux jets d’attaque. Un jet d’attaque contre vous a l’Avantage si l’attaquant est à 5 feet ou moins de vous. Dans le cas contraire, ce jet subit le Désavantage.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.prone.effects",
+      "en": "Restricted Movement. Your only movement options are to crawl or to spend an amount of movement equal to half your Speed (round down) to right yourself and thereby end the condition. If your Speed is 0, you can’t right yourself. Attacks Affected. You have Disadvantage on attack rolls. An attack roll against you has Advantage if the attacker is within 5 feet of you. Otherwise, that attack roll has Disadvantage.",
+      "fr": "Déplacement limité. Vos seules possibilités de déplacement sont de ramper ou de dépenser la moitié de votre Vitesse, arrondie à l’inférieur, pour vous relever et mettre fin à cet état. Si votre Vitesse est de 0, vous ne pouvez pas vous relever. Effet sur les attaques. Vous subissez le Désavantage aux jets d’attaque. Un jet d’attaque contre vous a l’Avantage si l’attaquant est à 5 feet ou moins de vous. Dans le cas contraire, ce jet subit le Désavantage.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.restrained.3.body",
+      "en": "You have Disadvantage on Dexterity saving throws.",
+      "fr": "Vous subissez le Désavantage aux jets de sauvegarde de Dextérité.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.restrained.3.section",
+      "en": "Saving Throws Affected. You have Disadvantage on Dexterity saving throws.",
+      "fr": "Effet sur les jets de sauvegarde. Vous subissez le Désavantage aux jets de sauvegarde de Dextérité.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.restrained.intro",
+      "en": "While you have the Restrained condition, you experience the following effects.",
+      "fr": "Tant que vous subissez l’état Entravé, vous êtes affecté par les effets suivants.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.restrained.full",
+      "en": "While you have the Restrained condition, you experience the following effects. Speed 0. Your Speed is 0 and can’t increase. Attacks Affected. Attack rolls against you have Advantage, and your attack rolls have Disadvantage. Saving Throws Affected. You have Disadvantage on Dexterity saving throws.",
+      "fr": "Tant que vous subissez l’état Entravé, vous êtes affecté par les effets suivants. Vitesse 0. Votre Vitesse est de 0 et ne peut pas augmenter. Effet sur les attaques. Les jets d’attaque contre vous ont l’Avantage et vos jets d’attaque subissent le Désavantage. Effet sur les jets de sauvegarde. Vous subissez le Désavantage aux jets de sauvegarde de Dextérité.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.restrained.effects",
+      "en": "Speed 0. Your Speed is 0 and can’t increase. Attacks Affected. Attack rolls against you have Advantage, and your attack rolls have Disadvantage. Saving Throws Affected. You have Disadvantage on Dexterity saving throws.",
+      "fr": "Vitesse 0. Votre Vitesse est de 0 et ne peut pas augmenter. Effet sur les attaques. Les jets d’attaque contre vous ont l’Avantage et vos jets d’attaque subissent le Désavantage. Effet sur les jets de sauvegarde. Vous subissez le Désavantage aux jets de sauvegarde de Dextérité.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.stunned.intro",
+      "en": "While you have the Stunned condition, you experience the following effects.",
+      "fr": "Tant que vous subissez l’état Étourdi, vous êtes affecté par les effets suivants.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.stunned.full",
+      "en": "While you have the Stunned condition, you experience the following effects. Incapacitated. You have the Incapacitated condition. Saving Throws Affected. You automatically fail Strength and Dexterity saving throws. Attacks Affected. Attack rolls against you have Advantage.",
+      "fr": "Tant que vous subissez l’état Étourdi, vous êtes affecté par les effets suivants. Neutralisé. Vous subissez l’état Neutralisé. Effet sur les jets de sauvegarde. Vous échouez automatiquement aux jets de sauvegarde de Force et de Dextérité. Effet sur les attaques. Les jets d’attaque contre vous ont l’Avantage.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.stunned.effects",
+      "en": "Incapacitated. You have the Incapacitated condition. Saving Throws Affected. You automatically fail Strength and Dexterity saving throws. Attacks Affected. Attack rolls against you have Advantage.",
+      "fr": "Neutralisé. Vous subissez l’état Neutralisé. Effet sur les jets de sauvegarde. Vous échouez automatiquement aux jets de sauvegarde de Force et de Dextérité. Effet sur les attaques. Les jets d’attaque contre vous ont l’Avantage.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.unconscious.1.body",
+      "en": "You have the Incapacitated and Prone conditions, and you drop whatever you’re holding. When this condition ends, you remain Prone.",
+      "fr": "Vous subissez les états Neutralisé et À terre, et lâchez tout ce que vous tenez. Lorsque cet état prend fin, vous restez À terre.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.unconscious.1.section",
+      "en": "Inert. You have the Incapacitated and Prone conditions, and you drop whatever you’re holding. When this condition ends, you remain Prone.",
+      "fr": "Inerte. Vous subissez les états Neutralisé et À terre, et lâchez tout ce que vous tenez. Lorsque cet état prend fin, vous restez À terre.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.unconscious.6.body",
+      "en": "You’re unaware of your surroundings.",
+      "fr": "Vous n’avez pas conscience de ce qui vous entoure.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.unconscious.6.section",
+      "en": "Unaware. You’re unaware of your surroundings.",
+      "fr": "Dénué de conscience. Vous n’avez pas conscience de ce qui vous entoure.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.unconscious.intro",
+      "en": "While you have the Unconscious condition, you experience the following effects.",
+      "fr": "Tant que vous subissez l’état Inconscient, vous êtes affecté par les effets suivants.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.unconscious.full",
+      "en": "While you have the Unconscious condition, you experience the following effects. Inert. You have the Incapacitated and Prone conditions, and you drop whatever you’re holding. When this condition ends, you remain Prone. Speed 0. Your Speed is 0 and can’t increase. Attacks Affected. Attack rolls against you have Advantage. Saving Throws Affected. You automatically fail Strength and Dexterity saving throws. Automatic Critical Hits. Any attack roll that hits you is a Critical Hit if the attacker is within 5 feet of you. Unaware. You’re unaware of your surroundings.",
+      "fr": "Tant que vous subissez l’état Inconscient, vous êtes affecté par les effets suivants. Inerte. Vous subissez les états Neutralisé et À terre, et lâchez tout ce que vous tenez. Lorsque cet état prend fin, vous restez À terre. Vitesse 0. Votre Vitesse est de 0 et ne peut pas augmenter. Effet sur les attaques. Les jets d’attaque contre vous ont l’Avantage. Effet sur les jets de sauvegarde. Vous échouez automatiquement aux jets de sauvegarde de Force et de Dextérité. Coups critiques automatiques. Tout jet d’attaque qui vous touche est un Coup critique si l’attaquant est à 5 feet ou moins de vous. Dénué de conscience. Vous n’avez pas conscience de ce qui vous entoure.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.2024.unconscious.effects",
+      "en": "Inert. You have the Incapacitated and Prone conditions, and you drop whatever you’re holding. When this condition ends, you remain Prone. Speed 0. Your Speed is 0 and can’t increase. Attacks Affected. Attack rolls against you have Advantage. Saving Throws Affected. You automatically fail Strength and Dexterity saving throws. Automatic Critical Hits. Any attack roll that hits you is a Critical Hit if the attacker is within 5 feet of you. Unaware. You’re unaware of your surroundings.",
+      "fr": "Inerte. Vous subissez les états Neutralisé et À terre, et lâchez tout ce que vous tenez. Lorsque cet état prend fin, vous restez À terre. Vitesse 0. Votre Vitesse est de 0 et ne peut pas augmenter. Effet sur les attaques. Les jets d’attaque contre vous ont l’Avantage. Effet sur les jets de sauvegarde. Vous échouez automatiquement aux jets de sauvegarde de Force et de Dextérité. Coups critiques automatiques. Tout jet d’attaque qui vous touche est un Coup critique si l’attaquant est à 5 feet ou moins de vous. Dénué de conscience. Vous n’avez pas conscience de ce qui vous entoure.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.heading.0",
+      "kind": "term",
+      "en": "Can’t See.",
+      "fr": "Incapable de voir.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.heading.1",
+      "kind": "term",
+      "en": "Attacks Affected.",
+      "fr": "Effet sur les attaques.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.heading.2",
+      "kind": "term",
+      "en": "Can’t Harm the Charmer.",
+      "fr": "Ne pas nuire au charmeur.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.heading.3",
+      "kind": "term",
+      "en": "Social Advantage.",
+      "fr": "Interaction avec Avantage.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.heading.4",
+      "kind": "term",
+      "en": "Can’t Hear.",
+      "fr": "Incapable d’entendre.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.heading.5",
+      "kind": "term",
+      "en": "Exhaustion Levels.",
+      "fr": "Niveaux d’Épuisement.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.heading.6",
+      "kind": "term",
+      "en": "D20 Tests Affected.",
+      "fr": "Tests de d20 affectés.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.heading.7",
+      "kind": "term",
+      "en": "Speed Reduced.",
+      "fr": "Vitesse réduite.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.heading.8",
+      "kind": "term",
+      "en": "Removing Exhaustion Levels.",
+      "fr": "Supprimer des niveaux d’Épuisement.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.heading.9",
+      "kind": "term",
+      "en": "Ability Checks and Attacks Affected.",
+      "fr": "Effet sur les tests de caractéristique et les attaques.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.heading.10",
+      "kind": "term",
+      "en": "Can’t Approach.",
+      "fr": "Impossible d’approcher.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.heading.11",
+      "kind": "term",
+      "en": "Speed 0.",
+      "fr": "Vitesse 0.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.heading.12",
+      "kind": "term",
+      "en": "Movable.",
+      "fr": "Déplaçable.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.heading.13",
+      "kind": "term",
+      "en": "Inactive.",
+      "fr": "Inactif.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.heading.14",
+      "kind": "term",
+      "en": "No Concentration.",
+      "fr": "Concentration brisée.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.heading.15",
+      "kind": "term",
+      "en": "Speechless.",
+      "fr": "Sans voix.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.heading.16",
+      "kind": "term",
+      "en": "Surprised.",
+      "fr": "Surpris.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.heading.17",
+      "kind": "term",
+      "en": "Surprise.",
+      "fr": "Surprise.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.heading.18",
+      "kind": "term",
+      "en": "Concealed.",
+      "fr": "Dissimulé.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.heading.19",
+      "kind": "term",
+      "en": "Incapacitated.",
+      "fr": "Neutralisé.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.heading.20",
+      "kind": "term",
+      "en": "Saving Throws Affected.",
+      "fr": "Effet sur les jets de sauvegarde.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.heading.21",
+      "kind": "term",
+      "en": "Automatic Critical Hits.",
+      "fr": "Coups critiques automatiques.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.heading.22",
+      "kind": "term",
+      "en": "Turned to Inanimate Substance.",
+      "fr": "Transformé en substance inanimée.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.heading.23",
+      "kind": "term",
+      "en": "Resist Damage.",
+      "fr": "Résistance aux dégâts.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.heading.24",
+      "kind": "term",
+      "en": "Poison Immunity.",
+      "fr": "Immunité au poison.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.heading.25",
+      "kind": "term",
+      "en": "Restricted Movement.",
+      "fr": "Déplacement limité.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.heading.26",
+      "kind": "term",
+      "en": "Inert.",
+      "fr": "Inerte.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "conditions.heading.27",
+      "kind": "term",
+      "en": "Unaware.",
+      "fr": "Dénué de conscience.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "edition": "2024"
+    },
+    {
+      "id": "narrative.background.acolyte.any.1",
+      "en": "Acolytes study of the history, the tenets of their faith and their relationships to temples, shrines, or hierarchies affect their mannerisms and ideals. Their flaws might be some hidden hypocrisy or heretical idea, or an ideal or bond taken to an extreme.",
+      "edition": "any",
+      "fr": "L’étude de l’histoire, les préceptes de leur foi et leurs liens avec les temples, sanctuaires ou hiérarchies façonnent les manières et les idéaux des acolytes. Leurs défauts peuvent être une hypocrisie cachée, une idée hérétique ou un idéal ou un attachement poussé à l’extrême.",
+      "source": "Traduction proposée des descriptions visibles de Shard · Shard Player's Guide Volume 1, Shard Bestiary Volume 1 · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.background.acolyte.2024.1",
+      "en": "You devoted yourself to service in a temple, either nestled in a town or secluded in a sacred grove. There you performed rites in honor of a god or pantheon. You served under a priest and studied religion. Thanks to your priest’s instruction and your own devotion, you also learned how to channel a modicum of divine power in service to your place of worship and the people who prayed there.",
+      "edition": "2024",
+      "fr": "Vous vous êtes consacré au service d’un temple, au cœur d’une ville ou dans un bosquet sacré retiré. Vous y accomplissiez des rites en l’honneur d’un dieu ou d’un panthéon, sous l’autorité d’un prêtre auprès duquel vous étudiiez la religion. Grâce à ses enseignements et à votre dévotion, vous avez aussi appris à canaliser une parcelle de puissance divine pour servir votre lieu de culte et ses fidèles.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.background.artisan.2024.1",
+      "en": "You began mopping floors and scrubbing counters in an artisan’s workshop for a few coppers per day as soon as you were strong enough to carry a bucket. When you were old enough to apprentice, you learned to create basic crafts of your own, as well as how to sweet-talk the occasional demanding customer. Your trade has also given you a keen eye for detail.",
+      "edition": "2024",
+      "fr": "Dès que vous avez été assez fort pour porter un seau, vous avez commencé à laver les sols et les comptoirs d’un atelier pour quelques pièces de cuivre par jour. À l’âge de devenir apprenti, vous avez appris à fabriquer vos propres objets simples et à amadouer les clients exigeants. Votre métier vous a aussi donné un œil attentif aux détails.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.background.burglar.any.1",
+      "en": "Sneaking into and out of places is your trade. Second story work is second nature.",
+      "edition": "any",
+      "fr": "Entrer et sortir discrètement des lieux est votre métier. Vous introduire par les étages est devenu une seconde nature.",
+      "source": "Traduction proposée des descriptions visibles de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.background.charlatan.2024.1",
+      "en": "Once you were old enough to order an ale, you soon had a favorite stool in every tavern within ten miles of where you were born. As you traveled the circuit from public house to watering hole, you learned to prey on unfortunates who were in the market for a comforting lie or two—perhaps a sham potion or forged ancestry records.",
+      "edition": "2024",
+      "fr": "Dès que vous avez été assez âgé pour commander une bière, vous avez eu votre tabouret préféré dans chaque taverne à dix miles de votre lieu de naissance. En passant d’un débit de boisson à l’autre, vous avez appris à profiter des malheureux prêts à acheter un mensonge rassurant, comme une fausse potion ou des documents généalogiques falsifiés.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.background.criminal.2024.1",
+      "en": "You eked out a living in dark alleyways, cutting purses or burgling shops. Perhaps you were part of a small gang of like-minded wrongdoers who looked out for each other. Or maybe you were a lone wolf, fending for yourself against the local thieves’ guild and more fearsome lawbreakers.",
+      "edition": "2024",
+      "fr": "Vous gagniez péniblement votre vie dans les ruelles sombres, en coupant des bourses ou en cambriolant des boutiques. Vous faisiez peut-être partie d’une petite bande de malfaiteurs qui veillaient les uns sur les autres. Ou vous étiez un solitaire, obligé de vous défendre contre la guilde locale des voleurs et des criminels encore plus redoutables.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.background.deckhand.any.1",
+      "en": "There's nothing like sea life, the power of the oceans, the comradery of your crew. Being a Deckhand taught you that the world is bigger than yourself, you're quick to react and a loyal friend.",
+      "edition": "any",
+      "fr": "Rien ne vaut la vie en mer, la puissance des océans et la camaraderie de l’équipage. Votre expérience de matelot vous a appris que le monde est plus vaste que vous ; vous réagissez vite et êtes un ami fidèle.",
+      "source": "Traduction proposée des descriptions visibles de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.background.elite.any.1",
+      "en": "You are accustomed to dealing with the highest powers in the land, not easily intimidated, you are an excellent negotiator and a natural leader.",
+      "edition": "any",
+      "fr": "Habitué à côtoyer les plus hautes autorités du pays, vous êtes difficile à intimider. Vous êtes un excellent négociateur et un meneur naturel.",
+      "source": "Traduction proposée des descriptions visibles de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.background.entertainer.2024.1",
+      "en": "You spent much of your youth following roving fairs and carnivals, performing odd jobs for musicians and acrobats in exchange for lessons. You may have learned how to walk a tightrope, how to play a lute in a distinct style, or how to recite poetry with impeccable diction. To this day, you thrive on applause and long for the stage.",
+      "edition": "2024",
+      "fr": "Vous avez passé une grande partie de votre jeunesse à suivre les foires et les carnavals itinérants, travaillant pour des musiciens et des acrobates en échange de leçons. Vous avez peut-être appris à marcher sur un fil, à jouer du luth dans un style particulier ou à réciter des poèmes avec une diction impeccable. Aujourd’hui encore, les applaudissements vous transportent et la scène vous appelle.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.background.farmer.2024.1",
+      "en": "You grew up close to the land. Years tending animals and cultivating the earth rewarded you with patience and good health. You have a keen appreciation for nature’s bounty alongside a healthy respect for nature’s wrath.",
+      "edition": "2024",
+      "fr": "Vous avez grandi au contact de la terre. Des années à soigner les animaux et à cultiver les champs vous ont donné patience et bonne santé. Vous appréciez les bienfaits de la nature tout en respectant sa colère.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.background.guard.2024.1",
+      "en": "Your feet ache when you remember the countless hours you spent at your post in the tower. You were trained to keep one eye looking outside the wall, watching for marauders sweeping from the nearby forest, and your other eye looking inside the wall, searching for cutpurses and troublemakers.",
+      "edition": "2024",
+      "fr": "Vos pieds vous font encore mal au souvenir des innombrables heures passées à votre poste dans la tour. Vous avez appris à garder un œil au-delà des murs pour guetter les maraudeurs venus de la forêt voisine, et l’autre à l’intérieur pour repérer les coupe-bourses et les fauteurs de troubles.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.background.guide.2024.1",
+      "en": "You came of age outdoors, far from settled lands. Your home was anywhere you chose to spread your bedroll. There are wonders in the wilderness—strange monsters, pristine forests and streams, overgrown ruins of great halls once trod by giants—and you learned to fend for yourself as you explored them. From time to time, you guided friendly nature priests who instructed you in the fundamentals of channeling the magic of the wild.",
+      "edition": "2024",
+      "fr": "Vous avez grandi en plein air, loin des terres habitées. Votre foyer se trouvait là où vous étendiez votre sac de couchage. En explorant les merveilles de la nature sauvage — monstres étranges, forêts et cours d’eau préservés, ruines de grandes salles jadis foulées par des géants — vous avez appris à vous débrouiller seul. Vous guidiez parfois des prêtres bienveillants de la nature, qui vous enseignaient les bases de la magie sauvage.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.background.healer.any.1",
+      "en": "Healers are defined by their desire to aid and heal and their characteristics reflect these choices. Healers will not relish or deliberately seek to harm their fellow humanoids.",
+      "edition": "any",
+      "fr": "Les guérisseurs se définissent par leur volonté d’aider et de soigner, et leur personnalité reflète ces choix. Ils ne prennent pas plaisir à faire du mal aux autres humanoïdes et ne cherchent pas délibérément à les blesser.",
+      "source": "Traduction proposée des descriptions visibles de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.background.herbalist.any.1",
+      "en": "Herbalists are known for their free spirit and interest in the natural world, ever curious they pay great attention to their surroundings.",
+      "edition": "any",
+      "fr": "Les herboristes sont connus pour leur esprit libre et leur intérêt pour la nature. Toujours curieux, ils prêtent une grande attention à ce qui les entoure.",
+      "source": "Traduction proposée des descriptions visibles de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.background.hermit.2024.1",
+      "en": "You spent your early years secluded in a hut or monastery located well beyond the outskirts of the nearest settlement. In those days, your only companions were the creatures of the forest and those who would occasionally visit to bring news of the outside world and supplies. The solitude allowed you to spend many hours pondering the mysteries of creation.",
+      "edition": "2024",
+      "fr": "Vous avez passé vos premières années isolé dans une hutte ou un monastère, bien au-delà de la localité la plus proche. Vos seuls compagnons étaient alors les créatures de la forêt et les rares visiteurs qui vous apportaient des nouvelles du monde et des provisions. Cette solitude vous permettait de consacrer de longues heures aux mystères de la création.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.background.hunter.any.1",
+      "en": "You are one with the wilderness, attuned to the world around you, the wilderness is in your blood. A primal hunter, you have stalked every prey animal and been hunted by some of the fiercest predators. And you have survived the worst the elements could throw at you.",
+      "edition": "any",
+      "fr": "Vous ne faites qu’un avec la nature sauvage et êtes en harmonie avec le monde qui vous entoure. La vie sauvage coule dans votre sang. Chasseur primal, vous avez traqué toutes sortes de proies et avez vous-même été poursuivi par certains des prédateurs les plus féroces. Vous avez survécu aux pires épreuves des éléments.",
+      "source": "Traduction proposée des descriptions visibles de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.background.infantry.any.1",
+      "en": "The drudgery of the military paired with the terror and thrill of battle have marked you. You prefer organization and don't shy away from a fight.",
+      "edition": "any",
+      "fr": "La monotonie de la vie militaire, mêlée à la terreur et à l’exaltation des batailles, vous a marqué. Vous appréciez l’organisation et ne reculez pas devant un combat.",
+      "source": "Traduction proposée des descriptions visibles de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.background.merchant.2024.1",
+      "en": "You were apprenticed to a trader, caravan master, or shopkeeper, learning the fundamentals of commerce. You traveled broadly, and you earned a living by buying and selling the raw materials artisans need to practice their craft or finished works from such crafters. You might have transported goods from one place to another (by ship, wagon, or caravan) or bought them from traveling traders and sold them in your own shop.",
+      "edition": "2024",
+      "fr": "Vous avez fait votre apprentissage auprès d’un commerçant, d’un chef de caravane ou d’un boutiquier, qui vous a enseigné les bases du commerce. Vous avez beaucoup voyagé et gagné votre vie en achetant et vendant les matières premières des artisans ou leurs ouvrages achevés. Vous avez peut-être transporté des marchandises d’un lieu à l’autre, par navire, chariot ou caravane, ou les avez achetées à des marchands itinérants pour les revendre dans votre boutique.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.background.noble.2024.1",
+      "en": "You were raised in a castle, surrounded by wealth, power, and privilege. Your family of minor aristocrats ensured that you received a first-class education, some of which you appreciated and some of which you resented. Your time in the castle, especially the many hours you spent observing your family at court, also taught you a great deal about leadership.",
+      "edition": "2024",
+      "fr": "Vous avez grandi dans un château, entouré de richesse, de pouvoir et de privilèges. Votre famille de petite noblesse vous a offert une éducation de premier ordre, dont certains aspects vous plaisaient et d’autres vous pesaient. Votre vie au château, en particulier les longues heures passées à observer votre famille à la cour, vous a aussi beaucoup appris sur l’exercice de l’autorité.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.background.recluse.any.1",
+      "en": "You chose to flee civilization for a simpler and quieter life, living simply and at one with nature you have found inner peace and a communion with the plants and animals.",
+      "edition": "any",
+      "fr": "Vous avez choisi de fuir la civilisation pour une vie plus simple et plus calme. En vivant sobrement et en harmonie avec la nature, vous avez trouvé la paix intérieure et une communion avec les plantes et les animaux.",
+      "source": "Traduction proposée des descriptions visibles de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.background.researcher.any.1",
+      "en": "Your life has been dedicated to the libraries and laboratories of the world, you are highly analytical and a bit out of touch with dealing with actual people.",
+      "edition": "any",
+      "fr": "Vous avez consacré votre vie aux bibliothèques et aux laboratoires du monde. Très analytique, vous êtes un peu démuni lorsqu’il s’agit de côtoyer de vraies personnes.",
+      "source": "Traduction proposée des descriptions visibles de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.background.sage.2024.1",
+      "en": "You spent your formative years traveling between manors and monasteries, performing various odd jobs and services in exchange for access to their libraries. You whiled away many a long evening studying books and scrolls, learning the lore of the multiverse—even the rudiments of magic—and your mind yearns for more.",
+      "edition": "2024",
+      "fr": "Vous avez passé vos années de formation à voyager de manoir en monastère, accomplissant divers travaux et services en échange de l’accès à leurs bibliothèques. Vous avez consacré de longues soirées à l’étude des livres et des parchemins, découvrant les connaissances du multivers et même les rudiments de la magie. Votre esprit en réclame davantage.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.background.sailor.2024.1",
+      "en": "You lived as a seafarer, wind at your back and decks swaying beneath your feet. You’ve perched on barstools in more ports of call than you can remember, faced mighty storms, and swapped stories with folk who live beneath the waves.",
+      "edition": "2024",
+      "fr": "Vous avez vécu en marin, le vent dans le dos et le pont oscillant sous vos pieds. Vous vous êtes assis aux comptoirs de plus de ports que vous ne pouvez en compter, avez affronté de puissantes tempêtes et échangé des récits avec ceux qui vivent sous les vagues.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.background.scribe.2024.1",
+      "en": "You spent formative years in a scriptorium, a monastery dedicated to the preservation of knowledge, or a government agency, where you learned to write with a clear hand and produce finely written texts. Perhaps you scribed government documents or copied tomes of literature. You might have some skill as a writer of poetry, narrative, or scholarly research. Above all, you have a careful attention to detail, helping you avoid introducing mistakes to the documents you copy and create.",
+      "edition": "2024",
+      "fr": "Vous avez passé vos années de formation dans un scriptorium, un monastère voué à la préservation du savoir ou une administration, où vous avez appris à écrire lisiblement et à produire des textes soignés. Vous avez peut-être rédigé des documents officiels ou copié des ouvrages littéraires. Vous possédez aussi peut-être un talent pour la poésie, les récits ou la recherche savante. Vous accordez surtout une attention scrupuleuse aux détails, ce qui vous aide à éviter les erreurs dans les documents que vous copiez ou créez.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.background.snake-oil-seller.any.1",
+      "en": "Snake Oil Sellers are manipulators, but they truly believe their customers will benefit in some obscure way from their concoctions.",
+      "edition": "any",
+      "fr": "Les vendeurs de remèdes miracles sont manipulateurs, mais ils croient sincèrement que leurs concoctions apporteront un bénéfice, même obscur, à leurs clients.",
+      "source": "Traduction proposée des descriptions visibles de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.background.soldier.2024.1",
+      "en": "You began training for war as soon as you reached adulthood and carry precious few memories of life before you took up arms. Battle is in your blood. Sometimes you catch yourself reflexively performing the basic fighting exercises you learned first. Eventually, you put that training to use on the battlefield, protecting the realm by waging war.",
+      "edition": "2024",
+      "fr": "Vous avez commencé à vous préparer à la guerre dès l’âge adulte et ne gardez que de rares souvenirs de votre vie avant les armes. Le combat coule dans votre sang. Il vous arrive de répéter machinalement les premiers exercices de combat que vous avez appris. Vous avez fini par mettre cet entraînement en pratique sur les champs de bataille, protégeant le royaume en faisant la guerre.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.background.tourist.any.1",
+      "en": "Your heart is filled with wanderlust, the desire to see new things consumes you. You avidly observe strange and unique ways of life and compare them to your own existence. Your experiences give you a unique view of life and often lead you to innovative decisions and observations.",
+      "edition": "any",
+      "fr": "Votre cœur est rempli d’un désir de voyage et de découvertes. Vous observez avec enthousiasme les modes de vie étranges et singuliers, et les comparez à votre propre existence. Vos expériences vous donnent une vision originale de la vie et vous conduisent souvent à des observations et à des décisions novatrices.",
+      "source": "Traduction proposée des descriptions visibles de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.background.vaudevillian.any.1",
+      "en": "A flamboyant character with a zeal for life, always willing to take on an impromptu role or provide the distraction.",
+      "edition": "any",
+      "fr": "Personnage flamboyant débordant de joie de vivre, vous êtes toujours prêt à improviser un rôle ou à faire diversion.",
+      "source": "Traduction proposée des descriptions visibles de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.background.wayfarer.2024.1",
+      "en": "You grew up on the streets surrounded by similarly ill-fated castoffs, a few of them friends and a few of them rivals. You slept where you could and did odd jobs for food. At times, when the hunger became unbearable, you resorted to theft. Still, you never lost your pride and never abandoned hope. Fate is not yet finished with you.",
+      "edition": "2024",
+      "fr": "Vous avez grandi dans la rue, parmi d’autres laissés-pour-compte aussi malchanceux que vous, certains amis et d’autres rivaux. Vous dormiez où vous pouviez et faisiez de petits travaux pour vous nourrir. Lorsque la faim devenait insupportable, vous recouriez parfois au vol. Pourtant, vous n’avez jamais perdu votre fierté ni abandonné l’espoir. Le destin n’en a pas encore fini avec vous.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.name.burglar",
+      "kind": "term",
+      "en": "Burglar",
+      "fr": "Cambrioleur",
+      "edition": "any",
+      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.name.deckhand",
+      "kind": "term",
+      "en": "Deckhand",
+      "fr": "Matelot",
+      "edition": "any",
+      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.name.elite",
+      "kind": "term",
+      "en": "Elite",
+      "fr": "Notable",
+      "edition": "any",
+      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.name.herbalist",
+      "kind": "term",
+      "en": "Herbalist",
+      "fr": "Herboriste",
+      "edition": "any",
+      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.name.infantry",
+      "kind": "term",
+      "en": "Infantry",
+      "fr": "Fantassin",
+      "edition": "any",
+      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.name.recluse",
+      "kind": "term",
+      "en": "Recluse",
+      "fr": "Reclus",
+      "edition": "any",
+      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.name.researcher",
+      "kind": "term",
+      "en": "Researcher",
+      "fr": "Chercheur",
+      "edition": "any",
+      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.name.snake-oil-seller",
+      "kind": "term",
+      "en": "Snake Oil Seller",
+      "fr": "Vendeur de remèdes miracles",
+      "edition": "any",
+      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.name.tourist",
+      "kind": "term",
+      "en": "Tourist",
+      "fr": "Touriste",
+      "edition": "any",
+      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.name.vaudevillian",
+      "kind": "term",
+      "en": "Vaudevillian",
+      "fr": "Artiste de variétés",
+      "edition": "any",
+      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "creature-type.giants",
+      "kind": "term",
+      "en": "Giants",
+      "fr": "Géants",
+      "source": "Pluriel du type de créature Giant du lexique commun · terminologie AideDD",
+      "edition": "any"
     }
   ]
 }

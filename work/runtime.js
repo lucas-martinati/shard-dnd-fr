@@ -120,6 +120,7 @@
         }
         if (key === 'light' && /(?:slashing|piercing|bludgeoning|tranchant|perforant|contondant|armor|armure|finesse|two-handed|à deux mains|light weapon|arme légère)/i.test(context)) return 'Légère';
         if (key === 'slow' && weaponMasteryContext(context)) return 'Ralentissement';
+        if (key === 'versatile' && weaponMasteryContext(context)) return 'Polyvalente';
         if (key === 'save' && /\b(?:STR|DEX|CON|INT|WIS|CHA|FOR|SAG)\s*(?:DC|DD|[0-9])/i.test(context)) return 'Sauvegarde';
       }
       if (entry.fr === entry.en) return /^[A-Z]{2,4}$/.test(entry.fr) ? entry.fr : matched;
@@ -171,7 +172,7 @@
     const original = prev && current === prev.output ? prev.original : current;
     // Contexte court seulement : ne pas confondre le sort Lumière avec une propriété d’arme.
     let context = original;
-    if (/\b(light|slow|save|tough|piercer)\b/i.test(original) && original.length < 100) {
+    if (/\b(light|slow|save|tough|piercer|versatile)\b/i.test(original) && original.length < 100) {
       let el=node.parentElement;
       for (let depth=0; el && depth<(/\bslow\b/i.test(original)?4:3); depth++,el=el.parentElement) {
         if (el.textContent.length > (/\bslow\b/i.test(original)?600:240) || el.matches('button,[role="button"]')) break;
@@ -540,6 +541,17 @@
     return completePairs.get(key)||(aideddInline?inlinePairs.get(key):null);
   }
   function originalNode(node){const state=tokenState.get(node);return state&&node.data===state.output?state.original:node.data;}
+  let headingRevision=-1,headingEntries=new Map();
+  function knownHeading(source){
+    const match=/^\s*(.{1,150}?)[.:]\s*$/.exec(source);if(!match)return null;
+    if(headingRevision!==revision){headingEntries=new Map([...entries.values()].filter(e=>e.en.length<=150).map(e=>[inlineKey(e.en),e]));headingRevision=revision;}
+    return headingEntries.get(inlineKey(match[1]));
+  }
+  function translateHeading(source,context=source){
+    const entry=knownHeading(source);if(!entry)return null;
+    const punctuation=/([.:])\s*$/.exec(source)[1];
+    return source.match(/^\s*/)[0]+translate(entry.en,context)+punctuation+source.match(/\s*$/)[0];
+  }
   function blockNodes(el){
     const nodes=[], walker=document.createTreeWalker(el,NodeFilter.SHOW_TEXT,{acceptNode:n=>excluded(n.parentElement)?NodeFilter.FILTER_REJECT:NodeFilter.FILTER_ACCEPT});
     let n;while((n=walker.nextNode()))nodes.push(n);return nodes;
@@ -580,10 +592,10 @@
       if(n.nodeType!==1||excluded(n))return;
       const boundary=n!==el&&/^(BR|P|DIV|LI|TD|TH)$/.test(n.tagName);
       if(boundary)current=null;
-      if(/^(B|STRONG)$/.test(n.tagName)&&!n.closest('a,button,[role="button"],.dodieroll,[onclick]')){
+      if(n.matches('b,strong,.b')&&!n.closest('a,button,[role="button"],.dodieroll,[onclick]')){
         const label=blockEnglish(n).trim(),before=current?.nodes.map(originalNode).join('')||'';
         const punctuation=/[.:]$/.test(label)||/^[.:]/.test(n.nextSibling?.textContent||'');
-        if(punctuation&&(!before.trim()||/[.!?:]\s*$/.test(before))&&(lookupPair(inlineKey(label))||lookupPair(inlineKey(label+'.'))))current=null;
+        if(punctuation&&(!before.trim()||/[.!?:]\s*$/.test(before))&&(lookupPair(inlineKey(label))||lookupPair(inlineKey(label+'.'))||knownHeading(label)||knownHeading(label+'.')))current=null;
       }
       for(const child of n.childNodes)visit(child);
       if(boundary)current=null;
@@ -598,7 +610,7 @@
   }
   function processInlineNodes(el,nodes,source,visualGroups=null){
     if(nodes.some(n=>maintainInline(n)))return;
-    const key=inlineKey(source),translated=lookupPair(key)||translateDuration(source)||translateCompleteBlock(source);
+    const key=inlineKey(source),translated=lookupPair(key)||translateDuration(source)||translateHeading(source,blockEnglish(el))||translateCompleteBlock(source);
     const fr=translated&&preserveFeet(source,translated);
     if(!fr||customKeys.has(normalize(source))||nodes.some(n=>customKeys.has(normalize(originalNode(n)))))return;
     // Conserver chaque élément interactif et ses gestionnaires. Seuls les nœuds texte changent.
@@ -615,7 +627,7 @@
     }
     const formatted=[];
     for(const node of nodes){
-      const owner=node.parentElement.closest('strong,b,em,i,u,mark');
+      const owner=node.parentElement.closest('strong,b,em,i,u,mark,.b,.i');
       if(!owner||owner===el||!el.contains(owner)||formatted.includes(owner)||protectedElements.some(p=>p.contains(owner)||owner.contains(p)))continue;
       const en=nodes.filter(n=>owner.contains(n)).map(originalNode).join('');
       if(inlineVariants(en).some(value=>value&&new RegExp(pattern(value),'iu').test(fr)))formatted.push(owner);
@@ -839,7 +851,7 @@
     if(!changed)return null;
     for(const piece of pieces)if(piece.en){
       if(!/\p{L}/u.test(piece.en)){piece.fr=piece.en;continue;}
-      const translated=translate(piece.en,source);if(inlineKey(translated)===inlineKey(piece.en))return null;piece.fr=translated;
+      const translated=translateHeading(piece.en,source)||translate(piece.en,source);if(inlineKey(translated)===inlineKey(piece.en))return null;piece.fr=translated;
     }
     return pieces.map(p=>p.fr).join(' ');
   }

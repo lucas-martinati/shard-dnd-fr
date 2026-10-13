@@ -1,0 +1,1828 @@
+{
+  "date": "2026-10-13",
+  "source": "Catalogues Shard du compte connecté : D&D 2024 PHB et Shard Player’s Guide Volume 1 ; descriptions de présentation, pas toutes les aptitudes de sous-classe",
+  "fiches": [
+    {
+      "id": "catalogue.1",
+      "type": "species",
+      "category": "especes",
+      "name": "Aasimar",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.species.aasimar.2024.1",
+        "narrative.species.aasimar.2024.2",
+        "narrative.species.aasimar.2024.3"
+      ]
+    },
+    {
+      "id": "catalogue.2",
+      "type": "species",
+      "category": "especes",
+      "name": "Dragonborn",
+      "edition": "any",
+      "source": "Source.  Shard Player's Guide Volume 1  ",
+      "paragraphes": [
+        "narrative.species.dragonborn.any.1"
+      ]
+    },
+    {
+      "id": "catalogue.3",
+      "type": "species",
+      "category": "especes",
+      "name": "Dragonborn",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.species.dragonborn.2024.1",
+        "narrative.species.dragonborn.2024.2"
+      ]
+    },
+    {
+      "id": "catalogue.4",
+      "type": "species",
+      "category": "especes",
+      "name": "Dwarf",
+      "edition": "any",
+      "source": "Source.  Shard Player's Guide Volume 1  ",
+      "paragraphes": [
+        "narrative.species.dwarf.any.1"
+      ]
+    },
+    {
+      "id": "catalogue.5",
+      "type": "species",
+      "category": "especes",
+      "name": "Dwarf",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.species.dwarf.2024.1",
+        "narrative.species.dwarf.2024.2",
+        "narrative.species.dwarf.2024.3"
+      ]
+    },
+    {
+      "id": "catalogue.6",
+      "type": "species",
+      "category": "especes",
+      "name": "Elf",
+      "edition": "any",
+      "source": "Source.  Shard Player's Guide Volume 1  ",
+      "paragraphes": [
+        "narrative.species.elf.any.1"
+      ]
+    },
+    {
+      "id": "catalogue.7",
+      "type": "species",
+      "category": "especes",
+      "name": "Elf",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.species.elf.2024.1",
+        "narrative.species.elf.2024.2"
+      ]
+    },
+    {
+      "id": "catalogue.8",
+      "type": "species",
+      "category": "especes",
+      "name": "Gnome",
+      "edition": "any",
+      "source": "Source.  Shard Player's Guide Volume 1  ",
+      "paragraphes": [
+        "narrative.species.gnome.any.1"
+      ]
+    },
+    {
+      "id": "catalogue.9",
+      "type": "species",
+      "category": "especes",
+      "name": "Gnome",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.species.gnome.2024.1",
+        "narrative.species.gnome.2024.2"
+      ]
+    },
+    {
+      "id": "catalogue.10",
+      "type": "species",
+      "category": "especes",
+      "name": "Goliath",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.species.goliath.2024.1",
+        "narrative.species.goliath.2024.2"
+      ]
+    },
+    {
+      "id": "catalogue.11",
+      "type": "species",
+      "category": "especes",
+      "name": "Half-Elf",
+      "edition": "any",
+      "source": "Source.  Shard Player's Guide Volume 1  ",
+      "paragraphes": [
+        "narrative.species.half-elf.any.1"
+      ]
+    },
+    {
+      "id": "catalogue.12",
+      "type": "species",
+      "category": "especes",
+      "name": "Half-Orc",
+      "edition": "any",
+      "source": "Source.  Shard Player's Guide Volume 1  ",
+      "paragraphes": [
+        "narrative.species.half-orc.any.1"
+      ]
+    },
+    {
+      "id": "catalogue.13",
+      "type": "species",
+      "category": "especes",
+      "name": "Halfling",
+      "edition": "any",
+      "source": "Source.  Shard Player's Guide Volume 1  ",
+      "paragraphes": [
+        "narrative.species.halfling.any.1"
+      ]
+    },
+    {
+      "id": "catalogue.14",
+      "type": "species",
+      "category": "especes",
+      "name": "Halfling",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.species.halfling.2024.1",
+        "narrative.species.halfling.2024.2",
+        "narrative.species.halfling.2024.3",
+        "narrative.species.halfling.2024.4"
+      ]
+    },
+    {
+      "id": "catalogue.15",
+      "type": "species",
+      "category": "especes",
+      "name": "Human",
+      "edition": "any",
+      "source": "Source.  Shard Player's Guide Volume 1  ",
+      "paragraphes": [
+        "narrative.species.human.any.1"
+      ]
+    },
+    {
+      "id": "catalogue.16",
+      "type": "species",
+      "category": "especes",
+      "name": "Human",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.species.human.2024.1",
+        "narrative.species.human.2024.2"
+      ]
+    },
+    {
+      "id": "catalogue.17",
+      "type": "species",
+      "category": "especes",
+      "name": "Orc",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.species.orc.2024.1",
+        "narrative.species.orc.2024.2"
+      ]
+    },
+    {
+      "id": "catalogue.18",
+      "type": "species",
+      "category": "especes",
+      "name": "Tiefling",
+      "edition": "any",
+      "source": "Source.  Shard Player's Guide Volume 1  ",
+      "paragraphes": [
+        "narrative.species.tiefling.any.1"
+      ]
+    },
+    {
+      "id": "catalogue.19",
+      "type": "species",
+      "category": "especes",
+      "name": "Tiefling",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.species.tiefling.2024.1"
+      ]
+    },
+    {
+      "id": "catalogue.20",
+      "type": "subspecies",
+      "category": "especes",
+      "name": "Abyssal Tiefling",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subspecies.abyssal-tiefling.2024.1"
+      ]
+    },
+    {
+      "id": "catalogue.21",
+      "type": "subspecies",
+      "category": "especes",
+      "name": "Black Dragonborn",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subspecies.black-dragonborn.2024.1"
+      ]
+    },
+    {
+      "id": "catalogue.22",
+      "type": "subspecies",
+      "category": "especes",
+      "name": "Blue Dragonborn",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subspecies.blue-dragonborn.2024.1"
+      ]
+    },
+    {
+      "id": "catalogue.23",
+      "type": "subspecies",
+      "category": "especes",
+      "name": "Brass Dragonborn",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subspecies.brass-dragonborn.2024.1"
+      ]
+    },
+    {
+      "id": "catalogue.24",
+      "type": "subspecies",
+      "category": "especes",
+      "name": "Bronze Dragonborn",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subspecies.bronze-dragonborn.2024.1"
+      ]
+    },
+    {
+      "id": "catalogue.25",
+      "type": "subspecies",
+      "category": "especes",
+      "name": "Cavern Dwarf",
+      "edition": "any",
+      "source": "Source.  Shard Player's Guide Volume 1  ",
+      "paragraphes": [
+        "narrative.subspecies.cavern-dwarf.any.1"
+      ]
+    },
+    {
+      "id": "catalogue.26",
+      "type": "subspecies",
+      "category": "especes",
+      "name": "Chthonic Tiefling",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subspecies.chthonic-tiefling.2024.1"
+      ]
+    },
+    {
+      "id": "catalogue.27",
+      "type": "subspecies",
+      "category": "especes",
+      "name": "Cloud Goliath",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "species.goliath.origin.cloud"
+      ]
+    },
+    {
+      "id": "catalogue.28",
+      "type": "subspecies",
+      "category": "especes",
+      "name": "Copper Dragonborn",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subspecies.copper-dragonborn.2024.1"
+      ]
+    },
+    {
+      "id": "catalogue.29",
+      "type": "subspecies",
+      "category": "especes",
+      "name": "Drow",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subspecies.drow.2024.1"
+      ]
+    },
+    {
+      "id": "catalogue.30",
+      "type": "subspecies",
+      "category": "especes",
+      "name": "Fire Goliath",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "species.goliath.origin.fire"
+      ]
+    },
+    {
+      "id": "catalogue.31",
+      "type": "subspecies",
+      "category": "especes",
+      "name": "Forest Gnome",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subspecies.forest-gnome.2024.1"
+      ]
+    },
+    {
+      "id": "catalogue.32",
+      "type": "subspecies",
+      "category": "especes",
+      "name": "Frost Goliath",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "species.goliath.origin.frost"
+      ]
+    },
+    {
+      "id": "catalogue.33",
+      "type": "subspecies",
+      "category": "especes",
+      "name": "Gold Dragonborn",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subspecies.gold-dragonborn.2024.1"
+      ]
+    },
+    {
+      "id": "catalogue.34",
+      "type": "subspecies",
+      "category": "especes",
+      "name": "Green Dragonborn",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subspecies.green-dragonborn.2024.1"
+      ]
+    },
+    {
+      "id": "catalogue.35",
+      "type": "subspecies",
+      "category": "especes",
+      "name": "Green Halfling",
+      "edition": "any",
+      "source": "Source.  Shard Player's Guide Volume 1  ",
+      "paragraphes": [
+        "narrative.subspecies.green-halfling.any.1"
+      ]
+    },
+    {
+      "id": "catalogue.36",
+      "type": "subspecies",
+      "category": "especes",
+      "name": "High Elf",
+      "edition": "any",
+      "source": "Source.  Shard Player's Guide Volume 1  ",
+      "paragraphes": []
+    },
+    {
+      "id": "catalogue.37",
+      "type": "subspecies",
+      "category": "especes",
+      "name": "High Elf",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subspecies.high-elf.2024.1"
+      ]
+    },
+    {
+      "id": "catalogue.38",
+      "type": "subspecies",
+      "category": "especes",
+      "name": "Hill Dwarf",
+      "edition": "any",
+      "source": "Source.  Shard Player's Guide Volume 1  ",
+      "paragraphes": [
+        "narrative.subspecies.hill-dwarf.any.1"
+      ]
+    },
+    {
+      "id": "catalogue.39",
+      "type": "subspecies",
+      "category": "especes",
+      "name": "Hill Goliath",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "species.goliath.origin.hill"
+      ]
+    },
+    {
+      "id": "catalogue.40",
+      "type": "subspecies",
+      "category": "especes",
+      "name": "Infernal Tiefling",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subspecies.infernal-tiefling.2024.1"
+      ]
+    },
+    {
+      "id": "catalogue.41",
+      "type": "subspecies",
+      "category": "especes",
+      "name": "Lightfoot Halfling",
+      "edition": "any",
+      "source": "Source.  Shard Player's Guide Volume 1  ",
+      "paragraphes": []
+    },
+    {
+      "id": "catalogue.42",
+      "type": "subspecies",
+      "category": "especes",
+      "name": "Red Dragonborn",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subspecies.red-dragonborn.2024.1"
+      ]
+    },
+    {
+      "id": "catalogue.43",
+      "type": "subspecies",
+      "category": "especes",
+      "name": "Rock Gnome",
+      "edition": "any",
+      "source": "Source.  Shard Player's Guide Volume 1  ",
+      "paragraphes": []
+    },
+    {
+      "id": "catalogue.44",
+      "type": "subspecies",
+      "category": "especes",
+      "name": "Rock Gnome",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subspecies.rock-gnome.2024.1"
+      ]
+    },
+    {
+      "id": "catalogue.45",
+      "type": "subspecies",
+      "category": "especes",
+      "name": "Silver Dragonborn",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subspecies.silver-dragonborn.2024.1"
+      ]
+    },
+    {
+      "id": "catalogue.46",
+      "type": "subspecies",
+      "category": "especes",
+      "name": "Stone Goliath",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "species.goliath.origin.stone"
+      ]
+    },
+    {
+      "id": "catalogue.47",
+      "type": "subspecies",
+      "category": "especes",
+      "name": "Storm Goliath",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "species.goliath.origin.storm"
+      ]
+    },
+    {
+      "id": "catalogue.48",
+      "type": "subspecies",
+      "category": "especes",
+      "name": "Sylvan Gnome",
+      "edition": "any",
+      "source": "Source.  Shard Player's Guide Volume 1  ",
+      "paragraphes": [
+        "narrative.subspecies.sylvan-gnome.any.1"
+      ]
+    },
+    {
+      "id": "catalogue.49",
+      "type": "subspecies",
+      "category": "especes",
+      "name": "Variant Human",
+      "edition": "any",
+      "source": "Source.  Shard Player's Guide Volume 1  ",
+      "paragraphes": []
+    },
+    {
+      "id": "catalogue.50",
+      "type": "subspecies",
+      "category": "especes",
+      "name": "White Dragonborn",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subspecies.white-dragonborn.2024.1"
+      ]
+    },
+    {
+      "id": "catalogue.51",
+      "type": "subspecies",
+      "category": "especes",
+      "name": "Wood Elf",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subspecies.wood-elf.2024.1"
+      ]
+    },
+    {
+      "id": "catalogue.52",
+      "type": "subspecies",
+      "category": "especes",
+      "name": "Woodland Elf",
+      "edition": "any",
+      "source": "Source.  Shard Player's Guide Volume 1  ",
+      "paragraphes": [
+        "narrative.subspecies.woodland-elf.any.1"
+      ]
+    },
+    {
+      "id": "catalogue.53",
+      "type": "class",
+      "category": "classes",
+      "name": "Barbarian",
+      "edition": "any",
+      "source": "Source.  Shard Player's Guide Volume 1  ",
+      "paragraphes": [
+        "narrative.class.barbarian.any.1",
+        "narrative.class.barbarian.any.2"
+      ]
+    },
+    {
+      "id": "catalogue.54",
+      "type": "class",
+      "category": "classes",
+      "name": "Barbarian",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.class.barbarian.any.1",
+        "narrative.class.barbarian.any.2"
+      ]
+    },
+    {
+      "id": "catalogue.55",
+      "type": "class",
+      "category": "classes",
+      "name": "Bard",
+      "edition": "any",
+      "source": "Source.  Shard Player's Guide Volume 1  ",
+      "paragraphes": [
+        "narrative.class.bard.any.1",
+        "narrative.class.bard.any.2"
+      ]
+    },
+    {
+      "id": "catalogue.56",
+      "type": "class",
+      "category": "classes",
+      "name": "Bard",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.class.bard.2024.1"
+      ]
+    },
+    {
+      "id": "catalogue.57",
+      "type": "class",
+      "category": "classes",
+      "name": "Cleric",
+      "edition": "any",
+      "source": "Source.  Shard Player's Guide Volume 1  ",
+      "paragraphes": [
+        "narrative.class.cleric.any.1",
+        "narrative.class.cleric.any.2"
+      ]
+    },
+    {
+      "id": "catalogue.58",
+      "type": "class",
+      "category": "classes",
+      "name": "Cleric",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.class.cleric.any.1",
+        "narrative.class.cleric.any.2"
+      ]
+    },
+    {
+      "id": "catalogue.59",
+      "type": "class",
+      "category": "classes",
+      "name": "Druid",
+      "edition": "any",
+      "source": "Source.  Shard Player's Guide Volume 1  ",
+      "paragraphes": [
+        "narrative.class.druid.any.1",
+        "narrative.class.druid.any.2"
+      ]
+    },
+    {
+      "id": "catalogue.60",
+      "type": "class",
+      "category": "classes",
+      "name": "Druid",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.class.druid.any.1",
+        "narrative.class.druid.any.2"
+      ]
+    },
+    {
+      "id": "catalogue.61",
+      "type": "class",
+      "category": "classes",
+      "name": "Fighter",
+      "edition": "any",
+      "source": "Source.  Shard Player's Guide Volume 1  ",
+      "paragraphes": [
+        "narrative.class.fighter.any.1",
+        "narrative.class.fighter.any.2"
+      ]
+    },
+    {
+      "id": "catalogue.62",
+      "type": "class",
+      "category": "classes",
+      "name": "Fighter",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.class.fighter.any.1",
+        "narrative.class.fighter.any.2"
+      ]
+    },
+    {
+      "id": "catalogue.63",
+      "type": "class",
+      "category": "classes",
+      "name": "Monk",
+      "edition": "any",
+      "source": "Source.  Shard Player's Guide Volume 1  ",
+      "paragraphes": [
+        "narrative.class.monk.any.1",
+        "narrative.class.monk.any.2"
+      ]
+    },
+    {
+      "id": "catalogue.64",
+      "type": "class",
+      "category": "classes",
+      "name": "Monk",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.class.monk.any.1",
+        "narrative.class.monk.any.2"
+      ]
+    },
+    {
+      "id": "catalogue.65",
+      "type": "class",
+      "category": "classes",
+      "name": "Paladin",
+      "edition": "any",
+      "source": "Source.  Shard Player's Guide Volume 1  ",
+      "paragraphes": [
+        "narrative.class.paladin.any.1",
+        "narrative.class.paladin.any.2"
+      ]
+    },
+    {
+      "id": "catalogue.66",
+      "type": "class",
+      "category": "classes",
+      "name": "Paladin",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.class.paladin.any.1",
+        "narrative.class.paladin.any.2"
+      ]
+    },
+    {
+      "id": "catalogue.67",
+      "type": "class",
+      "category": "classes",
+      "name": "Ranger",
+      "edition": "any",
+      "source": "Source.  Shard Player's Guide Volume 1  ",
+      "paragraphes": [
+        "narrative.class.ranger.any.1",
+        "narrative.class.ranger.any.2"
+      ]
+    },
+    {
+      "id": "catalogue.68",
+      "type": "class",
+      "category": "classes",
+      "name": "Ranger",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.class.ranger.any.1",
+        "narrative.class.ranger.2024.2"
+      ]
+    },
+    {
+      "id": "catalogue.69",
+      "type": "class",
+      "category": "classes",
+      "name": "Rogue",
+      "edition": "any",
+      "source": "Source.  Shard Player's Guide Volume 1  ",
+      "paragraphes": [
+        "narrative.class.rogue.any.1"
+      ]
+    },
+    {
+      "id": "catalogue.70",
+      "type": "class",
+      "category": "classes",
+      "name": "Rogue",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.class.rogue.any.1"
+      ]
+    },
+    {
+      "id": "catalogue.71",
+      "type": "class",
+      "category": "classes",
+      "name": "Sorcerer",
+      "edition": "any",
+      "source": "Source.  Shard Player's Guide Volume 1  ",
+      "paragraphes": [
+        "narrative.class.sorcerer.any.1"
+      ]
+    },
+    {
+      "id": "catalogue.72",
+      "type": "class",
+      "category": "classes",
+      "name": "Sorcerer",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.class.sorcerer.any.1"
+      ]
+    },
+    {
+      "id": "catalogue.73",
+      "type": "class",
+      "category": "classes",
+      "name": "Warlock",
+      "edition": "any",
+      "source": "Source.  Shard Player's Guide Volume 1  ",
+      "paragraphes": [
+        "narrative.class.warlock.any.1"
+      ]
+    },
+    {
+      "id": "catalogue.74",
+      "type": "class",
+      "category": "classes",
+      "name": "Warlock",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.class.warlock.any.1"
+      ]
+    },
+    {
+      "id": "catalogue.75",
+      "type": "class",
+      "category": "classes",
+      "name": "Wizard",
+      "edition": "any",
+      "source": "Source.  Shard Player's Guide Volume 1  ",
+      "paragraphes": [
+        "narrative.class.wizard.any.1"
+      ]
+    },
+    {
+      "id": "catalogue.76",
+      "type": "class",
+      "category": "classes",
+      "name": "Wizard",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.class.wizard.any.1"
+      ]
+    },
+    {
+      "id": "catalogue.77",
+      "type": "subclass",
+      "category": "classes",
+      "name": "Path of the Berserker",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subclass.path-of-the-berserker.2024.1",
+        "narrative.subclass.path-of-the-berserker.2024.2"
+      ],
+      "class": "Barbarian"
+    },
+    {
+      "id": "catalogue.78",
+      "type": "subclass",
+      "category": "classes",
+      "name": "Path of the Wild Heart",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subclass.path-of-the-wild-heart.2024.1",
+        "narrative.subclass.path-of-the-wild-heart.2024.2"
+      ],
+      "class": "Barbarian"
+    },
+    {
+      "id": "catalogue.79",
+      "type": "subclass",
+      "category": "classes",
+      "name": "Path of the World Tree",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subclass.path-of-the-world-tree.2024.1",
+        "narrative.subclass.path-of-the-world-tree.2024.2"
+      ],
+      "class": "Barbarian"
+    },
+    {
+      "id": "catalogue.80",
+      "type": "subclass",
+      "category": "classes",
+      "name": "Path of the Zealot",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subclass.path-of-the-zealot.2024.1",
+        "narrative.subclass.path-of-the-zealot.2024.2"
+      ],
+      "class": "Barbarian"
+    },
+    {
+      "id": "catalogue.81",
+      "type": "subclass",
+      "category": "classes",
+      "name": "College of Dance",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subclass.college-of-dance.2024.1",
+        "narrative.subclass.college-of-dance.2024.2"
+      ],
+      "class": "Bard"
+    },
+    {
+      "id": "catalogue.82",
+      "type": "subclass",
+      "category": "classes",
+      "name": "College of Glamour",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subclass.college-of-glamour.2024.1",
+        "narrative.subclass.college-of-glamour.2024.2"
+      ],
+      "class": "Bard"
+    },
+    {
+      "id": "catalogue.83",
+      "type": "subclass",
+      "category": "classes",
+      "name": "College of Lore",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subclass.college-of-lore.2024.1",
+        "narrative.subclass.college-of-lore.2024.2"
+      ],
+      "class": "Bard"
+    },
+    {
+      "id": "catalogue.84",
+      "type": "subclass",
+      "category": "classes",
+      "name": "College of Valor",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subclass.college-of-valor.2024.1",
+        "narrative.subclass.college-of-valor.2024.2"
+      ],
+      "class": "Bard"
+    },
+    {
+      "id": "catalogue.85",
+      "type": "subclass",
+      "category": "classes",
+      "name": "Life Domain",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subclass.life-domain.2024.1",
+        "narrative.subclass.life-domain.2024.2",
+        "narrative.subclass.life-domain.2024.3"
+      ],
+      "class": "Cleric"
+    },
+    {
+      "id": "catalogue.86",
+      "type": "subclass",
+      "category": "classes",
+      "name": "Light Domain",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subclass.light-domain.2024.1",
+        "narrative.subclass.light-domain.2024.2",
+        "narrative.subclass.light-domain.2024.3"
+      ],
+      "class": "Cleric"
+    },
+    {
+      "id": "catalogue.87",
+      "type": "subclass",
+      "category": "classes",
+      "name": "Trickery Domain",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subclass.trickery-domain.2024.1",
+        "narrative.subclass.trickery-domain.2024.2",
+        "narrative.subclass.trickery-domain.2024.3"
+      ],
+      "class": "Cleric"
+    },
+    {
+      "id": "catalogue.88",
+      "type": "subclass",
+      "category": "classes",
+      "name": "War Domain",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subclass.war-domain.2024.1",
+        "narrative.subclass.war-domain.2024.2",
+        "narrative.subclass.war-domain.2024.3"
+      ],
+      "class": "Cleric"
+    },
+    {
+      "id": "catalogue.89",
+      "type": "subclass",
+      "category": "classes",
+      "name": "Circle of the Land",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subclass.circle-of-the-land.2024.1",
+        "narrative.subclass.circle-of-the-land.2024.2"
+      ],
+      "class": "Druid"
+    },
+    {
+      "id": "catalogue.90",
+      "type": "subclass",
+      "category": "classes",
+      "name": "Circle of the Moon",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subclass.circle-of-the-moon.2024.1",
+        "narrative.subclass.circle-of-the-moon.2024.2",
+        "narrative.subclass.circle-of-the-moon.2024.3"
+      ],
+      "class": "Druid"
+    },
+    {
+      "id": "catalogue.91",
+      "type": "subclass",
+      "category": "classes",
+      "name": "Circle of the Sea",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subclass.circle-of-the-sea.2024.1",
+        "narrative.subclass.circle-of-the-sea.2024.2"
+      ],
+      "class": "Druid"
+    },
+    {
+      "id": "catalogue.92",
+      "type": "subclass",
+      "category": "classes",
+      "name": "Circle of the Stars",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subclass.circle-of-the-stars.2024.1",
+        "narrative.subclass.circle-of-the-stars.2024.2"
+      ],
+      "class": "Druid"
+    },
+    {
+      "id": "catalogue.93",
+      "type": "subclass",
+      "category": "classes",
+      "name": "Battle Master",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subclass.battle-master.2024.1",
+        "narrative.subclass.battle-master.2024.2"
+      ],
+      "class": "Fighter"
+    },
+    {
+      "id": "catalogue.94",
+      "type": "subclass",
+      "category": "classes",
+      "name": "Champion",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subclass.champion.2024.1",
+        "narrative.subclass.champion.2024.2"
+      ],
+      "class": "Fighter"
+    },
+    {
+      "id": "catalogue.95",
+      "type": "subclass",
+      "category": "classes",
+      "name": "Eldritch Knight",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subclass.eldritch-knight.2024.1",
+        "narrative.subclass.eldritch-knight.2024.2"
+      ],
+      "class": "Fighter"
+    },
+    {
+      "id": "catalogue.96",
+      "type": "subclass",
+      "category": "classes",
+      "name": "Psi Warrior",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subclass.psi-warrior.2024.1",
+        "narrative.subclass.psi-warrior.2024.2"
+      ],
+      "class": "Fighter"
+    },
+    {
+      "id": "catalogue.97",
+      "type": "subclass",
+      "category": "classes",
+      "name": "Warrior of Mercy",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subclass.warrior-of-mercy.2024.1",
+        "narrative.subclass.warrior-of-mercy.2024.2"
+      ],
+      "class": "Monk"
+    },
+    {
+      "id": "catalogue.98",
+      "type": "subclass",
+      "category": "classes",
+      "name": "Warrior of Shadow",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subclass.warrior-of-shadow.2024.1",
+        "narrative.subclass.warrior-of-shadow.2024.2"
+      ],
+      "class": "Monk"
+    },
+    {
+      "id": "catalogue.99",
+      "type": "subclass",
+      "category": "classes",
+      "name": "Warrior of the Elements",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subclass.warrior-of-the-elements.2024.1",
+        "narrative.subclass.warrior-of-the-elements.2024.2"
+      ],
+      "class": "Monk"
+    },
+    {
+      "id": "catalogue.100",
+      "type": "subclass",
+      "category": "classes",
+      "name": "Warrior of the Open Hand",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subclass.warrior-of-the-open-hand.2024.1",
+        "narrative.subclass.warrior-of-the-open-hand.2024.2"
+      ],
+      "class": "Monk"
+    },
+    {
+      "id": "catalogue.101",
+      "type": "subclass",
+      "category": "classes",
+      "name": "Oath of Devotion",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subclass.oath-of-devotion.2024.1",
+        "narrative.subclass.oath-of-devotion.2024.2",
+        "narrative.subclass.oath-of-devotion.2024.3",
+        "narrative.subclass.oath-of-devotion.2024.4",
+        "narrative.subclass.oath-of-devotion.2024.5",
+        "narrative.subclass.oath-of-devotion.2024.6",
+        "narrative.subclass.oath-of-devotion.2024.7"
+      ],
+      "class": "Paladin"
+    },
+    {
+      "id": "catalogue.102",
+      "type": "subclass",
+      "category": "classes",
+      "name": "Oath of Glory",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subclass.oath-of-glory.2024.1",
+        "narrative.subclass.oath-of-glory.2024.2",
+        "narrative.subclass.oath-of-devotion.2024.4",
+        "narrative.subclass.oath-of-glory.2024.4",
+        "narrative.subclass.oath-of-glory.2024.5",
+        "narrative.subclass.oath-of-glory.2024.6"
+      ],
+      "class": "Paladin"
+    },
+    {
+      "id": "catalogue.103",
+      "type": "subclass",
+      "category": "classes",
+      "name": "Oath of the Ancients",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subclass.oath-of-the-ancients.2024.1",
+        "narrative.subclass.oath-of-the-ancients.2024.2",
+        "narrative.subclass.oath-of-devotion.2024.4",
+        "narrative.subclass.oath-of-the-ancients.2024.4",
+        "narrative.subclass.oath-of-the-ancients.2024.5",
+        "narrative.subclass.oath-of-the-ancients.2024.6"
+      ],
+      "class": "Paladin"
+    },
+    {
+      "id": "catalogue.104",
+      "type": "subclass",
+      "category": "classes",
+      "name": "Oath of Vengeance",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subclass.oath-of-vengeance.2024.1",
+        "narrative.subclass.oath-of-vengeance.2024.2",
+        "narrative.subclass.oath-of-devotion.2024.4",
+        "narrative.subclass.oath-of-vengeance.2024.4",
+        "narrative.subclass.oath-of-vengeance.2024.5",
+        "narrative.subclass.oath-of-vengeance.2024.6"
+      ],
+      "class": "Paladin"
+    },
+    {
+      "id": "catalogue.105",
+      "type": "subclass",
+      "category": "classes",
+      "name": "Beast Master",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subclass.beast-master.2024.1",
+        "narrative.subclass.beast-master.2024.2"
+      ],
+      "class": "Ranger"
+    },
+    {
+      "id": "catalogue.106",
+      "type": "subclass",
+      "category": "classes",
+      "name": "Fey Wanderer",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subclass.fey-wanderer.2024.1",
+        "narrative.subclass.fey-wanderer.2024.2"
+      ],
+      "class": "Ranger"
+    },
+    {
+      "id": "catalogue.107",
+      "type": "subclass",
+      "category": "classes",
+      "name": "Gloom Stalker",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subclass.gloom-stalker.2024.1",
+        "narrative.subclass.gloom-stalker.2024.2"
+      ],
+      "class": "Ranger"
+    },
+    {
+      "id": "catalogue.108",
+      "type": "subclass",
+      "category": "classes",
+      "name": "Hunter",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subclass.hunter.2024.1",
+        "narrative.subclass.hunter.2024.2"
+      ],
+      "class": "Ranger"
+    },
+    {
+      "id": "catalogue.109",
+      "type": "subclass",
+      "category": "classes",
+      "name": "Arcane Trickster",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subclass.arcane-trickster.2024.1",
+        "narrative.subclass.arcane-trickster.2024.2"
+      ],
+      "class": "Rogue"
+    },
+    {
+      "id": "catalogue.110",
+      "type": "subclass",
+      "category": "classes",
+      "name": "Assassin",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subclass.assassin.2024.1",
+        "narrative.subclass.assassin.2024.2"
+      ],
+      "class": "Rogue"
+    },
+    {
+      "id": "catalogue.111",
+      "type": "subclass",
+      "category": "classes",
+      "name": "Soulknife",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subclass.soulknife.2024.1",
+        "narrative.subclass.soulknife.2024.2"
+      ],
+      "class": "Rogue"
+    },
+    {
+      "id": "catalogue.112",
+      "type": "subclass",
+      "category": "classes",
+      "name": "Thief",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subclass.thief.2024.1",
+        "narrative.subclass.thief.2024.2"
+      ],
+      "class": "Rogue"
+    },
+    {
+      "id": "catalogue.113",
+      "type": "subclass",
+      "category": "classes",
+      "name": "Aberrant Sorcery",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subclass.aberrant-sorcery.2024.1",
+        "narrative.subclass.aberrant-sorcery.2024.2",
+        "narrative.subclass.aberrant-sorcery.2024.3"
+      ],
+      "class": "Sorcerer"
+    },
+    {
+      "id": "catalogue.114",
+      "type": "subclass",
+      "category": "classes",
+      "name": "Clockwork Sorcery",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subclass.clockwork-sorcery.2024.1",
+        "narrative.subclass.clockwork-sorcery.2024.2"
+      ],
+      "class": "Sorcerer"
+    },
+    {
+      "id": "catalogue.115",
+      "type": "subclass",
+      "category": "classes",
+      "name": "Draconic Sorcery",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subclass.draconic-sorcery.2024.1",
+        "narrative.subclass.draconic-sorcery.2024.2"
+      ],
+      "class": "Sorcerer"
+    },
+    {
+      "id": "catalogue.116",
+      "type": "subclass",
+      "category": "classes",
+      "name": "Wild Magic Sorcery",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subclass.wild-magic-sorcery.2024.1",
+        "narrative.subclass.wild-magic-sorcery.2024.2"
+      ],
+      "class": "Sorcerer"
+    },
+    {
+      "id": "catalogue.117",
+      "type": "subclass",
+      "category": "classes",
+      "name": "Archfey Patron",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subclass.archfey-patron.2024.1",
+        "narrative.subclass.archfey-patron.2024.2"
+      ],
+      "class": "Warlock"
+    },
+    {
+      "id": "catalogue.118",
+      "type": "subclass",
+      "category": "classes",
+      "name": "Celestial Patron",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subclass.celestial-patron.2024.1",
+        "narrative.subclass.celestial-patron.2024.2"
+      ],
+      "class": "Warlock"
+    },
+    {
+      "id": "catalogue.119",
+      "type": "subclass",
+      "category": "classes",
+      "name": "Fiend Patron",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subclass.fiend-patron.2024.1",
+        "narrative.subclass.fiend-patron.2024.2"
+      ],
+      "class": "Warlock"
+    },
+    {
+      "id": "catalogue.120",
+      "type": "subclass",
+      "category": "classes",
+      "name": "Great Old One Patron",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subclass.great-old-one-patron.2024.1",
+        "narrative.subclass.great-old-one-patron.2024.2"
+      ],
+      "class": "Warlock"
+    },
+    {
+      "id": "catalogue.121",
+      "type": "subclass",
+      "category": "classes",
+      "name": "Abjurer",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subclass.abjurer.2024.1",
+        "narrative.subclass.abjurer.2024.2"
+      ],
+      "class": "Wizard"
+    },
+    {
+      "id": "catalogue.122",
+      "type": "subclass",
+      "category": "classes",
+      "name": "Diviner",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subclass.diviner.2024.1",
+        "narrative.subclass.diviner.2024.2"
+      ],
+      "class": "Wizard"
+    },
+    {
+      "id": "catalogue.123",
+      "type": "subclass",
+      "category": "classes",
+      "name": "Evoker",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subclass.evoker.2024.1",
+        "narrative.subclass.evoker.2024.2"
+      ],
+      "class": "Wizard"
+    },
+    {
+      "id": "catalogue.124",
+      "type": "subclass",
+      "category": "classes",
+      "name": "Illusionist",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.subclass.illusionist.2024.1",
+        "narrative.subclass.illusionist.2024.2"
+      ],
+      "class": "Wizard"
+    },
+    {
+      "id": "catalogue.125",
+      "type": "background",
+      "category": "regles",
+      "name": "Acolyte",
+      "edition": "any",
+      "source": "Source.  Shard Player's Guide Volume 1, Shard Bestiary Volume 1  ",
+      "paragraphes": [
+        "narrative.background.acolyte.any.1"
+      ]
+    },
+    {
+      "id": "catalogue.126",
+      "type": "background",
+      "category": "regles",
+      "name": "Acolyte",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.background.acolyte.2024.1"
+      ]
+    },
+    {
+      "id": "catalogue.127",
+      "type": "background",
+      "category": "regles",
+      "name": "Artisan",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.background.artisan.2024.1"
+      ]
+    },
+    {
+      "id": "catalogue.128",
+      "type": "background",
+      "category": "regles",
+      "name": "Burglar",
+      "edition": "any",
+      "source": "Source.  Shard Player's Guide Volume 1  ",
+      "paragraphes": [
+        "narrative.background.burglar.any.1"
+      ]
+    },
+    {
+      "id": "catalogue.129",
+      "type": "background",
+      "category": "regles",
+      "name": "Charlatan",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.background.charlatan.2024.1"
+      ]
+    },
+    {
+      "id": "catalogue.130",
+      "type": "background",
+      "category": "regles",
+      "name": "Criminal",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.background.criminal.2024.1"
+      ]
+    },
+    {
+      "id": "catalogue.131",
+      "type": "background",
+      "category": "regles",
+      "name": "Deckhand",
+      "edition": "any",
+      "source": "Source.  Shard Player's Guide Volume 1  ",
+      "paragraphes": [
+        "narrative.background.deckhand.any.1"
+      ]
+    },
+    {
+      "id": "catalogue.132",
+      "type": "background",
+      "category": "regles",
+      "name": "Elite",
+      "edition": "any",
+      "source": "Source.  Shard Player's Guide Volume 1  ",
+      "paragraphes": [
+        "narrative.background.elite.any.1"
+      ]
+    },
+    {
+      "id": "catalogue.133",
+      "type": "background",
+      "category": "regles",
+      "name": "Entertainer",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.background.entertainer.2024.1"
+      ]
+    },
+    {
+      "id": "catalogue.134",
+      "type": "background",
+      "category": "regles",
+      "name": "Farmer",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.background.farmer.2024.1"
+      ]
+    },
+    {
+      "id": "catalogue.135",
+      "type": "background",
+      "category": "regles",
+      "name": "Guard",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.background.guard.2024.1"
+      ]
+    },
+    {
+      "id": "catalogue.136",
+      "type": "background",
+      "category": "regles",
+      "name": "Guide",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.background.guide.2024.1"
+      ]
+    },
+    {
+      "id": "catalogue.137",
+      "type": "background",
+      "category": "regles",
+      "name": "Healer",
+      "edition": "any",
+      "source": "Source.  Shard Player's Guide Volume 1  ",
+      "paragraphes": [
+        "narrative.background.healer.any.1"
+      ]
+    },
+    {
+      "id": "catalogue.138",
+      "type": "background",
+      "category": "regles",
+      "name": "Herbalist",
+      "edition": "any",
+      "source": "Source.  Shard Player's Guide Volume 1  ",
+      "paragraphes": [
+        "narrative.background.herbalist.any.1"
+      ]
+    },
+    {
+      "id": "catalogue.139",
+      "type": "background",
+      "category": "regles",
+      "name": "Hermit",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.background.hermit.2024.1"
+      ]
+    },
+    {
+      "id": "catalogue.140",
+      "type": "background",
+      "category": "regles",
+      "name": "Hunter",
+      "edition": "any",
+      "source": "Source.  Shard Player's Guide Volume 1  ",
+      "paragraphes": [
+        "narrative.background.hunter.any.1"
+      ]
+    },
+    {
+      "id": "catalogue.141",
+      "type": "background",
+      "category": "regles",
+      "name": "Infantry",
+      "edition": "any",
+      "source": "Source.  Shard Player's Guide Volume 1  ",
+      "paragraphes": [
+        "narrative.background.infantry.any.1"
+      ]
+    },
+    {
+      "id": "catalogue.142",
+      "type": "background",
+      "category": "regles",
+      "name": "Merchant",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.background.merchant.2024.1"
+      ]
+    },
+    {
+      "id": "catalogue.143",
+      "type": "background",
+      "category": "regles",
+      "name": "Noble",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.background.noble.2024.1"
+      ]
+    },
+    {
+      "id": "catalogue.144",
+      "type": "background",
+      "category": "regles",
+      "name": "Recluse",
+      "edition": "any",
+      "source": "Source.  Shard Player's Guide Volume 1  ",
+      "paragraphes": [
+        "narrative.background.recluse.any.1"
+      ]
+    },
+    {
+      "id": "catalogue.145",
+      "type": "background",
+      "category": "regles",
+      "name": "Researcher",
+      "edition": "any",
+      "source": "Source.  Shard Player's Guide Volume 1  ",
+      "paragraphes": [
+        "narrative.background.researcher.any.1"
+      ]
+    },
+    {
+      "id": "catalogue.146",
+      "type": "background",
+      "category": "regles",
+      "name": "Sage",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.background.sage.2024.1"
+      ]
+    },
+    {
+      "id": "catalogue.147",
+      "type": "background",
+      "category": "regles",
+      "name": "Sailor",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.background.sailor.2024.1"
+      ]
+    },
+    {
+      "id": "catalogue.148",
+      "type": "background",
+      "category": "regles",
+      "name": "Scribe",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.background.scribe.2024.1"
+      ]
+    },
+    {
+      "id": "catalogue.149",
+      "type": "background",
+      "category": "regles",
+      "name": "Snake Oil Seller",
+      "edition": "any",
+      "source": "Source.  Shard Player's Guide Volume 1  ",
+      "paragraphes": [
+        "narrative.background.snake-oil-seller.any.1"
+      ]
+    },
+    {
+      "id": "catalogue.150",
+      "type": "background",
+      "category": "regles",
+      "name": "Soldier",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.background.soldier.2024.1"
+      ]
+    },
+    {
+      "id": "catalogue.151",
+      "type": "background",
+      "category": "regles",
+      "name": "Tourist",
+      "edition": "any",
+      "source": "Source.  Shard Player's Guide Volume 1  ",
+      "paragraphes": [
+        "narrative.background.tourist.any.1"
+      ]
+    },
+    {
+      "id": "catalogue.152",
+      "type": "background",
+      "category": "regles",
+      "name": "Vaudevillian",
+      "edition": "any",
+      "source": "Source.  Shard Player's Guide Volume 1  ",
+      "paragraphes": [
+        "narrative.background.vaudevillian.any.1"
+      ]
+    },
+    {
+      "id": "catalogue.153",
+      "type": "background",
+      "category": "regles",
+      "name": "Wayfarer",
+      "edition": "2024",
+      "source": "Source.  D&D 2024 PHB  ",
+      "paragraphes": [
+        "narrative.background.wayfarer.2024.1"
+      ]
+    }
+  ]
+}

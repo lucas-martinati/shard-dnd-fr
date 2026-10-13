@@ -79,6 +79,18 @@ class PacksTest(unittest.TestCase):
         report = audit(path)
         self.assertEqual(report['missing'], [{'en': 'You gain an unknown power.', 'kind': 'term'}])
 
+    def test_ui_audit_labels_and_private_fields(self):
+        path = self.root / 'ui.html'
+        path.write_text('<button>Campaigns</button><button>Mystery category</button><input placeholder="search" value="You gain secret notes"><div contenteditable>You gain private content.</div><div contenteditable="plaintext-only">You gain private content.</div><div role="textbox">You gain private content.</div><div class="ProseMirror">You gain private content.</div><select><option>Secret value</option><option value="id">Unknown filter</option></select><button title="Unknown hint">Library</button>')
+        report = audit(path, include_labels=True)
+        self.assertEqual([r['en'] for r in report['missing']], ['Mystery category', 'Unknown filter', 'Unknown hint'])
+        self.assertEqual(audit(path)['missing'], [])
+
+    def test_audit_knows_catalogue_names(self):
+        path = self.root / 'names.html'
+        path.write_text('<button>Spell Sniper</button><button>Harm</button>')
+        self.assertEqual(audit(path, include_labels=True)['missing'], [])
+
 
 if __name__ == '__main__':
     unittest.main()

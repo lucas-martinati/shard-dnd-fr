@@ -65,11 +65,14 @@ Enregistrer l’extrait HTML dans un fichier local, puis lancer :
 ```sh
 npm run translations:audit -- /chemin/extrait.html
 npm run translations:audit -- /chemin/extrait.html --output /chemin/manques.json
+npm run translations:audit -- /chemin/extrait.html --labels
 ```
 
 L’outil rassemble les textes des paragraphes malgré les balises et les dés, ignore les champs éditables et compare aux traductions connues. Il fournit des **candidats anglais à vérifier**, pas une traduction automatique ni une preuve de couverture complète. Les textes déjà partiellement traduits ou découpés différemment peuvent nécessiter une inspection manuelle. Certains noms inconnus ne sont pas détectés par cette heuristique.
 
 Le traitement reste local. Les rapports peuvent contenir des textes de partie : les garder hors du dépôt et de `translations/` jusqu’à leur tri. Le rapport d’audit n’est pas un pack prêt à charger : il faut écrire les traductions et leur source.
+
+`--labels` inclut les boutons, liens, options avec valeur et attributs d'affichage inconnus. Il sert à repérer les commandes de navigation que l'heuristique de prose ne voit pas. Ses candidats peuvent être des noms propres ou des textes déjà français : il faut les trier. Les valeurs des champs et les éditeurs restent exclus, et les noms du catalogue AideDD sont reconnus.
 
 Tous les dictionnaires et descriptions sont rangés dans les catégories de `translations/`. `work/` contient les outils et leurs fichiers intermédiaires générés. Les textes SRD utilisés par les générateurs sont conservés dans `data/srd-5.2.1/`.
 
