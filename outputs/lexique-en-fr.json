@@ -1,5 +1,5 @@
 {
-  "version": "1.16.0",
+  "version": "1.17.0",
   "reference": "Noms AideDD 2024 prioritaires. Références SRD disponibles séparément. Autres entrées identifiées.",
   "license": "Code MIT ; contenu SRD CC-BY-4.0 https://creativecommons.org/licenses/by/4.0/",
   "sources": [
@@ -10844,56 +10844,56 @@
       "en": "Club",
       "fr": "Gourdin",
       "category": "équipement",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
       "aliases": []
     },
     {
       "en": "Dagger",
       "fr": "Dague",
       "category": "équipement",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
       "aliases": []
     },
     {
       "en": "Greatclub",
       "fr": "Massue",
       "category": "équipement",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
       "aliases": []
     },
     {
       "en": "Handaxe",
       "fr": "Hachette",
       "category": "équipement",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
       "aliases": []
     },
     {
       "en": "Javelin",
       "fr": "Javeline",
       "category": "équipement",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
       "aliases": []
     },
     {
       "en": "Light Hammer",
       "fr": "Marteau léger",
       "category": "équipement",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
       "aliases": []
     },
     {
       "en": "Mace",
       "fr": "Masse d’armes",
       "category": "équipement",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
       "aliases": []
     },
     {
       "en": "Quarterstaff",
       "fr": "Bâton de combat",
-      "category": "combat",
-      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "category": "équipement",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
       "aliases": [
         "Bâton"
       ]
@@ -10902,21 +10902,21 @@
       "en": "Sickle",
       "fr": "Serpe",
       "category": "équipement",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
       "aliases": []
     },
     {
       "en": "Spear",
       "fr": "Lance",
       "category": "équipement",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
       "aliases": []
     },
     {
       "en": "Light Crossbow",
       "fr": "Arbalète légère",
       "category": "équipement",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
       "aliases": []
     },
     {
@@ -10930,161 +10930,163 @@
       "en": "Dart",
       "fr": "Fléchette",
       "category": "équipement",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
       "aliases": []
     },
     {
       "en": "Shortbow",
       "fr": "Arc court",
       "category": "équipement",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
       "aliases": []
     },
     {
       "en": "Sling",
       "fr": "Fronde",
       "category": "équipement",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
       "aliases": []
     },
     {
       "en": "Battleaxe",
       "fr": "Hache d’armes",
       "category": "équipement",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
       "aliases": []
     },
     {
       "en": "Flail",
       "fr": "Fléau d’armes",
       "category": "équipement",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
       "aliases": []
     },
     {
       "en": "Glaive",
       "fr": "Coutille",
       "category": "équipement",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
       "aliases": []
     },
     {
       "en": "Greataxe",
       "fr": "Hache à deux mains",
       "category": "équipement",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
       "aliases": []
     },
     {
       "en": "Greatsword",
       "fr": "Épée à deux mains",
       "category": "équipement",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
       "aliases": []
     },
     {
       "en": "Halberd",
       "fr": "Hallebarde",
       "category": "équipement",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
       "aliases": []
     },
     {
       "en": "Lance",
       "fr": "Lance d’arçon",
       "category": "équipement",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
       "aliases": []
     },
     {
       "en": "Longsword",
       "fr": "Épée longue",
       "category": "équipement",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
       "aliases": []
     },
     {
       "en": "Maul",
-      "fr": "Maillet",
+      "fr": "Maillet d’armes",
       "category": "équipement",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
-      "aliases": []
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
+      "aliases": [
+        "Maillet"
+      ]
     },
     {
       "en": "Morningstar",
       "fr": "Morgenstern",
       "category": "équipement",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
       "aliases": []
     },
     {
       "en": "Pike",
       "fr": "Pique",
       "category": "équipement",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
       "aliases": []
     },
     {
       "en": "Rapier",
       "fr": "Rapière",
       "category": "équipement",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
       "aliases": []
     },
     {
       "en": "Scimitar",
       "fr": "Cimeterre",
       "category": "équipement",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
       "aliases": []
     },
     {
       "en": "Shortsword",
       "fr": "Épée courte",
       "category": "équipement",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
       "aliases": []
     },
     {
       "en": "Trident",
       "fr": "Trident",
       "category": "équipement",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
       "aliases": []
     },
     {
       "en": "War Pick",
       "fr": "Pic de guerre",
       "category": "équipement",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
       "aliases": []
     },
     {
       "en": "Warhammer",
       "fr": "Marteau de guerre",
       "category": "équipement",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
       "aliases": []
     },
     {
       "en": "Whip",
       "fr": "Fouet",
       "category": "équipement",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
       "aliases": []
     },
     {
       "en": "Blowgun",
       "fr": "Sarbacane",
       "category": "équipement",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
       "aliases": []
     },
     {
       "en": "Hand Crossbow",
       "fr": "Arbalète de poing",
       "category": "équipement",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
       "aliases": []
     },
     {
@@ -11098,7 +11100,7 @@
       "en": "Heavy Crossbow",
       "fr": "Arbalète lourde",
       "category": "équipement",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
       "aliases": []
     },
     {
@@ -11112,7 +11114,7 @@
       "en": "Longbow",
       "fr": "Arc long",
       "category": "équipement",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
       "aliases": []
     },
     {
@@ -11126,14 +11128,14 @@
       "en": "Musket",
       "fr": "Mousquet",
       "category": "équipement",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
       "aliases": []
     },
     {
       "en": "Pistol",
       "fr": "Pistolet",
       "category": "équipement",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
       "aliases": []
     },
     {
@@ -24541,7 +24543,7 @@
     {
       "en": "Mastery Properties",
       "fr": "Propriétés de botte",
-      "category": "vocabulaire",
+      "category": "équipement",
       "source": "Traduction de passages du SRD 5.2.1 EN · bottes d’arme · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd",
       "aliases": [
         "Propriétés botte"
@@ -24794,168 +24796,182 @@
     {
       "en": "Weapon Mastery Property",
       "fr": "Botte d’arme",
-      "category": "vocabulaire",
+      "category": "équipement",
       "source": "Traduction de passages du SRD 5.2.1 EN · bottes d’arme · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd",
       "aliases": []
     },
     {
       "en": "Weapon Mastery Properties",
       "fr": "Bottes d’arme",
-      "category": "vocabulaire",
+      "category": "équipement",
       "source": "Traduction de passages du SRD 5.2.1 EN · bottes d’arme · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd",
       "aliases": []
     },
     {
       "en": "Mastery",
       "fr": "Botte d’arme",
-      "category": "vocabulaire",
+      "category": "équipement",
       "source": "Traduction de passages du SRD 5.2.1 EN · bottes d’arme · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd",
       "aliases": []
     },
     {
       "en": "Forceful Blow",
       "fr": "Coup appuyé",
-      "category": "vocabulaire",
+      "category": "aptitude de classe",
       "source": "Traduction de l’extrait utilisateur · Barbare et Comédien 2024 ; passages SRD 5.2.1 pour les valeurs des dés · adaptations CC-BY-4.0 · https://www.dndbeyond.com/srd",
       "aliases": []
     },
     {
       "en": "Hamstring Blow",
       "fr": "Coup au jarret",
-      "category": "vocabulaire",
+      "category": "aptitude de classe",
       "source": "Traduction de l’extrait utilisateur · Barbare et Comédien 2024 ; passages SRD 5.2.1 pour les valeurs des dés · adaptations CC-BY-4.0 · https://www.dndbeyond.com/srd",
       "aliases": []
     },
     {
       "en": "Staggering Blow",
       "fr": "Coup stupéfiant",
-      "category": "vocabulaire",
+      "category": "aptitude de classe",
       "source": "Traduction de l’extrait utilisateur · Barbare et Comédien 2024 ; passages SRD 5.2.1 pour les valeurs des dés · adaptations CC-BY-4.0 · https://www.dndbeyond.com/srd",
       "aliases": []
     },
     {
       "en": "Sundering Blow",
       "fr": "Coup déchirant",
-      "category": "vocabulaire",
+      "category": "aptitude de classe",
       "source": "Traduction de l’extrait utilisateur · Barbare et Comédien 2024 ; passages SRD 5.2.1 pour les valeurs des dés · adaptations CC-BY-4.0 · https://www.dndbeyond.com/srd",
       "aliases": []
     },
     {
       "en": "Recover Intimidating Presence",
       "fr": "Récupérer Présence intimidante",
-      "category": "vocabulaire",
+      "category": "aptitude de classe",
       "source": "Traduction de l’extrait utilisateur · Barbare et Comédien 2024 ; passages SRD 5.2.1 pour les valeurs des dés · adaptations CC-BY-4.0 · https://www.dndbeyond.com/srd",
       "aliases": []
     },
     {
       "en": "Impersonation",
       "fr": "Usurpation d’identité",
-      "category": "vocabulaire",
+      "category": "aptitude de classe",
       "source": "Traduction de l’extrait utilisateur · Barbare et Comédien 2024 ; passages SRD 5.2.1 pour les valeurs des dés · adaptations CC-BY-4.0 · https://www.dndbeyond.com/srd",
       "aliases": []
     },
     {
       "en": "Mimicry",
       "fr": "Imitation",
-      "category": "vocabulaire",
+      "category": "aptitude de classe",
       "source": "Traduction de l’extrait utilisateur · Barbare et Comédien 2024 ; passages SRD 5.2.1 pour les valeurs des dés · adaptations CC-BY-4.0 · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Colossus Slayer",
+      "fr": "Goût du sang",
+      "category": "aptitude de classe",
+      "source": "SRD 5.2.1 EN/FR · CC-BY-4.0",
+      "aliases": []
+    },
+    {
+      "en": "Horde Breaker",
+      "fr": "Briseur de hordes",
+      "category": "aptitude de classe",
+      "source": "SRD 5.2.1 EN/FR · CC-BY-4.0",
       "aliases": []
     },
     {
       "en": "Using Bardic Inspiration",
       "fr": "Utiliser l’Inspiration bardique",
-      "category": "vocabulaire",
+      "category": "règles",
       "source": "Traductions proposées de libellés SRD 5.2.1 EN · https://www.dndbeyond.com/srd",
       "aliases": []
     },
     {
       "en": "Bardic Die",
       "fr": "Dé bardique",
-      "category": "vocabulaire",
+      "category": "règles",
       "source": "Traductions proposées de libellés SRD 5.2.1 EN · https://www.dndbeyond.com/srd",
       "aliases": []
     },
     {
       "en": "Elven Lineages",
       "fr": "Lignées elfiques",
-      "category": "vocabulaire",
+      "category": "règles",
       "source": "Traductions proposées de libellés SRD 5.2.1 EN · https://www.dndbeyond.com/srd",
       "aliases": []
     },
     {
       "en": "Gnomish Lineages",
       "fr": "Lignées gnomes",
-      "category": "vocabulaire",
+      "category": "règles",
       "source": "Traductions proposées de libellés SRD 5.2.1 EN · https://www.dndbeyond.com/srd",
       "aliases": []
     },
     {
       "en": "Blink Steps",
       "fr": "Pas éclair",
-      "category": "vocabulaire",
+      "category": "règles",
       "source": "Traductions proposées de libellés SRD 5.2.1 EN · https://www.dndbeyond.com/srd",
       "aliases": []
     },
     {
       "en": "Frenzy Damage",
       "fr": "Dégâts de Frénésie",
-      "category": "vocabulaire",
+      "category": "règles",
       "source": "Traductions proposées de libellés SRD 5.2.1 EN · https://www.dndbeyond.com/srd",
       "aliases": []
     },
     {
       "en": "Strength Advantage",
       "fr": "Avantage en Force",
-      "category": "vocabulaire",
+      "category": "règles",
       "source": "Traductions proposées de libellés SRD 5.2.1 EN · https://www.dndbeyond.com/srd",
       "aliases": []
     },
     {
       "en": "Force Avantage",
       "fr": "Avantage en Force",
-      "category": "vocabulaire",
+      "category": "règles",
       "source": "Traductions proposées de libellés SRD 5.2.1 EN · https://www.dndbeyond.com/srd",
       "aliases": []
     },
     {
       "en": "No Concentration or Spells",
       "fr": "Ni Concentration ni sorts",
-      "category": "vocabulaire",
+      "category": "règles",
       "source": "Traductions proposées de libellés SRD 5.2.1 EN · https://www.dndbeyond.com/srd",
       "aliases": []
     },
     {
       "en": "Properties",
       "fr": "Propriétés",
-      "category": "vocabulaire",
+      "category": "règles",
       "source": "Traductions proposées de libellés SRD 5.2.1 EN · https://www.dndbeyond.com/srd",
       "aliases": []
     },
     {
       "en": "Martial melee weapon",
       "fr": "Arme de guerre de corps à corps",
-      "category": "vocabulaire",
+      "category": "règles",
       "source": "Traductions proposées de libellés SRD 5.2.1 EN · https://www.dndbeyond.com/srd",
       "aliases": []
     },
     {
       "en": "Simple melee weapon",
       "fr": "Arme courante de corps à corps",
-      "category": "vocabulaire",
+      "category": "règles",
       "source": "Traductions proposées de libellés SRD 5.2.1 EN · https://www.dndbeyond.com/srd",
       "aliases": []
     },
     {
       "en": "Martial ranged weapon",
       "fr": "Arme de guerre à distance",
-      "category": "vocabulaire",
+      "category": "règles",
       "source": "Traductions proposées de libellés SRD 5.2.1 EN · https://www.dndbeyond.com/srd",
       "aliases": []
     },
     {
       "en": "Simple ranged weapon",
       "fr": "Arme courante à distance",
-      "category": "vocabulaire",
+      "category": "règles",
       "source": "Traductions proposées de libellés SRD 5.2.1 EN · https://www.dndbeyond.com/srd",
       "aliases": []
     },

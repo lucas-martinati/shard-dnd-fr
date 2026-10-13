@@ -24,10 +24,13 @@ BOUNDARY = {
 
 def flat(text, lang):
     text = re.sub(r'(?:System Reference Document|Document de Référence du Système) 5\.2\.1\s+\d+', '', text)
-    text = text.replace('\f', '\n').replace('\u00ad', '')
+    text = text.replace('\f', '\n').replace('\u00ad\n', '').replace('\u00ad', '')
     # Conserver les composés anglais fréquents coupés en fin de ligne.
-    text = re.sub(r'(\w+)-\n(?=\w)', lambda m: m[1] + ('-' if lang == 'en' and (m[1].isdigit() or m[1] in ['Strength','Dexterity','Constitution','Intelligence','Wisdom','Charisma','two','one','half','off','self','well','long','short']) else ''), text)
-    return re.sub(r'\s+', ' ', text).strip()
+    text = re.sub(r'(\w+)-\n(?=\w)', lambda m: m[1] + ('-' if lang == 'en' and (m[1].isdigit() or m[1] in ['Strength','Dexterity','Constitution','Intelligence','Wisdom','Charisma','two','one','half','off','self','well','long','short']) else '-' if lang == 'fr' and m[1] in ['sous','morts','mort','demi','non','au','celle','celui','celles','ceux','ci','là'] else ''), text)
+    text = re.sub(r'\s+', ' ', text).strip()
+    if lang=='fr':
+        text=text.replace('supplémentairesà certains niveauxdeDruide, commeindiquéàlacolonne Formesauvagedelatable«Aptitudes duDruide»','supplémentaires à certains niveaux de Druide, comme indiqué à la colonne Forme sauvage de la table « Aptitudes du Druide »').replace('alimenterles options','alimenter les options')
+    return text
 
 
 def extract(lang):

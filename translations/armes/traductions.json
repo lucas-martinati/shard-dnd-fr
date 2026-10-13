@@ -224,6 +224,338 @@
       "fr": "Une arme Polyvalente peut être utilisée à une ou deux mains. La valeur de dégâts entre parenthèses indique les dégâts infligés lorsqu’elle est utilisée à deux mains pour effectuer une attaque de corps à corps.",
       "source": "Traduction de l’extrait utilisateur et des passages SRD correspondants · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd",
       "edition": "2024"
+    },
+    {
+      "id": "weapons.name.1",
+      "kind": "term",
+      "en": "Club",
+      "fr": "Gourdin",
+      "edition": "2024",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.2",
+      "kind": "term",
+      "en": "Dagger",
+      "fr": "Dague",
+      "edition": "2024",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.3",
+      "kind": "term",
+      "en": "Greatclub",
+      "fr": "Massue",
+      "edition": "2024",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.4",
+      "kind": "term",
+      "en": "Handaxe",
+      "fr": "Hachette",
+      "edition": "2024",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.5",
+      "kind": "term",
+      "en": "Javelin",
+      "fr": "Javeline",
+      "edition": "2024",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.6",
+      "kind": "term",
+      "en": "Light Hammer",
+      "fr": "Marteau léger",
+      "edition": "2024",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.7",
+      "kind": "term",
+      "en": "Mace",
+      "fr": "Masse d’armes",
+      "edition": "2024",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.8",
+      "kind": "term",
+      "en": "Quarterstaff",
+      "fr": "Bâton de combat",
+      "edition": "2024",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.9",
+      "kind": "term",
+      "en": "Sickle",
+      "fr": "Serpe",
+      "edition": "2024",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.10",
+      "kind": "term",
+      "en": "Spear",
+      "fr": "Lance",
+      "edition": "2024",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.11",
+      "kind": "term",
+      "en": "Dart",
+      "fr": "Fléchette",
+      "edition": "2024",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.12",
+      "kind": "term",
+      "en": "Light Crossbow",
+      "fr": "Arbalète légère",
+      "edition": "2024",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.13",
+      "kind": "term",
+      "en": "Shortbow",
+      "fr": "Arc court",
+      "edition": "2024",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.14",
+      "kind": "term",
+      "en": "Sling",
+      "fr": "Fronde",
+      "edition": "2024",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.15",
+      "kind": "term",
+      "en": "Battleaxe",
+      "fr": "Hache d’armes",
+      "edition": "2024",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.16",
+      "kind": "term",
+      "en": "Flail",
+      "fr": "Fléau d’armes",
+      "edition": "2024",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.17",
+      "kind": "term",
+      "en": "Glaive",
+      "fr": "Coutille",
+      "edition": "2024",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.18",
+      "kind": "term",
+      "en": "Greataxe",
+      "fr": "Hache à deux mains",
+      "edition": "2024",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.19",
+      "kind": "term",
+      "en": "Greatsword",
+      "fr": "Épée à deux mains",
+      "edition": "2024",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.20",
+      "kind": "term",
+      "en": "Halberd",
+      "fr": "Hallebarde",
+      "edition": "2024",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.21",
+      "kind": "term",
+      "en": "Lance",
+      "fr": "Lance d’arçon",
+      "edition": "2024",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.22",
+      "kind": "term",
+      "en": "Longsword",
+      "fr": "Épée longue",
+      "edition": "2024",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.23",
+      "kind": "term",
+      "en": "Maul",
+      "fr": "Maillet d’armes",
+      "edition": "2024",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.24",
+      "kind": "term",
+      "en": "Morningstar",
+      "fr": "Morgenstern",
+      "edition": "2024",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.25",
+      "kind": "term",
+      "en": "Pike",
+      "fr": "Pique",
+      "edition": "2024",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.26",
+      "kind": "term",
+      "en": "Rapier",
+      "fr": "Rapière",
+      "edition": "2024",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.27",
+      "kind": "term",
+      "en": "Scimitar",
+      "fr": "Cimeterre",
+      "edition": "2024",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.28",
+      "kind": "term",
+      "en": "Shortsword",
+      "fr": "Épée courte",
+      "edition": "2024",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.29",
+      "kind": "term",
+      "en": "Trident",
+      "fr": "Trident",
+      "edition": "2024",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.30",
+      "kind": "term",
+      "en": "Warhammer",
+      "fr": "Marteau de guerre",
+      "edition": "2024",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.31",
+      "kind": "term",
+      "en": "War Pick",
+      "fr": "Pic de guerre",
+      "edition": "2024",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.32",
+      "kind": "term",
+      "en": "Whip",
+      "fr": "Fouet",
+      "edition": "2024",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.33",
+      "kind": "term",
+      "en": "Blowgun",
+      "fr": "Sarbacane",
+      "edition": "2024",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.34",
+      "kind": "term",
+      "en": "Hand Crossbow",
+      "fr": "Arbalète de poing",
+      "edition": "2024",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.35",
+      "kind": "term",
+      "en": "Heavy Crossbow",
+      "fr": "Arbalète lourde",
+      "edition": "2024",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.36",
+      "kind": "term",
+      "en": "Longbow",
+      "fr": "Arc long",
+      "edition": "2024",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.37",
+      "kind": "term",
+      "en": "Musket",
+      "fr": "Mousquet",
+      "edition": "2024",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.38",
+      "kind": "term",
+      "en": "Pistol",
+      "fr": "Pistolet",
+      "edition": "2024",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "proprietes-armes-2014.thrown.rule",
+      "en": "If a weapon has the thrown property, you can throw the weapon to make a ranged attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon.",
+      "fr": "Si une arme possède la propriété Lancer, vous pouvez la lancer pour effectuer une attaque à distance. S’il s’agit d’une arme de corps à corps, vous utilisez le même modificateur de caractéristique pour les jets d’attaque et de dégâts que pour une attaque de corps à corps avec cette arme.",
+      "edition": "2014",
+      "source": "Traduction de l’extrait utilisateur et des passages SRD correspondants · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "proprietes-armes-2014.thrown.example",
+      "en": "For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity, since the dagger has the finesse property.",
+      "fr": "Par exemple, lancer une hachette utilise la Force, tandis que lancer une dague permet d’utiliser la Force ou la Dextérité grâce à sa propriété Finesse.",
+      "edition": "2014",
+      "source": "Traduction de l’extrait utilisateur et des passages SRD correspondants · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "proprietes-armes-2024.light.rule",
+      "en": "When you take the Attack action on your turn and attack with a Light weapon, you can make one extra attack as a Bonus Action later on the same turn. That extra attack must be made with a different Light weapon, and you don’t add your ability modifier to the extra attack’s damage unless that modifier is negative.",
+      "fr": "Lorsque vous entreprenez l’action Attaquer à votre tour et attaquez avec une arme Légère, vous pouvez effectuer une attaque supplémentaire par une action Bonus plus tard dans ce même tour. Elle doit utiliser une autre arme Légère, et vous n’ajoutez pas votre modificateur de caractéristique à ses dégâts, sauf s’il est négatif.",
+      "edition": "2024",
+      "source": "Traduction de l’extrait utilisateur et des passages SRD correspondants · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "proprietes-armes-2024.light.example",
+      "en": "For example, you can attack with a Shortsword in one hand and a Dagger in the other using the Attack action and a Bonus Action, but you don’t add your Strength or Dexterity modifier to the damage roll of the Bonus Action unless that modifier is negative.",
+      "fr": "Par exemple, vous pouvez attaquer avec une épée courte dans une main et une dague dans l’autre en utilisant l’action Attaquer et une action Bonus, mais vous n’ajoutez pas votre modificateur de Force ou de Dextérité aux dégâts de l’attaque de l’action Bonus, sauf s’il est négatif.",
+      "edition": "2024",
+      "source": "Traduction de l’extrait utilisateur et des passages SRD correspondants · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
     }
   ]
 }

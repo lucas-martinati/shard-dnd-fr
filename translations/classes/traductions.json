@@ -542,6 +542,29 @@
       "fr": "Coût : 2 points de Sorcellerie Lorsque vous lancez un sort dont le temps d’incantation est égal à une action, vous pouvez dépenser 2 points de Sorcellerie pour réduire son temps d’incantation à une action Bonus pour la présente incantation. Vous ne pouvez pas modifier un sort de cette manière si vous avez déjà lancé un sort du 1er niveau ou supérieur pendant le tour en cours, et pas davantage lancer un sort du 1er niveau ou supérieur pendant le tour en cours si vous avez déjà modifié un sort de cette manière.",
       "edition": "2024",
       "source": "Adaptation du SRD 5.2.1 EN/FR · CC-BY-4.0 · nombres conservés"
+    },
+    {
+      "id": "classes.sections.label.41",
+      "kind": "term",
+      "en": "Colossus Slayer",
+      "fr": "Goût du sang",
+      "edition": "2024",
+      "source": "SRD 5.2.1 EN/FR · CC-BY-4.0"
+    },
+    {
+      "id": "classes.sections.label.42",
+      "kind": "term",
+      "en": "Horde Breaker",
+      "fr": "Briseur de hordes",
+      "edition": "2024",
+      "source": "SRD 5.2.1 EN/FR · CC-BY-4.0"
+    },
+    {
+      "id": "bard.glamour.mantle-of-inspiration.description",
+      "en": "You can weave fey magic into a song or dance to fill others with vigor. As a Bonus Action, you can expend a use of Bardic Inspiration, rolling a Bardic Inspiration die. When you do so, choose a number of other creatures within 60 feet of yourself, up to a number equal to your Charisma modifier (minimum of one creature). Each of those creatures gains a number of Temporary Hit Points equal to two times the number rolled on the Bardic Inspiration die, and then each can use its Reaction to move up to its Speed without provoking Opportunity Attacks.",
+      "fr": "Vous pouvez mêler la magie féerique à un chant ou une danse pour insuffler de la vigueur aux autres. Par une action Bonus, vous pouvez dépenser une utilisation d’Inspiration bardique et lancer un dé d’Inspiration bardique. Choisissez alors d’autres créatures dans un rayon de 60 feet autour de vous, jusqu’à un nombre égal à votre modificateur de Charisme (au moins une créature). Chacune reçoit un nombre de points de vie temporaires égal au double du résultat du dé d’Inspiration bardique, puis peut utiliser sa Réaction pour se déplacer jusqu’à sa Vitesse sans provoquer d’attaques d’Opportunité.",
+      "edition": "2024",
+      "source": "Traduction de l’extrait utilisateur · Collège de la Séduction · Manteau d’inspiration 2024"
     }
   ]
 }

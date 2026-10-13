@@ -13,7 +13,7 @@
     "classes": {
       "nomsCatalogueAideDD2024": 28,
       "entreesDictionnaires": 602,
-      "blocsEditables": 69
+      "blocsEditables": 70
     },
     "especes": {
       "nomsCatalogueAideDD2024": 0,
@@ -28,7 +28,7 @@
     "armes": {
       "nomsCatalogueAideDD2024": 0,
       "entreesDictionnaires": 0,
-      "blocsEditables": 27
+      "blocsEditables": 31
     },
     "monstres": {
       "nomsCatalogueAideDD2024": 498,
@@ -109,7 +109,10 @@
     },
     "sortsSRD2024": 339,
     "descriptionsEquipementSRD2024": 72,
-    "blocsDonsEtStylesHistoriques": 218
+    "blocsDonsEtStylesHistoriques": 218,
+    "armesSRD2024": 38,
+    "sousSectionsEtVariantesClasses": 284,
+    "nomsSousClassesPHB2024": 48
   },
   "aVerifier": [],
   "limites": [

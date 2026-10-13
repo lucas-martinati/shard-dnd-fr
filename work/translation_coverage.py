@@ -36,6 +36,9 @@ def report():
             'sortsSRD2024':len(json.loads(source('spell-reference.json').read_text())),
             'descriptionsEquipementSRD2024':len(json.loads(source('equipment-texts.json').read_text())),
             'blocsDonsEtStylesHistoriques':len(json.loads(source('feat-texts.json').read_text())),
+            'armesSRD2024':len(json.loads((ROOT/'translations/armes/catalogue-2024.json').read_text())['weapons']),
+            'sousSectionsEtVariantesClasses':len(json.loads((ROOT/'work/class-sections.json').read_text())),
+            'nomsSousClassesPHB2024':48,
         },
         'aVerifier':[r for r in classes+options if r['pending']],
         'limites':[

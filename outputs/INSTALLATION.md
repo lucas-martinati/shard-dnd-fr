@@ -8,6 +8,12 @@
 4. Autorise **www.aidedd.org** si Tampermonkey le demande.
 5. Désactive la traduction automatique du navigateur sur Shard.
 
+## Mises à jour suivantes
+
+Le header contient désormais deux liens vers le dépôt GitHub : Tampermonkey vérifie la version dans `shard-dnd-fr.meta.js` et télécharge `shard-dnd-fr.user.js` si une version plus récente est publiée. Ce mécanisme sera disponible après publication des deux fichiers sur la branche `main`.
+
+Une ancienne installation par copier-coller doit être remplacée une première fois par cette version pour enregistrer les liens. Les mises à jour suivantes dépendent des réglages de vérification et d’installation de Tampermonkey ; elles ne sont pas nécessairement immédiates. Le `.meta.js` sert uniquement à vérifier la version : n’installe pas ce fichier à la place du script complet.
+
 ## Configuration
 
 Le bouton apparaît **en haut à droite par défaut**. Une position déjà choisie dans une version précédente est conservée.
@@ -78,6 +84,12 @@ Les traductions sont regroupées par grandes catégories dans le dépôt. L’in
 Le corpus local comprend désormais la prose des 232 aptitudes indexées des 12 classes SRD, des 10 métamagies et des 28 manifestations occultes. Les descriptions existantes sont conservées lorsqu’elles couvrent déjà le même texte. Les dés cliquables gardent aussi leur casse originale.
 
 Le rapport `couverture-traductions.json` distingue les noms AideDD, les descriptions locales et les limites. Les sources SRD ne contiennent pas tous les suppléments ni toutes les sous-classes. Les autres fiches publiques AideDD restent chargées à la consultation ; une variante Shard différente peut rester en anglais.
+
+## Armes et sous-sections · version 1.17
+
+Le catalogue des 38 armes SRD 2024 est testé avec toutes les propriétés et bottes associées. Les variantes de propriétés sans exemple sont prises en charge, notamment Légère.
+
+Les rubriques d’aptitudes sont reliées par leur titre dans les deux langues. Cela ajoute 284 sous-sections et variantes des 12 classes : rubriques d’incantation, options, références au chapitre 7 et introductions génériques de sous-classe. Briseur de hordes et le Manteau d’inspiration fourni sont pris en charge avec leur texte complet. Les aptitudes de toutes les sous-classes hors SRD restent à compléter ; la traduction de leurs noms ne garantit pas celle de leurs descriptions.
 
 ## Vérifications
 

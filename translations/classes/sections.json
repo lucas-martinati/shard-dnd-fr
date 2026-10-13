@@ -1,0 +1,329 @@
+{
+  "source": "Titres de sous-sections vérifiés dans le SRD 5.2.1 EN/FR · CC-BY-4.0",
+  "headings": [
+    {
+      "en": "Cantrips",
+      "fr": [
+        "Sorts mineurs"
+      ]
+    },
+    {
+      "en": "Spell Slots",
+      "fr": [
+        "Emplacements de sort"
+      ]
+    },
+    {
+      "en": "Prepared Spells of Level 1+",
+      "fr": [
+        "Sorts préparés du 1er niveau et plus",
+        "Sorts préparés du niveau 1 et supérieur"
+      ]
+    },
+    {
+      "en": "Changing Your Prepared Spells",
+      "fr": [
+        "Modification des sorts préparés"
+      ]
+    },
+    {
+      "en": "Spellcasting Ability",
+      "fr": [
+        "Caractéristique d’incantation"
+      ]
+    },
+    {
+      "en": "Spellcasting Focus",
+      "fr": [
+        "Focaliseur d’incantation"
+      ]
+    },
+    {
+      "en": "Spellbook",
+      "fr": [
+        "Grimoire"
+      ]
+    },
+    {
+      "en": "Damage Resistance",
+      "fr": [
+        "Résistance aux dégâts"
+      ]
+    },
+    {
+      "en": "Rage Damage",
+      "fr": [
+        "Dégâts de Rage",
+        "Dégâts de rage"
+      ]
+    },
+    {
+      "en": "Strength Advantage",
+      "fr": [
+        "Avantage en Force",
+        "Avantage de Force"
+      ]
+    },
+    {
+      "en": "No Concentration or Spells",
+      "fr": [
+        "Ni Concentration ni sorts",
+        "Ni sorts ni Concentration"
+      ]
+    },
+    {
+      "en": "Duration",
+      "fr": [
+        "Durée"
+      ]
+    },
+    {
+      "en": "Using Bardic Inspiration",
+      "fr": [
+        "Utilisation de l’Inspiration bardique",
+        "Utiliser l’Inspiration bardique"
+      ]
+    },
+    {
+      "en": "Number of Uses",
+      "fr": [
+        "Nombre d’utilisations"
+      ]
+    },
+    {
+      "en": "At Higher Levels",
+      "fr": [
+        "À plus haut niveau",
+        "Aux niveaux supérieurs"
+      ]
+    },
+    {
+      "en": "Protector",
+      "fr": [
+        "Protecteur"
+      ]
+    },
+    {
+      "en": "Thaumaturge",
+      "fr": [
+        "Thaumaturge"
+      ]
+    },
+    {
+      "en": "Divine Spark",
+      "fr": [
+        "Étincelle divine"
+      ]
+    },
+    {
+      "en": "Turn Undead",
+      "fr": [
+        "Renvoi des morts-vivants"
+      ]
+    },
+    {
+      "en": "Divine Strike",
+      "fr": [
+        "Frappe divine"
+      ]
+    },
+    {
+      "en": "Potent Spellcasting",
+      "fr": [
+        "Incantation puissante"
+      ]
+    },
+    {
+      "en": "Primal Strike",
+      "fr": [
+        "Frappe primitive"
+      ]
+    },
+    {
+      "en": "Magician",
+      "fr": [
+        "Mage"
+      ]
+    },
+    {
+      "en": "Warden",
+      "fr": [
+        "Gardien"
+      ]
+    },
+    {
+      "en": "Known Forms",
+      "fr": [
+        "Formes connues"
+      ]
+    },
+    {
+      "en": "Evergreen Wild Shape",
+      "fr": [
+        "Forme sauvage intarissable"
+      ]
+    },
+    {
+      "en": "Nature Magician",
+      "fr": [
+        "Magie naturelle"
+      ]
+    },
+    {
+      "en": "Longevity",
+      "fr": [
+        "Longévité"
+      ]
+    },
+    {
+      "en": "Defy Death",
+      "fr": [
+        "Trompe-la-mort"
+      ]
+    },
+    {
+      "en": "Heroic Rally",
+      "fr": [
+        "Résilience héroïque"
+      ]
+    },
+    {
+      "en": "Bonus Unarmed Strike",
+      "fr": [
+        "Attaque à mains nues supplémentaire"
+      ]
+    },
+    {
+      "en": "Martial Arts Die",
+      "fr": [
+        "Dé d’Arts martiaux"
+      ]
+    },
+    {
+      "en": "Dexterous Attacks",
+      "fr": [
+        "Attaques lestes"
+      ]
+    },
+    {
+      "en": "Flurry of Blows",
+      "fr": [
+        "Déluge de coups"
+      ]
+    },
+    {
+      "en": "Patient Defense",
+      "fr": [
+        "Défense patiente"
+      ]
+    },
+    {
+      "en": "Step of the Wind",
+      "fr": [
+        "Pas du vent"
+      ]
+    },
+    {
+      "en": "Addle",
+      "fr": [
+        "Confusion"
+      ]
+    },
+    {
+      "en": "Push",
+      "fr": [
+        "Poussée"
+      ]
+    },
+    {
+      "en": "Topple",
+      "fr": [
+        "Renversement"
+      ]
+    },
+    {
+      "en": "Converting Spell Slots to Sorcery Points",
+      "fr": [
+        "Conversion d’emplacements de sort en points de Sorcellerie"
+      ]
+    },
+    {
+      "en": "Creating Spell Slots",
+      "fr": [
+        "Création d’emplacements de sort"
+      ]
+    },
+    {
+      "en": "Colossus Slayer",
+      "fr": [
+        "Goût du sang"
+      ]
+    },
+    {
+      "en": "Horde Breaker",
+      "fr": [
+        "Briseur de hordes"
+      ]
+    },
+    {
+      "en": "Poison",
+      "fr": [
+        "Poison"
+      ]
+    },
+    {
+      "en": "Trip",
+      "fr": [
+        "Croc-en-jambe"
+      ]
+    },
+    {
+      "en": "Withdraw",
+      "fr": [
+        "Repli"
+      ]
+    },
+    {
+      "en": "Daze",
+      "fr": [
+        "Hébéter"
+      ]
+    },
+    {
+      "en": "Knock Out",
+      "fr": [
+        "Assommer"
+      ]
+    },
+    {
+      "en": "Obscure",
+      "fr": [
+        "Aveugler"
+      ]
+    },
+    {
+      "en": "Forceful Blow",
+      "fr": [
+        "Coup appuyé"
+      ]
+    },
+    {
+      "en": "Hamstring Blow",
+      "fr": [
+        "Coup au jarret"
+      ]
+    },
+    {
+      "en": "Staggering Blow",
+      "fr": [
+        "Coup stupéfiant"
+      ]
+    },
+    {
+      "en": "Sundering Blow",
+      "fr": [
+        "Coup déchirant"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+const fs=require('node:fs'),assert=require('node:assert/strict'),{JSDOM}=require('jsdom');
+const refs=JSON.parse(fs.readFileSync('work/class-texts.json'));
+const sections=JSON.parse(fs.readFileSync('work/class-sections.json'));
+const packs=JSON.parse(fs.readFileSync('translations/classes/traductions.json')).entries;
+const w=new JSDOM('<main></main>',{url:'https://play.shardtabletop.com/#class',runScripts:'outside-only',pretendToBeVisual:true}).window,d=w.document,main=d.querySelector('main');
+const escape=s=>s.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;');
+const ranger=refs.find(r=>r.class==='ranger'&&r.name==='Spellcasting');
+const en=ranger.en.replace('See “Spells” for the rules on spellcasting.','See chapter 7 for the rules on spellcasting.');
+const fieldNames=['Spell Slots','Prepared Spells of Level 1+','Changing Your Prepared Spells','Spellcasting Ability','Spellcasting Focus'];
+const markers=fieldNames.map(name=>({name,start:en.indexOf(name+'. ')}));assert.ok(markers.every(m=>m.start>=0));
+const card=d.createElement('section');card.className='stdcontent';card.innerHTML='<h2>Level 1: Spellcasting</h2><div class="pre-wrap"></div>';const content=card.querySelector('div');
+content.innerHTML='<p>'+escape(en.slice(0,markers[0].start))+'</p>'+markers.map((m,i)=>'<p><i><strong>'+escape(m.name)+'.</strong></i> '+escape(en.slice(m.start+m.name.length+2,markers[i+1]?.start??en.length))+'</p>').join('');main.append(card);
+const chosen=sections.find(r=>r.en===en);assert.ok(chosen,'Missing chapter 7 Ranger variant');
+const horde=sections.find(r=>r.en.startsWith('Once on each of your turns when you make an attack with a weapon,'));assert.ok(horde);const hordeCard=d.createElement('section');hordeCard.className='stdcontent';hordeCard.innerHTML='<h2>Horde Breaker</h2><p>'+escape(horde.en)+'</p>';main.append(hordeCard);
+const mantle=packs.find(r=>r.id==='bard.glamour.mantle-of-inspiration.description');const mantleCard=d.createElement('section');mantleCard.className='stdcontent';mantleCard.innerHTML='<strong>Manteau d’inspiration.</strong><p>'+escape(mantle.en)+'</p>';main.append(mantleCard);
+const subclasses=[];
+for(const r of refs.filter(r=>r.name.endsWith('Subclass'))){const p=d.createElement('p');p.textContent=r.en.replace(/ The .+? subclass is detailed after this class’s description\./,'');main.append(p);subclasses.push(p)}assert.equal(subclasses.length,12);
+const names=fs.readFileSync('translations/classes/creation-2024.tsv','utf8').split('\n').slice(0,48).map(l=>l.split('|'));const titles=names.map(([en])=>{const h=d.createElement('h3');h.textContent=en;main.append(h);return h});
+const styles=[...content.querySelectorAll('strong,i')],original=main.innerHTML;
+w.GM_getValue=(k,f)=>f;w.GM_setValue=()=>{};w.GM_registerMenuCommand=()=>{};
+const pause=ms=>new Promise(r=>setTimeout(r,ms));async function wait(f){for(let i=0;i<300&&!f();i++)await pause(25);assert.ok(f(),'Class sections translation timed out');}
+(async()=>{try{
+ w.eval(fs.readFileSync('outputs/shard-dnd-fr.user.js','utf8'));
+ await wait(()=>!content.textContent.includes('You have learned')&&!content.textContent.includes('The number of spells')&&!content.textContent.includes('Whenever you finish'));
+ assert.doesNotMatch(content.textContent,/\b(?:You |Your |When |Whenever |The Ranger|Those spells|another Ranger)\b/);assert.match(content.textContent,/chapitre 7/);
+ for(const style of styles)assert.ok(style.isConnected);assert.deepEqual([...content.querySelectorAll('strong')].map(e=>e.textContent),['Emplacements de sort.','Sorts préparés du niveau 1 et supérieur.','Modification des sorts préparés.','Caractéristique d’incantation.','Focaliseur d’incantation.']);
+ await wait(()=>hordeCard.querySelector('p').textContent===horde.fr&&mantleCard.querySelector('p').textContent===mantle.fr&&subclasses.every(p=>!p.textContent.includes('You gain')));
+ assert.equal(hordeCard.querySelector('h2').textContent,'Briseur de hordes');await wait(()=>titles.every((h,i)=>h.textContent===names[i][1]));titles.forEach((h,i)=>assert.equal(h.textContent,names[i][1]));
+ const root=[...d.querySelectorAll('[data-shard-fr-ignore]')].map(e=>e.shadowRoot).find(r=>r?.getElementById('enabled')),enabled=root.getElementById('enabled');enabled.checked=false;enabled.dispatchEvent(new w.Event('change'));await wait(()=>main.innerHTML===original);
+ console.log('PASS class sections: Rôdeur chapitre 7 et rubriques en gras, Briseur de hordes, Manteau, introductions des 12 classes, noms des 48 sous-classes, restauration.');
+ }catch(e){console.error(content.textContent);throw e;}finally{w.close();}})().catch(e=>{console.error(e);process.exitCode=1});

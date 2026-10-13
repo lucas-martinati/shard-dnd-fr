@@ -27,7 +27,7 @@ for row in pack_rows:
  if row['kind']=='description':add(row['en'],row['fr'],row['source'])
 # Le corpus de classes complète les sources existantes sans les remplacer.
 known={key(row['en']) for row in pairs}
-for row in json.loads((root/'class-texts.json').read_text())+json.loads((root/'option-texts.json').read_text()):
+for row in json.loads((root/'class-texts.json').read_text())+json.loads((root/'option-texts.json').read_text())+json.loads((root/'class-sections.json').read_text()):
  if key(row['en']) not in known:
   add(row['en'],row['fr'],row['source']);known.add(key(row['en']))
 (root/'complete-texts.json').write_text(json.dumps(pairs,ensure_ascii=False,separators=(',',':')))

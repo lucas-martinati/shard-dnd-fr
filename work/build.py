@@ -1,4 +1,4 @@
-from translation_sources import source as translation_source
+from translation_sources import source as translation_source, DICTIONARIES
 from pathlib import Path
 import json,re,unicodedata
 from translation_packs import load_packs
@@ -8,10 +8,12 @@ version=json.loads((root/'package.json').read_text())['version']
 pack_rows=load_packs()
 pack_terms={row['en']:row for row in pack_rows if row['kind']=='term'}
 # Ordre explicite : références vérifiées prioritaires, puis corrections personnelles à l’exécution.
-modules=[('MONSTERS','monsters'),('SPELLS','spells'),('TERMS','terms'),('EQUIPMENT','equipment'),('INTERFACE','interface'),('RULES2024','2024'),('MAGICITEMS','magic-items'),('GM','gm'),('EXPANSION','expansion'),('DESCRIPTIONS','descriptions'),('DRUID','druid-descriptions'),('CREATION','creation-2024'),('CANONICAL_SPELLS','canonical-spells'),('CANONICAL_FEATURES','canonical-features'),('CANONICAL_COMBAT','canonical-combat'),('COMBAT_DESCRIPTIONS','combat-descriptions'),('FEATURE_TERMS','feature-terms')]
+modules=DICTIONARIES
 def norm(s):return re.sub(r'\s+',' ',re.sub('[‐‑–]','-',re.sub('[’‘ʼ]',"'",unicodedata.normalize('NFC',s)))).strip().lower()
 meta={};records={};parts=[]
 oldheader=re.sub(r'(?m)^(// @version\s+).+$',lambda m:m[1]+version,(work/'header.txt').read_text())
+metadata=re.match(r'\A// ==UserScript==\r?\n[\s\S]*?^// ==/UserScript==\s*$',oldheader,re.M)
+if not metadata:raise ValueError('Bloc de métadonnées Tampermonkey absent de work/header.txt')
 parts=[oldheader,'(() => {\n"use strict";\n']
 for const,name in modules:
  data=translation_source(name+'.tsv').read_text()
@@ -32,6 +34,7 @@ for const,name in modules:
   elif name=='monsters':category='monstre'
   elif name in ['equipment','magic-items']:category='équipement'
   elif 'description' in name:category='description'
+  if name=='feature-terms' and en in pack_terms:category={'armes':'équipement','objets':'équipement','classes':'aptitude de classe','sorts':'sort','monstres':'monstre','dons':'don','especes':'trait d’espèce','regles':'règles','interface':'interface'}.get(pack_terms[en]['category'],category)
   previous=records.get(key,{})
   aliases=previous.get('aliases',[])
   if previous.get('fr') and norm(previous['fr'])!=norm(fr):aliases=list(dict.fromkeys(aliases+[previous['fr']]))
@@ -56,6 +59,9 @@ parts.append('const COMPLETE_TEXTS = '+(work/'complete-texts.json').read_text()+
 parts.append((work/'aidedd-parser.js').read_text())
 parts.append((work/'runtime.js').read_text());parts.append('\n})();\n')
 (out/'shard-dnd-fr.user.js').write_text(''.join(parts))
+# Tampermonkey vérifie ce petit fichier avant de télécharger le script complet.
+# Extraire le bloc final garantit la même version, identité et URLs dans les deux fichiers.
+(out/'shard-dnd-fr.meta.js').write_text(metadata[0].rstrip()+'\n',encoding='utf-8')
 # Le lexique livré reflète le mode AideDD par défaut ; le SRD reste accessible séparément.
 srd_corrections={r['en']:r['fr'] for r in records.values() if r['source'].startswith('SRD officiel')}
 labels={'spell':'sort','monster':'monstre','feat':'don','invocation':'manifestation','magic-item':'objet magique'}

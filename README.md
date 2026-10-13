@@ -11,6 +11,14 @@ Script Tampermonkey de traduction française pour [Shard Tabletop](https://play.
 
 Consulter le [guide complet](outputs/INSTALLATION.md) pour les réglages, les recherches en français et les liens AideDD.
 
+## Mises à jour automatiques
+
+`npm run build` génère aussi `outputs/shard-dnd-fr.meta.js`, qui contient uniquement le header du script, avec la même version et les mêmes métadonnées. Tampermonkey consulte ce petit fichier via `@updateURL`, puis télécharge le script complet via `@downloadURL` lorsqu’une nouvelle version est disponible.
+
+Pour publier une mise à jour, augmenter la version dans `package.json`, exécuter `npm run build` et `npm test`, puis commit et pousser les fichiers générés sur `main`, y compris le `.meta.js`. Les liens de mise à jour deviennent disponibles après cette publication.
+
+Les utilisateurs ayant une ancienne installation par copier-coller doivent remplacer une fois leur script par la version contenant ces liens. Ensuite, les vérifications et installations de mises à jour suivent leurs réglages Tampermonkey. Le fichier `.meta.js` ne s’installe pas : le fichier à installer reste le [script complet](https://raw.githubusercontent.com/lucas-martinati/shard-dnd-fr/main/outputs/shard-dnd-fr.user.js).
+
 ## Fonctionnalités
 
 - Traduction dans les pages : sorts, monstres, objets, dons, aptitudes, métamagie et création de personnage.
@@ -66,3 +74,9 @@ La version 1.15 ajoute Rage et plusieurs traits draconiques, les propriétés d�
 Les corrections ponctuelles sont regroupées dans les catégories générales ; chaque entrée conserve sa source et son édition. L’import SRD porte sur la prose de 232 aptitudes des 12 classes, 10 options de métamagie et 28 manifestations occultes. Les options sont reliées par leur nom, jamais par leur ordre dans le document français. Les descriptions déjà présentes conservent leur priorité.
 
 L’inventaire [couverture des traductions](outputs/couverture-traductions.json) distingue les noms AideDD, les blocs traduits et les corpus appariés. Il ne certifie pas toutes les variantes Shard ni tous les suppléments. Le SRD ne contient qu’une sélection de sous-classes et de dons ; les autres descriptions publiques AideDD restent consultées à la demande.
+
+## Armes et affichage des aptitudes · version 1.17
+
+Le catalogue `translations/armes/catalogue-2024.json` énumère les 38 armes du SRD 2024 et leurs propriétés/bottes. Les tests affichent chaque arme avec toutes les règles associées, y compris la propriété Légère sans son exemple final, puis vérifient les dés et le retour au HTML d’origine.
+
+`translations/classes/sections.json` décrit les correspondances des titres de sous-sections. Le générateur fournit 284 sous-sections et variantes : incantation, options nommées, références au chapitre 7 et introductions de sous-classes des 12 classes. Les noms des 48 sous-classes PHB 2024 sont vérifiés dans les tests. Cela ne constitue pas une traduction intégrale des aptitudes des 48 sous-classes : le corpus principal reste celui du SRD. Manteau d’inspiration 2024 est ajouté depuis l’extrait fourni.

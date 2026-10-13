@@ -1,0 +1,469 @@
+{
+  "edition": "2024",
+  "source": "Table des armes · SRD 5.2.1 EN/FR · CC-BY-4.0 · https://www.dndbeyond.com/srd",
+  "weapons": [
+    {
+      "en": "Club",
+      "fr": "Gourdin",
+      "type": "Simple Melee Weapons",
+      "raw": "Club 1d4 Bludgeoning Light Slow 2 lb. 1 SP",
+      "properties": [
+        "Light"
+      ],
+      "mastery": "Slow",
+      "damage": "1d4 Bludgeoning"
+    },
+    {
+      "en": "Dagger",
+      "fr": "Dague",
+      "type": "Simple Melee Weapons",
+      "raw": "Dagger 1d4 Piercing Finesse, Light, Thrown (Range 20/60) Nick 1 lb. 2 GP",
+      "properties": [
+        "Finesse",
+        "Light",
+        "Thrown",
+        "Range"
+      ],
+      "mastery": "Nick",
+      "damage": "1d4 Piercing"
+    },
+    {
+      "en": "Greatclub",
+      "fr": "Massue",
+      "type": "Simple Melee Weapons",
+      "raw": "Greatclub 1d8 Bludgeoning Two-Handed Push 10 lb. 2 SP",
+      "properties": [
+        "Two-Handed"
+      ],
+      "mastery": "Push",
+      "damage": "1d8 Bludgeoning"
+    },
+    {
+      "en": "Handaxe",
+      "fr": "Hachette",
+      "type": "Simple Melee Weapons",
+      "raw": "Handaxe 1d6 Slashing Light, Thrown (Range 20/60) Vex 2 lb. 5 GP",
+      "properties": [
+        "Light",
+        "Thrown",
+        "Range"
+      ],
+      "mastery": "Vex",
+      "damage": "1d6 Slashing"
+    },
+    {
+      "en": "Javelin",
+      "fr": "Javeline",
+      "type": "Simple Melee Weapons",
+      "raw": "Javelin 1d6 Piercing Thrown (Range 30/120) Slow 2 lb. 5 SP",
+      "properties": [
+        "Thrown",
+        "Range"
+      ],
+      "mastery": "Slow",
+      "damage": "1d6 Piercing"
+    },
+    {
+      "en": "Light Hammer",
+      "fr": "Marteau léger",
+      "type": "Simple Melee Weapons",
+      "raw": "Light Hammer 1d4 Bludgeoning Light, Thrown (Range 20/60) Nick 2 lb. 2 GP",
+      "properties": [
+        "Light",
+        "Thrown",
+        "Range"
+      ],
+      "mastery": "Nick",
+      "damage": "1d4 Bludgeoning"
+    },
+    {
+      "en": "Mace",
+      "fr": "Masse d’armes",
+      "type": "Simple Melee Weapons",
+      "raw": "Mace 1d6 Bludgeoning — Sap 4 lb. 5 GP",
+      "properties": [],
+      "mastery": "Sap",
+      "damage": "1d6 Bludgeoning"
+    },
+    {
+      "en": "Quarterstaff",
+      "fr": "Bâton de combat",
+      "type": "Simple Melee Weapons",
+      "raw": "Quarterstaff 1d6 Bludgeoning Versatile (1d8) Topple 4 lb. 2 SP",
+      "properties": [
+        "Versatile"
+      ],
+      "mastery": "Topple",
+      "damage": "1d6 Bludgeoning"
+    },
+    {
+      "en": "Sickle",
+      "fr": "Serpe",
+      "type": "Simple Melee Weapons",
+      "raw": "Sickle 1d4 Slashing Light Nick 2 lb. 1 GP",
+      "properties": [
+        "Light"
+      ],
+      "mastery": "Nick",
+      "damage": "1d4 Slashing"
+    },
+    {
+      "en": "Spear",
+      "fr": "Lance",
+      "type": "Simple Melee Weapons",
+      "raw": "Spear 1d6 Piercing Thrown (Range 20/60), Versatile (1d8) Sap 3 lb. 1 GP",
+      "properties": [
+        "Thrown",
+        "Versatile",
+        "Range"
+      ],
+      "mastery": "Sap",
+      "damage": "1d6 Piercing"
+    },
+    {
+      "en": "Dart",
+      "fr": "Fléchette",
+      "type": "Simple Ranged Weapons",
+      "raw": "Dart 1d4 Piercing Finesse, Thrown (Range 20/60) Vex 1/4 lb. 5 CP",
+      "properties": [
+        "Finesse",
+        "Thrown",
+        "Range"
+      ],
+      "mastery": "Vex",
+      "damage": "1d4 Piercing"
+    },
+    {
+      "en": "Light Crossbow",
+      "fr": "Arbalète légère",
+      "type": "Simple Ranged Weapons",
+      "raw": "Light Crossbow 1d8 Piercing Ammunition (Range 80/320; Bolt), Loading, Two-Handed Slow 5 lb. 25 GP",
+      "properties": [
+        "Ammunition",
+        "Loading",
+        "Two-Handed",
+        "Range"
+      ],
+      "mastery": "Slow",
+      "damage": "1d8 Piercing"
+    },
+    {
+      "en": "Shortbow",
+      "fr": "Arc court",
+      "type": "Simple Ranged Weapons",
+      "raw": "Shortbow 1d6 Piercing Ammunition (Range 80/320; Arrow), Two-Handed Vex 2 lb. 25 GP",
+      "properties": [
+        "Ammunition",
+        "Two-Handed",
+        "Range"
+      ],
+      "mastery": "Vex",
+      "damage": "1d6 Piercing"
+    },
+    {
+      "en": "Sling",
+      "fr": "Fronde",
+      "type": "Simple Ranged Weapons",
+      "raw": "Sling 1d4 Bludgeoning Ammunition (Range 30/120; Bullet) Slow — 1 SP",
+      "properties": [
+        "Ammunition",
+        "Range"
+      ],
+      "mastery": "Slow",
+      "damage": "1d4 Bludgeoning"
+    },
+    {
+      "en": "Battleaxe",
+      "fr": "Hache d’armes",
+      "type": "Martial Melee Weapons",
+      "raw": "Battleaxe 1d8 Slashing Versatile (1d10) Topple 4 lb. 10 GP",
+      "properties": [
+        "Versatile"
+      ],
+      "mastery": "Topple",
+      "damage": "1d8 Slashing"
+    },
+    {
+      "en": "Flail",
+      "fr": "Fléau d’armes",
+      "type": "Martial Melee Weapons",
+      "raw": "Flail 1d8 Bludgeoning — Sap 2 lb. 10 GP",
+      "properties": [],
+      "mastery": "Sap",
+      "damage": "1d8 Bludgeoning"
+    },
+    {
+      "en": "Glaive",
+      "fr": "Coutille",
+      "type": "Martial Melee Weapons",
+      "raw": "Glaive 1d10 Slashing Heavy, Reach, Two-Handed Graze 6 lb. 20 GP",
+      "properties": [
+        "Heavy",
+        "Reach",
+        "Two-Handed"
+      ],
+      "mastery": "Graze",
+      "damage": "1d10 Slashing"
+    },
+    {
+      "en": "Greataxe",
+      "fr": "Hache à deux mains",
+      "type": "Martial Melee Weapons",
+      "raw": "Greataxe 1d12 Slashing Heavy, Two-Handed Cleave 7 lb. 30 GP",
+      "properties": [
+        "Heavy",
+        "Two-Handed"
+      ],
+      "mastery": "Cleave",
+      "damage": "1d12 Slashing"
+    },
+    {
+      "en": "Greatsword",
+      "fr": "Épée à deux mains",
+      "type": "Martial Melee Weapons",
+      "raw": "Greatsword 2d6 Slashing Heavy, Two-Handed Graze 6 lb. 50 GP",
+      "properties": [
+        "Heavy",
+        "Two-Handed"
+      ],
+      "mastery": "Graze",
+      "damage": "2d6 Slashing"
+    },
+    {
+      "en": "Halberd",
+      "fr": "Hallebarde",
+      "type": "Martial Melee Weapons",
+      "raw": "Halberd 1d10 Slashing Heavy, Reach, Two-Handed Cleave 6 lb. 20 GP",
+      "properties": [
+        "Heavy",
+        "Reach",
+        "Two-Handed"
+      ],
+      "mastery": "Cleave",
+      "damage": "1d10 Slashing"
+    },
+    {
+      "en": "Lance",
+      "fr": "Lance d’arçon",
+      "type": "Martial Melee Weapons",
+      "raw": "Lance 1d10 Piercing Heavy, Reach, Two-Handed (unless mounted) Topple 6 lb. 10 GP",
+      "properties": [
+        "Heavy",
+        "Reach",
+        "Two-Handed"
+      ],
+      "mastery": "Topple",
+      "damage": "1d10 Piercing"
+    },
+    {
+      "en": "Longsword",
+      "fr": "Épée longue",
+      "type": "Martial Melee Weapons",
+      "raw": "Longsword 1d8 Slashing Versatile (1d10) Sap 3 lb. 15 GP",
+      "properties": [
+        "Versatile"
+      ],
+      "mastery": "Sap",
+      "damage": "1d8 Slashing"
+    },
+    {
+      "en": "Maul",
+      "fr": "Maillet d’armes",
+      "type": "Martial Melee Weapons",
+      "raw": "Maul 2d6 Bludgeoning Heavy, Two-Handed Topple 10 lb. 10 GP",
+      "properties": [
+        "Heavy",
+        "Two-Handed"
+      ],
+      "mastery": "Topple",
+      "damage": "2d6 Bludgeoning"
+    },
+    {
+      "en": "Morningstar",
+      "fr": "Morgenstern",
+      "type": "Martial Melee Weapons",
+      "raw": "Morningstar 1d8 Piercing — Sap 4 lb. 15 GP",
+      "properties": [],
+      "mastery": "Sap",
+      "damage": "1d8 Piercing"
+    },
+    {
+      "en": "Pike",
+      "fr": "Pique",
+      "type": "Martial Melee Weapons",
+      "raw": "Pike 1d10 Piercing Heavy, Reach, Two-Handed Push 18 lb. 5 GP",
+      "properties": [
+        "Heavy",
+        "Reach",
+        "Two-Handed"
+      ],
+      "mastery": "Push",
+      "damage": "1d10 Piercing"
+    },
+    {
+      "en": "Rapier",
+      "fr": "Rapière",
+      "type": "Martial Melee Weapons",
+      "raw": "Rapier 1d8 Piercing Finesse Vex 2 lb. 25 GP",
+      "properties": [
+        "Finesse"
+      ],
+      "mastery": "Vex",
+      "damage": "1d8 Piercing"
+    },
+    {
+      "en": "Scimitar",
+      "fr": "Cimeterre",
+      "type": "Martial Melee Weapons",
+      "raw": "Scimitar 1d6 Slashing Finesse, Light Nick 3 lb. 25 GP",
+      "properties": [
+        "Finesse",
+        "Light"
+      ],
+      "mastery": "Nick",
+      "damage": "1d6 Slashing"
+    },
+    {
+      "en": "Shortsword",
+      "fr": "Épée courte",
+      "type": "Martial Melee Weapons",
+      "raw": "Shortsword 1d6 Piercing Finesse, Light Vex 2 lb. 10 GP",
+      "properties": [
+        "Finesse",
+        "Light"
+      ],
+      "mastery": "Vex",
+      "damage": "1d6 Piercing"
+    },
+    {
+      "en": "Trident",
+      "fr": "Trident",
+      "type": "Martial Melee Weapons",
+      "raw": "Trident 1d8 Piercing Thrown (Range 20/60), Versatile (1d10) Topple 4 lb. 5 GP",
+      "properties": [
+        "Thrown",
+        "Versatile",
+        "Range"
+      ],
+      "mastery": "Topple",
+      "damage": "1d8 Piercing"
+    },
+    {
+      "en": "Warhammer",
+      "fr": "Marteau de guerre",
+      "type": "Martial Melee Weapons",
+      "raw": "Warhammer 1d8 Bludgeoning Versatile (1d10) Push 5 lb. 15 GP",
+      "properties": [
+        "Versatile"
+      ],
+      "mastery": "Push",
+      "damage": "1d8 Bludgeoning"
+    },
+    {
+      "en": "War Pick",
+      "fr": "Pic de guerre",
+      "type": "Martial Melee Weapons",
+      "raw": "War Pick 1d8 Piercing Versatile (1d10) Sap 2 lb. 5 GP",
+      "properties": [
+        "Versatile"
+      ],
+      "mastery": "Sap",
+      "damage": "1d8 Piercing"
+    },
+    {
+      "en": "Whip",
+      "fr": "Fouet",
+      "type": "Martial Melee Weapons",
+      "raw": "Whip 1d4 Slashing Finesse, Reach Slow 3 lb. 2 GP",
+      "properties": [
+        "Finesse",
+        "Reach"
+      ],
+      "mastery": "Slow",
+      "damage": "1d4 Slashing"
+    },
+    {
+      "en": "Blowgun",
+      "fr": "Sarbacane",
+      "type": "Martial Ranged Weapons",
+      "raw": "Blowgun 1 Piercing Ammunition (Range 25/100; Needle), Loading Vex 1 lb. 10 GP",
+      "properties": [
+        "Ammunition",
+        "Loading",
+        "Range"
+      ],
+      "mastery": "Vex",
+      "damage": "1 Piercing"
+    },
+    {
+      "en": "Hand Crossbow",
+      "fr": "Arbalète de poing",
+      "type": "Martial Ranged Weapons",
+      "raw": "Hand Crossbow 1d6 Piercing Ammunition (Range 30/120; Bolt), Light, Loading Vex 3 lb. 75 GP",
+      "properties": [
+        "Ammunition",
+        "Light",
+        "Loading",
+        "Range"
+      ],
+      "mastery": "Vex",
+      "damage": "1d6 Piercing"
+    },
+    {
+      "en": "Heavy Crossbow",
+      "fr": "Arbalète lourde",
+      "type": "Martial Ranged Weapons",
+      "raw": "Heavy Crossbow 1d10 Piercing Ammunition (Range 100/400; Bolt), Heavy, Loading, Two-Handed Push 18 lb. 50 GP",
+      "properties": [
+        "Ammunition",
+        "Heavy",
+        "Loading",
+        "Two-Handed",
+        "Range"
+      ],
+      "mastery": "Push",
+      "damage": "1d10 Piercing"
+    },
+    {
+      "en": "Longbow",
+      "fr": "Arc long",
+      "type": "Martial Ranged Weapons",
+      "raw": "Longbow 1d8 Piercing Ammunition (Range 150/600; Arrow), Heavy, Two-Handed Slow 2 lb. 50 GP",
+      "properties": [
+        "Ammunition",
+        "Heavy",
+        "Two-Handed",
+        "Range"
+      ],
+      "mastery": "Slow",
+      "damage": "1d8 Piercing"
+    },
+    {
+      "en": "Musket",
+      "fr": "Mousquet",
+      "type": "Martial Ranged Weapons",
+      "raw": "Musket 1d12 Piercing Ammunition (Range 40/120; Bullet), Loading, Two-Handed Slow 10 lb. 500 GP",
+      "properties": [
+        "Ammunition",
+        "Loading",
+        "Two-Handed",
+        "Range"
+      ],
+      "mastery": "Slow",
+      "damage": "1d12 Piercing"
+    },
+    {
+      "en": "Pistol",
+      "fr": "Pistolet",
+      "type": "Martial Ranged Weapons",
+      "raw": "Pistol 1d10 Piercing Ammunition (Range 30/90; Bullet), Loading Vex 3 lb. 250 GP",
+      "properties": [
+        "Ammunition",
+        "Loading",
+        "Range"
+      ],
+      "mastery": "Vex",
+      "damage": "1d10 Piercing"
+    }
+  ]
+}
