@@ -1,5 +1,5 @@
 {
-  "version": "1.17.4",
+  "version": "1.17.5",
   "reference": "Noms AideDD 2024 prioritaires. Références SRD disponibles séparément. Autres entrées identifiées.",
   "license": "Code MIT ; contenu SRD CC-BY-4.0 https://creativecommons.org/licenses/by/4.0/",
   "sources": [
@@ -12975,8 +12975,8 @@
     {
       "en": "Effect",
       "fr": "Effet",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "category": "règles",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026",
       "aliases": []
     },
     {
@@ -13096,8 +13096,8 @@
     {
       "en": "Level",
       "fr": "Niveau",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "category": "règles",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026",
       "aliases": []
     },
     {
@@ -25752,6 +25752,55 @@
       "fr": "Géants",
       "category": "règles",
       "source": "Pluriel du type de créature Giant du lexique commun · terminologie AideDD",
+      "aliases": []
+    },
+    {
+      "en": "Death",
+      "fr": "Mort",
+      "category": "règles",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Enlarge",
+      "fr": "Agrandissement",
+      "category": "règles",
+      "source": "Libellé observé dans le catalogue Conditions de Shard · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Reduce",
+      "fr": "Rapetissement",
+      "category": "règles",
+      "source": "Libellé observé dans le catalogue Conditions de Shard · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Turned",
+      "fr": "Renvoyé",
+      "category": "règles",
+      "source": "Libellé observé dans le catalogue Conditions de Shard · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Zero Speed",
+      "fr": "Vitesse nulle",
+      "category": "règles",
+      "source": "Libellé observé dans le catalogue Conditions de Shard · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Radiate Light 40",
+      "fr": "Émission de lumière 40",
+      "category": "règles",
+      "source": "Libellé observé dans le catalogue Conditions de Shard · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Transform",
+      "fr": "Transformation",
+      "category": "règles",
+      "source": "Libellé observé dans le catalogue Conditions de Shard · traduction proposée · 13 octobre 2026",
       "aliases": []
     },
     {

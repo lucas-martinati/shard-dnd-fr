@@ -164,7 +164,7 @@
   }
   function processText(node) {
     if(maintainInline(node))return;
-    if(node.parentElement?.closest('p,li,.description,.pre-wrap,.stdcontent')){let el=node.parentElement;for(let depth=0;el&&depth<3;depth++,el=el.parentElement){processInline(el);if(maintainInline(node))return;}}
+    if(node.parentElement?.closest('p,li,td,th,.description,.pre-wrap,.stdcontent')){let el=node.parentElement;for(let depth=0;el&&depth<3;depth++,el=el.parentElement){processInline(el);if(maintainInline(node))return;}}
     if (!node.isConnected || excluded(node.parentElement)) return;
     const current = node.data;
     const prev = tokenState.get(node);
@@ -182,7 +182,8 @@
     }
     if(processSplitLabel(node))return;
     discoverInline(node,original);
-    let prose=node.parentElement.closest('p,li,.description,.pre-wrap');
+    // Une cellule est un bloc autonome, même dans un tableau de description.
+    let prose=node.parentElement.closest('p,li,td,th,.description,.pre-wrap');
     if(!prose){
       const local=node.parentElement.closest('div');
       // Un conteneur de fiche n’est pas un paragraphe : ses titres, tableaux

@@ -1,0 +1,6 @@
+{
+  "html": "<div class=\"stdcontent\"><h3>Transform</h3><div class=\"pre-wrap \"><span><p>The transformation lasts for the duration, or until the target drops to 0 hit points or dies. The new form can be any beast whose challenge rating is equal to or less than the target's (or the target's level, if it doesn't have a challenge rating). The target's game statistics, including mental ability scores, are replaced by the statistics of the chosen beast. It retains its alignment and personality.</p></span></div></div>",
+  "name": "Polymorph",
+  "source": "Source. Shard Player's Guide Volume 1, D&D 2024 PHB",
+  "entry": "condition.shard.polymorph.transform"
+}

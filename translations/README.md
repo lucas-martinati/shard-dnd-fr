@@ -25,3 +25,5 @@ Lancer `npm run build`, puis `npm test`. `npm run translations:coverage` disting
 Voir [le guide détaillé](../docs/AJOUTER-DES-TRADUCTIONS.md).
 
 Les descriptions de présentation des espèces et lignages se trouvent dans `especes/`, celles des classes et sous-classes dans `classes/`, et celles des historiques dans `regles/`. Leurs identifiants commencent par `narrative.`. `descriptions-visibles.json` relie chaque fiche relevée à ses paragraphes ou puces pour mesurer la couverture des textes, séparément de celle des noms.
+
+`regles/conditions-shard.json` inventorie les 48 fiches du catalogue Conditions relevé, avec les références des paragraphes, puces et cellules chargés depuis `regles/traductions.json`. Il comprend les états anciens et 2024 et les effets généraux Shard. Le livre indiqué par Shard peut associer un effet ancien au PHB 2024 : le texte exact fait foi, sans substitution des mécanismes par ceux d’une autre édition. Métamorphose n’a pas de présentation en carte ; sa description de Transformation est visible dans la fiche ouverte et testée séparément.

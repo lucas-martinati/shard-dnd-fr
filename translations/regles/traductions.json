@@ -1407,6 +1407,477 @@
       "fr": "Géants",
       "source": "Pluriel du type de créature Giant du lexique commun · terminologie AideDD",
       "edition": "any"
+    },
+    {
+      "id": "condition.shard.blinded.0",
+      "en": "A blinded creature can't see and automatically fails any ability check that requires sight.",
+      "fr": "Une créature aveuglée ne peut pas voir et échoue automatiquement à tout test de caractéristique qui nécessite la vue.",
+      "edition": "2014",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.blinded.1",
+      "en": "Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage.",
+      "fr": "Les jets d’attaque contre la créature ont l’Avantage et ses jets d’attaque subissent le Désavantage.",
+      "edition": "2014",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.bloodied.4",
+      "en": "If you have half your Hit Points or fewer, you’re Bloodied, which has no game effect on its own but which might trigger other game effects.",
+      "fr": "Si vous avez la moitié de vos points de vie ou moins, vous êtes En sang. Cela n’a aucun effet de jeu en soi, mais peut déclencher d’autres effets de jeu.",
+      "edition": "any",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · D&D 2024 PHB · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.charmed.5",
+      "en": "A charmed creature can't attack the charmer or target the charmer with harmful abilities or magical effects.",
+      "fr": "Une créature charmée ne peut pas attaquer celui qui l’a charmée ni le cibler avec des aptitudes ou des effets magiques nuisibles.",
+      "edition": "2014",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.charmed.6",
+      "en": "The charmer has advantage on any ability check to interact socially with the creature.",
+      "fr": "Celui qui a charmé la créature a l’Avantage à tout test de caractéristique pour interagir socialement avec elle.",
+      "edition": "2014",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.darkvision-120.9",
+      "en": "You have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+      "fr": "Votre vision est supérieure dans l’obscurité et la lumière faible. Dans un rayon de 120 feet, vous voyez dans la lumière faible comme s’il s’agissait d’une lumière vive, et dans l’obscurité comme s’il s’agissait d’une lumière faible. Dans l’obscurité, vous ne distinguez pas les couleurs, seulement les nuances de gris.",
+      "edition": "2014",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.darkvision-60.11",
+      "en": "You have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+      "fr": "Votre vision est supérieure dans l’obscurité et la lumière faible. Dans un rayon de 60 feet, vous voyez dans la lumière faible comme s’il s’agissait d’une lumière vive, et dans l’obscurité comme s’il s’agissait d’une lumière faible. Dans l’obscurité, vous ne distinguez pas les couleurs, seulement les nuances de gris.",
+      "edition": "2014",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.deafened.13",
+      "en": "A deafened creature can't hear and automatically fails any ability check that requires hearing.",
+      "fr": "Une créature assourdie ne peut pas entendre et échoue automatiquement à tout test de caractéristique qui nécessite l’ouïe.",
+      "edition": "2014",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.encumbered.15",
+      "en": "You carrying weight in excess of your normal carrying capacity. As a result, your speed is reduced by 10 feet.",
+      "fr": "Le poids que vous portez dépasse votre capacité de charge normale. Votre Vitesse est donc réduite de 10 feet.",
+      "edition": "any",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1, D&D 2024 PHB · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.enlarge.16",
+      "en": "Your size doubles in all dimensions, and weight is multiplied by eight. This growth increases size by one category—from Medium to Large, for example. If there isn't enough room to double size, the creature attains the maximum possible size in the space available. You also have advantage on Strength checks and Strength saving throws. Weapons also grow to match its new size. While these weapons are enlarged, the target's attacks with them deal 1d4 extra damage.",
+      "fr": "Votre taille double dans toutes les dimensions et votre poids est multiplié par huit. Cette croissance augmente votre taille d’une catégorie, par exemple de Moyenne à Grande. Si l’espace disponible ne permet pas de doubler votre taille, vous atteignez la taille maximale possible dans cet espace. Vous avez également l’Avantage aux tests de Force et aux jets de sauvegarde de Force. Vos armes grandissent aussi pour s’adapter à votre nouvelle taille. Tant qu’elles sont agrandies, vos attaques avec ces armes infligent 1d4 dégâts supplémentaires.",
+      "edition": "any",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1, D&D 2024 PHB · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.exhaustion.17",
+      "en": "Some special abilities and environmental hazards, such as starvation and the long-term effects of freezing or scorching temperatures, can lead to a special condition called exhaustion. Exhaustion is measured in six levels. An effect can give a creature one or more levels of exhaustion, as specified in the effect's description.",
+      "fr": "Certaines aptitudes spéciales et certains dangers environnementaux, comme la famine ou les effets prolongés de températures glaciales ou torrides, peuvent provoquer un état particulier appelé Épuisement. L’Épuisement comporte six niveaux. Un effet peut infliger un ou plusieurs niveaux d’Épuisement à une créature, comme indiqué dans sa description.",
+      "edition": "2014",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.exhaustion.18",
+      "en": "Level",
+      "fr": "Niveau",
+      "edition": "2014",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026",
+      "kind": "term"
+    },
+    {
+      "id": "condition.shard.exhaustion.19",
+      "en": "Effect",
+      "fr": "Effet",
+      "edition": "2014",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026",
+      "kind": "term"
+    },
+    {
+      "id": "condition.shard.exhaustion.21",
+      "en": "Disadvantage on ability checks",
+      "fr": "Désavantage aux tests de caractéristique",
+      "edition": "2014",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.exhaustion.23",
+      "en": "Speed halved",
+      "fr": "Vitesse réduite de moitié",
+      "edition": "2014",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.exhaustion.25",
+      "en": "Disadvantage on attack rolls and saving throws",
+      "fr": "Désavantage aux jets d’attaque et aux jets de sauvegarde",
+      "edition": "2014",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.exhaustion.27",
+      "en": "Hit point maximum halved",
+      "fr": "Maximum de points de vie réduit de moitié",
+      "edition": "2014",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.exhaustion.29",
+      "en": "Speed reduced to 0",
+      "fr": "Vitesse réduite à 0",
+      "edition": "2014",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.exhaustion.31",
+      "en": "Death",
+      "fr": "Mort",
+      "edition": "2014",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026",
+      "kind": "term"
+    },
+    {
+      "id": "condition.shard.exhaustion.32",
+      "en": "If an already exhausted creature suffers another effect that causes exhaustion, its current level of exhaustion increases by the amount specified in the effect's description.",
+      "fr": "Si une créature déjà épuisée subit un autre effet qui provoque l’Épuisement, son niveau actuel augmente du nombre indiqué dans la description de cet effet.",
+      "edition": "2014",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.exhaustion.33",
+      "en": "A creature suffers the effect of its current level of exhaustion as well as all lower levels. For example, a creature suffering level 2 exhaustion has its speed halved and has disadvantage on ability checks.",
+      "fr": "Une créature subit l’effet de son niveau actuel d’Épuisement ainsi que ceux de tous les niveaux inférieurs. Par exemple, une créature qui subit le niveau 2 d’Épuisement voit sa Vitesse réduite de moitié et subit le Désavantage aux tests de caractéristique.",
+      "edition": "2014",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.exhaustion.34",
+      "en": "An effect that removes exhaustion reduces its level as specified in the effect's description, with all exhaustion effects ending if a creature's exhaustion level is reduced below 1.",
+      "fr": "Un effet qui supprime l’Épuisement réduit son niveau comme indiqué dans sa description. Tous les effets de l’Épuisement prennent fin si le niveau de la créature passe en dessous de 1.",
+      "edition": "2014",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.exhaustion.35",
+      "en": "Finishing a long rest reduces a creature's exhaustion level by 1, provided that the creature has also ingested some food and drink. Also, being raised from the dead reduces a creature's exhaustion level by 1.",
+      "fr": "Terminer un Repos long réduit de 1 le niveau d’Épuisement d’une créature, à condition qu’elle ait également mangé et bu. Revenir d’entre les morts réduit aussi de 1 son niveau d’Épuisement.",
+      "edition": "2014",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.frightened.40",
+      "en": "A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.",
+      "fr": "Une créature effrayée subit le Désavantage aux tests de caractéristique et aux jets d’attaque tant que la source de sa peur est dans son champ de vision.",
+      "edition": "2014",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.frightened.41",
+      "en": "The creature can't willingly move closer to the source of its fear.",
+      "fr": "La créature ne peut pas se rapprocher volontairement de la source de sa peur.",
+      "edition": "2014",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.grappled.44",
+      "en": "A grappled creature's speed becomes 0, and it can't benefit from any bonus to its speed.",
+      "fr": "La Vitesse d’une créature agrippée devient 0 et elle ne peut bénéficier d’aucun bonus à sa Vitesse.",
+      "edition": "2014",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.grappled.45",
+      "en": "The condition ends if the grappler is incapacitated.",
+      "fr": "Cet état prend fin si la créature qui agrippe est Neutralisée.",
+      "edition": "2014",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.grappled.46",
+      "en": "The condition also ends if an effect removes the grappled creature from the reach of the grappler or grappling effect, such as when a creature is hurled away by the spell thunderwave spell.",
+      "fr": "Cet état prend également fin si un effet éloigne la créature agrippée au-delà de l’allonge de la créature qui l’agrippe ou de l’effet d’agrippement, par exemple lorsqu’elle est projetée au loin par le sort Vague tonnante.",
+      "edition": "2014",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.half-cover.50",
+      "en": "Half Cover gives you +2 to your Armor Class.",
+      "fr": "Un Abri partiel vous donne un bonus de +2 à la Classe d’armure.",
+      "edition": "any",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · D&D 2024 PHB · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.heavily-encumbered.51",
+      "en": "You carrying weight more than double your normal carrying capacity. As a result, your speed is reduced by 20 feet and you have disadvantage on on ability checks, attack rolls, and saving throws that use Strength, Dexterity, or Constitution.",
+      "fr": "Le poids que vous portez dépasse le double de votre capacité de charge normale. Votre Vitesse est donc réduite de 20 feet et vous subissez le Désavantage aux tests de caractéristique, aux jets d’attaque et aux jets de sauvegarde qui font intervenir la Force, la Dextérité ou la Constitution.",
+      "edition": "any",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1, D&D 2024 PHB · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.incapacitated.52",
+      "en": "An incapacitated creature can't take actions or reactions.",
+      "fr": "Une créature neutralisée ne peut entreprendre ni action ni Réaction.",
+      "edition": "2014",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.inspiration.57",
+      "en": "If you have inspiration, you can expend it when you make an attack roll, saving throw, or ability check. Spending your inspiration gives you advantage on that roll.",
+      "fr": "Si vous avez l’Inspiration, vous pouvez la dépenser lorsque vous effectuez un jet d’attaque, un jet de sauvegarde ou un test de caractéristique. Dépenser votre Inspiration vous donne l’Avantage à ce jet.",
+      "edition": "any",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1, D&D 2024 PHB · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.inspiration.58",
+      "en": "Additionally, if you have inspiration, you can reward another player for good roleplaying, clever thinking, or simply doing something exciting in the game. When another player character does something that really contributes to the story in a fun and interesting way, you can give up your inspiration to give that character inspiration.",
+      "fr": "Si vous avez l’Inspiration, vous pouvez aussi récompenser un autre joueur pour une bonne interprétation, une idée astucieuse ou simplement une action passionnante en jeu. Quand le personnage d’un autre joueur contribue à l’histoire de manière amusante et intéressante, vous pouvez renoncer à votre Inspiration pour la lui donner.",
+      "edition": "any",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1, D&D 2024 PHB · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.invisible.59",
+      "en": "An invisible creature is impossible to see without the aid of magic or a special sense. For the purpose of hiding, the creature is heavily obscured. The creature's location can be detected by any noise it makes or any tracks it leaves.",
+      "fr": "Une créature invisible ne peut être vue sans l’aide de la magie ou d’un sens spécial. Pour se cacher, elle est considérée comme entièrement masquée. Sa position peut être repérée grâce aux bruits qu’elle produit ou aux traces qu’elle laisse.",
+      "edition": "2014",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.invisible.60",
+      "en": "Attack rolls against the creature have disadvantage, and the creature's attack rolls have advantage.",
+      "fr": "Les jets d’attaque contre la créature subissent le Désavantage et ses jets d’attaque ont l’Avantage.",
+      "edition": "2014",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.mage-armor.64",
+      "en": "Your base AC becomes 13 + its Dexterity modifier if you are not wearing armor.",
+      "fr": "Votre Classe d’armure de base devient 13 + votre modificateur de Dextérité si vous ne portez pas d’armure.",
+      "edition": "2014",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.paralyzed.66",
+      "en": "A paralyzed creature is incapacitated and can't move or speak.",
+      "fr": "Une créature paralysée est Neutralisée et ne peut ni se déplacer ni parler.",
+      "edition": "2014",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.paralyzed.67",
+      "en": "The creature automatically fails Strength and Dexterity saving throws. Attack rolls against the creature have advantage.",
+      "fr": "La créature échoue automatiquement aux jets de sauvegarde de Force et de Dextérité. Les jets d’attaque contre elle ont l’Avantage.",
+      "edition": "2014",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.paralyzed.68",
+      "en": "Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature.",
+      "fr": "Toute attaque qui touche la créature est un Coup critique si l’attaquant est à 5 feet ou moins d’elle.",
+      "edition": "2014",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.petrified.74",
+      "en": "A petrified creature is transformed, along with any nonmagical object it is wearing or carrying, into a solid inanimate substance (usually stone). Its weight increases by a factor of ten, and it ceases aging.",
+      "fr": "Une créature pétrifiée est transformée, ainsi que tous les objets non magiques qu’elle porte, en une substance solide et inanimée, généralement de la pierre. Son poids est multiplié par dix et elle cesse de vieillir.",
+      "edition": "2014",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.petrified.75",
+      "en": "The creature is incapacitated, can't move or speak, and is unaware of its surroundings.",
+      "fr": "La créature est Neutralisée, ne peut ni se déplacer ni parler et n’a pas conscience de son environnement.",
+      "edition": "2014",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.petrified.76",
+      "en": "Attack rolls against the creature have advantage.",
+      "fr": "Les jets d’attaque contre la créature ont l’Avantage.",
+      "edition": "2014",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.petrified.77",
+      "en": "The creature automatically fails Strength and Dexterity saving throws.",
+      "fr": "La créature échoue automatiquement aux jets de sauvegarde de Force et de Dextérité.",
+      "edition": "2014",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.petrified.78",
+      "en": "The creature has resistance to all damage.",
+      "fr": "La créature a la Résistance à tous les dégâts.",
+      "edition": "2014",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.petrified.79",
+      "en": "The creature is immune to poison and disease, although a poison or disease already in its system is suspended, not neutralized.",
+      "fr": "La créature est immunisée contre le poison et les maladies. Toutefois, un poison ou une maladie déjà présent dans son organisme est suspendu, et non neutralisé.",
+      "edition": "2014",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.poisoned.87",
+      "en": "A poisoned creature has disadvantage on attack rolls and ability checks.",
+      "fr": "Une créature empoisonnée subit le Désavantage aux jets d’attaque et aux tests de caractéristique.",
+      "edition": "2014",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.prone.89",
+      "en": "A prone creature's only movement option is to crawl, unless it stands up and thereby ends the condition.",
+      "fr": "Une créature À terre ne peut se déplacer qu’en rampant, à moins de se relever et de mettre ainsi fin à cet état.",
+      "edition": "2014",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.prone.90",
+      "en": "The creature has disadvantage on attack rolls.",
+      "fr": "La créature subit le Désavantage aux jets d’attaque.",
+      "edition": "2014",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.prone.91",
+      "en": "An attack roll against the creature has advantage if the attacker is within 5 feet of the creature. Otherwise, the attack roll has disadvantage.",
+      "fr": "Un jet d’attaque contre la créature a l’Avantage si l’attaquant est à 5 feet ou moins d’elle. Dans le cas contraire, ce jet subit le Désavantage.",
+      "edition": "2014",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.radiate-light-40.94",
+      "en": "You radiate light for 40 ft (equivalent of a torch).",
+      "fr": "Vous émettez de la lumière sur 40 ft, comme une torche.",
+      "edition": "2014",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.reduce.95",
+      "en": "Size is halved in all dimensions, and weight is reduced to one-eighth of normal. This reduction decreases size by one category—from Medium to Small, for example. You have disadvantage on Strength checks and Strength saving throws. Weapons also shrink to match its new size. While these weapons are reduced, the target's attacks with them deal 1d4 less damage (this can't reduce the damage below 1).",
+      "fr": "Votre taille est divisée par deux dans toutes les dimensions et votre poids est réduit à un huitième de son poids normal. Cette réduction diminue votre taille d’une catégorie, par exemple de Moyenne à Petite. Vous subissez le Désavantage aux tests de Force et aux jets de sauvegarde de Force. Vos armes rétrécissent aussi pour s’adapter à votre nouvelle taille. Tant qu’elles sont réduites, vos attaques avec ces armes infligent 1d4 dégâts de moins, sans pouvoir réduire les dégâts en dessous de 1.",
+      "edition": "any",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1, D&D 2024 PHB · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.restrained.96",
+      "en": "A restrained creature's speed becomes 0, and it can't benefit from any bonus to its speed.",
+      "fr": "La Vitesse d’une créature entravée devient 0 et elle ne peut bénéficier d’aucun bonus à sa Vitesse.",
+      "edition": "2014",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.restrained.98",
+      "en": "The creature has disadvantage on Dexterity saving throws.",
+      "fr": "La créature subit le Désavantage aux jets de sauvegarde de Dextérité.",
+      "edition": "2014",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.stunned.102",
+      "en": "A stunned creature is incapacitated, can't move, and can speak only falteringly.",
+      "fr": "Une créature étourdie est Neutralisée, ne peut pas se déplacer et ne peut parler que de façon hésitante.",
+      "edition": "2014",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.three-quarters-cover.108",
+      "en": "Three Quarters Cover gives you +5 to your Armor Class.",
+      "fr": "Un Abri supérieur vous donne un bonus de +5 à la Classe d’armure.",
+      "edition": "any",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · D&D 2024 PHB · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.turned.109",
+      "en": "A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.",
+      "fr": "Une créature renvoyée doit consacrer ses tours à s’éloigner de vous autant que possible et ne peut pas se déplacer volontairement à moins de 30 feet de vous. Elle ne peut pas non plus entreprendre de Réaction. Pour son action, elle ne peut que Foncer ou tenter d’échapper à un effet qui l’empêche de se déplacer. Si elle ne peut aller nulle part, elle peut entreprendre l’action Esquiver.",
+      "edition": "any",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1, D&D 2024 PHB · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.unconscious.110",
+      "en": "An unconscious creature is incapacitated, can't move or speak, and is unaware of its surroundings.",
+      "fr": "Une créature inconsciente est Neutralisée, ne peut ni se déplacer ni parler et n’a pas conscience de son environnement.",
+      "edition": "2014",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.unconscious.111",
+      "en": "The creature drops whatever it's holding and falls prone.",
+      "fr": "La créature lâche tout ce qu’elle tient et tombe À terre.",
+      "edition": "2014",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.zero-speed.121",
+      "en": "Your speed has been reduced to zero feet.",
+      "fr": "Votre Vitesse a été réduite à zéro feet.",
+      "edition": "any",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · D&D 2024 PHB · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.label.enlarge",
+      "kind": "term",
+      "en": "Enlarge",
+      "fr": "Agrandissement",
+      "edition": "any",
+      "source": "Libellé observé dans le catalogue Conditions de Shard · traduction proposée · 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.label.reduce",
+      "kind": "term",
+      "en": "Reduce",
+      "fr": "Rapetissement",
+      "edition": "any",
+      "source": "Libellé observé dans le catalogue Conditions de Shard · traduction proposée · 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.label.turned",
+      "kind": "term",
+      "en": "Turned",
+      "fr": "Renvoyé",
+      "edition": "any",
+      "source": "Libellé observé dans le catalogue Conditions de Shard · traduction proposée · 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.label.zero-speed",
+      "kind": "term",
+      "en": "Zero Speed",
+      "fr": "Vitesse nulle",
+      "edition": "any",
+      "source": "Libellé observé dans le catalogue Conditions de Shard · traduction proposée · 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.label.radiate-light-40",
+      "kind": "term",
+      "en": "Radiate Light 40",
+      "fr": "Émission de lumière 40",
+      "edition": "any",
+      "source": "Libellé observé dans le catalogue Conditions de Shard · traduction proposée · 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.label.transform",
+      "kind": "term",
+      "en": "Transform",
+      "fr": "Transformation",
+      "edition": "any",
+      "source": "Libellé observé dans le catalogue Conditions de Shard · traduction proposée · 13 octobre 2026"
+    },
+    {
+      "id": "condition.shard.polymorph.transform",
+      "en": "The transformation lasts for the duration, or until the target drops to 0 hit points or dies. The new form can be any beast whose challenge rating is equal to or less than the target's (or the target's level, if it doesn't have a challenge rating). The target's game statistics, including mental ability scores, are replaced by the statistics of the chosen beast. It retains its alignment and personality.",
+      "fr": "La transformation dure jusqu’à la fin de l’effet, ou jusqu’à ce que la cible tombe à 0 point de vie ou meure. La nouvelle forme peut être celle de n’importe quelle bête dont le facteur de puissance est inférieur ou égal à celui de la cible, ou à son niveau si elle n’a pas de facteur de puissance. Les statistiques de jeu de la cible, y compris ses valeurs de caractéristiques mentales, sont remplacées par celles de la bête choisie. Elle conserve son alignement et sa personnalité.",
+      "edition": "2014",
+      "source": "Traduction proposée de la description Transformation affichée dans la fiche Métamorphose de Shard · Shard Player’s Guide Volume 1, D&D 2024 PHB · le texte conserve les effets 2014 affichés · 13 octobre 2026"
     }
   ]
 }

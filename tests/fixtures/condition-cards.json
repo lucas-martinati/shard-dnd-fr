@@ -1,0 +1,1117 @@
+[
+  {
+    "html": "<div class=\"pre-wrap ll-8\"><span><ul><li>A blinded creature can't see and automatically fails any ability check that requires sight.</li><li>Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage.</li></ul></span></div>",
+    "name": "Blinded",
+    "source": "Source.  Shard Player's Guide Volume 1",
+    "traits": "",
+    "blocks": [
+      {
+        "tag": "LI",
+        "en": "A blinded creature can't see and automatically fails any ability check that requires sight.",
+        "fr": "Une créature aveuglée ne peut pas voir et échoue automatiquement à tout test de caractéristique qui nécessite la vue.",
+        "entry": "condition.shard.blinded.0"
+      },
+      {
+        "tag": "LI",
+        "en": "Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage.",
+        "fr": "Les jets d’attaque contre la créature ont l’Avantage et ses jets d’attaque subissent le Désavantage.",
+        "entry": "condition.shard.blinded.1"
+      }
+    ]
+  },
+  {
+    "html": "<div class=\"pre-wrap ll-8\"><span><p><i><strong>Can’t See.</strong></i> You can’t see and automatically fail any ability check that requires sight.</p><p><i><strong>Attacks Affected.</strong></i> Attack rolls against you have Advantage, and your attack rolls have Disadvantage.</p></span></div>",
+    "name": "Blinded",
+    "source": "Source.  D&D 2024 PHB",
+    "traits": "",
+    "blocks": [
+      {
+        "tag": "P",
+        "en": "Can’t See. You can’t see and automatically fail any ability check that requires sight.",
+        "fr": "Incapable de voir. Vous ne pouvez pas voir et échouez automatiquement à tout test de caractéristique qui nécessite la vue.",
+        "entry": "conditions.2024.blinded.1.section"
+      },
+      {
+        "tag": "P",
+        "en": "Attacks Affected. Attack rolls against you have Advantage, and your attack rolls have Disadvantage.",
+        "fr": "Effet sur les attaques. Les jets d’attaque contre vous ont l’Avantage et vos jets d’attaque subissent le Désavantage.",
+        "entry": "conditions.2024.blinded.2.section"
+      }
+    ]
+  },
+  {
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>If you have half your Hit Points or fewer, you’re Bloodied, which has no game effect on its own but which might trigger other game effects.</p></span></div>",
+    "name": "Bloodied",
+    "source": "Source.  D&D 2024 PHB",
+    "traits": "",
+    "blocks": [
+      {
+        "tag": "P",
+        "en": "If you have half your Hit Points or fewer, you’re Bloodied, which has no game effect on its own but which might trigger other game effects.",
+        "fr": "Si vous avez la moitié de vos points de vie ou moins, vous êtes En sang. Cela n’a aucun effet de jeu en soi, mais peut déclencher d’autres effets de jeu.",
+        "entry": "condition.shard.bloodied.4"
+      }
+    ]
+  },
+  {
+    "html": "<div class=\"pre-wrap ll-8\"><span><ul><li>A charmed creature can't attack the charmer or target the charmer with harmful abilities or magical effects.</li><li>The charmer has advantage on any ability check to interact socially with the creature.</li></ul></span></div>",
+    "name": "Charmed",
+    "source": "Source.  Shard Player's Guide Volume 1",
+    "traits": "",
+    "blocks": [
+      {
+        "tag": "LI",
+        "en": "A charmed creature can't attack the charmer or target the charmer with harmful abilities or magical effects.",
+        "fr": "Une créature charmée ne peut pas attaquer celui qui l’a charmée ni le cibler avec des aptitudes ou des effets magiques nuisibles.",
+        "entry": "condition.shard.charmed.5"
+      },
+      {
+        "tag": "LI",
+        "en": "The charmer has advantage on any ability check to interact socially with the creature.",
+        "fr": "Celui qui a charmé la créature a l’Avantage à tout test de caractéristique pour interagir socialement avec elle.",
+        "entry": "condition.shard.charmed.6"
+      }
+    ]
+  },
+  {
+    "html": "<div class=\"pre-wrap ll-8\"><span><p><i><strong>Can’t Harm the Charmer.</strong></i> You can’t attack the charmer or target the charmer with damaging abilities or magical effects.</p><p><i><strong>Social Advantage.</strong></i> The charmer has Advantage on any ability check to interact with you socially.</p></span></div>",
+    "name": "Charmed",
+    "source": "Source.  D&D 2024 PHB",
+    "traits": "",
+    "blocks": [
+      {
+        "tag": "P",
+        "en": "Can’t Harm the Charmer. You can’t attack the charmer or target the charmer with damaging abilities or magical effects.",
+        "fr": "Ne pas nuire au charmeur. Vous ne pouvez pas attaquer votre charmeur ni le cibler avec des aptitudes ou des effets magiques infligeant des dégâts.",
+        "entry": "conditions.2024.charmed.1.section"
+      },
+      {
+        "tag": "P",
+        "en": "Social Advantage. The charmer has Advantage on any ability check to interact with you socially.",
+        "fr": "Interaction avec Avantage. Le charmeur a l’Avantage aux tests de caractéristique pour interagir socialement avec vous.",
+        "entry": "conditions.2024.charmed.2.section"
+      }
+    ]
+  },
+  {
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>You have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p></span></div>",
+    "name": "Darkvision 120",
+    "source": "Source.  Shard Player's Guide Volume 1",
+    "traits": "",
+    "blocks": [
+      {
+        "tag": "P",
+        "en": "You have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+        "fr": "Votre vision est supérieure dans l’obscurité et la lumière faible. Dans un rayon de 120 feet, vous voyez dans la lumière faible comme s’il s’agissait d’une lumière vive, et dans l’obscurité comme s’il s’agissait d’une lumière faible. Dans l’obscurité, vous ne distinguez pas les couleurs, seulement les nuances de gris.",
+        "entry": "condition.shard.darkvision-120.9"
+      }
+    ]
+  },
+  {
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>You have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p></span></div>",
+    "name": "Darkvision 120",
+    "source": "Source.  D&D 2024 PHB",
+    "traits": "",
+    "blocks": [
+      {
+        "tag": "P",
+        "en": "You have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+        "fr": "Votre vision est supérieure dans l’obscurité et la lumière faible. Dans un rayon de 120 feet, vous voyez dans la lumière faible comme s’il s’agissait d’une lumière vive, et dans l’obscurité comme s’il s’agissait d’une lumière faible. Dans l’obscurité, vous ne distinguez pas les couleurs, seulement les nuances de gris.",
+        "entry": "condition.shard.darkvision-120.9"
+      }
+    ]
+  },
+  {
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>You have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p></span></div>",
+    "name": "Darkvision 60",
+    "source": "Source.  Shard Player's Guide Volume 1",
+    "traits": "",
+    "blocks": [
+      {
+        "tag": "P",
+        "en": "You have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+        "fr": "Votre vision est supérieure dans l’obscurité et la lumière faible. Dans un rayon de 60 feet, vous voyez dans la lumière faible comme s’il s’agissait d’une lumière vive, et dans l’obscurité comme s’il s’agissait d’une lumière faible. Dans l’obscurité, vous ne distinguez pas les couleurs, seulement les nuances de gris.",
+        "entry": "condition.shard.darkvision-60.11"
+      }
+    ]
+  },
+  {
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>You have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p></span></div>",
+    "name": "Darkvision 60",
+    "source": "Source.  D&D 2024 PHB",
+    "traits": "",
+    "blocks": [
+      {
+        "tag": "P",
+        "en": "You have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+        "fr": "Votre vision est supérieure dans l’obscurité et la lumière faible. Dans un rayon de 60 feet, vous voyez dans la lumière faible comme s’il s’agissait d’une lumière vive, et dans l’obscurité comme s’il s’agissait d’une lumière faible. Dans l’obscurité, vous ne distinguez pas les couleurs, seulement les nuances de gris.",
+        "entry": "condition.shard.darkvision-60.11"
+      }
+    ]
+  },
+  {
+    "html": "<div class=\"pre-wrap ll-8\"><span><ul><li>A deafened creature can't hear and automatically fails any ability check that requires hearing.</li></ul></span></div>",
+    "name": "Deafened",
+    "source": "Source.  Shard Player's Guide Volume 1",
+    "traits": "",
+    "blocks": [
+      {
+        "tag": "LI",
+        "en": "A deafened creature can't hear and automatically fails any ability check that requires hearing.",
+        "fr": "Une créature assourdie ne peut pas entendre et échoue automatiquement à tout test de caractéristique qui nécessite l’ouïe.",
+        "entry": "condition.shard.deafened.13"
+      }
+    ]
+  },
+  {
+    "html": "<div class=\"pre-wrap ll-8\"><span><p><i><strong>Can’t Hear.</strong></i> You can’t hear and automatically fail any ability check that requires hearing.</p></span></div>",
+    "name": "Deafened",
+    "source": "Source.  D&D 2024 PHB",
+    "traits": "",
+    "blocks": [
+      {
+        "tag": "P",
+        "en": "Can’t Hear. You can’t hear and automatically fail any ability check that requires hearing.",
+        "fr": "Incapable d’entendre. Vous ne pouvez pas entendre et échouez automatiquement à tout test de caractéristique qui nécessite l’ouïe.",
+        "entry": "conditions.2024.deafened.1.section"
+      }
+    ]
+  },
+  {
+    "html": "<div class=\"pre-wrap ll-8\"><span><p></p><p>You carrying weight in excess of your normal carrying capacity. As a result, your speed is reduced by 10 feet.</p><p></p></span></div>",
+    "name": "Encumbered",
+    "source": "Source.  Shard Player's Guide Volume 1, D&D 2024 PHB",
+    "traits": "",
+    "blocks": [
+      {
+        "tag": "P",
+        "en": "You carrying weight in excess of your normal carrying capacity. As a result, your speed is reduced by 10 feet.",
+        "fr": "Le poids que vous portez dépasse votre capacité de charge normale. Votre Vitesse est donc réduite de 10 feet.",
+        "entry": "condition.shard.encumbered.15"
+      }
+    ]
+  },
+  {
+    "html": "<div class=\"pre-wrap ll-8\"><span><p></p><p>Your size doubles in all dimensions, and weight is multiplied by eight. This growth increases size by one category—from Medium to Large, for example. If there isn't enough room to double size, the creature attains the maximum possible size in the space available. You also have advantage on Strength checks and Strength saving throws. Weapons also grow to match its new size. While these weapons are enlarged, the target's attacks with them deal <strong class=\"dodieroll\">1d4</strong> extra damage.</p><p></p></span></div>",
+    "name": "Enlarge",
+    "source": "Source.  Shard Player's Guide Volume 1, D&D 2024 PHB",
+    "traits": "",
+    "blocks": [
+      {
+        "tag": "P",
+        "en": "Your size doubles in all dimensions, and weight is multiplied by eight. This growth increases size by one category—from Medium to Large, for example. If there isn't enough room to double size, the creature attains the maximum possible size in the space available. You also have advantage on Strength checks and Strength saving throws. Weapons also grow to match its new size. While these weapons are enlarged, the target's attacks with them deal 1d4 extra damage.",
+        "fr": "Votre taille double dans toutes les dimensions et votre poids est multiplié par huit. Cette croissance augmente votre taille d’une catégorie, par exemple de Moyenne à Grande. Si l’espace disponible ne permet pas de doubler votre taille, vous atteignez la taille maximale possible dans cet espace. Vous avez également l’Avantage aux tests de Force et aux jets de sauvegarde de Force. Vos armes grandissent aussi pour s’adapter à votre nouvelle taille. Tant qu’elles sont agrandies, vos attaques avec ces armes infligent 1d4 dégâts supplémentaires.",
+        "entry": "condition.shard.enlarge.16"
+      }
+    ]
+  },
+  {
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>Some special abilities and environmental hazards, such as starvation and the long-term effects of freezing or scorching temperatures, can lead to a special condition called exhaustion. Exhaustion is measured in six levels. An effect can give a creature one or more levels of exhaustion, as specified in the effect's description.</p><figure class=\"table\"><table><tbody><tr><td><strong>Level</strong></td><td><strong>Effect</strong></td></tr><tr><td>1</td><td>Disadvantage on ability checks</td></tr><tr><td>2</td><td>Speed halved</td></tr><tr><td>3</td><td>Disadvantage on attack rolls and saving throws</td></tr><tr><td>4</td><td>Hit point maximum halved</td></tr><tr><td>5</td><td>Speed reduced to 0</td></tr><tr><td>6</td><td>Death</td></tr></tbody></table></figure><p>If an already exhausted creature suffers another effect that causes exhaustion, its current level of exhaustion increases by the amount specified in the effect's description.</p><p>A creature suffers the effect of its current level of exhaustion as well as all lower levels. For example, a creature suffering level 2 exhaustion has its speed halved and has disadvantage on ability checks.</p><p>An effect that removes exhaustion reduces its level as specified in the effect's description, with all exhaustion effects ending if a creature's exhaustion level is reduced below 1.</p><p>Finishing a long rest reduces a creature's exhaustion level by 1, provided that the creature has also ingested some food and drink. Also, being raised from the dead reduces a creature's exhaustion level by 1.</p></span></div>",
+    "name": "Exhaustion",
+    "source": "Source.  Shard Player's Guide Volume 1",
+    "traits": "",
+    "blocks": [
+      {
+        "tag": "P",
+        "en": "Some special abilities and environmental hazards, such as starvation and the long-term effects of freezing or scorching temperatures, can lead to a special condition called exhaustion. Exhaustion is measured in six levels. An effect can give a creature one or more levels of exhaustion, as specified in the effect's description.",
+        "fr": "Certaines aptitudes spéciales et certains dangers environnementaux, comme la famine ou les effets prolongés de températures glaciales ou torrides, peuvent provoquer un état particulier appelé Épuisement. L’Épuisement comporte six niveaux. Un effet peut infliger un ou plusieurs niveaux d’Épuisement à une créature, comme indiqué dans sa description.",
+        "entry": "condition.shard.exhaustion.17"
+      },
+      {
+        "tag": "TD",
+        "en": "Level",
+        "fr": "Niveau",
+        "entry": "condition.shard.exhaustion.18"
+      },
+      {
+        "tag": "TD",
+        "en": "Effect",
+        "fr": "Effet",
+        "entry": "condition.shard.exhaustion.19"
+      },
+      {
+        "tag": "TD",
+        "en": "1",
+        "fr": "1",
+        "entry": null
+      },
+      {
+        "tag": "TD",
+        "en": "Disadvantage on ability checks",
+        "fr": "Désavantage aux tests de caractéristique",
+        "entry": "condition.shard.exhaustion.21"
+      },
+      {
+        "tag": "TD",
+        "en": "2",
+        "fr": "2",
+        "entry": null
+      },
+      {
+        "tag": "TD",
+        "en": "Speed halved",
+        "fr": "Vitesse réduite de moitié",
+        "entry": "condition.shard.exhaustion.23"
+      },
+      {
+        "tag": "TD",
+        "en": "3",
+        "fr": "3",
+        "entry": null
+      },
+      {
+        "tag": "TD",
+        "en": "Disadvantage on attack rolls and saving throws",
+        "fr": "Désavantage aux jets d’attaque et aux jets de sauvegarde",
+        "entry": "condition.shard.exhaustion.25"
+      },
+      {
+        "tag": "TD",
+        "en": "4",
+        "fr": "4",
+        "entry": null
+      },
+      {
+        "tag": "TD",
+        "en": "Hit point maximum halved",
+        "fr": "Maximum de points de vie réduit de moitié",
+        "entry": "condition.shard.exhaustion.27"
+      },
+      {
+        "tag": "TD",
+        "en": "5",
+        "fr": "5",
+        "entry": null
+      },
+      {
+        "tag": "TD",
+        "en": "Speed reduced to 0",
+        "fr": "Vitesse réduite à 0",
+        "entry": "condition.shard.exhaustion.29"
+      },
+      {
+        "tag": "TD",
+        "en": "6",
+        "fr": "6",
+        "entry": null
+      },
+      {
+        "tag": "TD",
+        "en": "Death",
+        "fr": "Mort",
+        "entry": "condition.shard.exhaustion.31"
+      },
+      {
+        "tag": "P",
+        "en": "If an already exhausted creature suffers another effect that causes exhaustion, its current level of exhaustion increases by the amount specified in the effect's description.",
+        "fr": "Si une créature déjà épuisée subit un autre effet qui provoque l’Épuisement, son niveau actuel augmente du nombre indiqué dans la description de cet effet.",
+        "entry": "condition.shard.exhaustion.32"
+      },
+      {
+        "tag": "P",
+        "en": "A creature suffers the effect of its current level of exhaustion as well as all lower levels. For example, a creature suffering level 2 exhaustion has its speed halved and has disadvantage on ability checks.",
+        "fr": "Une créature subit l’effet de son niveau actuel d’Épuisement ainsi que ceux de tous les niveaux inférieurs. Par exemple, une créature qui subit le niveau 2 d’Épuisement voit sa Vitesse réduite de moitié et subit le Désavantage aux tests de caractéristique.",
+        "entry": "condition.shard.exhaustion.33"
+      },
+      {
+        "tag": "P",
+        "en": "An effect that removes exhaustion reduces its level as specified in the effect's description, with all exhaustion effects ending if a creature's exhaustion level is reduced below 1.",
+        "fr": "Un effet qui supprime l’Épuisement réduit son niveau comme indiqué dans sa description. Tous les effets de l’Épuisement prennent fin si le niveau de la créature passe en dessous de 1.",
+        "entry": "condition.shard.exhaustion.34"
+      },
+      {
+        "tag": "P",
+        "en": "Finishing a long rest reduces a creature's exhaustion level by 1, provided that the creature has also ingested some food and drink. Also, being raised from the dead reduces a creature's exhaustion level by 1.",
+        "fr": "Terminer un Repos long réduit de 1 le niveau d’Épuisement d’une créature, à condition qu’elle ait également mangé et bu. Revenir d’entre les morts réduit aussi de 1 son niveau d’Épuisement.",
+        "entry": "condition.shard.exhaustion.35"
+      }
+    ]
+  },
+  {
+    "html": "<div class=\"pre-wrap ll-8\"><span><p></p><p><i><strong>Exhaustion Levels.</strong></i> This condition is cumulative. Each time you receive it, you gain 1 Exhaustion level. You die if your Exhaustion level is 6.</p><p><i><strong>D20 Tests Affected.</strong></i> When you make a D20 Test, the roll is reduced by 2 times your Exhaustion level.</p><p><i><strong>Speed Reduced.</strong></i> Your Speed is reduced by a number of feet equal to 5 times your Exhaustion level.</p><p><i><strong>Removing Exhaustion Levels.</strong></i> Finishing a Long Rest removes 1 of your Exhaustion levels. When your Exhaustion level reaches 0, the condition ends.</p><p></p></span></div>",
+    "name": "Exhaustion",
+    "source": "Source.  D&D 2024 PHB",
+    "traits": "",
+    "blocks": [
+      {
+        "tag": "P",
+        "en": "Exhaustion Levels. This condition is cumulative. Each time you receive it, you gain 1 Exhaustion level. You die if your Exhaustion level is 6.",
+        "fr": "Niveaux d’Épuisement. Cet état est cumulatif. Chaque fois que vous le recevez, vous gagnez 1 niveau d’Épuisement. Vous mourez si votre niveau d’Épuisement atteint 6.",
+        "entry": "conditions.2024.exhaustion.1.section"
+      },
+      {
+        "tag": "P",
+        "en": "D20 Tests Affected. When you make a D20 Test, the roll is reduced by 2 times your Exhaustion level.",
+        "fr": "Tests de d20 affectés. Lorsque vous effectuez un Test de d20, son résultat est réduit de 2 fois votre niveau d’Épuisement.",
+        "entry": "conditions.2024.exhaustion.2.section"
+      },
+      {
+        "tag": "P",
+        "en": "Speed Reduced. Your Speed is reduced by a number of feet equal to 5 times your Exhaustion level.",
+        "fr": "Vitesse réduite. Votre Vitesse est réduite d’un nombre de feet égal à 5 fois votre niveau d’Épuisement.",
+        "entry": "conditions.2024.exhaustion.3.section"
+      },
+      {
+        "tag": "P",
+        "en": "Removing Exhaustion Levels. Finishing a Long Rest removes 1 of your Exhaustion levels. When your Exhaustion level reaches 0, the condition ends.",
+        "fr": "Supprimer des niveaux d’Épuisement. Terminer un Repos long supprime 1 de vos niveaux d’Épuisement. Lorsque votre niveau d’Épuisement atteint 0, cet état prend fin.",
+        "entry": "conditions.2024.exhaustion.4.section"
+      }
+    ]
+  },
+  {
+    "html": "<div class=\"pre-wrap ll-8\"><span><ul><li>A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.</li><li>The creature can't willingly move closer to the source of its fear.</li></ul></span></div>",
+    "name": "Frightened",
+    "source": "Source.  Shard Player's Guide Volume 1",
+    "traits": "",
+    "blocks": [
+      {
+        "tag": "LI",
+        "en": "A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.",
+        "fr": "Une créature effrayée subit le Désavantage aux tests de caractéristique et aux jets d’attaque tant que la source de sa peur est dans son champ de vision.",
+        "entry": "condition.shard.frightened.40"
+      },
+      {
+        "tag": "LI",
+        "en": "The creature can't willingly move closer to the source of its fear.",
+        "fr": "La créature ne peut pas se rapprocher volontairement de la source de sa peur.",
+        "entry": "condition.shard.frightened.41"
+      }
+    ]
+  },
+  {
+    "html": "<div class=\"pre-wrap ll-8\"><span><p><i><strong>Ability Checks and Attacks Affected.</strong></i> You have Disadvantage on ability checks and attack rolls while the source of fear is within line of sight.</p><p><i><strong>Can’t Approach.</strong></i> You can’t willingly move closer to the source of fear.</p></span></div>",
+    "name": "Frightened",
+    "source": "Source.  D&D 2024 PHB",
+    "traits": "",
+    "blocks": [
+      {
+        "tag": "P",
+        "en": "Ability Checks and Attacks Affected. You have Disadvantage on ability checks and attack rolls while the source of fear is within line of sight.",
+        "fr": "Effet sur les tests de caractéristique et les attaques. Vous subissez le Désavantage aux tests de caractéristique et aux jets d’attaque tant que la source de votre peur est dans votre champ de vision.",
+        "entry": "conditions.2024.frightened.1.section"
+      },
+      {
+        "tag": "P",
+        "en": "Can’t Approach. You can’t willingly move closer to the source of fear.",
+        "fr": "Impossible d’approcher. Vous ne pouvez pas vous rapprocher volontairement de la source de votre peur.",
+        "entry": "conditions.2024.frightened.2.section"
+      }
+    ]
+  },
+  {
+    "html": "<div class=\"pre-wrap ll-8\"><span><ul><li>A grappled creature's speed becomes 0, and it can't benefit from any bonus to its speed.</li><li>The condition ends if the grappler is incapacitated.</li><li>The condition also ends if an effect removes the grappled creature from the reach of the grappler or grappling effect, such as when a creature is hurled away by the spell <a href=\"#spell?id=Thunderwave\">thunderwave</a> spell.</li></ul></span></div>",
+    "name": "Grappled",
+    "source": "Source.  Shard Player's Guide Volume 1",
+    "traits": "",
+    "blocks": [
+      {
+        "tag": "LI",
+        "en": "A grappled creature's speed becomes 0, and it can't benefit from any bonus to its speed.",
+        "fr": "La Vitesse d’une créature agrippée devient 0 et elle ne peut bénéficier d’aucun bonus à sa Vitesse.",
+        "entry": "condition.shard.grappled.44"
+      },
+      {
+        "tag": "LI",
+        "en": "The condition ends if the grappler is incapacitated.",
+        "fr": "Cet état prend fin si la créature qui agrippe est Neutralisée.",
+        "entry": "condition.shard.grappled.45"
+      },
+      {
+        "tag": "LI",
+        "en": "The condition also ends if an effect removes the grappled creature from the reach of the grappler or grappling effect, such as when a creature is hurled away by the spell thunderwave spell.",
+        "fr": "Cet état prend également fin si un effet éloigne la créature agrippée au-delà de l’allonge de la créature qui l’agrippe ou de l’effet d’agrippement, par exemple lorsqu’elle est projetée au loin par le sort Vague tonnante.",
+        "entry": "condition.shard.grappled.46"
+      }
+    ]
+  },
+  {
+    "html": "<div class=\"pre-wrap ll-8\"><span><p><i><strong>Speed 0.</strong></i> Your Speed is 0 and can't increase.</p><p><i><strong>Attacks Affected.</strong></i> You have Disadvantage on attack rolls against any target other than the grappler.</p><p><i><strong>Movable.</strong></i> The grappler can drag or carry you when it moves, but every foot of movement costs it 1 extra foot unless you are Tiny or two or more sizes smaller than it.</p></span></div>",
+    "name": "Grappled",
+    "source": "Source.  D&D 2024 PHB",
+    "traits": "",
+    "blocks": [
+      {
+        "tag": "P",
+        "en": "Speed 0. Your Speed is 0 and can't increase.",
+        "fr": "Vitesse 0. Votre Vitesse est de 0 et ne peut pas augmenter.",
+        "entry": "conditions.2024.grappled.1.section"
+      },
+      {
+        "tag": "P",
+        "en": "Attacks Affected. You have Disadvantage on attack rolls against any target other than the grappler.",
+        "fr": "Effet sur les attaques. Vous subissez le Désavantage aux jets d’attaque contre toute cible autre que la créature qui vous agrippe.",
+        "entry": "conditions.2024.grappled.2.section"
+      },
+      {
+        "tag": "P",
+        "en": "Movable. The grappler can drag or carry you when it moves, but every foot of movement costs it 1 extra foot unless you are Tiny or two or more sizes smaller than it.",
+        "fr": "Déplaçable. La créature qui vous agrippe peut vous traîner ou vous porter quand elle se déplace, mais chaque foot de déplacement lui coûte 1 foot supplémentaire, sauf si vous êtes de taille Très petite ou d’au moins deux catégories de taille de moins qu’elle.",
+        "entry": "conditions.2024.grappled.3.section"
+      }
+    ]
+  },
+  {
+    "html": "<div class=\"pre-wrap ll-8\"><span><p></p><p>Half Cover gives you +2 to your Armor Class.</p><p></p></span></div>",
+    "name": "Half Cover",
+    "source": "Source.  D&D 2024 PHB",
+    "traits": "",
+    "blocks": [
+      {
+        "tag": "P",
+        "en": "Half Cover gives you +2 to your Armor Class.",
+        "fr": "Un Abri partiel vous donne un bonus de +2 à la Classe d’armure.",
+        "entry": "condition.shard.half-cover.50"
+      }
+    ]
+  },
+  {
+    "html": "<div class=\"pre-wrap ll-8\"><span><p></p><p>You carrying weight more than double your normal carrying capacity. As a result, your speed is reduced by 20 feet and you have disadvantage on on ability checks, attack rolls, and saving throws that use Strength, Dexterity, or Constitution.</p><p></p></span></div>",
+    "name": "Heavily Encumbered",
+    "source": "Source.  Shard Player's Guide Volume 1, D&D 2024 PHB",
+    "traits": "",
+    "blocks": [
+      {
+        "tag": "P",
+        "en": "You carrying weight more than double your normal carrying capacity. As a result, your speed is reduced by 20 feet and you have disadvantage on on ability checks, attack rolls, and saving throws that use Strength, Dexterity, or Constitution.",
+        "fr": "Le poids que vous portez dépasse le double de votre capacité de charge normale. Votre Vitesse est donc réduite de 20 feet et vous subissez le Désavantage aux tests de caractéristique, aux jets d’attaque et aux jets de sauvegarde qui font intervenir la Force, la Dextérité ou la Constitution.",
+        "entry": "condition.shard.heavily-encumbered.51"
+      }
+    ]
+  },
+  {
+    "html": "<div class=\"pre-wrap ll-8\"><span><ul><li>An incapacitated creature can't take actions or reactions.</li></ul></span></div>",
+    "name": "Incapacitated",
+    "source": "Source.  Shard Player's Guide Volume 1",
+    "traits": "",
+    "blocks": [
+      {
+        "tag": "LI",
+        "en": "An incapacitated creature can't take actions or reactions.",
+        "fr": "Une créature neutralisée ne peut entreprendre ni action ni Réaction.",
+        "entry": "condition.shard.incapacitated.52"
+      }
+    ]
+  },
+  {
+    "html": "<div class=\"pre-wrap ll-8\"><span><p><i><strong>Inactive.</strong></i> You can’t take any Action, Bonus Action, or Reaction.</p><p><i><strong>No Concentration.</strong></i> Your Concentration is broken.</p><p><i><strong>Speechless.</strong></i> You can’t speak.</p><p><i><strong>Surprised.</strong></i> If you’re Incapacitated when you roll Initiative, you have Disadvantage on the roll.</p></span></div>",
+    "name": "Incapacitated",
+    "source": "Source.  D&D 2024 PHB",
+    "traits": "",
+    "blocks": [
+      {
+        "tag": "P",
+        "en": "Inactive. You can’t take any Action, Bonus Action, or Reaction.",
+        "fr": "Inactif. Vous ne pouvez entreprendre ni action, ni action Bonus, ni Réaction.",
+        "entry": "conditions.2024.incapacitated.1.section"
+      },
+      {
+        "tag": "P",
+        "en": "No Concentration. Your Concentration is broken.",
+        "fr": "Concentration brisée. Votre Concentration est brisée.",
+        "entry": "conditions.2024.incapacitated.2.section"
+      },
+      {
+        "tag": "P",
+        "en": "Speechless. You can’t speak.",
+        "fr": "Sans voix. Vous ne pouvez pas parler.",
+        "entry": "conditions.2024.incapacitated.3.section"
+      },
+      {
+        "tag": "P",
+        "en": "Surprised. If you’re Incapacitated when you roll Initiative, you have Disadvantage on the roll.",
+        "fr": "Surpris. Si vous êtes Neutralisé lorsque vous lancez l’Initiative, vous subissez le Désavantage à ce jet.",
+        "entry": "conditions.2024.incapacitated.4.section"
+      }
+    ]
+  },
+  {
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>If you have inspiration, you can expend it when you make an attack roll, saving throw, or ability check. Spending your inspiration gives you advantage on that roll.</p><p>Additionally, if you have inspiration, you can reward another player for good roleplaying, clever thinking, or simply doing something exciting in the game. When another player character does something that really contributes to the story in a fun and interesting way, you can give up your inspiration to give that character inspiration.</p></span></div>",
+    "name": "Inspiration",
+    "source": "Source.  Shard Player's Guide Volume 1, D&D 2024 PHB",
+    "traits": "",
+    "blocks": [
+      {
+        "tag": "P",
+        "en": "If you have inspiration, you can expend it when you make an attack roll, saving throw, or ability check. Spending your inspiration gives you advantage on that roll.",
+        "fr": "Si vous avez l’Inspiration, vous pouvez la dépenser lorsque vous effectuez un jet d’attaque, un jet de sauvegarde ou un test de caractéristique. Dépenser votre Inspiration vous donne l’Avantage à ce jet.",
+        "entry": "condition.shard.inspiration.57"
+      },
+      {
+        "tag": "P",
+        "en": "Additionally, if you have inspiration, you can reward another player for good roleplaying, clever thinking, or simply doing something exciting in the game. When another player character does something that really contributes to the story in a fun and interesting way, you can give up your inspiration to give that character inspiration.",
+        "fr": "Si vous avez l’Inspiration, vous pouvez aussi récompenser un autre joueur pour une bonne interprétation, une idée astucieuse ou simplement une action passionnante en jeu. Quand le personnage d’un autre joueur contribue à l’histoire de manière amusante et intéressante, vous pouvez renoncer à votre Inspiration pour la lui donner.",
+        "entry": "condition.shard.inspiration.58"
+      }
+    ]
+  },
+  {
+    "html": "<div class=\"pre-wrap ll-8\"><span><ul><li>An invisible creature is impossible to see without the aid of magic or a special sense. For the purpose of hiding, the creature is heavily obscured. The creature's location can be detected by any noise it makes or any tracks it leaves.</li><li>Attack rolls against the creature have disadvantage, and the creature's attack rolls have advantage.</li></ul></span></div>",
+    "name": "Invisible",
+    "source": "Source.  Shard Player's Guide Volume 1",
+    "traits": "",
+    "blocks": [
+      {
+        "tag": "LI",
+        "en": "An invisible creature is impossible to see without the aid of magic or a special sense. For the purpose of hiding, the creature is heavily obscured. The creature's location can be detected by any noise it makes or any tracks it leaves.",
+        "fr": "Une créature invisible ne peut être vue sans l’aide de la magie ou d’un sens spécial. Pour se cacher, elle est considérée comme entièrement masquée. Sa position peut être repérée grâce aux bruits qu’elle produit ou aux traces qu’elle laisse.",
+        "entry": "condition.shard.invisible.59"
+      },
+      {
+        "tag": "LI",
+        "en": "Attack rolls against the creature have disadvantage, and the creature's attack rolls have advantage.",
+        "fr": "Les jets d’attaque contre la créature subissent le Désavantage et ses jets d’attaque ont l’Avantage.",
+        "entry": "condition.shard.invisible.60"
+      }
+    ]
+  },
+  {
+    "html": "<div class=\"pre-wrap ll-8\"><span><p><i><strong>Surprise.</strong></i> If you’re Invisible when you roll Initiative, you have Advantage on the roll.</p><p><i><strong>Concealed.</strong></i> You aren’t affected by any effect that requires its target to be seen unless the effect’s creator can somehow see you. Any equipment you are wearing or carrying is also concealed.</p><p><i><strong>Attacks Affected.</strong></i> Attack rolls against you have Disadvantage, and your attack rolls have Advantage. If a creature can somehow see you, you don’t gain this benefit against that creature.</p></span></div>",
+    "name": "Invisible",
+    "source": "Source.  D&D 2024 PHB",
+    "traits": "",
+    "blocks": [
+      {
+        "tag": "P",
+        "en": "Surprise. If you’re Invisible when you roll Initiative, you have Advantage on the roll.",
+        "fr": "Surprise. Si vous êtes Invisible lorsque vous lancez l’Initiative, vous avez l’Avantage à ce jet.",
+        "entry": "conditions.2024.invisible.1.section"
+      },
+      {
+        "tag": "P",
+        "en": "Concealed. You aren’t affected by any effect that requires its target to be seen unless the effect’s creator can somehow see you. Any equipment you are wearing or carrying is also concealed.",
+        "fr": "Dissimulé. Vous n’êtes pas affecté par un effet qui exige que sa cible soit vue, sauf si le créateur de l’effet peut vous voir d’une manière ou d’une autre. Tout équipement que vous portez est également dissimulé.",
+        "entry": "conditions.2024.invisible.2.section"
+      },
+      {
+        "tag": "P",
+        "en": "Attacks Affected. Attack rolls against you have Disadvantage, and your attack rolls have Advantage. If a creature can somehow see you, you don’t gain this benefit against that creature.",
+        "fr": "Effet sur les attaques. Les jets d’attaque contre vous subissent le Désavantage et vos jets d’attaque ont l’Avantage. Si une créature peut vous voir d’une manière ou d’une autre, vous ne recevez pas ce bénéfice contre elle.",
+        "entry": "conditions.2024.invisible.3.section"
+      }
+    ]
+  },
+  {
+    "html": "<div class=\"pre-wrap ll-8\"><span><p></p><p>Your base AC becomes 13 + its Dexterity modifier if you are not wearing armor.</p><p></p></span></div>",
+    "name": "Mage Armor",
+    "source": "Source.  Shard Player's Guide Volume 1",
+    "traits": "",
+    "blocks": [
+      {
+        "tag": "P",
+        "en": "Your base AC becomes 13 + its Dexterity modifier if you are not wearing armor.",
+        "fr": "Votre Classe d’armure de base devient 13 + votre modificateur de Dextérité si vous ne portez pas d’armure.",
+        "entry": "condition.shard.mage-armor.64"
+      }
+    ]
+  },
+  {
+    "html": "<div class=\"pre-wrap ll-8\"><span><p></p><p>Your base AC becomes 13 + its Dexterity modifier if you are not wearing armor.</p><p></p></span></div>",
+    "name": "Mage Armor",
+    "source": "Source.  D&D 2024 PHB",
+    "traits": "",
+    "blocks": [
+      {
+        "tag": "P",
+        "en": "Your base AC becomes 13 + its Dexterity modifier if you are not wearing armor.",
+        "fr": "Votre Classe d’armure de base devient 13 + votre modificateur de Dextérité si vous ne portez pas d’armure.",
+        "entry": "condition.shard.mage-armor.64"
+      }
+    ]
+  },
+  {
+    "html": "<div class=\"pre-wrap ll-8\"><span><ul><li>A paralyzed creature is incapacitated and can't move or speak.</li><li>The creature automatically fails Strength and Dexterity saving throws. Attack rolls against the creature have advantage.</li><li>Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature.</li></ul></span></div>",
+    "name": "Paralyzed",
+    "source": "Source.  Shard Player's Guide Volume 1",
+    "traits": "",
+    "blocks": [
+      {
+        "tag": "LI",
+        "en": "A paralyzed creature is incapacitated and can't move or speak.",
+        "fr": "Une créature paralysée est Neutralisée et ne peut ni se déplacer ni parler.",
+        "entry": "condition.shard.paralyzed.66"
+      },
+      {
+        "tag": "LI",
+        "en": "The creature automatically fails Strength and Dexterity saving throws. Attack rolls against the creature have advantage.",
+        "fr": "La créature échoue automatiquement aux jets de sauvegarde de Force et de Dextérité. Les jets d’attaque contre elle ont l’Avantage.",
+        "entry": "condition.shard.paralyzed.67"
+      },
+      {
+        "tag": "LI",
+        "en": "Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature.",
+        "fr": "Toute attaque qui touche la créature est un Coup critique si l’attaquant est à 5 feet ou moins d’elle.",
+        "entry": "condition.shard.paralyzed.68"
+      }
+    ]
+  },
+  {
+    "html": "<div class=\"pre-wrap ll-8\"><span><p><i><strong>Incapacitated.</strong></i> You have the <a href=\"#customlist?id=eabpon41b76ikcsn&amp;type=Conditions\">Incapacitated</a> condition.</p><p><i><strong>Speed 0.</strong></i> Your <a href=\"https://www.dndbeyond.com/sources/dnd/phb-2024/rules-glossary#Speed\">Speed</a> is 0 and can’t increase.</p><p><i><strong>Saving Throws Affected.</strong></i> You automatically fail Strength and Dexterity saving throws.</p><p><i><strong>Attacks Affected.</strong></i> Attack rolls against you have Advantage.</p><p><i><strong>Automatic Critical Hits.</strong></i> Any attack roll that hits you is a Critical Hit if the attacker is within 5 feet of you.</p></span></div>",
+    "name": "Paralyzed",
+    "source": "Source.  D&D 2024 PHB",
+    "traits": "",
+    "blocks": [
+      {
+        "tag": "P",
+        "en": "Incapacitated. You have the Incapacitated condition.",
+        "fr": "Neutralisé. Vous subissez l’état Neutralisé.",
+        "entry": "conditions.2024.paralyzed.1.section"
+      },
+      {
+        "tag": "P",
+        "en": "Speed 0. Your Speed is 0 and can’t increase.",
+        "fr": "Vitesse 0. Votre Vitesse est de 0 et ne peut pas augmenter.",
+        "entry": "conditions.2024.grappled.1.section"
+      },
+      {
+        "tag": "P",
+        "en": "Saving Throws Affected. You automatically fail Strength and Dexterity saving throws.",
+        "fr": "Effet sur les jets de sauvegarde. Vous échouez automatiquement aux jets de sauvegarde de Force et de Dextérité.",
+        "entry": "conditions.2024.paralyzed.3.section"
+      },
+      {
+        "tag": "P",
+        "en": "Attacks Affected. Attack rolls against you have Advantage.",
+        "fr": "Effet sur les attaques. Les jets d’attaque contre vous ont l’Avantage.",
+        "entry": "conditions.2024.paralyzed.4.section"
+      },
+      {
+        "tag": "P",
+        "en": "Automatic Critical Hits. Any attack roll that hits you is a Critical Hit if the attacker is within 5 feet of you.",
+        "fr": "Coups critiques automatiques. Tout jet d’attaque qui vous touche est un Coup critique si l’attaquant est à 5 feet ou moins de vous.",
+        "entry": "conditions.2024.paralyzed.5.section"
+      }
+    ]
+  },
+  {
+    "html": "<div class=\"pre-wrap ll-8\"><span><ul><li>A petrified creature is transformed, along with any nonmagical object it is wearing or carrying, into a solid inanimate substance (usually stone). Its weight increases by a factor of ten, and it ceases aging.</li><li>The creature is incapacitated, can't move or speak, and is unaware of its surroundings.</li><li>Attack rolls against the creature have advantage.</li><li>The creature automatically fails Strength and Dexterity saving throws.</li><li>The creature has resistance to all damage.</li><li>The creature is immune to poison and disease, although a poison or disease already in its system is suspended, not neutralized.</li></ul></span></div>",
+    "name": "Petrified",
+    "source": "Source.  Shard Player's Guide Volume 1",
+    "traits": "",
+    "blocks": [
+      {
+        "tag": "LI",
+        "en": "A petrified creature is transformed, along with any nonmagical object it is wearing or carrying, into a solid inanimate substance (usually stone). Its weight increases by a factor of ten, and it ceases aging.",
+        "fr": "Une créature pétrifiée est transformée, ainsi que tous les objets non magiques qu’elle porte, en une substance solide et inanimée, généralement de la pierre. Son poids est multiplié par dix et elle cesse de vieillir.",
+        "entry": "condition.shard.petrified.74"
+      },
+      {
+        "tag": "LI",
+        "en": "The creature is incapacitated, can't move or speak, and is unaware of its surroundings.",
+        "fr": "La créature est Neutralisée, ne peut ni se déplacer ni parler et n’a pas conscience de son environnement.",
+        "entry": "condition.shard.petrified.75"
+      },
+      {
+        "tag": "LI",
+        "en": "Attack rolls against the creature have advantage.",
+        "fr": "Les jets d’attaque contre la créature ont l’Avantage.",
+        "entry": "condition.shard.petrified.76"
+      },
+      {
+        "tag": "LI",
+        "en": "The creature automatically fails Strength and Dexterity saving throws.",
+        "fr": "La créature échoue automatiquement aux jets de sauvegarde de Force et de Dextérité.",
+        "entry": "condition.shard.petrified.77"
+      },
+      {
+        "tag": "LI",
+        "en": "The creature has resistance to all damage.",
+        "fr": "La créature a la Résistance à tous les dégâts.",
+        "entry": "condition.shard.petrified.78"
+      },
+      {
+        "tag": "LI",
+        "en": "The creature is immune to poison and disease, although a poison or disease already in its system is suspended, not neutralized.",
+        "fr": "La créature est immunisée contre le poison et les maladies. Toutefois, un poison ou une maladie déjà présent dans son organisme est suspendu, et non neutralisé.",
+        "entry": "condition.shard.petrified.79"
+      }
+    ]
+  },
+  {
+    "html": "<div class=\"pre-wrap ll-8\"><span><p><i><strong>Turned to Inanimate Substance.</strong></i> You are transformed, along with any nonmagical objects you are wearing and carrying, into a solid inanimate substance (usually stone). Your weight increases by a factor of ten, and you cease aging.</p><p><i><strong>Incapacitated.</strong></i> You have the <a href=\"#customlist?id=eabpon41b76ikcsn&amp;type=Conditions\">Incapacitated</a> condition.</p><p><i><strong>Speed 0.</strong></i> Your <a href=\"https://www.dndbeyond.com/sources/dnd/phb-2024/rules-glossary#Speed\">Speed</a> is 0 and can’t increase.</p><p><i><strong>Attacks Affected.</strong></i> Attack rolls against you have Advantage.</p><p><i><strong>Saving Throws Affected.</strong></i> You automatically fail Strength and Dexterity saving throws.</p><p><i><strong>Resist Damage.</strong></i> You have Resistance to all damage.</p><p><i><strong>Poison Immunity.</strong></i> You have Immunity to the Poisoned condition.</p></span></div>",
+    "name": "Petrified",
+    "source": "Source.  D&D 2024 PHB",
+    "traits": "",
+    "blocks": [
+      {
+        "tag": "P",
+        "en": "Turned to Inanimate Substance. You are transformed, along with any nonmagical objects you are wearing and carrying, into a solid inanimate substance (usually stone). Your weight increases by a factor of ten, and you cease aging.",
+        "fr": "Transformé en substance inanimée. Vous êtes transformé, ainsi que tous les objets non magiques que vous portez, en une substance solide et inanimée, généralement de la pierre. Votre poids est multiplié par dix et vous cessez de vieillir.",
+        "entry": "conditions.2024.petrified.1.section"
+      },
+      {
+        "tag": "P",
+        "en": "Incapacitated. You have the Incapacitated condition.",
+        "fr": "Neutralisé. Vous subissez l’état Neutralisé.",
+        "entry": "conditions.2024.paralyzed.1.section"
+      },
+      {
+        "tag": "P",
+        "en": "Speed 0. Your Speed is 0 and can’t increase.",
+        "fr": "Vitesse 0. Votre Vitesse est de 0 et ne peut pas augmenter.",
+        "entry": "conditions.2024.grappled.1.section"
+      },
+      {
+        "tag": "P",
+        "en": "Attacks Affected. Attack rolls against you have Advantage.",
+        "fr": "Effet sur les attaques. Les jets d’attaque contre vous ont l’Avantage.",
+        "entry": "conditions.2024.paralyzed.4.section"
+      },
+      {
+        "tag": "P",
+        "en": "Saving Throws Affected. You automatically fail Strength and Dexterity saving throws.",
+        "fr": "Effet sur les jets de sauvegarde. Vous échouez automatiquement aux jets de sauvegarde de Force et de Dextérité.",
+        "entry": "conditions.2024.paralyzed.3.section"
+      },
+      {
+        "tag": "P",
+        "en": "Resist Damage. You have Resistance to all damage.",
+        "fr": "Résistance aux dégâts. Vous avez la Résistance à tous les dégâts.",
+        "entry": "conditions.2024.petrified.6.section"
+      },
+      {
+        "tag": "P",
+        "en": "Poison Immunity. You have Immunity to the Poisoned condition.",
+        "fr": "Immunité au poison. Vous êtes immunisé contre l’état Empoisonné.",
+        "entry": "conditions.2024.petrified.7.section"
+      }
+    ]
+  },
+  {
+    "html": "<div class=\"pre-wrap ll-8\"><span><ul><li>A poisoned creature has disadvantage on attack rolls and ability checks.</li></ul></span></div>",
+    "name": "Poisoned",
+    "source": "Source.  Shard Player's Guide Volume 1",
+    "traits": "",
+    "blocks": [
+      {
+        "tag": "LI",
+        "en": "A poisoned creature has disadvantage on attack rolls and ability checks.",
+        "fr": "Une créature empoisonnée subit le Désavantage aux jets d’attaque et aux tests de caractéristique.",
+        "entry": "condition.shard.poisoned.87"
+      }
+    ]
+  },
+  {
+    "html": "<div class=\"pre-wrap ll-8\"><span><p><i><strong>Ability Checks and Attacks Affected.</strong></i> You have Disadvantage on attack rolls and ability checks.</p></span></div>",
+    "name": "Poisoned",
+    "source": "Source.  D&D 2024 PHB",
+    "traits": "",
+    "blocks": [
+      {
+        "tag": "P",
+        "en": "Ability Checks and Attacks Affected. You have Disadvantage on attack rolls and ability checks.",
+        "fr": "Effet sur les tests de caractéristique et les attaques. Vous subissez le Désavantage aux jets d’attaque et aux tests de caractéristique.",
+        "entry": "conditions.2024.poisoned.1.section"
+      }
+    ]
+  },
+  {
+    "html": "<div class=\"pre-wrap ll-8\"><span></span></div>",
+    "name": "Polymorph",
+    "source": "Source.  Shard Player's Guide Volume 1, D&D 2024 PHB",
+    "traits": "TraitsTransform",
+    "blocks": []
+  },
+  {
+    "html": "<div class=\"pre-wrap ll-8\"><span><ul><li>A prone creature's only movement option is to crawl, unless it stands up and thereby ends the condition.</li><li>The creature has disadvantage on attack rolls.</li><li>An attack roll against the creature has advantage if the attacker is within 5 feet of the creature. Otherwise, the attack roll has disadvantage.</li></ul></span></div>",
+    "name": "Prone",
+    "source": "Source.  Shard Player's Guide Volume 1",
+    "traits": "",
+    "blocks": [
+      {
+        "tag": "LI",
+        "en": "A prone creature's only movement option is to crawl, unless it stands up and thereby ends the condition.",
+        "fr": "Une créature À terre ne peut se déplacer qu’en rampant, à moins de se relever et de mettre ainsi fin à cet état.",
+        "entry": "condition.shard.prone.89"
+      },
+      {
+        "tag": "LI",
+        "en": "The creature has disadvantage on attack rolls.",
+        "fr": "La créature subit le Désavantage aux jets d’attaque.",
+        "entry": "condition.shard.prone.90"
+      },
+      {
+        "tag": "LI",
+        "en": "An attack roll against the creature has advantage if the attacker is within 5 feet of the creature. Otherwise, the attack roll has disadvantage.",
+        "fr": "Un jet d’attaque contre la créature a l’Avantage si l’attaquant est à 5 feet ou moins d’elle. Dans le cas contraire, ce jet subit le Désavantage.",
+        "entry": "condition.shard.prone.91"
+      }
+    ]
+  },
+  {
+    "html": "<div class=\"pre-wrap ll-8\"><span><p><i><strong>Restricted Movement.</strong></i> Your only movement options are to crawl or to spend an amount of movement equal to half your Speed (round down) to right yourself and thereby end the condition. If your Speed is 0, you can’t right yourself.</p><p><i><strong>Attacks Affected.</strong></i> You have Disadvantage on attack rolls. An attack roll against you has Advantage if the attacker is within 5 feet of you. Otherwise, that attack roll has Disadvantage.</p></span></div>",
+    "name": "Prone",
+    "source": "Source.  D&D 2024 PHB",
+    "traits": "",
+    "blocks": [
+      {
+        "tag": "P",
+        "en": "Restricted Movement. Your only movement options are to crawl or to spend an amount of movement equal to half your Speed (round down) to right yourself and thereby end the condition. If your Speed is 0, you can’t right yourself.",
+        "fr": "Déplacement limité. Vos seules possibilités de déplacement sont de ramper ou de dépenser la moitié de votre Vitesse, arrondie à l’inférieur, pour vous relever et mettre fin à cet état. Si votre Vitesse est de 0, vous ne pouvez pas vous relever.",
+        "entry": "conditions.2024.prone.1.section"
+      },
+      {
+        "tag": "P",
+        "en": "Attacks Affected. You have Disadvantage on attack rolls. An attack roll against you has Advantage if the attacker is within 5 feet of you. Otherwise, that attack roll has Disadvantage.",
+        "fr": "Effet sur les attaques. Vous subissez le Désavantage aux jets d’attaque. Un jet d’attaque contre vous a l’Avantage si l’attaquant est à 5 feet ou moins de vous. Dans le cas contraire, ce jet subit le Désavantage.",
+        "entry": "conditions.2024.prone.2.section"
+      }
+    ]
+  },
+  {
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>You radiate light for 40 ft (equivalent of a torch).</p></span></div>",
+    "name": "Radiate Light 40",
+    "source": "Source.  Shard Player's Guide Volume 1",
+    "traits": "",
+    "blocks": [
+      {
+        "tag": "P",
+        "en": "You radiate light for 40 ft (equivalent of a torch).",
+        "fr": "Vous émettez de la lumière sur 40 ft, comme une torche.",
+        "entry": "condition.shard.radiate-light-40.94"
+      }
+    ]
+  },
+  {
+    "html": "<div class=\"pre-wrap ll-8\"><span><p></p><p>Size is halved in all dimensions, and weight is reduced to one-eighth of normal. This reduction decreases size by one category—from Medium to Small, for example. You have disadvantage on Strength checks and Strength saving throws. Weapons also shrink to match its new size. While these weapons are reduced, the target's attacks with them deal <strong class=\"dodieroll\">1d4</strong> less damage (this can't reduce the damage below 1).</p><p></p></span></div>",
+    "name": "Reduce",
+    "source": "Source.  Shard Player's Guide Volume 1, D&D 2024 PHB",
+    "traits": "",
+    "blocks": [
+      {
+        "tag": "P",
+        "en": "Size is halved in all dimensions, and weight is reduced to one-eighth of normal. This reduction decreases size by one category—from Medium to Small, for example. You have disadvantage on Strength checks and Strength saving throws. Weapons also shrink to match its new size. While these weapons are reduced, the target's attacks with them deal 1d4 less damage (this can't reduce the damage below 1).",
+        "fr": "Votre taille est divisée par deux dans toutes les dimensions et votre poids est réduit à un huitième de son poids normal. Cette réduction diminue votre taille d’une catégorie, par exemple de Moyenne à Petite. Vous subissez le Désavantage aux tests de Force et aux jets de sauvegarde de Force. Vos armes rétrécissent aussi pour s’adapter à votre nouvelle taille. Tant qu’elles sont réduites, vos attaques avec ces armes infligent 1d4 dégâts de moins, sans pouvoir réduire les dégâts en dessous de 1.",
+        "entry": "condition.shard.reduce.95"
+      }
+    ]
+  },
+  {
+    "html": "<div class=\"pre-wrap ll-8\"><span><ul><li>A restrained creature's speed becomes 0, and it can't benefit from any bonus to its speed.</li><li>Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage.</li><li>The creature has disadvantage on Dexterity saving throws.</li></ul></span></div>",
+    "name": "Restrained",
+    "source": "Source.  Shard Player's Guide Volume 1",
+    "traits": "",
+    "blocks": [
+      {
+        "tag": "LI",
+        "en": "A restrained creature's speed becomes 0, and it can't benefit from any bonus to its speed.",
+        "fr": "La Vitesse d’une créature entravée devient 0 et elle ne peut bénéficier d’aucun bonus à sa Vitesse.",
+        "entry": "condition.shard.restrained.96"
+      },
+      {
+        "tag": "LI",
+        "en": "Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage.",
+        "fr": "Les jets d’attaque contre la créature ont l’Avantage et ses jets d’attaque subissent le Désavantage.",
+        "entry": "condition.shard.blinded.1"
+      },
+      {
+        "tag": "LI",
+        "en": "The creature has disadvantage on Dexterity saving throws.",
+        "fr": "La créature subit le Désavantage aux jets de sauvegarde de Dextérité.",
+        "entry": "condition.shard.restrained.98"
+      }
+    ]
+  },
+  {
+    "html": "<div class=\"pre-wrap ll-8\"><span><p><i><strong>Speed 0.</strong></i> Your Speed is 0 and can’t increase.</p><p><i><strong>Attacks Affected.</strong></i> Attack rolls against you have Advantage, and your attack rolls have Disadvantage.</p><p><i><strong>Saving Throws Affected.</strong></i> You have Disadvantage on Dexterity saving throws.</p></span></div>",
+    "name": "Restrained",
+    "source": "Source.  D&D 2024 PHB",
+    "traits": "",
+    "blocks": [
+      {
+        "tag": "P",
+        "en": "Speed 0. Your Speed is 0 and can’t increase.",
+        "fr": "Vitesse 0. Votre Vitesse est de 0 et ne peut pas augmenter.",
+        "entry": "conditions.2024.grappled.1.section"
+      },
+      {
+        "tag": "P",
+        "en": "Attacks Affected. Attack rolls against you have Advantage, and your attack rolls have Disadvantage.",
+        "fr": "Effet sur les attaques. Les jets d’attaque contre vous ont l’Avantage et vos jets d’attaque subissent le Désavantage.",
+        "entry": "conditions.2024.blinded.2.section"
+      },
+      {
+        "tag": "P",
+        "en": "Saving Throws Affected. You have Disadvantage on Dexterity saving throws.",
+        "fr": "Effet sur les jets de sauvegarde. Vous subissez le Désavantage aux jets de sauvegarde de Dextérité.",
+        "entry": "conditions.2024.restrained.3.section"
+      }
+    ]
+  },
+  {
+    "html": "<div class=\"pre-wrap ll-8\"><span><ul><li>A stunned creature is incapacitated, can't move, and can speak only falteringly.</li><li>The creature automatically fails Strength and Dexterity saving throws.</li><li>Attack rolls against the creature have advantage.</li></ul></span></div>",
+    "name": "Stunned",
+    "source": "Source.  Shard Player's Guide Volume 1",
+    "traits": "",
+    "blocks": [
+      {
+        "tag": "LI",
+        "en": "A stunned creature is incapacitated, can't move, and can speak only falteringly.",
+        "fr": "Une créature étourdie est Neutralisée, ne peut pas se déplacer et ne peut parler que de façon hésitante.",
+        "entry": "condition.shard.stunned.102"
+      },
+      {
+        "tag": "LI",
+        "en": "The creature automatically fails Strength and Dexterity saving throws.",
+        "fr": "La créature échoue automatiquement aux jets de sauvegarde de Force et de Dextérité.",
+        "entry": "condition.shard.petrified.77"
+      },
+      {
+        "tag": "LI",
+        "en": "Attack rolls against the creature have advantage.",
+        "fr": "Les jets d’attaque contre la créature ont l’Avantage.",
+        "entry": "condition.shard.petrified.76"
+      }
+    ]
+  },
+  {
+    "html": "<div class=\"pre-wrap ll-8\"><span><p><i><strong>Incapacitated.</strong></i> You have the Incapacitated condition.</p><p><i><strong>Saving Throws Affected.</strong></i> You automatically fail Strength and Dexterity saving throws.</p><p><i><strong>Attacks Affected.</strong></i> Attack rolls against you have Advantage.</p></span></div>",
+    "name": "Stunned",
+    "source": "Source.  D&D 2024 PHB",
+    "traits": "",
+    "blocks": [
+      {
+        "tag": "P",
+        "en": "Incapacitated. You have the Incapacitated condition.",
+        "fr": "Neutralisé. Vous subissez l’état Neutralisé.",
+        "entry": "conditions.2024.paralyzed.1.section"
+      },
+      {
+        "tag": "P",
+        "en": "Saving Throws Affected. You automatically fail Strength and Dexterity saving throws.",
+        "fr": "Effet sur les jets de sauvegarde. Vous échouez automatiquement aux jets de sauvegarde de Force et de Dextérité.",
+        "entry": "conditions.2024.paralyzed.3.section"
+      },
+      {
+        "tag": "P",
+        "en": "Attacks Affected. Attack rolls against you have Advantage.",
+        "fr": "Effet sur les attaques. Les jets d’attaque contre vous ont l’Avantage.",
+        "entry": "conditions.2024.paralyzed.4.section"
+      }
+    ]
+  },
+  {
+    "html": "<div class=\"pre-wrap ll-8\"><span><p></p><p>Three Quarters Cover gives you +5 to your Armor Class.</p><p></p></span></div>",
+    "name": "Three Quarters Cover",
+    "source": "Source.  D&D 2024 PHB",
+    "traits": "",
+    "blocks": [
+      {
+        "tag": "P",
+        "en": "Three Quarters Cover gives you +5 to your Armor Class.",
+        "fr": "Un Abri supérieur vous donne un bonus de +5 à la Classe d’armure.",
+        "entry": "condition.shard.three-quarters-cover.108"
+      }
+    ]
+  },
+  {
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the <a href=\"#actions?id=Dash/\">Dash</a> action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the <a href=\"#actions?id=Dodge/\">Dodge</a> action.</p></span></div>",
+    "name": "Turned",
+    "source": "Source.  Shard Player's Guide Volume 1, D&D 2024 PHB",
+    "traits": "",
+    "blocks": [
+      {
+        "tag": "P",
+        "en": "A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.",
+        "fr": "Une créature renvoyée doit consacrer ses tours à s’éloigner de vous autant que possible et ne peut pas se déplacer volontairement à moins de 30 feet de vous. Elle ne peut pas non plus entreprendre de Réaction. Pour son action, elle ne peut que Foncer ou tenter d’échapper à un effet qui l’empêche de se déplacer. Si elle ne peut aller nulle part, elle peut entreprendre l’action Esquiver.",
+        "entry": "condition.shard.turned.109"
+      }
+    ]
+  },
+  {
+    "html": "<div class=\"pre-wrap ll-8\"><span><ul><li>An unconscious creature is incapacitated, can't move or speak, and is unaware of its surroundings.</li><li>The creature drops whatever it's holding and falls <a href=\"http://localhost:8080/#conditions?id=prone/\"><u>prone</u></a>.</li><li>The creature automatically fails Strength and Dexterity saving throws.</li><li>Attack rolls against the creature have advantage.</li><li>Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature.</li></ul></span></div>",
+    "name": "Unconscious",
+    "source": "Source.  Shard Player's Guide Volume 1",
+    "traits": "",
+    "blocks": [
+      {
+        "tag": "LI",
+        "en": "An unconscious creature is incapacitated, can't move or speak, and is unaware of its surroundings.",
+        "fr": "Une créature inconsciente est Neutralisée, ne peut ni se déplacer ni parler et n’a pas conscience de son environnement.",
+        "entry": "condition.shard.unconscious.110"
+      },
+      {
+        "tag": "LI",
+        "en": "The creature drops whatever it's holding and falls prone.",
+        "fr": "La créature lâche tout ce qu’elle tient et tombe À terre.",
+        "entry": "condition.shard.unconscious.111"
+      },
+      {
+        "tag": "LI",
+        "en": "The creature automatically fails Strength and Dexterity saving throws.",
+        "fr": "La créature échoue automatiquement aux jets de sauvegarde de Force et de Dextérité.",
+        "entry": "condition.shard.petrified.77"
+      },
+      {
+        "tag": "LI",
+        "en": "Attack rolls against the creature have advantage.",
+        "fr": "Les jets d’attaque contre la créature ont l’Avantage.",
+        "entry": "condition.shard.petrified.76"
+      },
+      {
+        "tag": "LI",
+        "en": "Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature.",
+        "fr": "Toute attaque qui touche la créature est un Coup critique si l’attaquant est à 5 feet ou moins d’elle.",
+        "entry": "condition.shard.paralyzed.68"
+      }
+    ]
+  },
+  {
+    "html": "<div class=\"pre-wrap ll-8\"><span><p><i><strong>Inert.</strong></i> You have the Incapacitated and Prone conditions, and you drop whatever you’re holding. When this condition ends, you remain Prone.</p><p><i><strong>Speed 0.</strong></i> Your <a href=\"https://www.dndbeyond.com/sources/dnd/phb-2024/rules-glossary#Speed\">Speed</a> is 0 and can’t increase.</p><p><i><strong>Attacks Affected.</strong></i> Attack rolls against you have Advantage.</p><p><i><strong>Saving Throws Affected.</strong></i> You automatically fail Strength and Dexterity <a href=\"https://www.dndbeyond.com/sources/dnd/phb-2024/rules-glossary#SavingThrow\">saving throws</a>.</p><p><i><strong>Automatic Critical Hits.</strong></i> Any attack roll that hits you is a Critical Hit if the attacker is within 5 feet of you.</p><p><i><strong>Unaware.</strong></i> You’re unaware of your surroundings.</p></span></div>",
+    "name": "Unconscious",
+    "source": "Source.  D&D 2024 PHB",
+    "traits": "",
+    "blocks": [
+      {
+        "tag": "P",
+        "en": "Inert. You have the Incapacitated and Prone conditions, and you drop whatever you’re holding. When this condition ends, you remain Prone.",
+        "fr": "Inerte. Vous subissez les états Neutralisé et À terre, et lâchez tout ce que vous tenez. Lorsque cet état prend fin, vous restez À terre.",
+        "entry": "conditions.2024.unconscious.1.section"
+      },
+      {
+        "tag": "P",
+        "en": "Speed 0. Your Speed is 0 and can’t increase.",
+        "fr": "Vitesse 0. Votre Vitesse est de 0 et ne peut pas augmenter.",
+        "entry": "conditions.2024.grappled.1.section"
+      },
+      {
+        "tag": "P",
+        "en": "Attacks Affected. Attack rolls against you have Advantage.",
+        "fr": "Effet sur les attaques. Les jets d’attaque contre vous ont l’Avantage.",
+        "entry": "conditions.2024.paralyzed.4.section"
+      },
+      {
+        "tag": "P",
+        "en": "Saving Throws Affected. You automatically fail Strength and Dexterity saving throws.",
+        "fr": "Effet sur les jets de sauvegarde. Vous échouez automatiquement aux jets de sauvegarde de Force et de Dextérité.",
+        "entry": "conditions.2024.paralyzed.3.section"
+      },
+      {
+        "tag": "P",
+        "en": "Automatic Critical Hits. Any attack roll that hits you is a Critical Hit if the attacker is within 5 feet of you.",
+        "fr": "Coups critiques automatiques. Tout jet d’attaque qui vous touche est un Coup critique si l’attaquant est à 5 feet ou moins de vous.",
+        "entry": "conditions.2024.paralyzed.5.section"
+      },
+      {
+        "tag": "P",
+        "en": "Unaware. You’re unaware of your surroundings.",
+        "fr": "Dénué de conscience. Vous n’avez pas conscience de ce qui vous entoure.",
+        "entry": "conditions.2024.unconscious.6.section"
+      }
+    ]
+  },
+  {
+    "html": "<div class=\"pre-wrap ll-8\"><span><p>Your speed has been reduced to zero feet.</p></span></div>",
+    "name": "Zero Speed",
+    "source": "Source.  D&D 2024 PHB",
+    "traits": "",
+    "blocks": [
+      {
+        "tag": "P",
+        "en": "Your speed has been reduced to zero feet.",
+        "fr": "Votre Vitesse a été réduite à zéro feet.",
+        "entry": "condition.shard.zero-speed.121"
+      }
+    ]
+  }
+]

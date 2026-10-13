@@ -45,8 +45,8 @@
     "regles": {
       "nomsCatalogueAideDD2024": 0,
       "entreesDictionnaires": 1299,
-      "libellesEditables": 53,
-      "blocsEditables": 140
+      "libellesEditables": 62,
+      "blocsEditables": 197
     },
     "interface": {
       "nomsCatalogueAideDD2024": 0,
@@ -56,7 +56,7 @@
     }
   },
   "corpusLocaux": {
-    "descriptionsEtChampsLocauxUniques": 2688,
+    "descriptionsEtChampsLocauxUniques": 2745,
     "presentationsShard": {
       "fichesRelevees": 153,
       "avecDescription": 149,
@@ -89,6 +89,13 @@
       "etatsIndexes": 15,
       "sectionsReferencees": 48,
       "sectionsUniques": 34
+    },
+    "conditionsShard": {
+      "fichesRelevees": 48,
+      "avecDescriptionEnCarte": 47,
+      "blocsEtCellulesReferences": 116,
+      "blocsUniques": 93,
+      "blocsSupplementairesEnFicheOuverte": 1
     },
     "classesSRD2024": {
       "barbarian": {

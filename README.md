@@ -49,6 +49,8 @@ L'[audit de couverture du 13 octobre 2026](docs/AUDIT-COUVERTURE.md) distingue l
 
 La 1.17.4 traduit les descriptions de présentation relevées dans les catalogues : 10 espèces et 24 lignages 2024, 12 classes, 48 sous-classes et 16 historiques, ainsi que les présentations anciennes disponibles. Les 248 paragraphes et puces des cartes sont testés avec leur HTML d'origine, y compris les accroches en italique et les préceptes des paladins. Le catalogue `translations/descriptions-visibles.json` distingue cette couverture des descriptions d'aptitudes.
 
+La 1.17.5 complète les 48 fiches relevées dans le catalogue Conditions : états anciens, états 2024 et effets Shard tels que Vision dans le noir, En sang, encombrement, abris, agrandissement et rapetissement. Les règles affichées restent celles de chaque fiche, y compris les différences d’Épuisement et d’Étourdi entre éditions. Les tableaux, liens et dés sont testés à partir du HTML réel ; `translations/regles/conditions-shard.json` inventorie ce corpus.
+
 ## Ajouter des traductions
 
 Les fichiers `translations/<catégorie>/traductions.json` sont détectés automatiquement à la génération. Ajouter un texte anglais, son français et sa source suffit ; aucun changement du moteur n’est nécessaire.

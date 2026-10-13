@@ -57,7 +57,7 @@ const pause=ms=>new Promise(r=>setTimeout(r,ms));async function wait(f){for(let 
  assert.equal(privateText.textContent,'When you take damage, you can take a Reaction to roll 1d12.');assert.equal(unknown.textContent,'You gain an unknown power that deals 2d12 damage.');
  assert.equal(weapon.querySelector('span').textContent,'Polyvalente');assert.equal(human.querySelector('span').textContent,'Polyvalent');
  // Ne pas réécrire l'état Étourdi 2014 avec les effets 2024.
- assert.equal(oldStun.textContent,"A stunned creature is incapacitated, can't move, and can speak only falteringly.");
+ assert.equal(oldStun.textContent,'Une créature étourdie est Neutralisée, ne peut pas se déplacer et ne peut parler que de façon hésitante.');
  const exhaustion=main.querySelector('[data-condition="Exhaustion"]');assert.match(exhaustion.textContent,/2 fois votre niveau/);assert.match(exhaustion.textContent,/5 fois votre niveau/);assert.match(exhaustion.textContent,/1 de vos niveaux/);
  const stunned=main.querySelector('[data-condition="Stunned"]');assert.doesNotMatch(stunned.textContent,/Vitesse 0|parler|déplacer/);
  assert.ok(dice.isConnected&&icon.isConnected);assert.equal(dice.textContent,'1d12');dice.click();

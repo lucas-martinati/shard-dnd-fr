@@ -32,9 +32,14 @@ def report():
     conditions = json.loads((ROOT/'translations/regles/etats-2024.json').read_text())['conditions']
     complete = json.loads((ROOT/'work/complete-texts.json').read_text())
     presentations = json.loads((ROOT/'translations/descriptions-visibles.json').read_text())['fiches']
+    shard_catalogue = json.loads((ROOT/'translations/regles/conditions-shard.json').read_text())
+    shard_conditions = shard_catalogue['fiches']
+    condition_details = shard_catalogue['fichesOuvertes']
     pack_ids = {r['id'] for r in packs}
     if any(ident not in pack_ids for f in presentations for ident in f['paragraphes']):
         raise ValueError('Le catalogue des descriptions visibles référence un bloc absent des packs')
+    if any(ident not in pack_ids for f in shard_conditions + condition_details for ident in f['sections']):
+        raise ValueError('Le catalogue des conditions Shard référence un bloc absent des packs')
     return {
         'categories':categories,
         'corpusLocaux':{
@@ -47,6 +52,7 @@ def report():
                 'parType':{kind:{'fiches2024':sum(f['type']==kind and f['edition']=='2024' for f in presentations),'autresFiches':sum(f['type']==kind and f['edition']!='2024' for f in presentations)} for kind in ['species','subspecies','class','subclass','background']},
             },
             'etatsSRD2024':{'etatsIndexes':len(conditions),'sectionsReferencees':sum(len(c['sections']) for c in conditions),'sectionsUniques':len({ident for c in conditions for ident in c['sections']})},
+            'conditionsShard':{'fichesRelevees':len(shard_conditions),'avecDescriptionEnCarte':sum(bool(c['sections']) for c in shard_conditions),'blocsEtCellulesReferences':sum(len(c['sections']) for c in shard_conditions),'blocsUniques':len({ident for c in shard_conditions for ident in c['sections']}),'blocsSupplementairesEnFicheOuverte':sum(len(c['sections']) for c in condition_details)},
             'classesSRD2024':per_class,
             'optionsSRD2024':{kind:{'indexees':sum(r['kind']==kind for r in options),'proseAppariee':sum(r['kind']==kind and r['description'] for r in options)} for kind in ['metamagic','invocation']},
             'sortsSRD2024':len(json.loads(source('spell-reference.json').read_text())),

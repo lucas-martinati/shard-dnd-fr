@@ -1,0 +1,465 @@
+{
+  "date": "2026-10-13",
+  "source": "Catalogue Conditions de Shard du compte connecté : états 2014 et 2024, effets généraux ; textes affichés, sans modification des règles.",
+  "fiches": [
+    {
+      "name": "Blinded",
+      "source": "Source.  Shard Player's Guide Volume 1",
+      "edition": "2014",
+      "sections": [
+        "condition.shard.blinded.0",
+        "condition.shard.blinded.1"
+      ]
+    },
+    {
+      "name": "Blinded",
+      "source": "Source.  D&D 2024 PHB",
+      "edition": "2024",
+      "sections": [
+        "conditions.2024.blinded.1.section",
+        "conditions.2024.blinded.2.section"
+      ]
+    },
+    {
+      "name": "Bloodied",
+      "source": "Source.  D&D 2024 PHB",
+      "edition": "2024",
+      "sections": [
+        "condition.shard.bloodied.4"
+      ]
+    },
+    {
+      "name": "Charmed",
+      "source": "Source.  Shard Player's Guide Volume 1",
+      "edition": "2014",
+      "sections": [
+        "condition.shard.charmed.5",
+        "condition.shard.charmed.6"
+      ]
+    },
+    {
+      "name": "Charmed",
+      "source": "Source.  D&D 2024 PHB",
+      "edition": "2024",
+      "sections": [
+        "conditions.2024.charmed.1.section",
+        "conditions.2024.charmed.2.section"
+      ]
+    },
+    {
+      "name": "Darkvision 120",
+      "source": "Source.  Shard Player's Guide Volume 1",
+      "edition": "2014",
+      "sections": [
+        "condition.shard.darkvision-120.9"
+      ]
+    },
+    {
+      "name": "Darkvision 120",
+      "source": "Source.  D&D 2024 PHB",
+      "edition": "2024",
+      "sections": [
+        "condition.shard.darkvision-120.9"
+      ]
+    },
+    {
+      "name": "Darkvision 60",
+      "source": "Source.  Shard Player's Guide Volume 1",
+      "edition": "2014",
+      "sections": [
+        "condition.shard.darkvision-60.11"
+      ]
+    },
+    {
+      "name": "Darkvision 60",
+      "source": "Source.  D&D 2024 PHB",
+      "edition": "2024",
+      "sections": [
+        "condition.shard.darkvision-60.11"
+      ]
+    },
+    {
+      "name": "Deafened",
+      "source": "Source.  Shard Player's Guide Volume 1",
+      "edition": "2014",
+      "sections": [
+        "condition.shard.deafened.13"
+      ]
+    },
+    {
+      "name": "Deafened",
+      "source": "Source.  D&D 2024 PHB",
+      "edition": "2024",
+      "sections": [
+        "conditions.2024.deafened.1.section"
+      ]
+    },
+    {
+      "name": "Encumbered",
+      "source": "Source.  Shard Player's Guide Volume 1, D&D 2024 PHB",
+      "edition": "any",
+      "sections": [
+        "condition.shard.encumbered.15"
+      ]
+    },
+    {
+      "name": "Enlarge",
+      "source": "Source.  Shard Player's Guide Volume 1, D&D 2024 PHB",
+      "edition": "any",
+      "sections": [
+        "condition.shard.enlarge.16"
+      ]
+    },
+    {
+      "name": "Exhaustion",
+      "source": "Source.  Shard Player's Guide Volume 1",
+      "edition": "2014",
+      "sections": [
+        "condition.shard.exhaustion.17",
+        "condition.shard.exhaustion.18",
+        "condition.shard.exhaustion.19",
+        "condition.shard.exhaustion.21",
+        "condition.shard.exhaustion.23",
+        "condition.shard.exhaustion.25",
+        "condition.shard.exhaustion.27",
+        "condition.shard.exhaustion.29",
+        "condition.shard.exhaustion.31",
+        "condition.shard.exhaustion.32",
+        "condition.shard.exhaustion.33",
+        "condition.shard.exhaustion.34",
+        "condition.shard.exhaustion.35"
+      ]
+    },
+    {
+      "name": "Exhaustion",
+      "source": "Source.  D&D 2024 PHB",
+      "edition": "2024",
+      "sections": [
+        "conditions.2024.exhaustion.1.section",
+        "conditions.2024.exhaustion.2.section",
+        "conditions.2024.exhaustion.3.section",
+        "conditions.2024.exhaustion.4.section"
+      ]
+    },
+    {
+      "name": "Frightened",
+      "source": "Source.  Shard Player's Guide Volume 1",
+      "edition": "2014",
+      "sections": [
+        "condition.shard.frightened.40",
+        "condition.shard.frightened.41"
+      ]
+    },
+    {
+      "name": "Frightened",
+      "source": "Source.  D&D 2024 PHB",
+      "edition": "2024",
+      "sections": [
+        "conditions.2024.frightened.1.section",
+        "conditions.2024.frightened.2.section"
+      ]
+    },
+    {
+      "name": "Grappled",
+      "source": "Source.  Shard Player's Guide Volume 1",
+      "edition": "2014",
+      "sections": [
+        "condition.shard.grappled.44",
+        "condition.shard.grappled.45",
+        "condition.shard.grappled.46"
+      ]
+    },
+    {
+      "name": "Grappled",
+      "source": "Source.  D&D 2024 PHB",
+      "edition": "2024",
+      "sections": [
+        "conditions.2024.grappled.1.section",
+        "conditions.2024.grappled.2.section",
+        "conditions.2024.grappled.3.section"
+      ]
+    },
+    {
+      "name": "Half Cover",
+      "source": "Source.  D&D 2024 PHB",
+      "edition": "2024",
+      "sections": [
+        "condition.shard.half-cover.50"
+      ]
+    },
+    {
+      "name": "Heavily Encumbered",
+      "source": "Source.  Shard Player's Guide Volume 1, D&D 2024 PHB",
+      "edition": "any",
+      "sections": [
+        "condition.shard.heavily-encumbered.51"
+      ]
+    },
+    {
+      "name": "Incapacitated",
+      "source": "Source.  Shard Player's Guide Volume 1",
+      "edition": "2014",
+      "sections": [
+        "condition.shard.incapacitated.52"
+      ]
+    },
+    {
+      "name": "Incapacitated",
+      "source": "Source.  D&D 2024 PHB",
+      "edition": "2024",
+      "sections": [
+        "conditions.2024.incapacitated.1.section",
+        "conditions.2024.incapacitated.2.section",
+        "conditions.2024.incapacitated.3.section",
+        "conditions.2024.incapacitated.4.section"
+      ]
+    },
+    {
+      "name": "Inspiration",
+      "source": "Source.  Shard Player's Guide Volume 1, D&D 2024 PHB",
+      "edition": "any",
+      "sections": [
+        "condition.shard.inspiration.57",
+        "condition.shard.inspiration.58"
+      ]
+    },
+    {
+      "name": "Invisible",
+      "source": "Source.  Shard Player's Guide Volume 1",
+      "edition": "2014",
+      "sections": [
+        "condition.shard.invisible.59",
+        "condition.shard.invisible.60"
+      ]
+    },
+    {
+      "name": "Invisible",
+      "source": "Source.  D&D 2024 PHB",
+      "edition": "2024",
+      "sections": [
+        "conditions.2024.invisible.1.section",
+        "conditions.2024.invisible.2.section",
+        "conditions.2024.invisible.3.section"
+      ]
+    },
+    {
+      "name": "Mage Armor",
+      "source": "Source.  Shard Player's Guide Volume 1",
+      "edition": "2014",
+      "sections": [
+        "condition.shard.mage-armor.64"
+      ]
+    },
+    {
+      "name": "Mage Armor",
+      "source": "Source.  D&D 2024 PHB",
+      "edition": "2024",
+      "sections": [
+        "condition.shard.mage-armor.64"
+      ]
+    },
+    {
+      "name": "Paralyzed",
+      "source": "Source.  Shard Player's Guide Volume 1",
+      "edition": "2014",
+      "sections": [
+        "condition.shard.paralyzed.66",
+        "condition.shard.paralyzed.67",
+        "condition.shard.paralyzed.68"
+      ]
+    },
+    {
+      "name": "Paralyzed",
+      "source": "Source.  D&D 2024 PHB",
+      "edition": "2024",
+      "sections": [
+        "conditions.2024.paralyzed.1.section",
+        "conditions.2024.grappled.1.section",
+        "conditions.2024.paralyzed.3.section",
+        "conditions.2024.paralyzed.4.section",
+        "conditions.2024.paralyzed.5.section"
+      ]
+    },
+    {
+      "name": "Petrified",
+      "source": "Source.  Shard Player's Guide Volume 1",
+      "edition": "2014",
+      "sections": [
+        "condition.shard.petrified.74",
+        "condition.shard.petrified.75",
+        "condition.shard.petrified.76",
+        "condition.shard.petrified.77",
+        "condition.shard.petrified.78",
+        "condition.shard.petrified.79"
+      ]
+    },
+    {
+      "name": "Petrified",
+      "source": "Source.  D&D 2024 PHB",
+      "edition": "2024",
+      "sections": [
+        "conditions.2024.petrified.1.section",
+        "conditions.2024.paralyzed.1.section",
+        "conditions.2024.grappled.1.section",
+        "conditions.2024.paralyzed.4.section",
+        "conditions.2024.paralyzed.3.section",
+        "conditions.2024.petrified.6.section",
+        "conditions.2024.petrified.7.section"
+      ]
+    },
+    {
+      "name": "Poisoned",
+      "source": "Source.  Shard Player's Guide Volume 1",
+      "edition": "2014",
+      "sections": [
+        "condition.shard.poisoned.87"
+      ]
+    },
+    {
+      "name": "Poisoned",
+      "source": "Source.  D&D 2024 PHB",
+      "edition": "2024",
+      "sections": [
+        "conditions.2024.poisoned.1.section"
+      ]
+    },
+    {
+      "name": "Polymorph",
+      "source": "Source.  Shard Player's Guide Volume 1, D&D 2024 PHB",
+      "edition": "any",
+      "sections": []
+    },
+    {
+      "name": "Prone",
+      "source": "Source.  Shard Player's Guide Volume 1",
+      "edition": "2014",
+      "sections": [
+        "condition.shard.prone.89",
+        "condition.shard.prone.90",
+        "condition.shard.prone.91"
+      ]
+    },
+    {
+      "name": "Prone",
+      "source": "Source.  D&D 2024 PHB",
+      "edition": "2024",
+      "sections": [
+        "conditions.2024.prone.1.section",
+        "conditions.2024.prone.2.section"
+      ]
+    },
+    {
+      "name": "Radiate Light 40",
+      "source": "Source.  Shard Player's Guide Volume 1",
+      "edition": "2014",
+      "sections": [
+        "condition.shard.radiate-light-40.94"
+      ]
+    },
+    {
+      "name": "Reduce",
+      "source": "Source.  Shard Player's Guide Volume 1, D&D 2024 PHB",
+      "edition": "any",
+      "sections": [
+        "condition.shard.reduce.95"
+      ]
+    },
+    {
+      "name": "Restrained",
+      "source": "Source.  Shard Player's Guide Volume 1",
+      "edition": "2014",
+      "sections": [
+        "condition.shard.restrained.96",
+        "condition.shard.blinded.1",
+        "condition.shard.restrained.98"
+      ]
+    },
+    {
+      "name": "Restrained",
+      "source": "Source.  D&D 2024 PHB",
+      "edition": "2024",
+      "sections": [
+        "conditions.2024.grappled.1.section",
+        "conditions.2024.blinded.2.section",
+        "conditions.2024.restrained.3.section"
+      ]
+    },
+    {
+      "name": "Stunned",
+      "source": "Source.  Shard Player's Guide Volume 1",
+      "edition": "2014",
+      "sections": [
+        "condition.shard.stunned.102",
+        "condition.shard.petrified.77",
+        "condition.shard.petrified.76"
+      ]
+    },
+    {
+      "name": "Stunned",
+      "source": "Source.  D&D 2024 PHB",
+      "edition": "2024",
+      "sections": [
+        "conditions.2024.paralyzed.1.section",
+        "conditions.2024.paralyzed.3.section",
+        "conditions.2024.paralyzed.4.section"
+      ]
+    },
+    {
+      "name": "Three Quarters Cover",
+      "source": "Source.  D&D 2024 PHB",
+      "edition": "2024",
+      "sections": [
+        "condition.shard.three-quarters-cover.108"
+      ]
+    },
+    {
+      "name": "Turned",
+      "source": "Source.  Shard Player's Guide Volume 1, D&D 2024 PHB",
+      "edition": "any",
+      "sections": [
+        "condition.shard.turned.109"
+      ]
+    },
+    {
+      "name": "Unconscious",
+      "source": "Source.  Shard Player's Guide Volume 1",
+      "edition": "2014",
+      "sections": [
+        "condition.shard.unconscious.110",
+        "condition.shard.unconscious.111",
+        "condition.shard.petrified.77",
+        "condition.shard.petrified.76",
+        "condition.shard.paralyzed.68"
+      ]
+    },
+    {
+      "name": "Unconscious",
+      "source": "Source.  D&D 2024 PHB",
+      "edition": "2024",
+      "sections": [
+        "conditions.2024.unconscious.1.section",
+        "conditions.2024.grappled.1.section",
+        "conditions.2024.paralyzed.4.section",
+        "conditions.2024.paralyzed.3.section",
+        "conditions.2024.paralyzed.5.section",
+        "conditions.2024.unconscious.6.section"
+      ]
+    },
+    {
+      "name": "Zero Speed",
+      "source": "Source.  D&D 2024 PHB",
+      "edition": "2024",
+      "sections": [
+        "condition.shard.zero-speed.121"
+      ]
+    }
+  ],
+  "fichesOuvertes": [
+    {
+      "name": "Polymorph",
+      "sections": [
+        "condition.shard.polymorph.transform"
+      ]
+    }
+  ]
+}
