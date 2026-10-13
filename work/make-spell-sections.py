@@ -11,6 +11,7 @@ from translation_packs import key, load_packs
 
 ROOT = Path(__file__).resolve().parent
 TABLE = {
+    'Elementalism': [('Beckon Air','Appel d’air'),('Beckon Earth','Appel de terre'),('Beckon Fire','Appel de feu'),('Beckon Water','Appel d’eau'),('Sculpt Element','Façonnage élémentaire')],
     'Thaumaturgy': [('Altered Eyes','Yeux modifiés'),('Booming Voice','Voix retentissante'),('Fire Play','Jeu avec le feu'),('Invisible Hand','Main invisible'),('Phantom Sound','Bruit fantôme'),('Tremors','Secousse')],
     'Prestidigitation': [('Sensory Effect','Effet sensoriel'),('Fire Play','Jeu avec le feu'),('Clean or Soil','Nettoyage ou maculage'),('Minor Sensation','Sensation mineure'),('Magic Mark','Marque magique'),('Minor Creation','Création mineure')],
     'Druidcraft': [('Weather Sensor','Capteur climatique'),('Bloom','Floraison'),('Sensory Effect','Effet sensoriel'),('Fire Play','Jeu avec le feu')],

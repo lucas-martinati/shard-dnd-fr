@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Shard Tabletop — D&D français (2024)
 // @namespace    local.shard.dnd.fr
-// @version      1.17.0
+// @version      1.17.1
 // @updateURL    https://raw.githubusercontent.com/lucas-martinati/shard-dnd-fr/main/outputs/shard-dnd-fr.meta.js
 // @downloadURL  https://raw.githubusercontent.com/lucas-martinati/shard-dnd-fr/main/outputs/shard-dnd-fr.user.js
 // @description  Lexique D&D FR, sorts, dons, objets, monstres, MJ et descriptions intégrées. Règles 2024 privilégiées. Index et fiches AideDD 2024.

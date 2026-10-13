@@ -98,7 +98,7 @@
         const matches=[...new Set(feet.filter(f=>Math.abs(f*0.3*scale-value)<0.011||Math.abs(f*0.3048*scale-value)<0.011))];
         if(matches.length!==1)return whole;converted.push(matches[0]);
       }
-      return converted.join('/')+' feet';
+      return converted.join('/')+(converted.length===1&&converted[0]===1?' foot':' feet');
     });
   }
   const weaponMasteryContext=text=>/(?:\bmastery\b|bottes? d.armes?|propriétés? (?:de )?botte|this weapon|cette arme|slashing|piercing|bludgeoning|tranchant|perforant|contondant|two-handed|à deux mains)/i.test(text);
@@ -106,7 +106,7 @@
     if (!enabled || !source.trim() || source.length > 50000) return source;
     const originalSource=source;
     const exact = entries.get(normalize(source));
-    const complete=completePairs.get(inlineKey(source))||(aideddInline?inlinePairs.get(inlineKey(source)):null);
+    const complete=lookupPair(inlineKey(source));
     if(complete&&!customKeys.has(normalize(source)))return preserveFeet(source,complete);
     const fullDescription=referenceBodies.get(normalize(source));
     if (fullDescription && !customKeys.has(normalize(source))) return preserveFeet(source,fullDescription);
@@ -525,13 +525,20 @@
   }
   function aideddChoices(key){return aideddIndex.get(key)||[];}
   // Les paires distantes ne servent qu’à des correspondances EN exactes, jamais à remplacer une fiche entière.
-  const completePairs=new Map(),inlinePairs=new Map(), inlineOwners=new WeakMap(), inlineBlocks=new Set();
+  const completePairs=new Map(),inlinePairs=new Map(),inlineSources=new Map(),liveInline=new Set(), inlineOwners=new WeakMap(), inlineBlocks=new Set();
   const inlineLoads=new Map(), inlineJobs=[];let inlineBusy=false;
   // Reconnaître les contractions non ambiguës, sans toucher au texte affiché
   // ni rapprocher des valeurs ou des règles différentes (2014 / 2024).
   const contractions={"you've":"you have","we've":"we have","they've":"they have","can't":"cannot","cannot":"cannot","don't":"do not","doesn't":"does not","didn't":"did not","isn't":"is not","aren't":"are not","wasn't":"was not","weren't":"were not","hasn't":"has not","haven't":"have not","hadn't":"had not","won't":"will not","wouldn't":"would not","couldn't":"could not","shouldn't":"should not","mustn't":"must not"};
   const contractionRE=new RegExp('\\b(?:'+Object.keys(contractions).map(escapeRE).join('|')+')\\b','g');
   const inlineKey=s=>normalize(s).replace(/[“”]/g,'"').replace(contractionRE,m=>contractions[m]).replace(/\s*([.,;:!?()+])\s*/g,'$1').replace(/\s+/g,' ');
+  function inlinePriority(key){return inlineSources.has(key)&&(key.length>=35||/[.:]$/.test(key)||key.includes(':')||!entries.has(normalize(key)));}
+  function lookupPair(key){
+    // Les valeurs courtes d’un champ distant ne remplacent pas un nom du lexique.
+    if(aideddInline&&inlineSources.has(key)&&!inlinePriority(key))return completePairs.get(key);
+    if(aideddInline&&inlinePriority(key)&&inlinePairs.get(key))return inlinePairs.get(key);
+    return completePairs.get(key)||(aideddInline?inlinePairs.get(key):null);
+  }
   function originalNode(node){const state=tokenState.get(node);return state&&node.data===state.output?state.original:node.data;}
   function blockNodes(el){
     const nodes=[], walker=document.createTreeWalker(el,NodeFilter.SHOW_TEXT,{acceptNode:n=>excluded(n.parentElement)?NodeFilter.FILTER_REJECT:NodeFilter.FILTER_ACCEPT});
@@ -573,16 +580,17 @@
       if(n.nodeType!==1||excluded(n))return;
       const boundary=n!==el&&/^(BR|P|DIV|LI|TD|TH)$/.test(n.tagName);
       if(boundary)current=null;
+      if(/^(B|STRONG)$/.test(n.tagName)&&!n.closest('a,button,[role="button"],.dodieroll,[onclick]')){
+        const label=blockEnglish(n).trim(),before=current?.nodes.map(originalNode).join('')||'';
+        const punctuation=/[.:]$/.test(label)||/^[.:]/.test(n.nextSibling?.textContent||'');
+        if(punctuation&&(!before.trim()||/[.!?:]\s*$/.test(before))&&(lookupPair(inlineKey(label))||lookupPair(inlineKey(label+'.'))))current=null;
+      }
       for(const child of n.childNodes)visit(child);
       if(boundary)current=null;
     }
     visit(el);
-    const whole=blockEnglish(el),wholeKey=inlineKey(whole);
-    if(groups.length>1&&!el.querySelector('table')&&(completePairs.get(wholeKey)||inlinePairs.get(wholeKey))&&groups.some(g=>{const key=inlineKey(g.nodes.map(originalNode).join(''));return !completePairs.get(key)&&!inlinePairs.get(key);})){
-      for(const record of new Set(nodes.map(n=>inlineOwners.get(n)).filter(Boolean)))releaseInline(record);
-      processInlineNodes(el,nodes,whole,groups);
-      if(nodes.some(n=>inlineOwners.has(n)))return;
-    }
+    // Traduire les paragraphes et options avant d’envisager un bloc complet.
+    // Une traduction FR peut ordonner les effets différemment de la fiche EN.
     for(const group of groups)processInlineNodes(el,group.nodes,group.nodes.map(originalNode).join(''));
     // La référence peut ne fournir qu’un texte complet. Aucun tableau ne doit
     // être aplati : les cellules et leurs valeurs restent à leur place.
@@ -590,7 +598,7 @@
   }
   function processInlineNodes(el,nodes,source,visualGroups=null){
     if(nodes.some(n=>maintainInline(n)))return;
-    const key=inlineKey(source),translated=completePairs.get(key)||inlinePairs.get(key)||translateDuration(source)||translateCompleteBlock(source);
+    const key=inlineKey(source),translated=lookupPair(key)||translateDuration(source)||translateCompleteBlock(source);
     const fr=translated&&preserveFeet(source,translated);
     if(!fr||customKeys.has(normalize(source))||nodes.some(n=>customKeys.has(normalize(originalNode(n)))))return;
     // Conserver chaque élément interactif et ses gestionnaires. Seuls les nœuds texte changent.
@@ -601,8 +609,9 @@
     function inlineVariants(en){
       const trimmed=en.trim(),match=/^(.*?)([.:]?)$/.exec(trimmed);
       const entry=entries.get(normalize(match[1]));
+      const heading=lookupPair(inlineKey(match[1]+'.'))?.replace(/[.:]$/,'')||lookupPair(inlineKey(match[1]))||entry?.fr;
       // Les descriptions restent françaises, même si les noms isolés sont bilingues.
-      return [...new Set([translate(en,source),entry?entry.fr+match[2]:null,en].filter(Boolean).map(s=>s.trim()))];
+      return [...new Set([translate(en,source),heading?heading+match[2]:null,entry?entry.fr+match[2]:null,...(heading&&match[2]?[heading+'.',heading+':']:[]),en].filter(Boolean).map(s=>s.trim()))];
     }
     const formatted=[];
     for(const node of nodes){
@@ -627,9 +636,10 @@
       if(segment&&!available.length)return false;
       if(available.length){
         const groups=[];for(const node of available){const parent=node.parentElement.closest('p,li')||el,scope=visualScope.get(node)??parent;let group=groups.at(-1);if(!group||group.scope!==scope){group={parent,scope,nodes:[]};groups.push(group);}group.nodes.push(node);}
-        // Les coupures de paragraphe sont visuelles ; les mots restent dans leur ordre français.
-        const chunks=segment.split(/(?<=[.!?])(?=\s)/);let at=0;
-        for(let i=0;i<groups.length;i++){const count=i===groups.length-1?chunks.length-at:Math.ceil((chunks.length-at)/(groups.length-i));const target=groups[i].nodes.find(n=>n.parentElement===groups[i].parent)||groups[i].nodes[0];output.set(target,chunks.slice(at,at+count).join(''));at+=count;}
+        // Ne jamais répartir arbitrairement des phrases entre plusieurs P/LI/BR.
+        // Sans correspondance de paragraphe, conserver le texte jusqu’à sa reconnaissance.
+        if(segment.trim()&&groups.length>1)return false;
+        const group=groups[0],target=group.nodes.find(n=>n.parentElement===group.parent)||group.nodes[0];output.set(target,segment);
       }return true;
     }
     for(const owner of protectedElements){
@@ -644,23 +654,69 @@
     const record={el,revision,bilingual,items:nodes.map(node=>({node,original:originalNode(node),output:output.get(node)}))};inlineBlocks.add(record);
     for(const item of record.items){inlineOwners.set(item.node,record);tokenState.set(item.node,{original:item.original,output:item.output,revision,enabled,bilingual});item.node.data=item.output;}
   }
-  function addInlinePair(en,fr){
-    if(!en||!fr||en.length<3||en.length>50000)return;
+  function addInlinePair(en,fr,sourceURL=null){
+    if(!en||!fr||en.length<3||en.length>50000)return false;
     const dice=s=>[...s.matchAll(/\b\d+d\d+\b/gi)].map(m=>m[0].toLowerCase()).sort().join(',');
-    if(dice(en)!==dice(fr))return;
+    if(dice(en)!==dice(fr))return false;
     const key=inlineKey(en),previous=inlinePairs.get(key);
-    if(previous&&inlineKey(previous)!==inlineKey(fr)){inlinePairs.set(key,null);return;} // Ambiguïté : ne pas choisir arbitrairement.
-    if(previous===undefined)inlinePairs.set(key,fr);
+    if(previous===null&&!sourceURL)return false;
+    if(previous&&inlineKey(previous)!==inlineKey(fr)&&(!sourceURL||liveInline.has(key)||(inlineSources.has(key)&&inlineSources.get(key)!==sourceURL))){inlinePairs.set(key,null);inlineSources.delete(key);return false;}
+    if(sourceURL&&previous===null&&liveInline.has(key))return false;
+    inlinePairs.set(key,fr);
+    if(sourceURL){inlineSources.set(key,sourceURL);liveInline.add(key);}
+    return true;
+  }
+  function referenceSections(page){
+    const blocks=page.blocks?.length?page.blocks:(page.paragraphs||[]).map(text=>({text,heading:'',body:text}));
+    const sections=[];
+    for(const block of blocks){
+      if(block.heading||!sections.length)sections.push({heading:block.heading,paragraphs:[]});
+      sections.at(-1).paragraphs.push(block);
+    }
+    return sections.map(section=>({...section,text:section.paragraphs.map(p=>p.text).join(' '),body:section.paragraphs.map((p,i)=>i===0&&section.heading?p.body:p.text).join(' ').trim()}));
+  }
+  const referenceTitle=s=>inlineKey(s.replace(/[.\s:]+$/,''));
+  function headingAliases(name){
+    const base=name.replace(/[.\s:]+$/,''),entry=entries.get(normalize(base));
+    return [base,entry?.fr,lookupPair(inlineKey(base)),lookupPair(inlineKey(base+'.')),...(termMeta(normalize(base)).aliases||[])].filter(Boolean).map(referenceTitle);
+  }
+  function completeSentenceCoverage(en,fr){
+    if(!en.trim()||!fr.trim())return !en.trim()&&!fr.trim();
+    const count=text=>text.trim()?text.split(/[.!?](?:\s+|$)/).filter(s=>s.trim()).length:0;
+    // Une fiche FR abrégée ne doit pas faire disparaître une exception de règle EN.
+    return count(fr)>=count(en);
   }
   function learnInline(en,fr,row){
-    addInlinePair(en.description,fr.description);
-    for(const key of Object.keys(en.fields||{})){const a=en.fields[key],b=fr.fields?.[key];if(b){addInlinePair(a.full,b.full);addInlinePair(a.value,b.value);}}
-    // Conserver aussi les combinaisons de paragraphes pour les pages découpées différemment.
-
-    if(en.paragraphs.length===fr.paragraphs.length){
-      en.paragraphs.forEach((p,i)=>addInlinePair(p,fr.paragraphs[i]));
-      for(let i=0;i<en.paragraphs.length;i++)for(let size=2;size<=4&&i+size<=en.paragraphs.length;size++)addInlinePair(en.paragraphs.slice(i,i+size).join(' '),fr.paragraphs.slice(i,i+size).join(' '));
+    const sourceURL=row.url;
+    const add=(a,b)=>{
+      const accepted=addInlinePair(a,b,sourceURL);
+      // Une ponctuation de fin de paragraphe ne change pas la règle.
+      if(accepted&&/[.:]$/.test(a.trim()))addInlinePair(a.trim().replace(/[.:]$/,a.trim().endsWith(':')?'.':':'),b,sourceURL);
+      return accepted;
+    };
+    for(const key of Object.keys(en.fields||{})){const a=en.fields[key],b=fr.fields?.[key];if(b){add(a.full,b.full);add(a.value,b.value);}}
+    const english=referenceSections(en),french=referenceSections(fr),used=new Set();let complete=english.length>0;
+    const named=english.some(p=>p.heading)||french.some(p=>p.heading);
+    for(let i=0;i<english.length;i++){
+      const a=english[i];let candidates;
+      if(a.heading){const aliases=headingAliases(a.heading);candidates=french.filter(p=>p.heading&&aliases.includes(referenceTitle(p.heading)));}
+      else candidates=named?french.filter(p=>!p.heading):(english.length===french.length?[french[i]]:[]);
+      if(candidates.length!==1||used.has(candidates[0])){complete=false;continue;}
+      const b=candidates[0];used.add(b);
+      if(a.heading&&b.heading){
+        const label=a.heading.replace(/[.\s:]+$/,''),translated=b.heading.replace(/[.\s:]+$/,'');
+        add(label+'.',translated+'.');
+      }
+      if(!a.body&&!b.body){complete=false;continue;}
+      if(!completeSentenceCoverage(a.body,b.body)){complete=false;continue;}
+      if(!add(a.text,b.text)){complete=false;continue;}
+      if(a.heading&&b.heading&&a.body&&b.body)add(a.body,b.body);
+      if(a.paragraphs.length===b.paragraphs.length&&a.paragraphs.every((p,j)=>completeSentenceCoverage(p.body,b.paragraphs[j].body))){
+        a.paragraphs.forEach((p,j)=>add(p.text,b.paragraphs[j].text));
+        for(let j=0;j<a.paragraphs.length;j++)for(let size=2;size<=4&&j+size<=a.paragraphs.length;size++)add(a.paragraphs.slice(j,j+size).map(p=>p.text).join(' '),b.paragraphs.slice(j,j+size).map(p=>p.text).join(' '));
+      }
     }
+    if(complete&&used.size===french.length)add(en.description,fr.description);
     if(en.tables?.length===fr.tables?.length)en.tables.forEach((table,i)=>{
       const other=fr.tables[i];
       if(table.length!==other.length||table.some((r,j)=>r.length!==other[j].length))return;
@@ -673,17 +729,18 @@
       const name=action.heading.replace(/[.\s]+$/,'');
       const labels=[name,translate(name),...(termMeta(normalize(name)).aliases||[])].map(inlineKey);
       const hits=fr.actions.filter(a=>labels.includes(inlineKey(a.heading.replace(/[.\s]+$/,''))));
-      if(hits.length===1)addInlinePair(action.text,hits[0].text);
+      if(hits.length===1&&completeSentenceCoverage(action.text,hits[0].text))add(action.text,hits[0].text);
     }
-    while(inlinePairs.size>1600)inlinePairs.delete(inlinePairs.keys().next().value);
+    while(inlinePairs.size>1600){const key=inlinePairs.keys().next().value;inlinePairs.delete(key);inlineSources.delete(key);liveInline.delete(key);}
     saveInlineCache();revision++;queue(document.body);
   }
   const INLINE_CACHE_KEY='shard-fr-descriptions-v18';
   function saveInlineCache(){
     try{
       const pairs=[...inlinePairs].slice(-1600);let size=0;
-      const bounded=pairs.reverse().filter(p=>{size+=JSON.stringify(p).length;return size<1500000;}).reverse();
-      GM_setValue(INLINE_CACHE_KEY,JSON.stringify({savedAt:Date.now(),pairs:bounded}));
+      const bounded=pairs.reverse().filter(p=>{size+=JSON.stringify(p).length+(inlineSources.has(p[0])?JSON.stringify([p[0],inlineSources.get(p[0])]).length:0);return size<1500000;}).reverse();
+      const sources=bounded.filter(p=>p[1]&&inlineSources.has(p[0])).map(p=>[p[0],inlineSources.get(p[0])]);
+      GM_setValue(INLINE_CACHE_KEY,JSON.stringify({savedAt:Date.now(),pairs:bounded,sources}));
     }catch{} // Un quota de stockage ne doit pas interrompre la traduction.
   }
   function requestInline(rows){
@@ -759,7 +816,9 @@
     if(source.length<35)return null;
     if(blockCacheRevision!==revision){
       blockTranslationCache.clear();
-      blockPairs=[...completePairs,...inlinePairs].filter(([en,fr])=>fr&&en.length>=12).sort((a,b)=>b[0].length-a[0].length);
+      const selected=new Map(completePairs);
+      for(const [en,fr]of inlinePairs)if(fr&&!(inlineSources.has(en)&&!inlinePriority(en))&&(inlinePriority(en)||!selected.has(en)))selected.set(en,fr);
+      blockPairs=[...selected].filter(([en,fr])=>fr&&en.length>=12).sort((a,b)=>b[0].length-a[0].length);
       blockCacheRevision=revision;
     }
     const key=inlineKey(source);
@@ -801,6 +860,8 @@
           if(previous===null||p[1]===null||(previous!==undefined&&inlineKey(previous)!==inlineKey(p[1])))inlinePairs.set(key,null);
           else inlinePairs.set(key,p[1]);
         }
+      if(Date.now()-saved.savedAt<30*86400000&&Array.isArray(saved.sources)&&saved.sources.length<=1600)
+        for(const pair of saved.sources)if(Array.isArray(pair)&&pair.length===2&&typeof pair[0]==='string'&&typeof pair[1]==='string'&&AIDEDD_KINDS.some(kind=>aideddURL(pair[1],kind)||aideddURL(pair[1],kind,'legacy-en')||aideddURL(pair[1],kind,'legacy-fr'))){const key=inlineKey(pair[0]);if(inlinePairs.get(key))inlineSources.set(key,pair[1]);}
     }
   }catch{}
 

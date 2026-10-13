@@ -48,10 +48,27 @@ function parseAideDDPage(html, row) {
   if(text.length<30 || text.length>100000)throw Error('Contenu de fiche inattendu.');
   const clean=node=>plain(node).replace(/\s+/g,' ').trim();
   const description=content.querySelector('.description');
+  // Garder les limites visuelles et les titres. Aucun HTML distant n’est réinjecté.
+  const blocks=[];let buffer='',heading='';
+  function flushBlock(){const value=buffer.replace(/\s+/g,' ').trim();if(value)blocks.push({text:value,heading,body:heading?value.slice(heading.length).replace(/^[\s.:]+/,''):value});buffer='';heading='';}
+  function collectBlocks(node){
+    if(node.nodeType===3){buffer+=node.textContent;return;}
+    if(node.nodeType!==1)return;
+    if(node.tagName==='TABLE'){flushBlock();return;}
+    if(node.tagName==='BR'){flushBlock();return;}
+    const boundary=/^(P|DIV|LI|UL|OL|SECTION|H[1-6])$/.test(node.tagName);
+    if(boundary)flushBlock();
+    if(/^(STRONG|B)$/.test(node.tagName)&&!buffer.trim()){
+      const title=clean(node);if(title.length<=150)heading=title;
+    }
+    for(const child of node.childNodes)collectBlocks(child);
+    if(boundary)flushBlock();
+  }
+  if(description){collectBlocks(description);flushBlock();}
   // Ne pas associer les paragraphes d’un monstre par simple position : les versions peuvent différer.
   const paragraphs=row.kind==='monster'?[]:(description?plain(description).split(/\n+/).map(x=>x.trim()).filter(Boolean):[]);
   const actions=row.kind==='monster'?[...content.querySelectorAll('.sansSerif > p')].map(p=>({heading:p.querySelector('strong')?.textContent.trim()||'',text:clean(p)})):[];
   const fields={};for(const cls of ['t','r','c','d','prerequis']){const el=content.querySelector(':scope > .'+cls);if(el){const full=clean(el);fields[cls]={full,value:full.replace(/^[^:]+:\s*/, '')};}}
   const tables=description?[...description.querySelectorAll('table')].map(t=>[...t.rows].map(r=>[...r.cells].map(clean))):[];
-  return {title,text,englishURL,frenchURL,fields,description:description?clean(description):'',paragraphs,actions,tables};
+  return {title,text,englishURL,frenchURL,fields,description:description?clean(description):'',paragraphs,blocks,actions,tables};
 }

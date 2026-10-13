@@ -91,6 +91,12 @@ Le catalogue des 38 armes SRD 2024 est testé avec toutes les propriétés et bo
 
 Les rubriques d’aptitudes sont reliées par leur titre dans les deux langues. Cela ajoute 284 sous-sections et variantes des 12 classes : rubriques d’incantation, options, références au chapitre 7 et introductions génériques de sous-classe. Briseur de hordes et le Manteau d’inspiration fourni sont pris en charge avec leur texte complet. Les aptitudes de toutes les sous-classes hors SRD restent à compléter ; la traduction de leurs noms ne garantit pas celle de leurs descriptions.
 
+## Mise en forme des sorts · version 1.17.1
+
+Les effets nommés et paragraphes sont maintenant traités séparément. Élémentalisme conserve ses six paragraphes, ses titres en gras et en italique, et chaque effet reste à sa place. Le script ne découpe plus une traduction complète en phrases réparties arbitrairement sur la fiche.
+
+Les passages AideDD correspondants sont prioritaires sur la traduction SRD locale, y compris après rechargement grâce au cache. Certaines fiches AideDD sont abrégées ou ne correspondent pas exactement au texte anglais de Shard : le passage SRD reste alors disponible pour conserver les règles. Les noms et les valeurs de jeu de la fiche ne sont pas remplacés par ceux d’une autre version.
+
 ## Vérifications
 
 Les tests des aptitudes de personnages passent toujours : 54 paragraphes et variantes, descriptions précédées de titres, libellés fragmentés, changement de dés après montée de niveau, commandes de dés cliquables et restauration exacte des textes anglais. Les valeurs des champs de saisie restent intactes et les phrases inconnues ne sont pas traduites mot à mot.

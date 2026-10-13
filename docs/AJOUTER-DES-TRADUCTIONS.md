@@ -56,7 +56,7 @@ npm test
 
 Les nouveaux paragraphes et libellés sont testés à partir des packs dans un DOM comportant des dés cliquables. Les tests contrôlent la traduction, la conservation des éléments interactifs et le retour au texte anglais.
 
-Le numéro de version utilisé pour le script et le lexique vient de `package.json`.
+Le numéro de version utilisé pour le script et le lexique vient de `package.json`. Les corrections, ajouts de traductions et améliorations courantes incrémentent uniquement le dernier numéro : `1.17.1`, `1.17.2`, `1.17.3`, etc. Un changement du numéro mineur ou majeur est réservé à une évolution plus importante ; il ne suit pas automatiquement chaque commit.
 
 ## Repérer les manques dans un HTML
 
@@ -94,3 +94,13 @@ Le générateur conserve les traductions préexistantes et refuse les correspond
 ## Couverture des armes
 
 `translations/armes/catalogue-2024.json` énumère les 38 armes du SRD et relie chacune à ses propriétés et à sa botte. Ajouter une arme à ce catalogue implique de fournir aussi les traductions de ses règles dans `traductions.json`. Les règles privées ou de suppléments ne sont pas déduites d’un nom d’arme. Un exemple facultatif doit avoir sa propre paire afin que la règle reste traduisible lorsque Shard omet cet exemple.
+
+## Paragraphes des sorts et priorité des références
+
+Pour un sort à effets nommés, relier ses titres EN/FR dans `work/make-spell-sections.py`. Fournir les corps, les sections complètes et les titres ponctués permet de garder le gras existant. Les titres non ponctués sont reconnus comme repères de mise en forme sans devenir des traductions globales de mots courants tels que « Drop ».
+
+Le moteur traite chaque P/LI/BR et les sous-titres reconnus avant d’essayer un bloc complet. Il ne partage jamais une traduction entre plusieurs paragraphes par simple nombre de phrases. Une correspondance manquante demande un ajout explicite ou une référence distante compatible.
+
+Le parseur AideDD fournit des blocs de texte et leurs titres, sans réinjecter de HTML distant. Les sections nommées sont reliées au lexique, indépendamment de leur ordre ; les paragraphes non titrés gardent un contrôle de structure. Une référence plus courte en nombre de phrases est conservativement refusée pour ne pas effacer une exception. Ce contrôle ne prouve pas une équivalence sémantique : les versions doivent toujours être vérifiées.
+
+Seules les paires validées pendant le chargement des fiches publiques reçoivent une provenance permettant de remplacer le SRD. Les anciens caches restent lisibles, mais ne sont pas promus automatiquement en références prioritaires. Les valeurs courtes d’un champ distant ne changent pas les noms connus du lexique.

@@ -1,5 +1,85 @@
 [
   {
+    "en": "You exert control over the elements, creating one of the following effects within range.",
+    "fr": "Vous exercez votre contrôle sur les éléments, ce qui produit l’un des effets suivants à portée.",
+    "source": "SRD officiel 5.2.1 FR · section de Elementalism · CC-BY-4.0"
+  },
+  {
+    "en": "You create a breeze strong enough to ripple cloth, stir dust, rustle leaves, and close open doors and shutters, all in a 5-foot Cube. Doors and shutters being held open by someone or something aren’t affected.",
+    "fr": "Vous produisez une brise suffisante pour faire ondoyer les vêtements, soulever la poussière, bruisser les feuilles et fermer les portes et volets ouverts compris dans un Cube de 1,50 m. Les portes et volets maintenus ouverts par quelqu’un ou quelque chose ne sont pas affectés.",
+    "source": "SRD officiel 5.2.1 FR · section de Elementalism · CC-BY-4.0"
+  },
+  {
+    "en": "Beckon Air. You create a breeze strong enough to ripple cloth, stir dust, rustle leaves, and close open doors and shutters, all in a 5-foot Cube. Doors and shutters being held open by someone or something aren’t affected.",
+    "fr": "Appel d’air. Vous produisez une brise suffisante pour faire ondoyer les vêtements, soulever la poussière, bruisser les feuilles et fermer les portes et volets ouverts compris dans un Cube de 1,50 m. Les portes et volets maintenus ouverts par quelqu’un ou quelque chose ne sont pas affectés.",
+    "source": "SRD officiel 5.2.1 FR · section de Elementalism · CC-BY-4.0"
+  },
+  {
+    "en": "Beckon Air.",
+    "fr": "Appel d’air.",
+    "source": "SRD officiel 5.2.1 FR · section de Elementalism · CC-BY-4.0"
+  },
+  {
+    "en": "You create a thin shroud of dust or sand that covers surfaces in a 5-foot-square area, or you cause a single word to appear in your handwriting in a patch of dirt or sand.",
+    "fr": "Vous produisez un linceul de poussière ou de sable qui tapisse les surfaces d’une zone de 1,50 m de côté ou vous faites apparaître sur la terre ou le sable un mot unique qui reprend votre écriture.",
+    "source": "SRD officiel 5.2.1 FR · section de Elementalism · CC-BY-4.0"
+  },
+  {
+    "en": "Beckon Earth. You create a thin shroud of dust or sand that covers surfaces in a 5-foot-square area, or you cause a single word to appear in your handwriting in a patch of dirt or sand.",
+    "fr": "Appel de terre. Vous produisez un linceul de poussière ou de sable qui tapisse les surfaces d’une zone de 1,50 m de côté ou vous faites apparaître sur la terre ou le sable un mot unique qui reprend votre écriture.",
+    "source": "SRD officiel 5.2.1 FR · section de Elementalism · CC-BY-4.0"
+  },
+  {
+    "en": "Beckon Earth.",
+    "fr": "Appel de terre.",
+    "source": "SRD officiel 5.2.1 FR · section de Elementalism · CC-BY-4.0"
+  },
+  {
+    "en": "You create a thin cloud of harmless embers and colored, scented smoke in a 5-foot Cube. You choose the color and scent, and the embers can light candles, torches, or lamps in that area. The smoke’s scent lingers for 1 minute.",
+    "fr": "Vous produisez un nuage de fumée parfumée, colorée et ardente, mais inoffensive, dans un Cube de 1,50 m. Vous en choisissez la teinte et l’odeur ; les flammèches embrasent les bougies, torches et lampes de la zone. L’odeur de la fumée persiste pendant 1 minute.",
+    "source": "SRD officiel 5.2.1 FR · section de Elementalism · CC-BY-4.0"
+  },
+  {
+    "en": "Beckon Fire. You create a thin cloud of harmless embers and colored, scented smoke in a 5-foot Cube. You choose the color and scent, and the embers can light candles, torches, or lamps in that area. The smoke’s scent lingers for 1 minute.",
+    "fr": "Appel de feu. Vous produisez un nuage de fumée parfumée, colorée et ardente, mais inoffensive, dans un Cube de 1,50 m. Vous en choisissez la teinte et l’odeur ; les flammèches embrasent les bougies, torches et lampes de la zone. L’odeur de la fumée persiste pendant 1 minute.",
+    "source": "SRD officiel 5.2.1 FR · section de Elementalism · CC-BY-4.0"
+  },
+  {
+    "en": "Beckon Fire.",
+    "fr": "Appel de feu.",
+    "source": "SRD officiel 5.2.1 FR · section de Elementalism · CC-BY-4.0"
+  },
+  {
+    "en": "You create a spray of cool mist that lightly dampens creatures and objects in a 5-foot Cube. Alternatively, you create 1 cup of clean water either in an open container or on a surface, and the water evaporates in 1 minute.",
+    "fr": "Vous produisez des embruns frais qui humectent les créatures et objets dans un Cube de 1,50 m. Ou bien, vous créez 20 cl d’eau claire dans un récipient ouvert ou sur une surface ; cette eau s’évapore au bout de 1 minute.",
+    "source": "SRD officiel 5.2.1 FR · section de Elementalism · CC-BY-4.0"
+  },
+  {
+    "en": "Beckon Water. You create a spray of cool mist that lightly dampens creatures and objects in a 5-foot Cube. Alternatively, you create 1 cup of clean water either in an open container or on a surface, and the water evaporates in 1 minute.",
+    "fr": "Appel d’eau. Vous produisez des embruns frais qui humectent les créatures et objets dans un Cube de 1,50 m. Ou bien, vous créez 20 cl d’eau claire dans un récipient ouvert ou sur une surface ; cette eau s’évapore au bout de 1 minute.",
+    "source": "SRD officiel 5.2.1 FR · section de Elementalism · CC-BY-4.0"
+  },
+  {
+    "en": "Beckon Water.",
+    "fr": "Appel d’eau.",
+    "source": "SRD officiel 5.2.1 FR · section de Elementalism · CC-BY-4.0"
+  },
+  {
+    "en": "You cause dirt, sand, fire, smoke, mist, or water that can fit in a 1-foot Cube to assume a crude shape (such as that of a creature) for 1 hour.",
+    "fr": "De la terre, du sable, des flammes, de la fumée, de la brume ou de l’eau qui tiennent dans un Cube de 30 cm adoptent grossièrement une forme (celle d’une créature, par exemple) pendant 1 heure.",
+    "source": "SRD officiel 5.2.1 FR · section de Elementalism · CC-BY-4.0"
+  },
+  {
+    "en": "Sculpt Element. You cause dirt, sand, fire, smoke, mist, or water that can fit in a 1-foot Cube to assume a crude shape (such as that of a creature) for 1 hour.",
+    "fr": "Façonnage élémentaire. De la terre, du sable, des flammes, de la fumée, de la brume ou de l’eau qui tiennent dans un Cube de 30 cm adoptent grossièrement une forme (celle d’une créature, par exemple) pendant 1 heure.",
+    "source": "SRD officiel 5.2.1 FR · section de Elementalism · CC-BY-4.0"
+  },
+  {
+    "en": "Sculpt Element.",
+    "fr": "Façonnage élémentaire.",
+    "source": "SRD officiel 5.2.1 FR · section de Elementalism · CC-BY-4.0"
+  },
+  {
     "en": "You manifest a minor wonder within range. You create one of the effects below within range. If you cast this spell multiple times, you can have up to three of its 1-minute effects active at a time.",
     "fr": "Vous engendrez une manifestation surnaturelle mineure. Vous créez l’un des effets magiques suivants à portée. Si vous lancez ce sort plusieurs fois, vous pouvez faire coexister jusqu’à trois de ces effets d’une minute.",
     "source": "SRD officiel 5.2.1 FR · section de Thaumaturgy · CC-BY-4.0"

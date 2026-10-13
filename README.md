@@ -59,24 +59,6 @@ npm run build
 npm test
 ```
 
-La version 1.13 ajoute 41 descriptions pour le Guerrier, le Barde, le Paladin et plusieurs espèces, plus 4 libellés. Ces passages sont des adaptations françaises du SRD 5.2.1 anglais. Les traductions de règles 2014 et 2024 restent distinguées par leur texte.
-
 ## Licences et attribution
 
 Le code est sous licence MIT ; les textes SRD et autres contenus gardent leurs licences respectives. Voir [LICENSE](LICENSE) et [NOTICE.md](NOTICE.md). Projet indépendant, non affilié à Shard Tabletop, AideDD ou Wizards of the Coast.
-
-## Dernier complément
-
-La version 1.15 ajoute Rage et plusieurs traits draconiques, les propriétés d’armes anciennes et 2024, et élargit la traduction des listes et sous-sections de sorts. `work/make-spell-sections.py` produit les correspondances depuis les références SRD embarquées, avec des titres explicitement reliés entre les langues ; leur ordre peut différer. Les commandes de dés ne sont pas déplacées ni réécrites.
-
-## Couverture et organisation · version 1.16
-
-Les corrections ponctuelles sont regroupées dans les catégories générales ; chaque entrée conserve sa source et son édition. L’import SRD porte sur la prose de 232 aptitudes des 12 classes, 10 options de métamagie et 28 manifestations occultes. Les options sont reliées par leur nom, jamais par leur ordre dans le document français. Les descriptions déjà présentes conservent leur priorité.
-
-L’inventaire [couverture des traductions](outputs/couverture-traductions.json) distingue les noms AideDD, les blocs traduits et les corpus appariés. Il ne certifie pas toutes les variantes Shard ni tous les suppléments. Le SRD ne contient qu’une sélection de sous-classes et de dons ; les autres descriptions publiques AideDD restent consultées à la demande.
-
-## Armes et affichage des aptitudes · version 1.17
-
-Le catalogue `translations/armes/catalogue-2024.json` énumère les 38 armes du SRD 2024 et leurs propriétés/bottes. Les tests affichent chaque arme avec toutes les règles associées, y compris la propriété Légère sans son exemple final, puis vérifient les dés et le retour au HTML d’origine.
-
-`translations/classes/sections.json` décrit les correspondances des titres de sous-sections. Le générateur fournit 284 sous-sections et variantes : incantation, options nommées, références au chapitre 7 et introductions de sous-classes des 12 classes. Les noms des 48 sous-classes PHB 2024 sont vérifiés dans les tests. Cela ne constitue pas une traduction intégrale des aptitudes des 48 sous-classes : le corpus principal reste celui du SRD. Manteau d’inspiration 2024 est ajouté depuis l’extrait fourni.
