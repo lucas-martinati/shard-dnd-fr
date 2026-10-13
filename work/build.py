@@ -15,6 +15,7 @@ oldheader=re.sub(r'(?m)^(// @version\s+).+$',lambda m:m[1]+version,(work/'header
 metadata=re.match(r'\A// ==UserScript==\r?\n[\s\S]*?^// ==/UserScript==\s*$',oldheader,re.M)
 if not metadata:raise ValueError('Bloc de métadonnées Tampermonkey absent de work/header.txt')
 parts=[oldheader,'(() => {\n"use strict";\n']
+parts.append('const SCRIPT_VERSION = '+json.dumps(version)+';\n')
 for const,name in modules:
  data=translation_source(name+'.tsv').read_text()
  if name=='feature-terms' and pack_terms:data=data.rstrip()+'\n'+'\n'.join(r['en']+'|'+r['fr'] for r in pack_terms.values())+'\n'

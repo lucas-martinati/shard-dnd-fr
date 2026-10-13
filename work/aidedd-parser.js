@@ -80,7 +80,7 @@ function parseAideDDPage(html, row) {
       // Certaines fiches mettent tout le paragraphe en gras.
       if(heading.length>150)heading=/^(.{1,100}?)\.\s/.exec(heading)?.[1]||'';
       const text=clean(el),body=heading?text.slice(heading.length).replace(/^[\s.:]+/,''):text;
-      if(text)actions.push({heading,text,body,group,paragraphs:plain(el).split(/\n+/).map(s=>s.trim()).filter(Boolean)});
+      if(text)actions.push({heading,text,body,group,introduction:el.matches('.legend'),paragraphs:plain(el).split(/\n+/).map(s=>s.trim()).filter(Boolean)});
     }
   }
   const fields={};for(const cls of ['t','r','c','d','prerequis']){const el=content.querySelector(':scope > .'+cls);if(el){const full=clean(el);fields[cls]={full,value:full.replace(/^[^:]+:\s*/, '')};}}

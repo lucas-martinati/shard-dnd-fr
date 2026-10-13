@@ -6,13 +6,13 @@ const knownIntro='You exert control over the elements, creating one of the follo
 const conflicting="You cannot invoke this mysterious power without your mentor.";
 const w=new JSDOM(`<p id="cached">${source}</p><p id="conflict">${conflicting}</p><p id="known">${knownIntro}</p><span id="cachedName">Light</span><input type="search" aria-label="Search"><input placeholder="Name" value="">`,{url:'https://play.shardtabletop.com/',runScripts:'outside-only',pretendToBeVisual:true}).window;
 const d=w.document;
-w.GM_getValue=(key,fallback)=>key==='shard-fr-descriptions-v18'?JSON.stringify({savedAt:Date.now(),pairs:[
+w.GM_getValue=(key,fallback)=>key==='shard-fr-descriptions-v18'?JSON.stringify({savedAt:Date.now(),validationVersion:2,pairs:[
  ["you've learned a unique magical technique from your mentor.",french],
  ["you can't invoke this mysterious power without your mentor.",'Une ancienne traduction.'],
  ["you cannot invoke this mysterious power without your mentor.",'Une traduction incompatible.'],
  [knownIntro,'Cache non vérifié prioritaire à tort.'],
  ['light','Une valeur de champ distant']
-],sources:[[knownIntro,'https://invalid.example/reference'],['light','https://www.aidedd.org/spell/fr/elementalisme']]}):fallback;
+],sources:[["you've learned a unique magical technique from your mentor.",'https://www.aidedd.org/spell/fr/elementalisme'],[knownIntro,'https://invalid.example/reference'],['light','https://www.aidedd.org/spell/fr/elementalisme']]}):fallback;
 w.GM_setValue=()=>{};w.GM_registerMenuCommand=()=>{};
 const pause=ms=>new Promise(resolve=>setTimeout(resolve,ms));
 async function wait(fn){for(let i=0;i<160&&!fn();i++)await pause(25);assert.ok(fn(),'DOM update timed out');}

@@ -26,6 +26,7 @@ Les utilisateurs ayant une ancienne installation par copier-coller doivent rempl
 - Recherche française, noms bilingues optionnels et lien direct AideDD.
 - Bouton déplaçable ou masquable, panneau accessible par `Alt + Maj + F`.
 - Conservation des éléments interactifs, des dés et des valeurs de jeu ; restauration de l’anglais à la désactivation.
+- Diagnostic volontaire des passages à examiner : surlignage, causes possibles et export JSON local.
 
 La couverture reste partielle pour les suppléments et contenus maison. Les descriptions anciennes et 2024 sont distinguées d’après leur texte. Les traductions proposées ne sont pas toutes des formulations officielles.
 
@@ -43,7 +44,22 @@ Les traductions et dictionnaires sont rangés par grandes catégories dans `tran
 
 Les tests sont regroupés dans `tests/`, avec les extraits HTML dans `tests/fixtures/`. `npm test` lance les suites JavaScript et Python. Les tests inclus couvrent la configuration, la recherche et les liens, les aptitudes de personnages, les variantes de métamagie, les interactions, la migration du cache et le retour au texte anglais.
 
-Les catalogues de noms et de références sont indexés au démarrage. Les listes de correspondances de descriptions sont réutilisées jusqu’à leur prochaine modification. `npm run benchmark` mesure l’initialisation dans JSDOM ; il ne mesure pas le chargement complet de Shard ni les appels réseau.
+Les catalogues de noms et de références sont indexés au démarrage. Les listes de correspondances de descriptions sont réutilisées jusqu’à leur prochaine modification. `npm run benchmark` mesure l’initialisation, la traduction de 400 blocs, 100 mutations et la restauration dans JSDOM ; il ne mesure pas le chargement complet de Shard ni les appels réseau.
+
+La vérification GitHub Actions reconstruit le script et refuse les livrables désynchronisés de leurs sources avant de lancer les tests. Après chaque modification, régénérer et versionner les fichiers produits par `npm run build`.
+
+La 1.17.7 permet de traduire les portions connues autour des boutons et champs intégrés à une description, sans modifier leurs valeurs ni leurs gestionnaires. Les correspondances distantes vérifient les nombres, les dés, les négations explicites et la complétude des phrases. Les aptitudes de monstres exigent un titre bilingue attesté ; une signature numérique unique ne suffit plus. Les introductions légendaires restent appariées par leur rubrique et leur rôle explicite. Ces contrôles sont conservateurs et ne prouvent pas l’équivalence de deux règles. Les anciennes paires distantes en cache sont rechargées avec les nouveaux contrôles.
+
+La 1.17.8 ajoute les deux paragraphes d’Inspiration héroïque fournis : relance immédiate de n’importe quel dé avec obligation de conserver le nouveau résultat, et perte de l’Inspiration reçue en double sauf transfert à un personnage joueur qui n’en a pas. Cette règle 2024 reste distincte de l’ancienne Inspiration qui donne l’Avantage.
+
+## Repérer un passage non traduit
+
+1. Ouvrir la fiche ou la liste concernée dans Shard, avec la traduction activée.
+2. Ouvrir D&D FR (bouton ou `Alt + Maj + F`) puis **Repérer les traductions manquantes**.
+3. Cliquer sur **Analyser la page**. Les candidats sont entourés en orange et regroupés dans le panneau avec leur contexte et une cause possible : formulation absente, structure non reconnue, référence indisponible ou conflit.
+4. Cliquer sur **Exporter le rapport JSON** pour enregistrer le relevé, ou sur **Effacer** pour retirer les repères.
+
+L’analyse porte sur les textes affichés et les attributs d’affichage, pas sur les valeurs des champs ou les éditeurs. Elle n’envoie rien et ne sauvegarde pas le rapport automatiquement. Elle peut relever des noms propres et des textes personnalisés : les candidats doivent être triés avant d’ajouter une traduction ou de partager le rapport. Un changement de page efface les repères ; après un changement de contenu ou la fin d’un chargement AideDD, relancer l’analyse. Le relevé est limité à 200 candidats distincts et indique lorsqu’il a été tronqué. Il ne mesure pas la couverture de tous les écrans de Shard.
 
 L'[audit de couverture du 13 octobre 2026](docs/AUDIT-COUVERTURE.md) distingue les pages observées avec Tampermonkey, les corpus locaux et les zones encore à examiner. La version 1.17.2 complète notamment la navigation, les 15 états SRD 2024 et les traits/lignages d'espèce ; la 1.17.3 ajoute les variantes des ascendances de goliath repérées dans Shard. Les tests vérifient aussi les titres Shard rendus avec les classes CSS de gras/italique.
 

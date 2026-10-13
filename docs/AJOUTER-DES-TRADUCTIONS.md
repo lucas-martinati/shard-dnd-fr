@@ -66,7 +66,12 @@ Enregistrer l’extrait HTML dans un fichier local, puis lancer :
 npm run translations:audit -- /chemin/extrait.html
 npm run translations:audit -- /chemin/extrait.html --output /chemin/manques.json
 npm run translations:audit -- /chemin/extrait.html --labels
+npm run translations:audit -- /chemin/extrait.html --labels --all
 ```
+
+Le filtre habituel repère des indices anglais ; `--all` liste tous les blocs inconnus, même sans ces indices. Il peut donc inclure du français et des noms propres. `--labels` ajoute les libellés et les attributs d’affichage. Les valeurs des champs, éditeurs et blocs masqués par `hidden` ou `aria-hidden` sont exclus. Les textes directs avant et après un paragraphe imbriqué sont conservés dans le relevé.
+
+Le panneau D&D FR propose aussi **Repérer les traductions manquantes → Analyser la page**. Il utilise le texte original conservé par le moteur, repère les reliquats dans les blocs partiellement traduits et fournit un rapport JSON local avec le contexte, les occurrences et une cause possible. Il ne traduit pas automatiquement les candidats. Les causes liées au HTML ou aux références distantes sont des diagnostics à vérifier, pas la preuve qu’une traduction est absente du corpus.
 
 L’outil rassemble les textes des paragraphes malgré les balises et les dés, ignore les champs éditables et compare aux traductions connues. Il fournit des **candidats anglais à vérifier**, pas une traduction automatique ni une preuve de couverture complète. Les textes déjà partiellement traduits ou découpés différemment peuvent nécessiter une inspection manuelle. Certains noms inconnus ne sont pas détectés par cette heuristique.
 

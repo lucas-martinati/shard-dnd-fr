@@ -8,6 +8,12 @@
 4. Autorise **www.aidedd.org** si Tampermonkey le demande.
 5. Désactive la traduction automatique du navigateur sur Shard.
 
+## Repérer les passages à compléter
+
+Dans le panneau D&D FR, ouvre **Repérer les traductions manquantes**, puis clique sur **Analyser la page**. Les candidats sont regroupés avec leur contexte et une cause possible. **Exporter le rapport JSON** enregistre le relevé sur ton ordinateur ; **Effacer** retire les repères. Relance l’analyse après avoir ouvert une autre fiche ou attendu une référence AideDD.
+
+Le diagnostic n’envoie rien et ne lit pas les valeurs des champs ni les éditeurs. Il peut inclure des noms propres ou du contenu personnalisé affiché : vérifie le rapport avant de le partager. Il est limité à 200 candidats et ne constitue pas un pourcentage de couverture du site.
+
 ## Mises à jour suivantes
 
 Le header contient désormais deux liens vers le dépôt GitHub : Tampermonkey vérifie la version dans `shard-dnd-fr.meta.js` et télécharge `shard-dnd-fr.user.js` si une version plus récente est publiée. Ce mécanisme sera disponible après publication des deux fichiers sur la branche `main`.
@@ -21,15 +27,16 @@ Le bouton apparaît **en haut à droite par défaut**. Une position déjà chois
 Le panneau contient :
 
 - L’interrupteur principal **Traduction activée / désactivée**, placé tout en haut.
-- **Ajouter également les trads en anglais (sorts, monstres, objets)** : affiche les noms français suivis du nom anglais, y compris pour l’équipement courant.
+- **Afficher aussi les noms anglais (sorts, monstres, objets)** : affiche les noms français suivis du nom anglais, y compris pour l’équipement courant.
 - Le choix des quatre coins de l’écran et **Ne pas afficher**.
 - La recherche de fiches AideDD.
+- **Repérer les traductions manquantes** : analyse volontaire de la page, repères orange et export JSON local des candidats à vérifier.
 
 **Ne pas afficher** masque uniquement le bouton. Pour ouvrir la configuration, utilise **Alt + Maj + F** ou **Tampermonkey → D&D FR — Ouvrir la configuration**.
 
 Le menu Tampermonkey contient deux réglages rapides : activer/désactiver la traduction et afficher/masquer le bouton. Une entrée de navigation séparée ouvre la configuration.
 
-Les corrections manuelles, l’import/export JSON, les lecteurs intégrés et l’ouverture automatique du panneau ont été retirés. Les anciens réglages de source sont remplacés par **AideDD 2024 obligatoire pour les noms référencés**. Les anciennes corrections personnelles restent sauvegardées dans Tampermonkey, mais ne sont plus appliquées.
+Les corrections manuelles, l’import/export JSON de corrections, les lecteurs intégrés et l’ouverture automatique du panneau ont été retirés. Les anciens réglages de source sont remplacés par **AideDD 2024 obligatoire pour les noms référencés**. Les anciennes corrections personnelles restent sauvegardées dans Tampermonkey, mais ne sont plus appliquées.
 
 ## Rechercher et ouvrir une fiche
 

@@ -91,6 +91,40 @@ class PacksTest(unittest.TestCase):
         path.write_text('<button>Spell Sniper</button><button>Harm</button>')
         self.assertEqual(audit(path, include_labels=True)['missing'], [])
 
+    def test_audit_finds_english_without_you_or_damage(self):
+        path = self.root / 'enemies.html'
+        path.write_text('<p>Enemies immediately vanish forever.</p><h4>The target falls.</h4>')
+        self.assertEqual([row['en'] for row in audit(path)['missing']],
+                         ['Enemies immediately vanish forever.', 'The target falls.'])
+
+    def test_all_unknown_does_not_guess_language(self):
+        path = self.root / 'unknown.html'
+        path.write_text('<p>Silver sparks shimmer.</p><p>Une phrase française nouvelle.</p>')
+        self.assertEqual(audit(path)['missing'], [])
+        self.assertEqual(audit(path, all_unknown=True)['missingCount'], 2)
+
+    def test_audit_keeps_direct_text_around_nested_blocks(self):
+        path = self.root / 'mixed.html'
+        path.write_text('<div>The target disappears.<p>You gain an unknown power.</p>Enemies return.</div>')
+        self.assertEqual([row['en'] for row in audit(path)['missing']],
+                         ['The target disappears.', 'You gain an unknown power.', 'Enemies return.'])
+
+    def test_audit_preserves_inline_word_boundaries(self):
+        path = self.root / 'inline.html'
+        path.write_text('<p>The target is <b>in</b>visible.</p>')
+        self.assertEqual(audit(path)['missing'][0]['en'], 'The target is invisible.')
+        path.write_text('<p>The target is <a href="#condition">invisible</a>.</p>')
+        self.assertEqual(audit(path, include_labels=True)['missing'][0]['en'], 'The target is invisible.')
+
+    def test_audit_skips_hidden_and_private_attributes(self):
+        path = self.root / 'private.html'
+        path.write_text('<div hidden title="Private hint"><p>You gain secret power.</p></div>'
+                        '<div contenteditable title="Private title">Private notes.</div>'
+                        '<div role="textbox" aria-label="Private name">Private notes.</div>'
+                        '<textarea placeholder="Private journal">Private notes.</textarea>'
+                        '<input value="Private value" placeholder="Unknown filter">')
+        self.assertEqual([row['en'] for row in audit(path, include_labels=True)['missing']], ['Unknown filter'])
+
 
 if __name__ == '__main__':
     unittest.main()

@@ -328,8 +328,12 @@
   shadow.append(style);
   const panel=document.createElement('section'); panel.id='panel'; panel.hidden=true; panel.setAttribute('aria-label','Traduction D&D en français');
   // Cette interface est créée une fois, à l’écart du DOM géré par Shard.
-  panel.innerHTML=`<label class="primary"><span id="enabledLabel">Traduction activée</span><input id="enabled" type="checkbox" role="switch" aria-label="Activer la traduction"></label><h2>D&D FR · Configuration</h2><label class="secondary"><input id="bilingual" type="checkbox"><span>Ajouter également les trads en anglais <small>(sorts, monstres, objets)</small></span></label><label for="buttonPosition">Bouton D&D FR</label><select id="buttonPosition"><option value="top-right">En haut à droite</option><option value="top-left">En haut à gauche</option><option value="bottom-right">En bas à droite</option><option value="bottom-left">En bas à gauche</option><option value="hidden">Ne pas afficher</option></select><p><small>Configuration accessible via le menu Tampermonkey ou Alt + Maj + F.</small></p><form id="referenceSearch"><label for="search">Rechercher une fiche AideDD</label><div class="row"><input id="search" type="search" placeholder="Nom français ou anglais…" autocomplete="off"><button type="submit">Ouvrir ↗</button></div></form><p id="searchStatus" role="status"></p><div id="results"></div>`;
+  panel.innerHTML=`<label class="primary"><span id="enabledLabel">Traduction activée</span><input id="enabled" type="checkbox" role="switch" aria-label="Activer la traduction"></label><h2>D&D FR · Configuration</h2><label class="secondary"><input id="bilingual" type="checkbox"><span>Afficher aussi les noms anglais <small>(sorts, monstres, objets)</small></span></label><label for="buttonPosition">Bouton D&D FR</label><select id="buttonPosition"><option value="top-right">En haut à droite</option><option value="top-left">En haut à gauche</option><option value="bottom-right">En bas à droite</option><option value="bottom-left">En bas à gauche</option><option value="hidden">Ne pas afficher</option></select><p><small>Configuration accessible via le menu Tampermonkey ou Alt + Maj + F.</small></p><form id="referenceSearch"><label for="search">Rechercher une fiche AideDD</label><div class="row"><input id="search" type="search" placeholder="Nom français ou anglais…" autocomplete="off"><button type="submit">Ouvrir ↗</button></div></form><p id="searchStatus" role="status"></p><div id="results"></div>`;
   shadow.append(panel);
+  const diagnostics=document.createElement('details');
+  diagnostics.innerHTML='<summary>Repérer les traductions manquantes</summary><p>Analyse les textes actuellement affichés. Les résultats sont des candidats à vérifier, y compris des noms propres. Le rapport reste local et ne contient pas les valeurs des champs.</p><div class="row"><button id="scanMissing" type="button">Analyser la page</button><button id="clearMissing" type="button">Effacer</button></div><p id="missingStatus" role="status"></p><ol id="missingResults"></ol><button id="exportMissing" type="button" disabled>Exporter le rapport JSON</button>';
+  panel.append(diagnostics);
+  style.textContent+='details{margin-top:18px;border-top:1px solid #34435a;padding-top:12px}summary{cursor:pointer;font-weight:600}#missingResults{padding-left:22px;max-height:240px;overflow:auto}#missingResults li{margin:10px 0;overflow-wrap:anywhere}#missingResults small{display:block}button:disabled{opacity:.5;cursor:default}';
   const badge=document.createElement('button'); badge.id='badge'; badge.type='button'; badge.textContent='D&D FR'; badge.setAttribute('aria-label','Ouvrir les réglages de traduction'); shadow.append(badge);
   document.body.append(host);
   const $=id=>shadow.getElementById(id);
@@ -423,6 +427,7 @@
     settings={...settings,enabled,bilingual,showButton,buttonPosition};
     GM_setValue(KEY,JSON.stringify(settings));
     updateControls();hideNativeSearch();
+    clearDiagnostics();
     if(!enabled)restoreInline();
     applyPlacement();queue(document.body);
   }
@@ -581,7 +586,6 @@
   function restoreInline(){for(const record of [...inlineBlocks])releaseInline(record);}
   function processInline(el){
     if(!enabled||!aideddInline||excluded(el)||!el.matches('p,li,td,th,.description,.pre-wrap,.stdcontent'))return;
-    if(el.querySelector('input,textarea,select,button,[role="textbox"],[contenteditable="true"]'))return;
     const visible=el.textContent;if(visible.length>50000)return;
     if(visible.length<35&&!completePairs.has(inlineKey(visible))&&!inlinePairs.has(inlineKey(visible)))return;
     const nodes=blockNodes(el);if(!nodes.length||nodes.length>300)return;
@@ -598,7 +602,11 @@
         if(!current||current.scope!==scope){current={scope,nodes:[]};groups.push(current);}
         current.nodes.push(n);return;
       }
-      if(n.nodeType!==1||excluded(n))return;
+      if(n.nodeType!==1)return;
+      // Un contrôle sépare les portions de prose, sans bloquer le reste du bloc.
+      // Sa valeur et ses gestionnaires restent sous le contrôle de Shard.
+      if(n!==el&&n.matches('input,textarea,select,button,[role="button"],[role="textbox"],[contenteditable]:not([contenteditable="false"])')){current=null;return;}
+      if(excluded(n)){current=null;return;}
       const boundary=n!==el&&/^(BR|P|DIV|LI|TD|TH)$/.test(n.tagName);
       if(boundary)current=null;
       if(n.matches('b,strong,.b')&&!n.closest('a,button,[role="button"],.dodieroll,[onclick]')){
@@ -615,7 +623,7 @@
     for(const group of groups)processInlineNodes(el,group.nodes,group.nodes.map(originalNode).join(''));
     // La référence peut ne fournir qu’un texte complet. Aucun tableau ne doit
     // être aplati : les cellules et leurs valeurs restent à leur place.
-    if(groups.length>1&&!el.querySelector('table')&&!nodes.some(n=>inlineOwners.has(n)))processInlineNodes(el,nodes,blockEnglish(el),groups);
+    if(groups.length>1&&!el.querySelector('table,input,textarea,select,button,[role="button"],[role="textbox"],[contenteditable]:not([contenteditable="false"])')&&!nodes.some(n=>inlineOwners.has(n)))processInlineNodes(el,nodes,blockEnglish(el),groups);
   }
   function processInlineNodes(el,nodes,source,visualGroups=null){
     if(nodes.some(n=>maintainInline(n)))return;
@@ -679,8 +687,8 @@
   }
   function addInlinePair(en,fr,sourceURL=null){
     if(!en||!fr||en.length<3||en.length>50000)return false;
-    const dice=s=>[...s.matchAll(/\b\d+d\d+\b/gi)].map(m=>m[0].toLowerCase()).sort().join(',');
-    if(dice(en)!==dice(fr))return false;
+    if(sourceURL&&!referenceCompatible(en,fr))return false;
+    if(referenceDice(en)!==referenceDice(fr))return false;
     const key=inlineKey(en),previous=inlinePairs.get(key);
     if(previous===null&&!sourceURL)return false;
     if(previous&&inlineKey(previous)!==inlineKey(fr)&&(!sourceURL||liveInline.has(key)||(inlineSources.has(key)&&inlineSources.get(key)!==sourceURL))){inlinePairs.set(key,null);inlineSources.delete(key);return false;}
@@ -702,23 +710,27 @@
   const monsterTitleIndex=new Map();
   for(const row of MONSTER_ACTION_TITLES){const key=referenceTitle(row.en),labels=monsterTitleIndex.get(key)||[];labels.push(referenceTitle(row.fr));monsterTitleIndex.set(key,labels);}
   function referenceNumbers(text){return (text.match(/\d+(?:[.,]\d+)?/g)||[]).map(v=>Number(v.replace(',','.'))).sort((a,b)=>a-b).join(',');}
+  function referenceDice(text){return (text.match(/\b(?:\d+)?d\d+s?\b/gi)||[]).map(s=>s.toLowerCase().replace(/s$/,'')).sort().join(',');}
   function referenceCompatible(en,fr){
     const adapted=preserveFeet(en,fr);
-    const dice=text=>(text.match(/\b\d+d\d+\b/gi)||[]).map(s=>s.toLowerCase()).sort().join(',');
-    return referenceNumbers(en)===referenceNumbers(adapted)&&dice(en)===dice(adapted)&&completeSentenceCoverage(en,adapted);
+    // Filtre conservateur : chiffres et dés identiques ne prouvent pas le sens.
+    // Une négation explicite perdue ou ajoutée exige une vérification humaine.
+    const negativeEN=/\b(?:cannot|not|never|neither|without|no)\b/.test(inlineKey(en).replace(/\bnot only\b/g,''));
+    const negativeFR=/\b(?:pas|jamais|sans|aucun|aucune|ni)\b/.test(inlineKey(fr));
+    return negativeEN===negativeFR&&referenceNumbers(en)===referenceNumbers(adapted)&&referenceDice(en)===referenceDice(adapted)&&completeSentenceCoverage(en,adapted);
   }
   function matchMonsterActions(english,french){
     const matches=new Map(),used=new Set();
-    const candidates=(a,known)=>{const labels=[...headingAliases(a.heading),...(monsterTitleIndex.get(referenceTitle(a.heading))||[])];return french.filter(b=>!used.has(b)&&a.group===b.group&&referenceCompatible(a.text,b.text)&&(!known||labels.includes(referenceTitle(b.heading))));};
-    // Commencer par les titres attestés, puis ne retenir une signature de
-    // valeurs que si elle est unique dans les deux sens, dans la même rubrique.
-    for(const a of english){if(!a.heading)continue;const hits=candidates(a,true);if(hits.length===1){matches.set(a,hits[0]);used.add(hits[0]);}}
-    let progress=true;
-    while(progress){progress=false;
-      for(const a of english){if(matches.has(a))continue;const hits=candidates(a,false);if(hits.length!==1)continue;
-        const b=hits[0],reverse=english.filter(other=>!matches.has(other)&&other.group===b.group&&referenceCompatible(other.text,b.text));
-        if(reverse.length===1){matches.set(a,b);used.add(b);progress=true;}
-      }
+    const candidates=a=>{const labels=[...headingAliases(a.heading),...(monsterTitleIndex.get(referenceTitle(a.heading))||[])];return french.filter(b=>!used.has(b)&&a.group===b.group&&referenceCompatible(a.text,b.text)&&labels.includes(referenceTitle(b.heading)));};
+    // Un titre bilingue attesté est obligatoire. Des nombres uniques ne
+    // suffisent pas à associer deux aptitudes qui peuvent avoir un autre effet.
+    for(const a of english){
+      let hits;
+      if(a.heading)hits=candidates(a);
+      else if(a.introduction&&['legendary','lair'].includes(a.group)&&english.filter(other=>other.introduction&&other.group===a.group).length===1)
+        hits=french.filter(b=>!used.has(b)&&b.introduction&&b.group===a.group&&referenceCompatible(a.text,b.text));
+      else continue;
+      if(hits.length===1){matches.set(a,hits[0]);used.add(hits[0]);}
     }
     return matches;
   }
@@ -769,7 +781,7 @@
       // Correspondence accepted only when each row retains its dice/numeric values.
       const values=t=>(t.join(' ').match(/\b\d+(?:d\d+)?\b/g)||[]).sort().join(',');
       if(table.some((r,j)=>values(r)!==values(other[j])))return;
-      table.forEach((r,j)=>r.forEach((cell,k)=>addInlinePair(cell,other[j][k])));
+      table.forEach((r,j)=>r.forEach((cell,k)=>add(cell,other[j][k])));
     });
     if(row.kind==='monster')for(const [a,b]of matchMonsterActions(en.actions,fr.actions)){
       add(a.text,b.text);if(a.body&&b.body)add(a.body,b.body);
@@ -790,7 +802,7 @@
       const pairs=[...inlinePairs].slice(-1600);let size=0;
       const bounded=pairs.reverse().filter(p=>{size+=JSON.stringify(p).length+(inlineSources.has(p[0])?JSON.stringify([p[0],inlineSources.get(p[0])]).length:0);return size<1500000;}).reverse();
       const sources=bounded.filter(p=>p[1]&&inlineSources.has(p[0])).map(p=>[p[0],inlineSources.get(p[0])]);
-      GM_setValue(INLINE_CACHE_KEY,JSON.stringify({savedAt:Date.now(),pairs:bounded,sources}));
+      GM_setValue(INLINE_CACHE_KEY,JSON.stringify({savedAt:Date.now(),validationVersion:2,pairs:bounded,sources}));
     }catch{} // Un quota de stockage ne doit pas interrompre la traduction.
   }
   function requestInline(rows){
@@ -915,9 +927,96 @@
           else inlinePairs.set(key,p[1]);
         }
       if(Date.now()-saved.savedAt<30*86400000&&Array.isArray(saved.sources)&&saved.sources.length<=1600)
-        for(const pair of saved.sources)if(Array.isArray(pair)&&pair.length===2&&typeof pair[0]==='string'&&typeof pair[1]==='string'&&AIDEDD_KINDS.some(kind=>aideddURL(pair[1],kind)||aideddURL(pair[1],kind,'legacy-en')||aideddURL(pair[1],kind,'legacy-fr'))){const key=inlineKey(pair[0]);if(inlinePairs.get(key))inlineSources.set(key,pair[1]);}
+        for(const pair of saved.sources)if(Array.isArray(pair)&&pair.length===2&&typeof pair[0]==='string'&&typeof pair[1]==='string'&&AIDEDD_KINDS.some(kind=>aideddURL(pair[1],kind)||aideddURL(pair[1],kind,'legacy-en')||aideddURL(pair[1],kind,'legacy-fr'))){const key=inlineKey(pair[0]);if(saved.validationVersion!==2||!referenceCompatible(key,inlinePairs.get(key)||'')){inlinePairs.delete(key);continue;}if(inlinePairs.get(key))inlineSources.set(key,pair[1]);}
+      // Une ancienne paire sans provenance vérifiable doit être relue depuis
+      // sa référence ; elle ne devient pas une traduction locale de confiance.
+      for(const [key,value]of inlinePairs)if(value!==null&&!inlineSources.has(key))inlinePairs.delete(key);
     }
   }catch{}
+
+  // Analyse volontaire : aucune collecte en arrière-plan, aucun stockage ni envoi.
+  const diagnosticMarks=new Set();let diagnosticReport=null;
+  const diagnosticStyle=document.createElement('style');
+  diagnosticStyle.textContent='[data-shard-fr-diagnostic]{outline:2px dashed #db921f!important;outline-offset:3px!important}';document.head.append(diagnosticStyle);
+  const englishClue=/\b(?:the|this|these|those|you|your|when|whenever|choose|gain|spell|damage|saving|proficiency|prerequisite|enemies|enemy|target|creature|within|must|cannot|while|during|until|against|each|once|twice|unknown|missing)\b/i;
+  const frenchClue=/[àâçéèêëîïôùûüÿœæ]|\b(?:le|la|les|des|du|une|un|vos|vous|votre|avec|pour|dans|sont)\b/i;
+  const diagnosticSelector='p,li,td,th,h1,h2,h3,h4,h5,h6,[role="heading"],.titletext,button,label,option,.description,.pre-wrap,.stdcontent,div';
+  function clearDiagnostics(){
+    for(const el of diagnosticMarks)el.removeAttribute('data-shard-fr-diagnostic');
+    diagnosticMarks.clear();diagnosticReport=null;$('missingResults').replaceChildren();$('missingStatus').textContent='';$('exportMissing').disabled=true;
+  }
+  function diagnosticVisible(el,cache){
+    if(!el)return true;
+    if(cache.has(el))return cache.get(el);
+    const css=getComputedStyle(el);
+    const visible=!el.hidden&&el.getAttribute('aria-hidden')!=='true'&&css.display!=='none'&&css.visibility!=='hidden'&&css.visibility!=='collapse'&&diagnosticVisible(el.parentElement,cache);
+    cache.set(el,visible);return visible;
+  }
+  function diagnosticReason(el,source){
+    if(!enabled)return 'translation-disabled';
+    const key=inlineKey(source);
+    if(inlinePairs.get(key)===null)return 'conflicting-translations';
+    if(lookupPair(key)||translate(source)!==source)return 'unrecognized-layout';
+    const region=el.closest('article,[role="dialog"]'),title=region?.querySelector('h1,h2,h3,[role="heading"],.titletext');
+    const rows=title?inlineChoices(normalize(blockEnglish(title))):[];
+    const states=rows.map(row=>inlineLoads.get(row.url)?.state);
+    if(states.includes('pending'))return 'reference-loading';
+    if(states.includes('error'))return 'reference-unavailable';
+    return 'missing-translation';
+  }
+  const diagnosticLabels={'translation-disabled':'Traduction désactivée','conflicting-translations':'Traductions contradictoires','unrecognized-layout':'Traduction connue, structure à vérifier','reference-loading':'Référence en cours de chargement','reference-unavailable':'Référence distante indisponible','missing-translation':'Correspondance absente ou formulation différente'};
+  function scanDiagnostics(){
+    clearDiagnostics();
+    const knownFrench=new Set([...entries.values()].map(row=>inlineKey(row.fr)));
+    for(const fr of [...completePairs.values(),...inlinePairs.values()])if(fr)knownFrench.add(inlineKey(fr));
+    const missing=[],seen=new Map(),visibleCache=new WeakMap();let examined=0,truncated=false;
+    const add=(el,source,attribute=null,displayed=null)=>{
+      source=source.replace(/\s+/g,' ').trim();
+      if(!source||source.length>6000||!/[a-zA-Z]/.test(source)||knownFrench.has(inlineKey(source)))return;
+      const expected=lookupPair(inlineKey(source))||translate(source);
+      const current=attribute?el.getAttribute(attribute):(displayed??el.textContent);
+      if(inlineKey(current||'')===inlineKey(expected)&&inlineKey(expected)!==inlineKey(source))return;
+      const isLabel=attribute||source.length<100&&!el.matches('p,li,.description,.pre-wrap');
+      if(!isLabel&&!englishClue.test(source))return;
+      if(isLabel&&!englishClue.test(source)&&frenchClue.test(source))return;
+      const reason=diagnosticReason(el,source),key=inlineKey(source)+'|'+reason+'|'+(attribute||'');
+      if(seen.has(key)){seen.get(key).occurrences++;}
+      else{
+        if(missing.length>=200){truncated=true;return;}
+        const region=el.closest('article,[role="dialog"],section'),heading=region?.querySelector('h1,h2,h3,[role="heading"],.titletext');
+        const context=heading&&diagnosticVisible(heading,visibleCache)?blockNodes(heading).filter(n=>diagnosticVisible(n.parentElement,visibleCache)).map(originalNode).join('').trim().slice(0,150):'';
+        const row={en:source,kind:isLabel?'term':'description',reason,context,occurrences:1};
+        if(attribute)row.attribute=attribute;
+        seen.set(key,row);missing.push(row);
+      }
+      el.setAttribute('data-shard-fr-diagnostic','');diagnosticMarks.add(el);
+    };
+    for(const el of document.body.querySelectorAll(diagnosticSelector+',span,a')){
+      if(++examined>10000){truncated=true;break;}
+      if(excluded(el)||!diagnosticVisible(el,visibleCache))continue;
+      const nodes=blockNodes(el).filter(n=>(n.parentElement.closest(diagnosticSelector)||n.parentElement.closest('span,a'))===el&&diagnosticVisible(n.parentElement,visibleCache)),source=nodes.map(originalNode).join('');
+      // Si une partie du bloc est déjà française, ne rapporter que le reliquat.
+      const changed=nodes.some(n=>n.data!==originalNode(n));
+      const remainder=changed?nodes.filter(n=>n.data===originalNode(n)).map(n=>n.data).join(''):source;
+      if(!changed||englishClue.test(remainder))add(el,remainder,null,nodes.map(n=>n.data).join(''));
+    }
+    for(const el of document.body.querySelectorAll(ATTRS.map(attr=>'['+attr+']').join(','))){
+      if(++examined>10000){truncated=true;break;}
+      if(el.closest('[data-shard-fr-ignore],script,style,iframe,svg,textarea,[role="textbox"],[contenteditable]:not([contenteditable="false"]),.ql-editor,.ProseMirror,.CodeMirror,.monaco-editor')||!diagnosticVisible(el,visibleCache))continue;
+      for(const attr of ATTRS){const current=el.getAttribute(attr);if(current===null)continue;const state=attrState.get(el)?.get(attr);if(state&&current===state.output&&state.output!==state.original)continue;add(el,current,attr);}
+    }
+    diagnosticReport={schemaVersion:1,scriptVersion:SCRIPT_VERSION,scope:'visible-page',translationEnabled:enabled,truncated,missingCount:missing.length,missing};
+    $('missingStatus').textContent=missing.length+' candidat(s) à vérifier.'+(truncated?' Analyse limitée : ouvre une fiche ou réduis la liste, puis relance.':'')+(!enabled?' Active la traduction, puis relance l’analyse.':'');
+    for(const row of missing){const item=document.createElement('li'),text=document.createElement('span'),detail=document.createElement('small');text.textContent=row.en;detail.textContent=diagnosticLabels[row.reason]+(row.context?' · '+row.context:'')+(row.occurrences>1?' · '+row.occurrences+' occurrences':'');item.append(text,detail);$('missingResults').append(item);}
+    $('exportMissing').disabled=false;
+  }
+  $('scanMissing').onclick=scanDiagnostics;$('clearMissing').onclick=clearDiagnostics;
+  $('exportMissing').onclick=()=>{
+    if(!diagnosticReport)return;
+    const url=URL.createObjectURL(new Blob([JSON.stringify(diagnosticReport,null,2)+'\n'],{type:'application/json'}));
+    const link=document.createElement('a');link.href=url;link.download='shard-dnd-fr-diagnostic.json';link.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
+  };
+  window.addEventListener('hashchange',clearDiagnostics);
 
   function applyPlacement(){
     const top=buttonPosition.startsWith('top'),right=buttonPosition.endsWith('right');

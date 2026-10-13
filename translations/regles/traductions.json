@@ -1873,6 +1873,20 @@
       "source": "Libellé observé dans le catalogue Conditions de Shard · traduction proposée · 13 octobre 2026"
     },
     {
+      "id": "rule.heroic-inspiration.reroll",
+      "en": "If you (a player character) have Heroic Inspiration, you can expend it to reroll any die immediately after rolling it, and you must use the new roll.",
+      "fr": "Si vous (un personnage joueur) avez l’Inspiration héroïque, vous pouvez la dépenser pour relancer n’importe quel dé immédiatement après l’avoir lancé, et vous devez utiliser le nouveau résultat.",
+      "edition": "2024",
+      "source": "Traduction proposée de l’extrait anglais fourni par l’utilisateur · Inspiration héroïque, règles 2024"
+    },
+    {
+      "id": "rule.heroic-inspiration.excess",
+      "en": "If you gain Heroic Inspiration but already have it, it’s lost unless you give it to a player character who lacks it.",
+      "fr": "Si vous recevez l’Inspiration héroïque alors que vous l’avez déjà, elle est perdue, à moins que vous ne la donniez à un personnage joueur qui ne l’a pas.",
+      "edition": "2024",
+      "source": "Traduction proposée de l’extrait anglais fourni par l’utilisateur · Inspiration héroïque, règles 2024"
+    },
+    {
       "id": "condition.shard.polymorph.transform",
       "en": "The transformation lasts for the duration, or until the target drops to 0 hit points or dies. The new form can be any beast whose challenge rating is equal to or less than the target's (or the target's level, if it doesn't have a challenge rating). The target's game statistics, including mental ability scores, are replaced by the statistics of the chosen beast. It retains its alignment and personality.",
       "fr": "La transformation dure jusqu’à la fin de l’effet, ou jusqu’à ce que la cible tombe à 0 point de vie ou meure. La nouvelle forme peut être celle de n’importe quelle bête dont le facteur de puissance est inférieur ou égal à celui de la cible, ou à son niveau si elle n’a pas de facteur de puissance. Les statistiques de jeu de la cible, y compris ses valeurs de caractéristiques mentales, sont remplacées par celles de la bête choisie. Elle conserve son alignement et sa personnalité.",
