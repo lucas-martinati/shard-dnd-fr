@@ -1,7 +1,5 @@
 # Shard Tabletop — D&D FR
 
-Version **1.12.0** — 13 octobre 2026
-
 ## Installer la mise à jour
 
 1. Ouvre ton script existant dans Tampermonkey.
