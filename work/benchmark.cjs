@@ -1,0 +1,3 @@
+const fs=require('fs'),{performance}=require('node:perf_hooks');const {JSDOM}=require('jsdom');const code=fs.readFileSync('outputs/shard-dnd-fr.user.js','utf8');const values=[];
+for(let i=0;i<5;i++){const w=new JSDOM('<div>Character</div>',{url:'https://play.shardtabletop.com/',runScripts:'outside-only',pretendToBeVisual:true}).window;w.GM_getValue=(k,f)=>f;w.GM_setValue=()=>{};w.GM_registerMenuCommand=()=>{};const start=performance.now();w.eval(code);values.push(performance.now()-start);w.close();}
+console.log(JSON.stringify({startupMs:values,medianMs:[...values].sort((a,b)=>a-b)[2],note:'Initialisation dans JSDOM, hors premier parcours asynchrone et réseau ; comparaison sur la même machine uniquement.'},null,2));

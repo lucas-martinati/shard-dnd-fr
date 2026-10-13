@@ -3,6 +3,7 @@
   'use strict';
   const KEY = 'shard-fr-v1';
   const normalize = s => String(s).normalize('NFC').replace(/[’‘ʼ]/g, "'").replace(/[‐‑–]/g, '-').replace(/\s+/g, ' ').trim().toLowerCase();
+  const searchKey=s=>normalize(s).normalize('NFD').replace(/\p{M}/gu,'').replace(/œ/g,'oe').replace(/æ/g,'ae');
   const escapeRE = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   const pattern = s => escapeRE(s).replace(/'/g, "['’‘ʼ]").replace(/ /g, '\\s+').replace(/-/g, '[-‐‑–]');
   const parse = raw => raw.trim().split('\n').map(line => { const i = line.indexOf('|'); return [line.slice(0,i), line.slice(i+1)]; });
@@ -24,6 +25,14 @@
   const validRows=rows=>Array.isArray(rows)&&rows.length>=1000&&rows.length<10000&&rows.every(r=>r&&typeof r.en==='string'&&r.en.length>0&&r.en.length<=150&&typeof r.fr==='string'&&r.fr.length>0&&r.fr.length<=180&&aideddURL(r.url,r.kind));
   let aideddRows=validRows(aideddCache.rows)?aideddCache.rows:AIDEDD_CATALOG;
   let entries, tokenRE, phraseRE, names, customKeys, effectiveMeta, aideddIndex;
+  const bundledIndex=new Map(AIDEDD_CATALOG.map(row=>[normalize(row.en)+'|'+row.kind,row]));
+  const legacyIndex=new Map();
+  for(const row of LEGACY_CATALOG){
+    const key=normalize(row.en);
+    if(!legacyIndex.has(key))legacyIndex.set(key,[]);
+    legacyIndex.get(key).push(row);
+  }
+  let referenceIndex=new Map(),referenceSearchRows=[];
   function termMeta(key){return effectiveMeta[key]||TERM_META[key]||{};}
 
   const tokenState = new WeakMap();
@@ -40,7 +49,7 @@
     effectiveMeta={...TERM_META};
     if(aideddNames)for(const row of aideddRows){
       const key=normalize(row.en),previous=entries.get(key),old=effectiveMeta[key]||{};
-      const bundled=AIDEDD_CATALOG.find(r=>normalize(r.en)===key&&r.kind===row.kind);
+      const bundled=bundledIndex.get(key+'|'+row.kind);
       const aliases=[...new Set([...(old.aliases||[]),...(bundled?.aliases||[]),...(bundled?[bundled.fr]:[]),...(Array.isArray(row.aliases)?row.aliases:[]),...(previous?[previous.fr]:[])])].filter(a=>a!==row.fr);
       effectiveMeta[key]={source:'AideDD · index 2024',category:AIDEDD_LABELS[row.kind],aliases,url:row.url};
       entries.set(key,{en:row.en,fr:row.fr});
@@ -60,6 +69,15 @@
     const ambiguous = new Set(['light','aid','alarm','command','friends','jump','sleep','fear','darkness','web','daylight','silence','message','wish','gate','hex','detect','move','charge']);
     const proseKeys = keys.filter(k => k === 'hit:' || (explicitNames.has(k) && !ambiguous.has(k)) || (k.includes(' ') && (k.length > 30 || !/^(pick |select |add |remove |new |set |show |at |per )/.test(k))));
     phraseRE = new RegExp('(?<![\\p{L}\\p{N}_])(?:' + proseKeys.map(pattern).join('|') + ')(?![\\p{L}\\p{N}_])', 'giu');
+    referenceIndex=new Map();
+    referenceSearchRows=aideddRows.map(row=>{
+      const labels=[...new Set([row.en,row.fr,...(row.aliases||[]),...(termMeta(normalize(row.en)).aliases||[])].map(searchKey))];
+      for(const label of labels){
+        if(!referenceIndex.has(label))referenceIndex.set(label,[]);
+        referenceIndex.get(label).push(row);
+      }
+      return {row,labels};
+    });
     revision++;
   }
   const referenceByEnglish = new Map(SPELL_REFERENCE.map(r=>[normalize(r.en),r]));
@@ -318,7 +336,6 @@
   const searchBox=document.createElement('section');searchBox.setAttribute('aria-label','Suggestions de recherche D&D en français');
   searchRoot.append(searchStyle,searchBox);document.body.append(searchHost);
   let nativeTarget=null, nativeHits=[], activeHit=-1, applyingSearch=false;
-  const searchKey=s=>normalize(s).normalize('NFD').replace(/\p{M}/gu,'').replace(/œ/g,'oe').replace(/æ/g,'ae');
   const searchableKeys=new Set([SPELLS,MONSTERS,EQUIPMENT,MAGICITEMS,TERMS,EXPANSION,CREATION,CANONICAL_SPELLS,CANONICAL_FEATURES,CANONICAL_COMBAT].flatMap(data=>parse(data).filter(([en])=>en.length<100).map(([en])=>normalize(en))));
   function isSearchInput(el) {
     if (!(el instanceof HTMLInputElement) || el.disabled || el.readOnly || el.closest('[data-shard-fr-ignore]')) return false;
@@ -409,11 +426,11 @@
   function referenceRows(source){
     const q=searchKey(source);
     if(!q)return [];
-    return aideddRows.filter(r=>[r.en,r.fr,...(r.aliases||[]),...(termMeta(normalize(r.en)).aliases||[])].some(x=>searchKey(x)===q));
+    return referenceIndex.get(q)||[];
   }
   function searchMatches(){
     const q=searchKey($('search').value);if(!q)return [];
-    return aideddRows.filter(r=>[r.en,r.fr,...(r.aliases||[]),...(termMeta(normalize(r.en)).aliases||[])].some(x=>searchKey(x).includes(q)));
+    return referenceSearchRows.filter(({labels})=>labels.some(label=>label.includes(q))).map(({row})=>row);
   }
   function referenceLink(row,label){
     const a=document.createElement('a');a.href=row.url;a.target='_blank';a.rel='noopener noreferrer';a.textContent=label;return a;
@@ -675,7 +692,7 @@
     }}finally{inlineBusy=false;}
   }
   function inlineChoices(key){
-    const current=aideddChoices(key),legacy=LEGACY_CATALOG.filter(r=>normalize(r.en)===key);
+    const current=aideddChoices(key),legacy=(legacyIndex.get(key)||[]);
     // Un homonyme entre catégories n’est pas une autorisation de charger une fiche arbitraire.
     if(new Set([...current,...legacy].map(r=>r.kind)).size>1)return [];
     return [...current,...legacy];
@@ -709,10 +726,14 @@
     const units={round:'round',minute:'minute',hour:'heure',day:'jour'};
     return (m[1]?'Durée : ':'')+(m[2]?'Concentration, ':'')+(m[3]?'jusqu’à ':'')+m[4]+' '+units[m[5].toLowerCase()]+(Number(m[4])>1?'s':'');
   }
-  let blockCacheRevision=-1;const blockTranslationCache=new Map();
+  let blockCacheRevision=-1,blockPairs=[];const blockTranslationCache=new Map();
   function translateCompleteBlock(source){
     if(source.length<35)return null;
-    if(blockCacheRevision!==revision){blockTranslationCache.clear();blockCacheRevision=revision;}
+    if(blockCacheRevision!==revision){
+      blockTranslationCache.clear();
+      blockPairs=[...completePairs,...inlinePairs].filter(([en,fr])=>fr&&en.length>=12).sort((a,b)=>b[0].length-a[0].length);
+      blockCacheRevision=revision;
+    }
     const key=inlineKey(source);
     if(blockTranslationCache.has(key))return blockTranslationCache.get(key);
     const result=reconstructCompleteBlock(source);
@@ -722,7 +743,7 @@
   function reconstructCompleteBlock(source){
     // Reconstruction de blocs complets (libellés séparés, BR, plusieurs paragraphes).
     let text=inlineKey(source),changed=false;
-    const pairs=[...completePairs,...inlinePairs].filter(([en,fr])=>fr&&en.length>=12&&text.includes(en)).sort((a,b)=>b[0].length-a[0].length);
+    const pairs=blockPairs.filter(([en])=>text.includes(en));
     const pieces=[];let rest=text;
     while(rest){let match=null;for(const [en,fr]of pairs){const at=rest.indexOf(en);if(at>=0&&(!match||at<match.at||(at===match.at&&en.length>match.en.length)))match={at,en,fr};}
       if(!match){pieces.push({en:rest});break;}
@@ -745,7 +766,13 @@
     if(typeof raw==='string'&&raw.length<1600000){
       const saved=JSON.parse(raw);
       if(Date.now()-saved.savedAt<30*86400000&&Array.isArray(saved.pairs)&&saved.pairs.length<=1600)
-        for(const p of saved.pairs)if(Array.isArray(p)&&p.length===2&&typeof p[0]==='string'&&(p[1]===null||typeof p[1]==='string')&&p[0].length<=50000&&(p[1]?.length||0)<=60000)inlinePairs.set(p[0],p[1]);
+        for(const p of saved.pairs)if(Array.isArray(p)&&p.length===2&&typeof p[0]==='string'&&(p[1]===null||typeof p[1]==='string')&&p[0].length<=50000&&(p[1]?.length||0)<=60000){
+          // Les anciennes versions stockaient des clés avant la normalisation
+          // des contractions. Les migrer, en conservant les conflits explicites.
+          const key=inlineKey(p[0]),previous=inlinePairs.get(key);
+          if(previous===null||p[1]===null||(previous!==undefined&&inlineKey(previous)!==inlineKey(p[1])))inlinePairs.set(key,null);
+          else inlinePairs.set(key,p[1]);
+        }
     }
   }catch{}
 
