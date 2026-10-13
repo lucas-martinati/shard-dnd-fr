@@ -39,36 +39,6 @@ Les noms utilisent les cinq index AideDD 2024, avec un catalogue intégré de **
 
 Les données enregistrées dans Shard et les commandes de dés ne sont pas modifiées. Les traductions inconnues, les contenus maison et les textes de certains suppléments peuvent rester en anglais.
 
-## Nouveautés 1.12
-
-Complément de **14 passages** pour les anciennes formulations de métamagie et les aptitudes associées : Sort prévenant, Sort ample, Sort renforcé, Sort étendu, Sort intensifié, Sort jumeau, Source de magie et Incantation flexible. Les dix options de métamagie 2024 étaient déjà prises en charge ; les **18 cartes** de l’extrait, anciennes et 2024, sont maintenant vérifiées ensemble.
-
-Les formulations anciennes conservent leurs propres règles : par exemple, Sort intensifié coûte 3 points et affecte la première sauvegarde dans le texte ancien fourni, contre 2 points et les sauvegardes dans son texte 2024. Sort jumeau conserve également deux descriptions distinctes.
-
-La reconnaissance des descriptions accepte désormais les contractions anglaises non ambiguës (`you’ve` / `you have`, `can’t` / `cannot`, `aren’t` / `are not`, etc.) et les guillemets typographiques. Cela s’applique aussi aux autres aptitudes, sorts et objets déjà référencés. Ce rapprochement ne supprime pas les négations, ne modifie aucun chiffre et ne traduit pas approximativement les règles inconnues.
-
-Les tests vérifient toutes les cartes de métamagie fournies, six variantes de formulation d’autres aptitudes, les cases de sélection, le dé cliquable, les différences entre éditions et la restauration exacte à la désactivation. Les nouveaux passages sont des traductions de tes extraits ; la couverture des aptitudes de tous les suppléments reste incomplète.
-
-## Nouveautés 1.11
-
-Le lien **AideDD ↗** est centré verticalement dans la barre de titre des panneaux Shard : classe `self-center`, centrage propre au lien et suppression des marges verticales. Les contrôles du panneau restent en place.
-
-Ajout de **196 passages et prérequis** issus des cartes de dons et de styles de combat fournies, soit **218 correspondances** en incluant les variantes de texte. Cela couvre notamment Comédien, Athlète, Explorateur de donjons, Chanceux, Maître d’hast, Mage de guerre, Initié à la magie, Façonneur, Musicien, Interception, Protection et Combat à mains nues.
-
-Ces descriptions sont des traductions rédigées à partir du texte fourni. Une formulation ancienne reste une règle ancienne, même lorsque son nom utilise le catalogue AideDD 2024. Le script ne remplace pas ses effets par ceux de l’édition 2024 et ne complète pas arbitrairement une carte qui ne contient qu’une introduction.
-
-La vérification couvre les **131 cartes du HTML transmis**, leurs descriptions, les prérequis et les noms encore anglais. Les éléments interactifs, leurs liens et leurs dés sont conservés. D’autres dons ou variantes de suppléments peuvent encore nécessiter des traductions.
-
-## Nouveautés 1.10
-
-Ajout de **54 paragraphes et variantes** pour les personnages 2024 : Sens du danger, Témérité, Savoir primal, Langage des animaux, Attaque sournoise, Argot des voleurs, Bottes d’arme, sorts de l’Arnaqueur arcanique, Escamotage de main de mage, Résistance naine et Connaissance de la pierre. Le complément couvre aussi plusieurs aptitudes de progression du Barbare et du Roublard, ainsi que les traits de l’Orc et la Ténacité naine.
-
-Les textes fournis par l’utilisateur sont traduits intégralement. Les nouveaux paragraphes sont des traductions rédigées à partir de ces extraits ou des adaptations du SRD 5.2.1, et non des citations garanties de la VF commerciale. Les noms de sorts intégrés restent alignés sur le catalogue AideDD 2024 ; les deux nouveaux noms d’aptitude absents des références vérifiées sont des traductions proposées.
-
-Les variantes d’Attaque sournoise conservent les dés effectivement présents dans Shard, de 1d6 à 10d6. Le script ne déduit pas les dégâts du niveau et n’ajoute pas de valeur lorsqu’elle manque. Les distances restent en feet.
-
-Correction de « Light, Thrown » sur les armes, des libellés « Rage Damage », « Toggle Effects », « Cast as Bonus Action », « see description » et « all ». Les petits titres ne sont plus bloqués par une description voisine, et « Spell List » est reconnu lorsqu’il est découpé en nœuds texte adjacents.
-
 ## Vérifications
 
 Les tests des aptitudes de personnages passent toujours : 54 paragraphes et variantes, descriptions précédées de titres, libellés fragmentés, changement de dés après montée de niveau, commandes de dés cliquables et restauration exacte des textes anglais. Les valeurs des champs de saisie restent intactes et les phrases inconnues ne sont pas traduites mot à mot.
