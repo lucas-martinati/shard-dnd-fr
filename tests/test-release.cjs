@@ -20,6 +20,17 @@ assert.equal(lock.packages[''].version,version);
 assert.equal(JSON.parse(fs.readFileSync('outputs/lexique-en-fr.json','utf8')).version,version);
 assert.ok(script.includes('const SCRIPT_VERSION = '+JSON.stringify(version)+';'));
 assert.match(fs.readFileSync('work/header.txt','utf8'),/^\/\/ @version\s+\{\{VERSION\}\}$/m);
+// Les données restent du JSON sur une ligne, indépendamment de l'indentation
+// des fichiers sources ; les chaînes conservent leurs retours à la ligne.
+const data=script.slice(script.indexOf('const SCRIPT_VERSION ='),script.indexOf('// Index publics uniquement :'));
+const constants=new Map();
+for(const line of data.trim().split(/\r?\n/)){
+  const match=/^const ([A-Z_0-9]+) = (.+);$/.exec(line);
+  assert.ok(match,'Constante générée répartie sur plusieurs lignes : '+line.slice(0,100));
+  constants.set(match[1],JSON.parse(match[2]));
+}
+assert.deepEqual(constants.get('LEGACY_CATALOG'),JSON.parse(fs.readFileSync('work/legacy-catalog.json','utf8')));
+assert.deepEqual(constants.get('COMPLETE_TEXTS'),JSON.parse(fs.readFileSync('work/complete-texts.json','utf8')));
 const base='https://raw.githubusercontent.com/lucas-martinati/shard-dnd-fr/main/outputs/';
 assert.equal(fields.get('updateURL'),base+'shard-dnd-fr.meta.js');
 assert.equal(fields.get('downloadURL'),base+'shard-dnd-fr.user.js');

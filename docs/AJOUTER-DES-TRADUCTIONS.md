@@ -96,6 +96,8 @@ Chaque entrée peut préciser `source` et `edition` pour remplacer les valeurs p
 
 `npm run translations:coverage` affiche l’inventaire des noms et descriptions disponibles, avec les limites explicites. Ce rapport est aussi régénéré dans `outputs/couverture-traductions.json` pendant le build. Un nom traduit ne compte pas comme une description traduite.
 
+Le champ `objectifReferencesAccueil` reprend `translations/perimetre-references.json` : les six rubriques d’options du personnage et les dix types personnalisés constituent le minimum à traduire intégralement. Vérifier toutes les fiches, pas seulement leurs noms et résumés, avant de valider une rubrique. La liste `aVerifier` concerne les appariements SRD ; son absence de candidats ne prouve pas que toutes les références de Shard sont traduites. Le détail des contrôles attendus figure dans l’[audit de couverture](AUDIT-COUVERTURE.md#objectif-minimal--toutes-les-références-accessibles-depuis-laccueil).
+
 ## Sorts découpés en options et puces
 
 Le générateur `work/make-spell-sections.py` relie les titres de sous-sections anglais et français du SRD, puis produit `work/spell-sections.json`. Il est exécuté par `npm run build`. Pour compléter un sort déjà référencé dans le SRD, ajouter les titres correspondants dans sa table et vérifier les limites de chaque effet. La position d’un effet dans une liste ne suffit pas : les listes françaises peuvent avoir un ordre différent. Certains sorts comportent un paragraphe commun après les options ; celui-ci doit être isolé avant leur appariement.

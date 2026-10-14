@@ -16,7 +16,12 @@ oldheader=(work/'header.txt').read_text().replace('{{VERSION}}',version)
 metadata=re.match(r'\A// ==UserScript==\r?\n[\s\S]*?^// ==/UserScript==\s*$',oldheader,re.M)
 if not metadata:raise ValueError('Bloc de métadonnées Tampermonkey absent de work/header.txt')
 parts=[oldheader,'(() => {\n"use strict";\n']
-parts.append('const SCRIPT_VERSION = '+json.dumps(version)+';\n')
+def emit_constant(name,value):
+ # Toutes les données générées occupent une ligne ; les retours des textes
+ # restent échappés dans les chaînes et les sources JSON restent lisibles.
+ literal=json.dumps(value,ensure_ascii=False,separators=(',',':')).replace('\u2028',r'\u2028').replace('\u2029',r'\u2029')
+ parts.append('const '+name+' = '+literal+';\n')
+emit_constant('SCRIPT_VERSION',version)
 for const,name in modules:
  data=translation_source(name+'.tsv').read_text()
  if name=='feature-terms' and pack_terms:data=data.rstrip()+'\n'+'\n'.join(r['en']+'|'+r['fr'] for r in pack_terms.values())+'\n'
@@ -42,24 +47,24 @@ for const,name in modules:
   if previous.get('fr') and norm(previous['fr'])!=norm(fr):aliases=list(dict.fromkeys(aliases+[previous['fr']]))
   records[key]={'en':en,'fr':fr,'category':category,'source':source,'aliases':aliases}
   meta[key]={'source':source,'category':category,'aliases':aliases}
- parts.append('const '+const+' = '+json.dumps(data,ensure_ascii=False)+';\n')
+ emit_constant(const,data)
 refs=json.loads(translation_source('spell-reference.json').read_text())
 # La version officielle peut employer des noms génériques pour les sorts nommés.
 for r in refs:r.pop('english',None)
 aliases={"Bigby's Hand":"Arcane Hand","Mordenkainen's Sword":"Arcane Sword","Tasha's Hideous Laughter":"Hideous Laughter","Nystul's Magic Aura":"Arcanist's Magic Aura","Melf's Acid Arrow":"Acid Arrow","Leomund's Secret Chest":"Secret Chest","Leomund's Tiny Hut":"Tiny Hut","Tenser's Floating Disk":"Floating Disk","Rary's Telepathic Bond":"Telepathic Bond","Mordenkainen's Private Sanctum":"Private Sanctum","Mordenkainen's Magnificent Mansion":"Magnificent Mansion","Mordenkainen's Faithful Hound":"Faithful Hound","Evard's Black Tentacles":"Black Tentacles","Otiluke's Resilient Sphere":"Resilient Sphere","Otiluke's Freezing Sphere":"Freezing Sphere","Otto's Irresistible Dance":"Irresistible Dance","Drawmij's Instant Summons":"Instant Summons"}
 known={r['en'] for r in refs}
 assert all(v in known for v in aliases.values()),set(aliases.values())-known
-parts.append('const REFERENCE_ALIASES = '+json.dumps(aliases,ensure_ascii=False)+';\n')
-parts.append('const SPELL_REFERENCE = '+json.dumps(refs,ensure_ascii=False,separators=(',',':'))+';\n')
-parts.append('const TERM_META = '+json.dumps(meta,ensure_ascii=False,separators=(',',':'))+';\n')
+emit_constant('REFERENCE_ALIASES',aliases)
+emit_constant('SPELL_REFERENCE',refs)
+emit_constant('TERM_META',meta)
 catalog=json.loads((work/'aidedd-catalog.json').read_text())
 for r in catalog:
  if r['en']=='Witch Bolt':r['aliases'].append('Éclair de sorcière')
-parts.append('const AIDEDD_CATALOG = '+json.dumps(catalog,ensure_ascii=False,separators=(',',':'))+';\n')
-parts.append('const LEGACY_CATALOG = '+(work/'legacy-catalog.json').read_text()+';\n')
-parts.append('const COMPLETE_TEXTS = '+(work/'complete-texts.json').read_text()+';\n')
+emit_constant('AIDEDD_CATALOG',catalog)
+emit_constant('LEGACY_CATALOG',json.loads((work/'legacy-catalog.json').read_text()))
+emit_constant('COMPLETE_TEXTS',json.loads((work/'complete-texts.json').read_text()))
 monster_titles=json.loads((root/'translations/monstres/titres-aptitudes-2024.json').read_text())['entries']
-parts.append('const MONSTER_ACTION_TITLES = '+json.dumps(monster_titles,ensure_ascii=False,separators=(',',':'))+';\n')
+emit_constant('MONSTER_ACTION_TITLES',monster_titles)
 parts.append((work/'aidedd-parser.js').read_text())
 parts.append((work/'runtime.js').read_text());parts.append('\n})();\n')
 (out/'shard-dnd-fr.user.js').write_text(''.join(parts))

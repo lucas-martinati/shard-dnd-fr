@@ -1,5 +1,41 @@
 # Audit de couverture — 13 octobre 2026
 
+## Objectif minimal : toutes les références accessibles depuis l’accueil
+
+L’objectif final est de traduire **le contenu intégral de toutes les références accessibles depuis l’accueil de Shard**, pour les livres et éditions disponibles. Les 16 rubriques ci-dessous constituent un minimum ; toute autre référence proposée par l’accueil doit également rejoindre cet inventaire.
+
+Une rubrique reste **à vérifier et compléter** tant que ses fiches intégrales n’ont pas toutes été contrôlées. Un nom, une description brève, une correspondance SRD ou une référence AideDD disponible ne suffit pas à la déclarer entièrement traduite. Les présentations des classes et sous-classes relevées sont traduites et de nombreuses aptitudes détaillées sont déjà couvertes ; le contenu complet de toutes les classes, sous-classes, options et variantes accessibles reste à compléter ou vérifier.
+
+### Options du personnage
+
+| Référence | Contenu intégral à vérifier ou compléter |
+| --- | --- |
+| [Historiques](https://play.shardtabletop.com/#backgrounds) | Aptitudes, dons, compétences, langues, équipement et variantes. |
+| [Classes](https://play.shardtabletop.com/#class) | Classes et sous-classes, tous les niveaux, aptitudes, options, prérequis et tableaux. Les résumés traduits ne valident pas ces contenus. |
+| [Dons](https://play.shardtabletop.com/#feats) | Prérequis, effets détaillés, choix et variantes de chaque édition et livre. |
+| [Objets](https://play.shardtabletop.com/#item) | Objets usuels et magiques, armes, armures, propriétés, bottes, charges, harmonisation et tableaux. Les noms d’armes ne valident pas leurs descriptions. |
+| [Races / Espèces](https://play.shardtabletop.com/#race) | Traits, lignages, ascendances, options et variantes. |
+| [Sorts](https://play.shardtabletop.com/#spell) | Paramètres, composantes, effets, cibles, options, améliorations et tableaux. |
+
+### Types personnalisés
+
+| Référence | Contenu intégral à vérifier ou compléter |
+| --- | --- |
+| [Diseases](https://play.shardtabletop.com/#customtable?type=Diseases) | Toutes les maladies, effets, durées et moyens de guérison. |
+| [Draconic Ancestries](https://play.shardtabletop.com/#customtable?type=Draconic%20Ancestries) | Toutes les ascendances draconiques, effets, choix et tableaux. |
+| [Manifestations occultes](https://play.shardtabletop.com/#customtable?type=Eldritch%20Invocations) | Toutes les manifestations, prérequis, effets, choix et évolutions. |
+| [Styles de combat](https://play.shardtabletop.com/#customtable?type=Fighting%20Styles) | Tous les styles, avec leurs règles et variantes. |
+| [Manœuvre Options](https://play.shardtabletop.com/#customtable?type=Maneuver%20Options) | Toutes les manœuvres, coûts, déclencheurs, choix et effets. |
+| [Propriétés de botte](https://play.shardtabletop.com/#customtable?type=Mastery%20Properties) | Chaque propriété et sa règle complète, dans ce catalogue spécifique. |
+| [Métamagie](https://play.shardtabletop.com/#customtable?type=Metamagic) | Toutes les options, coûts, restrictions, effets et variantes. |
+| [Reference Cards](https://play.shardtabletop.com/#customtable?type=Reference%20Cards) | Toutes les règles, états, actions, effets et tableaux, y compris les fiches liées depuis les aptitudes. |
+| [Warlock Pact Boons](https://play.shardtabletop.com/#customtable?type=Warlock%20Pact%20Boons) | Tous les pactes, effets, options, prérequis et variantes. |
+| [Bottes d’arme](https://play.shardtabletop.com/#customtable?type=Weapon%20Masteries) | Chaque entrée et sa règle complète ; ce contrôle reste distinct de Mastery Properties. |
+
+Pour chaque rubrique, inventorier toutes les entrées puis vérifier séparément les **noms et résumés** et les **fiches complètes** : paragraphes, sous-sections, listes, choix, tableaux et contenus chargés à l’ouverture ou par les liens. Contrôler le rendu avec le userscript actif dans Shard, les chiffres, dés et unités de jeu, les liens et la restauration de l’anglais. Une entrée sans description ou inaccessible doit être signalée comme telle ; aucun texte ne doit être inventé.
+
+Le [périmètre structuré](../translations/perimetre-references.json) conserve les objectifs et l’état de validation de ces rubriques. Il est repris dans `objectifReferencesAccueil` par `npm run translations:coverage` et dans `outputs/couverture-traductions.json`. Les validations intégrales restent ouvertes : cela ne signifie pas que tous les textes de ces rubriques sont absents du corpus. La liste `aVerifier` des appariements SRD ne mesure pas ce périmètre ; elle peut être vide alors que des fiches Shard restent partiellement en anglais.
+
 ## Complément du 14 octobre 2026 — aptitudes, dons, armes et version 1.17.10
 
 Le catalogue public de Shard a été parcouru pour ouvrir les 12 classes et leurs 48 sous-classes 2024, les 131 fiches détaillées de dons disponibles, ainsi que 48 fiches d’armes représentatives. La liste des armes a fourni 450 lignes, soit 449 noms distincts, avec les variantes +1/+2/+3, en adamantium, argentées et les grandes familles d’armes magiques.

@@ -46,6 +46,7 @@ def report():
     if any(ident not in pack_ids for f in shard_conditions + condition_details for ident in f['sections']):
         raise ValueError('Le catalogue des conditions Shard référence un bloc absent des packs')
     return {
+        'objectifReferencesAccueil':json.loads((ROOT/'translations/perimetre-references.json').read_text()),
         'categories':categories,
         'corpusLocaux':{
             'descriptionsEtChampsLocauxUniques':len({key(r['en']) for r in complete}),
@@ -72,13 +73,15 @@ def report():
         },
         'aVerifier':[r for r in classes+options if r['pending']],
         'limites':[
+            'aVerifier concerne les appariements des sources SRD ; une liste vide ne valide pas toutes les références Shard. objectifReferencesAccueil définit le périmètre minimal restant à vérifier et compléter.',
+            'Les noms et présentations brèves traduits ne valident pas le contenu intégral des classes, sous-classes ou autres fiches accessibles depuis l’accueil.',
             'Le corpus de classes est celui du SRD 5.2.1 : 12 classes et leurs sous-classes SRD, pas toutes les sous-classes des suppléments.',
             'Prose appariée ne signifie pas que toutes les variantes Shard et toutes les cellules de tableaux sont couvertes.',
             'Les compteurs de noms AideDD ne mesurent pas la couverture des descriptions.',
             'Les présentations Shard sont celles des cartes relevées : espèces et lignages, classes, 48 sous-classes PHB 2024 et historiques. Elles ne représentent pas toutes les descriptions d’aptitudes des sous-classes ni tous les livres.',
             'Les libellés et blocs éditables comptent les correspondances anglaises distinctes, y compris les variantes ; plusieurs blocs peuvent appartenir à une seule règle.',
             'Les états 2024 sont vérifiés sur des reproductions HTML locales. Les noms du catalogue ne prouvent pas la couverture des états et effets personnalisés de Shard.',
-            'Les 75 dons PHB 2024 ont des descriptions locales testées. Les 131 cartes Shard et 20 fiches ouvertes ont été relevées dans le navigateur ; les autres descriptions détaillées viennent des références anglaises publiques et de l’extrait utilisateur des faveurs épiques, et restent à contrôler dans Shard.',
+            'Les compteurs donsPHB2024 décrivent le premier relevé : 131 cartes et 20 fiches ouvertes, complétées par des références anglaises publiques et l’extrait utilisateur des faveurs épiques. Le relevé du 14 octobre a ensuite ouvert les 131 fiches détaillées disponibles et ajouté leurs variantes manquantes. Ces échantillons ne prouvent pas la couverture de tous les dons de tous les livres accessibles.',
             'Les appariements d’aptitudes de monstres décrivent le relevé structurel du 13 octobre 2026 : ils ne mesurent pas la traduction effective de toutes les variantes Shard. Depuis la 1.17.7, les titres bilingues attestés sont obligatoires pour les actions distantes ; ces compteurs historiques ne garantissent donc pas leur acceptation par le moteur actuel. Les références françaises absentes, abrégées ou avec des valeurs incompatibles restent à vérifier. La tarasque est également couverte localement.',
             'Les traits communs du bestiaire sont des correspondances locales de corps anglais exacts ; ils ne couvrent pas toutes les autres aptitudes des créatures concernées et ne servent pas de modèles pour des règles inconnues.',
             'Les descriptions AideDD de sorts, monstres, dons, manifestations et objets sont chargées à la consultation et dépendent du réseau et de la correspondance du texte anglais.',

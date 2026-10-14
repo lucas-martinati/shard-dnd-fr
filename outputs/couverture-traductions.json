@@ -1,4 +1,152 @@
 {
+  "objectifReferencesAccueil": {
+    "objectif": "Traduction intégrale de toutes les références accessibles depuis l’accueil Shard",
+    "perimetreMinimal": true,
+    "criteresValidation": [
+      "Inventorier toutes les entrées de chaque rubrique pour tous les livres et éditions accessibles, ainsi que leurs variantes.",
+      "Vérifier séparément les noms et présentations brèves, puis le contenu intégral des fiches ouvertes : paragraphes, sous-sections, listes, options et tableaux.",
+      "Vérifier les textes et références supplémentaires chargés à l’ouverture ou accessibles par les liens des fiches.",
+      "Conserver les effets de chaque édition, les nombres, les dés, les unités de jeu, les liens, les contrôles interactifs et la restauration de l’anglais.",
+      "Contrôler le rendu avec le userscript actif dans Shard ; un nom traduit, un compteur de corpus ou un échantillon de tests ne valide pas une rubrique entière.",
+      "Ne pas inventer de description pour une entrée qui n’en possède pas ; relever les contenus absents ou inaccessibles séparément des passages non traduits."
+    ],
+    "rubriques": [
+      {
+        "id": "backgrounds",
+        "groupe": "options-personnage",
+        "nom": "Historiques",
+        "url": "https://play.shardtabletop.com/#backgrounds",
+        "traductionIntegraleValidee": false,
+        "aVerifierOuCompleter": "Vérifier les fiches intégrales : aptitudes, dons, compétences, langues, équipement et variantes de chaque livre accessible."
+      },
+      {
+        "id": "classes",
+        "groupe": "options-personnage",
+        "nom": "Classes",
+        "url": "https://play.shardtabletop.com/#class",
+        "traductionIntegraleValidee": false,
+        "aVerifierOuCompleter": "Compléter et vérifier toutes les classes et sous-classes accessibles : niveaux, aptitudes, options, prérequis, tableaux et variantes. Les présentations traduites ne valident pas le contenu complet."
+      },
+      {
+        "id": "feats",
+        "groupe": "options-personnage",
+        "nom": "Dons",
+        "url": "https://play.shardtabletop.com/#feats",
+        "traductionIntegraleValidee": false,
+        "aVerifierOuCompleter": "Vérifier chaque fiche détaillée : prérequis, effets, choix, augmentations de caractéristiques et variantes de chaque édition et livre accessible."
+      },
+      {
+        "id": "items",
+        "groupe": "options-personnage",
+        "nom": "Objets",
+        "url": "https://play.shardtabletop.com/#item",
+        "traductionIntegraleValidee": false,
+        "aVerifierOuCompleter": "Vérifier toutes les catégories d’objets, armes, armures et objets magiques : descriptions, propriétés, bottes, charges, harmonisation, tableaux et variantes. Les noms d’armes traduits ne valident pas leurs descriptions."
+      },
+      {
+        "id": "species",
+        "groupe": "options-personnage",
+        "nom": "Races / Espèces",
+        "url": "https://play.shardtabletop.com/#race",
+        "traductionIntegraleValidee": false,
+        "aVerifierOuCompleter": "Vérifier les fiches intégrales, traits, lignages, ascendances, options et variantes anciennes ou de suppléments."
+      },
+      {
+        "id": "spells",
+        "groupe": "options-personnage",
+        "nom": "Sorts",
+        "url": "https://play.shardtabletop.com/#spell",
+        "traductionIntegraleValidee": false,
+        "aVerifierOuCompleter": "Vérifier toutes les fiches accessibles : paramètres, composantes, effets, cibles, options, améliorations, tableaux et variantes selon l’édition."
+      },
+      {
+        "id": "diseases",
+        "groupe": "types-personnalises",
+        "nom": "Diseases",
+        "url": "https://play.shardtabletop.com/#customtable?type=Diseases",
+        "traductionIntegraleValidee": false,
+        "aVerifierOuCompleter": "Inventorier et vérifier toutes les maladies et leurs effets, durées, conditions et moyens de guérison."
+      },
+      {
+        "id": "draconic-ancestries",
+        "groupe": "types-personnalises",
+        "nom": "Draconic Ancestries",
+        "url": "https://play.shardtabletop.com/#customtable?type=Draconic%20Ancestries",
+        "traductionIntegraleValidee": false,
+        "aVerifierOuCompleter": "Inventorier et vérifier toutes les ascendances draconiques, leurs effets, choix et tableaux."
+      },
+      {
+        "id": "eldritch-invocations",
+        "groupe": "types-personnalises",
+        "nom": "Manifestations occultes",
+        "url": "https://play.shardtabletop.com/#customtable?type=Eldritch%20Invocations",
+        "traductionIntegraleValidee": false,
+        "aVerifierOuCompleter": "Vérifier toutes les manifestations accessibles : prérequis, effets, choix, évolutions et variantes."
+      },
+      {
+        "id": "fighting-styles",
+        "groupe": "types-personnalises",
+        "nom": "Styles de combat",
+        "url": "https://play.shardtabletop.com/#customtable?type=Fighting%20Styles",
+        "traductionIntegraleValidee": false,
+        "aVerifierOuCompleter": "Vérifier tous les styles et leurs règles intégrales, y compris les variantes anciennes et de suppléments."
+      },
+      {
+        "id": "maneuver-options",
+        "groupe": "types-personnalises",
+        "nom": "Manœuvre Options",
+        "url": "https://play.shardtabletop.com/#customtable?type=Maneuver%20Options",
+        "traductionIntegraleValidee": false,
+        "aVerifierOuCompleter": "Inventorier et vérifier toutes les manœuvres, leurs coûts, déclencheurs, choix et effets."
+      },
+      {
+        "id": "mastery-properties",
+        "groupe": "types-personnalises",
+        "nom": "Propriétés de botte",
+        "url": "https://play.shardtabletop.com/#customtable?type=Mastery%20Properties",
+        "traductionIntegraleValidee": false,
+        "aVerifierOuCompleter": "Vérifier chaque propriété et sa règle complète. Ce catalogue doit être contrôlé séparément de Weapon Masteries."
+      },
+      {
+        "id": "metamagic",
+        "groupe": "types-personnalises",
+        "nom": "Métamagie",
+        "url": "https://play.shardtabletop.com/#customtable?type=Metamagic",
+        "traductionIntegraleValidee": false,
+        "aVerifierOuCompleter": "Vérifier toutes les options, coûts, restrictions, effets et variantes accessibles, au-delà du seul corpus SRD."
+      },
+      {
+        "id": "reference-cards",
+        "groupe": "types-personnalises",
+        "nom": "Reference Cards",
+        "url": "https://play.shardtabletop.com/#customtable?type=Reference%20Cards",
+        "traductionIntegraleValidee": false,
+        "aVerifierOuCompleter": "Inventorier et vérifier toutes les fiches de référence : règles, états, actions, effets et tableaux, y compris ceux ouverts par les liens des aptitudes."
+      },
+      {
+        "id": "warlock-pact-boons",
+        "groupe": "types-personnalises",
+        "nom": "Warlock Pact Boons",
+        "url": "https://play.shardtabletop.com/#customtable?type=Warlock%20Pact%20Boons",
+        "traductionIntegraleValidee": false,
+        "aVerifierOuCompleter": "Inventorier et vérifier tous les pactes, leurs effets, options, prérequis et variantes accessibles."
+      },
+      {
+        "id": "weapon-masteries",
+        "groupe": "types-personnalises",
+        "nom": "Bottes d’arme",
+        "url": "https://play.shardtabletop.com/#customtable?type=Weapon%20Masteries",
+        "traductionIntegraleValidee": false,
+        "aVerifierOuCompleter": "Vérifier toutes les entrées et règles de ce catalogue, même lorsque leur nom ou leur propriété existe déjà dans Mastery Properties."
+      }
+    ],
+    "limites": [
+      "Il s’agit d’un objectif et d’une liste de contrôles restants, pas d’un relevé affirmant que chaque rubrique est entièrement en anglais.",
+      "Les présentations et plusieurs contenus détaillés sont déjà traduits, notamment pour les classes ; leur couverture complète dans tous les livres reste à établir.",
+      "Les six rubriques d’options du personnage et les dix types personnalisés constituent un minimum : ajouter toute autre référence accessible depuis l’accueil.",
+      "Une liste aVerifier vide pour les appariements SRD ne signifie pas que ce périmètre Shard est intégralement traduit."
+    ]
+  },
   "categories": {
     "sorts": {
       "nomsCatalogueAideDD2024": 391,
@@ -197,13 +345,15 @@
   },
   "aVerifier": [],
   "limites": [
+    "aVerifier concerne les appariements des sources SRD ; une liste vide ne valide pas toutes les références Shard. objectifReferencesAccueil définit le périmètre minimal restant à vérifier et compléter.",
+    "Les noms et présentations brèves traduits ne valident pas le contenu intégral des classes, sous-classes ou autres fiches accessibles depuis l’accueil.",
     "Le corpus de classes est celui du SRD 5.2.1 : 12 classes et leurs sous-classes SRD, pas toutes les sous-classes des suppléments.",
     "Prose appariée ne signifie pas que toutes les variantes Shard et toutes les cellules de tableaux sont couvertes.",
     "Les compteurs de noms AideDD ne mesurent pas la couverture des descriptions.",
     "Les présentations Shard sont celles des cartes relevées : espèces et lignages, classes, 48 sous-classes PHB 2024 et historiques. Elles ne représentent pas toutes les descriptions d’aptitudes des sous-classes ni tous les livres.",
     "Les libellés et blocs éditables comptent les correspondances anglaises distinctes, y compris les variantes ; plusieurs blocs peuvent appartenir à une seule règle.",
     "Les états 2024 sont vérifiés sur des reproductions HTML locales. Les noms du catalogue ne prouvent pas la couverture des états et effets personnalisés de Shard.",
-    "Les 75 dons PHB 2024 ont des descriptions locales testées. Les 131 cartes Shard et 20 fiches ouvertes ont été relevées dans le navigateur ; les autres descriptions détaillées viennent des références anglaises publiques et de l’extrait utilisateur des faveurs épiques, et restent à contrôler dans Shard.",
+    "Les compteurs donsPHB2024 décrivent le premier relevé : 131 cartes et 20 fiches ouvertes, complétées par des références anglaises publiques et l’extrait utilisateur des faveurs épiques. Le relevé du 14 octobre a ensuite ouvert les 131 fiches détaillées disponibles et ajouté leurs variantes manquantes. Ces échantillons ne prouvent pas la couverture de tous les dons de tous les livres accessibles.",
     "Les appariements d’aptitudes de monstres décrivent le relevé structurel du 13 octobre 2026 : ils ne mesurent pas la traduction effective de toutes les variantes Shard. Depuis la 1.17.7, les titres bilingues attestés sont obligatoires pour les actions distantes ; ces compteurs historiques ne garantissent donc pas leur acceptation par le moteur actuel. Les références françaises absentes, abrégées ou avec des valeurs incompatibles restent à vérifier. La tarasque est également couverte localement.",
     "Les traits communs du bestiaire sont des correspondances locales de corps anglais exacts ; ils ne couvrent pas toutes les autres aptitudes des créatures concernées et ne servent pas de modèles pour des règles inconnues.",
     "Les descriptions AideDD de sorts, monstres, dons, manifestations et objets sont chargées à la consultation et dépendent du réseau et de la correspondance du texte anglais.",

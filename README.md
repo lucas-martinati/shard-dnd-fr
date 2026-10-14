@@ -30,6 +30,8 @@ Les utilisateurs ayant une ancienne installation par copier-coller doivent rempl
 
 La couverture reste partielle pour les suppléments et contenus maison. Les descriptions anciennes et 2024 sont distinguées d’après leur texte. Les traductions proposées ne sont pas toutes des formulations officielles.
 
+L’objectif est la traduction intégrale de toutes les références accessibles depuis l’accueil, avec au minimum les six rubriques d’options du personnage et les dix types personnalisés. Le [périmètre à compléter](docs/AUDIT-COUVERTURE.md#objectif-minimal--toutes-les-références-accessibles-depuis-laccueil) distingue les résumés déjà traduits des fiches complètes restant à vérifier.
+
 ## Développement
 
 Prérequis : Python 3 et Node.js 22 ou supérieur.
@@ -41,6 +43,8 @@ npm test
 ```
 
 Les traductions et dictionnaires sont rangés par grandes catégories dans `translations/` : sorts, dons, classes, espèces, objets, armes, monstres, règles et interface. Les outils de génération se trouvent dans `work/`, les sources SRD dans `data/`. `work/build.py` produit le userscript et les catalogues dans `outputs/`. `work/header.txt` contient les métadonnées Tampermonkey. Les fichiers générés sont versionnés pour faciliter l’installation.
+
+Les constantes de données du userscript sont toutes sérialisées au format JSON compact, une déclaration par ligne. Les fichiers sources JSON restent indentés pour faciliter leur édition ; les retours à la ligne contenus dans les traductions sont conservés sous forme échappée.
 
 Les tests sont regroupés dans `tests/`, avec les extraits HTML dans `tests/fixtures/`. `npm test` lance les suites JavaScript et Python. Les tests inclus couvrent la configuration, la recherche et les liens, les aptitudes de personnages, les variantes de métamagie, les interactions, la migration du cache et le retour au texte anglais.
 
