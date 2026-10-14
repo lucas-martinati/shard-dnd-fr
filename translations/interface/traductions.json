@@ -331,6 +331,38 @@
       "fr": "Références dans les livres",
       "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
       "edition": "any"
+    },
+    {
+      "id": "shard.interface.edit-attributes",
+      "kind": "term",
+      "en": "Edit Attributes",
+      "fr": "Modifier les attributs",
+      "source": "Traduction proposée des libellés relevés dans Shard (chargement, accueil, catalogue et fiches d’objets) · https://play.shardtabletop.com/ · 14 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "shard.interface.empty-list",
+      "kind": "term",
+      "en": "Empty List",
+      "fr": "Liste vide",
+      "source": "Traduction proposée des libellés relevés dans Shard (chargement, accueil, catalogue et fiches d’objets) · https://play.shardtabletop.com/ · 14 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "shard.interface.clear",
+      "kind": "term",
+      "en": "Clear",
+      "fr": "Effacer",
+      "source": "Traduction proposée des libellés relevés dans Shard (chargement, accueil, catalogue et fiches d’objets) · https://play.shardtabletop.com/ · 14 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "shard.interface.checking-sign-in",
+      "kind": "term",
+      "en": "Checking sign in status...",
+      "fr": "Vérification de la connexion…",
+      "source": "Traduction proposée des libellés relevés dans Shard (chargement, accueil, catalogue et fiches d’objets) · https://play.shardtabletop.com/ · 14 octobre 2026",
+      "edition": "any"
     }
   ]
 }

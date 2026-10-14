@@ -1,5 +1,5 @@
 {
-  "version": "1.17.8",
+  "version": "1.17.9",
   "reference": "Noms AideDD 2024 prioritaires. Références SRD disponibles séparément. Autres entrées identifiées.",
   "license": "Code MIT ; contenu SRD CC-BY-4.0 https://creativecommons.org/licenses/by/4.0/",
   "sources": [
@@ -24859,6 +24859,13 @@
       "aliases": []
     },
     {
+      "en": "Adamantine Dagger",
+      "fr": "Dague en adamantium",
+      "category": "équipement",
+      "source": "Traduction proposée des règles anciennes (2014) relevées sur la fiche Adamantine Dagger, Shard Player’s Guide Volume 1 · https://play.shardtabletop.com/#item · 14 octobre 2026",
+      "aliases": []
+    },
+    {
       "en": "Forceful Blow",
       "fr": "Coup appuyé",
       "category": "aptitude de classe",
@@ -26406,6 +26413,34 @@
       "aliases": []
     },
     {
+      "en": "Edit Attributes",
+      "fr": "Modifier les attributs",
+      "category": "interface",
+      "source": "Traduction proposée des libellés relevés dans Shard (chargement, accueil, catalogue et fiches d’objets) · https://play.shardtabletop.com/ · 14 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Empty List",
+      "fr": "Liste vide",
+      "category": "interface",
+      "source": "Traduction proposée des libellés relevés dans Shard (chargement, accueil, catalogue et fiches d’objets) · https://play.shardtabletop.com/ · 14 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Clear",
+      "fr": "Effacer",
+      "category": "interface",
+      "source": "Traduction proposée des libellés relevés dans Shard (chargement, accueil, catalogue et fiches d’objets) · https://play.shardtabletop.com/ · 14 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Checking sign in status...",
+      "fr": "Vérification de la connexion…",
+      "category": "interface",
+      "source": "Traduction proposée des libellés relevés dans Shard (chargement, accueil, catalogue et fiches d’objets) · https://play.shardtabletop.com/ · 14 octobre 2026",
+      "aliases": []
+    },
+    {
       "en": "Legendary Resistance (6/Day)",
       "fr": "Résistance légendaire (6/jour)",
       "category": "monstre",
@@ -26473,6 +26508,62 @@
       "fr": "Résistance légendaire (4/jour)",
       "category": "monstre",
       "source": "Titre du trait commun MM 2024 · https://www.aidedd.org/monster/fr/colosse",
+      "aliases": []
+    },
+    {
+      "en": "Acid (vial)",
+      "fr": "Acide (fiole)",
+      "category": "équipement",
+      "source": "Traduction proposée des textes anglais relevés dans Shard · équipement ancien (règles 2014), Shard Player’s Guide Volume 1 ; certaines fiches sont aussi rattachées au D&D 2024 PHB · https://play.shardtabletop.com/#item · 14 octobre 2026. Édition déterminée par le texte, sans conversion des unités.",
+      "aliases": []
+    },
+    {
+      "en": "Alchemist's Fire (flask)",
+      "fr": "Feu grégeois (flasque)",
+      "category": "équipement",
+      "source": "Traduction proposée des textes anglais relevés dans Shard · équipement ancien (règles 2014), Shard Player’s Guide Volume 1 ; certaines fiches sont aussi rattachées au D&D 2024 PHB · https://play.shardtabletop.com/#item · 14 octobre 2026. Édition déterminée par le texte, sans conversion des unités.",
+      "aliases": []
+    },
+    {
+      "en": "Ball Bearings (Bag of 1,000)",
+      "fr": "Billes métalliques (sac de 1,000)",
+      "category": "équipement",
+      "source": "Traduction proposée des textes anglais relevés dans Shard · équipement ancien (règles 2014), Shard Player’s Guide Volume 1 ; certaines fiches sont aussi rattachées au D&D 2024 PHB · https://play.shardtabletop.com/#item · 14 octobre 2026. Édition déterminée par le texte, sans conversion des unités.",
+      "aliases": []
+    },
+    {
+      "en": "Caltrops (20)",
+      "fr": "Chausse-trappes (20)",
+      "category": "équipement",
+      "source": "Traduction proposée des textes anglais relevés dans Shard · équipement ancien (règles 2014), Shard Player’s Guide Volume 1 ; certaines fiches sont aussi rattachées au D&D 2024 PHB · https://play.shardtabletop.com/#item · 14 octobre 2026. Édition déterminée par le texte, sans conversion des unités.",
+      "aliases": []
+    },
+    {
+      "en": "Basic Poison (vial)",
+      "fr": "Poison simple (fiole)",
+      "category": "équipement",
+      "source": "Traduction proposée des textes anglais relevés dans Shard · équipement ancien (règles 2014), Shard Player’s Guide Volume 1 ; certaines fiches sont aussi rattachées au D&D 2024 PHB · https://play.shardtabletop.com/#item · 14 octobre 2026. Édition déterminée par le texte, sans conversion des unités.",
+      "aliases": []
+    },
+    {
+      "en": "Antitoxin",
+      "fr": "Antitoxine",
+      "category": "équipement",
+      "source": "Traduction proposée des textes anglais relevés dans Shard · équipement ancien (règles 2014), Shard Player’s Guide Volume 1 ; certaines fiches sont aussi rattachées au D&D 2024 PHB · https://play.shardtabletop.com/#item · 14 octobre 2026. Édition déterminée par le texte, sans conversion des unités.",
+      "aliases": []
+    },
+    {
+      "en": "Bullseye Lantern",
+      "fr": "Lanterne sourde",
+      "category": "équipement",
+      "source": "Traduction proposée des textes anglais relevés dans Shard · équipement ancien (règles 2014), Shard Player’s Guide Volume 1 ; certaines fiches sont aussi rattachées au D&D 2024 PHB · https://play.shardtabletop.com/#item · 14 octobre 2026. Édition déterminée par le texte, sans conversion des unités.",
+      "aliases": []
+    },
+    {
+      "en": "Hooded Lantern",
+      "fr": "Lanterne à capote",
+      "category": "équipement",
+      "source": "Traduction proposée des textes anglais relevés dans Shard · équipement ancien (règles 2014), Shard Player’s Guide Volume 1 ; certaines fiches sont aussi rattachées au D&D 2024 PHB · https://play.shardtabletop.com/#item · 14 octobre 2026. Édition déterminée par le texte, sans conversion des unités.",
       "aliases": []
     },
     {

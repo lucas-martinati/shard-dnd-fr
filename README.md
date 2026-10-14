@@ -52,6 +52,8 @@ La 1.17.7 permet de traduire les portions connues autour des boutons et champs i
 
 La 1.17.8 ajoute les deux paragraphes d’Inspiration héroïque fournis : relance immédiate de n’importe quel dé avec obligation de conserver le nouveau résultat, et perte de l’Inspiration reçue en double sauf transfert à un personnage joueur qui n’en a pas. Cette règle 2024 reste distincte de l’ancienne Inspiration qui donne l’Avantage.
 
+La 1.17.9 complète 20 paragraphes relevés sur 16 fiches d’équipement dans Shard : 15 objets usuels (fioles, billes, chausse-trappes, trousse de soins, piège, menottes, pied-de-biche, antitoxine, boîte à amadou et lanternes) et la dague en adamantium. Elle ajoute aussi 9 noms exacts et 4 libellés d’interface. Les règles anciennes restent distinctes des versions 2024, même lorsque Shard rattache une ancienne description au livre 2024. Les liens, dés, titres en gras/italique et la restauration exacte de ces extraits sont vérifiés localement ; cet échantillon ne couvre pas tout le catalogue d’objets.
+
 ## Repérer un passage non traduit
 
 1. Ouvrir la fiche ou la liste concernée dans Shard, avec la traduction activée.

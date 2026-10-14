@@ -1,0 +1,137 @@
+{
+  "source": "Traduction proposée des textes anglais relevés dans Shard · équipement ancien (règles 2014), Shard Player’s Guide Volume 1 ; certaines fiches sont aussi rattachées au D&D 2024 PHB · https://play.shardtabletop.com/#item · 14 octobre 2026. Édition déterminée par le texte, sans conversion des unités.",
+  "items": [
+    {
+      "name": "Acid (vial)",
+      "frName": "Acide (fiole)",
+      "sections": [
+        "equipment.2014.acid-vial"
+      ],
+      "html": "<div class=\"pre-wrap \"><span>As an action, you can splash the contents of this vial onto a creature within 5 feet of you or throw the vial up to 20 feet, shattering it on impact. In either case, make a ranged attack against a creature or object, treating the acid as an improvised weapon. On a hit, the target takes <b class=\"dodieroll\">2d6</b> acid damage.</span></div>"
+    },
+    {
+      "name": "Alchemist's Fire (flask)",
+      "frName": "Feu grégeois (flasque)",
+      "sections": [
+        "equipment.2014.alchemists-fire-flask"
+      ],
+      "html": "<div class=\"pre-wrap \"><span>This sticky, adhesive fluid ignites when exposed to air. As an action, you can throw this flask up to 20 feet, shattering it on impact. Make a ranged attack against a creature or object, treating the alchemist's fire as an improvised weapon. On a hit, the target takes <b class=\"dodieroll\">1d4</b> fire damage at the start of each of its turns. A creature can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames.</span></div>"
+    },
+    {
+      "name": "Ball Bearings (Bag of 1,000)",
+      "frName": "Billes métalliques (sac de 1,000)",
+      "sections": [
+        "equipment.2014.ball-bearings-bag"
+      ],
+      "html": "<div class=\"pre-wrap \"><span>As an action, you can spill these tiny metal balls from their pouch to cover a level area 10 feet square. A creature moving across the covered area must succeed on a DC 10 Dexterity saving throw or fall <a href=\"#conditions?id=prone/\">prone</a>. A creature moving through the area at half speed doesn't need to make the saving throw.</span></div>"
+    },
+    {
+      "name": "Caltrops (20)",
+      "frName": "Chausse-trappes (20)",
+      "sections": [
+        "equipment.2014.caltrops-20"
+      ],
+      "html": "<div class=\"pre-wrap \"><span>As an action, you can spread a single bag of caltrops to cover a 5-foot-square area. Any creature that enters the area must succeed on a DC 15 Dexterity saving throw or stop moving and take 1 piercing damage. Until the creature regains at least 1 hit point, its walking speed is reduced by 10 feet. A creature moving through the area at half speed doesn't need to make the saving throw.</span></div>"
+    },
+    {
+      "name": "Holy Water (flask)",
+      "frName": "Eau bénite (flasque)",
+      "sections": [
+        "equipment.2014.holy-water-flask",
+        "equipment.2014.holy-water-ritual"
+      ],
+      "html": "<div class=\"pre-wrap \"><span>As an action, you can splash the contents of this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. In either case, make a ranged attack against a target creature, treating the holy water as an improvised weapon. If the target is a fiend or undead, it takes <b class=\"dodieroll\">2d6</b> radiant damage.<p>A cleric or paladin may create holy water by performing a special ritual. The ritual takes 1 hour to perform, uses 25 gp worth of powdered silver, and requires the caster to expend a 1st-level spell slot.</p></span></div>"
+    },
+    {
+      "name": "Oil (flask)",
+      "frName": "Huile (flasque)",
+      "sections": [
+        "equipment.2014.oil-flask"
+      ],
+      "html": "<div class=\"pre-wrap \"><span>Oil usually comes in a clay flask that holds 1 pint. As an action, you can splash the oil in this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. Make a ranged attack against a target creature or object, treating the oil as an improvised weapon. On a hit, the target is covered in oil. If the target takes any fire damage before the oil dries (after 1 minute), the target takes an additional 5 fire damage from the burning oil. You can also pour a flask of oil on the ground to cover a 5-foot-square area, provided that the surface is level. If lit, the oil burns for 2 rounds and deals 5 fire damage to any creature that enters the area or ends its turn in the area. A creature can take this damage only once per turn.</span></div>"
+    },
+    {
+      "name": "Basic Poison (vial)",
+      "frName": "Poison simple (fiole)",
+      "sections": [
+        "equipment.2014.basic-poison-vial"
+      ],
+      "html": "<div class=\"pre-wrap \"><span>You can use the poison in this vial to coat one slashing or piercing weapon or up to three pieces of ammunition. Applying the poison takes an action. A creature hit by the <a href=\"#conditions?id=poisoned/\">poisoned</a> weapon or ammunition must make a DC 10 Constitution saving throw or take <b class=\"dodieroll\">1d4</b> poison damage. Once applied, the poison retains potency for 1 minute before drying.</span></div>"
+    },
+    {
+      "name": "Healer's Kit",
+      "frName": "Trousse de soins",
+      "sections": [
+        "equipment.2014.healers-kit"
+      ],
+      "html": "<div class=\"pre-wrap \"><span>This kit is a leather pouch containing bandages, salves, and splints. The kit has ten uses. As an action, you can expend one use of the kit to stabilize a creature that has 0 hit points, without needing to make a Wisdom (<a href=\"#skills?id=Medicine/\">Medicine</a>) check.</span></div>"
+    },
+    {
+      "name": "Hunting Trap",
+      "frName": "Piège à mâchoires",
+      "sections": [
+        "equipment.2014.hunting-trap"
+      ],
+      "html": "<div class=\"pre-wrap \"><span>When you use your action to set it, this trap forms a saw-toothed steel ring that snaps shut when a creature steps on a pressure plate in the center. The trap is affixed by a heavy chain to an immobile object, such as a tree or a spike driven into the ground. A creature that steps on the plate must succeed on a DC 13 Dexterity saving throw or take <b class=\"dodieroll\">1d4</b> piercing damage and stop moving. Thereafter, until the creature breaks free of the trap, its movement is limited by the length of the chain (typically 3 feet long). A creature can use its action to make a DC 13 Strength check, freeing itself or another creature within its reach on a success. Each failed check deals 1 piercing damage to the trapped creature.</span></div>"
+    },
+    {
+      "name": "Manacles",
+      "frName": "Menottes",
+      "sections": [
+        "equipment.2014.manacles"
+      ],
+      "html": "<div class=\"pre-wrap \"><span>These metal restraints can bind a Small or Medium creature. Escaping the manacles requires a successful DC 20 Dexterity check. Breaking them requires a successful DC 20 Strength check. Each set of manacles comes with one key. Without the key, a creature proficient with thieves' tools can pick the manacles' lock with a successful DC 15 Dexterity check. Manacles have 15 hit points.</span></div>"
+    },
+    {
+      "name": "Crowbar",
+      "frName": "Pied-de-biche",
+      "sections": [
+        "equipment.2014.crowbar"
+      ],
+      "html": "<div class=\"pre-wrap \"><span>Using a crowbar grants advantage to Strength checks where the crowbar's leverage can be applied.</span></div>"
+    },
+    {
+      "name": "Antitoxin",
+      "frName": "Antitoxine",
+      "sections": [
+        "equipment.2014.antitoxin"
+      ],
+      "html": "<div class=\"pre-wrap \"><span>A creature that drinks this vial of liquid gains advantage on saving throws against poison for 1 hour. It confers no benefit to undead or constructs.</span></div>"
+    },
+    {
+      "name": "Tinderbox",
+      "frName": "Boîte à amadou",
+      "sections": [
+        "equipment.2014.tinderbox"
+      ],
+      "html": "<div class=\"pre-wrap \"><span>This small container holds flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a torch - or anything else with abundant, exposed fuel - takes an action. Lighting any other fire takes 1 minute.</span></div>"
+    },
+    {
+      "name": "Bullseye Lantern",
+      "frName": "Lanterne sourde",
+      "sections": [
+        "equipment.2014.bullseye-lantern"
+      ],
+      "html": "<div class=\"pre-wrap \"><span>A bullseye lantern casts bright light in a 60-foot cone and dim light for an additional 60 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil.</span></div>"
+    },
+    {
+      "name": "Hooded Lantern",
+      "frName": "Lanterne à capote",
+      "sections": [
+        "equipment.2014.hooded-lantern"
+      ],
+      "html": "<div class=\"pre-wrap \"><span>A hooded lantern casts bright light in a 30-foot radius and dim light for an additional 30 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil. As an action, you can lower the hood, reducing the light to dim light in a 5-foot radius.</span></div>"
+    },
+    {
+      "name": "Adamantine Dagger",
+      "frName": "Dague en adamantium",
+      "sections": [
+        "weapon.2014.adamantine",
+        "weapon.2014.finesse.section",
+        "weapon.2014.light.section",
+        "weapon.2014.thrown.section"
+      ],
+      "html": "<div class=\"pre-wrap \"><span>Whenever you hit an object with this weapon, the hit is a critical hit.</span></div><div class=\"pre-wrap \"><span><p><b><i>Finesse. </i></b>When making an attack with a Finesse weapon, use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.</p><p><b><i>Light. </i></b>A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons.</p><p><b><i>Thrown. </i></b>If a weapon has the thrown property, you can throw the weapon to make a ranged attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity, since the dagger has the finesse property.</p></span></div>"
+    }
+  ]
+}

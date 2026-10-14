@@ -27,14 +27,14 @@
     "objets": {
       "nomsCatalogueAideDD2024": 349,
       "entreesDictionnaires": 510,
-      "libellesEditables": 0,
-      "blocsEditables": 0
+      "libellesEditables": 8,
+      "blocsEditables": 16
     },
     "armes": {
       "nomsCatalogueAideDD2024": 0,
       "entreesDictionnaires": 0,
-      "libellesEditables": 42,
-      "blocsEditables": 31
+      "libellesEditables": 43,
+      "blocsEditables": 35
     },
     "monstres": {
       "nomsCatalogueAideDD2024": 498,
@@ -51,12 +51,12 @@
     "interface": {
       "nomsCatalogueAideDD2024": 0,
       "entreesDictionnaires": 205,
-      "libellesEditables": 41,
+      "libellesEditables": 45,
       "blocsEditables": 0
     }
   },
   "corpusLocaux": {
-    "descriptionsEtChampsLocauxUniques": 3320,
+    "descriptionsEtChampsLocauxUniques": 3340,
     "presentationsShard": {
       "fichesRelevees": 153,
       "avecDescription": 149,

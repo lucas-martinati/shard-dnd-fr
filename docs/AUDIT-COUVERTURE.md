@@ -1,5 +1,15 @@
 # Audit de couverture — 13 octobre 2026
 
+## Complément du 14 octobre 2026 — équipement, version 1.17.9
+
+Examen de l’accueil, des filtres du catalogue d’objets et de 18 fiches dans la session Shard accessible au navigateur intégré : Abacus, Acid, Acid (vial), Alchemist’s Fire (flask), Ball Bearings (Bag of 1,000), Caltrops (20), Holy Water (flask), Oil (flask), Basic Poison (vial), Healer’s Kit, Hunting Trap, Manacles, Crowbar, Antitoxin, Tinderbox, Bullseye Lantern, Hooded Lantern et Adamantine Dagger. Aucun personnage, objet ou contenu de campagne n’a été modifié.
+
+La fiche Abacus ne contient pas de description ; aucun texte n’y a été ajouté. Acid utilise la description 2024 déjà couverte. Les 15 autres objets usuels présentent 16 paragraphes absents du corpus local, désormais ajoutés dans `translations/objets/traductions.json`. La dague en adamantium ajoute son effet sur les objets et trois sections titrées de propriétés, dont les corps existaient déjà. Neuf noms exacts manquants et quatre libellés observés sont ajoutés : modification des attributs, liste vide, effacement d’un filtre et vérification de la connexion.
+
+Les fiches Feu grégeois, Poison simple, Trousse de soins, Pied-de-biche, Antitoxine et les deux lanternes associent une ancienne formulation au D&D 2024 PHB. Les entrées sont documentées comme règles 2014 d’après le texte exact, sans remplacer l’attaque improvisée, l’action requise ou une exception par un mécanisme 2024. Distances, volumes, valeurs numériques et dés restent ceux affichés dans Shard.
+
+`tests/fixtures/equipment-legacy.json` conserve uniquement les extraits de description et noms des 16 fiches complétées. `test-equipment-legacy.cjs` vérifie leurs traductions, le paragraphe imbriqué du rituel d’eau bénite, les titres en gras/italique, trois liens, six dés cliquables (dont le témoin Acide 2024), les attributs d’affichage, la conservation d’une valeur de recherche et le retour exact à l’anglais. Un texte inconnu aux valeurs différentes reste intact. La traduction française a été vérifiée avec le userscript généré dans JSDOM ; cette version n’a pas été installée dans Tampermonkey pendant cet examen. Ce relevé ciblé ne constitue pas une couverture complète du catalogue ni de tous les écrans Shard.
+
 ## Périmètre observé
 
 Audit du dépôt en version 1.17.1, puis de Shard connecté : accueil, navigation de référence, bibliothèque, filtres, historiques, espèces et états. Le navigateur intégré a servi à examiner l'anglais ; Brave, avec Tampermonkey et le script déjà actif, a permis de constater les manques de traduction. Aucun personnage ni contenu de campagne n'a été modifié.
