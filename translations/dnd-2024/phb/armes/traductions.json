@@ -1,54 +1,522 @@
 {
   "$schema": "../../../../docs/translation-pack.schema.json",
+  "edition": "2024",
   "entries": [
+    {
+      "id": "shard.armes.plural.6fa8026b70",
+      "kind": "term",
+      "en": "Handaxes",
+      "fr": "Hachettes",
+      "source": "Traduction proposée des noms d’équipement présents sur les fiches de classe Shard · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.armes.plural.6d8c52d12f",
+      "kind": "term",
+      "en": "Daggers",
+      "fr": "Dagues",
+      "source": "Traduction proposée des noms d’équipement présents sur les fiches de classe Shard · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.armes.plural.6444c365db",
+      "kind": "term",
+      "en": "Javelins",
+      "fr": "Javelines",
+      "source": "Traduction proposée des noms d’équipement présents sur les fiches de classe Shard · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.armes.plural.f1269b7299",
+      "kind": "term",
+      "en": "Arrows (20)",
+      "fr": "Flèches (20)",
+      "source": "Traduction proposée des noms d’équipement présents sur les fiches de classe Shard · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.armes.plural.cd022c7876",
+      "kind": "term",
+      "en": "Gold Pieces",
+      "fr": "Pièces d’or",
+      "source": "Traduction proposée des noms d’équipement présents sur les fiches de classe Shard · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "mastery.cleave",
+      "en": "If you hit a creature with a melee attack roll using this weapon, you can make a melee attack roll with the weapon against a second creature within 5 feet of the first that is also within your reach. On a hit, the second creature takes the weapon’s damage, but don’t add your ability modifier to that damage unless that modifier is negative. You can make this extra attack only once per turn.",
+      "fr": "Si vous touchez une créature avec un jet d’attaque de corps à corps utilisant cette arme, vous pouvez effectuer un jet d’attaque de corps à corps avec cette arme contre une seconde créature située à 5 feet ou moins de la première et également à votre portée. Si l’attaque touche, la seconde créature subit les dégâts de l’arme, sans y ajouter votre modificateur de caractéristique, sauf s’il est négatif. Vous ne pouvez effectuer cette attaque supplémentaire qu’une seule fois par tour.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · bottes d’arme · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "mastery.graze",
+      "en": "If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier.",
+      "fr": "Si votre jet d’attaque avec cette arme rate une créature, vous pouvez lui infliger des dégâts égaux au modificateur de caractéristique utilisé pour le jet d’attaque. Ces dégâts sont du même type que ceux de l’arme et ne peuvent être augmentés qu’en augmentant ce modificateur.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · bottes d’arme · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "mastery.nick",
+      "en": "When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.",
+      "fr": "Lorsque vous effectuez l’attaque supplémentaire de la propriété Légère, vous pouvez l’effectuer dans le cadre de l’action Attaquer plutôt que par une action Bonus. Vous ne pouvez effectuer cette attaque supplémentaire qu’une seule fois par tour.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · bottes d’arme · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "mastery.push",
+      "en": "If you hit a creature with this weapon, you can push the creature up to 10 feet straight away from yourself if it is Large or smaller.",
+      "fr": "Si vous touchez une créature avec cette arme, vous pouvez la repousser jusqu’à 10 feet en ligne droite si elle est de taille Grande ou inférieure.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · bottes d’arme · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "mastery.sap",
+      "en": "If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.",
+      "fr": "Si vous touchez une créature avec cette arme, elle subit le Désavantage à son prochain jet d’attaque avant le début de votre prochain tour.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · bottes d’arme · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "mastery.slow",
+      "en": "If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.",
+      "fr": "Si vous touchez une créature avec cette arme et lui infligez des dégâts, vous pouvez réduire sa Vitesse de 10 feet jusqu’au début de votre prochain tour. Si elle est touchée plusieurs fois par des armes dotées de cette propriété, la réduction de Vitesse ne dépasse pas 10 feet.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · bottes d’arme · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "mastery.topple",
+      "en": "If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a failed save, the creature has the Prone condition.",
+      "fr": "Si vous touchez une créature avec cette arme, vous pouvez lui imposer un jet de sauvegarde de Constitution dont le DD est égal à 8 + le modificateur de caractéristique utilisé pour le jet d’attaque + votre bonus de maîtrise. En cas d’échec, elle subit l’état À terre.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · bottes d’arme · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "mastery.vex",
+      "en": "If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.",
+      "fr": "Si vous touchez une créature avec cette arme et lui infligez des dégâts, vous avez l’Avantage à votre prochain jet d’attaque contre elle avant la fin de votre prochain tour.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · bottes d’arme · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "mastery.label.properties",
+      "kind": "term",
+      "en": "Mastery Properties",
+      "fr": "Propriétés de botte",
+      "source": "Traduction de passages du SRD 5.2.1 EN · bottes d’arme · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "mastery.label.weapon-property",
+      "kind": "term",
+      "en": "Weapon Mastery Property",
+      "fr": "Botte d’arme",
+      "source": "Traduction de passages du SRD 5.2.1 EN · bottes d’arme · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "mastery.label.weapon-properties",
+      "kind": "term",
+      "en": "Weapon Mastery Properties",
+      "fr": "Bottes d’arme",
+      "source": "Traduction de passages du SRD 5.2.1 EN · bottes d’arme · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "mastery.label.mastery",
+      "kind": "term",
+      "en": "Mastery",
+      "fr": "Botte d’arme",
+      "source": "Traduction de passages du SRD 5.2.1 EN · bottes d’arme · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "proprietes-armes-2024.proficiency",
+      "en": "Anyone can wield a weapon, but you must have proficiency with it to add your Proficiency Bonus to an attack roll you make with it. A player character’s features can provide weapon proficiencies. A monster is proficient with any weapon in its stat block.",
+      "fr": "Tout le monde peut manier une arme, mais vous devez en avoir la maîtrise pour ajouter votre bonus de maîtrise aux jets d’attaque effectués avec elle. Les aptitudes d’un personnage peuvent accorder des maîtrises d’armes. Un monstre maîtrise toutes les armes figurant dans son profil.",
+      "source": "Traduction de l’extrait utilisateur et des passages SRD correspondants · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "proprietes-armes-2024.ammunition",
+      "en": "You can use a weapon that has the Ammunition property to make a ranged attack only if you have ammunition to fire from it. The type of ammunition required is specified with the weapon’s range. Each attack expends one piece of ammunition. Drawing the ammunition is part of the attack (you need a free hand to load a one-handed weapon). After a fight, you can spend 1 minute to recover half the ammunition (round down) you used in the fight; the rest is lost.",
+      "fr": "Vous ne pouvez effectuer une attaque à distance avec une arme dotée de la propriété Munitions que si vous disposez des munitions nécessaires, dont le type est indiqué avec la portée de l’arme. Chaque attaque dépense une munition. Sortir la munition fait partie de l’attaque ; charger une arme à une main nécessite une main libre. Après un combat, vous pouvez consacrer 1 minute à récupérer la moitié des munitions utilisées, arrondie à l’entier inférieur. Le reste est perdu.",
+      "source": "Traduction de l’extrait utilisateur et des passages SRD correspondants · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "proprietes-armes-2024.finesse",
+      "en": "When making an attack with a Finesse weapon, use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.",
+      "fr": "Lorsque vous attaquez avec une arme dotée de la propriété Finesse, choisissez votre modificateur de Force ou de Dextérité pour les jets d’attaque et de dégâts. Vous devez utiliser le même modificateur pour les deux jets.",
+      "source": "Traduction de l’extrait utilisateur et des passages SRD correspondants · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "proprietes-armes-2024.heavy",
+      "en": "You have Disadvantage on attack rolls with a Heavy weapon if it’s a Melee weapon and your Strength score isn’t at least 13 or if it’s a Ranged weapon and your Dexterity score isn’t at least 13.",
+      "fr": "Vous subissez le Désavantage aux jets d’attaque avec une arme Lourde s’il s’agit d’une arme de corps à corps et que votre Force est inférieure à 13, ou d’une arme à distance et que votre Dextérité est inférieure à 13.",
+      "source": "Traduction de l’extrait utilisateur et des passages SRD correspondants · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "proprietes-armes-2024.light",
+      "en": "When you take the Attack action on your turn and attack with a Light weapon, you can make one extra attack as a Bonus Action later on the same turn. That extra attack must be made with a different Light weapon, and you don’t add your ability modifier to the extra attack’s damage unless that modifier is negative. For example, you can attack with a Shortsword in one hand and a Dagger in the other using the Attack action and a Bonus Action, but you don’t add your Strength or Dexterity modifier to the damage roll of the Bonus Action unless that modifier is negative.",
+      "fr": "Lorsque vous entreprenez l’action Attaquer à votre tour et attaquez avec une arme Légère, vous pouvez effectuer une attaque supplémentaire par une action Bonus plus tard dans ce même tour. Elle doit utiliser une autre arme Légère, et vous n’ajoutez pas votre modificateur de caractéristique à ses dégâts, sauf s’il est négatif. Par exemple, vous pouvez attaquer avec une épée courte dans une main et une dague dans l’autre en utilisant l’action Attaquer et une action Bonus, mais vous n’ajoutez pas votre modificateur de Force ou de Dextérité aux dégâts de l’attaque de l’action Bonus, sauf s’il est négatif.",
+      "source": "Traduction de l’extrait utilisateur et des passages SRD correspondants · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "proprietes-armes-2024.loading",
+      "en": "You can fire only one piece of ammunition from a Loading weapon when you use an action, a Bonus Action, or a Reaction to fire it, regardless of the number of attacks you can normally make.",
+      "fr": "Lorsque vous utilisez une action, une action Bonus ou une Réaction pour tirer avec une arme dotée de la propriété Chargement, vous ne pouvez tirer qu’une seule munition, quel que soit le nombre d’attaques que vous pouvez normalement effectuer.",
+      "source": "Traduction de l’extrait utilisateur et des passages SRD correspondants · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "proprietes-armes-2024.range",
+      "en": "A Range weapon has a range in parentheses after the Ammunition or Thrown property. The range lists two numbers. The first is the weapon’s normal range in feet, and the second is the weapon’s long range. When attacking a target beyond normal range, you have Disadvantage on the attack roll. You can’t attack a target beyond the long range.",
+      "fr": "La portée d’une arme figure entre parenthèses après la propriété Munitions ou Lancer, sous la forme de deux nombres. Le premier indique la portée normale en feet et le second la portée longue. Attaquer au-delà de la portée normale impose le Désavantage au jet d’attaque. Vous ne pouvez pas attaquer au-delà de la portée longue.",
+      "source": "Traduction de l’extrait utilisateur et des passages SRD correspondants · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "proprietes-armes-2024.reach",
+      "en": "A Reach weapon adds 5 feet to your reach when you attack with it, as well as when determining your reach for Opportunity Attacks with it.",
+      "fr": "Une arme dotée de la propriété Allonge ajoute 5 feet à votre allonge lorsque vous attaquez avec elle et lorsque vous déterminez votre allonge pour ses attaques d’opportunité.",
+      "source": "Traduction de l’extrait utilisateur et des passages SRD correspondants · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "proprietes-armes-2024.thrown",
+      "en": "If a weapon has the Thrown property, you can throw the weapon to make a ranged attack, and you can draw that weapon as part of the attack. If the weapon is a Melee weapon, use the same ability modifier for the attack and damage rolls that you use for a melee attack with that weapon.",
+      "fr": "Si une arme possède la propriété Lancer, vous pouvez la lancer pour effectuer une attaque à distance et la dégainer dans le cadre de cette attaque. S’il s’agit d’une arme de corps à corps, utilisez le même modificateur de caractéristique pour les jets d’attaque et de dégâts que pour une attaque de corps à corps avec cette arme.",
+      "source": "Traduction de l’extrait utilisateur et des passages SRD correspondants · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "proprietes-armes-2024.two-handed",
+      "en": "A Two-Handed weapon requires two hands when you attack with it.",
+      "fr": "Une arme dotée de la propriété Deux mains nécessite deux mains lorsque vous attaquez avec elle.",
+      "source": "Traduction de l’extrait utilisateur et des passages SRD correspondants · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "proprietes-armes-2024.versatile",
+      "en": "A Versatile weapon can be used with one or two hands. A damage value in parentheses appears with the property. The weapon deals that damage when used with two hands to make a melee attack.",
+      "fr": "Une arme Polyvalente peut être utilisée à une ou deux mains. La valeur de dégâts entre parenthèses indique les dégâts infligés lorsqu’elle est utilisée à deux mains pour effectuer une attaque de corps à corps.",
+      "source": "Traduction de l’extrait utilisateur et des passages SRD correspondants · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "weapons.name.1",
+      "kind": "term",
+      "en": "Club",
+      "fr": "Gourdin",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.2",
+      "kind": "term",
+      "en": "Dagger",
+      "fr": "Dague",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.3",
+      "kind": "term",
+      "en": "Greatclub",
+      "fr": "Massue",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.4",
+      "kind": "term",
+      "en": "Handaxe",
+      "fr": "Hachette",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.5",
+      "kind": "term",
+      "en": "Javelin",
+      "fr": "Javeline",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.6",
+      "kind": "term",
+      "en": "Light Hammer",
+      "fr": "Marteau léger",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.7",
+      "kind": "term",
+      "en": "Mace",
+      "fr": "Masse d’armes",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.8",
+      "kind": "term",
+      "en": "Quarterstaff",
+      "fr": "Bâton de combat",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.9",
+      "kind": "term",
+      "en": "Sickle",
+      "fr": "Serpe",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.10",
+      "kind": "term",
+      "en": "Spear",
+      "fr": "Lance",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.11",
+      "kind": "term",
+      "en": "Dart",
+      "fr": "Fléchette",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.12",
+      "kind": "term",
+      "en": "Light Crossbow",
+      "fr": "Arbalète légère",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.13",
+      "kind": "term",
+      "en": "Shortbow",
+      "fr": "Arc court",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.14",
+      "kind": "term",
+      "en": "Sling",
+      "fr": "Fronde",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.15",
+      "kind": "term",
+      "en": "Battleaxe",
+      "fr": "Hache d’armes",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.16",
+      "kind": "term",
+      "en": "Flail",
+      "fr": "Fléau d’armes",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.17",
+      "kind": "term",
+      "en": "Glaive",
+      "fr": "Coutille",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.18",
+      "kind": "term",
+      "en": "Greataxe",
+      "fr": "Hache à deux mains",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.19",
+      "kind": "term",
+      "en": "Greatsword",
+      "fr": "Épée à deux mains",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.20",
+      "kind": "term",
+      "en": "Halberd",
+      "fr": "Hallebarde",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.21",
+      "kind": "term",
+      "en": "Lance",
+      "fr": "Lance d’arçon",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.22",
+      "kind": "term",
+      "en": "Longsword",
+      "fr": "Épée longue",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.23",
+      "kind": "term",
+      "en": "Maul",
+      "fr": "Maillet d’armes",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.24",
+      "kind": "term",
+      "en": "Morningstar",
+      "fr": "Morgenstern",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.25",
+      "kind": "term",
+      "en": "Pike",
+      "fr": "Pique",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.26",
+      "kind": "term",
+      "en": "Rapier",
+      "fr": "Rapière",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.27",
+      "kind": "term",
+      "en": "Scimitar",
+      "fr": "Cimeterre",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.28",
+      "kind": "term",
+      "en": "Shortsword",
+      "fr": "Épée courte",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.29",
+      "kind": "term",
+      "en": "Trident",
+      "fr": "Trident",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.30",
+      "kind": "term",
+      "en": "Warhammer",
+      "fr": "Marteau de guerre",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.31",
+      "kind": "term",
+      "en": "War Pick",
+      "fr": "Pic de guerre",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.32",
+      "kind": "term",
+      "en": "Whip",
+      "fr": "Fouet",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.33",
+      "kind": "term",
+      "en": "Blowgun",
+      "fr": "Sarbacane",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.34",
+      "kind": "term",
+      "en": "Hand Crossbow",
+      "fr": "Arbalète de poing",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.35",
+      "kind": "term",
+      "en": "Heavy Crossbow",
+      "fr": "Arbalète lourde",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.36",
+      "kind": "term",
+      "en": "Longbow",
+      "fr": "Arc long",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.37",
+      "kind": "term",
+      "en": "Musket",
+      "fr": "Mousquet",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "weapons.name.38",
+      "kind": "term",
+      "en": "Pistol",
+      "fr": "Pistolet",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+    },
+    {
+      "id": "proprietes-armes-2024.light.rule",
+      "en": "When you take the Attack action on your turn and attack with a Light weapon, you can make one extra attack as a Bonus Action later on the same turn. That extra attack must be made with a different Light weapon, and you don’t add your ability modifier to the extra attack’s damage unless that modifier is negative.",
+      "fr": "Lorsque vous entreprenez l’action Attaquer à votre tour et attaquez avec une arme Légère, vous pouvez effectuer une attaque supplémentaire par une action Bonus plus tard dans ce même tour. Elle doit utiliser une autre arme Légère, et vous n’ajoutez pas votre modificateur de caractéristique à ses dégâts, sauf s’il est négatif.",
+      "source": "Traduction de l’extrait utilisateur et des passages SRD correspondants · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "proprietes-armes-2024.light.example",
+      "en": "For example, you can attack with a Shortsword in one hand and a Dagger in the other using the Attack action and a Bonus Action, but you don’t add your Strength or Dexterity modifier to the damage roll of the Bonus Action unless that modifier is negative.",
+      "fr": "Par exemple, vous pouvez attaquer avec une épée courte dans une main et une dague dans l’autre en utilisant l’action Attaquer et une action Bonus, mais vous n’ajoutez pas votre modificateur de Force ou de Dextérité aux dégâts de l’attaque de l’action Bonus, sauf s’il est négatif.",
+      "source": "Traduction de l’extrait utilisateur et des passages SRD correspondants · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
     {
       "id": "shard.armes.musket.71e6841e3c",
       "kind": "description",
       "en": "Loading. Because of the time required to load this weapon, you can fire only one piece of ammunition from it when you use an action, bonus action, or reaction to fire it, regardless of the number of attacks you can normally make.",
       "fr": "Chargement. En raison du temps nécessaire pour charger cette arme, vous ne pouvez tirer qu’une seule munition avec elle lorsque vous utilisez une action, une action Bonus ou une réaction pour tirer, quel que soit le nombre d’attaques que vous pouvez normalement effectuer.",
-      "source": "Traduction proposée du texte observé sur Shard · Musket · relevé du 14 octobre 2026 · https://play.shardtabletop.com/"
+      "source": "Traduction proposée du texte observé sur Shard · Musket · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
     },
     {
       "id": "shard.armes.musket.9c3e2af5eb",
       "kind": "description",
       "en": "Ammunition. You can use a weapon that has the Ammunition property to make a ranged attack only if you have ammunition to fire from it. The type of ammunition required is specified with the weapon’s range. Each attack expends one piece of ammunition. Drawing the ammunition is part of the attack (you need a free hand to load a one-handed weapon). After a fight, you can spend 1 minute to recover half the ammunition (round down) you used in the fight; the rest is lost.",
       "fr": "Munitions. Vous ne pouvez effectuer une attaque à distance avec une arme dotée de la propriété Munitions que si vous disposez des munitions nécessaires, dont le type est indiqué avec la portée de l’arme. Chaque attaque dépense une munition. Sortir la munition fait partie de l’attaque ; charger une arme à une main nécessite une main libre. Après un combat, vous pouvez consacrer 1 minute à récupérer la moitié des munitions utilisées, arrondie à l’entier inférieur. Le reste est perdu.",
-      "source": "Traduction proposée du texte observé sur Shard · Musket · relevé du 14 octobre 2026 · https://play.shardtabletop.com/"
+      "source": "Traduction proposée du texte observé sur Shard · Musket · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
     },
     {
       "id": "shard.armes.pistol.c768d02c8c",
       "kind": "description",
       "en": "Damage 1d10 piercing",
       "fr": "Dégâts 1d10 perforants",
-      "source": "Traduction proposée du texte observé sur Shard · Pistol · relevé du 14 octobre 2026 · https://play.shardtabletop.com/"
+      "source": "Traduction proposée du texte observé sur Shard · Pistol · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
     },
     {
       "id": "shard.armes.psychic-blade.4cd489e16a",
       "kind": "description",
       "en": "Damage 1d6 psychic",
       "fr": "Dégâts 1d6 psychiques",
-      "source": "Traduction proposée du texte observé sur Shard · Psychic Blade · relevé du 14 octobre 2026 · https://play.shardtabletop.com/"
+      "source": "Traduction proposée du texte observé sur Shard · Psychic Blade · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
     },
     {
       "id": "shard.armes.psychic-blade.75b879c092",
       "kind": "description",
       "en": "You can manifest shimmering blades of psychic energy. Whenever you take the Attack action or make an Opportunity Attack, you can manifest a Psychic Blade in your free hand and make the attack with that blade.",
       "fr": "Vous pouvez manifester des lames scintillantes d’énergie psychique. Chaque fois que vous effectuez l’action Attaquer ou une attaque d’opportunité, vous pouvez manifester une lame psychique dans votre main libre et effectuer l’attaque avec cette lame.",
-      "source": "Traduction proposée du texte observé sur Shard · Psychic Blade · relevé du 14 octobre 2026 · https://play.shardtabletop.com/"
+      "source": "Traduction proposée du texte observé sur Shard · Psychic Blade · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
     },
     {
       "id": "shard.armes.psychic-blade-off-hand.5a7d2c5e4c",
       "kind": "description",
       "en": "Damage 1d4 psychic",
       "fr": "Dégâts 1d4 psychiques",
-      "source": "Traduction proposée du texte observé sur Shard · Psychic Blade Off Hand · relevé du 14 octobre 2026 · https://play.shardtabletop.com/"
+      "source": "Traduction proposée du texte observé sur Shard · Psychic Blade Off Hand · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
     },
     {
       "id": "shard.armes.psychic-blade-off-hand.190282d929",
       "kind": "description",
       "en": "You can manifest shimmering blades of psychic energy. Whenever you take the Attack action or make an Opportunity Attack, you can manifest a Psychic Blade in your free hand and make the attack with that blade. Bonus action off hand attack after an attack with a Psychic Blade",
       "fr": "Vous pouvez manifester des lames scintillantes d’énergie psychique. Chaque fois que vous effectuez l’action Attaquer ou une attaque d’opportunité, vous pouvez manifester une lame psychique dans votre main libre et effectuer l’attaque avec cette lame. Attaque de la main secondaire par une action bonus après une attaque avec une lame psychique.",
-      "source": "Traduction proposée du texte observé sur Shard · Psychic Blade Off Hand · relevé du 14 octobre 2026 · https://play.shardtabletop.com/"
+      "source": "Traduction proposée du texte observé sur Shard · Psychic Blade Off Hand · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
     }
   ]
 }

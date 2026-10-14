@@ -1,5 +1,5 @@
 const fs=require('node:fs'),assert=require('node:assert/strict'),{JSDOM}=require('jsdom');
-const catalog=JSON.parse(fs.readFileSync('audit/inventaires/commun/armes-srd-2024.json'));
+const catalog=JSON.parse(fs.readFileSync('audit/inventaires/phb/armes-srd-2024.json'));
 const entries=require('./translation-fixtures.cjs').pack('armes').entries;
 assert.equal(catalog.weapons.length,38);
 const properties=new Map(entries.filter(r=>/^proprietes-armes-2024\.[a-z-]+$/.test(r.id)).map(r=>[r.id.split('.')[1],r]));

@@ -1,11 +1,11 @@
 const fs=require('fs'),{JSDOM}=require('jsdom'),assert=require('node:assert/strict');
 const fixture=fs.readFileSync('tests/fixtures/metamagic-v112.html','utf8');
 const w=new JSDOM('<main>'+fixture+'</main>',{url:'https://play.shardtabletop.com/#play?mode=character',runScripts:'outside-only',pretendToBeVisual:true}).window,d=w.document;
-const rows=fs.readFileSync('translations/anciens/commun/classes/metamagic-descriptions.tsv','utf8').trim().split('\n').map(l=>l.split('|'));
+const rows=fs.readFileSync('translations/2014/classes/metamagic-descriptions.tsv','utf8').trim().split('\n').map(l=>l.split('|'));
 const key=s=>s.replace(/[’‘]/g,"'").replace(/\s+/g,' ').trim().toLowerCase();const pairs=new Map(rows.map(([en,fr])=>[key(en),fr]));
 const ps=[...d.querySelectorAll('p')],before=ps.map(e=>e.textContent),cards=[...d.querySelectorAll('.stdcontent')],controls=[...d.querySelectorAll('.tc.f2 span')],classes=controls.map(e=>e.className),dice=d.querySelector('.dodieroll');
 let clicks=0;controls.forEach(e=>e.onclick=()=>clicks++);dice.onclick=()=>clicks++;
-const known=fs.readFileSync('translations/anciens/commun/regles/descriptions.tsv','utf8').trim().split('\n').map(l=>l.split('|'));
+const known=fs.readFileSync('translations/2014/regles/descriptions.tsv','utf8').trim().split('\n').map(l=>l.split('|'));
 const more=d.createElement('div');more.id='extra';d.querySelector('main').append(more);
 // Les variantes n’affectent que la formulation anglaise, jamais les chiffres.
 const expanded=s=>s.replace(/you’ve/g,'you have').replace(/you can’t/g,'you cannot').replace(/You can’t/g,'You cannot').replace(/aren’t/g,'are not');

@@ -18,7 +18,7 @@
     "Compléter les paragraphes, listes, options, tableaux, titres et variantes manquants, puis vérifier le rendu et les liens dans Shard."
   ],
   "limites": [
-    "Les textes attestés sur plusieurs livres sont partagés. Les éléments dont le livre reste inconnu sont isolés dans translations/a-classer/ ; une édition 2024 ne prouve pas à elle seule un livre précis.",
+    "Le rangement éditorial ne prouve pas une présence exclusive dans un livre. Les noms partagés restent stockés une seule fois et leur édition any est conservée lorsqu’aucune version précise n’est établie.",
     "Le nombre total de fiches et de blocs à traduire reste à établir ; aucun pourcentage de couverture intégrale n’est calculé."
   ],
   "dossierTraductions": "translations/dnd-2024/mm"

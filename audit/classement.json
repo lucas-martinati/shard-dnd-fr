@@ -1,10 +1,19 @@
 {
-  "methode": "Sources explicites des entrées, sources décodées des fiches HTML, identifiants de sections et attentes anglaises des tests de dons. Un rattachement multiple reste commun. Une édition seule ne suffit pas à attribuer un livre.",
+  "methode": "Rangement éditorial par usage : PHB 2024 pour les règles et options du joueur ; MM 2024 pour le bestiaire ; corpus 2014 pour les règles anciennes et le lexique historique ; interface Shard à part.",
+  "provenance": "La source et l’édition de chaque traduction sont conservées exactement. Le dossier de rangement ne transforme pas un libellé any en règle 2014, ni un texte Shard en extrait attesté du PHB imprimé.",
+  "rattachements2024": "Les contenus SRD 5.2.1 relatifs aux personnages, sorts, équipement et règles du joueur rejoignent le PHB. Ils appartiennent aux règles 2024 et ne sont pas reclassés dans le corpus 2014.",
+  "nomsPartages": "Les noms d’armes magiques, variantes et termes sans formulation propre à une édition sont maintenus dans le lexique du corpus 2014, puis réutilisés à l’identique dans les autres éditions. Les noms d’armes ordinaires explicitement utilisés dans les fiches 2024 rejoignent le PHB.",
+  "classementTermine": {
+    "entreesAnciennementAClasser": 406,
+    "lexiqueEtEffetsHistoriques": 382,
+    "reglesEtLibellesPHB2024": 24
+  },
   "preuves": [
     "tests/fixtures/shard-catalogue.json",
     "tests/fixtures/feat-catalog.json",
     "audit/inventaires/descriptions-visibles.json",
-    "audit/inventaires/conditions-shard.json"
+    "audit/inventaires/conditions-shard.json",
+    "audit/inventaires/phb/armes-srd-2024.json"
   ],
-  "limite": "Les noms du catalogue d’armes ne donnent pas tous leur livre source. Ils restent à classer plutôt que d’être attribués par supposition."
+  "limite": "La présence exacte dans un livre imprimé reste inconnue pour certains noms et effets personnalisés Shard, notamment Goblin’s Bane. Ils restent identifiés par leur source et leur édition any : leur rangement dans le corpus de compatibilité 2014 n’est pas une attribution bibliographique."
 }

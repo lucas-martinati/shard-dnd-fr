@@ -53,7 +53,7 @@ def report():
     for name in dict.fromkeys(row['class'] for row in classes):
         rows = [r for r in classes if r['class']==name]
         per_class[name] = {'aptitudesIndexees':len(rows),'proseAppariee':sum(r['description'] for r in rows)}
-    conditions = json.loads((ROOT/'audit/inventaires/commun/etats-2024.json').read_text())['conditions']
+    conditions = json.loads((ROOT/'audit/inventaires/phb/etats-2024.json').read_text())['conditions']
     complete = json.loads((ROOT/'work/generated/complete-texts.json').read_text())
     presentations = json.loads((ROOT/'audit/inventaires/descriptions-visibles.json').read_text())['fiches']
     shard_catalogue = json.loads((ROOT/'audit/inventaires/conditions-shard.json').read_text())
@@ -92,13 +92,13 @@ def report():
             'donsPHB2024':{'donsIndexes':len(feats['dons2024']),'cartesShardRelevees':feats['cartesShard'],'fichesShardOuvertes':feats['fichesShardOuvertes'],'extraitsTestes':len(feat_samples),'blocsEtChampsTestes':sum(len(s['expectations']) for s in feat_samples)},
             'aptitudesMonstres2024':{'titresBilingues':len(monster_titles),'referencesComparees':len(monster_references),'blocsAnglaisReleves':sum(r['actionsEN'] for r in monster_references),'appariementsDeReference':sum(r['matched'] for r in monster_references),'blocsDeReferenceAVerifier':sum(len(r['aVerifier']) for r in monster_references),'referencesSansActionsFrancaises':sum(not r['actionsFR'] for r in monster_references),'tarasqueParagraphesTestes':14},
             'traitsCommunsMonstres2024':{'traitsReleves':len(common_traits),'creaturesConcernees':len({r['monster'] for r in common_traits}),'familles':dict(Counter(r['family'] for r in common_traits))},
-            'armesSRD2024':len(json.loads((ROOT/'audit/inventaires/commun/armes-srd-2024.json').read_text())['weapons']),
+            'armesSRD2024':len(json.loads((ROOT/'audit/inventaires/phb/armes-srd-2024.json').read_text())['weapons']),
             'sousSectionsEtVariantesClasses':len(json.loads((ROOT/'work/generated/class-sections.json').read_text())),
             'nomsSousClassesPHB2024':48,
         },
         'aVerifier':[r for r in classes+options if r['pending']],
         'limites':[
-            'Priorité au D&D 2024 PHB puis au D&D 2024 MM. Les dossiers de livres séparent les sources explicitement rattachées ; le socle commun et le SRD restent réutilisés. suiviLivres décrit les accès et contrôles restants, sans pourcentage de traduction intégrale.',
+            'Priorité au D&D 2024 PHB puis au D&D 2024 MM. Le rangement attribue un emplacement de maintenance ; les sources et éditions précises sont conservées. Le corpus 2014 garde les noms partagés et les références historiques ; les règles du joueur 2024 issues du SRD sont rangées avec le PHB. suiviLivres décrit les accès et contrôles restants, sans pourcentage de traduction intégrale.',
             'aVerifier concerne les appariements des sources SRD ; une liste vide ne valide pas toutes les références Shard. objectifReferencesAccueil définit le périmètre minimal restant à vérifier et compléter.',
             'Les noms et présentations brèves traduits ne valident pas le contenu intégral des classes, sous-classes ou autres fiches accessibles depuis l’accueil.',
             'Le corpus de classes est celui du SRD 5.2.1 : 12 classes et leurs sous-classes SRD, pas toutes les sous-classes des suppléments.',

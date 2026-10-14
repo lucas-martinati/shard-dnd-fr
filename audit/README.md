@@ -2,7 +2,7 @@
 
 Ces fichiers décrivent ce qui a été relevé et vérifié ; les traductions sont dans `translations/`.
 
-- [Suivi des livres](livres.json) et `livres/` : PHB, MM et guide Shard, avec priorités, accès et contrôles restants.
+- [Suivi des livres](livres.json) et `livres/` : PHB, MM et corpus 2014, avec priorités, accès et contrôles restants.
 - [Inventaires](inventaires/) : descriptions de présentation, dons, conditions, armes et traits de monstres. Ils relient les fiches aux identifiants des traductions et servent aux tests de non-régression.
 - [Périmètre de l’accueil](perimetre-references.json) : six catégories de personnage et dix types personnalisés à couvrir intégralement.
 - [Méthode de classement](classement.json) : preuves utilisées pour ranger les traductions et limites des rattachements.

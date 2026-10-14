@@ -2,7 +2,9 @@
 
 ## Priorité par livre — clarification du 14 octobre 2026
 
-L’objectif principal est le **D&D 2024 PHB**, puis le **D&D 2024 MM**, dans leur version accessible sur Shard et avec toutes leurs fiches liées. Le **Shard Player’s Guide Volume 1** passe au second plan. Les packs dont la source nomme explicitement un seul livre sont séparés dans `translations/dnd-2024/phb/`, `translations/dnd-2024/mm/` et `translations/anciens/shard-player-guide-volume-1/`. Les textes partagés sont dans les dossiers `commun/`, les contenus anciens dans `translations/anciens/` et les correspondances dont le livre reste indéterminé dans `translations/a-classer/`, sans duplication ni conversion d’édition. Le classement utilise aussi les sources des fiches HTML archivées, décodées avant lecture. Voir [la méthode](../audit/classement.json).
+L’objectif principal est le **D&D 2024 PHB**, puis le **D&D 2024 MM**. Les traductions des règles du joueur 2024, y compris les parties issues du SRD 5.2.1, sont dans `translations/dnd-2024/phb/` ; le bestiaire reste dans `translations/dnd-2024/mm/`. Le corpus historique, dont le guide Shard, et les noms de compatibilité sont regroupés dans `translations/2014/`. L’interface Shard reste séparée.
+
+Le rangement éditorial ne remplace pas la provenance : les sources et éditions sont conservées, notamment `any` pour les libellés non spécifiques. Le classement des 406 anciennes entrées de `a-classer` est terminé selon cette convention. Certains noms et effets personnalisés restent sans livre imprimé identifié ; leur emplacement ne prétend pas résoudre cette attribution bibliographique. Voir [la méthode](../audit/classement.json).
 
 Le [suivi par livre](../audit/livres.json) est repris dans `suiviLivres` du rapport de couverture. Le sommaire du PHB a été relevé, mais ses chapitres complets restent à vérifier. Son Disclaimer indique que cet import contient les mécaniques absentes du SRD 5.2 et ne reproduit pas tout le texte du livre imprimé. Les sources bilingues `data/srd-5.2.1/`, lues par les générateurs de classes et d’options, restent donc utiles et nécessaires au build.
 

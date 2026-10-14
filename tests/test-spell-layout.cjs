@@ -1,6 +1,6 @@
 const fs=require('node:fs'),assert=require('node:assert/strict'),{JSDOM}=require('jsdom');
 const code=fs.readFileSync('outputs/shard-dnd-fr.user.js','utf8');
-const reference=JSON.parse(fs.readFileSync('translations/dnd-2024/commun/sorts/reference-srd.json','utf8')).find(r=>r.en==='Elementalism');
+const reference=JSON.parse(fs.readFileSync('translations/dnd-2024/phb/sorts/reference-srd.json','utf8')).find(r=>r.en==='Elementalism');
 const labels=[['Beckon Air','Appel d’air'],['Beckon Earth','Appel de terre'],['Beckon Fire','Appel de feu'],['Beckon Water','Appel d’eau'],['Sculpt Element','Façonnage élémentaire']];
 function split(text,names){const offsets=names.map(name=>({name,at:text.indexOf(name+'. ')}));assert.ok(offsets.every(o=>o.at>=0));offsets.sort((a,b)=>a.at-b.at);return {intro:text.slice(0,offsets[0].at).trim(),effects:new Map(offsets.map((o,i)=>[o.name,text.slice(o.at+o.name.length+2,offsets[i+1]?.at??text.length).trim()]))};}
 const english=split(reference.englishBody,labels.map(r=>r[0])),french=split(reference.frenchBody,labels.map(r=>r[1]));

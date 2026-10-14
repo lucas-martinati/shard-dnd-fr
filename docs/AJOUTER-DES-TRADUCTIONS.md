@@ -1,6 +1,6 @@
 # Ajouter des traductions
 
-Les nouvelles traductions se placent dans `translations/dnd-2024/phb/<catégorie>/traductions.json` ou `translations/dnd-2024/mm/<catégorie>/traductions.json` en priorité. Celles du guide Shard vont dans `translations/anciens/shard-player-guide-volume-1/<catégorie>/traductions.json`. Les textes partagés sont rangés dans `translations/dnd-2024/commun/` ou `translations/commun/` ; ceux dont le livre et l’édition ne sont pas établis vont dans `translations/a-classer/`. Les anciens contenus sont conservés dans `translations/anciens/`. Ne pas dupliquer un même texte pour plusieurs livres. Chaque fichier nommé `traductions.json` est chargé récursivement et automatiquement pendant `npm run build` : aucun ajout au moteur JavaScript ni à une liste de modules n’est nécessaire. Le fichier généré reste le seul fichier à copier dans Tampermonkey.
+Les nouvelles traductions se placent dans `translations/dnd-2024/phb/<catégorie>/traductions.json` ou `translations/dnd-2024/mm/<catégorie>/traductions.json` en priorité. Le corpus historique et les noms partagés conservés pour compatibilité sont rangés dans `translations/2014/<catégorie>/traductions.json`. L’interface Shard reste dans `translations/interface/`. Un texte n’est stocké qu’une fois ; sa source et son édition restent précises, indépendamment de son emplacement. Les packs sont détectés récursivement pendant `npm run build`. Le userscript généré reste le seul fichier à copier dans Tampermonkey.
 
 ## Une traduction par entrée
 
@@ -95,7 +95,7 @@ Chaque entrée peut préciser `source` et `edition` pour remplacer les valeurs p
 
 `npm run translations:coverage` affiche l’inventaire des noms et descriptions disponibles, avec les limites explicites. Ce rapport est aussi régénéré dans `audit/couverture-traductions.json` pendant le build. Un nom traduit ne compte pas comme une description traduite.
 
-Le champ `suiviLivres` reprend `audit/livres.json` et les suivis par livre : PHB, puis MM, puis guide Shard. Les nombres de packs rattachés ne comprennent pas tout le socle commun et ne prouvent pas une traduction intégrale.
+Le champ `suiviLivres` reprend `audit/livres.json` et les suivis par livre : PHB, puis MM, puis corpus 2014. Les nombres de packs rattachés ne comprennent pas tout le socle commun et ne prouvent pas une traduction intégrale.
 
 Le champ `objectifReferencesAccueil` reprend `audit/perimetre-references.json` : les six rubriques d’options du personnage et les dix types personnalisés constituent le minimum à traduire intégralement. Vérifier toutes les fiches, pas seulement leurs noms et résumés, avant de valider une rubrique. La liste `aVerifier` concerne les appariements SRD ; son absence de candidats ne prouve pas que toutes les références de Shard sont traduites. Le détail des contrôles attendus figure dans l’[audit de couverture](AUDIT-COUVERTURE.md#objectif-minimal--toutes-les-références-accessibles-depuis-laccueil).
 
@@ -113,7 +113,7 @@ Le générateur conserve les traductions préexistantes et refuse les correspond
 
 ## Couverture des armes
 
-`audit/inventaires/commun/armes-srd-2024.json` énumère les 38 armes du SRD et relie chacune à ses propriétés et à sa botte. Ajouter une arme à ce catalogue implique de fournir aussi les traductions de ses règles dans `traductions.json`. Les règles privées ou de suppléments ne sont pas déduites d’un nom d’arme. Un exemple facultatif doit avoir sa propre paire afin que la règle reste traduisible lorsque Shard omet cet exemple.
+`audit/inventaires/phb/armes-srd-2024.json` énumère les 38 armes du SRD et relie chacune à ses propriétés et à sa botte. Ajouter une arme à ce catalogue implique de fournir aussi les traductions de ses règles dans `traductions.json`. Les règles privées ou de suppléments ne sont pas déduites d’un nom d’arme. Un exemple facultatif doit avoir sa propre paire afin que la règle reste traduisible lorsque Shard omet cet exemple.
 
 ## Paragraphes des sorts et priorité des références
 

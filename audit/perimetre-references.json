@@ -146,5 +146,5 @@
     "Une liste aVerifier vide pour les appariements SRD ne signifie pas que ce périmètre Shard est intégralement traduit."
   ],
   "prioritesLivres": "livres.json",
-  "ordreTravail": "D&D 2024 PHB, puis D&D 2024 MM ; guide Shard secondaire. Les rubriques ci-dessous restent le minimum final et sont vérifiées d’abord pour les deux livres prioritaires."
+  "ordreTravail": "D&D 2024 PHB, puis D&D 2024 MM ; corpus 2014 secondaire. Les rubriques ci-dessous restent le minimum final et sont vérifiées d’abord pour les deux livres prioritaires."
 }

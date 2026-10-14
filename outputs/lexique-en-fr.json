@@ -27456,27 +27456,6 @@
       "aliases": []
     },
     {
-      "en": "Handaxes",
-      "fr": "Hachettes",
-      "category": "équipement",
-      "source": "Traduction proposée des noms d’équipement présents sur les fiches de classe Shard · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Javelins",
-      "fr": "Javelines",
-      "category": "équipement",
-      "source": "Traduction proposée des noms d’équipement présents sur les fiches de classe Shard · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Arrows (20)",
-      "fr": "Flèches (20)",
-      "category": "équipement",
-      "source": "Traduction proposée des noms d’équipement présents sur les fiches de classe Shard · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
       "en": "shortswords",
       "fr": "épées courtes",
       "category": "équipement",
@@ -27537,6 +27516,27 @@
       "fr": "Dague en adamantium",
       "category": "équipement",
       "source": "Traduction proposée des règles anciennes (2014) relevées sur la fiche Adamantine Dagger, Shard Player’s Guide Volume 1 · https://play.shardtabletop.com/#item · 14 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Handaxes",
+      "fr": "Hachettes",
+      "category": "équipement",
+      "source": "Traduction proposée des noms d’équipement présents sur les fiches de classe Shard · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Javelins",
+      "fr": "Javelines",
+      "category": "équipement",
+      "source": "Traduction proposée des noms d’équipement présents sur les fiches de classe Shard · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Arrows (20)",
+      "fr": "Flèches (20)",
+      "category": "équipement",
+      "source": "Traduction proposée des noms d’équipement présents sur les fiches de classe Shard · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
       "aliases": []
     },
     {
@@ -29003,6 +29003,97 @@
       "aliases": []
     },
     {
+      "en": "(Prerequisite: Dexterity 13 or higher)",
+      "fr": "(Prérequis : Dextérité 13 ou plus)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
+      "aliases": []
+    },
+    {
+      "en": "(Prerequisite: The ability to cast at least one spell)",
+      "fr": "(Prérequis : capacité à lancer au moins un sort)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
+      "aliases": []
+    },
+    {
+      "en": "(Prerequisite: Strength 13 or higher)",
+      "fr": "(Prérequis : Force 13 ou plus)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
+      "aliases": []
+    },
+    {
+      "en": "(Prerequisite: Proficiency with medium armor)",
+      "fr": "(Prérequis : maîtrise des armures intermédiaires)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
+      "aliases": []
+    },
+    {
+      "en": "(Prerequisite: Proficiency with heavy armor)",
+      "fr": "(Prérequis : maîtrise des armures lourdes)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
+      "aliases": []
+    },
+    {
+      "en": "(Prerequisite: Charisma 13 or higher)",
+      "fr": "(Prérequis : Charisme 13 ou plus)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
+      "aliases": []
+    },
+    {
+      "en": "(Prerequisite: Proficiency with light armor)",
+      "fr": "(Prérequis : maîtrise des armures légères)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
+      "aliases": []
+    },
+    {
+      "en": "(Prerequisite: Intelligence or Wisdom 13 or higher)",
+      "fr": "(Prérequis : Intelligence ou Sagesse 13 ou plus)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
+      "aliases": []
+    },
+    {
+      "en": "(Prerequisite: dwarf or small race)",
+      "fr": "(Prérequis : Nain ou espèce de petite taille)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
+      "aliases": []
+    },
+    {
+      "en": "Strength.",
+      "fr": "Force.",
+      "category": "don",
+      "source": "Traduction proposée du texte observé sur Shard · Resilient · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Dexterity.",
+      "fr": "Dextérité.",
+      "category": "don",
+      "source": "Traduction proposée du texte observé sur Shard · Resilient · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Wisdom.",
+      "fr": "Sagesse.",
+      "category": "don",
+      "source": "Traduction proposée du texte observé sur Shard · Resilient · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Charisma.",
+      "fr": "Charisme.",
+      "category": "don",
+      "source": "Traduction proposée du texte observé sur Shard · Resilient · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
       "en": "General Feat (Prerequisite: Level 4+, Spellcasting or Pact Magic Feature)",
       "fr": "Don général (prérequis : niveau 4+, aptitude Sorts ou Magie de pacte)",
       "category": "don",
@@ -29112,97 +29203,6 @@
       "fr": "Vitesse améliorée",
       "category": "don",
       "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
-      "aliases": []
-    },
-    {
-      "en": "(Prerequisite: Dexterity 13 or higher)",
-      "fr": "(Prérequis : Dextérité 13 ou plus)",
-      "category": "don",
-      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
-      "aliases": []
-    },
-    {
-      "en": "(Prerequisite: The ability to cast at least one spell)",
-      "fr": "(Prérequis : capacité à lancer au moins un sort)",
-      "category": "don",
-      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
-      "aliases": []
-    },
-    {
-      "en": "(Prerequisite: Strength 13 or higher)",
-      "fr": "(Prérequis : Force 13 ou plus)",
-      "category": "don",
-      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
-      "aliases": []
-    },
-    {
-      "en": "(Prerequisite: Proficiency with medium armor)",
-      "fr": "(Prérequis : maîtrise des armures intermédiaires)",
-      "category": "don",
-      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
-      "aliases": []
-    },
-    {
-      "en": "(Prerequisite: Proficiency with heavy armor)",
-      "fr": "(Prérequis : maîtrise des armures lourdes)",
-      "category": "don",
-      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
-      "aliases": []
-    },
-    {
-      "en": "(Prerequisite: Charisma 13 or higher)",
-      "fr": "(Prérequis : Charisme 13 ou plus)",
-      "category": "don",
-      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
-      "aliases": []
-    },
-    {
-      "en": "(Prerequisite: Proficiency with light armor)",
-      "fr": "(Prérequis : maîtrise des armures légères)",
-      "category": "don",
-      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
-      "aliases": []
-    },
-    {
-      "en": "(Prerequisite: Intelligence or Wisdom 13 or higher)",
-      "fr": "(Prérequis : Intelligence ou Sagesse 13 ou plus)",
-      "category": "don",
-      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
-      "aliases": []
-    },
-    {
-      "en": "(Prerequisite: dwarf or small race)",
-      "fr": "(Prérequis : Nain ou espèce de petite taille)",
-      "category": "don",
-      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
-      "aliases": []
-    },
-    {
-      "en": "Strength.",
-      "fr": "Force.",
-      "category": "don",
-      "source": "Traduction proposée du texte observé sur Shard · Resilient · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Dexterity.",
-      "fr": "Dextérité.",
-      "category": "don",
-      "source": "Traduction proposée du texte observé sur Shard · Resilient · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Wisdom.",
-      "fr": "Sagesse.",
-      "category": "don",
-      "source": "Traduction proposée du texte observé sur Shard · Resilient · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Charisma.",
-      "fr": "Charisme.",
-      "category": "don",
-      "source": "Traduction proposée du texte observé sur Shard · Resilient · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
       "aliases": []
     },
     {
@@ -30704,13 +30704,6 @@
       "aliases": []
     },
     {
-      "en": "Giants",
-      "fr": "Géants",
-      "category": "règles",
-      "source": "Pluriel du type de créature Giant du lexique commun · terminologie AideDD",
-      "aliases": []
-    },
-    {
       "en": "Enlarge",
       "fr": "Agrandissement",
       "category": "règles",
@@ -30727,13 +30720,6 @@
     {
       "en": "Turned",
       "fr": "Renvoyé",
-      "category": "règles",
-      "source": "Libellé observé dans le catalogue Conditions de Shard · traduction proposée · 13 octobre 2026",
-      "aliases": []
-    },
-    {
-      "en": "Zero Speed",
-      "fr": "Vitesse nulle",
       "category": "règles",
       "source": "Libellé observé dans le catalogue Conditions de Shard · traduction proposée · 13 octobre 2026",
       "aliases": []
@@ -30827,6 +30813,20 @@
       "fr": "Mort",
       "category": "règles",
       "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Giants",
+      "fr": "Géants",
+      "category": "règles",
+      "source": "Pluriel du type de créature Giant du lexique commun · terminologie AideDD",
+      "aliases": []
+    },
+    {
+      "en": "Zero Speed",
+      "fr": "Vitesse nulle",
+      "category": "règles",
+      "source": "Libellé observé dans le catalogue Conditions de Shard · traduction proposée · 13 octobre 2026",
       "aliases": []
     },
     {

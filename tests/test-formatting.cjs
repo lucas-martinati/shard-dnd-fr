@@ -9,7 +9,7 @@ const cases=[
  ['brutal-strike','Brutal Strike','<strong>Brutal Strike.</strong> ',get('brutal-strike').en.replace('1d10','<b class="dodieroll">1d10</b>'),'Coup brutal.'],
  ['actor.impersonation','Impersonation','<em><strong>Impersonation.</strong></em> ',get('actor.impersonation').en,'Imposture.']
 ];
-const example=fs.readFileSync('translations/anciens/commun/classes/metamagic-descriptions.tsv','utf8').split('\n').find(line=>line.startsWith('To be eligible')).split('|');
+const example=fs.readFileSync('translations/2014/classes/metamagic-descriptions.tsv','utf8').split('\n').find(line=>line.startsWith('To be eligible')).split('|');
 rows.push({id:'barbarian.high.test.spell-link',en:example[0],fr:example[1]});
 cases.push(['test.spell-link','Metamagic','<strong>Metamagic.</strong> ',example[0].replace('magic missile','<a href="#spell-magic-missile"><strong>magic missile</strong></a>'),'Métamagie.']);
 for(const [id,title,label,en]of cases){const p=d.createElement('p');p.dataset.id=id;p.innerHTML=label+en;main.append(p);}

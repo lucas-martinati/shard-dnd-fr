@@ -6,7 +6,7 @@ Ce dossier contient les entrées techniques utilisées par les générateurs, di
 | --- | --- |
 | `chemins.json` | Registre des chemins et ordre de lecture des dictionnaires ; conserve les priorités lors d’un déplacement |
 | `catalogues/aidedd-2024.json` | Noms, traductions et liens des références AideDD 2024 |
-| `catalogues/anciens-2014.json` | Références historiques utilisées pour les anciens contenus |
+| `catalogues/2014.json` | Références historiques utilisées pour les anciens contenus |
 | `classes/sections-bilingues.json` | Titres EN/FR qui permettent de découper les aptitudes sans apparier leurs paragraphes au hasard |
 | `personnage-2024/feature-descriptions.tsv` | Textes bilingues de départ des paragraphes et variantes de personnage générés |
 

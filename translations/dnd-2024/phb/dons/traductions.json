@@ -3,6 +3,1785 @@
   "edition": "2024",
   "entries": [
     {
+      "id": "feat.catalogue.field.4",
+      "kind": "term",
+      "en": "Epic Boon Feats",
+      "fr": "Dons de faveur épique",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "feat.catalogue.field.5",
+      "kind": "term",
+      "en": "General Feats",
+      "fr": "Dons généraux",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "feat.catalogue.field.6",
+      "kind": "term",
+      "en": "Origin Feats",
+      "fr": "Dons d’origine",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "feat.catalogue.field.7",
+      "kind": "term",
+      "en": "Fighting Style Feats",
+      "fr": "Dons de style de combat",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "feat.catalogue.field.45",
+      "kind": "term",
+      "en": "General Feat (Prerequisite: Level 4+, Spellcasting or Pact Magic Feature)",
+      "fr": "Don général (prérequis : niveau 4+, aptitude Sorts ou Magie de pacte)",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "feat.catalogue.field.50",
+      "kind": "term",
+      "en": "General Feat (Prerequisite: Level 4+, Dexterity 13+)",
+      "fr": "Don général (prérequis : niveau 4+, Dextérité 13+)",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "feat.catalogue.field.51",
+      "kind": "term",
+      "en": "General Feat (Prerequisite: Level 4+, Intelligence 13+)",
+      "fr": "Don général (prérequis : niveau 4+, Intelligence 13+)",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "feat.catalogue.field.53",
+      "kind": "term",
+      "en": "Epic Boon Feat (Prerequisite: Level 19+, Spellcasting Feature)",
+      "fr": "Don de faveur épique (prérequis : niveau 19+, aptitude Sorts)",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "feat.catalogue.field.54",
+      "kind": "term",
+      "en": "General Feat (Prerequisite: Level 4+, Wisdom or Charisma 13+)",
+      "fr": "Don général (prérequis : niveau 4+, Sagesse ou Charisme 13+)",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "feat.catalogue.field.55",
+      "kind": "term",
+      "en": "General Feat (Prerequisite: Level 4+, Intelligence, Wisdom, or Charisma 13+)",
+      "fr": "Don général (prérequis : niveau 4+, Intelligence, Sagesse, ou Charisme 13+)",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "feat.catalogue.field.56",
+      "kind": "term",
+      "en": "General Feat (Prerequisite: Level 4+, Strength 13+)",
+      "fr": "Don général (prérequis : niveau 4+, Force 13+)",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "feat.catalogue.field.57",
+      "kind": "term",
+      "en": "General Feat (Prerequisite: Level 4+, Medium Armor Training)",
+      "fr": "Don général (prérequis : niveau 4+, formation aux armures intermédiaires)",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "feat.catalogue.field.58",
+      "kind": "term",
+      "en": "General Feat (Prerequisite: Level 4+, Heavy Armor Training)",
+      "fr": "Don général (prérequis : niveau 4+, formation aux armures lourdes)",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "feat.catalogue.field.59",
+      "kind": "term",
+      "en": "General Feat (Prerequisite: Level 4+, Shield Training)",
+      "fr": "Don général (prérequis : niveau 4+, formation aux boucliers)",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "feat.catalogue.field.60",
+      "kind": "term",
+      "en": "General Feat (Prerequisite: Level 4+, Dexterity or Constitution 13+)",
+      "fr": "Don général (prérequis : niveau 4+, Dextérité ou Constitution 13+)",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "feat.catalogue.field.61",
+      "kind": "term",
+      "en": "General Feat (Prerequisite: Level 4+, Intelligence or Wisdom 13+)",
+      "fr": "Don général (prérequis : niveau 4+, Intelligence ou Sagesse 13+)",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "feat.catalogue.field.62",
+      "kind": "term",
+      "en": "General Feat (Prerequisite: Level 4+, Light Armor Training)",
+      "fr": "Don général (prérequis : niveau 4+, formation aux armures légères)",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "edition": "any"
+    },
+    {
+      "id": "feat.catalogue.lucky.83",
+      "en": "Luck Points.",
+      "fr": "Points de chance.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/lucky · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.war-caster.184",
+      "en": "Concentration.",
+      "fr": "Concentration.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/war-caster · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.push",
+      "kind": "term",
+      "en": "Push",
+      "fr": "Bourrade",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.luck-points",
+      "kind": "term",
+      "en": "Luck Points",
+      "fr": "Points de chance",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.concentration",
+      "kind": "term",
+      "en": "Concentration",
+      "fr": "Concentration",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.somatic-components",
+      "kind": "term",
+      "en": "Somatic Components",
+      "fr": "Composantes somatiques",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.speed-increase",
+      "kind": "term",
+      "en": "Speed Increase",
+      "fr": "Vitesse améliorée",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "shard.dons.ritual-caster.5ec96a2fe8",
+      "kind": "description",
+      "en": "General Feat (Prerequisite: Level 4+; Intelligence, Wisdom, or Charisma 13+)",
+      "fr": "Don général (Prérequis : niveau 4+ ; Intelligence, Sagesse ou Charisme 13+)",
+      "source": "Traduction proposée du texte observé sur Shard · Ritual Caster · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.labels.f737ae812659",
+      "kind": "term",
+      "en": "Wise Leader.",
+      "fr": "Meneur avisé.",
+      "source": "Traduction proposée du texte observé sur Shard · Inspiring Leader · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.labels.c66529cf0799",
+      "kind": "term",
+      "en": "Charismatic Leader.",
+      "fr": "Meneur charismatique.",
+      "source": "Traduction proposée du texte observé sur Shard · Inspiring Leader · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "feat.catalogue.elemental-adept.61",
+      "en": "Choose one of the following damage types: Acid, Cold, Fire, Lightning, or Thunder. Spells you cast ignore Resistance to damage of the chosen type. In addition, when you roll damage for a spell you cast that deals damage of that type, you can treat any 1 on a damage die as a 2.",
+      "fr": "Choisissez un type de dégâts parmi les suivants : acide, froid, feu, foudre ou tonnerre. Vos sorts ignorent la Résistance aux dégâts du type choisi. De plus, lorsque vous lancez les dégâts d’un de vos sorts qui inflige ce type de dégâts, vous pouvez traiter tout résultat de 1 sur un dé de dégâts comme un 2.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/elemental-adept · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.elemental-adept.63",
+      "en": "You can take this feat more than once, but you must choose a different damage type each time for Energy Mastery.",
+      "fr": "Vous pouvez choisir ce don plusieurs fois, mais devez choisir un type de dégâts différent pour Maîtrise des énergies à chaque fois.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/elemental-adept · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.fey-touched.64",
+      "en": "Choose one level 1 spell from the Divination or Enchantment school of magic. You always have that spell and the Misty Step spell prepared. You can cast each of these spells without expending a spell slot. Once you cast either spell in this way, you can't cast that spell in this way again until you finish a Long Rest. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is the ability increased by this feat.",
+      "fr": "Choisissez un sort de niveau 1 de l’école de Divination ou d’Enchantement. Vous avez toujours ce sort et le sort Foulée brumeuse préparés. Vous pouvez lancer chacun d’eux sans dépenser d’emplacement de sort. Après avoir lancé un de ces sorts de cette manière, vous devez terminer un Repos long avant de pouvoir le lancer de nouveau ainsi. Vous pouvez également les lancer avec vos emplacements de sort du niveau approprié. Leur caractéristique d’incantation est celle que ce don augmente.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/fey-touched · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.fey-touched.65",
+      "en": "Fey Magic.",
+      "fr": "Magie des fées.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/fey-touched · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.shadow-touched.66",
+      "en": "Choose one level 1 spell from the Illusion or Necromancy school of magic. You always have that spell and the Invisibility spell prepared. You can cast each of these spells without expending a spell slot. Once you cast either spell in this way, you can't cast that spell in this way again until you finish a Long Rest. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is the ability increased by this feat.",
+      "fr": "Choisissez un sort de niveau 1 de l’école d’Illusion ou de Nécromancie. Vous avez toujours ce sort et le sort Invisibilité préparés. Vous pouvez lancer chacun d’eux sans dépenser d’emplacement de sort. Après avoir lancé un de ces sorts de cette manière, vous devez terminer un Repos long avant de pouvoir le lancer de nouveau ainsi. Vous pouvez également les lancer avec vos emplacements de sort du niveau approprié. Leur caractéristique d’incantation est celle que ce don augmente.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/shadow-touched · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.shadow-touched.67",
+      "en": "Shadow Magic.",
+      "fr": "Magie de l’Ombre.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/shadow-touched · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.tavern-brawler.70",
+      "en": "When you hit with your Unarmed Strike and deal damage, you can deal Bludgeoning damage equal to 1d4 plus your Strength modifier instead of the normal damage of an Unarmed Strike.",
+      "fr": "Lorsque votre Frappe à mains nues touche et inflige des dégâts, vous pouvez infliger des dégâts contondants égaux à 1d4 + votre modificateur de Force à la place de ses dégâts normaux.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/tavern-brawler · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.tavern-brawler.71",
+      "en": "Enhanced Unarmed Strike.",
+      "fr": "Frappe à mains nues améliorée.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/tavern-brawler · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.tavern-brawler.72",
+      "en": "Whenever you roll a damage die for your Unarmed Strike, you can reroll the die if it rolls a 1, and you must use the new roll.",
+      "fr": "Chaque fois que vous lancez un dé de dégâts de Frappe à mains nues, vous pouvez le relancer s’il donne un 1. Vous devez alors utiliser le nouveau résultat.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/tavern-brawler · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.tavern-brawler.73",
+      "en": "Damage Rerolls.",
+      "fr": "Relancer des dégâts.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/tavern-brawler · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.tavern-brawler.74",
+      "en": "You have proficiency with improvised weapons.",
+      "fr": "Vous avez la maîtrise des armes improvisées.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/tavern-brawler · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.tavern-brawler.75",
+      "en": "Improvised Weaponry.",
+      "fr": "Armement improvisé.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/tavern-brawler · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.tavern-brawler.76",
+      "en": "When you hit a creature with an Unarmed Strike as part of the Attack action on your turn, you can deal damage to the target and also push it 5 feet away from you. You can use this benefit only once per turn.",
+      "fr": "Lorsque vous touchez une créature avec une Frappe à mains nues dans le cadre de l’action Attaquer à votre tour, vous pouvez lui infliger des dégâts et la repousser de 5 feet. Vous ne pouvez utiliser cet avantage qu’une fois par tour.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/tavern-brawler · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.crusher.77",
+      "en": "Push.",
+      "fr": "Bourrade.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/crusher · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.heavily-armored.78",
+      "en": "Increase your Strength or Constitution score by 1, to a maximum of 20.",
+      "fr": "Augmentez votre Force ou votre Constitution de 1, jusqu’à un maximum de 20.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/heavily-armored · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.crusher.79",
+      "en": "Once per turn, when you hit a creature with an attack that deals Bludgeoning damage, you can move it 5 feet to an unoccupied space if the target is no more than one size larger than you.",
+      "fr": "Une fois par tour, lorsque vous touchez une créature avec une attaque qui inflige des dégâts contondants, vous pouvez la déplacer de 5 feet vers un espace inoccupé, si elle ne dépasse pas votre taille de plus d’une catégorie.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/crusher · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.crusher.80",
+      "en": "When you score a Critical Hit that deals Bludgeoning damage to a creature, attack rolls against that creature have Advantage until the start of your next turn.",
+      "fr": "Lorsque vous infligez un Coup critique qui cause des dégâts contondants à une créature, les jets d’attaque contre elle ont l’Avantage jusqu’au début de votre prochain tour.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/crusher · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.slasher.81",
+      "en": "Enhanced Critical.",
+      "fr": "Critique renforcé.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/slasher · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.lucky.82",
+      "en": "You have a number of Luck Points equal to your Proficiency Bonus and can spend the points on the benefits below. You regain your expended Luck Points when you finish a Long Rest.",
+      "fr": "Vous disposez d’un nombre de Points de chance égal à votre bonus de maîtrise, que vous pouvez dépenser pour les avantages ci-dessous. Vous récupérez vos Points de chance dépensés lorsque vous terminez un Repos long.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/lucky · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.lucky.84",
+      "en": "When you roll a d20 for a D20 Test, you can spend 1 Luck Point to give yourself Advantage on the roll.",
+      "fr": "Lorsque vous lancez un d20 pour un Test de d20, vous pouvez dépenser 1 Point de chance pour avoir l’Avantage à ce jet.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/lucky · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.lucky.85",
+      "en": "Advantage.",
+      "fr": "Avantage.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/lucky · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.lucky.86",
+      "en": "When a creature rolls a d20 for an attack roll against you, you can spend 1 Luck Point to impose Disadvantage on that roll.",
+      "fr": "Lorsqu’une créature lance un d20 pour un jet d’attaque contre vous, vous pouvez dépenser 1 Point de chance pour imposer le Désavantage à ce jet.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/lucky · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.lucky.87",
+      "en": "Disadvantage.",
+      "fr": "Désavantage.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/lucky · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.chef.88",
+      "en": "Increase your Constitution or Wisdom score by 1, to a maximum of 20.",
+      "fr": "Augmentez votre Constitution ou votre Sagesse de 1, jusqu’à un maximum de 20.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/chef · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.chef.89",
+      "en": "You gain proficiency with Cook's Utensils if you don't already have it.",
+      "fr": "Vous gagnez la maîtrise des Ustensiles de cuisinier si vous ne l’avez pas déjà.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/chef · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.chef.90",
+      "en": "Cook's Utensils.",
+      "fr": "Ustensiles de cuisinier.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/chef · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.chef.91",
+      "en": "As part of a Short Rest, you can cook special food if you have ingredients and Cook's Utensils on hand. You can prepare enough of this food for a number of creatures equal to 4 plus your Proficiency Bonus. At the end of the Short Rest, any creature who eats the food and spends one or more Hit Dice to regain Hit Points regains an extra 1d8 Hit Points.",
+      "fr": "Pendant un Repos court, vous pouvez cuisiner une nourriture spéciale si vous avez des ingrédients et des Ustensiles de cuisinier. Vous pouvez en préparer pour un nombre de créatures égal à 4 + votre bonus de maîtrise. À la fin du Repos court, chaque créature qui en mange et dépense au moins un dé de vie pour récupérer des points de vie récupère 1d8 points de vie supplémentaires.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/chef · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.chef.92",
+      "en": "Replenishing Meal.",
+      "fr": "Repas reconstituant.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/chef · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.chef.93",
+      "en": "With 1 hour of work or when you finish a Long Rest, you can cook a number of treats equal to your Proficiency Bonus if you have ingredients and Cook's Utensils on hand. These special treats last 8 hours after being made. A creature can use a Bonus Action to eat one of those treats to gain a number of Temporary Hit Points equal to your Proficiency Bonus.",
+      "fr": "En 1 heure de travail, ou lorsque vous terminez un Repos long, vous pouvez préparer un nombre de friandises égal à votre bonus de maîtrise si vous avez des ingrédients et des Ustensiles de cuisinier. Elles restent bonnes pendant 8 heures. Une créature peut en manger une par une action Bonus pour gagner un nombre de points de vie temporaires égal à votre bonus de maîtrise.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/chef · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.chef.94",
+      "en": "Bolstering Treats.",
+      "fr": "Friandises galvanisantes.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/chef · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.dual-wielder.95",
+      "en": "When you take the Attack action on your turn and attack with a weapon that has the Light property, you can make one extra attack as a Bonus Action later on the same turn with a different weapon, which must be a Melee weapon that lacks the Two-Handed property. You don't add your ability modifier to the extra attack's damage unless that modifier is negative.",
+      "fr": "Lorsque vous entreprenez l’action Attaquer à votre tour et attaquez avec une arme dotée de la propriété Légère, vous pouvez effectuer une attaque supplémentaire par une action Bonus plus tard dans ce même tour, avec une autre arme. Celle-ci doit être une arme de corps à corps dépourvue de la propriété À deux mains. Vous n’ajoutez pas votre modificateur de caractéristique aux dégâts de cette attaque supplémentaire, sauf s’il est négatif.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/dual-wielder · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.dual-wielder.96",
+      "en": "Enhanced Dual Wielding.",
+      "fr": "Combat à deux armes amélioré.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/dual-wielder · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.dual-wielder.97",
+      "en": "You can draw or stow two weapons that lack the Two-Handed property when you would normally be able to draw or stow only one.",
+      "fr": "Vous pouvez dégainer ou rengainer deux armes dépourvues de la propriété À deux mains lorsque vous pourriez normalement n’en dégainer ou rengainer qu’une.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/dual-wielder · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.dual-wielder.98",
+      "en": "Quick Draw.",
+      "fr": "Dégainage rapide.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/dual-wielder · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.mounted-combatant.99",
+      "en": "Increase your Strength, Dexterity, or Wisdom score by 1, to a maximum of 20.",
+      "fr": "Augmentez votre Force, votre Dextérité ou votre Sagesse de 1, jusqu’à un maximum de 20.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/mounted-combatant · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.mounted-combatant.100",
+      "en": "While mounted, you have Advantage on attack rolls against any unmounted creature within 5 feet of your mount that is at least one size smaller than the mount.",
+      "fr": "Tant que vous êtes monté, vous avez l’Avantage aux jets d’attaque contre toute créature non montée à 5 feet ou moins de votre monture et d’au moins une catégorie de taille inférieure à celle-ci.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/mounted-combatant · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.mounted-combatant.101",
+      "en": "Mounted Strike.",
+      "fr": "Frappe montée.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/mounted-combatant · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.mounted-combatant.102",
+      "en": "If your mount is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw and only half damage if it fails. For your mount to gain this benefit, you must be riding it, and neither of you can have the Incapacitated condition.",
+      "fr": "Si votre monture subit un effet qui lui permet d’effectuer un jet de sauvegarde de Dextérité pour ne subir que la moitié des dégâts, elle ne subit aucun dégât en cas de réussite et seulement la moitié en cas d’échec. Pour qu’elle bénéficie de cet avantage, vous devez la monter et aucun de vous deux ne doit subir l’état Neutralisé.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/mounted-combatant · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.mounted-combatant.103",
+      "en": "Leap Aside.",
+      "fr": "Pas de côté.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/mounted-combatant · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.mounted-combatant.104",
+      "en": "While mounted, you can force an attack that hits your mount to hit you instead if you don't have the Incapacitated condition.",
+      "fr": "Tant que vous êtes monté et ne subissez pas l’état Neutralisé, vous pouvez forcer une attaque qui touche votre monture à vous toucher à sa place.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/mounted-combatant · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.mounted-combatant.105",
+      "en": "Veer.",
+      "fr": "Déviation.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/mounted-combatant · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.sharpshooter.106",
+      "en": "Increase your Dexterity score by 1, to a maximum of 20.",
+      "fr": "Augmentez votre Dextérité de 1, jusqu’à un maximum de 20.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/sharpshooter · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.skulker.107",
+      "en": "Blindsight.",
+      "fr": "Vision aveugle.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/skulker · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.skulker.108",
+      "en": "You exploit the distractions of battle, gaining Advantage on any Dexterity (Stealth) check you make as part of the Hide action during combat.",
+      "fr": "Vous profitez des distractions du combat : vous avez l’Avantage aux tests de Dextérité (Discrétion) effectués dans le cadre de l’action Se cacher pendant un combat.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/skulker · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.skulker.109",
+      "en": "Fog of War.",
+      "fr": "Brouillard de guerre.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/skulker · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.skulker.110",
+      "en": "If you make an attack roll while hidden and the roll misses, making the attack roll doesn't reveal your location.",
+      "fr": "Si vous effectuez un jet d’attaque alors que vous êtes caché et ratez votre attaque, ce jet ne révèle pas votre position.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/skulker · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.skulker.111",
+      "en": "Sniper.",
+      "fr": "Tireur discret.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/skulker · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.defensive-duelist.112",
+      "en": "If you're holding a Finesse weapon and another creature hits you with a melee attack, you can take a Reaction to add your Proficiency Bonus to your Armor Class, potentially causing the attack to miss you. You gain this bonus to your AC against melee attacks until the start of your next turn.",
+      "fr": "Si vous tenez une arme dotée de la propriété Finesse et qu’une autre créature vous touche avec une attaque de corps à corps, vous pouvez entreprendre une Réaction pour ajouter votre bonus de maîtrise à votre Classe d’armure, ce qui peut faire rater l’attaque. Ce bonus à la CA s’applique aux attaques de corps à corps jusqu’au début de votre prochain tour.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/defensive-duelist · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.defensive-duelist.113",
+      "en": "Parry.",
+      "fr": "Parade.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/defensive-duelist · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.piercer.114",
+      "en": "Increase your Strength or Dexterity by 1, to a maximum of 20.",
+      "fr": "Augmentez votre Force ou votre Dextérité de 1, jusqu’à un maximum de 20.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/piercer · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.piercer.115",
+      "en": "Once per turn, when you hit a creature with an attack that deals Piercing damage, you can reroll one of the attack's damage dice, and you must use the new roll.",
+      "fr": "Une fois par tour, lorsque vous touchez une créature avec une attaque qui inflige des dégâts perforants, vous pouvez relancer un dé de dégâts de l’attaque. Vous devez utiliser le nouveau résultat.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/piercer · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.piercer.116",
+      "en": "Puncture.",
+      "fr": "Perforation.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/piercer · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.piercer.117",
+      "en": "When you score a Critical Hit that deals Piercing damage to a creature, you can roll one additional damage die when determining the extra Piercing damage the target takes.",
+      "fr": "Lorsque vous infligez un Coup critique qui cause des dégâts perforants à une créature, vous pouvez lancer un dé de dégâts supplémentaire pour déterminer les dégâts perforants supplémentaires que subit la cible.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/piercer · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.grappler.118",
+      "en": "When you hit a creature with an Unarmed Strike as part of the Attack action on your turn, you can use both the Damage and the Grapple option. You can use this benefit only once per turn.",
+      "fr": "Lorsque vous touchez une créature avec une Frappe à mains nues dans le cadre de l’action Attaquer à votre tour, vous pouvez appliquer à la fois l’option Dégâts et l’option Agripper. Vous ne pouvez utiliser cet avantage qu’une fois par tour.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/grappler · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.grappler.119",
+      "en": "Punch and Grab.",
+      "fr": "Frappe et empoignade.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/grappler · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.grappler.120",
+      "en": "You have Advantage on attack rolls against a creature Grappled by you.",
+      "fr": "Vous avez l’Avantage aux jets d’attaque contre une créature que vous agrippez.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/grappler · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.grappler.121",
+      "en": "Attack Advantage.",
+      "fr": "Attaque avec Avantage.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/grappler · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.grappler.122",
+      "en": "You don't have to spend extra movement to move a creature Grappled by you if the creature is your size or smaller*.",
+      "fr": "Vous n’avez pas à dépenser de déplacement supplémentaire pour déplacer une créature que vous agrippez si elle est de votre taille ou plus petite.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/grappler · relevé du 13 octobre 2026",
+      "variants": [
+        "You don't have to spend extra movement to move a creature Grappled by you if the creature is your size or smaller."
+      ]
+    },
+    {
+      "id": "feat.catalogue.grappler.123",
+      "en": "Fast Wrestler.",
+      "fr": "Lutteur rapide.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/grappler · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.poisoner.124",
+      "en": "Increase your Dexterity or Intelligence score by 1, to a maximum of 20.",
+      "fr": "Augmentez votre Dextérité ou votre Intelligence de 1, jusqu’à un maximum de 20.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/poisoner · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.poisoner.125",
+      "en": "When you make a damage roll that deals Poison damage, it ignores Resistance to Poison damage.",
+      "fr": "Lorsque vous effectuez un jet de dégâts qui inflige des dégâts de poison, il ignore la Résistance aux dégâts de poison.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/poisoner · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.poisoner.126",
+      "en": "Potent Poison.",
+      "fr": "Poison virulent.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/poisoner · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.poisoner.127",
+      "en": "You gain proficiency with the Poisoner's Kit. With 1 hour of work using such a kit and expending 50 GP worth of materials, you can create a number of poison doses equal to your Proficiency Bonus. As a Bonus Action, you can apply a poison dose to a weapon or piece of ammunition. Once applied, the poison retains its potency for 1 minute or until you deal damage with the poisoned item, whichever is shorter*. When a creature takes damage from the poisoned item, that creature must succeed on a Constitution saving throw (DC 8 plus the modifier of the ability increased by this feat and your Proficiency Bonus) or take 2d8 Poison damage and have the Poisoned condition until the end of your next turn.",
+      "fr": "Vous gagnez la maîtrise du Matériel d’empoisonneur. En 1 heure de travail avec ce matériel et en dépensant 50 po d’ingrédients, vous pouvez préparer un nombre de doses de poison égal à votre bonus de maîtrise. Par une action Bonus, vous pouvez appliquer une dose sur une arme ou une munition. Le poison reste actif pendant 1 minute ou jusqu’à ce que vous infligiez des dégâts avec l’objet empoisonné, selon ce qui arrive en premier. Quand une créature subit des dégâts de cet objet, elle doit réussir un jet de sauvegarde de Constitution, dont le DD est égal à 8 + le modificateur de la caractéristique augmentée par ce don + votre bonus de maîtrise, sous peine de subir 2d8 dégâts de poison et l’état Empoisonné jusqu’à la fin de votre prochain tour.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/poisoner · relevé du 13 octobre 2026",
+      "variants": [
+        "You gain proficiency with the Poisoner's Kit. With 1 hour of work using such a kit and expending 50 GP worth of materials, you can create a number of poison doses equal to your Proficiency Bonus. As a Bonus Action, you can apply a poison dose to a weapon or piece of ammunition. Once applied, the poison retains its potency for 1 minute or until you deal damage with the poisoned item, whichever is shorter. When a creature takes damage from the poisoned item, that creature must succeed on a Constitution saving throw (DC 8 plus the modifier of the ability increased by this feat and your Proficiency Bonus) or take 2d8 Poison damage and have the Poisoned condition until the end of your next turn."
+      ]
+    },
+    {
+      "id": "feat.catalogue.poisoner.128",
+      "en": "Brew Poison.",
+      "fr": "Préparation de poison.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/poisoner · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.keen-mind.129",
+      "en": "Increase your Intelligence score by 1, to a maximum of 20.",
+      "fr": "Augmentez votre Intelligence de 1, jusqu’à un maximum de 20.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/keen-mind · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.keen-mind.130",
+      "en": "Choose one of the following skills: Arcana, History, Investigation, Nature, or Religion. If you lack proficiency in the chosen skill, you gain proficiency in it, and if you already have proficiency in it, you gain Expertise in it.",
+      "fr": "Choisissez une compétence parmi Arcanes, Histoire, Investigation, Nature ou Religion. Si vous n’en avez pas la maîtrise, vous la gagnez ; si vous l’avez déjà, vous gagnez l’Expertise dans cette compétence.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/keen-mind · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.keen-mind.131",
+      "en": "Lore Knowledge.",
+      "fr": "Érudition.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/keen-mind · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.keen-mind.132",
+      "en": "You can take the Study Action as a Bonus Action.",
+      "fr": "Vous pouvez entreprendre l’action Étudier par une action Bonus.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/keen-mind · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.keen-mind.133",
+      "en": "Quick Study.",
+      "fr": "Étude rapide.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/keen-mind · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.skill-expert.134",
+      "en": "Increase one ability score of your choice by 1, to a maximum of 20.",
+      "fr": "Augmentez une valeur de caractéristique de votre choix de 1, jusqu’à un maximum de 20.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/skill-expert · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.skill-expert.135",
+      "en": "Skill Proficiency.",
+      "fr": "Maîtrise de compétence.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/skill-expert · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.skill-expert.136",
+      "en": "Choose one skill in which you have proficiency but lack Expertise. You gain Expertise with that skill.",
+      "fr": "Choisissez une compétence dont vous avez la maîtrise mais pas l’Expertise. Vous gagnez l’Expertise dans cette compétence.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/skill-expert · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.skill-expert.137",
+      "en": "Expertise.",
+      "fr": "Expertise.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/skill-expert · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.charger.138",
+      "en": "When you take the Dash Action, your Speed increases by 10 feet for that action.",
+      "fr": "Lorsque vous entreprenez l’action Foncer, votre Vitesse augmente de 10 feet pour cette action.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/charger · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.charger.139",
+      "en": "Improved Dash.",
+      "fr": "Pointe améliorée.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/charger · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.charger.140",
+      "en": "If you move at least 10 feet in a straight line toward a target immediately before hitting it with a melee attack roll as part of the Attack action, choose one of the following effects: gain a 1d8 bonus to the attack's damage roll, or push the target up to 10 feet away if it is no more than one size larger than you. You can use this benefit only once on each of your turns.",
+      "fr": "Si vous parcourez au moins 10 feet en ligne droite vers une cible immédiatement avant de la toucher avec un jet d’attaque de corps à corps dans le cadre de l’action Attaquer, choisissez l’un des effets suivants : ajoutez un bonus de 1d8 au jet de dégâts de l’attaque, ou repoussez la cible jusqu’à 10 feet si elle ne dépasse pas votre taille de plus d’une catégorie. Vous ne pouvez utiliser cet avantage qu’une fois à chacun de vos tours.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/charger · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.charger.141",
+      "en": "Charge Attack.",
+      "fr": "Attaque de charge.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/charger · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.boon-of-the-night-spirit.148",
+      "en": "While within Dim Light or Darkness, you can give yourself the Invisible condition as a Bonus Action. The condition ends on you immediately after you take an action, a Bonus Action, or a Reaction.",
+      "fr": "Dans la lumière faible ou l’obscurité, vous pouvez vous conférer l’état Invisible par une action Bonus. Cet état prend fin immédiatement après que vous entreprenez une action, une action Bonus ou une Réaction.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/boon-of-the-night-spirit · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.boon-of-the-night-spirit.149",
+      "en": "Merge with Shadows.",
+      "fr": "Fusion avec les ombres.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/boon-of-the-night-spirit · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.boon-of-the-night-spirit.150",
+      "en": "While within Dim Light or Darkness, you have Resistance to all damage except Psychic and Radiant.",
+      "fr": "Dans la lumière faible ou l’obscurité, vous avez la Résistance à tous les dégâts sauf les dégâts psychiques et radiants.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/boon-of-the-night-spirit · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.boon-of-the-night-spirit.151",
+      "en": "Shadowy Form.",
+      "fr": "Forme d’ombre.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/boon-of-the-night-spirit · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.boon-of-spell-recall.152",
+      "en": "Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 30.",
+      "fr": "Augmentez votre Intelligence, votre Sagesse ou votre Charisme de 1, jusqu’à un maximum de 30.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/boon-of-spell-recall · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.boon-of-spell-recall.153",
+      "en": "Whenever you cast a spell with a level 1–4 spell slot, roll 1d4. If the number you roll is the same as the slot's level, the slot isn't expended.",
+      "fr": "Chaque fois que vous lancez un sort avec un emplacement de niveau 1–4, lancez 1d4. Si le résultat est égal au niveau de l’emplacement, celui-ci n’est pas dépensé.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/boon-of-spell-recall · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.boon-of-spell-recall.154",
+      "en": "Free Casting.",
+      "fr": "Incantation gratuite.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/boon-of-spell-recall · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.boon-of-truesight.155",
+      "en": "You have Truesight within a range of 60 feet.",
+      "fr": "Vous disposez de la Vision véritable sur une portée de 60 feet.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/boon-of-truesight · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.boon-of-truesight.156",
+      "en": "Truesight.",
+      "fr": "Vision véritable.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/boon-of-truesight · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.inspiring-leader.157",
+      "en": "Increase your Wisdom or Charisma score by 1, to a maximum of 20.",
+      "fr": "Augmentez votre Sagesse ou votre Charisme de 1, jusqu’à un maximum de 20.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/inspiring-leader · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.inspiring-leader.158",
+      "en": "When you finish a Short Rest or a Long Rest, you can give an inspiring performance: a speech, song, or dance. When you do so, choose up to six allies (which can include yourself) within 30 feet of yourself who witness the performance. The chosen creatures each gain Temporary Hit Points equal to your character level plus the modifier of the ability you increased with this feat.",
+      "fr": "Lorsque vous terminez un Repos court ou long, vous pouvez donner une représentation inspirante : discours, chant ou danse. Choisissez alors jusqu’à six alliés, vous y compris si vous le souhaitez, dans un rayon de 30 feet, qui assistent à cette représentation. Chacun gagne un nombre de points de vie temporaires égal à votre niveau de personnage + le modificateur de la caractéristique augmentée par ce don.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/inspiring-leader · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.inspiring-leader.159",
+      "en": "Bolstering Performance.",
+      "fr": "Représentation galvanisante.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/inspiring-leader · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.durable.162",
+      "en": "Increase your Constitution score by 1, to a maximum of 20.",
+      "fr": "Augmentez votre Constitution de 1, jusqu’à un maximum de 20.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/durable · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.durable.163",
+      "en": "You have Advantage on Death Saving Throws.",
+      "fr": "Vous avez l’Avantage aux jets de sauvegarde contre la mort.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/durable · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.durable.164",
+      "en": "As a Bonus Action, you can expend one of your Hit Point Dice, roll the die, and regain a number of Hit Points equal to the roll.",
+      "fr": "Par une action Bonus, vous pouvez dépenser un de vos dés de vie, le lancer et récupérer un nombre de points de vie égal au résultat.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/durable · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.durable.165",
+      "en": "Speedy Recovery.",
+      "fr": "Récupération rapide.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/durable · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.healer.166",
+      "en": "If you have a Healer's Kit, you can expend one use of it and tend to a creature within 5 feet of yourself as a Utilize action. That creature can expend one of its Hit Point Dice, and you then roll that die. The creature regains a number of Hit Points equal to the roll plus your Proficiency Bonus.",
+      "fr": "Si vous possédez une Trousse de soins, vous pouvez en dépenser une utilisation pour soigner une créature à 5 feet ou moins de vous par une action Utiliser. La créature peut dépenser un de ses dés de vie, que vous lancez alors. Elle récupère un nombre de points de vie égal au résultat + votre bonus de maîtrise.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/healer · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.healer.167",
+      "en": "Battle Medic.",
+      "fr": "Médecin de bataille.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/healer · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.healer.168",
+      "en": "Whenever you roll a die to determine the number of Hit Points you restore with a spell or with this feat's Battle Medic benefit, you can reroll the die if it rolls a 1, and you must use the new roll.",
+      "fr": "Lorsque vous lancez un dé pour déterminer les points de vie rendus par un sort ou par le bénéfice Médecin de bataille de ce don, vous pouvez relancer un résultat de 1 ; vous devez alors utiliser le nouveau résultat.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/healer · relevé du 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire"
+    },
+    {
+      "id": "feat.catalogue.healer.169",
+      "en": "Healing Rerolls.",
+      "fr": "Retirage des soins.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/healer · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.spell-sniper.170",
+      "en": "Your attack rolls for spells ignore Half Cover and Three-Quarters Cover.",
+      "fr": "Vos jets d’attaque de sort ignorent les Abris partiels et les Abris supérieurs.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/spell-sniper · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.sharpshooter.171",
+      "en": "Bypass Cover.",
+      "fr": "Contournement d’abri.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/sharpshooter · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.spell-sniper.172",
+      "en": "Being within 5 feet of an enemy doesn't impose Disadvantage on your attack rolls with spells.",
+      "fr": "La présence d’un ennemi à 5 feet ou moins de vous n’impose pas le Désavantage à vos jets d’attaque de sort.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/spell-sniper · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.spell-sniper.173",
+      "en": "Casting in Melee.",
+      "fr": "Incantation au corps à corps.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/spell-sniper · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.spell-sniper.174",
+      "en": "When you cast a spell that has a range of at least 10 feet and requires you to make an attack roll, you can increase the spell's range by 60 feet.",
+      "fr": "Lorsque vous lancez un sort d’une portée d’au moins 10 feet qui nécessite un jet d’attaque, vous pouvez augmenter sa portée de 60 feet.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/spell-sniper · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.spell-sniper.175",
+      "en": "Increased Range.",
+      "fr": "Portée améliorée.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/spell-sniper · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.war-caster.183",
+      "en": "You have Advantage on Constitution saving throws that you make to maintain your Concentration.",
+      "fr": "Vous avez l’Avantage aux jets de sauvegarde de Constitution pour maintenir votre Concentration.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/war-caster · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.war-caster.185",
+      "en": "When a creature provokes an Opportunity Attack from you by leaving your reach, you can take a Reaction to cast a spell at the creature, rather than making an Opportunity Attack. The spell must have a casting time of one action and must target only that creature.",
+      "fr": "Lorsqu’une créature provoque de votre part une Attaque d’opportunité en quittant votre allonge, vous pouvez entreprendre une Réaction pour lancer un sort sur elle au lieu d’effectuer cette attaque. Le sort doit avoir un temps d’incantation d’une action et ne cibler que cette créature.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/war-caster · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.war-caster.186",
+      "en": "Reactive Spell.",
+      "fr": "Sort réactif.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/war-caster · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.war-caster.187",
+      "en": "Somatic Components.",
+      "fr": "Composantes somatiques.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/war-caster · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.ritual-caster.188",
+      "en": "Increase your Intelligence, Wisdom, or Charisma by 1, to a maximum of 20.",
+      "fr": "Augmentez votre Intelligence, votre Sagesse ou votre Charisme de 1, jusqu’à un maximum de 20.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/ritual-caster · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.ritual-caster.189",
+      "en": "Choose a number of level 1 spells equal to your Proficiency Bonus that have the Ritual tag. You always have those spells prepared, and you can cast them with any spell slots you have. The spells' spellcasting ability is the ability increased by this feat. Whenever your Proficiency Bonus increases thereafter, you can add an additional level 1 spell with the Ritual tag to the spells always prepared with this feature.",
+      "fr": "Choisissez un nombre de sorts de niveau 1 dotés de l’étiquette Rituel égal à votre bonus de maîtrise. Vous avez toujours ces sorts préparés et pouvez les lancer avec vos emplacements de sort. Leur caractéristique d’incantation est celle que ce don augmente. Chaque fois que votre bonus de maîtrise augmente, vous pouvez ajouter un sort de niveau 1 doté de l’étiquette Rituel aux sorts toujours préparés grâce à cette aptitude.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/ritual-caster · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.ritual-caster.190",
+      "en": "Ritual Spells.",
+      "fr": "Sorts rituels.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/ritual-caster · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.ritual-caster.191",
+      "en": "With this benefit, you can cast a Ritual spell that you have prepared using its regular casting time rather than the extended time for a Ritual. Doing so doesn't require a spell slot. Once you cast the spell in this way, you can't use this benefit again until you finish a Long Rest.",
+      "fr": "Vous pouvez lancer un sort Rituel que vous avez préparé avec son temps d’incantation normal, sans le temps supplémentaire du Rituel. Cela ne dépense pas d’emplacement de sort. Une fois cet avantage utilisé pour lancer un sort ainsi, vous devez terminer un Repos long avant de pouvoir l’utiliser de nouveau.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/ritual-caster · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.ritual-caster.192",
+      "en": "Quick Ritual.",
+      "fr": "Rituel rapide.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/ritual-caster · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.polearm-master.195",
+      "en": "Immediately after you take the Attack action and attack with a Quarterstaff, a Spear, or a weapon that has the Heavy and Reach properties, you can use a Bonus Action to make a melee attack with the opposite end of the weapon. The weapon deals Bludgeoning damage, and the weapon's damage die for this attack is a d4.",
+      "fr": "Immédiatement après avoir entrepris l’action Attaquer et attaqué avec un Bâton, une Lance ou une arme dotée des propriétés Lourde et Allonge, vous pouvez effectuer une attaque de corps à corps avec l’autre extrémité de l’arme par une action Bonus. L’arme inflige alors des dégâts contondants et son dé de dégâts pour cette attaque est un d4.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/polearm-master · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.polearm-master.196",
+      "en": "Pole Strike.",
+      "fr": "Frappe double.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/polearm-master · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.polearm-master.197",
+      "en": "While you're holding a Quarterstaff, a Spear, or a weapon that has the Heavy and Reach properties, you can take a Reaction to make one melee attack against a creature that enters the reach you have with that weapon.",
+      "fr": "Tant que vous tenez un Bâton, une Lance ou une arme dotée des propriétés Lourde et Allonge, vous pouvez entreprendre une Réaction pour effectuer une attaque de corps à corps contre une créature qui entre dans l’allonge de cette arme.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/polearm-master · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.polearm-master.198",
+      "en": "Reactive Strike.",
+      "fr": "Frappe réactive.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/polearm-master · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.medium-armor-master.204",
+      "en": "While you're wearing Medium armor, you can add 3, rather than 2, to your AC if you have a Dexterity score of 16 or higher.",
+      "fr": "Tant que vous portez une armure intermédiaire, vous pouvez ajouter 3 à votre CA, au lieu de 2, si votre Dextérité est de 16 ou plus.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/medium-armor-master · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.medium-armor-master.205",
+      "en": "Dexterous Wearer.",
+      "fr": "Porteur agile.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/medium-armor-master · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.heavy-armor-master.206",
+      "en": "When you're hit by an attack while you're wearing Heavy armor, any Bludgeoning, Piercing, and Slashing damage dealt to you by that attack is reduced by an amount equal to your Proficiency Bonus.",
+      "fr": "Lorsque vous êtes touché par une attaque alors que vous portez une armure lourde, les dégâts contondants, perforants et tranchants de cette attaque sont réduits d’un montant égal à votre bonus de maîtrise.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/heavy-armor-master · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.heavy-armor-master.207",
+      "en": "Damage Reduction.",
+      "fr": "Réduction des dégâts.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/heavy-armor-master · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.shield-master.208",
+      "en": "If you attack a creature within 5 feet of you as part of the Attack action and hit with a Melee weapon, you can immediately bash the target with your Shield if it's equipped, forcing the target to make a Strength saving throw (DC 8 plus your Strength modifier and Proficiency Bonus). On a failed save, you either push the target 5 feet from you or cause it to have the Prone condition (your choice). You can use this benefit only once on each of your turns.",
+      "fr": "Si vous touchez une créature à 5 feet ou moins de vous avec une arme de corps à corps dans le cadre de l’action Attaquer, vous pouvez immédiatement la heurter avec votre Bouclier si vous en êtes équipé. La cible doit effectuer un jet de sauvegarde de Force, dont le DD est égal à 8 + votre modificateur de Force + votre bonus de maîtrise. En cas d’échec, vous la repoussez de 5 feet ou lui infligez l’état À terre, au choix. Vous ne pouvez utiliser cet avantage qu’une fois à chacun de vos tours.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/shield-master · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.shield-master.209",
+      "en": "Shield Bash.",
+      "fr": "Coup de bouclier.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/shield-master · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.shield-master.210",
+      "en": "If you're subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you can take a Reaction to take no damage if you succeed on the saving throw and are wielding a Shield.",
+      "fr": "Si vous subissez un effet qui permet un jet de sauvegarde de Dextérité pour ne subir que la moitié des dégâts, vous pouvez entreprendre une Réaction pour ne subir aucun dégât si vous réussissez ce jet et tenez un Bouclier.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/shield-master · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.shield-master.211",
+      "en": "Interpose Shield.",
+      "fr": "Interposition de bouclier.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/shield-master · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.crossbow-expert.212",
+      "en": "You ignore the Loading property of the Hand Crossbow, Heavy Crossbow, and Light Crossbow (all called crossbows elsewhere in this feat). If you're holding one of them, you can load a piece of ammunition into it even if you lack a free hand.",
+      "fr": "Vous ignorez la propriété Chargement des Arbalètes de poing, lourdes et légères, appelées collectivement arbalètes dans ce don. Si vous tenez une de ces armes, vous pouvez la charger d’une munition même sans main libre.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/crossbow-expert · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.crossbow-expert.213",
+      "en": "Ignore Loading.",
+      "fr": "Chargement rapide.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/crossbow-expert · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.crossbow-expert.214",
+      "en": "Being within 5 feet of an enemy doesn't impose Disadvantage on your attack rolls with crossbows.",
+      "fr": "La présence d’un ennemi à 5 feet ou moins de vous n’impose pas le Désavantage à vos jets d’attaque avec des arbalètes.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/crossbow-expert · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.sharpshooter.215",
+      "en": "Firing in Melee.",
+      "fr": "Tir au corps à corps.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/sharpshooter · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.crossbow-expert.216",
+      "en": "When you make the extra attack of the Light property, you can add your ability modifier to the damage of the extra attack if that attack is with a crossbow that has the Light property and you aren't already adding that modifier to the damage.",
+      "fr": "Lorsque vous effectuez l’attaque supplémentaire de la propriété Légère, vous pouvez ajouter votre modificateur de caractéristique aux dégâts si vous attaquez avec une arbalète dotée de cette propriété et que vous n’ajoutez pas déjà ce modificateur aux dégâts.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/crossbow-expert · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.crossbow-expert.217",
+      "en": "Dual Wielding.",
+      "fr": "Arbalète secondaire.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/crossbow-expert · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.speedy.218",
+      "en": "Increase your Dexterity or Constitution score by 1, to a maximum of 20.",
+      "fr": "Augmentez votre Dextérité ou votre Constitution de 1, jusqu’à un maximum de 20.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/speedy · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.speedy.219",
+      "en": "Speed Increase.",
+      "fr": "Vitesse améliorée.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/speedy · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.speedy.220",
+      "en": "When you take the Dash action on your turn, Difficult Terrain doesn't cost you extra movement for the rest of that turn.",
+      "fr": "Lorsque vous entreprenez l’action Foncer à votre tour, le Terrain difficile ne vous coûte aucun déplacement supplémentaire jusqu’à la fin de ce tour.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/speedy · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.speedy.221",
+      "en": "Dash Over Difficult Terrain.",
+      "fr": "Pointe sur Terrain difficile.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/speedy · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.speedy.222",
+      "en": "Opportunity Attacks have Disadvantage against you.",
+      "fr": "Les Attaques d’opportunité contre vous subissent le Désavantage.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/speedy · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.speedy.223",
+      "en": "Agile Movement.",
+      "fr": "Déplacement agile.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/speedy · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.observant.228",
+      "en": "Increase your Intelligence or Wisdom score by 1, to a maximum of 20.",
+      "fr": "Augmentez votre Intelligence ou votre Sagesse de 1, jusqu’à un maximum de 20.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/observant · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.observant.229",
+      "en": "Choose one of the following skills: Insight, Investigation, or Perception. If you lack proficiency with the chosen skill, you gain proficiency in it, and if you already have proficiency in it, you gain Expertise in it.",
+      "fr": "Choisissez une compétence parmi Intuition, Investigation ou Perception. Si vous n’en avez pas la maîtrise, vous la gagnez ; si vous l’avez déjà, vous gagnez l’Expertise dans cette compétence.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/observant · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.observant.230",
+      "en": "Keen Observer.",
+      "fr": "Observateur attentif.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/observant · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.observant.231",
+      "en": "You can take the Search Action as a Bonus Action.",
+      "fr": "Vous pouvez entreprendre l’action Chercher par une action Bonus.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/observant · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.observant.232",
+      "en": "Quick Search.",
+      "fr": "Observation rapide.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/observant · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.moderately-armored.233",
+      "en": "You gain training with Medium armor.",
+      "fr": "Vous gagnez la formation aux armures intermédiaires.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/moderately-armored · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.heavily-armored.234",
+      "en": "Armor Training.",
+      "fr": "Formation aux armures.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/heavily-armored · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.lightly-armored.235",
+      "en": "You gain training with Light armor and Shields.",
+      "fr": "Vous gagnez la formation aux armures légères et aux Boucliers.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/lightly-armored · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.heavily-armored.236",
+      "en": "You gain training with Heavy armor.",
+      "fr": "Vous gagnez la formation aux armures lourdes.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/heavily-armored · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.resilient.237",
+      "en": "Choose one ability in which you lack saving throw proficiency. Increase the chosen ability score by 1, to a maximum of 20.",
+      "fr": "Choisissez une caractéristique dont vous n’avez pas la maîtrise des jets de sauvegarde. Augmentez sa valeur de 1, jusqu’à un maximum de 20.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/resilient · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.resilient.238",
+      "en": "You gain saving throw proficiency with the chosen ability.",
+      "fr": "Vous gagnez la maîtrise des jets de sauvegarde de la caractéristique choisie.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/resilient · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.sentinel.240",
+      "en": "Immediately after a creature within 5 feet of you takes the Disengage Action or hits a target other than you with an attack, you can make an Opportunity Attack against that creature.",
+      "fr": "Immédiatement après qu’une créature à 5 feet ou moins de vous entreprend l’action Se désengager ou touche une cible autre que vous avec une attaque, vous pouvez effectuer une Attaque d’opportunité contre elle.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/sentinel · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.sentinel.241",
+      "en": "Guardian.",
+      "fr": "Gardien.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/sentinel · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.sentinel.242",
+      "en": "When you hit a creature with an Opportunity Attack, the creature's Speed becomes 0 for the rest of the current turn.",
+      "fr": "Lorsque vous touchez une créature avec une Attaque d’opportunité, sa Vitesse devient 0 jusqu’à la fin du tour en cours.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/sentinel · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.telekinetic.243",
+      "en": "You learn the Mage Hand spell. You can cast it without Verbal or Somatic components, you can make the spectral hand Invisible, and its range and the distance it can be away from you both increase by 30 feet when you cast it*. The spell's spellcasting ability is the ability increased by this feat.",
+      "fr": "Vous apprenez le sort Main de mage. Vous pouvez le lancer sans composantes verbales ni somatiques et rendre la main spectrale Invisible. Lorsque vous lancez ce sort, sa portée et la distance maximale entre vous et la main augmentent toutes deux de 30 feet. Sa caractéristique d’incantation est celle que ce don augmente.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/telekinetic · relevé du 13 octobre 2026",
+      "variants": [
+        "You learn the Mage Hand spell. You can cast it without Verbal or Somatic components, you can make the spectral hand Invisible, and its range and the distance it can be away from you both increase by 30 feet when you cast it. The spell's spellcasting ability is the ability increased by this feat."
+      ]
+    },
+    {
+      "id": "feat.catalogue.telekinetic.244",
+      "en": "Minor Telekinesis.",
+      "fr": "Télékinésie mineure.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/telekinetic · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.telekinetic.245",
+      "en": "As a Bonus Action, you can telekinetically shove one creature you can see within 30 feet of yourself. When you do so, the target must succeed on a Strength saving throw (DC 8 plus the ability modifier of the score increased by this feat and your Proficiency Bonus) or be moved 5 feet toward or away from you.",
+      "fr": "Par une action Bonus, vous pouvez bousculer par télékinésie une créature que vous voyez dans un rayon de 30 feet. Elle doit réussir un jet de sauvegarde de Force, dont le DD est égal à 8 + le modificateur de la caractéristique augmentée par ce don + votre bonus de maîtrise, sous peine d’être déplacée de 5 feet vers vous ou à l’opposé.",
+      "source": "Traduction proposée · Bourrade télékinétique 2024 ; distance vérifiée à 1,50 m (5 feet) dans https://www.aidedd.org/feat/fr/telekinesiste · 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.telekinetic.246",
+      "en": "Telekinetic Shove.",
+      "fr": "Bourrade télékinétique.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/telekinetic · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.telepathic.247",
+      "en": "You can speak telepathically to any creature you can see within 60 feet of yourself. Your telepathic utterances are in a language you know, and the creature understands you only if it knows that language. Your communication doesn't give the creature the ability lo respond to you telepathically.",
+      "fr": "Vous pouvez parler par télépathie à toute créature que vous voyez dans un rayon de 60 feet. Vous utilisez une langue que vous connaissez et la créature ne vous comprend que si elle connaît cette langue. Cette communication ne lui donne pas la capacité de vous répondre par télépathie.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/telepathic · relevé du 13 octobre 2026",
+      "variants": [
+        "You can speak telepathically to any creature you can see within 60 feet of yourself. Your telepathic utterances are in a language you know, and the creature understands you only if it knows that language. Your communication doesn't give the creature the ability to respond to you telepathically."
+      ]
+    },
+    {
+      "id": "feat.catalogue.telepathic.248",
+      "en": "Telepathic Utterance.",
+      "fr": "Parole télépathique.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/telepathic · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.telepathic.249",
+      "en": "You always have the Detect Thoughts spell prepared. You can cast it without a spell slot or spell components, and you must finish a Long Rest before you can cast it in this way again. You can also cast it using spell slots you have of the appropriate level. Your spellcasting ability for the spell is the ability increased by this feat.",
+      "fr": "Vous avez toujours le sort Détection des pensées préparé. Vous pouvez le lancer sans emplacement de sort ni composantes, puis devez terminer un Repos long avant de pouvoir le lancer de nouveau ainsi. Vous pouvez également le lancer avec vos emplacements du niveau approprié. Sa caractéristique d’incantation est celle que ce don augmente.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/telepathic · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.telepathic.250",
+      "en": "Detect Thoughts.",
+      "fr": "Détection des pensées.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/telepathic · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.sharpshooter.251",
+      "en": "Your ranged attacks with weapons ignore Half Cover and Three-Quarters Cover.",
+      "fr": "Vos attaques à distance avec des armes ignorent les Abris partiels et les Abris supérieurs.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/sharpshooter · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.sharpshooter.252",
+      "en": "Being within 5 feet of an enemy doesn't impose Disadvantage on your attack rolls with Ranged weapons.",
+      "fr": "La présence d’un ennemi à 5 feet ou moins de vous n’impose pas le Désavantage à vos jets d’attaque avec des armes à distance.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/sharpshooter · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.sharpshooter.253",
+      "en": "Attacking at long range doesn't impose Disadvantage on your attack rolls with Ranged weapons.",
+      "fr": "Attaquer à longue portée n’impose pas le Désavantage à vos jets d’attaque avec des armes à distance.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/sharpshooter · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.sharpshooter.254",
+      "en": "Long Shots.",
+      "fr": "Longue portée.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/sharpshooter · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.slasher.255",
+      "en": "Once per turn when you hit a creature with an attack that deals Slashing damage, you can reduce the Speed of that creature by 10 feet until the start of your next turn.",
+      "fr": "Une fois par tour, lorsque vous touchez une créature avec une attaque qui inflige des dégâts tranchants, vous pouvez réduire sa Vitesse de 10 feet jusqu’au début de votre prochain tour.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/slasher · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.slasher.256",
+      "en": "Hamstring.",
+      "fr": "Coupe-jarret.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/slasher · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.slasher.257",
+      "en": "When you score a Critical Hit that deals Slashing damage to a creature, it has Disadvantage on attack rolls until the start of your next turn.",
+      "fr": "Lorsque vous infligez un Coup critique qui cause des dégâts tranchants à une créature, elle subit le Désavantage aux jets d’attaque jusqu’au début de votre prochain tour.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/slasher · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.mage-slayer.258",
+      "en": "When you damage a creature that is concentrating, it has Disadvantage on the saving throw it makes to maintain Concentration.",
+      "fr": "Lorsque vous infligez des dégâts à une créature qui se concentre, elle subit le Désavantage au jet de sauvegarde pour maintenir sa Concentration.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/mage-slayer · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.mage-slayer.259",
+      "en": "Concentration Breaker.",
+      "fr": "Briseur de concentration.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/mage-slayer · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.mage-slayer.260",
+      "en": "If you fail an Intelligence, a Wisdom, or a Charisma saving throw, you can cause yourself to succeed instead. Once you use this benefit, you can't use it again until you finish a Short or Long Rest.",
+      "fr": "Si vous ratez un jet de sauvegarde d’Intelligence, de Sagesse ou de Charisme, vous pouvez décider de le réussir à la place. Une fois cet avantage utilisé, vous devez terminer un Repos court ou long avant de pouvoir l’utiliser de nouveau.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/mage-slayer · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.mage-slayer.261",
+      "en": "Guarded Mind.",
+      "fr": "Esprit préservé.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/mage-slayer · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.mimicry",
+      "kind": "term",
+      "en": "Mimicry",
+      "fr": "Imitation",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.fey-magic",
+      "kind": "term",
+      "en": "Fey Magic",
+      "fr": "Magie des fées",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.shadow-magic",
+      "kind": "term",
+      "en": "Shadow Magic",
+      "fr": "Magie de l’Ombre",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.enhanced-unarmed-strike",
+      "kind": "term",
+      "en": "Enhanced Unarmed Strike",
+      "fr": "Frappe à mains nues améliorée",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.damage-rerolls",
+      "kind": "term",
+      "en": "Damage Rerolls",
+      "fr": "Relancer des dégâts",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.improvised-weaponry",
+      "kind": "term",
+      "en": "Improvised Weaponry",
+      "fr": "Armement improvisé",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.enhanced-critical",
+      "kind": "term",
+      "en": "Enhanced Critical",
+      "fr": "Critique renforcé",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.advantage",
+      "kind": "term",
+      "en": "Advantage",
+      "fr": "Avantage",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.disadvantage",
+      "kind": "term",
+      "en": "Disadvantage",
+      "fr": "Désavantage",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.cook-s-utensils",
+      "kind": "term",
+      "en": "Cook's Utensils",
+      "fr": "Ustensiles de cuisinier",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.replenishing-meal",
+      "kind": "term",
+      "en": "Replenishing Meal",
+      "fr": "Repas reconstituant",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.bolstering-treats",
+      "kind": "term",
+      "en": "Bolstering Treats",
+      "fr": "Friandises galvanisantes",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.enhanced-dual-wielding",
+      "kind": "term",
+      "en": "Enhanced Dual Wielding",
+      "fr": "Combat à deux armes amélioré",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.quick-draw",
+      "kind": "term",
+      "en": "Quick Draw",
+      "fr": "Dégainage rapide",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.mounted-strike",
+      "kind": "term",
+      "en": "Mounted Strike",
+      "fr": "Frappe montée",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.leap-aside",
+      "kind": "term",
+      "en": "Leap Aside",
+      "fr": "Pas de côté",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.veer",
+      "kind": "term",
+      "en": "Veer",
+      "fr": "Déviation",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.fog-of-war",
+      "kind": "term",
+      "en": "Fog of War",
+      "fr": "Brouillard de guerre",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.sniper",
+      "kind": "term",
+      "en": "Sniper",
+      "fr": "Tireur discret",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.parry",
+      "kind": "term",
+      "en": "Parry",
+      "fr": "Parade",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.puncture",
+      "kind": "term",
+      "en": "Puncture",
+      "fr": "Perforation",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.punch-and-grab",
+      "kind": "term",
+      "en": "Punch and Grab",
+      "fr": "Frappe et empoignade",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.attack-advantage",
+      "kind": "term",
+      "en": "Attack Advantage",
+      "fr": "Attaque avec Avantage",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.fast-wrestler",
+      "kind": "term",
+      "en": "Fast Wrestler",
+      "fr": "Lutteur rapide",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.potent-poison",
+      "kind": "term",
+      "en": "Potent Poison",
+      "fr": "Poison virulent",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.brew-poison",
+      "kind": "term",
+      "en": "Brew Poison",
+      "fr": "Préparation de poison",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.lore-knowledge",
+      "kind": "term",
+      "en": "Lore Knowledge",
+      "fr": "Érudition",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.quick-study",
+      "kind": "term",
+      "en": "Quick Study",
+      "fr": "Étude rapide",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.skill-proficiency",
+      "kind": "term",
+      "en": "Skill Proficiency",
+      "fr": "Maîtrise de compétence",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.expertise",
+      "kind": "term",
+      "en": "Expertise",
+      "fr": "Expertise",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.improved-dash",
+      "kind": "term",
+      "en": "Improved Dash",
+      "fr": "Pointe améliorée",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.charge-attack",
+      "kind": "term",
+      "en": "Charge Attack",
+      "fr": "Attaque de charge",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.merge-with-shadows",
+      "kind": "term",
+      "en": "Merge with Shadows",
+      "fr": "Fusion avec les ombres",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.shadowy-form",
+      "kind": "term",
+      "en": "Shadowy Form",
+      "fr": "Forme d’ombre",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.free-casting",
+      "kind": "term",
+      "en": "Free Casting",
+      "fr": "Incantation gratuite",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.bolstering-performance",
+      "kind": "term",
+      "en": "Bolstering Performance",
+      "fr": "Représentation galvanisante",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.speedy-recovery",
+      "kind": "term",
+      "en": "Speedy Recovery",
+      "fr": "Récupération rapide",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.battle-medic",
+      "kind": "term",
+      "en": "Battle Medic",
+      "fr": "Médecin de bataille",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.healing-rerolls",
+      "kind": "term",
+      "en": "Healing Rerolls",
+      "fr": "Retirage des soins",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.bypass-cover",
+      "kind": "term",
+      "en": "Bypass Cover",
+      "fr": "Contournement d’abri",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.casting-in-melee",
+      "kind": "term",
+      "en": "Casting in Melee",
+      "fr": "Incantation au corps à corps",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.increased-range",
+      "kind": "term",
+      "en": "Increased Range",
+      "fr": "Portée améliorée",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.two-cantrips",
+      "kind": "term",
+      "en": "Two Cantrips",
+      "fr": "Deux sorts mineurs",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.reactive-spell",
+      "kind": "term",
+      "en": "Reactive Spell",
+      "fr": "Sort réactif",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.ritual-spells",
+      "kind": "term",
+      "en": "Ritual Spells",
+      "fr": "Sorts rituels",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.quick-ritual",
+      "kind": "term",
+      "en": "Quick Ritual",
+      "fr": "Rituel rapide",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.pole-strike",
+      "kind": "term",
+      "en": "Pole Strike",
+      "fr": "Frappe double",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.reactive-strike",
+      "kind": "term",
+      "en": "Reactive Strike",
+      "fr": "Frappe réactive",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.dexterous-wearer",
+      "kind": "term",
+      "en": "Dexterous Wearer",
+      "fr": "Porteur agile",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.damage-reduction",
+      "kind": "term",
+      "en": "Damage Reduction",
+      "fr": "Réduction des dégâts",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.shield-bash",
+      "kind": "term",
+      "en": "Shield Bash",
+      "fr": "Coup de bouclier",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.interpose-shield",
+      "kind": "term",
+      "en": "Interpose Shield",
+      "fr": "Interposition de bouclier",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.ignore-loading",
+      "kind": "term",
+      "en": "Ignore Loading",
+      "fr": "Chargement rapide",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.firing-in-melee",
+      "kind": "term",
+      "en": "Firing in Melee",
+      "fr": "Tir au corps à corps",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.dual-wielding",
+      "kind": "term",
+      "en": "Dual Wielding",
+      "fr": "Arbalète secondaire",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.dash-over-difficult-terrain",
+      "kind": "term",
+      "en": "Dash Over Difficult Terrain",
+      "fr": "Pointe sur Terrain difficile",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.agile-movement",
+      "kind": "term",
+      "en": "Agile Movement",
+      "fr": "Déplacement agile",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.keen-observer",
+      "kind": "term",
+      "en": "Keen Observer",
+      "fr": "Observateur attentif",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.quick-search",
+      "kind": "term",
+      "en": "Quick Search",
+      "fr": "Observation rapide",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.guardian",
+      "kind": "term",
+      "en": "Guardian",
+      "fr": "Gardien",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.minor-telekinesis",
+      "kind": "term",
+      "en": "Minor Telekinesis",
+      "fr": "Télékinésie mineure",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.telekinetic-shove",
+      "kind": "term",
+      "en": "Telekinetic Shove",
+      "fr": "Bourrade télékinétique",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.telepathic-utterance",
+      "kind": "term",
+      "en": "Telepathic Utterance",
+      "fr": "Parole télépathique",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.detect-thoughts",
+      "kind": "term",
+      "en": "Detect Thoughts",
+      "fr": "Détection des pensées",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.long-shots",
+      "kind": "term",
+      "en": "Long Shots",
+      "fr": "Longue portée",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.hamstring",
+      "kind": "term",
+      "en": "Hamstring",
+      "fr": "Coupe-jarret",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.concentration-breaker",
+      "kind": "term",
+      "en": "Concentration Breaker",
+      "fr": "Briseur de concentration",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.guarded-mind",
+      "kind": "term",
+      "en": "Guarded Mind",
+      "fr": "Esprit préservé",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.epic.additional.0",
+      "en": "All-Around Adept",
+      "fr": "Adepte universel",
+      "kind": "term",
+      "source": "Traduction proposée de l’extrait utilisateur · chapitre des Faveurs épiques Shard 2024 · 13 octobre 2026"
+    },
+    {
+      "id": "feat.epic.additional.1",
+      "en": "You gain proficiency in all skills.",
+      "fr": "Vous gagnez la maîtrise de toutes les compétences.",
+      "kind": "description",
+      "source": "Traduction proposée de l’extrait utilisateur · chapitre des Faveurs épiques Shard 2024 · 13 octobre 2026"
+    },
+    {
+      "id": "feat.epic.additional.2",
+      "en": "Choose one skill in which you lack Expertise. You gain Expertise in that skill.",
+      "fr": "Choisissez une compétence dans laquelle vous n’avez pas l’Expertise. Vous gagnez l’Expertise dans cette compétence.",
+      "kind": "description",
+      "source": "Traduction proposée de l’extrait utilisateur · chapitre des Faveurs épiques Shard 2024 · 13 octobre 2026"
+    },
+    {
+      "id": "feat.epic.additional.3",
+      "en": "Escape Artist",
+      "fr": "Art de l’évasion",
+      "kind": "term",
+      "source": "Traduction proposée de l’extrait utilisateur · chapitre des Faveurs épiques Shard 2024 · 13 octobre 2026"
+    },
+    {
+      "id": "feat.epic.additional.4",
+      "en": "As a Bonus Action, you can take the Disengage action, which also ends the Grappled condition on you.",
+      "fr": "Par une action Bonus, vous pouvez entreprendre l’action Se désengager, ce qui met également fin à l’état Agrippé que vous subissez.",
+      "kind": "description",
+      "source": "Traduction proposée de l’extrait utilisateur · chapitre des Faveurs épiques Shard 2024 · 13 octobre 2026"
+    },
+    {
+      "id": "feat.epic.additional.5",
+      "en": "Quickness",
+      "fr": "Célérité",
+      "kind": "term",
+      "source": "Traduction proposée de l’extrait utilisateur · chapitre des Faveurs épiques Shard 2024 · 13 octobre 2026"
+    },
+    {
+      "id": "feat.epic.additional.6",
+      "en": "Your Speed increases by 30 feet.",
+      "fr": "Votre Vitesse augmente de 30 feet.",
+      "kind": "description",
+      "source": "Traduction proposée de l’extrait utilisateur · chapitre des Faveurs épiques Shard 2024 · 13 octobre 2026"
+    },
+    {
+      "id": "feat.epic.additional.7",
+      "en": "You have Truesight with a range of 60 feet.",
+      "fr": "Vous disposez de la Vision véritable sur une portée de 60 feet.",
+      "kind": "description",
+      "source": "Traduction proposée de l’extrait utilisateur · chapitre des Faveurs épiques Shard 2024 · 13 octobre 2026"
+    },
+    {
+      "id": "feat.epic.additional.8",
+      "en": "These feats are in the Epic Boon category.",
+      "fr": "Ces dons appartiennent à la catégorie des Faveurs épiques.",
+      "kind": "description",
+      "source": "Traduction proposée de l’extrait utilisateur · chapitre des Faveurs épiques Shard 2024 · 13 octobre 2026"
+    },
+    {
+      "id": "feat.crafter.table.variant.1",
+      "kind": "term",
+      "en": "Bell, Shovel, Tinder Box",
+      "fr": "Cloche, pelle, boîte à amadou",
+      "source": "Variantes des cellules de Façonnage rapide · référence anglaise AideDD Artisan · traduction proposée · 13 octobre 2026"
+    },
+    {
       "id": "feat.catalogue.crafter.4",
       "en": "Fast Crafting Table",
       "fr": "Table de Façonnage rapide",

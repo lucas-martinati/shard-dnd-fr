@@ -15,7 +15,7 @@ for path in tsv_sources():
     for line in path.read_text().splitlines():
         if line.count('|')==1 and len(line.split('|')[0])>=35:
             en,fr=line.split('|');reserved.add(key(en));existing_pairs.setdefault(key(en),fr)
-for filename in ['work/generated/feature-texts.json','work/generated/feat-texts.json','translations/dnd-2024/commun/objets/descriptions-srd.json']:
+for filename in ['work/generated/feature-texts.json','work/generated/feat-texts.json','translations/dnd-2024/phb/objets/descriptions-srd.json']:
     for row in json.loads((ROOT/filename).read_text()):
         reserved.add(key(row['en']));existing_pairs[key(row['en'])]=row['fr']
 pairs, ambiguous = {}, set()

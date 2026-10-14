@@ -1,33 +1,36 @@
 # Organisation des traductions
 
-Les nouveaux ajouts visent D&D 2024 : PHB en priorité, puis MM. Les trois livres restent distincts.
+Les traductions sont rangées en trois ensembles, avec l’interface Shard séparée :
 
-| Dossier | Rôle |
+| Dossier | Contenu |
 | --- | --- |
-| `dnd-2024/phb/` | Traductions rattachées au D&D 2024 PHB par les sources ou les fiches archivées |
-| `dnd-2024/mm/` | Traductions et titres d’aptitudes du D&D 2024 MM |
-| `dnd-2024/commun/` | Règles et terminologie 2024 partagées, notamment les références SRD ; attribution à un livre précis non établie pour tous les blocs |
-| `anciens/shard-player-guide-volume-1/` | Traductions rattachées au guide Shard, conservées pour compatibilité |
-| `anciens/commun/` | Variantes 2014 et dictionnaires historiques réutilisables |
-| `interface/` | Boutons, menus et autres libellés de l’interface Shard |
-| `commun/` | Correspondances partagées entre plusieurs livres ou éditions |
-| `a-classer/` | Correspondances dont le livre et l’édition ne sont pas établis, principalement des noms du catalogue d’armes |
+| `dnd-2024/phb/` | Classes, dons, espèces, sorts, équipement et règles du joueur 2024, y compris leur contenu SRD 5.2.1 |
+| `dnd-2024/mm/` | Bestiaire 2024 et titres bilingues d’aptitudes de monstres |
+| `2014/` | Corpus historique de compatibilité : guide Shard, variantes 2014 et lexique ancien ou non spécifique à une édition |
+| `interface/` | Boutons, menus et libellés de l’interface Shard |
 
-Chaque ensemble conserve ses catégories : classes, dons, espèces, sorts, armes, objets, monstres et règles. Un texte partagé reste stocké une seule fois. Le script choisit sa traduction à partir de l’anglais exact ; le rangement n’actualise jamais les effets d’une ancienne règle.
+Chaque ensemble est organisé par catégorie : classes, dons, espèces, sorts, armes, objets, monstres et règles. Les dossiers `commun`, `anciens` et `a-classer` ont été absorbés dans ces ensembles.
+
+## Rangement et provenance
+
+Le dossier choisit un emplacement de maintenance unique. Il ne déclare pas qu’un texte figure exclusivement dans un livre. Un même nom d’arme ou terme générique peut être utilisé en 2014 et en 2024 : il reste stocké une seule fois et le script le réutilise d’après son anglais exact.
+
+Les sources précises et éditions des entrées sont conservées. `any` signifie que la traduction n’est pas propre à une édition identifiée ; un rangement dans `2014/` ne remplace pas cette information par une attribution 2014. Les noms du catalogue d’armes sans formulation propre à une édition sont rangés dans le lexique historique. Les catégories de dons 2024 et les effets attestés 2024 rejoignent le PHB.
+
+Le guide Shard est une source du corpus historique, fondée majoritairement sur l’ancien SRD. Le dossier `2014/` ne prétend pas reproduire intégralement le PHB 2014, ni faire de tout contenu Shard un extrait de ce livre. Voir [le détail du classement](../audit/classement.json).
 
 ## Éditer une traduction
 
-Modifier le `traductions.json` du livre et de la catégorie concernés. Les packs sont détectés récursivement. L’édition peut être indiquée une fois par pack ; seules les exceptions la répètent. La source précise est obligatoire, soit dans l’entrée, soit au niveau du pack lorsqu’elle est commune à toutes ses entrées. Le format courant est implicite : `schemaVersion` n’a plus besoin d’être répété. Les anciens packs explicites restent acceptés.
+Modifier le `traductions.json` de l’ensemble et de la catégorie concernés. Les packs sont détectés récursivement. L’édition est définie une fois par pack, avec seulement les exceptions dans les entrées. La source précise est obligatoire, au niveau du pack ou de l’entrée. Le format courant est implicite ; les anciens packs avec `schemaVersion` explicite restent acceptés.
 
-Les TSV sont des dictionnaires de traduction conservés avec leur ordre de priorité. Les descriptions de dons du PHB et du guide sont séparées dans leurs fichiers `dons/descriptions.json`. Les références bilingues de sorts et d’équipement se trouvent dans `dnd-2024/commun/`. Les titres bilingues de monstres sont des données utilisées par le script, conservées dans `dnd-2024/mm/monstres/titres-aptitudes.json`.
+Les TSV sont les dictionnaires historiques dont l’ordre de priorité est conservé par le registre de génération. Les descriptions de dons sont séparées entre `2014/dons/descriptions.json` et `dnd-2024/phb/dons/descriptions.json`. Les descriptions bilingues de sorts et d’équipement 2024 se trouvent avec le PHB. Les titres bilingues d’aptitudes de monstres sont des données utilisées par le script, dans `dnd-2024/mm/monstres/`.
 
-## Distinguer les autres fichiers
+## Autres données
 
-- [Audit et inventaires](../audit/README.md) : fiches observées, identifiants des paragraphes, dates de relevé, suivi des trois livres et contrôles restants. Ces fichiers servent à la couverture et aux tests ; ils ne sont pas des packs de traductions.
-- [Sources de génération](../sources-generation/README.md) : catalogues de référence, correspondances de sections et textes servant à produire des variantes.
-- [Fichiers intermédiaires](../work/generated/README.md) : résultats régénérés par les outils ; modifier leurs sources plutôt que leur contenu.
-- `data/srd-5.2.1/` : extraits bilingues conservés en place. Leur évolution sera traitée séparément.
+- [Audit et inventaires](../audit/README.md) : relevés, dates, suivi des ensembles et contrôles restants.
+- [Sources de génération](../sources-generation/README.md) : catalogues et entrées techniques des générateurs.
+- [Résultats intermédiaires](../work/generated/README.md) : JSON reconstruits automatiquement.
+- [Exports distribués](../outputs/README.md) : userscript, métadonnées et exports JSON générés.
+- `data/srd-5.2.1/` : sources bilingues conservées en place, à traiter séparément.
 
-Les inventaires restent utiles lorsque leur contenu est traduit : ils permettent aux tests de détecter une régression. La méthode de rattachement et ses limites figurent dans [le classement](../audit/classement.json). Une édition `2024` seule ne prouve pas un livre précis ; les noms sans source vérifiable ne sont pas attribués par supposition.
-
-Exécuter `npm run translations:check`, `npm run build` et `npm test`. Voir [le guide d’ajout](../docs/AJOUTER-DES-TRADUCTIONS.md).
+Les inventaires restent utiles aux tests lorsque leurs textes sont traduits. Exécuter `npm run translations:check`, `npm run build` et `npm test`. Voir [le guide d’ajout](../docs/AJOUTER-DES-TRADUCTIONS.md).

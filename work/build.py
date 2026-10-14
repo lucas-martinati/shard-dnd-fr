@@ -61,7 +61,7 @@ catalog=json.loads((root/'sources-generation/catalogues/aidedd-2024.json').read_
 for r in catalog:
  if r['en']=='Witch Bolt':r['aliases'].append('Éclair de sorcière')
 emit_constant('AIDEDD_CATALOG',catalog)
-emit_constant('LEGACY_CATALOG',json.loads((root/'sources-generation/catalogues/anciens-2014.json').read_text()))
+emit_constant('LEGACY_CATALOG',json.loads((root/'sources-generation/catalogues/2014.json').read_text()))
 emit_constant('COMPLETE_TEXTS',json.loads((work/'generated/complete-texts.json').read_text()))
 monster_titles=json.loads((root/'translations/dnd-2024/mm/monstres/titres-aptitudes.json').read_text())['entries']
 emit_constant('MONSTER_ACTION_TITLES',monster_titles)

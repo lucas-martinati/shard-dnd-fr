@@ -3,6 +3,490 @@
   "edition": "2024",
   "entries": [
     {
+      "id": "fighter.second-wind.1",
+      "en": "You have a limited well of physical and mental stamina that you can draw on. As a Bonus Action, you can use it to regain Hit Points equal to 1d10 plus your Fighter level.",
+      "fr": "Vous disposez d’une réserve limitée d’endurance physique et mentale. Par une action Bonus, vous pouvez y puiser pour récupérer un nombre de points de vie égal à 1d10 + votre niveau de Guerrier.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "fighter.second-wind.2",
+      "en": "You can use this feature twice. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.",
+      "fr": "Vous pouvez utiliser cette aptitude deux fois. Vous récupérez une utilisation dépensée à la fin d’un Repos court, et toutes les utilisations dépensées à la fin d’un Repos long.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "fighter.second-wind.3",
+      "en": "When you reach certain Fighter levels, you gain more uses of this feature, as shown in the Second Wind column of the Fighter Features table.",
+      "fr": "À certains niveaux de Guerrier, vous gagnez des utilisations supplémentaires de cette aptitude, comme indiqué dans la colonne Second souffle de la table des aptitudes du Guerrier.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "fighter.mastery.1",
+      "en": "Your training with weapons allows you to use the mastery properties of three kinds of Simple or Martial weapons of your choice. Whenever you finish a Long Rest, you can practice weapon drills and change one of those weapon choices.",
+      "fr": "Votre entraînement vous permet d’utiliser les propriétés de Botte de trois types d’armes courantes ou de guerre de votre choix. À la fin d’un Repos long, vous pouvez vous entraîner pour remplacer l’un de ces choix d’armes.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "fighter.mastery.2",
+      "en": "When you reach certain Fighter levels, you gain the ability to use the mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Fighter Features table.",
+      "fr": "À certains niveaux de Guerrier, vous pouvez utiliser les propriétés de Botte de davantage de types d’armes, comme indiqué dans la colonne Bottes d’arme de la table des aptitudes du Guerrier.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "fighter.action-surge.1",
+      "en": "You can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action, except the Magic action.",
+      "fr": "Vous pouvez momentanément dépasser vos limites. À votre tour, vous pouvez entreprendre une action supplémentaire, à l’exception de l’action Magie.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "fighter.action-surge.2",
+      "en": "Once you use this feature, you can’t do so again until you finish a Short or Long Rest. Starting at level 17, you can use it twice before a rest but only once on a turn.",
+      "fr": "Après avoir utilisé cette aptitude, vous devez terminer un Repos court ou long avant de pouvoir l’utiliser de nouveau. À partir du niveau 17, vous pouvez l’utiliser deux fois entre deux repos, mais une seule fois par tour.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "fighter.tactical-mind",
+      "en": "You have a mind for tactics on and off the battlefield. When you fail an ability check, you can expend a use of your Second Wind to push yourself toward success. Rather than regaining Hit Points, you roll 1d10 and add the number rolled to the ability check, potentially turning it into a success. If the check still fails, this use of Second Wind isn’t expended.",
+      "fr": "Votre sens tactique vous sert sur le champ de bataille comme en dehors. Lorsque vous ratez un test de caractéristique, vous pouvez dépenser une utilisation de Second souffle pour tenter de réussir. Au lieu de récupérer des points de vie, lancez 1d10 et ajoutez le résultat au test, ce qui peut le transformer en réussite. Si le test échoue malgré tout, l’utilisation de Second souffle n’est pas dépensée.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "fighter.tactical-shift",
+      "en": "Whenever you activate your Second Wind with a Bonus Action, you can move up to half your Speed without provoking Opportunity Attacks.",
+      "fr": "Lorsque vous activez Second souffle par une action Bonus, vous pouvez vous déplacer jusqu’à la moitié de votre Vitesse sans provoquer d’attaques d’opportunité.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "fighter.indomitable.1",
+      "en": "If you fail a saving throw, you can reroll it with a bonus equal to your Fighter level. You must use the new roll, and you can’t use this feature again until you finish a Long Rest.",
+      "fr": "Si vous ratez un jet de sauvegarde, vous pouvez le relancer avec un bonus égal à votre niveau de Guerrier. Vous devez utiliser le nouveau résultat et terminer un Repos long avant de pouvoir réutiliser cette aptitude.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "fighter.indomitable.2",
+      "en": "You can use this feature twice before a Long Rest starting at level 13 and three times before a Long Rest starting at level 17.",
+      "fr": "À partir du niveau 13, vous pouvez utiliser cette aptitude deux fois entre deux Repos longs. À partir du niveau 17, vous pouvez l’utiliser trois fois.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "bard.inspiration.1",
+      "en": "You can supernaturally inspire others through words, music, or dance. This inspiration is represented by your Bardic Inspiration die, which is a d6.",
+      "fr": "Vos paroles, votre musique ou votre danse peuvent inspirer les autres de façon surnaturelle. Cette inspiration est représentée par votre dé d’Inspiration bardique, un d6.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "bard.inspiration.2",
+      "en": "As a Bonus Action, you can inspire another creature within 60 feet of yourself who can see or hear you. That creature gains one of your Bardic Inspiration dice. A creature can have only one Bardic Inspiration die at a time.",
+      "fr": "Par une action Bonus, vous pouvez inspirer une autre créature à 60 feet ou moins de vous qui vous voit ou vous entend. Elle reçoit l’un de vos dés d’Inspiration bardique. Une créature ne peut posséder qu’un seul dé d’Inspiration bardique à la fois.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "bard.inspiration.3",
+      "en": "Once within the next hour when the creature fails a D20 Test, the creature can roll the Bardic Inspiration die and add the number rolled to the d20, potentially turning the failure into a success. A Bardic Inspiration die is expended when it’s rolled.",
+      "fr": "Une fois durant l’heure qui suit, lorsque la créature rate un Test de d20, elle peut lancer le dé d’Inspiration bardique et ajouter le résultat au d20, ce qui peut transformer l’échec en réussite. Le dé d’Inspiration bardique est dépensé lorsqu’il est lancé.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "bard.inspiration.4",
+      "en": "You can confer a Bardic Inspiration die a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.",
+      "fr": "Vous pouvez accorder un dé d’Inspiration bardique un nombre de fois égal à votre modificateur de Charisme, avec un minimum d’une fois. Vous récupérez toutes les utilisations dépensées à la fin d’un Repos long.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "bard.inspiration.5",
+      "en": "Your Bardic Inspiration die changes when you reach certain Bard levels, as shown in the Bardic Die column of the Bard Features table. The die becomes a d8 at level 5, a d10 at level 10, and a d12 at level 15.",
+      "fr": "Votre dé d’Inspiration bardique évolue à certains niveaux de Barde, comme indiqué dans la colonne Dé bardique de la table des aptitudes du Barde. Il devient un d8 au niveau 5, un d10 au niveau 10 et un d12 au niveau 15.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "bard.spellcasting.ability",
+      "en": "Charisma is your spellcasting ability for your Bard spells.",
+      "fr": "Le Charisme est votre caractéristique d’incantation pour vos sorts de Barde.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "bard.spellcasting.focus",
+      "en": "You can use a Musical Instrument as a Spellcasting Focus for your Bard spells.",
+      "fr": "Vous pouvez utiliser un instrument de musique comme focaliseur d’incantation pour vos sorts de Barde.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "bard.spellcasting.replace",
+      "en": "Whenever you gain a Bard level, you can replace one spell on your list with another Bard spell for which you have spell slots.",
+      "fr": "Chaque fois que vous gagnez un niveau de Barde, vous pouvez remplacer un sort de votre liste par un autre sort de Barde d’un niveau pour lequel vous disposez d’emplacements.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "bard.cantrips.replace",
+      "en": "Whenever you gain a Bard level, you can replace one of your cantrips with another cantrip of your choice from the Bard spell list.",
+      "fr": "Chaque fois que vous gagnez un niveau de Barde, vous pouvez remplacer l’un de vos sorts mineurs par un autre de votre choix dans la liste de sorts du Barde.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "bard.expertise.1",
+      "en": "You gain Expertise (see “Rules Glossary”) in two of your skill proficiencies of your choice. Performance and Persuasion are recommended if you have proficiency in them.",
+      "fr": "Vous gagnez l’Expertise (voir le « Glossaire des règles ») dans deux de vos maîtrises de compétence de votre choix. Représentation et Persuasion sont recommandées si vous les maîtrisez.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "bard.expertise.2",
+      "en": "At Bard level 9, you gain Expertise in two more of your skill proficiencies of your choice.",
+      "fr": "Au niveau 9 de Barde, vous gagnez l’Expertise dans deux autres maîtrises de compétence de votre choix.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "bard.jack.1",
+      "en": "You can add half your Proficiency Bonus (round down) to any ability check you make that uses a skill proficiency you lack and that doesn’t otherwise use your Proficiency Bonus.",
+      "fr": "Vous pouvez ajouter la moitié de votre bonus de maîtrise, arrondie à l’entier inférieur, aux tests de caractéristique utilisant une compétence que vous ne maîtrisez pas et auxquels votre bonus de maîtrise ne s’applique pas déjà.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "bard.jack.2",
+      "en": "For example, if you make a Strength (Athletics) check and lack Athletics proficiency, you can add half your Proficiency Bonus to the check.",
+      "fr": "Par exemple, si vous effectuez un test de Force (Athlétisme) sans maîtriser Athlétisme, vous pouvez ajouter la moitié de votre bonus de maîtrise au test.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "bard.font.1",
+      "en": "You now regain all your expended uses of Bardic Inspiration when you finish a Short or Long Rest.",
+      "fr": "Vous récupérez désormais toutes vos utilisations dépensées d’Inspiration bardique à la fin d’un Repos court ou long.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "bard.font.2",
+      "en": "In addition, you can expend a spell slot (no action required) to regain one expended use of Bardic Inspiration.",
+      "fr": "De plus, vous pouvez dépenser un emplacement de sort, sans action, pour récupérer une utilisation dépensée d’Inspiration bardique.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "bard.countercharm",
+      "en": "You can use musical notes or words of power to disrupt mind-influencing effects. If you or a creature within 30 feet of you fails a saving throw against an effect that applies the Charmed or Frightened condition, you can take a Reaction to cause the save to be rerolled, and the new roll has Advantage.",
+      "fr": "Vos notes de musique ou vos paroles de pouvoir peuvent perturber les effets qui influencent l’esprit. Si vous ou une créature à 30 feet ou moins de vous ratez un jet de sauvegarde contre un effet imposant l’état Charmé ou Effrayé, vous pouvez utiliser votre Réaction pour faire relancer cette sauvegarde. Le nouveau jet bénéficie de l’Avantage.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "paladin.lay-hands.1",
+      "en": "Your blessed touch can heal wounds. You have a pool of healing power that replenishes when you finish a Long Rest. With that pool, you can restore a total number of Hit Points equal to five times your Paladin level.",
+      "fr": "Votre toucher béni peut guérir les blessures. Vous disposez d’une réserve de guérison qui se reconstitue à la fin d’un Repos long. Elle vous permet de rendre un total de points de vie égal à cinq fois votre niveau de Paladin.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "paladin.lay-hands.2",
+      "en": "As a Bonus Action, you can touch a creature (which could be yourself) and draw power from the pool of healing to restore a number of Hit Points to that creature, up to the maximum amount remaining in the pool.",
+      "fr": "Par une action Bonus, vous pouvez toucher une créature, vous-même compris, et puiser dans votre réserve de guérison pour lui rendre des points de vie, jusqu’au maximum restant dans cette réserve.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "paladin.lay-hands.3",
+      "en": "You can also expend 5 Hit Points from the pool of healing power to remove the Poisoned condition from the creature; those points don’t also restore Hit Points to the creature.",
+      "fr": "Vous pouvez aussi dépenser 5 points de votre réserve de guérison pour mettre fin à l’état Empoisonné de la créature. Ces points ne lui rendent pas également des points de vie.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "barbarian.high.frenzy",
+      "en": "If you use Reckless Attack while your Rage is active, you deal extra damage to the first target you hit on your turn with a Strength-based attack. To determine the extra damage, roll a number of d6s equal to your Rage Damage bonus, and add them together. The damage has the same type as the weapon or Unarmed Strike used for the attack.",
+      "fr": "Si vous utilisez Témérité pendant votre Rage, vous infligez des dégâts supplémentaires à la première cible que vous touchez à votre tour avec une attaque utilisant la Force. Pour déterminer ces dégâts, lancez un nombre de d6 égal à votre bonus de dégâts de Rage et additionnez les résultats. Les dégâts sont du même type que ceux de l’arme ou de la Frappe à mains nues utilisée pour l’attaque.",
+      "source": "Traduction de l’extrait utilisateur · Barbare et Comédien 2024 ; passages SRD 5.2.1 pour les valeurs des dés · adaptations CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "barbarian.high.brutal-strike",
+      "en": "If you use Reckless Attack, you can forgo any Advantage on one Strength-based attack roll of your choice on your turn. The chosen attack roll mustn’t have Disadvantage. If the chosen attack roll hits, the target takes an extra 1d10 damage of the same type dealt by the weapon or Unarmed Strike, and you can cause one Brutal Strike effect of your choice. You have the following effect options.",
+      "fr": "Si vous utilisez Témérité, vous pouvez renoncer à tout Avantage sur un jet d’attaque utilisant la Force de votre choix à votre tour. Ce jet ne doit pas subir le Désavantage. Si l’attaque touche, la cible subit 1d10 dégâts supplémentaires du même type que ceux de l’arme ou de la Frappe à mains nues. Vous pouvez également appliquer un effet de Coup brutal de votre choix parmi les suivants.",
+      "source": "Traduction de l’extrait utilisateur · Barbare et Comédien 2024 ; passages SRD 5.2.1 pour les valeurs des dés · adaptations CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "barbarian.high.forceful-blow",
+      "en": "The target is pushed 15 feet straight away from you. You can then move up to half your Speed straight toward the target without provoking Opportunity Attacks.",
+      "fr": "La cible est repoussée de 15 feet en ligne droite. Vous pouvez ensuite vous déplacer jusqu’à la moitié de votre Vitesse en ligne droite vers elle sans provoquer d’attaques d’opportunité.",
+      "source": "Traduction de l’extrait utilisateur · Barbare et Comédien 2024 ; passages SRD 5.2.1 pour les valeurs des dés · adaptations CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "barbarian.high.hamstring-blow",
+      "en": "The target’s Speed is reduced by 15 feet until the start of your next turn. A target can be affected by only one Hamstring Blow at a time—the most recent one.",
+      "fr": "La Vitesse de la cible est réduite de 15 feet jusqu’au début de votre prochain tour. Une cible ne peut être affectée que par un seul Coup au jarret à la fois, le plus récent.",
+      "source": "Traduction de l’extrait utilisateur · Barbare et Comédien 2024 ; passages SRD 5.2.1 pour les valeurs des dés · adaptations CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "barbarian.high.retaliation",
+      "en": "When you take damage from a creature that is within 5 feet of you, you can take a Reaction to make one melee attack against that creature, using a weapon or an Unarmed Strike.",
+      "fr": "Lorsque vous subissez des dégâts d’une créature à 5 feet ou moins de vous, vous pouvez utiliser votre Réaction pour effectuer une attaque de corps à corps contre elle avec une arme ou une Frappe à mains nues.",
+      "source": "Traduction de l’extrait utilisateur · Barbare et Comédien 2024 ; passages SRD 5.2.1 pour les valeurs des dés · adaptations CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "barbarian.high.relentless-rage.1",
+      "en": "Your Rage can keep you fighting despite grievous wounds. If you drop to 0 Hit Points while your Rage is active and don’t die outright, you can make a DC 10 Constitution saving throw. If you succeed, your Hit Points instead change to a number equal to twice your Barbarian level.",
+      "fr": "Votre Rage vous permet de continuer à combattre malgré de graves blessures. Si vos points de vie tombent à 0 pendant votre Rage sans que vous mouriez sur le coup, vous pouvez effectuer un jet de sauvegarde de Constitution DD 10. En cas de réussite, vos points de vie deviennent à la place égaux à deux fois votre niveau de Barbare.",
+      "source": "Traduction de l’extrait utilisateur · Barbare et Comédien 2024 ; passages SRD 5.2.1 pour les valeurs des dés · adaptations CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "barbarian.high.relentless-rage.2",
+      "en": "Each time you use this feature after the first, the DC increases by 5. When you finish a Short or Long Rest, the DC resets to 10.",
+      "fr": "Chaque utilisation de cette aptitude après la première augmente le DD de 5. À la fin d’un Repos court ou long, le DD revient à 10.",
+      "source": "Traduction de l’extrait utilisateur · Barbare et Comédien 2024 ; passages SRD 5.2.1 pour les valeurs des dés · adaptations CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "barbarian.high.improved-brutal.1",
+      "en": "You have honed new ways to attack furiously. The following effects are now among your Brutal Strike options.",
+      "fr": "Vous avez perfectionné de nouvelles façons d’attaquer avec fureur. Les effets suivants s’ajoutent à vos options de Coup brutal.",
+      "source": "Traduction de l’extrait utilisateur · Barbare et Comédien 2024 ; passages SRD 5.2.1 pour les valeurs des dés · adaptations CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "barbarian.high.staggering-blow",
+      "en": "The target has Disadvantage on the next saving throw it makes, and it can’t make Opportunity Attacks until the start of your next turn.",
+      "fr": "La cible subit le Désavantage à son prochain jet de sauvegarde et ne peut pas effectuer d’attaques d’opportunité jusqu’au début de votre prochain tour.",
+      "source": "Traduction de l’extrait utilisateur · Barbare et Comédien 2024 ; passages SRD 5.2.1 pour les valeurs des dés · adaptations CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "barbarian.high.sundering-blow",
+      "en": "Before the start of your next turn, the next attack roll made by another creature against the target gains a +5 bonus to the roll. An attack roll can gain only one Sundering Blow bonus.",
+      "fr": "Avant le début de votre prochain tour, le prochain jet d’attaque effectué par une autre créature contre la cible bénéficie d’un bonus de +5. Un jet d’attaque ne peut bénéficier que d’un seul bonus de Coup déchirant.",
+      "source": "Traduction de l’extrait utilisateur · Barbare et Comédien 2024 ; passages SRD 5.2.1 pour les valeurs des dés · adaptations CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "barbarian.high.intimidating-presence.1",
+      "en": "As a Bonus Action, you can strike terror into others with your menacing presence and primal power. When you do so, each creature of your choice in a 30-foot Emanation originating from you must make a Wisdom saving throw (DC 8 plus your Strength modifier and Proficiency Bonus). On a failed save, a creature has the Frightened condition for 1 minute. At the end of each of the Frightened creature’s turns, the creature repeats the save, ending the effect on itself on a success.",
+      "fr": "Par une action Bonus, votre présence menaçante et votre puissance primale peuvent terrifier les autres. Chaque créature de votre choix dans une Émanation de 30 feet provenant de vous doit effectuer un jet de sauvegarde de Sagesse dont le DD est égal à 8 + votre modificateur de Force + votre bonus de maîtrise. En cas d’échec, elle subit l’état Effrayé pendant 1 minute. À la fin de chacun de ses tours, la créature Effrayée répète la sauvegarde et met fin à l’effet sur elle-même en cas de réussite.",
+      "source": "Traduction de l’extrait utilisateur · Barbare et Comédien 2024 ; passages SRD 5.2.1 pour les valeurs des dés · adaptations CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "barbarian.high.intimidating-presence.2",
+      "en": "Once you use this feature, you can’t use it again until you finish a Long Rest unless you expend a use of your Rage (no action required) to restore your use of it.",
+      "fr": "Après avoir utilisé cette aptitude, vous devez terminer un Repos long avant de pouvoir la réutiliser, à moins de dépenser une utilisation de Rage, sans action, pour en récupérer l’utilisation.",
+      "source": "Traduction de l’extrait utilisateur · Barbare et Comédien 2024 ; passages SRD 5.2.1 pour les valeurs des dés · adaptations CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "barbarian.high.intimidating-presence.recover",
+      "en": "Expend one use of your Rage to regain a use of your Intimidating Presence feature.",
+      "fr": "Dépensez une utilisation de Rage pour récupérer une utilisation de Présence intimidante.",
+      "source": "Traduction de l’extrait utilisateur · Barbare et Comédien 2024 ; passages SRD 5.2.1 pour les valeurs des dés · adaptations CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "barbarian.high.persistent-rage.1",
+      "en": "When you roll Initiative, you can regain all expended uses of Rage. After you regain uses of Rage in this way, you can’t do so again until you finish a Long Rest.",
+      "fr": "Lorsque vous lancez l’Initiative, vous pouvez récupérer toutes vos utilisations dépensées de Rage. Après les avoir récupérées ainsi, vous devez terminer un Repos long avant de pouvoir le faire de nouveau.",
+      "source": "Traduction de l’extrait utilisateur · Barbare et Comédien 2024 ; passages SRD 5.2.1 pour les valeurs des dés · adaptations CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "barbarian.high.persistent-rage.2",
+      "en": "In addition, your Rage is so fierce that it now lasts for 10 minutes without you needing to do anything to extend it from round to round. Your Rage ends early if you have the Unconscious condition (not just the Incapacitated condition) or don Heavy armor.",
+      "fr": "De plus, votre Rage est si intense qu’elle dure désormais 10 minutes sans que vous ayez besoin de la prolonger d’un round à l’autre. Elle prend fin prématurément si vous subissez l’état Inconscient, et pas simplement l’état Neutralisé, ou si vous revêtez une armure lourde.",
+      "source": "Traduction de l’extrait utilisateur · Barbare et Comédien 2024 ; passages SRD 5.2.1 pour les valeurs des dés · adaptations CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "barbarian.high.improved-brutal.2",
+      "en": "The extra damage of your Brutal Strike increases to 2d10. In addition, you can use two different Brutal Strike effects whenever you use your Brutal Strike feature.",
+      "fr": "Les dégâts supplémentaires de votre Coup brutal passent à 2d10. De plus, chaque fois que vous utilisez Coup brutal, vous pouvez appliquer deux effets différents de cette aptitude.",
+      "source": "Traduction de l’extrait utilisateur · Barbare et Comédien 2024 ; passages SRD 5.2.1 pour les valeurs des dés · adaptations CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "barbarian.high.indomitable-might",
+      "en": "If your total for a Strength check or Strength saving throw is less than your Strength score, you can use that score in place of the total.",
+      "fr": "Si le total d’un test de Force ou d’un jet de sauvegarde de Force est inférieur à votre valeur de Force, vous pouvez utiliser cette valeur à la place du total.",
+      "source": "Traduction de l’extrait utilisateur · Barbare et Comédien 2024 ; passages SRD 5.2.1 pour les valeurs des dés · adaptations CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "barbarian.high.primal-champion",
+      "en": "You embody primal power. Your Strength and Constitution scores increase by 4, to a maximum of 25.",
+      "fr": "Vous incarnez la puissance primale. Votre Force et votre Constitution augmentent de 4, jusqu’à un maximum de 25.",
+      "source": "Traduction de l’extrait utilisateur · Barbare et Comédien 2024 ; passages SRD 5.2.1 pour les valeurs des dés · adaptations CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "barbarian.high.mindless-rage",
+      "en": "You have Immunity to the Charmed and Frightened conditions while your Rage is active. If you’re Charmed or Frightened when you enter your Rage, the condition ends on you.",
+      "fr": "Pendant votre Rage, vous bénéficiez de l’Immunité aux états Charmé et Effrayé. Si vous subissez l’un de ces états lorsque vous entrez en Rage, cet état prend fin sur vous.",
+      "source": "Traduction de l’extrait utilisateur · Barbare et Comédien 2024 ; passages SRD 5.2.1 pour les valeurs des dés · adaptations CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "barbarian.label.0",
+      "kind": "term",
+      "en": "Forceful Blow",
+      "fr": "Coup appuyé",
+      "source": "Traduction de l’extrait utilisateur · Barbare et Comédien 2024 ; passages SRD 5.2.1 pour les valeurs des dés · adaptations CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "barbarian.label.1",
+      "kind": "term",
+      "en": "Hamstring Blow",
+      "fr": "Coup au jarret",
+      "source": "Traduction de l’extrait utilisateur · Barbare et Comédien 2024 ; passages SRD 5.2.1 pour les valeurs des dés · adaptations CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "barbarian.label.2",
+      "kind": "term",
+      "en": "Staggering Blow",
+      "fr": "Coup stupéfiant",
+      "source": "Traduction de l’extrait utilisateur · Barbare et Comédien 2024 ; passages SRD 5.2.1 pour les valeurs des dés · adaptations CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "barbarian.label.3",
+      "kind": "term",
+      "en": "Sundering Blow",
+      "fr": "Coup déchirant",
+      "source": "Traduction de l’extrait utilisateur · Barbare et Comédien 2024 ; passages SRD 5.2.1 pour les valeurs des dés · adaptations CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "barbarian.label.4",
+      "kind": "term",
+      "en": "Recover Intimidating Presence",
+      "fr": "Récupérer Présence intimidante",
+      "source": "Traduction de l’extrait utilisateur · Barbare et Comédien 2024 ; passages SRD 5.2.1 pour les valeurs des dés · adaptations CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "barbarian.label.5",
+      "kind": "term",
+      "en": "Impersonation",
+      "fr": "Imposture",
+      "source": "AideDD · titre du bénéfice du don Comédien 2024 · https://www.aidedd.org/feat/fr/comedien"
+    },
+    {
+      "id": "barbarian.label.6",
+      "kind": "term",
+      "en": "Mimicry",
+      "fr": "Imitation",
+      "source": "Traduction de l’extrait utilisateur · Barbare et Comédien 2024 ; passages SRD 5.2.1 pour les valeurs des dés · adaptations CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "rage-dragon-2024.rage.start",
+      "en": "You can imbue yourself with a primal power called Rage, a force that grants you extraordinary might and resilience. You can enter it as a Bonus Action if you aren’t wearing Heavy armor.",
+      "fr": "Vous pouvez vous imprégner d’une puissance primale appelée Rage, qui vous confère une force et une résistance extraordinaires. Vous pouvez entrer en Rage par une action Bonus si vous ne portez pas d’armure lourde.",
+      "source": "Traduction de l’extrait utilisateur et des passages SRD correspondants · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "rage-dragon-2024.rage.uses",
+      "en": "You can enter your Rage the number of times shown for your Barbarian level in the Rages column of the Barbarian Features table. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.",
+      "fr": "Vous pouvez entrer en Rage le nombre de fois indiqué pour votre niveau de Barbare dans la colonne Rages de la table des aptitudes du Barbare. Vous récupérez une utilisation dépensée à la fin d’un Repos court et toutes les utilisations dépensées à la fin d’un Repos long.",
+      "source": "Traduction de l’extrait utilisateur et des passages SRD correspondants · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "rage-dragon-2024.rage.rules",
+      "en": "While active, your Rage follows the rules below.",
+      "fr": "Tant qu’elle est active, votre Rage suit les règles ci-dessous.",
+      "source": "Traduction de l’extrait utilisateur et des passages SRD correspondants · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "rage-dragon-2024.rage.resistance",
+      "en": "You have Resistance to Bludgeoning, Piercing, and Slashing damage.",
+      "fr": "Vous bénéficiez de la Résistance aux dégâts contondants, perforants et tranchants.",
+      "source": "Traduction de l’extrait utilisateur et des passages SRD correspondants · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "rage-dragon-2024.rage.damage",
+      "en": "When you make an attack using Strength—with either a weapon or an Unarmed Strike—and deal damage to the target, you gain a bonus to the damage that increases as you gain levels as a Barbarian, as shown in the Rage Damage column of the Barbarian Features table.",
+      "fr": "Lorsque vous effectuez une attaque utilisant la Force, avec une arme ou une Frappe à mains nues, et infligez des dégâts à la cible, vous gagnez un bonus aux dégâts qui augmente avec vos niveaux de Barbare, comme indiqué dans la colonne Dégâts de Rage de la table des aptitudes du Barbare.",
+      "source": "Traduction de l’extrait utilisateur et des passages SRD correspondants · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "rage-dragon-2024.rage.advantage",
+      "en": "You have Advantage on Strength checks and Strength saving throws.",
+      "fr": "Vous avez l’Avantage aux tests de Force et aux jets de sauvegarde de Force.",
+      "source": "Traduction de l’extrait utilisateur et des passages SRD correspondants · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "rage-dragon-2024.rage.no-spells",
+      "en": "You can’t maintain Concentration, and you can’t cast spells.",
+      "fr": "Vous ne pouvez ni maintenir votre Concentration ni lancer de sorts.",
+      "source": "Traduction de l’extrait utilisateur et des passages SRD correspondants · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "rage-dragon-2024.rage.duration",
+      "en": "The Rage lasts until the end of your next turn, and it ends early if you don Heavy armor or have the Incapacitated condition. If your Rage is still active on your next turn, you can extend the Rage for another round by doing one of the following:",
+      "fr": "La Rage dure jusqu’à la fin de votre prochain tour. Elle prend fin prématurément si vous revêtez une armure lourde ou subissez l’état Neutralisé. Si elle est encore active à votre prochain tour, vous pouvez la prolonger d’un round en accomplissant l’une des actions suivantes :",
+      "source": "Traduction de l’extrait utilisateur et des passages SRD correspondants · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "rage-dragon-2024.rage.extend.attack",
+      "en": "Make an attack roll against an enemy.",
+      "fr": "Effectuer un jet d’attaque contre un ennemi.",
+      "source": "Traduction de l’extrait utilisateur et des passages SRD correspondants · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "rage-dragon-2024.rage.extend.save",
+      "en": "Force an enemy to make a saving throw.",
+      "fr": "Obliger un ennemi à effectuer un jet de sauvegarde.",
+      "source": "Traduction de l’extrait utilisateur et des passages SRD correspondants · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "rage-dragon-2024.rage.extend.bonus",
+      "en": "Take a Bonus Action to extend your Rage.",
+      "fr": "Utiliser une action Bonus pour prolonger votre Rage.",
+      "source": "Traduction de l’extrait utilisateur et des passages SRD correspondants · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "rage-dragon-2024.rage.extend.end",
+      "en": "Each time the Rage is extended, it lasts until the end of your next turn. You can maintain a Rage for up to 10 minutes.",
+      "fr": "Chaque fois que la Rage est prolongée, elle dure jusqu’à la fin de votre prochain tour. Vous pouvez la maintenir jusqu’à 10 minutes.",
+      "source": "Traduction de l’extrait utilisateur et des passages SRD correspondants · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "srd.classes.fighter.20.adaptation",
+      "en": "Your attack rolls with weapons and Unarmed Strikes can now score a Critical Hit on a roll of 18–20 on the d20.",
+      "fr": "Vos jets d’attaque avec des armes et à mains nues obtiennent désormais un Coup critique sur un résultat de 18–20 sur le d20.",
+      "source": "Adaptation du SRD 5.2.1 EN/FR · CC-BY-4.0 · nombres et ordre des dés conservés"
+    },
+    {
+      "id": "srd.classes.fighter.21.adaptation",
+      "en": "You attain the pinnacle of resilience in battle, giving you these benefits. Defy Death. You have Advantage on Death Saving Throws. Moreover, when you roll 18–20 on a Death Saving Throw, you gain the benefit of rolling a 20 on it. Heroic Rally. At the start of each of your turns, you regain Hit Points equal to 5 plus your Constitution modifier if you are Bloodied and have at least 1 Hit Point.",
+      "fr": "Vous atteignez le summum de l’endurance martiale, ce qui vous octroie les bénéfices suivants. Trompe-la-mort. Vous avez l’Avantage aux jets de sauvegarde contre la mort. De plus, lorsque vous obtenez 18–20 à un jet de sauvegarde contre la mort, vous bénéficiez des effets d’un résultat de 20. Résilience héroïque. Au début de chacun de vos tours, vous récupérez un nombre de points de vie égal à 5 + votre modificateur de Constitution si vous êtes En péril et avez au moins 1 point de vie.",
+      "source": "Adaptation du SRD 5.2.1 EN/FR · CC-BY-4.0 · nombres et ordre des dés conservés"
+    },
+    {
+      "id": "srd.classes.monk.19.adaptation",
+      "en": "When you roll Initiative and don’t use Uncanny Metabolism, you regain expended Focus Points until you have 4 if you have 3 or fewer.",
+      "fr": "Lorsque vous jouez l’Initiative sans recourir à Métabolisme surnaturel, vous récupérez des points de Credo dépensés jusqu’à en avoir 4, s’il vous en reste 3 ou moins.",
+      "source": "Adaptation du SRD 5.2.1 EN/FR · CC-BY-4.0 · nombres et ordre des dés conservés"
+    },
+    {
+      "id": "srd.classes.ranger.17.adaptation",
+      "en": "The damage die of your Hunter’s Mark is a d10 rather than a d6.",
+      "fr": "Le dé de dégâts de votre marque du chasseur est désormais un d10 au lieu d’un d6.",
+      "source": "Adaptation du SRD 5.2.1 EN/FR · CC-BY-4.0 · nombres et ordre des dés conservés"
+    },
+    {
+      "id": "srd.classes.rogue.14.adaptation",
+      "en": "You’ve practiced new ways to use your Sneak Attack deviously. The following effects are now among your Cunning Strike options. Daze (Cost: 2d6). The target must succeed on a Constitution saving throw, or on its next turn, it can do only one of the following: move or take an action or a Bonus Action. Knock Out (Cost: 6d6). The target must succeed on a Constitution saving throw, or it has the Unconscious condition for 1 minute or until it takes any damage. The Unconscious target repeats the save at the end of each of its turns, ending the effect on itself on a success. Obscure (Cost: 3d6). The target must succeed on a Dexterity saving throw, or it has the Blinded condition until the end of its next turn.",
+      "fr": "Vous avez appris de nouveaux coups bas pour « agrémenter » votre Attaque sournoise. Les effets ci-après figurent désormais dans vos options de Frappe malicieuse. Hébéter (coût : 2d6). La cible doit réussir un jet de sauvegarde de Constitution faute de quoi, à son tour suivant, elle ne pourra entreprendre que l’une des actions ci-après : déplacement, action ou action Bonus. Assommer (coût : 6d6). La cible doit réussir un jet de sauvegarde de Constitution, faute de quoi elle subit l’état Inconscient pendant 1 minute ou jusqu’à ce qu’elle subisse des dégâts. La cible réitère le JS à la fin de chacun de ses tours et met un terme à l’état Inconscient sur elle-même en cas de réussite. Aveugler (coût : 3d6). La cible doit réussir un jet de sauvegarde de Dextérité, faute de quoi elle subit l’état Aveuglé jusqu’à la fin de son tour suivant. ",
+      "source": "Adaptation du SRD 5.2.1 EN/FR · CC-BY-4.0 · nombres et ordre des dés conservés"
+    },
+    {
+      "id": "srd.classes.wizard.1.adaptation",
+      "en": "As a student of arcane magic, you have learned to cast spells. See “Spells” for the rules on spellcasting. The information below details how you use those rules with Wizard spells, which appear in the Wizard spell list later in the class’s description. Cantrips. You know three Wizard cantrips of your choice. Light, Mage Hand, and Ray of Frost are recommended. Whenever you finish a Long Rest, you can replace one of your cantrips from this feature with another Wizard cantrip of your choice. When you reach Wizard levels 4 and 10, you learn another Wizard cantrip of your choice, as shown in the Cantrips column of the Wizard Features table. Spellbook. Your wizardly apprenticeship culminated in the creation of a unique book: your spellbook. It is a Tiny object that weighs 3 pounds, contains 100 pages, and can be read only by you or someone casting Identify. You determine the book’s appearance and materials, such as a gilt-edged tome or a collection of vellum bound with twine. The book contains the level 1+ spells you know. It starts with six level 1 Wizard spells of your choice. Detect Magic, Feather Fall, Mage Armor, Magic Missile, Sleep, and Thunderwave are recommended. Whenever you gain a Wizard level after 1, add two Wizard spells of your choice to your spellbook. Each of these spells must be of a level for which you have spell slots, as shown in the Wizard Features table. The spells are the culmination of arcane research you do regularly. Spell Slots. The Wizard Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest. Prepared Spells of Level 1+. You prepare the list of level 1+ spells that are available for you to cast with this feature. To do so, choose four spells from your spellbook. The chosen spells must be of a level for which you have spell slots. The number of spells on your list increases as you gain Wizard levels, as shown in the Prepared Spells column of the Wizard Features table. Whenever that number increases, choose additional Wizard spells until the number of spells on your list matches the number in the table. The chosen spells must be of a level for which you have spell slots. For example, if you’re a level 3 Wizard, your list of prepared spells can include six spells of levels 1 and 2 in any combination, chosen from your spellbook. If another Wizard feature gives you spells that you always have prepared, those spells don’t count against the number of spells you can prepare with this feature, but those spells otherwise count as Wizard spells for you. Changing Your Prepared Spells. Whenever you finish a Long Rest, you can change your list of prepared spells, replacing any of the spells there with spells from your spellbook. Spellcasting Ability. Intelligence is your spellcasting ability for your Wizard spells. Spellcasting Focus. You can use an Arcane Focus or your spellbook as a Spellcasting Focus for your Wizard spells.",
+      "fr": "En tant qu’étudiant de la magie profane, vous avez appris à lancer des sorts. Reportez-vous à la section « Sorts » pour les règles d’incantation. Les informations ci-après expliquent comment utiliser ces règles avec les sorts de Magicien, qui figurent dans la liste Sorts de Magicien, plus loin dans le descriptif de la classe. Sorts mineurs. Vous connaissez trois sorts mineurs de Magicien de votre choix. Lumière, main du mage et rayon de givre sont recommandés. Chaque fois que vous terminez un Repos long, vous pouvez remplacer l’un de vos sorts mineurs de cette aptitude par un autre sort mineur de Magicien de votre choix. Lorsque vous atteignez les niveaux 4 et 10 de Magicien, vous apprenez un autre sort mineur de Magicien de votre choix, comme indiqué en colonne Sorts mineurs de la table « Aptitudes du Magicien ». Grimoire. Votre apprentissage de Magicien s’est conclu par la création d’un livre unique : votre grimoire. Cet objet de taille TP pèse 3 livres, contient 100 pages et ne peut être lu que par vous-même ou une tierce personne lançant le sort identification. Vous déterminez l’aspect et les matériaux employés dans la confection du grimoire : il peut s’agir d’un ouvrage doré à l’or fin comme d’un recueil de feuilles de vélin reliées par de la ficelle. Le grimoire contient les sorts du 1er niveau et plus que vous connaissez. Il commence avec six sorts de Magicien du 1er niveau de votre choix. Armure du mage, détection de la magie, feuille morte, projectile magique, sommeil et vague tonnante sont recommandés. Chaque fois que vous gagnez un niveau de Magicien après le niveau 1, ajoutez deux sorts de Magicien de votre choix à votre grimoire. Chacun doit être d’un niveau pour lequel vous disposez d’emplacements de sort, comme indiqué sur la table « Aptitudes du Magicien ». Ces sorts sont l’aboutissement des recherches arcaniques que vous menez régulièrement. Emplacements de sort. La table « Aptitudes du Magicien » vous indique le nombre d’emplacements de sort dont vous disposez pour lancer vos sorts du 1er niveau et supérieur. Vous récupérez tous les emplacements dépensés en terminant un Repos long. Sorts préparés du 1er niveau et plus. Vous devez préparer la liste des sorts du 1er niveau et supérieur que cette aptitude vous permet de lancer. À cette fin, choisissez quatre sorts de votre grimoire. Ces sorts doivent être d’un niveau pour lequel vous disposez d’emplacements de sort. Le nombre de sorts de votre liste augmente à mesure que vous recevez des niveaux de Magicien, comme l’indique la colonne Sorts préparés de la table « Aptitudes du Magicien ». Chaque fois que ce nombre augmente, choisissez des sorts de Magicien supplémentaires jusqu’à ce que le nombre de sorts de votre liste corresponde au nombre indiqué dans la table. Ces sorts doivent être d’un niveau pour lequel vous disposez d’emplacements de sort. Si, par exemple, vous êtes un Magicien de niveau 3, votre liste de sorts préparés peut inclure six sorts de Magicien du 1er ou 2e niveau choisis dans votre grimoire, répartis à votre guise. Si une autre aptitude de Magicien vous octroie des sorts toujours préparés, ces sorts ne sont pas décomptés du nombre de sorts que vous pouvez préparer avec la présente aptitude, mais ils sont considérés pour vous comme des sorts de Magicien. Modification des sorts préparés. Chaque fois que vous terminez un Repos long, vous pouvez changer votre liste de sorts préparés en remplaçant des sorts par d’autres sorts de Magicien de votre grimoire. Caractéristique d’incantation. L’Intelligence est la caractéristique d’incantation de vos sorts de Magicien. Focaliseur d’incantation. Vous pouvez vous servir d’un focaliseur arcanique ou de votre grimoire comme focaliseur d’incantation de vos sorts de Magicien.",
+      "source": "Adaptation du SRD 5.2.1 EN/FR · CC-BY-4.0 · nombres et ordre des dés conservés"
+    },
+    {
+      "id": "srd.metamagic.quickened.full",
+      "en": "Cost: 2 Sorcery Points When you cast a spell that has a casting time of an action, you can spend 2 Sorcery Points to change the casting time to a Bonus Action for this casting. You can’t modify a spell in this way if you’ve already cast a level 1+ spell on the current turn, nor can you cast a level 1+ spell on this turn after modifying a spell in this way.",
+      "fr": "Coût : 2 points de Sorcellerie Lorsque vous lancez un sort dont le temps d’incantation est égal à une action, vous pouvez dépenser 2 points de Sorcellerie pour réduire son temps d’incantation à une action Bonus pour la présente incantation. Vous ne pouvez pas modifier un sort de cette manière si vous avez déjà lancé un sort du 1er niveau ou supérieur pendant le tour en cours, et pas davantage lancer un sort du 1er niveau ou supérieur pendant le tour en cours si vous avez déjà modifié un sort de cette manière.",
+      "source": "Adaptation du SRD 5.2.1 EN/FR · CC-BY-4.0 · nombres conservés"
+    },
+    {
+      "id": "classes.sections.label.41",
+      "kind": "term",
+      "en": "Colossus Slayer",
+      "fr": "Goût du sang",
+      "source": "SRD 5.2.1 EN/FR · CC-BY-4.0"
+    },
+    {
+      "id": "classes.sections.label.42",
+      "kind": "term",
+      "en": "Horde Breaker",
+      "fr": "Briseur de hordes",
+      "source": "SRD 5.2.1 EN/FR · CC-BY-4.0"
+    },
+    {
+      "id": "bard.glamour.mantle-of-inspiration.description",
+      "en": "You can weave fey magic into a song or dance to fill others with vigor. As a Bonus Action, you can expend a use of Bardic Inspiration, rolling a Bardic Inspiration die. When you do so, choose a number of other creatures within 60 feet of yourself, up to a number equal to your Charisma modifier (minimum of one creature). Each of those creatures gains a number of Temporary Hit Points equal to two times the number rolled on the Bardic Inspiration die, and then each can use its Reaction to move up to its Speed without provoking Opportunity Attacks.",
+      "fr": "Vous pouvez mêler la magie féerique à un chant ou une danse pour insuffler de la vigueur aux autres. Par une action Bonus, vous pouvez dépenser une utilisation d’Inspiration bardique et lancer un dé d’Inspiration bardique. Choisissez alors d’autres créatures dans un rayon de 60 feet autour de vous, jusqu’à un nombre égal à votre modificateur de Charisme (au moins une créature). Chacune reçoit un nombre de points de vie temporaires égal au double du résultat du dé d’Inspiration bardique, puis peut utiliser sa Réaction pour se déplacer jusqu’à sa Vitesse sans provoquer d’attaques d’Opportunité.",
+      "source": "Traduction de l’extrait utilisateur · Collège de la Séduction · Manteau d’inspiration 2024"
+    },
+    {
+      "id": "shard.classes.heading.1c8357b85e",
+      "kind": "term",
+      "en": "Wild Magic Surge table",
+      "fr": "table de Sursaut de magie sauvage",
+      "source": "Traduction proposée du lien de la table de magie sauvage observé sur Shard · relevé du 14 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
       "id": "barbarian.high.epic-ability",
       "en": "Increase one ability score of your choice by 1, to a maximum of 30.",
       "fr": "Augmentez une caractéristique de votre choix de 1, jusqu’à un maximum de 30.",

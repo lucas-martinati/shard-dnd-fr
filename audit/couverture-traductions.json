@@ -1,6 +1,6 @@
 {
   "suiviLivres": {
-    "objectif": "Traduire intégralement les contenus et références du D&D 2024 PHB et du D&D 2024 MM accessibles dans Shard ; guide Shard secondaire.",
+    "objectif": "Traduire le PHB et le MM 2024 en priorité, avec un corpus 2014 de compatibilité regroupant notamment les textes du guide Shard.",
     "livres": [
       {
         "id": "dnd-2024-phb",
@@ -70,7 +70,7 @@
           "Compléter les paragraphes, listes, options, tableaux, titres et variantes manquants, puis vérifier le rendu et les liens dans Shard."
         ],
         "limites": [
-          "Les textes attestés sur plusieurs livres sont partagés. Les éléments dont le livre reste inconnu sont isolés dans translations/a-classer/ ; une édition 2024 ne prouve pas à elle seule un livre précis.",
+          "Le rangement éditorial ne prouve pas une présence exclusive dans un livre. Les noms partagés restent stockés une seule fois et leur édition any est conservée lorsqu’aucune version précise n’est établie.",
           "Le nombre total de fiches et de blocs à traduire reste à établir ; aucun pourcentage de couverture intégrale n’est calculé.",
           "Le sommaire est relevé ; le contenu intégral de ces chapitres n’a pas été contrôlé pendant cette consultation."
         ],
@@ -79,32 +79,32 @@
         "descriptionsEnFichiersDedies": 71,
         "packsRattachesParCategorie": {
           "armes": {
-            "entreesRattachees": 7,
-            "libelles": 0,
-            "blocs": 7
+            "entreesRattachees": 75,
+            "libelles": 47,
+            "blocs": 28
           },
           "classes": {
-            "entreesRattachees": 1520,
-            "libelles": 196,
-            "blocs": 1324
+            "entreesRattachees": 1599,
+            "libelles": 206,
+            "blocs": 1393
           },
           "dons": {
-            "entreesRattachees": 179,
-            "libelles": 75,
-            "blocs": 104
+            "entreesRattachees": 453,
+            "libelles": 171,
+            "blocs": 282
           },
           "especes": {
-            "entreesRattachees": 66,
-            "libelles": 19,
-            "blocs": 47
+            "entreesRattachees": 163,
+            "libelles": 53,
+            "blocs": 110
           },
           "regles": {
-            "entreesRattachees": 54,
-            "libelles": 0,
-            "blocs": 54
+            "entreesRattachees": 177,
+            "libelles": 44,
+            "blocs": 133
           }
         },
-        "entreesRattachees": 1826
+        "entreesRattachees": 2467
       },
       {
         "id": "dnd-2024-mm",
@@ -126,7 +126,7 @@
           "Compléter les paragraphes, listes, options, tableaux, titres et variantes manquants, puis vérifier le rendu et les liens dans Shard."
         ],
         "limites": [
-          "Les textes attestés sur plusieurs livres sont partagés. Les éléments dont le livre reste inconnu sont isolés dans translations/a-classer/ ; une édition 2024 ne prouve pas à elle seule un livre précis.",
+          "Le rangement éditorial ne prouve pas une présence exclusive dans un livre. Les noms partagés restent stockés une seule fois et leur édition any est conservée lorsqu’aucune version précise n’est établie.",
           "Le nombre total de fiches et de blocs à traduire reste à établir ; aucun pourcentage de couverture intégrale n’est calculé."
         ],
         "dossierTraductions": "translations/dnd-2024/mm",
@@ -142,75 +142,86 @@
         "entreesRattachees": 311
       },
       {
-        "id": "shard-player-guide-volume-1",
-        "nom": "Shard Player's Guide Volume 1",
+        "id": "dnd-2014",
+        "nom": "Corpus D&D 2014",
         "priorite": 3,
         "objectifTraductionIntegrale": false,
-        "url": "https://play.shardtabletop.com/#book?id=bi5f3lrxndk004tpyc0rt&cid=q4qshq492a8l16u0",
         "traductionIntegraleValidee": false,
         "consultation": {
           "date": "2026-10-14",
           "etat": "accessible",
-          "constat": "L’introduction et les crédits indiquent que la majorité du contenu vient du SRD de cinquième édition, republié sous OGL. Ce guide ne doit pas être confondu avec les sources SRD 5.2.1 EN/FR du projet."
+          "constat": "L’introduction et les crédits indiquent que la majorité du contenu vient du SRD de cinquième édition, republié sous OGL. Ce guide ne doit pas être confondu avec les sources SRD 5.2.1 EN/FR du projet. Ce constat porte sur le guide consulté ; il ne certifie pas la couverture de tout le corpus 2014."
         },
         "chapitresReleves": [],
         "aFaire": [
-          "Traiter les manques propres au guide après les deux livres prioritaires ; conserver les traductions existantes.",
+          "Conserver la compatibilité des règles et noms historiques, après les priorités PHB et MM 2024.",
           "Inventorier les chapitres et toutes les fiches liées ; distinguer les noms, présentations et contenus complets.",
-          "Identifier les textes déjà couverts par le socle commun avant d’ajouter des traductions.",
+          "Réutiliser les traductions existantes sans dupliquer les noms partagés entre éditions.",
           "Compléter les paragraphes, listes, options, tableaux, titres et variantes manquants, puis vérifier le rendu et les liens dans Shard."
         ],
         "limites": [
-          "Les textes attestés sur plusieurs livres sont partagés. Les éléments dont le livre reste inconnu sont isolés dans translations/a-classer/ ; une édition 2024 ne prouve pas à elle seule un livre précis.",
+          "Le rangement éditorial ne prouve pas une présence exclusive dans un livre. Les noms partagés restent stockés une seule fois et leur édition any est conservée lorsqu’aucune version précise n’est établie.",
           "Le nombre total de fiches et de blocs à traduire reste à établir ; aucun pourcentage de couverture intégrale n’est calculé."
         ],
-        "dossierTraductions": "translations/anciens/shard-player-guide-volume-1",
-        "dossier": "translations/anciens/shard-player-guide-volume-1",
+        "dossierTraductions": "translations/2014",
+        "sourcesShard": [
+          {
+            "nom": "Shard Player's Guide Volume 1",
+            "url": "https://play.shardtabletop.com/#book?id=bi5f3lrxndk004tpyc0rt&cid=q4qshq492a8l16u0"
+          }
+        ],
+        "dossier": "translations/2014",
         "descriptionsEnFichiersDedies": 147,
         "packsRattachesParCategorie": {
           "armes": {
-            "entreesRattachees": 129,
-            "libelles": 7,
-            "blocs": 122
+            "entreesRattachees": 524,
+            "libelles": 383,
+            "blocs": 141
           },
           "classes": {
-            "entreesRattachees": 3,
+            "entreesRattachees": 20,
             "libelles": 0,
-            "blocs": 3
+            "blocs": 20
           },
           "dons": {
-            "entreesRattachees": 20,
-            "libelles": 14,
-            "blocs": 6
+            "entreesRattachees": 45,
+            "libelles": 13,
+            "blocs": 32
           },
           "especes": {
             "entreesRattachees": 18,
             "libelles": 4,
             "blocs": 14
           },
+          "objets": {
+            "entreesRattachees": 24,
+            "libelles": 8,
+            "blocs": 16
+          },
           "regles": {
-            "entreesRattachees": 68,
-            "libelles": 13,
-            "blocs": 55
+            "entreesRattachees": 84,
+            "libelles": 18,
+            "blocs": 66
+          },
+          "sorts": {
+            "entreesRattachees": 16,
+            "libelles": 0,
+            "blocs": 16
           }
         },
-        "entreesRattachees": 238
+        "entreesRattachees": 731
       }
     ],
-    "socleCommun": {
+    "regleClassement": "Un emplacement éditorial par texte : règles du joueur 2024 avec le PHB, bestiaire 2024 avec le MM, corpus historique et lexique non spécifique dans 2014. L’emplacement ne remplace pas la source précise ni l’édition portée par l’entrée.",
+    "limiteComptage": "Les compteurs par dossier décrivent les packs explicitement rattachés, pas le total des traductions utilisables dans le livre. Ni un nom, ni une présentation, ni une source SRD ne valident une fiche complète.",
+    "generationSRD": {
       "dossierSources": "data/srd-5.2.1",
-      "dossiersTraductions": [
-        "translations/dnd-2024/commun/",
-        "translations/commun/"
-      ],
-      "role": "Sources bilingues SRD et traductions communes ou de rattachement encore indéterminé. Le SRD est une source de règles partagées, pas le guide Shard ni une mesure de couverture du PHB/MM.",
       "necessairePourGeneration": [
         "work/make-class-texts.py",
         "work/make-option-texts.py"
-      ]
-    },
-    "regleClassement": "Rattacher les traductions aux livres attestés par leur source et les fiches HTML archivées. Conserver les textes partagés en commun et les noms sans preuve de livre dans a-classer. Les anciens contenus restent chargés pour compatibilité.",
-    "limiteComptage": "Les compteurs par dossier décrivent les packs explicitement rattachés, pas le total des traductions utilisables dans le livre. Ni un nom, ni une présentation, ni une source SRD ne valident une fiche complète."
+      ],
+      "role": "Sources bilingues utilisées par les générateurs ; les traductions de règles du joueur 2024 sont rangées avec le PHB. Le dossier data reste inchangé."
+    }
   },
   "objectifReferencesAccueil": {
     "objectif": "Traduction intégrale de toutes les références accessibles depuis l’accueil Shard",
@@ -360,7 +371,7 @@
       "Une liste aVerifier vide pour les appariements SRD ne signifie pas que ce périmètre Shard est intégralement traduit."
     ],
     "prioritesLivres": "livres.json",
-    "ordreTravail": "D&D 2024 PHB, puis D&D 2024 MM ; guide Shard secondaire. Les rubriques ci-dessous restent le minimum final et sont vérifiées d’abord pour les deux livres prioritaires."
+    "ordreTravail": "D&D 2024 PHB, puis D&D 2024 MM ; corpus 2014 secondaire. Les rubriques ci-dessous restent le minimum final et sont vérifiées d’abord pour les deux livres prioritaires."
   },
   "categories": {
     "sorts": {
@@ -560,7 +571,7 @@
   },
   "aVerifier": [],
   "limites": [
-    "Priorité au D&D 2024 PHB puis au D&D 2024 MM. Les dossiers de livres séparent les sources explicitement rattachées ; le socle commun et le SRD restent réutilisés. suiviLivres décrit les accès et contrôles restants, sans pourcentage de traduction intégrale.",
+    "Priorité au D&D 2024 PHB puis au D&D 2024 MM. Le rangement attribue un emplacement de maintenance ; les sources et éditions précises sont conservées. Le corpus 2014 garde les noms partagés et les références historiques ; les règles du joueur 2024 issues du SRD sont rangées avec le PHB. suiviLivres décrit les accès et contrôles restants, sans pourcentage de traduction intégrale.",
     "aVerifier concerne les appariements des sources SRD ; une liste vide ne valide pas toutes les références Shard. objectifReferencesAccueil définit le périmètre minimal restant à vérifier et compléter.",
     "Les noms et présentations brèves traduits ne valident pas le contenu intégral des classes, sous-classes ou autres fiches accessibles depuis l’accueil.",
     "Le corpus de classes est celui du SRD 5.2.1 : 12 classes et leurs sous-classes SRD, pas toutes les sous-classes des suppléments.",

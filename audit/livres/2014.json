@@ -1,0 +1,30 @@
+{
+  "id": "dnd-2014",
+  "nom": "Corpus D&D 2014",
+  "priorite": 3,
+  "objectifTraductionIntegrale": false,
+  "traductionIntegraleValidee": false,
+  "consultation": {
+    "date": "2026-10-14",
+    "etat": "accessible",
+    "constat": "L’introduction et les crédits indiquent que la majorité du contenu vient du SRD de cinquième édition, republié sous OGL. Ce guide ne doit pas être confondu avec les sources SRD 5.2.1 EN/FR du projet. Ce constat porte sur le guide consulté ; il ne certifie pas la couverture de tout le corpus 2014."
+  },
+  "chapitresReleves": [],
+  "aFaire": [
+    "Conserver la compatibilité des règles et noms historiques, après les priorités PHB et MM 2024.",
+    "Inventorier les chapitres et toutes les fiches liées ; distinguer les noms, présentations et contenus complets.",
+    "Réutiliser les traductions existantes sans dupliquer les noms partagés entre éditions.",
+    "Compléter les paragraphes, listes, options, tableaux, titres et variantes manquants, puis vérifier le rendu et les liens dans Shard."
+  ],
+  "limites": [
+    "Le rangement éditorial ne prouve pas une présence exclusive dans un livre. Les noms partagés restent stockés une seule fois et leur édition any est conservée lorsqu’aucune version précise n’est établie.",
+    "Le nombre total de fiches et de blocs à traduire reste à établir ; aucun pourcentage de couverture intégrale n’est calculé."
+  ],
+  "dossierTraductions": "translations/2014",
+  "sourcesShard": [
+    {
+      "nom": "Shard Player's Guide Volume 1",
+      "url": "https://play.shardtabletop.com/#book?id=bi5f3lrxndk004tpyc0rt&cid=q4qshq492a8l16u0"
+    }
+  ]
+}

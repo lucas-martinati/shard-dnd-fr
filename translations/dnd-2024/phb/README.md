@@ -1,5 +1,7 @@
 # D&D 2024 PHB
 
-Les sous-dossiers contiennent les traductions rattachées à ce livre par leurs sources et les fiches de référence archivées. Les correspondances communes restent partagées ; leurs sources précises sont conservées.
+Ce dossier rassemble les traductions de cet ensemble, organisées par catégorie. Le PHB inclut les règles du joueur issues du SRD 5.2.1 ; le MM conserve le bestiaire 2024.
 
-Le [suivi du livre](../../../audit/livres/phb.json) est rangé avec l’audit. Les compteurs de ce dossier ne prouvent pas la traduction intégrale du livre.
+Les sources précises sont conservées dans les entrées. Un texte utilisable dans plusieurs éditions n’est pas dupliqué : son rangement est éditorial et sa traduction reste fondée sur l’anglais exact.
+
+Voir [le suivi](../../../audit/livres/phb.json). Les compteurs ne prouvent pas une traduction intégrale du livre.

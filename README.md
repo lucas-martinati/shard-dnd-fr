@@ -42,7 +42,7 @@ npm run build
 npm test
 ```
 
-Les traductions sont organisées dans `translations/dnd-2024/phb/`, `translations/dnd-2024/mm/` et `translations/anciens/shard-player-guide-volume-1/`, avec l’interface séparée et des ensembles explicites pour le vocabulaire partagé et les éléments à classer. Voir [l’organisation des traductions](translations/README.md). Les inventaires et le suivi des livres sont dans [audit/](audit/README.md), les entrées techniques dans [sources-generation/](sources-generation/README.md), les outils dans `work/` et leurs résultats intermédiaires dans `work/generated/`. Les extraits `data/srd-5.2.1/` restent en place. Les fichiers Tampermonkey distribués sont générés dans `outputs/`.
+Les traductions sont organisées dans `translations/dnd-2024/phb/`, `translations/dnd-2024/mm/` et `translations/2014/`, avec l’interface séparée. Les règles du joueur 2024 issues du SRD sont rangées avec le PHB ; le corpus historique et le lexique de compatibilité sont regroupés sous 2014. Voir [l’organisation des traductions](translations/README.md). Les inventaires et le suivi des livres sont dans [audit/](audit/README.md), les entrées techniques dans [sources-generation/](sources-generation/README.md), les outils dans `work/` et leurs résultats intermédiaires dans `work/generated/`. Les extraits `data/srd-5.2.1/` restent en place. Les fichiers Tampermonkey distribués sont générés dans `outputs/`.
 
 Les constantes de données du userscript sont toutes sérialisées au format JSON compact, une déclaration par ligne. Les fichiers sources JSON restent indentés pour faciliter leur édition ; les retours à la ligne contenus dans les traductions sont conservés sous forme échappée.
 

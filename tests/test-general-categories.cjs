@@ -1,7 +1,7 @@
 const fs=require('node:fs'),assert=require('node:assert/strict'),{JSDOM}=require('jsdom');
 const {pack}=require('./translation-fixtures.cjs');
 const rules=pack('regles').entries,species=pack('especes').entries;
-const catalogue=JSON.parse(fs.readFileSync('audit/inventaires/commun/etats-2024.json','utf8'));
+const catalogue=JSON.parse(fs.readFileSync('audit/inventaires/phb/etats-2024.json','utf8'));
 assert.equal(catalogue.conditions.length,15);
 const byId=new Map(rules.map(r=>[r.id,r]));
 const w=new JSDOM('<main></main>',{url:'https://play.shardtabletop.com/#customtable?type=Conditions',runScripts:'outside-only',pretendToBeVisual:true}).window,d=w.document,main=d.querySelector('main');
