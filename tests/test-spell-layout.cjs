@@ -1,6 +1,6 @@
 const fs=require('node:fs'),assert=require('node:assert/strict'),{JSDOM}=require('jsdom');
 const code=fs.readFileSync('outputs/shard-dnd-fr.user.js','utf8');
-const reference=JSON.parse(fs.readFileSync('translations/sorts/spell-reference.json','utf8')).find(r=>r.en==='Elementalism');
+const reference=JSON.parse(fs.readFileSync('translations/dnd-2024/commun/sorts/reference-srd.json','utf8')).find(r=>r.en==='Elementalism');
 const labels=[['Beckon Air','Appel d’air'],['Beckon Earth','Appel de terre'],['Beckon Fire','Appel de feu'],['Beckon Water','Appel d’eau'],['Sculpt Element','Façonnage élémentaire']];
 function split(text,names){const offsets=names.map(name=>({name,at:text.indexOf(name+'. ')}));assert.ok(offsets.every(o=>o.at>=0));offsets.sort((a,b)=>a.at-b.at);return {intro:text.slice(0,offsets[0].at).trim(),effects:new Map(offsets.map((o,i)=>[o.name,text.slice(o.at+o.name.length+2,offsets[i+1]?.at??text.length).trim()]))};}
 const english=split(reference.englishBody,labels.map(r=>r[0])),french=split(reference.frenchBody,labels.map(r=>r[1]));
@@ -10,7 +10,7 @@ const compact=escape(english.intro)+' '+labels.map(([en])=>'<b><i>'+en+'.</i></b
 const breaks=escape(english.intro)+'<br>'+labels.map(([en])=>'<b><i>'+en+'.</i></b> '+escape(english.effects.get(en))).join('<br>');
 const unknownParts=['A silver cloud gathers around the tower.','The tower changes color until sunrise.'];
 const page='<article role="dialog"><h2>Elementalism</h2><div class="pre-wrap"><span>'+content+'</span></div><p id="unknown">You invented a new elemental technique that no reference describes.</p></article><div id="compact" class="pre-wrap"><p>'+compact+'</p></div><div id="breaks" class="description">'+breaks+'</div><div id="unmatched" class="pre-wrap"><p>'+unknownParts[0]+'</p><p>'+unknownParts[1]+'</p></div>';
-const catalog=JSON.parse(fs.readFileSync('work/aidedd-catalog.json','utf8'));
+const catalog=JSON.parse(fs.readFileSync('sources-generation/catalogues/aidedd-2024.json','utf8'));
 const frURL='https://www.aidedd.org/spell/fr/elementalisme',enURL='https://www.aidedd.org/spell/elementalism';
 // Références simulées : ordre FR différent, exception absente, variante EN distincte.
 // Les formulations de base sont celles du corpus SRD CC-BY-4.0 du projet.

@@ -1,5 +1,5 @@
 const fs=require('node:fs'),assert=require('node:assert/strict'),{JSDOM}=require('jsdom');
-const rows=JSON.parse(fs.readFileSync('work/spell-sections.json'));
+const rows=JSON.parse(fs.readFileSync('work/generated/spell-sections.json'));
 const w=new JSDOM('<main></main>',{url:'https://play.shardtabletop.com/#spell',runScripts:'outside-only',pretendToBeVisual:true}).window,d=w.document,main=d.querySelector('main');
 for(const row of rows){const p=d.createElement('p');p.textContent=row.en;p.innerHTML=p.innerHTML.replace(/\b(?:\d+)?d\d+(?=s?\b)/g,dice=>`<b class="dodieroll">${dice}</b>`);main.append(p);}
 const ps=[...main.children],original=main.innerHTML,dice=[...main.querySelectorAll('.dodieroll')],values=dice.map(e=>e.textContent);let clicks=0;dice.forEach(e=>e.onclick=()=>clicks++);

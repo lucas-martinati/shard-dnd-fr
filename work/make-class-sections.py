@@ -1,20 +1,21 @@
 """Découper les aptitudes par titres bilingues et générer les variantes de référence Shard."""
 import json
 import re
+from translation_sources import tsv_sources
 from pathlib import Path
 from translation_packs import key, signature, load_packs
 from translation_sources import source as translation_source, DICTIONARIES
 
 ROOT = Path(__file__).resolve().parent.parent
-TABLE = json.loads((ROOT/'translations/classes/sections.json').read_text())['headings']
-ROWS = json.loads((ROOT/'work/class-texts.json').read_text())
+TABLE = json.loads((ROOT/'sources-generation/classes/sections-bilingues.json').read_text())['headings']
+ROWS = json.loads((ROOT/'work/generated/class-texts.json').read_text())
 existing_pairs={key(r['en']):r['fr'] for r in load_packs() if r['kind']=='description'}
 reserved=set(existing_pairs)
-for path in sorted((ROOT/'translations').rglob('*.tsv')):
+for path in tsv_sources():
     for line in path.read_text().splitlines():
         if line.count('|')==1 and len(line.split('|')[0])>=35:
             en,fr=line.split('|');reserved.add(key(en));existing_pairs.setdefault(key(en),fr)
-for filename in ['translations/classes/feature-texts.json','translations/dons/feat-texts.json','translations/objets/equipment-texts.json']:
+for filename in ['work/generated/feature-texts.json','work/generated/feat-texts.json','translations/dnd-2024/commun/objets/descriptions-srd.json']:
     for row in json.loads((ROOT/filename).read_text()):
         reserved.add(key(row['en']));existing_pairs[key(row['en'])]=row['fr']
 pairs, ambiguous = {}, set()
@@ -103,5 +104,5 @@ for row in ROWS:
         ens=re.split(r'(?<=[.])\s+',en_short);frs=re.split(r'(?<=[.])\s+',fr_short)
         if len(ens)==len(frs)==3:
             for a,b in zip(ens,frs):add(a,b,source)
-(ROOT/'work/class-sections.json').write_text(json.dumps(list(pairs.values()),ensure_ascii=False,indent=2)+'\n')
+(ROOT/'work/generated/class-sections.json').write_text(json.dumps(list(pairs.values()),ensure_ascii=False,indent=2)+'\n')
 print(f'{len(pairs)} sous-sections et variantes des 12 classes ; {len(ambiguous)} ambiguïtés exclues')

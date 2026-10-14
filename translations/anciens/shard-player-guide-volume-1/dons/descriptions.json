@@ -1,0 +1,737 @@
+[
+  {
+    "en": "Skilled at mimicry and dramatics, you gain the following benefits:",
+    "fr": "Votre talent pour l’imitation et le théâtre vous confère les avantages suivants :",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You have advantage on Charisma (Deception) and Charisma (Performance) checks when trying to pass yourself off as a different person.",
+    "fr": "Vous avez l’avantage aux tests de Charisme (Tromperie) et de Charisme (Représentation) lorsque vous tentez de vous faire passer pour quelqu’un d’autre.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You can mimic the speech of another person or the sounds made by other creatures. You must have heard the person speaking, or heard the creature make the sound, for at least 1 minute. A successful Wisdom (Insight) check contested by your Charisma (Deception) check allows a listener to determine that the effect is faked.",
+    "fr": "Vous pouvez imiter la voix d’une autre personne ou les sons produits par d’autres créatures. Vous devez avoir entendu cette personne parler ou cette créature produire ce son pendant au moins 1 minute. Un auditeur peut reconnaître l’imitation en réussissant un test de Sagesse (Intuition) opposé à votre test de Charisme (Tromperie).",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "Your Charisma increases by 1.",
+    "fr": "Votre Charisme augmente de 1.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You have undergone extensive physical training to gain the following benefits:",
+    "fr": "Votre entraînement physique intensif vous confère les avantages suivants :",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "When you are prone, standing up uses only 5 feet of your movement.",
+    "fr": "Lorsque vous êtes À terre, vous relever ne coûte que 5 feet de déplacement.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "Climbing doesn't cost you extra movement.",
+    "fr": "L’escalade ne vous coûte aucun déplacement supplémentaire.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You can make a running long jump or a running high jump after moving only 5 feet on foot, rather than 10 feet.",
+    "fr": "Vous pouvez effectuer un saut en longueur ou en hauteur avec élan après seulement 5 feet de déplacement à pied, au lieu de 10 feet.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "Choose 1 from Strength, Dexterity to increase by 1.",
+    "fr": "Choisissez une caractéristique parmi la Force et la Dextérité et augmentez-la de 1.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "When you use your action to Dash, you can use a bonus action to make one melee weapon attack or to shove a creature.",
+    "fr": "Lorsque vous utilisez votre action pour Foncer, vous pouvez utiliser une action Bonus pour effectuer une attaque avec une arme de corps à corps ou bousculer une créature.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "If you move at least 10 feet in a straight line immediately before taking this bonus action, you either gain a +5 bonus to the attack's damage roll (if you chose to make a melee attack and hit) or push the target up to 10 feet away from you (if you chose to shove and you succeed).",
+    "fr": "Si vous vous déplacez d’au moins 10 feet en ligne droite juste avant cette action Bonus, vous gagnez un bonus de +5 au jet de dégâts de l’attaque si vous avez choisi d’attaquer et touché, ou repoussez la cible jusqu’à 10 feet si vous avez choisi de la bousculer et réussi.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "Thanks to extensive practice with the crossbow, you gain the following benefits:",
+    "fr": "Votre pratique intensive de l’arbalète vous confère les avantages suivants :",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You ignore the loading quality of crossbows with which you are proficient.",
+    "fr": "Vous ignorez la propriété Chargement des arbalètes dont vous avez la maîtrise.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "Being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged attack rolls.",
+    "fr": "La présence d’une créature hostile à 5 feet ou moins de vous n’impose pas de désavantage à vos jets d’attaque à distance.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "When you use the Attack action and attack with a one-handed weapon, you can use a bonus action to attack with a hand crossbow you are holding.",
+    "fr": "Lorsque vous entreprenez l’action Attaquer et attaquez avec une arme à une main, vous pouvez utiliser une action Bonus pour attaquer avec une arbalète de poing que vous tenez.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "(Prérequis: Dexterity 13 or higher)",
+    "fr": "(Prérequis : Dextérité 13 ou plus)",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "When you are wielding a finesse weapon with which you are proficient and another creature hits you with a melee attack, you can use your reaction to add your proficiency bonus to your AC for that attack, potentially causing the attack to miss you.",
+    "fr": "Lorsque vous maniez une arme dotée de la propriété Finesse dont vous avez la maîtrise et qu’une autre créature vous touche avec une attaque de corps à corps, vous pouvez utiliser votre réaction pour ajouter votre bonus de maîtrise à votre CA contre cette attaque, ce qui peut la faire rater.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You master fighting with two weapons, gaining the following benefits:",
+    "fr": "Votre maîtrise du combat à deux armes vous confère les avantages suivants :",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You gain a +1 bonus to AC while you are wielding a separate melee weapon in each hand.",
+    "fr": "Vous gagnez un bonus de +1 à la CA lorsque vous maniez une arme de corps à corps différente dans chaque main.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You can use two-weapon fighting even when the one-handed melee weapons you are wielding aren't light.",
+    "fr": "Vous pouvez combattre à deux armes même si les armes de corps à corps à une main que vous maniez n’ont pas la propriété Légère.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You can draw or stow two one-handed weapons when you would normally be able to draw or stow only one.",
+    "fr": "Vous pouvez dégainer ou ranger deux armes à une main lorsque vous ne pourriez normalement en dégainer ou en ranger qu’une.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "Alert to the hidden traps and secret doors found in many dungeons, you gain the following benefits:",
+    "fr": "Votre vigilance face aux pièges cachés et aux portes secrètes des donjons vous confère les avantages suivants :",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You have advantage on Wisdom (Perception) and Intelligence (Investigation) checks made to detect the presence of secret doors.",
+    "fr": "Vous avez l’avantage aux tests de Sagesse (Perception) et d’Intelligence (Investigation) effectués pour détecter des portes secrètes.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You have advantage on saving throws made to avoid or resist traps.",
+    "fr": "Vous avez l’avantage aux jets de sauvegarde effectués pour éviter les pièges ou y résister.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You have resistance to the damage dealt by traps.",
+    "fr": "Vous bénéficiez de la résistance aux dégâts infligés par les pièges.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "Traveling at a fast pace doesn't impose the normal -5 penalty on your passive Wisdom (Perception) score.",
+    "fr": "Voyager à une allure rapide n’impose pas le malus habituel de -5 à votre valeur de Sagesse (Perception) passive.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "Hardy and resilient, you gain the following benefits:",
+    "fr": "Votre endurance et votre résistance vous confèrent les avantages suivants :",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "When you roll a Hit Die to regain hit points, the minimum number of hit points you regain from the roll equals twice your Constitution modifier (minimum of 2).",
+    "fr": "Lorsque vous lancez un dé de vie pour récupérer des points de vie, le nombre minimum de points de vie récupérés grâce au dé est égal à deux fois votre modificateur de Constitution, avec un minimum de 2.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "Your Constitution increases by 1.",
+    "fr": "Votre Constitution augmente de 1.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "(Prérequis: The ability to cast at least one spell)",
+    "fr": "(Prérequis : capacité à lancer au moins un sort)",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "When you gain this feat, choose one of the following damage types: acid, cold, fire, lightning, or thunder.",
+    "fr": "Lorsque vous acquérez ce don, choisissez l’un des types de dégâts suivants : acide, froid, feu, foudre ou tonnerre.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "Spells you cast ignore resistance to damage of the chosen type. In addition, when you roll damage for a spell you cast that deals damage of that type, you can treat any 1 on a damage die as a 2.",
+    "fr": "Les sorts que vous lancez ignorent la résistance aux dégâts du type choisi. De plus, lorsque vous lancez les dégâts d’un sort infligeant ce type de dégâts, vous pouvez traiter tout 1 obtenu sur un dé de dégâts comme un 2.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You can select this feat multiple times. Each time you do so, you must choose a different damage type.",
+    "fr": "Vous pouvez choisir ce don plusieurs fois. Vous devez choisir un type de dégâts différent à chaque fois.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "(Prérequis: Strength 13 or higher)",
+    "fr": "(Prérequis : Force 13 ou plus)",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You've developed the skills necessary to hold your own in close-quarters grappling. You gain the following benefits:",
+    "fr": "Vous avez développé les aptitudes nécessaires pour vous imposer dans les luttes au corps à corps. Vous bénéficiez des avantages suivants :",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You have advantage on attack rolls against a creature you are grappling.",
+    "fr": "Vous avez l’avantage aux jets d’attaque contre une créature que vous agrippez.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You can use your action to try to pin a creature grappled by you. To do so, make another grapple check. If you succeed, you and the creature are both restrained until the grapple ends.",
+    "fr": "Vous pouvez utiliser votre action pour tenter d’immobiliser une créature Agrippée par vous. Effectuez un nouveau test de lutte. En cas de réussite, vous et la créature êtes Entravés jusqu’à la fin de la lutte.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You've learned to put the weight of a weapon to your advantage, letting its momentum empower your strikes. You gain the following benefits:",
+    "fr": "Vous savez exploiter le poids et l’élan d’une arme pour renforcer vos coups. Vous bénéficiez des avantages suivants :",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "On your turn, when you score a critical hit with a melee weapon or reduce a creature to 0 hit points with one, you can make one melee weapon attack as a bonus action.",
+    "fr": "À votre tour, lorsque vous obtenez un coup critique avec une arme de corps à corps ou réduisez une créature à 0 point de vie avec une telle arme, vous pouvez effectuer une attaque avec une arme de corps à corps par une action Bonus.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "Before you make a melee attack with a heavy weapon that you are proficient with, you can choose to take a -5 penalty to the attack roll. If the attack hits, you add +10 to the attack's damage.",
+    "fr": "Avant une attaque de corps à corps avec une arme lourde dont vous avez la maîtrise, vous pouvez choisir de subir un malus de -5 au jet d’attaque. Si l’attaque touche, vous ajoutez +10 à ses dégâts.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You are an able physician, allowing you to mend wounds quickly and get your allies back in the fight. You gain the following benefits:",
+    "fr": "Vos talents de soigneur vous permettent de panser rapidement les blessures et de remettre vos alliés sur pied. Vous bénéficiez des avantages suivants :",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "When you use a healer's kit to stabilize a dying creature, that creature also regains 1 hit point.",
+    "fr": "Lorsque vous utilisez une trousse de soins pour stabiliser une créature mourante, celle-ci récupère également 1 point de vie.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "As an action, you can spend one use of a healer's kit to tend to a creature and restore 1d6+4 hit points to it, plus additional hit points equal to the creature's maximum number of Hit Dice. The creature can't regain hit points from this feat again until it finishes a short or long rest.",
+    "fr": "Par une action, vous pouvez dépenser une utilisation d’une trousse de soins pour soigner une créature et lui rendre 1d6+4 points de vie, plus un nombre de points de vie égal à son nombre maximum de dés de vie. La créature ne peut plus récupérer de points de vie grâce à ce don avant d’avoir terminé un repos court ou long.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "(Prérequis: Proficiency with medium armor)",
+    "fr": "(Prérequis : maîtrise des armures intermédiaires)",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You have trained to master the use of heavy armor, gaining the following benefits:",
+    "fr": "Votre entraînement au port des armures lourdes vous confère les avantages suivants :",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You gain proficiency with heavy armor.",
+    "fr": "Vous gagnez la maîtrise des armures lourdes.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "Your Strength increases by 1.",
+    "fr": "Votre Force augmente de 1.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "(Prérequis: Proficiency with heavy armor)",
+    "fr": "(Prérequis : maîtrise des armures lourdes)",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You can use your armor to deflect strikes that would kill others. You gain the following benefits:",
+    "fr": "Vous savez utiliser votre armure pour dévier des coups qui tueraient d’autres combattants. Vous bénéficiez des avantages suivants :",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "While you are wearing heavy armor, bludgeoning, piercing, and slashing damage that you take from nonmagical weapons is reduced by 3.",
+    "fr": "Tant que vous portez une armure lourde, les dégâts contondants, perforants et tranchants que vous infligent des armes non magiques sont réduits de 3.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "(Prérequis: Charisma 13 or higher)",
+    "fr": "(Prérequis : Charisme 13 ou plus)",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You can spend 10 minutes inspiring your companions, shoring up their resolve to fight. When you do so, choose up to six friendly creatures (which can include yourself) within 30 feet of you who can see or hear you and who can understand you. Each creature can gain temporary hit points equal to your level + your Charisma modifier. A creature can't gain temporary hit points from this feat again until it has finished a short or long rest.",
+    "fr": "Vous pouvez consacrer 10 minutes à inspirer vos compagnons et à renforcer leur détermination au combat. Choisissez jusqu’à six créatures amicales, vous compris si vous le souhaitez, situées à 30 feet ou moins de vous et capables de vous voir ou de vous entendre et de vous comprendre. Chacune peut gagner un nombre de points de vie temporaires égal à votre niveau + votre modificateur de Charisme. Une créature ne peut plus gagner de points de vie temporaires grâce à ce don avant d’avoir terminé un repos court ou long.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You have a mind that can track time, direction, and detail with uncanny precision. You gain the following benefits:",
+    "fr": "Votre esprit suit le temps, les directions et les détails avec une précision remarquable. Vous bénéficiez des avantages suivants :",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You always know which way is north.",
+    "fr": "Vous savez toujours où se trouve le nord.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You always know the number of hours left before the next sunrise or sunset.",
+    "fr": "Vous savez toujours combien d’heures restent avant le prochain lever ou coucher du soleil.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You can accurately recall anything you have seen or heard within the past month.",
+    "fr": "Vous pouvez vous rappeler avec précision tout ce que vous avez vu ou entendu au cours du dernier mois.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "Your Intelligence increases by 1.",
+    "fr": "Votre Intelligence augmente de 1.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You have trained to master the use of light armor, gaining the following benefits:",
+    "fr": "Votre entraînement au port des armures légères vous confère les avantages suivants :",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You gain proficiency with light armor.",
+    "fr": "Vous gagnez la maîtrise des armures légères.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You have studied languages and codes, gaining the following benefits:",
+    "fr": "Votre étude des langues et des codes vous confère les avantages suivants :",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You learn three languages of your choice.",
+    "fr": "Vous apprenez trois langues de votre choix.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You can ably create written ciphers. Others can't decipher a code you create unless you teach them, they succeed on an Intelligence check (DC equal to your Intelligence score + your proficiency bonus), or they use magic to decipher it.",
+    "fr": "Vous savez créer des codes écrits. Les autres ne peuvent pas déchiffrer vos codes à moins que vous les leur enseigniez, qu’ils réussissent un test d’Intelligence dont le DD est égal à votre valeur d’Intelligence + votre bonus de maîtrise, ou qu’ils utilisent la magie pour les déchiffrer.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You have inexplicable luck that seems to kick in at just the right moment.",
+    "fr": "Vous avez une chance inexplicable qui semble se manifester au moment opportun.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You have 3 luck points. Whenever you make an attack roll, an ability check, or a saving throw, you can spend one luck point to roll an additional d20. You can choose to spend one of your luck points after you roll the die, but before the outcome is determined. You choose which of the d20s is used for the attack roll, ability check, or saving throw.",
+    "fr": "Vous disposez de 3 points de chance. Lorsque vous effectuez un jet d’attaque, un test de caractéristique ou un jet de sauvegarde, vous pouvez dépenser un point de chance pour lancer un d20 supplémentaire. Vous pouvez décider de dépenser ce point après avoir lancé le dé, mais avant de connaître le résultat de l’action. Vous choisissez lequel des d20 utiliser pour le jet d’attaque, le test de caractéristique ou le jet de sauvegarde.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You can also spend one luck point when an attack roll is made against you. Roll a d20, and then choose whether the attack uses the attacker's roll or yours. If more than one creature spends a luck point to influence the outcome of a roll, the points cancel each other out; no additional dice are rolled.",
+    "fr": "Vous pouvez aussi dépenser un point de chance lorsqu’un jet d’attaque est effectué contre vous. Lancez un d20, puis choisissez si l’attaque utilise votre résultat ou celui de l’attaquant. Si plusieurs créatures dépensent un point de chance pour influencer le même jet, les points s’annulent et aucun dé supplémentaire n’est lancé.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You regain your expended luck points when you finish a long rest.",
+    "fr": "Vous récupérez vos points de chance dépensés à la fin d’un repos long.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You have practiced techniques useful in melee combat against spellcasters, gaining the following benefits:",
+    "fr": "Votre entraînement au combat rapproché contre les lanceurs de sorts vous confère les avantages suivants :",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "When a creature within 5 feet of you casts a spell, you can use your reaction to make a melee weapon attack against that creature.",
+    "fr": "Lorsqu’une créature à 5 feet ou moins de vous lance un sort, vous pouvez utiliser votre réaction pour effectuer une attaque avec une arme de corps à corps contre elle.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "When you damage a creature that is concentrating on a spell, that creature has disadvantage on the saving throw it makes to maintain its concentration.",
+    "fr": "Lorsque vous infligez des dégâts à une créature qui se concentre sur un sort, elle a le désavantage au jet de sauvegarde effectué pour maintenir sa concentration.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You have advantage on saving throws against spells cast by creatures within 5 feet of you.",
+    "fr": "Vous avez l’avantage aux jets de sauvegarde contre les sorts lancés par des créatures situées à 5 feet ou moins de vous.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "Choose a class: bard, cleric, druid, sorcerer, warlock, or wizard. You learn two cantrips of your choice from that class's spell list.",
+    "fr": "Choisissez une classe : Barde, Clerc, Druide, Ensorceleur, Occultiste ou Magicien. Vous apprenez deux sorts mineurs de votre choix dans la liste de sorts de cette classe.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "In addition, choose one 1st-level spell from that same list. You learn that spell and can cast it at its lowest level. Once you cast it, you must finish a long rest before you can cast it again using this feat.",
+    "fr": "Choisissez également un sort de niveau 1 dans cette même liste. Vous apprenez ce sort et pouvez le lancer à son niveau le plus bas. Après l’avoir lancé grâce à ce don, vous devez terminer un repos long avant de pouvoir le faire de nouveau.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "Your spellcasting ability for these spells depends on the class you chose: Charisma for bard, sorcerer, or warlock; Wisdom for cleric or druid: or Intelligence for wizard.",
+    "fr": "Votre caractéristique d’incantation pour ces sorts dépend de la classe choisie : le Charisme pour le Barde, l’Ensorceleur ou l’Occultiste ; la Sagesse pour le Clerc ou le Druide ; l’Intelligence pour le Magicien.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You have practiced moving in medium armor to gain the following benefits:",
+    "fr": "Votre entraînement au déplacement en armure intermédiaire vous confère les avantages suivants :",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "Wearing medium armor doesn't impose disadvantage on your Dexterity (Discrétion) checks.",
+    "fr": "Porter une armure intermédiaire n’impose pas de désavantage à vos tests de Dextérité (Discrétion).",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "When you wear medium armor, you can add 3, rather than 2, to your AC if you have a Dexterity of 16 or higher.",
+    "fr": "Lorsque vous portez une armure intermédiaire et que votre Dextérité est de 16 ou plus, vous pouvez ajouter 3 à votre CA au lieu de 2.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You are exceptionally speedy and agile. You gain the following benefits:",
+    "fr": "Votre rapidité et votre agilité exceptionnelles vous confèrent les avantages suivants :",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "Your speed increases by 10 feet.",
+    "fr": "Votre vitesse augmente de 10 feet.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "When you use the Dash action, difficult terrain doesn't cost you extra movement on that turn.",
+    "fr": "Lorsque vous entreprenez l’action Foncer, les terrains difficiles ne vous coûtent aucun déplacement supplémentaire pendant ce tour.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "When you make a melee attack against a creature, you don't provoke opportunity attacks from that creature for the rest of the turn, whether you hit or not.",
+    "fr": "Lorsque vous effectuez une attaque de corps à corps contre une créature, vous ne provoquez plus d’attaques d’opportunité de sa part jusqu’à la fin du tour, que l’attaque touche ou non.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "(Prérequis: Proficiency with light armor)",
+    "fr": "(Prérequis : maîtrise des armures légères)",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You have trained to master the use of medium armor and shields, gaining the following benefits:",
+    "fr": "Votre entraînement au port des armures intermédiaires et à l’usage des boucliers vous confère les avantages suivants :",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You gain proficiency with medium armor and shields.",
+    "fr": "Vous gagnez la maîtrise des armures intermédiaires et des boucliers.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You are a dangerous foe to face while mounted. While you are mounted and aren't incapacitated, you gain the following benefits:",
+    "fr": "Vous êtes un adversaire redoutable à dos de monture. Tant que vous êtes monté et ne subissez pas l’état Neutralisé, vous bénéficiez des avantages suivants :",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You have advantage on melee attack rolls against any unmounted creature that is smaller than your mount.",
+    "fr": "Vous avez l’avantage aux jets d’attaque de corps à corps contre toute créature non montée plus petite que votre monture.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You can force an attack targeted at your mount to target you instead.",
+    "fr": "Vous pouvez obliger une attaque visant votre monture à vous prendre pour cible à la place.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "If your mount is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.",
+    "fr": "Si votre monture subit un effet lui permettant d’effectuer un jet de sauvegarde de Dextérité pour ne subir que la moitié des dégâts, elle ne subit aucun dégât en cas de réussite et seulement la moitié en cas d’échec.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "Quick to notice details of your environment, you gain the following benefits:",
+    "fr": "Votre attention aux détails de votre environnement vous confère les avantages suivants :",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "If you can see a creature's mouth while it is speaking a language you understand, you can interpret what it's saying by reading its lips.",
+    "fr": "Si vous voyez la bouche d’une créature parlant une langue que vous comprenez, vous pouvez comprendre ce qu’elle dit en lisant sur ses lèvres.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You have a +5 bonus to your passive Wisdom (Perception) and passive Intelligence (Investigation) scores.",
+    "fr": "Vous gagnez un bonus de +5 à vos valeurs de Sagesse (Perception) passive et d’Intelligence (Investigation) passive.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "Choose 1 from Intelligence, Wisdom to increase by 1.",
+    "fr": "Choisissez une caractéristique parmi l’Intelligence et la Sagesse et augmentez-la de 1.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You can keep your enemies at bay with reach weapons. You gain the following benefits:",
+    "fr": "Vous savez tenir vos ennemis à distance avec des armes à allonge. Vous bénéficiez des avantages suivants :",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "When you take the Attack action and attack with only a glaive, halberd, quarterstaff, or spear, you can use a bonus action to make a melee attack with the opposite end of the weapon; this attack uses the same ability modifier as the primary attack. The weapon's damage die for this attack is a d4, and the attack deals bludgeoning damage.",
+    "fr": "Lorsque vous entreprenez l’action Attaquer et n’attaquez qu’avec une coutille, une hallebarde, un bâton de combat ou une lance, vous pouvez utiliser une action Bonus pour effectuer une attaque de corps à corps avec l’autre extrémité de l’arme. Cette attaque utilise le même modificateur de caractéristique que l’attaque principale. Son dé de dégâts est un d4 et elle inflige des dégâts contondants.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "While you are wielding a glaive, halberd, pike, quarterstaff, or spear, other creatures provoke an opportunity attack from you when they enter your reach.",
+    "fr": "Lorsque vous maniez une coutille, une hallebarde, une pique, un bâton de combat ou une lance, les autres créatures provoquent une attaque d’opportunité de votre part lorsqu’elles entrent dans votre allonge.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "Choose one ability score. You gain the following benefits:",
+    "fr": "Choisissez une caractéristique. Vous bénéficiez des avantages suivants :",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "Increase the chosen ability score by 1, to a maximum of 20.",
+    "fr": "Augmentez la caractéristique choisie de 1, jusqu’à un maximum de 20.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You gain proficiency in saving throws using the chosen ability.",
+    "fr": "Vous gagnez la maîtrise des jets de sauvegarde de la caractéristique choisie.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "(Prérequis: Intelligence or Wisdom 13 or higher)",
+    "fr": "(Prérequis : Intelligence ou Sagesse 13 ou plus)",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You have learned a number of spells that you can cast as rituals. These spells are written in a ritual book, which you must have in hand while casting one of them.",
+    "fr": "Vous avez appris des sorts que vous pouvez lancer comme rituels. Ils sont inscrits dans un grimoire de rituels que vous devez tenir en main pour les lancer.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "When you choose this feat, you acquire a ritual book holding two 1st-level spells of your choice. Choose one of the following classes: bard, cleric, druid, sorcerer, warlock, or wizard. You must choose your spells from that class's spell list, and the spells you choose must have the ritual tag. The class you choose also determines your spellcasting ability for these spells: Charisma for bard, sorcerer, or warlock; Wisdom for cleric or druid; or Intelligence for wizard.",
+    "fr": "Lorsque vous choisissez ce don, vous obtenez un grimoire de rituels contenant deux sorts de niveau 1 de votre choix. Choisissez une classe parmi Barde, Clerc, Druide, Ensorceleur, Occultiste et Magicien. Les sorts doivent provenir de la liste de cette classe et porter la mention Rituel. La classe choisie détermine aussi votre caractéristique d’incantation : le Charisme pour le Barde, l’Ensorceleur ou l’Occultiste ; la Sagesse pour le Clerc ou le Druide ; l’Intelligence pour le Magicien.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "If you come across a spell in written form, such as a magical spell scroll or a wizard's spellbook, you might be able to add it to your ritual book. The spell must be on the spell list for the class you chose, the spell's level can be no higher than half your level (rounded up), and it must have the ritual tag. The process of copying the spell into your ritual book takes 2 hours per level of the spell, and costs 50 gp per level. The cost represents material components you expend as you experiment with the spell to master it, as well as the fine inks you need to record it.",
+    "fr": "Si vous découvrez un sort sous forme écrite, par exemple sur un parchemin magique ou dans le grimoire d’un Magicien, vous pouvez éventuellement l’ajouter à votre grimoire de rituels. Il doit figurer dans la liste de sorts de la classe choisie, porter la mention Rituel et être d’un niveau ne dépassant pas la moitié du vôtre, arrondie à l’entier supérieur. Le recopier demande 2 heures et coûte 50 po par niveau du sort. Ce coût représente les composantes matérielles utilisées pour vous exercer à maîtriser le sort et les encres précieuses nécessaires à sa transcription.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "Once per turn when you roll damage for a melee weapon attack, you can reroll the weapon's damage dice and use either total.",
+    "fr": "Une fois par tour, lorsque vous lancez les dégâts d’une attaque avec une arme de corps à corps, vous pouvez relancer les dés de dégâts de l’arme et utiliser le total de votre choix.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You have mastered techniques to take advantage of every drop in any enemy's guard, gaining the following benefits:",
+    "fr": "Vous savez exploiter chaque ouverture dans la garde de vos ennemis. Vous bénéficiez des avantages suivants :",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "When you hit a creature with an opportunity attack, the creature's speed becomes 0 for the rest of the turn.",
+    "fr": "Lorsque vous touchez une créature avec une attaque d’opportunité, sa vitesse devient 0 jusqu’à la fin du tour.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "Creatures provoke opportunity attacks from you even if they take the Disengage action before leaving your reach.",
+    "fr": "Les créatures provoquent des attaques d’opportunité de votre part même si elles entreprennent l’action Se désengager avant de quitter votre allonge.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "When a creature within 5 feet of you makes an attack against a target other than you (and that target doesn't have this feat), you can use your reaction to make a melee weapon attack against the attacking creature.",
+    "fr": "Lorsqu’une créature à 5 feet ou moins de vous attaque une autre cible que vous, et que cette cible ne possède pas ce don, vous pouvez utiliser votre réaction pour effectuer une attaque avec une arme de corps à corps contre l’attaquant.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You have mastered ranged weapons and can make shots that others find impossible. You gain the following benefits:",
+    "fr": "Votre maîtrise des armes à distance vous permet des tirs que d’autres jugent impossibles. Vous bénéficiez des avantages suivants :",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "Attacking at long range doesn't impose disadvantage on your ranged weapon attack rolls.",
+    "fr": "Attaquer à longue portée n’impose pas de désavantage à vos jets d’attaque avec une arme à distance.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "Your ranged weapon attacks ignore half cover and three-quarters cover.",
+    "fr": "Vos attaques avec une arme à distance ignorent les abris partiels et les abris supérieurs.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "Before you make an attack with a ranged weapon that you are proficient with, you can choose to take a -5 penalty to the attack roll. If the attack hits, you add +10 to the attack's damage.",
+    "fr": "Avant d’attaquer avec une arme à distance dont vous avez la maîtrise, vous pouvez choisir de subir un malus de -5 au jet d’attaque. Si l’attaque touche, vous ajoutez +10 à ses dégâts.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You use shields not just for protection but also for offense. You gain the following benefits while you are wielding a shield:",
+    "fr": "Vous utilisez votre bouclier pour attaquer autant que pour vous protéger. Tant que vous en maniez un, vous bénéficiez des avantages suivants :",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "If you take the Attack action on your turn, you can use a bonus action to try to shove a creature within 5 feet of you with your shield.",
+    "fr": "Si vous entreprenez l’action Attaquer à votre tour, vous pouvez utiliser une action Bonus pour tenter de bousculer avec votre bouclier une créature située à 5 feet ou moins de vous.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "If you aren't incapacitated, you can add your shield's AC bonus to any Dexterity saving throw you make against a spell or other harmful effect that targets only you.",
+    "fr": "Si vous ne subissez pas l’état Neutralisé, vous pouvez ajouter le bonus à la CA de votre bouclier aux jets de sauvegarde de Dextérité contre les sorts et autres effets nuisibles qui ne ciblent que vous.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "If you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you can use your reaction to take no damage if you succeed on the saving throw, interposing your shield between yourself and the source of the effect.",
+    "fr": "Lorsqu’un effet vous permet d’effectuer un jet de sauvegarde de Dextérité pour ne subir que la moitié des dégâts, vous pouvez utiliser votre réaction pour ne subir aucun dégât en cas de réussite, en interposant votre bouclier entre vous et la source de l’effet.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You gain proficiency in any combination of three skills or tools of your choice.",
+    "fr": "Vous gagnez la maîtrise de trois compétences ou outils de votre choix, dans la combinaison de votre choix.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You are expert at slinking through shadows. You gain the following benefits:",
+    "fr": "Vous excellez à vous glisser dans les ombres. Vous bénéficiez des avantages suivants :",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You can try to hide when you are lightly obscured from the creature from which you are hiding.",
+    "fr": "Vous pouvez tenter de vous cacher lorsqu’une zone à visibilité réduite vous dissimule légèrement à la créature dont vous cherchez à vous cacher.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "When you are hidden from a creature and miss it with a ranged weapon attack, making the attack doesn't reveal your position.",
+    "fr": "Lorsque vous êtes caché d’une créature et la ratez avec une attaque d’arme à distance, cette attaque ne révèle pas votre position.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "Dim light doesn't impose disadvantage on your Wisdom (Perception) checks relying on sight.",
+    "fr": "La lumière faible n’impose pas de désavantage à vos tests de Sagesse (Perception) faisant appel à la vue.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "(Prérequis: dwarf or small race)",
+    "fr": "(Prérequis : Nain ou espèce de petite taille)",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You are uncommonly nimble for your race. You gain the following benefits:",
+    "fr": "Votre agilité dépasse celle des autres membres de votre espèce. Vous bénéficiez des avantages suivants :",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "Increase your walking speed by 5 feet.",
+    "fr": "Votre vitesse de marche augmente de 5 feet.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You gain proficiency in the Acrobatics or Athletics skill (your choice).",
+    "fr": "Vous gagnez la maîtrise d’Acrobaties ou d’Athlétisme, au choix.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You have advantage on any Strength (Athletics) or Dexterity (Acrobatics) check you make to escape from being grappled.",
+    "fr": "Vous avez l’avantage aux tests de Force (Athlétisme) ou de Dextérité (Acrobaties) effectués pour échapper à l’état Agrippé.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "Accustomed to rough-and-tumble fighting using whatever weapons happen to be at hand, you gain the following benefits:",
+    "fr": "Votre habitude des bagarres et des armes de fortune vous confère les avantages suivants :",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "Increase your Strength or Consitution by 1, to a maximum of 20",
+    "fr": "Augmentez votre Force ou votre Constitution de 1, jusqu’à un maximum de 20.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You are proficient with improvised weapons.",
+    "fr": "Vous avez la maîtrise des armes improvisées.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "Your unarmed strike uses a d4 for damage.",
+    "fr": "Votre frappe à mains nues utilise un d4 pour ses dégâts.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "When you hit a creature with an unarmed strike or an improvised weapon on your turn, you can use a bonus action to attempt to grapple the target.",
+    "fr": "À votre tour, lorsque vous touchez une créature avec une frappe à mains nues ou une arme improvisée, vous pouvez utiliser une action Bonus pour tenter d’agripper la cible.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "Your hit point maximum increases by an amount equal to twice your level when you gain this feat. Whenever you gain a level thereafter, your hit point maximum increases by an additional 2 hit points.",
+    "fr": "Lorsque vous acquérez ce don, votre maximum de points de vie augmente de deux fois votre niveau. Chaque fois que vous gagnez ensuite un niveau, ce maximum augmente de 2 points de vie supplémentaires.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "(Prerequisite: The ability to cast at least one spell)",
+    "fr": "(Prérequis : capacité à lancer au moins un sort)",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You have practiced casting spells in the midst of combat, learning techniques that grant you the following benefits:",
+    "fr": "Votre pratique de l’incantation au cœur des combats vous confère les avantages suivants :",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You have advantage on Constitution saving throws that you make to maintain your concentration on a spell when you take damage.",
+    "fr": "Vous avez l’avantage aux jets de sauvegarde de Constitution effectués pour maintenir votre concentration sur un sort lorsque vous subissez des dégâts.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You can perform the somatic components of spells even when you have weapons or a shield in one or both hands.",
+    "fr": "Vous pouvez exécuter les composantes somatiques des sorts même si vous tenez des armes ou un bouclier dans une ou deux mains.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "When a hostile creature's movement provokes an opportunity attack from you, you can use your reaction to cast a spell at the creature, rather than making an opportunity attack. The spell must have a casting time of 1 action and must target only that creature.",
+    "fr": "Lorsque le déplacement d’une créature hostile provoque une attaque d’opportunité de votre part, vous pouvez utiliser votre réaction pour lancer un sort sur elle à la place de cette attaque. Le sort doit avoir un temps d’incantation de 1 action et ne cibler que cette créature.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You have practiced extensively with a variety of weapons, gaining the following benefits:",
+    "fr": "Votre entraînement intensif avec différentes armes vous confère les avantages suivants :",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "You gain proficiency with four simple or martial weapons of your choice.",
+    "fr": "Vous gagnez la maîtrise de quatre armes courantes ou de guerre de votre choix.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "(Prerequisite: Dexterity 13 or higher)",
+    "fr": "(Prérequis : Dextérité 13 ou plus)",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "(Prerequisite: The ability to cast at least one spell)",
+    "fr": "(Prérequis : capacité à lancer au moins un sort)",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "(Prerequisite: Strength 13 or higher)",
+    "fr": "(Prérequis : Force 13 ou plus)",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "(Prerequisite: Proficiency with medium armor)",
+    "fr": "(Prérequis : maîtrise des armures intermédiaires)",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "(Prerequisite: Proficiency with heavy armor)",
+    "fr": "(Prérequis : maîtrise des armures lourdes)",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "(Prerequisite: Charisma 13 or higher)",
+    "fr": "(Prérequis : Charisme 13 ou plus)",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "Wearing medium armor doesn't impose disadvantage on your Dexterity (Stealth) checks.",
+    "fr": "Porter une armure intermédiaire n’impose pas de désavantage à vos tests de Dextérité (Discrétion).",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "(Prerequisite: Proficiency with light armor)",
+    "fr": "(Prérequis : maîtrise des armures légères)",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "(Prerequisite: Intelligence or Wisdom 13 or higher)",
+    "fr": "(Prérequis : Intelligence ou Sagesse 13 ou plus)",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  },
+  {
+    "en": "(Prerequisite: dwarf or small race)",
+    "fr": "(Prérequis : Nain ou espèce de petite taille)",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  Shard Player's Guide Volume 1"
+  }
+]

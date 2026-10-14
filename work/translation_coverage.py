@@ -12,21 +12,23 @@ CATALOG_CATEGORIES = {'spell':'sorts','feat':'dons','invocation':'classes','magi
 
 
 def book_report():
-    directory = ROOT / 'translations'
+    directory = ROOT / 'audit'
     config = json.loads((directory / 'livres.json').read_text())
     books = []
     for relative in config['livres']:
         path = directory / relative
         book = json.loads(path.read_text())
         counts = {}
-        for pack_path in sorted(path.parent.rglob('traductions.json')):
+        translation_directory = ROOT / book['dossierTraductions']
+        for pack_path in sorted(translation_directory.rglob('traductions.json')):
             entries = json.loads(pack_path.read_text())['entries']
             counts[pack_path.parent.name] = {
                 'entreesRattachees': len(entries),
                 'libelles': sum(e.get('kind', 'description') == 'term' for e in entries),
                 'blocs': sum(e.get('kind', 'description') == 'description' for e in entries),
             }
-        books.append({**book, 'dossier': str(path.parent.relative_to(ROOT)),
+        books.append({**book, 'dossier': book['dossierTraductions'],
+                      'descriptionsEnFichiersDedies': sum(len(json.loads(p.read_text())) for p in translation_directory.rglob('descriptions.json')),
                       'packsRattachesParCategorie': counts,
                       'entreesRattachees': sum(c['entreesRattachees'] for c in counts.values())})
     return {**config, 'livres': sorted(books, key=lambda book: book['priorite'])}
@@ -34,33 +36,34 @@ def book_report():
 
 def report():
     packs = load_packs()
-    names = Counter(CATALOG_CATEGORIES[row['kind']] for row in json.loads((ROOT/'work/aidedd-catalog.json').read_text()))
+    names = Counter(CATALOG_CATEGORIES[row['kind']] for row in json.loads((ROOT/'sources-generation/catalogues/aidedd-2024.json').read_text()))
     categories = {}
     for category in CATEGORIES:
-        directory = ROOT/'translations'/category
         terms = set()
-        for path in directory.glob('*.tsv'):
+        for path in (ROOT/'translations').rglob('*.tsv'):
+            if path.parent.name != category:
+                continue
             for line in path.read_text().splitlines():
                 if line.count('|')==1 and not line.split('|')[0].isdecimal():terms.add(line.split('|')[0])
         rows = [row for row in packs if row['category']==category]
         categories[category] = {'nomsCatalogueAideDD2024':names[category], 'entreesDictionnaires':len(terms), 'libellesEditables':sum(r['kind']=='term' for r in rows), 'blocsEditables':sum(r['kind']=='description' for r in rows)}
-    classes = json.loads((ROOT/'work/class-coverage.json').read_text())
-    options = json.loads((ROOT/'work/option-coverage.json').read_text())
+    classes = json.loads((ROOT/'audit/generes/classes-srd.json').read_text())
+    options = json.loads((ROOT/'audit/generes/options-srd.json').read_text())
     per_class = {}
     for name in dict.fromkeys(row['class'] for row in classes):
         rows = [r for r in classes if r['class']==name]
         per_class[name] = {'aptitudesIndexees':len(rows),'proseAppariee':sum(r['description'] for r in rows)}
-    conditions = json.loads((ROOT/'translations/regles/etats-2024.json').read_text())['conditions']
-    complete = json.loads((ROOT/'work/complete-texts.json').read_text())
-    presentations = json.loads((ROOT/'translations/descriptions-visibles.json').read_text())['fiches']
-    shard_catalogue = json.loads((ROOT/'translations/regles/conditions-shard.json').read_text())
+    conditions = json.loads((ROOT/'audit/inventaires/commun/etats-2024.json').read_text())['conditions']
+    complete = json.loads((ROOT/'work/generated/complete-texts.json').read_text())
+    presentations = json.loads((ROOT/'audit/inventaires/descriptions-visibles.json').read_text())['fiches']
+    shard_catalogue = json.loads((ROOT/'audit/inventaires/conditions-shard.json').read_text())
     shard_conditions = shard_catalogue['fiches']
     condition_details = shard_catalogue['fichesOuvertes']
-    feats = json.loads((ROOT/'translations/dons/catalogue-2024.json').read_text())
+    feats = json.loads((ROOT/'audit/inventaires/phb/dons-2024.json').read_text())
     feat_samples = json.loads((ROOT/'tests/fixtures/feat-catalog.json').read_text())
-    monster_titles = json.loads((ROOT/'translations/monstres/titres-aptitudes-2024.json').read_text())['entries']
-    monster_references = json.loads((ROOT/'translations/monstres/couverture-references-2024.json').read_text())['fiches']
-    common_traits = json.loads((ROOT/'translations/monstres/traits-communs-2024.json').read_text())['traits']
+    monster_titles = json.loads((ROOT/'translations/dnd-2024/mm/monstres/titres-aptitudes.json').read_text())['entries']
+    monster_references = json.loads((ROOT/'audit/inventaires/mm/references-2024.json').read_text())['fiches']
+    common_traits = json.loads((ROOT/'audit/inventaires/mm/traits-communs-2024.json').read_text())['traits']
     pack_ids = {r['id'] for r in packs}
     if any(ident not in pack_ids for f in presentations for ident in f['paragraphes']):
         raise ValueError('Le catalogue des descriptions visibles référence un bloc absent des packs')
@@ -68,7 +71,7 @@ def report():
         raise ValueError('Le catalogue des conditions Shard référence un bloc absent des packs')
     return {
         'suiviLivres':book_report(),
-        'objectifReferencesAccueil':json.loads((ROOT/'translations/perimetre-references.json').read_text()),
+        'objectifReferencesAccueil':json.loads((ROOT/'audit/perimetre-references.json').read_text()),
         'categories':categories,
         'corpusLocaux':{
             'descriptionsEtChampsLocauxUniques':len({key(r['en']) for r in complete}),
@@ -89,8 +92,8 @@ def report():
             'donsPHB2024':{'donsIndexes':len(feats['dons2024']),'cartesShardRelevees':feats['cartesShard'],'fichesShardOuvertes':feats['fichesShardOuvertes'],'extraitsTestes':len(feat_samples),'blocsEtChampsTestes':sum(len(s['expectations']) for s in feat_samples)},
             'aptitudesMonstres2024':{'titresBilingues':len(monster_titles),'referencesComparees':len(monster_references),'blocsAnglaisReleves':sum(r['actionsEN'] for r in monster_references),'appariementsDeReference':sum(r['matched'] for r in monster_references),'blocsDeReferenceAVerifier':sum(len(r['aVerifier']) for r in monster_references),'referencesSansActionsFrancaises':sum(not r['actionsFR'] for r in monster_references),'tarasqueParagraphesTestes':14},
             'traitsCommunsMonstres2024':{'traitsReleves':len(common_traits),'creaturesConcernees':len({r['monster'] for r in common_traits}),'familles':dict(Counter(r['family'] for r in common_traits))},
-            'armesSRD2024':len(json.loads((ROOT/'translations/armes/catalogue-2024.json').read_text())['weapons']),
-            'sousSectionsEtVariantesClasses':len(json.loads((ROOT/'work/class-sections.json').read_text())),
+            'armesSRD2024':len(json.loads((ROOT/'audit/inventaires/commun/armes-srd-2024.json').read_text())['weapons']),
+            'sousSectionsEtVariantesClasses':len(json.loads((ROOT/'work/generated/class-sections.json').read_text())),
             'nomsSousClassesPHB2024':48,
         },
         'aVerifier':[r for r in classes+options if r['pending']],

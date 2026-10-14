@@ -90,7 +90,7 @@ Les traductions sont regroupées par grandes catégories dans le dépôt. L’in
 
 Le corpus local comprend désormais la prose des 232 aptitudes indexées des 12 classes SRD, des 10 métamagies et des 28 manifestations occultes. Les descriptions existantes sont conservées lorsqu’elles couvrent déjà le même texte. Les dés cliquables gardent aussi leur casse originale.
 
-Le rapport `couverture-traductions.json` distingue les noms AideDD, les descriptions locales et les limites. Les sources SRD ne contiennent pas tous les suppléments ni toutes les sous-classes. Les autres fiches publiques AideDD restent chargées à la consultation ; une variante Shard différente peut rester en anglais.
+Le rapport `audit/couverture-traductions.json` à la racine du dépôt distingue les noms AideDD, les descriptions locales et les limites. Les sources SRD ne contiennent pas tous les suppléments ni toutes les sous-classes. Les autres fiches publiques AideDD restent chargées à la consultation ; une variante Shard différente peut rester en anglais.
 
 ## Armes et sous-sections · version 1.17
 

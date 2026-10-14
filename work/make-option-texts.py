@@ -2,6 +2,7 @@
 import json
 import re
 import runpy
+from translation_sources import tsv_sources
 from pathlib import Path
 from translation_sources import source
 from translation_packs import key, signature, load_packs
@@ -11,7 +12,7 @@ shared = runpy.run_path(str(ROOT/'work/make-class-texts.py'))
 flat, units = shared['flat'], shared['units']
 texts = {lang:(ROOT/f'data/srd-5.2.1/classes-{lang}.txt').read_text() for lang in ['en','fr']}
 names = {}
-for path in sorted((ROOT/'translations').rglob('*.tsv')):
+for path in tsv_sources():
     for line in path.read_text().splitlines():
         if line.count('|') == 1:
             en, fr = line.split('|')
@@ -40,7 +41,7 @@ def section(lang, bounds):
 
 pairs, records = [], []
 editorial={}
-for path in sorted((ROOT/'translations').rglob('*.tsv')):
+for path in tsv_sources():
     for line in path.read_text().splitlines():
         if line.count('|')==1:
             en,fr=line.split('|')
@@ -80,6 +81,6 @@ for kind, bounds in RANGES.items():
     minimum=10 if kind=='metamagic' else 20
     if len(found)<minimum:raise ValueError(f'{kind}: trop peu de titres reconnus ({len(found)})')
 pairs=[{**row,'fr':editorial.get(key(row['en']),row['fr'])} for row in pairs]
-(ROOT/'work/option-texts.json').write_text(json.dumps(pairs,ensure_ascii=False,indent=2)+'\n')
-(ROOT/'work/option-coverage.json').write_text(json.dumps(records,ensure_ascii=False,indent=2)+'\n')
+(ROOT/'work/generated/option-texts.json').write_text(json.dumps(pairs,ensure_ascii=False,indent=2)+'\n')
+(ROOT/'audit/generes/options-srd.json').write_text(json.dumps(records,ensure_ascii=False,indent=2)+'\n')
 print(f'{len(records)} options nommées ; {len(pairs)} blocs complets et corps sans prérequis/coût')

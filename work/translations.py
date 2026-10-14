@@ -77,7 +77,7 @@ def audit(path, include_labels=False, all_unknown=False):
             known.update([key(row['en']), key(row['fr'])])
     for row in load_packs():
         known.update([key(row['en']), key(row['fr'])])
-    for row in json.loads((ROOT/'work/aidedd-catalog.json').read_text()):
+    for row in json.loads((ROOT/'sources-generation/catalogues/aidedd-2024.json').read_text()):
         known.update([key(row['en']), key(row['fr'])])
     parser = Blocks(include_labels)
     parser.feed(Path(path).read_text(encoding='utf-8'))
@@ -100,7 +100,7 @@ def audit(path, include_labels=False, all_unknown=False):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     commands = parser.add_subparsers(dest='command', required=True)
-    commands.add_parser('check', help='Valider les fichiers translations/*.json')
+    commands.add_parser('check', help='Valider les packs de traductions détectés récursivement')
     scan = commands.add_parser('audit', help='Lister les passages anglais inconnus dans un HTML local')
     scan.add_argument('html', type=Path)
     scan.add_argument('--output', type=Path, help='Enregistrer le rapport JSON localement')

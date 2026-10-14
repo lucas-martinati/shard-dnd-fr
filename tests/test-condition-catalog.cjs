@@ -1,6 +1,6 @@
 const fs=require('node:fs'),assert=require('node:assert/strict'),{JSDOM}=require('jsdom');
 const cards=JSON.parse(fs.readFileSync('tests/fixtures/condition-cards.json','utf8'));
-const catalogue=JSON.parse(fs.readFileSync('translations/regles/conditions-shard.json','utf8')).fiches;
+const catalogue=JSON.parse(fs.readFileSync('audit/inventaires/conditions-shard.json','utf8')).fiches;
 const rows=require('./translation-fixtures.cjs').entries(),byId=new Map(rows.map(row=>[row.id,row]));
 assert.equal(cards.length,48);assert.equal(catalogue.length,48);
 const w=new JSDOM('<main></main>',{url:'https://play.shardtabletop.com/#customtable?type=Conditions',runScripts:'outside-only',pretendToBeVisual:true}).window,d=w.document,main=d.querySelector('main'),cases=[],articles=[];

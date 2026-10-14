@@ -1,0 +1,357 @@
+[
+  {
+    "en": "(Prerequisite:  Level 4+)",
+    "fr": "(Prérequis : Niveau 4+)",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "Increase one ability score of your choice by 2, or increase two ability scores of your choice by 1. This feat can’t increase an ability score above 20.",
+    "fr": "Augmentez une caractéristique de votre choix de 2, ou deux caractéristiques de votre choix de 1. Ce don ne peut pas porter une caractéristique au-delà de 20.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "(Prerequisite: Level 4+ , Ability Score Improvement)",
+    "fr": "(Prérequis : Niveau 4+, Amélioration de caractéristique)",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "(Prerequisite: Level 4+ , Ability Score Improvement 2)",
+    "fr": "(Prérequis : Niveau 4+, Amélioration de caractéristique 2)",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "(Prerequisite: Level 4+ , Ability Score Improvement 3)",
+    "fr": "(Prérequis : Niveau 4+, Amélioration de caractéristique 3)",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "(Prerequisite: Level 4+ , Ability Score Improvement 4)",
+    "fr": "(Prérequis : Niveau 4+, Amélioration de caractéristique 4)",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "(Prerequisite:  Level 4+, Charisma 13+)",
+    "fr": "(Prérequis : Niveau 4+, Charisme 13+)",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "You gain the following benefits.",
+    "fr": "Vous bénéficiez des avantages suivants.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "Initiative Proficiency. When you roll Initiative, you can add your Proficiency Bonus to the roll.",
+    "fr": "Maîtrise de l’Initiative. Lorsque vous lancez l’Initiative, vous pouvez ajouter votre bonus de maîtrise au jet.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "Initiative Swap. Immediately after you roll Initiative, you can swap your Initiative with the Initiative of one willing ally in the same combat. You can’t make this swap if you or the ally has the Incapacitated condition.",
+    "fr": "Échange d’Initiative. Juste après votre jet d’Initiative, vous pouvez échanger votre Initiative avec celle d’un allié consentant participant au même combat. Cet échange est impossible si vous ou cet allié subissez l’état Neutralisé.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "(Prerequisite: Fighting Style Feature)",
+    "fr": "(Prérequis : aptitude Style de combat)",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "You gain a +2 bonus to attack rolls you make with Ranged weapons.",
+    "fr": "Vous gagnez un bonus de +2 aux jets d’attaque effectués avec des armes à distance.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "(Prerequisite:  Level 4+, Strength or Dexterity 13+)",
+    "fr": "(Prérequis : Niveau 4+, Force ou Dextérité 13+)",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "(Prérequis: Fighting Style Feature)",
+    "fr": "(Prérequis : aptitude Style de combat)",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "You have Blindsight with a range of 10 feet.",
+    "fr": "Vous disposez de la Vision aveugle sur une portée de 10 feet.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "(Prerequisite:  Level 19+)",
+    "fr": "(Prérequis : Niveau 19+)",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "(Prerequisite:  Level 19+, Spellcasting Feature)",
+    "fr": "(Prérequis : Niveau 19+, aptitude Sorts)",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "(Prérequis:  Level 4+, Strength or Dexterity 13+)",
+    "fr": "(Prérequis : Niveau 4+, Force ou Dextérité 13+)",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "Tool Proficiency. You gain proficiency with three different Artisan’s Tools of your choice from the Fast Crafting table.",
+    "fr": "Maîtrise d’outils. Vous gagnez la maîtrise de trois outils d’artisan différents de votre choix figurant dans la table de fabrication rapide.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "Discount. Whenever you buy a nonmagical item, you receive a 20 percent discount on it.",
+    "fr": "Ristourne. Lorsque vous achetez un objet non magique, vous bénéficiez d’une réduction de 20 pour cent sur son prix.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB · titre harmonisé avec le lexique des dons 2024"
+  },
+  {
+    "en": "Fast Crafting. When you finish a Long Rest, you can craft one piece of gear from the Fast Crafting table, provided you have the Artisan’s Tools associated with that item and have proficiency with those tools. The item lasts until you finish another Long Rest, at which point the item falls apart.",
+    "fr": "Façonnage rapide. À la fin d’un Repos long, vous pouvez fabriquer un équipement de la table de fabrication rapide si vous possédez les outils d’artisan correspondants et en avez la maîtrise. L’objet dure jusqu’à la fin de votre prochain Repos long, puis se désagrège.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB · titre harmonisé avec le lexique des dons 2024"
+  },
+  {
+    "en": "When you’re holding a Melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.",
+    "fr": "Lorsque vous tenez une arme de corps à corps dans une main sans tenir d’autre arme, vous gagnez un bonus de +2 aux jets de dégâts de cette arme.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "(Prérequis: Level 4+, Spellcasting or Pact Magic Feature)",
+    "fr": "(Prérequis : Niveau 4+, aptitude Sorts ou Magie de pacte)",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "You gain the following benefits,",
+    "fr": "Vous bénéficiez des avantages suivants :",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "Ability Score Increase. Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.",
+    "fr": "Augmentation de caractéristique. Augmentez votre Intelligence, votre Sagesse ou votre Charisme de 1, jusqu’à un maximum de 20.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB · titre harmonisé avec le lexique des dons 2024"
+  },
+  {
+    "en": "Energy Mastery. Choose one of the following damage types: Acid, Cold, Fire, Lightning, or Thunder. Spells you cast ignore Resistance to damage of the chosen type. In addition, when you roll damage for a spell you cast that deals damage of that type, you can treat any 1 on a damage die as a 2.",
+    "fr": "Maîtrise des énergies. Choisissez un type de dégâts parmi Acide, Froid, Feu, Foudre et Tonnerre. Les sorts que vous lancez ignorent la Résistance aux dégâts du type choisi. De plus, lorsque vous lancez les dégâts d’un sort infligeant ce type de dégâts, vous pouvez traiter tout 1 obtenu sur un dé de dégâts comme un 2.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB · titre harmonisé avec le lexique des dons 2024"
+  },
+  {
+    "en": "Repeatable. You can take this feat more than once.",
+    "fr": "Répétable. Vous pouvez choisir ce don plusieurs fois.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "Your exposure to the Feywild’s magic grants you the following benefits.",
+    "fr": "Votre exposition à la magie de la Féerie vous confère les avantages suivants.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "Ability Score Increase. Increase your Strength score by 1, to a maximum of 20.",
+    "fr": "Augmentation de caractéristique. Augmentez votre Force de 1, jusqu’à un maximum de 20.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB · titre harmonisé avec le lexique des dons 2024"
+  },
+  {
+    "en": "Heavy Weapon Mastery. When you hit a creature with a weapon that has the Heavy property as part of the Attack action on your turn, you can cause the weapon to deal extra damage to the target. The extra damage equals your Proficiency Bonus.",
+    "fr": "Expert en armes lourdes. Lorsque vous touchez une créature avec une arme dotée de la propriété Lourde dans le cadre de l’action Attaquer à votre tour, vous pouvez lui infliger des dégâts supplémentaires avec cette arme. Ces dégâts sont égaux à votre bonus de maîtrise.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB · titre harmonisé avec le lexique des dons 2024"
+  },
+  {
+    "en": "Hew. Immediately after you score a Critical Hit with a Melee weapon or reduce a creature to 0 Hit Points with one, you can make one attack with the same weapon as a Bonus Action.",
+    "fr": "Abattage. Juste après un Coup critique avec une arme de corps à corps ou après avoir réduit une créature à 0 point de vie avec une telle arme, vous pouvez effectuer une attaque avec cette même arme par une action Bonus.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB · titre harmonisé avec le lexique des dons 2024"
+  },
+  {
+    "en": "(Prérequis:  Level 4+, Medium Armor Training)",
+    "fr": "(Prérequis : Niveau 4+, formation aux armures intermédiaires)",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "(Prérequis:  Level 4+, Heavy Armor Training)",
+    "fr": "(Prérequis : Niveau 4+, formation aux armures lourdes)",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "(Prérequis:  Level 4+, Wisdom or Charisma 13+)",
+    "fr": "(Prérequis : Niveau 4+, Sagesse ou Charisme 13+)",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "You gain one of the following benefits.",
+    "fr": "Vous bénéficiez de l’un des avantages suivants.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "When a creature you can see hits another creature within 5 feet of you with an attack roll, you can take a Reaction to reduce the damage dealt to the target by 1d10 plus your Proficiency Bonus. You must be holding a Shield or a Simple or Martial weapon to use this Reaction.",
+    "fr": "Lorsqu’une créature que vous voyez touche une autre créature à 5 feet ou moins de vous avec un jet d’attaque, vous pouvez utiliser votre Réaction pour réduire les dégâts infligés à la cible de 1d10 + votre bonus de maîtrise. Vous devez tenir un bouclier ou une arme courante ou de guerre pour utiliser cette Réaction.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "Two Cantrips. You learn two cantrips of your choice from the Cleric, Druid, or Wizard spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for this feat’s spells (choose when you select this feat).",
+    "fr": "Deux sorts mineurs. Vous apprenez deux sorts mineurs de votre choix dans la liste du Clerc, du Druide ou du Magicien. Choisissez l’Intelligence, la Sagesse ou le Charisme comme caractéristique d’incantation pour les sorts de ce don au moment où vous le prenez.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "Level 1 Spell. Choose a level 1 spell from the same list you selected for this feat’s cantrips. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have.",
+    "fr": "Sort de niveau 1. Choisissez un sort de niveau 1 dans la même liste que les sorts mineurs de ce don. Ce sort est toujours préparé pour vous. Vous pouvez le lancer une fois sans emplacement de sort et récupérez cette possibilité à la fin d’un Repos long. Vous pouvez aussi le lancer en utilisant vos emplacements de sort.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "Spell Change. Whenever you gain a new level, you can replace one of the spells you chose for this feat with a different spell of the same level from the chosen spell list.",
+    "fr": "Changement de sort. Chaque fois que vous gagnez un niveau, vous pouvez remplacer l’un des sorts choisis pour ce don par un autre sort de même niveau dans la liste choisie.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "Repeatable. You can take this feat more than once, but you must choose a different spell list each time.",
+    "fr": "Répétable. Vous pouvez choisir ce don plusieurs fois, en choisissant une liste de sorts différente à chaque fois.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "Ability Score Increase. Increase your Strength or Dexterity score by 1, to a maximum of 20.",
+    "fr": "Augmentation de caractéristique. Augmentez votre Force ou votre Dextérité de 1, jusqu’à un maximum de 20.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB · titre harmonisé avec le lexique des dons 2024"
+  },
+  {
+    "en": "Weapon Proficiency. You gain proficiency with Martial weapons.",
+    "fr": "Maîtrise des armes. Vous gagnez la maîtrise des armes de guerre.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB · titre harmonisé avec le lexique des dons 2024"
+  },
+  {
+    "en": "(Prérequis:  Level 4+, Light Armor Training)",
+    "fr": "(Prérequis : Niveau 4+, formation aux armures légères)",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "Instrument Training. You gain proficiency with three Musical Instruments of your choice.",
+    "fr": "Formation aux instruments. Vous gagnez la maîtrise de trois instruments de musique de votre choix.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB · titre harmonisé avec le lexique des dons 2024"
+  },
+  {
+    "en": "Encouraging Song. As you finish a Short or Long Rest, you can play a song on a Musical Instrument with which you have proficiency and give Heroic Inspiration to allies who hear the song. The number of allies you can affect in this way equals your Proficiency Bonus.",
+    "fr": "Chant d’encouragement. À la fin d’un Repos court ou long, vous pouvez jouer un morceau sur un instrument de musique dont vous avez la maîtrise pour accorder l’Inspiration héroïque à des alliés qui l’entendent. Le nombre d’alliés pouvant en bénéficier est égal à votre bonus de maîtrise.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB · titre harmonisé avec le lexique des dons 2024"
+  },
+  {
+    "en": "(Prérequis:  Level 4+, Intelligence or Wisdom 13+)",
+    "fr": "(Prérequis : Niveau 4+, Intelligence ou Sagesse 13+)",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "When a creature you can see attacks a target other than you that is within 5 feet of you, you can take a Reaction to interpose your Shield if you’re holding one. You impose Disadvantage on the triggering attack roll and all other attack rolls against the target until the start of your next turn if you remain within 5 feet of the target.",
+    "fr": "Lorsqu’une créature que vous voyez attaque une autre cible que vous située à 5 feet ou moins de vous, vous pouvez utiliser votre Réaction pour interposer votre bouclier si vous en tenez un. Vous imposez le Désavantage au jet d’attaque déclencheur et à tous les autres jets d’attaque contre cette cible jusqu’au début de votre prochain tour, tant que vous restez à 5 feet ou moins d’elle.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "Choose one ability in which you lack saving throw proficiency. The chosen ability score increases by 1, to a maximum of 20 and you gain proficiency in saving throws with that ability.",
+    "fr": "Choisissez une caractéristique dont vous ne maîtrisez pas les jets de sauvegarde. Sa valeur augmente de 1, jusqu’à un maximum de 20, et vous gagnez la maîtrise des jets de sauvegarde de cette caractéristique.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "(Prérequis:  Level 4+; Intelligence, Wisdom, or Charisma 13+)",
+    "fr": "(Prérequis : Niveau 4+ ; Intelligence, Sagesse ou Charisme 13+)",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "You’ve trained to deal particularly damaging strikes. Once per turn when you hit a target with a weapon, you can roll the weapon’s damage dice twice and use either roll against the target.",
+    "fr": "Vous vous êtes entraîné à porter des coups particulièrement dévastateurs. Une fois par tour, lorsque vous touchez une cible avec une arme, vous pouvez lancer deux fois les dés de dégâts de l’arme et utiliser le résultat de votre choix contre la cible.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "Your exposure to the Shadowfell’s magic grants you the following benefits.",
+    "fr": "Votre exposition à la magie de la Gisombre vous confère les avantages suivants.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "(Prérequis:  Level 4+, Shield Training)",
+    "fr": "(Prérequis : Niveau 4+, formation au bouclier)",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "(Prérequis:  Level 4+, Dexterity or Constitution 13+)",
+    "fr": "(Prérequis : Niveau 4+, Dextérité ou Constitution 13+)",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "(Prérequis:  Level 4+, Spellcasting or Pact Magic Feature)",
+    "fr": "(Prérequis : Niveau 4+, aptitude Sorts ou Magie de pacte)",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "When you hit with a ranged attack roll using a weapon that has the Thrown property, you gain a +2 bonus to the damage roll.",
+    "fr": "Lorsque vous touchez avec une attaque à distance utilisant une arme dotée de la propriété Lancer, vous gagnez un bonus de +2 au jet de dégâts.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "Your Hit Point maximum increases by an amount equal to twice your character level when you gain this feat. Whenever you gain a character level thereafter, your Hit Point maximum increases by an additional 2 Hit Points.",
+    "fr": "Lorsque vous acquérez ce don, votre maximum de points de vie augmente de deux fois votre niveau de personnage. Chaque fois que vous gagnez ensuite un niveau de personnage, ce maximum augmente de 2 points de vie supplémentaires.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "When you hit with your Unarmed Strike and deal damage, you can deal Bludgeoning damage equal to 1d6 plus your Strength modifier instead of the normal damage of an Unarmed Strike. If you aren’t holding any weapons or a Shield when you make the attack roll, the d6 becomes a d8.",
+    "fr": "Lorsque vous touchez avec votre Frappe à mains nues et infligez des dégâts, vous pouvez infliger des dégâts contondants égaux à 1d6 + votre modificateur de Force au lieu des dégâts normaux. Si vous ne tenez ni arme ni bouclier au moment du jet d’attaque, le d6 devient un d8.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "At the start of each of your turns, you can deal 1d4 Bludgeoning damage to one creature Grappled by you.",
+    "fr": "Au début de chacun de vos tours, vous pouvez infliger 1d4 dégâts contondants à une créature Agrippée par vous.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "Mastery Property. Your training with weapons allows you to use the mastery property of one kind of Simple or Martial weapon of your choice, provided you have proficiency with it. Whenever you finish a Long Rest, you can change the kind of weapon to another eligible kind.",
+    "fr": "Propriété botte. Votre entraînement vous permet d’utiliser la propriété Botte d’un type d’arme courante ou de guerre de votre choix dont vous avez la maîtrise. À la fin d’un Repos long, vous pouvez choisir un autre type d’arme admissible.",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB · titre harmonisé avec le lexique des dons 2024"
+  },
+  {
+    "en": "(Prerequisite: Fighting Style Feature)",
+    "fr": "(Prérequis : aptitude Style de combat)",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "(Prerequisite:  Level 4+, Strength or Dexterity 13+)",
+    "fr": "(Prérequis : Niveau 4+, Force ou Dextérité 13+)",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "(Prerequisite: Level 4+, Spellcasting or Pact Magic Feature)",
+    "fr": "(Prérequis : Niveau 4+, aptitude Sorts ou Magie de pacte)",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "(Prerequisite:  Level 4+, Medium Armor Training)",
+    "fr": "(Prérequis : Niveau 4+, formation aux armures intermédiaires)",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "(Prerequisite:  Level 4+, Heavy Armor Training)",
+    "fr": "(Prérequis : Niveau 4+, formation aux armures lourdes)",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "(Prerequisite:  Level 4+, Wisdom or Charisma 13+)",
+    "fr": "(Prérequis : Niveau 4+, Sagesse ou Charisme 13+)",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "(Prerequisite:  Level 4+, Light Armor Training)",
+    "fr": "(Prérequis : Niveau 4+, formation aux armures légères)",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "(Prerequisite:  Level 4+, Intelligence or Wisdom 13+)",
+    "fr": "(Prérequis : Niveau 4+, Intelligence ou Sagesse 13+)",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "(Prerequisite:  Level 4+; Intelligence, Wisdom, or Charisma 13+)",
+    "fr": "(Prérequis : Niveau 4+ ; Intelligence, Sagesse ou Charisme 13+)",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "(Prerequisite:  Level 4+, Shield Training)",
+    "fr": "(Prérequis : Niveau 4+, formation au bouclier)",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "(Prerequisite:  Level 4+, Dexterity or Constitution 13+)",
+    "fr": "(Prérequis : Niveau 4+, Dextérité ou Constitution 13+)",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  },
+  {
+    "en": "(Prerequisite:  Level 4+, Spellcasting or Pact Magic Feature)",
+    "fr": "(Prérequis : Niveau 4+, aptitude Sorts ou Magie de pacte)",
+    "source": "Traduction de l’extrait utilisateur · dons et styles de combat · Source.  D&D 2024 PHB"
+  }
+]

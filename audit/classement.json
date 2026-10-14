@@ -1,0 +1,10 @@
+{
+  "methode": "Sources explicites des entrées, sources décodées des fiches HTML, identifiants de sections et attentes anglaises des tests de dons. Un rattachement multiple reste commun. Une édition seule ne suffit pas à attribuer un livre.",
+  "preuves": [
+    "tests/fixtures/shard-catalogue.json",
+    "tests/fixtures/feat-catalog.json",
+    "audit/inventaires/descriptions-visibles.json",
+    "audit/inventaires/conditions-shard.json"
+  ],
+  "limite": "Les noms du catalogue d’armes ne donnent pas tous leur livre source. Ils restent à classer plutôt que d’être attribués par supposition."
+}

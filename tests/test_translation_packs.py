@@ -35,6 +35,29 @@ class PacksTest(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'source ou édition invalide'):
             load_packs(self.root)
 
+    def test_simplified_pack_keeps_provenance_and_defaults(self):
+        pack = {'edition': '2024', 'entries': [self.entry(source='Texte fourni')]}
+        (self.root / 'pack.json').write_text(json.dumps(pack))
+        row = load_packs(self.root)[0]
+        self.assertEqual((row['source'], row['edition']), ('Texte fourni', '2024'))
+        pack.pop('edition')
+        pack['source'] = 'Source commune'
+        pack['entries'][0].pop('source')
+        (self.root / 'pack.json').write_text(json.dumps(pack))
+        row = load_packs(self.root)[0]
+        self.assertEqual((row['source'], row['edition']), ('Source commune', 'any'))
+        pack.pop('source')
+        (self.root / 'pack.json').write_text(json.dumps(pack))
+        with self.assertRaisesRegex(ValueError, 'source ou édition invalide'):
+            load_packs(self.root)
+
+    def test_explicit_schema_version_still_rejects_unknown_formats(self):
+        for version in [2, True, '1']:
+            pack = {'schemaVersion': version, 'source': 'Test', 'entries': [self.entry()]}
+            (self.root / 'pack.json').write_text(json.dumps(pack))
+            with self.assertRaisesRegex(ValueError, 'schemaVersion'):
+                load_packs(self.root)
+
     def test_numbers_and_dice_are_preserved(self):
         self.write([self.entry(fr='Vous récupérez 1d8 points de vie.')])
         with self.assertRaisesRegex(ValueError, 'nombres ou dés'):

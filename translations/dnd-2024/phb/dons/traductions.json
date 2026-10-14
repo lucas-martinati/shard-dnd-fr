@@ -1,211 +1,1217 @@
 {
   "$schema": "../../../../docs/translation-pack.schema.json",
-  "schemaVersion": 1,
-  "edition": "any",
-  "source": "Sources détaillées par entrée",
+  "edition": "2024",
   "entries": [
     {
       "id": "feat.catalogue.crafter.4",
       "en": "Fast Crafting Table",
       "fr": "Table de Façonnage rapide",
-      "edition": "2024",
       "source": "Traduction proposée du texte anglais · Source.  D&D 2024 PHB · relevé du 13 octobre 2026"
     },
     {
       "id": "feat.catalogue.crafter.5",
       "en": "Artisan’s Tools",
       "fr": "Outils d’artisan",
-      "edition": "2024",
       "source": "Traduction proposée du texte anglais · Source.  D&D 2024 PHB · relevé du 13 octobre 2026"
     },
     {
       "id": "feat.catalogue.crafter.6",
       "en": "Crafted Gear",
       "fr": "Équipement fabriqué",
-      "edition": "2024",
       "source": "Traduction proposée du texte anglais · Source.  D&D 2024 PHB · relevé du 13 octobre 2026"
     },
     {
       "id": "feat.catalogue.crafter.7",
       "en": "Carpenter’s Tools",
       "fr": "Outils de menuisier",
-      "edition": "2024",
       "source": "Traduction proposée du texte anglais · Source.  D&D 2024 PHB · relevé du 13 octobre 2026"
     },
     {
       "id": "feat.catalogue.crafter.8",
       "en": "Ladder, Torch",
       "fr": "Échelle, torche",
-      "edition": "2024",
       "source": "Traduction proposée du texte anglais · Source.  D&D 2024 PHB · relevé du 13 octobre 2026"
     },
     {
       "id": "feat.catalogue.crafter.9",
       "en": "Leatherworker’s Tools",
       "fr": "Outils de travailleur du cuir",
-      "edition": "2024",
       "source": "Traduction proposée du texte anglais · Source.  D&D 2024 PHB · relevé du 13 octobre 2026"
     },
     {
       "id": "feat.catalogue.crafter.10",
       "en": "Crossbow Bolt Case, Map or Scroll Case, Pouch",
       "fr": "Étui à carreaux d’arbalète, étui à cartes ou à parchemins, sacoche",
-      "edition": "2024",
       "source": "Traduction proposée du texte anglais · Source.  D&D 2024 PHB · relevé du 13 octobre 2026"
     },
     {
       "id": "feat.catalogue.crafter.11",
       "en": "Mason’s Tools",
       "fr": "Outils de maçon",
-      "edition": "2024",
       "source": "Traduction proposée du texte anglais · Source.  D&D 2024 PHB · relevé du 13 octobre 2026"
     },
     {
       "id": "feat.catalogue.crafter.12",
       "en": "Block and Tackle",
       "fr": "Palan",
-      "edition": "2024",
       "source": "Traduction proposée du texte anglais · Source.  D&D 2024 PHB · relevé du 13 octobre 2026"
     },
     {
       "id": "feat.catalogue.crafter.13",
       "en": "Potter’s Tools",
       "fr": "Outils de potier",
-      "edition": "2024",
       "source": "Traduction proposée du texte anglais · Source.  D&D 2024 PHB · relevé du 13 octobre 2026"
     },
     {
       "id": "feat.catalogue.crafter.14",
       "en": "Jug, Lamp",
       "fr": "Cruche, lampe",
-      "edition": "2024",
       "source": "Traduction proposée du texte anglais · Source.  D&D 2024 PHB · relevé du 13 octobre 2026"
     },
     {
       "id": "feat.catalogue.crafter.15",
       "en": "Smith’s Tools",
       "fr": "Outils de forgeron",
-      "edition": "2024",
       "source": "Traduction proposée du texte anglais · Source.  D&D 2024 PHB · relevé du 13 octobre 2026"
     },
     {
       "id": "feat.catalogue.crafter.16",
       "en": "Ball Bearings, Bucket, Caltrops, Grappling Hook, Iron Pot",
       "fr": "Billes, seau, chausse-trappes, grappin, marmite en fer",
-      "edition": "2024",
       "source": "Traduction proposée du texte anglais · Source.  D&D 2024 PHB · relevé du 13 octobre 2026"
     },
     {
       "id": "feat.catalogue.crafter.17",
       "en": "Tinker’s Tools",
       "fr": "Outils de bricoleur",
-      "edition": "2024",
       "source": "Traduction proposée du texte anglais · Source.  D&D 2024 PHB · relevé du 13 octobre 2026"
     },
     {
       "id": "feat.catalogue.crafter.18",
       "en": "Bell, Shovel, Tinderbox",
       "fr": "Cloche, pelle, boîte à amadou",
-      "edition": "2024",
       "source": "Traduction proposée du texte anglais · Source.  D&D 2024 PHB · relevé du 13 octobre 2026"
     },
     {
       "id": "feat.catalogue.crafter.19",
       "en": "Weaver’s Tools",
       "fr": "Outils de tisserand",
-      "edition": "2024",
       "source": "Traduction proposée du texte anglais · Source.  D&D 2024 PHB · relevé du 13 octobre 2026"
     },
     {
       "id": "feat.catalogue.crafter.20",
       "en": "Basket, Rope, Net, Tent",
       "fr": "Panier, corde, filet, tente",
-      "edition": "2024",
       "source": "Traduction proposée du texte anglais · Source.  D&D 2024 PHB · relevé du 13 octobre 2026"
     },
     {
       "id": "feat.catalogue.crafter.21",
       "en": "Woodcarver’s Tools",
       "fr": "Outils de sculpteur sur bois",
-      "edition": "2024",
       "source": "Traduction proposée du texte anglais · Source.  D&D 2024 PHB · relevé du 13 octobre 2026"
     },
     {
       "id": "feat.catalogue.crafter.22",
       "en": "Club, Greatclub, Quarterstaff",
       "fr": "Gourdin, massue, bâton",
-      "edition": "2024",
       "source": "Traduction proposée du texte anglais · Source.  D&D 2024 PHB · relevé du 13 octobre 2026"
     },
     {
       "id": "feat.catalogue.boon-of-energy-resistance.43",
       "en": "Energy Resistances.",
       "fr": "Résistances aux énergies.",
-      "edition": "2024",
       "source": "Traduction proposée du texte anglais · Source.  D&D 2024 PHB · relevé du 13 octobre 2026"
     },
     {
       "id": "feat.catalogue.boon-of-energy-resistance.44",
       "en": "You gain Resistance to two of the following damage types of your choice: Acid, Cold, Fire, Lightning, Necrotic, Poison, Psychic, Radiant, or Thunder. Whenever you finish a Long Rest, you can change your choices.",
       "fr": "Vous gagnez la Résistance à deux types de dégâts de votre choix parmi les suivants : acide, froid, feu, foudre, nécrotique, poison, psychique, radiant ou tonnerre. Vous pouvez modifier vos choix chaque fois que vous terminez un Repos long.",
-      "edition": "2024",
       "source": "Traduction proposée du texte anglais · Source.  D&D 2024 PHB · relevé du 13 octobre 2026"
     },
     {
       "id": "feat.catalogue.boon-of-energy-resistance.45",
       "en": "Energy Redirection.",
       "fr": "Redirection d’énergie.",
-      "edition": "2024",
       "source": "Traduction proposée du texte anglais · Source.  D&D 2024 PHB · relevé du 13 octobre 2026"
     },
     {
       "id": "feat.catalogue.boon-of-energy-resistance.46",
       "en": "When you take damage of one of the types chosen for the Energy Resistances benefit, you can take a Reaction to direct damage of the same type toward another creature you can see within 60 feet of yourself that isn’t behind Total Cover. If you do so, that creature must succeed on a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus) or take damage equal to 2d12 plus your Constitution modifier.",
       "fr": "Lorsque vous subissez des dégâts d’un des types choisis pour Résistances aux énergies, vous pouvez entreprendre une Réaction pour diriger des dégâts du même type vers une autre créature que vous voyez dans un rayon de 60 feet et qui n’est pas derrière un Abri total. Cette créature doit alors réussir un jet de sauvegarde de Dextérité, dont le DD est égal à 8 + votre modificateur de Constitution + votre bonus de maîtrise, sous peine de subir des dégâts égaux à 2d12 + votre modificateur de Constitution.",
-      "edition": "2024",
       "source": "Traduction proposée du texte anglais · Source.  D&D 2024 PHB · relevé du 13 octobre 2026"
     },
     {
       "id": "feat.catalogue.boon-of-fortitude.49",
       "en": "Fortified Health.",
       "fr": "Santé renforcée.",
-      "edition": "2024",
       "source": "Traduction proposée du texte anglais · Source.  D&D 2024 PHB · relevé du 13 octobre 2026"
     },
     {
       "id": "feat.catalogue.boon-of-fortitude.50",
       "en": "Your Hit Point maximum increases by 40. In addition, whenever you regain Hit Points, you can regain additional Hit Points equal to your Constitution modifier. Once you’ve regained these additional Hit Points, you can’t do so again until the start of your next turn.",
       "fr": "Votre maximum de points de vie augmente de 40. De plus, chaque fois que vous récupérez des points de vie, vous pouvez en récupérer un nombre supplémentaire égal à votre modificateur de Constitution. Une fois ces points de vie supplémentaires récupérés, vous ne pouvez plus en bénéficier avant le début de votre prochain tour.",
-      "edition": "2024",
       "source": "Traduction proposée du texte anglais · Source.  D&D 2024 PHB · relevé du 13 octobre 2026"
     },
     {
       "id": "feat.catalogue.boon-of-recovery.56",
       "en": "Last Stand.",
       "fr": "Dernier rempart.",
-      "edition": "2024",
       "source": "Traduction proposée du texte anglais · Source.  D&D 2024 PHB · relevé du 13 octobre 2026"
     },
     {
       "id": "feat.catalogue.boon-of-recovery.57",
       "en": "When you would be reduced to 0 Hit Points, you can drop to 1 Hit Point instead and regain a number of Hit Points equal to half your Hit Point maximum. Once you use this benefit, you can’t use it again until you finish a Long Rest.",
       "fr": "Lorsque vous devriez tomber à 0 point de vie, vous pouvez tomber à 1 point de vie à la place et récupérer un nombre de points de vie égal à la moitié de votre maximum de points de vie. Une fois cet avantage utilisé, vous devez terminer un Repos long avant de pouvoir l’utiliser de nouveau.",
-      "edition": "2024",
       "source": "Traduction proposée du texte anglais · Source.  D&D 2024 PHB · relevé du 13 octobre 2026"
     },
     {
       "id": "feat.catalogue.boon-of-recovery.58",
       "en": "Recover Vitality.",
       "fr": "Récupérer sa vitalité.",
-      "edition": "2024",
       "source": "Traduction proposée du texte anglais · Source.  D&D 2024 PHB · relevé du 13 octobre 2026"
     },
     {
       "id": "feat.catalogue.boon-of-recovery.59",
       "en": "You have a pool of ten d10s. As a Bonus Action, you can expend dice from the pool, roll those dice, and regain a number of Hit Points equal to the roll’s total. You regain all the expended dice when you finish a Long Rest.",
       "fr": "Vous disposez d’une réserve de dix d10. Par une action Bonus, vous pouvez dépenser des dés de cette réserve, les lancer et récupérer un nombre de points de vie égal au total obtenu. Vous récupérez tous les dés dépensés lorsque vous terminez un Repos long.",
-      "edition": "2024",
       "source": "Traduction proposée du texte anglais · Source.  D&D 2024 PHB · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "barbarian.high.actor.impersonation",
+      "en": "While you’re disguised as a real or fictional person, you have Advantage on Charisma (Deception or Performance) checks to convince others that you are that person.",
+      "fr": "Tant que vous êtes déguisé en une personne réelle ou fictive, vous avez l’Avantage aux tests de Charisme (Tromperie ou Représentation) effectués pour convaincre les autres que vous êtes cette personne.",
+      "source": "Traduction de l’extrait utilisateur · Barbare et Comédien 2024 ; passages SRD 5.2.1 pour les valeurs des dés · adaptations CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "barbarian.high.actor.mimicry",
+      "en": "You can mimic the sounds of other creatures, including speech. A creature that hears the mimicry must succeed on a Wisdom (Insight) check to determine the effect is faked (DC 8 plus your Charisma modifier and Proficiency Bonus).",
+      "fr": "Vous pouvez imiter les sons d’autres créatures, y compris leur voix. Une créature qui entend cette imitation doit réussir un test de Sagesse (Intuition) pour reconnaître la supercherie, avec un DD égal à 8 + votre modificateur de Charisme + votre bonus de maîtrise.",
+      "source": "Traduction de l’extrait utilisateur · Barbare et Comédien 2024 ; passages SRD 5.2.1 pour les valeurs des dés · adaptations CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "feat.catalogue.defense.23",
+      "en": "While you're wearing Light, Medium, or Heavy armor, you gain a +1 bonus to Armor Class.",
+      "fr": "Tant que vous portez une armure légère, intermédiaire ou lourde, vous recevez un bonus de +1 à la Classe d’armure.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/defense · relevé du 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire"
+    },
+    {
+      "id": "feat.catalogue.great-weapon-fighting.24",
+      "en": "When you roll damage for an attack you make with a Melee weapon that you are holding with two hands, you can treat any 1 or 2 on a damage die as a 3. The weapon must have the Two-Handed or Versatile property to gain this benefit.",
+      "fr": "Lorsque vous lancez les dégâts d’une attaque effectuée avec une arme de corps à corps tenue à deux mains, vous pouvez traiter tout résultat de 1 ou 2 sur un dé de dégâts comme un 3. L’arme doit posséder la propriété À deux mains ou Polyvalente pour bénéficier de cet avantage.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/great-weapon-fighting · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.two-weapon-fighting.25",
+      "en": "When you make an extra attack as a result of using a weapon that has the Light property, you can add your ability modifier to the damage of that attack if you aren't already adding it to the damage.",
+      "fr": "Lorsque vous effectuez une attaque supplémentaire résultant de l’emploi d’une arme avec la propriété Légère, vous pouvez ajouter votre modificateur de caractéristique aux dégâts de cette attaque si vous ne l’ajoutiez pas déjà.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/two-weapon-fighting · relevé du 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire"
+    },
+    {
+      "id": "feat.catalogue.magic-initiate.26",
+      "en": "Repeatable.",
+      "fr": "Répétable.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/magic-initiate · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.skilled.27",
+      "en": "You can take this feat more than once.",
+      "fr": "Vous pouvez choisir ce don plusieurs fois.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/skilled · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.mage-slayer.28",
+      "en": "Ability Score Increase.",
+      "fr": "Augmentation de caractéristique.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/mage-slayer · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.actor.29",
+      "en": "Increase your Charisma score by 1, to a maximum of 20.",
+      "fr": "Augmentez votre Charisme de 1, jusqu’à un maximum de 20.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/actor · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.actor.30",
+      "en": "Impersonation.",
+      "fr": "Imposture.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/actor · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.actor.31",
+      "en": "Mimicry.",
+      "fr": "Imitation.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/actor · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.mage-slayer.32",
+      "en": "Increase your Strength or Dexterity score by 1, to a maximum of 20.",
+      "fr": "Augmentez votre Force ou votre Dextérité de 1, jusqu’à un maximum de 20.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/mage-slayer · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.athlete.33",
+      "en": "Climb Speed.",
+      "fr": "Vitesse d’escalade.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/athlete · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.athlete.34",
+      "en": "You gain a Climb Speed equal to your Speed.",
+      "fr": "Vous gagnez une Vitesse d’escalade égale à votre Vitesse.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/athlete · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.athlete.35",
+      "en": "Hop Up.",
+      "fr": "Rétablissement.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/athlete · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.athlete.36",
+      "en": "When you have the Prone condition, you can right yourself with only 5 feet of movement.",
+      "fr": "Lorsque vous subissez l’état À terre, vous pouvez vous relever en dépensant seulement 5 feet de déplacement.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/athlete · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.athlete.37",
+      "en": "Jumping.",
+      "fr": "Saut.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/athlete · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.athlete.38",
+      "en": "You can make a running Long or High Jump after moving only 5 feet.",
+      "fr": "Vous pouvez effectuer un Saut en longueur ou en hauteur avec élan après avoir parcouru seulement 5 feet.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/athlete · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.boon-of-combat-prowess.39",
+      "en": "Peerless Aim.",
+      "fr": "Visée sans égale.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/boon-of-combat-prowess · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.boon-of-combat-prowess.40",
+      "en": "When you miss with an attack roll, you can hit instead. Once you use this benefit, you can't use it again until the start of your next turn.",
+      "fr": "Lorsque vous ratez un jet d’attaque, vous pouvez décider de toucher à la place. Une fois cet avantage utilisé, vous ne pouvez plus l’utiliser avant le début de votre prochain tour.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/boon-of-combat-prowess · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.boon-of-dimensional-travel.41",
+      "en": "Blink Steps.",
+      "fr": "Pas éclair.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/boon-of-dimensional-travel · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.boon-of-dimensional-travel.42",
+      "en": "Immediately after you take the Attack action or the Magic action, you can teleport up to 30 feet to an unoccupied space you can see.",
+      "fr": "Immédiatement après avoir entrepris l’action Attaquer ou Magie, vous pouvez vous téléporter jusqu’à 30 feet dans un espace inoccupé que vous voyez.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/boon-of-dimensional-travel · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.boon-of-fate.47",
+      "en": "Improve Fate.",
+      "fr": "Infléchir le destin.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/boon-of-fate · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.boon-of-fate.48",
+      "en": "When you or another creature within 60 feet of you succeeds on or fails a D20 Test, you can roll 2d4 and apply the total rolled as a bonus or penalty to the d20 roll. Once you use this benefit, you can't use it again until you roll Initiative or finish a Short or Long Rest.",
+      "fr": "Lorsque vous ou une autre créature dans un rayon de 60 feet réussissez ou ratez un Test de d20, vous pouvez lancer 2d4 et appliquer le total comme bonus ou malus au résultat du d20. Une fois cet avantage utilisé, vous devez lancer l’Initiative ou terminer un Repos court ou long avant de pouvoir l’utiliser de nouveau.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/boon-of-fate · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.boon-of-irresistible-offense.51",
+      "en": "Increase your Strength or Dexterity score by 1, to a maximum of 30.",
+      "fr": "Augmentez votre Force ou votre Dextérité de 1, jusqu’à un maximum de 30.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/boon-of-irresistible-offense · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.boon-of-irresistible-offense.52",
+      "en": "Overcome Defenses.",
+      "fr": "Percer les défenses.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/boon-of-irresistible-offense · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.boon-of-irresistible-offense.53",
+      "en": "The Bludgeoning, Piercing, and Slashing damage you deal always ignores Resistance.",
+      "fr": "Les dégâts contondants, perforants et tranchants que vous infligez ignorent toujours la Résistance.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/boon-of-irresistible-offense · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.boon-of-irresistible-offense.54",
+      "en": "Overwhelming Strike.",
+      "fr": "Frappe écrasante.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/boon-of-irresistible-offense · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.boon-of-irresistible-offense.55",
+      "en": "When you roll a 20 on the d20 for an attack roll, you can deal extra damage to the target equal to the ability score increased by this feat. The extra damage's type is the same as the attack's type.",
+      "fr": "Lorsque le d20 d’un jet d’attaque donne un 20, vous pouvez infliger à la cible des dégâts supplémentaires égaux à la valeur de caractéristique augmentée par ce don. Ces dégâts sont du même type que ceux de l’attaque.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/boon-of-irresistible-offense · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.telepathic.60",
+      "en": "Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.",
+      "fr": "Augmentez votre Intelligence, votre Sagesse ou votre Charisme de 1, jusqu’à un maximum de 20.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/telepathic · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.elemental-adept.62",
+      "en": "Energy Mastery.",
+      "fr": "Maîtrise des énergies.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/elemental-adept · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.ability-score-improvement.68",
+      "en": "Increase one ability score of your choice by 2, or increase two ability scores of your choice by 1.",
+      "fr": "Augmentez une valeur de caractéristique de votre choix de 2, ou deux valeurs de caractéristique de votre choix de 1.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/ability-score-improvement · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.ability-score-improvement.69",
+      "en": "This feat can't increase an ability score above 20.",
+      "fr": "Ce don ne permet pas de porter une valeur de caractéristique au-delà de 20.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/ability-score-improvement · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.crafter.142",
+      "en": "You gain proficiency with three different Artisan's Tools of your choice from the Fast Crafting table.",
+      "fr": "Vous gagnez la maîtrise de trois Outils d’artisan différents de votre choix parmi ceux de la table de Façonnage rapide.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/crafter · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.crafter.143",
+      "en": "Tool Proficiency.",
+      "fr": "Maîtrise d’outils.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/crafter · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.crafter.144",
+      "en": "Whenever you buy a nonmagical item, you receive a 20 percent discount on it.",
+      "fr": "Chaque fois que vous achetez un objet non magique, vous bénéficiez d’une réduction de 20 pour cent sur son prix.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/crafter · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.crafter.145",
+      "en": "Discount.",
+      "fr": "Ristourne.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/crafter · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.crafter.146",
+      "en": "When you finish a Long Rest, you can craft one piece of gear from the Fast Crafting table, provided you have the Artisan's Tools associated with that item and have proficiency with those tools. The item lasts until you finish another Long Rest, at which point the item falls apart.",
+      "fr": "Lorsque vous terminez un Repos long, vous pouvez fabriquer un objet de la table de Façonnage rapide, à condition de posséder les Outils d’artisan associés et d’en avoir la maîtrise. L’objet dure jusqu’à la fin de votre prochain Repos long, puis se disloque.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/crafter · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.crafter.147",
+      "en": "Fast Crafting.",
+      "fr": "Façonnage rapide.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/crafter · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.martial-weapon-training.160",
+      "en": "You gain proficiency with Martial weapons.",
+      "fr": "Vous gagnez la maîtrise des armes de guerre.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/martial-weapon-training · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.martial-weapon-training.161",
+      "en": "Weapon Proficiency.",
+      "fr": "Maîtrise des armes.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/martial-weapon-training · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.magic-initiate.176",
+      "en": "You learn two cantrips of your choice from the Cleric, Druid, or Wizard spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for this feat's spells (choose when you select this feat).",
+      "fr": "Vous apprenez deux sorts mineurs de votre choix dans la liste de sorts du clerc, du druide ou du magicien. L’Intelligence, la Sagesse ou le Charisme est votre caractéristique d’incantation pour les sorts de ce don ; choisissez-la lorsque vous choisissez ce don.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/magic-initiate · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.magic-initiate.177",
+      "en": "Two Cantrips.",
+      "fr": "Deux sorts mineurs.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/magic-initiate · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.magic-initiate.178",
+      "en": "Choose a level 1 spell from the same list you selected for this feat's cantrips. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have.",
+      "fr": "Choisissez un sort de niveau 1 dans la liste choisie pour les sorts mineurs de ce don. Vous avez toujours ce sort préparé. Vous pouvez le lancer une fois sans emplacement de sort, puis devez terminer un Repos long pour le lancer de nouveau ainsi. Vous pouvez également le lancer avec vos emplacements de sort.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/magic-initiate · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.magic-initiate.179",
+      "en": "Level 1 Spell.",
+      "fr": "Sort de niveau 1.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/magic-initiate · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.magic-initiate.180",
+      "en": "Whenever you gain a new level, you can replace one of the spells you chose for this feat with a different spell of the same level from the chosen spell list.",
+      "fr": "Chaque fois que vous gagnez un niveau, vous pouvez remplacer un des sorts choisis pour ce don par un autre sort du même niveau dans la liste choisie.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/magic-initiate · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.magic-initiate.181",
+      "en": "Spell Change.",
+      "fr": "Changement de sort.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/magic-initiate · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.magic-initiate.182",
+      "en": "You can take this feat more than once, but you must choose a different spell list each time.",
+      "fr": "Vous pouvez choisir ce don plusieurs fois, mais devez choisir une liste de sorts différente à chaque fois.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/magic-initiate · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.weapon-master.193",
+      "en": "Your training with weapons allows you to use the mastery property of one kind of Simple or Martial weapon of your choice, provided you have proficiency with it. Whenever you finish a Long Rest, you can change the kind of weapon to another eligible kind.",
+      "fr": "Votre entraînement vous permet d’utiliser la propriété botte d’un type d’arme courante ou de guerre de votre choix dont vous avez la maîtrise. Chaque fois que vous terminez un Repos long, vous pouvez choisir un autre type d’arme admissible.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/weapon-master · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.weapon-master.194",
+      "en": "Mastery Property.",
+      "fr": "Propriété botte.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/weapon-master · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.shield-master.199",
+      "en": "Increase your Strength score by 1, to a maximum of 20.",
+      "fr": "Augmentez votre Force de 1, jusqu’à un maximum de 20.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/shield-master · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.great-weapon-master.200",
+      "en": "When you hit a creature with a weapon that has the Heavy property as part of the Attack action on your turn, you can cause the weapon to deal extra damage to the target. The extra damage equals your Proficiency Bonus.",
+      "fr": "Lorsque vous touchez une créature avec une arme dotée de la propriété Lourde dans le cadre de l’action Attaquer à votre tour, vous pouvez lui infliger des dégâts supplémentaires égaux à votre bonus de maîtrise.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/great-weapon-master · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.great-weapon-master.201",
+      "en": "Heavy Weapon Mastery.",
+      "fr": "Expert en armes lourdes.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/great-weapon-master · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.great-weapon-master.202",
+      "en": "Immediately after you score a Critical Hit with a Melee weapon or reduce a creature to 0 Hit Points with one, you can make one attack with the same weapon as a Bonus Action.",
+      "fr": "Immédiatement après avoir infligé un Coup critique avec une arme de corps à corps ou réduit une créature à 0 point de vie avec une telle arme, vous pouvez effectuer une attaque avec la même arme par une action Bonus.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/great-weapon-master · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.great-weapon-master.203",
+      "en": "Hew.",
+      "fr": "Abattage.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/great-weapon-master · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.musician.224",
+      "en": "You gain proficiency with three Musical Instruments of your choice.",
+      "fr": "Vous gagnez la maîtrise de trois Instruments de musique de votre choix.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/musician · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.musician.225",
+      "en": "Instrument Training.",
+      "fr": "Formation aux instruments.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/musician · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.musician.226",
+      "en": "As you finish a Short or Long Rest, you can play a song on a Musical Instrument with which you have proficiency and give Heroic Inspiration to allies who hear the song. The number of allies you can affect in this way equals your Proficiency Bonus.",
+      "fr": "Lorsque vous terminez un Repos court ou long, vous pouvez jouer un air sur un Instrument de musique dont vous avez la maîtrise pour donner l’Inspiration héroïque aux alliés qui l’entendent. Le nombre d’alliés concernés est égal à votre bonus de maîtrise.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/musician · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.musician.227",
+      "en": "Encouraging Song.",
+      "fr": "Chant d’encouragement.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/musician · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.resilient.239",
+      "en": "Saving Throw Proficiency.",
+      "fr": "Maîtrise des jets de sauvegarde.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/resilient · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.alert.262",
+      "en": "When you roll Initiative, you can add your Proficiency Bonus to the roll.",
+      "fr": "Lorsque vous lancez l’Initiative, vous pouvez ajouter votre bonus de maîtrise au résultat.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/alert · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.alert.263",
+      "en": "Initiative Proficiency.",
+      "fr": "Maîtrise de l’Initiative.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/alert · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.alert.264",
+      "en": "Immediately after you roll Initiative, you can swap your Initiative with the Initiative of one willing ally in the same combat. You can't make this swap if you or the ally has the Incapacitated condition.",
+      "fr": "Immédiatement après avoir lancé l’Initiative, vous pouvez échanger votre Initiative avec celle d’un allié consentant participant au même combat. Vous ne pouvez pas procéder à cet échange si l’un de vous subit l’état Neutralisé.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/alert · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.alert.265",
+      "en": "Initiative Swap.",
+      "fr": "Échange d’Initiative.",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/alert · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.repeatable",
+      "kind": "term",
+      "en": "Repeatable",
+      "fr": "Répétable",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.ability-score-increase",
+      "kind": "term",
+      "en": "Ability Score Increase",
+      "fr": "Augmentation de caractéristique",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.impersonation",
+      "kind": "term",
+      "en": "Impersonation",
+      "fr": "Imposture",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.climb-speed",
+      "kind": "term",
+      "en": "Climb Speed",
+      "fr": "Vitesse d’escalade",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.hop-up",
+      "kind": "term",
+      "en": "Hop Up",
+      "fr": "Rétablissement",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.jumping",
+      "kind": "term",
+      "en": "Jumping",
+      "fr": "Saut",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.peerless-aim",
+      "kind": "term",
+      "en": "Peerless Aim",
+      "fr": "Visée sans égale",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.blink-steps",
+      "kind": "term",
+      "en": "Blink Steps",
+      "fr": "Pas éclair",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.energy-resistances",
+      "kind": "term",
+      "en": "Energy Resistances",
+      "fr": "Résistances aux énergies",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.energy-redirection",
+      "kind": "term",
+      "en": "Energy Redirection",
+      "fr": "Redirection d’énergie",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.improve-fate",
+      "kind": "term",
+      "en": "Improve Fate",
+      "fr": "Infléchir le destin",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.fortified-health",
+      "kind": "term",
+      "en": "Fortified Health",
+      "fr": "Santé renforcée",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.overcome-defenses",
+      "kind": "term",
+      "en": "Overcome Defenses",
+      "fr": "Percer les défenses",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.overwhelming-strike",
+      "kind": "term",
+      "en": "Overwhelming Strike",
+      "fr": "Frappe écrasante",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.last-stand",
+      "kind": "term",
+      "en": "Last Stand",
+      "fr": "Dernier rempart",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.recover-vitality",
+      "kind": "term",
+      "en": "Recover Vitality",
+      "fr": "Récupérer sa vitalité",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.energy-mastery",
+      "kind": "term",
+      "en": "Energy Mastery",
+      "fr": "Maîtrise des énergies",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.blindsight",
+      "kind": "term",
+      "en": "Blindsight",
+      "fr": "Vision aveugle",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.tool-proficiency",
+      "kind": "term",
+      "en": "Tool Proficiency",
+      "fr": "Maîtrise d’outils",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.discount",
+      "kind": "term",
+      "en": "Discount",
+      "fr": "Ristourne",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.fast-crafting",
+      "kind": "term",
+      "en": "Fast Crafting",
+      "fr": "Façonnage rapide",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.truesight",
+      "kind": "term",
+      "en": "Truesight",
+      "fr": "Vision véritable",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.weapon-proficiency",
+      "kind": "term",
+      "en": "Weapon Proficiency",
+      "fr": "Maîtrise des armes",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.level-1-spell",
+      "kind": "term",
+      "en": "Level 1 Spell",
+      "fr": "Sort de niveau 1",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.spell-change",
+      "kind": "term",
+      "en": "Spell Change",
+      "fr": "Changement de sort",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.mastery-property",
+      "kind": "term",
+      "en": "Mastery Property",
+      "fr": "Propriété botte",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.heavy-weapon-mastery",
+      "kind": "term",
+      "en": "Heavy Weapon Mastery",
+      "fr": "Expert en armes lourdes",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.hew",
+      "kind": "term",
+      "en": "Hew",
+      "fr": "Abattage",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.instrument-training",
+      "kind": "term",
+      "en": "Instrument Training",
+      "fr": "Formation aux instruments",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.encouraging-song",
+      "kind": "term",
+      "en": "Encouraging Song",
+      "fr": "Chant d’encouragement",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.armor-training",
+      "kind": "term",
+      "en": "Armor Training",
+      "fr": "Formation aux armures",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.saving-throw-proficiency",
+      "kind": "term",
+      "en": "Saving Throw Proficiency",
+      "fr": "Maîtrise des jets de sauvegarde",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.initiative-proficiency",
+      "kind": "term",
+      "en": "Initiative Proficiency",
+      "fr": "Maîtrise de l’Initiative",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.initiative-swap",
+      "kind": "term",
+      "en": "Initiative Swap",
+      "fr": "Échange d’Initiative",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.field.0",
+      "kind": "term",
+      "en": "General Feat",
+      "fr": "Don général",
+      "edition": "any",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.field.1",
+      "kind": "term",
+      "en": "Origin Feat",
+      "fr": "Don d’origine",
+      "edition": "any",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.field.2",
+      "kind": "term",
+      "en": "Fighting Style Feat",
+      "fr": "Don de style de combat",
+      "edition": "any",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.field.3",
+      "kind": "term",
+      "en": "Epic Boon Feat",
+      "fr": "Don de faveur épique",
+      "edition": "any",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.field.8",
+      "kind": "term",
+      "en": "(Prerequisite: Level 4+)",
+      "fr": "(Prérequis : Niveau 4+)",
+      "edition": "any",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire"
+    },
+    {
+      "id": "feat.catalogue.field.9",
+      "kind": "term",
+      "en": "(Prerequisite: Level 4+ , Ability Score Improvement)",
+      "fr": "(Prérequis : Niveau 4+, Amélioration de caractéristique)",
+      "edition": "any",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire"
+    },
+    {
+      "id": "feat.catalogue.field.10",
+      "kind": "term",
+      "en": "(Prerequisite: Level 4+ , Ability Score Improvement 2)",
+      "fr": "(Prérequis : Niveau 4+, Amélioration de caractéristique 2)",
+      "edition": "any",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire"
+    },
+    {
+      "id": "feat.catalogue.field.11",
+      "kind": "term",
+      "en": "(Prerequisite: Level 4+ , Ability Score Improvement 3)",
+      "fr": "(Prérequis : Niveau 4+, Amélioration de caractéristique 3)",
+      "edition": "any",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire"
+    },
+    {
+      "id": "feat.catalogue.field.12",
+      "kind": "term",
+      "en": "(Prerequisite: Level 4+ , Ability Score Improvement 4)",
+      "fr": "(Prérequis : Niveau 4+, Amélioration de caractéristique 4)",
+      "edition": "any",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire"
+    },
+    {
+      "id": "feat.catalogue.field.13",
+      "kind": "term",
+      "en": "(Prerequisite: Level 4+, Charisma 13+)",
+      "fr": "(Prérequis : Niveau 4+, Charisme 13+)",
+      "edition": "any",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire"
+    },
+    {
+      "id": "feat.catalogue.field.14",
+      "kind": "term",
+      "en": "(Prerequisite: Fighting Style Feature)",
+      "fr": "(Prérequis : aptitude Style de combat)",
+      "edition": "any",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire"
+    },
+    {
+      "id": "feat.catalogue.field.15",
+      "kind": "term",
+      "en": "(Prerequisite: Level 4+, Strength or Dexterity 13+)",
+      "fr": "(Prérequis : Niveau 4+, Force ou Dextérité 13+)",
+      "edition": "any",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire"
+    },
+    {
+      "id": "feat.catalogue.field.16",
+      "kind": "term",
+      "en": "(Prerequisite: Level 19+)",
+      "fr": "(Prérequis : Niveau 19+)",
+      "edition": "any",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire"
+    },
+    {
+      "id": "feat.catalogue.field.17",
+      "kind": "term",
+      "en": "(Prerequisite: Level 19+, Spellcasting Feature)",
+      "fr": "(Prérequis : Niveau 19+, aptitude Sorts)",
+      "edition": "any",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire"
+    },
+    {
+      "id": "feat.catalogue.field.18",
+      "kind": "term",
+      "en": "(Prerequisite: Level 4+, Dexterity 13+)",
+      "fr": "(prérequis : niveau 4+, Dextérité 13+)",
+      "edition": "any",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.field.21",
+      "kind": "term",
+      "en": "(Prerequisite: Level 4+, Spellcasting or Pact Magic Feature)",
+      "fr": "(Prérequis : Niveau 4+, aptitude Sorts ou Magie de pacte)",
+      "edition": "any",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire"
+    },
+    {
+      "id": "feat.catalogue.field.23",
+      "kind": "term",
+      "en": "(Prerequisite: Level 4+, Strength 13+)",
+      "fr": "(prérequis : niveau 4+, Force 13+)",
+      "edition": "any",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.field.25",
+      "kind": "term",
+      "en": "(Prerequisite: Level 4+, Medium Armor Training)",
+      "fr": "(Prérequis : Niveau 4+, formation aux armures intermédiaires)",
+      "edition": "any",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire"
+    },
+    {
+      "id": "feat.catalogue.field.27",
+      "kind": "term",
+      "en": "(Prerequisite: Level 4+, Heavy Armor Training)",
+      "fr": "(Prérequis : Niveau 4+, formation aux armures lourdes)",
+      "edition": "any",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire"
+    },
+    {
+      "id": "feat.catalogue.field.29",
+      "kind": "term",
+      "en": "(Prerequisite: Level 4+, Wisdom or Charisma 13+)",
+      "fr": "(Prérequis : Niveau 4+, Sagesse ou Charisme 13+)",
+      "edition": "any",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire"
+    },
+    {
+      "id": "feat.catalogue.field.30",
+      "kind": "term",
+      "en": "(Prerequisite: Level 4+, Intelligence 13+)",
+      "fr": "(prérequis : niveau 4+, Intelligence 13+)",
+      "edition": "any",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.field.31",
+      "kind": "term",
+      "en": "(Prerequisite: Magic Initiate)",
+      "fr": "(prérequis : Initié à la magie)",
+      "edition": "any",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.field.32",
+      "kind": "term",
+      "en": "(Prerequisite: Magic Initiate 2)",
+      "fr": "(prérequis : Initié à la magie 2)",
+      "edition": "any",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.field.34",
+      "kind": "term",
+      "en": "(Prerequisite: Level 4+, Light Armor Training)",
+      "fr": "(Prérequis : Niveau 4+, formation aux armures légères)",
+      "edition": "any",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire"
+    },
+    {
+      "id": "feat.catalogue.field.35",
+      "kind": "term",
+      "en": "(Prerequisite: Level 4+, Intelligence or Wisdom 13+)",
+      "fr": "(Prérequis : Niveau 4+, Intelligence ou Sagesse 13+)",
+      "edition": "any",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire"
+    },
+    {
+      "id": "feat.catalogue.field.37",
+      "kind": "term",
+      "en": "(Prerequisite: Level 4+; Intelligence, Wisdom, or Charisma 13+)",
+      "fr": "(Prérequis : Niveau 4+ ; Intelligence, Sagesse ou Charisme 13+)",
+      "edition": "any",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire"
+    },
+    {
+      "id": "feat.catalogue.field.38",
+      "kind": "term",
+      "en": "(Prerequisite: Level 4+, Shield Training)",
+      "fr": "(Prérequis : Niveau 4+, formation au bouclier)",
+      "edition": "any",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire"
+    },
+    {
+      "id": "feat.catalogue.field.39",
+      "kind": "term",
+      "en": "(Prerequisite: Skilled)",
+      "fr": "(prérequis : Doué)",
+      "edition": "any",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.field.40",
+      "kind": "term",
+      "en": "(Prerequisite: Skilled 2)",
+      "fr": "(prérequis : Doué 2)",
+      "edition": "any",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.field.41",
+      "kind": "term",
+      "en": "(Prerequisite: Skilled 3)",
+      "fr": "(prérequis : Doué 3)",
+      "edition": "any",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.field.42",
+      "kind": "term",
+      "en": "(Prerequisite: Skilled 4)",
+      "fr": "(prérequis : Doué 4)",
+      "edition": "any",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.field.43",
+      "kind": "term",
+      "en": "(Prerequisite: Level 4+, Dexterity or Constitution 13+)",
+      "fr": "(Prérequis : Niveau 4+, Dextérité ou Constitution 13+)",
+      "edition": "any",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire"
+    },
+    {
+      "id": "feat.catalogue.field.46",
+      "kind": "term",
+      "en": "General Feat (Prerequisite: Level 4+)",
+      "fr": "Don général (prérequis : niveau 4+)",
+      "edition": "any",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.field.47",
+      "kind": "term",
+      "en": "Fighting Style Feat (Prerequisite: Fighting Style Feature)",
+      "fr": "Don de style de combat (prérequis : aptitude Style de combat)",
+      "edition": "any",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.field.48",
+      "kind": "term",
+      "en": "General Feat (Prerequisite: Level 4+, Strength or Dexterity 13+)",
+      "fr": "Don général (prérequis : niveau 4+, Force ou Dextérité 13+)",
+      "edition": "any",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.field.49",
+      "kind": "term",
+      "en": "General Feat (Prerequisite: Level 4+, Charisma 13+)",
+      "fr": "Don général (prérequis : niveau 4+, Charisme 13+)",
+      "edition": "any",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.field.52",
+      "kind": "term",
+      "en": "Epic Boon Feat (Prerequisite: Level 19+)",
+      "fr": "Don de faveur épique (prérequis : niveau 19+)",
+      "edition": "any",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026"
+    },
+    {
+      "id": "feat.crafter.table.variant.0",
+      "kind": "term",
+      "en": "Case, Pouch",
+      "fr": "Étui, sacoche",
+      "source": "Variantes des cellules de Façonnage rapide · référence anglaise AideDD Artisan · traduction proposée · 13 octobre 2026"
+    },
+    {
+      "id": "shard.dons.ability-score-improvement-2.fc88ad049f",
+      "kind": "description",
+      "en": "General Feat (Prerequisite: Level 4+ , Ability Score Improvement)",
+      "fr": "Don général (Prérequis : niveau 4+, Amélioration de caractéristique)",
+      "source": "Traduction proposée du texte observé sur Shard · Ability Score Improvement 2 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.ability-score-improvement-3.5d16218af9",
+      "kind": "description",
+      "en": "General Feat (Prerequisite: Level 4+ , Ability Score Improvement 2)",
+      "fr": "Don général (Prérequis : niveau 4+, Amélioration de caractéristique 2)",
+      "source": "Traduction proposée du texte observé sur Shard · Ability Score Improvement 3 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.ability-score-improvement-4.b1c88bee44",
+      "kind": "description",
+      "en": "General Feat (Prerequisite: Level 4+ , Ability Score Improvement 3)",
+      "fr": "Don général (Prérequis : niveau 4+, Amélioration de caractéristique 3)",
+      "source": "Traduction proposée du texte observé sur Shard · Ability Score Improvement 4 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.ability-score-improvement-5.c8da06d776",
+      "kind": "description",
+      "en": "General Feat (Prerequisite: Level 4+ , Ability Score Improvement 4)",
+      "fr": "Don général (Prérequis : niveau 4+, Amélioration de caractéristique 4)",
+      "source": "Traduction proposée du texte observé sur Shard · Ability Score Improvement 5 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.magic-initiate-2.6123468062",
+      "kind": "description",
+      "en": "Origin Feat (Prerequisite: Magic Initiate)",
+      "fr": "Don d’origine (Prérequis : Initié à la magie)",
+      "source": "Traduction proposée du texte observé sur Shard · Magic Initiate 2 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.magic-initiate-3.bb2b045e25",
+      "kind": "description",
+      "en": "Origin Feat (Prerequisite: Magic Initiate 2)",
+      "fr": "Don d’origine (Prérequis : Initié à la magie 2)",
+      "source": "Traduction proposée du texte observé sur Shard · Magic Initiate 3 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.poisoner.a82b5ec668",
+      "kind": "description",
+      "en": "You gain proficiency with the Poisoner’s Kit. With 1 hour of work using such a kit and expending 50 GP worth of materials, you can create a number of poison doses equal to your Proficiency Bonus. As a Bonus Action, you can apply a poison dose to a weapon or piece of ammunition. Once applied, the poison retains its potency for 1 minute or until until you deal damage with the poisoned item, whichever is shorter. When a creature takes damage from the poisoned item, that creature must succeed on a Constitution saving throw (DC 8 plus the modifier of the ability increased by this feat and your Proficiency Bonus) or take 2d8 Poison damage and have the Poisoned condition until the end of your next turn.",
+      "fr": "Vous maîtrisez le matériel d’empoisonneur. Avec 1 heure de travail à l’aide de ce matériel et en dépensant 50 po de composants, vous pouvez créer un nombre de doses de poison égal à votre bonus de maîtrise. Par une action bonus, vous pouvez appliquer une dose de poison sur une arme ou une munition. Une fois appliqué, le poison reste actif pendant 1 minute ou jusqu’à ce que vous infligiez des dégâts avec l’objet empoisonné, selon ce qui survient en premier. Lorsqu’une créature subit des dégâts de l’objet empoisonné, elle doit réussir un jet de sauvegarde de Constitution (DD 8 plus le modificateur de la caractéristique augmentée par ce don et votre bonus de maîtrise), sous peine de subir 2d8 dégâts de poison et l’état Empoisonné jusqu’à la fin de votre prochain tour.",
+      "source": "Traduction proposée du texte observé sur Shard · Poisoner · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.skilled-2.dc3a788ccf",
+      "kind": "description",
+      "en": "Origin Feat (Prerequisite: Skilled)",
+      "fr": "Don d’origine (Prérequis : Doué)",
+      "source": "Traduction proposée du texte observé sur Shard · Skilled 2 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.skilled-3.313d9ccdf0",
+      "kind": "description",
+      "en": "Origin Feat (Prerequisite: Skilled 2)",
+      "fr": "Don d’origine (Prérequis : Doué 2)",
+      "source": "Traduction proposée du texte observé sur Shard · Skilled 3 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.skilled-4.0f301e12a7",
+      "kind": "description",
+      "en": "Origin Feat (Prerequisite: Skilled 3)",
+      "fr": "Don d’origine (Prérequis : Doué 3)",
+      "source": "Traduction proposée du texte observé sur Shard · Skilled 4 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.skilled-5.29cce910ed",
+      "kind": "description",
+      "en": "Origin Feat (Prerequisite: Skilled 4)",
+      "fr": "Don d’origine (Prérequis : Doué 4)",
+      "source": "Traduction proposée du texte observé sur Shard · Skilled 5 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.boon-of-skill.0a3e6506ae",
+      "kind": "term",
+      "en": "All-Around Adept.",
+      "fr": "Adepte universel.",
+      "source": "Traduction proposée du texte observé sur Shard · Boon of Skill · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.boon-of-speed.684b2183cd",
+      "kind": "term",
+      "en": "Escape Artist.",
+      "fr": "Art de l’évasion.",
+      "source": "Traduction proposée du texte observé sur Shard · Boon of Speed · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.boon-of-speed.8384b03f2e",
+      "kind": "term",
+      "en": "Quickness.",
+      "fr": "Célérité.",
+      "source": "Traduction proposée du texte observé sur Shard · Boon of Speed · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
     }
   ]
 }

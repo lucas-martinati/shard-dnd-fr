@@ -1,0 +1,622 @@
+{
+  "$schema": "../../../../docs/translation-pack.schema.json",
+  "edition": "2024",
+  "entries": [
+    {
+      "id": "elf.fey-ancestry",
+      "en": "You have Advantage on saving throws you make to avoid or end the Charmed condition.",
+      "fr": "Vous avez l’Avantage aux jets de sauvegarde visant à éviter l’état Charmé ou à y mettre fin.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "elf.keen-senses",
+      "en": "You have proficiency in the Insight, Perception, or Survival skill.",
+      "fr": "Vous gagnez la maîtrise d’Intuition, de Perception ou de Survie.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "elf.trance",
+      "en": "You don’t need to sleep, and magic can’t put you to sleep. You can finish a Long Rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness.",
+      "fr": "Vous n’avez pas besoin de dormir et la magie ne peut pas vous endormir. Vous pouvez terminer un Repos long en 4 heures si vous les consacrez à une méditation semblable à une transe, pendant laquelle vous restez conscient.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "gnome.cunning",
+      "en": "You have Advantage on Intelligence, Wisdom, and Charisma saving throws.",
+      "fr": "Vous avez l’Avantage aux jets de sauvegarde d’Intelligence, de Sagesse et de Charisme.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "halfling.brave",
+      "en": "You have Advantage on saving throws you make to avoid or end the Frightened condition.",
+      "fr": "Vous avez l’Avantage aux jets de sauvegarde visant à éviter l’état Effrayé ou à y mettre fin.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "halfling.nimble",
+      "en": "You can move through the space of any creature that is a size larger than you, but you can’t stop in the same space.",
+      "fr": "Vous pouvez traverser l’espace d’une créature dont la catégorie de taille est supérieure à la vôtre, mais vous ne pouvez pas vous y arrêter.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "halfling.luck",
+      "en": "When you roll a 1 on the d20 of a D20 Test, you can reroll the die, and you must use the new roll.",
+      "fr": "Lorsque vous obtenez un 1 sur le d20 d’un Test de d20, vous pouvez relancer le dé et devez utiliser le nouveau résultat.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "halfling.stealth",
+      "en": "You can take the Hide action even when you are obscured only by a creature that is at least one size larger than you.",
+      "fr": "Vous pouvez entreprendre l’action Se cacher même si vous n’êtes dissimulé que par une créature dont la catégorie de taille est supérieure à la vôtre.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "human.resourceful",
+      "en": "You gain Heroic Inspiration whenever you finish a Long Rest.",
+      "fr": "Vous gagnez l’Inspiration héroïque à la fin de chaque Repos long.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "human.skillful",
+      "en": "You gain proficiency in one skill of your choice.",
+      "fr": "Vous gagnez la maîtrise d’une compétence de votre choix.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "human.versatile",
+      "en": "You gain an Origin feat of your choice (see “Feats”). Skilled is recommended.",
+      "fr": "Vous gagnez un don d’origine de votre choix (voir « Dons »). Doué est recommandé.",
+      "source": "Traduction de passages du SRD 5.2.1 EN · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "rage-dragon-2024.dragon.flight",
+      "en": "When you reach character level 5, you can channel draconic magic to give yourself temporary flight. As a Bonus Action, you sprout spectral wings on your back that last for 10 minutes or until you retract the wings (no action required) or have the Incapacitated condition. During that time, you have a Fly Speed equal to your Speed. Your wings appear to be made of the same energy as your Breath Weapon. Once you use this trait, you can’t use it again until you finish a Long Rest.",
+      "fr": "À partir du niveau 5 de personnage, vous pouvez canaliser la magie draconique pour voler temporairement. Par une action Bonus, des ailes spectrales apparaissent dans votre dos pendant 10 minutes, jusqu’à ce que vous les rétractiez sans action, ou jusqu’à ce que vous subissiez l’état Neutralisé. Pendant cette durée, votre Vitesse de vol est égale à votre Vitesse. Vos ailes semblent constituées de la même énergie que votre Souffle. Après avoir utilisé ce trait, vous devez terminer un Repos long avant de pouvoir l’utiliser de nouveau.",
+      "source": "Traduction de l’extrait utilisateur et des passages SRD correspondants · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "rage-dragon-2024.dragon.breath",
+      "en": "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 damage of the type determined by your Draconic Ancestry trait. On a successful save, a creature takes half as much damage. This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).",
+      "fr": "Lorsque vous entreprenez l’action Attaquer à votre tour, vous pouvez remplacer l’une de vos attaques par un souffle d’énergie magique dans un Cône de 15 feet ou une Ligne de 30 feet et de 5 feet de large, au choix à chaque utilisation. Chaque créature dans la zone doit effectuer un jet de sauvegarde de Dextérité dont le DD est égal à 8 + votre modificateur de Constitution + votre bonus de maîtrise. En cas d’échec, elle subit 1d10 dégâts du type déterminé par votre Ascendance draconique. En cas de réussite, elle subit la moitié de ces dégâts. Les dégâts augmentent de 1d10 aux niveaux de personnage 5 (2d10), 11 (3d10) et 17 (4d10).",
+      "source": "Traduction de l’extrait utilisateur et des passages SRD correspondants · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "rage-dragon-2024.dragon.breath-uses",
+      "en": "You can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.",
+      "fr": "Vous pouvez utiliser ce Souffle un nombre de fois égal à votre bonus de maîtrise et récupérez toutes les utilisations dépensées à la fin d’un Repos long.",
+      "source": "Traduction de l’extrait utilisateur et des passages SRD correspondants · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "rage-dragon-2024.dragon.resistance",
+      "en": "You have Resistance to the damage type determined by your Draconic Ancestry trait.",
+      "fr": "Vous bénéficiez de la Résistance au type de dégâts déterminé par votre Ascendance draconique.",
+      "source": "Traduction de l’extrait utilisateur et des passages SRD correspondants · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.heading.0",
+      "kind": "term",
+      "en": "Draconic Ancestry",
+      "fr": "Ascendance draconique",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.heading.1",
+      "kind": "term",
+      "en": "Draconic Ancestors",
+      "fr": "Ancêtres draconiques",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.heading.2",
+      "kind": "term",
+      "en": "Dwarven Resilience",
+      "fr": "Résilience naine",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.heading.3",
+      "kind": "term",
+      "en": "Dwarven Toughness",
+      "fr": "Ténacité naine",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.heading.4",
+      "kind": "term",
+      "en": "Stonecunning",
+      "fr": "Connaissance de la pierre",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.heading.5",
+      "kind": "term",
+      "en": "Elven Lineage",
+      "fr": "Lignage elfique",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.heading.7",
+      "kind": "term",
+      "en": "Gnomish Cunning",
+      "fr": "Ruse gnome",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.heading.8",
+      "kind": "term",
+      "en": "Gnome Cunning",
+      "fr": "Ruse gnome",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.heading.9",
+      "kind": "term",
+      "en": "Gnomish Lineage",
+      "fr": "Lignage gnome",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.heading.11",
+      "kind": "term",
+      "en": "Giant Ancestry",
+      "fr": "Ascendance gigante",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.heading.12",
+      "kind": "term",
+      "en": "Large Form",
+      "fr": "Forme de géant",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.heading.13",
+      "kind": "term",
+      "en": "Powerful Build",
+      "fr": "Forte carrure",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.heading.14",
+      "kind": "term",
+      "en": "Cloud’s Jaunt (Cloud Giant)",
+      "fr": "Saut des nuées (géant des nuages)",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.heading.15",
+      "kind": "term",
+      "en": "Fire’s Burn (Fire Giant)",
+      "fr": "Brûlure ignée (géant du feu)",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.heading.16",
+      "kind": "term",
+      "en": "Frost’s Chill (Frost Giant)",
+      "fr": "Froid mordant (géant du givre)",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.heading.17",
+      "kind": "term",
+      "en": "Hill’s Tumble (Hill Giant)",
+      "fr": "Renversement des coteaux (géant des collines)",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.heading.18",
+      "kind": "term",
+      "en": "Stone’s Endurance (Stone Giant)",
+      "fr": "Endurance de la pierre (géant des pierres)",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.heading.19",
+      "kind": "term",
+      "en": "Storm’s Thunder (Storm Giant)",
+      "fr": "Tonnerre des cieux (géant des tempêtes)",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.heading.26",
+      "kind": "term",
+      "en": "Halfling Nimbleness",
+      "fr": "Agilité halfeline",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.heading.27",
+      "kind": "term",
+      "en": "Naturally Stealthy",
+      "fr": "Discrétion naturelle",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.heading.28",
+      "kind": "term",
+      "en": "Resourceful",
+      "fr": "Ingénieux",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.heading.29",
+      "kind": "term",
+      "en": "Skillful",
+      "fr": "Compétent",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.heading.30",
+      "kind": "term",
+      "en": "Versatile",
+      "fr": "Polyvalent",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.heading.31",
+      "kind": "term",
+      "en": "Adrenaline Rush",
+      "fr": "Poussée d’adrénaline",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.heading.32",
+      "kind": "term",
+      "en": "Relentless Endurance",
+      "fr": "Acharnement",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.heading.33",
+      "kind": "term",
+      "en": "Fiendish Legacy",
+      "fr": "Héritage fiélon",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.heading.34",
+      "kind": "term",
+      "en": "Fiendish Legacies",
+      "fr": "Héritages fiélons",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.heading.35",
+      "kind": "term",
+      "en": "Otherworldly Presence",
+      "fr": "Présence d’Outremonde",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.2024.dragonborn.1",
+      "en": "Your lineage stems from a dragon progenitor. Choose the kind of dragon from the Draconic Ancestors table. Your choice affects your Breath Weapon and Damage Resistance traits as well as your appearance.",
+      "fr": "Votre lignée remonte à un ancêtre dragon. Choisissez son type dans la table Ancêtres draconiques. Ce choix détermine vos traits Souffle et Résistance aux dégâts, ainsi que votre apparence.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.2024.dwarf.2",
+      "en": "You have Resistance to Poison damage. You also have Advantage on saving throws you make to avoid or end the Poisoned condition.",
+      "fr": "Vous bénéficiez de la Résistance aux dégâts de poison. Vous avez également l’Avantage aux jets de sauvegarde visant à éviter l’état Empoisonné ou à y mettre fin.",
+      "source": "Traduction de textes de personnage 2024 · extraits utilisateur et SRD 5.2.1"
+    },
+    {
+      "id": "species.2024.dwarf.3",
+      "en": "Your Hit Point maximum increases by 1, and it increases by 1 again whenever you gain a level.",
+      "fr": "Votre maximum de points de vie augmente de 1, puis encore de 1 chaque fois que vous gagnez un niveau.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.2024.dwarf.4",
+      "en": "As a Bonus Action, you gain Tremorsense with a range of 60 feet for 10 minutes. You must be on a stone surface or touching a stone surface to use this Tremorsense. The stone can be natural or worked.",
+      "fr": "Par une action Bonus, vous gagnez la Perception des vibrations sur 60 feet pendant 10 minutes. Pour l’utiliser, vous devez vous tenir sur une surface en pierre ou en toucher une. La pierre peut être naturelle ou travaillée.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.2024.dwarf.5",
+      "en": "You can use this Bonus Action a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.",
+      "fr": "Vous pouvez utiliser cette action Bonus un nombre de fois égal à votre bonus de maîtrise et récupérez toutes les utilisations dépensées à la fin d’un Repos long.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.2024.elf.6",
+      "en": "You are part of a lineage that grants you supernatural abilities. Choose a lineage from the Elven Lineages table. You gain the level 1 benefit of that lineage.",
+      "fr": "Vous appartenez à un lignage qui vous confère des aptitudes surnaturelles. Choisissez un lignage dans la table Lignages elfiques. Vous gagnez le bénéfice de niveau 1 de ce lignage.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.2024.elf.7",
+      "en": "When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.",
+      "fr": "Aux niveaux de personnage 3 et 5, vous apprenez un sort de niveau supérieur indiqué dans la table. Ce sort est toujours préparé pour vous. Vous pouvez le lancer une fois sans emplacement de sort, puis devez terminer un Repos long pour recommencer. Vous pouvez également le lancer avec vos emplacements de sort du niveau approprié.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.2024.elf.8",
+      "en": "Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage).",
+      "fr": "L’Intelligence, la Sagesse ou le Charisme est votre caractéristique d’incantation pour les sorts de ce trait, au choix lors de la sélection du lignage.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.2024.elf.9",
+      "en": "The range of your Darkvision increases to 120 feet. You also know the Dancing Lights cantrip.",
+      "fr": "La portée de votre Vision dans le noir passe à 120 feet. Vous connaissez également le sort mineur Lumières dansantes.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.2024.elf.10",
+      "en": "You know the Prestidigitation cantrip. Whenever you finish a Long Rest, you can replace that cantrip with a different cantrip from the Wizard spell list.",
+      "fr": "Vous connaissez le sort mineur Prestidigitation. À la fin de chaque Repos long, vous pouvez le remplacer par un autre sort mineur de la liste de sorts du Magicien.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.2024.elf.11",
+      "en": "Your Speed increases to 35 feet. You also know the Druidcraft cantrip.",
+      "fr": "Votre Vitesse passe à 35 feet. Vous connaissez également le sort mineur Druidisme.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.2024.gnome.12",
+      "en": "You are part of a lineage that grants you supernatural abilities. Choose one of the following options; whichever one you choose, Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage):",
+      "fr": "Vous appartenez à un lignage qui vous confère des aptitudes surnaturelles. Choisissez une des options suivantes. Quelle que soit l’option, l’Intelligence, la Sagesse ou le Charisme est votre caractéristique d’incantation pour les sorts de ce trait, au choix lors de la sélection du lignage :",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.2024.gnome.13",
+      "en": "You know the Minor Illusion cantrip. You also always have the Speak with Animals spell prepared. You can cast it without a spell slot a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest. You can also use any spell slots you have to cast the spell.",
+      "fr": "Vous connaissez le sort mineur Illusion mineure et avez toujours le sort Communication avec les animaux préparé. Vous pouvez lancer ce sort sans emplacement un nombre de fois égal à votre bonus de maîtrise et récupérez toutes les utilisations dépensées à la fin d’un Repos long. Vous pouvez également le lancer avec vos emplacements de sort.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.2024.gnome.14",
+      "en": "You know the Mending and Prestidigitation cantrips. In addition, you can spend 10 minutes casting Prestidigitation to create a Tiny clockwork device (AC 5, 1 HP), such as a toy, fire starter, or music box. When you create the device, you determine its function by choosing one effect from Prestidigitation; the device produces that effect whenever you or another creature takes a Bonus Action to activate it with a touch. If the chosen effect has options within it, you choose one of those options for the device when you create it. For example, if you choose the spell’s ignite-extinguish effect, you determine whether the device ignites or extinguishes fire; the device doesn’t do both. You can have three such devices in existence at a time, and each falls apart 8 hours after its creation or when you dismantle it with a touch as a Utilize action.",
+      "fr": "Vous connaissez les sorts mineurs Réparation et Prestidigitation. Vous pouvez aussi consacrer 10 minutes à lancer Prestidigitation pour créer un appareil mécanique de taille Très petite (CA 5, 1 pv), tel qu’un jouet, un allume-feu ou une boîte à musique. À sa création, choisissez un effet de Prestidigitation : l’appareil le produit quand vous ou une autre créature l’activez par contact avec une action Bonus. Si cet effet comporte plusieurs options, choisissez celle de l’appareil à sa création. Par exemple, pour l’effet permettant d’allumer ou d’éteindre un feu, l’appareil doit faire l’un ou l’autre, jamais les deux. Vous pouvez avoir trois appareils de ce type à la fois. Chacun tombe en morceaux 8 heures après sa création ou lorsque vous le démantelez par contact avec l’action Utilisation.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.2024.goliath.15",
+      "en": "You are descended from Giants. Choose one of the following benefits—a supernatural boon from your ancestry; you can use the chosen benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest:",
+      "fr": "Vous descendez de géants. Choisissez un des bénéfices suivants, une faveur surnaturelle de votre ascendance. Vous pouvez utiliser ce bénéfice un nombre de fois égal à votre bonus de maîtrise et récupérez toutes les utilisations dépensées à la fin d’un Repos long :",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.2024.goliath.16",
+      "en": "As a Bonus Action, you magically teleport up to 30 feet to an unoccupied space you can see.",
+      "fr": "Par une action Bonus, vous vous téléportez magiquement jusqu’à 30 feet dans un espace inoccupé que vous voyez.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.2024.goliath.17",
+      "en": "When you hit a target with an attack roll and deal damage to it, you can also deal 1d10 Fire damage to that target.",
+      "fr": "Lorsque vous touchez une cible avec un jet d’attaque et lui infligez des dégâts, vous pouvez lui infliger 1d10 dégâts de feu supplémentaires.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.2024.goliath.18",
+      "en": "When you hit a target with an attack roll and deal damage to it, you can also deal 1d6 Cold damage to that target and reduce its Speed by 10 feet until the start of your next turn.",
+      "fr": "Lorsque vous touchez une cible avec un jet d’attaque et lui infligez des dégâts, vous pouvez lui infliger 1d6 dégâts de froid supplémentaires et réduire sa Vitesse de 10 feet jusqu’au début de votre prochain tour.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.2024.goliath.19",
+      "en": "When you hit a Large or smaller creature with an attack roll and deal damage to it, you can give that target the Prone condition.",
+      "fr": "Lorsque vous touchez une créature de taille Grande ou inférieure avec un jet d’attaque et lui infligez des dégâts, vous pouvez lui faire subir l’état À terre.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.2024.goliath.20",
+      "en": "When you take damage, you can take a Reaction to roll 1d12. Add your Constitution modifier to the number rolled and reduce the damage by that total.",
+      "fr": "Lorsque vous subissez des dégâts, vous pouvez jouer une Réaction pour lancer 1d12. Ajoutez votre modificateur de Constitution au résultat et réduisez les dégâts de ce total.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.2024.goliath.21",
+      "en": "When you take damage from a creature within 60 feet of you, you can take a Reaction to deal 1d8 Thunder damage to that creature.",
+      "fr": "Lorsque vous subissez des dégâts d’une créature à 60 feet ou moins de vous, vous pouvez jouer une Réaction pour lui infliger 1d8 dégâts de tonnerre.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.2024.goliath.22",
+      "en": "Starting at character level 5, you can change your size to Large as a Bonus Action if you’re in a big enough space. This transformation lasts for 10 minutes or until you end it (no action required). For that duration, you have Advantage on Strength checks, and your Speed increases by 10 feet. Once you use this trait, you can’t use it again until you finish a Long Rest.",
+      "fr": "À partir du niveau 5 de personnage, vous pouvez passer à la taille Grande par une action Bonus si l’espace est suffisant. Cette transformation dure 10 minutes ou jusqu’à ce que vous y mettiez fin sans action. Pendant cette durée, vous avez l’Avantage aux tests de Force et votre Vitesse augmente de 10 feet. Une fois ce trait utilisé, vous devez terminer un Repos long avant de l’utiliser de nouveau.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.2024.goliath.23",
+      "en": "You have Advantage on any ability check you make to end the Grappled condition. You also count as one size larger when determining your carrying capacity.",
+      "fr": "Vous avez l’Avantage aux tests de caractéristique pour mettre fin à l’état Agrippé. Vous comptez aussi comme une catégorie de taille supérieure pour déterminer votre capacité de charge.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.2024.orc.24",
+      "en": "You can take the Dash action as a Bonus Action. When you do so, you gain a number of Temporary Hit Points equal to your Proficiency Bonus.",
+      "fr": "Vous pouvez entreprendre l’action Foncer par une action Bonus. Vous gagnez alors un nombre de points de vie temporaires égal à votre bonus de maîtrise.",
+      "source": "Traduction de textes de personnage 2024 · extraits utilisateur et SRD 5.2.1"
+    },
+    {
+      "id": "species.2024.orc.25",
+      "en": "You can use this trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Short or Long Rest.",
+      "fr": "Vous pouvez utiliser ce trait un nombre de fois égal à votre bonus de maîtrise. Vous récupérez toutes les utilisations dépensées à la fin d’un Repos court ou long.",
+      "source": "Traduction de textes de personnage 2024 · extraits utilisateur et SRD 5.2.1"
+    },
+    {
+      "id": "species.2024.orc.26",
+      "en": "When you are reduced to 0 Hit Points but not killed outright, you can drop to 1 Hit Point instead. Once you use this trait, you can’t do so again until you finish a Long Rest.",
+      "fr": "Lorsque vos points de vie tombent à 0 sans que vous soyez tué sur le coup, vous pouvez conserver 1 point de vie à la place. Une fois ce trait utilisé, vous devez terminer un Repos long avant de pouvoir l’utiliser de nouveau.",
+      "source": "Traduction de textes de personnage 2024 · extraits utilisateur et SRD 5.2.1"
+    },
+    {
+      "id": "species.2024.tiefling.27",
+      "en": "You are the recipient of a legacy that grants you supernatural abilities. Choose a legacy from the Fiendish Legacies table. You gain the level 1 benefit of the chosen legacy.",
+      "fr": "Vous recevez un héritage qui vous confère des aptitudes surnaturelles. Choisissez un héritage dans la table Héritages fiélons. Vous gagnez le bénéfice de niveau 1 de cet héritage.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.2024.tiefling.28",
+      "en": "Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy).",
+      "fr": "L’Intelligence, la Sagesse ou le Charisme est votre caractéristique d’incantation pour les sorts de ce trait, au choix lors de la sélection de l’héritage.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.2024.tiefling.29",
+      "en": "You know the Thaumaturgy cantrip. When you cast it with this trait, the spell uses the same spellcasting ability you use for your Fiendish Legacy trait.",
+      "fr": "Vous connaissez le sort mineur Thaumaturgie. Lorsque vous le lancez avec ce trait, vous utilisez la même caractéristique d’incantation que pour votre trait Héritage fiélon.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.2024.tiefling.30",
+      "en": "You have Resistance to Poison damage. You also know the Poison Spray cantrip.",
+      "fr": "Vous avez la Résistance aux dégâts de poison. Vous connaissez également le sort mineur Bouffée de poison.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.2024.tiefling.31",
+      "en": "You have Resistance to Necrotic damage. You also know the Chill Touch cantrip.",
+      "fr": "Vous avez la Résistance aux dégâts nécrotiques. Vous connaissez également le sort mineur Contact glacial.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.2024.tiefling.32",
+      "en": "You have Resistance to Fire damage. You also know the Fire Bolt cantrip.",
+      "fr": "Vous avez la Résistance aux dégâts de feu. Vous connaissez également le sort mineur Trait de feu.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.2024.common.33",
+      "en": "You have Darkvision with a range of 60 feet.",
+      "fr": "Vous disposez de la Vision dans le noir sur une portée de 60 feet.",
+      "source": "Traduction de textes de personnage 2024 · extraits utilisateur et SRD 5.2.1"
+    },
+    {
+      "id": "species.2024.common.34",
+      "en": "You have Darkvision with a range of 120 feet.",
+      "fr": "Vous disposez de la Vision dans le noir sur une portée de 120 feet.",
+      "source": "Traduction de textes de personnage 2024 · extraits utilisateur et SRD 5.2.1"
+    },
+    {
+      "id": "species.2024.dwarf.combined",
+      "en": "As a Bonus Action, you gain Tremorsense with a range of 60 feet for 10 minutes. You must be on a stone surface or touching a stone surface to use this Tremorsense. The stone can be natural or worked. You can use this Bonus Action a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.",
+      "fr": "Par une action Bonus, vous gagnez la Perception des vibrations dans un rayon de 60 feet pendant 10 minutes. Pour l’utiliser, vous devez vous tenir sur une surface de pierre ou en toucher une. La pierre peut être naturelle ou travaillée. Vous pouvez utiliser cette action Bonus un nombre de fois égal à votre bonus de maîtrise et récupérez toutes les utilisations dépensées à la fin d’un Repos long.",
+      "source": "Traduction de textes de personnage 2024 · extraits utilisateur et SRD 5.2.1"
+    },
+    {
+      "id": "species.2024.elf.combined",
+      "en": "You are part of a lineage that grants you supernatural abilities. Choose a lineage from the Elven Lineages table. You gain the level 1 benefit of that lineage. When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage).",
+      "fr": "Vous appartenez à un lignage qui vous confère des aptitudes surnaturelles. Choisissez un lignage dans la table Lignages elfiques. Vous gagnez le bénéfice de niveau 1 de ce lignage. Aux niveaux de personnage 3 et 5, vous apprenez un sort de niveau supérieur indiqué dans la table. Ce sort est toujours préparé pour vous. Vous pouvez le lancer une fois sans emplacement de sort, puis devez terminer un Repos long pour recommencer. Vous pouvez également le lancer avec vos emplacements de sort du niveau approprié. L’Intelligence, la Sagesse ou le Charisme est votre caractéristique d’incantation pour les sorts de ce trait, au choix lors de la sélection du lignage.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.2024.orc.combined",
+      "en": "You can take the Dash action as a Bonus Action. When you do so, you gain a number of Temporary Hit Points equal to your Proficiency Bonus. You can use this trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Short or Long Rest.",
+      "fr": "Vous pouvez entreprendre l’action Pointe par une action Bonus. Vous gagnez alors un nombre de points de vie temporaires égal à votre bonus de maîtrise. Vous pouvez utiliser ce trait un nombre de fois égal à votre bonus de maîtrise et récupérez toutes les utilisations dépensées à la fin d’un Repos court ou long.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.2024.tiefling.combined",
+      "en": "You are the recipient of a legacy that grants you supernatural abilities. Choose a legacy from the Fiendish Legacies table. You gain the level 1 benefit of the chosen legacy. When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy).",
+      "fr": "Vous recevez un héritage qui vous confère des aptitudes surnaturelles. Choisissez un héritage dans la table Héritages fiélons. Vous gagnez le bénéfice de niveau 1 de cet héritage. Aux niveaux de personnage 3 et 5, vous apprenez un sort de niveau supérieur indiqué dans la table. Ce sort est toujours préparé pour vous. Vous pouvez le lancer une fois sans emplacement de sort, puis devez terminer un Repos long pour recommencer. Vous pouvez également le lancer avec vos emplacements de sort du niveau approprié. L’Intelligence, la Sagesse ou le Charisme est votre caractéristique d’incantation pour les sorts de ce trait, au choix lors de la sélection de l’héritage.",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.size.0",
+      "en": "Medium (about 5–7 feet tall)",
+      "fr": "Moyenne (environ 5–7 feet de haut)",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.size.1",
+      "en": "Medium (about 4–5 feet tall)",
+      "fr": "Moyenne (environ 4–5 feet de haut)",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.size.2",
+      "en": "Medium (about 5–6 feet tall)",
+      "fr": "Moyenne (environ 5–6 feet de haut)",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.size.3",
+      "en": "Small (about 3–4 feet tall)",
+      "fr": "Petite (environ 3–4 feet de haut)",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.size.4",
+      "en": "Medium (about 7–8 feet tall)",
+      "fr": "Moyenne (environ 7–8 feet de haut)",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.size.5",
+      "en": "Small (about 2–3 feet tall)",
+      "fr": "Petite (environ 2–3 feet de haut)",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.size.6",
+      "en": "Medium (about 6–7 feet tall)",
+      "fr": "Moyenne (environ 6–7 feet de haut)",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.size.7",
+      "en": "Medium (about 4–7 feet tall) or Small (about 2–4 feet tall), chosen when you select this species",
+      "fr": "Moyenne (environ 4–7 feet de haut) ou Petite (environ 2–4 feet de haut), au choix lors de la sélection de l’espèce",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.size.8",
+      "en": "Medium (about 4–7 feet tall) or Small (about 3–4 feet tall), chosen when you select this species",
+      "fr": "Moyenne (environ 4–7 feet de haut) ou Petite (environ 3–4 feet de haut), au choix lors de la sélection de l’espèce",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.goliath.heading.cloud",
+      "kind": "term",
+      "en": "Cloud’s Jaunt",
+      "fr": "Saut des nuées",
+      "source": "Traduction proposée des variantes générales des ascendances de goliath observées dans Shard · règles SRD 5.2.1 · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.goliath.heading.fire",
+      "kind": "term",
+      "en": "Fire’s Burn",
+      "fr": "Brûlure ignée",
+      "source": "Traduction proposée des variantes générales des ascendances de goliath observées dans Shard · règles SRD 5.2.1 · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.goliath.heading.frost",
+      "kind": "term",
+      "en": "Frost’s Chill",
+      "fr": "Froid mordant",
+      "source": "Traduction proposée des variantes générales des ascendances de goliath observées dans Shard · règles SRD 5.2.1 · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.goliath.heading.hill",
+      "kind": "term",
+      "en": "Hill’s Tumble",
+      "fr": "Renversement des coteaux",
+      "source": "Traduction proposée des variantes générales des ascendances de goliath observées dans Shard · règles SRD 5.2.1 · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.goliath.heading.stone",
+      "kind": "term",
+      "en": "Stone’s Endurance",
+      "fr": "Endurance de la pierre",
+      "source": "Traduction proposée des variantes générales des ascendances de goliath observées dans Shard · règles SRD 5.2.1 · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.goliath.heading.storm",
+      "kind": "term",
+      "en": "Storm’s Thunder",
+      "fr": "Tonnerre des cieux",
+      "source": "Traduction proposée des variantes générales des ascendances de goliath observées dans Shard · règles SRD 5.2.1 · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "species.goliath.feature-uses",
+      "en": "You can use this feature a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.",
+      "fr": "Vous pouvez utiliser cette aptitude un nombre de fois égal à votre bonus de maîtrise et récupérez toutes les utilisations dépensées à la fin d’un Repos long.",
+      "source": "Traduction proposée des variantes générales des ascendances de goliath observées dans Shard · règles SRD 5.2.1 · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    }
+  ]
+}

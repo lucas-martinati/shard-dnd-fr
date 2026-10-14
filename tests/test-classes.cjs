@@ -1,10 +1,10 @@
 const fs=require('node:fs'),assert=require('node:assert/strict'),{JSDOM}=require('jsdom');
-const rows=JSON.parse(fs.readFileSync('work/class-texts.json','utf8'));
-const complete=JSON.parse(fs.readFileSync('work/complete-texts.json','utf8'));
+const rows=JSON.parse(fs.readFileSync('work/generated/class-texts.json','utf8'));
+const complete=JSON.parse(fs.readFileSync('work/generated/complete-texts.json','utf8'));
 const classes=['barbarian','bard','cleric','druid','fighter','monk','paladin','ranger','rogue','sorcerer','warlock','wizard'];
 assert.equal(rows.length,232);assert.deepEqual([...new Set(rows.map(r=>r.class))],classes);
-const options=JSON.parse(fs.readFileSync('work/option-texts.json','utf8'));
-const coverage=JSON.parse(fs.readFileSync('work/option-coverage.json','utf8'));
+const options=JSON.parse(fs.readFileSync('work/generated/option-texts.json','utf8'));
+const coverage=JSON.parse(fs.readFileSync('audit/generes/options-srd.json','utf8'));
 assert.equal(coverage.filter(r=>r.kind==='metamagic'&&r.description).length,10);
 assert.equal(coverage.filter(r=>r.kind==='invocation'&&r.description).length,28);
 rows.push(...options.map((r,i)=>({...r,class:'option',name:'option '+i})));

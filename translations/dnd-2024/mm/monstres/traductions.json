@@ -1,15 +1,12 @@
 {
   "$schema": "../../../../docs/translation-pack.schema.json",
-  "schemaVersion": 1,
-  "edition": "any",
-  "source": "Sources détaillées par entrée",
+  "edition": "2024",
   "entries": [
     {
       "id": "monster.tarrasque.2024.0.heading",
       "kind": "term",
       "en": "Legendary Resistance (6/Day)",
       "fr": "Résistance légendaire (6/jour)",
-      "edition": "2024",
       "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026"
     },
     {
@@ -17,7 +14,6 @@
       "kind": "description",
       "en": "If the tarrasque fails a saving throw, it can choose to succeed instead.",
       "fr": "Si la tarasque rate un jet de sauvegarde, elle peut décider de le réussir à la place.",
-      "edition": "2024",
       "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026"
     },
     {
@@ -25,7 +21,6 @@
       "kind": "description",
       "en": "Legendary Resistance (6/Day). If the tarrasque fails a saving throw, it can choose to succeed instead.",
       "fr": "Résistance légendaire (6/jour). Si la tarasque rate un jet de sauvegarde, elle peut décider de le réussir à la place.",
-      "edition": "2024",
       "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026"
     },
     {
@@ -33,7 +28,6 @@
       "kind": "term",
       "en": "Magic Resistance",
       "fr": "Résistance à la magie",
-      "edition": "2024",
       "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026"
     },
     {
@@ -41,7 +35,6 @@
       "kind": "description",
       "en": "The tarrasque has Advantage on saving throws against spells and other magical effects.",
       "fr": "La tarasque a l’Avantage aux jets de sauvegarde contre les sorts et les autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026"
     },
     {
@@ -49,7 +42,6 @@
       "kind": "description",
       "en": "Magic Resistance. The tarrasque has Advantage on saving throws against spells and other magical effects.",
       "fr": "Résistance à la magie. La tarasque a l’Avantage aux jets de sauvegarde contre les sorts et les autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026"
     },
     {
@@ -57,7 +49,6 @@
       "kind": "term",
       "en": "Reflective Carapace",
       "fr": "Carapace réfléchissante",
-      "edition": "2024",
       "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026"
     },
     {
@@ -65,7 +56,6 @@
       "kind": "description",
       "en": "If the tarrasque is targeted by a Magic Missile spell or a spell that requires a ranged attack roll, roll 1d6. On a 1-5, the tarrasque is unaffected. On a 6, the tarrasque is unaffected and reflects the spell, turning the caster into the target.",
       "fr": "Si la tarasque est ciblée par le sort Projectile magique ou par un sort qui nécessite un jet d’attaque à distance, lancez 1d6. Sur un résultat de 1–5, la tarasque n’est pas affectée. Sur un 6, elle n’est pas affectée et renvoie le sort sur son incantateur, qui en devient la cible.",
-      "edition": "2024",
       "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026"
     },
     {
@@ -73,7 +63,6 @@
       "kind": "description",
       "en": "Reflective Carapace. If the tarrasque is targeted by a Magic Missile spell or a spell that requires a ranged attack roll, roll 1d6. On a 1-5, the tarrasque is unaffected. On a 6, the tarrasque is unaffected and reflects the spell, turning the caster into the target.",
       "fr": "Carapace réfléchissante. Si la tarasque est ciblée par le sort Projectile magique ou par un sort qui nécessite un jet d’attaque à distance, lancez 1d6. Sur un résultat de 1–5, la tarasque n’est pas affectée. Sur un 6, elle n’est pas affectée et renvoie le sort sur son incantateur, qui en devient la cible.",
-      "edition": "2024",
       "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026"
     },
     {
@@ -81,7 +70,6 @@
       "kind": "term",
       "en": "Siege Monster",
       "fr": "Monstre de siège",
-      "edition": "2024",
       "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026"
     },
     {
@@ -89,7 +77,6 @@
       "kind": "description",
       "en": "The tarrasque deals double damage to objects and structures.",
       "fr": "La tarasque inflige le double de dégâts aux objets et aux structures.",
-      "edition": "2024",
       "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026"
     },
     {
@@ -97,7 +84,6 @@
       "kind": "description",
       "en": "Siege Monster. The tarrasque deals double damage to objects and structures.",
       "fr": "Monstre de siège. La tarasque inflige le double de dégâts aux objets et aux structures.",
-      "edition": "2024",
       "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026"
     },
     {
@@ -105,7 +91,6 @@
       "kind": "term",
       "en": "Multiattack",
       "fr": "Attaques multiples",
-      "edition": "2024",
       "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026"
     },
     {
@@ -113,7 +98,6 @@
       "kind": "description",
       "en": "The tarrasque makes one Bite attack and three other attacks, using Claw or Tail in any combination.",
       "fr": "La tarasque effectue une attaque de Morsure et trois autres attaques, en combinant Griffe et Queue à sa guise.",
-      "edition": "2024",
       "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026"
     },
     {
@@ -121,7 +105,6 @@
       "kind": "description",
       "en": "Multiattack. The tarrasque makes one Bite attack and three other attacks, using Claw or Tail in any combination.",
       "fr": "Attaques multiples. La tarasque effectue une attaque de Morsure et trois autres attaques, en combinant Griffe et Queue à sa guise.",
-      "edition": "2024",
       "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026"
     },
     {
@@ -129,7 +112,6 @@
       "kind": "term",
       "en": "Bite",
       "fr": "Morsure",
-      "edition": "2024",
       "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026"
     },
     {
@@ -137,7 +119,6 @@
       "kind": "description",
       "en": "Melee Attack Roll: +19, reach 15 ft. Hit: 36 (4d12 + 10) Piercing damage, and the target has the Grappled condition (escape DC 20). Until the grapple ends, the target has the Restrained condition and can't teleport.",
       "fr": "Jet d’attaque de corps à corps : +19, allonge 15 feet. Touché : 36 (4d12 + 10) dégâts perforants, et la cible subit l’état Agrippé (évasion DD 20). Jusqu’à la fin de cet agrippement, la cible subit l’état Entravé et ne peut pas se téléporter.",
-      "edition": "2024",
       "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026"
     },
     {
@@ -145,7 +126,6 @@
       "kind": "description",
       "en": "Bite. Melee Attack Roll: +19, reach 15 ft. Hit: 36 (4d12 + 10) Piercing damage, and the target has the Grappled condition (escape DC 20). Until the grapple ends, the target has the Restrained condition and can't teleport.",
       "fr": "Morsure. Jet d’attaque de corps à corps : +19, allonge 15 feet. Touché : 36 (4d12 + 10) dégâts perforants, et la cible subit l’état Agrippé (évasion DD 20). Jusqu’à la fin de cet agrippement, la cible subit l’état Entravé et ne peut pas se téléporter.",
-      "edition": "2024",
       "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026"
     },
     {
@@ -153,7 +133,6 @@
       "kind": "term",
       "en": "Claw",
       "fr": "Griffe",
-      "edition": "2024",
       "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026"
     },
     {
@@ -161,7 +140,6 @@
       "kind": "description",
       "en": "Melee Attack Roll: +19, reach 15 ft. Hit: 28 (4d8 + 10) Slashing damage.",
       "fr": "Jet d’attaque de corps à corps : +19, allonge 15 feet. Touché : 28 (4d8 + 10) dégâts tranchants.",
-      "edition": "2024",
       "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026"
     },
     {
@@ -169,7 +147,6 @@
       "kind": "description",
       "en": "Claw. Melee Attack Roll: +19, reach 15 ft. Hit: 28 (4d8 + 10) Slashing damage.",
       "fr": "Griffe. Jet d’attaque de corps à corps : +19, allonge 15 feet. Touché : 28 (4d8 + 10) dégâts tranchants.",
-      "edition": "2024",
       "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026"
     },
     {
@@ -177,7 +154,6 @@
       "kind": "term",
       "en": "Tail",
       "fr": "Queue",
-      "edition": "2024",
       "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026"
     },
     {
@@ -185,7 +161,6 @@
       "kind": "description",
       "en": "Melee Attack Roll: +19, reach 30 ft. Hit: 23 (3d8 + 10) Bludgeoning damage. If the target is a Huge or smaller creature, it has the Prone condition.",
       "fr": "Jet d’attaque de corps à corps : +19, allonge 30 feet. Touché : 23 (3d8 + 10) dégâts contondants. Si la cible est une créature de taille Très grande ou inférieure, elle subit l’état À terre.",
-      "edition": "2024",
       "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026"
     },
     {
@@ -193,7 +168,6 @@
       "kind": "description",
       "en": "Tail. Melee Attack Roll: +19, reach 30 ft. Hit: 23 (3d8 + 10) Bludgeoning damage. If the target is a Huge or smaller creature, it has the Prone condition.",
       "fr": "Queue. Jet d’attaque de corps à corps : +19, allonge 30 feet. Touché : 23 (3d8 + 10) dégâts contondants. Si la cible est une créature de taille Très grande ou inférieure, elle subit l’état À terre.",
-      "edition": "2024",
       "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026"
     },
     {
@@ -201,7 +175,6 @@
       "kind": "term",
       "en": "Thunderous Bellow (Recharge 5–6)",
       "fr": "Mugissement tonitruant (recharge 5–6)",
-      "edition": "2024",
       "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026"
     },
     {
@@ -209,7 +182,6 @@
       "kind": "description",
       "en": "Constitution Saving Throw: DC 27, each creature and each object that isn't being worn or carried in a 150-foot Cone. Failure: 78 (12d12) Thunder damage, and the target has the Deafened and Frightened conditions until the end of its next turn. Success: Half damage only.",
       "fr": "Jet de sauvegarde de Constitution : DD 27, chaque créature et chaque objet qui n’est ni porté ni transporté dans un Cône de 150 feet. Échec : 78 (12d12) dégâts de tonnerre, et la cible subit les états Assourdi et Effrayé jusqu’à la fin de son prochain tour. Réussite : moitié des dégâts uniquement.",
-      "edition": "2024",
       "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026"
     },
     {
@@ -217,7 +189,6 @@
       "kind": "description",
       "en": "Thunderous Bellow (Recharge 5–6). Constitution Saving Throw: DC 27, each creature and each object that isn't being worn or carried in a 150-foot Cone. Failure: 78 (12d12) Thunder damage, and the target has the Deafened and Frightened conditions until the end of its next turn. Success: Half damage only.",
       "fr": "Mugissement tonitruant (recharge 5–6). Jet de sauvegarde de Constitution : DD 27, chaque créature et chaque objet qui n’est ni porté ni transporté dans un Cône de 150 feet. Échec : 78 (12d12) dégâts de tonnerre, et la cible subit les états Assourdi et Effrayé jusqu’à la fin de son prochain tour. Réussite : moitié des dégâts uniquement.",
-      "edition": "2024",
       "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026"
     },
     {
@@ -225,7 +196,6 @@
       "kind": "term",
       "en": "Swallow",
       "fr": "Engloutissement",
-      "edition": "2024",
       "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026"
     },
     {
@@ -233,7 +203,6 @@
       "kind": "description",
       "en": "Strength Saving Throw: DC 27, one Large or smaller creature Grappled by the tarrasque (it can have up to six creatures swallowed at a time). Failure: The target is swallowed, and the Grappled condition ends. A swallowed creature has the Blinded and Restrained conditions and can't teleport, it has Total Cover against attacks and other effects outside the tarrasque, and it takes 56 (16d6) Acid damage at the start of each of the tarrasque's turns. If the tarrasque takes 60 damage or more on a single turn from a creature inside it, the tarrasque must succeed on a DC 20 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, each of which falls in a space within 10 feet of the tarrasque and has the Prone condition. If the tarrasque dies, any swallowed creature no longer has the Restrained condition and can escape from the corpse using 20 feet of movement, exiting Prone.",
       "fr": "Jet de sauvegarde de Force : DD 27, une créature de taille Grande ou inférieure Agrippée par la tarasque, qui peut avoir jusqu’à six créatures englouties à la fois. Échec : la cible est engloutie et l’état Agrippé prend fin. Une créature engloutie subit les états Aveuglé et Entravé et ne peut pas se téléporter ; elle bénéficie d’un Abri total contre les attaques et autres effets venant de l’extérieur de la tarasque, et subit 56 (16d6) dégâts d’acide au début de chacun des tours de la tarasque. Si la tarasque subit au moins 60 dégâts au cours d’un même tour de la part d’une créature dans son corps, elle doit réussir un jet de sauvegarde de Constitution DD 20 à la fin de ce tour ou régurgiter toutes les créatures englouties. Chacune tombe dans un espace situé à 10 feet ou moins de la tarasque et subit l’état À terre. Si la tarasque meurt, les créatures englouties ne subissent plus l’état Entravé et peuvent sortir du cadavre en dépensant 20 feet de déplacement, en se retrouvant À terre.",
-      "edition": "2024",
       "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026"
     },
     {
@@ -241,7 +210,6 @@
       "kind": "description",
       "en": "Swallow. Strength Saving Throw: DC 27, one Large or smaller creature Grappled by the tarrasque (it can have up to six creatures swallowed at a time). Failure: The target is swallowed, and the Grappled condition ends. A swallowed creature has the Blinded and Restrained conditions and can't teleport, it has Total Cover against attacks and other effects outside the tarrasque, and it takes 56 (16d6) Acid damage at the start of each of the tarrasque's turns. If the tarrasque takes 60 damage or more on a single turn from a creature inside it, the tarrasque must succeed on a DC 20 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, each of which falls in a space within 10 feet of the tarrasque and has the Prone condition. If the tarrasque dies, any swallowed creature no longer has the Restrained condition and can escape from the corpse using 20 feet of movement, exiting Prone.",
       "fr": "Engloutissement. Jet de sauvegarde de Force : DD 27, une créature de taille Grande ou inférieure Agrippée par la tarasque, qui peut avoir jusqu’à six créatures englouties à la fois. Échec : la cible est engloutie et l’état Agrippé prend fin. Une créature engloutie subit les états Aveuglé et Entravé et ne peut pas se téléporter ; elle bénéficie d’un Abri total contre les attaques et autres effets venant de l’extérieur de la tarasque, et subit 56 (16d6) dégâts d’acide au début de chacun des tours de la tarasque. Si la tarasque subit au moins 60 dégâts au cours d’un même tour de la part d’une créature dans son corps, elle doit réussir un jet de sauvegarde de Constitution DD 20 à la fin de ce tour ou régurgiter toutes les créatures englouties. Chacune tombe dans un espace situé à 10 feet ou moins de la tarasque et subit l’état À terre. Si la tarasque meurt, les créatures englouties ne subissent plus l’état Entravé et peuvent sortir du cadavre en dépensant 20 feet de déplacement, en se retrouvant À terre.",
-      "edition": "2024",
       "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026"
     },
     {
@@ -249,7 +217,6 @@
       "kind": "description",
       "en": "Strength Saving Throw: DC 27, one Large or smaller creature Grappled by the tarrasque (it can have up to six creatures swallowed at a time). Failure: The target is swallowed, and the Grappled condition ends. A swallowed creature has the Blinded and Restrained conditions and can't teleport, it has Total Cover against attacks and other effects outside the tarrasque, and it takes 56 (16d6) Acid damage at the start of each of the tarrasque's turns.",
       "fr": "Jet de sauvegarde de Force : DD 27, une créature de taille Grande ou inférieure Agrippée par la tarasque, qui peut avoir jusqu’à six créatures englouties à la fois. Échec : la cible est engloutie et l’état Agrippé prend fin. Une créature engloutie subit les états Aveuglé et Entravé et ne peut pas se téléporter ; elle bénéficie d’un Abri total contre les attaques et autres effets venant de l’extérieur de la tarasque, et subit 56 (16d6) dégâts d’acide au début de chacun des tours de la tarasque.",
-      "edition": "2024",
       "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026"
     },
     {
@@ -257,7 +224,6 @@
       "kind": "description",
       "en": "If the tarrasque takes 60 damage or more on a single turn from a creature inside it, the tarrasque must succeed on a DC 20 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, each of which falls in a space within 10 feet of the tarrasque and has the Prone condition. If the tarrasque dies, any swallowed creature no longer has the Restrained condition and can escape from the corpse using 20 feet of movement, exiting Prone.",
       "fr": "Si la tarasque subit au moins 60 dégâts au cours d’un même tour de la part d’une créature dans son corps, elle doit réussir un jet de sauvegarde de Constitution DD 20 à la fin de ce tour ou régurgiter toutes les créatures englouties. Chacune tombe dans un espace situé à 10 feet ou moins de la tarasque et subit l’état À terre. Si la tarasque meurt, les créatures englouties ne subissent plus l’état Entravé et peuvent sortir du cadavre en dépensant 20 feet de déplacement, en se retrouvant À terre.",
-      "edition": "2024",
       "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026"
     },
     {
@@ -265,7 +231,6 @@
       "kind": "description",
       "en": "Legendary Action Uses: 3. Immediately after another creature's turn, The tarrasque can expend a use to take one of the following actions. The tarrasque regains all expended uses at the start of each of its turns.",
       "fr": "Utilisations d’action légendaire : 3. Immédiatement après le tour d’une autre créature, la tarasque peut dépenser une utilisation pour entreprendre l’une des actions suivantes. Elle récupère toutes les utilisations dépensées au début de chacun de ses tours.",
-      "edition": "2024",
       "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026"
     },
     {
@@ -273,7 +238,6 @@
       "kind": "term",
       "en": "Onslaught",
       "fr": "Offensive",
-      "edition": "2024",
       "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026"
     },
     {
@@ -281,7 +245,6 @@
       "kind": "description",
       "en": "The tarrasque moves up to half its Speed, and it makes one Claw or Tail attack.",
       "fr": "La tarasque se déplace jusqu’à la moitié de sa Vitesse et effectue une attaque de Griffe ou de Queue.",
-      "edition": "2024",
       "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026"
     },
     {
@@ -289,7 +252,6 @@
       "kind": "description",
       "en": "Onslaught. The tarrasque moves up to half its Speed, and it makes one Claw or Tail attack.",
       "fr": "Offensive. La tarasque se déplace jusqu’à la moitié de sa Vitesse et effectue une attaque de Griffe ou de Queue.",
-      "edition": "2024",
       "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026"
     },
     {
@@ -297,7 +259,6 @@
       "kind": "term",
       "en": "World-Shaking Movement",
       "fr": "Déplacement sismique",
-      "edition": "2024",
       "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026"
     },
     {
@@ -305,7 +266,6 @@
       "kind": "description",
       "en": "The tarrasque moves up to its Speed. At the end of this movement, the tarrasque creates an instantaneous shock wave in a 60-foot Emanation originating from itself. Creatures in that area lose Concentration and, if Medium or smaller, have the Prone condition. The tarrasque can't take this action again until the start of its next turn.",
       "fr": "La tarasque se déplace jusqu’à sa Vitesse. À la fin de ce déplacement, elle crée une onde de choc instantanée dans une Émanation de 60 feet centrée sur elle. Les créatures dans cette zone perdent leur Concentration et, si elles sont de taille Moyenne ou inférieure, subissent l’état À terre. La tarasque ne peut plus entreprendre cette action avant le début de son prochain tour.",
-      "edition": "2024",
       "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026"
     },
     {
@@ -313,7 +273,6 @@
       "kind": "description",
       "en": "World-Shaking Movement. The tarrasque moves up to its Speed. At the end of this movement, the tarrasque creates an instantaneous shock wave in a 60-foot Emanation originating from itself. Creatures in that area lose Concentration and, if Medium or smaller, have the Prone condition. The tarrasque can't take this action again until the start of its next turn.",
       "fr": "Déplacement sismique. La tarasque se déplace jusqu’à sa Vitesse. À la fin de ce déplacement, elle crée une onde de choc instantanée dans une Émanation de 60 feet centrée sur elle. Les créatures dans cette zone perdent leur Concentration et, si elles sont de taille Moyenne ou inférieure, subissent l’état À terre. La tarasque ne peut plus entreprendre cette action avant le début de son prochain tour.",
-      "edition": "2024",
       "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026"
     },
     {
@@ -321,7 +280,6 @@
       "kind": "description",
       "en": "The aboleth can breathe air and water.",
       "fr": "Cette créature peut respirer sous l’eau comme à l’air libre.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/aboleth ; terminologie française AideDD · https://www.aidedd.org/monster/fr/aboleth · 13 octobre 2026"
     },
     {
@@ -329,7 +287,6 @@
       "kind": "description",
       "en": "Amphibious. The aboleth can breathe air and water.",
       "fr": "Amphibie. Cette créature peut respirer sous l’eau comme à l’air libre.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/aboleth ; terminologie française AideDD · https://www.aidedd.org/monster/fr/aboleth · 13 octobre 2026"
     },
     {
@@ -337,7 +294,6 @@
       "kind": "description",
       "en": "If the aboleth fails a saving throw, it can choose to succeed instead.",
       "fr": "Si cette créature rate un jet de sauvegarde, elle peut décider de le réussir tout de même.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/aboleth ; terminologie française AideDD · https://www.aidedd.org/monster/fr/aboleth · 13 octobre 2026"
     },
     {
@@ -345,7 +301,6 @@
       "kind": "description",
       "en": "Legendary Resistance (3/Day, or 4/Day in Lair). If the aboleth fails a saving throw, it can choose to succeed instead.",
       "fr": "Résistance légendaire (3/jour, ou 4/jour dans son antre). Si cette créature rate un jet de sauvegarde, elle peut décider de le réussir tout de même.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/aboleth ; terminologie française AideDD · https://www.aidedd.org/monster/fr/aboleth · 13 octobre 2026"
     },
     {
@@ -353,7 +308,6 @@
       "kind": "description",
       "en": "The wraith can move through other creatures and objects as if they were Difficult Terrain. It takes 5 (1d10) Force damage if it ends its turn inside an object.",
       "fr": "Cette créature peut traverser les autres créatures et les objets comme s’ils étaient un Terrain difficile. Elle subit 5 (1d10) dégâts de force si elle termine son tour à l’intérieur d’un objet.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/wraith ; terminologie française AideDD · https://www.aidedd.org/monster/fr/ame-en-peine · 13 octobre 2026"
     },
     {
@@ -361,7 +315,6 @@
       "kind": "description",
       "en": "Incorporeal Movement. The wraith can move through other creatures and objects as if they were Difficult Terrain. It takes 5 (1d10) Force damage if it ends its turn inside an object.",
       "fr": "Déplacement intangible. Cette créature peut traverser les autres créatures et les objets comme s’ils étaient un Terrain difficile. Elle subit 5 (1d10) dégâts de force si elle termine son tour à l’intérieur d’un objet.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/wraith ; terminologie française AideDD · https://www.aidedd.org/monster/fr/ame-en-peine · 13 octobre 2026"
     },
     {
@@ -369,7 +322,6 @@
       "kind": "description",
       "en": "The spider can climb difficult surfaces, including along ceilings, without needing to make an ability check.",
       "fr": "Cette créature peut escalader les surfaces difficiles, y compris les plafonds, sans effectuer de test de caractéristique.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/spider ; terminologie française AideDD · https://www.aidedd.org/monster/fr/araignee · 13 octobre 2026"
     },
     {
@@ -377,7 +329,6 @@
       "kind": "description",
       "en": "Spider Climb. The spider can climb difficult surfaces, including along ceilings, without needing to make an ability check.",
       "fr": "Pattes d'araignée. Cette créature peut escalader les surfaces difficiles, y compris les plafonds, sans effectuer de test de caractéristique.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/spider ; terminologie française AideDD · https://www.aidedd.org/monster/fr/araignee · 13 octobre 2026"
     },
     {
@@ -385,7 +336,6 @@
       "kind": "description",
       "en": "The arcanaloth has Advantage on saving throws against spells and other magical effects.",
       "fr": "Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/arcanaloth ; terminologie française AideDD · https://www.aidedd.org/monster/fr/arcanaloth · 13 octobre 2026"
     },
     {
@@ -393,7 +343,6 @@
       "kind": "description",
       "en": "Magic Resistance. The arcanaloth has Advantage on saving throws against spells and other magical effects.",
       "fr": "Résistance à la magie. Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/arcanaloth ; terminologie française AideDD · https://www.aidedd.org/monster/fr/arcanaloth · 13 octobre 2026"
     },
     {
@@ -401,7 +350,6 @@
       "kind": "description",
       "en": "The archelon can breathe air and water.",
       "fr": "Cette créature peut respirer sous l’eau comme à l’air libre.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/archelon ; terminologie française AideDD · https://www.aidedd.org/monster/fr/archelon · 13 octobre 2026"
     },
     {
@@ -409,7 +357,6 @@
       "kind": "description",
       "en": "Amphibious. The archelon can breathe air and water.",
       "fr": "Amphibie. Cette créature peut respirer sous l’eau comme à l’air libre.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/archelon ; terminologie française AideDD · https://www.aidedd.org/monster/fr/archelon · 13 octobre 2026"
     },
     {
@@ -417,7 +364,6 @@
       "kind": "description",
       "en": "If the hag fails a saving throw, it can choose to succeed instead.",
       "fr": "Si cette créature rate un jet de sauvegarde, elle peut décider de le réussir tout de même.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/arch-hag ; terminologie française AideDD · https://www.aidedd.org/monster/fr/archi-guenaude · 13 octobre 2026"
     },
     {
@@ -425,7 +371,6 @@
       "kind": "description",
       "en": "Legendary Resistance (4/Day, or 5/Day in Lair). If the hag fails a saving throw, it can choose to succeed instead.",
       "fr": "Résistance légendaire (4/jour, ou 5/jour dans son antre). Si cette créature rate un jet de sauvegarde, elle peut décider de le réussir tout de même.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/arch-hag ; terminologie française AideDD · https://www.aidedd.org/monster/fr/archi-guenaude · 13 octobre 2026"
     },
     {
@@ -433,7 +378,6 @@
       "kind": "description",
       "en": "The hag has Advantage on saving throws against spells and other magical effects.",
       "fr": "Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/arch-hag ; terminologie française AideDD · https://www.aidedd.org/monster/fr/archi-guenaude · 13 octobre 2026"
     },
     {
@@ -441,7 +385,6 @@
       "kind": "description",
       "en": "Magic Resistance. The hag has Advantage on saving throws against spells and other magical effects.",
       "fr": "Résistance à la magie. Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/arch-hag ; terminologie française AideDD · https://www.aidedd.org/monster/fr/archi-guenaude · 13 octobre 2026"
     },
     {
@@ -449,7 +392,6 @@
       "kind": "description",
       "en": "The archmage has Advantage on saving throws against spells and other magical effects.",
       "fr": "Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/archmage ; terminologie française AideDD · https://www.aidedd.org/monster/fr/archimage · 13 octobre 2026"
     },
     {
@@ -457,7 +399,6 @@
       "kind": "description",
       "en": "Magic Resistance. The archmage has Advantage on saving throws against spells and other magical effects.",
       "fr": "Résistance à la magie. Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/archmage ; terminologie française AideDD · https://www.aidedd.org/monster/fr/archimage · 13 octobre 2026"
     },
     {
@@ -465,7 +406,6 @@
       "kind": "description",
       "en": "The baboon has Advantage on an attack roll against a creature if at least one of the baboon's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.",
       "fr": "Cette créature a l’Avantage à un jet d’attaque contre une créature si au moins un de ses alliés est à 5 feet ou moins de la cible et que cet allié ne subit pas l’état Neutralisé.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/baboon ; terminologie française AideDD · https://www.aidedd.org/monster/fr/babouin · 13 octobre 2026"
     },
     {
@@ -473,7 +413,6 @@
       "kind": "description",
       "en": "Pack Tactics. The baboon has Advantage on an attack roll against a creature if at least one of the baboon's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.",
       "fr": "Tactique de meute. Cette créature a l’Avantage à un jet d’attaque contre une créature si au moins un de ses alliés est à 5 feet ou moins de la cible et que cet allié ne subit pas l’état Neutralisé.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/baboon ; terminologie française AideDD · https://www.aidedd.org/monster/fr/babouin · 13 octobre 2026"
     },
     {
@@ -481,7 +420,6 @@
       "kind": "description",
       "en": "The broom doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.",
       "fr": "Cette créature ne provoque pas d’attaque d’opportunité lorsqu’elle quitte en vol l’allonge d’un ennemi.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/animated-broom ; terminologie française AideDD · https://www.aidedd.org/monster/fr/balai-anime · 13 octobre 2026"
     },
     {
@@ -489,7 +427,6 @@
       "kind": "description",
       "en": "Flyby. The broom doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.",
       "fr": "Repli aérien. Cette créature ne provoque pas d’attaque d’opportunité lorsqu’elle quitte en vol l’allonge d’un ennemi.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/animated-broom ; terminologie française AideDD · https://www.aidedd.org/monster/fr/balai-anime · 13 octobre 2026"
     },
     {
@@ -497,7 +434,6 @@
       "kind": "description",
       "en": "If the balor fails a saving throw, it can choose to succeed instead.",
       "fr": "Si cette créature rate un jet de sauvegarde, elle peut décider de le réussir tout de même.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/balor ; terminologie française AideDD · https://www.aidedd.org/monster/fr/balor · 13 octobre 2026"
     },
     {
@@ -505,7 +441,6 @@
       "kind": "description",
       "en": "Legendary Resistance (3/Day). If the balor fails a saving throw, it can choose to succeed instead.",
       "fr": "Résistance légendaire (3/jour). Si cette créature rate un jet de sauvegarde, elle peut décider de le réussir tout de même.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/balor ; terminologie française AideDD · https://www.aidedd.org/monster/fr/balor · 13 octobre 2026"
     },
     {
@@ -513,7 +448,6 @@
       "kind": "description",
       "en": "The balor has Advantage on saving throws against spells and other magical effects.",
       "fr": "Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/balor ; terminologie française AideDD · https://www.aidedd.org/monster/fr/balor · 13 octobre 2026"
     },
     {
@@ -521,7 +455,6 @@
       "kind": "description",
       "en": "Magic Resistance. The balor has Advantage on saving throws against spells and other magical effects.",
       "fr": "Résistance à la magie. Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/balor ; terminologie française AideDD · https://www.aidedd.org/monster/fr/balor · 13 octobre 2026"
     },
     {
@@ -529,7 +462,6 @@
       "kind": "description",
       "en": "The banshee can move through other creatures and objects as if they were Difficult Terrain. It takes 5 (1d10) Force damage if it ends its turn inside an object.",
       "fr": "Cette créature peut traverser les autres créatures et les objets comme s’ils étaient un Terrain difficile. Elle subit 5 (1d10) dégâts de force si elle termine son tour à l’intérieur d’un objet.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/banshee ; terminologie française AideDD · https://www.aidedd.org/monster/fr/banshie · 13 octobre 2026"
     },
     {
@@ -537,7 +469,6 @@
       "kind": "description",
       "en": "Incorporeal Movement. The banshee can move through other creatures and objects as if they were Difficult Terrain. It takes 5 (1d10) Force damage if it ends its turn inside an object.",
       "fr": "Déplacement intangible. Cette créature peut traverser les autres créatures et les objets comme s’ils étaient un Terrain difficile. Elle subit 5 (1d10) dégâts de force si elle termine son tour à l’intérieur d’un objet.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/banshee ; terminologie française AideDD · https://www.aidedd.org/monster/fr/banshie · 13 octobre 2026"
     },
     {
@@ -545,7 +476,6 @@
       "kind": "description",
       "en": "The bullywug can breathe air and water.",
       "fr": "Cette créature peut respirer sous l’eau comme à l’air libre.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/bullywug-warrior ; terminologie française AideDD · https://www.aidedd.org/monster/fr/brutacien-combattant · 13 octobre 2026"
     },
     {
@@ -553,7 +483,6 @@
       "kind": "description",
       "en": "Amphibious. The bullywug can breathe air and water.",
       "fr": "Amphibie. Cette créature peut respirer sous l’eau comme à l’air libre.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/bullywug-warrior ; terminologie française AideDD · https://www.aidedd.org/monster/fr/brutacien-combattant · 13 octobre 2026"
     },
     {
@@ -561,7 +490,6 @@
       "kind": "description",
       "en": "The carrion crawler can climb difficult surfaces, including along ceilings, without needing to make an ability check.",
       "fr": "Cette créature peut escalader les surfaces difficiles, y compris les plafonds, sans effectuer de test de caractéristique.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/carrion-crawler ; terminologie française AideDD · https://www.aidedd.org/monster/fr/charognard-rampant · 13 octobre 2026"
     },
     {
@@ -569,7 +497,6 @@
       "kind": "description",
       "en": "Spider Climb. The carrion crawler can climb difficult surfaces, including along ceilings, without needing to make an ability check.",
       "fr": "Pattes d'araignée. Cette créature peut escalader les surfaces difficiles, y compris les plafonds, sans effectuer de test de caractéristique.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/carrion-crawler ; terminologie française AideDD · https://www.aidedd.org/monster/fr/charognard-rampant · 13 octobre 2026"
     },
     {
@@ -577,7 +504,6 @@
       "kind": "description",
       "en": "The chasme has Advantage on saving throws against spells and other magical effects.",
       "fr": "Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/chasme ; terminologie française AideDD · https://www.aidedd.org/monster/fr/chasme · 13 octobre 2026"
     },
     {
@@ -585,7 +511,6 @@
       "kind": "description",
       "en": "Magic Resistance. The chasme has Advantage on saving throws against spells and other magical effects.",
       "fr": "Résistance à la magie. Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/chasme ; terminologie française AideDD · https://www.aidedd.org/monster/fr/chasme · 13 octobre 2026"
     },
     {
@@ -593,7 +518,6 @@
       "kind": "description",
       "en": "The chasme can climb difficult surfaces, including along ceilings, without needing to make an ability check.",
       "fr": "Cette créature peut escalader les surfaces difficiles, y compris les plafonds, sans effectuer de test de caractéristique.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/chasme ; terminologie française AideDD · https://www.aidedd.org/monster/fr/chasme · 13 octobre 2026"
     },
     {
@@ -601,7 +525,6 @@
       "kind": "description",
       "en": "Spider Climb. The chasme can climb difficult surfaces, including along ceilings, without needing to make an ability check.",
       "fr": "Pattes d'araignée. Cette créature peut escalader les surfaces difficiles, y compris les plafonds, sans effectuer de test de caractéristique.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/chasme ; terminologie française AideDD · https://www.aidedd.org/monster/fr/chasme · 13 octobre 2026"
     },
     {
@@ -609,7 +532,6 @@
       "kind": "description",
       "en": "If the death knight fails a saving throw, it can choose to succeed instead.",
       "fr": "Si cette créature rate un jet de sauvegarde, elle peut décider de le réussir tout de même.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/death-knight ; terminologie française AideDD · https://www.aidedd.org/monster/fr/chevalier-de-la-mort · 13 octobre 2026"
     },
     {
@@ -617,7 +539,6 @@
       "kind": "description",
       "en": "Legendary Resistance (3/Day). If the death knight fails a saving throw, it can choose to succeed instead.",
       "fr": "Résistance légendaire (3/jour). Si cette créature rate un jet de sauvegarde, elle peut décider de le réussir tout de même.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/death-knight ; terminologie française AideDD · https://www.aidedd.org/monster/fr/chevalier-de-la-mort · 13 octobre 2026"
     },
     {
@@ -625,7 +546,6 @@
       "kind": "description",
       "en": "The death knight has Advantage on saving throws against spells and other magical effects.",
       "fr": "Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/death-knight ; terminologie française AideDD · https://www.aidedd.org/monster/fr/chevalier-de-la-mort · 13 octobre 2026"
     },
     {
@@ -633,7 +553,6 @@
       "kind": "description",
       "en": "Magic Resistance. The death knight has Advantage on saving throws against spells and other magical effects.",
       "fr": "Résistance à la magie. Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/death-knight ; terminologie française AideDD · https://www.aidedd.org/monster/fr/chevalier-de-la-mort · 13 octobre 2026"
     },
     {
@@ -641,7 +560,6 @@
       "kind": "description",
       "en": "The aspirant has Advantage on saving throws against spells and other magical effects.",
       "fr": "Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/death-knight-aspirant ; terminologie française AideDD · https://www.aidedd.org/monster/fr/chevalier-de-la-mort-aspirant · 13 octobre 2026"
     },
     {
@@ -649,7 +567,6 @@
       "kind": "description",
       "en": "Magic Resistance. The aspirant has Advantage on saving throws against spells and other magical effects.",
       "fr": "Résistance à la magie. Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/death-knight-aspirant ; terminologie française AideDD · https://www.aidedd.org/monster/fr/chevalier-de-la-mort-aspirant · 13 octobre 2026"
     },
     {
@@ -657,7 +574,6 @@
       "kind": "description",
       "en": "The owl doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.",
       "fr": "Cette créature ne provoque pas d’attaque d’opportunité lorsqu’elle quitte en vol l’allonge d’un ennemi.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/giant-owl ; terminologie française AideDD · https://www.aidedd.org/monster/fr/chouette-geante · 13 octobre 2026"
     },
     {
@@ -665,7 +581,6 @@
       "kind": "description",
       "en": "Flyby. The owl doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.",
       "fr": "Repli aérien. Cette créature ne provoque pas d’attaque d’opportunité lorsqu’elle quitte en vol l’allonge d’un ennemi.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/giant-owl ; terminologie française AideDD · https://www.aidedd.org/monster/fr/chouette-geante · 13 octobre 2026"
     },
     {
@@ -673,7 +588,6 @@
       "kind": "description",
       "en": "The chuul can breathe air and water.",
       "fr": "Cette créature peut respirer sous l’eau comme à l’air libre.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/chuul ; terminologie française AideDD · https://www.aidedd.org/monster/fr/chuul · 13 octobre 2026"
     },
     {
@@ -681,7 +595,6 @@
       "kind": "description",
       "en": "Amphibious. The chuul can breathe air and water.",
       "fr": "Amphibie. Cette créature peut respirer sous l’eau comme à l’air libre.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/chuul ; terminologie française AideDD · https://www.aidedd.org/monster/fr/chuul · 13 octobre 2026"
     },
     {
@@ -689,7 +602,6 @@
       "kind": "description",
       "en": "The cockatrice doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.",
       "fr": "Cette créature ne provoque pas d’attaque d’opportunité lorsqu’elle quitte en vol l’allonge d’un ennemi.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/cockatrice-regent ; terminologie française AideDD · https://www.aidedd.org/monster/fr/cockatrice-souveraine · 13 octobre 2026"
     },
     {
@@ -697,7 +609,6 @@
       "kind": "description",
       "en": "Flyby. The cockatrice doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.",
       "fr": "Repli aérien. Cette créature ne provoque pas d’attaque d’opportunité lorsqu’elle quitte en vol l’allonge d’un ennemi.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/cockatrice-regent ; terminologie française AideDD · https://www.aidedd.org/monster/fr/cockatrice-souveraine · 13 octobre 2026"
     },
     {
@@ -705,7 +616,6 @@
       "kind": "description",
       "en": "The colossus can't shape-shift.",
       "fr": "Cette créature ne peut pas être métamorphosée.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/colossus ; terminologie française AideDD · https://www.aidedd.org/monster/fr/colosse · 13 octobre 2026"
     },
     {
@@ -713,7 +623,6 @@
       "kind": "description",
       "en": "Immutable Form. The colossus can't shape-shift.",
       "fr": "Forme immuable. Cette créature ne peut pas être métamorphosée.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/colossus ; terminologie française AideDD · https://www.aidedd.org/monster/fr/colosse · 13 octobre 2026"
     },
     {
@@ -721,7 +630,6 @@
       "kind": "description",
       "en": "If the colossus fails a saving throw, it can choose to succeed instead.",
       "fr": "Si cette créature rate un jet de sauvegarde, elle peut décider de le réussir tout de même.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/colossus ; terminologie française AideDD · https://www.aidedd.org/monster/fr/colosse · 13 octobre 2026"
     },
     {
@@ -729,7 +637,6 @@
       "kind": "description",
       "en": "Legendary Resistance (4/Day). If the colossus fails a saving throw, it can choose to succeed instead.",
       "fr": "Résistance légendaire (4/jour). Si cette créature rate un jet de sauvegarde, elle peut décider de le réussir tout de même.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/colossus ; terminologie française AideDD · https://www.aidedd.org/monster/fr/colosse · 13 octobre 2026"
     },
     {
@@ -737,7 +644,6 @@
       "kind": "description",
       "en": "The colossus has Advantage on saving throws against spells and other magical effects.",
       "fr": "Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/colossus ; terminologie française AideDD · https://www.aidedd.org/monster/fr/colosse · 13 octobre 2026"
     },
     {
@@ -745,7 +651,6 @@
       "kind": "description",
       "en": "Magic Resistance. The colossus has Advantage on saving throws against spells and other magical effects.",
       "fr": "Résistance à la magie. Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/colossus ; terminologie française AideDD · https://www.aidedd.org/monster/fr/colosse · 13 octobre 2026"
     },
     {
@@ -753,7 +658,6 @@
       "kind": "description",
       "en": "The colossus deals double damage to objects and structures.",
       "fr": "Cette créature inflige le double de dégâts aux objets et aux structures.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/colossus ; terminologie française AideDD · https://www.aidedd.org/monster/fr/colosse · 13 octobre 2026"
     },
     {
@@ -761,7 +665,6 @@
       "kind": "description",
       "en": "Siege Monster. The colossus deals double damage to objects and structures.",
       "fr": "Monstre de siège. Cette créature inflige le double de dégâts aux objets et aux structures.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/colossus ; terminologie française AideDD · https://www.aidedd.org/monster/fr/colosse · 13 octobre 2026"
     },
     {
@@ -769,7 +672,6 @@
       "kind": "description",
       "en": "The warrior has Advantage on an attack roll against a creature if at least one of the warrior's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.",
       "fr": "Cette créature a l’Avantage à un jet d’attaque contre une créature si au moins un de ses alliés est à 5 feet ou moins de la cible et que cet allié ne subit pas l’état Neutralisé.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/warrior-infantry ; terminologie française AideDD · https://www.aidedd.org/monster/fr/combattant-fantassin · 13 octobre 2026"
     },
     {
@@ -777,7 +679,6 @@
       "kind": "description",
       "en": "Pack Tactics. The warrior has Advantage on an attack roll against a creature if at least one of the warrior's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.",
       "fr": "Tactique de meute. Cette créature a l’Avantage à un jet d’attaque contre une créature si au moins un de ses alliés est à 5 feet ou moins de la cible et que cet allié ne subit pas l’état Neutralisé.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/warrior-infantry ; terminologie française AideDD · https://www.aidedd.org/monster/fr/combattant-fantassin · 13 octobre 2026"
     },
     {
@@ -785,7 +686,6 @@
       "kind": "description",
       "en": "The crab can breathe air and water.",
       "fr": "Cette créature peut respirer sous l’eau comme à l’air libre.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/crab ; terminologie française AideDD · https://www.aidedd.org/monster/fr/crabe · 13 octobre 2026"
     },
     {
@@ -793,7 +693,6 @@
       "kind": "description",
       "en": "Amphibious. The crab can breathe air and water.",
       "fr": "Amphibie. Cette créature peut respirer sous l’eau comme à l’air libre.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/crab ; terminologie française AideDD · https://www.aidedd.org/monster/fr/crabe · 13 octobre 2026"
     },
     {
@@ -801,7 +700,6 @@
       "kind": "description",
       "en": "The flameskull has Advantage on saving throws against spells and other magical effects.",
       "fr": "Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/flameskull ; terminologie française AideDD · https://www.aidedd.org/monster/fr/cranefeu · 13 octobre 2026"
     },
     {
@@ -809,7 +707,6 @@
       "kind": "description",
       "en": "Magic Resistance. The flameskull has Advantage on saving throws against spells and other magical effects.",
       "fr": "Résistance à la magie. Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/flameskull ; terminologie française AideDD · https://www.aidedd.org/monster/fr/cranefeu · 13 octobre 2026"
     },
     {
@@ -817,7 +714,6 @@
       "kind": "description",
       "en": "The toad can breathe air and water.",
       "fr": "Cette créature peut respirer sous l’eau comme à l’air libre.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/giant-toad ; terminologie française AideDD · https://www.aidedd.org/monster/fr/crapaud-geant · 13 octobre 2026"
     },
     {
@@ -825,7 +721,6 @@
       "kind": "description",
       "en": "Amphibious. The toad can breathe air and water.",
       "fr": "Amphibie. Cette créature peut respirer sous l’eau comme à l’air libre.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/giant-toad ; terminologie française AideDD · https://www.aidedd.org/monster/fr/crapaud-geant · 13 octobre 2026"
     },
     {
@@ -833,7 +728,6 @@
       "kind": "description",
       "en": "The dao has Advantage on saving throws against spells and other magical effects.",
       "fr": "Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/dao ; terminologie française AideDD · https://www.aidedd.org/monster/fr/dao · 13 octobre 2026"
     },
     {
@@ -841,7 +735,6 @@
       "kind": "description",
       "en": "Magic Resistance. The dao has Advantage on saving throws against spells and other magical effects.",
       "fr": "Résistance à la magie. Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/dao ; terminologie française AideDD · https://www.aidedd.org/monster/fr/dao · 13 octobre 2026"
     },
     {
@@ -849,7 +742,6 @@
       "kind": "description",
       "en": "If the demilich fails a saving throw, it can choose to succeed instead.",
       "fr": "Si cette créature rate un jet de sauvegarde, elle peut décider de le réussir tout de même.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/demilich ; terminologie française AideDD · https://www.aidedd.org/monster/fr/demi-liche · 13 octobre 2026"
     },
     {
@@ -857,7 +749,6 @@
       "kind": "description",
       "en": "Legendary Resistance (3/Day, or 4/Day in Lair). If the demilich fails a saving throw, it can choose to succeed instead.",
       "fr": "Résistance légendaire (3/jour, ou 4/jour dans son antre). Si cette créature rate un jet de sauvegarde, elle peut décider de le réussir tout de même.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/demilich ; terminologie française AideDD · https://www.aidedd.org/monster/fr/demi-liche · 13 octobre 2026"
     },
     {
@@ -865,7 +756,6 @@
       "kind": "description",
       "en": "The demon can move through other creatures and objects as if they were Difficult Terrain. It takes 5 (1d10) Force damage if it ends its turn inside an object.",
       "fr": "Cette créature peut traverser les autres créatures et les objets comme s’ils étaient un Terrain difficile. Elle subit 5 (1d10) dégâts de force si elle termine son tour à l’intérieur d’un objet.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/shadow-demon ; terminologie française AideDD · https://www.aidedd.org/monster/fr/demon-des-ombres · 13 octobre 2026"
     },
     {
@@ -873,7 +763,6 @@
       "kind": "description",
       "en": "Incorporeal Movement. The demon can move through other creatures and objects as if they were Difficult Terrain. It takes 5 (1d10) Force damage if it ends its turn inside an object.",
       "fr": "Déplacement intangible. Cette créature peut traverser les autres créatures et les objets comme s’ils étaient un Terrain difficile. Elle subit 5 (1d10) dégâts de force si elle termine son tour à l’intérieur d’un objet.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/shadow-demon ; terminologie française AideDD · https://www.aidedd.org/monster/fr/demon-des-ombres · 13 octobre 2026"
     },
     {
@@ -881,7 +770,6 @@
       "kind": "description",
       "en": "The deva has Advantage on saving throws against spells and other magical effects.",
       "fr": "Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/deva ; terminologie française AideDD · https://www.aidedd.org/monster/fr/deva · 13 octobre 2026"
     },
     {
@@ -889,7 +777,6 @@
       "kind": "description",
       "en": "Magic Resistance. The deva has Advantage on saving throws against spells and other magical effects.",
       "fr": "Résistance à la magie. Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/deva ; terminologie française AideDD · https://www.aidedd.org/monster/fr/deva · 13 octobre 2026"
     },
     {
@@ -897,7 +784,6 @@
       "kind": "description",
       "en": "The devil has Advantage on saving throws against spells and other magical effects.",
       "fr": "Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/barbed-devil ; terminologie française AideDD · https://www.aidedd.org/monster/fr/diable-barbele · 13 octobre 2026"
     },
     {
@@ -905,7 +791,6 @@
       "kind": "description",
       "en": "Magic Resistance. The devil has Advantage on saving throws against spells and other magical effects.",
       "fr": "Résistance à la magie. Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/barbed-devil ; terminologie française AideDD · https://www.aidedd.org/monster/fr/diable-barbele · 13 octobre 2026"
     },
     {
@@ -913,7 +798,6 @@
       "kind": "description",
       "en": "The devil doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.",
       "fr": "Cette créature ne provoque pas d’attaque d’opportunité lorsqu’elle quitte en vol l’allonge d’un ennemi.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/spined-devil ; terminologie française AideDD · https://www.aidedd.org/monster/fr/diable-epineux · 13 octobre 2026"
     },
     {
@@ -921,7 +805,6 @@
       "kind": "description",
       "en": "Flyby. The devil doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.",
       "fr": "Repli aérien. Cette créature ne provoque pas d’attaque d’opportunité lorsqu’elle quitte en vol l’allonge d’un ennemi.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/spined-devil ; terminologie française AideDD · https://www.aidedd.org/monster/fr/diable-epineux · 13 octobre 2026"
     },
     {
@@ -929,7 +812,6 @@
       "kind": "description",
       "en": "The imp has Advantage on saving throws against spells and other magical effects.",
       "fr": "Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/imp ; terminologie française AideDD · https://www.aidedd.org/monster/fr/diablotin · 13 octobre 2026"
     },
     {
@@ -937,7 +819,6 @@
       "kind": "description",
       "en": "Magic Resistance. The imp has Advantage on saving throws against spells and other magical effects.",
       "fr": "Résistance à la magie. Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/imp ; terminologie française AideDD · https://www.aidedd.org/monster/fr/diablotin · 13 octobre 2026"
     },
     {
@@ -945,7 +826,6 @@
       "kind": "description",
       "en": "If the pit fiend fails a saving throw, it can choose to succeed instead.",
       "fr": "Si cette créature rate un jet de sauvegarde, elle peut décider de le réussir tout de même.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/pit-fiend ; terminologie française AideDD · https://www.aidedd.org/monster/fr/diantrefosse · 13 octobre 2026"
     },
     {
@@ -953,7 +833,6 @@
       "kind": "description",
       "en": "Legendary Resistance (4/Day). If the pit fiend fails a saving throw, it can choose to succeed instead.",
       "fr": "Résistance légendaire (4/jour). Si cette créature rate un jet de sauvegarde, elle peut décider de le réussir tout de même.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/pit-fiend ; terminologie française AideDD · https://www.aidedd.org/monster/fr/diantrefosse · 13 octobre 2026"
     },
     {
@@ -961,7 +840,6 @@
       "kind": "description",
       "en": "The pit fiend has Advantage on saving throws against spells and other magical effects.",
       "fr": "Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/pit-fiend ; terminologie française AideDD · https://www.aidedd.org/monster/fr/diantrefosse · 13 octobre 2026"
     },
     {
@@ -969,7 +847,6 @@
       "kind": "description",
       "en": "Magic Resistance. The pit fiend has Advantage on saving throws against spells and other magical effects.",
       "fr": "Résistance à la magie. Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/pit-fiend ; terminologie française AideDD · https://www.aidedd.org/monster/fr/diantrefosse · 13 octobre 2026"
     },
     {
@@ -977,7 +854,6 @@
       "kind": "description",
       "en": "The djinni has Advantage on saving throws against spells and other magical effects.",
       "fr": "Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/djinni ; terminologie française AideDD · https://www.aidedd.org/monster/fr/djinn · 13 octobre 2026"
     },
     {
@@ -985,7 +861,6 @@
       "kind": "description",
       "en": "Magic Resistance. The djinni has Advantage on saving throws against spells and other magical effects.",
       "fr": "Résistance à la magie. Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/djinni ; terminologie française AideDD · https://www.aidedd.org/monster/fr/djinn · 13 octobre 2026"
     },
     {
@@ -993,7 +868,6 @@
       "kind": "description",
       "en": "If the dracolich fails a saving throw, it can choose to succeed instead.",
       "fr": "Si cette créature rate un jet de sauvegarde, elle peut décider de le réussir tout de même.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/dracolich ; terminologie française AideDD · https://www.aidedd.org/monster/fr/dracoliche · 13 octobre 2026"
     },
     {
@@ -1001,7 +875,6 @@
       "kind": "description",
       "en": "Legendary Resistance (3/Day, or 4/Day in Lair). If the dracolich fails a saving throw, it can choose to succeed instead.",
       "fr": "Résistance légendaire (3/jour, ou 4/jour dans son antre). Si cette créature rate un jet de sauvegarde, elle peut décider de le réussir tout de même.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/dracolich ; terminologie française AideDD · https://www.aidedd.org/monster/fr/dracoliche · 13 octobre 2026"
     },
     {
@@ -1009,7 +882,6 @@
       "kind": "description",
       "en": "The dracolich has Advantage on saving throws against spells and other magical effects.",
       "fr": "Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/dracolich ; terminologie française AideDD · https://www.aidedd.org/monster/fr/dracoliche · 13 octobre 2026"
     },
     {
@@ -1017,7 +889,6 @@
       "kind": "description",
       "en": "Magic Resistance. The dracolich has Advantage on saving throws against spells and other magical effects.",
       "fr": "Résistance à la magie. Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/dracolich ; terminologie française AideDD · https://www.aidedd.org/monster/fr/dracoliche · 13 octobre 2026"
     },
     {
@@ -1025,7 +896,6 @@
       "kind": "description",
       "en": "If the dragon fails a saving throw, it can choose to succeed instead.",
       "fr": "Si cette créature rate un jet de sauvegarde, elle peut décider de le réussir tout de même.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/adult-white-dragon ; terminologie française AideDD · https://www.aidedd.org/monster/fr/dragon-blanc-adulte · 13 octobre 2026"
     },
     {
@@ -1033,7 +903,6 @@
       "kind": "description",
       "en": "Legendary Resistance (3/Day, or 4/Day in Lair). If the dragon fails a saving throw, it can choose to succeed instead.",
       "fr": "Résistance légendaire (3/jour, ou 4/jour dans son antre). Si cette créature rate un jet de sauvegarde, elle peut décider de le réussir tout de même.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/adult-white-dragon ; terminologie française AideDD · https://www.aidedd.org/monster/fr/dragon-blanc-adulte · 13 octobre 2026"
     },
     {
@@ -1041,7 +910,6 @@
       "kind": "description",
       "en": "Legendary Resistance (4/Day, or 5/Day in Lair). If the dragon fails a saving throw, it can choose to succeed instead.",
       "fr": "Résistance légendaire (4/jour, ou 5/jour dans son antre). Si cette créature rate un jet de sauvegarde, elle peut décider de le réussir tout de même.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/ancient-white-dragon ; terminologie française AideDD · https://www.aidedd.org/monster/fr/dragon-blanc-ancien · 13 octobre 2026"
     },
     {
@@ -1049,7 +917,6 @@
       "kind": "description",
       "en": "The dragon can breathe air and water.",
       "fr": "Cette créature peut respirer sous l’eau comme à l’air libre.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/adult-gold-dragon ; terminologie française AideDD · https://www.aidedd.org/monster/fr/dragon-d-or-adulte · 13 octobre 2026"
     },
     {
@@ -1057,7 +924,6 @@
       "kind": "description",
       "en": "Amphibious. The dragon can breathe air and water.",
       "fr": "Amphibie. Cette créature peut respirer sous l’eau comme à l’air libre.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/adult-gold-dragon ; terminologie française AideDD · https://www.aidedd.org/monster/fr/dragon-d-or-adulte · 13 octobre 2026"
     },
     {
@@ -1065,7 +931,6 @@
       "kind": "description",
       "en": "The dragon has Advantage on saving throws against spells and other magical effects.",
       "fr": "Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/faerie-dragon-adult ; terminologie française AideDD · https://www.aidedd.org/monster/fr/dragon-feerique-adulte · 13 octobre 2026"
     },
     {
@@ -1073,7 +938,6 @@
       "kind": "description",
       "en": "Magic Resistance. The dragon has Advantage on saving throws against spells and other magical effects.",
       "fr": "Résistance à la magie. Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/faerie-dragon-adult ; terminologie française AideDD · https://www.aidedd.org/monster/fr/dragon-feerique-adulte · 13 octobre 2026"
     },
     {
@@ -1081,7 +945,6 @@
       "kind": "description",
       "en": "The drider can climb difficult surfaces, including along ceilings, without needing to make an ability check.",
       "fr": "Cette créature peut escalader les surfaces difficiles, y compris les plafonds, sans effectuer de test de caractéristique.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/drider ; terminologie française AideDD · https://www.aidedd.org/monster/fr/drider · 13 octobre 2026"
     },
     {
@@ -1089,7 +952,6 @@
       "kind": "description",
       "en": "Spider Climb. The drider can climb difficult surfaces, including along ceilings, without needing to make an ability check.",
       "fr": "Pattes d'araignée. Cette créature peut escalader les surfaces difficiles, y compris les plafonds, sans effectuer de test de caractéristique.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/drider ; terminologie française AideDD · https://www.aidedd.org/monster/fr/drider · 13 octobre 2026"
     },
     {
@@ -1097,7 +959,6 @@
       "kind": "description",
       "en": "The dryad has Advantage on saving throws against spells and other magical effects.",
       "fr": "Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/dryad ; terminologie française AideDD · https://www.aidedd.org/monster/fr/dryade · 13 octobre 2026"
     },
     {
@@ -1105,7 +966,6 @@
       "kind": "description",
       "en": "Magic Resistance. The dryad has Advantage on saving throws against spells and other magical effects.",
       "fr": "Résistance à la magie. Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/dryad ; terminologie française AideDD · https://www.aidedd.org/monster/fr/dryade · 13 octobre 2026"
     },
     {
@@ -1113,7 +973,6 @@
       "kind": "description",
       "en": "The efreeti has Advantage on saving throws against spells and other magical effects.",
       "fr": "Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/efreeti ; terminologie française AideDD · https://www.aidedd.org/monster/fr/efrit · 13 octobre 2026"
     },
     {
@@ -1121,7 +980,6 @@
       "kind": "description",
       "en": "Magic Resistance. The efreeti has Advantage on saving throws against spells and other magical effects.",
       "fr": "Résistance à la magie. Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/efreeti ; terminologie française AideDD · https://www.aidedd.org/monster/fr/efrit · 13 octobre 2026"
     },
     {
@@ -1129,7 +987,6 @@
       "kind": "description",
       "en": "The elemental deals double damage to objects and structures.",
       "fr": "Cette créature inflige le double de dégâts aux objets et aux structures.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/earth-elemental ; terminologie française AideDD · https://www.aidedd.org/monster/fr/elementaire-de-la-terre · 13 octobre 2026"
     },
     {
@@ -1137,7 +994,6 @@
       "kind": "description",
       "en": "Siege Monster. The elemental deals double damage to objects and structures.",
       "fr": "Monstre de siège. Cette créature inflige le double de dégâts aux objets et aux structures.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/earth-elemental ; terminologie française AideDD · https://www.aidedd.org/monster/fr/elementaire-de-la-terre · 13 octobre 2026"
     },
     {
@@ -1145,7 +1001,6 @@
       "kind": "description",
       "en": "If the empyrean fails a saving throw, it can choose to succeed instead.",
       "fr": "Si cette créature rate un jet de sauvegarde, elle peut décider de le réussir tout de même.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/empyrean ; terminologie française AideDD · https://www.aidedd.org/monster/fr/empyreen · 13 octobre 2026"
     },
     {
@@ -1153,7 +1008,6 @@
       "kind": "description",
       "en": "Legendary Resistance (4/Day). If the empyrean fails a saving throw, it can choose to succeed instead.",
       "fr": "Résistance légendaire (4/jour). Si cette créature rate un jet de sauvegarde, elle peut décider de le réussir tout de même.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/empyrean ; terminologie française AideDD · https://www.aidedd.org/monster/fr/empyreen · 13 octobre 2026"
     },
     {
@@ -1161,7 +1015,6 @@
       "kind": "description",
       "en": "The empyrean has Advantage on saving throws against spells and other magical effects.",
       "fr": "Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/empyrean ; terminologie française AideDD · https://www.aidedd.org/monster/fr/empyreen · 13 octobre 2026"
     },
     {
@@ -1169,7 +1022,6 @@
       "kind": "description",
       "en": "Magic Resistance. The empyrean has Advantage on saving throws against spells and other magical effects.",
       "fr": "Résistance à la magie. Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/empyrean ; terminologie française AideDD · https://www.aidedd.org/monster/fr/empyreen · 13 octobre 2026"
     },
     {
@@ -1177,7 +1029,6 @@
       "kind": "description",
       "en": "The empyrean can move through other creatures and objects as if they were Difficult Terrain. It takes 5 (1d10) Force damage if it ends its turn inside an object.",
       "fr": "Cette créature peut traverser les autres créatures et les objets comme s’ils étaient un Terrain difficile. Elle subit 5 (1d10) dégâts de force si elle termine son tour à l’intérieur d’un objet.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/empyrean-iota ; terminologie française AideDD · https://www.aidedd.org/monster/fr/empyreen-iota · 13 octobre 2026"
     },
     {
@@ -1185,7 +1036,6 @@
       "kind": "description",
       "en": "Incorporeal Movement. The empyrean can move through other creatures and objects as if they were Difficult Terrain. It takes 5 (1d10) Force damage if it ends its turn inside an object.",
       "fr": "Déplacement intangible. Cette créature peut traverser les autres créatures et les objets comme s’ils étaient un Terrain difficile. Elle subit 5 (1d10) dégâts de force si elle termine son tour à l’intérieur d’un objet.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/empyrean-iota ; terminologie française AideDD · https://www.aidedd.org/monster/fr/empyreen-iota · 13 octobre 2026"
     },
     {
@@ -1193,7 +1043,6 @@
       "kind": "description",
       "en": "The roper can climb difficult surfaces, including along ceilings, without needing to make an ability check.",
       "fr": "Cette créature peut escalader les surfaces difficiles, y compris les plafonds, sans effectuer de test de caractéristique.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/roper ; terminologie française AideDD · https://www.aidedd.org/monster/fr/enlaceur · 13 octobre 2026"
     },
     {
@@ -1201,7 +1050,6 @@
       "kind": "description",
       "en": "Spider Climb. The roper can climb difficult surfaces, including along ceilings, without needing to make an ability check.",
       "fr": "Pattes d'araignée. Cette créature peut escalader les surfaces difficiles, y compris les plafonds, sans effectuer de test de caractéristique.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/roper ; terminologie française AideDD · https://www.aidedd.org/monster/fr/enlaceur · 13 octobre 2026"
     },
     {
@@ -1209,7 +1057,6 @@
       "kind": "description",
       "en": "The erinyes has Advantage on saving throws against spells and other magical effects.",
       "fr": "Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/erinyes ; terminologie française AideDD · https://www.aidedd.org/monster/fr/erinye · 13 octobre 2026"
     },
     {
@@ -1217,7 +1064,6 @@
       "kind": "description",
       "en": "Magic Resistance. The erinyes has Advantage on saving throws against spells and other magical effects.",
       "fr": "Résistance à la magie. Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/erinyes ; terminologie française AideDD · https://www.aidedd.org/monster/fr/erinye · 13 octobre 2026"
     },
     {
@@ -1225,7 +1071,6 @@
       "kind": "description",
       "en": "The ettercap can climb difficult surfaces, including along ceilings, without needing to make an ability check.",
       "fr": "Cette créature peut escalader les surfaces difficiles, y compris les plafonds, sans effectuer de test de caractéristique.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/ettercap ; terminologie française AideDD · https://www.aidedd.org/monster/fr/ettercap · 13 octobre 2026"
     },
     {
@@ -1233,7 +1078,6 @@
       "kind": "description",
       "en": "Spider Climb. The ettercap can climb difficult surfaces, including along ceilings, without needing to make an ability check.",
       "fr": "Pattes d'araignée. Cette créature peut escalader les surfaces difficiles, y compris les plafonds, sans effectuer de test de caractéristique.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/ettercap ; terminologie française AideDD · https://www.aidedd.org/monster/fr/ettercap · 13 octobre 2026"
     },
     {
@@ -1241,7 +1085,6 @@
       "kind": "description",
       "en": "The ghost can move through other creatures and objects as if they were Difficult Terrain. It takes 5 (1d10) Force damage if it ends its turn inside an object.",
       "fr": "Cette créature peut traverser les autres créatures et les objets comme s’ils étaient un Terrain difficile. Elle subit 5 (1d10) dégâts de force si elle termine son tour à l’intérieur d’un objet.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/ghost ; terminologie française AideDD · https://www.aidedd.org/monster/fr/fantome · 13 octobre 2026"
     },
     {
@@ -1249,7 +1092,6 @@
       "kind": "description",
       "en": "Incorporeal Movement. The ghost can move through other creatures and objects as if they were Difficult Terrain. It takes 5 (1d10) Force damage if it ends its turn inside an object.",
       "fr": "Déplacement intangible. Cette créature peut traverser les autres créatures et les objets comme s’ils étaient un Terrain difficile. Elle subit 5 (1d10) dégâts de force si elle termine son tour à l’intérieur d’un objet.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/ghost ; terminologie française AideDD · https://www.aidedd.org/monster/fr/fantome · 13 octobre 2026"
     },
     {
@@ -1257,7 +1099,6 @@
       "kind": "description",
       "en": "The hawk has Advantage on an attack roll against a creature if at least one of the hawk's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.",
       "fr": "Cette créature a l’Avantage à un jet d’attaque contre une créature si au moins un de ses alliés est à 5 feet ou moins de la cible et que cet allié ne subit pas l’état Neutralisé.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/blood-hawk ; terminologie française AideDD · https://www.aidedd.org/monster/fr/faucon-de-sang · 13 octobre 2026"
     },
     {
@@ -1265,7 +1106,6 @@
       "kind": "description",
       "en": "Pack Tactics. The hawk has Advantage on an attack roll against a creature if at least one of the hawk's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.",
       "fr": "Tactique de meute. Cette créature a l’Avantage à un jet d’attaque contre une créature si au moins un de ses alliés est à 5 feet ou moins de la cible et que cet allié ne subit pas l’état Neutralisé.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/blood-hawk ; terminologie française AideDD · https://www.aidedd.org/monster/fr/faucon-de-sang · 13 octobre 2026"
     },
     {
@@ -1273,7 +1113,6 @@
       "kind": "description",
       "en": "The wisp can move through other creatures and objects as if they were Difficult Terrain. It takes 5 (1d10) Force damage if it ends its turn inside an object.",
       "fr": "Cette créature peut traverser les autres créatures et les objets comme s’ils étaient un Terrain difficile. Elle subit 5 (1d10) dégâts de force si elle termine son tour à l’intérieur d’un objet.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/will-o--wisp ; terminologie française AideDD · https://www.aidedd.org/monster/fr/feu-follet · 13 octobre 2026"
     },
     {
@@ -1281,7 +1120,6 @@
       "kind": "description",
       "en": "Incorporeal Movement. The wisp can move through other creatures and objects as if they were Difficult Terrain. It takes 5 (1d10) Force damage if it ends its turn inside an object.",
       "fr": "Déplacement intangible. Cette créature peut traverser les autres créatures et les objets comme s’ils étaient un Terrain difficile. Elle subit 5 (1d10) dégâts de force si elle termine son tour à l’intérieur d’un objet.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/will-o--wisp ; terminologie française AideDD · https://www.aidedd.org/monster/fr/feu-follet · 13 octobre 2026"
     },
     {
@@ -1289,7 +1127,6 @@
       "kind": "description",
       "en": "The mind flayer has Advantage on saving throws against spells and other magical effects.",
       "fr": "Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/mind-flayer ; terminologie française AideDD · https://www.aidedd.org/monster/fr/flagelleur-mental · 13 octobre 2026"
     },
     {
@@ -1297,7 +1134,6 @@
       "kind": "description",
       "en": "Magic Resistance. The mind flayer has Advantage on saving throws against spells and other magical effects.",
       "fr": "Résistance à la magie. Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/mind-flayer ; terminologie française AideDD · https://www.aidedd.org/monster/fr/flagelleur-mental · 13 octobre 2026"
     },
     {
@@ -1305,7 +1141,6 @@
       "kind": "description",
       "en": "The gargoyle doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.",
       "fr": "Cette créature ne provoque pas d’attaque d’opportunité lorsqu’elle quitte en vol l’allonge d’un ennemi.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/gargoyle ; terminologie française AideDD · https://www.aidedd.org/monster/fr/gargouille · 13 octobre 2026"
     },
     {
@@ -1313,7 +1148,6 @@
       "kind": "description",
       "en": "Flyby. The gargoyle doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.",
       "fr": "Repli aérien. Cette créature ne provoque pas d’attaque d’opportunité lorsqu’elle quitte en vol l’allonge d’un ennemi.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/gargoyle ; terminologie française AideDD · https://www.aidedd.org/monster/fr/gargouille · 13 octobre 2026"
     },
     {
@@ -1321,7 +1155,6 @@
       "kind": "description",
       "en": "The jackalwere has Advantage on an attack roll against a creature if at least one of the jackalwere's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.",
       "fr": "Cette créature a l’Avantage à un jet d’attaque contre une créature si au moins un de ses alliés est à 5 feet ou moins de la cible et que cet allié ne subit pas l’état Neutralisé.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/jackalwere ; terminologie française AideDD · https://www.aidedd.org/monster/fr/garou-chacal · 13 octobre 2026"
     },
     {
@@ -1329,7 +1162,6 @@
       "kind": "description",
       "en": "Pack Tactics. The jackalwere has Advantage on an attack roll against a creature if at least one of the jackalwere's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.",
       "fr": "Tactique de meute. Cette créature a l’Avantage à un jet d’attaque contre une créature si au moins un de ses alliés est à 5 feet ou moins de la cible et que cet allié ne subit pas l’état Neutralisé.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/jackalwere ; terminologie française AideDD · https://www.aidedd.org/monster/fr/garou-chacal · 13 octobre 2026"
     },
     {
@@ -1337,7 +1169,6 @@
       "kind": "description",
       "en": "The giant can breathe air and water.",
       "fr": "Cette créature peut respirer sous l’eau comme à l’air libre.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/storm-giant ; terminologie française AideDD · https://www.aidedd.org/monster/fr/geant-des-tempetes · 13 octobre 2026"
     },
     {
@@ -1345,7 +1176,6 @@
       "kind": "description",
       "en": "Amphibious. The giant can breathe air and water.",
       "fr": "Amphibie. Cette créature peut respirer sous l’eau comme à l’air libre.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/storm-giant ; terminologie française AideDD · https://www.aidedd.org/monster/fr/geant-des-tempetes · 13 octobre 2026"
     },
     {
@@ -1353,7 +1183,6 @@
       "kind": "description",
       "en": "The jelly can climb difficult surfaces, including along ceilings, without needing to make an ability check.",
       "fr": "Cette créature peut escalader les surfaces difficiles, y compris les plafonds, sans effectuer de test de caractéristique.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/ochre-jelly ; terminologie française AideDD · https://www.aidedd.org/monster/fr/gelee-ocre · 13 octobre 2026"
     },
     {
@@ -1361,7 +1190,6 @@
       "kind": "description",
       "en": "Spider Climb. The jelly can climb difficult surfaces, including along ceilings, without needing to make an ability check.",
       "fr": "Pattes d'araignée. Cette créature peut escalader les surfaces difficiles, y compris les plafonds, sans effectuer de test de caractéristique.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/ochre-jelly ; terminologie française AideDD · https://www.aidedd.org/monster/fr/gelee-ocre · 13 octobre 2026"
     },
     {
@@ -1369,7 +1197,6 @@
       "kind": "description",
       "en": "The glabrezu has Advantage on saving throws against spells and other magical effects.",
       "fr": "Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/glabrezu ; terminologie française AideDD · https://www.aidedd.org/monster/fr/glabrezu · 13 octobre 2026"
     },
     {
@@ -1377,7 +1204,6 @@
       "kind": "description",
       "en": "Magic Resistance. The glabrezu has Advantage on saving throws against spells and other magical effects.",
       "fr": "Résistance à la magie. Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/glabrezu ; terminologie française AideDD · https://www.aidedd.org/monster/fr/glabrezu · 13 octobre 2026"
     },
     {
@@ -1385,7 +1211,6 @@
       "kind": "description",
       "en": "The golem can't shape-shift.",
       "fr": "Cette créature ne peut pas être métamorphosée.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/clay-golem ; terminologie française AideDD · https://www.aidedd.org/monster/fr/golem-d-argile · 13 octobre 2026"
     },
     {
@@ -1393,7 +1218,6 @@
       "kind": "description",
       "en": "Immutable Form. The golem can't shape-shift.",
       "fr": "Forme immuable. Cette créature ne peut pas être métamorphosée.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/clay-golem ; terminologie française AideDD · https://www.aidedd.org/monster/fr/golem-d-argile · 13 octobre 2026"
     },
     {
@@ -1401,7 +1225,6 @@
       "kind": "description",
       "en": "The golem has Advantage on saving throws against spells and other magical effects.",
       "fr": "Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/clay-golem ; terminologie française AideDD · https://www.aidedd.org/monster/fr/golem-d-argile · 13 octobre 2026"
     },
     {
@@ -1409,7 +1232,6 @@
       "kind": "description",
       "en": "Magic Resistance. The golem has Advantage on saving throws against spells and other magical effects.",
       "fr": "Résistance à la magie. Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/clay-golem ; terminologie française AideDD · https://www.aidedd.org/monster/fr/golem-d-argile · 13 octobre 2026"
     },
     {
@@ -1417,7 +1239,6 @@
       "kind": "description",
       "en": "The goristro has Advantage on saving throws against spells and other magical effects.",
       "fr": "Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/goristro ; terminologie française AideDD · https://www.aidedd.org/monster/fr/goristro · 13 octobre 2026"
     },
     {
@@ -1425,7 +1246,6 @@
       "kind": "description",
       "en": "Magic Resistance. The goristro has Advantage on saving throws against spells and other magical effects.",
       "fr": "Résistance à la magie. Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/goristro ; terminologie française AideDD · https://www.aidedd.org/monster/fr/goristro · 13 octobre 2026"
     },
     {
@@ -1433,7 +1253,6 @@
       "kind": "description",
       "en": "The goristro deals double damage to objects and structures.",
       "fr": "Cette créature inflige le double de dégâts aux objets et aux structures.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/goristro ; terminologie française AideDD · https://www.aidedd.org/monster/fr/goristro · 13 octobre 2026"
     },
     {
@@ -1441,7 +1260,6 @@
       "kind": "description",
       "en": "Siege Monster. The goristro deals double damage to objects and structures.",
       "fr": "Monstre de siège. Cette créature inflige le double de dégâts aux objets et aux structures.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/goristro ; terminologie française AideDD · https://www.aidedd.org/monster/fr/goristro · 13 octobre 2026"
     },
     {
@@ -1449,7 +1267,6 @@
       "kind": "description",
       "en": "The frog can breathe air and water.",
       "fr": "Cette créature peut respirer sous l’eau comme à l’air libre.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/frog ; terminologie française AideDD · https://www.aidedd.org/monster/fr/grenouille · 13 octobre 2026"
     },
     {
@@ -1457,7 +1274,6 @@
       "kind": "description",
       "en": "Amphibious. The frog can breathe air and water.",
       "fr": "Amphibie. Cette créature peut respirer sous l’eau comme à l’air libre.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/frog ; terminologie française AideDD · https://www.aidedd.org/monster/fr/grenouille · 13 octobre 2026"
     },
     {
@@ -1465,7 +1281,6 @@
       "kind": "description",
       "en": "The tough has Advantage on an attack roll against a creature if at least one of the tough's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.",
       "fr": "Cette créature a l’Avantage à un jet d’attaque contre une créature si au moins un de ses alliés est à 5 feet ou moins de la cible et que cet allié ne subit pas l’état Neutralisé.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/tough ; terminologie française AideDD · https://www.aidedd.org/monster/fr/gros-bras · 13 octobre 2026"
     },
     {
@@ -1473,7 +1288,6 @@
       "kind": "description",
       "en": "Pack Tactics. The tough has Advantage on an attack roll against a creature if at least one of the tough's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.",
       "fr": "Tactique de meute. Cette créature a l’Avantage à un jet d’attaque contre une créature si au moins un de ses alliés est à 5 feet ou moins de la cible et que cet allié ne subit pas l’état Neutralisé.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/tough ; terminologie française AideDD · https://www.aidedd.org/monster/fr/gros-bras · 13 octobre 2026"
     },
     {
@@ -1481,7 +1295,6 @@
       "kind": "description",
       "en": "The hag can breathe air and water.",
       "fr": "Cette créature peut respirer sous l’eau comme à l’air libre.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/sea-hag ; terminologie française AideDD · https://www.aidedd.org/monster/fr/guenaude-marine · 13 octobre 2026"
     },
     {
@@ -1489,7 +1302,6 @@
       "kind": "description",
       "en": "Amphibious. The hag can breathe air and water.",
       "fr": "Amphibie. Cette créature peut respirer sous l’eau comme à l’air libre.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/sea-hag ; terminologie française AideDD · https://www.aidedd.org/monster/fr/guenaude-marine · 13 octobre 2026"
     },
     {
@@ -1497,7 +1309,6 @@
       "kind": "description",
       "en": "The wasp doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.",
       "fr": "Cette créature ne provoque pas d’attaque d’opportunité lorsqu’elle quitte en vol l’allonge d’un ennemi.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/giant-wasp ; terminologie française AideDD · https://www.aidedd.org/monster/fr/guepe-geante · 13 octobre 2026"
     },
     {
@@ -1505,7 +1316,6 @@
       "kind": "description",
       "en": "Flyby. The wasp doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.",
       "fr": "Repli aérien. Cette créature ne provoque pas d’attaque d’opportunité lorsqu’elle quitte en vol l’allonge d’un ennemi.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/giant-wasp ; terminologie française AideDD · https://www.aidedd.org/monster/fr/guepe-geante · 13 octobre 2026"
     },
     {
@@ -1513,7 +1323,6 @@
       "kind": "description",
       "en": "The hezrou has Advantage on saving throws against spells and other magical effects.",
       "fr": "Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/hezrou ; terminologie française AideDD · https://www.aidedd.org/monster/fr/hezrou · 13 octobre 2026"
     },
     {
@@ -1521,7 +1330,6 @@
       "kind": "description",
       "en": "Magic Resistance. The hezrou has Advantage on saving throws against spells and other magical effects.",
       "fr": "Résistance à la magie. Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/hezrou ; terminologie française AideDD · https://www.aidedd.org/monster/fr/hezrou · 13 octobre 2026"
     },
     {
@@ -1529,7 +1337,6 @@
       "kind": "description",
       "en": "The hippogriff doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.",
       "fr": "Cette créature ne provoque pas d’attaque d’opportunité lorsqu’elle quitte en vol l’allonge d’un ennemi.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/hippogriff ; terminologie française AideDD · https://www.aidedd.org/monster/fr/hippogriffe · 13 octobre 2026"
     },
     {
@@ -1537,7 +1344,6 @@
       "kind": "description",
       "en": "Flyby. The hippogriff doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.",
       "fr": "Repli aérien. Cette créature ne provoque pas d’attaque d’opportunité lorsqu’elle quitte en vol l’allonge d’un ennemi.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/hippogriff ; terminologie française AideDD · https://www.aidedd.org/monster/fr/hippogriffe · 13 octobre 2026"
     },
     {
@@ -1545,7 +1351,6 @@
       "kind": "description",
       "en": "The hobgoblin has Advantage on an attack roll against a creature if at least one of the hobgoblin's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.",
       "fr": "Cette créature a l’Avantage à un jet d’attaque contre une créature si au moins un de ses alliés est à 5 feet ou moins de la cible et que cet allié ne subit pas l’état Neutralisé.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/hobgoblin-warrior ; terminologie française AideDD · https://www.aidedd.org/monster/fr/hobgobelin-combattant · 13 octobre 2026"
     },
     {
@@ -1553,7 +1358,6 @@
       "kind": "description",
       "en": "Pack Tactics. The hobgoblin has Advantage on an attack roll against a creature if at least one of the hobgoblin's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.",
       "fr": "Tactique de meute. Cette créature a l’Avantage à un jet d’attaque contre une créature si au moins un de ses alliés est à 5 feet ou moins de la cible et que cet allié ne subit pas l’état Neutralisé.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/hobgoblin-warrior ; terminologie française AideDD · https://www.aidedd.org/monster/fr/hobgobelin-combattant · 13 octobre 2026"
     },
     {
@@ -1561,7 +1365,6 @@
       "kind": "description",
       "en": "The helmed horror has Advantage on saving throws against spells and other magical effects.",
       "fr": "Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/helmed-horror ; terminologie française AideDD · https://www.aidedd.org/monster/fr/horreur-casquee · 13 octobre 2026"
     },
     {
@@ -1569,7 +1372,6 @@
       "kind": "description",
       "en": "Magic Resistance. The helmed horror has Advantage on saving throws against spells and other magical effects.",
       "fr": "Résistance à la magie. Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/helmed-horror ; terminologie française AideDD · https://www.aidedd.org/monster/fr/horreur-casquee · 13 octobre 2026"
     },
     {
@@ -1577,7 +1379,6 @@
       "kind": "description",
       "en": "The hyena has Advantage on an attack roll against a creature if at least one of the hyena's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.",
       "fr": "Cette créature a l’Avantage à un jet d’attaque contre une créature si au moins un de ses alliés est à 5 feet ou moins de la cible et que cet allié ne subit pas l’état Neutralisé.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/hyena ; terminologie française AideDD · https://www.aidedd.org/monster/fr/hyene · 13 octobre 2026"
     },
     {
@@ -1585,7 +1386,6 @@
       "kind": "description",
       "en": "Pack Tactics. The hyena has Advantage on an attack roll against a creature if at least one of the hyena's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.",
       "fr": "Tactique de meute. Cette créature a l’Avantage à un jet d’attaque contre une créature si au moins un de ses alliés est à 5 feet ou moins de la cible et que cet allié ne subit pas l’état Neutralisé.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/hyena ; terminologie française AideDD · https://www.aidedd.org/monster/fr/hyene · 13 octobre 2026"
     },
     {
@@ -1593,7 +1393,6 @@
       "kind": "description",
       "en": "The kobold has Advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.",
       "fr": "Cette créature a l’Avantage à un jet d’attaque contre une créature si au moins un de ses alliés est à 5 feet ou moins de la cible et que cet allié ne subit pas l’état Neutralisé.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/winged-kobold ; terminologie française AideDD · https://www.aidedd.org/monster/fr/kobold-aile · 13 octobre 2026"
     },
     {
@@ -1601,7 +1400,6 @@
       "kind": "description",
       "en": "Pack Tactics. The kobold has Advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.",
       "fr": "Tactique de meute. Cette créature a l’Avantage à un jet d’attaque contre une créature si au moins un de ses alliés est à 5 feet ou moins de la cible et que cet allié ne subit pas l’état Neutralisé.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/winged-kobold ; terminologie française AideDD · https://www.aidedd.org/monster/fr/kobold-aile · 13 octobre 2026"
     },
     {
@@ -1609,7 +1407,6 @@
       "kind": "description",
       "en": "The kraken can breathe air and water.",
       "fr": "Cette créature peut respirer sous l’eau comme à l’air libre.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/kraken ; terminologie française AideDD · https://www.aidedd.org/monster/fr/kraken · 13 octobre 2026"
     },
     {
@@ -1617,7 +1414,6 @@
       "kind": "description",
       "en": "Amphibious. The kraken can breathe air and water.",
       "fr": "Amphibie. Cette créature peut respirer sous l’eau comme à l’air libre.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/kraken ; terminologie française AideDD · https://www.aidedd.org/monster/fr/kraken · 13 octobre 2026"
     },
     {
@@ -1625,7 +1421,6 @@
       "kind": "description",
       "en": "If the kraken fails a saving throw, it can choose to succeed instead.",
       "fr": "Si cette créature rate un jet de sauvegarde, elle peut décider de le réussir tout de même.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/kraken ; terminologie française AideDD · https://www.aidedd.org/monster/fr/kraken · 13 octobre 2026"
     },
     {
@@ -1633,7 +1428,6 @@
       "kind": "description",
       "en": "Legendary Resistance (4/Day, or 5/Day in Lair). If the kraken fails a saving throw, it can choose to succeed instead.",
       "fr": "Résistance légendaire (4/jour, ou 5/jour dans son antre). Si cette créature rate un jet de sauvegarde, elle peut décider de le réussir tout de même.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/kraken ; terminologie française AideDD · https://www.aidedd.org/monster/fr/kraken · 13 octobre 2026"
     },
     {
@@ -1641,7 +1435,6 @@
       "kind": "description",
       "en": "The kraken deals double damage to objects and structures.",
       "fr": "Cette créature inflige le double de dégâts aux objets et aux structures.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/kraken ; terminologie française AideDD · https://www.aidedd.org/monster/fr/kraken · 13 octobre 2026"
     },
     {
@@ -1649,7 +1442,6 @@
       "kind": "description",
       "en": "Siege Monster. The kraken deals double damage to objects and structures.",
       "fr": "Monstre de siège. Cette créature inflige le double de dégâts aux objets et aux structures.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/kraken ; terminologie française AideDD · https://www.aidedd.org/monster/fr/kraken · 13 octobre 2026"
     },
     {
@@ -1657,7 +1449,6 @@
       "kind": "description",
       "en": "The kuo-toa can breathe air and water.",
       "fr": "Cette créature peut respirer sous l’eau comme à l’air libre.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/kuo-toa ; terminologie française AideDD · https://www.aidedd.org/monster/fr/kuo-toa · 13 octobre 2026"
     },
     {
@@ -1665,7 +1456,6 @@
       "kind": "description",
       "en": "Amphibious. The kuo-toa can breathe air and water.",
       "fr": "Amphibie. Cette créature peut respirer sous l’eau comme à l’air libre.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/kuo-toa ; terminologie française AideDD · https://www.aidedd.org/monster/fr/kuo-toa · 13 octobre 2026"
     },
     {
@@ -1673,7 +1463,6 @@
       "kind": "description",
       "en": "The lizard can climb difficult surfaces, including along ceilings, without needing to make an ability check.",
       "fr": "Cette créature peut escalader les surfaces difficiles, y compris les plafonds, sans effectuer de test de caractéristique.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/lizard ; terminologie française AideDD · https://www.aidedd.org/monster/fr/lezard · 13 octobre 2026"
     },
     {
@@ -1681,7 +1470,6 @@
       "kind": "description",
       "en": "Spider Climb. The lizard can climb difficult surfaces, including along ceilings, without needing to make an ability check.",
       "fr": "Pattes d'araignée. Cette créature peut escalader les surfaces difficiles, y compris les plafonds, sans effectuer de test de caractéristique.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/lizard ; terminologie française AideDD · https://www.aidedd.org/monster/fr/lezard · 13 octobre 2026"
     },
     {
@@ -1689,7 +1477,6 @@
       "kind": "description",
       "en": "If the lich fails a saving throw, it can choose to succeed instead.",
       "fr": "Si cette créature rate un jet de sauvegarde, elle peut décider de le réussir tout de même.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/lich ; terminologie française AideDD · https://www.aidedd.org/monster/fr/liche · 13 octobre 2026"
     },
     {
@@ -1697,7 +1484,6 @@
       "kind": "description",
       "en": "Legendary Resistance (4/Day, or 5/Day in Lair). If the lich fails a saving throw, it can choose to succeed instead.",
       "fr": "Résistance légendaire (4/jour, ou 5/jour dans son antre). Si cette créature rate un jet de sauvegarde, elle peut décider de le réussir tout de même.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/lich ; terminologie française AideDD · https://www.aidedd.org/monster/fr/liche · 13 octobre 2026"
     },
     {
@@ -1705,7 +1491,6 @@
       "kind": "description",
       "en": "If the unicorn fails a saving throw, it can choose to succeed instead.",
       "fr": "Si cette créature rate un jet de sauvegarde, elle peut décider de le réussir tout de même.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/unicorn ; terminologie française AideDD · https://www.aidedd.org/monster/fr/licorne · 13 octobre 2026"
     },
     {
@@ -1713,7 +1498,6 @@
       "kind": "description",
       "en": "Legendary Resistance (3/Day). If the unicorn fails a saving throw, it can choose to succeed instead.",
       "fr": "Résistance légendaire (3/jour). Si cette créature rate un jet de sauvegarde, elle peut décider de le réussir tout de même.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/unicorn ; terminologie française AideDD · https://www.aidedd.org/monster/fr/licorne · 13 octobre 2026"
     },
     {
@@ -1721,7 +1505,6 @@
       "kind": "description",
       "en": "The unicorn has Advantage on saving throws against spells and other magical effects.",
       "fr": "Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/unicorn ; terminologie française AideDD · https://www.aidedd.org/monster/fr/licorne · 13 octobre 2026"
     },
     {
@@ -1729,7 +1512,6 @@
       "kind": "description",
       "en": "Magic Resistance. The unicorn has Advantage on saving throws against spells and other magical effects.",
       "fr": "Résistance à la magie. Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/unicorn ; terminologie française AideDD · https://www.aidedd.org/monster/fr/licorne · 13 octobre 2026"
     },
     {
@@ -1737,7 +1519,6 @@
       "kind": "description",
       "en": "The lion has Advantage on an attack roll against a creature if at least one of the lion's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.",
       "fr": "Cette créature a l’Avantage à un jet d’attaque contre une créature si au moins un de ses alliés est à 5 feet ou moins de la cible et que cet allié ne subit pas l’état Neutralisé.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/lion ; terminologie française AideDD · https://www.aidedd.org/monster/fr/lion · 13 octobre 2026"
     },
     {
@@ -1745,7 +1526,6 @@
       "kind": "description",
       "en": "Pack Tactics. The lion has Advantage on an attack roll against a creature if at least one of the lion's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.",
       "fr": "Tactique de meute. Cette créature a l’Avantage à un jet d’attaque contre une créature si au moins un de ses alliés est à 5 feet ou moins de la cible et que cet allié ne subit pas l’état Neutralisé.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/lion ; terminologie française AideDD · https://www.aidedd.org/monster/fr/lion · 13 octobre 2026"
     },
     {
@@ -1753,7 +1533,6 @@
       "kind": "description",
       "en": "The wolf has Advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.",
       "fr": "Cette créature a l’Avantage à un jet d’attaque contre une créature si au moins un de ses alliés est à 5 feet ou moins de la cible et que cet allié ne subit pas l’état Neutralisé.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/winter-wolf ; terminologie française AideDD · https://www.aidedd.org/monster/fr/loup-arctique · 13 octobre 2026"
     },
     {
@@ -1761,7 +1540,6 @@
       "kind": "description",
       "en": "Pack Tactics. The wolf has Advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.",
       "fr": "Tactique de meute. Cette créature a l’Avantage à un jet d’attaque contre une créature si au moins un de ses alliés est à 5 feet ou moins de la cible et que cet allié ne subit pas l’état Neutralisé.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/winter-wolf ; terminologie française AideDD · https://www.aidedd.org/monster/fr/loup-arctique · 13 octobre 2026"
     },
     {
@@ -1769,7 +1547,6 @@
       "kind": "description",
       "en": "The werewolf has Advantage on an attack roll against a creature if at least one of the werewolf's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.",
       "fr": "Cette créature a l’Avantage à un jet d’attaque contre une créature si au moins un de ses alliés est à 5 feet ou moins de la cible et que cet allié ne subit pas l’état Neutralisé.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/werewolf ; terminologie française AideDD · https://www.aidedd.org/monster/fr/loup-garou · 13 octobre 2026"
     },
     {
@@ -1777,7 +1554,6 @@
       "kind": "description",
       "en": "Pack Tactics. The werewolf has Advantage on an attack roll against a creature if at least one of the werewolf's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.",
       "fr": "Tactique de meute. Cette créature a l’Avantage à un jet d’attaque contre une créature si au moins un de ses alliés est à 5 feet ou moins de la cible et que cet allié ne subit pas l’état Neutralisé.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/werewolf ; terminologie française AideDD · https://www.aidedd.org/monster/fr/loup-garou · 13 octobre 2026"
     },
     {
@@ -1785,7 +1561,6 @@
       "kind": "description",
       "en": "The marid can breathe air and water.",
       "fr": "Cette créature peut respirer sous l’eau comme à l’air libre.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/marid ; terminologie française AideDD · https://www.aidedd.org/monster/fr/maride · 13 octobre 2026"
     },
     {
@@ -1793,7 +1568,6 @@
       "kind": "description",
       "en": "Amphibious. The marid can breathe air and water.",
       "fr": "Amphibie. Cette créature peut respirer sous l’eau comme à l’air libre.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/marid ; terminologie française AideDD · https://www.aidedd.org/monster/fr/maride · 13 octobre 2026"
     },
     {
@@ -1801,7 +1575,6 @@
       "kind": "description",
       "en": "The marilith has Advantage on saving throws against spells and other magical effects.",
       "fr": "Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/marilith ; terminologie française AideDD · https://www.aidedd.org/monster/fr/marilith · 13 octobre 2026"
     },
     {
@@ -1809,7 +1582,6 @@
       "kind": "description",
       "en": "Magic Resistance. The marilith has Advantage on saving throws against spells and other magical effects.",
       "fr": "Résistance à la magie. Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/marilith ; terminologie française AideDD · https://www.aidedd.org/monster/fr/marilith · 13 octobre 2026"
     },
     {
@@ -1817,7 +1589,6 @@
       "kind": "description",
       "en": "The merrow can breathe air and water.",
       "fr": "Cette créature peut respirer sous l’eau comme à l’air libre.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/merrow ; terminologie française AideDD · https://www.aidedd.org/monster/fr/merrow · 13 octobre 2026"
     },
     {
@@ -1825,7 +1596,6 @@
       "kind": "description",
       "en": "Amphibious. The merrow can breathe air and water.",
       "fr": "Amphibie. Cette créature peut respirer sous l’eau comme à l’air libre.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/merrow ; terminologie française AideDD · https://www.aidedd.org/monster/fr/merrow · 13 octobre 2026"
     },
     {
@@ -1833,7 +1603,6 @@
       "kind": "description",
       "en": "The mezzoloth has Advantage on saving throws against spells and other magical effects.",
       "fr": "Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/mezzoloth ; terminologie française AideDD · https://www.aidedd.org/monster/fr/mezzoloth · 13 octobre 2026"
     },
     {
@@ -1841,7 +1610,6 @@
       "kind": "description",
       "en": "Magic Resistance. The mezzoloth has Advantage on saving throws against spells and other magical effects.",
       "fr": "Résistance à la magie. Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/mezzoloth ; terminologie française AideDD · https://www.aidedd.org/monster/fr/mezzoloth · 13 octobre 2026"
     },
     {
@@ -1849,7 +1617,6 @@
       "kind": "description",
       "en": "The hound has Advantage on an attack roll against a creature if at least one of the hound's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.",
       "fr": "Cette créature a l’Avantage à un jet d’attaque contre une créature si au moins un de ses alliés est à 5 feet ou moins de la cible et que cet allié ne subit pas l’état Neutralisé.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/hell-hound ; terminologie française AideDD · https://www.aidedd.org/monster/fr/molosse-infernal · 13 octobre 2026"
     },
     {
@@ -1857,7 +1624,6 @@
       "kind": "description",
       "en": "Pack Tactics. The hound has Advantage on an attack roll against a creature if at least one of the hound's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.",
       "fr": "Tactique de meute. Cette créature a l’Avantage à un jet d’attaque contre une créature si au moins un de ses alliés est à 5 feet ou moins de la cible et que cet allié ne subit pas l’état Neutralisé.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/hell-hound ; terminologie française AideDD · https://www.aidedd.org/monster/fr/molosse-infernal · 13 octobre 2026"
     },
     {
@@ -1865,7 +1631,6 @@
       "kind": "description",
       "en": "The nalfeshnee has Advantage on saving throws against spells and other magical effects.",
       "fr": "Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/nalfeshnee ; terminologie française AideDD · https://www.aidedd.org/monster/fr/nalfeshnie · 13 octobre 2026"
     },
     {
@@ -1873,7 +1638,6 @@
       "kind": "description",
       "en": "Magic Resistance. The nalfeshnee has Advantage on saving throws against spells and other magical effects.",
       "fr": "Résistance à la magie. Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/nalfeshnee ; terminologie française AideDD · https://www.aidedd.org/monster/fr/nalfeshnie · 13 octobre 2026"
     },
     {
@@ -1881,7 +1645,6 @@
       "kind": "description",
       "en": "The blight has Advantage on an attack roll against a creature if at least one of the blight's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.",
       "fr": "Cette créature a l’Avantage à un jet d’attaque contre une créature si au moins un de ses alliés est à 5 feet ou moins de la cible et que cet allié ne subit pas l’état Neutralisé.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/twig-blight ; terminologie française AideDD · https://www.aidedd.org/monster/fr/nielleux · 13 octobre 2026"
     },
     {
@@ -1889,7 +1652,6 @@
       "kind": "description",
       "en": "Pack Tactics. The blight has Advantage on an attack roll against a creature if at least one of the blight's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.",
       "fr": "Tactique de meute. Cette créature a l’Avantage à un jet d’attaque contre une créature si au moins un de ses alliés est à 5 feet ou moins de la cible et que cet allié ne subit pas l’état Neutralisé.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/twig-blight ; terminologie française AideDD · https://www.aidedd.org/monster/fr/nielleux · 13 octobre 2026"
     },
     {
@@ -1897,7 +1659,6 @@
       "kind": "description",
       "en": "The nycaloth has Advantage on saving throws against spells and other magical effects.",
       "fr": "Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/nycaloth ; terminologie française AideDD · https://www.aidedd.org/monster/fr/nycaloth · 13 octobre 2026"
     },
     {
@@ -1905,7 +1666,6 @@
       "kind": "description",
       "en": "Magic Resistance. The nycaloth has Advantage on saving throws against spells and other magical effects.",
       "fr": "Résistance à la magie. Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/nycaloth ; terminologie française AideDD · https://www.aidedd.org/monster/fr/nycaloth · 13 octobre 2026"
     },
     {
@@ -1913,7 +1673,6 @@
       "kind": "description",
       "en": "The piercer can climb difficult surfaces, including along ceilings, without needing to make an ability check.",
       "fr": "Cette créature peut escalader les surfaces difficiles, y compris les plafonds, sans effectuer de test de caractéristique.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/piercer ; terminologie française AideDD · https://www.aidedd.org/monster/fr/perceur-perforateur · 13 octobre 2026"
     },
     {
@@ -1921,7 +1680,6 @@
       "kind": "description",
       "en": "Spider Climb. The piercer can climb difficult surfaces, including along ceilings, without needing to make an ability check.",
       "fr": "Pattes d'araignée. Cette créature peut escalader les surfaces difficiles, y compris les plafonds, sans effectuer de test de caractéristique.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/piercer ; terminologie française AideDD · https://www.aidedd.org/monster/fr/perceur-perforateur · 13 octobre 2026"
     },
     {
@@ -1929,7 +1687,6 @@
       "kind": "description",
       "en": "The peryton doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.",
       "fr": "Cette créature ne provoque pas d’attaque d’opportunité lorsqu’elle quitte en vol l’allonge d’un ennemi.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/peryton ; terminologie française AideDD · https://www.aidedd.org/monster/fr/peryton · 13 octobre 2026"
     },
     {
@@ -1937,7 +1694,6 @@
       "kind": "description",
       "en": "Flyby. The peryton doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.",
       "fr": "Repli aérien. Cette créature ne provoque pas d’attaque d’opportunité lorsqu’elle quitte en vol l’allonge d’un ennemi.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/peryton ; terminologie française AideDD · https://www.aidedd.org/monster/fr/peryton · 13 octobre 2026"
     },
     {
@@ -1945,7 +1701,6 @@
       "kind": "description",
       "en": "The pixie has Advantage on saving throws against spells and other magical effects.",
       "fr": "Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/pixie ; terminologie française AideDD · https://www.aidedd.org/monster/fr/pixie · 13 octobre 2026"
     },
     {
@@ -1953,7 +1708,6 @@
       "kind": "description",
       "en": "Magic Resistance. The pixie has Advantage on saving throws against spells and other magical effects.",
       "fr": "Résistance à la magie. Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/pixie ; terminologie française AideDD · https://www.aidedd.org/monster/fr/pixie · 13 octobre 2026"
     },
     {
@@ -1961,7 +1715,6 @@
       "kind": "description",
       "en": "The planetar has Advantage on saving throws against spells and other magical effects.",
       "fr": "Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/planetar ; terminologie française AideDD · https://www.aidedd.org/monster/fr/planetar · 13 octobre 2026"
     },
     {
@@ -1969,7 +1722,6 @@
       "kind": "description",
       "en": "Magic Resistance. The planetar has Advantage on saving throws against spells and other magical effects.",
       "fr": "Résistance à la magie. Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/planetar ; terminologie française AideDD · https://www.aidedd.org/monster/fr/planetar · 13 octobre 2026"
     },
     {
@@ -1977,7 +1729,6 @@
       "kind": "description",
       "en": "The poltergeist can move through other creatures and objects as if they were Difficult Terrain. It takes 5 (1d10) Force damage if it ends its turn inside an object.",
       "fr": "Cette créature peut traverser les autres créatures et les objets comme s’ils étaient un Terrain difficile. Elle subit 5 (1d10) dégâts de force si elle termine son tour à l’intérieur d’un objet.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/poltergeist ; terminologie française AideDD · https://www.aidedd.org/monster/fr/poltergeist · 13 octobre 2026"
     },
     {
@@ -1985,7 +1736,6 @@
       "kind": "description",
       "en": "Incorporeal Movement. The poltergeist can move through other creatures and objects as if they were Difficult Terrain. It takes 5 (1d10) Force damage if it ends its turn inside an object.",
       "fr": "Déplacement intangible. Cette créature peut traverser les autres créatures et les objets comme s’ils étaient un Terrain difficile. Elle subit 5 (1d10) dégâts de force si elle termine son tour à l’intérieur d’un objet.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/poltergeist ; terminologie française AideDD · https://www.aidedd.org/monster/fr/poltergeist · 13 octobre 2026"
     },
     {
@@ -1993,7 +1743,6 @@
       "kind": "description",
       "en": "The pudding can climb difficult surfaces, including along ceilings, without needing to make an ability check.",
       "fr": "Cette créature peut escalader les surfaces difficiles, y compris les plafonds, sans effectuer de test de caractéristique.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/black-pudding ; terminologie française AideDD · https://www.aidedd.org/monster/fr/pouding-noir · 13 octobre 2026"
     },
     {
@@ -2001,7 +1750,6 @@
       "kind": "description",
       "en": "Spider Climb. The pudding can climb difficult surfaces, including along ceilings, without needing to make an ability check.",
       "fr": "Pattes d'araignée. Cette créature peut escalader les surfaces difficiles, y compris les plafonds, sans effectuer de test de caractéristique.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/black-pudding ; terminologie française AideDD · https://www.aidedd.org/monster/fr/pouding-noir · 13 octobre 2026"
     },
     {
@@ -2009,7 +1757,6 @@
       "kind": "description",
       "en": "The pseudodragon has Advantage on saving throws against spells and other magical effects.",
       "fr": "Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/pseudodragon ; terminologie française AideDD · https://www.aidedd.org/monster/fr/pseudodragon · 13 octobre 2026"
     },
     {
@@ -2017,7 +1764,6 @@
       "kind": "description",
       "en": "Magic Resistance. The pseudodragon has Advantage on saving throws against spells and other magical effects.",
       "fr": "Résistance à la magie. Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/pseudodragon ; terminologie française AideDD · https://www.aidedd.org/monster/fr/pseudodragon · 13 octobre 2026"
     },
     {
@@ -2025,7 +1771,6 @@
       "kind": "description",
       "en": "The pteranodon doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.",
       "fr": "Cette créature ne provoque pas d’attaque d’opportunité lorsqu’elle quitte en vol l’allonge d’un ennemi.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/pteranodon ; terminologie française AideDD · https://www.aidedd.org/monster/fr/pteranodon · 13 octobre 2026"
     },
     {
@@ -2033,7 +1778,6 @@
       "kind": "description",
       "en": "Flyby. The pteranodon doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.",
       "fr": "Repli aérien. Cette créature ne provoque pas d’attaque d’opportunité lorsqu’elle quitte en vol l’allonge d’un ennemi.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/pteranodon ; terminologie française AideDD · https://www.aidedd.org/monster/fr/pteranodon · 13 octobre 2026"
     },
     {
@@ -2041,7 +1785,6 @@
       "kind": "description",
       "en": "The quasit has Advantage on saving throws against spells and other magical effects.",
       "fr": "Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/quasit ; terminologie française AideDD · https://www.aidedd.org/monster/fr/quasit · 13 octobre 2026"
     },
     {
@@ -2049,7 +1792,6 @@
       "kind": "description",
       "en": "Magic Resistance. The quasit has Advantage on saving throws against spells and other magical effects.",
       "fr": "Résistance à la magie. Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/quasit ; terminologie française AideDD · https://www.aidedd.org/monster/fr/quasit · 13 octobre 2026"
     },
     {
@@ -2057,7 +1799,6 @@
       "kind": "description",
       "en": "The rat has Advantage on an attack roll against a creature if at least one of the rat's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.",
       "fr": "Cette créature a l’Avantage à un jet d’attaque contre une créature si au moins un de ses alliés est à 5 feet ou moins de la cible et que cet allié ne subit pas l’état Neutralisé.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/giant-rat ; terminologie française AideDD · https://www.aidedd.org/monster/fr/rat-geant · 13 octobre 2026"
     },
     {
@@ -2065,7 +1806,6 @@
       "kind": "description",
       "en": "Pack Tactics. The rat has Advantage on an attack roll against a creature if at least one of the rat's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.",
       "fr": "Tactique de meute. Cette créature a l’Avantage à un jet d’attaque contre une créature si au moins un de ses alliés est à 5 feet ou moins de la cible et que cet allié ne subit pas l’état Neutralisé.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/giant-rat ; terminologie française AideDD · https://www.aidedd.org/monster/fr/rat-geant · 13 octobre 2026"
     },
     {
@@ -2073,7 +1813,6 @@
       "kind": "description",
       "en": "The shark has Advantage on an attack roll against a creature if at least one of the shark's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.",
       "fr": "Cette créature a l’Avantage à un jet d’attaque contre une créature si au moins un de ses alliés est à 5 feet ou moins de la cible et que cet allié ne subit pas l’état Neutralisé.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/reef-shark ; terminologie française AideDD · https://www.aidedd.org/monster/fr/requin-de-recif · 13 octobre 2026"
     },
     {
@@ -2081,7 +1820,6 @@
       "kind": "description",
       "en": "Pack Tactics. The shark has Advantage on an attack roll against a creature if at least one of the shark's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.",
       "fr": "Tactique de meute. Cette créature a l’Avantage à un jet d’attaque contre une créature si au moins un de ses alliés est à 5 feet ou moins de la cible et que cet allié ne subit pas l’état Neutralisé.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/reef-shark ; terminologie française AideDD · https://www.aidedd.org/monster/fr/requin-de-recif · 13 octobre 2026"
     },
     {
@@ -2089,7 +1827,6 @@
       "kind": "description",
       "en": "The salamander has Advantage on saving throws against spells and other magical effects.",
       "fr": "Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/salamander-inferno-master ; terminologie française AideDD · https://www.aidedd.org/monster/fr/salamandre-maitresse-des-fournaises · 13 octobre 2026"
     },
     {
@@ -2097,7 +1834,6 @@
       "kind": "description",
       "en": "Magic Resistance. The salamander has Advantage on saving throws against spells and other magical effects.",
       "fr": "Résistance à la magie. Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/salamander-inferno-master ; terminologie française AideDD · https://www.aidedd.org/monster/fr/salamandre-maitresse-des-fournaises · 13 octobre 2026"
     },
     {
@@ -2105,7 +1841,6 @@
       "kind": "description",
       "en": "The satyr has Advantage on saving throws against spells and other magical effects.",
       "fr": "Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/satyr ; terminologie française AideDD · https://www.aidedd.org/monster/fr/satyre · 13 octobre 2026"
     },
     {
@@ -2113,7 +1848,6 @@
       "kind": "description",
       "en": "Magic Resistance. The satyr has Advantage on saving throws against spells and other magical effects.",
       "fr": "Résistance à la magie. Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/satyr ; terminologie française AideDD · https://www.aidedd.org/monster/fr/satyre · 13 octobre 2026"
     },
     {
@@ -2121,7 +1855,6 @@
       "kind": "description",
       "en": "If the mummy fails a saving throw, it can choose to succeed instead.",
       "fr": "Si cette créature rate un jet de sauvegarde, elle peut décider de le réussir tout de même.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/mummy-lord ; terminologie française AideDD · https://www.aidedd.org/monster/fr/seigneur-momie-momie-auguste · 13 octobre 2026"
     },
     {
@@ -2129,7 +1862,6 @@
       "kind": "description",
       "en": "Legendary Resistance (3/Day, or 4/Day in Lair). If the mummy fails a saving throw, it can choose to succeed instead.",
       "fr": "Résistance légendaire (3/jour, ou 4/jour dans son antre). Si cette créature rate un jet de sauvegarde, elle peut décider de le réussir tout de même.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/mummy-lord ; terminologie française AideDD · https://www.aidedd.org/monster/fr/seigneur-momie-momie-auguste · 13 octobre 2026"
     },
     {
@@ -2137,7 +1869,6 @@
       "kind": "description",
       "en": "The mummy has Advantage on saving throws against spells and other magical effects.",
       "fr": "Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/mummy-lord ; terminologie française AideDD · https://www.aidedd.org/monster/fr/seigneur-momie-momie-auguste · 13 octobre 2026"
     },
     {
@@ -2145,7 +1876,6 @@
       "kind": "description",
       "en": "Magic Resistance. The mummy has Advantage on saving throws against spells and other magical effects.",
       "fr": "Résistance à la magie. Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/mummy-lord ; terminologie française AideDD · https://www.aidedd.org/monster/fr/seigneur-momie-momie-auguste · 13 octobre 2026"
     },
     {
@@ -2153,7 +1883,6 @@
       "kind": "description",
       "en": "The snake doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.",
       "fr": "Cette créature ne provoque pas d’attaque d’opportunité lorsqu’elle quitte en vol l’allonge d’un ennemi.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/flying-snake ; terminologie française AideDD · https://www.aidedd.org/monster/fr/serpent-volant · 13 octobre 2026"
     },
     {
@@ -2161,7 +1890,6 @@
       "kind": "description",
       "en": "Flyby. The snake doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.",
       "fr": "Repli aérien. Cette créature ne provoque pas d’attaque d’opportunité lorsqu’elle quitte en vol l’allonge d’un ennemi.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/flying-snake ; terminologie française AideDD · https://www.aidedd.org/monster/fr/serpent-volant · 13 octobre 2026"
     },
     {
@@ -2169,7 +1897,6 @@
       "kind": "description",
       "en": "The slaad has Advantage on saving throws against spells and other magical effects.",
       "fr": "Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/blue-slaad ; terminologie française AideDD · https://www.aidedd.org/monster/fr/slaad-bleu · 13 octobre 2026"
     },
     {
@@ -2177,7 +1904,6 @@
       "kind": "description",
       "en": "Magic Resistance. The slaad has Advantage on saving throws against spells and other magical effects.",
       "fr": "Résistance à la magie. Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/blue-slaad ; terminologie française AideDD · https://www.aidedd.org/monster/fr/slaad-bleu · 13 octobre 2026"
     },
     {
@@ -2185,7 +1911,6 @@
       "kind": "description",
       "en": "If the solar fails a saving throw, it can choose to succeed instead.",
       "fr": "Si cette créature rate un jet de sauvegarde, elle peut décider de le réussir tout de même.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/solar ; terminologie française AideDD · https://www.aidedd.org/monster/fr/solar · 13 octobre 2026"
     },
     {
@@ -2193,7 +1918,6 @@
       "kind": "description",
       "en": "Legendary Resistance (4/Day). If the solar fails a saving throw, it can choose to succeed instead.",
       "fr": "Résistance légendaire (4/jour). Si cette créature rate un jet de sauvegarde, elle peut décider de le réussir tout de même.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/solar ; terminologie française AideDD · https://www.aidedd.org/monster/fr/solar · 13 octobre 2026"
     },
     {
@@ -2201,7 +1925,6 @@
       "kind": "description",
       "en": "The solar has Advantage on saving throws against spells and other magical effects.",
       "fr": "Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/solar ; terminologie française AideDD · https://www.aidedd.org/monster/fr/solar · 13 octobre 2026"
     },
     {
@@ -2209,7 +1932,6 @@
       "kind": "description",
       "en": "Magic Resistance. The solar has Advantage on saving throws against spells and other magical effects.",
       "fr": "Résistance à la magie. Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/solar ; terminologie française AideDD · https://www.aidedd.org/monster/fr/solar · 13 octobre 2026"
     },
     {
@@ -2217,7 +1939,6 @@
       "kind": "description",
       "en": "The specter can move through other creatures and objects as if they were Difficult Terrain. It takes 5 (1d10) Force damage if it ends its turn inside an object.",
       "fr": "Cette créature peut traverser les autres créatures et les objets comme s’ils étaient un Terrain difficile. Elle subit 5 (1d10) dégâts de force si elle termine son tour à l’intérieur d’un objet.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/specter ; terminologie française AideDD · https://www.aidedd.org/monster/fr/spectre · 13 octobre 2026"
     },
     {
@@ -2225,7 +1946,6 @@
       "kind": "description",
       "en": "Incorporeal Movement. The specter can move through other creatures and objects as if they were Difficult Terrain. It takes 5 (1d10) Force damage if it ends its turn inside an object.",
       "fr": "Déplacement intangible. Cette créature peut traverser les autres créatures et les objets comme s’ils étaient un Terrain difficile. Elle subit 5 (1d10) dégâts de force si elle termine son tour à l’intérieur d’un objet.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/specter ; terminologie française AideDD · https://www.aidedd.org/monster/fr/spectre · 13 octobre 2026"
     },
     {
@@ -2233,7 +1953,6 @@
       "kind": "description",
       "en": "The sphinx has Advantage on saving throws against spells and other magical effects.",
       "fr": "Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/sphinx-of-wonder ; terminologie française AideDD · https://www.aidedd.org/monster/fr/sphinx-merveilleux · 13 octobre 2026"
     },
     {
@@ -2241,7 +1960,6 @@
       "kind": "description",
       "en": "Magic Resistance. The sphinx has Advantage on saving throws against spells and other magical effects.",
       "fr": "Résistance à la magie. Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/sphinx-of-wonder ; terminologie française AideDD · https://www.aidedd.org/monster/fr/sphinx-merveilleux · 13 octobre 2026"
     },
     {
@@ -2249,7 +1967,6 @@
       "kind": "description",
       "en": "If the sphinx fails a saving throw, it can choose to succeed instead.",
       "fr": "Si cette créature rate un jet de sauvegarde, elle peut décider de le réussir tout de même.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/sphinx-of-valor ; terminologie française AideDD · https://www.aidedd.org/monster/fr/sphinx-valeureux · 13 octobre 2026"
     },
     {
@@ -2257,7 +1974,6 @@
       "kind": "description",
       "en": "Legendary Resistance (3/Day, or 4/Day in Lair). If the sphinx fails a saving throw, it can choose to succeed instead.",
       "fr": "Résistance légendaire (3/jour, ou 4/jour dans son antre). Si cette créature rate un jet de sauvegarde, elle peut décider de le réussir tout de même.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/sphinx-of-valor ; terminologie française AideDD · https://www.aidedd.org/monster/fr/sphinx-valeureux · 13 octobre 2026"
     },
     {
@@ -2265,7 +1981,6 @@
       "kind": "description",
       "en": "The treant deals double damage to objects and structures.",
       "fr": "Cette créature inflige le double de dégâts aux objets et aux structures.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/treant ; terminologie française AideDD · https://www.aidedd.org/monster/fr/sylvanien · 13 octobre 2026"
     },
     {
@@ -2273,7 +1988,6 @@
       "kind": "description",
       "en": "Siege Monster. The treant deals double damage to objects and structures.",
       "fr": "Monstre de siège. Cette créature inflige le double de dégâts aux objets et aux structures.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/treant ; terminologie française AideDD · https://www.aidedd.org/monster/fr/sylvanien · 13 octobre 2026"
     },
     {
@@ -2281,7 +1995,6 @@
       "kind": "description",
       "en": "The merfolk can breathe air and water.",
       "fr": "Cette créature peut respirer sous l’eau comme à l’air libre.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/merfolk-wavebender ; terminologie française AideDD · https://www.aidedd.org/monster/fr/thalasseen-dompteur-de-l-onde · 13 octobre 2026"
     },
     {
@@ -2289,7 +2002,6 @@
       "kind": "description",
       "en": "Amphibious. The merfolk can breathe air and water.",
       "fr": "Amphibie. Cette créature peut respirer sous l’eau comme à l’air libre.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/merfolk-wavebender ; terminologie française AideDD · https://www.aidedd.org/monster/fr/thalasseen-dompteur-de-l-onde · 13 octobre 2026"
     },
     {
@@ -2297,7 +2009,6 @@
       "kind": "description",
       "en": "If the death tyrant fails a saving throw, it can choose to succeed instead.",
       "fr": "Si cette créature rate un jet de sauvegarde, elle peut décider de le réussir tout de même.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/death-tyrant ; terminologie française AideDD · https://www.aidedd.org/monster/fr/tyramort · 13 octobre 2026"
     },
     {
@@ -2305,7 +2016,6 @@
       "kind": "description",
       "en": "Legendary Resistance (3/Day, or 4/Day in Lair). If the death tyrant fails a saving throw, it can choose to succeed instead.",
       "fr": "Résistance légendaire (3/jour, ou 4/jour dans son antre). Si cette créature rate un jet de sauvegarde, elle peut décider de le réussir tout de même.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/death-tyrant ; terminologie française AideDD · https://www.aidedd.org/monster/fr/tyramort · 13 octobre 2026"
     },
     {
@@ -2313,7 +2023,6 @@
       "kind": "description",
       "en": "The ultroloth has Advantage on saving throws against spells and other magical effects.",
       "fr": "Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/ultroloth ; terminologie française AideDD · https://www.aidedd.org/monster/fr/ultroloth · 13 octobre 2026"
     },
     {
@@ -2321,7 +2030,6 @@
       "kind": "description",
       "en": "Magic Resistance. The ultroloth has Advantage on saving throws against spells and other magical effects.",
       "fr": "Résistance à la magie. Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/ultroloth ; terminologie française AideDD · https://www.aidedd.org/monster/fr/ultroloth · 13 octobre 2026"
     },
     {
@@ -2329,7 +2037,6 @@
       "kind": "description",
       "en": "If the vampire fails a saving throw, it can choose to succeed instead.",
       "fr": "Si cette créature rate un jet de sauvegarde, elle peut décider de le réussir tout de même.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/vampire ; terminologie française AideDD · https://www.aidedd.org/monster/fr/vampire · 13 octobre 2026"
     },
     {
@@ -2337,7 +2044,6 @@
       "kind": "description",
       "en": "Legendary Resistance (3/Day, or 4/Day in Lair). If the vampire fails a saving throw, it can choose to succeed instead.",
       "fr": "Résistance légendaire (3/jour, ou 4/jour dans son antre). Si cette créature rate un jet de sauvegarde, elle peut décider de le réussir tout de même.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/vampire ; terminologie française AideDD · https://www.aidedd.org/monster/fr/vampire · 13 octobre 2026"
     },
     {
@@ -2345,7 +2051,6 @@
       "kind": "description",
       "en": "The vampire can climb difficult surfaces, including along ceilings, without needing to make an ability check.",
       "fr": "Cette créature peut escalader les surfaces difficiles, y compris les plafonds, sans effectuer de test de caractéristique.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/vampire ; terminologie française AideDD · https://www.aidedd.org/monster/fr/vampire · 13 octobre 2026"
     },
     {
@@ -2353,7 +2058,6 @@
       "kind": "description",
       "en": "Spider Climb. The vampire can climb difficult surfaces, including along ceilings, without needing to make an ability check.",
       "fr": "Pattes d'araignée. Cette créature peut escalader les surfaces difficiles, y compris les plafonds, sans effectuer de test de caractéristique.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/vampire ; terminologie française AideDD · https://www.aidedd.org/monster/fr/vampire · 13 octobre 2026"
     },
     {
@@ -2361,7 +2065,6 @@
       "kind": "description",
       "en": "The vulture has Advantage on an attack roll against a creature if at least one of the vulture's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.",
       "fr": "Cette créature a l’Avantage à un jet d’attaque contre une créature si au moins un de ses alliés est à 5 feet ou moins de la cible et que cet allié ne subit pas l’état Neutralisé.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/vulture ; terminologie française AideDD · https://www.aidedd.org/monster/fr/vautour · 13 octobre 2026"
     },
     {
@@ -2369,7 +2072,6 @@
       "kind": "description",
       "en": "Pack Tactics. The vulture has Advantage on an attack roll against a creature if at least one of the vulture's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.",
       "fr": "Tactique de meute. Cette créature a l’Avantage à un jet d’attaque contre une créature si au moins un de ses alliés est à 5 feet ou moins de la cible et que cet allié ne subit pas l’état Neutralisé.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/vulture ; terminologie française AideDD · https://www.aidedd.org/monster/fr/vautour · 13 octobre 2026"
     },
     {
@@ -2377,7 +2079,6 @@
       "kind": "description",
       "en": "The vrock has Advantage on saving throws against spells and other magical effects.",
       "fr": "Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/vrock ; terminologie française AideDD · https://www.aidedd.org/monster/fr/vrock · 13 octobre 2026"
     },
     {
@@ -2385,7 +2086,6 @@
       "kind": "description",
       "en": "Magic Resistance. The vrock has Advantage on saving throws against spells and other magical effects.",
       "fr": "Résistance à la magie. Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/vrock ; terminologie française AideDD · https://www.aidedd.org/monster/fr/vrock · 13 octobre 2026"
     },
     {
@@ -2393,7 +2093,6 @@
       "kind": "description",
       "en": "The worg has Advantage on saving throws against spells and other magical effects.",
       "fr": "Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/dire-worg ; terminologie française AideDD · https://www.aidedd.org/monster/fr/worg-sanguinaire · 13 octobre 2026"
     },
     {
@@ -2401,7 +2100,6 @@
       "kind": "description",
       "en": "Magic Resistance. The worg has Advantage on saving throws against spells and other magical effects.",
       "fr": "Résistance à la magie. Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/dire-worg ; terminologie française AideDD · https://www.aidedd.org/monster/fr/worg-sanguinaire · 13 octobre 2026"
     },
     {
@@ -2409,7 +2107,6 @@
       "kind": "description",
       "en": "The yochlol has Advantage on saving throws against spells and other magical effects.",
       "fr": "Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/yochlol ; terminologie française AideDD · https://www.aidedd.org/monster/fr/yochlol · 13 octobre 2026"
     },
     {
@@ -2417,7 +2114,6 @@
       "kind": "description",
       "en": "Magic Resistance. The yochlol has Advantage on saving throws against spells and other magical effects.",
       "fr": "Résistance à la magie. Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/yochlol ; terminologie française AideDD · https://www.aidedd.org/monster/fr/yochlol · 13 octobre 2026"
     },
     {
@@ -2425,7 +2121,6 @@
       "kind": "description",
       "en": "The yochlol can climb difficult surfaces, including along ceilings, without needing to make an ability check.",
       "fr": "Cette créature peut escalader les surfaces difficiles, y compris les plafonds, sans effectuer de test de caractéristique.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/yochlol ; terminologie française AideDD · https://www.aidedd.org/monster/fr/yochlol · 13 octobre 2026"
     },
     {
@@ -2433,7 +2128,6 @@
       "kind": "description",
       "en": "Spider Climb. The yochlol can climb difficult surfaces, including along ceilings, without needing to make an ability check.",
       "fr": "Pattes d'araignée. Cette créature peut escalader les surfaces difficiles, y compris les plafonds, sans effectuer de test de caractéristique.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/yochlol ; terminologie française AideDD · https://www.aidedd.org/monster/fr/yochlol · 13 octobre 2026"
     },
     {
@@ -2441,7 +2135,6 @@
       "kind": "description",
       "en": "The yuan-ti has Advantage on saving throws against spells and other magical effects.",
       "fr": "Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/yuan-ti-abomination ; terminologie française AideDD · https://www.aidedd.org/monster/fr/yuan-ti-abomination · 13 octobre 2026"
     },
     {
@@ -2449,7 +2142,6 @@
       "kind": "description",
       "en": "Magic Resistance. The yuan-ti has Advantage on saving throws against spells and other magical effects.",
       "fr": "Résistance à la magie. Cette créature a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
-      "edition": "2024",
       "source": "Traduction proposée du trait commun MM 2024 · texte anglais relevé sur https://www.aidedd.org/monster/yuan-ti-abomination ; terminologie française AideDD · https://www.aidedd.org/monster/fr/yuan-ti-abomination · 13 octobre 2026"
     },
     {
@@ -2457,7 +2149,6 @@
       "kind": "term",
       "en": "Legendary Resistance (3/Day, or 4/Day in Lair)",
       "fr": "Résistance légendaire (3/jour, ou 4/jour dans son antre)",
-      "edition": "2024",
       "source": "Titre du trait commun MM 2024 · https://www.aidedd.org/monster/fr/aboleth"
     },
     {
@@ -2465,7 +2156,6 @@
       "kind": "term",
       "en": "Incorporeal Movement",
       "fr": "Déplacement intangible",
-      "edition": "2024",
       "source": "Titre du trait commun MM 2024 · https://www.aidedd.org/monster/fr/ame-en-peine"
     },
     {
@@ -2473,7 +2163,6 @@
       "kind": "term",
       "en": "Legendary Resistance (4/Day, or 5/Day in Lair)",
       "fr": "Résistance légendaire (4/jour, ou 5/jour dans son antre)",
-      "edition": "2024",
       "source": "Titre du trait commun MM 2024 · https://www.aidedd.org/monster/fr/archi-guenaude"
     },
     {
@@ -2481,7 +2170,6 @@
       "kind": "term",
       "en": "Legendary Resistance (3/Day)",
       "fr": "Résistance légendaire (3/jour)",
-      "edition": "2024",
       "source": "Titre du trait commun MM 2024 · https://www.aidedd.org/monster/fr/balor"
     },
     {
@@ -2489,7 +2177,6 @@
       "kind": "term",
       "en": "Legendary Resistance (4/Day)",
       "fr": "Résistance légendaire (4/jour)",
-      "edition": "2024",
       "source": "Titre du trait commun MM 2024 · https://www.aidedd.org/monster/fr/colosse"
     }
   ]

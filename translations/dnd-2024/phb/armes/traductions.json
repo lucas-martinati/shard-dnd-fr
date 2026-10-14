@@ -1,0 +1,54 @@
+{
+  "$schema": "../../../../docs/translation-pack.schema.json",
+  "entries": [
+    {
+      "id": "shard.armes.musket.71e6841e3c",
+      "kind": "description",
+      "en": "Loading. Because of the time required to load this weapon, you can fire only one piece of ammunition from it when you use an action, bonus action, or reaction to fire it, regardless of the number of attacks you can normally make.",
+      "fr": "Chargement. En raison du temps nécessaire pour charger cette arme, vous ne pouvez tirer qu’une seule munition avec elle lorsque vous utilisez une action, une action Bonus ou une réaction pour tirer, quel que soit le nombre d’attaques que vous pouvez normalement effectuer.",
+      "source": "Traduction proposée du texte observé sur Shard · Musket · relevé du 14 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "shard.armes.musket.9c3e2af5eb",
+      "kind": "description",
+      "en": "Ammunition. You can use a weapon that has the Ammunition property to make a ranged attack only if you have ammunition to fire from it. The type of ammunition required is specified with the weapon’s range. Each attack expends one piece of ammunition. Drawing the ammunition is part of the attack (you need a free hand to load a one-handed weapon). After a fight, you can spend 1 minute to recover half the ammunition (round down) you used in the fight; the rest is lost.",
+      "fr": "Munitions. Vous ne pouvez effectuer une attaque à distance avec une arme dotée de la propriété Munitions que si vous disposez des munitions nécessaires, dont le type est indiqué avec la portée de l’arme. Chaque attaque dépense une munition. Sortir la munition fait partie de l’attaque ; charger une arme à une main nécessite une main libre. Après un combat, vous pouvez consacrer 1 minute à récupérer la moitié des munitions utilisées, arrondie à l’entier inférieur. Le reste est perdu.",
+      "source": "Traduction proposée du texte observé sur Shard · Musket · relevé du 14 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "shard.armes.pistol.c768d02c8c",
+      "kind": "description",
+      "en": "Damage 1d10 piercing",
+      "fr": "Dégâts 1d10 perforants",
+      "source": "Traduction proposée du texte observé sur Shard · Pistol · relevé du 14 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "shard.armes.psychic-blade.4cd489e16a",
+      "kind": "description",
+      "en": "Damage 1d6 psychic",
+      "fr": "Dégâts 1d6 psychiques",
+      "source": "Traduction proposée du texte observé sur Shard · Psychic Blade · relevé du 14 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "shard.armes.psychic-blade.75b879c092",
+      "kind": "description",
+      "en": "You can manifest shimmering blades of psychic energy. Whenever you take the Attack action or make an Opportunity Attack, you can manifest a Psychic Blade in your free hand and make the attack with that blade.",
+      "fr": "Vous pouvez manifester des lames scintillantes d’énergie psychique. Chaque fois que vous effectuez l’action Attaquer ou une attaque d’opportunité, vous pouvez manifester une lame psychique dans votre main libre et effectuer l’attaque avec cette lame.",
+      "source": "Traduction proposée du texte observé sur Shard · Psychic Blade · relevé du 14 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "shard.armes.psychic-blade-off-hand.5a7d2c5e4c",
+      "kind": "description",
+      "en": "Damage 1d4 psychic",
+      "fr": "Dégâts 1d4 psychiques",
+      "source": "Traduction proposée du texte observé sur Shard · Psychic Blade Off Hand · relevé du 14 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "shard.armes.psychic-blade-off-hand.190282d929",
+      "kind": "description",
+      "en": "You can manifest shimmering blades of psychic energy. Whenever you take the Attack action or make an Opportunity Attack, you can manifest a Psychic Blade in your free hand and make the attack with that blade. Bonus action off hand attack after an attack with a Psychic Blade",
+      "fr": "Vous pouvez manifester des lames scintillantes d’énergie psychique. Chaque fois que vous effectuez l’action Attaquer ou une attaque d’opportunité, vous pouvez manifester une lame psychique dans votre main libre et effectuer l’attaque avec cette lame. Attaque de la main secondaire par une action bonus après une attaque avec une lame psychique.",
+      "source": "Traduction proposée du texte observé sur Shard · Psychic Blade Off Hand · relevé du 14 octobre 2026 · https://play.shardtabletop.com/"
+    }
+  ]
+}

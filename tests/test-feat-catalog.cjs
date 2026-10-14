@@ -1,5 +1,5 @@
 const fs=require('node:fs'),assert=require('node:assert/strict'),{JSDOM}=require('jsdom');
-const fixtures=JSON.parse(fs.readFileSync('tests/fixtures/feat-catalog.json','utf8')),catalogue=JSON.parse(fs.readFileSync('translations/dons/catalogue-2024.json','utf8'));
+const fixtures=JSON.parse(fs.readFileSync('tests/fixtures/feat-catalog.json','utf8')),catalogue=JSON.parse(fs.readFileSync('audit/inventaires/phb/dons-2024.json','utf8'));
 assert.equal(catalogue.cartesShard,131);assert.equal(catalogue.dons2024.length,75);assert.equal(new Set(catalogue.dons2024.map(r=>r.en)).size,75);assert.ok(catalogue.dons2024.every(row=>fixtures.some(f=>f.name===row.en&&f.layout!=='card')),'Chaque don possède une description détaillée vérifiée');
 const w=new JSDOM('<main></main>',{url:'https://play.shardtabletop.com/#feats',runScripts:'outside-only',pretendToBeVisual:true}).window,d=w.document,main=d.querySelector('main'),cases=[];
 const clean=s=>s.replace(/\s+/g,' ').replace(/\s*([.,;:!?()+])\s*/g,'$1').trim().toLowerCase();

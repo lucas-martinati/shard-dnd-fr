@@ -1,44 +1,33 @@
-# Traductions par livre et catégorie
+# Organisation des traductions
 
-Les livres prioritaires et le guide Shard sont séparés :
+Les nouveaux ajouts visent D&D 2024 : PHB en priorité, puis MM. Les trois livres restent distincts.
 
-- `dnd-2024/phb/<catégorie>/traductions.json` : textes explicitement rattachés au **D&D 2024 PHB**, priorité 1.
-- `dnd-2024/mm/<catégorie>/traductions.json` : textes explicitement rattachés au **D&D 2024 MM**, priorité 2.
-- `shard-player-guide-volume-1/<catégorie>/traductions.json` : textes propres au guide Shard, secondaire.
-- `<catégorie>/` : traductions communes, sources SRD et rattachements encore indéterminés. Une traduction identique reste réutilisable dans plusieurs livres.
-
-[livres.json](livres.json) référence les suivis par livre et les priorités. Chaque dossier de livre conserve un `suivi.json` avec les limites et les contrôles restants. Les compteurs par dossier ne mesurent pas la couverture totale des livres : de nombreuses traductions restent partagées.
-
-Les traductions restent regroupées par sujet dans chaque dossier, indépendamment du personnage qui a permis de repérer un manque.
-
-| Dossier | Contenu |
+| Dossier | Rôle |
 | --- | --- |
-| `sorts/` | Noms, descriptions, composantes, effets et variantes anciennes des sorts |
-| `dons/` | Dons et styles de combat |
-| `classes/` | Aptitudes de toutes les classes, sous-classes, métamagies, manifestations et choix de création |
-| `especes/` | Espèces et traits d’espèce |
-| `objets/` | Équipement, objets usuels et magiques |
-| `armes/` | Propriétés et bottes d’arme |
-| `monstres/` | Bestiaire |
-| `regles/` | Combat, conditions, vocabulaire commun et MJ |
-| `interface/` | Libellés généraux de Shard |
+| `dnd-2024/phb/` | Traductions rattachées au D&D 2024 PHB par les sources ou les fiches archivées |
+| `dnd-2024/mm/` | Traductions et titres d’aptitudes du D&D 2024 MM |
+| `dnd-2024/commun/` | Règles et terminologie 2024 partagées, notamment les références SRD ; attribution à un livre précis non établie pour tous les blocs |
+| `anciens/shard-player-guide-volume-1/` | Traductions rattachées au guide Shard, conservées pour compatibilité |
+| `anciens/commun/` | Variantes 2014 et dictionnaires historiques réutilisables |
+| `interface/` | Boutons, menus et autres libellés de l’interface Shard |
+| `commun/` | Correspondances partagées entre plusieurs livres ou éditions |
+| `a-classer/` | Correspondances dont le livre et l’édition ne sont pas établis, principalement des noms du catalogue d’armes |
 
-Pour un ajout, modifier le `traductions.json` de la catégorie dans le livre concerné lorsque sa provenance est établie, ou dans le socle commun sinon. Tous ces packs sont détectés récursivement. Chaque entrée conserve son texte anglais exact, son français, sa source et son édition. Ne pas créer de fichier par personnage, niveau, bug ou série de corrections.
+Chaque ensemble conserve ses catégories : classes, dons, espèces, sorts, armes, objets, monstres et règles. Un texte partagé reste stocké une seule fois. Le script choisit sa traduction à partir de l’anglais exact ; le rangement n’actualise jamais les effets d’une ancienne règle.
 
-Les dictionnaires TSV et références JSON préexistants se trouvent aussi dans ces dossiers. Leur ordre historique reste conservé par la génération pour éviter les régressions de terminologie. Les noms AideDD 2024 gardent leur priorité à l’affichage.
+## Éditer une traduction
 
-`data/srd-5.2.1/` contient les extraits bilingues et leur attribution. Ce dossier reste nécessaire : `make-class-texts.py` et `make-option-texts.py` le lisent à chaque build. Le SRD est une sélection des règles D&D, distincte du guide Shard. Le Disclaimer du PHB lié dans Shard précise que son contenu complète le SRD 5.2 ; cet import ne remplace donc pas ces fichiers sources. Les outils de `work/` en tirent automatiquement le corpus des 12 classes et leurs options. Les fichiers intermédiaires de `work/` sont régénérés ; les compléments éditoriaux vont dans les catégories ci-dessus.
+Modifier le `traductions.json` du livre et de la catégorie concernés. Les packs sont détectés récursivement. L’édition peut être indiquée une fois par pack ; seules les exceptions la répètent. La source précise est obligatoire, soit dans l’entrée, soit au niveau du pack lorsqu’elle est commune à toutes ses entrées. Le format courant est implicite : `schemaVersion` n’a plus besoin d’être répété. Les anciens packs explicites restent acceptés.
 
-Lancer `npm run build`, puis `npm test`. `npm run translations:coverage` distingue les noms traduits, les blocs locaux et les corpus vérifiés. Une catégorie présente ne signifie pas que tous les contenus de tous les suppléments sont disponibles en français.
+Les TSV sont des dictionnaires de traduction conservés avec leur ordre de priorité. Les descriptions de dons du PHB et du guide sont séparées dans leurs fichiers `dons/descriptions.json`. Les références bilingues de sorts et d’équipement se trouvent dans `dnd-2024/commun/`. Les titres bilingues de monstres sont des données utilisées par le script, conservées dans `dnd-2024/mm/monstres/titres-aptitudes.json`.
 
-Voir [le guide détaillé](../docs/AJOUTER-DES-TRADUCTIONS.md).
+## Distinguer les autres fichiers
 
-Les descriptions de présentation des espèces et lignages se trouvent dans les packs `especes/` communs ou propres au livre, celles des classes et sous-classes dans les packs `classes/` communs ou propres au livre, et celles des historiques dans les packs `regles/` correspondants. Leurs identifiants commencent par `narrative.`. `descriptions-visibles.json` relie chaque fiche relevée à ses paragraphes ou puces pour mesurer la couverture des textes, séparément de celle des noms.
+- [Audit et inventaires](../audit/README.md) : fiches observées, identifiants des paragraphes, dates de relevé, suivi des trois livres et contrôles restants. Ces fichiers servent à la couverture et aux tests ; ils ne sont pas des packs de traductions.
+- [Sources de génération](../sources-generation/README.md) : catalogues de référence, correspondances de sections et textes servant à produire des variantes.
+- [Fichiers intermédiaires](../work/generated/README.md) : résultats régénérés par les outils ; modifier leurs sources plutôt que leur contenu.
+- `data/srd-5.2.1/` : extraits bilingues conservés en place. Leur évolution sera traitée séparément.
 
-Les entrées `equipment.2014.*` de `objets/traductions.json` complètent 16 paragraphes anciens relevés sur 15 objets usuels. Les entrées `weapon.2014.*` de `shard-player-guide-volume-1/armes/traductions.json` ajoutent l’effet de l’adamantium et les sections titrées observées sur la dague ; les corps de propriétés déjà connus sont réutilisés. `tests/fixtures/equipment-legacy.json` conserve les extraits HTML des 16 fiches examinées le 14 octobre 2026. L’édition suit les règles du texte, même lorsqu’une fiche est aussi rattachée au D&D 2024 PHB dans Shard. Ce relevé ne représente pas tout l’équipement.
+Les inventaires restent utiles lorsque leur contenu est traduit : ils permettent aux tests de détecter une régression. La méthode de rattachement et ses limites figurent dans [le classement](../audit/classement.json). Une édition `2024` seule ne prouve pas un livre précis ; les noms sans source vérifiable ne sont pas attribués par supposition.
 
-`regles/conditions-shard.json` inventorie les 48 fiches du catalogue Conditions relevé, avec les références des paragraphes, puces et cellules chargés depuis les packs `regles/traductions.json` communs ou propres au livre. Il comprend les états anciens et 2024 et les effets généraux Shard. Le livre indiqué par Shard peut associer un effet ancien au PHB 2024 : le texte exact fait foi, sans substitution des mécanismes par ceux d’une autre édition. Métamorphose n’a pas de présentation en carte ; sa description de Transformation est visible dans la fiche ouverte et testée séparément.
-
-`dons/catalogue-2024.json` indexe les 75 dons PHB 2024, en distinguant les détails relevés dans Shard, les références anglaises et l’extrait utilisateur. Leurs traductions proposées se trouvent dans les packs `dons/traductions.json`, communs ou propres au livre ; les formulations historiques déjà présentes sont réutilisées plutôt que masquées. Les titres ont été harmonisés dans `dons/feat-texts.json` pour préserver leur mise en gras.
-
-`monstres/traits-communs-2024.json` inventorie 217 traits de neuf familles relevés sur 183 créatures. Les corps exacts et leurs versions avec titre sont chargés depuis `dnd-2024/mm/monstres/traductions.json`, qui contient aussi la tarasque complète. Aucun modèle n’est appliqué à une description inconnue. `monstres/titres-aptitudes-2024.json` contient uniquement des titres bilingues pour le rapprochement des descriptions distantes, dans leur rubrique et avec des valeurs compatibles ; il n’ajoute pas ces titres au dictionnaire global des classes. `monstres/couverture-references-2024.json` recense les associations et les blocs à vérifier. Ces deux index ne constituent pas un corpus local de toutes les descriptions du bestiaire.
+Exécuter `npm run translations:check`, `npm run build` et `npm test`. Voir [le guide d’ajout](../docs/AJOUTER-DES-TRADUCTIONS.md).

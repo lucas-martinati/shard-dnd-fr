@@ -1,0 +1,102 @@
+{
+  "$schema": "../../../../docs/translation-pack.schema.json",
+  "edition": "2014",
+  "entries": [
+    {
+      "id": "thaumaturgie-puces-2014.voice",
+      "en": "Your voice booms up to three times as loud as normal for 1 minute.",
+      "fr": "Votre voix retentit jusqu’à trois fois plus fort que la normale pendant 1 minute.",
+      "source": "Traduction de l’extrait utilisateur et des passages SRD correspondants · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "thaumaturgie-puces-2014.flames",
+      "en": "You cause flames to flicker, brighten, dim, or change color for 1 minute.",
+      "fr": "Vous faites vaciller des flammes, augmentez ou atténuez leur intensité, ou changez leur couleur pendant 1 minute.",
+      "source": "Traduction de l’extrait utilisateur et des passages SRD correspondants · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "thaumaturgie-puces-2014.tremors",
+      "en": "You cause harmless tremors in the ground for 1 minute.",
+      "fr": "Vous provoquez des secousses inoffensives dans le sol pendant 1 minute.",
+      "source": "Traduction de l’extrait utilisateur et des passages SRD correspondants · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "thaumaturgie-puces-2014.sound",
+      "en": "You create an instantaneous sound that originates from a point of your choice within range, such as a rumble of thunder, the cry of a raven, or ominous whispers.",
+      "fr": "Vous produisez un son instantané provenant d’un point de votre choix à portée, comme un grondement de tonnerre, le cri d’un corbeau ou des murmures inquiétants.",
+      "source": "Traduction de l’extrait utilisateur et des passages SRD correspondants · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "thaumaturgie-puces-2014.door",
+      "en": "You instantaneously cause an unlocked door or window to fly open or slam shut.",
+      "fr": "Vous faites instantanément s’ouvrir ou se fermer en claquant une porte ou une fenêtre non verrouillée.",
+      "source": "Traduction de l’extrait utilisateur et des passages SRD correspondants · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "thaumaturgie-puces-2014.eyes",
+      "en": "You alter the appearance of your eyes for 1 minute.",
+      "fr": "Vous modifiez l’apparence de vos yeux pendant 1 minute.",
+      "source": "Traduction de l’extrait utilisateur et des passages SRD correspondants · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "thaumaturgie-puces-2014.multiple",
+      "en": "If you cast this spell multiple times, you can have up to three of its effects active at a time, and you can dismiss such an effect as an action.",
+      "fr": "Si vous lancez ce sort plusieurs fois, vous pouvez maintenir jusqu’à trois de ses effets à la fois et mettre fin à l’un d’eux par une action.",
+      "source": "Traduction de l’extrait utilisateur et des passages SRD correspondants · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "prestidigitation-2014.creation",
+      "en": "You create a nonmagical trinket or an illusory image that can fit in your hand and that lasts until the end of your next turn.",
+      "fr": "Vous créez une babiole non magique ou une image illusoire qui tient dans votre main et persiste jusqu’à la fin de votre prochain tour.",
+      "source": "Traduction proposée de passages SRD 5.1 EN · référence AideDD https://www.aidedd.org/dnd/sorts.php?vo=prestidigitation · CC-BY-4.0 pour les passages SRD"
+    },
+    {
+      "id": "prestidigitation-2014.multiple",
+      "en": "If you cast this spell multiple times, you can have up to three of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action.",
+      "fr": "Si vous lancez ce sort plusieurs fois, vous pouvez maintenir jusqu’à trois de ses effets non instantanés à la fois et mettre fin à l’un d’eux par une action.",
+      "source": "Traduction proposée de passages SRD 5.1 EN · référence AideDD https://www.aidedd.org/dnd/sorts.php?vo=prestidigitation · CC-BY-4.0 pour les passages SRD"
+    },
+    {
+      "id": "spells.legacy.reference.1",
+      "en": "One creature or loose object of your choice that you can see within range rises vertically, up to 20 feet, and remains suspended there for the duration. The spell can levitate a target that weighs up to 500 pounds. An unwilling creature that succeeds on a Constitution saving throw is unaffected.",
+      "fr": "Une créature ou un objet non fixé de votre choix, que vous voyez à portée, s’élève verticalement jusqu’à 20 pieds et reste en suspension pendant la durée du sort. Le sort peut faire léviter une cible pesant jusqu’à 500 livres. Une créature non consentante qui réussit un jet de sauvegarde de Constitution n’est pas affectée.",
+      "source": "Traduction de l’extrait utilisateur · 2014"
+    },
+    {
+      "id": "spells.legacy.reference.2",
+      "en": "The target can move only by pushing or pulling against a fixed object or surface within reach (such as a wall or a ceiling), which allows it to move as if it were climbing. You can change the target's altitude by up to 20 feet in either direction on your turn. If you are the target, you can move up or down as part of your move. Otherwise, you can use your action to move the target, which must remain within the spell's range.",
+      "fr": "La cible ne peut se déplacer qu’en poussant ou en tirant sur un objet ou une surface fixe à sa portée, comme un mur ou un plafond, ce qui lui permet de se déplacer comme si elle grimpait. À votre tour, vous pouvez modifier son altitude de 20 pieds au maximum, vers le haut ou vers le bas. Si vous êtes la cible, vous pouvez monter ou descendre dans le cadre de votre déplacement. Sinon, vous pouvez utiliser votre action pour déplacer la cible, qui doit rester à portée du sort.",
+      "source": "Traduction de l’extrait utilisateur · 2014"
+    },
+    {
+      "id": "spells.legacy.reference.3",
+      "en": "When the spell ends, the target floats gently to the ground if it is still aloft.",
+      "fr": "À la fin du sort, la cible redescend doucement au sol si elle est encore en l’air.",
+      "source": "Traduction de l’extrait utilisateur · 2014"
+    },
+    {
+      "id": "spells.legacy.reference.4",
+      "en": "One creature or loose object of your choice that you can see within range rises vertically, up to 20 feet, and remains suspended there for the duration. The spell can levitate a target that weighs up to 500 pounds. An unwilling creature that succeeds on a Constitution saving throw is unaffected. The target can move only by pushing or pulling against a fixed object or surface within reach (such as a wall or a ceiling), which allows it to move as if it were climbing. You can change the target's altitude by up to 20 feet in either direction on your turn. If you are the target, you can move up or down as part of your move. Otherwise, you can use your action to move the target, which must remain within the spell's range. When the spell ends, the target floats gently to the ground if it is still aloft.",
+      "fr": "Une créature ou un objet non fixé de votre choix, que vous voyez à portée, s’élève verticalement jusqu’à 20 pieds et reste en suspension pendant la durée du sort. Le sort peut faire léviter une cible pesant jusqu’à 500 livres. Une créature non consentante qui réussit un jet de sauvegarde de Constitution n’est pas affectée. La cible ne peut se déplacer qu’en poussant ou en tirant sur un objet ou une surface fixe à sa portée, comme un mur ou un plafond, ce qui lui permet de se déplacer comme si elle grimpait. À votre tour, vous pouvez modifier son altitude de 20 pieds au maximum, vers le haut ou vers le bas. Si vous êtes la cible, vous pouvez monter ou descendre dans le cadre de votre déplacement. Sinon, vous pouvez utiliser votre action pour déplacer la cible, qui doit rester à portée du sort. À la fin du sort, la cible redescend doucement au sol si elle est encore en l’air.",
+      "source": "Traduction de l’extrait utilisateur · 2014"
+    },
+    {
+      "id": "spells.legacy.reference.5",
+      "en": "V, S, M (either a small leather loop or a piece of golden wire bent into a cup shape with a long shank on one end)",
+      "fr": "V, S, M (une petite boucle de cuir ou un fil d’or plié en forme de coupe, avec une longue tige à une extrémité)",
+      "source": "Traduction de l’extrait utilisateur · 2014"
+    },
+    {
+      "id": "spells.legacy.reference.6",
+      "en": "Components: V, S, M (either a small leather loop or a piece of golden wire bent into a cup shape with a long shank on one end)",
+      "fr": "Composantes : V, S, M (une petite boucle de cuir ou un fil d’or plié en forme de coupe, avec une longue tige à une extrémité)",
+      "source": "Traduction de l’extrait utilisateur · 2014"
+    },
+    {
+      "id": "spells.legacy.reference.7",
+      "en": "You hurl a mote of fire at a creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 fire damage. A flammable object hit by this spell ignites if it isn't being worn or carried.",
+      "fr": "Vous projetez une flammèche vers une créature ou un objet à portée. Effectuez une attaque de sort à distance contre la cible. Si l’attaque touche, la cible subit 1d10 dégâts de feu. Un objet inflammable touché par ce sort s’embrase s’il n’est ni porté ni transporté.",
+      "source": "Traduction de l’extrait utilisateur · 2014"
+    }
+  ]
+}

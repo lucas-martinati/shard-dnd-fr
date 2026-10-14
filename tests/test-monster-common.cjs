@@ -1,5 +1,5 @@
 const fs=require('node:fs'),assert=require('node:assert/strict'),{JSDOM}=require('jsdom');
-const corpus=JSON.parse(fs.readFileSync('translations/monstres/traits-communs-2024.json','utf8')).traits;
+const corpus=JSON.parse(fs.readFileSync('audit/inventaires/mm/traits-communs-2024.json','utf8')).traits;
 assert.equal(corpus.length,217);assert.equal(new Set(corpus.map(r=>r.monster)).size,183);assert.equal(new Set(corpus.map(r=>r.family)).size,9);
 const w=new JSDOM('<main></main>',{url:'https://play.shardtabletop.com/#monster',runScripts:'outside-only',pretendToBeVisual:true}).window,d=w.document,main=d.querySelector('main');
 const cases=corpus.map(row=>{

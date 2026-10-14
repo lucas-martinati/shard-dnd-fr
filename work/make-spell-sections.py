@@ -4,6 +4,7 @@ from translation_sources import source as translation_source
 Les listes FR n’ont pas toujours le même ordre que les listes EN : ne jamais
 associer deux effets seulement à partir de leur position.
 """
+from translation_sources import tsv_sources
 from pathlib import Path
 import json
 import re
@@ -45,7 +46,7 @@ ambiguous=set()
 skipped=[]
 reserved={key(row['en']) for row in load_packs() if row['kind']=='description'}
 # Les descriptions déjà traduites par le lexique gardent leur formulation.
-for filename in (ROOT.parent/'translations').rglob('*.tsv'):
+for filename in tsv_sources():
     for line in filename.read_text().splitlines():
         if '|' in line:
             en=line.split('|',1)[0]
@@ -112,5 +113,5 @@ for name,row in refs.items():
         upgrades+=1
 print(upgrades,'sorts avec titres d’amélioration ;',len(skipped),'segments exclus pour dés incompatibles ou réordonnés ;',len(ambiguous),'correspondances ambiguës exclues')
 
-(ROOT/'spell-sections.json').write_text(json.dumps(list(pairs.values()),ensure_ascii=False,indent=2)+'\n')
+(ROOT/'generated/spell-sections.json').write_text(json.dumps(list(pairs.values()),ensure_ascii=False,indent=2)+'\n')
 print(len(pairs),'segments SRD de sorts, introductions, options et libellés')

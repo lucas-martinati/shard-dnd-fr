@@ -1,15 +1,14 @@
 # Ajouter des traductions
 
-Les nouvelles traductions se placent dans `translations/dnd-2024/phb/<catégorie>/traductions.json` ou `translations/dnd-2024/mm/<catégorie>/traductions.json` en priorité. Celles du guide Shard vont dans `translations/shard-player-guide-volume-1/<catégorie>/traductions.json`. Les textes communs ou de provenance indéterminée restent dans `translations/<catégorie>/traductions.json`. Ne pas dupliquer un même texte pour plusieurs livres. Chaque fichier nommé `traductions.json` est chargé récursivement et automatiquement pendant `npm run build` : aucun ajout au moteur JavaScript ni à une liste de modules n’est nécessaire. Le fichier généré reste le seul fichier à copier dans Tampermonkey.
+Les nouvelles traductions se placent dans `translations/dnd-2024/phb/<catégorie>/traductions.json` ou `translations/dnd-2024/mm/<catégorie>/traductions.json` en priorité. Celles du guide Shard vont dans `translations/anciens/shard-player-guide-volume-1/<catégorie>/traductions.json`. Les textes partagés sont rangés dans `translations/dnd-2024/commun/` ou `translations/commun/` ; ceux dont le livre et l’édition ne sont pas établis vont dans `translations/a-classer/`. Les anciens contenus sont conservés dans `translations/anciens/`. Ne pas dupliquer un même texte pour plusieurs livres. Chaque fichier nommé `traductions.json` est chargé récursivement et automatiquement pendant `npm run build` : aucun ajout au moteur JavaScript ni à une liste de modules n’est nécessaire. Le fichier généré reste le seul fichier à copier dans Tampermonkey.
 
 ## Une traduction par entrée
 
-Exemple pour le pack commun `translations/classes/traductions.json` ; pour un livre identifié, utiliser son sous-dossier `classes/` et adapter le chemin relatif `$schema` vers `docs/translation-pack.schema.json` :
+Exemple pour `translations/dnd-2024/phb/classes/traductions.json` :
 
 ```json
 {
-  "$schema": "../../docs/translation-pack.schema.json",
-  "schemaVersion": 1,
+  "$schema": "../../../../docs/translation-pack.schema.json",
   "edition": "2024",
   "source": "Traduction proposée à partir de l’extrait fourni",
   "entries": [
@@ -36,7 +35,7 @@ Pour un petit libellé, ajouter `"kind": "term"`. Pour une description, `kind` e
 - Conserver les distances en feet. Ne pas réécrire une ancienne règle avec les effets de sa version 2024.
 - Une négation, un coût, une durée ou un nombre de cibles différent exige une traduction distincte.
 
-Les références de source sont obligatoires. Indiquer clairement si le texte français est une adaptation ou une traduction proposée plutôt qu’une formulation officielle. Les contenus SRD restent soumis à CC-BY-4.0 et les autres contenus à leurs propres conditions.
+Les références de source sont obligatoires, dans chaque entrée ou dans le pack si elles sont identiques. `schemaVersion` est facultatif et vaut 1 par défaut ; `edition` vaut `any` lorsqu’elle n’est pas précisée. Une édition de pack est héritée par ses entrées : ne répéter que les exceptions. Un en-tête générique « Sources détaillées par entrée » n’est pas nécessaire. Indiquer clairement si le texte français est une adaptation ou une traduction proposée plutôt qu’une formulation officielle. Les contenus SRD restent soumis à CC-BY-4.0 et les autres contenus à leurs propres conditions.
 
 ## Garder le gras et l’italique
 
@@ -88,33 +87,33 @@ Le traitement reste local. Les rapports peuvent contenir des textes de partie : 
 
 `--labels` inclut les boutons, liens, options avec valeur et attributs d'affichage inconnus. Il sert à repérer les commandes de navigation que l'heuristique de prose ne voit pas. Ses candidats peuvent être des noms propres ou des textes déjà français : il faut les trier. Les valeurs des champs et les éditeurs restent exclus, et les noms du catalogue AideDD sont reconnus.
 
-Tous les dictionnaires et descriptions sont rangés dans les catégories de `translations/`. `work/` contient les outils et leurs fichiers intermédiaires générés. Les textes SRD utilisés par les générateurs sont conservés dans `data/srd-5.2.1/`.
+Tous les dictionnaires et descriptions sont rangés dans les catégories de `translations/`. `work/` contient les outils ; leurs fichiers intermédiaires sont dans `work/generated/`. `sources-generation/` identifie les entrées techniques et `audit/` les inventaires et rapports. Les textes SRD utilisés par les générateurs sont conservés dans `data/srd-5.2.1/`.
 
 Les catégories sont `sorts`, `dons`, `classes`, `especes`, `objets`, `armes`, `monstres`, `regles` et `interface`. Il ne faut plus créer de fichier par personnage, niveau ou correction. Les aptitudes, sous-classes, métamagies et manifestations vont dans `classes/` ; les styles de combat et dons dans `dons/`.
 
 Chaque entrée peut préciser `source` et `edition` pour remplacer les valeurs par défaut du fichier. Les éditions restent séparées par les textes exacts, même dans une catégorie commune.
 
-`npm run translations:coverage` affiche l’inventaire des noms et descriptions disponibles, avec les limites explicites. Ce rapport est aussi régénéré dans `outputs/couverture-traductions.json` pendant le build. Un nom traduit ne compte pas comme une description traduite.
+`npm run translations:coverage` affiche l’inventaire des noms et descriptions disponibles, avec les limites explicites. Ce rapport est aussi régénéré dans `audit/couverture-traductions.json` pendant le build. Un nom traduit ne compte pas comme une description traduite.
 
-Le champ `suiviLivres` reprend `translations/livres.json` et les suivis par livre : PHB, puis MM, puis guide Shard. Les nombres de packs rattachés ne comprennent pas tout le socle commun et ne prouvent pas une traduction intégrale.
+Le champ `suiviLivres` reprend `audit/livres.json` et les suivis par livre : PHB, puis MM, puis guide Shard. Les nombres de packs rattachés ne comprennent pas tout le socle commun et ne prouvent pas une traduction intégrale.
 
-Le champ `objectifReferencesAccueil` reprend `translations/perimetre-references.json` : les six rubriques d’options du personnage et les dix types personnalisés constituent le minimum à traduire intégralement. Vérifier toutes les fiches, pas seulement leurs noms et résumés, avant de valider une rubrique. La liste `aVerifier` concerne les appariements SRD ; son absence de candidats ne prouve pas que toutes les références de Shard sont traduites. Le détail des contrôles attendus figure dans l’[audit de couverture](AUDIT-COUVERTURE.md#objectif-minimal--toutes-les-références-accessibles-depuis-laccueil).
+Le champ `objectifReferencesAccueil` reprend `audit/perimetre-references.json` : les six rubriques d’options du personnage et les dix types personnalisés constituent le minimum à traduire intégralement. Vérifier toutes les fiches, pas seulement leurs noms et résumés, avant de valider une rubrique. La liste `aVerifier` concerne les appariements SRD ; son absence de candidats ne prouve pas que toutes les références de Shard sont traduites. Le détail des contrôles attendus figure dans l’[audit de couverture](AUDIT-COUVERTURE.md#objectif-minimal--toutes-les-références-accessibles-depuis-laccueil).
 
 ## Sorts découpés en options et puces
 
-Le générateur `work/make-spell-sections.py` relie les titres de sous-sections anglais et français du SRD, puis produit `work/spell-sections.json`. Il est exécuté par `npm run build`. Pour compléter un sort déjà référencé dans le SRD, ajouter les titres correspondants dans sa table et vérifier les limites de chaque effet. La position d’un effet dans une liste ne suffit pas : les listes françaises peuvent avoir un ordre différent. Certains sorts comportent un paragraphe commun après les options ; celui-ci doit être isolé avant leur appariement.
+Le générateur `work/make-spell-sections.py` relie les titres de sous-sections anglais et français du SRD, puis produit `work/generated/spell-sections.json`. Il est exécuté par `npm run build`. Pour compléter un sort déjà référencé dans le SRD, ajouter les titres correspondants dans sa table et vérifier les limites de chaque effet. La position d’un effet dans une liste ne suffit pas : les listes françaises peuvent avoir un ordre différent. Certains sorts comportent un paragraphe commun après les options ; celui-ci doit être isolé avant leur appariement.
 
 Les descriptions non SRD et les variantes anciennes peuvent toujours être ajoutées dans un pack JSON, une entrée par puce. Un test doit reproduire la liste HTML, ses titres et ses dés cliquables. Les segments dont les dés sont absents, différents ou réordonnés sont exclus de la génération automatique plutôt qu’appliqués approximativement.
 
 ## Aptitudes présentées en sous-sections
 
-`translations/classes/sections.json` relie explicitement les titres anglais et français. `work/make-class-sections.py` découpe chaque version indépendamment, puis relie les sections par ces titres, avec validation des nombres et de l’ordre des dés. Cela couvre aussi des options que le français présente dans un autre ordre, comme les proies du Chasseur.
+`sources-generation/classes/sections-bilingues.json` relie explicitement les titres anglais et français. `work/make-class-sections.py` découpe chaque version indépendamment, puis relie les sections par ces titres, avec validation des nombres et de l’ordre des dés. Cela couvre aussi des options que le français présente dans un autre ordre, comme les proies du Chasseur.
 
 Le générateur conserve les traductions préexistantes et refuse les correspondances ambiguës. Il produit une paire pour le titre, le corps et la section complète lorsque les valeurs concordent. Les nouveaux titres doivent correspondre aux libellés connus afin de conserver leur gras. Les variantes de référence au chapitre 7 et les introductions génériques de sous-classe sont générées pour toutes les classes concernées.
 
 ## Couverture des armes
 
-`translations/armes/catalogue-2024.json` énumère les 38 armes du SRD et relie chacune à ses propriétés et à sa botte. Ajouter une arme à ce catalogue implique de fournir aussi les traductions de ses règles dans `traductions.json`. Les règles privées ou de suppléments ne sont pas déduites d’un nom d’arme. Un exemple facultatif doit avoir sa propre paire afin que la règle reste traduisible lorsque Shard omet cet exemple.
+`audit/inventaires/commun/armes-srd-2024.json` énumère les 38 armes du SRD et relie chacune à ses propriétés et à sa botte. Ajouter une arme à ce catalogue implique de fournir aussi les traductions de ses règles dans `traductions.json`. Les règles privées ou de suppléments ne sont pas déduites d’un nom d’arme. Un exemple facultatif doit avoir sa propre paire afin que la règle reste traduisible lorsque Shard omet cet exemple.
 
 ## Paragraphes des sorts et priorité des références
 

@@ -1,7 +1,7 @@
 const fs=require('node:fs'),assert=require('node:assert/strict'),{JSDOM}=require('jsdom');
 const {pack}=require('./translation-fixtures.cjs');
 const rules=pack('regles').entries,species=pack('especes').entries;
-const catalogue=JSON.parse(fs.readFileSync('translations/regles/etats-2024.json','utf8'));
+const catalogue=JSON.parse(fs.readFileSync('audit/inventaires/commun/etats-2024.json','utf8'));
 assert.equal(catalogue.conditions.length,15);
 const byId=new Map(rules.map(r=>[r.id,r]));
 const w=new JSDOM('<main></main>',{url:'https://play.shardtabletop.com/#customtable?type=Conditions',runScripts:'outside-only',pretendToBeVisual:true}).window,d=w.document,main=d.querySelector('main');
@@ -41,6 +41,7 @@ const unknown=d.createElement('p');unknown.textContent='You gain an unknown powe
 const weapon=d.createElement('div');weapon.innerHTML='<span>Versatile</span> <em>1d8 Slashing, Two-Handed</em>';main.append(weapon);
 const human=d.createElement('div');human.innerHTML='<h3>Human</h3><span>Versatile</span>';main.append(human);
 const oldStun=d.createElement('li');oldStun.textContent="A stunned creature is incapacitated, can't move, and can speak only falteringly.";main.append(oldStun);
+const oldStunFR='Une créature étourdie est Neutralisée, ne peut pas se déplacer et ne peut parler que de façon hésitante.';
 const original=main.innerHTML,links=[...main.querySelectorAll('a')],hrefs=links.map(a=>a.getAttribute('href')),dice=styled.querySelector('.dodieroll'),icon=dice.firstChild,title=styled.firstChild,ancestorDice=ascendants.flatMap(({card})=>[...card.querySelectorAll('.dodieroll')]),dieValues=ancestorDice.map(die=>die.textContent);let clicks=0;
 dice.addEventListener('click',()=>clicks++);links.forEach(a=>a.addEventListener('click',e=>{e.preventDefault();clicks++;}));
 ancestorDice.forEach(die=>die.addEventListener('click',()=>clicks++));
@@ -57,7 +58,8 @@ const pause=ms=>new Promise(r=>setTimeout(r,ms));async function wait(f){for(let 
  assert.equal(privateText.textContent,'When you take damage, you can take a Reaction to roll 1d12.');assert.equal(unknown.textContent,'You gain an unknown power that deals 2d12 damage.');
  assert.equal(weapon.querySelector('span').textContent,'Polyvalente');assert.equal(human.querySelector('span').textContent,'Polyvalent');
  // Ne pas réécrire l'état Étourdi 2014 avec les effets 2024.
- assert.equal(oldStun.textContent,'Une créature étourdie est Neutralisée, ne peut pas se déplacer et ne peut parler que de façon hésitante.');
+ await wait(()=>oldStun.textContent===oldStunFR);
+ assert.equal(oldStun.textContent,oldStunFR);
  const exhaustion=main.querySelector('[data-condition="Exhaustion"]');assert.match(exhaustion.textContent,/2 fois votre niveau/);assert.match(exhaustion.textContent,/5 fois votre niveau/);assert.match(exhaustion.textContent,/1 de vos niveaux/);
  const stunned=main.querySelector('[data-condition="Stunned"]');assert.doesNotMatch(stunned.textContent,/Vitesse 0|parler|déplacer/);
  assert.ok(dice.isConnected&&icon.isConnected);assert.equal(dice.textContent,'1d12');dice.click();

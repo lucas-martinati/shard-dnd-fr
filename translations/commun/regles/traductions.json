@@ -1,0 +1,41 @@
+{
+  "$schema": "../../../docs/translation-pack.schema.json",
+  "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1, D&D 2024 PHB · relevé du 13 octobre 2026",
+  "entries": [
+    {
+      "id": "condition.shard.encumbered.15",
+      "en": "You carrying weight in excess of your normal carrying capacity. As a result, your speed is reduced by 10 feet.",
+      "fr": "Le poids que vous portez dépasse votre capacité de charge normale. Votre Vitesse est donc réduite de 10 feet."
+    },
+    {
+      "id": "condition.shard.enlarge.16",
+      "en": "Your size doubles in all dimensions, and weight is multiplied by eight. This growth increases size by one category—from Medium to Large, for example. If there isn't enough room to double size, the creature attains the maximum possible size in the space available. You also have advantage on Strength checks and Strength saving throws. Weapons also grow to match its new size. While these weapons are enlarged, the target's attacks with them deal 1d4 extra damage.",
+      "fr": "Votre taille double dans toutes les dimensions et votre poids est multiplié par huit. Cette croissance augmente votre taille d’une catégorie, par exemple de Moyenne à Grande. Si l’espace disponible ne permet pas de doubler votre taille, vous atteignez la taille maximale possible dans cet espace. Vous avez également l’Avantage aux tests de Force et aux jets de sauvegarde de Force. Vos armes grandissent aussi pour s’adapter à votre nouvelle taille. Tant qu’elles sont agrandies, vos attaques avec ces armes infligent 1d4 dégâts supplémentaires."
+    },
+    {
+      "id": "condition.shard.heavily-encumbered.51",
+      "en": "You carrying weight more than double your normal carrying capacity. As a result, your speed is reduced by 20 feet and you have disadvantage on on ability checks, attack rolls, and saving throws that use Strength, Dexterity, or Constitution.",
+      "fr": "Le poids que vous portez dépasse le double de votre capacité de charge normale. Votre Vitesse est donc réduite de 20 feet et vous subissez le Désavantage aux tests de caractéristique, aux jets d’attaque et aux jets de sauvegarde qui font intervenir la Force, la Dextérité ou la Constitution."
+    },
+    {
+      "id": "condition.shard.inspiration.57",
+      "en": "If you have inspiration, you can expend it when you make an attack roll, saving throw, or ability check. Spending your inspiration gives you advantage on that roll.",
+      "fr": "Si vous avez l’Inspiration, vous pouvez la dépenser lorsque vous effectuez un jet d’attaque, un jet de sauvegarde ou un test de caractéristique. Dépenser votre Inspiration vous donne l’Avantage à ce jet."
+    },
+    {
+      "id": "condition.shard.inspiration.58",
+      "en": "Additionally, if you have inspiration, you can reward another player for good roleplaying, clever thinking, or simply doing something exciting in the game. When another player character does something that really contributes to the story in a fun and interesting way, you can give up your inspiration to give that character inspiration.",
+      "fr": "Si vous avez l’Inspiration, vous pouvez aussi récompenser un autre joueur pour une bonne interprétation, une idée astucieuse ou simplement une action passionnante en jeu. Quand le personnage d’un autre joueur contribue à l’histoire de manière amusante et intéressante, vous pouvez renoncer à votre Inspiration pour la lui donner."
+    },
+    {
+      "id": "condition.shard.reduce.95",
+      "en": "Size is halved in all dimensions, and weight is reduced to one-eighth of normal. This reduction decreases size by one category—from Medium to Small, for example. You have disadvantage on Strength checks and Strength saving throws. Weapons also shrink to match its new size. While these weapons are reduced, the target's attacks with them deal 1d4 less damage (this can't reduce the damage below 1).",
+      "fr": "Votre taille est divisée par deux dans toutes les dimensions et votre poids est réduit à un huitième de son poids normal. Cette réduction diminue votre taille d’une catégorie, par exemple de Moyenne à Petite. Vous subissez le Désavantage aux tests de Force et aux jets de sauvegarde de Force. Vos armes rétrécissent aussi pour s’adapter à votre nouvelle taille. Tant qu’elles sont réduites, vos attaques avec ces armes infligent 1d4 dégâts de moins, sans pouvoir réduire les dégâts en dessous de 1."
+    },
+    {
+      "id": "condition.shard.turned.109",
+      "en": "A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.",
+      "fr": "Une créature renvoyée doit consacrer ses tours à s’éloigner de vous autant que possible et ne peut pas se déplacer volontairement à moins de 30 feet de vous. Elle ne peut pas non plus entreprendre de Réaction. Pour son action, elle ne peut que Foncer ou tenter d’échapper à un effet qui l’empêche de se déplacer. Si elle ne peut aller nulle part, elle peut entreprendre l’action Esquiver."
+    }
+  ]
+}

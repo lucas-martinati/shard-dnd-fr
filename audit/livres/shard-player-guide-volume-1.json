@@ -1,0 +1,25 @@
+{
+  "id": "shard-player-guide-volume-1",
+  "nom": "Shard Player's Guide Volume 1",
+  "priorite": 3,
+  "objectifTraductionIntegrale": false,
+  "url": "https://play.shardtabletop.com/#book?id=bi5f3lrxndk004tpyc0rt&cid=q4qshq492a8l16u0",
+  "traductionIntegraleValidee": false,
+  "consultation": {
+    "date": "2026-10-14",
+    "etat": "accessible",
+    "constat": "L’introduction et les crédits indiquent que la majorité du contenu vient du SRD de cinquième édition, republié sous OGL. Ce guide ne doit pas être confondu avec les sources SRD 5.2.1 EN/FR du projet."
+  },
+  "chapitresReleves": [],
+  "aFaire": [
+    "Traiter les manques propres au guide après les deux livres prioritaires ; conserver les traductions existantes.",
+    "Inventorier les chapitres et toutes les fiches liées ; distinguer les noms, présentations et contenus complets.",
+    "Identifier les textes déjà couverts par le socle commun avant d’ajouter des traductions.",
+    "Compléter les paragraphes, listes, options, tableaux, titres et variantes manquants, puis vérifier le rendu et les liens dans Shard."
+  ],
+  "limites": [
+    "Les textes attestés sur plusieurs livres sont partagés. Les éléments dont le livre reste inconnu sont isolés dans translations/a-classer/ ; une édition 2024 ne prouve pas à elle seule un livre précis.",
+    "Le nombre total de fiches et de blocs à traduire reste à établir ; aucun pourcentage de couverture intégrale n’est calculé."
+  ],
+  "dossierTraductions": "translations/anciens/shard-player-guide-volume-1"
+}

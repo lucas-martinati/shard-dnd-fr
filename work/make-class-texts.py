@@ -5,6 +5,7 @@ Aucun appariement par position entre classes françaises et anglaises.
 """
 import json
 import re
+from translation_sources import tsv_sources
 from pathlib import Path
 from translation_packs import key, signature, load_packs
 
@@ -88,7 +89,7 @@ def generate():
     corpora = {lang:extract(lang) for lang in ORDER}
     pairs, coverage, seen = [], [], {}
     editorial = {}
-    for path in sorted((ROOT/'translations').rglob('*.tsv')):
+    for path in tsv_sources():
         for line in path.read_text().splitlines():
             if line.count('|')==1:
                 en,fr=line.split('|')
@@ -116,8 +117,8 @@ def generate():
                     seen[normalized]=fr
                     pairs.append({'id':f'srd.classes.{cls}.{ordinal+1}', 'class':cls, 'level':entry['level'], 'name':entry['en'], 'frName':entry['fr'], 'en':en, 'fr':fr, 'source':'SRD 5.2.1 EN/FR · CC-BY-4.0 · distances remises en feet'})
             coverage.append({'class':cls,'level':entry['level'],'en':entry['en'],'fr':entry['fr'],'description':reason is None,'pending':reason})
-    (ROOT/'work/class-texts.json').write_text(json.dumps(pairs,ensure_ascii=False,indent=2)+'\n')
-    (ROOT/'work/class-coverage.json').write_text(json.dumps(coverage,ensure_ascii=False,indent=2)+'\n')
+    (ROOT/'work/generated/class-texts.json').write_text(json.dumps(pairs,ensure_ascii=False,indent=2)+'\n')
+    (ROOT/'audit/generes/classes-srd.json').write_text(json.dumps(coverage,ensure_ascii=False,indent=2)+'\n')
     print(f'{len(pairs)} descriptions de classes SRD sur {len(coverage)} aptitudes indexées ; {len(coverage)-len(pairs)} blocs à vérifier')
 
 

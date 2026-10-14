@@ -4,7 +4,7 @@ const {JSDOM} = require('jsdom');
 const entries = require('./translation-fixtures.cjs').entries();
 const byId = new Map(entries.map(row => [row.id, row]));
 const fixture = JSON.parse(fs.readFileSync('tests/fixtures/equipment-legacy.json', 'utf8'));
-const modernAcid = JSON.parse(fs.readFileSync('translations/objets/equipment-texts.json', 'utf8')).find(row => row.name === 'Acid');
+const modernAcid = JSON.parse(fs.readFileSync('translations/dnd-2024/commun/objets/descriptions-srd.json', 'utf8')).find(row => row.name === 'Acid');
 const w = new JSDOM('<main></main>', {
   url: 'https://play.shardtabletop.com/#item', runScripts: 'outside-only', pretendToBeVisual: true
 }).window;
@@ -66,7 +66,10 @@ const translated = ({item, title, content}) => title.textContent === item.frName
 (async () => {
   try {
     w.eval(fs.readFileSync('outputs/shard-dnd-fr.user.js', 'utf8'));
-    await wait(() => cards.every(translated) && edit.textContent === 'Modifier les attributs' && clear.title === 'Effacer');
+    // Les champs peuvent être traités dans une passe asynchrone après les fiches.
+    await wait(() => cards.every(translated) && edit.textContent === 'Modifier les attributs' &&
+      clear.title === 'Effacer' && clear.getAttribute('aria-label') === 'Effacer' &&
+      empty.textContent === 'Liste vide' && search.placeholder === 'Rechercher');
     assert.equal(clear.getAttribute('aria-label'), 'Effacer');
     assert.equal(empty.textContent, 'Liste vide');
     assert.equal(search.placeholder, 'Rechercher');

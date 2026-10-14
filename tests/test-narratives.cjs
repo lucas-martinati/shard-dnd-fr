@@ -1,13 +1,13 @@
 const fs=require('node:fs'),assert=require('node:assert/strict'),{JSDOM}=require('jsdom');
 const rows=require('./translation-fixtures.cjs').entries(),byId=new Map(rows.map(r=>[r.id,r]));
-const manifest=JSON.parse(fs.readFileSync('translations/descriptions-visibles.json','utf8')).fiches;
+const manifest=JSON.parse(fs.readFileSync('audit/inventaires/descriptions-visibles.json','utf8')).fiches;
 const fixtures=JSON.parse(fs.readFileSync('tests/fixtures/narrative-cards.json','utf8'));
 assert.equal(manifest.filter(f=>f.type==='species'&&f.edition==='2024').length,10);
 assert.equal(manifest.filter(f=>f.type==='subspecies'&&f.edition==='2024').length,24);
 assert.equal(manifest.filter(f=>f.type==='class'&&f.edition==='2024').length,12);
 assert.equal(manifest.filter(f=>f.type==='subclass').length,48);
 assert.equal(manifest.filter(f=>f.type==='background'&&f.edition==='2024').length,16);
-const expectedNames=fs.readFileSync('translations/classes/creation-2024.tsv','utf8').split('\n').slice(0,48).map(line=>line.split('|')[0]).sort();
+const expectedNames=fs.readFileSync('translations/dnd-2024/phb/classes/creation-2024.tsv','utf8').split('\n').slice(0,48).map(line=>line.split('|')[0]).sort();
 assert.deepEqual(manifest.filter(f=>f.type==='subclass').map(f=>f.name).sort(),expectedNames);
 for(const name of ['Barbarian','Bard','Cleric','Druid','Fighter','Monk','Paladin','Ranger','Rogue','Sorcerer','Warlock','Wizard'])assert.equal(manifest.filter(f=>f.type==='subclass'&&f.class===name).length,4);
 assert.deepEqual(fixtures.map(f=>f.id),manifest.map(f=>f.id));

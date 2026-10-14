@@ -2,7 +2,7 @@ from translation_sources import source as translation_source
 import json,re
 from pathlib import Path
 from translation_packs import load_packs, check_existing, key
-root=Path(__file__).resolve().parent;pairs=[]
+root=Path(__file__).resolve().parent/'generated';pairs=[]
 def add(en,fr,source):
  if en and fr:pairs.append({'en':en,'fr':fr,'source':source})
 def flat(s):return re.sub(r'\s+',' ',s).strip()

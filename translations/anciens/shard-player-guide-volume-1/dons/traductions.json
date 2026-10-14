@@ -1,0 +1,150 @@
+{
+  "$schema": "../../../../docs/translation-pack.schema.json",
+  "entries": [
+    {
+      "id": "feat.catalogue.lucky.83",
+      "en": "Luck Points.",
+      "fr": "Points de chance.",
+      "edition": "2024",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/lucky · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.war-caster.184",
+      "en": "Concentration.",
+      "fr": "Concentration.",
+      "edition": "2024",
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/war-caster · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.push",
+      "kind": "term",
+      "en": "Push",
+      "fr": "Bourrade",
+      "edition": "2024",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.luck-points",
+      "kind": "term",
+      "en": "Luck Points",
+      "fr": "Points de chance",
+      "edition": "2024",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.concentration",
+      "kind": "term",
+      "en": "Concentration",
+      "fr": "Concentration",
+      "edition": "2024",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.somatic-components",
+      "kind": "term",
+      "en": "Somatic Components",
+      "fr": "Composantes somatiques",
+      "edition": "2024",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.heading.speed-increase",
+      "kind": "term",
+      "en": "Speed Increase",
+      "fr": "Vitesse améliorée",
+      "edition": "2024",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.field.19",
+      "kind": "term",
+      "en": "(Prerequisite: Dexterity 13 or higher)",
+      "fr": "(Prérequis : Dextérité 13 ou plus)",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire"
+    },
+    {
+      "id": "feat.catalogue.field.20",
+      "kind": "term",
+      "en": "(Prerequisite: The ability to cast at least one spell)",
+      "fr": "(Prérequis : capacité à lancer au moins un sort)",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire"
+    },
+    {
+      "id": "feat.catalogue.field.22",
+      "kind": "term",
+      "en": "(Prerequisite: Strength 13 or higher)",
+      "fr": "(Prérequis : Force 13 ou plus)",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire"
+    },
+    {
+      "id": "feat.catalogue.field.24",
+      "kind": "term",
+      "en": "(Prerequisite: Proficiency with medium armor)",
+      "fr": "(Prérequis : maîtrise des armures intermédiaires)",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire"
+    },
+    {
+      "id": "feat.catalogue.field.26",
+      "kind": "term",
+      "en": "(Prerequisite: Proficiency with heavy armor)",
+      "fr": "(Prérequis : maîtrise des armures lourdes)",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire"
+    },
+    {
+      "id": "feat.catalogue.field.28",
+      "kind": "term",
+      "en": "(Prerequisite: Charisma 13 or higher)",
+      "fr": "(Prérequis : Charisme 13 ou plus)",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire"
+    },
+    {
+      "id": "feat.catalogue.field.33",
+      "kind": "term",
+      "en": "(Prerequisite: Proficiency with light armor)",
+      "fr": "(Prérequis : maîtrise des armures légères)",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire"
+    },
+    {
+      "id": "feat.catalogue.field.36",
+      "kind": "term",
+      "en": "(Prerequisite: Intelligence or Wisdom 13 or higher)",
+      "fr": "(Prérequis : Intelligence ou Sagesse 13 ou plus)",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire"
+    },
+    {
+      "id": "feat.catalogue.field.44",
+      "kind": "term",
+      "en": "(Prerequisite: dwarf or small race)",
+      "fr": "(Prérequis : Nain ou espèce de petite taille)",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire"
+    },
+    {
+      "id": "feat.catalogue.alert.0",
+      "en": "Always on the lookout for danger, you gain the following benefits:",
+      "fr": "Toujours à l’affût du danger, vous bénéficiez des avantages suivants :",
+      "edition": "2014",
+      "source": "Traduction proposée du texte anglais · Source.  Shard Player's Guide Volume 1 · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.alert.1",
+      "en": "You gain a +5 bonus to initiative.",
+      "fr": "Vous gagnez un bonus de +5 à l’Initiative.",
+      "edition": "2014",
+      "source": "Traduction proposée du texte anglais · Source.  Shard Player's Guide Volume 1 · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.alert.2",
+      "en": "You can't be surprised while you are conscious.",
+      "fr": "Vous ne pouvez pas être surpris tant que vous êtes conscient.",
+      "edition": "2014",
+      "source": "Traduction proposée du texte anglais · Source.  Shard Player's Guide Volume 1 · relevé du 13 octobre 2026"
+    },
+    {
+      "id": "feat.catalogue.alert.3",
+      "en": "Other creatures don't gain advantage on attack rolls against you as a result of being unseen by you.",
+      "fr": "Les autres créatures ne bénéficient pas de l’Avantage aux jets d’attaque contre vous du seul fait que vous ne les voyez pas.",
+      "edition": "2014",
+      "source": "Traduction proposée du texte anglais · Source.  Shard Player's Guide Volume 1 · relevé du 13 octobre 2026"
+    }
+  ]
+}

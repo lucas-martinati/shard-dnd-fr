@@ -1,7 +1,7 @@
 const fs=require('node:fs'),assert=require('node:assert/strict'),{JSDOM}=require('jsdom');
 const all=require('./translation-fixtures.cjs').entries();
 const rage=all.filter(r=>r.id.startsWith('rage-dragon-2024.')),oldWeapons=all.filter(r=>r.id.startsWith('proprietes-armes-2014.')),newWeapons=all.filter(r=>r.id.startsWith('proprietes-armes-2024.')),thauma=all.filter(r=>r.id.startsWith('thaumaturgie-puces-2014.')&&!r.id.endsWith('.multiple'));
-const sections=JSON.parse(fs.readFileSync('work/spell-sections.json'));
+const sections=JSON.parse(fs.readFileSync('work/generated/spell-sections.json'));
 const w=new JSDOM('<main></main>',{url:'https://play.shardtabletop.com/#play?mode=character',runScripts:'outside-only',pretendToBeVisual:true}).window,d=w.document,main=d.querySelector('main');
 const escape=s=>s.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;');
 function paragraph(parent,source,id){const p=d.createElement('p');p.id=id;p.textContent=source;parent.append(p);return p;}

@@ -24838,27 +24838,6 @@
       "aliases": []
     },
     {
-      "en": "Weapon Mastery Property",
-      "fr": "Botte d’arme",
-      "category": "équipement",
-      "source": "Traduction de passages du SRD 5.2.1 EN · bottes d’arme · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd",
-      "aliases": []
-    },
-    {
-      "en": "Weapon Mastery Properties",
-      "fr": "Bottes d’arme",
-      "category": "équipement",
-      "source": "Traduction de passages du SRD 5.2.1 EN · bottes d’arme · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd",
-      "aliases": []
-    },
-    {
-      "en": "Mastery",
-      "fr": "Botte d’arme",
-      "category": "équipement",
-      "source": "Traduction de passages du SRD 5.2.1 EN · bottes d’arme · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd",
-      "aliases": []
-    },
-    {
       "en": "Adamantine Battleaxe",
       "fr": "Hache d’armes en adamantium",
       "category": "équipement",
@@ -27449,20 +27428,6 @@
       "aliases": []
     },
     {
-      "en": "Moonblade Properties",
-      "fr": "Propriétés de la lamelune",
-      "category": "équipement",
-      "source": "Traduction proposée du texte observé sur Shard · Moonblade · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Property",
-      "fr": "Propriété",
-      "category": "équipement",
-      "source": "Traduction proposée du texte observé sur Shard · Moonblade · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
       "en": "Net +1",
       "fr": "Filet +1",
       "category": "équipement",
@@ -27512,6 +27477,34 @@
       "aliases": []
     },
     {
+      "en": "shortswords",
+      "fr": "épées courtes",
+      "category": "équipement",
+      "source": "Traduction proposée des liens d’armes de la Lame solaire observés sur Shard · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "longswords",
+      "fr": "épées longues",
+      "category": "équipement",
+      "source": "Traduction proposée des liens d’armes de la Lame solaire observés sur Shard · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Moonblade Properties",
+      "fr": "Propriétés de la lamelune",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Moonblade · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Property",
+      "fr": "Propriété",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Moonblade · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
       "en": "Giant's Bane (Requires Attunement).",
       "fr": "Fléau des géants (nécessite l’harmonisation).",
       "category": "équipement",
@@ -27540,17 +27533,31 @@
       "aliases": []
     },
     {
-      "en": "shortswords",
-      "fr": "épées courtes",
+      "en": "Adamantine Dagger",
+      "fr": "Dague en adamantium",
       "category": "équipement",
-      "source": "Traduction proposée des liens d’armes de la Lame solaire observés sur Shard · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "source": "Traduction proposée des règles anciennes (2014) relevées sur la fiche Adamantine Dagger, Shard Player’s Guide Volume 1 · https://play.shardtabletop.com/#item · 14 octobre 2026",
       "aliases": []
     },
     {
-      "en": "longswords",
-      "fr": "épées longues",
+      "en": "Weapon Mastery Property",
+      "fr": "Botte d’arme",
       "category": "équipement",
-      "source": "Traduction proposée des liens d’armes de la Lame solaire observés sur Shard · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "source": "Traduction de passages du SRD 5.2.1 EN · bottes d’arme · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Weapon Mastery Properties",
+      "fr": "Bottes d’arme",
+      "category": "équipement",
+      "source": "Traduction de passages du SRD 5.2.1 EN · bottes d’arme · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Mastery",
+      "fr": "Botte d’arme",
+      "category": "équipement",
+      "source": "Traduction de passages du SRD 5.2.1 EN · bottes d’arme · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd",
       "aliases": []
     },
     {
@@ -27614,6 +27621,13 @@
       "fr": "Briseur de hordes",
       "category": "aptitude de classe",
       "source": "SRD 5.2.1 EN/FR · CC-BY-4.0",
+      "aliases": []
+    },
+    {
+      "en": "Wild Magic Surge table",
+      "fr": "table de Sursaut de magie sauvage",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du lien de la table de magie sauvage observé sur Shard · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
       "aliases": []
     },
     {
@@ -28401,83 +28415,6 @@
       "aliases": []
     },
     {
-      "en": "Wild Magic Surge table",
-      "fr": "table de Sursaut de magie sauvage",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du lien de la table de magie sauvage observé sur Shard · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Legendary Resistance (6/Day)",
-      "fr": "Résistance légendaire (6/jour)",
-      "category": "monstre",
-      "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026",
-      "aliases": []
-    },
-    {
-      "en": "Reflective Carapace",
-      "fr": "Carapace réfléchissante",
-      "category": "monstre",
-      "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026",
-      "aliases": []
-    },
-    {
-      "en": "Thunderous Bellow (Recharge 5–6)",
-      "fr": "Mugissement tonitruant (recharge 5–6)",
-      "category": "monstre",
-      "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026",
-      "aliases": []
-    },
-    {
-      "en": "Onslaught",
-      "fr": "Offensive",
-      "category": "monstre",
-      "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026",
-      "aliases": []
-    },
-    {
-      "en": "World-Shaking Movement",
-      "fr": "Déplacement sismique",
-      "category": "monstre",
-      "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026",
-      "aliases": []
-    },
-    {
-      "en": "Legendary Resistance (3/Day, or 4/Day in Lair)",
-      "fr": "Résistance légendaire (3/jour, ou 4/jour dans son antre)",
-      "category": "monstre",
-      "source": "Titre du trait commun MM 2024 · https://www.aidedd.org/monster/fr/aboleth",
-      "aliases": []
-    },
-    {
-      "en": "Incorporeal Movement",
-      "fr": "Déplacement intangible",
-      "category": "monstre",
-      "source": "Titre du trait commun MM 2024 · https://www.aidedd.org/monster/fr/ame-en-peine",
-      "aliases": []
-    },
-    {
-      "en": "Legendary Resistance (4/Day, or 5/Day in Lair)",
-      "fr": "Résistance légendaire (4/jour, ou 5/jour dans son antre)",
-      "category": "monstre",
-      "source": "Titre du trait commun MM 2024 · https://www.aidedd.org/monster/fr/archi-guenaude",
-      "aliases": []
-    },
-    {
-      "en": "Legendary Resistance (3/Day)",
-      "fr": "Résistance légendaire (3/jour)",
-      "category": "monstre",
-      "source": "Titre du trait commun MM 2024 · https://www.aidedd.org/monster/fr/balor",
-      "aliases": []
-    },
-    {
-      "en": "Legendary Resistance (4/Day)",
-      "fr": "Résistance légendaire (4/jour)",
-      "category": "monstre",
-      "source": "Titre du trait commun MM 2024 · https://www.aidedd.org/monster/fr/colosse",
-      "aliases": []
-    },
-    {
       "en": "Nature Speaker",
       "fr": "Parole de la nature",
       "category": "aptitude de classe",
@@ -29066,101 +29003,220 @@
       "aliases": []
     },
     {
-      "en": "Repeatable",
-      "fr": "Répétable",
+      "en": "General Feat (Prerequisite: Level 4+, Spellcasting or Pact Magic Feature)",
+      "fr": "Don général (prérequis : niveau 4+, aptitude Sorts ou Magie de pacte)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "General Feat (Prerequisite: Level 4+, Dexterity 13+)",
+      "fr": "Don général (prérequis : niveau 4+, Dextérité 13+)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "General Feat (Prerequisite: Level 4+, Intelligence 13+)",
+      "fr": "Don général (prérequis : niveau 4+, Intelligence 13+)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Epic Boon Feat (Prerequisite: Level 19+, Spellcasting Feature)",
+      "fr": "Don de faveur épique (prérequis : niveau 19+, aptitude Sorts)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "General Feat (Prerequisite: Level 4+, Wisdom or Charisma 13+)",
+      "fr": "Don général (prérequis : niveau 4+, Sagesse ou Charisme 13+)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "General Feat (Prerequisite: Level 4+, Intelligence, Wisdom, or Charisma 13+)",
+      "fr": "Don général (prérequis : niveau 4+, Intelligence, Sagesse, ou Charisme 13+)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "General Feat (Prerequisite: Level 4+, Strength 13+)",
+      "fr": "Don général (prérequis : niveau 4+, Force 13+)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "General Feat (Prerequisite: Level 4+, Medium Armor Training)",
+      "fr": "Don général (prérequis : niveau 4+, formation aux armures intermédiaires)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "General Feat (Prerequisite: Level 4+, Heavy Armor Training)",
+      "fr": "Don général (prérequis : niveau 4+, formation aux armures lourdes)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "General Feat (Prerequisite: Level 4+, Shield Training)",
+      "fr": "Don général (prérequis : niveau 4+, formation aux boucliers)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "General Feat (Prerequisite: Level 4+, Dexterity or Constitution 13+)",
+      "fr": "Don général (prérequis : niveau 4+, Dextérité ou Constitution 13+)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "General Feat (Prerequisite: Level 4+, Intelligence or Wisdom 13+)",
+      "fr": "Don général (prérequis : niveau 4+, Intelligence ou Sagesse 13+)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "General Feat (Prerequisite: Level 4+, Light Armor Training)",
+      "fr": "Don général (prérequis : niveau 4+, formation aux armures légères)",
+      "category": "don",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Luck Points",
+      "fr": "Points de chance",
       "category": "don",
       "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
       "aliases": []
     },
     {
-      "en": "Hop Up",
-      "fr": "Rétablissement",
+      "en": "Somatic Components",
+      "fr": "Composantes somatiques",
       "category": "don",
       "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
       "aliases": []
     },
     {
-      "en": "Jumping",
-      "fr": "Saut",
+      "en": "Speed Increase",
+      "fr": "Vitesse améliorée",
       "category": "don",
       "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
       "aliases": []
     },
     {
-      "en": "Peerless Aim",
-      "fr": "Visée sans égale",
+      "en": "(Prerequisite: Dexterity 13 or higher)",
+      "fr": "(Prérequis : Dextérité 13 ou plus)",
       "category": "don",
-      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
       "aliases": []
     },
     {
-      "en": "Blink Steps",
-      "fr": "Pas éclair",
+      "en": "(Prerequisite: The ability to cast at least one spell)",
+      "fr": "(Prérequis : capacité à lancer au moins un sort)",
       "category": "don",
-      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
       "aliases": []
     },
     {
-      "en": "Energy Resistances",
-      "fr": "Résistances aux énergies",
+      "en": "(Prerequisite: Strength 13 or higher)",
+      "fr": "(Prérequis : Force 13 ou plus)",
       "category": "don",
-      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
       "aliases": []
     },
     {
-      "en": "Energy Redirection",
-      "fr": "Redirection d’énergie",
+      "en": "(Prerequisite: Proficiency with medium armor)",
+      "fr": "(Prérequis : maîtrise des armures intermédiaires)",
       "category": "don",
-      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
       "aliases": []
     },
     {
-      "en": "Improve Fate",
-      "fr": "Infléchir le destin",
+      "en": "(Prerequisite: Proficiency with heavy armor)",
+      "fr": "(Prérequis : maîtrise des armures lourdes)",
       "category": "don",
-      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
       "aliases": []
     },
     {
-      "en": "Fortified Health",
-      "fr": "Santé renforcée",
+      "en": "(Prerequisite: Charisma 13 or higher)",
+      "fr": "(Prérequis : Charisme 13 ou plus)",
       "category": "don",
-      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
       "aliases": []
     },
     {
-      "en": "Overcome Defenses",
-      "fr": "Percer les défenses",
+      "en": "(Prerequisite: Proficiency with light armor)",
+      "fr": "(Prérequis : maîtrise des armures légères)",
       "category": "don",
-      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
       "aliases": []
     },
     {
-      "en": "Overwhelming Strike",
-      "fr": "Frappe écrasante",
+      "en": "(Prerequisite: Intelligence or Wisdom 13 or higher)",
+      "fr": "(Prérequis : Intelligence ou Sagesse 13 ou plus)",
       "category": "don",
-      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
       "aliases": []
     },
     {
-      "en": "Last Stand",
-      "fr": "Dernier rempart",
+      "en": "(Prerequisite: dwarf or small race)",
+      "fr": "(Prérequis : Nain ou espèce de petite taille)",
       "category": "don",
-      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
       "aliases": []
     },
     {
-      "en": "Recover Vitality",
-      "fr": "Récupérer sa vitalité",
+      "en": "Strength.",
+      "fr": "Force.",
       "category": "don",
-      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "source": "Traduction proposée du texte observé sur Shard · Resilient · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
       "aliases": []
     },
     {
-      "en": "Energy Mastery",
-      "fr": "Maîtrise des énergies",
+      "en": "Dexterity.",
+      "fr": "Dextérité.",
       "category": "don",
-      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "source": "Traduction proposée du texte observé sur Shard · Resilient · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Wisdom.",
+      "fr": "Sagesse.",
+      "category": "don",
+      "source": "Traduction proposée du texte observé sur Shard · Resilient · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Charisma.",
+      "fr": "Charisme.",
+      "category": "don",
+      "source": "Traduction proposée du texte observé sur Shard · Resilient · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Wise Leader.",
+      "fr": "Meneur avisé.",
+      "category": "don",
+      "source": "Traduction proposée du texte observé sur Shard · Inspiring Leader · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Charismatic Leader.",
+      "fr": "Meneur charismatique.",
+      "category": "don",
+      "source": "Traduction proposée du texte observé sur Shard · Inspiring Leader · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
       "aliases": []
     },
     {
@@ -29173,13 +29229,6 @@
     {
       "en": "Enhanced Critical",
       "fr": "Critique renforcé",
-      "category": "don",
-      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
-      "aliases": []
-    },
-    {
-      "en": "Luck Points",
-      "fr": "Points de chance",
       "category": "don",
       "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
       "aliases": []
@@ -29311,20 +29360,6 @@
       "aliases": []
     },
     {
-      "en": "Discount",
-      "fr": "Ristourne",
-      "category": "don",
-      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
-      "aliases": []
-    },
-    {
-      "en": "Fast Crafting",
-      "fr": "Façonnage rapide",
-      "category": "don",
-      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
-      "aliases": []
-    },
-    {
       "en": "Merge with Shadows",
       "fr": "Fusion avec les ombres",
       "category": "don",
@@ -29348,13 +29383,6 @@
     {
       "en": "Bolstering Performance",
       "fr": "Représentation galvanisante",
-      "category": "don",
-      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
-      "aliases": []
-    },
-    {
-      "en": "Weapon Proficiency",
-      "fr": "Maîtrise des armes",
       "category": "don",
       "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
       "aliases": []
@@ -29395,29 +29423,8 @@
       "aliases": []
     },
     {
-      "en": "Level 1 Spell",
-      "fr": "Sort de niveau 1",
-      "category": "don",
-      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
-      "aliases": []
-    },
-    {
-      "en": "Spell Change",
-      "fr": "Changement de sort",
-      "category": "don",
-      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
-      "aliases": []
-    },
-    {
       "en": "Reactive Spell",
       "fr": "Sort réactif",
-      "category": "don",
-      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
-      "aliases": []
-    },
-    {
-      "en": "Somatic Components",
-      "fr": "Composantes somatiques",
       "category": "don",
       "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
       "aliases": []
@@ -29437,13 +29444,6 @@
       "aliases": []
     },
     {
-      "en": "Mastery Property",
-      "fr": "Propriété botte",
-      "category": "don",
-      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
-      "aliases": []
-    },
-    {
       "en": "Pole Strike",
       "fr": "Frappe double",
       "category": "don",
@@ -29453,20 +29453,6 @@
     {
       "en": "Reactive Strike",
       "fr": "Frappe réactive",
-      "category": "don",
-      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
-      "aliases": []
-    },
-    {
-      "en": "Heavy Weapon Mastery",
-      "fr": "Expert en armes lourdes",
-      "category": "don",
-      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
-      "aliases": []
-    },
-    {
-      "en": "Hew",
-      "fr": "Abattage",
       "category": "don",
       "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
       "aliases": []
@@ -29521,13 +29507,6 @@
       "aliases": []
     },
     {
-      "en": "Speed Increase",
-      "fr": "Vitesse améliorée",
-      "category": "don",
-      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
-      "aliases": []
-    },
-    {
       "en": "Dash Over Difficult Terrain",
       "fr": "Pointe sur Terrain difficile",
       "category": "don",
@@ -29542,20 +29521,6 @@
       "aliases": []
     },
     {
-      "en": "Instrument Training",
-      "fr": "Formation aux instruments",
-      "category": "don",
-      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
-      "aliases": []
-    },
-    {
-      "en": "Encouraging Song",
-      "fr": "Chant d’encouragement",
-      "category": "don",
-      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
-      "aliases": []
-    },
-    {
       "en": "Keen Observer",
       "fr": "Observateur attentif",
       "category": "don",
@@ -29565,13 +29530,6 @@
     {
       "en": "Quick Search",
       "fr": "Observation rapide",
-      "category": "don",
-      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
-      "aliases": []
-    },
-    {
-      "en": "Saving Throw Proficiency",
-      "fr": "Maîtrise des jets de sauvegarde",
       "category": "don",
       "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
       "aliases": []
@@ -29633,13 +29591,6 @@
       "aliases": []
     },
     {
-      "en": "Initiative Proficiency",
-      "fr": "Maîtrise de l’Initiative",
-      "category": "don",
-      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
-      "aliases": []
-    },
-    {
       "en": "All-Around Adept",
       "fr": "Adepte universel",
       "category": "don",
@@ -29658,6 +29609,195 @@
       "fr": "Célérité",
       "category": "don",
       "source": "Traduction proposée de l’extrait utilisateur · chapitre des Faveurs épiques Shard 2024 · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Bell, Shovel, Tinder Box",
+      "fr": "Cloche, pelle, boîte à amadou",
+      "category": "don",
+      "source": "Variantes des cellules de Façonnage rapide · référence anglaise AideDD Artisan · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Repeatable",
+      "fr": "Répétable",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Hop Up",
+      "fr": "Rétablissement",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Jumping",
+      "fr": "Saut",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Peerless Aim",
+      "fr": "Visée sans égale",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Blink Steps",
+      "fr": "Pas éclair",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Energy Resistances",
+      "fr": "Résistances aux énergies",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Energy Redirection",
+      "fr": "Redirection d’énergie",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Improve Fate",
+      "fr": "Infléchir le destin",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Fortified Health",
+      "fr": "Santé renforcée",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Overcome Defenses",
+      "fr": "Percer les défenses",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Overwhelming Strike",
+      "fr": "Frappe écrasante",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Last Stand",
+      "fr": "Dernier rempart",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Recover Vitality",
+      "fr": "Récupérer sa vitalité",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Energy Mastery",
+      "fr": "Maîtrise des énergies",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Discount",
+      "fr": "Ristourne",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Fast Crafting",
+      "fr": "Façonnage rapide",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Weapon Proficiency",
+      "fr": "Maîtrise des armes",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Level 1 Spell",
+      "fr": "Sort de niveau 1",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Spell Change",
+      "fr": "Changement de sort",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Mastery Property",
+      "fr": "Propriété botte",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Heavy Weapon Mastery",
+      "fr": "Expert en armes lourdes",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Hew",
+      "fr": "Abattage",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Instrument Training",
+      "fr": "Formation aux instruments",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Encouraging Song",
+      "fr": "Chant d’encouragement",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Saving Throw Proficiency",
+      "fr": "Maîtrise des jets de sauvegarde",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Initiative Proficiency",
+      "fr": "Maîtrise de l’Initiative",
+      "category": "don",
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
       "aliases": []
     },
     {
@@ -29752,29 +29892,8 @@
       "aliases": []
     },
     {
-      "en": "(Prerequisite: Dexterity 13 or higher)",
-      "fr": "(Prérequis : Dextérité 13 ou plus)",
-      "category": "don",
-      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
-      "aliases": []
-    },
-    {
-      "en": "(Prerequisite: The ability to cast at least one spell)",
-      "fr": "(Prérequis : capacité à lancer au moins un sort)",
-      "category": "don",
-      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
-      "aliases": []
-    },
-    {
       "en": "(Prerequisite: Level 4+, Spellcasting or Pact Magic Feature)",
       "fr": "(Prérequis : Niveau 4+, aptitude Sorts ou Magie de pacte)",
-      "category": "don",
-      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
-      "aliases": []
-    },
-    {
-      "en": "(Prerequisite: Strength 13 or higher)",
-      "fr": "(Prérequis : Force 13 ou plus)",
       "category": "don",
       "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
       "aliases": []
@@ -29787,13 +29906,6 @@
       "aliases": []
     },
     {
-      "en": "(Prerequisite: Proficiency with medium armor)",
-      "fr": "(Prérequis : maîtrise des armures intermédiaires)",
-      "category": "don",
-      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
-      "aliases": []
-    },
-    {
       "en": "(Prerequisite: Level 4+, Medium Armor Training)",
       "fr": "(Prérequis : Niveau 4+, formation aux armures intermédiaires)",
       "category": "don",
@@ -29801,22 +29913,8 @@
       "aliases": []
     },
     {
-      "en": "(Prerequisite: Proficiency with heavy armor)",
-      "fr": "(Prérequis : maîtrise des armures lourdes)",
-      "category": "don",
-      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
-      "aliases": []
-    },
-    {
       "en": "(Prerequisite: Level 4+, Heavy Armor Training)",
       "fr": "(Prérequis : Niveau 4+, formation aux armures lourdes)",
-      "category": "don",
-      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
-      "aliases": []
-    },
-    {
-      "en": "(Prerequisite: Charisma 13 or higher)",
-      "fr": "(Prérequis : Charisme 13 ou plus)",
       "category": "don",
       "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
       "aliases": []
@@ -29850,13 +29948,6 @@
       "aliases": []
     },
     {
-      "en": "(Prerequisite: Proficiency with light armor)",
-      "fr": "(Prérequis : maîtrise des armures légères)",
-      "category": "don",
-      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
-      "aliases": []
-    },
-    {
       "en": "(Prerequisite: Level 4+, Light Armor Training)",
       "fr": "(Prérequis : Niveau 4+, formation aux armures légères)",
       "category": "don",
@@ -29866,13 +29957,6 @@
     {
       "en": "(Prerequisite: Level 4+, Intelligence or Wisdom 13+)",
       "fr": "(Prérequis : Niveau 4+, Intelligence ou Sagesse 13+)",
-      "category": "don",
-      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
-      "aliases": []
-    },
-    {
-      "en": "(Prerequisite: Intelligence or Wisdom 13 or higher)",
-      "fr": "(Prérequis : Intelligence ou Sagesse 13 ou plus)",
       "category": "don",
       "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
       "aliases": []
@@ -29927,20 +30011,6 @@
       "aliases": []
     },
     {
-      "en": "(Prerequisite: dwarf or small race)",
-      "fr": "(Prérequis : Nain ou espèce de petite taille)",
-      "category": "don",
-      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
-      "aliases": []
-    },
-    {
-      "en": "General Feat (Prerequisite: Level 4+, Spellcasting or Pact Magic Feature)",
-      "fr": "Don général (prérequis : niveau 4+, aptitude Sorts ou Magie de pacte)",
-      "category": "don",
-      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
-      "aliases": []
-    },
-    {
       "en": "General Feat (Prerequisite: Level 4+)",
       "fr": "Don général (prérequis : niveau 4+)",
       "category": "don",
@@ -29969,20 +30039,6 @@
       "aliases": []
     },
     {
-      "en": "General Feat (Prerequisite: Level 4+, Dexterity 13+)",
-      "fr": "Don général (prérequis : niveau 4+, Dextérité 13+)",
-      "category": "don",
-      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
-      "aliases": []
-    },
-    {
-      "en": "General Feat (Prerequisite: Level 4+, Intelligence 13+)",
-      "fr": "Don général (prérequis : niveau 4+, Intelligence 13+)",
-      "category": "don",
-      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
-      "aliases": []
-    },
-    {
       "en": "Epic Boon Feat (Prerequisite: Level 19+)",
       "fr": "Don de faveur épique (prérequis : niveau 19+)",
       "category": "don",
@@ -29990,85 +30046,8 @@
       "aliases": []
     },
     {
-      "en": "Epic Boon Feat (Prerequisite: Level 19+, Spellcasting Feature)",
-      "fr": "Don de faveur épique (prérequis : niveau 19+, aptitude Sorts)",
-      "category": "don",
-      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
-      "aliases": []
-    },
-    {
-      "en": "General Feat (Prerequisite: Level 4+, Wisdom or Charisma 13+)",
-      "fr": "Don général (prérequis : niveau 4+, Sagesse ou Charisme 13+)",
-      "category": "don",
-      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
-      "aliases": []
-    },
-    {
-      "en": "General Feat (Prerequisite: Level 4+, Intelligence, Wisdom, or Charisma 13+)",
-      "fr": "Don général (prérequis : niveau 4+, Intelligence, Sagesse, ou Charisme 13+)",
-      "category": "don",
-      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
-      "aliases": []
-    },
-    {
-      "en": "General Feat (Prerequisite: Level 4+, Strength 13+)",
-      "fr": "Don général (prérequis : niveau 4+, Force 13+)",
-      "category": "don",
-      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
-      "aliases": []
-    },
-    {
-      "en": "General Feat (Prerequisite: Level 4+, Medium Armor Training)",
-      "fr": "Don général (prérequis : niveau 4+, formation aux armures intermédiaires)",
-      "category": "don",
-      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
-      "aliases": []
-    },
-    {
-      "en": "General Feat (Prerequisite: Level 4+, Heavy Armor Training)",
-      "fr": "Don général (prérequis : niveau 4+, formation aux armures lourdes)",
-      "category": "don",
-      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
-      "aliases": []
-    },
-    {
-      "en": "General Feat (Prerequisite: Level 4+, Shield Training)",
-      "fr": "Don général (prérequis : niveau 4+, formation aux boucliers)",
-      "category": "don",
-      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
-      "aliases": []
-    },
-    {
-      "en": "General Feat (Prerequisite: Level 4+, Dexterity or Constitution 13+)",
-      "fr": "Don général (prérequis : niveau 4+, Dextérité ou Constitution 13+)",
-      "category": "don",
-      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
-      "aliases": []
-    },
-    {
-      "en": "General Feat (Prerequisite: Level 4+, Intelligence or Wisdom 13+)",
-      "fr": "Don général (prérequis : niveau 4+, Intelligence ou Sagesse 13+)",
-      "category": "don",
-      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
-      "aliases": []
-    },
-    {
-      "en": "General Feat (Prerequisite: Level 4+, Light Armor Training)",
-      "fr": "Don général (prérequis : niveau 4+, formation aux armures légères)",
-      "category": "don",
-      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
-      "aliases": []
-    },
-    {
       "en": "Case, Pouch",
       "fr": "Étui, sacoche",
-      "category": "don",
-      "source": "Variantes des cellules de Façonnage rapide · référence anglaise AideDD Artisan · traduction proposée · 13 octobre 2026",
-      "aliases": []
-    },
-    {
-      "en": "Bell, Shovel, Tinder Box",
-      "fr": "Cloche, pelle, boîte à amadou",
       "category": "don",
       "source": "Variantes des cellules de Façonnage rapide · référence anglaise AideDD Artisan · traduction proposée · 13 octobre 2026",
       "aliases": []
@@ -30095,45 +30074,31 @@
       "aliases": []
     },
     {
-      "en": "Strength.",
-      "fr": "Force.",
-      "category": "don",
-      "source": "Traduction proposée du texte observé sur Shard · Resilient · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "en": "Cavern Dwarf",
+      "fr": "Nain des cavernes",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/",
       "aliases": []
     },
     {
-      "en": "Dexterity.",
-      "fr": "Dextérité.",
-      "category": "don",
-      "source": "Traduction proposée du texte observé sur Shard · Resilient · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "en": "Green Halfling",
+      "fr": "Halfelin vert",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/",
       "aliases": []
     },
     {
-      "en": "Wisdom.",
-      "fr": "Sagesse.",
-      "category": "don",
-      "source": "Traduction proposée du texte observé sur Shard · Resilient · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "en": "Woodland Elf",
+      "fr": "Elfe sylvestre",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/",
       "aliases": []
     },
     {
-      "en": "Charisma.",
-      "fr": "Charisme.",
-      "category": "don",
-      "source": "Traduction proposée du texte observé sur Shard · Resilient · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Wise Leader.",
-      "fr": "Meneur avisé.",
-      "category": "don",
-      "source": "Traduction proposée du texte observé sur Shard · Inspiring Leader · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Charismatic Leader.",
-      "fr": "Meneur charismatique.",
-      "category": "don",
-      "source": "Traduction proposée du texte observé sur Shard · Inspiring Leader · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "en": "Sylvan Gnome",
+      "fr": "Gnome sylvestre",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/",
       "aliases": []
     },
     {
@@ -30200,48 +30165,6 @@
       "aliases": []
     },
     {
-      "en": "Cloud Goliath",
-      "fr": "Goliath des nuages",
-      "category": "trait d’espèce",
-      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
-      "aliases": []
-    },
-    {
-      "en": "Fire Goliath",
-      "fr": "Goliath du feu",
-      "category": "trait d’espèce",
-      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
-      "aliases": []
-    },
-    {
-      "en": "Frost Goliath",
-      "fr": "Goliath du givre",
-      "category": "trait d’espèce",
-      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
-      "aliases": []
-    },
-    {
-      "en": "Hill Goliath",
-      "fr": "Goliath des collines",
-      "category": "trait d’espèce",
-      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
-      "aliases": []
-    },
-    {
-      "en": "Stone Goliath",
-      "fr": "Goliath des pierres",
-      "category": "trait d’espèce",
-      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
-      "aliases": []
-    },
-    {
-      "en": "Storm Goliath",
-      "fr": "Goliath des tempêtes",
-      "category": "trait d’espèce",
-      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
-      "aliases": []
-    },
-    {
       "en": "Fiendish Legacies",
       "fr": "Héritages fiélons",
       "category": "trait d’espèce",
@@ -30288,6 +30211,48 @@
       "fr": "Tonnerre des cieux",
       "category": "trait d’espèce",
       "source": "Traduction proposée des variantes générales des ascendances de goliath observées dans Shard · règles SRD 5.2.1 · CC-BY-4.0 · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Cloud Goliath",
+      "fr": "Goliath des nuages",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Fire Goliath",
+      "fr": "Goliath du feu",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Frost Goliath",
+      "fr": "Goliath du givre",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Hill Goliath",
+      "fr": "Goliath des collines",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Stone Goliath",
+      "fr": "Goliath des pierres",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Storm Goliath",
+      "fr": "Goliath des tempêtes",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
       "aliases": []
     },
     {
@@ -30356,34 +30321,6 @@
     {
       "en": "White Dragonborn",
       "fr": "Drakéide blanc",
-      "category": "trait d’espèce",
-      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Cavern Dwarf",
-      "fr": "Nain des cavernes",
-      "category": "trait d’espèce",
-      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Green Halfling",
-      "fr": "Halfelin vert",
-      "category": "trait d’espèce",
-      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Woodland Elf",
-      "fr": "Elfe sylvestre",
-      "category": "trait d’espèce",
-      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Sylvan Gnome",
-      "fr": "Gnome sylvestre",
       "category": "trait d’espèce",
       "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/",
       "aliases": []
@@ -30641,6 +30578,76 @@
       "aliases": []
     },
     {
+      "en": "Legendary Resistance (6/Day)",
+      "fr": "Résistance légendaire (6/jour)",
+      "category": "monstre",
+      "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Reflective Carapace",
+      "fr": "Carapace réfléchissante",
+      "category": "monstre",
+      "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Thunderous Bellow (Recharge 5–6)",
+      "fr": "Mugissement tonitruant (recharge 5–6)",
+      "category": "monstre",
+      "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Onslaught",
+      "fr": "Offensive",
+      "category": "monstre",
+      "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "World-Shaking Movement",
+      "fr": "Déplacement sismique",
+      "category": "monstre",
+      "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Legendary Resistance (3/Day, or 4/Day in Lair)",
+      "fr": "Résistance légendaire (3/jour, ou 4/jour dans son antre)",
+      "category": "monstre",
+      "source": "Titre du trait commun MM 2024 · https://www.aidedd.org/monster/fr/aboleth",
+      "aliases": []
+    },
+    {
+      "en": "Incorporeal Movement",
+      "fr": "Déplacement intangible",
+      "category": "monstre",
+      "source": "Titre du trait commun MM 2024 · https://www.aidedd.org/monster/fr/ame-en-peine",
+      "aliases": []
+    },
+    {
+      "en": "Legendary Resistance (4/Day, or 5/Day in Lair)",
+      "fr": "Résistance légendaire (4/jour, ou 5/jour dans son antre)",
+      "category": "monstre",
+      "source": "Titre du trait commun MM 2024 · https://www.aidedd.org/monster/fr/archi-guenaude",
+      "aliases": []
+    },
+    {
+      "en": "Legendary Resistance (3/Day)",
+      "fr": "Résistance légendaire (3/jour)",
+      "category": "monstre",
+      "source": "Titre du trait commun MM 2024 · https://www.aidedd.org/monster/fr/balor",
+      "aliases": []
+    },
+    {
+      "en": "Legendary Resistance (4/Day)",
+      "fr": "Résistance légendaire (4/jour)",
+      "category": "monstre",
+      "source": "Titre du trait commun MM 2024 · https://www.aidedd.org/monster/fr/colosse",
+      "aliases": []
+    },
+    {
       "en": "Acid (vial)",
       "fr": "Acide (fiole)",
       "category": "équipement",
@@ -30694,6 +30701,132 @@
       "fr": "Lanterne à capote",
       "category": "équipement",
       "source": "Traduction proposée des textes anglais relevés dans Shard · équipement ancien (règles 2014), Shard Player’s Guide Volume 1 ; certaines fiches sont aussi rattachées au D&D 2024 PHB · https://play.shardtabletop.com/#item · 14 octobre 2026. Édition déterminée par le texte, sans conversion des unités.",
+      "aliases": []
+    },
+    {
+      "en": "Giants",
+      "fr": "Géants",
+      "category": "règles",
+      "source": "Pluriel du type de créature Giant du lexique commun · terminologie AideDD",
+      "aliases": []
+    },
+    {
+      "en": "Enlarge",
+      "fr": "Agrandissement",
+      "category": "règles",
+      "source": "Libellé observé dans le catalogue Conditions de Shard · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Reduce",
+      "fr": "Rapetissement",
+      "category": "règles",
+      "source": "Libellé observé dans le catalogue Conditions de Shard · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Turned",
+      "fr": "Renvoyé",
+      "category": "règles",
+      "source": "Libellé observé dans le catalogue Conditions de Shard · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Zero Speed",
+      "fr": "Vitesse nulle",
+      "category": "règles",
+      "source": "Libellé observé dans le catalogue Conditions de Shard · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Radiate Light 40",
+      "fr": "Émission de lumière 40",
+      "category": "règles",
+      "source": "Libellé observé dans le catalogue Conditions de Shard · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Transform",
+      "fr": "Transformation",
+      "category": "règles",
+      "source": "Libellé observé dans le catalogue Conditions de Shard · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Burglar",
+      "fr": "Cambrioleur",
+      "category": "règles",
+      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Deckhand",
+      "fr": "Matelot",
+      "category": "règles",
+      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Elite",
+      "fr": "Notable",
+      "category": "règles",
+      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Herbalist",
+      "fr": "Herboriste",
+      "category": "règles",
+      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Infantry",
+      "fr": "Fantassin",
+      "category": "règles",
+      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Recluse",
+      "fr": "Reclus",
+      "category": "règles",
+      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Researcher",
+      "fr": "Chercheur",
+      "category": "règles",
+      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Snake Oil Seller",
+      "fr": "Vendeur de remèdes miracles",
+      "category": "règles",
+      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Tourist",
+      "fr": "Touriste",
+      "category": "règles",
+      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Vaudevillian",
+      "fr": "Artiste de variétés",
+      "category": "règles",
+      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Death",
+      "fr": "Mort",
+      "category": "règles",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026",
       "aliases": []
     },
     {
@@ -30981,139 +31114,6 @@
       "fr": "Dénué de conscience.",
       "category": "règles",
       "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
-      "aliases": []
-    },
-    {
-      "en": "Burglar",
-      "fr": "Cambrioleur",
-      "category": "règles",
-      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Deckhand",
-      "fr": "Matelot",
-      "category": "règles",
-      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Elite",
-      "fr": "Notable",
-      "category": "règles",
-      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Herbalist",
-      "fr": "Herboriste",
-      "category": "règles",
-      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Infantry",
-      "fr": "Fantassin",
-      "category": "règles",
-      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Recluse",
-      "fr": "Reclus",
-      "category": "règles",
-      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Researcher",
-      "fr": "Chercheur",
-      "category": "règles",
-      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Snake Oil Seller",
-      "fr": "Vendeur de remèdes miracles",
-      "category": "règles",
-      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Tourist",
-      "fr": "Touriste",
-      "category": "règles",
-      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Vaudevillian",
-      "fr": "Artiste de variétés",
-      "category": "règles",
-      "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Giants",
-      "fr": "Géants",
-      "category": "règles",
-      "source": "Pluriel du type de créature Giant du lexique commun · terminologie AideDD",
-      "aliases": []
-    },
-    {
-      "en": "Enlarge",
-      "fr": "Agrandissement",
-      "category": "règles",
-      "source": "Libellé observé dans le catalogue Conditions de Shard · traduction proposée · 13 octobre 2026",
-      "aliases": []
-    },
-    {
-      "en": "Reduce",
-      "fr": "Rapetissement",
-      "category": "règles",
-      "source": "Libellé observé dans le catalogue Conditions de Shard · traduction proposée · 13 octobre 2026",
-      "aliases": []
-    },
-    {
-      "en": "Turned",
-      "fr": "Renvoyé",
-      "category": "règles",
-      "source": "Libellé observé dans le catalogue Conditions de Shard · traduction proposée · 13 octobre 2026",
-      "aliases": []
-    },
-    {
-      "en": "Zero Speed",
-      "fr": "Vitesse nulle",
-      "category": "règles",
-      "source": "Libellé observé dans le catalogue Conditions de Shard · traduction proposée · 13 octobre 2026",
-      "aliases": []
-    },
-    {
-      "en": "Radiate Light 40",
-      "fr": "Émission de lumière 40",
-      "category": "règles",
-      "source": "Libellé observé dans le catalogue Conditions de Shard · traduction proposée · 13 octobre 2026",
-      "aliases": []
-    },
-    {
-      "en": "Transform",
-      "fr": "Transformation",
-      "category": "règles",
-      "source": "Libellé observé dans le catalogue Conditions de Shard · traduction proposée · 13 octobre 2026",
-      "aliases": []
-    },
-    {
-      "en": "Adamantine Dagger",
-      "fr": "Dague en adamantium",
-      "category": "équipement",
-      "source": "Traduction proposée des règles anciennes (2014) relevées sur la fiche Adamantine Dagger, Shard Player’s Guide Volume 1 · https://play.shardtabletop.com/#item · 14 octobre 2026",
-      "aliases": []
-    },
-    {
-      "en": "Death",
-      "fr": "Mort",
-      "category": "règles",
-      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026",
       "aliases": []
     },
     {

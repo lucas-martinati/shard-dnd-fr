@@ -1,6 +1,6 @@
 const fs=require('node:fs'),assert=require('node:assert/strict'),{JSDOM}=require('jsdom');
-const refs=JSON.parse(fs.readFileSync('work/class-texts.json'));
-const sections=JSON.parse(fs.readFileSync('work/class-sections.json'));
+const refs=JSON.parse(fs.readFileSync('work/generated/class-texts.json'));
+const sections=JSON.parse(fs.readFileSync('work/generated/class-sections.json'));
 const packs=require('./translation-fixtures.cjs').pack('classes').entries;
 const w=new JSDOM('<main></main>',{url:'https://play.shardtabletop.com/#class',runScripts:'outside-only',pretendToBeVisual:true}).window,d=w.document,main=d.querySelector('main');
 const escape=s=>s.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;');
@@ -15,7 +15,7 @@ const horde=sections.find(r=>r.en.startsWith('Once on each of your turns when yo
 const mantle=packs.find(r=>r.id==='bard.glamour.mantle-of-inspiration.description');const mantleCard=d.createElement('section');mantleCard.className='stdcontent';mantleCard.innerHTML='<strong>Manteau d’inspiration.</strong><p>'+escape(mantle.en)+'</p>';main.append(mantleCard);
 const subclasses=[];
 for(const r of refs.filter(r=>r.name.endsWith('Subclass'))){const p=d.createElement('p');p.textContent=r.en.replace(/ The .+? subclass is detailed after this class’s description\./,'');main.append(p);subclasses.push(p)}assert.equal(subclasses.length,12);
-const names=fs.readFileSync('translations/classes/creation-2024.tsv','utf8').split('\n').slice(0,48).map(l=>l.split('|'));const titles=names.map(([en])=>{const h=d.createElement('h3');h.textContent=en;main.append(h);return h});
+const names=fs.readFileSync('translations/dnd-2024/phb/classes/creation-2024.tsv','utf8').split('\n').slice(0,48).map(l=>l.split('|'));const titles=names.map(([en])=>{const h=d.createElement('h3');h.textContent=en;main.append(h);return h});
 const styles=[...content.querySelectorAll('strong,i')],original=main.innerHTML;
 w.GM_getValue=(k,f)=>f;w.GM_setValue=()=>{};w.GM_registerMenuCommand=()=>{};
 const pause=ms=>new Promise(r=>setTimeout(r,ms));async function wait(f){for(let i=0;i<300&&!f();i++)await pause(25);assert.ok(f(),'Class sections translation timed out');}

@@ -24,19 +24,20 @@ def load_packs(directory=None):
     rows, seen, ids = [], {}, set()
     directory = Path(directory) if directory is not None else ROOT / 'translations'
     paths = directory.rglob('traductions.json') if directory.resolve() == (ROOT / 'translations').resolve() else directory.glob('*.json')
-    for path in sorted(paths):
+    # Le livre ne doit pas changer la priorité entre catégories historiques.
+    for path in sorted(paths, key=lambda p: (p.parent.name, str(p))):
         try:
             pack = json.loads(path.read_text(encoding='utf-8'))
         except (ValueError, OSError) as exc:
             raise ValueError(f'{path.name}: JSON invalide : {exc}') from exc
-        if not isinstance(pack, dict) or type(pack.get('schemaVersion')) is not int or pack.get('schemaVersion') != 1:
+        if not isinstance(pack, dict) or type(pack.get('schemaVersion', 1)) is not int or pack.get('schemaVersion', 1) != 1:
             raise ValueError(f'{path.name}: schemaVersion doit valoir 1')
         unknown = set(pack) - {'$schema', 'schemaVersion', 'source', 'edition', 'entries'}
         if unknown:
             raise ValueError(f'{path.name}: champs inconnus : {sorted(unknown)}')
-        if not isinstance(pack.get('source'), str) or not pack['source'].strip():
-            raise ValueError(f'{path.name}: source obligatoire')
-        if pack.get('edition') not in ['2014', '2024', 'any']:
+        if 'source' in pack and (not isinstance(pack['source'], str) or not pack['source'].strip()):
+            raise ValueError(f'{path.name}: source de pack invalide')
+        if pack.get('edition', 'any') not in ['2014', '2024', 'any']:
             raise ValueError(f'{path.name}: edition doit valoir 2014, 2024 ou any')
         if not isinstance(pack.get('entries'), list):
             raise ValueError(f'{path.name}: entries doit être une liste')
@@ -48,8 +49,8 @@ def load_packs(directory=None):
             if unknown:
                 raise ValueError(f'{where}: champs inconnus : {sorted(unknown)}')
             ident, kind = entry.get('id'), entry.get('kind', 'description')
-            source = entry.get('source', pack['source'])
-            edition = entry.get('edition', pack['edition'])
+            source = entry.get('source', pack.get('source'))
+            edition = entry.get('edition', pack.get('edition', 'any'))
             if not isinstance(source, str) or not source.strip() or edition not in ['2014', '2024', 'any']:
                 raise ValueError(f'{where}: source ou édition invalide')
             if not isinstance(ident, str) or not ident.strip() or ident in ids:

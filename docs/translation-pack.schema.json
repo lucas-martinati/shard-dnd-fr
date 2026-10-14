@@ -3,16 +3,15 @@
   "title": "Pack de traductions Shard D&D FR",
   "type": "object",
   "required": [
-    "schemaVersion",
-    "edition",
-    "source",
     "entries"
   ],
   "properties": {
     "schemaVersion": {
-      "const": 1
+      "const": 1,
+      "default": 1
     },
     "edition": {
+      "default": "any",
       "enum": [
         "2014",
         "2024",
@@ -78,5 +77,9 @@
       "type": "string"
     }
   },
+  "anyOf": [
+    { "required": ["source"] },
+    { "properties": { "entries": { "items": { "required": ["source"] } } } }
+  ],
   "additionalProperties": false
 }
