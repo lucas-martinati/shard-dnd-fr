@@ -1,5 +1,17 @@
 # Audit de couverture — 13 octobre 2026
 
+## Complément du 14 octobre 2026 — aptitudes, dons, armes et version 1.17.10
+
+Le catalogue public de Shard a été parcouru pour ouvrir les 12 classes et leurs 48 sous-classes 2024, les 131 fiches détaillées de dons disponibles, ainsi que 48 fiches d’armes représentatives. La liste des armes a fourni 450 lignes, soit 449 noms distincts, avec les variantes +1/+2/+3, en adamantium, argentées et les grandes familles d’armes magiques.
+
+Cette passe ajoute 1 972 correspondances exactes : 1 402 pour les classes et aptitudes, 49 pour les dons et 521 pour les armes et leurs pluriels. Elles couvrent des paragraphes, options, champs, titres de niveau, cellules de tableaux et noms complets. Les règles communes des armes magiques sont réutilisées lorsque leur anglais est identique. Les chiffres, dés et distances de Shard sont conservés ; une propriété ancienne n’est pas réécrite selon sa version 2024. Les traductions proposées et leur provenance sont identifiées par entrée.
+
+`tests/fixtures/shard-catalogue.json` conserve les 239 extraits HTML ouverts et les 450 noms de la liste. Le test du catalogue les traite par petits lots, vérifie les nouvelles correspondances, l’identité des liens et dés, leurs clics et la restauration du HTML anglais. Les autres suites continuent de vérifier les descriptions préexistantes et les différences entre éditions. Les lignes de description en DIV sans classe, avec des fragments en gras, bénéficient aussi du traitement des paragraphes.
+
+Ce relevé des fiches anglaises dans le navigateur et ses tests locaux ne constituent pas une vérification en direct du nouveau userscript installé dans Tampermonkey. Les descriptions des 450 armes n’ont pas toutes été ouvertes : le contrôle détaillé porte sur 48 fiches et les textes qu’elles partagent. Les autres suppléments, contenus maison et descriptions de monstres restent des zones de couverture partielle.
+
+La version de publication vient uniquement de `package.json`. `npm run version:patch` augmente le correctif et reconstruit les livrables ; `npm run build` synchronise le verrou npm et génère les versions du userscript, des métadonnées, du panneau et du lexique. Les anciennes notes de publication gardent leurs numéros historiques.
+
 ## Complément du 14 octobre 2026 — équipement, version 1.17.9
 
 Examen de l’accueil, des filtres du catalogue d’objets et de 18 fiches dans la session Shard accessible au navigateur intégré : Abacus, Acid, Acid (vial), Alchemist’s Fire (flask), Ball Bearings (Bag of 1,000), Caltrops (20), Holy Water (flask), Oil (flask), Basic Poison (vial), Healer’s Kit, Hunting Trap, Manacles, Crowbar, Antitoxin, Tinderbox, Bullseye Lantern, Hooded Lantern et Adamantine Dagger. Aucun personnage, objet ou contenu de campagne n’a été modifié.

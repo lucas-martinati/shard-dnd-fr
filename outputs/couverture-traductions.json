@@ -9,14 +9,14 @@
     "dons": {
       "nomsCatalogueAideDD2024": 75,
       "entreesDictionnaires": 0,
-      "libellesEditables": 173,
-      "blocsEditables": 278
+      "libellesEditables": 182,
+      "blocsEditables": 318
     },
     "classes": {
       "nomsCatalogueAideDD2024": 28,
       "entreesDictionnaires": 602,
-      "libellesEditables": 9,
-      "blocsEditables": 208
+      "libellesEditables": 206,
+      "blocsEditables": 1413
     },
     "especes": {
       "nomsCatalogueAideDD2024": 0,
@@ -33,8 +33,8 @@
     "armes": {
       "nomsCatalogueAideDD2024": 0,
       "entreesDictionnaires": 0,
-      "libellesEditables": 43,
-      "blocsEditables": 35
+      "libellesEditables": 430,
+      "blocsEditables": 169
     },
     "monstres": {
       "nomsCatalogueAideDD2024": 498,
@@ -56,7 +56,7 @@
     }
   },
   "corpusLocaux": {
-    "descriptionsEtChampsLocauxUniques": 3340,
+    "descriptionsEtChampsLocauxUniques": 4720,
     "presentationsShard": {
       "fichesRelevees": 153,
       "avecDescription": 149,
@@ -192,7 +192,7 @@
       }
     },
     "armesSRD2024": 38,
-    "sousSectionsEtVariantesClasses": 287,
+    "sousSectionsEtVariantesClasses": 288,
     "nomsSousClassesPHB2024": 48
   },
   "aVerifier": [],

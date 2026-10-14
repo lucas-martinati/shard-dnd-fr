@@ -14,6 +14,12 @@ for(const match of meta.matchAll(/^\/\/ @(\S+)\s+(.+)$/gm)){
 }
 assert.ok(fields.get('name'));assert.ok(fields.get('namespace'));
 assert.equal(fields.get('version'),version);
+const lock=JSON.parse(fs.readFileSync('package-lock.json','utf8'));
+assert.equal(lock.version,version);
+assert.equal(lock.packages[''].version,version);
+assert.equal(JSON.parse(fs.readFileSync('outputs/lexique-en-fr.json','utf8')).version,version);
+assert.ok(script.includes('const SCRIPT_VERSION = '+JSON.stringify(version)+';'));
+assert.match(fs.readFileSync('work/header.txt','utf8'),/^\/\/ @version\s+\{\{VERSION\}\}$/m);
 const base='https://raw.githubusercontent.com/lucas-martinati/shard-dnd-fr/main/outputs/';
 assert.equal(fields.get('updateURL'),base+'shard-dnd-fr.meta.js');
 assert.equal(fields.get('downloadURL'),base+'shard-dnd-fr.user.js');

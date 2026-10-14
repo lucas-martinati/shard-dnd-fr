@@ -15,7 +15,7 @@ Consulter le [guide complet](outputs/INSTALLATION.md) pour les réglages, les re
 
 `npm run build` génère aussi `outputs/shard-dnd-fr.meta.js`, qui contient uniquement le header du script, avec la même version et les mêmes métadonnées. Tampermonkey consulte ce petit fichier via `@updateURL`, puis télécharge le script complet via `@downloadURL` lorsqu’une nouvelle version est disponible.
 
-Pour publier une mise à jour, augmenter la version dans `package.json`, exécuter `npm run build` et `npm test`, puis commit et pousser les fichiers générés sur `main`, y compris le `.meta.js`. Les liens de mise à jour deviennent disponibles après cette publication.
+Pour préparer une mise à jour, exécuter `npm run version:patch` puis `npm test`. La commande augmente la version dans `package.json` et reconstruit les livrables ; le build synchronise aussi `package-lock.json`. Aucun numéro n’est à recopier dans le header, le panneau ou le lexique. Pour choisir un numéro précis : `npm run version:set -- 1.18.0`, puis `npm run build`. Commit et pousser les fichiers générés sur `main`, y compris le `.meta.js`, rend ensuite la mise à jour disponible.
 
 Les utilisateurs ayant une ancienne installation par copier-coller doivent remplacer une fois leur script par la version contenant ces liens. Ensuite, les vérifications et installations de mises à jour suivent leurs réglages Tampermonkey. Le fichier `.meta.js` ne s’installe pas : le fichier à installer reste le [script complet](https://raw.githubusercontent.com/lucas-martinati/shard-dnd-fr/main/outputs/shard-dnd-fr.user.js).
 
@@ -53,6 +53,8 @@ La 1.17.7 permet de traduire les portions connues autour des boutons et champs i
 La 1.17.8 ajoute les deux paragraphes d’Inspiration héroïque fournis : relance immédiate de n’importe quel dé avec obligation de conserver le nouveau résultat, et perte de l’Inspiration reçue en double sauf transfert à un personnage joueur qui n’en a pas. Cette règle 2024 reste distincte de l’ancienne Inspiration qui donne l’Avantage.
 
 La 1.17.9 complète 20 paragraphes relevés sur 16 fiches d’équipement dans Shard : 15 objets usuels (fioles, billes, chausse-trappes, trousse de soins, piège, menottes, pied-de-biche, antitoxine, boîte à amadou et lanternes) et la dague en adamantium. Elle ajoute aussi 9 noms exacts et 4 libellés d’interface. Les règles anciennes restent distinctes des versions 2024, même lorsque Shard rattache une ancienne description au livre 2024. Les liens, dés, titres en gras/italique et la restauration exacte de ces extraits sont vérifiés localement ; cet échantillon ne couvre pas tout le catalogue d’objets.
+
+La 1.17.10 ajoute 1 972 correspondances pour les aptitudes, dons et armes après ouverture des 60 fiches de classes/sous-classes, des 131 dons et de 48 armes représentatives. Les 450 noms du catalogue d’armes sont vérifiés localement. Elle centralise aussi la version dans `package.json`, avec `npm run version:patch` pour incrémenter et reconstruire. Le [complément d’audit](docs/AUDIT-COUVERTURE.md) précise le périmètre et les limites.
 
 ## Repérer un passage non traduit
 

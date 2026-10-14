@@ -56,7 +56,16 @@ npm test
 
 Les nouveaux paragraphes et libellés sont testés à partir des packs dans un DOM comportant des dés cliquables. Les tests contrôlent la traduction, la conservation des éléments interactifs et le retour au texte anglais.
 
-Le numéro de version utilisé pour le script et le lexique vient de `package.json`. Les corrections, ajouts de traductions et améliorations courantes incrémentent uniquement le dernier numéro : `1.17.1`, `1.17.2`, `1.17.3`, etc. Un changement du numéro mineur ou majeur est réservé à une évolution plus importante ; il ne suit pas automatiquement chaque commit.
+`package.json` est l’unique source de la version. Le build synchronise automatiquement les deux versions du projet dans `package-lock.json` et génère la version des métadonnées Tampermonkey, du userscript, de son panneau et du lexique. Le modèle `work/header.txt` contient `{{VERSION}}` : ne pas y recopier de numéro. Les versions des dépendances et les anciennes notes de publication restent indépendantes.
+
+Pour une correction ou un ajout de traductions, cette commande incrémente le dernier numéro et reconstruit tous les livrables :
+
+```sh
+npm run version:patch
+npm test
+```
+
+Pour choisir une version particulière : `npm run version:set -- 1.18.0`, puis `npm run build`. Il est aussi possible de modifier uniquement `version` dans `package.json` et de lancer le build. Un changement du numéro mineur ou majeur est réservé à une évolution plus importante ; il ne suit pas automatiquement chaque commit.
 
 ## Repérer les manques dans un HTML
 

@@ -2,16 +2,17 @@ from translation_sources import source as translation_source, DICTIONARIES
 from pathlib import Path
 import json,re,unicodedata
 from translation_packs import load_packs
+from version import sync_lock
 root=Path(__file__).resolve().parent.parent
 out=root/'outputs';work=root/'work'
-version=json.loads((root/'package.json').read_text())['version']
+version=sync_lock(root)
 pack_rows=load_packs()
 pack_terms={row['en']:row for row in pack_rows if row['kind']=='term'}
 # Ordre explicite : références vérifiées prioritaires, puis corrections personnelles à l’exécution.
 modules=DICTIONARIES
 def norm(s):return re.sub(r'\s+',' ',re.sub('[‐‑–]','-',re.sub('[’‘ʼ]',"'",unicodedata.normalize('NFC',s)))).strip().lower()
 meta={};records={};parts=[]
-oldheader=re.sub(r'(?m)^(// @version\s+).+$',lambda m:m[1]+version,(work/'header.txt').read_text())
+oldheader=(work/'header.txt').read_text().replace('{{VERSION}}',version)
 metadata=re.match(r'\A// ==UserScript==\r?\n[\s\S]*?^// ==/UserScript==\s*$',oldheader,re.M)
 if not metadata:raise ValueError('Bloc de métadonnées Tampermonkey absent de work/header.txt')
 parts=[oldheader,'(() => {\n"use strict";\n']

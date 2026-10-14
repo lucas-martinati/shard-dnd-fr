@@ -3339,6 +3339,398 @@
       "fr": "Cloche, pelle, boîte à amadou",
       "edition": "2024",
       "source": "Variantes des cellules de Façonnage rapide · référence anglaise AideDD Artisan · traduction proposée · 13 octobre 2026"
+    },
+    {
+      "id": "shard.dons.ability-score-improvement-2.fc88ad049f",
+      "kind": "description",
+      "en": "General Feat (Prerequisite: Level 4+ , Ability Score Improvement)",
+      "fr": "Don général (Prérequis : niveau 4+, Amélioration de caractéristique)",
+      "source": "Traduction proposée du texte observé sur Shard · Ability Score Improvement 2 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.ability-score-improvement-3.5d16218af9",
+      "kind": "description",
+      "en": "General Feat (Prerequisite: Level 4+ , Ability Score Improvement 2)",
+      "fr": "Don général (Prérequis : niveau 4+, Amélioration de caractéristique 2)",
+      "source": "Traduction proposée du texte observé sur Shard · Ability Score Improvement 3 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.ability-score-improvement-4.b1c88bee44",
+      "kind": "description",
+      "en": "General Feat (Prerequisite: Level 4+ , Ability Score Improvement 3)",
+      "fr": "Don général (Prérequis : niveau 4+, Amélioration de caractéristique 3)",
+      "source": "Traduction proposée du texte observé sur Shard · Ability Score Improvement 4 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.ability-score-improvement-5.c8da06d776",
+      "kind": "description",
+      "en": "General Feat (Prerequisite: Level 4+ , Ability Score Improvement 4)",
+      "fr": "Don général (Prérequis : niveau 4+, Amélioration de caractéristique 4)",
+      "source": "Traduction proposée du texte observé sur Shard · Ability Score Improvement 5 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.heavily-armored.6ce50b2d54",
+      "kind": "description",
+      "en": "Increase your Constitution or Strength score by 1, to a maximum of 20.",
+      "fr": "Augmentez votre valeur de Constitution ou de Force de 1, jusqu’à un maximum de 20.",
+      "source": "Traduction proposée du texte observé sur Shard · Heavily Armored · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.inspiring-leader.04e4ffd990",
+      "kind": "description",
+      "en": "Ability Score Increase. Increase your Wisdom score by 1, to a maximum of 20.",
+      "fr": "Augmentation de caractéristique. Augmentez votre valeur de Sagesse de 1, jusqu’à un maximum de 20.",
+      "source": "Traduction proposée du texte observé sur Shard · Inspiring Leader · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.inspiring-leader.6341892998",
+      "kind": "description",
+      "en": "Bolstering Performance. When you finish a Short or Long Rest, you can give an inspiring performance: a speech, song, or dance. When you do so, choose up to six allies (which can include yourself) within 30 feet of yourself who witness the performance. The chosen creatures each gain Temporary Hit Points equal to your character level plus your Wisdom modifier.",
+      "fr": "Représentation galvanisante. Lorsque vous terminez un repos court ou long, vous pouvez donner une représentation inspirante : un discours, une chanson ou une danse. Choisissez alors jusqu’à six alliés (vous pouvez vous inclure) situés dans un rayon de 30 feet de vous et qui assistent à la représentation. Chaque créature choisie gagne des points de vie temporaires égaux à votre niveau de personnage plus votre modificateur de Sagesse.",
+      "source": "Traduction proposée du texte observé sur Shard · Inspiring Leader · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.inspiring-leader.ea3b5e62b7",
+      "kind": "description",
+      "en": "Ability Score Increase. Increase your Charisma score by 1, to a maximum of 20.",
+      "fr": "Augmentation de caractéristique. Augmentez votre Charisme de 1, jusqu’à un maximum de 20.",
+      "source": "Traduction proposée du texte observé sur Shard · Inspiring Leader · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.inspiring-leader.9764760ccb",
+      "kind": "description",
+      "en": "Bolstering Performance. When you finish a Short or Long Rest, you can give an inspiring performance: a speech, song, or dance. When you do so, choose up to six allies (which can include yourself) within 30 feet of yourself who witness the performance. The chosen creatures each gain Temporary Hit Points equal to your character level plus your Charisma modifier.",
+      "fr": "Représentation galvanisante. Lorsque vous terminez un repos court ou long, vous pouvez donner une représentation inspirante : un discours, une chanson ou une danse. Choisissez alors jusqu’à six alliés (vous pouvez vous inclure) situés dans un rayon de 30 feet de vous et qui assistent à la représentation. Chaque créature choisie gagne des points de vie temporaires égaux à votre niveau de personnage plus votre modificateur de Charisme.",
+      "source": "Traduction proposée du texte observé sur Shard · Inspiring Leader · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.magic-initiate-2.6123468062",
+      "kind": "description",
+      "en": "Origin Feat (Prerequisite: Magic Initiate)",
+      "fr": "Don d’origine (Prérequis : Initié à la magie)",
+      "source": "Traduction proposée du texte observé sur Shard · Magic Initiate 2 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.magic-initiate-3.bb2b045e25",
+      "kind": "description",
+      "en": "Origin Feat (Prerequisite: Magic Initiate 2)",
+      "fr": "Don d’origine (Prérequis : Initié à la magie 2)",
+      "source": "Traduction proposée du texte observé sur Shard · Magic Initiate 3 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.poisoner.a82b5ec668",
+      "kind": "description",
+      "en": "You gain proficiency with the Poisoner’s Kit. With 1 hour of work using such a kit and expending 50 GP worth of materials, you can create a number of poison doses equal to your Proficiency Bonus. As a Bonus Action, you can apply a poison dose to a weapon or piece of ammunition. Once applied, the poison retains its potency for 1 minute or until until you deal damage with the poisoned item, whichever is shorter. When a creature takes damage from the poisoned item, that creature must succeed on a Constitution saving throw (DC 8 plus the modifier of the ability increased by this feat and your Proficiency Bonus) or take 2d8 Poison damage and have the Poisoned condition until the end of your next turn.",
+      "fr": "Vous maîtrisez le matériel d’empoisonneur. Avec 1 heure de travail à l’aide de ce matériel et en dépensant 50 po de composants, vous pouvez créer un nombre de doses de poison égal à votre bonus de maîtrise. Par une action bonus, vous pouvez appliquer une dose de poison sur une arme ou une munition. Une fois appliqué, le poison reste actif pendant 1 minute ou jusqu’à ce que vous infligiez des dégâts avec l’objet empoisonné, selon ce qui survient en premier. Lorsqu’une créature subit des dégâts de l’objet empoisonné, elle doit réussir un jet de sauvegarde de Constitution (DD 8 plus le modificateur de la caractéristique augmentée par ce don et votre bonus de maîtrise), sous peine de subir 2d8 dégâts de poison et l’état Empoisonné jusqu’à la fin de votre prochain tour.",
+      "source": "Traduction proposée du texte observé sur Shard · Poisoner · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.resilient.bf987f8f6d",
+      "kind": "description",
+      "en": "You have proficiency with Strength saving throws and your Strength score increases by 1.",
+      "fr": "Vous maîtrisez les jets de sauvegarde de Force et votre valeur de Force augmente de 1.",
+      "source": "Traduction proposée du texte observé sur Shard · Resilient · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.resilient.e62ccdc70b",
+      "kind": "description",
+      "en": "You have proficiency with Dexterity saving throws and your Dexterity score increases by 1.",
+      "fr": "Vous maîtrisez les jets de sauvegarde de Dextérité et votre valeur de Dextérité augmente de 1.",
+      "source": "Traduction proposée du texte observé sur Shard · Resilient · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.resilient.2e44c0f672",
+      "kind": "description",
+      "en": "You have proficiency with Constitution saving throws and your Constitution score increases by 1.",
+      "fr": "Vous maîtrisez les jets de sauvegarde de Constitution et votre valeur de Constitution augmente de 1.",
+      "source": "Traduction proposée du texte observé sur Shard · Resilient · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.resilient.04428e426a",
+      "kind": "description",
+      "en": "You have proficiency with Intelligence saving throws and your Intelligence score increases by 1.",
+      "fr": "Vous maîtrisez les jets de sauvegarde d’Intelligence et votre valeur d’Intelligence augmente de 1.",
+      "source": "Traduction proposée du texte observé sur Shard · Resilient · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.resilient.83c9f43978",
+      "kind": "description",
+      "en": "You have proficiency with Wisdom saving throws and your Wisdom score increases by 1.",
+      "fr": "Vous maîtrisez les jets de sauvegarde de Sagesse et votre valeur de Sagesse augmente de 1.",
+      "source": "Traduction proposée du texte observé sur Shard · Resilient · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.resilient.134a1050ea",
+      "kind": "description",
+      "en": "You have proficiency with Charisma saving throws and your Charisma score increases by 1.",
+      "fr": "Vous maîtrisez les jets de sauvegarde de Charisme et votre valeur de Charisme augmente de 1.",
+      "source": "Traduction proposée du texte observé sur Shard · Resilient · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.ritual-caster.5ec96a2fe8",
+      "kind": "description",
+      "en": "General Feat (Prerequisite: Level 4+; Intelligence, Wisdom, or Charisma 13+)",
+      "fr": "Don général (Prérequis : niveau 4+ ; Intelligence, Sagesse ou Charisme 13+)",
+      "source": "Traduction proposée du texte observé sur Shard · Ritual Caster · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.shield-master.bbaee11f17",
+      "kind": "description",
+      "en": "If you’re subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you can take a Reaction to take no damage if you succeed on the saving throw and are holding a Shield.",
+      "fr": "Si vous êtes soumis à un effet qui vous permet d’effectuer un jet de sauvegarde de Dextérité pour ne subir que la moitié des dégâts, vous pouvez prendre une réaction pour ne subir aucun dégât si vous réussissez ce jet de sauvegarde et tenez un bouclier.",
+      "source": "Traduction proposée du texte observé sur Shard · Shield Master · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.skilled-2.dc3a788ccf",
+      "kind": "description",
+      "en": "Origin Feat (Prerequisite: Skilled)",
+      "fr": "Don d’origine (Prérequis : Doué)",
+      "source": "Traduction proposée du texte observé sur Shard · Skilled 2 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.skilled-3.313d9ccdf0",
+      "kind": "description",
+      "en": "Origin Feat (Prerequisite: Skilled 2)",
+      "fr": "Don d’origine (Prérequis : Doué 2)",
+      "source": "Traduction proposée du texte observé sur Shard · Skilled 3 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.skilled-4.0f301e12a7",
+      "kind": "description",
+      "en": "Origin Feat (Prerequisite: Skilled 3)",
+      "fr": "Don d’origine (Prérequis : Doué 3)",
+      "source": "Traduction proposée du texte observé sur Shard · Skilled 4 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.skilled-5.29cce910ed",
+      "kind": "description",
+      "en": "Origin Feat (Prerequisite: Skilled 4)",
+      "fr": "Don d’origine (Prérequis : Doué 4)",
+      "source": "Traduction proposée du texte observé sur Shard · Skilled 5 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.spell-sniper.15a0efb461",
+      "kind": "description",
+      "en": "You have learned techniques to enhance your attacks with certain kinds of spells, gaining the following benefits:",
+      "fr": "Vous avez appris des techniques pour améliorer vos attaques avec certains types de sorts et bénéficiez des avantages suivants :",
+      "source": "Traduction proposée du texte observé sur Shard · Spell Sniper · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.spell-sniper.65ddd1446d",
+      "kind": "description",
+      "en": "When you cast a spell that requires you to make an attack roll, the spell's range is doubled.",
+      "fr": "Lorsque vous lancez un sort qui exige un jet d’attaque, sa portée est doublée.",
+      "source": "Traduction proposée du texte observé sur Shard · Spell Sniper · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.spell-sniper.b4b62b2f6c",
+      "kind": "description",
+      "en": "Your ranged spell attacks ignore half cover and three-quarters cover.",
+      "fr": "Vos attaques de sort à distance ignorent les abris partiels et les abris importants.",
+      "source": "Traduction proposée du texte observé sur Shard · Spell Sniper · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.spell-sniper.a4b77b2a47",
+      "kind": "description",
+      "en": "You learn one cantrip from the bard spell list that requires an attack roll. Your spellcasting ability for this cantrip is Charisma.",
+      "fr": "Vous apprenez un sort mineur de la liste de sorts de barde qui nécessite un jet d’attaque. Votre caractéristique d’incantation pour ce sort mineur est le Charisme.",
+      "source": "Traduction proposée du texte observé sur Shard · Spell Sniper · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.spell-sniper.9aa97f3547",
+      "kind": "description",
+      "en": "Spell Sniper (Bard Cantrip).",
+      "fr": "Incantateur d’élite (sort mineur de barde).",
+      "source": "Traduction proposée du texte observé sur Shard · Spell Sniper · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.spell-sniper.539f73c575",
+      "kind": "description",
+      "en": "You learn one cantrip from the cleric spell list that requires an attack roll. Your spellcasting ability for this cantrip is Wisdom.",
+      "fr": "Vous apprenez un sort mineur de la liste de sorts de clerc qui nécessite un jet d’attaque. Votre caractéristique d’incantation pour ce sort mineur est la Sagesse.",
+      "source": "Traduction proposée du texte observé sur Shard · Spell Sniper · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.spell-sniper.2da0b2ec13",
+      "kind": "description",
+      "en": "Spell Sniper (Cleric Cantrip).",
+      "fr": "Incantateur d’élite (sort mineur de clerc).",
+      "source": "Traduction proposée du texte observé sur Shard · Spell Sniper · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.spell-sniper.8989eec000",
+      "kind": "description",
+      "en": "You learn one cantrip from the druid spell list that requires an attack roll. Your spellcasting ability for this cantrip is Wisdom.",
+      "fr": "Vous apprenez un sort mineur de la liste de sorts de druide qui nécessite un jet d’attaque. Votre caractéristique d’incantation pour ce sort mineur est la Sagesse.",
+      "source": "Traduction proposée du texte observé sur Shard · Spell Sniper · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.spell-sniper.03bd98426b",
+      "kind": "description",
+      "en": "Spell Sniper (Druid Cantrip).",
+      "fr": "Incantateur d’élite (sort mineur de druide).",
+      "source": "Traduction proposée du texte observé sur Shard · Spell Sniper · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.spell-sniper.cb615d5949",
+      "kind": "description",
+      "en": "You learn one cantrip from the sorcerer spell list that requires an attack roll. Your spellcasting ability for this cantrip is Charisma.",
+      "fr": "Vous apprenez un sort mineur de la liste de sorts d’ensorceleur qui nécessite un jet d’attaque. Votre caractéristique d’incantation pour ce sort mineur est le Charisme.",
+      "source": "Traduction proposée du texte observé sur Shard · Spell Sniper · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.spell-sniper.262068358a",
+      "kind": "description",
+      "en": "Spell Sniper (Sorcerer Cantrip).",
+      "fr": "Incantateur d’élite (sort mineur d’ensorceleur).",
+      "source": "Traduction proposée du texte observé sur Shard · Spell Sniper · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.spell-sniper.b4818a1ec1",
+      "kind": "description",
+      "en": "You learn one cantrip from the warlock spell list that requires an attack roll. Your spellcasting ability for this cantrip is Charisma.",
+      "fr": "Vous apprenez un sort mineur de la liste de sorts d’occultiste qui nécessite un jet d’attaque. Votre caractéristique d’incantation pour ce sort mineur est le Charisme.",
+      "source": "Traduction proposée du texte observé sur Shard · Spell Sniper · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.spell-sniper.3f730c90f6",
+      "kind": "description",
+      "en": "Spell Sniper (Warlock Cantrip).",
+      "fr": "Incantateur d’élite (sort mineur d’occultiste).",
+      "source": "Traduction proposée du texte observé sur Shard · Spell Sniper · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.spell-sniper.997ab87415",
+      "kind": "description",
+      "en": "You learn one cantrip from the wizard spell list that requires an attack roll. Your spellcasting ability for this cantrip is Charisma.",
+      "fr": "Vous apprenez un sort mineur de la liste de sorts de magicien qui nécessite un jet d’attaque. Votre caractéristique d’incantation pour ce sort mineur est le Charisme.",
+      "source": "Traduction proposée du texte observé sur Shard · Spell Sniper · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.spell-sniper.af891d2609",
+      "kind": "description",
+      "en": "Spell Sniper (Wizard Cantrip).",
+      "fr": "Incantateur d’élite (sort mineur de magicien).",
+      "source": "Traduction proposée du texte observé sur Shard · Spell Sniper · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.war-caster.ca5b39d741",
+      "kind": "description",
+      "en": "When a creature provokes an Opportunity Attack from you by leaving your reach, you can take a Reaction to cast a spell at the creature rather than making an Opportunity Attack. The spell must have a casting time of one action and must target only that creature.",
+      "fr": "Lorsqu’une créature provoque une attaque d’opportunité de votre part en quittant votre allonge, vous pouvez prendre une réaction pour lancer un sort sur elle au lieu d’effectuer l’attaque d’opportunité. Le sort doit avoir un temps d’incantation d’une action et ne cibler que cette créature.",
+      "source": "Traduction proposée du texte observé sur Shard · War Caster · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.boon-of-skill.0a3e6506ae",
+      "kind": "term",
+      "en": "All-Around Adept.",
+      "fr": "Adepte universel.",
+      "source": "Traduction proposée du texte observé sur Shard · Boon of Skill · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.boon-of-speed.684b2183cd",
+      "kind": "term",
+      "en": "Escape Artist.",
+      "fr": "Art de l’évasion.",
+      "source": "Traduction proposée du texte observé sur Shard · Boon of Speed · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.boon-of-speed.8384b03f2e",
+      "kind": "term",
+      "en": "Quickness.",
+      "fr": "Célérité.",
+      "source": "Traduction proposée du texte observé sur Shard · Boon of Speed · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.resilient.6e87587814",
+      "kind": "term",
+      "en": "Strength.",
+      "fr": "Force.",
+      "source": "Traduction proposée du texte observé sur Shard · Resilient · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.resilient.39e94aeec0",
+      "kind": "term",
+      "en": "Dexterity.",
+      "fr": "Dextérité.",
+      "source": "Traduction proposée du texte observé sur Shard · Resilient · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.resilient.b17e53345e",
+      "kind": "term",
+      "en": "Wisdom.",
+      "fr": "Sagesse.",
+      "source": "Traduction proposée du texte observé sur Shard · Resilient · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.resilient.fb822ee327",
+      "kind": "term",
+      "en": "Charisma.",
+      "fr": "Charisme.",
+      "source": "Traduction proposée du texte observé sur Shard · Resilient · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.labels.f737ae812659",
+      "kind": "term",
+      "en": "Wise Leader.",
+      "fr": "Meneur avisé.",
+      "source": "Traduction proposée du texte observé sur Shard · Inspiring Leader · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.dons.labels.c66529cf0799",
+      "kind": "term",
+      "en": "Charismatic Leader.",
+      "fr": "Meneur charismatique.",
+      "source": "Traduction proposée du texte observé sur Shard · Inspiring Leader · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
     }
   ]
 }

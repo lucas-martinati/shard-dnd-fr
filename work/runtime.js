@@ -585,7 +585,11 @@
   }
   function restoreInline(){for(const record of [...inlineBlocks])releaseInline(record);}
   function processInline(el){
-    if(!enabled||!aideddInline||excluded(el)||!el.matches('p,li,td,th,.description,.pre-wrap,.stdcontent'))return;
+    if(!enabled||!aideddInline||excluded(el))return;
+    // Certaines lignes Shard sont des DIV sans classe contenant uniquement
+    // des spans/gras/liens. Les traiter comme un paragraphe de la description.
+    const descriptionLine=el.tagName==='DIV'&&el.closest('.description,.pre-wrap,.stdcontent')&&!el.querySelector('div,p,li,table');
+    if(!descriptionLine&&!el.matches('p,li,td,th,.description,.pre-wrap,.stdcontent'))return;
     const visible=el.textContent;if(visible.length>50000)return;
     if(visible.length<35&&!completePairs.has(inlineKey(visible))&&!inlinePairs.has(inlineKey(visible)))return;
     const nodes=blockNodes(el);if(!nodes.length||nodes.length>300)return;
@@ -636,11 +640,11 @@
     // Les emphases reconnues sont des repères comme les liens, sans recréer
     // leurs éléments. Un titre traduit reste dans son <strong>, pas tout le paragraphe.
     function inlineVariants(en){
-      const trimmed=en.trim(),match=/^(.*?)([.:]?)$/.exec(trimmed);
+      const trimmed=en.trim(),match=/^(.*?)([.:,;]?)$/.exec(trimmed);
       const entry=entries.get(normalize(match[1]));
       const heading=lookupPair(inlineKey(match[1]+'.'))?.replace(/[.:]$/,'')||lookupPair(inlineKey(match[1]))||entry?.fr;
       // Les descriptions restent françaises, même si les noms isolés sont bilingues.
-      return [...new Set([translate(en,source),heading?heading+match[2]:null,entry?entry.fr+match[2]:null,...(heading&&match[2]?[heading+'.',heading+':']:[]),en,en.replace(/[\uE000-\uF8FF]/g,'')].filter(Boolean).map(s=>s.trim()))];
+      return [...new Set([translate(en,source),heading?heading+match[2]:null,entry?entry.fr+match[2]:null,...(heading&&match[2]?[heading+'.',heading+':']:[]),...(/[,;]/.test(match[2])?[heading,entry?.fr]:[]),en,en.replace(/[\uE000-\uF8FF]/g,'')].filter(Boolean).map(s=>s.trim()))];
     }
     const formatted=[];
     for(const node of nodes){
@@ -676,7 +680,14 @@
       const en=owned.map(originalNode).join(''),variants=inlineVariants(en);
       let found=null;
       for(const value of variants){const re=new RegExp(pattern(value.trim()).replace(/\\\+/g,'\\s*\\+\\s*'),'iu');const m=re.exec(fr.slice(cursor));if(m){const text=m[0].trim(),index=m.index+m[0].length-m[0].trimStart().length;if(!found||index<found.index)found={index,text};}}
-      if(!found||!assign(fr.slice(cursor,cursor+found.index),lastIndex,first))return;
+      if(!found)return;
+      // Deux spans d’emphase adjacents peuvent porter leur espace dans le
+      // second span. Garder cet espace sans créer de nœud ni modifier un dé.
+      const gap=fr.slice(cursor,cursor+found.index);
+      if(gap&&!gap.trim()&&lastIndex===first&&/^\s/.test(en)&&!owner.matches('.dodieroll')){
+        found.text=gap+found.text;found.index=0;
+      }
+      if(!assign(fr.slice(cursor,cursor+found.index),lastIndex,first))return;
       if(owner.matches('.dodieroll'))for(const node of owned)output.set(node,originalNode(node));
       else output.set(owned[0],found.text);
       cursor+=found.index+found.text.length;lastIndex=last+1;

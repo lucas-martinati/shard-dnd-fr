@@ -1,5 +1,5 @@
 {
-  "version": "1.17.9",
+  "version": "1.17.10",
   "reference": "Noms AideDD 2024 prioritaires. Références SRD disponibles séparément. Autres entrées identifiées.",
   "license": "Code MIT ; contenu SRD CC-BY-4.0 https://creativecommons.org/licenses/by/4.0/",
   "sources": [
@@ -12348,7 +12348,7 @@
       "en": "Gold Pieces",
       "fr": "Pièces d’or",
       "category": "équipement",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "source": "Traduction proposée des noms d’équipement présents sur les fiches de classe Shard · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
       "aliases": []
     },
     {
@@ -15649,8 +15649,8 @@
     {
       "en": "Daggers",
       "fr": "Dagues",
-      "category": "vocabulaire",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "category": "équipement",
+      "source": "Traduction proposée des noms d’équipement présents sur les fiches de classe Shard · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
       "aliases": []
     },
     {
@@ -24866,6 +24866,2701 @@
       "aliases": []
     },
     {
+      "en": "Adamantine Battleaxe",
+      "fr": "Hache d’armes en adamantium",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine Blowgun",
+      "fr": "Sarbacane en adamantium",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine Club",
+      "fr": "Gourdin en adamantium",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine Dart",
+      "fr": "Fléchette en adamantium",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine Double-Bladed Scimitar",
+      "fr": "Cimeterre à double lame en adamantium",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine Flail",
+      "fr": "Fléau d’armes en adamantium",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine Glaive",
+      "fr": "Coutille en adamantium",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine Greataxe",
+      "fr": "Hache à deux mains en adamantium",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine Greatclub",
+      "fr": "Massue en adamantium",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine Greatsword",
+      "fr": "Épée à deux mains en adamantium",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine Halberd",
+      "fr": "Hallebarde en adamantium",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine Hand Crossbow",
+      "fr": "Arbalète de poing en adamantium",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine Handaxe",
+      "fr": "Hachette en adamantium",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine Heavy Crossbow",
+      "fr": "Arbalète lourde en adamantium",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine Javelin",
+      "fr": "Javeline en adamantium",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine Lance",
+      "fr": "Lance d’arçon en adamantium",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine Light Crossbow",
+      "fr": "Arbalète légère en adamantium",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine Light Hammer",
+      "fr": "Marteau léger en adamantium",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine Longbow",
+      "fr": "Arc long en adamantium",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine Longsword",
+      "fr": "Épée longue en adamantium",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine Mace",
+      "fr": "Masse d’armes en adamantium",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine Maul",
+      "fr": "Maillet d’armes en adamantium",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine Morningstar",
+      "fr": "Morgenstern en adamantium",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine Pike",
+      "fr": "Pique en adamantium",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine Quarterstaff",
+      "fr": "Bâton de combat en adamantium",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine Rapier",
+      "fr": "Rapière en adamantium",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine Scimitar",
+      "fr": "Cimeterre en adamantium",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine Shortbow",
+      "fr": "Arc court en adamantium",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine Shortsword",
+      "fr": "Épée courte en adamantium",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine Sickle",
+      "fr": "Serpe en adamantium",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine Sling",
+      "fr": "Fronde en adamantium",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine Spear",
+      "fr": "Lance en adamantium",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine Trident",
+      "fr": "Trident en adamantium",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine War Pick",
+      "fr": "Pic de guerre en adamantium",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine Warhammer",
+      "fr": "Marteau de guerre en adamantium",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine Whip",
+      "fr": "Fouet en adamantium",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine Yklwa",
+      "fr": "Yklwa en adamantium",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Battleaxe +1",
+      "fr": "Hache d’armes +1",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Battleaxe +2",
+      "fr": "Hache d’armes +2",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Battleaxe +3",
+      "fr": "Hache d’armes +3",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Battleaxe of Warning",
+      "fr": "Hache d’armes vigilante",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Berserker Battleaxe",
+      "fr": "Hache d’armes du berserker",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Berserker Greataxe",
+      "fr": "Hache à deux mains du berserker",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Berserker Handaxe",
+      "fr": "Hachette du berserker",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Blowgun +1",
+      "fr": "Sarbacane +1",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Blowgun +2",
+      "fr": "Sarbacane +2",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Blowgun +3",
+      "fr": "Sarbacane +3",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Blowgun of Warning",
+      "fr": "Sarbacane vigilante",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Club +1",
+      "fr": "Gourdin +1",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Club +2",
+      "fr": "Gourdin +2",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Club +3",
+      "fr": "Gourdin +3",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Club of Warning",
+      "fr": "Gourdin vigilant",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Dagger +1",
+      "fr": "Dague +1",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Dagger +2",
+      "fr": "Dague +2",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Dagger +3",
+      "fr": "Dague +3",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Dagger of Warning",
+      "fr": "Dague vigilante",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Dancing Double-Bladed Scimitar",
+      "fr": "Cimeterre à double lame dansant",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Dancing Greatsword",
+      "fr": "Épée à deux mains dansante",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Dancing Longsword",
+      "fr": "Épée longue dansante",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Dancing Rapier",
+      "fr": "Rapière dansante",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Dancing Scimitar",
+      "fr": "Cimeterre dansant",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Dancing Shortsword",
+      "fr": "Épée courte dansante",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Dart +1",
+      "fr": "Fléchette +1",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Dart +2",
+      "fr": "Fléchette +2",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Dart +3",
+      "fr": "Fléchette +3",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Dart of Warning",
+      "fr": "Fléchette vigilante",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Defender Double-Bladed Scimitar",
+      "fr": "Cimeterre à double lame gardien",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Defender Greatsword",
+      "fr": "Épée à deux mains gardienne",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Defender Longsword",
+      "fr": "Épée longue gardienne",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Defender Rapier",
+      "fr": "Rapière gardienne",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Defender Scimitar",
+      "fr": "Cimeterre gardien",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Defender Shortsword",
+      "fr": "Épée courte gardienne",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Double-Bladed Scimitar +1",
+      "fr": "Cimeterre à double lame +1",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Double-Bladed Scimitar +2",
+      "fr": "Cimeterre à double lame +2",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Double-Bladed Scimitar +3",
+      "fr": "Cimeterre à double lame +3",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Double-Bladed Scimitar of Life Stealing",
+      "fr": "Cimeterre à double lame voleur de vie",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Double-Bladed Scimitar of Sharpness",
+      "fr": "Cimeterre à double lame acéré",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Double-Bladed Scimitar of Vengeance",
+      "fr": "Cimeterre à double lame vengeur",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Double-Bladed Scimitar of Warning",
+      "fr": "Cimeterre à double lame vigilant",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Double-Bladed Scimitar of Wounding",
+      "fr": "Cimeterre à double lame mordant",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Dragon Slayer Double-Bladed Scimitar",
+      "fr": "Cimeterre à double lame tueur de dragons",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Dragon Slayer Greatsword",
+      "fr": "Épée à deux mains tueuse de dragons",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Dragon Slayer Longsword",
+      "fr": "Épée longue tueuse de dragons",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Dragon Slayer Rapier",
+      "fr": "Rapière tueuse de dragons",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Dragon Slayer Scimitar",
+      "fr": "Cimeterre tueur de dragons",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Dragon Slayer Shortsword",
+      "fr": "Épée courte tueuse de dragons",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Flail +1",
+      "fr": "Fléau d’armes +1",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Flail +2",
+      "fr": "Fléau d’armes +2",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Flail +3",
+      "fr": "Fléau d’armes +3",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Flail of Warning",
+      "fr": "Fléau d’armes vigilant",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Flame Tongue Double-Bladed Scimitar",
+      "fr": "Cimeterre à double lame ardent",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Flame Tongue Greatsword",
+      "fr": "Épée à deux mains ardente",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Flame Tongue Longsword",
+      "fr": "Épée longue ardente",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Flame Tongue Rapier",
+      "fr": "Rapière ardente",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Flame Tongue Scimitar",
+      "fr": "Cimeterre ardent",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Flame Tongue Shortsword",
+      "fr": "Épée courte ardente",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Frost Brand Double-Bladed Scimitar",
+      "fr": "Cimeterre à double lame de fer gelé",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Frost Brand Greatsword",
+      "fr": "Épée à deux mains de fer gelé",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Frost Brand Longsword",
+      "fr": "Épée longue de fer gelé",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Frost Brand Rapier",
+      "fr": "Rapière de fer gelé",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Frost Brand Scimitar",
+      "fr": "Cimeterre de fer gelé",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Frost Brand Shortsword",
+      "fr": "Épée courte de fer gelé",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Giant Slayer Battleaxe",
+      "fr": "Hache d’armes tueuse de géants",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Giant Slayer Double-Bladed Scimitar",
+      "fr": "Cimeterre à double lame tueur de géants",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Giant Slayer Greataxe",
+      "fr": "Hache à deux mains tueuse de géants",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Giant Slayer Greatsword",
+      "fr": "Épée à deux mains tueuse de géants",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Giant Slayer Handaxe",
+      "fr": "Hachette tueuse de géants",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Giant Slayer Longsword",
+      "fr": "Épée longue tueuse de géants",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Giant Slayer Rapier",
+      "fr": "Rapière tueuse de géants",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Giant Slayer Scimitar",
+      "fr": "Cimeterre tueur de géants",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Giant Slayer Shortsword",
+      "fr": "Épée courte tueuse de géants",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Glaive +1",
+      "fr": "Coutille +1",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Glaive +2",
+      "fr": "Coutille +2",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Glaive +3",
+      "fr": "Coutille +3",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Glaive of Warning",
+      "fr": "Coutille vigilante",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Goblin's Bane",
+      "fr": "Fléau des gobelins",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Greataxe +1",
+      "fr": "Hache à deux mains +1",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Greataxe +2",
+      "fr": "Hache à deux mains +2",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Greataxe +3",
+      "fr": "Hache à deux mains +3",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Greataxe of Warning",
+      "fr": "Hache à deux mains vigilante",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Greatclub +1",
+      "fr": "Massue +1",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Greatclub +2",
+      "fr": "Massue +2",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Greatclub +3",
+      "fr": "Massue +3",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Greatclub of Warning",
+      "fr": "Massue vigilante",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Greatsword +1",
+      "fr": "Épée à deux mains +1",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Greatsword +2",
+      "fr": "Épée à deux mains +2",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Greatsword +3",
+      "fr": "Épée à deux mains +3",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Greatsword of Life Stealing",
+      "fr": "Épée à deux mains voleuse de vie",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Greatsword of Sharpness",
+      "fr": "Épée à deux mains acérée",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Greatsword of Vengeance",
+      "fr": "Épée à deux mains vengeresse",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Greatsword of Warning",
+      "fr": "Épée à deux mains vigilante",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Greatsword of Wounding",
+      "fr": "Épée à deux mains mordante",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Halberd +1",
+      "fr": "Hallebarde +1",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Halberd +2",
+      "fr": "Hallebarde +2",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Halberd +3",
+      "fr": "Hallebarde +3",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Halberd of Warning",
+      "fr": "Hallebarde vigilante",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Hand Crossbow +1",
+      "fr": "Arbalète de poing +1",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Hand Crossbow +2",
+      "fr": "Arbalète de poing +2",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Hand Crossbow +3",
+      "fr": "Arbalète de poing +3",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Hand Crossbow of Warning",
+      "fr": "Arbalète de poing vigilante",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Handaxe +1",
+      "fr": "Hachette +1",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Handaxe +2",
+      "fr": "Hachette +2",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Handaxe +3",
+      "fr": "Hachette +3",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Handaxe of Warning",
+      "fr": "Hachette vigilante",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Heavy Crossbow +1",
+      "fr": "Arbalète lourde +1",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Heavy Crossbow +2",
+      "fr": "Arbalète lourde +2",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Heavy Crossbow +3",
+      "fr": "Arbalète lourde +3",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Heavy Crossbow of Warning",
+      "fr": "Arbalète lourde vigilante",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Holy Avenger Double-Bladed Scimitar",
+      "fr": "Cimeterre à double lame vengeur sacré",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Holy Avenger Greatsword",
+      "fr": "Épée à deux mains vengeresse sacrée",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Holy Avenger Longsword",
+      "fr": "Épée longue vengeresse sacrée",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Holy Avenger Rapier",
+      "fr": "Rapière vengeresse sacrée",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Holy Avenger Scimitar",
+      "fr": "Cimeterre vengeur sacré",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Holy Avenger Shortsword",
+      "fr": "Épée courte vengeresse sacrée",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Javelin +1",
+      "fr": "Javeline +1",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Javelin +2",
+      "fr": "Javeline +2",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Javelin +3",
+      "fr": "Javeline +3",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Javelin of Warning",
+      "fr": "Javeline vigilante",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Lance +1",
+      "fr": "Lance d’arçon +1",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Lance +2",
+      "fr": "Lance d’arçon +2",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Lance +3",
+      "fr": "Lance d’arçon +3",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Lance of Warning",
+      "fr": "Lance d’arçon vigilante",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Light Crossbow +1",
+      "fr": "Arbalète légère +1",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Light Crossbow +2",
+      "fr": "Arbalète légère +2",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Light Crossbow +3",
+      "fr": "Arbalète légère +3",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Light Crossbow of Warning",
+      "fr": "Arbalète légère vigilante",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Light Hammer +1",
+      "fr": "Marteau léger +1",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Light Hammer +2",
+      "fr": "Marteau léger +2",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Light Hammer +3",
+      "fr": "Marteau léger +3",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Light Hammer of Warning",
+      "fr": "Marteau léger vigilant",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Longbow +1",
+      "fr": "Arc long +1",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Longbow +2",
+      "fr": "Arc long +2",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Longbow +3",
+      "fr": "Arc long +3",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Longbow of Warning",
+      "fr": "Arc long vigilant",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Longsword +1",
+      "fr": "Épée longue +1",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Longsword +2",
+      "fr": "Épée longue +2",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Longsword +3",
+      "fr": "Épée longue +3",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Longsword of Life Stealing",
+      "fr": "Épée longue voleuse de vie",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Longsword of Sharpness",
+      "fr": "Épée longue acérée",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Longsword of Vengeance",
+      "fr": "Épée longue vengeresse",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Longsword of Warning",
+      "fr": "Épée longue vigilante",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Longsword of Wounding",
+      "fr": "Épée longue mordante",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Luck Blade Double-Bladed Scimitar",
+      "fr": "Cimeterre à double lame porte-bonheur",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Luck Blade Greatsword",
+      "fr": "Épée à deux mains porte-bonheur",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Luck Blade Longsword",
+      "fr": "Épée longue porte-bonheur",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Luck Blade Rapier",
+      "fr": "Rapière porte-bonheur",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Luck Blade Scimitar",
+      "fr": "Cimeterre porte-bonheur",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Luck Blade Shortsword",
+      "fr": "Épée courte porte-bonheur",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Mace +1",
+      "fr": "Masse d’armes +1",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Mace +2",
+      "fr": "Masse d’armes +2",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Mace +3",
+      "fr": "Masse d’armes +3",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Mace of Warning",
+      "fr": "Masse d’armes vigilante",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Maul +1",
+      "fr": "Maillet d’armes +1",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Maul +2",
+      "fr": "Maillet d’armes +2",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Maul +3",
+      "fr": "Maillet d’armes +3",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Maul of Warning",
+      "fr": "Maillet d’armes vigilant",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Mind Blade Double-Bladed Scimitar",
+      "fr": "Cimeterre à double lame mental",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Mind Blade Greatsword",
+      "fr": "Épée à deux mains mentale",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Mind Blade Longsword",
+      "fr": "Épée longue mentale",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Mind Blade Rapier",
+      "fr": "Rapière mentale",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Mind Blade Scimitar",
+      "fr": "Cimeterre mental",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Mind Blade Shortsword",
+      "fr": "Épée courte mentale",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Mind Lash",
+      "fr": "Fouet mental",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Moon-Touched Double-Bladed Scimitar",
+      "fr": "Cimeterre à double lame sélène",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Moon-Touched Greatsword",
+      "fr": "Épée à deux mains sélène",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Moon-Touched Longsword",
+      "fr": "Épée longue sélène",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Moon-Touched Rapier",
+      "fr": "Rapière sélène",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Moon-Touched Scimitar",
+      "fr": "Cimeterre sélène",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Moon-Touched Shortsword",
+      "fr": "Épée courte sélène",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Morningstar +1",
+      "fr": "Morgenstern +1",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Morningstar +2",
+      "fr": "Morgenstern +2",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Morningstar +3",
+      "fr": "Morgenstern +3",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Morningstar of Warning",
+      "fr": "Morgenstern vigilant",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Nine Lives Stealer Double-Bladed Scimitar",
+      "fr": "Cimeterre à double lame voleur de vie",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Nine Lives Stealer Greatsword",
+      "fr": "Épée à deux mains voleuse de vie",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Nine Lives Stealer Longsword",
+      "fr": "Épée longue voleuse de vie",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Nine Lives Stealer Rapier",
+      "fr": "Rapière voleuse de vie",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Nine Lives Stealer Scimitar",
+      "fr": "Cimeterre voleur de vie",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Nine Lives Stealer Shortsword",
+      "fr": "Épée courte voleuse de vie",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Pike +1",
+      "fr": "Pique +1",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Pike +2",
+      "fr": "Pique +2",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Pike +3",
+      "fr": "Pique +3",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Pike of Warning",
+      "fr": "Pique vigilante",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Psychic Blade",
+      "fr": "Lame psychique",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Psychic Blade Off Hand",
+      "fr": "Lame psychique (main secondaire)",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Quarterstaff +1",
+      "fr": "Bâton de combat +1",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Quarterstaff +2",
+      "fr": "Bâton de combat +2",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Quarterstaff +3",
+      "fr": "Bâton de combat +3",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Quarterstaff of Warning",
+      "fr": "Bâton de combat vigilant",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Rapier +1",
+      "fr": "Rapière +1",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Rapier +2",
+      "fr": "Rapière +2",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Rapier +3",
+      "fr": "Rapière +3",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Rapier of Life Stealing",
+      "fr": "Rapière voleuse de vie",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Rapier of Vengeance",
+      "fr": "Rapière vengeresse",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Rapier of Warning",
+      "fr": "Rapière vigilante",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Rapier of Wounding",
+      "fr": "Rapière mordante",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Scimitar +1",
+      "fr": "Cimeterre +1",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Scimitar +2",
+      "fr": "Cimeterre +2",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Scimitar +3",
+      "fr": "Cimeterre +3",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Scimitar of Life Stealing",
+      "fr": "Cimeterre voleur de vie",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Scimitar of Sharpness",
+      "fr": "Cimeterre acéré",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Scimitar of Vengeance",
+      "fr": "Cimeterre vengeur",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Scimitar of Warning",
+      "fr": "Cimeterre vigilant",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Scimitar of Wounding",
+      "fr": "Cimeterre mordant",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Shortbow +1",
+      "fr": "Arc court +1",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Shortbow +2",
+      "fr": "Arc court +2",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Shortbow +3",
+      "fr": "Arc court +3",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Shortbow of Warning",
+      "fr": "Arc court vigilant",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Shortsword +1",
+      "fr": "Épée courte +1",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Shortsword +2",
+      "fr": "Épée courte +2",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Shortsword +3",
+      "fr": "Épée courte +3",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Shortsword of Life Stealing",
+      "fr": "Épée courte voleuse de vie",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Shortsword of Vengeance",
+      "fr": "Épée courte vengeresse",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Shortsword of Warning",
+      "fr": "Épée courte vigilante",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Shortsword of Wounding",
+      "fr": "Épée courte mordante",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Sickle +1",
+      "fr": "Serpe +1",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Sickle +2",
+      "fr": "Serpe +2",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Sickle +3",
+      "fr": "Serpe +3",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Sickle of Warning",
+      "fr": "Serpe vigilante",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Silvered Battleaxe",
+      "fr": "Hache d’armes argentée",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Silvered Blowgun",
+      "fr": "Sarbacane argentée",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Silvered Club",
+      "fr": "Gourdin argenté",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Silvered Dagger",
+      "fr": "Dague argentée",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Silvered Dart",
+      "fr": "Fléchette argentée",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Silvered Double-Bladed Scimitar",
+      "fr": "Cimeterre à double lame argenté",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Silvered Flail",
+      "fr": "Fléau d’armes argenté",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Silvered Glaive",
+      "fr": "Coutille argentée",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Silvered Greataxe",
+      "fr": "Hache à deux mains argentée",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Silvered Greatclub",
+      "fr": "Massue argentée",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Silvered Greatsword",
+      "fr": "Épée à deux mains argentée",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Silvered Halberd",
+      "fr": "Hallebarde argentée",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Silvered Hand Crossbow",
+      "fr": "Arbalète de poing argentée",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Silvered Handaxe",
+      "fr": "Hachette argentée",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Silvered Heavy Crossbow",
+      "fr": "Arbalète lourde argentée",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Silvered Javelin",
+      "fr": "Javeline argentée",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Silvered Lance",
+      "fr": "Lance d’arçon argentée",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Silvered Light Crossbow",
+      "fr": "Arbalète légère argentée",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Silvered Light Hammer",
+      "fr": "Marteau léger argenté",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Silvered Longbow",
+      "fr": "Arc long argenté",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Silvered Longsword",
+      "fr": "Épée longue argentée",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Silvered Mace",
+      "fr": "Masse d’armes argentée",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Silvered Maul",
+      "fr": "Maillet d’armes argenté",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Silvered Morningstar",
+      "fr": "Morgenstern argenté",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Silvered Pike",
+      "fr": "Pique argentée",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Silvered Quarterstaff",
+      "fr": "Bâton de combat argenté",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Silvered Rapier",
+      "fr": "Rapière argentée",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Silvered Scimitar",
+      "fr": "Cimeterre argenté",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Silvered Shortbow",
+      "fr": "Arc court argenté",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Silvered Shortsword",
+      "fr": "Épée courte argentée",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Silvered Sickle",
+      "fr": "Serpe argentée",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Silvered Sling",
+      "fr": "Fronde argentée",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Silvered Spear",
+      "fr": "Lance argentée",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Silvered Trident",
+      "fr": "Trident argenté",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Silvered War Pick",
+      "fr": "Pic de guerre argenté",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Silvered Warhammer",
+      "fr": "Marteau de guerre argenté",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Silvered Whip",
+      "fr": "Fouet argenté",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Silvered Yklwa",
+      "fr": "Yklwa argentée",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Sling +1",
+      "fr": "Fronde +1",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Sling +2",
+      "fr": "Fronde +2",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Sling +3",
+      "fr": "Fronde +3",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Sling of Warning",
+      "fr": "Fronde vigilante",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Spear +1",
+      "fr": "Lance +1",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Spear +2",
+      "fr": "Lance +2",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Spear +3",
+      "fr": "Lance +3",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Spear of Warning",
+      "fr": "Lance vigilante",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Sword of Answering (Answerer)",
+      "fr": "Épée de réponse (Répondeuse)",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Sword of Answering (Back Talker)",
+      "fr": "Épée de réponse (Insolente)",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Sword of Answering (Concluder)",
+      "fr": "Épée de réponse (Concluante)",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Sword of Answering (Last Quip)",
+      "fr": "Épée de réponse (Dernière réplique)",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Sword of Answering (Rebutter)",
+      "fr": "Épée de réponse (Réfutatrice)",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Sword of Answering (Replier)",
+      "fr": "Épée de réponse (Répliquante)",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Sword of Answering (Retorter)",
+      "fr": "Épée de réponse (Riposteuse)",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Sword of Answering (Scather)",
+      "fr": "Épée de réponse (Cinglante)",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Sword of Answering (Squelcher)",
+      "fr": "Épée de réponse (Réductrice au silence)",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Trident of Warning",
+      "fr": "Trident vigilant",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Vicious Battleaxe",
+      "fr": "Hache d’armes brutale",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Vicious Blowgun",
+      "fr": "Sarbacane brutale",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Vicious Club",
+      "fr": "Gourdin brutal",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Vicious Dagger",
+      "fr": "Dague brutale",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Vicious Dart",
+      "fr": "Fléchette brutale",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Vicious Double-Bladed Scimitar",
+      "fr": "Cimeterre à double lame brutal",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Vicious Flail",
+      "fr": "Fléau d’armes brutal",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Vicious Glaive",
+      "fr": "Coutille brutale",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Vicious Greataxe",
+      "fr": "Hache à deux mains brutale",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Vicious Greatclub",
+      "fr": "Massue brutale",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Vicious Greatsword",
+      "fr": "Épée à deux mains brutale",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Vicious Halberd",
+      "fr": "Hallebarde brutale",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Vicious Hand Crossbow",
+      "fr": "Arbalète de poing brutale",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Vicious Handaxe",
+      "fr": "Hachette brutale",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Vicious Heavy Crossbow",
+      "fr": "Arbalète lourde brutale",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Vicious Javelin",
+      "fr": "Javeline brutale",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Vicious Lance",
+      "fr": "Lance d’arçon brutale",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Vicious Light Crossbow",
+      "fr": "Arbalète légère brutale",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Vicious Light Hammer",
+      "fr": "Marteau léger brutal",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Vicious Longbow",
+      "fr": "Arc long brutal",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Vicious Longsword",
+      "fr": "Épée longue brutale",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Vicious Mace",
+      "fr": "Masse d’armes brutale",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Vicious Maul",
+      "fr": "Maillet d’armes brutal",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Vicious Morningstar",
+      "fr": "Morgenstern brutal",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Vicious Pike",
+      "fr": "Pique brutale",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Vicious Quarterstaff",
+      "fr": "Bâton de combat brutal",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Vicious Rapier",
+      "fr": "Rapière brutale",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Vicious Scimitar",
+      "fr": "Cimeterre brutal",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Vicious Shortbow",
+      "fr": "Arc court brutal",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Vicious Shortsword",
+      "fr": "Épée courte brutale",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Vicious Sickle",
+      "fr": "Serpe brutale",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Vicious Sling",
+      "fr": "Fronde brutale",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Vicious Spear",
+      "fr": "Lance brutale",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Vicious Trident",
+      "fr": "Trident brutal",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Vicious War Pick",
+      "fr": "Pic de guerre brutal",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Vicious Warhammer",
+      "fr": "Marteau de guerre brutal",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Vicious Whip",
+      "fr": "Fouet brutal",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Vicious Yklwa",
+      "fr": "Yklwa brutale",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Vorpal Double-Bladed Scimitar",
+      "fr": "Cimeterre à double lame vorpal",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Vorpal Greatsword",
+      "fr": "Épée à deux mains vorpale",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Vorpal Longsword",
+      "fr": "Épée longue vorpale",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Vorpal Scimitar",
+      "fr": "Cimeterre vorpal",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "War Pick +1",
+      "fr": "Pic de guerre +1",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "War Pick +2",
+      "fr": "Pic de guerre +2",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "War Pick +3",
+      "fr": "Pic de guerre +3",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "War Pick of Warning",
+      "fr": "Pic de guerre vigilant",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Warhammer +1",
+      "fr": "Marteau de guerre +1",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Warhammer +2",
+      "fr": "Marteau de guerre +2",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Warhammer +3",
+      "fr": "Marteau de guerre +3",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Warhammer of Warning",
+      "fr": "Marteau de guerre vigilant",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Whip +1",
+      "fr": "Fouet +1",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Whip +2",
+      "fr": "Fouet +2",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Whip +3",
+      "fr": "Fouet +3",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Whip of Warning",
+      "fr": "Fouet vigilant",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Yklwa of Warning",
+      "fr": "Yklwa vigilante",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Moonblade Properties",
+      "fr": "Propriétés de la lamelune",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Moonblade · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Property",
+      "fr": "Propriété",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Moonblade · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Net +1",
+      "fr": "Filet +1",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Net +2",
+      "fr": "Filet +2",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Net +3",
+      "fr": "Filet +3",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Net of Warning",
+      "fr": "Filet vigilant",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Catalogue des armes · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Handaxes",
+      "fr": "Hachettes",
+      "category": "équipement",
+      "source": "Traduction proposée des noms d’équipement présents sur les fiches de classe Shard · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Javelins",
+      "fr": "Javelines",
+      "category": "équipement",
+      "source": "Traduction proposée des noms d’équipement présents sur les fiches de classe Shard · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Arrows (20)",
+      "fr": "Flèches (20)",
+      "category": "équipement",
+      "source": "Traduction proposée des noms d’équipement présents sur les fiches de classe Shard · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Giant's Bane (Requires Attunement).",
+      "fr": "Fléau des géants (nécessite l’harmonisation).",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Hammer of Thunderbolts · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Luck.",
+      "fr": "Chance.",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Luck Blade Longsword · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Sentience.",
+      "fr": "Conscience.",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Moonblade · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Personality.",
+      "fr": "Personnalité.",
+      "category": "équipement",
+      "source": "Traduction proposée du texte observé sur Shard · Moonblade · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "shortswords",
+      "fr": "épées courtes",
+      "category": "équipement",
+      "source": "Traduction proposée des liens d’armes de la Lame solaire observés sur Shard · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "longswords",
+      "fr": "épées longues",
+      "category": "équipement",
+      "source": "Traduction proposée des liens d’armes de la Lame solaire observés sur Shard · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
       "en": "Forceful Blow",
       "fr": "Coup appuyé",
       "category": "aptitude de classe",
@@ -24926,6 +27621,1385 @@
       "fr": "Briseur de hordes",
       "category": "aptitude de classe",
       "source": "SRD 5.2.1 EN/FR · CC-BY-4.0",
+      "aliases": []
+    },
+    {
+      "en": "The Barbarian",
+      "fr": "Le Barbare",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Barbarian · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "The Bard",
+      "fr": "Le Barde",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Bard · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "The Cleric",
+      "fr": "Le Clerc",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Cleric · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "The Druid",
+      "fr": "Le Druide",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Druid · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Circle of the Sea Spells",
+      "fr": "Sorts du Cercle des Mers",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Druid Circle of the Sea · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "The Fighter",
+      "fr": "Le Guerrier",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Fighter · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "The Monk",
+      "fr": "Le Moine",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Monk · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "The Paladin",
+      "fr": "Le Paladin",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Paladin · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Breaking Your Oath",
+      "fr": "Rompre votre serment",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Paladin · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Oath of the Ancients Spells",
+      "fr": "Sorts du Serment des Anciens",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Paladin Oath of the Ancients · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "The Ranger",
+      "fr": "Le Rôdeur",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Ranger · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "The Rogue",
+      "fr": "Le Roublard",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Rogue · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "The Sorcerer",
+      "fr": "L’Ensorceleur",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Sorcerer · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "The Warlock",
+      "fr": "L’Occultiste",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Warlock · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "The Wizard",
+      "fr": "Le Magicien",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Wizard · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Owl.",
+      "fr": "Chouette.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Barbarian Path of the Wild Heart · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Panther.",
+      "fr": "Panthère.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Barbarian Path of the Wild Heart · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Primal Strike.",
+      "fr": "Frappe primitive.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Druid · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Fighting Style.",
+      "fr": "Style de combat.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Paladin · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Blessed Warrior.",
+      "fr": "Guerrier béni.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Paladin · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Druidic Warrior.",
+      "fr": "Guerrier druidique.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Ranger · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Acid.",
+      "fr": "Acide.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Sorcerer Draconic Sorcery · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Cold.",
+      "fr": "Froid.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Sorcerer Draconic Sorcery · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Fire.",
+      "fr": "Feu.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Sorcerer Draconic Sorcery · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Lightning.",
+      "fr": "Foudre.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Sorcerer Draconic Sorcery · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Nature Speaker",
+      "fr": "Parole de la nature",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Tandem Footwork",
+      "fr": "Jeu de jambes en tandem",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Combat Inspiration",
+      "fr": "Inspiration martiale",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Martial Training",
+      "fr": "Entraînement martial",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Battle Magic",
+      "fr": "Magie de combat",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Divine Spark",
+      "fr": "Étincelle divine",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Light Domain Spells",
+      "fr": "Sorts du Domaine de la Lumière",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Warding Flare",
+      "fr": "Lueur protectrice",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Improved Warding Flare",
+      "fr": "Lueur protectrice améliorée",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Corona of Light",
+      "fr": "Couronne de lumière",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Trickery Domain Spells",
+      "fr": "Sorts du Domaine de la Ruse",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Invoke Duplicity",
+      "fr": "Invocation de duplicité",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Trickster’s Transposition",
+      "fr": "Transposition du filou",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Improved Duplicity",
+      "fr": "Duplicité améliorée",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Guided Strike",
+      "fr": "Frappe guidée",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "War Domain Spells",
+      "fr": "Sorts du Domaine de la Guerre",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "War Priest",
+      "fr": "Prêtre de guerre",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "War God’s Blessing",
+      "fr": "Bénédiction du dieu de la guerre",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Avatar of Battle",
+      "fr": "Avatar de bataille",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Improved Circle Forms",
+      "fr": "Formes du Cercle améliorées",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Lunar Form",
+      "fr": "Forme lunaire",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Ultimate Combat Superiority",
+      "fr": "Supériorité au combat ultime",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Telekinetic Adept",
+      "fr": "Adepte de la télékinésie",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Bulwark of Force",
+      "fr": "Rempart de force",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Telekinetic Master",
+      "fr": "Maître de la télékinésie",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Implements of Mercy",
+      "fr": "Instruments de miséricorde",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Physician’s Touch",
+      "fr": "Toucher du médecin",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Manipulate Elements",
+      "fr": "Manipulation des éléments",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Inspiring Smite",
+      "fr": "Frappe inspirante",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Oath of Glory Spells",
+      "fr": "Sorts du Serment de Gloire",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Peerless Athlete",
+      "fr": "Athlète sans égal",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Aura of Alacrity",
+      "fr": "Aura de célérité",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Glorious Defense",
+      "fr": "Défense glorieuse",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Living Legend",
+      "fr": "Légende vivante",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Nature’s Wrath",
+      "fr": "Courroux de la nature",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Aura of Warding",
+      "fr": "Aura de protection",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Undying Sentinel",
+      "fr": "Sentinelle immortelle",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Elder Champion",
+      "fr": "Champion des Anciens",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Oath of Vengeance Spells",
+      "fr": "Sorts du Serment de Vengeance",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Vow of Enmity",
+      "fr": "Vœu d’inimitié",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Relentless Avenger",
+      "fr": "Vengeur implacable",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Soul of Vengeance",
+      "fr": "Âme de vengeance",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Avenging Angel",
+      "fr": "Ange vengeur",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Decrease Exhaustion",
+      "fr": "Réduction de l’épuisement",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Exceptional Training",
+      "fr": "Entraînement exceptionnel",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Bestial Fury",
+      "fr": "Fureur bestiale",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Share Spells",
+      "fr": "Partage de sorts",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Dreadful Strikes",
+      "fr": "Frappes redoutables",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Fey Wanderer Spells",
+      "fr": "Sorts du Vagabond féerique",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Fey Blessing",
+      "fr": "Bénédiction féerique",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Gloom Stalker Spells",
+      "fr": "Sorts du Traqueur des ténèbres",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Iron Mind",
+      "fr": "Esprit de fer",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Shadowy Dodge",
+      "fr": "Esquive des ombres",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Magical Ambush",
+      "fr": "Embuscade magique",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Versatile Trickster",
+      "fr": "Filou polyvalent",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Assassinate",
+      "fr": "Assassinat",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Assassin’s Tools",
+      "fr": "Outils de l’assassin",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Infiltration Expertise",
+      "fr": "Expertise en infiltration",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Envenom Weapons",
+      "fr": "Armes empoisonnées",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Death Strike",
+      "fr": "Frappe mortelle",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Psychic Veil",
+      "fr": "Voile psychique",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Psionic Spells",
+      "fr": "Sorts psioniques",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Telepathic Speech",
+      "fr": "Parole télépathique",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Psionic Sorcery",
+      "fr": "Sorcellerie psionique",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Psychic Defenses",
+      "fr": "Défenses psychiques",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Revelation in Flesh",
+      "fr": "Révélation charnelle",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Warping Implosion",
+      "fr": "Implosion distordante",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Clockwork Spells",
+      "fr": "Sorts mécaniques",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Restore Balance",
+      "fr": "Rétablissement de l’équilibre",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Manifestations of Order",
+      "fr": "Manifestations de l’ordre",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Bastion of Law",
+      "fr": "Bastion de la loi",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Trance of Order",
+      "fr": "Transe de l’ordre",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Clockwork Cavalcade",
+      "fr": "Cavalcade mécanique",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Wild Magic Surge",
+      "fr": "Sursaut de magie sauvage",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Tides of Chaos",
+      "fr": "Vagues du chaos",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Bend Luck",
+      "fr": "Manipulation de la chance",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Controlled Chaos",
+      "fr": "Chaos contrôlé",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Tamed Surge",
+      "fr": "Sursaut maîtrisé",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Archfey Spells",
+      "fr": "Sorts de l’Archifée",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Celestial Spells",
+      "fr": "Sorts du Céleste",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Great Old One Spells",
+      "fr": "Sorts du Grand Ancien",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Abjuration Savant",
+      "fr": "Savant en abjuration",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Divination Savant",
+      "fr": "Savant en divination",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Illusion Savant",
+      "fr": "Savant en illusion",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Salmon.",
+      "fr": "Saumon.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Barbarian Path of the Wild Heart · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Weapon Masteries Known",
+      "fr": "Bottes d’armes connues",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Barbarian · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "any musical instrument",
+      "fr": "un instrument de musique au choix",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Bard · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Land Type",
+      "fr": "Type de terrain",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Druid Circle of the Land · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Arid",
+      "fr": "Aride",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Druid Circle of the Land · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Polar",
+      "fr": "Polaire",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Druid Circle of the Land · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Temperate",
+      "fr": "Tempéré",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Druid Circle of the Land · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Tropical",
+      "fr": "Tropical",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Druid Circle of the Land · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Psi Warrior Energy Dice",
+      "fr": "Dés d’énergie du Guerrier psi",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Fighter Psi Warrior · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Die Size",
+      "fr": "Taille du dé",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Fighter Psi Warrior · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Number",
+      "fr": "Nombre",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Fighter Psi Warrior · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "(a) any artisan's tools or (b) any musical instrument",
+      "fr": "(a) un outil d’artisan au choix ou (b) un instrument de musique au choix",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Monk · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Pick a Fighting Style.",
+      "fr": "Choisissez un style de combat.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Paladin · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Feywild Gift",
+      "fr": "Don de la Féerie",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Ranger Fey Wanderer · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Multiattack Defense.",
+      "fr": "Défense contre les attaques multiples.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Ranger Hunter · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Soulknife Energy Dice",
+      "fr": "Dés d’énergie de l’Âme acérée",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Rogue Soulknife · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Sleight of Hand. Make a Dexterity (Sleight of Hand) check to pick a lock or disarm a trap with Thieves’ Tools or to pick a pocket.",
+      "fr": "Escamotage. Effectuez un test de Dextérité (Escamotage) pour crocheter une serrure ou désamorcer un piège avec des outils de voleur, ou pour faire les poches de quelqu’un.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Rogue Thief · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Manifestation of Order",
+      "fr": "Manifestation de l’ordre",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Sorcerer Clockwork Sorcery · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Eldritch Invocations Known",
+      "fr": "Manifestations occultes connues",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Warlock · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Pact Slots",
+      "fr": "Emplacements de pacte",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Warlock · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Slot Level",
+      "fr": "Niveau des emplacements",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Warlock · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Mystic Arcanum (level 7)",
+      "fr": "Arcanum mystique (niveau 7)",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Warlock · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Mystic Arcanum (level 8)",
+      "fr": "Arcanum mystique (niveau 8)",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Warlock · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Mystic Arcanum (level 9)",
+      "fr": "Arcanum mystique (niveau 9)",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Warlock · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Bear.",
+      "fr": "Ours.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Barbarian Path of the Wild Heart · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Falcon.",
+      "fr": "Faucon.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Barbarian Path of the Wild Heart · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Ram.",
+      "fr": "Bélier.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Barbarian Path of the Wild Heart · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Vitality Surge.",
+      "fr": "Afflux de vitalité.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Barbarian Path of the World Tree · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Life-Giving Force.",
+      "fr": "Force vivifiante.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Barbarian Path of the World Tree · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Dance Virtuoso.",
+      "fr": "Virtuose de la danse.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Bard College of Dance · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Agile Strikes.",
+      "fr": "Frappes agiles.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Bard College of Dance · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Bardic Damage.",
+      "fr": "Dégâts bardiques.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Bard College of Dance · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Offense.",
+      "fr": "Offensive.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Bard College of Valor · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Divine Strike.",
+      "fr": "Frappe divine.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Cleric · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Potent Spellcasting.",
+      "fr": "Incantation puissante.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Druid · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Cast Spells.",
+      "fr": "Lancer des sorts.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Cleric Trickery Domain · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Distract.",
+      "fr": "Distraction.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Cleric Trickery Domain · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Shared Distraction.",
+      "fr": "Distraction partagée.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Cleric Trickery Domain · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Healing Illusion.",
+      "fr": "Illusion guérisseuse.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Cleric Trickery Domain · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Evergreen Wild Shape.",
+      "fr": "Forme sauvage persistante.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Druid · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Nature Magician.",
+      "fr": "Magicien de la nature.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Druid · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Increased Toughness.",
+      "fr": "Robustesse accrue.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Druid Circle of the Moon · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Shared Moonlight.",
+      "fr": "Clair de lune partagé.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Druid Circle of the Moon · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Flight.",
+      "fr": "Vol.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Barbarian Path of the Zealot · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Archer.",
+      "fr": "Archer.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Druid Circle of the Stars · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Chalice.",
+      "fr": "Calice.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Druid Circle of the Stars · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Weal (Even).",
+      "fr": "Bonheur (pair).",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Druid Circle of the Stars · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Woe (Odd).",
+      "fr": "Malheur (impair).",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Druid Circle of the Stars · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Psi-Powered Leap.",
+      "fr": "Bond psionique.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Fighter Psi Warrior · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Telekinetic Thrust.",
+      "fr": "Poussée télékinétique.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Fighter Psi Warrior · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Shadowy Figments.",
+      "fr": "Fantasmagories d’ombre.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Monk Warrior of Shadow · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Partially Incorporeal.",
+      "fr": "Partiellement incorporel.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Monk Warrior of Shadow · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Shadow Flurry.",
+      "fr": "Déluge d’ombres.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Monk Warrior of Shadow · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Elemental Strikes.",
+      "fr": "Frappes élémentaires.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Monk Warrior of the Elements · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Destructive Stride.",
+      "fr": "Foulée destructrice.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Monk Warrior of the Elements · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Addle.",
+      "fr": "Décontenancer.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Monk Warrior of the Open Hand · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Holy Ward.",
+      "fr": "Protection sacrée.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Paladin Oath of Devotion · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Sunlight.",
+      "fr": "Lumière solaire.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Paladin Oath of Devotion · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Charismatic.",
+      "fr": "Charismatique.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Paladin Oath of Glory · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Saving Throw Reroll.",
+      "fr": "Relance de sauvegarde.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Paladin Oath of Glory · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Unerring Strike.",
+      "fr": "Frappe infaillible.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Paladin Oath of Glory · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Swift Spells.",
+      "fr": "Sorts rapides.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Paladin Oath of the Ancients · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Frightful Aura.",
+      "fr": "Aura effrayante.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Paladin Oath of Vengeance · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Ambusher’s Leap.",
+      "fr": "Bond d’embuscade.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Ranger Gloom Stalker · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Sudden Strike.",
+      "fr": "Frappe soudaine.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Ranger Gloom Stalker · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Mass Fear.",
+      "fr": "Peur collective.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Ranger Gloom Stalker · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Surprising Strikes.",
+      "fr": "Frappes de surprise.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Rogue Assassin · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Masterful Mimicry.",
+      "fr": "Imitation magistrale.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Rogue Assassin · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Roving Aim.",
+      "fr": "Visée mobile.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Rogue Assassin · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Psi-Bolstered Knack.",
+      "fr": "Talent psionique.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Rogue Soulknife · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Homing Strikes.",
+      "fr": "Frappes guidées.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Rogue Soulknife · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Use an Object.",
+      "fr": "Utiliser un objet.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Rogue Thief · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Climber.",
+      "fr": "Grimpeur.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Rogue Thief · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Jumper.",
+      "fr": "Sauteur.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Rogue Thief · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Scrolls.",
+      "fr": "Parchemins.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Rogue Thief · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Aquatic Adaptation.",
+      "fr": "Adaptation aquatique.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Sorcerer Aberrant Sorcery · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Glistening Flight.",
+      "fr": "Vol luisant.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Sorcerer Aberrant Sorcery · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "See the Invisible.",
+      "fr": "Voir l’invisible.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Sorcerer Aberrant Sorcery · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Wormlike Movement.",
+      "fr": "Déplacement vermiforme.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Sorcerer Aberrant Sorcery · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Repair.",
+      "fr": "Réparation.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Sorcerer Clockwork Sorcery · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Dispel.",
+      "fr": "Dissipation.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Sorcerer Clockwork Sorcery · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Refreshing Step.",
+      "fr": "Pas revigorant.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Warlock Archfey Patron · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Taunting Step.",
+      "fr": "Pas provocateur.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Warlock Archfey Patron · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Disappearing Step.",
+      "fr": "Pas évanescent.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Warlock Archfey Patron · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Dreadful Step.",
+      "fr": "Pas redoutable.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Warlock Archfey Patron · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Copying a Spell into the Book.",
+      "fr": "Copier un sort dans le grimoire.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Wizard · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Copying the Book.",
+      "fr": "Copier le grimoire.",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Wizard · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Wild Magic Surge table",
+      "fr": "table de Sursaut de magie sauvage",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du lien de la table de magie sauvage observé sur Shard · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
       "aliases": []
     },
     {
@@ -25934,6 +30008,69 @@
       "fr": "Cloche, pelle, boîte à amadou",
       "category": "don",
       "source": "Variantes des cellules de Façonnage rapide · référence anglaise AideDD Artisan · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "All-Around Adept.",
+      "fr": "Adepte universel.",
+      "category": "don",
+      "source": "Traduction proposée du texte observé sur Shard · Boon of Skill · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Escape Artist.",
+      "fr": "Art de l’évasion.",
+      "category": "don",
+      "source": "Traduction proposée du texte observé sur Shard · Boon of Speed · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Quickness.",
+      "fr": "Célérité.",
+      "category": "don",
+      "source": "Traduction proposée du texte observé sur Shard · Boon of Speed · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Strength.",
+      "fr": "Force.",
+      "category": "don",
+      "source": "Traduction proposée du texte observé sur Shard · Resilient · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Dexterity.",
+      "fr": "Dextérité.",
+      "category": "don",
+      "source": "Traduction proposée du texte observé sur Shard · Resilient · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Wisdom.",
+      "fr": "Sagesse.",
+      "category": "don",
+      "source": "Traduction proposée du texte observé sur Shard · Resilient · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Charisma.",
+      "fr": "Charisme.",
+      "category": "don",
+      "source": "Traduction proposée du texte observé sur Shard · Resilient · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Wise Leader.",
+      "fr": "Meneur avisé.",
+      "category": "don",
+      "source": "Traduction proposée du texte observé sur Shard · Inspiring Leader · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Charismatic Leader.",
+      "fr": "Meneur charismatique.",
+      "category": "don",
+      "source": "Traduction proposée du texte observé sur Shard · Inspiring Leader · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
       "aliases": []
     },
     {

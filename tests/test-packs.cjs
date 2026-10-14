@@ -7,7 +7,9 @@ const original=main.textContent,blocks=[...main.children],dice=[...main.querySel
 const composite=d.createElement('div');composite.className='pre-wrap';
 const inspiration=entries.filter(e=>/^bard\.inspiration\.[12]$/.test(e.id));composite.innerHTML='<p><strong>Inspiration bardique.</strong> '+inspiration[0].en+'</p><p><strong>Using Bardic Inspiration.</strong> '+inspiration[1].en+'</p>';d.body.append(composite);
 w.GM_getValue=(k,f)=>f;w.GM_setValue=()=>{};w.GM_registerMenuCommand=()=>{};
-const pause=ms=>new Promise(r=>setTimeout(r,ms));async function wait(f){for(let i=0;i<250&&!f();i++)await pause(25);assert.ok(f(),'Translation timed out');}
+// Le parcours asynchrone traite maintenant plusieurs milliers d'entrées.
+const attempts=Math.max(250,Math.ceil(entries.length/3));
+const pause=ms=>new Promise(r=>setTimeout(r,ms));async function wait(f){for(let i=0;i<attempts&&!f();i++)await pause(25);assert.ok(f(),'Translation timed out');}
 (async()=>{try{
  w.eval(fs.readFileSync('outputs/shard-dnd-fr.user.js','utf8'));
  await wait(()=>blocks.every((p,i)=>p.textContent===entries[i].fr));
@@ -16,4 +18,7 @@ const pause=ms=>new Promise(r=>setTimeout(r,ms));async function wait(f){for(let 
  const root=[...d.querySelectorAll('[data-shard-fr-ignore]')].map(e=>e.shadowRoot).find(r=>r?.getElementById('enabled')),enabled=root.getElementById('enabled');
  enabled.checked=false;enabled.dispatchEvent(new w.Event('change'));await wait(()=>main.textContent===original);
  console.log(`PASS packs: ${entries.length} nouvelles traductions, paragraphes et titres combinés, ${dice.length} dés cliquables conservés, restauration exacte.`);
+ }catch(error){
+   console.error(blocks.flatMap((p,i)=>p.textContent===entries[i].fr?[]:[{id:entries[i].id,expected:entries[i].fr,actual:p.textContent}]).slice(0,15));
+   throw error;
  }finally{w.close();}})().catch(e=>{console.error(e);process.exitCode=1});
