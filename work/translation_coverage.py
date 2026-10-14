@@ -6,6 +6,7 @@ from pathlib import Path
 from translation_packs import ROOT, load_packs
 from translation_packs import key
 from translation_sources import source
+from phb_corpus import class_texts, option_texts
 
 CATEGORIES = ['sorts','dons','classes','especes','objets','armes','monstres','regles','interface']
 CATALOG_CATEGORIES = {'spell':'sorts','feat':'dons','invocation':'classes','magic-item':'objets','monster':'monstres'}
@@ -27,7 +28,12 @@ def book_report():
                 'libelles': sum(e.get('kind', 'description') == 'term' for e in entries),
                 'blocs': sum(e.get('kind', 'description') == 'description' for e in entries),
             }
-        books.append({**book, 'dossier': book['dossierTraductions'],
+        structured = {}
+        if book['id'] == 'dnd-2024-phb':
+            blocks, options = option_texts()
+            structured = {'corpusStructureClassesEtOptions': {
+                'aptitudes': len(class_texts()), 'options': len(options), 'blocsOptions': len(blocks)}}
+        books.append({**book, **structured, 'dossier': book['dossierTraductions'],
                       'descriptionsEnFichiersDedies': sum(len(json.loads(p.read_text())) for p in translation_directory.rglob('descriptions.json')),
                       'packsRattachesParCategorie': counts,
                       'entreesRattachees': sum(c['entreesRattachees'] for c in counts.values())})
@@ -99,7 +105,7 @@ def report():
         'aVerifier':[r for r in classes+options if r['pending']],
         'limites':[
             'Priorité au D&D 2024 PHB puis au D&D 2024 MM. Le rangement attribue un emplacement de maintenance ; les sources et éditions précises sont conservées. Le corpus 2014 garde les noms partagés et les références historiques ; les règles du joueur 2024 issues du SRD sont rangées avec le PHB. suiviLivres décrit les accès et contrôles restants, sans pourcentage de traduction intégrale.',
-            'aVerifier concerne les appariements des sources SRD ; une liste vide ne valide pas toutes les références Shard. objectifReferencesAccueil définit le périmètre minimal restant à vérifier et compléter.',
+            'Les corpus SRD des classes et options sont désormais des traductions structurées dans le PHB, sans extraction PDF pendant le build. aVerifier reprend les états de ces inventaires ; une liste vide ne valide ni leur typographie ni toutes les références Shard. objectifReferencesAccueil définit le périmètre minimal restant à vérifier et compléter.',
             'Les noms et présentations brèves traduits ne valident pas le contenu intégral des classes, sous-classes ou autres fiches accessibles depuis l’accueil.',
             'Le corpus de classes est celui du SRD 5.2.1 : 12 classes et leurs sous-classes SRD, pas toutes les sous-classes des suppléments.',
             'Prose appariée ne signifie pas que toutes les variantes Shard et toutes les cellules de tableaux sont couvertes.',

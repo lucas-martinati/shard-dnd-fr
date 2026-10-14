@@ -109,8 +109,12 @@ def main():
     args = parser.parse_args()
     rows = load_packs()
     if args.command == 'check':
+        from phb_corpus import class_texts, option_texts
+        classes = class_texts()
+        options, option_index = option_texts()
         descriptions = sum(row['kind'] == 'description' for row in rows)
         print(f'{len(rows)} correspondances valides : {descriptions} descriptions, {len(rows)-descriptions} libellés.')
+        print(f'Corpus PHB structuré valide : {len(classes)} aptitudes, {len(option_index)} options et {len(options)} blocs.')
     else:
         report = audit(args.html, include_labels=args.labels, all_unknown=args.all)
         text = json.dumps(report, ensure_ascii=False, indent=2) + '\n'

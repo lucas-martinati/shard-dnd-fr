@@ -75,6 +75,11 @@
           "Le sommaire est relevé ; le contenu intégral de ces chapitres n’a pas été contrôlé pendant cette consultation."
         ],
         "dossierTraductions": "translations/dnd-2024/phb",
+        "corpusStructureClassesEtOptions": {
+          "aptitudes": 232,
+          "options": 38,
+          "blocsOptions": 70
+        },
         "dossier": "translations/dnd-2024/phb",
         "descriptionsEnFichiersDedies": 71,
         "packsRattachesParCategorie": {
@@ -215,12 +220,16 @@
     "regleClassement": "Un emplacement éditorial par texte : règles du joueur 2024 avec le PHB, bestiaire 2024 avec le MM, corpus historique et lexique non spécifique dans 2014. L’emplacement ne remplace pas la source précise ni l’édition portée par l’entrée.",
     "limiteComptage": "Les compteurs par dossier décrivent les packs explicitement rattachés, pas le total des traductions utilisables dans le livre. Ni un nom, ni une présentation, ni une source SRD ne valident une fiche complète.",
     "generationSRD": {
-      "dossierSources": "data/srd-5.2.1",
+      "fichiersSources": [
+        "translations/dnd-2024/phb/classes/descriptions-srd.json",
+        "translations/dnd-2024/phb/classes/options-srd.json"
+      ],
       "necessairePourGeneration": [
         "work/make-class-texts.py",
         "work/make-option-texts.py"
       ],
-      "role": "Sources bilingues utilisées par les générateurs ; les traductions de règles du joueur 2024 sont rangées avec le PHB. Le dossier data reste inchangé."
+      "role": "Traductions bilingues structurées éditables dans le PHB ; aucun extrait PDF ni dossier data nécessaire au build. Les sous-sections restent générées depuis ces traductions.",
+      "attribution": "translations/dnd-2024/phb/SOURCES-SRD.md"
     }
   },
   "objectifReferencesAccueil": {
@@ -572,7 +581,7 @@
   "aVerifier": [],
   "limites": [
     "Priorité au D&D 2024 PHB puis au D&D 2024 MM. Le rangement attribue un emplacement de maintenance ; les sources et éditions précises sont conservées. Le corpus 2014 garde les noms partagés et les références historiques ; les règles du joueur 2024 issues du SRD sont rangées avec le PHB. suiviLivres décrit les accès et contrôles restants, sans pourcentage de traduction intégrale.",
-    "aVerifier concerne les appariements des sources SRD ; une liste vide ne valide pas toutes les références Shard. objectifReferencesAccueil définit le périmètre minimal restant à vérifier et compléter.",
+    "Les corpus SRD des classes et options sont désormais des traductions structurées dans le PHB, sans extraction PDF pendant le build. aVerifier reprend les états de ces inventaires ; une liste vide ne valide ni leur typographie ni toutes les références Shard. objectifReferencesAccueil définit le périmètre minimal restant à vérifier et compléter.",
     "Les noms et présentations brèves traduits ne valident pas le contenu intégral des classes, sous-classes ou autres fiches accessibles depuis l’accueil.",
     "Le corpus de classes est celui du SRD 5.2.1 : 12 classes et leurs sous-classes SRD, pas toutes les sous-classes des suppléments.",
     "Prose appariée ne signifie pas que toutes les variantes Shard et toutes les cellules de tableaux sont couvertes.",

@@ -31,6 +31,6 @@ Les TSV sont les dictionnaires historiques dont l’ordre de priorité est conse
 - [Sources de génération](../sources-generation/README.md) : catalogues et entrées techniques des générateurs.
 - [Résultats intermédiaires](../work/generated/README.md) : JSON reconstruits automatiquement.
 - [Exports distribués](../outputs/README.md) : userscript, métadonnées et exports JSON générés.
-- `data/srd-5.2.1/` : sources bilingues conservées en place, à traiter séparément.
+- [Sources bilingues SRD du PHB](dnd-2024/phb/SOURCES-SRD.md) : aptitudes et options structurées, éditables dans `dnd-2024/phb/classes/`, sans dépendance à des extraits PDF.
 
 Les inventaires restent utiles aux tests lorsque leurs textes sont traduits. Exécuter `npm run translations:check`, `npm run build` et `npm test`. Voir [le guide d’ajout](../docs/AJOUTER-DES-TRADUCTIONS.md).

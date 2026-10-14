@@ -12,4 +12,4 @@ Ce dossier contient les entrées techniques utilisées par les générateurs, di
 
 Les outils sont dans `work/`. Leurs résultats intermédiaires sont dans `work/generated/` ; les fichiers distribués pour Tampermonkey restent dans `outputs/`. Le rapport de couverture est produit dans `audit/`.
 
-Les extraits `data/srd-5.2.1/` restent à leur emplacement actuel et sont toujours lus par les générateurs de classes et d’options. Ils ne sont pas modifiés par cette réorganisation.
+Les aptitudes et options issues du SRD sont désormais éditables dans `translations/dnd-2024/phb/classes/descriptions-srd.json` et `options-srd.json`. Les générateurs les lisent directement ; `data/` et le découpage des PDF ont été retirés. Voir [leur provenance](../translations/dnd-2024/phb/SOURCES-SRD.md).

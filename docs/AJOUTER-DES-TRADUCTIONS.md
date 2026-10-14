@@ -87,7 +87,7 @@ Le traitement reste local. Les rapports peuvent contenir des textes de partie : 
 
 `--labels` inclut les boutons, liens, options avec valeur et attributs d'affichage inconnus. Il sert à repérer les commandes de navigation que l'heuristique de prose ne voit pas. Ses candidats peuvent être des noms propres ou des textes déjà français : il faut les trier. Les valeurs des champs et les éditeurs restent exclus, et les noms du catalogue AideDD sont reconnus.
 
-Tous les dictionnaires et descriptions sont rangés dans les catégories de `translations/`. `work/` contient les outils ; leurs fichiers intermédiaires sont dans `work/generated/`. `sources-generation/` identifie les entrées techniques et `audit/` les inventaires et rapports. Les textes SRD utilisés par les générateurs sont conservés dans `data/srd-5.2.1/`.
+Tous les dictionnaires et descriptions sont rangés dans les catégories de `translations/`. `work/` contient les outils ; leurs fichiers intermédiaires sont dans `work/generated/`. `sources-generation/` identifie les entrées techniques et `audit/` les inventaires et rapports. Les aptitudes et options issues du SRD sont éditables dans `translations/dnd-2024/phb/classes/descriptions-srd.json` et `options-srd.json`. Le build ne lit plus d’extraits PDF.
 
 Les catégories sont `sorts`, `dons`, `classes`, `especes`, `objets`, `armes`, `monstres`, `regles` et `interface`. Il ne faut plus créer de fichier par personnage, niveau ou correction. Les aptitudes, sous-classes, métamagies et manifestations vont dans `classes/` ; les styles de combat et dons dans `dons/`.
 
@@ -124,3 +124,11 @@ Le moteur traite chaque P/LI/BR et les sous-titres reconnus avant d’essayer un
 Le parseur AideDD fournit des blocs de texte et leurs titres, sans réinjecter de HTML distant. Les sections nommées sont reliées au lexique, indépendamment de leur ordre ; les paragraphes non titrés gardent un contrôle de structure. Une référence plus courte en nombre de phrases est conservativement refusée pour ne pas effacer une exception. Ce contrôle ne prouve pas une équivalence sémantique : les versions doivent toujours être vérifiées.
 
 Seules les paires validées pendant le chargement des fiches publiques reçoivent une provenance permettant de remplacer le SRD. Les anciens caches restent lisibles, mais ne sont pas promus automatiquement en références prioritaires. Les valeurs courtes d’un champ distant ne changent pas les noms connus du lexique.
+
+## Corpus structurés des aptitudes et options
+
+Dans `translations/dnd-2024/phb/classes/descriptions-srd.json`, chaque entrée conserve son `id`, sa `class`, son `level`, ses titres `name`/`frName` et ses descriptions `en`/`fr`. Ces métadonnées servent aux sous-sections et aux tests.
+
+Dans `options-srd.json`, chaque entrée possède son `kind` (`metamagic` ou `invocation`), ses titres `name`/`frName` et ses `blocks` EN/FR. Conserver les versions avec et sans coût/prérequis lorsqu’elles correspondent à des affichages différents. La source commune et l’édition figurent à la racine de ces deux fichiers.
+
+`npm run translations:check` valide aussi ces corpus : valeurs numériques, ordre des dés, identifiants, classes, niveaux et blocs obligatoires. Les générateurs préparent leurs copies dans `work/generated/` sans extraction de PDF. Modifier les sources dans le PHB, jamais les copies intermédiaires. Voir [l’attribution SRD](../translations/dnd-2024/phb/SOURCES-SRD.md).

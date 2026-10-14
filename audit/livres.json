@@ -8,11 +8,15 @@
   "regleClassement": "Un emplacement éditorial par texte : règles du joueur 2024 avec le PHB, bestiaire 2024 avec le MM, corpus historique et lexique non spécifique dans 2014. L’emplacement ne remplace pas la source précise ni l’édition portée par l’entrée.",
   "limiteComptage": "Les compteurs par dossier décrivent les packs explicitement rattachés, pas le total des traductions utilisables dans le livre. Ni un nom, ni une présentation, ni une source SRD ne valident une fiche complète.",
   "generationSRD": {
-    "dossierSources": "data/srd-5.2.1",
+    "fichiersSources": [
+      "translations/dnd-2024/phb/classes/descriptions-srd.json",
+      "translations/dnd-2024/phb/classes/options-srd.json"
+    ],
     "necessairePourGeneration": [
       "work/make-class-texts.py",
       "work/make-option-texts.py"
     ],
-    "role": "Sources bilingues utilisées par les générateurs ; les traductions de règles du joueur 2024 sont rangées avec le PHB. Le dossier data reste inchangé."
+    "role": "Traductions bilingues structurées éditables dans le PHB ; aucun extrait PDF ni dossier data nécessaire au build. Les sous-sections restent générées depuis ces traductions.",
+    "attribution": "translations/dnd-2024/phb/SOURCES-SRD.md"
   }
 }
