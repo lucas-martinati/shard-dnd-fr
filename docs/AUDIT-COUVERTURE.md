@@ -1,5 +1,15 @@
 # Audit de couverture — 13 octobre 2026
 
+## Priorité par livre — clarification du 14 octobre 2026
+
+L’objectif principal est le **D&D 2024 PHB**, puis le **D&D 2024 MM**, dans leur version accessible sur Shard et avec toutes leurs fiches liées. Le **Shard Player’s Guide Volume 1** passe au second plan. Les packs dont la source nomme explicitement un seul livre sont séparés dans `translations/dnd-2024/phb/`, `translations/dnd-2024/mm/` et `translations/shard-player-guide-volume-1/`. Les textes communs et ceux de provenance indéterminée restent dans les catégories existantes, sans duplication ni conversion d’édition.
+
+Le [suivi par livre](../translations/livres.json) est repris dans `suiviLivres` du rapport de couverture. Le sommaire du PHB a été relevé, mais ses chapitres complets restent à vérifier. Son Disclaimer indique que cet import contient les mécaniques absentes du SRD 5.2 et ne reproduit pas tout le texte du livre imprimé. Les sources bilingues `data/srd-5.2.1/`, lues par les générateurs de classes et d’options, restent donc utiles et nécessaires au build.
+
+Le lien MM fourni affiche **Unknown book** dans la session du 14 octobre 2026 : aucun inventaire intégral de ce livre n’est validé. Les traductions locales du bestiaire restent chargées. L’introduction et les crédits du guide Shard indiquent une origine majoritairement SRD sous OGL ; ce guide est distinct des sources SRD 5.2.1 du projet.
+
+Les compteurs de packs rattachés ne comptent que les entrées de ces dossiers. Ils ne mesurent ni toutes les correspondances communes utilisables dans un livre, ni la traduction de toutes ses fiches. Aucun livre n’est déclaré intégralement traduit. Les 16 rubriques ci-dessous restent le minimum final, à traiter d’abord pour le PHB et le MM.
+
 ## Objectif minimal : toutes les références accessibles depuis l’accueil
 
 L’objectif final est de traduire **le contenu intégral de toutes les références accessibles depuis l’accueil de Shard**, pour les livres et éditions disponibles. Les 16 rubriques ci-dessous constituent un minimum ; toute autre référence proposée par l’accueil doit également rejoindre cet inventaire.

@@ -1,7 +1,7 @@
 const fs=require('node:fs'),assert=require('node:assert/strict'),{JSDOM}=require('jsdom');
 const refs=JSON.parse(fs.readFileSync('work/class-texts.json'));
 const sections=JSON.parse(fs.readFileSync('work/class-sections.json'));
-const packs=JSON.parse(fs.readFileSync('translations/classes/traductions.json')).entries;
+const packs=require('./translation-fixtures.cjs').pack('classes').entries;
 const w=new JSDOM('<main></main>',{url:'https://play.shardtabletop.com/#class',runScripts:'outside-only',pretendToBeVisual:true}).window,d=w.document,main=d.querySelector('main');
 const escape=s=>s.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;');
 const ranger=refs.find(r=>r.class==='ranger'&&r.name==='Spellcasting');

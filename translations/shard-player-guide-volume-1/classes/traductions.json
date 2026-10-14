@@ -1,0 +1,148 @@
+{
+  "$schema": "../../../docs/translation-pack.schema.json",
+  "schemaVersion": 1,
+  "edition": "any",
+  "source": "Sources détaillées par entrée",
+  "entries": [
+    {
+      "id": "narrative.class.barbarian.any.1",
+      "en": "Surrounded by goblins, the ax wielding half orc, spins in a furious circle, laughing maniacally.",
+      "edition": "any",
+      "fr": "Entouré de gobelins, le demi-orc armé d’une hache tournoie avec fureur en riant comme un dément.",
+      "source": "Traduction proposée des descriptions visibles de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.class.barbarian.any.2",
+      "en": "Barbarians are quick to anger and difficult to defeat. They take the primal instinct to rage and channel it into a powerful force, granting them the ability to fight when others might fall.",
+      "edition": "any",
+      "fr": "Les barbares sont prompts à la colère et difficiles à vaincre. Ils canalisent leur instinct primal de rage pour en faire une force puissante, qui leur permet de continuer à combattre là où d’autres tomberaient.",
+      "source": "Traduction proposée des descriptions visibles de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.class.bard.any.1",
+      "en": "His magic, subtle as the evening breeze, flows from his lute to inspire his friends and terrify his foes.",
+      "edition": "any",
+      "fr": "Sa magie, subtile comme la brise du soir, s’écoule de son luth pour inspirer ses amis et terrifier ses ennemis.",
+      "source": "Traduction proposée des descriptions visibles de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.class.bard.any.2",
+      "en": "Music is magic and the Bard knows that all too well, spinning words into subtle magic the Bard can mystify, empower, and deceive.",
+      "edition": "any",
+      "fr": "La musique est magie, et le barde le sait mieux que personne. En tissant les mots en une magie subtile, il peut mystifier, renforcer et tromper.",
+      "source": "Traduction proposée des descriptions visibles de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.class.cleric.any.1",
+      "en": "Arms outstretched over a fallen comrade the Cleric calls out for mercy and healing.",
+      "edition": "any",
+      "fr": "Les bras tendus au-dessus d’un camarade tombé, le clerc implore la miséricorde et la guérison.",
+      "source": "Traduction proposée des descriptions visibles de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.class.cleric.any.2",
+      "en": "Divine powers channel their magic and influence thru the Cleric, enabling them to heal and destroy.",
+      "edition": "any",
+      "fr": "Les puissances divines canalisent leur magie et leur influence à travers le clerc, lui permettant de guérir comme de détruire.",
+      "source": "Traduction proposée des descriptions visibles de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.class.druid.any.1",
+      "en": "A sturdy staff by her side, the Druid waves her hand and the earth responds to her bidding, Nature itself her ally.",
+      "edition": "any",
+      "fr": "Un solide bâton à ses côtés, la druide fait un geste de la main et la terre répond à son appel : la nature elle-même est son alliée.",
+      "source": "Traduction proposée des descriptions visibles de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.class.druid.any.2",
+      "en": "Able to rely on the elemental forces of nature, the Druid can embody natures’ creatures and call upon its brutal power.",
+      "edition": "any",
+      "fr": "S’appuyant sur les forces élémentaires de la nature, le druide peut incarner ses créatures et invoquer sa puissance brutale.",
+      "source": "Traduction proposée des descriptions visibles de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.class.fighter.any.1",
+      "en": "Hard earned weapons and tactics knowledge fuel the fighter’s success in both the arena and the battle campaign.",
+      "edition": "any",
+      "fr": "Une connaissance durement acquise des armes et des tactiques assure la réussite du guerrier, dans l’arène comme sur les champs de bataille.",
+      "source": "Traduction proposée des descriptions visibles de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.class.fighter.any.2",
+      "en": "Analytical and well-trained fighters can take many forms, from gladiators to foot soldiers, they are able to call upon their mastery with weapons and armor with great success",
+      "edition": "any",
+      "fr": "Réfléchis et bien entraînés, les guerriers prennent de nombreuses formes, des gladiateurs aux fantassins. Ils savent tirer pleinement parti de leur maîtrise des armes et des armures.",
+      "source": "Traduction proposée des descriptions visibles de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.class.monk.any.1",
+      "en": "Harnessing the magic of the multiverse, Monks possess the ability to exceed their mortal limitations.",
+      "edition": "any",
+      "fr": "En exploitant la magie du multivers, les moines peuvent dépasser leurs limites mortelles.",
+      "source": "Traduction proposée des descriptions visibles de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.class.monk.any.2",
+      "en": "In tune with the energy of the universe, Monks can harness it to deal devastating blows and maintain subtle defenses.",
+      "edition": "any",
+      "fr": "En harmonie avec l’énergie de l’univers, les moines la canalisent pour porter des coups dévastateurs et entretenir des défenses subtiles.",
+      "source": "Traduction proposée des descriptions visibles de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.class.paladin.any.1",
+      "en": "A Paladin’s oath is her bond, most stand firm against the forces of evil, giving them divine power to defeat their enemies.",
+      "edition": "any",
+      "fr": "Le serment d’une paladine l’engage tout entière. La plupart se dressent fermement contre les forces du mal, recevant ainsi le pouvoir divin de vaincre leurs ennemis.",
+      "source": "Traduction proposée des descriptions visibles de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.class.paladin.any.2",
+      "en": "Paladin’s are devout warriors, sworn to uphold their oaths, empowering them to become champions.",
+      "edition": "any",
+      "fr": "Les paladins sont des guerriers dévoués, liés par leurs serments, qui leur donnent la force de devenir des champions.",
+      "source": "Traduction proposée des descriptions visibles de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.class.ranger.any.1",
+      "en": "Loners, wandering the wild places, Rangers are often the first and last line of defense against the ravage of evil.",
+      "edition": "any",
+      "fr": "Solitaires qui parcourent les terres sauvages, les rôdeurs sont souvent le premier et le dernier rempart contre les ravages du mal.",
+      "source": "Traduction proposée des descriptions visibles de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.class.ranger.any.2",
+      "en": "The last line of defense against the ravages of the wild, Rangers protect civilization",
+      "edition": "any",
+      "fr": "Dernier rempart contre les dangers des terres sauvages, les rôdeurs protègent la civilisation.",
+      "source": "Traduction proposée des descriptions visibles de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.class.rogue.any.1",
+      "en": "Natural thieves and assassins, Rogues rely upon stealth to gain the upper hand.",
+      "edition": "any",
+      "fr": "Voleurs et assassins nés, les roublards s’appuient sur la discrétion pour prendre l’avantage.",
+      "source": "Traduction proposée des descriptions visibles de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.class.sorcerer.any.1",
+      "en": "The Sorcerer does not choose magic, magic chooses the Sorcerer. Powerful and erratic, Sorcerers have no use for spell books or dusty libraries, their magic springs directly from more primal sources.",
+      "edition": "any",
+      "fr": "L’ensorceleur ne choisit pas la magie : c’est la magie qui le choisit. Puissants et imprévisibles, les ensorceleurs n’ont que faire des grimoires et des bibliothèques poussiéreuses ; leur magie jaillit directement de sources plus primales.",
+      "source": "Traduction proposée des descriptions visibles de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.class.warlock.any.1",
+      "en": "Sworn to service with an otherworldly creature, Warlocks abilities range from physical changes to the use of powerful spells and an ability with simple weapons.",
+      "edition": "any",
+      "fr": "Liés au service d’une créature d’un autre monde, les occultistes possèdent des aptitudes allant de transformations physiques à l’utilisation de sorts puissants, en passant par le maniement des armes courantes.",
+      "source": "Traduction proposée des descriptions visibles de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.class.wizard.any.1",
+      "en": "Able to learn and cast spells, Wizards are always searching for hidden knowledge and power.",
+      "edition": "any",
+      "fr": "Capables d’apprendre et de lancer des sorts, les magiciens recherchent sans cesse les connaissances cachées et le pouvoir.",
+      "source": "Traduction proposée des descriptions visibles de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    }
+  ]
+}

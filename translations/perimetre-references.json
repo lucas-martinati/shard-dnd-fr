@@ -144,5 +144,7 @@
     "Les présentations et plusieurs contenus détaillés sont déjà traduits, notamment pour les classes ; leur couverture complète dans tous les livres reste à établir.",
     "Les six rubriques d’options du personnage et les dix types personnalisés constituent un minimum : ajouter toute autre référence accessible depuis l’accueil.",
     "Une liste aVerifier vide pour les appariements SRD ne signifie pas que ce périmètre Shard est intégralement traduit."
-  ]
+  ],
+  "prioritesLivres": "livres.json",
+  "ordreTravail": "D&D 2024 PHB, puis D&D 2024 MM ; guide Shard secondaire. Les rubriques ci-dessous restent le minimum final et sont vérifiées d’abord pour les deux livres prioritaires."
 }

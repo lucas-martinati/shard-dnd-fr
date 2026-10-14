@@ -558,42 +558,6 @@
       "source": "Traduction de l’extrait utilisateur et des passages SRD correspondants · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
     },
     {
-      "id": "weapon.2014.adamantine",
-      "en": "Whenever you hit an object with this weapon, the hit is a critical hit.",
-      "fr": "Chaque fois que vous touchez un objet avec cette arme, le coup est un coup critique.",
-      "source": "Traduction proposée des règles anciennes (2014) relevées sur la fiche Adamantine Dagger, Shard Player’s Guide Volume 1 · https://play.shardtabletop.com/#item · 14 octobre 2026",
-      "edition": "2014"
-    },
-    {
-      "id": "weapon.2014.finesse.section",
-      "en": "Finesse. When making an attack with a Finesse weapon, use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.",
-      "fr": "Finesse. Lorsque vous attaquez avec une arme dotée de la propriété Finesse, choisissez votre modificateur de Force ou de Dextérité pour les jets d’attaque et de dégâts. Vous devez utiliser le même modificateur pour les deux jets.",
-      "source": "Traduction proposée des règles anciennes (2014) relevées sur la fiche Adamantine Dagger, Shard Player’s Guide Volume 1 · https://play.shardtabletop.com/#item · 14 octobre 2026",
-      "edition": "2014"
-    },
-    {
-      "id": "weapon.2014.light.section",
-      "en": "Light. A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons.",
-      "fr": "Légère. Une arme légère est petite et facile à manier, ce qui la rend idéale pour combattre avec deux armes.",
-      "source": "Traduction proposée des règles anciennes (2014) relevées sur la fiche Adamantine Dagger, Shard Player’s Guide Volume 1 · https://play.shardtabletop.com/#item · 14 octobre 2026",
-      "edition": "2014"
-    },
-    {
-      "id": "weapon.2014.thrown.section",
-      "en": "Thrown. If a weapon has the thrown property, you can throw the weapon to make a ranged attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity, since the dagger has the finesse property.",
-      "fr": "Lancer. Si une arme possède la propriété Lancer, vous pouvez la lancer pour effectuer une attaque à distance. S’il s’agit d’une arme de corps à corps, vous utilisez le même modificateur de caractéristique pour les jets d’attaque et de dégâts que pour une attaque de corps à corps avec cette arme. Par exemple, lancer une hachette utilise la Force, tandis que lancer une dague permet d’utiliser la Force ou la Dextérité grâce à sa propriété Finesse.",
-      "source": "Traduction proposée des règles anciennes (2014) relevées sur la fiche Adamantine Dagger, Shard Player’s Guide Volume 1 · https://play.shardtabletop.com/#item · 14 octobre 2026",
-      "edition": "2014"
-    },
-    {
-      "id": "weapon.adamantine-dagger.name",
-      "kind": "term",
-      "en": "Adamantine Dagger",
-      "fr": "Dague en adamantium",
-      "source": "Traduction proposée des règles anciennes (2014) relevées sur la fiche Adamantine Dagger, Shard Player’s Guide Volume 1 · https://play.shardtabletop.com/#item · 14 octobre 2026",
-      "edition": "any"
-    },
-    {
       "id": "shard.armes.dagger.d82888c2a5",
       "kind": "description",
       "en": "Damage 1d4 piercing",

@@ -42,7 +42,7 @@ npm run build
 npm test
 ```
 
-Les traductions et dictionnaires sont rangés par grandes catégories dans `translations/` : sorts, dons, classes, espèces, objets, armes, monstres, règles et interface. Les outils de génération se trouvent dans `work/`, les sources SRD dans `data/`. `work/build.py` produit le userscript et les catalogues dans `outputs/`. `work/header.txt` contient les métadonnées Tampermonkey. Les fichiers générés sont versionnés pour faciliter l’installation.
+Les packs sont séparés entre `translations/dnd-2024/` (PHB puis MM, prioritaires), `translations/shard-player-guide-volume-1/` (secondaire) et les catégories communes de `translations/`. Le [suivi par livre](translations/livres.json) distingue les sources et les contrôles restants. Les traductions et dictionnaires restent rangés par grandes catégories : sorts, dons, classes, espèces, objets, armes, monstres, règles et interface. Les outils de génération se trouvent dans `work/`, les sources SRD dans `data/`. `work/build.py` produit le userscript et les catalogues dans `outputs/`. `work/header.txt` contient les métadonnées Tampermonkey. Les fichiers générés sont versionnés pour faciliter l’installation.
 
 Les constantes de données du userscript sont toutes sérialisées au format JSON compact, une déclaration par ligne. Les fichiers sources JSON restent indentés pour faciliter leur édition ; les retours à la ligne contenus dans les traductions sont conservés sous forme échappée.
 
@@ -81,7 +81,7 @@ Pour le bestiaire, cette version traduit localement la tarasque entière et 217 
 
 ## Ajouter des traductions
 
-Les fichiers `translations/<catégorie>/traductions.json` sont détectés automatiquement à la génération. Ajouter un texte anglais, son français et sa source suffit ; aucun changement du moteur n’est nécessaire.
+Tous les fichiers `traductions.json` sous `translations/`, y compris dans les dossiers de livres, sont détectés automatiquement à la génération. Ajouter un texte anglais, son français et sa source suffit ; aucun changement du moteur n’est nécessaire.
 
 Voir le [guide d’ajout de traductions](docs/AJOUTER-DES-TRADUCTIONS.md), qui explique les variantes, les libellés et l’audit d’extraits HTML.
 

@@ -1,5 +1,5 @@
 {
-  "$schema": "../../docs/translation-pack.schema.json",
+  "$schema": "../../../../docs/translation-pack.schema.json",
   "schemaVersion": 1,
   "edition": "any",
   "source": "Sources détaillées par entrée",

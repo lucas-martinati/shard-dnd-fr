@@ -24859,13 +24859,6 @@
       "aliases": []
     },
     {
-      "en": "Adamantine Dagger",
-      "fr": "Dague en adamantium",
-      "category": "équipement",
-      "source": "Traduction proposée des règles anciennes (2014) relevées sur la fiche Adamantine Dagger, Shard Player’s Guide Volume 1 · https://play.shardtabletop.com/#item · 14 octobre 2026",
-      "aliases": []
-    },
-    {
       "en": "Adamantine Battleaxe",
       "fr": "Hache d’armes en adamantium",
       "category": "équipement",
@@ -27799,594 +27792,6 @@
       "aliases": []
     },
     {
-      "en": "Nature Speaker",
-      "fr": "Parole de la nature",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Tandem Footwork",
-      "fr": "Jeu de jambes en tandem",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Combat Inspiration",
-      "fr": "Inspiration martiale",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Martial Training",
-      "fr": "Entraînement martial",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Battle Magic",
-      "fr": "Magie de combat",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Divine Spark",
-      "fr": "Étincelle divine",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Light Domain Spells",
-      "fr": "Sorts du Domaine de la Lumière",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Warding Flare",
-      "fr": "Lueur protectrice",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Improved Warding Flare",
-      "fr": "Lueur protectrice améliorée",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Corona of Light",
-      "fr": "Couronne de lumière",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Trickery Domain Spells",
-      "fr": "Sorts du Domaine de la Ruse",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Invoke Duplicity",
-      "fr": "Invocation de duplicité",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Trickster’s Transposition",
-      "fr": "Transposition du filou",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Improved Duplicity",
-      "fr": "Duplicité améliorée",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Guided Strike",
-      "fr": "Frappe guidée",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "War Domain Spells",
-      "fr": "Sorts du Domaine de la Guerre",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "War Priest",
-      "fr": "Prêtre de guerre",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "War God’s Blessing",
-      "fr": "Bénédiction du dieu de la guerre",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Avatar of Battle",
-      "fr": "Avatar de bataille",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Improved Circle Forms",
-      "fr": "Formes du Cercle améliorées",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Lunar Form",
-      "fr": "Forme lunaire",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Ultimate Combat Superiority",
-      "fr": "Supériorité au combat ultime",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Telekinetic Adept",
-      "fr": "Adepte de la télékinésie",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Bulwark of Force",
-      "fr": "Rempart de force",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Telekinetic Master",
-      "fr": "Maître de la télékinésie",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Implements of Mercy",
-      "fr": "Instruments de miséricorde",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Physician’s Touch",
-      "fr": "Toucher du médecin",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Manipulate Elements",
-      "fr": "Manipulation des éléments",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Inspiring Smite",
-      "fr": "Frappe inspirante",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Oath of Glory Spells",
-      "fr": "Sorts du Serment de Gloire",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Peerless Athlete",
-      "fr": "Athlète sans égal",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Aura of Alacrity",
-      "fr": "Aura de célérité",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Glorious Defense",
-      "fr": "Défense glorieuse",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Living Legend",
-      "fr": "Légende vivante",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Nature’s Wrath",
-      "fr": "Courroux de la nature",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Aura of Warding",
-      "fr": "Aura de protection",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Undying Sentinel",
-      "fr": "Sentinelle immortelle",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Elder Champion",
-      "fr": "Champion des Anciens",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Oath of Vengeance Spells",
-      "fr": "Sorts du Serment de Vengeance",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Vow of Enmity",
-      "fr": "Vœu d’inimitié",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Relentless Avenger",
-      "fr": "Vengeur implacable",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Soul of Vengeance",
-      "fr": "Âme de vengeance",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Avenging Angel",
-      "fr": "Ange vengeur",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Decrease Exhaustion",
-      "fr": "Réduction de l’épuisement",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Exceptional Training",
-      "fr": "Entraînement exceptionnel",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Bestial Fury",
-      "fr": "Fureur bestiale",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Share Spells",
-      "fr": "Partage de sorts",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Dreadful Strikes",
-      "fr": "Frappes redoutables",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Fey Wanderer Spells",
-      "fr": "Sorts du Vagabond féerique",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Fey Blessing",
-      "fr": "Bénédiction féerique",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Gloom Stalker Spells",
-      "fr": "Sorts du Traqueur des ténèbres",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Iron Mind",
-      "fr": "Esprit de fer",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Shadowy Dodge",
-      "fr": "Esquive des ombres",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Magical Ambush",
-      "fr": "Embuscade magique",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Versatile Trickster",
-      "fr": "Filou polyvalent",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Assassinate",
-      "fr": "Assassinat",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Assassin’s Tools",
-      "fr": "Outils de l’assassin",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Infiltration Expertise",
-      "fr": "Expertise en infiltration",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Envenom Weapons",
-      "fr": "Armes empoisonnées",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Death Strike",
-      "fr": "Frappe mortelle",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Psychic Veil",
-      "fr": "Voile psychique",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Psionic Spells",
-      "fr": "Sorts psioniques",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Telepathic Speech",
-      "fr": "Parole télépathique",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Psionic Sorcery",
-      "fr": "Sorcellerie psionique",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Psychic Defenses",
-      "fr": "Défenses psychiques",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Revelation in Flesh",
-      "fr": "Révélation charnelle",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Warping Implosion",
-      "fr": "Implosion distordante",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Clockwork Spells",
-      "fr": "Sorts mécaniques",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Restore Balance",
-      "fr": "Rétablissement de l’équilibre",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Manifestations of Order",
-      "fr": "Manifestations de l’ordre",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Bastion of Law",
-      "fr": "Bastion de la loi",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Trance of Order",
-      "fr": "Transe de l’ordre",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Clockwork Cavalcade",
-      "fr": "Cavalcade mécanique",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Wild Magic Surge",
-      "fr": "Sursaut de magie sauvage",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Tides of Chaos",
-      "fr": "Vagues du chaos",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Bend Luck",
-      "fr": "Manipulation de la chance",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Controlled Chaos",
-      "fr": "Chaos contrôlé",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Tamed Surge",
-      "fr": "Sursaut maîtrisé",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Archfey Spells",
-      "fr": "Sorts de l’Archifée",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Celestial Spells",
-      "fr": "Sorts du Céleste",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Great Old One Spells",
-      "fr": "Sorts du Grand Ancien",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Abjuration Savant",
-      "fr": "Savant en abjuration",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Divination Savant",
-      "fr": "Savant en divination",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
-      "en": "Illusion Savant",
-      "fr": "Savant en illusion",
-      "category": "aptitude de classe",
-      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "aliases": []
-    },
-    {
       "en": "Salmon.",
       "fr": "Saumon.",
       "category": "aptitude de classe",
@@ -29000,6 +28405,664 @@
       "fr": "table de Sursaut de magie sauvage",
       "category": "aptitude de classe",
       "source": "Traduction proposée du lien de la table de magie sauvage observé sur Shard · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Legendary Resistance (6/Day)",
+      "fr": "Résistance légendaire (6/jour)",
+      "category": "monstre",
+      "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Reflective Carapace",
+      "fr": "Carapace réfléchissante",
+      "category": "monstre",
+      "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Thunderous Bellow (Recharge 5–6)",
+      "fr": "Mugissement tonitruant (recharge 5–6)",
+      "category": "monstre",
+      "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Onslaught",
+      "fr": "Offensive",
+      "category": "monstre",
+      "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "World-Shaking Movement",
+      "fr": "Déplacement sismique",
+      "category": "monstre",
+      "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Legendary Resistance (3/Day, or 4/Day in Lair)",
+      "fr": "Résistance légendaire (3/jour, ou 4/jour dans son antre)",
+      "category": "monstre",
+      "source": "Titre du trait commun MM 2024 · https://www.aidedd.org/monster/fr/aboleth",
+      "aliases": []
+    },
+    {
+      "en": "Incorporeal Movement",
+      "fr": "Déplacement intangible",
+      "category": "monstre",
+      "source": "Titre du trait commun MM 2024 · https://www.aidedd.org/monster/fr/ame-en-peine",
+      "aliases": []
+    },
+    {
+      "en": "Legendary Resistance (4/Day, or 5/Day in Lair)",
+      "fr": "Résistance légendaire (4/jour, ou 5/jour dans son antre)",
+      "category": "monstre",
+      "source": "Titre du trait commun MM 2024 · https://www.aidedd.org/monster/fr/archi-guenaude",
+      "aliases": []
+    },
+    {
+      "en": "Legendary Resistance (3/Day)",
+      "fr": "Résistance légendaire (3/jour)",
+      "category": "monstre",
+      "source": "Titre du trait commun MM 2024 · https://www.aidedd.org/monster/fr/balor",
+      "aliases": []
+    },
+    {
+      "en": "Legendary Resistance (4/Day)",
+      "fr": "Résistance légendaire (4/jour)",
+      "category": "monstre",
+      "source": "Titre du trait commun MM 2024 · https://www.aidedd.org/monster/fr/colosse",
+      "aliases": []
+    },
+    {
+      "en": "Nature Speaker",
+      "fr": "Parole de la nature",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Tandem Footwork",
+      "fr": "Jeu de jambes en tandem",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Combat Inspiration",
+      "fr": "Inspiration martiale",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Martial Training",
+      "fr": "Entraînement martial",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Battle Magic",
+      "fr": "Magie de combat",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Divine Spark",
+      "fr": "Étincelle divine",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Light Domain Spells",
+      "fr": "Sorts du Domaine de la Lumière",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Warding Flare",
+      "fr": "Lueur protectrice",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Improved Warding Flare",
+      "fr": "Lueur protectrice améliorée",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Corona of Light",
+      "fr": "Couronne de lumière",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Trickery Domain Spells",
+      "fr": "Sorts du Domaine de la Ruse",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Invoke Duplicity",
+      "fr": "Invocation de duplicité",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Trickster’s Transposition",
+      "fr": "Transposition du filou",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Improved Duplicity",
+      "fr": "Duplicité améliorée",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Guided Strike",
+      "fr": "Frappe guidée",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "War Domain Spells",
+      "fr": "Sorts du Domaine de la Guerre",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "War Priest",
+      "fr": "Prêtre de guerre",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "War God’s Blessing",
+      "fr": "Bénédiction du dieu de la guerre",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Avatar of Battle",
+      "fr": "Avatar de bataille",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Improved Circle Forms",
+      "fr": "Formes du Cercle améliorées",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Lunar Form",
+      "fr": "Forme lunaire",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Ultimate Combat Superiority",
+      "fr": "Supériorité au combat ultime",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Telekinetic Adept",
+      "fr": "Adepte de la télékinésie",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Bulwark of Force",
+      "fr": "Rempart de force",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Telekinetic Master",
+      "fr": "Maître de la télékinésie",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Implements of Mercy",
+      "fr": "Instruments de miséricorde",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Physician’s Touch",
+      "fr": "Toucher du médecin",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Manipulate Elements",
+      "fr": "Manipulation des éléments",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Inspiring Smite",
+      "fr": "Frappe inspirante",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Oath of Glory Spells",
+      "fr": "Sorts du Serment de Gloire",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Peerless Athlete",
+      "fr": "Athlète sans égal",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Aura of Alacrity",
+      "fr": "Aura de célérité",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Glorious Defense",
+      "fr": "Défense glorieuse",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Living Legend",
+      "fr": "Légende vivante",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Nature’s Wrath",
+      "fr": "Courroux de la nature",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Aura of Warding",
+      "fr": "Aura de protection",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Undying Sentinel",
+      "fr": "Sentinelle immortelle",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Elder Champion",
+      "fr": "Champion des Anciens",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Oath of Vengeance Spells",
+      "fr": "Sorts du Serment de Vengeance",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Vow of Enmity",
+      "fr": "Vœu d’inimitié",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Relentless Avenger",
+      "fr": "Vengeur implacable",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Soul of Vengeance",
+      "fr": "Âme de vengeance",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Avenging Angel",
+      "fr": "Ange vengeur",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Decrease Exhaustion",
+      "fr": "Réduction de l’épuisement",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Exceptional Training",
+      "fr": "Entraînement exceptionnel",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Bestial Fury",
+      "fr": "Fureur bestiale",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Share Spells",
+      "fr": "Partage de sorts",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Dreadful Strikes",
+      "fr": "Frappes redoutables",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Fey Wanderer Spells",
+      "fr": "Sorts du Vagabond féerique",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Fey Blessing",
+      "fr": "Bénédiction féerique",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Gloom Stalker Spells",
+      "fr": "Sorts du Traqueur des ténèbres",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Iron Mind",
+      "fr": "Esprit de fer",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Shadowy Dodge",
+      "fr": "Esquive des ombres",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Magical Ambush",
+      "fr": "Embuscade magique",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Versatile Trickster",
+      "fr": "Filou polyvalent",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Assassinate",
+      "fr": "Assassinat",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Assassin’s Tools",
+      "fr": "Outils de l’assassin",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Infiltration Expertise",
+      "fr": "Expertise en infiltration",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Envenom Weapons",
+      "fr": "Armes empoisonnées",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Death Strike",
+      "fr": "Frappe mortelle",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Psychic Veil",
+      "fr": "Voile psychique",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Psionic Spells",
+      "fr": "Sorts psioniques",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Telepathic Speech",
+      "fr": "Parole télépathique",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Psionic Sorcery",
+      "fr": "Sorcellerie psionique",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Psychic Defenses",
+      "fr": "Défenses psychiques",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Revelation in Flesh",
+      "fr": "Révélation charnelle",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Warping Implosion",
+      "fr": "Implosion distordante",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Clockwork Spells",
+      "fr": "Sorts mécaniques",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Restore Balance",
+      "fr": "Rétablissement de l’équilibre",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Manifestations of Order",
+      "fr": "Manifestations de l’ordre",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Bastion of Law",
+      "fr": "Bastion de la loi",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Trance of Order",
+      "fr": "Transe de l’ordre",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Clockwork Cavalcade",
+      "fr": "Cavalcade mécanique",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Wild Magic Surge",
+      "fr": "Sursaut de magie sauvage",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Tides of Chaos",
+      "fr": "Vagues du chaos",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Bend Luck",
+      "fr": "Manipulation de la chance",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Controlled Chaos",
+      "fr": "Chaos contrôlé",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Tamed Surge",
+      "fr": "Sursaut maîtrisé",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Archfey Spells",
+      "fr": "Sorts de l’Archifée",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Celestial Spells",
+      "fr": "Sorts du Céleste",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Great Old One Spells",
+      "fr": "Sorts du Grand Ancien",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Abjuration Savant",
+      "fr": "Savant en abjuration",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Divination Savant",
+      "fr": "Savant en divination",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Illusion Savant",
+      "fr": "Savant en illusion",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
       "aliases": []
     },
     {
@@ -30578,76 +30641,6 @@
       "aliases": []
     },
     {
-      "en": "Legendary Resistance (6/Day)",
-      "fr": "Résistance légendaire (6/jour)",
-      "category": "monstre",
-      "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026",
-      "aliases": []
-    },
-    {
-      "en": "Reflective Carapace",
-      "fr": "Carapace réfléchissante",
-      "category": "monstre",
-      "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026",
-      "aliases": []
-    },
-    {
-      "en": "Thunderous Bellow (Recharge 5–6)",
-      "fr": "Mugissement tonitruant (recharge 5–6)",
-      "category": "monstre",
-      "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026",
-      "aliases": []
-    },
-    {
-      "en": "Onslaught",
-      "fr": "Offensive",
-      "category": "monstre",
-      "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026",
-      "aliases": []
-    },
-    {
-      "en": "World-Shaking Movement",
-      "fr": "Déplacement sismique",
-      "category": "monstre",
-      "source": "Traduction proposée de l’extrait utilisateur · Tarasque MM 2024 ; noms français et valeurs vérifiés sur les références publiques AideDD · https://www.aidedd.org/monster/fr/tarasque · 13 octobre 2026",
-      "aliases": []
-    },
-    {
-      "en": "Legendary Resistance (3/Day, or 4/Day in Lair)",
-      "fr": "Résistance légendaire (3/jour, ou 4/jour dans son antre)",
-      "category": "monstre",
-      "source": "Titre du trait commun MM 2024 · https://www.aidedd.org/monster/fr/aboleth",
-      "aliases": []
-    },
-    {
-      "en": "Incorporeal Movement",
-      "fr": "Déplacement intangible",
-      "category": "monstre",
-      "source": "Titre du trait commun MM 2024 · https://www.aidedd.org/monster/fr/ame-en-peine",
-      "aliases": []
-    },
-    {
-      "en": "Legendary Resistance (4/Day, or 5/Day in Lair)",
-      "fr": "Résistance légendaire (4/jour, ou 5/jour dans son antre)",
-      "category": "monstre",
-      "source": "Titre du trait commun MM 2024 · https://www.aidedd.org/monster/fr/archi-guenaude",
-      "aliases": []
-    },
-    {
-      "en": "Legendary Resistance (3/Day)",
-      "fr": "Résistance légendaire (3/jour)",
-      "category": "monstre",
-      "source": "Titre du trait commun MM 2024 · https://www.aidedd.org/monster/fr/balor",
-      "aliases": []
-    },
-    {
-      "en": "Legendary Resistance (4/Day)",
-      "fr": "Résistance légendaire (4/jour)",
-      "category": "monstre",
-      "source": "Titre du trait commun MM 2024 · https://www.aidedd.org/monster/fr/colosse",
-      "aliases": []
-    },
-    {
       "en": "Acid (vial)",
       "fr": "Acide (fiole)",
       "category": "équipement",
@@ -31068,13 +31061,6 @@
       "aliases": []
     },
     {
-      "en": "Death",
-      "fr": "Mort",
-      "category": "règles",
-      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026",
-      "aliases": []
-    },
-    {
       "en": "Enlarge",
       "fr": "Agrandissement",
       "category": "règles",
@@ -31114,6 +31100,20 @@
       "fr": "Transformation",
       "category": "règles",
       "source": "Libellé observé dans le catalogue Conditions de Shard · traduction proposée · 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine Dagger",
+      "fr": "Dague en adamantium",
+      "category": "équipement",
+      "source": "Traduction proposée des règles anciennes (2014) relevées sur la fiche Adamantine Dagger, Shard Player’s Guide Volume 1 · https://play.shardtabletop.com/#item · 14 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Death",
+      "fr": "Mort",
+      "category": "règles",
+      "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026",
       "aliases": []
     },
     {

@@ -1,0 +1,298 @@
+{
+  "$schema": "../../../../docs/translation-pack.schema.json",
+  "schemaVersion": 1,
+  "edition": "any",
+  "source": "Sources détaillées par entrée",
+  "entries": [
+    {
+      "id": "narrative.species.aasimar.2024.1",
+      "en": "Aasimar (pronounced AH-sih-mar) are mortals who carry a spark of the Upper Planes within their souls. Whether descended from an angelic being or infused with celestial power, they can fan that spark to bring light, healing, and heavenly fury.",
+      "edition": "2024",
+      "fr": "Les aasimars, dont le nom se prononce « a-si-mar », sont des mortels qui portent dans leur âme une étincelle des Plans supérieurs. Qu’ils descendent d’un être angélique ou aient été imprégnés de puissance céleste, ils peuvent attiser cette étincelle pour apporter lumière, guérison et fureur céleste.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.species.aasimar.2024.2",
+      "en": "Aasimar can arise among any population of mortals. They resemble their parents, but they live for up to 160 years and have features that hint at their celestial heritage, such as metallic freckles, luminous eyes, a halo, or the skin color of an angel (silver, opalescent green, or coppery red). These features start subtle and become obvious when the aasimar learns to reveal their full celestial nature.",
+      "edition": "2024",
+      "fr": "Des aasimars peuvent naître dans n’importe quelle population mortelle. Ils ressemblent à leurs parents, mais vivent jusqu’à 160 ans et présentent des signes de leur héritage céleste : taches de rousseur métalliques, yeux lumineux, auréole ou peau aux couleurs d’un ange, comme l’argent, le vert opalescent ou le rouge cuivré. D’abord discrets, ces traits deviennent évidents lorsque l’aasimar apprend à révéler pleinement sa nature céleste.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.species.aasimar.2024.3",
+      "en": "As an Aasimar, you have these special traits.",
+      "edition": "2024",
+      "fr": "En tant qu’aasimar, vous possédez les traits spéciaux suivants.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.species.dragonborn.2024.1",
+      "en": "The ancestors of dragonborn hatched from the eggs of chromatic and metallic dragons. One story holds that these eggs were blessed by the dragon gods Bahamut and Tiamat, who wanted to populate the multiverse with people created in their image. Another story claims that dragons created the first dragonborn without the gods’ blessings. Whatever their origin, dragonborn have made homes for themselves on the Material Plane.",
+      "edition": "2024",
+      "fr": "Les ancêtres des drakéides sont issus d’œufs de dragons chromatiques et métalliques. Selon un récit, les dieux dragons Bahamut et Tiamat auraient béni ces œufs pour peupler le multivers de créatures façonnées à leur image. Selon un autre, les dragons auraient créé les premiers drakéides sans la bénédiction des dieux. Quelle que soit leur origine, les drakéides ont trouvé leur place sur le plan Matériel.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.species.dragonborn.2024.2",
+      "en": "Dragonborn look like wingless, bipedal dragons—scaly, bright-eyed, and thick-boned with horns on their heads—and their coloration and other features are reminiscent of their draconic ancestors.",
+      "edition": "2024",
+      "fr": "Les drakéides ressemblent à des dragons bipèdes sans ailes : peau écailleuse, yeux brillants, ossature robuste et cornes sur la tête. Leurs couleurs et leurs autres caractéristiques rappellent leurs ancêtres draconiques.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.species.dwarf.2024.1",
+      "en": "Dwarves were raised from the earth in the elder days by a deity of the forge. Called by various names on different worlds—Moradin, Reorx, and others—that god gave dwarves an affinity for stone and metal and for living underground. The god also made them resilient like the mountains, with a life span of about 350 years.",
+      "edition": "2024",
+      "fr": "Aux temps anciens, une divinité de la forge fit naître les nains de la terre. Connue selon les mondes sous les noms de Moradin, Reorx et bien d’autres, elle leur donna une affinité pour la pierre, le métal et la vie souterraine. Elle les rendit aussi résistants que les montagnes, avec une longévité d’environ 350 ans.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.species.dwarf.2024.2",
+      "en": "Squat and often bearded, the original dwarves carved cities and strongholds into mountainsides and under the earth. Their oldest legends tell of conflicts with the monsters of mountaintops and the Underdark, whether those monsters were towering giants or subterranean horrors. Inspired by those tales, dwarves of any culture often sing of valorous deeds—especially of the little overcoming the mighty.",
+      "edition": "2024",
+      "fr": "Trapus et souvent barbus, les premiers nains creusèrent des cités et des forteresses dans les montagnes et sous la terre. Leurs plus anciennes légendes racontent leurs affrontements avec les monstres des sommets et de l’Outreterre, qu’il s’agisse de géants colossaux ou d’horreurs souterraines. Inspirés par ces récits, les nains de toutes les cultures chantent volontiers les actes de bravoure, surtout lorsque les plus petits triomphent des plus puissants.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.species.dwarf.2024.3",
+      "en": "On some worlds in the multiverse, the first settlements of dwarves were built in hills or mountains, and the families who trace their ancestry to those settlements call themselves hill dwarves or mountain dwarves, respectively.",
+      "edition": "2024",
+      "fr": "Sur certains mondes du multivers, les premières communautés naines furent établies dans les collines ou les montagnes. Les familles qui en descendent se désignent respectivement comme nains des collines ou nains des montagnes.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.species.elf.2024.1",
+      "en": "Elves have pointed ears and lack facial and body hair. They live for around 750 years, and they don’t sleep but instead enter a trance when they need to rest. In that state, they remain aware of their surroundings while immersing themselves in memories and meditations.",
+      "edition": "2024",
+      "fr": "Les elfes ont les oreilles pointues et n’ont ni barbe ni pilosité corporelle. Ils vivent environ 750 ans et ne dorment pas : lorsqu’ils ont besoin de repos, ils entrent en transe. Dans cet état, ils restent conscients de leur environnement tout en se plongeant dans leurs souvenirs et leurs méditations.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.species.elf.2024.2",
+      "en": "An environment subtly transforms elves after they inhabit it for a millennium or more, and it grants them certain kinds of magic. Drow, high elves, and wood elves are examples of elves who have been transformed thus.",
+      "edition": "2024",
+      "fr": "Un environnement transforme subtilement les elfes qui y vivent pendant un millénaire ou davantage, leur conférant certaines formes de magie. Les drows, les hauts-elfes et les elfes des bois sont des exemples d’elfes ainsi transformés.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.species.gnome.2024.1",
+      "en": "Gnomes are magical folk created by gods of invention, illusions, and life underground. The earliest gnomes were seldom seen by other folk due to the gnomes’ secretive nature and their propensity for living in forests and burrows. What they lacked in size, they made up for in cleverness. They confounded predators with traps and labyrinthine tunnels. They also learned magic from gods like Garl Glittergold, Baervan Wildwanderer, and Baravar Cloakshadow, who visited them in disguise. That magic eventually created the lineages of forest gnomes and rock gnomes.",
+      "edition": "2024",
+      "fr": "Les gnomes sont un peuple magique créé par les dieux de l’invention, des illusions et de la vie souterraine. Les premiers gnomes étaient rarement vus par les autres peuples, en raison de leur discrétion et de leur goût pour les forêts et les terriers. Leur ingéniosité compensait leur petite taille : ils déjouaient leurs prédateurs grâce à des pièges et des tunnels labyrinthiques. Ils apprirent aussi la magie auprès de dieux tels que Garl Brilledor, Baervan Wildwanderer et Baravar Cloakshadow, qui leur rendaient visite sous un déguisement. Cette magie donna finalement naissance aux lignages des gnomes des forêts et des gnomes des roches.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.species.gnome.2024.2",
+      "en": "Gnomes are petite folk with big eyes and pointed ears, who live around 425 years. Many gnomes like the feeling of a roof over their head, even if that “roof” is nothing more than a hat.",
+      "edition": "2024",
+      "fr": "Les gnomes sont de petits êtres aux grands yeux et aux oreilles pointues, qui vivent environ 425 ans. Beaucoup apprécient d’avoir un toit au-dessus de la tête, même si ce « toit » n’est qu’un chapeau.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.species.goliath.2024.1",
+      "en": "Towering over most folk, goliaths are distant descendants of giants. Each goliath bears the favors of the first giants—favors that manifest in various supernatural boons, including the ability to quickly grow and temporarily approach the height of goliaths’ gigantic kin.",
+      "edition": "2024",
+      "fr": "Dépassant la plupart des autres peuples par leur taille, les goliaths sont de lointains descendants des géants. Chacun porte les faveurs des premiers géants, qui se manifestent par divers dons surnaturels, notamment la capacité de grandir rapidement pour approcher temporairement la taille de leurs immenses parents.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.species.goliath.2024.2",
+      "en": "Goliaths have physical characteristics that are reminiscent of the giants in their family lines. For example, some goliaths look like stone giants, while others resemble fire giants. Whatever giants they count as kin, goliaths have forged their own path in the multiverse—unencumbered by the internecine conflicts that have ravaged giantkind for ages—and seek heights above those reached by their ancestors. Each goliath also has a specific ability based on the type of giant from which they decend.",
+      "edition": "2024",
+      "fr": "Les caractéristiques physiques des goliaths rappellent les géants de leur lignée : certains ressemblent à des géants des pierres, d’autres à des géants du feu. Quels que soient leurs ancêtres, les goliaths ont tracé leur propre voie dans le multivers, à l’écart des conflits fratricides qui ravagent les géants depuis des siècles, et aspirent à dépasser les sommets atteints par leurs aïeux. Chaque goliath possède aussi une aptitude particulière liée au type de géant dont il descend.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.species.halfling.2024.1",
+      "en": "Cherished and guided by gods who value life, home, and hearth, halflings gravitate toward bucolic havens where family and community help shape their lives. That said, many halflings possess a brave and adventurous spirit that leads them on journeys of discovery, affording them the chance to explore a bigger world and make new friends along the way. Their size—similar to that of a human child—helps them pass through crowds unnoticed and slip through tight spaces.",
+      "edition": "2024",
+      "fr": "Choyés et guidés par des dieux qui apprécient la vie, le foyer et la famille, les halfelins gravitent vers des havres bucoliques où les liens familiaux et communautaires façonnent leur existence. Beaucoup possèdent pourtant un esprit courageux et aventureux qui les pousse à partir à la découverte du monde et à se faire de nouveaux amis. Leur taille, proche de celle d’un enfant humain, les aide à se glisser discrètement dans les foules et dans les passages étroits.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.species.halfling.2024.2",
+      "en": "Anyone who has spent time around halflings, particularly halfling adventurers, has likely witnessed the storied “luck of the halflings” in action. When a halfling is in mortal danger, an unseen force seems to intervene on the halfling’s behalf. Many halflings believe in the power of luck, and they attribute their unusual gift to one or more of their benevolent gods, including Yondalla, Brandobaris, and Charmalaine. The same gift might contribute to their robust life spans (about 150 years).",
+      "edition": "2024",
+      "fr": "Quiconque a fréquenté des halfelins, surtout des aventuriers, a probablement été témoin de leur célèbre chance. Quand un halfelin court un danger mortel, une force invisible semble intervenir en sa faveur. Nombre d’entre eux croient au pouvoir de la chance et attribuent ce don inhabituel à leurs dieux bienveillants, notamment Yondalla, Brandobaris et Charmalaine. Ce même don pourrait contribuer à leur longévité remarquable, d’environ 150 ans.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.species.halfling.2024.3",
+      "en": "Halfling communities come in all varieties. For every sequestered shire tucked away in an unspoiled part of the world, there’s a crime syndicate like the Boromar Clan in the Eberron setting or a territorial mob of halflings like those in the Dark Sun setting.",
+      "edition": "2024",
+      "fr": "Les communautés halfelines prennent toutes sortes de formes. À chaque paisible comté retiré dans un coin préservé du monde correspond un syndicat du crime, comme le clan Boromar d’Éberron, ou une bande de halfelins défendant farouchement son territoire, comme dans l’univers de Dark Sun.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.species.halfling.2024.4",
+      "en": "Halflings who prefer to live underground are sometimes called strongheart halflings or stouts. Nomadic halflings, as well as those who live among humans and other tall folk, are sometimes called lightfoot halflings or tallfellows.",
+      "edition": "2024",
+      "fr": "Les halfelins qui préfèrent vivre sous terre sont parfois appelés halfelins robustes ou vaillants. Les nomades, ainsi que ceux qui vivent parmi les humains et d’autres peuples de grande taille, sont parfois appelés pieds-légers ou grands-gars.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.species.human.2024.1",
+      "en": "Found throughout the multiverse, humans are as varied as they are numerous, and they endeavor to achieve as much as they can in the years they are given. Their ambition and resourcefulness are commended, respected, and feared on many worlds.",
+      "edition": "2024",
+      "fr": "Présents dans tout le multivers, les humains sont aussi variés que nombreux. Ils cherchent à accomplir le plus possible pendant les années qui leur sont accordées. Leur ambition et leur ingéniosité sont admirées, respectées et redoutées sur de nombreux mondes.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.species.human.2024.2",
+      "en": "Humans are as diverse in appearance as the people of Earth, and they have many gods. Scholars dispute the origin of humanity, but one of the earliest known human gatherings is said to have occurred in Sigil, the torus-shaped city at the center of the multiverse and the place where the Common language was born. From there, humans could have spread to every part of the multiverse, bringing the City of Doors’ cosmopolitanism with them.",
+      "edition": "2024",
+      "fr": "Les humains présentent une diversité d’apparences semblable à celle des peuples de la Terre et vénèrent de nombreux dieux. Les érudits débattent de leurs origines, mais l’un de leurs premiers rassemblements connus aurait eu lieu à Sigil, la cité en forme d’anneau au centre du multivers où naquit la langue commune. De là, ils auraient pu se répandre partout dans le multivers, emportant avec eux le cosmopolitisme de la Cité des Portes.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.species.orc.2024.1",
+      "en": "Orcs trace their creation to Gruumsh, a powerful god who roamed the wide open spaces of the Material Plane. Gruumsh equipped his children with gifts to help them wander great plains, vast caverns, and churning seas and to face the monsters that lurk there. Even when they turn their devotion to other gods, orcs retain Gruumsh’s gifts: endurance, determination, and the ability to see in darkness.",
+      "edition": "2024",
+      "fr": "Les orcs attribuent leur création à Gruumsh, un dieu puissant qui parcourait les grands espaces du plan Matériel. Il dota ses enfants de dons leur permettant d’explorer les vastes plaines, les cavernes immenses et les mers tumultueuses, et d’affronter les monstres qui s’y cachent. Même lorsqu’ils se tournent vers d’autres dieux, les orcs conservent les dons de Gruumsh : endurance, détermination et capacité à voir dans l’obscurité.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.species.orc.2024.2",
+      "en": "Orcs are, on average, tall and broad. They have gray skin, ears that are sharply pointed, and prominent lower canines that resemble small tusks. Orc youths on some worlds are told about their ancestors’ great travels and travails. Inspired by those tales, many of those orcs wonder when Gruumsh will call on them to match the heroic deeds of old and if they will prove worthy of his favor. Other orcs are happy to leave old tales in the past and find their own way.",
+      "edition": "2024",
+      "fr": "Les orcs sont généralement grands et larges d’épaules. Ils ont la peau grise, les oreilles très pointues et des canines inférieures proéminentes qui ressemblent à de petites défenses. Sur certains mondes, on raconte aux jeunes orcs les grands voyages et les épreuves de leurs ancêtres. Inspirés par ces récits, beaucoup se demandent quand Gruumsh les appellera à égaler ces anciens exploits et s’ils seront dignes de sa faveur. D’autres préfèrent laisser ces histoires derrière eux et trouver leur propre voie.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.species.tiefling.2024.1",
+      "en": "Tieflings are either born in the Lower Planes or have fiendish ancestors who originated there. A tiefling (pronounced TEE-fling) is linked by blood to a devil, a demon, or some other Fiend. This connection to the Lower Planes is the tiefling’s fiendish legacy, which comes with the promise of power yet has no effect on the tiefling’s moral outlook.",
+      "edition": "2024",
+      "fr": "Les tieffelins sont nés dans les Plans inférieurs ou descendent de fiélons qui en sont originaires. Un tieffelin, dont le nom se prononce « ti-flin », est lié par le sang à un diable, un démon ou un autre fiélon. Ce lien avec les Plans inférieurs constitue son héritage fiélon : il lui promet du pouvoir, mais n’a aucune influence sur ses convictions morales.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.subspecies.abyssal-tiefling.2024.1",
+      "en": "The entropy of the Abyss, the chaos of Pandemonium, and the despair of Carceri call to tieflings who have the abyssal legacy. Horns, fur, tusks, and peculiar scents are common physical features of such tieflings, most of whom have the blood of demons coursing through their veins.",
+      "edition": "2024",
+      "fr": "L’entropie des Abysses, le chaos du Pandémonium et le désespoir des Carcères attirent les tieffelins d’héritage abyssal. Cornes, fourrure, défenses et odeurs particulières sont des caractéristiques physiques courantes chez ces tieffelins, dont la plupart ont du sang de démon dans les veines.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.subspecies.black-dragonborn.2024.1",
+      "en": "You are descendant from a black dragon.",
+      "edition": "2024",
+      "fr": "Vous descendez d’un dragon noir.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.subspecies.blue-dragonborn.2024.1",
+      "en": "You are descendant from a blue dragon.",
+      "edition": "2024",
+      "fr": "Vous descendez d’un dragon bleu.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.subspecies.brass-dragonborn.2024.1",
+      "en": "You are descendant from a brass dragon.",
+      "edition": "2024",
+      "fr": "Vous descendez d’un dragon d’airain.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.subspecies.bronze-dragonborn.2024.1",
+      "en": "You are descendant from a bronze dragon.",
+      "edition": "2024",
+      "fr": "Vous descendez d’un dragon de bronze.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.subspecies.chthonic-tiefling.2024.1",
+      "en": "Tieflings who have the chthonic legacy feel not only the tug of Carceri but also the greed of Gehenna and the gloom of Hades. Some of these tieflings look cadaverous. Others possess the unearthly beauty of a succubus, or they have physical features in common with a night hag, a yugoloth, or some other Neutral Evil fiendish ancestor.",
+      "edition": "2024",
+      "fr": "Les tieffelins d’héritage chtonien ressentent l’appel des Carcères, mais aussi l’avidité de la Géhenne et les ténèbres de l’Hadès. Certains ont une apparence cadavérique. D’autres possèdent la beauté surnaturelle d’une succube ou partagent des traits physiques avec une guenaude nocturne, un yugoloth ou un autre ancêtre fiélon Neutre Mauvais.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.subspecies.copper-dragonborn.2024.1",
+      "en": "You are descendant from a cooper dragon.",
+      "edition": "2024",
+      "fr": "Vous descendez d’un dragon de cuivre.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/",
+      "variants": [
+        "You are descendant from a copper dragon."
+      ]
+    },
+    {
+      "id": "narrative.subspecies.drow.2024.1",
+      "en": "Drow typically dwell in the Underdark and have been shaped by it. Some drow individuals and societies avoid the Underdark altogether yet carry its magic.",
+      "edition": "2024",
+      "fr": "Les drows vivent généralement dans l’Outreterre, qui les a façonnés. Certains individus et certaines sociétés drows évitent complètement l’Outreterre tout en conservant sa magie.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.subspecies.forest-gnome.2024.1",
+      "en": "Forest gnomes have a particular affinity for animals and illusions.",
+      "edition": "2024",
+      "fr": "Les gnomes des forêts ont une affinité particulière pour les animaux et les illusions.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.subspecies.gold-dragonborn.2024.1",
+      "en": "You are descendant from a gold dragon.",
+      "edition": "2024",
+      "fr": "Vous descendez d’un dragon d’or.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.subspecies.green-dragonborn.2024.1",
+      "en": "You are descendant from a green dragon.",
+      "edition": "2024",
+      "fr": "Vous descendez d’un dragon vert.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.subspecies.high-elf.2024.1",
+      "en": "High elves have been infused with the magic of crossings between the Feywild and the Material Plane. On some worlds, high elves refer to themselves by other names.",
+      "edition": "2024",
+      "fr": "Les hauts-elfes ont été imprégnés de la magie des passages entre la Féerie et le plan Matériel. Sur certains mondes, ils se désignent sous d’autres noms.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.subspecies.infernal-tiefling.2024.1",
+      "en": "The infernal legacy connects tieflings not only to Gehenna but also the Nine Hells and the raging battlefields of Acheron. Horns, spines, tails, golden eyes, and a faint odor of sulfur or smoke are common physical features of such tieflings, most of whom trace their ancestry to devils.",
+      "edition": "2024",
+      "fr": "L’héritage infernal relie les tieffelins à la Géhenne, aux Neuf Enfers et aux champs de bataille déchaînés de l’Achéron. Cornes, épines, queues, yeux dorés et légère odeur de soufre ou de fumée sont des caractéristiques physiques courantes chez ces tieffelins, dont la plupart descendent de diables.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.subspecies.red-dragonborn.2024.1",
+      "en": "You are descendant from a red dragon.",
+      "edition": "2024",
+      "fr": "Vous descendez d’un dragon rouge.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.subspecies.rock-gnome.2024.1",
+      "en": "Rock gnomes are inventors and have an affinity for clockwork gadgets that they infuse with magic.",
+      "edition": "2024",
+      "fr": "Les gnomes des roches sont des inventeurs qui affectionnent les appareils mécaniques qu’ils imprègnent de magie.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.subspecies.silver-dragonborn.2024.1",
+      "en": "You are descendant from a silver dragon.",
+      "edition": "2024",
+      "fr": "Vous descendez d’un dragon d’argent.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.subspecies.white-dragonborn.2024.1",
+      "en": "You are descendant from a white dragon.",
+      "edition": "2024",
+      "fr": "Vous descendez d’un dragon blanc.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "narrative.subspecies.wood-elf.2024.1",
+      "en": "Wood elves carry the magic of primeval forests within themselves. They are known by many other names, including wild elves, green elves, and forest elves.",
+      "edition": "2024",
+      "fr": "Les elfes des bois portent en eux la magie des forêts primitives. On les connaît sous bien d’autres noms, notamment elfes sauvages, elfes verts ou elfes des forêts.",
+      "source": "Traduction proposée des descriptions visibles de Shard · D&D 2024 PHB · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    }
+  ]
+}

@@ -11,6 +11,27 @@ CATEGORIES = ['sorts','dons','classes','especes','objets','armes','monstres','re
 CATALOG_CATEGORIES = {'spell':'sorts','feat':'dons','invocation':'classes','magic-item':'objets','monster':'monstres'}
 
 
+def book_report():
+    directory = ROOT / 'translations'
+    config = json.loads((directory / 'livres.json').read_text())
+    books = []
+    for relative in config['livres']:
+        path = directory / relative
+        book = json.loads(path.read_text())
+        counts = {}
+        for pack_path in sorted(path.parent.rglob('traductions.json')):
+            entries = json.loads(pack_path.read_text())['entries']
+            counts[pack_path.parent.name] = {
+                'entreesRattachees': len(entries),
+                'libelles': sum(e.get('kind', 'description') == 'term' for e in entries),
+                'blocs': sum(e.get('kind', 'description') == 'description' for e in entries),
+            }
+        books.append({**book, 'dossier': str(path.parent.relative_to(ROOT)),
+                      'packsRattachesParCategorie': counts,
+                      'entreesRattachees': sum(c['entreesRattachees'] for c in counts.values())})
+    return {**config, 'livres': sorted(books, key=lambda book: book['priorite'])}
+
+
 def report():
     packs = load_packs()
     names = Counter(CATALOG_CATEGORIES[row['kind']] for row in json.loads((ROOT/'work/aidedd-catalog.json').read_text()))
@@ -46,6 +67,7 @@ def report():
     if any(ident not in pack_ids for f in shard_conditions + condition_details for ident in f['sections']):
         raise ValueError('Le catalogue des conditions Shard référence un bloc absent des packs')
     return {
+        'suiviLivres':book_report(),
         'objectifReferencesAccueil':json.loads((ROOT/'translations/perimetre-references.json').read_text()),
         'categories':categories,
         'corpusLocaux':{
@@ -73,6 +95,7 @@ def report():
         },
         'aVerifier':[r for r in classes+options if r['pending']],
         'limites':[
+            'Priorité au D&D 2024 PHB puis au D&D 2024 MM. Les dossiers de livres séparent les sources explicitement rattachées ; le socle commun et le SRD restent réutilisés. suiviLivres décrit les accès et contrôles restants, sans pourcentage de traduction intégrale.',
             'aVerifier concerne les appariements des sources SRD ; une liste vide ne valide pas toutes les références Shard. objectifReferencesAccueil définit le périmètre minimal restant à vérifier et compléter.',
             'Les noms et présentations brèves traduits ne valident pas le contenu intégral des classes, sous-classes ou autres fiches accessibles depuis l’accueil.',
             'Le corpus de classes est celui du SRD 5.2.1 : 12 classes et leurs sous-classes SRD, pas toutes les sous-classes des suppléments.',

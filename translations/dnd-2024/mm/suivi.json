@@ -1,0 +1,24 @@
+{
+  "id": "dnd-2024-mm",
+  "nom": "D&D 2024 MM",
+  "priorite": 2,
+  "objectifTraductionIntegrale": true,
+  "url": "https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i&cid=q4qshq492a8l16u0",
+  "traductionIntegraleValidee": false,
+  "consultation": {
+    "date": "2026-10-14",
+    "etat": "inaccessible-unknown-book",
+    "constat": "Le lien fourni affiche « Unknown book » dans la session actuelle. Le sommaire et le contenu du livre n’ont pas pu être vérifiés ; cela ne prouve pas leur absence dans le compte utilisateur."
+  },
+  "chapitresReleves": [],
+  "aFaire": [
+    "Rétablir l’accès au livre indiqué avant son inventaire en direct ; le corpus de monstres local reste disponible.",
+    "Inventorier les chapitres et toutes les fiches liées ; distinguer les noms, présentations et contenus complets.",
+    "Identifier les textes déjà couverts par le socle commun avant d’ajouter des traductions.",
+    "Compléter les paragraphes, listes, options, tableaux, titres et variantes manquants, puis vérifier le rendu et les liens dans Shard."
+  ],
+  "limites": [
+    "Le rangement des packs repose sur leurs sources explicites ; des traductions de ce livre peuvent encore se trouver dans les catégories communes.",
+    "Le nombre total de fiches et de blocs à traduire reste à établir ; aucun pourcentage de couverture intégrale n’est calculé."
+  ]
+}
