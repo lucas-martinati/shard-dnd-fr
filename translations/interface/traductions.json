@@ -725,6 +725,15 @@
       "edition": "any"
     },
     {
+      "id": "shard.interface.controls.put-in-shared-treasure",
+      "kind": "term",
+      "en": "Put in Shared Treasure",
+      "variants": ["Put in the Shared Treasure"],
+      "fr": "Déposer dans le trésor partagé",
+      "source": "Traduction proposée de l’action observée dans le menu d’équipement de la fiche de personnage Shard · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
       "id": "shard.interface.controls.grant-treasure",
       "kind": "term",
       "en": "Grant Treasure",

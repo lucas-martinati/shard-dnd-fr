@@ -1,5 +1,5 @@
 {
-  "version": "1.17.30",
+  "version": "1.17.31",
   "reference": "Noms AideDD 2024 prioritaires. Références SRD disponibles séparément. Autres entrées identifiées.",
   "license": "Code MIT ; contenu SRD CC-BY-4.0 https://creativecommons.org/licenses/by/4.0/",
   "sources": [
@@ -31297,6 +31297,20 @@
       "fr": "Trésor partagé",
       "category": "interface",
       "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Put in Shared Treasure",
+      "fr": "Déposer dans le trésor partagé",
+      "category": "interface",
+      "source": "Traduction proposée de l’action observée dans le menu d’équipement de la fiche de personnage Shard · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Put in the Shared Treasure",
+      "fr": "Déposer dans le trésor partagé",
+      "category": "interface",
+      "source": "Traduction proposée de l’action observée dans le menu d’équipement de la fiche de personnage Shard · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
       "aliases": []
     },
     {

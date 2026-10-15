@@ -30,10 +30,16 @@ async function wait(f){for(let i=0;i<300&&!f();i++)await pause(25);assert.ok(f()
  assert.equal(sheet.querySelector('.fa-eye').title,'Masquer');assert.equal(sheet.querySelector('[data-action=hide]').textContent,'Se cacher');
  assert.equal(sheet.querySelector('i').title,'Brouillard et éclairage de la zone');assert.equal(sheet.querySelector('i').getAttribute('aria-label'),'Actions de groupe');
  for(const button of buttons)button.click();assert.equal(clicks,1+buttons.length);
+ // Menu d’équipement observé dans Shard : libellé et effet d’encre séparés.
+ const treasure=d.createElement('ul');treasure.setAttribute('role','menu');
+ treasure.innerHTML='<li role="menuitem" tabindex="-1" aria-disabled="false">Put in Shared Treasure<span class="MuiTouchRipple-root"></span></li><li role="menuitem">Put in the Shared Treasure</li>';
+ const treasureOriginal=treasure.innerHTML,deposit=treasure.firstElementChild,ripple=deposit.firstElementChild;let deposits=0;deposit.onclick=()=>deposits++;main.append(treasure);
+ await wait(()=>[...treasure.children].every(e=>e.textContent==='Déposer dans le trésor partagé'));
+ assert.equal(treasure.firstElementChild,deposit);assert.equal(deposit.firstElementChild,ripple);assert.equal(deposit.getAttribute('aria-disabled'),'false');deposit.click();assert.equal(deposits,1);
  const rest=d.createElement('section');rest.innerHTML=fs.readFileSync('tests/fixtures/long-rest.html','utf8');main.append(rest);
  const restOriginal=rest.innerHTML,restInput=rest.querySelector('input'),restButtons=[...rest.querySelectorAll('button')],restLinks=[...rest.querySelectorAll('a')];
  let restClicks=0;for(const el of [...restButtons,...restLinks])el.onclick=()=>restClicks++;
- await wait(()=>rest.querySelector('.titletext').textContent==='Repos long'&&restButtons[0].textContent==='Terminer le repos long');
+ await wait(()=>rest.querySelector('.titletext').textContent==='Repos long'&&restButtons[0].textContent==='Terminer le repos long'&&restButtons[1].textContent==='Annuler');
  assert.ok(rest.querySelector('.hk-well').textContent.includes('au moins 8 heures'));
  assert.ok(rest.querySelector('.hk-well').textContent.includes('monter la garde pendant 2 heures au maximum.'));
  assert.ok(rest.querySelector('.hk-well').textContent.includes('À la fin d’un repos long, un personnage récupère tous ses points de vie perdus.'));
@@ -72,6 +78,7 @@ async function wait(f){for(let i=0;i<300&&!f();i++)await pause(25);assert.ok(f()
  const root=[...d.querySelectorAll('[data-shard-fr-ignore]')].map(e=>e.shadowRoot).find(r=>r?.getElementById('enabled')),enabled=root.getElementById('enabled');
  enabled.checked=false;enabled.dispatchEvent(new w.Event('change'));
  await wait(()=>menu.innerHTML===menuOriginal&&sheet.innerHTML===sheetOriginal);
+ await wait(()=>treasure.innerHTML===treasureOriginal);treasure.remove();
  await wait(()=>restOptions.innerHTML===optionsOriginal);restOptions.remove();assert.equal(rest.innerHTML,restOriginal);rest.remove();
  await wait(()=>whole.textContent==='You have 8 hit points out of a maximum of 12.');whole.remove();assert.equal(short.innerHTML,shortOriginal);short.remove();
  menu.remove();sheet.remove();assert.equal(main.innerHTML,original);
