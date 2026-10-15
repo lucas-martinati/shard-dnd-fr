@@ -1,595 +1,745 @@
 # Traductions à vérifier — Shard Player’s Guide Volume 1
 
-Audit du 15 octobre 2026, script 1.17.28.
+Audit du 15 octobre 2026, script **1.17.28**.
 
-HTML réellement affiché dans le livre, traduction puis fonctions checkDescription et collectDiagnostics du script courant. Cache vide et réseau désactivé, comme le contrôle automatique des fiches. Aucun choix de version 2024 : source fixée au guide.
+**734 notices ou fiches examinées : 313 sorts et 350 notices/fiches d’objets présentent au moins un candidat.** Cela ne signifie pas que leur description entière est en anglais.
 
-- Candidats à vérifier, dont titres et noms propres. Aucun anglais repéré ne garantit pas une traduction parfaite.
-- Les descriptions génériques regroupent parfois plusieurs variantes (armures +1/+2/+3, par exemple).
-- La liste Equipment List contient des variantes de plusieurs sources : elle ne sert pas à compter les descriptions propres au guide.
-- Le contenu brut du livre reste dans le dossier temporaire local, hors du dépôt.
+[Livre source](https://play.shardtabletop.com/#book?id=bi5f3lrxndk004tpyc0rt&cid=q4qshq492a8l16u0). Le contrôle porte sur les textes de ce guide, sans les remplacer par ceux de 2024.
 
-| Catégorie | Descriptions examinées | À compléter | Aucun anglais repéré | Noms à vérifier |
+## Périmètre et méthode
+
+- Audit de la couverture embarquée, sans le cache AideDD du navigateur de l’utilisateur. Des références distantes peuvent compléter certains textes lors de l’ouverture d’une fiche.
+- Un état incomplete signifie qu’au moins un passage est signalé, et non que toute la description est en anglais. Les résultats restent des candidats à vérifier, dont noms propres et intitulés.
+- Périmètre : 319 notices du chapitre Spells, 239 notices du chapitre Magic Items, 58 notices d’équipement et 118 fiches individuelles supplémentaires.
+- Les 1 373 noms de la liste Equipment List ont tous été analysés. Les descriptions des 1 255 entrées non ouvertes individuellement ne sont pas déclarées complètes ou manquantes par déduction de leur nom.
+- Les notices génériques du livre regroupent parfois plusieurs variantes (armures +1/+2/+3, pierres Ioun, figurines, etc.). Elles sont distinguées des fiches individuelles examinées.
+- Les 14 notices sans texte ne sont pas comptées comme traductions manquantes. Douze sont des focaliseurs ou objets génériques ; deux sont des notices vides du chapitre Magic Items.
+- Le relevé brut du livre et le programme d’audit restent dans /tmp/shard-guide-audit, hors du dépôt. Aucun champ de personnage ou de campagne n’a été analysé.
+
+## Résultats
+
+| Texte contrôlé | Examinés | À vérifier | Aucun anglais repéré | Sans description |
 | --- | ---: | ---: | ---: | ---: |
-| sorts | 319 | 313 | 6 | 0 |
-| objets-magiques | 239 | 216 | 21 | 1 |
-| equipement | 58 | 37 | 21 | 5 |
+| Sorts du chapitre Spells | 319 | 313 | 6 | 0 |
+| Notices du chapitre Magic Items | 239 | 216 | 21 | 2 |
+| Notices d’équipement courant | 58 | 37 | 21 | 0 |
+| Fiches supplémentaires du catalogue | 118 | 97 | 9 | 12 |
 
-## sorts
+**1941 signalements**, représentant **1805 textes distincts**. Aucun contrôle tronqué ou indisponible.
 
-- **Flèche acide** (Acid Arrow) — 2 candidat(s) dans la description ; missing-translation.
-- **Aspersion d'acide** (Acid Splash) — 2 candidat(s) dans la description ; missing-translation.
-- **Aide** (Aid) — 2 candidat(s) dans la description ; missing-translation.
-- **Alarme** (Alarm) — 3 candidat(s) dans la description ; missing-translation.
-- **Modification d'apparence** (Alter Self) — 4 candidat(s) dans la description ; missing-translation.
-- **Amitié avec les animaux** (Animal Friendship) — 2 candidat(s) dans la description ; missing-translation.
-- **Messager animal** (Animal Messenger) — 3 candidat(s) dans la description ; missing-translation.
-- **Métamorphose animale** (Animal Shapes) — 3 candidat(s) dans la description ; missing-translation.
-- **Animation des morts** (Animate Dead) — 4 candidat(s) dans la description ; missing-translation.
-- **Animation des objets** (Animate Objects) — 6 candidat(s) dans la description ; missing-translation.
-- **Coquille antivie** (Antilife Shell) — 3 candidat(s) dans la description ; missing-translation.
-- **Champ antimagie** (Antimagic Field) — 10 candidat(s) dans la description ; missing-translation.
-- **Aversion/attirance** (Antipathy/Sympathy) — 6 candidat(s) dans la description ; missing-translation.
-- **Oeil du mage** (Arcane Eye) — 3 candidat(s) dans la description ; missing-translation.
-- **Main arcanique** (Arcane Hand) — 8 candidat(s) dans la description ; missing-translation.
-- **Verrou arcanique** (Arcane Lock) — 2 candidat(s) dans la description ; missing-translation.
-- **Épée arcanique** (Arcane Sword) — 2 candidat(s) dans la description ; missing-translation.
-- **Aura magique de l’arcaniste** (Arcanist's Magic Aura) — 4 candidat(s) dans la description ; missing-translation.
-- **Projection astrale** (Astral Projection) — 6 candidat(s) dans la description ; missing-translation.
-- **Augure** (Augury) — 3 candidat(s) dans la description ; missing-translation.
-- **Éveil** (Awaken) — 2 candidat(s) dans la description ; missing-translation.
-- **Imprécation** (Bane) — 2 candidat(s) dans la description ; missing-translation.
-- **Bannissement** (Banishment) — 4 candidat(s) dans la description ; missing-translation.
-- **Peau d'écorce** (Barkskin) — 1 candidat(s) dans la description ; missing-translation.
-- **Lueur d'espoir** (Beacon of Hope) — 1 candidat(s) dans la description ; missing-translation.
-- **Malédiction** (Bestow Curse) — 7 candidat(s) dans la description ; missing-translation.
-- **Tentacules noirs** (Black Tentacles) — 3 candidat(s) dans la description ; missing-translation.
-- **Barrière de lames** (Blade Barrier) — 2 candidat(s) dans la description ; missing-translation.
-- **Bénédiction** (Bless) — 2 candidat(s) dans la description ; missing-translation.
-- **Flétrissement** (Blight) — 4 candidat(s) dans la description ; missing-translation.
-- **Cécité/surdité** (Blindness/Deafness) — 2 candidat(s) dans la description ; missing-translation.
-- **Clignotement** (Blink) — 2 candidat(s) dans la description ; missing-translation.
-- **Flou** (Blur) — 1 candidat(s) dans la description ; missing-translation.
-- **Châtiment révélateur** (Branding Smite) — 2 candidat(s) dans la description ; missing-translation.
-- **Mains brûlantes** (Burning Hands) — 3 candidat(s) dans la description ; missing-translation.
-- **Appel de la foudre** (Call Lightning) — 4 candidat(s) dans la description ; missing-translation.
-- **Apaisement des émotions** (Calm Emotions) — 3 candidat(s) dans la description ; missing-translation.
-- **Chaîne d'éclairs** (Chain Lightning) — 3 candidat(s) dans la description ; missing-translation.
-- **Charme-personne** (Charm Person) — 2 candidat(s) dans la description ; missing-translation.
-- **Contact glacial** (Chill Touch) — 3 candidat(s) dans la description ; missing-translation.
-- **Cercle de mort** (Circle of Death) — 2 candidat(s) dans la description ; missing-translation.
-- **Clairvoyance** (Clairvoyance) — 3 candidat(s) dans la description ; missing-translation.
-- **Clone** (Clone) — 2 candidat(s) dans la description ; missing-translation.
-- **Brume mortelle** (Cloudkill) — 4 candidat(s) dans la description ; missing-translation.
-- **Couleurs dansantes** (Color Spray) — 3 candidat(s) dans la description ; missing-translation.
-- **Injonction** (Command) — 5 candidat(s) dans la description ; missing-translation.
-- **Communion** (Commune) — 3 candidat(s) dans la description ; missing-translation.
-- **Communion avec la nature** (Commune with Nature) — 3 candidat(s) dans la description ; missing-translation.
-- **Compréhension des langues** (Comprehend Languages) — 2 candidat(s) dans la description ; missing-translation.
-- **Compulsion** (Compulsion) — 2 candidat(s) dans la description ; missing-translation.
-- **Cône de froid** (Cone of Cold) — 3 candidat(s) dans la description ; missing-translation.
-- **Confusion** (Confusion) — 10 candidat(s) dans la description ; missing-translation.
-- **Invocation d'animaux** (Conjure Animals) — 5 candidat(s) dans la description ; missing-translation.
-- **Invocation de céleste** (Conjure Celestial) — 4 candidat(s) dans la description ; missing-translation.
-- **Invocation d'élémentaire** (Conjure Elemental) — 5 candidat(s) dans la description ; missing-translation.
-- **Invocation de fée** (Conjure Fey) — 5 candidat(s) dans la description ; missing-translation.
-- **Invocation d'élémentaires mineurs** (Conjure Minor Elementals) — 5 candidat(s) dans la description ; missing-translation.
-- **Invocation d'êtres sylvestres** (Conjure Woodland Beings) — 6 candidat(s) dans la description ; missing-translation.
-- **Contact avec les plans** (Contact Other Plane) — 2 candidat(s) dans la description ; missing-translation.
-- **Contagion** (Contagion) — 9 candidat(s) dans la description ; missing-translation.
-- **Préméditation** (Contingency) — 3 candidat(s) dans la description ; missing-translation.
-- **Flamme éternelle** (Continual Flame) — 1 candidat(s) dans la description ; missing-translation.
-- **Contrôle de l'eau** (Control Water) — 9 candidat(s) dans la description ; missing-translation.
-- **Contrôle du climat** (Control Weather) — 8 candidat(s) dans la description ; missing-translation.
-- **Contresort** (Counterspell) — 2 candidat(s) dans la description ; missing-translation.
-- **Création de nourriture et d'eau** (Create Food and Water) — 1 candidat(s) dans la description ; missing-translation.
-- **Création ou destruction d'eau** (Create or Destroy Water) — 3 candidat(s) dans la description ; missing-translation.
-- **Création de mort-vivant** (Create Undead) — 4 candidat(s) dans la description ; missing-translation.
-- **Création** (Creation) — 5 candidat(s) dans la description ; missing-translation, unrecognized-layout.
-- **Soins** (Cure Wounds) — 2 candidat(s) dans la description ; missing-translation.
-- **Lumières dansantes** (Dancing Lights) — 2 candidat(s) dans la description ; missing-translation.
-- **Ténèbres** (Darkness) — 3 candidat(s) dans la description ; missing-translation.
-- **Vision dans le noir** (Darkvision) — 1 candidat(s) dans la description ; missing-translation.
-- **Lumière du jour** (Daylight) — 3 candidat(s) dans la description ; missing-translation.
-- **Protection contre la mort** (Death Ward) — 3 candidat(s) dans la description ; missing-translation.
-- **Boule de feu à retardement** (Delayed Blast Fireball) — 5 candidat(s) dans la description ; missing-translation.
-- **Demi-plan** (Demiplane) — 2 candidat(s) dans la description ; missing-translation.
-- **Détection du mal et du bien** (Detect Evil and Good) — 2 candidat(s) dans la description ; missing-translation.
-- **Détection de la magie** (Detect Magic) — 2 candidat(s) dans la description ; missing-translation.
-- **Détection du poison et des maladies** (Detect Poison and Disease) — 2 candidat(s) dans la description ; missing-translation.
-- **Détection des pensées** (Detect Thoughts) — 5 candidat(s) dans la description ; missing-translation.
-- **Porte dimensionnelle** (Dimension Door) — 3 candidat(s) dans la description ; missing-translation.
-- **Déguisement** (Disguise Self) — 3 candidat(s) dans la description ; missing-translation.
-- **Désintégration** (Disintegrate) — 5 candidat(s) dans la description ; missing-translation.
-- **Dissipation du mal et du bien** (Dispel Evil and Good) — 4 candidat(s) dans la description ; missing-translation.
-- **Dissipation de la magie** (Dispel Magic) — 2 candidat(s) dans la description ; missing-translation.
-- **Divination** (Divination) — 3 candidat(s) dans la description ; missing-translation.
-- **Faveur divine** (Divine Favor) — 1 candidat(s) dans la description ; missing-translation.
-- **Parole divine** (Divine Word) — 2 candidat(s) dans la description ; missing-translation.
-- **Domination de bête** (Dominate Beast) — 5 candidat(s) dans la description ; missing-translation.
-- **Domination de monstre** (Dominate Monster) — 5 candidat(s) dans la description ; missing-translation.
-- **Domination de personne** (Dominate Person) — 5 candidat(s) dans la description ; missing-translation.
-- **Songe** (Dream) — 4 candidat(s) dans la description ; missing-translation.
-- **Druidisme** (Druidcraft) — 3 candidat(s) dans la description ; missing-translation.
-- **Tremblement de terre** (Earthquake) — 6 candidat(s) dans la description ; missing-translation.
-- **Décharge occulte** (Eldritch Blast) — 2 candidat(s) dans la description ; missing-translation.
-- **Amélioration de caractéristique** (Enhance Ability) — 8 candidat(s) dans la description ; missing-translation.
-- **Agrandissement/rapetissement** (Enlarge/Reduce) — 4 candidat(s) dans la description ; missing-translation.
-- **Enchevêtrement** (Entangle) — 3 candidat(s) dans la description ; missing-translation.
-- **Discours captivant** (Enthrall) — 1 candidat(s) dans la description ; missing-translation.
-- **Forme éthérée** (Etherealness) — 6 candidat(s) dans la description ; missing-translation.
-- **Repli expéditif** (Expeditious Retreat) — 1 candidat(s) dans la description ; missing-translation.
-- **Mauvais oeil** (Eyebite) — 4 candidat(s) dans la description ; missing-translation.
-- **Fabrication** (Fabricate) — 3 candidat(s) dans la description ; missing-translation.
-- **Lueurs féeriques** (Faerie Fire) — 2 candidat(s) dans la description ; missing-translation.
-- **Chien de garde** (Faithful Hound) — 3 candidat(s) dans la description ; missing-translation.
-- **Simulacre de vie** (False Life) — 2 candidat(s) dans la description ; missing-translation.
-- **Peur** (Fear) — 2 candidat(s) dans la description ; missing-translation.
-- **Feuille morte** (Feather Fall) — 1 candidat(s) dans la description ; missing-translation.
-- **Esprit faible** (Feeblemind) — 4 candidat(s) dans la description ; missing-translation.
-- **Appel de familier** (Find Familiar) — 7 candidat(s) dans la description ; missing-translation.
-- **Appel de destrier** (Find Steed) — 5 candidat(s) dans la description ; missing-translation.
-- **Orientation** (Find the Path) — 2 candidat(s) dans la description ; missing-translation.
-- **Détection des pièges** (Find Traps) — 2 candidat(s) dans la description ; missing-translation.
-- **Doigt de mort** (Finger of Death) — 2 candidat(s) dans la description ; missing-translation.
-- **Trait de feu** (Fire Bolt) — 1 candidat(s) dans la description ; missing-translation.
-- **Bouclier de feu** (Fire Shield) — 2 candidat(s) dans la description ; missing-translation.
-- **Tempête de feu** (Fire Storm) — 2 candidat(s) dans la description ; missing-translation.
-- **Boule de feu** (Fireball) — 3 candidat(s) dans la description ; missing-translation.
-- **Lame de feu** (Flame Blade) — 3 candidat(s) dans la description ; missing-translation.
-- **Colonne de flamme** (Flame Strike) — 2 candidat(s) dans la description ; missing-translation.
-- **Sphère de feu** (Flaming Sphere) — 4 candidat(s) dans la description ; missing-translation.
-- **Pétrification** (Flesh to Stone) — 4 candidat(s) dans la description ; missing-translation.
-- **Disque flottant** (Floating Disk) — 1 candidat(s) dans la description ; missing-translation.
-- **Vol** (Fly) — 2 candidat(s) dans la description ; missing-translation.
-- **Nappe de brouillard** (Fog Cloud) — 2 candidat(s) dans la description ; missing-translation.
-- **Interdiction** (Forbiddance) — 4 candidat(s) dans la description ; missing-translation.
-- **Cage de force** (Forcecage) — 6 candidat(s) dans la description ; missing-translation.
-- **Prémonition** (Foresight) — 2 candidat(s) dans la description ; missing-translation.
-- **Liberté de mouvement** (Freedom of Movement) — 2 candidat(s) dans la description ; missing-translation.
-- **Sphère glacée** (Freezing Sphere) — 4 candidat(s) dans la description ; missing-translation.
-- **Forme gazeuse** (Gaseous Form) — 3 candidat(s) dans la description ; missing-translation.
-- **Portail** (Gate) — 4 candidat(s) dans la description ; missing-translation.
-- **Quête** (Geas) — 3 candidat(s) dans la description ; missing-translation.
-- **Insecte géant** (Giant Insect) — 4 candidat(s) dans la description ; missing-translation.
-- **Globe d'invulnérabilité** (Globe of Invulnerability) — 3 candidat(s) dans la description ; missing-translation.
-- **Glyphe de garde** (Glyph of Warding) — 8 candidat(s) dans la description ; missing-translation.
-- **Baies nourricières** (Goodberry) — 2 candidat(s) dans la description ; missing-translation.
-- **Graisse** (Grease) — 2 candidat(s) dans la description ; missing-translation.
-- **Invisibilité suprême** (Greater Invisibility) — 1 candidat(s) dans la description ; missing-translation.
-- **Restauration suprême** (Greater Restoration) — 5 candidat(s) dans la description ; missing-translation.
-- **Gardien de la foi** (Guardian of Faith) — 2 candidat(s) dans la description ; missing-translation.
-- **Protections et sceaux** (Guards and Wards) — 12 candidat(s) dans la description ; missing-translation.
-- **Assistance** (Guidance) — 1 candidat(s) dans la description ; missing-translation.
-- **Rayon traçant** (Guiding Bolt) — 2 candidat(s) dans la description ; missing-translation.
-- **Bourrasque** (Gust of Wind) — 3 candidat(s) dans la description ; missing-translation.
-- **Sanctification** (Hallow) — 12 candidat(s) dans la description ; missing-translation.
-- **Terrain hallucinatoire** (Hallucinatory Terrain) — 2 candidat(s) dans la description ; missing-translation.
-- **Contamination** (Harm) — 1 candidat(s) dans la description ; missing-translation.
-- **Hâte** (Haste) — 2 candidat(s) dans la description ; missing-translation.
-- **Guérison** (Heal) — 2 candidat(s) dans la description ; missing-translation.
-- **Mot de guérison** (Healing Word) — 2 candidat(s) dans la description ; missing-translation.
-- **Métal brûlant** (Heat Metal) — 2 candidat(s) dans la description ; missing-translation.
-- **Représailles infernales** (Hellish Rebuke) — 1 candidat(s) dans la description ; missing-translation.
-- **Festin des héros** (Heroes' Feast) — 2 candidat(s) dans la description ; missing-translation.
-- **Héroïsme** (Heroism) — 2 candidat(s) dans la description ; missing-translation.
-- **Fou rire** (Hideous Laughter) — 2 candidat(s) dans la description ; missing-translation.
-- **Immobilisation de monstre** (Hold Monster) — 2 candidat(s) dans la description ; missing-translation.
-- **Immobilisation de personne** (Hold Person) — 2 candidat(s) dans la description ; missing-translation.
-- **Aura sacrée** (Holy Aura) — 1 candidat(s) dans la description ; missing-translation.
-- **Marque du chasseur** (Hunter's Mark) — 2 candidat(s) dans la description ; missing-translation.
-- **Motif hypnotique** (Hypnotic Pattern) — 1 candidat(s) dans la description ; missing-translation.
-- **Tempête de grêle** (Ice Storm) — 3 candidat(s) dans la description ; missing-translation.
-- **Identification** (Identify) — 2 candidat(s) dans la description ; missing-translation.
-- **Texte illusoire** (Illusory Script) — 4 candidat(s) dans la description ; missing-translation.
-- **Emprisonnement** (Imprisonment) — 15 candidat(s) dans la description ; missing-translation.
-- **Nuage incendiaire** (Incendiary Cloud) — 3 candidat(s) dans la description ; missing-translation.
-- **Blessure** (Inflict Wounds) — 2 candidat(s) dans la description ; missing-translation.
-- **Fléau d'insectes** (Insect Plague) — 3 candidat(s) dans la description ; missing-translation.
-- **Convocations instantanées** (Instant Summons) — 4 candidat(s) dans la description ; missing-translation.
-- **Invisibilité** (Invisibility) — 2 candidat(s) dans la description ; missing-translation.
-- **Danse irrésistible** (Irresistible Dance) — 2 candidat(s) dans la description ; missing-translation.
-- **Saut** (Jump) — 1 candidat(s) dans la description ; missing-translation.
-- **Déblocage** (Knock) — 2 candidat(s) dans la description ; missing-translation.
-- **Mythes et légendes** (Legend Lore) — 2 candidat(s) dans la description ; missing-translation.
-- **Restauration partielle** (Lesser Restoration) — 1 candidat(s) dans la description ; missing-translation.
-- **Lumière** (Light) — 2 candidat(s) dans la description ; missing-translation.
-- **Éclair** (Lightning Bolt) — 3 candidat(s) dans la description ; missing-translation.
-- **Localisation d'animaux ou de plantes** (Locate Animals or Plants) — 1 candidat(s) dans la description ; missing-translation.
-- **Localisation de créature** (Locate Creature) — 3 candidat(s) dans la description ; missing-translation.
-- **Localisation d'objet** (Locate Object) — 3 candidat(s) dans la description ; missing-translation.
-- **Grande foulée** (Longstrider) — 1 candidat(s) dans la description ; missing-translation.
-- **Armure de mage** (Mage Armor) — 1 candidat(s) dans la description ; missing-translation.
-- **Main de mage** (Mage Hand) — 2 candidat(s) dans la description ; missing-translation.
-- **Cercle magique** (Magic Circle) — 3 candidat(s) dans la description ; missing-translation.
-- **Urne magique** (Magic Jar) — 7 candidat(s) dans la description ; missing-translation.
-- **Projectile magique** (Magic Missile) — 2 candidat(s) dans la description ; missing-translation.
-- **Bouche magique** (Magic Mouth) — 3 candidat(s) dans la description ; missing-translation.
-- **Arme magique** (Magic Weapon) — 2 candidat(s) dans la description ; missing-translation.
-- **Manoir somptueux** (Magnificent Mansion) — 3 candidat(s) dans la description ; missing-translation.
-- **Image majeure** (Major Image) — 4 candidat(s) dans la description ; missing-translation.
-- **Soins de groupe** (Mass Cure Wounds) — 2 candidat(s) dans la description ; missing-translation.
-- **Guérison de groupe** (Mass Heal) — 1 candidat(s) dans la description ; missing-translation.
-- **Mot de guérison de groupe** (Mass Healing Word) — 2 candidat(s) dans la description ; missing-translation.
-- **Suggestion de groupe** (Mass Suggestion) — 5 candidat(s) dans la description ; missing-translation.
-- **Dédale** (Maze) — 3 candidat(s) dans la description ; missing-translation.
-- **Fusion dans la pierre** (Meld into Stone) — 3 candidat(s) dans la description ; missing-translation.
-- **Réparation** (Mending) — 2 candidat(s) dans la description ; missing-translation.
-- **Message** (Message) — 2 candidat(s) dans la description ; missing-translation.
-- **Nuée de météores** (Meteor Swarm) — 2 candidat(s) dans la description ; missing-translation.
-- **Esprit impénétrable** (Mind Blank) — 1 candidat(s) dans la description ; missing-translation.
-- **Illusion mineure** (Minor Illusion) — 3 candidat(s) dans la description ; missing-translation.
-- **Mirage** (Mirage Arcane) — 4 candidat(s) dans la description ; missing-translation.
-- **Image miroir** (Mirror Image) — 5 candidat(s) dans la description ; missing-translation.
-- **Double illusoire** (Mislead) — 3 candidat(s) dans la description ; missing-translation.
-- **Foulée brumeuse** (Misty Step) — 1 candidat(s) dans la description ; missing-translation.
-- **Modification de mémoire** (Modify Memory) — 5 candidat(s) dans la description ; missing-translation.
-- **Rayon de lune** (Moonbeam) — 5 candidat(s) dans la description ; missing-translation.
-- **Glissement de terrain** (Move Earth) — 5 candidat(s) dans la description ; missing-translation.
-- **Antidétection** (Nondetection) — 1 candidat(s) dans la description ; missing-translation.
-- **Passage sans trace** (Pass without Trace) — 1 candidat(s) dans la description ; missing-translation.
-- **Passe-muraille** (Passwall) — 1 candidat(s) dans la description ; missing-translation.
-- **Assassin imaginaire** (Phantasmal Killer) — 2 candidat(s) dans la description ; missing-translation.
-- **Monture fantôme** (Phantom Steed) — 2 candidat(s) dans la description ; missing-translation.
-- **Allié planaire** (Planar Ally) — 6 candidat(s) dans la description ; missing-translation.
-- **Entrave planaire** (Planar Binding) — 3 candidat(s) dans la description ; missing-translation.
-- **Changement de plan** (Plane Shift) — 3 candidat(s) dans la description ; missing-translation.
-- **Croissance végétale** (Plant Growth) — 4 candidat(s) dans la description ; missing-translation.
-- **Bouffée de poison** (Poison Spray) — 2 candidat(s) dans la description ; missing-translation.
-- **Métamorphose** (Polymorph) — 4 candidat(s) dans la description ; missing-translation.
-- **Mot de pouvoir mortel** (Power Word Kill) — 1 candidat(s) dans la description ; missing-translation.
-- **Mot de pouvoir étourdissant** (Power Word Stun) — 2 candidat(s) dans la description ; missing-translation.
-- **Prière de guérison** (Prayer of Healing) — 2 candidat(s) dans la description ; missing-translation.
-- **Prestidigitation** (Prestidigitation) — 1 candidat(s) dans la description ; missing-translation.
-- **Embruns prismatiques** (Prismatic Spray) — 9 candidat(s) dans la description ; missing-translation.
-- **Mur prismatique** (Prismatic Wall) — 12 candidat(s) dans la description ; missing-translation.
-- **Sanctuaire privé** (Private Sanctum) — 10 candidat(s) dans la description ; missing-translation.
-- **Flammes** (Produce Flame) — 3 candidat(s) dans la description ; missing-translation.
-- **Illusion programmée** (Programmed Illusion) — 4 candidat(s) dans la description ; missing-translation.
-- **Image projetée** (Project Image) — 4 candidat(s) dans la description ; missing-translation.
-- **Protection contre le mal et le bien** (Protection from Evil and Good) — 2 candidat(s) dans la description ; missing-translation.
-- **Protection contre le poison** (Protection from Poison) — 2 candidat(s) dans la description ; missing-translation.
-- **Purification de la nourriture et de l'eau** (Purify Food and Drink) — 1 candidat(s) dans la description ; missing-translation.
-- **Rappel à la vie** (Raise Dead) — 4 candidat(s) dans la description ; missing-translation.
-- **Rayon affaiblissant** (Ray of Enfeeblement) — 2 candidat(s) dans la description ; missing-translation.
-- **Rayon de givre** (Ray of Frost) — 1 candidat(s) dans la description ; missing-translation.
-- **Régénération** (Regenerate) — 2 candidat(s) dans la description ; missing-translation.
-- **Réincarnation** (Reincarnate) — 8 candidat(s) dans la description ; missing-translation.
-- **Sphère résiliente** (Resilient Sphere) — 4 candidat(s) dans la description ; missing-translation.
-- **Résistance** (Resistance) — 1 candidat(s) dans la description ; missing-translation.
-- **Résurrection** (Resurrection) — 5 candidat(s) dans la description ; missing-translation.
-- **Inversion de la gravité** (Reverse Gravity) — 3 candidat(s) dans la description ; missing-translation.
-- **Retour à la vie** (Revivify) — 1 candidat(s) dans la description ; missing-translation.
-- **Corde enchantée** (Rope Trick) — 4 candidat(s) dans la description ; missing-translation.
-- **Flamme sacrée** (Sacred Flame) — 2 candidat(s) dans la description ; missing-translation.
-- **Sanctuaire** (Sanctuary) — 2 candidat(s) dans la description ; missing-translation.
-- **Rayon ardent** (Scorching Ray) — 3 candidat(s) dans la description ; missing-translation.
-- **Scrutation** (Scrying) — 12 candidat(s) dans la description ; missing-translation.
-- **Coffre secret** (Secret Chest) — 3 candidat(s) dans la description ; missing-translation.
-- **Détection de l'invisibilité** (See Invisibility) — 1 candidat(s) dans la description ; missing-translation.
-- **Apparence trompeuse** (Seeming) — 4 candidat(s) dans la description ; missing-translation.
-- **Communication à distance** (Sending) — 2 candidat(s) dans la description ; missing-translation.
-- **Dissimulation suprême** (Sequester) — 3 candidat(s) dans la description ; missing-translation.
-- **Changement de forme** (Shapechange) — 6 candidat(s) dans la description ; missing-translation.
-- **Fracassement** (Shatter) — 2 candidat(s) dans la description ; missing-translation.
-- **Bouclier** (Shield) — 1 candidat(s) dans la description ; missing-translation.
-- **Bouclier de la foi** (Shield of Faith) — 1 candidat(s) dans la description ; missing-translation.
-- **Crosse des druides** (Shillelagh) — 1 candidat(s) dans la description ; missing-translation.
-- **Poigne électrique** (Shocking Grasp) — 2 candidat(s) dans la description ; missing-translation.
-- **Silence** (Silence) — 1 candidat(s) dans la description ; missing-translation.
-- **Image silencieuse** (Silent Image) — 2 candidat(s) dans la description ; missing-translation.
-- **Simulacre** (Simulacrum) — 4 candidat(s) dans la description ; missing-translation.
-- **Sommeil** (Sleep) — 4 candidat(s) dans la description ; missing-translation.
-- **Tempête de neige** (Sleet Storm) — 3 candidat(s) dans la description ; missing-translation.
-- **Lenteur** (Slow) — 4 candidat(s) dans la description ; missing-translation.
-- **Stabilisation** (Spare the Dying) — 1 candidat(s) dans la description ; missing-translation.
-- **Communication avec les animaux** (Speak with Animals) — 1 candidat(s) dans la description ; missing-translation.
-- **Communication avec les morts** (Speak with Dead) — 2 candidat(s) dans la description ; missing-translation.
-- **Communication avec les plantes** (Speak with Plants) — 5 candidat(s) dans la description ; missing-translation.
-- **Pattes d'araignée** (Spider Climb) — 1 candidat(s) dans la description ; missing-translation.
-- **Croissance d'épines** (Spike Growth) — 2 candidat(s) dans la description ; missing-translation.
-- **Esprits gardiens** (Spirit Guardians) — 3 candidat(s) dans la description ; missing-translation.
-- **Arme spirituelle** (Spiritual Weapon) — 4 candidat(s) dans la description ; missing-translation.
-- **Nuage nauséabond** (Stinking Cloud) — 3 candidat(s) dans la description ; missing-translation.
-- **Façonnage de la pierre** (Stone Shape) — 1 candidat(s) dans la description ; missing-translation.
-- **Peau de pierre** (Stoneskin) — 1 candidat(s) dans la description ; missing-translation.
-- **Tempête vengeresse** (Storm of Vengeance) — 6 candidat(s) dans la description ; missing-translation.
-- **Suggestion** (Suggestion) — 4 candidat(s) dans la description ; missing-translation.
-- **Rayon de soleil** (Sunbeam) — 3 candidat(s) dans la description ; missing-translation.
-- **Éclat du soleil** (Sunburst) — 3 candidat(s) dans la description ; missing-translation.
-- **Symbole** (Symbol) — 13 candidat(s) dans la description ; missing-translation.
-- **Télékinésie** (Telekinesis) — 6 candidat(s) dans la description ; missing-translation.
-- **Lien télépathique** (Telepathic Bond) — 2 candidat(s) dans la description ; missing-translation.
-- **Téléportation** (Teleport) — 16 candidat(s) dans la description ; missing-translation.
-- **Cercle de téléportation** (Teleportation Circle) — 3 candidat(s) dans la description ; missing-translation.
-- **Thaumaturgie** (Thaumaturgy) — 2 candidat(s) dans la description ; missing-translation.
-- **Vague tonnante** (Thunderwave) — 3 candidat(s) dans la description ; missing-translation.
-- **Arrêt du temps** (Time Stop) — 2 candidat(s) dans la description ; missing-translation.
-- **Petite hutte** (Tiny Hut) — 3 candidat(s) dans la description ; missing-translation.
-- **Don des langues** (Tongues) — 1 candidat(s) dans la description ; missing-translation.
-- **Passage par les arbres** (Tree Stride) — 1 candidat(s) dans la description ; missing-translation.
-- **Métamorphose suprême** (True Polymorph) — 9 candidat(s) dans la description ; missing-translation.
-- **Résurrection suprême** (True Resurrection) — 3 candidat(s) dans la description ; missing-translation.
-- **Vision suprême** (True Seeing) — 1 candidat(s) dans la description ; missing-translation.
-- **Coup au but** (True Strike) — 1 candidat(s) dans la description ; missing-translation.
-- **Serviteur invisible** (Unseen Servant) — 1 candidat(s) dans la description ; missing-translation.
-- **Caresse du vampire** (Vampiric Touch) — 2 candidat(s) dans la description ; missing-translation.
-- **Moquerie cruelle** (Vicious Mockery) — 2 candidat(s) dans la description ; missing-translation.
-- **Mur de feu** (Wall of Fire) — 4 candidat(s) dans la description ; missing-translation.
-- **Mur de force** (Wall of Force) — 2 candidat(s) dans la description ; missing-translation.
-- **Mur de glace** (Wall of Ice) — 4 candidat(s) dans la description ; missing-translation.
-- **Mur de pierre** (Wall of Stone) — 6 candidat(s) dans la description ; missing-translation.
-- **Mur d'épines** (Wall of Thorns) — 4 candidat(s) dans la description ; missing-translation.
-- **Lien de protection** (Warding Bond) — 2 candidat(s) dans la description ; missing-translation.
-- **Respiration aquatique** (Water Breathing) — 1 candidat(s) dans la description ; missing-translation.
-- **Marche sur l'eau** (Water Walk) — 2 candidat(s) dans la description ; missing-translation.
-- **Toile d'araignée** (Web) — 4 candidat(s) dans la description ; missing-translation.
-- **Ennemi subconscient** (Weird) — 1 candidat(s) dans la description ; missing-translation.
-- **Vent divin** (Wind Walk) — 2 candidat(s) dans la description ; missing-translation.
-- **Mur de vent** (Wind Wall) — 2 candidat(s) dans la description ; missing-translation.
-- **Souhait** (Wish) — 9 candidat(s) dans la description ; missing-translation.
-- **Mot de retour** (Word of Recall) — 2 candidat(s) dans la description ; missing-translation.
-- **Zone de vérité** (Zone of Truth) — 2 candidat(s) dans la description ; missing-translation.
+## Noms
 
-## objets-magiques
+**1 373 noms analysés ; aucun nom manquant confirmé dans la liste.** Les huit signalements automatiques sont des mots identiques en français : Trident +1/+2/+3, Yklwa et ses variantes +1/+2/+3, Totem.
 
-- **Projectile +1, +2 ou +3** (Ammunition, +1, +2, or +3) — 1 candidat(s) dans la description ; missing-translation.
-- **Amulette de bonne santé** (Amulet of Health) — 1 candidat(s) dans la description ; missing-translation.
-- **Amulette d'antidétection** (Amulet of Proof against Detection and Location) — 1 candidat(s) dans la description ; missing-translation.
-- **Amulette des plans** (Amulet of the Planes) — 2 candidat(s) dans la description ; missing-translation.
-- **Apparatus of the Crab** (Apparatus of the Crab) — 7 candidat(s) dans la description ; nom à vérifier ; missing-translation.
-- **Armure +1, +2 ou +3** (Armor, +1, +2, or +3) — 1 candidat(s) dans la description ; missing-translation.
-- **Armure de résistance** (Armor of Resistance) — 1 candidat(s) dans la description ; missing-translation.
-- **Armure de vulnérabilité** (Armor of Vulnerability) — 2 candidat(s) dans la description ; missing-translation.
-- **Flèche tueuse** (Arrow of Slaying) — 3 candidat(s) dans la description ; missing-translation.
-- **Sac de haricots magiques** (Bag of Beans) — 7 candidat(s) dans la description ; missing-translation.
-- **Sac dévoreur** (Bag of Devouring) — 1 candidat(s) dans la description ; missing-translation.
-- **Sac sans fond** (Bag of Holding) — 1 candidat(s) dans la description ; missing-translation.
-- **Sac à malices** (Bag of Tricks) — 2 candidat(s) dans la description ; missing-translation.
-- **Perle de force** (Bead of Force) — 3 candidat(s) dans la description ; missing-translation.
-- **Ceinturon des nains** (Belt of Dwarvenkind) — 8 candidat(s) dans la description ; missing-translation.
-- **Ceinturon de force de géant** (Belt of Giant Strength) — 2 candidat(s) dans la description ; missing-translation.
-- **Bottes elfiques** (Boots of Elvenkind) — 1 candidat(s) dans la description ; missing-translation.
-- **Bottes de lévitation** (Boots of Levitation) — 1 candidat(s) dans la description ; missing-translation.
-- **Bottes de rapidité** (Boots of Speed) — 2 candidat(s) dans la description ; missing-translation.
-- **Bottes de sept lieues** (Boots of Striding and Springing) — 1 candidat(s) dans la description ; missing-translation.
-- **Bottes des terres gelées** (Boots of the Winterlands) — 4 candidat(s) dans la description ; missing-translation.
-- **Jatte de contrôle des élémentaires de l'eau** (Bowl of Commanding Water Elementals) — 2 candidat(s) dans la description ; missing-translation.
-- **Bracelets d'archer** (Bracers of Archery) — 1 candidat(s) dans la description ; missing-translation.
-- **Bracelets de défense** (Bracers of Defense) — 1 candidat(s) dans la description ; missing-translation.
-- **Brasero de contrôle des élémentaires du feu** (Brazier of Commanding Fire Elementals) — 1 candidat(s) dans la description ; missing-translation.
-- **Broche de défense** (Brooch of Shielding) — 1 candidat(s) dans la description ; missing-translation.
-- **Balai volant** (Broom of Flying) — 2 candidat(s) dans la description ; missing-translation.
-- **Cierge d'invocation** (Candle of Invocation) — 4 candidat(s) dans la description ; missing-translation.
-- **Cape du prestidigitateur** (Cape of the Mountebank) — 2 candidat(s) dans la description ; missing-translation.
-- **Tapis volant** (Carpet of Flying) — 3 candidat(s) dans la description ; missing-translation.
-- **Encensoir de contrôle des élémentaires de l'air** (Censer of Controlling Air Elementals) — 2 candidat(s) dans la description ; missing-translation.
-- **Carillon d'ouverture** (Chime of Opening) — 2 candidat(s) dans la description ; missing-translation.
-- **Diadème de destruction** (Circlet of Blasting) — 1 candidat(s) dans la description ; missing-translation.
-- **Cape de l'arachnide** (Cloak of Arachnida) — 5 candidat(s) dans la description ; missing-translation.
-- **Cape de déplacement** (Cloak of Displacement) — 1 candidat(s) dans la description ; missing-translation.
-- **Cape elfique** (Cloak of Elvenkind) — 1 candidat(s) dans la description ; missing-translation.
-- **Cape de protection** (Cloak of Protection) — 1 candidat(s) dans la description ; missing-translation.
-- **Cape de la chauve-souris** (Cloak of the Bat) — 2 candidat(s) dans la description ; missing-translation.
-- **Cape de la raie manta** (Cloak of the Manta Ray) — 1 candidat(s) dans la description ; missing-translation.
-- **Boule de cristal** (Crystal Ball) — 5 candidat(s) dans la description ; missing-translation.
-- **Cube de force** (Cube of Force) — 13 candidat(s) dans la description ; missing-translation.
-- **Cube des plans** (Cubic Gate) — 3 candidat(s) dans la description ; missing-translation.
-- **Dague venimeuse** (Dagger of Venom) — 2 candidat(s) dans la description ; missing-translation.
-- **Carafe intarissable** (Decanter of Endless Water) — 3 candidat(s) dans la description ; missing-translation.
-- **Cartes d'illusion** (Deck of Illusions) — 5 candidat(s) dans la description ; missing-translation.
-- **Cartes merveilleuses** (Deck of Many Things) — 27 candidat(s) dans la description ; missing-translation.
-- **Armure démoniaque** (Demon Armor) — 2 candidat(s) dans la description ; missing-translation.
-- **Menottes dimensionnelles** (Dimensional Shackles) — 2 candidat(s) dans la description ; missing-translation.
-- **Armure d'écailles de dragon** (Dragon Scale Mail) — 3 candidat(s) dans la description ; missing-translation.
-- **Poussière de disparition** (Dust of Disappearance) — 1 candidat(s) dans la description ; missing-translation.
-- **Poudre dessiccative** (Dust of Dryness) — 3 candidat(s) dans la description ; missing-translation.
-- **Poudre à éternuer** (Dust of Sneezing and Choking) — 3 candidat(s) dans la description ; missing-translation.
-- **Harnois nain** (Dwarven Plate) — 1 candidat(s) dans la description ; missing-translation.
-- **Carquois efficace** (Efficient Quiver) — 0 candidat(s) dans la description.
-- **Bouteille de l'éfrit** (Efreeti Bottle) — 5 candidat(s) dans la description ; missing-translation.
-- **Gemme élémentaire** (Elemental Gem) — 1 candidat(s) dans la description ; missing-translation.
-- **Mailles elfiques** (Elven Chain) — 1 candidat(s) dans la description ; missing-translation.
-- **Urne fumigène** (Eversmoking Bottle) — 2 candidat(s) dans la description ; missing-translation.
-- **Regard charmeur** (Eyes of Charming) — 1 candidat(s) dans la description ; missing-translation.
-- **Lentilles de netteté** (Eyes of Minute Seeing) — 1 candidat(s) dans la description ; missing-translation.
-- **Yeux de lynx** (Eyes of the Eagle) — 1 candidat(s) dans la description ; missing-translation.
-- **Plume merveilleuse** (Feather Token) — 8 candidat(s) dans la description ; missing-translation.
-- **Figurine merveilleuse** (Figurine of Wondrous Power) — 18 candidat(s) dans la description ; missing-translation.
-- **Bateau pliable** (Folding Boat) — 5 candidat(s) dans la description ; missing-translation.
-- **Gantelets de puissance d'ogre** (Gauntlets of Ogre Power) — 1 candidat(s) dans la description ; missing-translation.
-- **Gemme d'illumination** (Gem of Brightness) — 5 candidat(s) dans la description ; missing-translation.
-- **Gemme de vision** (Gem of Seeing) — 2 candidat(s) dans la description ; missing-translation.
-- **Armure de cuir clouté enchantée** (Glamoured Studded Leather) — 2 candidat(s) dans la description ; missing-translation.
-- **Gants piégeurs de projectiles** (Gloves of Missile Snaring) — 1 candidat(s) dans la description ; missing-translation.
-- **Gants de nage et d'escalade** (Gloves of Swimming and Climbing) — 1 candidat(s) dans la description ; missing-translation.
-- **Lunettes de nuit** (Goggles of Night) — 1 candidat(s) dans la description ; missing-translation.
-- **Marteau de tonnerre** (Hammer of Thunderbolts) — 2 candidat(s) dans la description ; missing-translation.
-- **Havresac magique** (Handy Haversack) — 5 candidat(s) dans la description ; missing-translation.
-- **Chapeau de déguisement** (Hat of Disguise) — 1 candidat(s) dans la description ; missing-translation.
-- **Bandeau d'intelligence** (Headband of Intellect) — 1 candidat(s) dans la description ; missing-translation.
-- **Heaume scintillant** (Helm of Brilliance) — 7 candidat(s) dans la description ; missing-translation.
-- **Heaume de compréhension des langues** (Helm of Comprehending Languages) — 1 candidat(s) dans la description ; missing-translation.
-- **Heaume de télépathie** (Helm of Telepathy) — 2 candidat(s) dans la description ; missing-translation.
-- **Heaume de téléportation** (Helm of Teleportation) — 1 candidat(s) dans la description ; missing-translation.
-- **Cor de dévastation** (Horn of Blasting) — 2 candidat(s) dans la description ; missing-translation.
-- **Cor du Valhalla** (Horn of Valhalla) — 6 candidat(s) dans la description ; missing-translation.
-- **Fers de rapidité** (Horseshoes of Speed) — 1 candidat(s) dans la description ; missing-translation.
-- **Fers de zéphyr** (Horseshoes of a Zephyr) — 1 candidat(s) dans la description ; missing-translation.
-- **Sceptre inamovible** (Immovable Rod) — 1 candidat(s) dans la description ; missing-translation.
-- **Forteresse instantanée** (Instant Fortress) — 4 candidat(s) dans la description ; missing-translation.
-- **Pierre de Ioun** (Ioun Stone) — 20 candidat(s) dans la description ; missing-translation.
-- **Bandes de fer entravantes** (Iron Bands of Binding) — 0 candidat(s) dans la description.
-- **Flasque de fer** (Iron Flask) — 3 candidat(s) dans la description ; missing-translation.
-- **Lanterne de révélation** (Lantern of Revealing) — 1 candidat(s) dans la description ; missing-translation.
-- **Lame porte-bonheur** (Luck Blade) — 1 candidat(s) dans la description ; missing-translation.
-- **Masse destructrice** (Mace of Smiting) — 1 candidat(s) dans la description ; missing-translation.
-- **Masse terrifiante** (Mace of Terror) — 1 candidat(s) dans la description ; missing-translation.
-- **Manteau de résistance aux sorts** (Mantle of Spell Resistance) — 1 candidat(s) dans la description ; missing-translation.
-- **Manuel de vitalité** (Manual of Bodily Health) — 1 candidat(s) dans la description ; missing-translation.
-- **Manuel d'exercices physiques** (Manual of Gainful Exercise) — 1 candidat(s) dans la description ; missing-translation.
-- **Manuel des golems** (Manual of Golems) — 3 candidat(s) dans la description ; missing-translation.
-- **Manuel de vivacité** (Manual of Quickness of Action) — 1 candidat(s) dans la description ; missing-translation.
-- **Pigments merveilleux** (Marvelous Pigments) — 5 candidat(s) dans la description ; missing-translation.
-- **Médaillon des pensées** (Medallion of Thoughts) — 1 candidat(s) dans la description ; missing-translation.
-- **Miroir d'emprisonnement** (Mirror of Life Trapping) — 7 candidat(s) dans la description ; missing-translation.
-- **Armure de mithral** (Mithral Armor) — 1 candidat(s) dans la description ; missing-translation.
-- **Collier d'adaptation** (Necklace of Adaptation) — 1 candidat(s) dans la description ; missing-translation.
-- **Collier de boules de feu** (Necklace of Fireballs) — 2 candidat(s) dans la description ; missing-translation.
-- **Collier de prière** (Necklace of Prayer Beads) — 3 candidat(s) dans la description ; missing-translation.
-- **Huile éthérée** (Oil of Etherealness) — 1 candidat(s) dans la description ; missing-translation.
-- **Huile d'affûtage** (Oil of Sharpness) — 1 candidat(s) dans la description ; missing-translation.
-- **Huile d'insaisissabilité** (Oil of Slipperiness) — 2 candidat(s) dans la description ; missing-translation.
-- **Perle de pouvoir** (Pearl of Power) — 1 candidat(s) dans la description ; missing-translation.
-- **Amulette de santé** (Periapt of Health) — 1 candidat(s) dans la description ; missing-translation.
-- **Amulette de protection contre le poison** (Periapt of Proof against Poison) — 1 candidat(s) dans la description ; missing-translation.
-- **Amulette de cicatrisation** (Periapt of Wound Closure) — 1 candidat(s) dans la description ; missing-translation.
-- **Philtre d'amour** (Philter of Love) — 1 candidat(s) dans la description ; missing-translation.
-- **Flûte terrifiante** (Pipes of Haunting) — 1 candidat(s) dans la description ; missing-translation.
-- **Flûte des égouts** (Pipes of the Sewers) — 3 candidat(s) dans la description ; missing-translation.
-- **Harnois éthéré** (Plate Armor of Etherealness) — 1 candidat(s) dans la description ; missing-translation.
-- **Puits portable** (Portable Hole) — 5 candidat(s) dans la description ; missing-translation.
-- **Potion d'amitié avec les animaux** (Potion of Animal Friendship) — 2 candidat(s) dans la description ; missing-translation.
-- **Potion de clairvoyance** (Potion of Clairvoyance) — 1 candidat(s) dans la description ; missing-translation.
-- **Potion d'escalade** (Potion of Climbing) — 1 candidat(s) dans la description ; missing-translation.
-- **Potion de diminution** (Potion of Diminution) — 1 candidat(s) dans la description ; missing-translation.
-- **Potion de vol** (Potion of Flying) — 1 candidat(s) dans la description ; missing-translation.
-- **Potion de forme gazeuse** (Potion of Gaseous Form) — 1 candidat(s) dans la description ; missing-translation.
-- **Potion de force de géant** (Potion of Giant Strength) — 2 candidat(s) dans la description ; missing-translation.
-- **Potion d'agrandissement** (Potion of Growth) — 2 candidat(s) dans la description ; missing-translation.
-- **Potion de guérison** (Potion of Healing) — 2 candidat(s) dans la description ; missing-translation.
-- **Potion d'héroïsme** (Potion of Heroism) — 1 candidat(s) dans la description ; missing-translation.
-- **Potion d'invisibilité** (Potion of Invisibility) — 1 candidat(s) dans la description ; missing-translation.
-- **Potion de lecture des pensées** (Potion of Mind Reading) — 1 candidat(s) dans la description ; missing-translation.
-- **Potion de poison** (Potion of Poison) — 2 candidat(s) dans la description ; missing-translation.
-- **Potion de résistance** (Potion of Resistance) — 1 candidat(s) dans la description ; missing-translation.
-- **Potion de vitesse** (Potion of Speed) — 2 candidat(s) dans la description ; missing-translation.
-- **Potion de respiration aquatique** (Potion of Water Breathing) — 1 candidat(s) dans la description ; missing-translation.
-- **Onguent réparateur** (Restorative Ointment) — 3 candidat(s) dans la description ; missing-translation.
-- **Anneau d'influence animale** (Ring of Animal Influence) — 1 candidat(s) dans la description ; missing-translation.
-- **Anneau de convocation de djinn** (Ring of Djinni Summoning) — 3 candidat(s) dans la description ; missing-translation.
-- **Anneau de maîtrise élémentaire** (Ring of Elemental Command) — 19 candidat(s) dans la description ; missing-translation.
-- **Anneau d'esquive totale** (Ring of Evasion) — 1 candidat(s) dans la description ; missing-translation.
-- **Anneau de feuille morte** (Ring of Feather Falling) — 1 candidat(s) dans la description ; missing-translation.
-- **Anneau d'action libre** (Ring of Free Action) — 1 candidat(s) dans la description ; missing-translation.
-- **Anneau d'invisibilité** (Ring of Invisibility) — 1 candidat(s) dans la description ; missing-translation.
-- **Anneau de saut** (Ring of Jumping) — 1 candidat(s) dans la description ; missing-translation.
-- **Anneau de barrière mentale** (Ring of Mind Shielding) — 3 candidat(s) dans la description ; missing-translation.
-- **Anneau de protection** (Ring of Protection) — 1 candidat(s) dans la description ; missing-translation.
-- **Anneau de régénération** (Ring of Regeneration) — 1 candidat(s) dans la description ; missing-translation.
-- **Anneau de résistance** (Ring of Resistance) — 1 candidat(s) dans la description ; missing-translation.
-- **Anneau de feu d'étoiles** (Ring of Shooting Stars) — 8 candidat(s) dans la description ; missing-translation.
-- **Anneau de stockage de sorts** (Ring of Spell Storing) — 3 candidat(s) dans la description ; missing-translation.
-- **Anneau de renvoi des sorts** (Ring of Spell Turning) — 1 candidat(s) dans la description ; missing-translation.
-- **Anneau de nage** (Ring of Swimming) — 1 candidat(s) dans la description ; missing-translation.
-- **Anneau de télékinésie** (Ring of Telekinesis) — 1 candidat(s) dans la description ; missing-translation.
-- **Anneau de triple souhait** (Ring of Three Wishes) — 1 candidat(s) dans la description ; missing-translation.
-- **Anneau de chaleur constante** (Ring of Warmth) — 1 candidat(s) dans la description ; missing-translation.
-- **Anneau de marche sur l'eau** (Ring of Water Walking) — 1 candidat(s) dans la description ; missing-translation.
-- **Anneau de rayons X** (Ring of X-ray Vision) — 2 candidat(s) dans la description ; missing-translation.
-- **Anneau du bélier** (Ring of the Ram) — 2 candidat(s) dans la description ; missing-translation.
-- **Robe de vision totale** (Robe of Eyes) — 7 candidat(s) dans la description ; missing-translation.
-- **Robe prismatique** (Robe of Scintillating Colors) — 1 candidat(s) dans la description ; missing-translation.
-- **Robe aux étoiles** (Robe of Stars) — 3 candidat(s) dans la description ; missing-translation.
-- **Robe du camelot** (Robe of Useful Items) — 8 candidat(s) dans la description ; missing-translation.
-- **Robe de l'archimage** (Robe of the Archmagi) — 6 candidat(s) dans la description ; missing-translation.
-- **Sceptre d'absorption** (Rod of Absorption) — 4 candidat(s) dans la description ; missing-translation.
-- **Sceptre de vigilance** (Rod of Alertness) — 5 candidat(s) dans la description ; missing-translation.
-- **Sceptre de puissance seigneuriale** (Rod of Lordly Might) — 13 candidat(s) dans la description ; missing-translation.
-- **Sceptre de suzeraineté** (Rod of Rulership) — 1 candidat(s) dans la description ; missing-translation.
-- **Sceptre de sécurité** (Rod of Security) — 3 candidat(s) dans la description ; missing-translation.
-- **Corde d'ascension** (Rope of Climbing) — 3 candidat(s) dans la description ; missing-translation.
-- **Corde d'enchevêtrement** (Rope of Entanglement) — 3 candidat(s) dans la description ; missing-translation.
-- **Scarabée de protection** (Scarab of Protection) — 3 candidat(s) dans la description ; missing-translation.
-- **Bouclier +1, +2 ou +3** (Shield, +1, +2, or +3) — 1 candidat(s) dans la description ; missing-translation.
-- **Bouclier d'attraction des projectiles** (Shield of Missile Attraction) — 2 candidat(s) dans la description ; missing-translation.
-- **Chaussons de l'araignée** (Slippers of Spider Climbing) — 2 candidat(s) dans la description ; missing-translation.
-- **Colle universelle** (Sovereign Glue) — 3 candidat(s) dans la description ; missing-translation.
-- **Parchemin de sort** (Spell Scroll) — 5 candidat(s) dans la description ; missing-translation.
-- **Bouclier gardesort** (Spellguard Shield) — 1 candidat(s) dans la description ; missing-translation.
-- **Sphère d'annihilation** (Sphere of Annihilation) — 8 candidat(s) dans la description ; missing-translation.
-- **Bâton d'envoûtement** (Staff of Charming) — 3 candidat(s) dans la description ; missing-translation.
-- **Bâton de feu** (Staff of Fire) — 3 candidat(s) dans la description ; missing-translation.
-- **Bâton de givre** (Staff of Frost) — 3 candidat(s) dans la description ; missing-translation.
-- **Bâton de guérison** (Staff of Healing) — 2 candidat(s) dans la description ; missing-translation.
-- **Bâton de surpuissance** (Staff of Power) — 9 candidat(s) dans la description ; missing-translation.
-- **Bâton percussif** (Staff of Striking) — 2 candidat(s) dans la description ; missing-translation.
-- **Bâton du grand essaim** (Staff of Swarming Insects) — 3 candidat(s) dans la description ; missing-translation.
-- **Bâton de tonnerre et de foudre** (Staff of Thunder and Lightning) — 6 candidat(s) dans la description ; missing-translation.
-- **Bâton de flétrissement** (Staff of Withering) — 3 candidat(s) dans la description ; missing-translation.
-- **Bâton du thaumaturge** (Staff of the Magi) — 10 candidat(s) dans la description ; missing-translation.
-- **Bâton du python** (Staff of the Python) — 3 candidat(s) dans la description ; missing-translation.
-- **Bâton des forêts** (Staff of the Woodlands) — 4 candidat(s) dans la description ; missing-translation.
-- **Pierre de contrôle des élémentaires de la terre** (Stone of Controlling Earth Elementals) — 1 candidat(s) dans la description ; missing-translation.
-- **Pierre porte-bonheur** (Stone of Good Luck (Luckstone)) — 1 candidat(s) dans la description ; missing-translation.
-- **Épée voleuse de vie** (Sword of Life Stealing) — 1 candidat(s) dans la description ; missing-translation.
-- **Épée acérée** (Sword of Sharpness) — 3 candidat(s) dans la description ; missing-translation.
-- **Talisman du bien ultime** (Talisman of Pure Good) — 4 candidat(s) dans la description ; missing-translation.
-- **Talisman du mal absolu** (Talisman of Ultimate Evil) — 4 candidat(s) dans la description ; missing-translation.
-- **Talisman de la sphère** (Talisman of the Sphere) — 1 candidat(s) dans la description ; missing-translation.
-- **Traité de perspicacité** (Tome of Clear Thought) — 1 candidat(s) dans la description ; missing-translation.
-- **Traité d'autorité et d'influence** (Tome of Leadership and Influence) — 1 candidat(s) dans la description ; missing-translation.
-- **Traité de compréhension** (Tome of Understanding) — 1 candidat(s) dans la description ; missing-translation.
-- **Solvant universel** (Universal Solvent) — 1 candidat(s) dans la description ; missing-translation.
-- **Arme brutale** (Vicious Weapon) — 1 candidat(s) dans la description ; missing-translation.
-- **Épée vorpale** (Vorpal Sword) — 2 candidat(s) dans la description ; missing-translation.
-- **Baguette des entraves** (Wand of Binding) — 3 candidat(s) dans la description ; missing-translation.
-- **Baguette de détection de l'ennemi** (Wand of Enemy Detection) — 2 candidat(s) dans la description ; missing-translation.
-- **Baguette de peur** (Wand of Fear) — 3 candidat(s) dans la description ; missing-translation.
-- **Baguette de boules de feu** (Wand of Fireballs) — 2 candidat(s) dans la description ; missing-translation.
-- **Baguette d'éclairs** (Wand of Lightning Bolts) — 2 candidat(s) dans la description ; missing-translation.
-- **Baguette de détection de la magie** (Wand of Magic Detection) — 1 candidat(s) dans la description ; missing-translation.
-- **Baguette de projectiles magiques** (Wand of Magic Missiles) — 2 candidat(s) dans la description ; missing-translation.
-- **Baguette de paralysie** (Wand of Paralysis) — 2 candidat(s) dans la description ; missing-translation.
-- **Baguette de métamorphose** (Wand of Polymorph) — 2 candidat(s) dans la description ; missing-translation.
-- **Baguette des secrets** (Wand of Secrets) — 1 candidat(s) dans la description ; missing-translation.
-- **Baguette de toile d'araignée** (Wand of Web) — 2 candidat(s) dans la description ; missing-translation.
-- **Baguette des merveilles** (Wand of Wonder) — 20 candidat(s) dans la description ; missing-translation.
-- **Baguette du mage de guerre +1, +2 ou +3** (Wand of the War Mage, +1, +2, or +3) — 1 candidat(s) dans la description ; missing-translation.
-- **Arme +1, +2 ou +3** (Weapon, +1, +2, or +3) — 1 candidat(s) dans la description ; missing-translation.
-- **Puits des mondes** (Well of Many Worlds) — 2 candidat(s) dans la description ; missing-translation.
-- **Éventail enchanté** (Wind Fan) — 1 candidat(s) dans la description ; missing-translation.
-- **Bottes ailées** (Winged Boots) — 2 candidat(s) dans la description ; missing-translation.
-- **Cape de vol** (Wings of Flying) — 1 candidat(s) dans la description ; missing-translation.
+Les intitulés anciens des chapitres peuvent toutefois demander des associations supplémentaires :
 
-## equipement
+- Apparatus of the Crab
+- Alchemist's Fire
+- Case, Crossbow Bolt
+- Case, Map or Scroll
+- Poison, Basic
+- Scale, Merchant's
 
-- **Alchemist's Fire** (Alchemist's Fire) — 0 candidat(s) dans la description ; nom à vérifier.
-- **Focaliseur arcanique** (Arcane Focus) — 1 candidat(s) dans la description ; missing-translation.
-- **Billes métalliques** (Ball Bearings) — 1 candidat(s) dans la description ; missing-translation.
-- **Palan** (Block and Tackle) — 1 candidat(s) dans la description ; missing-translation.
-- **Livre** (Book) — 1 candidat(s) dans la description ; missing-translation.
-- **Chausse-trappes** (Caltrops) — 1 candidat(s) dans la description ; missing-translation.
-- **Case, Crossbow Bolt** (Case, Crossbow Bolt) — 1 candidat(s) dans la description ; nom à vérifier ; missing-translation.
-- **Case, Map or Scroll** (Case, Map or Scroll) — 1 candidat(s) dans la description ; nom à vérifier ; missing-translation.
-- **Matériel d’escalade** (Climber's Kit) — 1 candidat(s) dans la description ; missing-translation.
-- **Sacoche à composantes** (Component Pouch) — 1 candidat(s) dans la description ; missing-translation.
-- **Matériel de pêche** (Fishing Tackle) — 1 candidat(s) dans la description ; missing-translation.
-- **Symbole sacré** (Holy Symbol) — 1 candidat(s) dans la description ; missing-translation.
-- **Lampe** (Lamp) — 1 candidat(s) dans la description ; missing-translation.
-- **Serrure** (Lock) — 1 candidat(s) dans la description ; missing-translation.
-- **Loupe** (Magnifying Glass) — 1 candidat(s) dans la description ; missing-translation.
-- **Gamelle** (Mess Kit) — 1 candidat(s) dans la description ; missing-translation.
-- **Poison, Basic** (Poison, Basic) — 0 candidat(s) dans la description ; nom à vérifier.
-- **Potion de guérison** (Potion of Healing) — 1 candidat(s) dans la description ; missing-translation.
-- **Bourse** (Pouch) — 1 candidat(s) dans la description ; missing-translation.
-- **Bélier portatif** (Ram, Portable) — 1 candidat(s) dans la description ; missing-translation.
-- **Scale, Merchant's** (Scale, Merchant's) — 1 candidat(s) dans la description ; nom à vérifier ; missing-translation.
-- **Boîte à amadou** (Tinderbox) — 1 candidat(s) dans la description ; missing-translation.
-- **Torche** (Torch) — 1 candidat(s) dans la description ; missing-translation.
-- **Outils d’artisan** (Artisan's Tools) — 1 candidat(s) dans la description ; missing-translation.
-- **Accessoires de déguisement** (Disguise Kit) — 1 candidat(s) dans la description ; missing-translation.
-- **Matériel de contrefaçon** (Forgery Kit) — 1 candidat(s) dans la description ; missing-translation.
-- **Jeu** (Gaming Set) — 1 candidat(s) dans la description ; missing-translation.
-- **Matériel d’herboriste** (Herbalism Kit) — 1 candidat(s) dans la description ; missing-translation.
-- **Instrument de musique** (Musical Instrument) — 1 candidat(s) dans la description ; missing-translation.
-- **Outils de navigateur** (Navigator's Tools) — 1 candidat(s) dans la description ; missing-translation.
-- **Matériel d’empoisonneur** (Poisoner's Kit) — 1 candidat(s) dans la description ; missing-translation.
-- **Outils de voleur** (Thieves' Tools) — 1 candidat(s) dans la description ; missing-translation.
-- **Armure Maîtrise** (Armor Proficiency) — 1 candidat(s) dans la description ; missing-translation.
-- **Classe d’armure (CA)** (Armor Class (AC)) — 1 candidat(s) dans la description ; missing-translation.
-- **Armure lourde** (Heavy Armor) — 1 candidat(s) dans la description ; missing-translation.
-- **Discrétion** (Stealth) — 1 candidat(s) dans la description ; missing-translation.
-- **Boucliers** (Shields) — 1 candidat(s) dans la description ; missing-translation.
-- **Lance d’arçon** (Lance) — 1 candidat(s) dans la description ; missing-translation.
-- **Filet** (Net) — 1 candidat(s) dans la description ; missing-translation.
+## Exemples de descriptions à compléter
+
+- **Représailles infernales** (Hellish Rebuke) : 1 passage(s) signalé(s).
+- **Sac sans fond** (Bag of Holding) : 1 passage(s) signalé(s).
+- **Anneau de protection** (Ring of Protection) : 1 passage(s) signalé(s).
+- **Baguette d'Orcus** (Wand of Orcus) : 16 passage(s) signalé(s).
+- **Baguette du grincheux** (Wand of Scowls) : 2 passage(s) signalé(s).
+- **Baguette du jovial** (Wand of Smiles) : 2 passage(s) signalé(s).
+
+Pour Représailles infernales, le paragraphe principal ajouté en 1.17.28 est reconnu ; le reliquat signalé concerne la formulation anglaise de l’amélioration par emplacement de niveau supérieur.
+
+## Inventaire détaillé
+
+Les passages exacts et les motifs sont dans [le rapport JSON](shard-players-guide-v1.json). Les listes ci-dessous concernent les notices et fiches effectivement examinées.
+
+### Sorts du chapitre Spells
+
+- **Flèche acide** (Acid Arrow) — 2 candidat(s).
+- **Aspersion d'acide** (Acid Splash) — 2 candidat(s).
+- **Aide** (Aid) — 2 candidat(s).
+- **Alarme** (Alarm) — 3 candidat(s).
+- **Modification d'apparence** (Alter Self) — 4 candidat(s).
+- **Amitié avec les animaux** (Animal Friendship) — 2 candidat(s).
+- **Messager animal** (Animal Messenger) — 3 candidat(s).
+- **Métamorphose animale** (Animal Shapes) — 3 candidat(s).
+- **Animation des morts** (Animate Dead) — 4 candidat(s).
+- **Animation des objets** (Animate Objects) — 6 candidat(s).
+- **Coquille antivie** (Antilife Shell) — 3 candidat(s).
+- **Champ antimagie** (Antimagic Field) — 10 candidat(s).
+- **Aversion/attirance** (Antipathy/Sympathy) — 6 candidat(s).
+- **Oeil du mage** (Arcane Eye) — 3 candidat(s).
+- **Main arcanique** (Arcane Hand) — 8 candidat(s).
+- **Verrou arcanique** (Arcane Lock) — 2 candidat(s).
+- **Épée arcanique** (Arcane Sword) — 2 candidat(s).
+- **Aura magique de l’arcaniste** (Arcanist's Magic Aura) — 4 candidat(s).
+- **Projection astrale** (Astral Projection) — 6 candidat(s).
+- **Augure** (Augury) — 3 candidat(s).
+- **Éveil** (Awaken) — 2 candidat(s).
+- **Imprécation** (Bane) — 2 candidat(s).
+- **Bannissement** (Banishment) — 4 candidat(s).
+- **Peau d'écorce** (Barkskin) — 1 candidat(s).
+- **Lueur d'espoir** (Beacon of Hope) — 1 candidat(s).
+- **Malédiction** (Bestow Curse) — 7 candidat(s).
+- **Tentacules noirs** (Black Tentacles) — 3 candidat(s).
+- **Barrière de lames** (Blade Barrier) — 2 candidat(s).
+- **Bénédiction** (Bless) — 2 candidat(s).
+- **Flétrissement** (Blight) — 4 candidat(s).
+- **Cécité/surdité** (Blindness/Deafness) — 2 candidat(s).
+- **Clignotement** (Blink) — 2 candidat(s).
+- **Flou** (Blur) — 1 candidat(s).
+- **Châtiment révélateur** (Branding Smite) — 2 candidat(s).
+- **Mains brûlantes** (Burning Hands) — 3 candidat(s).
+- **Appel de la foudre** (Call Lightning) — 4 candidat(s).
+- **Apaisement des émotions** (Calm Emotions) — 3 candidat(s).
+- **Chaîne d'éclairs** (Chain Lightning) — 3 candidat(s).
+- **Charme-personne** (Charm Person) — 2 candidat(s).
+- **Contact glacial** (Chill Touch) — 3 candidat(s).
+- **Cercle de mort** (Circle of Death) — 2 candidat(s).
+- **Clairvoyance** (Clairvoyance) — 3 candidat(s).
+- **Clone** (Clone) — 2 candidat(s).
+- **Brume mortelle** (Cloudkill) — 4 candidat(s).
+- **Couleurs dansantes** (Color Spray) — 3 candidat(s).
+- **Injonction** (Command) — 5 candidat(s).
+- **Communion** (Commune) — 3 candidat(s).
+- **Communion avec la nature** (Commune with Nature) — 3 candidat(s).
+- **Compréhension des langues** (Comprehend Languages) — 2 candidat(s).
+- **Compulsion** (Compulsion) — 2 candidat(s).
+- **Cône de froid** (Cone of Cold) — 3 candidat(s).
+- **Confusion** (Confusion) — 10 candidat(s).
+- **Invocation d'animaux** (Conjure Animals) — 5 candidat(s).
+- **Invocation de céleste** (Conjure Celestial) — 4 candidat(s).
+- **Invocation d'élémentaire** (Conjure Elemental) — 5 candidat(s).
+- **Invocation de fée** (Conjure Fey) — 5 candidat(s).
+- **Invocation d'élémentaires mineurs** (Conjure Minor Elementals) — 5 candidat(s).
+- **Invocation d'êtres sylvestres** (Conjure Woodland Beings) — 6 candidat(s).
+- **Contact avec les plans** (Contact Other Plane) — 2 candidat(s).
+- **Contagion** (Contagion) — 9 candidat(s).
+- **Préméditation** (Contingency) — 3 candidat(s).
+- **Flamme éternelle** (Continual Flame) — 1 candidat(s).
+- **Contrôle de l'eau** (Control Water) — 9 candidat(s).
+- **Contrôle du climat** (Control Weather) — 8 candidat(s).
+- **Contresort** (Counterspell) — 2 candidat(s).
+- **Création de nourriture et d'eau** (Create Food and Water) — 1 candidat(s).
+- **Création ou destruction d'eau** (Create or Destroy Water) — 3 candidat(s).
+- **Création de mort-vivant** (Create Undead) — 4 candidat(s).
+- **Création** (Creation) — 5 candidat(s).
+- **Soins** (Cure Wounds) — 2 candidat(s).
+- **Lumières dansantes** (Dancing Lights) — 2 candidat(s).
+- **Ténèbres** (Darkness) — 3 candidat(s).
+- **Vision dans le noir** (Darkvision) — 1 candidat(s).
+- **Lumière du jour** (Daylight) — 3 candidat(s).
+- **Protection contre la mort** (Death Ward) — 3 candidat(s).
+- **Boule de feu à retardement** (Delayed Blast Fireball) — 5 candidat(s).
+- **Demi-plan** (Demiplane) — 2 candidat(s).
+- **Détection du mal et du bien** (Detect Evil and Good) — 2 candidat(s).
+- **Détection de la magie** (Detect Magic) — 2 candidat(s).
+- **Détection du poison et des maladies** (Detect Poison and Disease) — 2 candidat(s).
+- **Détection des pensées** (Detect Thoughts) — 5 candidat(s).
+- **Porte dimensionnelle** (Dimension Door) — 3 candidat(s).
+- **Déguisement** (Disguise Self) — 3 candidat(s).
+- **Désintégration** (Disintegrate) — 5 candidat(s).
+- **Dissipation du mal et du bien** (Dispel Evil and Good) — 4 candidat(s).
+- **Dissipation de la magie** (Dispel Magic) — 2 candidat(s).
+- **Divination** (Divination) — 3 candidat(s).
+- **Faveur divine** (Divine Favor) — 1 candidat(s).
+- **Parole divine** (Divine Word) — 2 candidat(s).
+- **Domination de bête** (Dominate Beast) — 5 candidat(s).
+- **Domination de monstre** (Dominate Monster) — 5 candidat(s).
+- **Domination de personne** (Dominate Person) — 5 candidat(s).
+- **Songe** (Dream) — 4 candidat(s).
+- **Druidisme** (Druidcraft) — 3 candidat(s).
+- **Tremblement de terre** (Earthquake) — 6 candidat(s).
+- **Décharge occulte** (Eldritch Blast) — 2 candidat(s).
+- **Amélioration de caractéristique** (Enhance Ability) — 8 candidat(s).
+- **Agrandissement/rapetissement** (Enlarge/Reduce) — 4 candidat(s).
+- **Enchevêtrement** (Entangle) — 3 candidat(s).
+- **Discours captivant** (Enthrall) — 1 candidat(s).
+- **Forme éthérée** (Etherealness) — 6 candidat(s).
+- **Repli expéditif** (Expeditious Retreat) — 1 candidat(s).
+- **Mauvais oeil** (Eyebite) — 4 candidat(s).
+- **Fabrication** (Fabricate) — 3 candidat(s).
+- **Lueurs féeriques** (Faerie Fire) — 2 candidat(s).
+- **Chien de garde** (Faithful Hound) — 3 candidat(s).
+- **Simulacre de vie** (False Life) — 2 candidat(s).
+- **Peur** (Fear) — 2 candidat(s).
+- **Feuille morte** (Feather Fall) — 1 candidat(s).
+- **Esprit faible** (Feeblemind) — 4 candidat(s).
+- **Appel de familier** (Find Familiar) — 7 candidat(s).
+- **Appel de destrier** (Find Steed) — 5 candidat(s).
+- **Orientation** (Find the Path) — 2 candidat(s).
+- **Détection des pièges** (Find Traps) — 2 candidat(s).
+- **Doigt de mort** (Finger of Death) — 2 candidat(s).
+- **Trait de feu** (Fire Bolt) — 1 candidat(s).
+- **Bouclier de feu** (Fire Shield) — 2 candidat(s).
+- **Tempête de feu** (Fire Storm) — 2 candidat(s).
+- **Boule de feu** (Fireball) — 3 candidat(s).
+- **Lame de feu** (Flame Blade) — 3 candidat(s).
+- **Colonne de flamme** (Flame Strike) — 2 candidat(s).
+- **Sphère de feu** (Flaming Sphere) — 4 candidat(s).
+- **Pétrification** (Flesh to Stone) — 4 candidat(s).
+- **Disque flottant** (Floating Disk) — 1 candidat(s).
+- **Vol** (Fly) — 2 candidat(s).
+- **Nappe de brouillard** (Fog Cloud) — 2 candidat(s).
+- **Interdiction** (Forbiddance) — 4 candidat(s).
+- **Cage de force** (Forcecage) — 6 candidat(s).
+- **Prémonition** (Foresight) — 2 candidat(s).
+- **Liberté de mouvement** (Freedom of Movement) — 2 candidat(s).
+- **Sphère glacée** (Freezing Sphere) — 4 candidat(s).
+- **Forme gazeuse** (Gaseous Form) — 3 candidat(s).
+- **Portail** (Gate) — 4 candidat(s).
+- **Quête** (Geas) — 3 candidat(s).
+- **Insecte géant** (Giant Insect) — 4 candidat(s).
+- **Globe d'invulnérabilité** (Globe of Invulnerability) — 3 candidat(s).
+- **Glyphe de garde** (Glyph of Warding) — 8 candidat(s).
+- **Baies nourricières** (Goodberry) — 2 candidat(s).
+- **Graisse** (Grease) — 2 candidat(s).
+- **Invisibilité suprême** (Greater Invisibility) — 1 candidat(s).
+- **Restauration suprême** (Greater Restoration) — 5 candidat(s).
+- **Gardien de la foi** (Guardian of Faith) — 2 candidat(s).
+- **Protections et sceaux** (Guards and Wards) — 12 candidat(s).
+- **Assistance** (Guidance) — 1 candidat(s).
+- **Rayon traçant** (Guiding Bolt) — 2 candidat(s).
+- **Bourrasque** (Gust of Wind) — 3 candidat(s).
+- **Sanctification** (Hallow) — 12 candidat(s).
+- **Terrain hallucinatoire** (Hallucinatory Terrain) — 2 candidat(s).
+- **Contamination** (Harm) — 1 candidat(s).
+- **Hâte** (Haste) — 2 candidat(s).
+- **Guérison** (Heal) — 2 candidat(s).
+- **Mot de guérison** (Healing Word) — 2 candidat(s).
+- **Métal brûlant** (Heat Metal) — 2 candidat(s).
+- **Représailles infernales** (Hellish Rebuke) — 1 candidat(s).
+- **Festin des héros** (Heroes' Feast) — 2 candidat(s).
+- **Héroïsme** (Heroism) — 2 candidat(s).
+- **Fou rire** (Hideous Laughter) — 2 candidat(s).
+- **Immobilisation de monstre** (Hold Monster) — 2 candidat(s).
+- **Immobilisation de personne** (Hold Person) — 2 candidat(s).
+- **Aura sacrée** (Holy Aura) — 1 candidat(s).
+- **Marque du chasseur** (Hunter's Mark) — 2 candidat(s).
+- **Motif hypnotique** (Hypnotic Pattern) — 1 candidat(s).
+- **Tempête de grêle** (Ice Storm) — 3 candidat(s).
+- **Identification** (Identify) — 2 candidat(s).
+- **Texte illusoire** (Illusory Script) — 4 candidat(s).
+- **Emprisonnement** (Imprisonment) — 15 candidat(s).
+- **Nuage incendiaire** (Incendiary Cloud) — 3 candidat(s).
+- **Blessure** (Inflict Wounds) — 2 candidat(s).
+- **Fléau d'insectes** (Insect Plague) — 3 candidat(s).
+- **Convocations instantanées** (Instant Summons) — 4 candidat(s).
+- **Invisibilité** (Invisibility) — 2 candidat(s).
+- **Danse irrésistible** (Irresistible Dance) — 2 candidat(s).
+- **Saut** (Jump) — 1 candidat(s).
+- **Déblocage** (Knock) — 2 candidat(s).
+- **Mythes et légendes** (Legend Lore) — 2 candidat(s).
+- **Restauration partielle** (Lesser Restoration) — 1 candidat(s).
+- **Lumière** (Light) — 2 candidat(s).
+- **Éclair** (Lightning Bolt) — 3 candidat(s).
+- **Localisation d'animaux ou de plantes** (Locate Animals or Plants) — 1 candidat(s).
+- **Localisation de créature** (Locate Creature) — 3 candidat(s).
+- **Localisation d'objet** (Locate Object) — 3 candidat(s).
+- **Grande foulée** (Longstrider) — 1 candidat(s).
+- **Armure de mage** (Mage Armor) — 1 candidat(s).
+- **Main de mage** (Mage Hand) — 2 candidat(s).
+- **Cercle magique** (Magic Circle) — 3 candidat(s).
+- **Urne magique** (Magic Jar) — 7 candidat(s).
+- **Projectile magique** (Magic Missile) — 2 candidat(s).
+- **Bouche magique** (Magic Mouth) — 3 candidat(s).
+- **Arme magique** (Magic Weapon) — 2 candidat(s).
+- **Manoir somptueux** (Magnificent Mansion) — 3 candidat(s).
+- **Image majeure** (Major Image) — 4 candidat(s).
+- **Soins de groupe** (Mass Cure Wounds) — 2 candidat(s).
+- **Guérison de groupe** (Mass Heal) — 1 candidat(s).
+- **Mot de guérison de groupe** (Mass Healing Word) — 2 candidat(s).
+- **Suggestion de groupe** (Mass Suggestion) — 5 candidat(s).
+- **Dédale** (Maze) — 3 candidat(s).
+- **Fusion dans la pierre** (Meld into Stone) — 3 candidat(s).
+- **Réparation** (Mending) — 2 candidat(s).
+- **Message** (Message) — 2 candidat(s).
+- **Nuée de météores** (Meteor Swarm) — 2 candidat(s).
+- **Esprit impénétrable** (Mind Blank) — 1 candidat(s).
+- **Illusion mineure** (Minor Illusion) — 3 candidat(s).
+- **Mirage** (Mirage Arcane) — 4 candidat(s).
+- **Image miroir** (Mirror Image) — 5 candidat(s).
+- **Double illusoire** (Mislead) — 3 candidat(s).
+- **Foulée brumeuse** (Misty Step) — 1 candidat(s).
+- **Modification de mémoire** (Modify Memory) — 5 candidat(s).
+- **Rayon de lune** (Moonbeam) — 5 candidat(s).
+- **Glissement de terrain** (Move Earth) — 5 candidat(s).
+- **Antidétection** (Nondetection) — 1 candidat(s).
+- **Passage sans trace** (Pass without Trace) — 1 candidat(s).
+- **Passe-muraille** (Passwall) — 1 candidat(s).
+- **Assassin imaginaire** (Phantasmal Killer) — 2 candidat(s).
+- **Monture fantôme** (Phantom Steed) — 2 candidat(s).
+- **Allié planaire** (Planar Ally) — 6 candidat(s).
+- **Entrave planaire** (Planar Binding) — 3 candidat(s).
+- **Changement de plan** (Plane Shift) — 3 candidat(s).
+- **Croissance végétale** (Plant Growth) — 4 candidat(s).
+- **Bouffée de poison** (Poison Spray) — 2 candidat(s).
+- **Métamorphose** (Polymorph) — 4 candidat(s).
+- **Mot de pouvoir mortel** (Power Word Kill) — 1 candidat(s).
+- **Mot de pouvoir étourdissant** (Power Word Stun) — 2 candidat(s).
+- **Prière de guérison** (Prayer of Healing) — 2 candidat(s).
+- **Prestidigitation** (Prestidigitation) — 1 candidat(s).
+- **Embruns prismatiques** (Prismatic Spray) — 9 candidat(s).
+- **Mur prismatique** (Prismatic Wall) — 12 candidat(s).
+- **Sanctuaire privé** (Private Sanctum) — 10 candidat(s).
+- **Flammes** (Produce Flame) — 3 candidat(s).
+- **Illusion programmée** (Programmed Illusion) — 4 candidat(s).
+- **Image projetée** (Project Image) — 4 candidat(s).
+- **Protection contre le mal et le bien** (Protection from Evil and Good) — 2 candidat(s).
+- **Protection contre le poison** (Protection from Poison) — 2 candidat(s).
+- **Purification de la nourriture et de l'eau** (Purify Food and Drink) — 1 candidat(s).
+- **Rappel à la vie** (Raise Dead) — 4 candidat(s).
+- **Rayon affaiblissant** (Ray of Enfeeblement) — 2 candidat(s).
+- **Rayon de givre** (Ray of Frost) — 1 candidat(s).
+- **Régénération** (Regenerate) — 2 candidat(s).
+- **Réincarnation** (Reincarnate) — 8 candidat(s).
+- **Sphère résiliente** (Resilient Sphere) — 4 candidat(s).
+- **Résistance** (Resistance) — 1 candidat(s).
+- **Résurrection** (Resurrection) — 5 candidat(s).
+- **Inversion de la gravité** (Reverse Gravity) — 3 candidat(s).
+- **Retour à la vie** (Revivify) — 1 candidat(s).
+- **Corde enchantée** (Rope Trick) — 4 candidat(s).
+- **Flamme sacrée** (Sacred Flame) — 2 candidat(s).
+- **Sanctuaire** (Sanctuary) — 2 candidat(s).
+- **Rayon ardent** (Scorching Ray) — 3 candidat(s).
+- **Scrutation** (Scrying) — 12 candidat(s).
+- **Coffre secret** (Secret Chest) — 3 candidat(s).
+- **Détection de l'invisibilité** (See Invisibility) — 1 candidat(s).
+- **Apparence trompeuse** (Seeming) — 4 candidat(s).
+- **Communication à distance** (Sending) — 2 candidat(s).
+- **Dissimulation suprême** (Sequester) — 3 candidat(s).
+- **Changement de forme** (Shapechange) — 6 candidat(s).
+- **Fracassement** (Shatter) — 2 candidat(s).
+- **Bouclier** (Shield) — 1 candidat(s).
+- **Bouclier de la foi** (Shield of Faith) — 1 candidat(s).
+- **Crosse des druides** (Shillelagh) — 1 candidat(s).
+- **Poigne électrique** (Shocking Grasp) — 2 candidat(s).
+- **Silence** (Silence) — 1 candidat(s).
+- **Image silencieuse** (Silent Image) — 2 candidat(s).
+- **Simulacre** (Simulacrum) — 4 candidat(s).
+- **Sommeil** (Sleep) — 4 candidat(s).
+- **Tempête de neige** (Sleet Storm) — 3 candidat(s).
+- **Lenteur** (Slow) — 4 candidat(s).
+- **Stabilisation** (Spare the Dying) — 1 candidat(s).
+- **Communication avec les animaux** (Speak with Animals) — 1 candidat(s).
+- **Communication avec les morts** (Speak with Dead) — 2 candidat(s).
+- **Communication avec les plantes** (Speak with Plants) — 5 candidat(s).
+- **Pattes d'araignée** (Spider Climb) — 1 candidat(s).
+- **Croissance d'épines** (Spike Growth) — 2 candidat(s).
+- **Esprits gardiens** (Spirit Guardians) — 3 candidat(s).
+- **Arme spirituelle** (Spiritual Weapon) — 4 candidat(s).
+- **Nuage nauséabond** (Stinking Cloud) — 3 candidat(s).
+- **Façonnage de la pierre** (Stone Shape) — 1 candidat(s).
+- **Peau de pierre** (Stoneskin) — 1 candidat(s).
+- **Tempête vengeresse** (Storm of Vengeance) — 6 candidat(s).
+- **Suggestion** (Suggestion) — 4 candidat(s).
+- **Rayon de soleil** (Sunbeam) — 3 candidat(s).
+- **Éclat du soleil** (Sunburst) — 3 candidat(s).
+- **Symbole** (Symbol) — 13 candidat(s).
+- **Télékinésie** (Telekinesis) — 6 candidat(s).
+- **Lien télépathique** (Telepathic Bond) — 2 candidat(s).
+- **Téléportation** (Teleport) — 16 candidat(s).
+- **Cercle de téléportation** (Teleportation Circle) — 3 candidat(s).
+- **Thaumaturgie** (Thaumaturgy) — 2 candidat(s).
+- **Vague tonnante** (Thunderwave) — 3 candidat(s).
+- **Arrêt du temps** (Time Stop) — 2 candidat(s).
+- **Petite hutte** (Tiny Hut) — 3 candidat(s).
+- **Don des langues** (Tongues) — 1 candidat(s).
+- **Passage par les arbres** (Tree Stride) — 1 candidat(s).
+- **Métamorphose suprême** (True Polymorph) — 9 candidat(s).
+- **Résurrection suprême** (True Resurrection) — 3 candidat(s).
+- **Vision suprême** (True Seeing) — 1 candidat(s).
+- **Coup au but** (True Strike) — 1 candidat(s).
+- **Serviteur invisible** (Unseen Servant) — 1 candidat(s).
+- **Caresse du vampire** (Vampiric Touch) — 2 candidat(s).
+- **Moquerie cruelle** (Vicious Mockery) — 2 candidat(s).
+- **Mur de feu** (Wall of Fire) — 4 candidat(s).
+- **Mur de force** (Wall of Force) — 2 candidat(s).
+- **Mur de glace** (Wall of Ice) — 4 candidat(s).
+- **Mur de pierre** (Wall of Stone) — 6 candidat(s).
+- **Mur d'épines** (Wall of Thorns) — 4 candidat(s).
+- **Lien de protection** (Warding Bond) — 2 candidat(s).
+- **Respiration aquatique** (Water Breathing) — 1 candidat(s).
+- **Marche sur l'eau** (Water Walk) — 2 candidat(s).
+- **Toile d'araignée** (Web) — 4 candidat(s).
+- **Ennemi subconscient** (Weird) — 1 candidat(s).
+- **Vent divin** (Wind Walk) — 2 candidat(s).
+- **Mur de vent** (Wind Wall) — 2 candidat(s).
+- **Souhait** (Wish) — 9 candidat(s).
+- **Mot de retour** (Word of Recall) — 2 candidat(s).
+- **Zone de vérité** (Zone of Truth) — 2 candidat(s).
+
+### Notices du chapitre Magic Items
+
+- **Projectile +1, +2 ou +3** (Ammunition, +1, +2, or +3) — 1 candidat(s).
+- **Amulette de bonne santé** (Amulet of Health) — 1 candidat(s).
+- **Amulette d'antidétection** (Amulet of Proof against Detection and Location) — 1 candidat(s).
+- **Amulette des plans** (Amulet of the Planes) — 2 candidat(s).
+- **Apparatus of the Crab** (Apparatus of the Crab) — 7 candidat(s).
+- **Armure +1, +2 ou +3** (Armor, +1, +2, or +3) — 1 candidat(s).
+- **Armure de résistance** (Armor of Resistance) — 1 candidat(s).
+- **Armure de vulnérabilité** (Armor of Vulnerability) — 2 candidat(s).
+- **Flèche tueuse** (Arrow of Slaying) — 3 candidat(s).
+- **Sac de haricots magiques** (Bag of Beans) — 7 candidat(s).
+- **Sac dévoreur** (Bag of Devouring) — 1 candidat(s).
+- **Sac sans fond** (Bag of Holding) — 1 candidat(s).
+- **Sac à malices** (Bag of Tricks) — 2 candidat(s).
+- **Perle de force** (Bead of Force) — 3 candidat(s).
+- **Ceinturon des nains** (Belt of Dwarvenkind) — 8 candidat(s).
+- **Ceinturon de force de géant** (Belt of Giant Strength) — 2 candidat(s).
+- **Bottes elfiques** (Boots of Elvenkind) — 1 candidat(s).
+- **Bottes de lévitation** (Boots of Levitation) — 1 candidat(s).
+- **Bottes de rapidité** (Boots of Speed) — 2 candidat(s).
+- **Bottes de sept lieues** (Boots of Striding and Springing) — 1 candidat(s).
+- **Bottes des terres gelées** (Boots of the Winterlands) — 4 candidat(s).
+- **Jatte de contrôle des élémentaires de l'eau** (Bowl of Commanding Water Elementals) — 2 candidat(s).
+- **Bracelets d'archer** (Bracers of Archery) — 1 candidat(s).
+- **Bracelets de défense** (Bracers of Defense) — 1 candidat(s).
+- **Brasero de contrôle des élémentaires du feu** (Brazier of Commanding Fire Elementals) — 1 candidat(s).
+- **Broche de défense** (Brooch of Shielding) — 1 candidat(s).
+- **Balai volant** (Broom of Flying) — 2 candidat(s).
+- **Cierge d'invocation** (Candle of Invocation) — 4 candidat(s).
+- **Cape du prestidigitateur** (Cape of the Mountebank) — 2 candidat(s).
+- **Tapis volant** (Carpet of Flying) — 3 candidat(s).
+- **Encensoir de contrôle des élémentaires de l'air** (Censer of Controlling Air Elementals) — 2 candidat(s).
+- **Carillon d'ouverture** (Chime of Opening) — 2 candidat(s).
+- **Diadème de destruction** (Circlet of Blasting) — 1 candidat(s).
+- **Cape de l'arachnide** (Cloak of Arachnida) — 5 candidat(s).
+- **Cape de déplacement** (Cloak of Displacement) — 1 candidat(s).
+- **Cape elfique** (Cloak of Elvenkind) — 1 candidat(s).
+- **Cape de protection** (Cloak of Protection) — 1 candidat(s).
+- **Cape de la chauve-souris** (Cloak of the Bat) — 2 candidat(s).
+- **Cape de la raie manta** (Cloak of the Manta Ray) — 1 candidat(s).
+- **Boule de cristal** (Crystal Ball) — 5 candidat(s).
+- **Cube de force** (Cube of Force) — 13 candidat(s).
+- **Cube des plans** (Cubic Gate) — 3 candidat(s).
+- **Dague venimeuse** (Dagger of Venom) — 2 candidat(s).
+- **Carafe intarissable** (Decanter of Endless Water) — 3 candidat(s).
+- **Cartes d'illusion** (Deck of Illusions) — 5 candidat(s).
+- **Cartes merveilleuses** (Deck of Many Things) — 27 candidat(s).
+- **Armure démoniaque** (Demon Armor) — 2 candidat(s).
+- **Menottes dimensionnelles** (Dimensional Shackles) — 2 candidat(s).
+- **Armure d'écailles de dragon** (Dragon Scale Mail) — 3 candidat(s).
+- **Poussière de disparition** (Dust of Disappearance) — 1 candidat(s).
+- **Poudre dessiccative** (Dust of Dryness) — 3 candidat(s).
+- **Poudre à éternuer** (Dust of Sneezing and Choking) — 3 candidat(s).
+- **Harnois nain** (Dwarven Plate) — 1 candidat(s).
+- **Carquois efficace** (Efficient Quiver) — sans description.
+- **Bouteille de l'éfrit** (Efreeti Bottle) — 5 candidat(s).
+- **Gemme élémentaire** (Elemental Gem) — 1 candidat(s).
+- **Mailles elfiques** (Elven Chain) — 1 candidat(s).
+- **Urne fumigène** (Eversmoking Bottle) — 2 candidat(s).
+- **Regard charmeur** (Eyes of Charming) — 1 candidat(s).
+- **Lentilles de netteté** (Eyes of Minute Seeing) — 1 candidat(s).
+- **Yeux de lynx** (Eyes of the Eagle) — 1 candidat(s).
+- **Plume merveilleuse** (Feather Token) — 8 candidat(s).
+- **Figurine merveilleuse** (Figurine of Wondrous Power) — 18 candidat(s).
+- **Bateau pliable** (Folding Boat) — 5 candidat(s).
+- **Gantelets de puissance d'ogre** (Gauntlets of Ogre Power) — 1 candidat(s).
+- **Gemme d'illumination** (Gem of Brightness) — 5 candidat(s).
+- **Gemme de vision** (Gem of Seeing) — 2 candidat(s).
+- **Armure de cuir clouté enchantée** (Glamoured Studded Leather) — 2 candidat(s).
+- **Gants piégeurs de projectiles** (Gloves of Missile Snaring) — 1 candidat(s).
+- **Gants de nage et d'escalade** (Gloves of Swimming and Climbing) — 1 candidat(s).
+- **Lunettes de nuit** (Goggles of Night) — 1 candidat(s).
+- **Marteau de tonnerre** (Hammer of Thunderbolts) — 2 candidat(s).
+- **Havresac magique** (Handy Haversack) — 5 candidat(s).
+- **Chapeau de déguisement** (Hat of Disguise) — 1 candidat(s).
+- **Bandeau d'intelligence** (Headband of Intellect) — 1 candidat(s).
+- **Heaume scintillant** (Helm of Brilliance) — 7 candidat(s).
+- **Heaume de compréhension des langues** (Helm of Comprehending Languages) — 1 candidat(s).
+- **Heaume de télépathie** (Helm of Telepathy) — 2 candidat(s).
+- **Heaume de téléportation** (Helm of Teleportation) — 1 candidat(s).
+- **Cor de dévastation** (Horn of Blasting) — 2 candidat(s).
+- **Cor du Valhalla** (Horn of Valhalla) — 6 candidat(s).
+- **Fers de rapidité** (Horseshoes of Speed) — 1 candidat(s).
+- **Fers de zéphyr** (Horseshoes of a Zephyr) — 1 candidat(s).
+- **Sceptre inamovible** (Immovable Rod) — 1 candidat(s).
+- **Forteresse instantanée** (Instant Fortress) — 4 candidat(s).
+- **Pierre de Ioun** (Ioun Stone) — 20 candidat(s).
+- **Bandes de fer entravantes** (Iron Bands of Binding) — sans description.
+- **Flasque de fer** (Iron Flask) — 3 candidat(s).
+- **Lanterne de révélation** (Lantern of Revealing) — 1 candidat(s).
+- **Lame porte-bonheur** (Luck Blade) — 1 candidat(s).
+- **Masse destructrice** (Mace of Smiting) — 1 candidat(s).
+- **Masse terrifiante** (Mace of Terror) — 1 candidat(s).
+- **Manteau de résistance aux sorts** (Mantle of Spell Resistance) — 1 candidat(s).
+- **Manuel de vitalité** (Manual of Bodily Health) — 1 candidat(s).
+- **Manuel d'exercices physiques** (Manual of Gainful Exercise) — 1 candidat(s).
+- **Manuel des golems** (Manual of Golems) — 3 candidat(s).
+- **Manuel de vivacité** (Manual of Quickness of Action) — 1 candidat(s).
+- **Pigments merveilleux** (Marvelous Pigments) — 5 candidat(s).
+- **Médaillon des pensées** (Medallion of Thoughts) — 1 candidat(s).
+- **Miroir d'emprisonnement** (Mirror of Life Trapping) — 7 candidat(s).
+- **Armure de mithral** (Mithral Armor) — 1 candidat(s).
+- **Collier d'adaptation** (Necklace of Adaptation) — 1 candidat(s).
+- **Collier de boules de feu** (Necklace of Fireballs) — 2 candidat(s).
+- **Collier de prière** (Necklace of Prayer Beads) — 3 candidat(s).
+- **Huile éthérée** (Oil of Etherealness) — 1 candidat(s).
+- **Huile d'affûtage** (Oil of Sharpness) — 1 candidat(s).
+- **Huile d'insaisissabilité** (Oil of Slipperiness) — 2 candidat(s).
+- **Perle de pouvoir** (Pearl of Power) — 1 candidat(s).
+- **Amulette de santé** (Periapt of Health) — 1 candidat(s).
+- **Amulette de protection contre le poison** (Periapt of Proof against Poison) — 1 candidat(s).
+- **Amulette de cicatrisation** (Periapt of Wound Closure) — 1 candidat(s).
+- **Philtre d'amour** (Philter of Love) — 1 candidat(s).
+- **Flûte terrifiante** (Pipes of Haunting) — 1 candidat(s).
+- **Flûte des égouts** (Pipes of the Sewers) — 3 candidat(s).
+- **Harnois éthéré** (Plate Armor of Etherealness) — 1 candidat(s).
+- **Puits portable** (Portable Hole) — 5 candidat(s).
+- **Potion d'amitié avec les animaux** (Potion of Animal Friendship) — 2 candidat(s).
+- **Potion de clairvoyance** (Potion of Clairvoyance) — 1 candidat(s).
+- **Potion d'escalade** (Potion of Climbing) — 1 candidat(s).
+- **Potion de diminution** (Potion of Diminution) — 1 candidat(s).
+- **Potion de vol** (Potion of Flying) — 1 candidat(s).
+- **Potion de forme gazeuse** (Potion of Gaseous Form) — 1 candidat(s).
+- **Potion de force de géant** (Potion of Giant Strength) — 2 candidat(s).
+- **Potion d'agrandissement** (Potion of Growth) — 2 candidat(s).
+- **Potion de guérison** (Potion of Healing) — 2 candidat(s).
+- **Potion d'héroïsme** (Potion of Heroism) — 1 candidat(s).
+- **Potion d'invisibilité** (Potion of Invisibility) — 1 candidat(s).
+- **Potion de lecture des pensées** (Potion of Mind Reading) — 1 candidat(s).
+- **Potion de poison** (Potion of Poison) — 2 candidat(s).
+- **Potion de résistance** (Potion of Resistance) — 1 candidat(s).
+- **Potion de vitesse** (Potion of Speed) — 2 candidat(s).
+- **Potion de respiration aquatique** (Potion of Water Breathing) — 1 candidat(s).
+- **Onguent réparateur** (Restorative Ointment) — 3 candidat(s).
+- **Anneau d'influence animale** (Ring of Animal Influence) — 1 candidat(s).
+- **Anneau de convocation de djinn** (Ring of Djinni Summoning) — 3 candidat(s).
+- **Anneau de maîtrise élémentaire** (Ring of Elemental Command) — 19 candidat(s).
+- **Anneau d'esquive totale** (Ring of Evasion) — 1 candidat(s).
+- **Anneau de feuille morte** (Ring of Feather Falling) — 1 candidat(s).
+- **Anneau d'action libre** (Ring of Free Action) — 1 candidat(s).
+- **Anneau d'invisibilité** (Ring of Invisibility) — 1 candidat(s).
+- **Anneau de saut** (Ring of Jumping) — 1 candidat(s).
+- **Anneau de barrière mentale** (Ring of Mind Shielding) — 3 candidat(s).
+- **Anneau de protection** (Ring of Protection) — 1 candidat(s).
+- **Anneau de régénération** (Ring of Regeneration) — 1 candidat(s).
+- **Anneau de résistance** (Ring of Resistance) — 1 candidat(s).
+- **Anneau de feu d'étoiles** (Ring of Shooting Stars) — 8 candidat(s).
+- **Anneau de stockage de sorts** (Ring of Spell Storing) — 3 candidat(s).
+- **Anneau de renvoi des sorts** (Ring of Spell Turning) — 1 candidat(s).
+- **Anneau de nage** (Ring of Swimming) — 1 candidat(s).
+- **Anneau de télékinésie** (Ring of Telekinesis) — 1 candidat(s).
+- **Anneau de triple souhait** (Ring of Three Wishes) — 1 candidat(s).
+- **Anneau de chaleur constante** (Ring of Warmth) — 1 candidat(s).
+- **Anneau de marche sur l'eau** (Ring of Water Walking) — 1 candidat(s).
+- **Anneau de rayons X** (Ring of X-ray Vision) — 2 candidat(s).
+- **Anneau du bélier** (Ring of the Ram) — 2 candidat(s).
+- **Robe de vision totale** (Robe of Eyes) — 7 candidat(s).
+- **Robe prismatique** (Robe of Scintillating Colors) — 1 candidat(s).
+- **Robe aux étoiles** (Robe of Stars) — 3 candidat(s).
+- **Robe du camelot** (Robe of Useful Items) — 8 candidat(s).
+- **Robe de l'archimage** (Robe of the Archmagi) — 6 candidat(s).
+- **Sceptre d'absorption** (Rod of Absorption) — 4 candidat(s).
+- **Sceptre de vigilance** (Rod of Alertness) — 5 candidat(s).
+- **Sceptre de puissance seigneuriale** (Rod of Lordly Might) — 13 candidat(s).
+- **Sceptre de suzeraineté** (Rod of Rulership) — 1 candidat(s).
+- **Sceptre de sécurité** (Rod of Security) — 3 candidat(s).
+- **Corde d'ascension** (Rope of Climbing) — 3 candidat(s).
+- **Corde d'enchevêtrement** (Rope of Entanglement) — 3 candidat(s).
+- **Scarabée de protection** (Scarab of Protection) — 3 candidat(s).
+- **Bouclier +1, +2 ou +3** (Shield, +1, +2, or +3) — 1 candidat(s).
+- **Bouclier d'attraction des projectiles** (Shield of Missile Attraction) — 2 candidat(s).
+- **Chaussons de l'araignée** (Slippers of Spider Climbing) — 2 candidat(s).
+- **Colle universelle** (Sovereign Glue) — 3 candidat(s).
+- **Parchemin de sort** (Spell Scroll) — 5 candidat(s).
+- **Bouclier gardesort** (Spellguard Shield) — 1 candidat(s).
+- **Sphère d'annihilation** (Sphere of Annihilation) — 8 candidat(s).
+- **Bâton d'envoûtement** (Staff of Charming) — 3 candidat(s).
+- **Bâton de feu** (Staff of Fire) — 3 candidat(s).
+- **Bâton de givre** (Staff of Frost) — 3 candidat(s).
+- **Bâton de guérison** (Staff of Healing) — 2 candidat(s).
+- **Bâton de surpuissance** (Staff of Power) — 9 candidat(s).
+- **Bâton percussif** (Staff of Striking) — 2 candidat(s).
+- **Bâton du grand essaim** (Staff of Swarming Insects) — 3 candidat(s).
+- **Bâton de tonnerre et de foudre** (Staff of Thunder and Lightning) — 6 candidat(s).
+- **Bâton de flétrissement** (Staff of Withering) — 3 candidat(s).
+- **Bâton du thaumaturge** (Staff of the Magi) — 10 candidat(s).
+- **Bâton du python** (Staff of the Python) — 3 candidat(s).
+- **Bâton des forêts** (Staff of the Woodlands) — 4 candidat(s).
+- **Pierre de contrôle des élémentaires de la terre** (Stone of Controlling Earth Elementals) — 1 candidat(s).
+- **Pierre porte-bonheur** (Stone of Good Luck (Luckstone)) — 1 candidat(s).
+- **Épée voleuse de vie** (Sword of Life Stealing) — 1 candidat(s).
+- **Épée acérée** (Sword of Sharpness) — 3 candidat(s).
+- **Talisman du bien ultime** (Talisman of Pure Good) — 4 candidat(s).
+- **Talisman du mal absolu** (Talisman of Ultimate Evil) — 4 candidat(s).
+- **Talisman de la sphère** (Talisman of the Sphere) — 1 candidat(s).
+- **Traité de perspicacité** (Tome of Clear Thought) — 1 candidat(s).
+- **Traité d'autorité et d'influence** (Tome of Leadership and Influence) — 1 candidat(s).
+- **Traité de compréhension** (Tome of Understanding) — 1 candidat(s).
+- **Solvant universel** (Universal Solvent) — 1 candidat(s).
+- **Arme brutale** (Vicious Weapon) — 1 candidat(s).
+- **Épée vorpale** (Vorpal Sword) — 2 candidat(s).
+- **Baguette des entraves** (Wand of Binding) — 3 candidat(s).
+- **Baguette de détection de l'ennemi** (Wand of Enemy Detection) — 2 candidat(s).
+- **Baguette de peur** (Wand of Fear) — 3 candidat(s).
+- **Baguette de boules de feu** (Wand of Fireballs) — 2 candidat(s).
+- **Baguette d'éclairs** (Wand of Lightning Bolts) — 2 candidat(s).
+- **Baguette de détection de la magie** (Wand of Magic Detection) — 1 candidat(s).
+- **Baguette de projectiles magiques** (Wand of Magic Missiles) — 2 candidat(s).
+- **Baguette de paralysie** (Wand of Paralysis) — 2 candidat(s).
+- **Baguette de métamorphose** (Wand of Polymorph) — 2 candidat(s).
+- **Baguette des secrets** (Wand of Secrets) — 1 candidat(s).
+- **Baguette de toile d'araignée** (Wand of Web) — 2 candidat(s).
+- **Baguette des merveilles** (Wand of Wonder) — 20 candidat(s).
+- **Baguette du mage de guerre +1, +2 ou +3** (Wand of the War Mage, +1, +2, or +3) — 1 candidat(s).
+- **Arme +1, +2 ou +3** (Weapon, +1, +2, or +3) — 1 candidat(s).
+- **Puits des mondes** (Well of Many Worlds) — 2 candidat(s).
+- **Éventail enchanté** (Wind Fan) — 1 candidat(s).
+- **Bottes ailées** (Winged Boots) — 2 candidat(s).
+- **Cape de vol** (Wings of Flying) — 1 candidat(s).
+
+### Notices d’équipement courant
+
+- **Focaliseur arcanique** (Arcane Focus) — 1 candidat(s).
+- **Billes métalliques** (Ball Bearings) — 1 candidat(s).
+- **Palan** (Block and Tackle) — 1 candidat(s).
+- **Livre** (Book) — 1 candidat(s).
+- **Chausse-trappes** (Caltrops) — 1 candidat(s).
+- **Case, Crossbow Bolt** (Case, Crossbow Bolt) — 1 candidat(s).
+- **Case, Map or Scroll** (Case, Map or Scroll) — 1 candidat(s).
+- **Matériel d’escalade** (Climber's Kit) — 1 candidat(s).
+- **Sacoche à composantes** (Component Pouch) — 1 candidat(s).
+- **Matériel de pêche** (Fishing Tackle) — 1 candidat(s).
+- **Symbole sacré** (Holy Symbol) — 1 candidat(s).
+- **Lampe** (Lamp) — 1 candidat(s).
+- **Serrure** (Lock) — 1 candidat(s).
+- **Loupe** (Magnifying Glass) — 1 candidat(s).
+- **Gamelle** (Mess Kit) — 1 candidat(s).
+- **Potion de guérison** (Potion of Healing) — 1 candidat(s).
+- **Bourse** (Pouch) — 1 candidat(s).
+- **Bélier portatif** (Ram, Portable) — 1 candidat(s).
+- **Scale, Merchant's** (Scale, Merchant's) — 1 candidat(s).
+- **Boîte à amadou** (Tinderbox) — 1 candidat(s).
+- **Torche** (Torch) — 1 candidat(s).
+- **Outils d’artisan** (Artisan's Tools) — 1 candidat(s).
+- **Accessoires de déguisement** (Disguise Kit) — 1 candidat(s).
+- **Matériel de contrefaçon** (Forgery Kit) — 1 candidat(s).
+- **Jeu** (Gaming Set) — 1 candidat(s).
+- **Matériel d’herboriste** (Herbalism Kit) — 1 candidat(s).
+- **Instrument de musique** (Musical Instrument) — 1 candidat(s).
+- **Outils de navigateur** (Navigator's Tools) — 1 candidat(s).
+- **Matériel d’empoisonneur** (Poisoner's Kit) — 1 candidat(s).
+- **Outils de voleur** (Thieves' Tools) — 1 candidat(s).
+- **Armure Maîtrise** (Armor Proficiency) — 1 candidat(s).
+- **Classe d’armure (CA)** (Armor Class (AC)) — 1 candidat(s).
+- **Armure lourde** (Heavy Armor) — 1 candidat(s).
+- **Discrétion** (Stealth) — 1 candidat(s).
+- **Boucliers** (Shields) — 1 candidat(s).
+- **Lance d’arçon** (Lance) — 1 candidat(s).
+- **Filet** (Net) — 1 candidat(s).
+
+### Fiches supplémentaires du catalogue
+
+- **Amulette** (Amulet) — sans description.
+- **Submersible de Kwalish** (Apparatus of Kwalish) — 3 candidat(s).
+- **Perle nutritive** (Bead of Nourishment) — 1 candidat(s).
+- **Perle désaltérante** (Bead of Refreshment) — 1 candidat(s).
+- **Les Chapitres Sacrés** (Book of Exalted Deeds) — 9 candidat(s).
+- **Les Chapitres Interdits** (Book of Vile Darkness) — 17 candidat(s).
+- **Bottes aux empreintes factices** (Boots of False Tracks) — 1 candidat(s).
+- **Chandelle des profondeurs** (Candle of the Deep) — 1 candidat(s).
+- **Capuchon de respiration aquatique** (Cap of Water Breathing) — 1 candidat(s).
+- **Tapis volant, 3 ft. × 5 ft.** (Carpet of Flying, 3 ft. × 5 ft.) — 2 candidat(s).
+- **Tapis volant, 4 ft. × 6 ft.** (Carpet of Flying, 4 ft. × 6 ft.) — 2 candidat(s).
+- **Tapis volant, 5 ft. × 7 ft.** (Carpet of Flying, 5 ft. × 7 ft.) — 2 candidat(s).
+- **Tapis volant, 6 ft. × 9 ft.** (Carpet of Flying, 6 ft. × 9 ft.) — 2 candidat(s).
+- **Dé du charlatan** (Charlatan's Die) — 1 candidat(s).
+- **Cape virevoltante** (Cloak of Billowing) — 1 candidat(s).
+- **Cape d'invisibilité** (Cloak of Invisibility) — 2 candidat(s).
+- **Cape à la mode** (Cloak of Many Fashions) — 1 candidat(s).
+- **Amulette mécanique** (Clockwork Amulet) — 2 candidat(s).
+- **Habits autoréparateurs** (Clothes of Mending) — 1 candidat(s).
+- **Cristal** (Crystal) — sans description.
+- **Boule de cristal de lecture des pensées** (Crystal Ball of Mind Reading) — 2 candidat(s).
+- **Boule de cristal de télépathie** (Crystal Ball of Telepathy) — 2 candidat(s).
+- **Boule de cristal de vision suprême** (Crystal Ball of True Seeing) — 2 candidat(s).
+- **Forteresse instantanée de Daern** (Daern's Instant Fortress) — 4 candidat(s).
+- **Amulette de sombre éclat** (Dark Shard Amulet) — 3 candidat(s).
+- **Heaume effrayant** (Dread Helm) — 1 candidat(s).
+- **Globe flottant** (Driftglobe) — 2 candidat(s).
+- **Cornet acoustique** (Ear Horn of Hearing) — 1 candidat(s).
+- **Gemme élémentaire (saphir bleu)** (Elemental Gem, Blue Sapphire) — 1 candidat(s).
+- **Gemme élémentaire (émeraude)** (Elemental Gem, Emerald) — 1 candidat(s).
+- **Gemme élémentaire (corindon rouge)** (Elemental Gem, Red Corundum) — 1 candidat(s).
+- **Gemme élémentaire (diamant jaune)** (Elemental Gem, Yellow Diamond) — 1 candidat(s).
+- **Emblème** (Emblem) — sans description.
+- **Grimoire résistant** (Enduring Spellbook) — 1 candidat(s).
+- **Oeil artificiel** (Ersatz Eye) — 1 candidat(s).
+- **Œil de Vecna** (Eye of Vecna) — 19 candidat(s).
+- **Gants de chapardeur** (Gloves of Thievery) — 1 candidat(s).
+- **Main de Vecna** (Hand of Vecna) — 19 candidat(s).
+- **Chapeau de vermine** (Hat of Vermin) — 1 candidat(s).
+- **Chapeau de magicien** (Hat of Wizardry) — 3 candidat(s).
+- **Havresac d'Huard** (Heward's Handy Haversack) — 4 candidat(s).
+- **Bourse à épices d'Huard** (Heward's Handy Spice Pouch) — 1 candidat(s).
+- **Cor d'alarme silencieuse** (Horn of Silent Alarm) — 1 candidat(s).
+- **Cor du Valhalla, Airain** (Horn of Valhalla, Brass) — 3 candidat(s).
+- **Cor du Valhalla, Bronze** (Horn of Valhalla, Bronze) — 3 candidat(s).
+- **Cor du Valhalla (fer)** (Horn of Valhalla, Iron) — 3 candidat(s).
+- **Cor du Valhalla, Argent** (Horn of Valhalla, Silver) — 3 candidat(s).
+- **Pierre de Ioun (absorption)** (Ioun Stone, Absorption) — 5 candidat(s).
+- **Pierre de Ioun (agilité)** (Ioun Stone, Agility) — 4 candidat(s).
+- **Pierre de Ioun (vigilance)** (Ioun Stone, Awareness) — 4 candidat(s).
+- **Pierre de Ioun (vigueur)** (Ioun Stone, Fortitude) — 4 candidat(s).
+- **Pierre de Ioun (absorption supérieure)** (Ioun Stone, Greater Absorption) — 4 candidat(s).
+- **Pierre de Ioun, Intuition** (Ioun Stone, Insight) — 4 candidat(s).
+- **Pierre de Ioun (intellect)** (Ioun Stone, Intellect) — 4 candidat(s).
+- **Pierre de Ioun, Commandement** (Ioun Stone, Leadership) — 4 candidat(s).
+- **Pierre de Ioun, Botte d’arme** (Ioun Stone, Mastery) — 4 candidat(s).
+- **Pierre de Ioun, Protection** (Ioun Stone, Protection) — 4 candidat(s).
+- **Pierre de Ioun, Régénération** (Ioun Stone, Regeneration) — 4 candidat(s).
+- **Pierre de Ioun (réserve)** (Ioun Stone, Reserve) — 6 candidat(s).
+- **Pierre de Ioun, Force** (Ioun Stone, Strength) — 4 candidat(s).
+- **Pierre de Ioun (subsistance)** (Ioun Stone, Sustenance) — 4 candidat(s).
+- **Liens de fer de Bilarro** (Iron Bands of Bilarro) — 4 candidat(s).
+- **Baume de Keoghtom** (Keoghtom's Ointment) — 2 candidat(s).
+- **Cadenas sournois** (Lock of Trickery) — 1 candidat(s).
+- **Manuel des golems d’argile** (Manual of Clay Golems) — 2 candidat(s).
+- **Manuel des golems de chair** (Manual of Flesh Golems) — 2 candidat(s).
+- **Manuel des golems de fer** (Manual of Iron Golems) — 2 candidat(s).
+- **Manuel des golems de pierre** (Manual of Stone Golems) — 2 candidat(s).
+- **Clef mystérieuse** (Mystery Key) — 1 candidat(s).
+- **Pigments merveilleux de Nolzur** (Nolzur's Marvelous Pigments) — 5 candidat(s).
+- **Orbe** (Orb) — sans description.
+- **Orbe boussole** (Orb of Direction) — 1 candidat(s).
+- **Orbe des dragons** (Orb of Dragonkind) — 10 candidat(s).
+- **Orbe horloge** (Orb of Time) — 1 candidat(s).
+- **Parfum envoûtant** (Perfume of Bewitching) — 1 candidat(s).
+- **Pipe des monstres de fumée** (Pipe of Smoke Monsters) — 1 candidat(s).
+- **Perche du pêcheur** (Pole of Angling) — 1 candidat(s).
+- **Perche rétractable** (Pole of Collapsing) — 1 candidat(s).
+- **Pot d'éveil** (Pot of Awakening) — 2 candidat(s).
+- **Plume de Quaal (ancre)** (Quaal's Feather Token, Anchor) — 2 candidat(s).
+- **Plume de Quaal (oiseau)** (Quaal's Feather Token, Bird) — 2 candidat(s).
+- **Plume de Quaal (éventail)** (Quaal's Feather Token, Fan) — 2 candidat(s).
+- **Plume de Quaal (bateau-cygne)** (Quaal's Feather Token, Swan Boat) — 2 candidat(s).
+- **Plume de Quaal (arbre)** (Quaal's Feather Token, Tree) — 2 candidat(s).
+- **Plume de Quaal (fouet)** (Quaal's Feather Token, Whip) — 3 candidat(s).
+- **Reliquaire** (Reliquary) — sans description.
+- **Sceptre** (Rod) — sans description.
+- **Sceptre de résurrection** (Rod of Resurrection) — 2 candidat(s).
+- **Corde remaillante** (Rope of Mending) — 1 candidat(s).
+- **Rubis du mage de guerre** (Ruby of the War Mage) — 1 candidat(s).
+- **Selle du cavalier** (Saddle of the Cavalier) — 1 candidat(s).
+- **Pierres messagères** (Sending Stones) — 2 candidat(s).
+- **Brin de gui** (Sprig of Mistletoe) — sans description.
+- **Bâton** (Staff) — sans description.
+- **Pierre porte-bonheur** (Stone of Good Luck) — 1 candidat(s).
+- **Poupée qui parle** (Talking Doll) — 1 candidat(s).
+- **Chope de sobriété** (Tankard of Sobriety) — 1 candidat(s).
+- **Sceptre-tentacule** (Tentacle Rod) — 1 candidat(s).
+- **Tome de la langue nouée** (Tome of the Stilled Tongue) — 4 candidat(s).
+- **Totem** (Totem) — sans description.
+- **Canne du vétéran** (Veteran's Cane) — 1 candidat(s).
+- **Baguette** (Wand) — sans description.
+- **Baguette du chef d'orchestre** (Wand of Conducting) — 2 candidat(s).
+- **Baguette d'Orcus** (Wand of Orcus) — 16 candidat(s).
+- **Baguette du pyrotechnicien** (Wand of Pyrotechnics) — 2 candidat(s).
+- **Baguette du grincheux** (Wand of Scowls) — 2 candidat(s).
+- **Baguette du jovial** (Wand of Smiles) — 2 candidat(s).
+- **Bâton en bois** (Wooden Staff) — sans description.
+- **Baguette en if** (Yew Wand) — sans description.

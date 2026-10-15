@@ -2523,6 +2523,13 @@
       "source": "Traduction proposée du texte observé sur Shard · Monk · relevé du 14 octobre 2026 · https://play.shardtabletop.com/"
     },
     {
+      "id": "monk.flurry-of-blows.character-description",
+      "kind": "description",
+      "en": "You can expend 1 Focus Point to make two Unarmed Strikes as a Bonus Action.",
+      "fr": "Vous pouvez dépenser 1 point de focalisation pour effectuer deux attaques à mains nues par une action bonus.",
+      "source": "Traduction proposée de l’extrait utilisateur · Déluge de coups, fiche de Moine 2024 · formulation sans le titre de l’aptitude"
+    },
+    {
       "id": "shard.classes.monk.cc9a91b1ec",
       "kind": "description",
       "en": "Patient Defense. You can take the Disengage action as a Bonus Action. Alternatively, you can expend 1 Focus Point to take both the Disengage and the Dodge actions as a Bonus Action.",

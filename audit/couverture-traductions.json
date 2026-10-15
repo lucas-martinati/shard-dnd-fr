@@ -89,9 +89,9 @@
             "blocs": 66
           },
           "classes": {
-            "entreesRattachees": 1782,
+            "entreesRattachees": 1783,
             "libelles": 213,
-            "blocs": 1569
+            "blocs": 1570
           },
           "dons": {
             "entreesRattachees": 453,
@@ -119,7 +119,7 @@
             "blocs": 193
           }
         },
-        "entreesRattachees": 2974
+        "entreesRattachees": 2975
       },
       {
         "id": "dnd-2024-mm",
@@ -521,7 +521,7 @@
       "nomsCatalogueAideDD2024": 28,
       "entreesDictionnaires": 559,
       "libellesEditables": 240,
-      "blocsEditables": 1674
+      "blocsEditables": 1675
     },
     "especes": {
       "nomsCatalogueAideDD2024": 0,
@@ -561,7 +561,7 @@
     }
   },
   "corpusLocaux": {
-    "descriptionsEtChampsLocauxUniques": 5561,
+    "descriptionsEtChampsLocauxUniques": 5562,
     "presentationsShard": {
       "fichesRelevees": 153,
       "avecDescription": 149,
