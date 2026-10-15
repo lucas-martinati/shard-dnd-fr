@@ -1,5 +1,5 @@
 {
-  "version": "1.17.29",
+  "version": "1.17.30",
   "reference": "Noms AideDD 2024 prioritaires. Références SRD disponibles séparément. Autres entrées identifiées.",
   "license": "Code MIT ; contenu SRD CC-BY-4.0 https://creativecommons.org/licenses/by/4.0/",
   "sources": [
@@ -29365,6 +29365,20 @@
       "fr": "Récupérer Magie envoûtante",
       "category": "aptitude de classe",
       "source": "Traduction proposée du texte observé sur Shard · Bard College of Glamour · sous-aptitudes de la fiche · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Deflect Attack",
+      "fr": "Déviation d’assaut",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée des descriptions de sous-aptitudes observées dans Shard · modèle de Moine D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Strike Back",
+      "fr": "Riposte",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée des descriptions de sous-aptitudes observées dans Shard · modèle de Moine D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
       "aliases": []
     },
     {

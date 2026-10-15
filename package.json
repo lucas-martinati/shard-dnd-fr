@@ -1,11 +1,11 @@
 {
   "name": "shard-dnd-fr",
-  "version": "1.17.29",
+  "version": "1.17.30",
   "private": true,
   "description": "Traduction française D&D pour Shard Tabletop",
   "scripts": {
     "build": "python3 work/make-feat-texts.py && python3 work/make-class-texts.py && python3 work/make-option-texts.py && python3 work/make-class-sections.py && python3 work/make-spell-sections.py && python3 work/make-complete-texts.py && python3 work/build.py && python3 work/translation_coverage.py --output audit/couverture-traductions.json",
-    "test": "node --check outputs/shard-dnd-fr.user.js && node tests/test-release.cjs && node tests/test-v19.cjs && node tests/test-v110.cjs && node tests/test-v112.cjs && node tests/test-runtime.cjs && python3 -m unittest discover -s tests -p \"test_*.py\" && node tests/test-packs.cjs && node tests/test-masteries.cjs && node tests/test-formatting.cjs && node tests/test-expanded.cjs && node tests/test-spell-sections.cjs && node tests/test-spell-paragraphs.cjs && node tests/test-phb-spell-layouts.cjs && node tests/test-classes.cjs && node tests/test-weapons.cjs && node tests/test-equipment-legacy.cjs && node tests/test-shard-catalogue.cjs && node tests/test-class-sections.cjs && node tests/test-spell-layout.cjs && node tests/test-general-categories.cjs && node tests/test-interface-controls.cjs && node tests/test-custom-references.cjs && node tests/test-narratives.cjs && node tests/test-condition-catalog.cjs && node tests/test-feat-catalog.cjs && node tests/test-monster-actions.cjs && node tests/test-mm-first-profiles.cjs && node tests/test-monster-common.cjs && node tests/test-diagnostics.cjs && node tests/test-description-diagnostics.cjs && node tests/test-description-source-selection.cjs && node tests/test-diagnostic-report-separation.cjs && node tests/test-spell-diagnostic-report.cjs && node tests/test-object-description-report.cjs && node tests/test-diagnostic-catalogue-names.cjs && node tests/test-reference-cache.cjs && node tests/test-item-name-search.cjs",
+    "test": "node --check outputs/shard-dnd-fr.user.js && node tests/test-release.cjs && node tests/test-v19.cjs && node tests/test-v110.cjs && node tests/test-v112.cjs && node tests/test-runtime.cjs && python3 -m unittest discover -s tests -p \"test_*.py\" && node tests/test-packs.cjs && node tests/test-masteries.cjs && node tests/test-formatting.cjs && node tests/test-expanded.cjs && node tests/test-spell-sections.cjs && node tests/test-spell-paragraphs.cjs && node tests/test-phb-spell-layouts.cjs && node tests/test-classes.cjs && node tests/test-weapons.cjs && node tests/test-equipment-legacy.cjs && node tests/test-shard-catalogue.cjs && node tests/test-class-sections.cjs && node tests/test-spell-layout.cjs && node tests/test-general-categories.cjs && node tests/test-interface-controls.cjs && node tests/test-custom-references.cjs && node tests/test-narratives.cjs && node tests/test-condition-catalog.cjs && node tests/test-feat-catalog.cjs && node tests/test-monster-actions.cjs && node tests/test-mm-first-profiles.cjs && node tests/test-monster-common.cjs && node tests/test-diagnostics.cjs && node tests/test-description-diagnostics.cjs && node tests/test-description-source-selection.cjs && node tests/test-diagnostic-report-separation.cjs && node tests/test-spell-diagnostic-report.cjs && node tests/test-object-description-report.cjs && node tests/test-diagnostic-catalogue-names.cjs && node tests/test-reference-cache.cjs && node tests/test-item-name-search.cjs && node tests/test-monk-character-features.cjs",
     "benchmark": "node tests/benchmark.cjs",
     "translations:check": "python3 work/translations.py check",
     "translations:audit": "python3 work/translations.py audit",
@@ -19,7 +19,8 @@
     "audit:spells": "node work/audit-spells.cjs",
     "test:mm": "node tests/test-mm-first-profiles.cjs",
     "test:catalogue-names": "node tests/test-diagnostic-catalogue-names.cjs && node tests/test-item-name-search.cjs",
-    "test:diagnostics": "node tests/test-diagnostics.cjs && node tests/test-description-diagnostics.cjs && node tests/test-description-source-selection.cjs && node tests/test-diagnostic-report-separation.cjs && node tests/test-spell-diagnostic-report.cjs && node tests/test-object-description-report.cjs"
+    "test:diagnostics": "node tests/test-diagnostics.cjs && node tests/test-description-diagnostics.cjs && node tests/test-description-source-selection.cjs && node tests/test-diagnostic-report-separation.cjs && node tests/test-spell-diagnostic-report.cjs && node tests/test-object-description-report.cjs",
+    "test:monk": "node tests/test-monk-character-features.cjs"
   },
   "devDependencies": {
     "jsdom": "^30.1.2"

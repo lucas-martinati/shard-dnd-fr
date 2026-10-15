@@ -1,0 +1,235 @@
+{
+  "schemaVersion": 1,
+  "scriptVersion": "1.17.30",
+  "scope": "character-features",
+  "translationEnabled": true,
+  "truncated": false,
+  "missingCount": 0,
+  "missing": [],
+  "source": "Descriptions des aptitudes et sous-aptitudes du modèle public Monk, D&D 2024 PHB, observées dans Shard le 15 octobre 2026. Les liens provisoires de l’éditeur ont été retirés pour reproduire le rendu de lecture ; les liens de référence sont conservés.",
+  "checked": [
+    {
+      "id": "monk.sheet.0",
+      "name": "Level 1: Martial Arts",
+      "parent": null,
+      "kind": "feature"
+    },
+    {
+      "id": "monk.sheet.1",
+      "name": "Level 1: Unarmored Defense",
+      "parent": null,
+      "kind": "feature"
+    },
+    {
+      "id": "monk.sheet.2",
+      "name": "Level 2: Monk’s Focus",
+      "parent": null,
+      "kind": "feature"
+    },
+    {
+      "id": "monk.sheet.3",
+      "name": "Level 2: Unarmored Movement",
+      "parent": null,
+      "kind": "feature"
+    },
+    {
+      "id": "monk.sheet.4",
+      "name": "Level 2: Uncanny Metabolism",
+      "parent": null,
+      "kind": "feature"
+    },
+    {
+      "id": "monk.sheet.5",
+      "name": "Level 3: Deflect Attacks",
+      "parent": null,
+      "kind": "feature"
+    },
+    {
+      "id": "monk.sheet.6",
+      "name": "Level 3: Monk Subclass",
+      "parent": null,
+      "kind": "feature"
+    },
+    {
+      "id": "monk.sheet.7",
+      "name": "Level 4: Ability Score Improvement",
+      "parent": null,
+      "kind": "feature"
+    },
+    {
+      "id": "monk.sheet.8",
+      "name": "Level 4: Slow Fall",
+      "parent": null,
+      "kind": "feature"
+    },
+    {
+      "id": "monk.sheet.9",
+      "name": "Level 5: Extra Attack",
+      "parent": null,
+      "kind": "feature"
+    },
+    {
+      "id": "monk.sheet.10",
+      "name": "Level 5: Stunning Strike",
+      "parent": null,
+      "kind": "feature"
+    },
+    {
+      "id": "monk.sheet.11",
+      "name": "Level 6: Empowered Strikes",
+      "parent": null,
+      "kind": "feature"
+    },
+    {
+      "id": "monk.sheet.12",
+      "name": "Level 7: Evasion",
+      "parent": null,
+      "kind": "feature"
+    },
+    {
+      "id": "monk.sheet.13",
+      "name": "Level 8: Ability Score Improvement",
+      "parent": null,
+      "kind": "feature"
+    },
+    {
+      "id": "monk.sheet.14",
+      "name": "Level 9: Acrobatic Movement",
+      "parent": null,
+      "kind": "feature"
+    },
+    {
+      "id": "monk.sheet.15",
+      "name": "Level 10: Heightened Focus",
+      "parent": null,
+      "kind": "feature"
+    },
+    {
+      "id": "monk.sheet.16",
+      "name": "Level 10: Self-Restoration",
+      "parent": null,
+      "kind": "feature"
+    },
+    {
+      "id": "monk.sheet.17",
+      "name": "Level 12: Ability Score Improvement",
+      "parent": null,
+      "kind": "feature"
+    },
+    {
+      "id": "monk.sheet.18",
+      "name": "Level 13: Deflect Energy",
+      "parent": null,
+      "kind": "feature"
+    },
+    {
+      "id": "monk.sheet.19",
+      "name": "Level 14: Disciplined Survivor",
+      "parent": null,
+      "kind": "feature"
+    },
+    {
+      "id": "monk.sheet.20",
+      "name": "Level 15: Perfect Focus",
+      "parent": null,
+      "kind": "feature"
+    },
+    {
+      "id": "monk.sheet.21",
+      "name": "Level 16: Ability Score Improvement",
+      "parent": null,
+      "kind": "feature"
+    },
+    {
+      "id": "monk.sheet.22",
+      "name": "Level 18: Superior Defense",
+      "parent": null,
+      "kind": "feature"
+    },
+    {
+      "id": "monk.sheet.23",
+      "name": "Level 19: Epic Boon",
+      "parent": null,
+      "kind": "feature"
+    },
+    {
+      "id": "monk.sheet.24",
+      "name": "Level 20: Body and Mind",
+      "parent": null,
+      "kind": "feature"
+    },
+    {
+      "id": "monk.sheet.25",
+      "name": "Flurry of Blows",
+      "parent": "Level 2: Monk’s Focus",
+      "kind": "subfeature"
+    },
+    {
+      "id": "monk.sheet.26",
+      "name": "Patient Defense",
+      "parent": "Level 2: Monk’s Focus",
+      "kind": "subfeature"
+    },
+    {
+      "id": "monk.sheet.27",
+      "name": "Step of the Wind",
+      "parent": "Level 2: Monk’s Focus",
+      "kind": "subfeature"
+    },
+    {
+      "id": "monk.sheet.28",
+      "name": "",
+      "parent": "Level 2: Unarmored Movement",
+      "kind": "subfeature"
+    },
+    {
+      "id": "monk.sheet.29",
+      "name": "",
+      "parent": "Level 2: Unarmored Movement",
+      "kind": "subfeature"
+    },
+    {
+      "id": "monk.sheet.30",
+      "name": "",
+      "parent": "Level 2: Unarmored Movement",
+      "kind": "subfeature"
+    },
+    {
+      "id": "monk.sheet.31",
+      "name": "",
+      "parent": "Level 2: Unarmored Movement",
+      "kind": "subfeature"
+    },
+    {
+      "id": "monk.sheet.32",
+      "name": "Deflect Attack",
+      "parent": "Level 3: Deflect Attacks",
+      "kind": "subfeature"
+    },
+    {
+      "id": "monk.sheet.33",
+      "name": "Strike Back",
+      "parent": "Level 3: Deflect Attacks",
+      "kind": "subfeature"
+    },
+    {
+      "id": "monk.sheet.34",
+      "name": "Flurry of Blows",
+      "parent": "Level 10: Heightened Focus",
+      "kind": "subfeature"
+    },
+    {
+      "id": "monk.sheet.35",
+      "name": "Patient Defense",
+      "parent": "Level 10: Heightened Focus",
+      "kind": "subfeature"
+    },
+    {
+      "id": "monk.sheet.36",
+      "name": "Step of the Wind",
+      "parent": "Level 10: Heightened Focus",
+      "kind": "subfeature"
+    }
+  ],
+  "checkedCount": 37
+}

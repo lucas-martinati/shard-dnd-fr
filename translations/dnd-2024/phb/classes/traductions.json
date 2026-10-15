@@ -12366,6 +12366,69 @@
       "en": "Restore Beguiling Magic",
       "fr": "Récupérer Magie envoûtante",
       "source": "Traduction proposée du texte observé sur Shard · Bard College of Glamour · sous-aptitudes de la fiche · relevé du 15 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "monk.sheet.patient-defense",
+      "en": "You can take the Disengage action as a Bonus Action. Alternatively, you can expend 1 Focus Point to take both the Disengage and the Dodge actions as a Bonus Action.",
+      "fr": "Vous pouvez effectuer l’action Se désengager par une action bonus. Vous pouvez aussi dépenser 1 point de focalisation pour effectuer à la fois les actions Se désengager et Esquiver par une action bonus.",
+      "kind": "description",
+      "source": "Traduction proposée des descriptions de sous-aptitudes observées dans Shard · modèle de Moine D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "monk.sheet.step-of-the-wind",
+      "en": "You can take the Dash action as a Bonus Action. Alternatively, you can expend 1 Focus Point to take both the Disengage and Dash actions as a Bonus Action, and your jump distance is doubled for the turn.",
+      "fr": "Vous pouvez effectuer l’action Foncer par une action bonus. Vous pouvez aussi dépenser 1 point de focalisation pour effectuer à la fois les actions Se désengager et Foncer par une action bonus, et doubler votre distance de saut pour ce tour.",
+      "kind": "description",
+      "source": "Traduction proposée des descriptions de sous-aptitudes observées dans Shard · modèle de Moine D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "monk.sheet.unarmored-movement.increment",
+      "en": "Your speed increases by 5 feet with no armor or shield.",
+      "fr": "Votre vitesse augmente de 5 feet tant que vous ne portez ni armure ni bouclier.",
+      "kind": "description",
+      "source": "Traduction proposée des descriptions de sous-aptitudes observées dans Shard · modèle de Moine D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "monk.sheet.strike-back",
+      "en": "If Deflect Attack reduced the damage to 0, you can expend 1 Focus Point to redirect some of the attack’s force. If you do so, choose a creature you can see within 5 feet of yourself if the attack was a melee attack or a creature you can see within 60 feet of yourself that isn’t behind Total Cover if the attack was a ranged attack. That creature must succeed on a Dexterity saving throw or take damage equal to two rolls of your Martial Arts die plus your Dexterity modifier. The damage is the same type dealt by the attack.",
+      "fr": "Si Déviation d’assaut a réduit les dégâts à 0, vous pouvez dépenser 1 point de focalisation pour rediriger une partie de la force de l’attaque. Choisissez alors une créature que vous voyez à 5 feet ou moins de vous si l’attaque était de corps à corps, ou une créature que vous voyez à 60 feet ou moins de vous qui ne bénéficie pas d’un Abri total si l’attaque était à distance. Cette créature doit réussir un jet de sauvegarde de Dextérité sous peine de subir des dégâts égaux à deux jets de votre dé d’Arts martiaux + votre modificateur de Dextérité. Ces dégâts sont du même type que ceux de l’attaque.",
+      "kind": "description",
+      "source": "Traduction proposée des descriptions de sous-aptitudes observées dans Shard · modèle de Moine D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "monk.sheet.heightened.flurry-of-blows",
+      "en": "You can expend 1 Focus Point to make three Unarmed Strikes as a Bonus Action.",
+      "fr": "Vous pouvez dépenser 1 point de focalisation pour effectuer trois attaques à mains nues par une action bonus.",
+      "kind": "description",
+      "source": "Traduction proposée des descriptions de sous-aptitudes observées dans Shard · modèle de Moine D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "monk.sheet.heightened.patient-defense",
+      "en": "You can take the Disengage action as a Bonus Action. Alternatively, you can expend 1 Focus Point to take both the Disengage and the Dodge actions as a Bonus Action and you gain a number of Temporary Hit Points equal to two rolls of your Martial Arts die.",
+      "fr": "Vous pouvez effectuer l’action Se désengager par une action bonus. Vous pouvez aussi dépenser 1 point de focalisation pour effectuer à la fois les actions Se désengager et Esquiver par une action bonus et gagner un nombre de points de vie temporaires égal à deux jets de votre dé d’Arts martiaux.",
+      "kind": "description",
+      "source": "Traduction proposée des descriptions de sous-aptitudes observées dans Shard · modèle de Moine D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "monk.sheet.heightened.step-of-the-wind",
+      "en": "You can take the Dash action as a Bonus Action. Alternatively, you can expend 1 Focus Point to take both the Disengage and Dash actions as a Bonus Action, and your jump distance is doubled for the turn. When you expend a Focus Point, you can choose a willing creature within 5 feet of yourself that is Large or smaller. You move the creature with you until the end of your turn. The creature’s movement doesn’t provoke Opportunity Attacks.",
+      "fr": "Vous pouvez effectuer l’action Foncer par une action bonus. Vous pouvez aussi dépenser 1 point de focalisation pour effectuer à la fois les actions Se désengager et Foncer par une action bonus, et doubler votre distance de saut pour ce tour. Lorsque vous dépensez un point de focalisation, vous pouvez choisir une créature consentante de taille Grande ou inférieure à 5 feet ou moins de vous. Vous déplacez cette créature avec vous jusqu’à la fin de votre tour. Son déplacement ne provoque pas d’attaque d’opportunité.",
+      "kind": "description",
+      "source": "Traduction proposée des descriptions de sous-aptitudes observées dans Shard · modèle de Moine D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "monk.sheet.deflect-attack.name",
+      "kind": "term",
+      "en": "Deflect Attack",
+      "fr": "Déviation d’assaut",
+      "source": "Traduction proposée des descriptions de sous-aptitudes observées dans Shard · modèle de Moine D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "monk.sheet.strike-back.name",
+      "kind": "term",
+      "en": "Strike Back",
+      "fr": "Riposte",
+      "source": "Traduction proposée des descriptions de sous-aptitudes observées dans Shard · modèle de Moine D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/"
     }
   ]
 }

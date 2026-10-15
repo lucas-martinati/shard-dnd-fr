@@ -659,6 +659,8 @@
     const key=inlineKey(source),translated=lookupPair(key)||translateDuration(source)||translateHeading(source,blockEnglish(el))||translateCompleteBlock(source);
     const fr=translated&&preserveFeet(source,translated);
     if(!fr||customKeys.has(normalize(source))||nodes.some(n=>customKeys.has(normalize(originalNode(n)))))return;
+    const formatGroups=new Map();
+    const ownerContains=(owner,node)=>(formatGroups.get(owner)||[owner]).some(part=>part.contains(node));
     // Conserver chaque élément interactif et ses gestionnaires. Seuls les nœuds texte changent.
     const protectedElements=[];
     for(const node of nodes){const owner=node.parentElement.closest('a,button,[role="button"],.dodieroll,[onclick]');if(owner&&el.contains(owner)&&!protectedElements.includes(owner))protectedElements.push(owner);}
@@ -680,23 +682,38 @@
     const formatted=[];
     for(const node of nodes){
       const owner=node.parentElement.closest('strong,b,em,i,u,mark,.b,.i');
-      if(!owner||owner===el||!el.contains(owner)||formatted.includes(owner)||protectedElements.some(p=>p.contains(owner)||owner.contains(p)))continue;
-      const en=nodes.filter(n=>owner.contains(n)).map(originalNode).join('');
+      if(!owner||owner===el||!el.contains(owner)||formatted.some(p=>ownerContains(p,owner))||protectedElements.some(p=>p.contains(owner)||owner.contains(p)))continue;
+      // Shard peut découper un seul titre entre plusieurs emphases :
+      // <strong>Patient </strong><strong>Defense.</strong><strong> </strong>.
+      // Le traduire comme un seul repère permet d’inverser les mots en français
+      // tout en gardant les éléments et la prose à leur place.
+      const parts=[owner];let sibling=owner.nextSibling,headingParts=null;
+      for(let count=0;sibling&&count<6;count++,sibling=sibling.nextSibling){
+        const whitespace=sibling.nodeType===3&&!originalNode(sibling).trim();
+        const emphasis=sibling.nodeType===1&&sibling.matches('strong,b,em,i,u,mark,.b,.i')&&!excluded(sibling)&&!sibling.querySelector('a,button,[role="button"],.dodieroll,[onclick]');
+        if(!whitespace&&!emphasis)break;
+        if(emphasis&&blockEnglish(sibling).trim()&&!['b,strong,.b','em,i,.i','u','mark'].every(selector=>owner.matches(selector)===sibling.matches(selector)))break;
+        parts.push(sibling);
+        const label=nodes.filter(n=>parts.some(part=>part.contains(n))).map(originalNode).join('');
+        if(knownHeading(label))headingParts=parts.slice();
+      }
+      if(headingParts)formatGroups.set(owner,headingParts);
+      const en=nodes.filter(n=>ownerContains(owner,n)).map(originalNode).join('');
       if(inlineVariants(en).some(value=>value&&new RegExp(pattern(value),'iu').test(fr)))formatted.push(owner);
     }
     // Seules les emphases trouvées dans le bon ordre sont conservées comme repères.
     // Les ancres interactives restent obligatoires et gardent leur priorité.
     let formatCursor=0;
     for(const owner of formatted){
-      const en=nodes.filter(n=>owner.contains(n)).map(originalNode).join('');
+      const en=nodes.filter(n=>ownerContains(owner,n)).map(originalNode).join('');
       const matches=inlineVariants(en).filter(Boolean).map(value=>new RegExp(pattern(value),'iu').exec(fr.slice(formatCursor))).filter(Boolean).sort((a,b)=>a.index-b.index);
       if(matches.length){protectedElements.push(owner);formatCursor+=matches[0].index+matches[0][0].length;}
     }
-    protectedElements.sort((a,b)=>nodes.findIndex(n=>a.contains(n))-nodes.findIndex(n=>b.contains(n)));
+    protectedElements.sort((a,b)=>nodes.findIndex(n=>ownerContains(a,n))-nodes.findIndex(n=>ownerContains(b,n)));
     const visualScope=new Map();if(visualGroups)visualGroups.forEach((g,i)=>g.nodes.forEach(n=>visualScope.set(n,i)));
     const output=new Map(nodes.map(n=>[n,'']));let cursor=0,lastIndex=0;
     function assign(segment,from,to){
-      const available=nodes.slice(from,to).filter(n=>!protectedElements.some(p=>p.contains(n)));
+      const available=nodes.slice(from,to).filter(n=>!protectedElements.some(p=>ownerContains(p,n)));
       if(segment&&!available.length)return false;
       if(available.length){
         const groups=[];for(const node of available){const parent=node.parentElement.closest('p,li')||el,scope=visualScope.get(node)??parent;let group=groups.at(-1);if(!group||group.scope!==scope){group={parent,scope,nodes:[]};groups.push(group);}group.nodes.push(node);}
@@ -707,7 +724,7 @@
       }return true;
     }
     for(const owner of protectedElements){
-      const owned=nodes.filter(n=>owner.contains(n)),first=nodes.indexOf(owned[0]),last=nodes.indexOf(owned.at(-1));
+      const owned=nodes.filter(n=>ownerContains(owner,n)),first=nodes.indexOf(owned[0]),last=nodes.indexOf(owned.at(-1));
       const en=owned.map(originalNode).join(''),variants=inlineVariants(en);
       let found=null;
       for(const value of variants){const re=new RegExp(pattern(value.trim()).replace(/\\\+/g,'\\s*\\+\\s*'),'iu');const m=re.exec(fr.slice(cursor));if(m){const text=m[0].trim(),index=m.index+m[0].length-m[0].trimStart().length;if(!found||index<found.index)found={index,text};}}
