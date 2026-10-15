@@ -22,6 +22,7 @@ Les utilisateurs ayant une ancienne installation par copier-coller doivent rempl
 ## Fonctionnalités
 
 - Traduction dans les pages : sorts, monstres, objets, dons, aptitudes, métamagie et création de personnage.
+- Paramètres de campagne (choix et aides), trésor partagé, commandes de fiche et menus contextuels du MJ sur la carte.
 - Catalogue de noms AideDD 2024 et descriptions locales, avec consultation des références publiques à la demande.
 - Recherche française, noms bilingues optionnels et lien direct AideDD.
 - Bouton déplaçable ou masquable, panneau accessible par `Alt + Maj + F`.
@@ -47,6 +48,8 @@ Les traductions sont organisées dans `translations/dnd-2024/phb/`, `translation
 Les constantes de données du userscript sont toutes sérialisées au format JSON compact, une déclaration par ligne. Les fichiers sources JSON restent indentés pour faciliter leur édition ; les retours à la ligne contenus dans les traductions sont conservés sous forme échappée.
 
 Les tests sont regroupés dans `tests/`, avec les extraits HTML dans `tests/fixtures/`. `npm test` lance les suites JavaScript et Python. Les tests inclus couvrent la configuration, la recherche et les liens, les aptitudes de personnages, les variantes de métamagie, les interactions, la migration du cache et le retour au texte anglais.
+
+`npm run test:interface` vérifie le panneau de paramètres de campagne relevé dans Shard, les menus ajoutés dynamiquement, les libellés de fiche et les infobulles. Il contrôle aussi la conservation des valeurs, des cases cochées, des liens et des interactions, puis la restauration exacte de l’anglais.
 
 Les catalogues de noms et de références sont indexés au démarrage. Les listes de correspondances de descriptions sont réutilisées jusqu’à leur prochaine modification. `npm run benchmark` mesure l’initialisation, la traduction de 400 blocs, 100 mutations et la restauration dans JSDOM ; il ne mesure pas le chargement complet de Shard ni les appels réseau.
 

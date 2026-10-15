@@ -12330,6 +12330,14 @@
       "fr": "(Prérequis : Occultiste de niveau 15+)",
       "source": "Traduction proposée des prérequis des cartes Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
       "edition": "2024"
+    },
+    {
+      "id": "barbarian.brutal-strikes.sheet-label",
+      "kind": "term",
+      "en": "Brutal Strikes",
+      "fr": "Coups brutaux",
+      "source": "Variante plurielle du libellé de fiche Shard ; terminologie de l’aptitude Brutal Strike du PHB 2024 et du SRD français 5.2.1.",
+      "edition": "2024"
     }
   ]
 }

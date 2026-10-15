@@ -1,5 +1,5 @@
 {
-  "version": "1.17.12",
+  "version": "1.17.13",
   "reference": "Noms AideDD 2024 prioritaires. Références SRD disponibles séparément. Autres entrées identifiées.",
   "license": "Code MIT ; contenu SRD CC-BY-4.0 https://creativecommons.org/licenses/by/4.0/",
   "sources": [
@@ -29227,6 +29227,13 @@
       "aliases": []
     },
     {
+      "en": "Brutal Strikes",
+      "fr": "Coups brutaux",
+      "category": "aptitude de classe",
+      "source": "Variante plurielle du libellé de fiche Shard ; terminologie de l’aptitude Brutal Strike du PHB 2024 et du SRD français 5.2.1.",
+      "aliases": []
+    },
+    {
       "en": "(Prerequisite: Dexterity 13 or higher)",
       "fr": "(Prérequis : Dextérité 13 ou plus)",
       "category": "don",
@@ -30841,6 +30848,755 @@
       "fr": "Bienfaits de pacte de l’Occultiste",
       "category": "interface",
       "source": "Traduction proposée des rubriques de références personnalisées Shard · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Campaign Settings",
+      "fr": "Paramètres de la campagne",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Default Game System",
+      "fr": "Système de jeu par défaut",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Select default game system used by players creating characters in the campaign and to pick preferred monsters.",
+      "fr": "Choisissez le système de jeu utilisé par défaut pour créer les personnages de la campagne et proposer les monstres correspondants.",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Vision Mode",
+      "fr": "Mode de vision",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Dynamic lighting only",
+      "fr": "Éclairage dynamique uniquement",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Fog of war only",
+      "fr": "Brouillard de guerre uniquement",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Dynamic lighting with fog cover",
+      "fr": "Éclairage dynamique avec brouillard de guerre",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Draw map while exploring",
+      "fr": "Dessiner la carte au fil de l’exploration",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Select how to reveal maps to players,",
+      "fr": "Choisissez comment révéler les cartes aux joueurs ;",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "see learning article for more information.",
+      "fr": "consultez le tutoriel pour en savoir plus.",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Character Permissions",
+      "fr": "Permissions sur les personnages",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Players can view and modify all characters",
+      "fr": "Les joueurs peuvent consulter et modifier tous les personnages",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Players can view but not modify all characters",
+      "fr": "Les joueurs peuvent consulter tous les personnages sans les modifier",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Players can only view their own characters",
+      "fr": "Les joueurs peuvent uniquement consulter leur propre personnage",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Select how players can view each other's characters.",
+      "fr": "Définissez comment les joueurs peuvent consulter les personnages des autres.",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Display Names",
+      "fr": "Affichage des noms",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Display complete character names",
+      "fr": "Afficher les noms complets des personnages",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Abbreviate character names",
+      "fr": "Abréger les noms des personnages",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Hide character names",
+      "fr": "Masquer les noms des personnages",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Show names when adding monsters",
+      "fr": "Afficher les noms lors de l’ajout de monstres",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Select format of character and monster names shown on the map. Select if monster names are displayed by default or only selected.",
+      "fr": "Choisissez le format des noms des personnages et des monstres sur la carte. Définissez si les noms des monstres s’affichent par défaut ou uniquement à la sélection.",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Monster Initiative",
+      "fr": "Initiative des monstres",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Group monster initiatives",
+      "fr": "Grouper les initiatives des monstres",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "All monsters get their own initiative",
+      "fr": "Chaque monstre a sa propre initiative",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Should monsters of the same type share the same initiative or be calculated independently?",
+      "fr": "Les monstres du même type doivent-ils partager la même initiative ou avoir chacun une initiative distincte ?",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Pick Extensions",
+      "fr": "Choisir les extensions",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Select extensions to enable extended features for campaign characters.",
+      "fr": "Choisissez les extensions pour activer des fonctionnalités supplémentaires pour les personnages de la campagne.",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Campaign Packages",
+      "fr": "Packs de la campagne",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Selected Packages",
+      "fr": "Packs sélectionnés",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Disabled Packages",
+      "fr": "Packs désactivés",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Preferred Content",
+      "fr": "Contenu privilégié",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Disallowed Content",
+      "fr": "Contenu exclu",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Pick Preferred",
+      "fr": "Choisir le contenu privilégié",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Wallpaper Image",
+      "fr": "Image d’arrière-plan",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Wallpaper Image:",
+      "fr": "Image d’arrière-plan :",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Send an invitation for players to join your campaign.",
+      "fr": "Envoyez une invitation aux joueurs pour qu’ils rejoignent votre campagne.",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Watch Mode",
+      "fr": "Mode spectateur",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "View Watch Mode",
+      "fr": "Ouvrir le mode spectateur",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Get Watch Link",
+      "fr": "Obtenir le lien spectateur",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Campaign Characters",
+      "fr": "Personnages de la campagne",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Campaign Player List",
+      "fr": "Liste des joueurs de la campagne",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Campaign Non-Player Characters",
+      "fr": "Personnages non-joueurs de la campagne",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Shared Treasure",
+      "fr": "Trésor partagé",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Grant Treasure",
+      "fr": "Attribuer le trésor",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Pick Treasure",
+      "fr": "Choisir le trésor",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Distribute",
+      "fr": "Répartir",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Grant",
+      "fr": "Attribuer",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Show Species",
+      "fr": "Afficher l’espèce",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Show Background",
+      "fr": "Afficher l’historique",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Show Class",
+      "fr": "Afficher la classe",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Bonus action cast",
+      "fr": "Incantation par action Bonus",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "creatures affected",
+      "fr": "créatures affectées",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "carried",
+      "fr": "porté",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "not currency",
+      "fr": "hors monnaie",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Huddle Monsters",
+      "fr": "Rassembler les monstres",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Huddle Characters",
+      "fr": "Rassembler les personnages",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Select All Monsters",
+      "fr": "Sélectionner tous les monstres",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Select All Characters",
+      "fr": "Sélectionner tous les personnages",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Add Map Object",
+      "fr": "Ajouter un objet de carte",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "New Pin",
+      "fr": "Nouveau repère",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Group Actions",
+      "fr": "Actions de groupe",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Region Fog & Lighting",
+      "fr": "Brouillard et éclairage de la zone",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Add Shape",
+      "fr": "Ajouter une forme",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Light Region",
+      "fr": "Éclairer la zone",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Darken Region",
+      "fr": "Plonger la zone dans l’obscurité",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Project",
+      "fr": "Projeter",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Show Grid",
+      "fr": "Afficher la grille",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Pick Map",
+      "fr": "Choisir une carte",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Pick Handout",
+      "fr": "Choisir un document à partager",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Center Player View",
+      "fr": "Centrer la vue des joueurs",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Fog Tools",
+      "fr": "Outils de brouillard",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Highlight Vision",
+      "fr": "Afficher le champ de vision",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Add Area of Effect Token",
+      "fr": "Ajouter un pion de zone d’effet",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "View Details",
+      "fr": "Voir les détails",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Attach",
+      "fr": "Rattacher",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Set Inactive",
+      "fr": "Rendre inactif",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Remove From Map",
+      "fr": "Retirer de la carte",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Map is Lighted",
+      "fr": "La carte est éclairée",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Map is in Darkness",
+      "fr": "La carte est dans l’obscurité",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Show Cover 25%",
+      "fr": "Opacité du brouillard : 25%",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Show Cover 50%",
+      "fr": "Opacité du brouillard : 50%",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Show Cover 75%",
+      "fr": "Opacité du brouillard : 75%",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Show Cover 100%",
+      "fr": "Opacité du brouillard : 100%",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Build Walls & Fog Regions",
+      "fr": "Définir les murs et les zones de brouillard",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "hide tracker",
+      "fr": "Masquer le suivi de combat",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "show all",
+      "fr": "Tout afficher",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Map supports dynamic lighting",
+      "fr": "La carte prend en charge l’éclairage dynamique",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Alternate Map Artwork",
+      "fr": "Illustration alternative de la carte",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "As an option you may select alternate artwork to allow map image to be changed without altering fog, or token locations.",
+      "fr": "Vous pouvez choisir une illustration alternative pour changer l’image de la carte sans modifier le brouillard ni la position des pions.",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Map Size",
+      "fr": "Dimensions de la carte",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Scale Map",
+      "fr": "Ajuster l’échelle de la carte",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Pick Image",
+      "fr": "Choisir une image",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Upload Image",
+      "fr": "Importer une image",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Change Image",
+      "fr": "Changer l’image",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Dice rolls, messages and shared information will show here.",
+      "fr": "Les jets de dés, les messages et les informations partagées s’affichent ici.",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Your selected book will display here. Use the book as a reference, and to select maps, display handouts, or add planned encounters.",
+      "fr": "Le livre choisi s’affiche ici. Utilisez-le comme référence, pour choisir des cartes, montrer des documents ou ajouter des rencontres prévues.",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Log entries are only visible to the gamemaster. When finishing encounters, you have the option to record the finished encounter to the log.",
+      "fr": "Les entrées du journal de rencontres sont visibles uniquement par le MJ. À la fin d’une rencontre, vous pouvez l’enregistrer dans ce journal.",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "(no book selected)",
+      "fr": "(aucun livre sélectionné)",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Pick Book",
+      "fr": "Choisir un livre",
+      "category": "interface",
+      "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Invite",
+      "fr": "Inviter",
+      "category": "interface",
+      "source": "Traduction proposée du bouton d’invitation Shard · paramètres de campagne, relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Measure",
+      "fr": "Mesurer",
+      "category": "interface",
+      "source": "Traduction proposée des outils de carte et paramètres Shard · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Draw",
+      "fr": "Dessiner",
+      "category": "interface",
+      "source": "Traduction proposée des outils de carte et paramètres Shard · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Image",
+      "fr": "Image",
+      "category": "interface",
+      "source": "Traduction proposée des outils de carte et paramètres Shard · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Circle",
+      "fr": "Cercle",
+      "category": "interface",
+      "source": "Traduction proposée des outils de carte et paramètres Shard · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Rectangle",
+      "fr": "Rectangle",
+      "category": "interface",
+      "source": "Traduction proposée des outils de carte et paramètres Shard · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Zoom",
+      "fr": "Zoom",
+      "category": "interface",
+      "source": "Traduction proposée des outils de carte et paramètres Shard · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Change Name",
+      "fr": "Changer le nom",
+      "category": "interface",
+      "source": "Traduction proposée des outils de carte et paramètres Shard · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
       "aliases": []
     },
     {

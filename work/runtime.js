@@ -111,9 +111,10 @@
     const originalSource=source;
     const exact = entries.get(normalize(source));
     const complete=lookupPair(inlineKey(source));
-    if(complete&&!customKeys.has(normalize(source)))return preserveFeet(source,complete);
+    const surround = text => source.match(/^\s*/)[0] + text + source.match(/\s*$/)[0];
+    if(complete&&!customKeys.has(normalize(source)))return surround(preserveFeet(source,complete));
     const fullDescription=referenceBodies.get(normalize(source));
-    if (fullDescription && !customKeys.has(normalize(source))) return preserveFeet(source,fullDescription);
+    if (fullDescription && !customKeys.has(normalize(source))) return surround(preserveFeet(source,fullDescription));
     const output = (entry, matched, allowBilingual) => {
       const key = normalize(matched);
       if (!customKeys.has(key)) {
@@ -125,6 +126,7 @@
         if (key === 'light' && /(?:slashing|piercing|bludgeoning|tranchant|perforant|contondant|armor|armure|finesse|two-handed|à deux mains|light weapon|arme légère)/i.test(context)) return 'Légère';
         if (key === 'slow' && weaponMasteryContext(context)) return 'Ralentissement';
         if (key === 'versatile' && weaponMasteryContext(context)) return 'Polyvalente';
+        if (key === 'hide' && context === 'map token visibility') return 'Masquer';
         if (key === 'save' && /\b(?:STR|DEX|CON|INT|WIS|CHA|FOR|SAG)\s*(?:DC|DD|[0-9])/i.test(context)) return 'Sauvegarde';
       }
       if (entry.fr === entry.en) return /^[A-Z]{2,4}$/.test(entry.fr) ? entry.fr : matched;
@@ -228,7 +230,8 @@
       if (current === null) { states.delete(key); continue; }
       const prev = states.get(key);
       const original = prev && current === prev.output ? prev.original : current;
-      const translated = translate(original);
+      const context = key === 'title' && el.matches('span.fa-eye') ? 'map token visibility' : original;
+      const translated = translate(original, context);
       states.set(key,{original,output:translated});
       if (translated !== current) el.setAttribute(key,translated);
     }
