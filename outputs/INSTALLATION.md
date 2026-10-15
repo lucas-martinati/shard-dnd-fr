@@ -10,13 +10,16 @@
 
 ## Repérer les passages à compléter
 
-Dans le panneau D&D FR, ouvre **Repérer les traductions manquantes**, puis clique sur **Analyser la page**. Les candidats sont regroupés avec leur contexte et une cause possible. **Exporter le rapport JSON** enregistre le relevé sur ton ordinateur ; **Effacer** retire les repères. Relance l’analyse après avoir ouvert une autre fiche ou attendu une référence AideDD.
+Dans le panneau D&D FR, ouvre **Repérer les traductions manquantes**. Deux sections conservent des résultats indépendants :
 
-**Descriptions depuis la liste :** coche **Afficher l’état des descriptions vérifiées**, puis utilise **Contrôler le contenu des fiches** si tu souhaites parcourir les descriptions. Ce contrôle ouvre puis referme les fiches chargées, par lots de 100 au maximum. **Arrêter** l’interrompt. Fais défiler la liste pour charger les suivantes, puis relance. Le contrôle utilise les traductions locales sans attendre la file globale ni de nouvelles références distantes. Ouvrir une fiche manuellement actualise également son état.
+- **Page affichée** : **Analyser la page** repère les noms et passages visibles à vérifier, avec des contours orange. **Exporter la page (JSON)** enregistre uniquement ce relevé dans `shard-dnd-fr-page.json`. **Effacer la page** retire uniquement ces repères et ce rapport.
+- **Descriptions des fiches** : coche **Marquer les descriptions à compléter**, puis lance **Contrôler les fiches**. Les descriptions incomplètes ont un contour rouge dans la liste. Les fiches sans manque repéré n’ajoutent pas de libellé sous leur nom. **Exporter les descriptions (JSON)** enregistre uniquement les fiches contrôlées dans `shard-dnd-fr-descriptions.json`. **Effacer les descriptions** retire ces résultats et contours, en conservant le relevé de page.
 
-Les états apparaissent uniquement après examen du texte : **à compléter**, **aucun anglais repéré**, **sans description** ou **vérification impossible**. Les fiches non examinées ne portent pas d’indicateur. Le mode d’association par nom a été retiré car son index était trop incomplet. Le repérage repose sur des indices de langue et ne certifie pas l’exactitude du français. Les états restent en mémoire pour cette page et sont inclus dans l’export JSON. Un changement de page ou **Effacer** remet le relevé à zéro.
+Le contrôle ouvre puis referme les fiches chargées, par lots de 100 au maximum. **Arrêter** l’interrompt. Fais défiler la liste pour charger les suivantes, puis relance. Si Shard propose plusieurs sources, la version dont le livre principal est D&D 2024 est sélectionnée ; sans option 2024, l’entrée est signalée et le parcours continue. Le rapport conserve le livre choisi. Les fiches ouvertes manuellement sont aussi contrôlées quand le marquage est activé.
 
-Le diagnostic n’envoie rien et ne lit pas les valeurs des champs ni les éditeurs. Il peut inclure des noms propres ou du contenu personnalisé affiché : vérifie le rapport avant de le partager. Il est limité à 200 candidats et ne constitue pas un pourcentage de couverture du site.
+La liste de résultats du panneau présente les fiches à compléter ou à examiner ; l’export des descriptions conserve également les fiches sans manque et celles sans description. Les repères sont des candidats à vérifier et ne certifient pas l’exactitude du français. Le mode par nom reste supprimé : les états proviennent du texte affiché.
+
+Les rapports restent locaux, sans valeurs de champs ni contenu des éditeurs. Ils peuvent contenir des noms propres ou du contenu personnalisé affiché : vérifie-les avant de les partager. Chaque analyse est bornée à 200 candidats par page ou description. Un changement de page ou la désactivation de la traduction remet les deux rapports à zéro.
 
 ## Mises à jour suivantes
 

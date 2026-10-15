@@ -1,5 +1,5 @@
 {
-  "version": "1.17.19",
+  "version": "1.17.22",
   "reference": "Noms AideDD 2024 prioritaires. Références SRD disponibles séparément. Autres entrées identifiées.",
   "license": "Code MIT ; contenu SRD CC-BY-4.0 https://creativecommons.org/licenses/by/4.0/",
   "sources": [
@@ -36042,6 +36042,13 @@
       "fr": "Renvoi.",
       "category": "sort",
       "source": "Traduction proposée du texte exact Shard · D&D 2024 PHB · passage signalé le 15 octobre 2026 ; unités de jeu conservées.",
+      "aliases": []
+    },
+    {
+      "en": "Omens",
+      "fr": "Présages",
+      "category": "sort",
+      "source": "Traduction proposée des passages complets récupérés du rapport utilisateur 1.17.20 (collage coupé) · sorts PHB 2024 · 15 octobre 2026. Nombres, dés et unités Shard conservés ; les 23 correspondances déjà couvertes ne sont pas dupliquées.",
       "aliases": []
     },
     {

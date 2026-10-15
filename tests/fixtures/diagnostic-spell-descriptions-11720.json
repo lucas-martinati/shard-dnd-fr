@@ -1,0 +1,845 @@
+{
+  "scriptVersion": "1.17.20",
+  "reportedMissingCount": 560,
+  "attachmentTruncated": true,
+  "recoveredEntries": 123,
+  "uniquePassages": 118,
+  "previouslyCovered": 23,
+  "newCorrespondences": 95,
+  "cases": [
+    {
+      "name": "Dancing Lights",
+      "en": "You create up to four torch-size lights within range, making them appear as torches, lanterns, or glowing orbs that hover for the duration. Alternatively, you combine the four lights into one glowing Medium form that is vaguely humanlike. Whichever form you choose, each light sheds Dim Light in a 10-foot radius.",
+      "fr": "Vous créez jusqu’à quatre lumières de la taille d’une torche à portée, qui prennent l’apparence de torches, de lanternes ou d’orbes lumineux flottant pendant toute la durée du sort. Vous pouvez aussi réunir les quatre lumières en une forme lumineuse de taille M, vaguement humanoïde. Quelle que soit la forme choisie, chaque lumière diffuse une Lumière faible dans un rayon de 10 feet.",
+      "previouslyCovered": true,
+      "contextRecovered": false
+    },
+    {
+      "name": "Produce Flame",
+      "en": "A flickering flame appears in your hand and remains there for the duration. While there, the flame emits no heat and ignites nothing, and it sheds Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. The spell ends if you cast it again.",
+      "fr": "Une flamme vacillante apparaît dans votre main et y demeure pendant toute la durée du sort. Elle ne dégage aucune chaleur et n’embrase rien. Elle diffuse une Lumière vive dans un rayon de 20 feet, puis une Lumière faible sur 20 feet supplémentaires. Le sort prend fin si vous le lancez de nouveau.",
+      "previouslyCovered": true,
+      "contextRecovered": false
+    },
+    {
+      "name": "Produce Flame",
+      "en": "Until the spell ends, you can take a Magic action to hurl fire at a creature or an object within 60 feet of you. Make a ranged spell attack. On a hit, the target takes 1d8 Fire damage.",
+      "fr": "Jusqu’à la fin du sort, vous pouvez effectuer l’action Magie pour projeter du feu sur une créature ou un objet à 60 feet ou moins de vous. Effectuez une attaque de sort à distance. Si elle touche, la cible subit 1d8 dégâts de feu.",
+      "previouslyCovered": true,
+      "contextRecovered": false
+    },
+    {
+      "name": "Burning Hands",
+      "en": "A thin sheet of flames shoots forth from you. Each creature in a 15-foot Cone makes a Dexterity saving throw, taking 3d6 Fire damage on a failed save or half as much damage on a successful one.",
+      "fr": "Une fine nappe de flammes jaillit de vous. Chaque créature dans un Cône de 15 feet effectue un jet de sauvegarde de Dextérité et subit 3d6 dégâts de feu en cas d’échec, ou la moitié en cas de réussite.",
+      "previouslyCovered": true,
+      "contextRecovered": false
+    },
+    {
+      "name": "Burning Hands",
+      "en": "Flammable objects in the Cone that aren’t being worn or carried start burning.",
+      "fr": "Les objets inflammables dans le Cône qui ne sont ni portés ni transportés prennent feu.",
+      "previouslyCovered": true,
+      "contextRecovered": false
+    },
+    {
+      "name": "Disguise Self",
+      "en": "You make yourself—including your clothing, armor, weapons, and other belongings on your person—look different until the spell ends. You can seem 1 foot shorter or taller and can appear heavier or lighter. You must adopt a form that has the same basic arrangement of limbs as you have. Otherwise, the extent of the illusion is up to you.",
+      "fr": "Vous modifiez votre apparence, y compris celle de vos vêtements, de votre armure, de vos armes et des autres effets que vous portez, jusqu’à la fin du sort. Vous pouvez paraître plus petit ou plus grand de 1 foot et sembler plus lourd ou plus léger. Vous devez adopter une forme dont la disposition générale des membres est identique à la vôtre. Pour le reste, l’étendue de l’illusion dépend de vous.",
+      "previouslyCovered": true,
+      "contextRecovered": false
+    },
+    {
+      "name": "Entangle",
+      "en": "Grasping plants sprout from the ground in a 20-foot square within range. For the duration, these plants turn the ground in the area into Difficult Terrain. They disappear when the spell ends.",
+      "fr": "Des plantes agrippantes jaillissent du sol dans un carré de 20 feet de côté à portée. Pendant toute la durée du sort, elles transforment le sol de la zone en Terrain difficile. Elles disparaissent à la fin du sort.",
+      "previouslyCovered": true,
+      "contextRecovered": false
+    },
+    {
+      "name": "Entangle",
+      "en": "Each creature (other than you) in the area when you cast the spell must succeed on a Strength saving throw or have the Restrained condition until the spell ends. A Restrained creature can take an action to make a Strength (Athletics) check against your spell save DC. On a success, it frees itself from the grasping plants and is no longer Restrained by them.",
+      "fr": "Chaque créature autre que vous présente dans la zone lorsque vous lancez le sort doit réussir un jet de sauvegarde de Force sous peine de subir l’état Entravé jusqu’à la fin du sort. Une créature Entravée peut consacrer une action à effectuer un test de Force (Athlétisme) contre votre DD de sauvegarde des sorts. En cas de réussite, elle se libère des plantes agrippantes et cesse d’être Entravée par elles.",
+      "previouslyCovered": true,
+      "contextRecovered": false
+    },
+    {
+      "name": "Faerie Fire",
+      "en": "Objects in a 20-foot Cube within range are outlined in blue, green, or violet light (your choice). Each creature in the Cube is also outlined if it fails a Dexterity saving throw. For the duration, objects and affected creatures shed Dim Light in a 10-foot radius and can’t benefit from the Invisible condition.",
+      "fr": "Les objets dans un Cube de 20 feet à portée sont nimbés d’une lumière bleue, verte ou violette, au choix. Chaque créature dans le Cube l’est également si elle rate un jet de sauvegarde de Dextérité. Pendant toute la durée du sort, les objets et créatures affectés diffusent une Lumière faible dans un rayon de 10 feet et ne peuvent pas bénéficier de l’état Invisible.",
+      "previouslyCovered": true,
+      "contextRecovered": false
+    },
+    {
+      "name": "Faerie Fire",
+      "en": "Attack rolls against an affected creature or object have Advantage if the attacker can see it.",
+      "fr": "Les jets d’attaque contre une créature ou un objet affecté bénéficient de l’Avantage si l’attaquant peut voir sa cible.",
+      "previouslyCovered": true,
+      "contextRecovered": false
+    },
+    {
+      "name": "Goodberry",
+      "en": "Ten berries appear in your hand and are infused with magic for the duration. A creature can take a Bonus Action to eat one berry. Eating a berry restores 1 Hit Point, and the berry provides enough nourishment to sustain a creature for one day.",
+      "fr": "Dix baies apparaissent dans votre main et sont imprégnées de magie pendant toute la durée du sort. Une créature peut utiliser une action Bonus pour manger une baie. Chaque baie mangée fait récupérer 1 point de vie et nourrit suffisamment une créature pour une journée.",
+      "previouslyCovered": true,
+      "contextRecovered": false
+    },
+    {
+      "name": "Goodberry",
+      "en": "Uneaten berries disappear when the spell ends.",
+      "fr": "Les baies qui n’ont pas été mangées disparaissent à la fin du sort.",
+      "previouslyCovered": true,
+      "contextRecovered": false
+    },
+    {
+      "name": "Grease",
+      "en": "Nonflammable grease covers the ground in a 10-foot square centered on a point within range and turns it into Difficult Terrain for the duration.",
+      "fr": "Une graisse ininflammable recouvre le sol dans un carré de 10 feet de côté, centré sur un point à portée, et le transforme en Terrain difficile pendant toute la durée du sort.",
+      "previouslyCovered": true,
+      "contextRecovered": false
+    },
+    {
+      "name": "Grease",
+      "en": "When the grease appears, each creature standing in its area must succeed on a Dexterity saving throw or have the Prone condition. A creature that enters the area or ends its turn there must also succeed on that save or fall Prone.",
+      "fr": "Quand la graisse apparaît, chaque créature présente dans la zone doit réussir un jet de sauvegarde de Dextérité sous peine de subir l’état À terre. Une créature qui entre dans la zone ou y termine son tour doit également réussir ce jet de sauvegarde sous peine de tomber À terre.",
+      "previouslyCovered": true,
+      "contextRecovered": false
+    },
+    {
+      "name": "Hex",
+      "en": "You place a curse on a creature that you can see within range. Until the spell ends, you deal an extra 1d6 Necrotic damage to the target whenever you hit it with an attack roll. Also, choose one ability when you cast the spell. The target has Disadvantage on ability checks made with the chosen ability.",
+      "fr": "Vous maudissez une créature que vous voyez à portée. Jusqu’à la fin du sort, vous lui infligez 1d6 dégâts nécrotiques supplémentaires chaque fois que vous la touchez avec un jet d’attaque. Choisissez également une caractéristique lorsque vous lancez le sort. La cible subit le Désavantage aux tests de caractéristique effectués avec la caractéristique choisie.",
+      "previouslyCovered": true,
+      "contextRecovered": false
+    },
+    {
+      "name": "Hex",
+      "en": "If the target drops to 0 Hit Points before this spell ends, you can take a Bonus Action on a later turn to curse a new creature.",
+      "fr": "Si la cible tombe à 0 point de vie avant la fin du sort, vous pouvez utiliser une action Bonus lors d’un tour ultérieur pour maudire une nouvelle créature.",
+      "previouslyCovered": true,
+      "contextRecovered": false
+    },
+    {
+      "name": "Hunter’s Mark",
+      "en": "You magically mark one creature you can see within range as your quarry. Until the spell ends, you deal an extra 1d6 Force damage to the target whenever you hit it with an attack roll. You also have Advantage on any Wisdom (Perception or Survival) check you make to find it.",
+      "fr": "Vous désignez magiquement comme proie une créature que vous voyez à portée. Jusqu’à la fin du sort, vous lui infligez 1d6 dégâts de force supplémentaires chaque fois que vous la touchez avec un jet d’attaque. Vous bénéficiez également de l’Avantage aux tests de Sagesse (Perception ou Survie) effectués pour la retrouver.",
+      "previouslyCovered": true,
+      "contextRecovered": false
+    },
+    {
+      "name": "Hunter’s Mark",
+      "en": "If the target drops to 0 Hit Points before this spell ends, you can take a Bonus Action to move the mark to a new creature you can see within range.",
+      "fr": "Si la cible tombe à 0 point de vie avant la fin du sort, vous pouvez utiliser une action Bonus pour déplacer la marque vers une nouvelle créature que vous voyez à portée.",
+      "previouslyCovered": true,
+      "contextRecovered": false
+    },
+    {
+      "name": "Identify",
+      "en": "You touch an object throughout the spell’s casting. If the object is a magic item or some other magical object, you learn its properties and how to use them, whether it requires Attunement, and how many charges it has, if any. You learn whether any ongoing spells are affecting the item and what they are. If the item was created by a spell, you learn that spell’s name.",
+      "fr": "Vous touchez un objet pendant toute l’incantation du sort. S’il s’agit d’un objet magique, vous apprenez ses propriétés et son fonctionnement, s’il nécessite une Harmonisation et le nombre de charges qu’il possède, le cas échéant. Vous découvrez si des sorts l’affectent actuellement et lesquels. Si l’objet a été créé par un sort, vous apprenez le nom de ce sort.",
+      "previouslyCovered": true,
+      "contextRecovered": false
+    },
+    {
+      "name": "Identify",
+      "en": "If you instead touch a creature throughout the casting, you learn which ongoing spells, if any, are currently affecting it.",
+      "fr": "Si vous touchez plutôt une créature pendant toute l’incantation, vous apprenez quels sorts l’affectent actuellement, le cas échéant.",
+      "previouslyCovered": true,
+      "contextRecovered": false
+    },
+    {
+      "name": "Illusory Script",
+      "en": "You write on parchment, paper, or another suitable material and imbue it with an illusion that lasts for the duration. To you and any creatures you designate when you cast the spell, the writing appears normal, seems to be written in your hand, and conveys whatever meaning you intended when you wrote the text. To all others, the writing appears as if it were written in an unknown or magical script that is unintelligible. Alternatively, the illusion can alter the meaning, handwriting, and language of the text, though the language must be one you know.",
+      "fr": "Vous écrivez sur du parchemin, du papier ou un autre support adapté et imprégnez le texte d’une illusion qui persiste pendant toute la durée du sort. Pour vous et les créatures désignées au moment de l’incantation, l’écriture paraît normale, semble être de votre main et transmet le sens que vous souhaitiez lui donner. Pour tous les autres, elle paraît rédigée dans une écriture inconnue ou magique, indéchiffrable. L’illusion peut aussi modifier le sens, l’écriture manuscrite et la langue du texte, à condition que vous connaissiez cette langue.",
+      "previouslyCovered": true,
+      "contextRecovered": false
+    },
+    {
+      "name": "Illusory Script",
+      "en": "If the spell is dispelled, the original script and the illusion both disappear.",
+      "fr": "Si le sort est dissipé, le texte d’origine et l’illusion disparaissent tous deux.",
+      "previouslyCovered": true,
+      "contextRecovered": false
+    },
+    {
+      "name": "Illusory Script",
+      "en": "A creature that has Truesight can read the hidden message.",
+      "fr": "Une créature dotée de la Vision suprême peut lire le message caché.",
+      "previouslyCovered": true,
+      "contextRecovered": false
+    },
+    {
+      "name": "Tasha’s Hideous Laughter",
+      "en": "One creature of your choice that you can see within range makes a Wisdom saving throw. On a failed save, it has the Prone and Incapacitated conditions for the duration. During that time, it laughs uncontrollably if it’s capable of laughter, and it can’t end the Prone condition on itself.",
+      "fr": "Une créature de votre choix que vous voyez à portée effectue un jet de sauvegarde de Sagesse. En cas d’échec, elle subit les états À terre et Neutralisé pendant toute la durée du sort. Pendant ce temps, elle rit de façon incontrôlable si elle est capable de rire et ne peut pas mettre fin elle-même à son état À terre.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Tasha’s Hideous Laughter",
+      "en": "At the end of each of its turns and each time it takes damage, it makes another Wisdom saving throw. The target has Advantage on the save if the save is triggered by damage. On a successful save, the spell ends.",
+      "fr": "À la fin de chacun de ses tours et chaque fois qu’elle subit des dégâts, la cible effectue un nouveau jet de sauvegarde de Sagesse. Elle bénéficie de l’Avantage si ce jet est provoqué par des dégâts. En cas de réussite, le sort prend fin.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Tasha’s Hideous Laughter",
+      "en": "You can target one additional creature for each spell slot level about 1.",
+      "fr": "Vous pouvez cibler une créature supplémentaire par niveau d’emplacement de sort au-delà du niveau 1.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Tenser’s Floating Disk",
+      "en": "This spell creates a circular, horizontal plane of force, 3 feet in diameter and 1 inch thick, that floats 3 feet above the ground in an unoccupied space of your choice that you can see within range. The disk remains for the duration and can hold up to 500 pounds. If more weight is placed on it, the spell ends, and everything on the disk falls to the ground.",
+      "fr": "Ce sort crée un plan de force circulaire et horizontal, de 3 feet de diamètre et de 1 pouce d’épaisseur, qui flotte à 3 feet au-dessus du sol dans un espace inoccupé de votre choix que vous voyez à portée. Le disque persiste pendant toute la durée du sort et peut porter jusqu’à 500 livres. Si une charge supérieure y est placée, le sort prend fin et tout ce qui se trouve sur le disque tombe au sol.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Tenser’s Floating Disk",
+      "en": "The disk is immobile while you are within 20 feet of it. If you move more than 20 feet away from it, the disk follows you so that it remains within 20 feet of you. It can move across uneven terrain, up or down stairs, slopes and the like, but it can’t cross an elevation change of 10 feet or more. For example, the disk can’t move across a 10-foot-deep pit, nor could it leave such a pit if it was created at the bottom.",
+      "fr": "Le disque reste immobile tant que vous vous trouvez à 20 feet ou moins de lui. Si vous vous en éloignez de plus de 20 feet, il vous suit de façon à rester à 20 feet ou moins de vous. Il peut franchir un terrain irrégulier, monter ou descendre des escaliers, des pentes et autres obstacles similaires, mais ne peut pas franchir une différence de hauteur de 10 feet ou plus. Par exemple, il ne peut pas traverser une fosse de 10 feet de profondeur ni en sortir s’il a été créé au fond.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Tenser’s Floating Disk",
+      "en": "If you move more than 100 feet from the disk (typically because it can’t move around an obstacle to follow you), the spell ends.",
+      "fr": "Si vous vous éloignez de plus de 100 feet du disque, généralement parce qu’un obstacle l’empêche de vous suivre, le sort prend fin.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Thunderwave",
+      "en": "You unleash a wave of thunderous energy. Each creature in a 15-foot Cube originating from you makes a Constitution saving throw. On a failed save, a creature takes 2d8 Thunder damage and is pushed 10 feet away from you. On a successful save, a creature takes half as much damage only.",
+      "fr": "Vous libérez une vague d’énergie tonitruante. Chaque créature dans un Cube de 15 feet prenant naissance sur vous effectue un jet de sauvegarde de Constitution. En cas d’échec, elle subit 2d8 dégâts de tonnerre et est repoussée de 10 feet dans la direction opposée à vous. En cas de réussite, elle subit seulement la moitié des dégâts.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Thunderwave",
+      "en": "In addition, unsecured objects that are entirely within the Cube are pushed 10 feet away from you, and a thunderous boom is audible within 300 feet.",
+      "fr": "En outre, les objets non fixés entièrement contenus dans le Cube sont repoussés de 10 feet dans la direction opposée à vous, et une détonation retentit, audible dans un rayon de 300 feet.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Animal Messenger",
+      "en": "A Tiny Beast of your choice that you can see within range must succeed on a Charisma saving throw, or it attempts to deliver a message for you (if the target’s Challenge Rating isn’t 0, it automatically succeeds). You specify a location you have visited and a recipient who matches a general description, such as “a person dressed in the uniform of the town guard” or “a red-haired dwarf wearing a pointed hat.” You also communicate a message of up to twenty-five words. The Beast travels for the duration toward the specified location, covering about 25 miles per 24 hours or 50 miles if the Beast can fly.",
+      "fr": "Une Bête de taille TP de votre choix que vous voyez à portée doit réussir un jet de sauvegarde de Charisme, sous peine de tenter de transmettre un message pour vous. Si son facteur de puissance n’est pas de 0, elle réussit automatiquement. Vous indiquez un lieu déjà visité et un destinataire correspondant à une description générale, comme « une personne portant l’uniforme de la garde de la ville » ou « un nain roux coiffé d’un chapeau pointu ». Vous communiquez également un message de vingt-cinq mots au maximum. La Bête voyage vers le lieu indiqué pendant toute la durée du sort, parcourant environ 25 miles par tranche de 24 heures, ou 50 miles si elle peut voler.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Animal Messenger",
+      "en": "When the Beast arrives, it delivers your message to the creature that you described, mimicking your communication. If the Beast doesn’t reach its destination before the spell ends, the message is lost, and the Beast returns to where you cast the spell.",
+      "fr": "À son arrivée, la Bête transmet votre message à la créature décrite, en imitant votre façon de communiquer. Si elle n’atteint pas sa destination avant la fin du sort, le message est perdu et elle retourne à l’endroit où vous avez lancé le sort.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Arcane Vigor",
+      "en": "You tap into your life force to heal yourself. Roll one or two of your unexpended Hit Point Dice, and regain a number of Hit Points equal to the roll’s total plus your spellcasting ability modifier. Those dice are then expended.",
+      "fr": "Vous puisez dans votre force vitale pour vous soigner. Lancez un ou deux de vos dés de vie non dépensés et récupérez un nombre de points de vie égal au total obtenu, augmenté de votre modificateur de caractéristique d’incantation. Ces dés sont ensuite dépensés.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Arcane Vigor",
+      "en": "The number of unexpended Hit Dice you can roll increases by one for each spell slot level above 2.",
+      "fr": "Le nombre de dés de vie non dépensés que vous pouvez lancer augmente de un par niveau d’emplacement de sort au-delà du niveau 2.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Augury",
+      "en": "You receive an omen from an otherworldly entity about the results of a course of action that you plan to take within the next 30 minutes. The DM chooses the omen from the Omens table.",
+      "fr": "Une entité d’outremonde vous transmet un présage sur les conséquences d’une conduite que vous comptez adopter dans les 30 prochaines minutes. Le MJ choisit le présage dans le tableau des Présages.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Augury",
+      "en": "Omens",
+      "fr": "Présages",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Augury",
+      "en": "The spell doesn’t account for circumstances, such as other spells, that might change the results.",
+      "fr": "Le sort ne tient pas compte des circonstances susceptibles de modifier les conséquences, comme d’autres sorts.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Cloud of Daggers",
+      "en": "You conjure spinning daggers in a 5-foot Cube centered on a point within range. Each creature in that area takes 4d4 Slashing damage. A creature also takes this damage if it enters the Cube or ends its turn there or if the Cube moves into its space. A creature takes this damage only once per turn.",
+      "fr": "Vous invoquez des dagues tournoyantes dans un Cube de 5 feet centré sur un point à portée. Chaque créature dans cette zone subit 4d4 dégâts tranchants. Une créature subit également ces dégâts si elle entre dans le Cube ou y termine son tour, ou si le Cube pénètre dans son espace. Une créature ne subit ces dégâts qu’une seule fois par tour.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Cloud of Daggers",
+      "en": "On your later turns, you can take a Magic action to teleport the Cube up to 30 feet.",
+      "fr": "Lors de vos tours suivants, vous pouvez effectuer l’action Magie pour téléporter le Cube jusqu’à 30 feet.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Cloud of Daggers",
+      "en": "The damage increases by 2d4 for each spell slot level above 2.",
+      "fr": "Les dégâts augmentent de 2d4 par niveau d’emplacement de sort au-delà du niveau 2.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Cordon of Arrows",
+      "en": "You touch up to four nonmagical Arrows or Bolts and plant them in the ground in your space. Until the spell ends, the ammunition can’t be physically uprooted, and whenever a creature other than you enters a space within 30 feet of the ammunition for the first time on a turn or ends its turn there, one piece of ammunition flies up to strike it. The creature must succeed on a Dexterity saving throw or take 2d4 Piercing damage. The piece of ammunition is then destroyed. The spell ends when none of the ammunition remains planted in the ground.",
+      "fr": "Vous touchez jusqu’à quatre flèches ou carreaux non magiques et les plantez dans le sol de votre espace. Jusqu’à la fin du sort, ces munitions ne peuvent pas être arrachées physiquement. Chaque fois qu’une créature autre que vous entre dans un espace situé à 30 feet ou moins des munitions pour la première fois d’un tour, ou y termine son tour, une munition s’élève pour la frapper. La créature doit réussir un jet de sauvegarde de Dextérité sous peine de subir 2d4 dégâts perforants. La munition est ensuite détruite. Le sort prend fin lorsqu’aucune munition ne reste plantée dans le sol.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Cordon of Arrows",
+      "en": "When you cast this spell, you can designate any creatures you choose, and the spell ignores them.",
+      "fr": "Lorsque vous lancez ce sort, vous pouvez désigner les créatures de votre choix, que le sort ignorera.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Cordon of Arrows",
+      "en": "The amount of ammunition that can be affected increases by two for each spell slot level above 2.",
+      "fr": "Le nombre de munitions pouvant être affectées augmente de deux par niveau d’emplacement de sort au-delà du niveau 2.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Crown of Madness",
+      "en": "One creature that you can see within range must succeed on a Wisdom saving throw or have the Charmed condition for the duration. The creature succeeds automatically if it isn’t Humanoid.",
+      "fr": "Une créature que vous voyez à portée doit réussir un jet de sauvegarde de Sagesse sous peine de subir l’état Charmé pendant toute la durée du sort. Elle réussit automatiquement si elle n’est pas un Humanoïde.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Crown of Madness",
+      "en": "A spectral crown appears on the Charmed target's head, and it must use its action before moving on each of its turns to make a melee attack against a creature other than itself that you mentally choose. The target can act normally on its turn if you choose no creature or if no creature is within its reach. The target repeats the save at the end of each of its turns, ending the spell on itself on a success.",
+      "fr": "Une couronne spectrale apparaît sur la tête de la cible Charmée. À chacun de ses tours, avant de se déplacer, elle doit utiliser son action pour effectuer une attaque de corps à corps contre une créature autre qu’elle-même que vous choisissez mentalement. Elle peut agir normalement si vous ne choisissez aucune créature ou si aucune créature n’est à sa portée. La cible répète le jet de sauvegarde à la fin de chacun de ses tours et met fin au sort sur elle-même en cas de réussite.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Crown of Madness",
+      "en": "On your later turns, you must take the Magic action to maintain control of the target, or the spell ends.",
+      "fr": "Lors de vos tours suivants, vous devez effectuer l’action Magie pour garder le contrôle de la cible, sans quoi le sort prend fin.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Find Steed",
+      "en": "You summon an otherworldly being that appears as a loyal steed in an unoccupied space of your choice within range. This creature uses the Otherworldly Steed stat block. If you already have a steed from this spell, the steed is replaced by the new one.",
+      "fr": "Vous invoquez un être d’outremonde qui apparaît sous la forme d’une fidèle monture dans un espace inoccupé de votre choix à portée. Cette créature utilise le profil de la Monture d’outremonde. Si vous possédez déjà une monture issue de ce sort, la nouvelle la remplace.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Find Steed",
+      "en": "The steed resembles a Large, rideable animal of your choice, such as a horse, a camel, a dire wolf, or an elk. Whenever you cast the spell, choose the steed’s creature type—Celestial, Fey, or Fiend—which determines certain traits in the stat block.",
+      "fr": "La monture ressemble à un animal de taille G que l’on peut monter, de votre choix, comme un cheval, un chameau, un loup sanguinaire ou un élan. Chaque fois que vous lancez le sort, choisissez son type de créature : Céleste, Fée ou Fiélon. Ce choix détermine certains traits de son profil.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Find Steed",
+      "en": "Combat. The steed is an ally to you and your allies. In combat, it shares your Initiative count, and it functions as a controlled mount while you ride it (as defined in the rules on mounted combat). If you have the Incapacitated condition, the steed takes its turn immediately after yours and acts independently, focusing on protecting you.",
+      "fr": "Combat. La monture est votre alliée et celle de vos alliés. En combat, elle partage votre résultat d’Initiative et fonctionne comme une monture contrôlée tant que vous la montez, selon les règles du combat monté. Si vous subissez l’état Neutralisé, elle joue son tour immédiatement après le vôtre et agit de façon indépendante, en s’efforçant de vous protéger.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Find Steed",
+      "en": "Disappearance of the Steed. The steed disappears if it drops to 0 Hit Points or if you die. When it disappears, it leaves behind anything it was wearing or carrying. If you cast this spell again, you decide whether you summon the steed that disappeared or a different one.",
+      "fr": "Disparition de la monture. La monture disparaît si elle tombe à 0 point de vie ou si vous mourez. Elle laisse alors sur place tout ce qu’elle portait ou transportait. Si vous lancez de nouveau ce sort, vous décidez d’invoquer la monture disparue ou une autre.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Find Steed",
+      "en": "Use the spell slot’s level for the spell’s level in the stat block.",
+      "fr": "Utilisez le niveau de l’emplacement de sort comme niveau du sort dans le profil.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Phantasmal Force",
+      "en": "You attempt to craft an illusion in the mind of a creature you can see within range. The target makes an Intelligence saving throw. On a failed save, you create a phantasmal object, creature, or other phenomenon that is no larger than a 10-foot Cube and that is perceivable only to the target for the duration. The phantasm includes sound, temperature, and other stimuli.",
+      "fr": "Vous tentez de créer une illusion dans l’esprit d’une créature que vous voyez à portée. La cible effectue un jet de sauvegarde d’Intelligence. En cas d’échec, vous créez un objet, une créature ou un autre phénomène illusoire qui tient dans un Cube de 10 feet et que seule la cible perçoit pendant toute la durée du sort. L’illusion comprend les sons, la température et d’autres stimuli.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Phantasmal Force",
+      "en": "The target can take a Study action to examine the phantasm with an Intelligence (Investigation) check against your spell save DC. If the check succeeds, the target realizes that the phantasm is an illusion, and the spell ends.",
+      "fr": "La cible peut effectuer l’action Étude pour examiner l’illusion avec un test d’Intelligence (Investigation) contre votre DD de sauvegarde des sorts. En cas de réussite, elle comprend qu’il s’agit d’une illusion et le sort prend fin.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Phantasmal Force",
+      "en": "While affected by the spell, the target treats the phantasm as if it were real and rationalizes any illogical outcomes from interacting with it. For example, if the target steps through a phantasmal bridge and survives the fall, it believes the bridge exists and something else caused it to fall.",
+      "fr": "Tant qu’elle est affectée par le sort, la cible considère l’illusion comme réelle et trouve une explication à toute conséquence illogique de ses interactions avec elle. Par exemple, si elle traverse un pont illusoire et survit à la chute, elle croit que le pont existe et qu’un autre événement a causé sa chute.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Phantasmal Force",
+      "en": "An affected target can even take damage from the illusion if the phantasm represents a dangerous creature or hazard. On each of your turns, such a phantasm can deal 2d8 Psychic damage to the target if it is in the phantasm’s area or within 5 feet of the phantasm. The target perceives the damage as a type appropriate to the illusion.",
+      "fr": "La cible affectée peut même subir des dégâts si l’illusion représente une créature ou un danger. À chacun de vos tours, cette illusion peut lui infliger 2d8 dégâts psychiques si elle se trouve dans la zone de l’illusion ou à 5 feet ou moins de celle-ci. La cible perçoit ces dégâts comme étant d’un type adapté à l’illusion.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Ray of Enfeeblement",
+      "en": "A beam of enervating energy shoots from you toward a creature within range. The target must make a Constitution saving throw. On a successful save, the target has Disadvantage on the next attack roll it makes until the start of your next turn.",
+      "fr": "Un rayon d’énergie affaiblissante jaillit de vous vers une créature à portée. La cible doit effectuer un jet de sauvegarde de Constitution. En cas de réussite, elle subit le Désavantage au prochain jet d’attaque qu’elle effectue avant le début de votre prochain tour.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Ray of Enfeeblement",
+      "en": "On a failed save, the target has Disadvantage on Strength-based D20 Tests for the duration. During that time, it also subtracts 1d8 from all its damage rolls. The target repeats the save at the end of each of its turns, ending the spell on a success.",
+      "fr": "En cas d’échec, la cible subit le Désavantage aux tests D20 basés sur la Force pendant toute la durée du sort. Pendant ce temps, elle soustrait également 1d8 à tous ses jets de dégâts. Elle répète le jet de sauvegarde à la fin de chacun de ses tours et met fin au sort en cas de réussite.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Spider Climb",
+      "en": "You can target one additional creature for each spell slot level about 2.",
+      "fr": "Vous pouvez cibler une créature supplémentaire par niveau d’emplacement de sort au-delà du niveau 2.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Summon Beast",
+      "en": "You call forth a bestial spirit. It manifests in an unoccupied space that you can see within range and uses the Bestial Spirit stat block. When you cast the spell, choose an environment: Air, Land, or Water. The creature resembles an animal of your choice that is native to the chosen environment, which determines certain details in its stat block. The creature disappears when it drops to 0 Hit Points or when the spell ends.",
+      "fr": "Vous invoquez un esprit bestial. Il se manifeste dans un espace inoccupé que vous voyez à portée et utilise le profil de l’Esprit bestial. Lorsque vous lancez le sort, choisissez un milieu : aérien, terrestre ou aquatique. La créature ressemble à un animal de votre choix originaire de ce milieu, qui détermine certains détails de son profil. Elle disparaît lorsqu’elle tombe à 0 point de vie ou lorsque le sort prend fin.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Summon Beast",
+      "en": "The creature is an ally to you and your allies. In combat, the creature shares your Initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don’t issue any, it takes the Dodge action and uses its movement to avoid danger.",
+      "fr": "La créature est votre alliée et celle de vos alliés. En combat, elle partage votre résultat d’Initiative, mais joue son tour immédiatement après le vôtre. Elle obéit à vos ordres verbaux, sans action de votre part. En l’absence d’ordre, elle effectue l’action Esquive et utilise son déplacement pour éviter le danger.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Aura of Vitality",
+      "en": "An aura radiates from you in a 30-foot Emanation for the duration. When you create the aura and at the start of each of your turns while it persists, you can restore 2d6 Hit Points to one creature in it.",
+      "fr": "Une aura émane de vous dans une Émanation de 30 feet pendant toute la durée du sort. Lorsque vous la créez et au début de chacun de vos tours tant qu’elle persiste, vous pouvez faire récupérer 2d6 points de vie à une créature dans l’aura.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Bestow Curse",
+      "en": "In combat, the target must succeed on a Wisdom saving throw at the start of each of its turns or be forced to take the action on that turn.",
+      "fr": "En combat, la cible doit réussir un jet de sauvegarde de Sagesse au début de chacun de ses tours, sous peine d’être contrainte d’effectuer l’action à ce tour.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Blinding Smite",
+      "en": "The target hit by the strike takes an extra 3d8 Radiant damage from the attack, and the target has the Blinded condition until the spell ends. At the end of each of its turns, the Blinded target makes a Constitution saving throw, ending the spell on itself on a success.",
+      "fr": "La cible touchée par le coup subit 3d8 dégâts radiants supplémentaires de l’attaque et l’état Aveuglé jusqu’à la fin du sort. À la fin de chacun de ses tours, elle effectue un jet de sauvegarde de Constitution et met fin au sort sur elle-même en cas de réussite.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Blinding Smite",
+      "en": "The extra damage increases by 1d8 for each spell slot level above 3.",
+      "fr": "Les dégâts supplémentaires augmentent de 1d8 par niveau d’emplacement de sort au-delà du niveau 3.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Call Lightning",
+      "en": "A storm cloud appears at a point within range that you can see above yourself. It takes the shape of a Cylinder that is 10 feet tall with a 60-foot radius.",
+      "fr": "Un nuage d’orage apparaît en un point à portée que vous voyez au-dessus de vous. Il prend la forme d’un Cylindre de 10 feet de haut et de 60 feet de rayon.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Call Lightning",
+      "en": "When you cast the spell, choose a point you can see under the cloud. A lightning bolt shoots from the cloud to that point. Each creature within 5 feet of that point makes a Dexterity saving throw, taking 3d10 Lightning damage on a failed save or half as much damage on a successful one.",
+      "fr": "Lorsque vous lancez le sort, choisissez un point que vous voyez sous le nuage. Un éclair jaillit du nuage jusqu’à ce point. Chaque créature située à 5 feet ou moins de ce point effectue un jet de sauvegarde de Dextérité et subit 3d10 dégâts de foudre en cas d’échec, ou la moitié en cas de réussite.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Call Lightning",
+      "en": "Until the spell ends, you can take a Magic action to call down lightning in that way again, targeting the same point or a different one.",
+      "fr": "Jusqu’à la fin du sort, vous pouvez effectuer l’action Magie pour faire tomber un nouvel éclair de cette manière, en ciblant le même point ou un autre.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Call Lightning",
+      "en": "If you’re outdoors in a storm when you cast this spell, the spell gives you control over that storm instead of creating a new one. Under such conditions, the spell’s damage increases by 1d10.",
+      "fr": "Si vous êtes à l’extérieur sous un orage lorsque vous lancez ce sort, vous prenez le contrôle de cet orage au lieu de créer un nouveau nuage. Dans ces conditions, les dégâts du sort augmentent de 1d10.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Conjure Animals",
+      "en": "You conjure nature spirits that appear as a Large pack of spectral, intangible animals in an unoccupied space you can see within range. The pack lasts for the duration, and you choose the spirits’ animal form, such as wolves, serpents, or birds.",
+      "fr": "Vous invoquez des esprits de la nature qui apparaissent comme une meute de taille G d’animaux spectraux et intangibles dans un espace inoccupé que vous voyez à portée. La meute persiste pendant toute la durée du sort et vous choisissez la forme animale des esprits, comme des loups, des serpents ou des oiseaux.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Conjure Animals",
+      "en": "You have Advantage on Strength saving throws while you’re within 5 feet of the pack, and when you move on your turn, you can also move the pack up to 30 feet to an unoccupied space you can see.",
+      "fr": "Vous bénéficiez de l’Avantage aux jets de sauvegarde de Force tant que vous vous trouvez à 5 feet ou moins de la meute. Lorsque vous vous déplacez à votre tour, vous pouvez aussi déplacer la meute jusqu’à 30 feet vers un espace inoccupé que vous voyez.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Conjure Animals",
+      "en": "Whenever the pack moves within 10 feet of a creature you can see and whenever a creature you can see enters a space within 10 feet of the pack or ends its turn there, you can force that creature to make a Dexterity saving throw. On a failed save, the creature takes 3d10 Slashing damage. A creature makes this save only once per turn.",
+      "fr": "Chaque fois que la meute se déplace à 10 feet ou moins d’une créature que vous voyez, ou qu’une créature que vous voyez entre dans un espace situé à 10 feet ou moins de la meute ou y termine son tour, vous pouvez l’obliger à effectuer un jet de sauvegarde de Dextérité. En cas d’échec, elle subit 3d10 dégâts tranchants. Une créature n’effectue ce jet de sauvegarde qu’une seule fois par tour.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Conjure Barrage",
+      "en": "You brandish the weapon used to cast the spell and conjure similar spectral weapons (or ammunition appropriate to the weapon) that launch forward and then disappear. Each creature of your choice that you can see in a 60-foot Cone makes a Dexterity saving throw, taking 5d8 Force damage on a failed save or half as much damage on a successful one.",
+      "fr": "Vous brandissez l’arme utilisée pour lancer le sort et invoquez des armes spectrales similaires, ou des munitions adaptées, qui se projettent vers l’avant avant de disparaître. Chaque créature de votre choix que vous voyez dans un Cône de 60 feet effectue un jet de sauvegarde de Dextérité et subit 5d8 dégâts de force en cas d’échec, ou la moitié en cas de réussite.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Crusader’s Mantle",
+      "en": "You radiate a magical aura in a 30-foot Emanation. While in the aura, you and your allies each deal an extra 1d4 Radiant damage when hitting with a weapon or an Unarmed Strike.",
+      "fr": "Vous diffusez une aura magique dans une Émanation de 30 feet. Tant qu’ils se trouvent dans l’aura, vous et vos alliés infligez chacun 1d4 dégâts radiants supplémentaires lorsque vous touchez avec une arme ou une frappe à mains nues.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Feign Death",
+      "en": "You touch a willing creature and put it into a cataleptic state that is indistinguishable from death.",
+      "fr": "Vous touchez une créature consentante et la plongez dans un état cataleptique impossible à distinguer de la mort.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Feign Death",
+      "en": "For the duration, the target appears dead to outward inspection and to spells used to determine the target’s status. The target has the Blinded and Incapacitated conditions, and its Speed is 0.",
+      "fr": "Pendant toute la durée du sort, la cible semble morte à tout examen extérieur et aux sorts servant à déterminer son état. Elle subit les états Aveuglé et Neutralisé et sa Vitesse est de 0.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Feign Death",
+      "en": "The target also has Resistance to all damage except Psychic damage, and it has Immunity to the Poisoned condition.",
+      "fr": "La cible bénéficie également de la Résistance à tous les dégâts, sauf psychiques, et de l’Immunité contre l’état Empoisonné.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Fireball",
+      "en": "A bright streak flashes from you to a point you choose within range and then blossoms with a low roar into a fiery explosion. Each creature in a 20-foot-radius Sphere centered on that point makes a Dexterity saving throw, taking 8d6 Fire damage on a failed save or half as much damage on a successful one.",
+      "fr": "Un trait lumineux jaillit de vous jusqu’à un point de votre choix à portée, puis s’épanouit avec un grondement sourd en une explosion de flammes. Chaque créature dans une Sphère de 20 feet de rayon centrée sur ce point effectue un jet de sauvegarde de Dextérité et subit 8d6 dégâts de feu en cas d’échec, ou la moitié en cas de réussite.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Fireball",
+      "en": "Flammable objects in the area that aren’t being worn or carried start burning.",
+      "fr": "Les objets inflammables de la zone qui ne sont ni portés ni transportés prennent feu.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Glyph of Warding",
+      "en": "You inscribe a glyph that later unleashes a magical effect. You inscribe it either on a surface (such as a table or a section of floor) or within an object that can be closed (such as a book or chest) to conceal the glyph. The glyph can cover an area no larger than 10 feet in diameter. If the surface or object is moved more than 10 feet from where you cast this spell, the glyph is broken, and the spell ends without being triggered.",
+      "fr": "Vous inscrivez un glyphe qui libérera ensuite un effet magique. Vous le tracez soit sur une surface, comme une table ou une partie du sol, soit à l’intérieur d’un objet qui peut être fermé, comme un livre ou un coffre, afin de le dissimuler. Le glyphe ne peut pas couvrir une zone de plus de 10 feet de diamètre. Si la surface ou l’objet est déplacé de plus de 10 feet depuis le lieu de l’incantation, le glyphe est brisé et le sort prend fin sans se déclencher.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Glyph of Warding",
+      "en": "The glyph is nearly imperceptible and requires a successful Wisdom (Perception) check against your spell save DC to notice.",
+      "fr": "Le glyphe est presque imperceptible. Pour le remarquer, il faut réussir un test de Sagesse (Perception) contre votre DD de sauvegarde des sorts.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Glyph of Warding",
+      "en": "When you inscribe the glyph, you set its trigger and choose whether it’s an explosive rune or a spell glyph, as explained below.",
+      "fr": "Lorsque vous inscrivez le glyphe, vous définissez son déclencheur et choisissez entre une rune explosive et un glyphe de sort, comme expliqué ci-dessous.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Glyph of Warding",
+      "en": "You decide what triggers the glyph when you cast the spell. For glyphs inscribed on a surface, common triggers include touching or stepping on the glyph, removing another object covering it, or approaching within a certain distance of it. For glyphs inscribed within an object, common triggers include opening that object or seeing the glyph. Once a glyph is triggered, this spell ends.",
+      "fr": "Vous décidez de ce qui déclenche le glyphe lorsque vous lancez le sort. Pour un glyphe tracé sur une surface, les déclencheurs habituels comprennent le fait de le toucher, de marcher dessus, de retirer un objet qui le recouvre ou de s’en approcher à une certaine distance. Pour un glyphe tracé dans un objet, les déclencheurs habituels comprennent le fait d’ouvrir cet objet ou de voir le glyphe. Une fois le glyphe déclenché, ce sort prend fin.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Glyph of Warding",
+      "en": "You can refine the trigger so that only creatures of certain types activate it (for example, the glyph could be set to affect Aberrations). You can also set conditions for creatures that don’t trigger the glyph, such as those who say a certain password.",
+      "fr": "Vous pouvez affiner le déclencheur pour que seules les créatures de certains types activent le glyphe ; il pourrait, par exemple, n’affecter que les Aberrations. Vous pouvez aussi fixer des conditions pour les créatures qui ne le déclenchent pas, comme celles qui prononcent un certain mot de passe.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Glyph of Warding",
+      "en": "You can store a prepared spell of level 3 or lower in the glyph by casting it as part of creating the glyph. The spell must target a single creature or an area. The spell being stored has no immediate effect when cast in this way.",
+      "fr": "Vous pouvez stocker dans le glyphe un sort préparé de niveau 3 ou inférieur en le lançant lors de la création du glyphe. Ce sort doit cibler une seule créature ou une zone. Le sort stocké ne produit aucun effet immédiat lorsqu’il est lancé de cette manière.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Glyph of Warding",
+      "en": "When the glyph is triggered, the stored spell takes effect. If the spell has a target, it targets the creature that triggered the glyph. If the spell affects an area, the area is centered on that creature. If the spell summons Hostile creatures or creates harmful objects or traps, they appear as close as possible to the intruder and attack it. If the spell requires Concentration, it lasts until the end of its full duration.",
+      "fr": "Lorsque le glyphe est déclenché, le sort stocké prend effet. S’il cible une créature, il vise celle qui a déclenché le glyphe. S’il affecte une zone, celle-ci est centrée sur cette créature. Si le sort invoque des créatures Hostiles ou crée des objets dangereux ou des pièges, ils apparaissent aussi près que possible de l’intrus et l’attaquent. Si le sort nécessite de la Concentration, il persiste jusqu’au terme de sa durée complète.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Hunger of Hadar",
+      "en": "You open a gateway to the Far Realm, a region infested with unspeakable horrors. A 20-foot-radius Sphere of Darkness appears, centered on a point with range and lasting for the duration. The Sphere is Difficult Terrain, and it is filled with strange whispers and slurping noises, which can be heard up to 30 feet away. No light, magical or otherwise, can illuminate the area, and creatures fully within it have the Blinded condition.",
+      "fr": "Vous ouvrez un passage vers le Royaume Lointain, une région infestée d’horreurs indicibles. Une Sphère de Ténèbres de 20 feet de rayon apparaît, centrée sur un point à portée, et persiste pendant toute la durée du sort. La Sphère constitue un Terrain difficile et résonne de murmures étranges et de bruits de succion audibles jusqu’à 30 feet. Aucune lumière, magique ou autre, ne peut éclairer la zone et les créatures entièrement à l’intérieur subissent l’état Aveuglé.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Hunger of Hadar",
+      "en": "Any creature that starts its turn in the area takes 2d6 Cold damage. Any creature that ends its turn there must succeed on a Dexterity saving throw or take 2d6 Acid damage from otherworldly tentacles.",
+      "fr": "Toute créature qui commence son tour dans la zone subit 2d6 dégâts de froid. Toute créature qui y termine son tour doit réussir un jet de sauvegarde de Dextérité sous peine de subir 2d6 dégâts d’acide infligés par des tentacules d’outremonde.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Hunger of Hadar",
+      "en": "The Cold or Acid damage (your choice) increases by 1d6 for each spell slot level above 3.",
+      "fr": "Les dégâts de froid ou d’acide, au choix, augmentent de 1d6 par niveau d’emplacement de sort au-delà du niveau 3.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Hypnotic Pattern",
+      "en": "You create a twisting pattern of colors in a 30-foot Cube within range. The pattern appears for a moment and vanishes. Each creature in the area who can see the pattern must succeed on a Wisdom saving throw or have the Charmed condition for the duration. While Charmed, the creature has the Incapacitated condition and a Speed of 0.",
+      "fr": "Vous créez un motif de couleurs tournoyantes dans un Cube de 30 feet à portée. Le motif apparaît un instant, puis disparaît. Chaque créature dans la zone qui peut le voir doit réussir un jet de sauvegarde de Sagesse sous peine de subir l’état Charmé pendant toute la durée du sort. Tant qu’elle est Charmée, la créature subit l’état Neutralisé et sa Vitesse est de 0.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Hypnotic Pattern",
+      "en": "The spell ends for an affected creature if it takes any damage or if someone else uses an action to shake the creature out of its stupor.",
+      "fr": "Le sort prend fin pour une créature affectée si elle subit des dégâts ou si quelqu’un utilise une action pour la secouer et la tirer de sa stupeur.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Lightning Arrow",
+      "en": "As your attack hits or misses the target, the weapon or ammunition you’re using transforms into a lightning bolt. Instead of taking any damage or other effects from the attack, the target takes 4d8 Lightning damage on a hit or half as much damage on a miss. Each creature within 10 feet of the target then makes a Dexterity saving throw, taking 2d8 Lightning damage on a failed save or half as much damage on a successful one.",
+      "fr": "Quand votre attaque touche ou manque la cible, l’arme ou la munition utilisée se transforme en éclair. Au lieu de subir les dégâts ou autres effets de l’attaque, la cible subit 4d8 dégâts de foudre si l’attaque touche, ou la moitié si elle manque. Chaque créature située à 10 feet ou moins de la cible effectue ensuite un jet de sauvegarde de Dextérité et subit 2d8 dégâts de foudre en cas d’échec, ou la moitié en cas de réussite.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Lightning Arrow",
+      "en": "The weapon or ammunition then returns to its normal form.",
+      "fr": "L’arme ou la munition reprend ensuite sa forme normale.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Lightning Arrow",
+      "en": "The damage for both effects of the spell increases by 1d8 for each spell slot level above 3.",
+      "fr": "Les dégâts des deux effets du sort augmentent de 1d8 par niveau d’emplacement de sort au-delà du niveau 3.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Meld into Stone",
+      "en": "You step into a stone object or surface large enough to fully contain your body, merging yourself and your equipment with the stone for the duration. You must touch the stone to do so. Nothing of your presence remains visible or otherwise detectable by nonmagical senses.",
+      "fr": "Vous pénétrez dans un objet ou une surface de pierre assez grand pour contenir entièrement votre corps et fusionnez, avec votre équipement, avec la pierre pendant toute la durée du sort. Vous devez toucher la pierre pour y entrer. Votre présence ne laisse aucune trace visible ni détectable par des sens non magiques.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Meld into Stone",
+      "en": "While merged with the stone, you can’t see what occurs outside it, and any Wisdom (Perception) checks you make to hear sounds outside it are made with Disadvantage. You remain aware of the passage of time and can cast spells on yourself while merged in the stone. You can use 5 feet of movement to leave the stone where you entered it, which ends the spell. You otherwise can’t move.",
+      "fr": "Tant que vous êtes fusionné avec la pierre, vous ne voyez pas ce qui se passe à l’extérieur et subissez le Désavantage aux tests de Sagesse (Perception) effectués pour entendre des sons extérieurs. Vous restez conscient du passage du temps et pouvez lancer des sorts sur vous-même. Vous pouvez utiliser 5 feet de déplacement pour ressortir à l’endroit où vous êtes entré, ce qui met fin au sort. Vous ne pouvez pas vous déplacer autrement.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Meld into Stone",
+      "en": "Minor physical damage to the stone doesn’t harm you, but its partial destruction or a change in its shape (to the extent that you no longer fit within it) expels you and deals 6d6 Force damage to you. The stone’s complete destruction (or transmutation into a different substance) expels you and deals 50 Force damage to you. If expelled, you move into an unoccupied space closest to where you first entered and have the Prone condition.",
+      "fr": "Des dégâts physiques mineurs infligés à la pierre ne vous blessent pas. Sa destruction partielle ou une modification de sa forme qui ne vous laisse plus assez de place vous expulse et vous inflige 6d6 dégâts de force. Sa destruction totale, ou sa transmutation en une autre substance, vous expulse et vous inflige 50 dégâts de force. Si vous êtes expulsé, vous apparaissez dans l’espace inoccupé le plus proche de votre point d’entrée et subissez l’état À terre.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Phantom Steed",
+      "en": "A Large, quasi-real, horselike creature appears on the ground in an unoccupied space of your choice within range. You decide the creature’s appearance, and it is equipped with a saddle, bit, and bridle. Any of the equipment created by the spell vanishes in a puff of smoke if it is carried more than 10 feet away from the steed.",
+      "fr": "Une créature de taille G, quasi réelle et semblable à un cheval, apparaît sur le sol dans un espace inoccupé de votre choix à portée. Vous décidez de son apparence. Elle est équipée d’une selle, d’un mors et d’une bride. Tout équipement créé par ce sort disparaît dans un nuage de fumée s’il est emporté à plus de 10 feet de la monture.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Phantom Steed",
+      "en": "For the duration, you or a creature you choose can ride the steed. The steed uses the Riding Horse stat block (see appendix B), except it has a Speed of 100 feet and can travel 13 miles in an hour. When the spell ends, the steed gradually fades, giving the rider 1 minute to dismount. The spell ends early if the steed takes any damage.",
+      "fr": "Pendant toute la durée du sort, vous ou une créature de votre choix pouvez monter cette monture. Elle utilise le profil du Cheval de selle, à l’annexe B, mais possède une Vitesse de 100 feet et peut parcourir 13 miles en une heure. À la fin du sort, elle s’estompe progressivement et laisse 1 minute à son cavalier pour descendre. Le sort prend fin prématurément si la monture subit des dégâts.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Sending",
+      "en": "You send a short message of 25 words or fewer to a creature you have met or a creature described to you by someone who has met it. The target hears the message in its mind, recognizes you as the sender if it knows you, and can answer in a like manner immediately. The spell enables targets to understand the meaning of your message.",
+      "fr": "Vous envoyez un court message de 25 mots au maximum à une créature que vous avez rencontrée, ou qu’une personne l’ayant rencontrée vous a décrite. La cible entend le message dans son esprit, vous reconnaît comme son expéditeur si elle vous connaît et peut répondre immédiatement de la même manière. Le sort permet à la cible de comprendre le sens de votre message.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Sending",
+      "en": "You can send the message across any distance and even to other planes of existence, but if the target is on a different plane than you, there is a 5 percent chance that the message doesn’t arrive. You know if the delivery fails.",
+      "fr": "Vous pouvez transmettre le message à n’importe quelle distance, et même vers d’autres plans d’existence. Toutefois, si la cible se trouve sur un autre plan que vous, il y a 5 pour cent de chances que le message n’arrive pas. Vous savez si la transmission échoue.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Sending",
+      "en": "Upon receiving your message, a creature can block your ability to reach it again with this spell for 8 hours. If you try to send another message during that time, you learn that you are blocked, and the spell fails.",
+      "fr": "Après avoir reçu votre message, une créature peut vous empêcher de la contacter de nouveau avec ce sort pendant 8 heures. Si vous tentez de lui envoyer un autre message pendant ce temps, vous apprenez qu’elle vous a bloqué et le sort échoue.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Sleet Storm",
+      "en": "Until the spell ends, sleet falls in a 40-foot-tall, 20-foot-radius Cylinder centered on a point you choose within range. The area is Heavily Obscured, and exposed flames in the area are doused.",
+      "fr": "Jusqu’à la fin du sort, de la neige fondue tombe dans un Cylindre de 40 feet de haut et de 20 feet de rayon, centré sur un point de votre choix à portée. La Visibilité de la zone est nulle et les flammes à découvert y sont éteintes.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Sleet Storm",
+      "en": "Ground in the Cylinder is Difficult Terrain. When a creature enters the Cylinder for the first time on a turn or starts its turn there, it must succeed on a Dexterity saving throw or have the Prone condition and lose Concentration.",
+      "fr": "Le sol du Cylindre constitue un Terrain difficile. Lorsqu’une créature y entre pour la première fois d’un tour ou y commence son tour, elle doit réussir un jet de sauvegarde de Dextérité sous peine de subir l’état À terre et de perdre sa Concentration.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Spirit Guardians",
+      "en": "Protective spirits flit around you in a 15-foot Emanation for the duration. If you are good or neutral, their spectral form appears angelic or fey (your choice). If you are evil, they appear fiendish.",
+      "fr": "Des esprits protecteurs voltigent autour de vous dans une Émanation de 15 feet pendant toute la durée du sort. Si vous êtes bon ou neutre, leur forme spectrale est angélique ou féerique, au choix. Si vous êtes mauvais, elle est fiélonne.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Spirit Guardians",
+      "en": "When you cast this spell, you can designate creatures to be unaffected by it. Any other creature’s Speed is halved in the Emanation, and whenever the Emanation enters a creature’s space and whenever a creature enters the Emanation or ends its turn there, the creature must make a Wisdom saving throw. On a failed save, the creature takes 3d8 Radiant damage (if you are good or neutral) or 3d8 Necrotic damage (if you are evil). On a successful save, the creature takes half as much damage. A creature makes this save only once per turn.",
+      "fr": "Lorsque vous lancez ce sort, vous pouvez désigner des créatures qui ne seront pas affectées. La Vitesse de toute autre créature est réduite de moitié dans l’Émanation. Chaque fois que l’Émanation pénètre dans l’espace d’une créature, ou qu’une créature entre dans l’Émanation ou y termine son tour, elle doit effectuer un jet de sauvegarde de Sagesse. En cas d’échec, elle subit 3d8 dégâts radiants si vous êtes bon ou neutre, ou 3d8 dégâts nécrotiques si vous êtes mauvais. En cas de réussite, elle subit la moitié des dégâts. Une créature n’effectue ce jet de sauvegarde qu’une seule fois par tour.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Stinking Cloud",
+      "en": "You create a 20-foot-radius Sphere of yellow, nauseating gas centered on a point within range. The cloud is Heavily Obscured. The cloud lingers in the air for the duration or until a strong wind (such as the one created by Gust of Wind) disperses it.",
+      "fr": "Vous créez une Sphère de gaz jaune et nauséabond de 20 feet de rayon, centrée sur un point à portée. Le nuage présente une Visibilité nulle et persiste pendant toute la durée du sort, ou jusqu’à ce qu’un vent puissant, comme celui créé par Bourrasque, le disperse.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Stinking Cloud",
+      "en": "Each creature that starts its turn in the Sphere must succeed on a Constitution saving throw or have the Poisoned condition until the end of the current turn. While Poisoned in this way, the creature can’t take an action or a Bonus Action.",
+      "fr": "Chaque créature qui commence son tour dans la Sphère doit réussir un jet de sauvegarde de Constitution sous peine de subir l’état Empoisonné jusqu’à la fin du tour en cours. Tant qu’elle est Empoisonnée de cette manière, elle ne peut effectuer ni action ni action Bonus.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Summon Fey",
+      "en": "You call forth a Fey spirit. It manifests in an unoccupied space that you can see within range and uses the Fey Spirit stat block. When you cast the spell, choose a mood: Fuming, Mirthful, or Tricksy. The creature resembles a Fey creature of your choice marked by the chosen mood, which determines certain details in its stat block. The creature disappears when it drops to 0 Hit Points or when the spell ends.",
+      "fr": "Vous invoquez un esprit féerique. Il se manifeste dans un espace inoccupé que vous voyez à portée et utilise le profil de l’Esprit féerique. Lorsque vous lancez le sort, choisissez une humeur : furieux, joyeux ou rusé. La créature ressemble à une Fée de votre choix marquée par cette humeur, qui détermine certains détails de son profil. Elle disparaît lorsqu’elle tombe à 0 point de vie ou lorsque le sort prend fin.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Summon Undead",
+      "en": "You call forth an Undead spirit. It manifests in an unoccupied space that you can see within range and uses the Undead Spirit stat block. When you cast the spell, choose the creature’s form: Ghostly, Putrid, or Skeletal. The spirit resembles an Undead creature with the chosen form, which determines certain details in its stat block. The creature disappears when it drops to 0 Hit Points or when the spell ends.",
+      "fr": "Vous invoquez un esprit mort-vivant. Il se manifeste dans un espace inoccupé que vous voyez à portée et utilise le profil de l’Esprit mort-vivant. Lorsque vous lancez le sort, choisissez sa forme : fantomatique, putride ou squelettique. L’esprit ressemble à un Mort-vivant de la forme choisie, qui détermine certains détails de son profil. Il disparaît lorsqu’il tombe à 0 point de vie ou lorsque le sort prend fin.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Vampiric Touch",
+      "en": "The touch of your shadow-wreathed hand can siphon life force from others to heal your wounds. Make a melee spell attack against one creature within reach. On a hit, the target takes 3d6 Necrotic damage, and you regain Hit Points equal to half the amount of Necrotic damage dealt.",
+      "fr": "Le contact de votre main enveloppée d’ombres peut puiser dans la force vitale d’autrui pour soigner vos blessures. Effectuez une attaque de sort de corps à corps contre une créature à votre portée. Si elle touche, la cible subit 3d6 dégâts nécrotiques et vous récupérez un nombre de points de vie égal à la moitié des dégâts nécrotiques infligés.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Vampiric Touch",
+      "en": "Until the spell ends, you can make the attack again on each of your turns as a Magic action, targeting the same creature or a different one.",
+      "fr": "Jusqu’à la fin du sort, vous pouvez répéter cette attaque à chacun de vos tours par une action Magie, contre la même créature ou une autre.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Water Walk",
+      "en": "This spell grants the ability to move across any liquid surface—such as water, acid, mud, snow, quicksand, or lava—as if it were harmless solid ground (creatures crossing molten lava can still take damage from the heat). Up to ten willing creatures of your choice within range gain this ability for the duration.",
+      "fr": "Ce sort permet de se déplacer sur toute surface liquide, comme l’eau, l’acide, la boue, la neige, les sables mouvants ou la lave, comme s’il s’agissait d’un sol solide inoffensif. Les créatures traversant de la lave en fusion peuvent tout de même subir des dégâts dus à la chaleur. Jusqu’à dix créatures consentantes de votre choix à portée bénéficient de cette aptitude pendant toute la durée du sort.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Water Walk",
+      "en": "An affected target must take a Bonus Action to pass from the liquid’s surface into the liquid itself and vice versa, but if the target falls into the liquid, the target passes through the surface into the liquid below.",
+      "fr": "Une cible affectée doit utiliser une action Bonus pour passer de la surface du liquide à l’intérieur de celui-ci, ou inversement. Toutefois, si elle tombe dans le liquide, elle traverse la surface et s’enfonce dans le liquide.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Aura of Purity",
+      "en": "An aura radiates from you in a 30-foot Emanation for the duration. While in the aura, you and your allies have Resistance to Poison damage and Advantage on saving throws to avoid or end effects that include the Blinded, Charmed, Deafened, Frightened, Paralyzed, Poisoned, or Stunned condition.",
+      "fr": "Une aura émane de vous dans une Émanation de 30 feet pendant toute la durée du sort. Tant qu’ils se trouvent dans l’aura, vous et vos alliés bénéficiez de la Résistance aux dégâts de poison et de l’Avantage aux jets de sauvegarde pour éviter ou mettre fin à des effets comprenant les états Aveuglé, Charmé, Assourdi, Effrayé, Paralysé, Empoisonné ou Étourdi.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Banishment",
+      "en": "One creature that you can see within range must succeed on a Charisma saving throw or be transported to a harmless demiplane for the duration. While there, the target has the Incapacitated condition. When the spell ends, the target reappears in the space it left or in the nearest unoccupied space if that space is occupied.",
+      "fr": "Une créature que vous voyez à portée doit réussir un jet de sauvegarde de Charisme sous peine d’être transportée dans un demi-plan inoffensif pendant toute la durée du sort. Elle y subit l’état Neutralisé. À la fin du sort, elle réapparaît dans l’espace qu’elle occupait, ou dans l’espace inoccupé le plus proche si celui-ci est occupé.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Banishment",
+      "en": "If the target is an Aberration, a Celestial, an Elemental, a Fey, or a Fiend, the target doesn’t return if the spell lasts for 1 minute. The target is instead transported to a random location on a plane (DM’s choice) associated with its creature type.",
+      "fr": "Si la cible est une Aberration, un Céleste, un Élémentaire, une Fée ou un Fiélon, elle ne revient pas si le sort persiste pendant 1 minute. Elle est alors transportée vers un lieu aléatoire d’un plan choisi par le MJ et associé à son type de créature.",
+      "previouslyCovered": false,
+      "contextRecovered": false
+    },
+    {
+      "name": "Blight",
+      "en": "A creature that you can see within range makes a Constitution saving throw, taking 8d8 Necrotic damage on a failed save or half as much damage on a successful one. A Plant creature automatically fails the save.",
+      "fr": "Une créature que vous voyez à portée effectue un jet de sauvegarde de Constitution et subit 8d8 dégâts nécrotiques en cas d’échec, ou la moitié en cas de réussite. Une créature de type Plante rate automatiquement ce jet de sauvegarde.",
+      "previouslyCovered": false,
+      "contextRecovered": true
+    }
+  ],
+  "extraCases": [
+    {
+      "name": "Bestow Curse",
+      "en": "In combat, the target must succeed on a Wisdom saving throw at the start of each of its turns or be forced to take the Dodge action on that turn.",
+      "fr": "Au combat, la cible doit réussir un jet de sauvegarde de Sagesse au début de chacun de ses tours sous peine de devoir entreprendre l’action Esquive à ce tour.",
+      "previouslyCovered": true
+    }
+  ]
+}

@@ -15,7 +15,7 @@ function setup(kind='item',remote=false){
  w.GM_getValue=(k,f)=>f;w.GM_setValue=()=>{};w.GM_registerMenuCommand=()=>{};if(remote)w.GM_xmlhttpRequest=()=>{network++;};w.URL.createObjectURL=b=>{blob=b;return 'blob:local';};w.URL.revokeObjectURL=()=>{};w.HTMLAnchorElement.prototype.click=function(){downloads++;};
  w.eval(code);const root=[...d.querySelectorAll('[data-shard-fr-ignore]')].map(e=>e.shadowRoot).find(r=>r?.getElementById('inspectDescriptions'));
  const toggle=on=>{root.getElementById('showDescriptionStatus').checked=on;root.getElementById('showDescriptionStatus').dispatchEvent(new w.Event('change'));};
- const report=async()=>{root.getElementById('exportMissing').click();return new Promise(resolve=>{const r=new w.FileReader();r.onload=()=>resolve(JSON.parse(r.result));r.readAsText(blob);});};
+ const report=async()=>{root.getElementById('exportDescriptions').click();return new Promise(resolve=>{const r=new w.FileReader();r.onload=()=>resolve(JSON.parse(r.result));r.readAsText(blob);});};
  return {w,d,root,cells,clicks,toggle,report,network:()=>network,edits:()=>edits};
 }
 (async()=>{
@@ -29,11 +29,11 @@ function setup(kind='item',remote=false){
   const report=await t.report();assert.equal(report.scope,'catalogue-descriptions');assert.ok(report.descriptions.every(r=>!('association' in r)),'Le rapport ne contient plus d’associations');assert.deepEqual(report.descriptions.map(r=>r.status),['clear','incomplete','empty','clear']);
   assert.ok(report.descriptions[1].missing.some(r=>r.en===unknown));assert.equal(report.descriptions[1].missing.some(r=>r.en===known),false);
   assert.doesNotMatch(JSON.stringify(report),/PRIVATE_|Weight|2 lb\.|Source\. A book/,'Exclusion des champs, masques et caractéristiques hors description');
-  assert.match(t.cells[1].textContent,/Description : à compléter/);
+  assert.match(t.cells[1].textContent,/Description : à compléter/);assert.equal(t.cells[1].hasAttribute('data-shard-fr-description-missing'),true,'Un contour rouge signale la description incomplète');assert.equal(t.cells[0].hasAttribute('data-shard-fr-description-missing'),false);assert.equal(t.cells[0].querySelector('[data-shard-fr-description-status]'),null);
   // Ouvrir manuellement la fiche réexamine son contenu et met à jour le même badge.
   t.cells[1].click();await wait(()=>t.d.querySelector('[role="dialog"] .pre-wrap p').textContent!==known);
   const paragraphs=t.d.querySelectorAll('[role="dialog"] .pre-wrap p');paragraphs[1].textContent='Cette horloge invoque un dragon.';
-  await wait(()=>t.cells[1].textContent.includes('aucun anglais repéré'),'Manual opening refreshes result');
+  await wait(()=>!t.cells[1].hasAttribute('data-shard-fr-description-missing'),'Manual opening refreshes result');assert.equal(t.cells[1].querySelector('[data-shard-fr-description-status]'),null,'Une description sans manque ne surcharge pas la liste');
   t.d.querySelector('[role="dialog"] .MuiDialogActions-root button:last-child').click();
   // Un passage suivant ignore les fiches déjà examinées ; le rapport reste local.
   t.root.getElementById('inspectDescriptions').click();assert.equal(t.clicks.length,5);
@@ -43,7 +43,7 @@ function setup(kind='item',remote=false){
   // Un long paragraphe hors borne ne doit jamais devenir un succès silencieux.
   t.cells[0].click();await wait(()=>t.d.querySelector('[role="dialog"] .pre-wrap p'));t.d.querySelector('[role="dialog"] .pre-wrap p').textContent=(unknown+' ').repeat(200);t.d.querySelectorAll('[role="dialog"] .pre-wrap p')[1].textContent='Une autre phrase française.';
   await wait(()=>t.cells[0].textContent.includes('vérification impossible'));t.d.querySelector('[role="dialog"] .MuiDialogActions-root button:last-child').click();
-  t.root.getElementById('clearMissing').click();assert.equal(t.d.querySelectorAll('[data-shard-fr-description-status]').length,0);assert.equal(t.root.getElementById('exportMissing').disabled,true);
+  t.root.getElementById('clearDescriptions').click();assert.equal(t.d.querySelectorAll('[data-shard-fr-description-status]').length,0);assert.equal(t.root.getElementById('exportDescriptions').disabled,true);assert.equal(t.d.querySelectorAll('[data-shard-fr-description-missing]').length,0);
   t.toggle(false);assert.equal(t.root.getElementById('inspectDescriptions').disabled,true);
  }finally{t.w.close();}
  const stopped=setup('spell');try{
@@ -51,7 +51,7 @@ function setup(kind='item',remote=false){
   stopped.root.getElementById('stopDescriptions').click();await wait(()=>stopped.root.getElementById('stopDescriptions').disabled);
   assert.equal(stopped.clicks.length,1,'L’arrêt ne parcourt pas les fiches suivantes');assert.equal(stopped.d.querySelector('[role="dialog"]'),null,'La fiche ouverte automatiquement est refermée');assert.match(stopped.root.getElementById('descriptionStatus').textContent,/arrêtée/);assert.equal(stopped.d.querySelectorAll('[data-shard-fr-description-status]').length,0,'Pas d’état pour une fiche interrompue avant examen');
   stopped.root.getElementById('inspectDescriptions').click();await wait(()=>stopped.d.querySelector('[role="dialog"]'));
-  stopped.w.location.hash='#home';await wait(()=>stopped.root.getElementById('stopDescriptions').disabled);assert.equal(stopped.root.getElementById('exportMissing').disabled,true);assert.equal(stopped.d.querySelectorAll('[data-shard-fr-description-status]').length,0);
+  stopped.w.location.hash='#home';await wait(()=>stopped.root.getElementById('stopDescriptions').disabled);assert.equal(stopped.root.getElementById('exportDescriptions').disabled,true);assert.equal(stopped.d.querySelectorAll('[data-shard-fr-description-status]').length,0);
  }finally{stopped.w.close();}
  const manual=setup('monster');try{
   manual.toggle(true);manual.cells[1].click();await wait(()=>manual.cells[1].textContent.includes('à compléter'));
@@ -61,7 +61,7 @@ function setup(kind='item',remote=false){
  }finally{manual.w.close();}
  const pendingReference=setup('spell',true);try{
   pendingReference.toggle(true);pendingReference.cells[0].click();await wait(()=>pendingReference.d.querySelector('[role="dialog"] .pre-wrap p')?.textContent!==known);
-  pendingReference.d.querySelector('[role="dialog"] .MuiDialogActions-root button:last-child').click();pendingReference.root.getElementById('clearMissing').click();
+  pendingReference.d.querySelector('[role="dialog"] .MuiDialogActions-root button:last-child').click();pendingReference.root.getElementById('clearDescriptions').click();
   const before=pendingReference.network();pendingReference.root.getElementById('inspectDescriptions').click();await wait(()=>pendingReference.root.getElementById('descriptionStatus').textContent.includes('terminée'));
   assert.equal(pendingReference.network(),before,'Le parcours ne déclenche pas de nouvelles références distantes');assert.equal((await pendingReference.report()).descriptions[0].status,'clear','Une référence distante en attente ne masque pas un texte déjà traduit');
  }finally{pendingReference.w.close();}

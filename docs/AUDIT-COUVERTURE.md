@@ -1,5 +1,27 @@
 # Audit de couverture — 13 octobre 2026
 
+## Rapport de sorts 1.17.20 reçu en collage coupé — 1.17.22
+
+L’en-tête annonce 560 candidats, mais le fichier reçu se termine avant la fin de l’entrée de Flétrissement. Les valeurs JSON anglaises complètes récupérables donnent 123 occurrences, soit 118 passages distincts. Les 23 passages du lot précédent sont conservés sans duplication ; les 95 autres reçoivent une correspondance, pour 40 sorts supplémentaires (94 passages descriptifs et le libellé Présages). Le nom manquant du dernier passage est retrouvé par comparaison avec le paragraphe de Flétrissement de l’inventaire HTML local. Le reste des 560 candidats n’est pas présent et n’est pas déclaré traité. Le [relevé de contrôle](../tests/fixtures/diagnostic-spell-descriptions-11720.json) conserve ces limites.
+
+Le lot couvre notamment Rire hideux de Tasha, Disque flottant de Tenser, Messager animal, les convocations, Monture, Force fantasmagorique, Boule de feu, Glyphe de garde, Gardiens spirituels, Bannissement et le premier paragraphe reçu de Flétrissement. Il conserve les nombres, les dés, les unités et les formulations 2024 du texte Shard, y compris les variantes de titres d’amélioration contenant la coquille anglaise « about ». Les traductions françaises proposées restituent le sens sans modifier les règles.
+
+Le reliquat de Malédiction avait perdu le lien Dodge déjà traduit. La traduction complète existait dans les segments SRD ; sa mise en place échouait parce que le lien est nommé « Esquiver » dans le lexique, alors que le paragraphe français emploie « l’action Esquive ». La reconnaissance des ancres accepte désormais ce nom dans les paragraphes traduits, sans changer le libellé des contrôles ni leurs gestionnaires. Le test couvre les 118 passages reçus, la phrase complète de Malédiction, les dés et liens, l’absence de candidats résiduels et la restauration exacte de l’anglais.
+
+## Rapport de sorts et séparation des diagnostics — 1.17.21
+
+Le rapport utilisateur 1.17.19 comporte 87 fiches : 74 sans anglais repéré, 11 à compléter, une en chargement et une non vérifiée. Ses 23 candidats distincts sont maintenant associés à des traductions exactes, pour 12 sorts : Lumières dansantes, Flamme, Mains brûlantes, Déguisement, Enchevêtrement, Lueurs féeriques, Baies nourricières, Graisse, Maléfice, Marque du chasseur, Identification et Script illusoire. Les paragraphes sont rangés dans le pack des sorts PHB 2024 ; nombres, dés et unités sont conservés.
+
+Le panneau sépare désormais le relevé de page et le contrôle des descriptions, avec leurs états, listes, boutons d’effacement et exports indépendants. Les fichiers sont `shard-dnd-fr-page.json` et `shard-dnd-fr-descriptions.json`. L’ancien bouton commun exportait le dernier rapport produit ; les résultats n’étaient pas fusionnés, mais l’interface ne permettait pas de choisir clairement.
+
+Les fiches dont la description reste incomplète ont un contour rouge. Les états sans manque et sans description ne surchargent plus les noms de libellés ; le récapitulatif et l’export conservent ces états. Les résultats du panneau se concentrent sur les fiches à examiner. Les tests contrôlent les deux ordres d’analyse, la conservation des rapports, leurs noms de fichiers, l’effacement indépendant des contours et la traduction des 23 paragraphes avec les dés interactifs. Le choix des sources 2024 du lot précédent est conservé.
+
+## Choix de source dans le vérificateur — 1.17.20
+
+Le blocage sur Bouclier a été reproduit dans Shard : le clic ouvre un menu de sources et non directement un dialogue. Deux options mentionnent le PHB 2024, mais la première a `Shard Player’s Guide Volume 1` pour source principale. Le vérificateur sélectionne maintenant l’option dont la source principale est D&D 2024, puis attend la fiche. Lorsque plusieurs livres 2024 sont proposés, le PHB est privilégié pour les sorts et dons, le MM pour les monstres et le DMG pour les objets.
+
+Si aucune option 2024 utilisable n’est présente, le choix est fermé, l’entrée est signalée et le parcours continue. Un arrêt ferme également le choix de source ouvert par le parcours. La sélection automatique s’applique uniquement pendant ce parcours ; les consultations manuelles conservent leur choix de livre. Les tests utilisent les structures du menu et de la fiche Bouclier relevées dans Shard, et vérifient les sources mixtes, les options désactivées, l’arrêt, la poursuite et l’exclusion des menus sans rapport.
+
 ## Retrait du mode par nom — 1.17.19
 
 Le rapport utilisateur 1.17.18 porte sur 450 entrées : 429 associations non renseignées, une référence associée et 20 fiches déjà contrôlées sur leur texte. Cet index apporte trop peu d’information dans le catalogue réel. Le mode rapide par nom, ses indicateurs, ses données et sa génération sont retirés. Les associations mentionnées dans le bilan historique ci-dessous ne sont plus livrées. Les traductions ajoutées dans les lots précédents restent conservées.

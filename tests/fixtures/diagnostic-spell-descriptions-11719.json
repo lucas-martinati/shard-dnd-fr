@@ -1,0 +1,117 @@
+[
+  {
+    "name": "Dancing Lights",
+    "en": "You create up to four torch-size lights within range, making them appear as torches, lanterns, or glowing orbs that hover for the duration. Alternatively, you combine the four lights into one glowing Medium form that is vaguely humanlike. Whichever form you choose, each light sheds Dim Light in a 10-foot radius.",
+    "fr": "Vous créez jusqu’à quatre lumières de la taille d’une torche à portée, qui prennent l’apparence de torches, de lanternes ou d’orbes lumineux flottant pendant toute la durée du sort. Vous pouvez aussi réunir les quatre lumières en une forme lumineuse de taille M, vaguement humanoïde. Quelle que soit la forme choisie, chaque lumière diffuse une Lumière faible dans un rayon de 10 feet."
+  },
+  {
+    "name": "Produce Flame",
+    "en": "A flickering flame appears in your hand and remains there for the duration. While there, the flame emits no heat and ignites nothing, and it sheds Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. The spell ends if you cast it again.",
+    "fr": "Une flamme vacillante apparaît dans votre main et y demeure pendant toute la durée du sort. Elle ne dégage aucune chaleur et n’embrase rien. Elle diffuse une Lumière vive dans un rayon de 20 feet, puis une Lumière faible sur 20 feet supplémentaires. Le sort prend fin si vous le lancez de nouveau."
+  },
+  {
+    "name": "Produce Flame",
+    "en": "Until the spell ends, you can take a Magic action to hurl fire at a creature or an object within 60 feet of you. Make a ranged spell attack. On a hit, the target takes 1d8 Fire damage.",
+    "fr": "Jusqu’à la fin du sort, vous pouvez effectuer l’action Magie pour projeter du feu sur une créature ou un objet à 60 feet ou moins de vous. Effectuez une attaque de sort à distance. Si elle touche, la cible subit 1d8 dégâts de feu."
+  },
+  {
+    "name": "Burning Hands",
+    "en": "A thin sheet of flames shoots forth from you. Each creature in a 15-foot Cone makes a Dexterity saving throw, taking 3d6 Fire damage on a failed save or half as much damage on a successful one.",
+    "fr": "Une fine nappe de flammes jaillit de vous. Chaque créature dans un Cône de 15 feet effectue un jet de sauvegarde de Dextérité et subit 3d6 dégâts de feu en cas d’échec, ou la moitié en cas de réussite."
+  },
+  {
+    "name": "Burning Hands",
+    "en": "Flammable objects in the Cone that aren’t being worn or carried start burning.",
+    "fr": "Les objets inflammables dans le Cône qui ne sont ni portés ni transportés prennent feu."
+  },
+  {
+    "name": "Disguise Self",
+    "en": "You make yourself—including your clothing, armor, weapons, and other belongings on your person—look different until the spell ends. You can seem 1 foot shorter or taller and can appear heavier or lighter. You must adopt a form that has the same basic arrangement of limbs as you have. Otherwise, the extent of the illusion is up to you.",
+    "fr": "Vous modifiez votre apparence, y compris celle de vos vêtements, de votre armure, de vos armes et des autres effets que vous portez, jusqu’à la fin du sort. Vous pouvez paraître plus petit ou plus grand de 1 foot et sembler plus lourd ou plus léger. Vous devez adopter une forme dont la disposition générale des membres est identique à la vôtre. Pour le reste, l’étendue de l’illusion dépend de vous."
+  },
+  {
+    "name": "Entangle",
+    "en": "Grasping plants sprout from the ground in a 20-foot square within range. For the duration, these plants turn the ground in the area into Difficult Terrain. They disappear when the spell ends.",
+    "fr": "Des plantes agrippantes jaillissent du sol dans un carré de 20 feet de côté à portée. Pendant toute la durée du sort, elles transforment le sol de la zone en Terrain difficile. Elles disparaissent à la fin du sort."
+  },
+  {
+    "name": "Entangle",
+    "en": "Each creature (other than you) in the area when you cast the spell must succeed on a Strength saving throw or have the Restrained condition until the spell ends. A Restrained creature can take an action to make a Strength (Athletics) check against your spell save DC. On a success, it frees itself from the grasping plants and is no longer Restrained by them.",
+    "fr": "Chaque créature autre que vous présente dans la zone lorsque vous lancez le sort doit réussir un jet de sauvegarde de Force sous peine de subir l’état Entravé jusqu’à la fin du sort. Une créature Entravée peut consacrer une action à effectuer un test de Force (Athlétisme) contre votre DD de sauvegarde des sorts. En cas de réussite, elle se libère des plantes agrippantes et cesse d’être Entravée par elles."
+  },
+  {
+    "name": "Faerie Fire",
+    "en": "Objects in a 20-foot Cube within range are outlined in blue, green, or violet light (your choice). Each creature in the Cube is also outlined if it fails a Dexterity saving throw. For the duration, objects and affected creatures shed Dim Light in a 10-foot radius and can’t benefit from the Invisible condition.",
+    "fr": "Les objets dans un Cube de 20 feet à portée sont nimbés d’une lumière bleue, verte ou violette, au choix. Chaque créature dans le Cube l’est également si elle rate un jet de sauvegarde de Dextérité. Pendant toute la durée du sort, les objets et créatures affectés diffusent une Lumière faible dans un rayon de 10 feet et ne peuvent pas bénéficier de l’état Invisible."
+  },
+  {
+    "name": "Faerie Fire",
+    "en": "Attack rolls against an affected creature or object have Advantage if the attacker can see it.",
+    "fr": "Les jets d’attaque contre une créature ou un objet affecté bénéficient de l’Avantage si l’attaquant peut voir sa cible."
+  },
+  {
+    "name": "Goodberry",
+    "en": "Ten berries appear in your hand and are infused with magic for the duration. A creature can take a Bonus Action to eat one berry. Eating a berry restores 1 Hit Point, and the berry provides enough nourishment to sustain a creature for one day.",
+    "fr": "Dix baies apparaissent dans votre main et sont imprégnées de magie pendant toute la durée du sort. Une créature peut utiliser une action Bonus pour manger une baie. Chaque baie mangée fait récupérer 1 point de vie et nourrit suffisamment une créature pour une journée."
+  },
+  {
+    "name": "Goodberry",
+    "en": "Uneaten berries disappear when the spell ends.",
+    "fr": "Les baies qui n’ont pas été mangées disparaissent à la fin du sort."
+  },
+  {
+    "name": "Grease",
+    "en": "Nonflammable grease covers the ground in a 10-foot square centered on a point within range and turns it into Difficult Terrain for the duration.",
+    "fr": "Une graisse ininflammable recouvre le sol dans un carré de 10 feet de côté, centré sur un point à portée, et le transforme en Terrain difficile pendant toute la durée du sort."
+  },
+  {
+    "name": "Grease",
+    "en": "When the grease appears, each creature standing in its area must succeed on a Dexterity saving throw or have the Prone condition. A creature that enters the area or ends its turn there must also succeed on that save or fall Prone.",
+    "fr": "Quand la graisse apparaît, chaque créature présente dans la zone doit réussir un jet de sauvegarde de Dextérité sous peine de subir l’état À terre. Une créature qui entre dans la zone ou y termine son tour doit également réussir ce jet de sauvegarde sous peine de tomber À terre."
+  },
+  {
+    "name": "Hex",
+    "en": "You place a curse on a creature that you can see within range. Until the spell ends, you deal an extra 1d6 Necrotic damage to the target whenever you hit it with an attack roll. Also, choose one ability when you cast the spell. The target has Disadvantage on ability checks made with the chosen ability.",
+    "fr": "Vous maudissez une créature que vous voyez à portée. Jusqu’à la fin du sort, vous lui infligez 1d6 dégâts nécrotiques supplémentaires chaque fois que vous la touchez avec un jet d’attaque. Choisissez également une caractéristique lorsque vous lancez le sort. La cible subit le Désavantage aux tests de caractéristique effectués avec la caractéristique choisie."
+  },
+  {
+    "name": "Hex",
+    "en": "If the target drops to 0 Hit Points before this spell ends, you can take a Bonus Action on a later turn to curse a new creature.",
+    "fr": "Si la cible tombe à 0 point de vie avant la fin du sort, vous pouvez utiliser une action Bonus lors d’un tour ultérieur pour maudire une nouvelle créature."
+  },
+  {
+    "name": "Hunter’s Mark",
+    "en": "You magically mark one creature you can see within range as your quarry. Until the spell ends, you deal an extra 1d6 Force damage to the target whenever you hit it with an attack roll. You also have Advantage on any Wisdom (Perception or Survival) check you make to find it.",
+    "fr": "Vous désignez magiquement comme proie une créature que vous voyez à portée. Jusqu’à la fin du sort, vous lui infligez 1d6 dégâts de force supplémentaires chaque fois que vous la touchez avec un jet d’attaque. Vous bénéficiez également de l’Avantage aux tests de Sagesse (Perception ou Survie) effectués pour la retrouver."
+  },
+  {
+    "name": "Hunter’s Mark",
+    "en": "If the target drops to 0 Hit Points before this spell ends, you can take a Bonus Action to move the mark to a new creature you can see within range.",
+    "fr": "Si la cible tombe à 0 point de vie avant la fin du sort, vous pouvez utiliser une action Bonus pour déplacer la marque vers une nouvelle créature que vous voyez à portée."
+  },
+  {
+    "name": "Identify",
+    "en": "You touch an object throughout the spell’s casting. If the object is a magic item or some other magical object, you learn its properties and how to use them, whether it requires Attunement, and how many charges it has, if any. You learn whether any ongoing spells are affecting the item and what they are. If the item was created by a spell, you learn that spell’s name.",
+    "fr": "Vous touchez un objet pendant toute l’incantation du sort. S’il s’agit d’un objet magique, vous apprenez ses propriétés et son fonctionnement, s’il nécessite une Harmonisation et le nombre de charges qu’il possède, le cas échéant. Vous découvrez si des sorts l’affectent actuellement et lesquels. Si l’objet a été créé par un sort, vous apprenez le nom de ce sort."
+  },
+  {
+    "name": "Identify",
+    "en": "If you instead touch a creature throughout the casting, you learn which ongoing spells, if any, are currently affecting it.",
+    "fr": "Si vous touchez plutôt une créature pendant toute l’incantation, vous apprenez quels sorts l’affectent actuellement, le cas échéant."
+  },
+  {
+    "name": "Illusory Script",
+    "en": "You write on parchment, paper, or another suitable material and imbue it with an illusion that lasts for the duration. To you and any creatures you designate when you cast the spell, the writing appears normal, seems to be written in your hand, and conveys whatever meaning you intended when you wrote the text. To all others, the writing appears as if it were written in an unknown or magical script that is unintelligible. Alternatively, the illusion can alter the meaning, handwriting, and language of the text, though the language must be one you know.",
+    "fr": "Vous écrivez sur du parchemin, du papier ou un autre support adapté et imprégnez le texte d’une illusion qui persiste pendant toute la durée du sort. Pour vous et les créatures désignées au moment de l’incantation, l’écriture paraît normale, semble être de votre main et transmet le sens que vous souhaitiez lui donner. Pour tous les autres, elle paraît rédigée dans une écriture inconnue ou magique, indéchiffrable. L’illusion peut aussi modifier le sens, l’écriture manuscrite et la langue du texte, à condition que vous connaissiez cette langue."
+  },
+  {
+    "name": "Illusory Script",
+    "en": "If the spell is dispelled, the original script and the illusion both disappear.",
+    "fr": "Si le sort est dissipé, le texte d’origine et l’illusion disparaissent tous deux."
+  },
+  {
+    "name": "Illusory Script",
+    "en": "A creature that has Truesight can read the hidden message.",
+    "fr": "Une créature dotée de la Vision suprême peut lire le message caché."
+  }
+]

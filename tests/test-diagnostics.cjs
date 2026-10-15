@@ -11,7 +11,7 @@ button.onclick=()=>clicks++;
 w.GM_getValue=(key,fallback)=>key==='shard-fr-descriptions-v18'?JSON.stringify({savedAt:Date.now(),pairs:[[conflict,null]]}):fallback;
 w.GM_setValue=()=>{};w.GM_registerMenuCommand=()=>{};w.GM_xmlhttpRequest=options=>{networkCalls++;options.onerror();};
 w.URL.createObjectURL=value=>{blob=value;return 'blob:diagnostic';};w.URL.revokeObjectURL=()=>released++;
-w.HTMLAnchorElement.prototype.click=function(){assert.equal(this.download,'shard-dnd-fr-diagnostic.json');downloads++;};
+w.HTMLAnchorElement.prototype.click=function(){assert.equal(this.download,'shard-dnd-fr-page.json');downloads++;};
 const pause=ms=>new Promise(resolve=>setTimeout(resolve,ms));
 async function wait(fn){for(let i=0;i<200&&!fn();i++)await pause(25);assert.ok(fn(),'Diagnostic DOM update timed out');}
 async function exported(root){root.getElementById('exportMissing').click();return new Promise((resolve,reject)=>{const reader=new w.FileReader();reader.onload=()=>resolve(JSON.parse(reader.result));reader.onerror=reject;reader.readAsText(blob);});}

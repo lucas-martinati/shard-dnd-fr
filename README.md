@@ -27,8 +27,8 @@ Les utilisateurs ayant une ancienne installation par copier-coller doivent rempl
 - Recherche française, noms bilingues optionnels et lien direct AideDD.
 - Bouton déplaçable ou masquable, panneau accessible par `Alt + Maj + F`.
 - Conservation des éléments interactifs, des dés et des valeurs de jeu ; restauration de l’anglais à la désactivation.
-- Diagnostic volontaire des passages à examiner : surlignage, causes possibles et export JSON local.
-- Contrôle facultatif du texte des descriptions depuis les listes, avec progression, arrêt et états réservés aux fiches examinées.
+- Diagnostic volontaire : contours orange pour la page, rouges pour les descriptions incomplètes, avec rapports et exports JSON séparés.
+- Contrôle facultatif du texte des descriptions depuis les listes, avec progression, arrêt, priorité aux sources 2024 et états réservés aux fiches examinées.
 
 La couverture reste partielle pour les suppléments et contenus maison. Les descriptions anciennes et 2024 sont distinguées d’après leur texte. Les traductions proposées ne sont pas toutes des formulations officielles.
 
@@ -113,4 +113,4 @@ npm test
 
 Le code est sous licence MIT ; les textes SRD et autres contenus gardent leurs licences respectives. Voir [LICENSE](LICENSE) et [NOTICE.md](NOTICE.md). Projet indépendant, non affilié à Shard Tabletop, AideDD ou Wizards of the Coast.
 
-`npm run test:diagnostics` vérifie les deux modes d’analyse : page visible et parcours du texte des descriptions. Les contrôles couvrent l’absence du mode par nom, les états, l’arrêt, les changements de page, les références distantes en attente, l’exclusion des champs et les 93 candidats du rapport d’objets 1.17.17.
+`npm run test:diagnostics` vérifie les deux modes d’analyse : page visible et parcours du texte des descriptions. Les contrôles couvrent les exports et effacements indépendants, les contours rouges, les 118 passages récupérés des rapports de sorts 1.17.19/1.17.20 (dont 23 déjà couverts), l’absence du mode par nom, le choix de la source 2024 (dont Bouclier), les états, l’arrêt, les changements de page, les références distantes en attente, l’exclusion des champs et les 93 candidats du rapport d’objets 1.17.17.

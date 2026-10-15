@@ -335,9 +335,9 @@
   panel.innerHTML=`<label class="primary"><span id="enabledLabel">Traduction activée</span><input id="enabled" type="checkbox" role="switch" aria-label="Activer la traduction"></label><h2>D&D FR · Configuration</h2><label class="secondary"><input id="bilingual" type="checkbox"><span>Afficher aussi les noms anglais <small>(sorts, monstres, objets)</small></span></label><label for="buttonPosition">Bouton D&D FR</label><select id="buttonPosition"><option value="top-right">En haut à droite</option><option value="top-left">En haut à gauche</option><option value="bottom-right">En bas à droite</option><option value="bottom-left">En bas à gauche</option><option value="hidden">Ne pas afficher</option></select><p><small>Configuration accessible via le menu Tampermonkey ou Alt + Maj + F.</small></p><form id="referenceSearch"><label for="search">Rechercher une fiche AideDD</label><div class="row"><input id="search" type="search" placeholder="Nom français ou anglais…" autocomplete="off"><button type="submit">Ouvrir ↗</button></div></form><p id="searchStatus" role="status"></p><div id="results"></div>`;
   shadow.append(panel);
   const diagnostics=document.createElement('details');
-  diagnostics.innerHTML='<summary>Repérer les traductions manquantes</summary><p>Analyse les textes actuellement affichés. Les résultats sont des candidats à vérifier, y compris des noms propres. Le rapport reste local et ne contient pas les valeurs des champs.</p><div class="row"><button id="scanMissing" type="button">Analyser la page</button><button id="clearMissing" type="button">Effacer</button></div><p id="missingStatus" role="status"></p><label><input id="showDescriptionStatus" type="checkbox"> Afficher l’état des descriptions vérifiées</label><p>Les états apparaissent après lecture du texte d’une fiche. Le contrôle automatique ouvre puis referme les fiches chargées (100 maximum) et peut être arrêté. « Aucun anglais repéré » reste un indice, pas une validation de la traduction.</p><div class="row"><button id="inspectDescriptions" type="button" disabled>Contrôler le contenu des fiches</button><button id="stopDescriptions" type="button" disabled>Arrêter</button></div><p id="descriptionStatus" role="status"></p><ol id="descriptionResults"></ol><ol id="missingResults"></ol><button id="exportMissing" type="button" disabled>Exporter le rapport JSON</button>';
+  diagnostics.innerHTML="<summary>Repérer les traductions manquantes</summary>\n<p>Rapports locaux. Les résultats sont des candidats à vérifier ; les valeurs des champs et les éditeurs sont exclus.</p>\n<fieldset><legend>Page affichée</legend>\n<p>Analyse uniquement les textes actuellement visibles.</p>\n<div class=\"row\"><button id=\"scanMissing\" type=\"button\">Analyser la page</button><button id=\"clearMissing\" type=\"button\">Effacer la page</button></div>\n<p id=\"missingStatus\" role=\"status\"></p><ol id=\"missingResults\"></ol>\n<button id=\"exportMissing\" type=\"button\" disabled>Exporter la page (JSON)</button>\n</fieldset>\n<fieldset><legend>Descriptions des fiches</legend>\n<label class=\"secondary\"><input id=\"showDescriptionStatus\" type=\"checkbox\"><span>Marquer les descriptions à compléter</span></label>\n<p>Les descriptions à compléter sont entourées en rouge. Le contrôle ouvre jusqu’à 100 fiches chargées et privilégie 2024. Tu peux l’arrêter ou ouvrir les fiches manuellement.</p>\n<div class=\"row\"><button id=\"inspectDescriptions\" type=\"button\" disabled>Contrôler les fiches</button><button id=\"stopDescriptions\" type=\"button\" disabled>Arrêter</button></div>\n<p id=\"descriptionStatus\" role=\"status\"></p><p id=\"descriptionSummary\"></p><ol id=\"descriptionResults\"></ol>\n<div class=\"row\"><button id=\"exportDescriptions\" type=\"button\" disabled>Exporter les descriptions (JSON)</button><button id=\"clearDescriptions\" type=\"button\">Effacer les descriptions</button></div>\n</fieldset>\n";
   panel.append(diagnostics);
-  style.textContent+='details{margin-top:18px;border-top:1px solid #34435a;padding-top:12px}summary{cursor:pointer;font-weight:600}#missingResults,#descriptionResults{padding-left:22px;max-height:240px;overflow:auto}#missingResults li,#descriptionResults li{margin:10px 0;overflow-wrap:anywhere}#missingResults small{display:block}button:disabled{opacity:.5;cursor:default}';
+  style.textContent+='details{margin-top:18px;border-top:1px solid #34435a;padding-top:12px}summary{cursor:pointer;font-weight:600}#missingResults,#descriptionResults{padding-left:22px;max-height:240px;overflow:auto}#missingResults li,#descriptionResults li{margin:10px 0;overflow-wrap:anywhere}#missingResults small{display:block}fieldset{min-width:0;border:1px solid #44566f;border-radius:10px;padding:12px;margin:16px 0}legend{font-size:16px;font-weight:700;padding:0 6px}#descriptionSummary{color:#becbdb}#descriptionResults li[data-state="incomplete"]{border-left:3px solid #ef4444;padding-left:8px}button:disabled{opacity:.5;cursor:default}';
   const badge=document.createElement('button'); badge.id='badge'; badge.type='button'; badge.textContent='D&D FR'; badge.setAttribute('aria-label','Ouvrir les réglages de traduction'); shadow.append(badge);
   document.body.append(host);
   const $=id=>shadow.getElementById(id);
@@ -648,7 +648,10 @@
       const entry=entries.get(normalize(match[1]));
       const heading=lookupPair(inlineKey(match[1]+'.'))?.replace(/[.:]$/,'')||lookupPair(inlineKey(match[1]))||entry?.fr;
       // Les descriptions restent françaises, même si les noms isolés sont bilingues.
-      const values=[translate(en,source),heading?heading+match[2]:null,entry?entry.fr+match[2]:null,...(heading&&match[2]?[heading+'.',heading+':']:[]),...(/[,;]/.test(match[2])?[heading,entry?.fr]:[]),en,en.replace(/[\uE000-\uF8FF]/g,'')].filter(Boolean);
+      // Le lien d’action peut être nommé « Esquiver » dans le lexique,
+      // alors que le SRD et les paragraphes utilisent « l’action Esquive ».
+      const actionNoun=normalize(match[1])==='dodge'?'Esquive':null;
+      const values=[translate(en,source),actionNoun?actionNoun+match[2]:null,heading?heading+match[2]:null,entry?entry.fr+match[2]:null,...(heading&&match[2]?[heading+'.',heading+':']:[]),...(/[,;]/.test(match[2])?[heading,entry?.fr]:[]),en,en.replace(/[\uE000-\uF8FF]/g,'')].filter(Boolean);
       // Le SRD écrit « œil » là où certains noms AideDD emploient « oeil ».
       // Reconnaître les deux graphies pour garder le lien dans le paragraphe traduit.
       return [...new Set(values.flatMap(value=>[value,value.replace(/œ/gi,'oe'),value.replace(/oe/gi,'œ')]).map(s=>s.trim()))];
@@ -953,16 +956,17 @@
   }catch{}
 
   // Diagnostic local, volontaire : aucune persistance ni envoi du rapport.
-  const diagnosticMarks=new Set();let diagnosticReport=null;
+  const diagnosticMarks=new Set();let pageDiagnosticReport=null,descriptionDiagnosticReport=null;
   const diagnosticStyle=document.createElement('style');
-  diagnosticStyle.textContent='[data-shard-fr-diagnostic]{outline:2px dashed #db921f!important;outline-offset:3px!important}';document.head.append(diagnosticStyle);
+  diagnosticStyle.textContent='[data-shard-fr-diagnostic]{outline:2px dashed #db921f!important;outline-offset:3px!important}[data-shard-fr-description-missing]{outline:2px solid #ef4444!important;outline-offset:-2px!important}';document.head.append(diagnosticStyle);
   const englishClue=/\b(?:the|this|these|those|you|your|when|whenever|choose|gain|spell|damage|saving|proficiency|prerequisite|enemies|enemy|target|creature|within|must|cannot|while|during|until|against|each|once|twice|unknown|missing)\b/i;
   const frenchClue=/[àâçéèêëîïôùûüÿœæ]|\b(?:le|la|les|des|du|une|un|vos|vous|votre|avec|pour|dans|sont)\b/i;
   const diagnosticSelector='p,li,td,th,h1,h2,h3,h4,h5,h6,[role="heading"],.titletext,button,label,option,.description,.pre-wrap,.stdcontent,div';
-  function clearDiagnostics(){
-    stopDescriptionCheck(true);resetDescriptionChecks();
+  function clearDiagnostics(){clearPageDiagnostics();clearDescriptionDiagnostics();}
+  function clearDescriptionDiagnostics(){stopDescriptionCheck(true);resetDescriptionChecks();}
+  function clearPageDiagnostics(){
     for(const el of diagnosticMarks)el.removeAttribute('data-shard-fr-diagnostic');
-    diagnosticMarks.clear();diagnosticReport=null;$('missingResults').replaceChildren();$('missingStatus').textContent='';$('exportMissing').disabled=true;
+    diagnosticMarks.clear();pageDiagnosticReport=null;$('missingResults').replaceChildren();$('missingStatus').textContent='';$('exportMissing').disabled=true;
   }
   function diagnosticVisible(el,cache){
     if(!el)return true;
@@ -1027,17 +1031,17 @@
     return {missing,truncated};
   }
   function scanDiagnostics(){
-    clearDiagnostics();
+    clearPageDiagnostics();
     const {missing,truncated}=collectDiagnostics();
-    diagnosticReport={schemaVersion:1,scriptVersion:SCRIPT_VERSION,scope:'visible-page',translationEnabled:enabled,truncated,missingCount:missing.length,missing};
+    pageDiagnosticReport={schemaVersion:1,scriptVersion:SCRIPT_VERSION,scope:'visible-page',translationEnabled:enabled,truncated,missingCount:missing.length,missing};
     $('missingStatus').textContent=missing.length+' candidat(s) à vérifier.'+(truncated?' Analyse limitée : ouvre une fiche ou réduis la liste, puis relance.':'')+(!enabled?' Active la traduction, puis relance l’analyse.':'');
     for(const row of missing){const item=document.createElement('li'),text=document.createElement('span'),detail=document.createElement('small');text.textContent=row.en;detail.textContent=diagnosticLabels[row.reason]+(row.context?' · '+row.context:'')+(row.occurrences>1?' · '+row.occurrences+' occurrences':'');item.append(text,detail);$('missingResults').append(item);}
     $('exportMissing').disabled=false;
   }
   // Les états décrivent uniquement le texte des fiches effectivement examinées.
   let descriptionStates=new WeakMap(),descriptionSelection=null,descriptionRun=null,descriptionTimer=null,descriptionAction=false;
-  const descriptionBadges=new Set(),descriptionChecks=new Map(),descriptionScans=new WeakMap();
-  const descriptionLabels={unchecked:'Description : non vérifiée',checking:'Description : vérification…',incomplete:'Description : à compléter',clear:'Description : aucun anglais repéré',empty:'Sans description',unavailable:'Description : vérification impossible',loading:'Description : chargement à vérifier'};
+  const descriptionBadges=new Set(),descriptionMarkedCells=new Set(),descriptionChecks=new Map(),descriptionScans=new WeakMap();
+  const descriptionLabels={'edition-unavailable':'Version 2024 indisponible',unchecked:'Description : non vérifiée',checking:'Description : vérification…',incomplete:'Description : à compléter',clear:'Description : aucun anglais repéré',empty:'Sans description',unavailable:'Description : vérification impossible',loading:'Description : chargement à vérifier'};
   function catalogueCells(){
     if(!/^#(?:spell|item|monster|feat)(?:\?|$)/.test(location.hash))return [];
     const visibleCache=new WeakMap();
@@ -1049,26 +1053,57 @@
   }
   function descriptionBadge(entry,status){
     if(!entry.cell.isConnected)return;
-    let badge=[...entry.cell.querySelectorAll('[data-shard-fr-description-status]')][0];
-    if(!badge){badge=document.createElement('small');badge.setAttribute('data-shard-fr-ignore','');badge.setAttribute('data-shard-fr-description-status','');badge.style.cssText='display:block;font-size:11px;line-height:1.4;color:inherit;opacity:.85';entry.cell.append(badge);descriptionBadges.add(badge);}
+    descriptionStates.set(entry.cell,{name:entry.name,status});
+    if(status==='incomplete'){entry.cell.setAttribute('data-shard-fr-description-missing','');descriptionMarkedCells.add(entry.cell);}
+    else{entry.cell.removeAttribute('data-shard-fr-description-missing');descriptionMarkedCells.delete(entry.cell);}
+    let badge=entry.cell.querySelector('[data-shard-fr-description-status]');
+    if(status==='clear'||status==='empty'){
+      if(badge){badge.remove();descriptionBadges.delete(badge);}return;
+    }
+    if(!badge){badge=document.createElement('small');badge.setAttribute('data-shard-fr-ignore','');badge.setAttribute('data-shard-fr-description-status','');badge.style.cssText='display:block;font-size:12px;font-weight:600;line-height:1.5;color:inherit';entry.cell.append(badge);descriptionBadges.add(badge);}
     const text=descriptionLabels[status]||descriptionLabels.unchecked;
     if(badge.textContent!==text)badge.textContent=text;
-    descriptionStates.set(entry.cell,{name:entry.name,status});
   }
   function removeDescriptionBadge(cell){
+    cell.removeAttribute('data-shard-fr-description-missing');descriptionMarkedCells.delete(cell);
     const badge=cell.querySelector('[data-shard-fr-description-status]');if(badge){badge.remove();descriptionBadges.delete(badge);}
     descriptionStates.delete(cell);descriptionChecks.delete(cell);
   }
   function resetDescriptionChecks(){
     clearTimeout(descriptionTimer);descriptionTimer=null;descriptionSelection=null;descriptionStates=new WeakMap();descriptionChecks.clear();
     for(const badge of descriptionBadges)badge.remove();descriptionBadges.clear();
-    $('descriptionResults').replaceChildren();$('descriptionStatus').textContent='';
+    for(const cell of descriptionMarkedCells)cell.removeAttribute('data-shard-fr-description-missing');descriptionMarkedCells.clear();
+    descriptionDiagnosticReport=null;$('exportDescriptions').disabled=true;
+    $('descriptionResults').replaceChildren();$('descriptionStatus').textContent='';$('descriptionSummary').textContent='';
   }
   function descriptionDialog(entry){
     const dialogs=[...document.querySelectorAll('[role="dialog"]')].filter(el=>diagnosticVisible(el,new WeakMap()));
     if(dialogs.length!==1)return null;
     const dialog=dialogs[0],title=dialog.querySelector('.MuiDialogTitle-root .titletext');
     return title&&inlineKey(blockEnglish(title))===inlineKey(entry.name)?dialog:null;
+  }
+  // Shard demande parfois la source dans un menu avant d’ouvrir la fiche.
+  // Le premier livre est la source principale : une mention secondaire de 2024
+  // dans une ancienne fiche ne suffit pas à en faire une version 2024.
+  function descriptionSourceMenu(previous){
+    const visibleCache=new WeakMap();
+    const menus=[...document.querySelectorAll('[role="menu"]')].filter(menu=>!previous.has(menu)&&diagnosticVisible(menu,visibleCache));
+    for(const menu of menus){
+      const items=[...menu.querySelectorAll(':scope > [role="menuitem"]')];
+      if(!items.length||!items.every(item=>{const source=item.querySelector('b[title]');return source&&/^source\s*\.?\s*$/i.test(blockEnglish(source).trim());}))continue;
+      const preferred={spell:'PHB',feat:'PHB',monster:'MM',item:'DMG'}[location.hash.match(/^#([^?]+)/)?.[1]];
+      const choices=items.map(item=>({item,book:item.querySelector('b[title]').getAttribute('title').trim()}))
+        .filter(row=>!row.item.matches('[aria-disabled="true"],.Mui-disabled')&&!row.item.disabled&&diagnosticVisible(row.item,visibleCache)&&/^D\s*&\s*D\s+2024\b/i.test(row.book))
+        .sort((a,b)=>Number(!a.book.includes(preferred))-Number(!b.book.includes(preferred)));
+      return {menu,choice:choices[0]||null};
+    }
+    return null;
+  }
+  function dismissDescriptionSource(menu){
+    if(!menu?.isConnected)return;
+    descriptionAction=true;
+    try{menu.dispatchEvent(new KeyboardEvent('keydown',{key:'Escape',code:'Escape',bubbles:true,cancelable:true}));}
+    finally{descriptionAction=false;}
   }
   function descriptionClose(dialog){
     return [...dialog.querySelectorAll('.MuiDialogActions-root button')].find(b=>!b.disabled&&/^(?:close|fermer)$/i.test(blockEnglish(b).trim()));
@@ -1094,17 +1129,18 @@
   }
   function recordDescription(entry,result){
     descriptionBadge(entry,result.status);descriptionChecks.set(entry.cell,result);
-    renderDescriptionReport([...descriptionChecks.values()],'catalogue-descriptions');
+    renderDescriptionReport([...descriptionChecks.values()]);
   }
-  function renderDescriptionReport(descriptions,scope){
+  function renderDescriptionReport(descriptions){
     $('descriptionResults').replaceChildren();
-    for(const row of descriptions){
-      const li=document.createElement('li');li.textContent=row.name+' — '+descriptionLabels[row.status]+(row.missing.length?' ('+row.missing.length+' candidat(s))':'');$('descriptionResults').append(li);
+    for(const row of descriptions.filter(row=>row.status!=='clear')){
+      const li=document.createElement('li');li.dataset.state=row.status;li.textContent=row.name+' — '+descriptionLabels[row.status]+(row.missing.length?' ('+row.missing.length+' candidat(s))':'');$('descriptionResults').append(li);
     }
     // Même format de candidats que l’analyse de page, plus l’état de chaque fiche.
     const missing=descriptions.flatMap(row=>row.missing);
-    diagnosticReport={schemaVersion:1,scriptVersion:SCRIPT_VERSION,scope,translationEnabled:enabled,truncated:descriptions.some(row=>row.truncated),missingCount:missing.length,missing,descriptions};
-    $('exportMissing').disabled=false;
+    descriptionDiagnosticReport={schemaVersion:1,scriptVersion:SCRIPT_VERSION,scope:'catalogue-descriptions',translationEnabled:enabled,truncated:descriptions.some(row=>row.truncated),missingCount:missing.length,missing,descriptions};
+    $('descriptionSummary').textContent=descriptions.length+' fiche(s) contrôlée(s) · '+descriptions.filter(row=>row.status==='incomplete').length+' à compléter.';
+    $('exportDescriptions').disabled=false;
   }
   function scheduleDescriptionStatus(){
     if(!enabled||!$('showDescriptionStatus').checked||descriptionTimer)return;
@@ -1136,7 +1172,7 @@
     if(document.querySelector('[role="dialog"]')){$('descriptionStatus').textContent='Ferme la fiche ouverte avant de lancer la vérification de la liste.';return;}
     const all=catalogueCells().map(catalogueEntry).filter(e=>e.name),entries=all.filter(e=>{const result=descriptionChecks.get(e.cell);return !result||result.name!==e.name||['loading','unavailable'].includes(result.status);}).slice(0,100);
     if(!entries.length){$('descriptionStatus').textContent=all.length?'Toutes les entrées chargées ont été vérifiées. Fais défiler la liste pour charger les suivantes.':'Ouvre une liste de sorts, objets, monstres ou dons.';return;}
-    const run={cancelled:false,discard:false,close:true,hash:location.hash,dialog:null,entry:null};descriptionRun=run;
+    const run={cancelled:false,discard:false,close:true,hash:location.hash,dialog:null,entry:null,sourceMenu:null,menusBefore:null,sourceBook:null,skipped:0};descriptionRun=run;
     $('inspectDescriptions').disabled=true;$('stopDescriptions').disabled=false;$('scanMissing').disabled=true;
     let checked=0;
     try{
@@ -1145,13 +1181,29 @@
         if(!entry.cell.isConnected||catalogueEntry(entry.cell).name!==entry.name){run.cancelled=true;break;}
         if(document.querySelector('[role="dialog"]')){run.cancelled=true;run.close=false;break;}
         run.entry=entry;descriptionBadge(entry,'checking');$('descriptionStatus').textContent='Vérification '+(checked+1)+' / '+entries.length+' : '+entry.name;
+        run.menusBefore=new Set(document.querySelectorAll('[role="menu"]'));run.sourceMenu=null;run.sourceBook=null;
         descriptionClick(entry.cell);
-        let dialog=null;
+        let dialog=null,skipEdition=false;
         for(let attempt=0;attempt<80&&!run.cancelled;attempt++){
           await descriptionPause();if(location.hash!==run.hash){run.cancelled=true;run.close=false;break;}
+          if(run.cancelled)break;
+          const source=descriptionSourceMenu(run.menusBefore);
+          if(source){
+            run.sourceMenu=source.menu;
+            if(!source.choice){skipEdition=true;dismissDescriptionSource(source.menu);break;}
+            if(!run.sourceBook){run.sourceBook=source.choice.book;descriptionClick(source.choice.item);}
+            continue;
+          }
           dialog=descriptionDialog(entry);if(dialog)break;
         }
         if(run.cancelled)break;
+        if(skipEdition){
+          for(let attempt=0;attempt<40&&run.sourceMenu?.isConnected&&!run.cancelled;attempt++)await descriptionPause();
+          if(run.cancelled)break;
+          recordDescription(entry,{name:entry.name,status:'edition-unavailable',missing:[],preferredEdition:'2024'});run.skipped++;
+          if(run.sourceMenu?.isConnected){run.cancelled=true;break;}
+          run.sourceMenu=null;continue;
+        }
         if(!dialog){recordDescription(entry,{name:entry.name,status:'unavailable',missing:[]});run.cancelled=true;break;}
         run.dialog=dialog;
         let stable=0;
@@ -1161,7 +1213,8 @@
           stable=descriptionBusy(dialog)?0:stable+1;if(stable>=3)break;
         }
         if(run.cancelled)break;
-        recordDescription(entry,checkDescription(entry,dialog,stable<3));checked++;
+        const result=checkDescription(entry,dialog,stable<3);if(run.sourceBook)result.sourceBook=run.sourceBook;
+        recordDescription(entry,result);checked++;
         const close=descriptionClose(dialog);
         if(!close){run.cancelled=true;run.close=false;break;}
         descriptionClick(close);
@@ -1171,6 +1224,8 @@
       }
     }catch{run.cancelled=true;}
     finally{
+      const sourceMenu=run.sourceMenu?.isConnected?run.sourceMenu:run.menusBefore?descriptionSourceMenu(run.menusBefore)?.menu:null;
+      if(run.close&&location.hash===run.hash&&sourceMenu)dismissDescriptionSource(sourceMenu);
       const owned=run.entry&&descriptionDialog(run.entry);
       if(run.close&&location.hash===run.hash&&owned&&(!run.dialog||owned===run.dialog)){const close=descriptionClose(owned);if(close)descriptionClick(close);}
       if(!run.discard){
@@ -1178,13 +1233,13 @@
           const previous=descriptionChecks.get(entry.cell);
           if(previous?.name===entry.name)descriptionBadge(entry,previous.status);else removeDescriptionBadge(entry.cell);
         }
-        $('descriptionStatus').textContent=(run.cancelled?'Vérification arrêtée. ':'Vérification terminée. ')+checked+' / '+entries.length+' fiche(s) vérifiée(s).'+(all.length>100?' Limite de 100 fiches par passage ; relance pour poursuivre.':' Fais défiler la liste pour charger les suivantes.');
+        $('descriptionStatus').textContent=(run.cancelled?'Vérification arrêtée. ':'Vérification terminée. ')+checked+' / '+entries.length+' fiche(s) vérifiée(s).'+(run.skipped?' '+run.skipped+' sans version 2024.':'')+(all.length>100?' Limite de 100 fiches par passage ; relance pour poursuivre.':' Fais défiler la liste pour charger les suivantes.');
       }
       descriptionRun=null;$('inspectDescriptions').disabled=!$('showDescriptionStatus').checked;$('stopDescriptions').disabled=true;$('scanMissing').disabled=false;descriptionSelection=null;
     }
   }
   $('showDescriptionStatus').onchange=()=>{
-    if(!$('showDescriptionStatus').checked){stopDescriptionCheck(true);clearDiagnostics();}
+    if(!$('showDescriptionStatus').checked)clearDescriptionDiagnostics();
     $('inspectDescriptions').disabled=!$('showDescriptionStatus').checked||!!descriptionRun;scheduleDescriptionStatus();
   };
   $('inspectDescriptions').onclick=scanDescriptions;$('stopDescriptions').onclick=()=>stopDescriptionCheck();
@@ -1199,12 +1254,14 @@
     if(descriptionRun&&!event.composedPath().includes(host))stopDescriptionCheck(false,false);
   },true);
 
-  $('scanMissing').onclick=scanDiagnostics;$('clearMissing').onclick=clearDiagnostics;
-  $('exportMissing').onclick=()=>{
-    if(!diagnosticReport)return;
-    const url=URL.createObjectURL(new Blob([JSON.stringify(diagnosticReport,null,2)+'\n'],{type:'application/json'}));
-    const link=document.createElement('a');link.href=url;link.download='shard-dnd-fr-diagnostic.json';link.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
-  };
+  $('scanMissing').onclick=scanDiagnostics;$('clearMissing').onclick=clearPageDiagnostics;$('clearDescriptions').onclick=clearDescriptionDiagnostics;
+  function exportDiagnosticReport(report,filename){
+    if(!report)return;
+    const url=URL.createObjectURL(new Blob([JSON.stringify(report,null,2)+'\n'],{type:'application/json'}));
+    const link=document.createElement('a');link.href=url;link.download=filename;link.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
+  }
+  $('exportMissing').onclick=()=>exportDiagnosticReport(pageDiagnosticReport,'shard-dnd-fr-page.json');
+  $('exportDescriptions').onclick=()=>exportDiagnosticReport(descriptionDiagnosticReport,'shard-dnd-fr-descriptions.json');
   window.addEventListener('hashchange',clearDiagnostics);
 
   function applyPlacement(){
