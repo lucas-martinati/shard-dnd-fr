@@ -26,14 +26,22 @@ async function wait(fn){for(let i=0;i<160&&!fn();i++)await pause(25);assert.ok(f
  const config=roots.find(r=>r.getElementById('enabled'));
  const input=d.querySelector('input[type=search]');let received;
  input.addEventListener('input',()=>received=input.value);
- for(const [query,english]of [['boule de feu','Fireball'],['trait ensorcele','Witch Bolt']]){
+ for(const [query,english]of [['boule de feu','Fireball'],['trait ensorcele','Witch Bolt'],['baguette du grincheux','Wand of Scowls'],['baguette des grimaces','Wand of Scowls'],['baguette du jovial','Wand of Smiles'],['baguette des sourires','Wand of Smiles']]){
   input.value=query;input.dispatchEvent(new w.Event('input',{bubbles:true}));
   const button=[...search.querySelectorAll('button')].find(b=>b.querySelector('small').textContent===english);assert.ok(button,query);button.click();
   assert.equal(input.value,english);assert.equal(received,english);
+ }
+ // Chaque nom d’équipement des packs doit être proposé, même hors de l’index AideDD 2024.
+ const lexicon=JSON.parse(fs.readFileSync('outputs/lexique-en-fr.json','utf8'));
+ const terms=lexicon.entries||lexicon;
+ const equipment=terms.filter(e=>e.category==='équipement'&&e.en.length<100&&e.fr.length>=2);
+ for(const entry of equipment){
+  input.value=entry.fr;input.dispatchEvent(new w.Event('input',{bubbles:true}));
+  assert.ok([...search.querySelectorAll('button small')].some(el=>el.textContent===entry.en),'Nom absent de la recherche : '+entry.en+' / '+entry.fr);
  }
  const enabled=config.getElementById('enabled');enabled.checked=false;enabled.dispatchEvent(new w.Event('change'));
  await wait(()=>d.getElementById('cached').textContent===source);
  enabled.checked=true;enabled.dispatchEvent(new w.Event('change'));await wait(()=>d.getElementById('cached').textContent===french);
  assert.equal(d.getElementById('conflict').textContent,conflicting);
- console.log('PASS runtime: migration des contractions du cache, conflits conservés, suggestions françaises/sans accents, événements de recherche, désactivation/réactivation.');
+ console.log(`PASS runtime: cache, conflits, recherche de ${equipment.length} noms d’équipement, anciens noms des baguettes, accents, événements et désactivation/réactivation.`);
  }finally{w.close();}})().catch(error=>{console.error(error);process.exitCode=1});

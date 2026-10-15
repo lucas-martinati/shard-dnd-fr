@@ -240,8 +240,8 @@
             "blocs": 0
           },
           "objets": {
-            "entreesRattachees": 511,
-            "libelles": 412,
+            "entreesRattachees": 519,
+            "libelles": 420,
             "blocs": 99
           },
           "regles": {
@@ -255,7 +255,7 @@
             "blocs": 16
           }
         },
-        "entreesRattachees": 1442
+        "entreesRattachees": 1450
       }
     ],
     "regleClassement": "Un emplacement éditorial par texte : règles du joueur 2024 avec le PHB, bestiaire 2024 avec le MM, corpus historique et lexique non spécifique dans 2014. L’emplacement ne remplace pas la source précise ni l’édition portée par l’entrée.",
@@ -530,9 +530,9 @@
       "blocsEditables": 146
     },
     "objets": {
-      "nomsCatalogueAideDD2024": 349,
+      "nomsCatalogueAideDD2024": 350,
       "entreesDictionnaires": 510,
-      "libellesEditables": 488,
+      "libellesEditables": 496,
       "blocsEditables": 99
     },
     "armes": {

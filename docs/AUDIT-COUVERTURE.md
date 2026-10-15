@@ -1,5 +1,21 @@
 # Audit de couverture — 13 octobre 2026
 
+## Comparaison complète des noms d’objets AideDD — 1.17.26
+
+Le [relevé des noms](../audit/inventaires/noms-objets-aidedd.json) compare les 350 entrées de l’index 2024 et les 323 entrées de l’ancien index. Les 39 différences de noms déjà présents dans l’index 2024 sont des variantes d’édition ; leurs noms 2024 restent prioritaires. 53 alias anciens ou secondaires sont ajoutés à la recherche, sans recopier les descriptions ni changer les règles. La coquille « Perfume of Bwitching » de l’ancien tableau est écartée.
+
+L’Anneau de maîtrise élémentaire manquait parce que son URL publique contient « maîtrise » avec un accent. La validation accepte désormais les lettres latines accentuées, après décodage du chemin, en conservant le domaine HTTPS, le type de fiche et l’interdiction des paramètres et séparateurs supplémentaires. L’anneau rejoint le catalogue embarqué. Quatre noms VO collectifs d’objets de l’ancien index sont aussi ajoutés au lexique. Les nouvelles références embarquées complètent un ancien cache sans attendre la prochaine synchronisation.
+
+15 noms sont corrigés : sept variantes de Figurine merveilleuse, quatre anneaux de maîtrise élémentaire et les quatre puissances de potion de guérison. Les anciens noms restent recherchables. La correspondance Greater → importante et Superior → supérieure est vérifiée dans le tableau AideDD 2024 ; les variantes de figurines et d’anneaux suivent les familles et sous-titres des fiches 2024. Ces corrections portent sur les noms, pas sur leurs descriptions.
+
+`tests/test-item-name-search.cjs` vérifie les 350 noms 2024 à l’affichage, 322 noms de recherche anciens, les 15 corrections et leurs anciens noms (702 recherches), le champ Shard recevant l’anglais, la restauration exacte, un cache antérieur et la validation des URL accentuées ou malformées. Il est inclus dans `npm run test:catalogue-names`.
+
+## Noms supplémentaires dans la recherche — 1.17.25
+
+Les suggestions FR → EN des champs Shard ignoraient les noms ajoutés dans les packs récents lorsqu’ils étaient absents des anciens dictionnaires et de l’index AideDD 2024. Les libellés d’équipement, monstres, sorts, dons, aptitudes et espèces de ces packs alimentent désormais la recherche. Les libellés d’interface et de règles ne sont pas ajoutés à cette liste de noms.
+
+Les noms AideDD de Xanathar vérifiés le 15 octobre 2026 corrigent Wand of Scowls en [Baguette du grincheux](https://www.aidedd.org/dnd/om.php?vf=baguette-du-grincheux) et Wand of Smiles en [Baguette du jovial](https://www.aidedd.org/dnd/om.php?vf=baguette-du-jovial). Le champ `aliases` des libellés conserve les anciennes traductions proposées « Baguette des grimaces » et « Baguette des sourires » pour la recherche. Elles aboutissent aux mêmes noms anglais sans remplacer les noms affichés. Le test de recherche vérifie les noms d’équipement du lexique généré, les deux anciens noms et les événements transmis au champ Shard ; le catalogue de noms conserve ses tests de traduction et de restauration.
+
 ## Dialogues de repos de la fiche personnage — 1.17.23 et 1.17.24
 
 Les dialogues de repos long et court ont été relevés dans Shard le 15 octobre 2026, sans valider de repos ni dépenser de dé. Les explications, choix de récupération, titres de ressources et boutons sont traduits dans le lexique d’interface. Les règles affichées par Shard sont conservées, même lorsque leur formulation vient d’une édition antérieure.

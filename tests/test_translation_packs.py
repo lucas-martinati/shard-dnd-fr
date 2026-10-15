@@ -70,6 +70,19 @@ class PacksTest(unittest.TestCase):
         self.write([self.entry(en='Roll d6s.', fr='Lancez des d6.')])
         self.assertEqual(len(load_packs(self.root)), 1)
 
+    def test_search_aliases_are_preserved_without_becoming_english_variants(self):
+        self.write([self.entry(kind='term', en='Wand of Scowls', fr='Baguette du grincheux', aliases=['Baguette des grimaces'])])
+        rows = load_packs(self.root)
+        self.assertEqual(len(rows), 1)
+        self.assertEqual(rows[0]['aliases'], ['Baguette des grimaces'])
+        for aliases in ['Old name', [''], [3]]:
+            self.write([self.entry(kind='term', aliases=aliases)])
+            with self.assertRaisesRegex(ValueError, 'aliases'):
+                load_packs(self.root)
+        self.write([self.entry(aliases=['Old name'])])
+        with self.assertRaisesRegex(ValueError, 'aliases'):
+            load_packs(self.root)
+
     def test_variant_conflict_and_negation(self):
         self.write([self.entry(en="You can't use this power.", fr='Vous ne pouvez pas utiliser ce pouvoir.'), self.entry(id='test.other', en='You cannot use this power.', fr='Autre règle.')])
         with self.assertRaisesRegex(ValueError, 'contradictoire'):

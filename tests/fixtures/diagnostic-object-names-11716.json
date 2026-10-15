@@ -138,7 +138,7 @@
     },
     {
       "en": "Ring of Air Elemental Command",
-      "fr": "Anneau de contrôle des élémentaires de l’air",
+      "fr": "Anneau de maîtrise élémentaire (air)",
       "statut": "traduit"
     },
     {
@@ -148,12 +148,12 @@
     },
     {
       "en": "Ring of Earth Elemental Command",
-      "fr": "Anneau de contrôle des élémentaires de la terre",
+      "fr": "Anneau de maîtrise élémentaire (terre)",
       "statut": "traduit"
     },
     {
       "en": "Ring of Fire Elemental Command",
-      "fr": "Anneau de contrôle des élémentaires du feu",
+      "fr": "Anneau de maîtrise élémentaire (feu)",
       "statut": "traduit"
     },
     {
@@ -198,7 +198,7 @@
     },
     {
       "en": "Ring of Water Elemental Command",
-      "fr": "Anneau de contrôle des élémentaires de l’eau",
+      "fr": "Anneau de maîtrise élémentaire (eau)",
       "statut": "traduit"
     },
     {
@@ -458,12 +458,12 @@
     },
     {
       "en": "Wand of Scowls",
-      "fr": "Baguette des grimaces",
+      "fr": "Baguette du grincheux",
       "statut": "traduit"
     },
     {
       "en": "Wand of Smiles",
-      "fr": "Baguette des sourires",
+      "fr": "Baguette du jovial",
       "statut": "traduit"
     },
     {

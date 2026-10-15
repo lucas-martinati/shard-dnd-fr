@@ -7072,7 +7072,9 @@
       "fr": "Anneau d'influence animale",
       "kind": "magic-item",
       "url": "https://www.aidedd.org/magic-item/fr/anneau-d-influence-animale",
-      "aliases": []
+      "aliases": [
+        "Anneau d'influence sur les animaux"
+      ]
     },
     {
       "en": "Ring of Invisibility",
@@ -7121,7 +7123,9 @@
       "fr": "Anneau de marche sur l'eau",
       "kind": "magic-item",
       "url": "https://www.aidedd.org/magic-item/fr/anneau-de-marche-sur-l-eau",
-      "aliases": []
+      "aliases": [
+        "Anneau de marche sur l'onde"
+      ]
     },
     {
       "en": "Ring of Swimming",
@@ -7177,7 +7181,9 @@
       "fr": "Anneau de stockage de sorts",
       "kind": "magic-item",
       "url": "https://www.aidedd.org/magic-item/fr/anneau-de-stockage-de-sorts",
-      "aliases": []
+      "aliases": [
+        "Anneau de stockage de sort"
+      ]
     },
     {
       "en": "Ring of Telekinesis",
@@ -7226,14 +7232,18 @@
       "fr": "Arme ardente",
       "kind": "magic-item",
       "url": "https://www.aidedd.org/magic-item/fr/arme-ardente",
-      "aliases": []
+      "aliases": [
+        "Épée ardente"
+      ]
     },
     {
       "en": "Vicious Weapon",
       "fr": "Arme brutale",
       "kind": "magic-item",
       "url": "https://www.aidedd.org/magic-item/fr/arme-brutale",
-      "aliases": []
+      "aliases": [
+        "Arme vicieuse"
+      ]
     },
     {
       "en": "Adamantine Weapon",
@@ -7324,14 +7334,18 @@
       "fr": "Armure du matelot",
       "kind": "magic-item",
       "url": "https://www.aidedd.org/magic-item/fr/armure-du-matelot",
-      "aliases": []
+      "aliases": [
+        "Armure de matelot"
+      ]
     },
     {
       "en": "Adamantine Armor",
       "fr": "Armure en adamantium",
       "kind": "magic-item",
       "url": "https://www.aidedd.org/magic-item/fr/armure-en-adamantium",
-      "aliases": []
+      "aliases": [
+        "Armure d'adamantium"
+      ]
     },
     {
       "en": "Smoldering Armor",
@@ -7345,7 +7359,9 @@
       "fr": "Armure impeccable",
       "kind": "magic-item",
       "url": "https://www.aidedd.org/magic-item/fr/armure-impeccable",
-      "aliases": []
+      "aliases": [
+        "Armure rutilante"
+      ]
     },
     {
       "en": "Cast-Off Armor",
@@ -7416,7 +7432,8 @@
       "kind": "magic-item",
       "url": "https://www.aidedd.org/magic-item/fr/baguette-de-peur-de-terreur",
       "aliases": [
-        "de terreur"
+        "de terreur",
+        "Baguette de terreur"
       ]
     },
     {
@@ -7432,7 +7449,8 @@
       "kind": "magic-item",
       "url": "https://www.aidedd.org/magic-item/fr/baguette-de-toile-d-araignee-des-toiles",
       "aliases": [
-        "des toiles"
+        "des toiles",
+        "Baguette des toiles"
       ]
     },
     {
@@ -7461,7 +7479,9 @@
       "fr": "Baguette du chef d'orchestre",
       "kind": "magic-item",
       "url": "https://www.aidedd.org/magic-item/fr/baguette-du-chef-d-orchestre",
-      "aliases": []
+      "aliases": [
+        "Baguette de chef d'orchestre"
+      ]
     },
     {
       "en": "Wand of the War Mage, +1, +2, or +3",
@@ -7475,7 +7495,9 @@
       "fr": "Baguette du pyrotechnicien",
       "kind": "magic-item",
       "url": "https://www.aidedd.org/magic-item/fr/baguette-du-pyrotechnicien",
-      "aliases": []
+      "aliases": [
+        "Baguette de pyrotechnicien"
+      ]
     },
     {
       "en": "Baba Yaga's Dancing Broom",
@@ -7594,7 +7616,9 @@
       "fr": "Bâton du grand essaim",
       "kind": "magic-item",
       "url": "https://www.aidedd.org/magic-item/fr/baton-du-grand-essaim",
-      "aliases": []
+      "aliases": [
+        "Bâton de grand essaim"
+      ]
     },
     {
       "en": "Staff of the Python",
@@ -7622,7 +7646,9 @@
       "fr": "Bâton ostensible",
       "kind": "magic-item",
       "url": "https://www.aidedd.org/magic-item/fr/baton-ostensible",
-      "aliases": []
+      "aliases": [
+        "Bâton orné"
+      ]
     },
     {
       "en": "Staff of Striking",
@@ -7657,7 +7683,9 @@
       "fr": "Bottes aux empreintes factices",
       "kind": "magic-item",
       "url": "https://www.aidedd.org/magic-item/fr/bottes-aux-empreintes-factices",
-      "aliases": []
+      "aliases": [
+        "Bottes d'empreintes factices"
+      ]
     },
     {
       "en": "Boots of Levitation",
@@ -7785,7 +7813,10 @@
       "fr": "Bourse à épices d'Huard",
       "kind": "magic-item",
       "url": "https://www.aidedd.org/magic-item/fr/bourse-a-epices-d-huard",
-      "aliases": []
+      "aliases": [
+        "Bourse à épices magique d'Heward",
+        "Bourse à épices d'Heward"
+      ]
     },
     {
       "en": "Efreeti Bottle",
@@ -7793,7 +7824,8 @@
       "kind": "magic-item",
       "url": "https://www.aidedd.org/magic-item/fr/bouteille-de-l-efrit-du-mauvais-genie",
       "aliases": [
-        "du mauvais génie"
+        "du mauvais génie",
+        "Bouteille du mauvais génie"
       ]
     },
     {
@@ -7836,7 +7868,9 @@
       "fr": "Canne du vétéran",
       "kind": "magic-item",
       "url": "https://www.aidedd.org/magic-item/fr/canne-du-veteran",
-      "aliases": []
+      "aliases": [
+        "Canne de vétéran"
+      ]
     },
     {
       "en": "Cloak of Many Fashions",
@@ -7899,7 +7933,9 @@
       "fr": "Cape du prestidigitateur",
       "kind": "magic-item",
       "url": "https://www.aidedd.org/magic-item/fr/cape-du-prestidigitateur",
-      "aliases": []
+      "aliases": [
+        "Cape de prestidigitateur"
+      ]
     },
     {
       "en": "Cloak of Elvenkind",
@@ -8022,7 +8058,9 @@
       "fr": "Chaussons de l'araignée",
       "kind": "magic-item",
       "url": "https://www.aidedd.org/magic-item/fr/chaussons-de-l-araignee",
-      "aliases": []
+      "aliases": [
+        "Chaussons de pattes d'araignée"
+      ]
     },
     {
       "en": "Tankard of Sobriety",
@@ -8043,14 +8081,18 @@
       "fr": "Cimeterre de célérité",
       "kind": "magic-item",
       "url": "https://www.aidedd.org/magic-item/fr/cimeterre-de-celerite",
-      "aliases": []
+      "aliases": [
+        "Cimeterre de rapidité"
+      ]
     },
     {
       "en": "Mystery Key",
       "fr": "Clef mystérieuse",
       "kind": "magic-item",
       "url": "https://www.aidedd.org/magic-item/fr/clef-mysterieuse",
-      "aliases": []
+      "aliases": [
+        "Clé mystérieuse"
+      ]
     },
     {
       "en": "Sovereign Glue",
@@ -8079,7 +8121,9 @@
       "kind": "magic-item",
       "url": "https://www.aidedd.org/magic-item/fr/collier-de-priere-chapelet-mystique",
       "aliases": [
-        "Chapelet mystique"
+        "Chapelet mystique",
+        "Collier de perles de prière",
+        "Chapelet"
       ]
     },
     {
@@ -8087,7 +8131,9 @@
       "fr": "Cor d'alarme silencieuse",
       "kind": "magic-item",
       "url": "https://www.aidedd.org/magic-item/fr/cor-d-alarme-silencieuse",
-      "aliases": []
+      "aliases": [
+        "Corne d'alarme silencieuse"
+      ]
     },
     {
       "en": "Horn of Blasting",
@@ -8108,7 +8154,9 @@
       "fr": "Corde d'ascension",
       "kind": "magic-item",
       "url": "https://www.aidedd.org/magic-item/fr/corde-d-ascension",
-      "aliases": []
+      "aliases": [
+        "Corde d'escalade"
+      ]
     },
     {
       "en": "Rope of Entanglement",
@@ -8122,7 +8170,9 @@
       "fr": "Corde remaillante",
       "kind": "magic-item",
       "url": "https://www.aidedd.org/magic-item/fr/corde-remaillante",
-      "aliases": []
+      "aliases": [
+        "Corde réparable"
+      ]
     },
     {
       "en": "Ear Horn of Hearing",
@@ -8171,7 +8221,9 @@
       "fr": "Dé du charlatan",
       "kind": "magic-item",
       "url": "https://www.aidedd.org/magic-item/fr/de-du-charlatan",
-      "aliases": []
+      "aliases": [
+        "Dé de charlatan"
+      ]
     },
     {
       "en": "Whelm",
@@ -8262,7 +8314,9 @@
       "fr": "Épée sélène",
       "kind": "magic-item",
       "url": "https://www.aidedd.org/magic-item/fr/epee-selene",
-      "aliases": []
+      "aliases": [
+        "Épée de lumière lunaire"
+      ]
     },
     {
       "en": "Sword of Vengeance",
@@ -8311,7 +8365,9 @@
       "fr": "Fers de zéphyr",
       "kind": "magic-item",
       "url": "https://www.aidedd.org/magic-item/fr/fers-de-zephyr",
-      "aliases": []
+      "aliases": [
+        "Fers du zéphyr"
+      ]
     },
     {
       "en": "Figurine of Wondrous Power",
@@ -8423,7 +8479,9 @@
       "fr": "Habits autoréparateurs",
       "kind": "magic-item",
       "url": "https://www.aidedd.org/magic-item/fr/habits-autoreparateurs",
-      "aliases": []
+      "aliases": [
+        "Vêtements raccommodeurs"
+      ]
     },
     {
       "en": "Axe of the Dwarvish Lords",
@@ -8465,7 +8523,9 @@
       "fr": "Havresac d'Huard",
       "kind": "magic-item",
       "url": "https://www.aidedd.org/magic-item/fr/havresac-d-huard",
-      "aliases": []
+      "aliases": [
+        "Havresac magique d'Hévard"
+      ]
     },
     {
       "en": "Helm of Comprehending Languages",
@@ -8542,7 +8602,9 @@
       "fr": "Instrument des bardes",
       "kind": "magic-item",
       "url": "https://www.aidedd.org/magic-item/fr/instrument-des-bardes",
-      "aliases": []
+      "aliases": [
+        "Instrument de barde"
+      ]
     },
     {
       "en": "Bowl of Commanding Water Elementals",
@@ -8584,7 +8646,9 @@
       "fr": "Lentilles de netteté",
       "kind": "magic-item",
       "url": "https://www.aidedd.org/magic-item/fr/lentilles-de-nettete",
-      "aliases": []
+      "aliases": [
+        "Yeux grossissants"
+      ]
     },
     {
       "en": "Book of Vile Darkness",
@@ -8613,7 +8677,8 @@
       "kind": "magic-item",
       "url": "https://www.aidedd.org/magic-item/fr/lunettes-de-nuit-du-nyctalope",
       "aliases": [
-        "du nyctalope"
+        "du nyctalope",
+        "Lunettes du nyctalope"
       ]
     },
     {
@@ -8628,14 +8693,19 @@
       "fr": "Mailles de l'éfrit",
       "kind": "magic-item",
       "url": "https://www.aidedd.org/magic-item/fr/mailles-de-l-efrit",
-      "aliases": []
+      "aliases": [
+        "Mailles éfrit",
+        "Cotte de mailles de l'éfrit"
+      ]
     },
     {
       "en": "Elven Chain",
       "fr": "Mailles elfiques",
       "kind": "magic-item",
       "url": "https://www.aidedd.org/magic-item/fr/mailles-elfiques",
-      "aliases": []
+      "aliases": [
+        "Chemise de mailles elfique"
+      ]
     },
     {
       "en": "Nature's Mantle",
@@ -8691,7 +8761,9 @@
       "fr": "Marteau volant des nains",
       "kind": "magic-item",
       "url": "https://www.aidedd.org/magic-item/fr/marteau-volant-des-nains",
-      "aliases": []
+      "aliases": [
+        "Marteau de lancer nain"
+      ]
     },
     {
       "en": "Mace of Disruption",
@@ -8754,7 +8826,9 @@
       "fr": "Noirtranchant",
       "kind": "magic-item",
       "url": "https://www.aidedd.org/magic-item/fr/noirtranchant",
-      "aliases": []
+      "aliases": [
+        "Noir rasoir"
+      ]
     },
     {
       "en": "Ersatz Eye",
@@ -8831,7 +8905,9 @@
       "fr": "Perche du pêcheur",
       "kind": "magic-item",
       "url": "https://www.aidedd.org/magic-item/fr/perche-du-pecheur",
-      "aliases": []
+      "aliases": [
+        "Perche de pêcheur"
+      ]
     },
     {
       "en": "Pole of Collapsing",
@@ -8853,7 +8929,8 @@
       "kind": "magic-item",
       "url": "https://www.aidedd.org/magic-item/fr/perle-de-pouvoir-de-thaumaturgie",
       "aliases": [
-        "de thaumaturgie"
+        "de thaumaturgie",
+        "Perle de thaumaturgie"
       ]
     },
     {
@@ -8910,7 +8987,9 @@
       "fr": "Pierres messagères",
       "kind": "magic-item",
       "url": "https://www.aidedd.org/magic-item/fr/pierres-messageres",
-      "aliases": []
+      "aliases": [
+        "Pierres de communication à distance"
+      ]
     },
     {
       "en": "Nolzur's Marvelous Pigments",
@@ -9115,7 +9194,9 @@
       "fr": "Poudre dessiccative",
       "kind": "magic-item",
       "url": "https://www.aidedd.org/magic-item/fr/poudre-dessiccative",
-      "aliases": []
+      "aliases": [
+        "Poussière dessiccative"
+      ]
     },
     {
       "en": "Talking Doll",
@@ -9143,7 +9224,9 @@
       "fr": "Projectile percutant",
       "kind": "magic-item",
       "url": "https://www.aidedd.org/magic-item/fr/projectile-percutant",
-      "aliases": []
+      "aliases": [
+        "Munition percutante"
+      ]
     },
     {
       "en": "Ammunition of Slaying",
@@ -9199,7 +9282,9 @@
       "fr": "Robe du camelot",
       "kind": "magic-item",
       "url": "https://www.aidedd.org/magic-item/fr/robe-du-camelot",
-      "aliases": []
+      "aliases": [
+        "Robe de camelot"
+      ]
     },
     {
       "en": "Robe of Scintillating Colors",
@@ -9227,7 +9312,9 @@
       "fr": "Sac de haricots magiques",
       "kind": "magic-item",
       "url": "https://www.aidedd.org/magic-item/fr/sac-de-haricots-magiques",
-      "aliases": []
+      "aliases": [
+        "Sac de haricots"
+      ]
     },
     {
       "en": "Bag of Devouring",
@@ -9311,7 +9398,9 @@
       "fr": "Sceptre-tentacule",
       "kind": "magic-item",
       "url": "https://www.aidedd.org/magic-item/fr/sceptre-tentacule",
-      "aliases": []
+      "aliases": [
+        "Sceptre tentacule"
+      ]
     },
     {
       "en": "Saddle of the Cavalier",
@@ -9319,7 +9408,8 @@
       "kind": "magic-item",
       "url": "https://www.aidedd.org/magic-item/fr/selle-du-cavalier-du-hussard",
       "aliases": [
-        "du hussard"
+        "du hussard",
+        "Selle du hussard"
       ]
     },
     {
@@ -9432,7 +9522,9 @@
       "fr": "Urne fumigène",
       "kind": "magic-item",
       "url": "https://www.aidedd.org/magic-item/fr/urne-fumigene",
-      "aliases": []
+      "aliases": [
+        "Bouteille fumigène"
+      ]
     },
     {
       "en": "Wave",
@@ -9453,7 +9545,9 @@
       "fr": "Voleuse de vie",
       "kind": "magic-item",
       "url": "https://www.aidedd.org/magic-item/fr/voleuse-de-vie",
-      "aliases": []
+      "aliases": [
+        "Voleuse des neuf vies"
+      ]
     },
     {
       "en": "Eyes of the Eagle",
@@ -9461,6 +9555,15 @@
       "kind": "magic-item",
       "url": "https://www.aidedd.org/magic-item/fr/yeux-de-lynx",
       "aliases": []
+    },
+    {
+      "en": "Ring of Elemental Command",
+      "fr": "Anneau de maîtrise élémentaire",
+      "aliases": [
+        "Anneau de contrôle des élémentaires"
+      ],
+      "kind": "magic-item",
+      "url": "https://www.aidedd.org/magic-item/fr/anneau-de-ma%C3%AEtrise-elementaire"
     }
   ]
 }

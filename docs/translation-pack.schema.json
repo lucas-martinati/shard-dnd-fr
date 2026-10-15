@@ -58,6 +58,11 @@
               "minLength": 1
             }
           },
+          "aliases": {
+            "description": "Noms alternatifs de recherche pour un libellé, notamment ses anciennes traductions françaises.",
+            "type": "array",
+            "items": { "type": "string", "minLength": 1 }
+          },
           "source": {
             "type": "string",
             "minLength": 1

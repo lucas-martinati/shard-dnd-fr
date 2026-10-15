@@ -3,10 +3,13 @@ const AIDEDD_KINDS = ['spell','monster','feat','invocation','magic-item'];
 function aideddURL(value, kind, index=false) {
   try {
     const u=new URL(value,'https://www.aidedd.org');
+    // Certains liens publics contiennent un accent, par exemple maîtrise.
+    // Décoder uniquement le chemin pour le valider ; un séparateur encodé reste refusé.
+    const pathname=decodeURIComponent(u.pathname).normalize('NFC'),slug='[a-z0-9à-öø-ÿ-]+';
     const legacyFile={spell:'sorts',monster:'monstres',feat:'dons',invocation:'invocations','magic-item':'om'}[kind];
     if(index==='legacy-en'||index==='legacy-fr'){const param=index==='legacy-en'?'vo':'vf';return u.protocol==='https:'&&u.hostname==='www.aidedd.org'&&!u.username&&!u.password&&!u.port&&!u.hash&&u.pathname===`/dnd/${legacyFile}.php`&&[...u.searchParams].length===1&&/^[a-z0-9-]+$/.test(u.searchParams.get(param)||'')?u.href:null;}
     return u.protocol==='https:' && u.hostname==='www.aidedd.org' && !u.username && !u.password && !u.port && !u.search && !u.hash && AIDEDD_KINDS.includes(kind) &&
-      (index==='en' ? new RegExp(`^/${kind}/[a-z0-9-]+/?$`).test(u.pathname) : index ? u.pathname===`/${kind}/fr/` : new RegExp(`^/${kind}/fr/[a-z0-9-]+/?$`).test(u.pathname)) ? u.href : null;
+      (index==='en' ? new RegExp(`^/${kind}/${slug}/?$`).test(pathname) : index ? u.pathname===`/${kind}/fr/` : new RegExp(`^/${kind}/fr/${slug}/?$`).test(pathname)) ? u.href : null;
   } catch {return null;}
 }
 function parseAideDDCatalog(html,kind) {

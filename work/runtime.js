@@ -23,7 +23,8 @@
   try {aideddCache=JSON.parse(GM_getValue(AIDEDD_CACHE_KEY,'{}'));}catch{}
   if(!aideddCache || typeof aideddCache!=='object')aideddCache={};
   const validRows=rows=>Array.isArray(rows)&&rows.length>=1000&&rows.length<10000&&rows.every(r=>r&&typeof r.en==='string'&&r.en.length>0&&r.en.length<=150&&typeof r.fr==='string'&&r.fr.length>0&&r.fr.length<=180&&aideddURL(r.url,r.kind));
-  let aideddRows=validRows(aideddCache.rows)?aideddCache.rows:AIDEDD_CATALOG;
+  // Une ancienne synchronisation ne doit pas masquer les références ajoutées au script.
+  let aideddRows=validRows(aideddCache.rows)?[...new Map([...AIDEDD_CATALOG,...aideddCache.rows].map(r=>[normalize(r.en)+'|'+r.kind,r])).values()]:AIDEDD_CATALOG;
   let entries, tokenRE, phraseRE, names, customKeys, effectiveMeta, aideddIndex;
   const bundledIndex=new Map(AIDEDD_CATALOG.map(row=>[normalize(row.en)+'|'+row.kind,row]));
   const legacyIndex=new Map();
@@ -372,6 +373,8 @@
   searchRoot.append(searchStyle,searchBox);document.body.append(searchHost);
   let nativeTarget=null, nativeHits=[], activeHit=-1, applyingSearch=false;
   const searchableKeys=new Set([SPELLS,MONSTERS,EQUIPMENT,MAGICITEMS,TERMS,EXPANSION,CREATION,CANONICAL_SPELLS,CANONICAL_FEATURES,CANONICAL_COMBAT].flatMap(data=>parse(data).filter(([en])=>en.length<100).map(([en])=>normalize(en))));
+  // Les packs récents contiennent aussi des noms absents des anciens TSV.
+  for(const [en]of parse(FEATURE_TERMS))if(['équipement','monstre','sort','don','aptitude de classe','trait d’espèce'].includes(TERM_META[normalize(en)]?.category))searchableKeys.add(normalize(en));
   function isSearchInput(el) {
     if (!(el instanceof HTMLInputElement) || el.disabled || el.readOnly || el.closest('[data-shard-fr-ignore]')) return false;
     if (!['text','search'].includes(el.type)) return false;

@@ -1,0 +1,5161 @@
+{
+  "date": "2026-10-15",
+  "sources": [
+    "https://www.aidedd.org/dnd-filters/objets-magiques.php",
+    "https://www.aidedd.org/magic-item/fr/"
+  ],
+  "scope": "Noms seulement, pas descriptions. Noms 2024 prioritaires ; anciens noms recherchables. La coquille Perfume of Bwitching du tableau ancien est exclue.",
+  "modern": [
+    {
+      "en": "Amulet of Proof against Detection and Location",
+      "fr": "Amulette d'antidétection",
+      "aliases": [],
+      "url": "/magic-item/fr/amulette-d-antidetection",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Amulet of Health",
+      "fr": "Amulette de bonne santé",
+      "aliases": [],
+      "url": "/magic-item/fr/amulette-de-bonne-sante",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Periapt of Wound Closure",
+      "fr": "Amulette de cicatrisation",
+      "aliases": [],
+      "url": "/magic-item/fr/amulette-de-cicatrisation",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Periapt of Proof against Poison",
+      "fr": "Amulette de protection contre le poison",
+      "aliases": [],
+      "url": "/magic-item/fr/amulette-de-protection-contre-le-poison",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Periapt of Health",
+      "fr": "Amulette de santé",
+      "aliases": [],
+      "url": "/magic-item/fr/amulette-de-sante",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Dark Shard Amulet",
+      "fr": "Amulette de sombre éclat",
+      "aliases": [],
+      "url": "/magic-item/fr/amulette-de-sombre-eclat",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Amulet of the Planes",
+      "fr": "Amulette des plans",
+      "aliases": [],
+      "url": "/magic-item/fr/amulette-des-plans",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Clockwork Amulet",
+      "fr": "Amulette mécanique",
+      "aliases": [],
+      "url": "/magic-item/fr/amulette-mecanique",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Ring of Free Action",
+      "fr": "Anneau d'action libre",
+      "aliases": [],
+      "url": "/magic-item/fr/anneau-d-action-libre",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Ring of Evasion",
+      "fr": "Anneau d'esquive totale",
+      "aliases": [],
+      "url": "/magic-item/fr/anneau-d-esquive-totale",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Ring of Animal Influence",
+      "fr": "Anneau d'influence animale",
+      "aliases": [],
+      "url": "/magic-item/fr/anneau-d-influence-animale",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Ring of Invisibility",
+      "fr": "Anneau d'invisibilité",
+      "aliases": [],
+      "url": "/magic-item/fr/anneau-d-invisibilite",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Ring of Mind Shielding",
+      "fr": "Anneau de barrière mentale",
+      "aliases": [],
+      "url": "/magic-item/fr/anneau-de-barriere-mentale",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Ring of Warmth",
+      "fr": "Anneau de chaleur constante",
+      "aliases": [],
+      "url": "/magic-item/fr/anneau-de-chaleur-constante",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Ring of Djinni Summoning",
+      "fr": "Anneau de convocation de djinn",
+      "aliases": [],
+      "url": "/magic-item/fr/anneau-de-convocation-de-djinn",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Ring of Shooting Stars",
+      "fr": "Anneau de feu d'étoiles",
+      "aliases": [],
+      "url": "/magic-item/fr/anneau-de-feu-d-etoiles",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Ring of Feather Falling",
+      "fr": "Anneau de feuille morte",
+      "aliases": [],
+      "url": "/magic-item/fr/anneau-de-feuille-morte",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Ring of Elemental Command",
+      "fr": "Anneau de maîtrise élémentaire",
+      "aliases": [
+        "Anneau de contrôle des élémentaires"
+      ],
+      "url": "/magic-item/fr/anneau-de-maîtrise-elementaire",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Ring of Water Walking",
+      "fr": "Anneau de marche sur l'eau",
+      "aliases": [],
+      "url": "/magic-item/fr/anneau-de-marche-sur-l-eau",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Ring of Swimming",
+      "fr": "Anneau de nage",
+      "aliases": [],
+      "url": "/magic-item/fr/anneau-de-nage",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Ring of Protection",
+      "fr": "Anneau de protection",
+      "aliases": [],
+      "url": "/magic-item/fr/anneau-de-protection",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Ring of X-ray Vision",
+      "fr": "Anneau de rayons X",
+      "aliases": [],
+      "url": "/magic-item/fr/anneau-de-rayons-x",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Ring of Regeneration",
+      "fr": "Anneau de régénération",
+      "aliases": [],
+      "url": "/magic-item/fr/anneau-de-regeneration",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Ring of Spell Turning",
+      "fr": "Anneau de renvoi des sorts",
+      "aliases": [],
+      "url": "/magic-item/fr/anneau-de-renvoi-des-sorts",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Ring of Resistance",
+      "fr": "Anneau de résistance",
+      "aliases": [],
+      "url": "/magic-item/fr/anneau-de-resistance",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Ring of Jumping",
+      "fr": "Anneau de saut",
+      "aliases": [],
+      "url": "/magic-item/fr/anneau-de-saut",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Ring of Spell Storing",
+      "fr": "Anneau de stockage de sorts",
+      "aliases": [],
+      "url": "/magic-item/fr/anneau-de-stockage-de-sorts",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Ring of Telekinesis",
+      "fr": "Anneau de télékinésie",
+      "aliases": [],
+      "url": "/magic-item/fr/anneau-de-telekinesie",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Ring of Three Wishes",
+      "fr": "Anneau de triple souhait",
+      "aliases": [],
+      "url": "/magic-item/fr/anneau-de-triple-souhait",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Ring of the Ram",
+      "fr": "Anneau du bélier",
+      "aliases": [],
+      "url": "/magic-item/fr/anneau-du-belier",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Energy Bow",
+      "fr": "Arc à énergie",
+      "aliases": [],
+      "url": "/magic-item/fr/arc-a-energie",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Oathbow",
+      "fr": "Arc du serment",
+      "aliases": [],
+      "url": "/magic-item/fr/arc-du-serment",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Weapon, +1, +2, or +3",
+      "fr": "Arme +1, +2 ou +3",
+      "aliases": [],
+      "url": "/magic-item/fr/arme-1-2-ou-3",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Flame Tongue",
+      "fr": "Arme ardente",
+      "aliases": [],
+      "url": "/magic-item/fr/arme-ardente",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Vicious Weapon",
+      "fr": "Arme brutale",
+      "aliases": [],
+      "url": "/magic-item/fr/arme-brutale",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Adamantine Weapon",
+      "fr": "Arme en adamantium",
+      "aliases": [],
+      "url": "/magic-item/fr/arme-en-adamantium",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Silvered Weapon",
+      "fr": "Arme en argent",
+      "aliases": [],
+      "url": "/magic-item/fr/arme-en-argent",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Weapon of Warning",
+      "fr": "Arme vigilante",
+      "aliases": [],
+      "url": "/magic-item/fr/arme-vigilante",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Enspelled Weapon",
+      "fr": "Arme-sortilège",
+      "aliases": [],
+      "url": "/magic-item/fr/arme-sortilege",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Armor, +1, +2, or +3",
+      "fr": "Armure +1, +2 ou +3",
+      "aliases": [],
+      "url": "/magic-item/fr/armure-1-2-ou-3",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Dragon Scale Mail",
+      "fr": "Armure d'écailles de dragon",
+      "aliases": [],
+      "url": "/magic-item/fr/armure-d-ecailles-de-dragon",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Armor of Invulnerability",
+      "fr": "Armure d'invulnérabilité",
+      "aliases": [],
+      "url": "/magic-item/fr/armure-d-invulnerabilite",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Glamoured Studded Leather",
+      "fr": "Armure de cuir clouté enchantée",
+      "aliases": [],
+      "url": "/magic-item/fr/armure-de-cuir-cloute-enchantee",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Mithral Armor",
+      "fr": "Armure de mithral",
+      "aliases": [],
+      "url": "/magic-item/fr/armure-de-mithral",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Armor of Resistance",
+      "fr": "Armure de résistance",
+      "aliases": [],
+      "url": "/magic-item/fr/armure-de-resistance",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Armor of Vulnerability",
+      "fr": "Armure de vulnérabilité",
+      "aliases": [],
+      "url": "/magic-item/fr/armure-de-vulnerabilite",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Demon Armor",
+      "fr": "Armure démoniaque",
+      "aliases": [],
+      "url": "/magic-item/fr/armure-demoniaque",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Mariner's Armor",
+      "fr": "Armure du matelot",
+      "aliases": [],
+      "url": "/magic-item/fr/armure-du-matelot",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Adamantine Armor",
+      "fr": "Armure en adamantium",
+      "aliases": [],
+      "url": "/magic-item/fr/armure-en-adamantium",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Smoldering Armor",
+      "fr": "Armure fumante",
+      "aliases": [],
+      "url": "/magic-item/fr/armure-fumante",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Armor of Gleaming",
+      "fr": "Armure impeccable",
+      "aliases": [],
+      "url": "/magic-item/fr/armure-impeccable",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Cast-Off Armor",
+      "fr": "Armure rapide",
+      "aliases": [],
+      "url": "/magic-item/fr/armure-rapide",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Enspelled Armor",
+      "fr": "Armure-sortilège",
+      "aliases": [],
+      "url": "/magic-item/fr/armure-sortilege",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Wand of Lightning Bolts",
+      "fr": "Baguette d'éclairs",
+      "aliases": [],
+      "url": "/magic-item/fr/baguette-d-eclairs",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Wand of Orcus",
+      "fr": "Baguette d'Orcus",
+      "aliases": [],
+      "url": "/magic-item/fr/baguette-d-orcus",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Wand of Fireballs",
+      "fr": "Baguette de boules de feu",
+      "aliases": [],
+      "url": "/magic-item/fr/baguette-de-boules-de-feu",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Wand of Enemy Detection",
+      "fr": "Baguette de détection de l'ennemi",
+      "aliases": [],
+      "url": "/magic-item/fr/baguette-de-detection-de-l-ennemi",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Wand of Magic Detection",
+      "fr": "Baguette de détection de la magie",
+      "aliases": [],
+      "url": "/magic-item/fr/baguette-de-detection-de-la-magie",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Wand of Polymorph",
+      "fr": "Baguette de métamorphose",
+      "aliases": [],
+      "url": "/magic-item/fr/baguette-de-metamorphose",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Wand of Paralysis",
+      "fr": "Baguette de paralysie",
+      "aliases": [],
+      "url": "/magic-item/fr/baguette-de-paralysie",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Wand of Fear",
+      "fr": "Baguette de peur",
+      "aliases": [
+        "de terreur"
+      ],
+      "url": "/magic-item/fr/baguette-de-peur-de-terreur",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Wand of Magic Missiles",
+      "fr": "Baguette de projectiles magiques",
+      "aliases": [],
+      "url": "/magic-item/fr/baguette-de-projectiles-magiques",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Wand of Web",
+      "fr": "Baguette de toile d'araignée",
+      "aliases": [
+        "des toiles"
+      ],
+      "url": "/magic-item/fr/baguette-de-toile-d-araignee-des-toiles",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Wand of Binding",
+      "fr": "Baguette des entraves",
+      "aliases": [],
+      "url": "/magic-item/fr/baguette-des-entraves",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Wand of Wonder",
+      "fr": "Baguette des merveilles",
+      "aliases": [],
+      "url": "/magic-item/fr/baguette-des-merveilles",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Wand of Secrets",
+      "fr": "Baguette des secrets",
+      "aliases": [],
+      "url": "/magic-item/fr/baguette-des-secrets",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Wand of Conducting",
+      "fr": "Baguette du chef d'orchestre",
+      "aliases": [],
+      "url": "/magic-item/fr/baguette-du-chef-d-orchestre",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Wand of the War Mage, +1, +2, or +3",
+      "fr": "Baguette du mage de guerre +1, +2 ou +3",
+      "aliases": [],
+      "url": "/magic-item/fr/baguette-du-mage-de-guerre-1-2-ou-3",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Wand of Pyrotechnics",
+      "fr": "Baguette du pyrotechnicien",
+      "aliases": [],
+      "url": "/magic-item/fr/baguette-du-pyrotechnicien",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Baba Yaga's Dancing Broom",
+      "fr": "Balai dansant de Baba Yaga",
+      "aliases": [],
+      "url": "/magic-item/fr/balai-dansant-de-baba-yaga",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Broom of Flying",
+      "fr": "Balai volant",
+      "aliases": [],
+      "url": "/magic-item/fr/balai-volant",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Wraps of Unarmed Power",
+      "fr": "Bandages de pancrace",
+      "aliases": [],
+      "url": "/magic-item/fr/bandages-de-pancrace",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Headband of Intellect",
+      "fr": "Bandeau d'intelligence",
+      "aliases": [],
+      "url": "/magic-item/fr/bandeau-d-intelligence",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Folding Boat",
+      "fr": "Bateau pliable",
+      "aliases": [],
+      "url": "/magic-item/fr/bateau-pliable",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Staff of Charming",
+      "fr": "Bâton d'envoûtement",
+      "aliases": [],
+      "url": "/magic-item/fr/baton-d-envoutement",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Staff of Fire",
+      "fr": "Bâton de feu",
+      "aliases": [],
+      "url": "/magic-item/fr/baton-de-feu",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Staff of Withering",
+      "fr": "Bâton de flétrissement",
+      "aliases": [],
+      "url": "/magic-item/fr/baton-de-fletrissement",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Staff of Frost",
+      "fr": "Bâton de givre",
+      "aliases": [],
+      "url": "/magic-item/fr/baton-de-givre",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Staff of Healing",
+      "fr": "Bâton de guérison",
+      "aliases": [],
+      "url": "/magic-item/fr/baton-de-guerison",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Quarterstaff of the Acrobat",
+      "fr": "Bâton de l'acrobate",
+      "aliases": [],
+      "url": "/magic-item/fr/baton-de-l-acrobate",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Staff of the Adder",
+      "fr": "Bâton de la vipère",
+      "aliases": [],
+      "url": "/magic-item/fr/baton-de-la-vipere",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Staff of Power",
+      "fr": "Bâton de surpuissance",
+      "aliases": [],
+      "url": "/magic-item/fr/baton-de-surpuissance",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Staff of Thunder and Lightning",
+      "fr": "Bâton de tonnerre et de foudre",
+      "aliases": [],
+      "url": "/magic-item/fr/baton-de-tonnerre-et-de-foudre",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Staff of Birdcalls",
+      "fr": "Bâton des chants d'oiseaux",
+      "aliases": [],
+      "url": "/magic-item/fr/baton-des-chants-d-oiseaux",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Staff of the Woodlands",
+      "fr": "Bâton des forêts",
+      "aliases": [],
+      "url": "/magic-item/fr/baton-des-forets",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Staff of Swarming Insects",
+      "fr": "Bâton du grand essaim",
+      "aliases": [],
+      "url": "/magic-item/fr/baton-du-grand-essaim",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Staff of the Python",
+      "fr": "Bâton du python",
+      "aliases": [],
+      "url": "/magic-item/fr/baton-du-python",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Staff of the Magi",
+      "fr": "Bâton du thaumaturge",
+      "aliases": [],
+      "url": "/magic-item/fr/baton-du-thaumaturge",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Staff of Flowers",
+      "fr": "Bâton floral",
+      "aliases": [],
+      "url": "/magic-item/fr/baton-floral",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Staff of Adornment",
+      "fr": "Bâton ostensible",
+      "aliases": [],
+      "url": "/magic-item/fr/baton-ostensible",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Staff of Striking",
+      "fr": "Bâton percussif",
+      "aliases": [],
+      "url": "/magic-item/fr/baton-percussif",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Enspelled Staff",
+      "fr": "Bâton-sortilège",
+      "aliases": [],
+      "url": "/magic-item/fr/baton-sortilege",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Keoghtom's Ointment",
+      "fr": "Baume de Keoghtom",
+      "aliases": [],
+      "url": "/magic-item/fr/baume-de-keoghtom",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Winged Boots",
+      "fr": "Bottes ailées",
+      "aliases": [],
+      "url": "/magic-item/fr/bottes-ailees",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Boots of False Tracks",
+      "fr": "Bottes aux empreintes factices",
+      "aliases": [],
+      "url": "/magic-item/fr/bottes-aux-empreintes-factices",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Boots of Levitation",
+      "fr": "Bottes de lévitation",
+      "aliases": [],
+      "url": "/magic-item/fr/bottes-de-levitation",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Boots of Speed",
+      "fr": "Bottes de rapidité",
+      "aliases": [],
+      "url": "/magic-item/fr/bottes-de-rapidite",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Boots of Striding and Springing",
+      "fr": "Bottes de sept lieues",
+      "aliases": [],
+      "url": "/magic-item/fr/bottes-de-sept-lieues",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Boots of the Winterlands",
+      "fr": "Bottes des terres gelées",
+      "aliases": [],
+      "url": "/magic-item/fr/bottes-des-terres-gelees",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Boots of Elvenkind",
+      "fr": "Bottes elfiques",
+      "aliases": [],
+      "url": "/magic-item/fr/bottes-elfiques",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Shield, +1, +2, or +3",
+      "fr": "Bouclier +1, +2 ou +3",
+      "aliases": [],
+      "url": "/magic-item/fr/bouclier-1-2-ou-3",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Animated Shield",
+      "fr": "Bouclier animé",
+      "aliases": [],
+      "url": "/magic-item/fr/bouclier-anime",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Arrow-Catching Shield",
+      "fr": "Bouclier antiprojectiles",
+      "aliases": [],
+      "url": "/magic-item/fr/bouclier-antiprojectiles",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Shield of Missile Attraction",
+      "fr": "Bouclier d'attraction des projectiles",
+      "aliases": [],
+      "url": "/magic-item/fr/bouclier-d-attraction-des-projectiles",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Shield of the Cavalier",
+      "fr": "Bouclier du cavalier",
+      "aliases": [
+        "du hussard"
+      ],
+      "url": "/magic-item/fr/bouclier-du-cavalier-du-hussard",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Shield of Expression",
+      "fr": "Bouclier expressif",
+      "aliases": [],
+      "url": "/magic-item/fr/bouclier-expressif",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Spellguard Shield",
+      "fr": "Bouclier gardesort",
+      "aliases": [],
+      "url": "/magic-item/fr/bouclier-gardesort",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Sentinel Shield",
+      "fr": "Bouclier sentinelle",
+      "aliases": [],
+      "url": "/magic-item/fr/bouclier-sentinelle",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Crystal Ball",
+      "fr": "Boule de cristal",
+      "aliases": [],
+      "url": "/magic-item/fr/boule-de-cristal",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Crystal Ball of Mind Reading",
+      "fr": "Boule de cristal de lecture des pensées",
+      "aliases": [],
+      "url": "/magic-item/fr/boule-de-cristal-de-lecture-des-pensees",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Crystal Ball of Telepathy",
+      "fr": "Boule de cristal de télépathie",
+      "aliases": [],
+      "url": "/magic-item/fr/boule-de-cristal-de-telepathie",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Crystal Ball of True Seeing",
+      "fr": "Boule de cristal de vision suprême",
+      "aliases": [],
+      "url": "/magic-item/fr/boule-de-cristal-de-vision-supreme",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Heward's Handy Spice Pouch",
+      "fr": "Bourse à épices d'Huard",
+      "aliases": [],
+      "url": "/magic-item/fr/bourse-a-epices-d-huard",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Efreeti Bottle",
+      "fr": "Bouteille de l'éfrit",
+      "aliases": [
+        "du mauvais génie"
+      ],
+      "url": "/magic-item/fr/bouteille-de-l-efrit-du-mauvais-genie",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Bracers of Archery",
+      "fr": "Bracelets d'archer",
+      "aliases": [],
+      "url": "/magic-item/fr/bracelets-d-archer",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Bracers of Defense",
+      "fr": "Bracelets de défense",
+      "aliases": [],
+      "url": "/magic-item/fr/bracelets-de-defense",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Brazier of Commanding Fire Elementals",
+      "fr": "Brasero de contrôle des élémentaires du feu",
+      "aliases": [],
+      "url": "/magic-item/fr/brasero-de-controle-des-elementaires-du-feu",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Brooch of Shielding",
+      "fr": "Broche de défense",
+      "aliases": [],
+      "url": "/magic-item/fr/broche-de-defense",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Lock of Trickery",
+      "fr": "Cadenas sournois",
+      "aliases": [],
+      "url": "/magic-item/fr/cadenas-sournois",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Veteran's Cane",
+      "fr": "Canne du vétéran",
+      "aliases": [],
+      "url": "/magic-item/fr/canne-du-veteran",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Cloak of Many Fashions",
+      "fr": "Cape à la mode",
+      "aliases": [],
+      "url": "/magic-item/fr/cape-a-la-mode",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Cloak of Invisibility",
+      "fr": "Cape d'invisibilité",
+      "aliases": [],
+      "url": "/magic-item/fr/cape-d-invisibilite",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Cloak of Displacement",
+      "fr": "Cape de déplacement",
+      "aliases": [],
+      "url": "/magic-item/fr/cape-de-deplacement",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Cloak of Arachnida",
+      "fr": "Cape de l'arachnide",
+      "aliases": [],
+      "url": "/magic-item/fr/cape-de-l-arachnide",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Cloak of the Bat",
+      "fr": "Cape de la chauve-souris",
+      "aliases": [],
+      "url": "/magic-item/fr/cape-de-la-chauve-souris",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Cloak of the Manta Ray",
+      "fr": "Cape de la raie manta",
+      "aliases": [],
+      "url": "/magic-item/fr/cape-de-la-raie-manta",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Cloak of Protection",
+      "fr": "Cape de protection",
+      "aliases": [],
+      "url": "/magic-item/fr/cape-de-protection",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Wings of Flying",
+      "fr": "Cape de vol",
+      "aliases": [],
+      "url": "/magic-item/fr/cape-de-vol",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Cape of the Mountebank",
+      "fr": "Cape du prestidigitateur",
+      "aliases": [],
+      "url": "/magic-item/fr/cape-du-prestidigitateur",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Cloak of Elvenkind",
+      "fr": "Cape elfique",
+      "aliases": [],
+      "url": "/magic-item/fr/cape-elfique",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Cloak of Billowing",
+      "fr": "Cape virevoltante",
+      "aliases": [],
+      "url": "/magic-item/fr/cape-virevoltante",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Cap of Water Breathing",
+      "fr": "Capuchon de respiration aquatique",
+      "aliases": [],
+      "url": "/magic-item/fr/capuchon-de-respiration-aquatique",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Decanter of Endless Water",
+      "fr": "Carafe intarissable",
+      "aliases": [],
+      "url": "/magic-item/fr/carafe-intarissable",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Chime of Opening",
+      "fr": "Carillon d'ouverture",
+      "aliases": [],
+      "url": "/magic-item/fr/carillon-d-ouverture",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Quiver of Ehlonna",
+      "fr": "Carquois d'Ehlonna",
+      "aliases": [],
+      "url": "/magic-item/fr/carquois-d-ehlonna",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Deck of Illusions",
+      "fr": "Cartes d'illusion",
+      "aliases": [
+        "Tarot fantasmagorique"
+      ],
+      "url": "/magic-item/fr/cartes-d-illusion-tarot-fantasmagorique",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Deck of Many Things",
+      "fr": "Cartes merveilleuses",
+      "aliases": [
+        "Tarot merveilleux"
+      ],
+      "url": "/magic-item/fr/cartes-merveilleuses-tarot-merveilleux",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Belt of Giant Strength",
+      "fr": "Ceinturon de force de géant",
+      "aliases": [],
+      "url": "/magic-item/fr/ceinturon-de-force-de-geant",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Belt of Dwarvenkind",
+      "fr": "Ceinturon des nains",
+      "aliases": [],
+      "url": "/magic-item/fr/ceinturon-des-nains",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Candle of the Deep",
+      "fr": "Chandelle des profondeurs",
+      "aliases": [],
+      "url": "/magic-item/fr/chandelle-des-profondeurs",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Hat of Disguise",
+      "fr": "Chapeau de déguisement",
+      "aliases": [],
+      "url": "/magic-item/fr/chapeau-de-deguisement",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Hat of Wizardry",
+      "fr": "Chapeau de magicien",
+      "aliases": [],
+      "url": "/magic-item/fr/chapeau-de-magicien",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Hat of Vermin",
+      "fr": "Chapeau de vermine",
+      "aliases": [],
+      "url": "/magic-item/fr/chapeau-de-vermine",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Hat of Many Spells",
+      "fr": "Chapeau mille-sorts",
+      "aliases": [],
+      "url": "/magic-item/fr/chapeau-mille-sorts",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Cauldron of Rebirth",
+      "fr": "Chaudron de renaissance",
+      "aliases": [],
+      "url": "/magic-item/fr/chaudron-de-renaissance",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Slippers of Spider Climbing",
+      "fr": "Chaussons de l'araignée",
+      "aliases": [],
+      "url": "/magic-item/fr/chaussons-de-l-araignee",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Tankard of Sobriety",
+      "fr": "Chope de sobriété",
+      "aliases": [],
+      "url": "/magic-item/fr/chope-de-sobriete",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Candle of Invocation",
+      "fr": "Cierge d'invocation",
+      "aliases": [],
+      "url": "/magic-item/fr/cierge-d-invocation",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Scimitar of Speed",
+      "fr": "Cimeterre de célérité",
+      "aliases": [],
+      "url": "/magic-item/fr/cimeterre-de-celerite",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Mystery Key",
+      "fr": "Clef mystérieuse",
+      "aliases": [],
+      "url": "/magic-item/fr/clef-mysterieuse",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Sovereign Glue",
+      "fr": "Colle universelle",
+      "aliases": [],
+      "url": "/magic-item/fr/colle-universelle",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Necklace of Adaptation",
+      "fr": "Collier d'adaptation",
+      "aliases": [],
+      "url": "/magic-item/fr/collier-d-adaptation",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Necklace of Fireballs",
+      "fr": "Collier de boules de feu",
+      "aliases": [],
+      "url": "/magic-item/fr/collier-de-boules-de-feu",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Necklace of Prayer Beads",
+      "fr": "Collier de prière",
+      "aliases": [
+        "Chapelet mystique"
+      ],
+      "url": "/magic-item/fr/collier-de-priere-chapelet-mystique",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Horn of Silent Alarm",
+      "fr": "Cor d'alarme silencieuse",
+      "aliases": [],
+      "url": "/magic-item/fr/cor-d-alarme-silencieuse",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Horn of Blasting",
+      "fr": "Cor de dévastation",
+      "aliases": [],
+      "url": "/magic-item/fr/cor-de-devastation",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Horn of Valhalla",
+      "fr": "Cor du Valhalla",
+      "aliases": [],
+      "url": "/magic-item/fr/cor-du-valhalla",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Rope of Climbing",
+      "fr": "Corde d'ascension",
+      "aliases": [],
+      "url": "/magic-item/fr/corde-d-ascension",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Rope of Entanglement",
+      "fr": "Corde d'enchevêtrement",
+      "aliases": [],
+      "url": "/magic-item/fr/corde-d-enchevetrement",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Rope of Mending",
+      "fr": "Corde remaillante",
+      "aliases": [],
+      "url": "/magic-item/fr/corde-remaillante",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Ear Horn of Hearing",
+      "fr": "Cornet acoustique",
+      "aliases": [],
+      "url": "/magic-item/fr/cornet-acoustique",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Alchemy Jug",
+      "fr": "Cruche alchimique",
+      "aliases": [],
+      "url": "/magic-item/fr/cruche-alchimique",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Cube of Summoning",
+      "fr": "Cube de convocation",
+      "aliases": [],
+      "url": "/magic-item/fr/cube-de-convocation",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Cube of Force",
+      "fr": "Cube de force",
+      "aliases": [],
+      "url": "/magic-item/fr/cube-de-force",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Cubic Gate",
+      "fr": "Cube des plans",
+      "aliases": [],
+      "url": "/magic-item/fr/cube-des-plans",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Dagger of Venom",
+      "fr": "Dague venimeuse",
+      "aliases": [],
+      "url": "/magic-item/fr/dague-venimeuse",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Charlatan's Die",
+      "fr": "Dé du charlatan",
+      "aliases": [],
+      "url": "/magic-item/fr/de-du-charlatan",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Whelm",
+      "fr": "Déluge",
+      "aliases": [],
+      "url": "/magic-item/fr/deluge",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Demonomicon of Iggwilv",
+      "fr": "Demonomicon d'Iggwilv",
+      "aliases": [],
+      "url": "/magic-item/fr/demonomicon-d-iggwilv",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Circlet of Blasting",
+      "fr": "Diadème de destruction",
+      "aliases": [],
+      "url": "/magic-item/fr/diademe-de-destruction",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Potion of Longevity",
+      "fr": "Élixir de jouvence",
+      "aliases": [],
+      "url": "/magic-item/fr/elixir-de-jouvence",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Elixir of Health",
+      "fr": "Élixir de santé",
+      "aliases": [],
+      "url": "/magic-item/fr/elixir-de-sante",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Censer of Controlling Air Elementals",
+      "fr": "Encensoir de contrôle des élémentaires de l'air",
+      "aliases": [],
+      "url": "/magic-item/fr/encensoir-de-controle-des-elementaires-de-l-air",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Sword of Sharpness",
+      "fr": "Épée acérée",
+      "aliases": [],
+      "url": "/magic-item/fr/epee-aceree",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Dancing Sword",
+      "fr": "Épée dansante",
+      "aliases": [],
+      "url": "/magic-item/fr/epee-dansante",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Sword of Kas",
+      "fr": "Épée de Kas",
+      "aliases": [],
+      "url": "/magic-item/fr/epee-de-kas",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Sword of Answering",
+      "fr": "Épée de réponse",
+      "aliases": [],
+      "url": "/magic-item/fr/epee-de-reponse",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Sword of Wounding",
+      "fr": "Épée mordante",
+      "aliases": [],
+      "url": "/magic-item/fr/epee-mordante",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Sun Blade",
+      "fr": "Épée radieuse",
+      "aliases": [],
+      "url": "/magic-item/fr/epee-radieuse",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Moon-Touched Sword",
+      "fr": "Épée sélène",
+      "aliases": [],
+      "url": "/magic-item/fr/epee-selene",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Sword of Vengeance",
+      "fr": "Épée vengeresse",
+      "aliases": [],
+      "url": "/magic-item/fr/epee-vengeresse",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Sword of Life Stealing",
+      "fr": "Épée voleuse de vie",
+      "aliases": [],
+      "url": "/magic-item/fr/epee-voleuse-de-vie",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Vorpal Sword",
+      "fr": "Épée vorpale",
+      "aliases": [],
+      "url": "/magic-item/fr/epee-vorpale",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Wind Fan",
+      "fr": "Éventail enchanté",
+      "aliases": [],
+      "url": "/magic-item/fr/eventail-enchante",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Frost Brand",
+      "fr": "Fer gelé",
+      "aliases": [],
+      "url": "/magic-item/fr/fer-gele",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Horseshoes of Speed",
+      "fr": "Fers de rapidité",
+      "aliases": [],
+      "url": "/magic-item/fr/fers-de-rapidite",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Horseshoes of a Zephyr",
+      "fr": "Fers de zéphyr",
+      "aliases": [],
+      "url": "/magic-item/fr/fers-de-zephyr",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Figurine of Wondrous Power",
+      "fr": "Figurine merveilleuse",
+      "aliases": [],
+      "url": "/magic-item/fr/figurine-merveilleuse",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Iron Flask",
+      "fr": "Flasque de fer",
+      "aliases": [],
+      "url": "/magic-item/fr/flasque-de-fer",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Pipes of the Sewers",
+      "fr": "Flûte des égouts",
+      "aliases": [],
+      "url": "/magic-item/fr/flute-des-egouts",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Pipes of Haunting",
+      "fr": "Flûte terrifiante",
+      "aliases": [],
+      "url": "/magic-item/fr/flute-terrifiante",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Daern's Instant Fortress",
+      "fr": "Forteresse instantanée de Daern",
+      "aliases": [],
+      "url": "/magic-item/fr/forteresse-instantanee-de-daern",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Gauntlets of Ogre Power",
+      "fr": "Gantelets de puissance d'ogre",
+      "aliases": [],
+      "url": "/magic-item/fr/gantelets-de-puissance-d-ogre",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Gloves of Thievery",
+      "fr": "Gants de chapardeur",
+      "aliases": [],
+      "url": "/magic-item/fr/gants-de-chapardeur",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Gloves of Swimming and Climbing",
+      "fr": "Gants de nage et d'escalade",
+      "aliases": [],
+      "url": "/magic-item/fr/gants-de-nage-et-d-escalade",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Gloves of Missile Snaring",
+      "fr": "Gants piégeurs de projectiles",
+      "aliases": [],
+      "url": "/magic-item/fr/gants-piegeurs-de-projectiles",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Defender",
+      "fr": "Gardienne",
+      "aliases": [],
+      "url": "/magic-item/fr/gardienne",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Gem of Brightness",
+      "fr": "Gemme d'illumination",
+      "aliases": [],
+      "url": "/magic-item/fr/gemme-d-illumination",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Gem of Seeing",
+      "fr": "Gemme de vision",
+      "aliases": [],
+      "url": "/magic-item/fr/gemme-de-vision",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Elemental Gem",
+      "fr": "Gemme élémentaire",
+      "aliases": [],
+      "url": "/magic-item/fr/gemme-elementaire",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Driftglobe",
+      "fr": "Globe flottant",
+      "aliases": [],
+      "url": "/magic-item/fr/globe-flottant",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Enduring Spellbook",
+      "fr": "Grimoire résistant",
+      "aliases": [],
+      "url": "/magic-item/fr/grimoire-resistant",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Clothes of Mending",
+      "fr": "Habits autoréparateurs",
+      "aliases": [],
+      "url": "/magic-item/fr/habits-autoreparateurs",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Axe of the Dwarvish Lords",
+      "fr": "Hache des seigneurs nains",
+      "aliases": [],
+      "url": "/magic-item/fr/hache-des-seigneurs-nains",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Berserker Axe",
+      "fr": "Hache du berserker",
+      "aliases": [],
+      "url": "/magic-item/fr/hache-du-berserker",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Executioner's Axe",
+      "fr": "Hache du bourreau",
+      "aliases": [],
+      "url": "/magic-item/fr/hache-du-bourreau",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Plate Armor of Etherealness",
+      "fr": "Harnois éthéré",
+      "aliases": [],
+      "url": "/magic-item/fr/harnois-ethere",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Dwarven Plate",
+      "fr": "Harnois nain",
+      "aliases": [],
+      "url": "/magic-item/fr/harnois-nain",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Heward's Handy Haversack",
+      "fr": "Havresac d'Huard",
+      "aliases": [],
+      "url": "/magic-item/fr/havresac-d-huard",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Helm of Comprehending Languages",
+      "fr": "Heaume de compréhension des langues",
+      "aliases": [],
+      "url": "/magic-item/fr/heaume-de-comprehension-des-langues",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Helm of Telepathy",
+      "fr": "Heaume de télépathie",
+      "aliases": [],
+      "url": "/magic-item/fr/heaume-de-telepathie",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Helm of Teleportation",
+      "fr": "Heaume de téléportation",
+      "aliases": [],
+      "url": "/magic-item/fr/heaume-de-teleportation",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Dread Helm",
+      "fr": "Heaume effrayant",
+      "aliases": [],
+      "url": "/magic-item/fr/heaume-effrayant",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Helm of Brilliance",
+      "fr": "Heaume scintillant",
+      "aliases": [],
+      "url": "/magic-item/fr/heaume-scintillant",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Oil of Sharpness",
+      "fr": "Huile d'affûtage",
+      "aliases": [],
+      "url": "/magic-item/fr/huile-d-affutage",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Oil of Slipperiness",
+      "fr": "Huile d'insaisissabilité",
+      "aliases": [],
+      "url": "/magic-item/fr/huile-d-insaisissabilite",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Oil of Etherealness",
+      "fr": "Huile éthérée",
+      "aliases": [],
+      "url": "/magic-item/fr/huile-etheree",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Instrument of Illusions",
+      "fr": "Instrument à illusions",
+      "aliases": [],
+      "url": "/magic-item/fr/instrument-a-illusions",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Instrument of Scribing",
+      "fr": "Instrument à message",
+      "aliases": [],
+      "url": "/magic-item/fr/instrument-a-message",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Instrument of the Bards",
+      "fr": "Instrument des bardes",
+      "aliases": [],
+      "url": "/magic-item/fr/instrument-des-bardes",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Bowl of Commanding Water Elementals",
+      "fr": "Jatte de contrôle des élémentaires de l'eau",
+      "aliases": [],
+      "url": "/magic-item/fr/jatte-de-controle-des-elementaires-de-l-eau",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Javelin of Lightning",
+      "fr": "Javeline de foudre",
+      "aliases": [],
+      "url": "/magic-item/fr/javeline-de-foudre",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Luck Blade",
+      "fr": "Lame porte-bonheur",
+      "aliases": [],
+      "url": "/magic-item/fr/lame-porte-bonheur",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Moonblade",
+      "fr": "Lamelune",
+      "aliases": [],
+      "url": "/magic-item/fr/lamelune",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Lantern of Revealing",
+      "fr": "Lanterne de révélation",
+      "aliases": [],
+      "url": "/magic-item/fr/lanterne-de-revelation",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Eyes of Minute Seeing",
+      "fr": "Lentilles de netteté",
+      "aliases": [],
+      "url": "/magic-item/fr/lentilles-de-nettete",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Book of Vile Darkness",
+      "fr": "Les Chapitres Interdits",
+      "aliases": [],
+      "url": "/magic-item/fr/les-chapitres-interdits",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Book of Exalted Deeds",
+      "fr": "Les Chapitres Sacrés",
+      "aliases": [],
+      "url": "/magic-item/fr/les-chapitres-sacres",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Iron Bands of Bilarro",
+      "fr": "Liens de fer de Bilarro",
+      "aliases": [],
+      "url": "/magic-item/fr/liens-de-fer-de-bilarro",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Goggles of Night",
+      "fr": "Lunettes de nuit",
+      "aliases": [
+        "du nyctalope"
+      ],
+      "url": "/magic-item/fr/lunettes-de-nuit-du-nyctalope",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Lute of Thunderous Thumping",
+      "fr": "Luth tonitruant",
+      "aliases": [],
+      "url": "/magic-item/fr/luth-tonitruant",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Efreeti Chain",
+      "fr": "Mailles de l'éfrit",
+      "aliases": [],
+      "url": "/magic-item/fr/mailles-de-l-efrit",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Elven Chain",
+      "fr": "Mailles elfiques",
+      "aliases": [],
+      "url": "/magic-item/fr/mailles-elfiques",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Nature's Mantle",
+      "fr": "Mante de dame Nature",
+      "aliases": [],
+      "url": "/magic-item/fr/mante-de-dame-nature",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Mantle of Spell Resistance",
+      "fr": "Manteau de résistance aux sorts",
+      "aliases": [],
+      "url": "/magic-item/fr/manteau-de-resistance-aux-sorts",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Manual of Gainful Exercise",
+      "fr": "Manuel d'exercices physiques",
+      "aliases": [],
+      "url": "/magic-item/fr/manuel-d-exercices-physiques",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Manual of Bodily Health",
+      "fr": "Manuel de vitalité",
+      "aliases": [],
+      "url": "/magic-item/fr/manuel-de-vitalite",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Manual of Quickness of Action",
+      "fr": "Manuel de vivacité",
+      "aliases": [],
+      "url": "/magic-item/fr/manuel-de-vivacite",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Manual of Golems",
+      "fr": "Manuel des golems",
+      "aliases": [],
+      "url": "/magic-item/fr/manuel-des-golems",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Hammer of Thunderbolts",
+      "fr": "Marteau de tonnerre",
+      "aliases": [],
+      "url": "/magic-item/fr/marteau-de-tonnerre",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Dwarven Thrower",
+      "fr": "Marteau volant des nains",
+      "aliases": [],
+      "url": "/magic-item/fr/marteau-volant-des-nains",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Mace of Disruption",
+      "fr": "Masse d'anéantissement",
+      "aliases": [],
+      "url": "/magic-item/fr/masse-d-aneantissement",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Mace of Smiting",
+      "fr": "Masse destructrice",
+      "aliases": [],
+      "url": "/magic-item/fr/masse-destructrice",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Mace of Terror",
+      "fr": "Masse terrifiante",
+      "aliases": [],
+      "url": "/magic-item/fr/masse-terrifiante",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Thunderous Greatclub",
+      "fr": "Massue tonnante",
+      "aliases": [],
+      "url": "/magic-item/fr/massue-tonnante",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Medallion of Thoughts",
+      "fr": "Médaillon des pensées",
+      "aliases": [],
+      "url": "/magic-item/fr/medaillon-des-pensees",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Prosthetic Limb",
+      "fr": "Membre artificiel",
+      "aliases": [],
+      "url": "/magic-item/fr/membre-artificiel",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Dimensional Shackles",
+      "fr": "Menottes dimensionnelles",
+      "aliases": [],
+      "url": "/magic-item/fr/menottes-dimensionnelles",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Mirror of Life Trapping",
+      "fr": "Miroir d'emprisonnement",
+      "aliases": [],
+      "url": "/magic-item/fr/miroir-d-emprisonnement",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Blackrazor",
+      "fr": "Noirtranchant",
+      "aliases": [],
+      "url": "/magic-item/fr/noirtranchant",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Ersatz Eye",
+      "fr": "Oeil artificiel",
+      "aliases": [],
+      "url": "/magic-item/fr/oeil-artificiel",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Hag Eye",
+      "fr": "Oeil de guenaude",
+      "aliases": [],
+      "url": "/magic-item/fr/oeil-de-guenaude",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Eye and Hand of Vecna",
+      "fr": "Oeil et Main de Vecna",
+      "aliases": [],
+      "url": "/magic-item/fr/oeil-et-main-de-vecna",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Orb of Direction",
+      "fr": "Orbe boussole",
+      "aliases": [],
+      "url": "/magic-item/fr/orbe-boussole",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Orb of Dragonkind",
+      "fr": "Orbe des dragons",
+      "aliases": [],
+      "url": "/magic-item/fr/orbe-des-dragons",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Orb of Time",
+      "fr": "Orbe horloge",
+      "aliases": [],
+      "url": "/magic-item/fr/orbe-horloge",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Scroll of Titan Summoning",
+      "fr": "Parchemin de convocation de titan",
+      "aliases": [],
+      "url": "/magic-item/fr/parchemin-de-convocation-de-titan",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Scroll of Protection",
+      "fr": "Parchemin de protection",
+      "aliases": [],
+      "url": "/magic-item/fr/parchemin-de-protection",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Spell Scroll",
+      "fr": "Parchemin de sort",
+      "aliases": [],
+      "url": "/magic-item/fr/parchemin-de-sort",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Perfume of Bewitching",
+      "fr": "Parfum envoûtant",
+      "aliases": [],
+      "url": "/magic-item/fr/parfum-envoutant",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Pole of Angling",
+      "fr": "Perche du pêcheur",
+      "aliases": [],
+      "url": "/magic-item/fr/perche-du-pecheur",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Pole of Collapsing",
+      "fr": "Perche rétractable",
+      "aliases": [],
+      "url": "/magic-item/fr/perche-retractable",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Bead of Force",
+      "fr": "Perle de force",
+      "aliases": [],
+      "url": "/magic-item/fr/perle-de-force",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Pearl of Power",
+      "fr": "Perle de pouvoir",
+      "aliases": [
+        "de thaumaturgie"
+      ],
+      "url": "/magic-item/fr/perle-de-pouvoir-de-thaumaturgie",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Bead of Refreshment",
+      "fr": "Perle désaltérante",
+      "aliases": [],
+      "url": "/magic-item/fr/perle-desalterante",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Bead of Nourishment",
+      "fr": "Perle nutritive",
+      "aliases": [],
+      "url": "/magic-item/fr/perle-nutritive",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Philter of Love",
+      "fr": "Philtre d'amour",
+      "aliases": [],
+      "url": "/magic-item/fr/philtre-d-amour",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Rival Coin",
+      "fr": "Pièce des rivaux",
+      "aliases": [],
+      "url": "/magic-item/fr/piece-des-rivaux",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Stone of Controlling Earth Elementals",
+      "fr": "Pierre de contrôle des élémentaires de la terre",
+      "aliases": [],
+      "url": "/magic-item/fr/pierre-de-controle-des-elementaires-de-la-terre",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Ioun Stone",
+      "fr": "Pierre de Ioun",
+      "aliases": [],
+      "url": "/magic-item/fr/pierre-de-ioun",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Stone of Good Luck (Luckstone)",
+      "fr": "Pierre porte-bonheur",
+      "aliases": [],
+      "url": "/magic-item/fr/pierre-porte-bonheur",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Sending Stones",
+      "fr": "Pierres messagères",
+      "aliases": [],
+      "url": "/magic-item/fr/pierres-messageres",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Nolzur's Marvelous Pigments",
+      "fr": "Pigments merveilleux de Nolzur",
+      "aliases": [],
+      "url": "/magic-item/fr/pigments-merveilleux-de-nolzur",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Pipe of Smoke Monsters",
+      "fr": "Pipe des monstres de fumée",
+      "aliases": [],
+      "url": "/magic-item/fr/pipe-des-monstres-de-fumee",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Spirit Board",
+      "fr": "Planche de spiritisme",
+      "aliases": [],
+      "url": "/magic-item/fr/planche-de-spiritisme",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Quaal's Feather Token",
+      "fr": "Plume de Quaal",
+      "aliases": [],
+      "url": "/magic-item/fr/plume-de-quaal",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Pot of Awakening",
+      "fr": "Pot d'éveil",
+      "aliases": [],
+      "url": "/magic-item/fr/pot-d-eveil",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Potion of Growth",
+      "fr": "Potion d'agrandissement",
+      "aliases": [],
+      "url": "/magic-item/fr/potion-d-agrandissement",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Potion of Animal Friendship",
+      "fr": "Potion d'amitié avec les animaux",
+      "aliases": [],
+      "url": "/magic-item/fr/potion-d-amitie-avec-les-animaux",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Potion of Climbing",
+      "fr": "Potion d'escalade",
+      "aliases": [],
+      "url": "/magic-item/fr/potion-d-escalade",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Potion of Heroism",
+      "fr": "Potion d'héroïsme",
+      "aliases": [],
+      "url": "/magic-item/fr/potion-d-heroisme",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Potion of Invisibility",
+      "fr": "Potion d'invisibilité",
+      "aliases": [],
+      "url": "/magic-item/fr/potion-d-invisibilite",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Potion of Greater Invisibility",
+      "fr": "Potion d'invisibilité suprême",
+      "aliases": [],
+      "url": "/magic-item/fr/potion-d-invisibilite-supreme",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Potion of Invulnerability",
+      "fr": "Potion d'invulnérabilité",
+      "aliases": [],
+      "url": "/magic-item/fr/potion-d-invulnerabilite",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Potion of Clairvoyance",
+      "fr": "Potion de clairvoyance",
+      "aliases": [],
+      "url": "/magic-item/fr/potion-de-clairvoyance",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Potion of Comprehension",
+      "fr": "Potion de compréhension",
+      "aliases": [],
+      "url": "/magic-item/fr/potion-de-comprehension",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Potion of Diminution",
+      "fr": "Potion de diminution",
+      "aliases": [],
+      "url": "/magic-item/fr/potion-de-diminution",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Potion of Giant Strength",
+      "fr": "Potion de force de géant",
+      "aliases": [],
+      "url": "/magic-item/fr/potion-de-force-de-geant",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Potion of Gaseous Form",
+      "fr": "Potion de forme gazeuse",
+      "aliases": [],
+      "url": "/magic-item/fr/potion-de-forme-gazeuse",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Potion of Mind Reading",
+      "fr": "Potion de lecture des pensées",
+      "aliases": [],
+      "url": "/magic-item/fr/potion-de-lecture-des-pensees",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Potion of Poison",
+      "fr": "Potion de poison",
+      "aliases": [
+        "Potion toxique"
+      ],
+      "url": "/magic-item/fr/potion-de-poison-potion-toxique",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Potion of Resistance",
+      "fr": "Potion de résistance",
+      "aliases": [],
+      "url": "/magic-item/fr/potion-de-resistance",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Potion of Water Breathing",
+      "fr": "Potion de respiration aquatique",
+      "aliases": [],
+      "url": "/magic-item/fr/potion-de-respiration-aquatique",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Potion of Fire Breath",
+      "fr": "Potion de souffle enflammé",
+      "aliases": [],
+      "url": "/magic-item/fr/potion-de-souffle-enflamme",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Potion of Vitality",
+      "fr": "Potion de vitalité",
+      "aliases": [],
+      "url": "/magic-item/fr/potion-de-vitalite",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Potion of Speed",
+      "fr": "Potion de vitesse",
+      "aliases": [],
+      "url": "/magic-item/fr/potion-de-vitesse",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Potion of Flying",
+      "fr": "Potion de vol",
+      "aliases": [],
+      "url": "/magic-item/fr/potion-de-vol",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Potion of Pugilism",
+      "fr": "Potion des pugilistes",
+      "aliases": [],
+      "url": "/magic-item/fr/potion-des-pugilistes",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Potions of Healing",
+      "fr": "Potions de guérison",
+      "aliases": [],
+      "url": "/magic-item/fr/potions-de-guerison",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Dust of Sneezing and Choking",
+      "fr": "Poudre à éternuer",
+      "aliases": [],
+      "url": "/magic-item/fr/poudre-a-eternuer",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Dust of Dryness",
+      "fr": "Poudre dessiccative",
+      "aliases": [],
+      "url": "/magic-item/fr/poudre-dessiccative",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Talking Doll",
+      "fr": "Poupée qui parle",
+      "aliases": [],
+      "url": "/magic-item/fr/poupee-qui-parle",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Dust of Disappearance",
+      "fr": "Poussière de disparition",
+      "aliases": [],
+      "url": "/magic-item/fr/poussiere-de-disparition",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Ammunition, +1, +2, or +3",
+      "fr": "Projectile +1, +2 ou +3",
+      "aliases": [],
+      "url": "/magic-item/fr/projectile-1-2-ou-3",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Walloping Ammunition",
+      "fr": "Projectile percutant",
+      "aliases": [],
+      "url": "/magic-item/fr/projectile-percutant",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Ammunition of Slaying",
+      "fr": "Projectile tueur",
+      "aliases": [],
+      "url": "/magic-item/fr/projectile-tueur",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Well of Many Worlds",
+      "fr": "Puits des mondes",
+      "aliases": [],
+      "url": "/magic-item/fr/puits-des-mondes",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Portable Hole",
+      "fr": "Puits portable",
+      "aliases": [],
+      "url": "/magic-item/fr/puits-portable",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Eyes of Charming",
+      "fr": "Regard charmeur",
+      "aliases": [],
+      "url": "/magic-item/fr/regard-charmeur",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Robe of Stars",
+      "fr": "Robe aux étoiles",
+      "aliases": [],
+      "url": "/magic-item/fr/robe-aux-etoiles",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Robe of the Archmagi",
+      "fr": "Robe de l'archimage",
+      "aliases": [],
+      "url": "/magic-item/fr/robe-de-l-archimage",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Robe of Eyes",
+      "fr": "Robe de vision totale",
+      "aliases": [],
+      "url": "/magic-item/fr/robe-de-vision-totale",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Robe of Useful Items",
+      "fr": "Robe du camelot",
+      "aliases": [],
+      "url": "/magic-item/fr/robe-du-camelot",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Robe of Scintillating Colors",
+      "fr": "Robe prismatique",
+      "aliases": [],
+      "url": "/magic-item/fr/robe-prismatique",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Ruby of the War Mage",
+      "fr": "Rubis du mage de guerre",
+      "aliases": [],
+      "url": "/magic-item/fr/rubis-du-mage-de-guerre",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Bag of Tricks",
+      "fr": "Sac à malices",
+      "aliases": [],
+      "url": "/magic-item/fr/sac-a-malices",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Bag of Beans",
+      "fr": "Sac de haricots magiques",
+      "aliases": [],
+      "url": "/magic-item/fr/sac-de-haricots-magiques",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Bag of Devouring",
+      "fr": "Sac dévoreur",
+      "aliases": [],
+      "url": "/magic-item/fr/sac-devoreur",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Bag of Holding",
+      "fr": "Sac sans fond",
+      "aliases": [],
+      "url": "/magic-item/fr/sac-sans-fond",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Scarab of Protection",
+      "fr": "Scarabée de protection",
+      "aliases": [],
+      "url": "/magic-item/fr/scarabee-de-protection",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Rod of Absorption",
+      "fr": "Sceptre d'absorption",
+      "aliases": [],
+      "url": "/magic-item/fr/sceptre-d-absorption",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Rod of Lordly Might",
+      "fr": "Sceptre de puissance seigneuriale",
+      "aliases": [],
+      "url": "/magic-item/fr/sceptre-de-puissance-seigneuriale",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Rod of Resurrection",
+      "fr": "Sceptre de résurrection",
+      "aliases": [],
+      "url": "/magic-item/fr/sceptre-de-resurrection",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Rod of Security",
+      "fr": "Sceptre de sécurité",
+      "aliases": [],
+      "url": "/magic-item/fr/sceptre-de-securite",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Rod of Rulership",
+      "fr": "Sceptre de suzeraineté",
+      "aliases": [],
+      "url": "/magic-item/fr/sceptre-de-suzerainete",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Rod of Alertness",
+      "fr": "Sceptre de vigilance",
+      "aliases": [],
+      "url": "/magic-item/fr/sceptre-de-vigilance",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Rod of the Pact Keeper",
+      "fr": "Sceptre du gardien des pactes",
+      "aliases": [],
+      "url": "/magic-item/fr/sceptre-du-gardien-des-pactes",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Immovable Rod",
+      "fr": "Sceptre inamovible",
+      "aliases": [],
+      "url": "/magic-item/fr/sceptre-inamovible",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Tentacle Rod",
+      "fr": "Sceptre-tentacule",
+      "aliases": [],
+      "url": "/magic-item/fr/sceptre-tentacule",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Saddle of the Cavalier",
+      "fr": "Selle du cavalier",
+      "aliases": [
+        "du hussard"
+      ],
+      "url": "/magic-item/fr/selle-du-cavalier-du-hussard",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Sylvan Talon",
+      "fr": "Serre sylvestre",
+      "aliases": [],
+      "url": "/magic-item/fr/serre-sylvestre",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Universal Solvent",
+      "fr": "Solvant universel",
+      "aliases": [],
+      "url": "/magic-item/fr/solvant-universel",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Sphere of Annihilation",
+      "fr": "Sphère d'annihilation",
+      "aliases": [],
+      "url": "/magic-item/fr/sphere-d-annihilation",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Apparatus of Kwalish",
+      "fr": "Submersible de Kwalish",
+      "aliases": [],
+      "url": "/magic-item/fr/submersible-de-kwalish",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Talisman of the Sphere",
+      "fr": "Talisman de la sphère",
+      "aliases": [],
+      "url": "/magic-item/fr/talisman-de-la-sphere",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Talisman of Pure Good",
+      "fr": "Talisman du bien ultime",
+      "aliases": [],
+      "url": "/magic-item/fr/talisman-du-bien-ultime",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Talisman of Ultimate Evil",
+      "fr": "Talisman du mal absolu",
+      "aliases": [],
+      "url": "/magic-item/fr/talisman-du-mal-absolu",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Carpet of Flying",
+      "fr": "Tapis volant",
+      "aliases": [],
+      "url": "/magic-item/fr/tapis-volant",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Tome of the Stilled Tongue",
+      "fr": "Tome de la langue nouée",
+      "aliases": [],
+      "url": "/magic-item/fr/tome-de-la-langue-nouee",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Tome of Leadership and Influence",
+      "fr": "Traité d'autorité et d'influence",
+      "aliases": [],
+      "url": "/magic-item/fr/traite-d-autorite-et-d-influence",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Tome of Understanding",
+      "fr": "Traité de compréhension",
+      "aliases": [],
+      "url": "/magic-item/fr/traite-de-comprehension",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Tome of Clear Thought",
+      "fr": "Traité de perspicacité",
+      "aliases": [],
+      "url": "/magic-item/fr/traite-de-perspicacite",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Trident of Fish Command",
+      "fr": "Trident de domination aquatique",
+      "aliases": [],
+      "url": "/magic-item/fr/trident-de-domination-aquatique",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Dragon Slayer",
+      "fr": "Tueuse de dragons",
+      "aliases": [],
+      "url": "/magic-item/fr/tueuse-de-dragons",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Giant Slayer",
+      "fr": "Tueuse de géants",
+      "aliases": [],
+      "url": "/magic-item/fr/tueuse-de-geants",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Eversmoking Bottle",
+      "fr": "Urne fumigène",
+      "aliases": [],
+      "url": "/magic-item/fr/urne-fumigene",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Wave",
+      "fr": "Vague",
+      "aliases": [],
+      "url": "/magic-item/fr/vague",
+      "sourceBook": "Dungeon Master's Guide 2024"
+    },
+    {
+      "en": "Holy Avenger",
+      "fr": "Vengeresse sacrée",
+      "aliases": [],
+      "url": "/magic-item/fr/vengeresse-sacree",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Nine Lives Stealer",
+      "fr": "Voleuse de vie",
+      "aliases": [],
+      "url": "/magic-item/fr/voleuse-de-vie",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    },
+    {
+      "en": "Eyes of the Eagle",
+      "fr": "Yeux de lynx",
+      "aliases": [],
+      "url": "/magic-item/fr/yeux-de-lynx",
+      "sourceBook": "Dungeon Master's Guide 2024 (BR)"
+    }
+  ],
+  "legacy": [
+    {
+      "en": "Amulet of Proof against Detection and Location",
+      "fr": "Amulette d'antidétection",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=amulette-d-antidetection",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Amulet of Health",
+      "fr": "Amulette de bonne santé",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=amulette-de-bonne-sante",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Periapt of Wound Closure",
+      "fr": "Amulette de cicatrisation",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=amulette-de-cicatrisation",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Periapt of Proof against Poison",
+      "fr": "Amulette de protection contre le poison",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=amulette-de-protection-contre-le-poison",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Periapt of Health",
+      "fr": "Amulette de santé",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=amulette-de-sante",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Dark Shard Amulet",
+      "fr": "Amulette de sombre éclat",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=amulette-de-sombre-eclat",
+      "sourceBook": "Xanathar´s Guide to Everything"
+    },
+    {
+      "en": "Amulet of the Planes",
+      "fr": "Amulette des plans",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=amulette-des-plans",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Clockwork Amulet",
+      "fr": "Amulette mécanique",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=amulette-mecanique",
+      "sourceBook": "Xanathar´s Guide to Everything"
+    },
+    {
+      "en": "Ring of Free Action",
+      "fr": "Anneau d'action libre",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=anneau-d-action-libre",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Ring of Evasion",
+      "fr": "Anneau d'esquive totale",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=anneau-d-esquive-totale",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Ring of Animal Influence",
+      "fr": "Anneau d'influence sur les animaux",
+      "aliases": [
+        "Anneau d'influence animale"
+      ],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=anneau-d-influence-sur-les-animaux",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Ring of Invisibility",
+      "fr": "Anneau d'invisibilité",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=anneau-d-invisibilite",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Ring of Mind Shielding",
+      "fr": "Anneau de barrière mentale",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=anneau-de-barriere-mentale",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Ring of Warmth",
+      "fr": "Anneau de chaleur constante",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=anneau-de-chaleur-constante",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Ring of Elemental Command",
+      "fr": "Anneau de contrôle des élémentaires",
+      "aliases": [
+        "Anneau de maîtrise élémentaire"
+      ],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=anneau-de-controle-des-elementaires",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Ring of Djinni Summoning",
+      "fr": "Anneau de convocation de djinn",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=anneau-de-convocation-de-djinn",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Ring of Shooting Stars",
+      "fr": "Anneau de feu d'étoiles",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=anneau-de-feu-d-etoiles",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Ring of Feather Falling",
+      "fr": "Anneau de feuille morte",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=anneau-de-feuille-morte",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Ring of Water Walking",
+      "fr": "Anneau de marche sur l'eau",
+      "aliases": [
+        "Anneau de marche sur l'onde"
+      ],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=anneau-de-marche-sur-l-eau",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Ring of Swimming",
+      "fr": "Anneau de nage",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=anneau-de-nage",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Ring of Protection",
+      "fr": "Anneau de protection",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=anneau-de-protection",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Ring of X-ray Vision",
+      "fr": "Anneau de rayons X",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=anneau-de-rayons-x",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Ring of Regeneration",
+      "fr": "Anneau de régénération",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=anneau-de-regeneration",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Ring of Spell Turning",
+      "fr": "Anneau de renvoi des sorts",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=anneau-de-renvoi-des-sorts",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Ring of Resistance",
+      "fr": "Anneau de résistance",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=anneau-de-resistance",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Ring of Poison Resistance",
+      "fr": "Anneau de résistance au poison",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=anneau-de-resistance-au-poison",
+      "sourceBook": "Dungeon Master´s Guide (BR)"
+    },
+    {
+      "en": "Ring of Jumping",
+      "fr": "Anneau de saut",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=anneau-de-saut",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Ring of Spell Storing",
+      "fr": "Anneau de stockage de sort",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=anneau-de-stockage-de-sort",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Ring of Telekinesis",
+      "fr": "Anneau de télékinésie",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=anneau-de-telekinesie",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Ring of Three Wishes",
+      "fr": "Anneau de triple souhait",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=anneau-de-triple-souhait",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Ring of the Ram",
+      "fr": "Anneau du bélier",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=anneau-du-belier",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Oathbow",
+      "fr": "Arc du serment",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=arc-du-serment",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Weapon +1, +2, or +3",
+      "fr": "Arme +1, +2 ou +3",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=arme-1-2-ou-3",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Vicious Weapon",
+      "fr": "Arme vicieuse",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=arme-vicieuse",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Weapon of Warning",
+      "fr": "Arme vigilante",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=arme-vigilante",
+      "sourceBook": "Dungeon Master´s Guide"
+    },
+    {
+      "en": "Armor +1, +2, or +3",
+      "fr": "Armure +1, +2 ou +3",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=armure-1-2-ou-3",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Adamantine Armor",
+      "fr": "Armure d'adamantium",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=armure-d-adamantium",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Dragon Scale Mail",
+      "fr": "Armure d'écailles de dragon",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=armure-d-ecailles-de-dragon",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Armor of Invulnerability",
+      "fr": "Armure d'invulnérabilité",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=armure-d-invulnerabilite",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Glamoured Studded Leather",
+      "fr": "Armure de cuir clouté enchantée",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=armure-de-cuir-cloute-enchantee",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Mariner's Armor",
+      "fr": "Armure de matelot",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=armure-de-matelot",
+      "sourceBook": "Dungeon Master´s Guide (BR)"
+    },
+    {
+      "en": "Mithral Armor",
+      "fr": "Armure de mithral",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=armure-de-mithral",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Armor of Resistance",
+      "fr": "Armure de résistance",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=armure-de-resistance",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Armor of Vulnerability",
+      "fr": "Armure de vulnérabilité",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=armure-de-vulnerabilite",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Demon Armor",
+      "fr": "Armure démoniaque",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=armure-demoniaque",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Smoldering Armor",
+      "fr": "Armure fumante",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=armure-fumante",
+      "sourceBook": "Xanathar´s Guide to Everything"
+    },
+    {
+      "en": "Cast-off Armor",
+      "fr": "Armure rapide",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=armure-rapide",
+      "sourceBook": "Xanathar´s Guide to Everything"
+    },
+    {
+      "en": "Armor of Gleaming",
+      "fr": "Armure rutilante",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=armure-rutilante",
+      "sourceBook": "Xanathar´s Guide to Everything"
+    },
+    {
+      "en": "Wand of Lightning Bolts",
+      "fr": "Baguette d'éclairs",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=baguette-d-eclairs",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Wand of Orcus",
+      "fr": "Baguette d'Orcus",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=baguette-d-orcus",
+      "sourceBook": "Dungeon Master´s Guide"
+    },
+    {
+      "en": "Wand of Fireballs",
+      "fr": "Baguette de boules de feu",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=baguette-de-boules-de-feu",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Wand of Conducting",
+      "fr": "Baguette de chef d'orchestre",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=baguette-de-chef-d-orchestre",
+      "sourceBook": "Xanathar´s Guide to Everything"
+    },
+    {
+      "en": "Wand of Enemy Detection",
+      "fr": "Baguette de détection de l'ennemi",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=baguette-de-detection-de-l-ennemi",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Wand of Magic Detection",
+      "fr": "Baguette de détection de la magie",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=baguette-de-detection-de-la-magie",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Wand of Polymorph",
+      "fr": "Baguette de métamorphose",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=baguette-de-metamorphose",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Wand of Paralysis",
+      "fr": "Baguette de paralysie",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=baguette-de-paralysie",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Wand of Fear",
+      "fr": "Baguette de peur",
+      "aliases": [
+        "Baguette de terreur"
+      ],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=baguette-de-peur",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Wand of Magic Missiles",
+      "fr": "Baguette de projectiles magiques",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=baguette-de-projectiles-magiques",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Wand of Pyrotechnics",
+      "fr": "Baguette de pyrotechnicien",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=baguette-de-pyrotechnicien",
+      "sourceBook": "Xanathar´s Guide to Everything"
+    },
+    {
+      "en": "Wand of Web",
+      "fr": "Baguette de toile d'araignée",
+      "aliases": [
+        "Baguette des toiles"
+      ],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=baguette-de-toile-d-araignee",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Wand of Binding",
+      "fr": "Baguette des entraves",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=baguette-des-entraves",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Wand of Wonder",
+      "fr": "Baguette des merveilles",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=baguette-des-merveilles",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Wand of Secrets",
+      "fr": "Baguette des secrets",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=baguette-des-secrets",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Wand of Scowls",
+      "fr": "Baguette du grincheux",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=baguette-du-grincheux",
+      "sourceBook": "Xanathar´s Guide to Everything"
+    },
+    {
+      "en": "Wand of Smiles",
+      "fr": "Baguette du jovial",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=baguette-du-jovial",
+      "sourceBook": "Xanathar´s Guide to Everything"
+    },
+    {
+      "en": "Wand of the War Mage +1, +2, or +3",
+      "fr": "Baguette du mage de guerre +1, +2 ou +3",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=baguette-du-mage-de-guerre-1-2-ou-3",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Broom of Flying",
+      "fr": "Balai volant",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=balai-volant",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Headband of Intellect",
+      "fr": "Bandeau d'intelligence",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=bandeau-d-intelligence",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Folding Boat",
+      "fr": "Bateau pliable",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=bateau-pliable",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Staff of Charming",
+      "fr": "Bâton d'envoûtement",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=baton-d-envoutement",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Staff of Fire",
+      "fr": "Bâton de feu",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=baton-de-feu",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Staff of Withering",
+      "fr": "Bâton de flétrissement",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=baton-de-fletrissement",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Staff of Frost",
+      "fr": "Bâton de givre",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=baton-de-givre",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Staff of Swarming Insects",
+      "fr": "Bâton de grand essaim",
+      "aliases": [
+        "Bâton du grand essaim"
+      ],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=baton-de-grand-essaim",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Staff of Healing",
+      "fr": "Bâton de guérison",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=baton-de-guerison",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Staff of the Adder",
+      "fr": "Bâton de la vipère",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=baton-de-la-vipere",
+      "sourceBook": "Dungeon Master´s Guide"
+    },
+    {
+      "en": "Staff of Power",
+      "fr": "Bâton de surpuissance",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=baton-de-surpuissance",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Staff of Thunder and Lightning",
+      "fr": "Bâton de tonnerre et de foudre",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=baton-de-tonnerre-et-de-foudre",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Staff of Birdcalls",
+      "fr": "Bâton des chants d'oiseaux",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=baton-des-chants-d-oiseaux",
+      "sourceBook": "Xanathar´s Guide to Everything"
+    },
+    {
+      "en": "Staff of the Woodlands",
+      "fr": "Bâton des forêts",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=baton-des-forets",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Staff of the Python",
+      "fr": "Bâton du python",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=baton-du-python",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Staff of the Magi",
+      "fr": "Bâton du thaumaturge",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=baton-du-thaumaturge",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Staff of Flowers",
+      "fr": "Bâton floral",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=baton-floral",
+      "sourceBook": "Xanathar´s Guide to Everything"
+    },
+    {
+      "en": "Staff of Adornment",
+      "fr": "Bâton orné",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=baton-orne",
+      "sourceBook": "Xanathar´s Guide to Everything"
+    },
+    {
+      "en": "Staff of Striking",
+      "fr": "Bâton percussif",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=baton-percussif",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Keoghtom's Ointment",
+      "fr": "Baume de Keoghtom",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=baume-de-keoghtom",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Winged Boots",
+      "fr": "Bottes ailées",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=bottes-ailees",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Boots of False Tracks",
+      "fr": "Bottes d'empreintes factices",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=bottes-d-empreintes-factices",
+      "sourceBook": "Xanathar´s Guide to Everything"
+    },
+    {
+      "en": "Boots of Levitation",
+      "fr": "Bottes de lévitation",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=bottes-de-levitation",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Boots of Speed",
+      "fr": "Bottes de rapidité",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=bottes-de-rapidite",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Boots of Striding and Springing",
+      "fr": "Bottes de sept lieues",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=bottes-de-sept-lieues",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Boots of the Winterlands",
+      "fr": "Bottes des terres gelées",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=bottes-des-terres-gelees",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Boots of Elvenkind",
+      "fr": "Bottes elfiques",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=bottes-elfiques",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Shield, +1, +2, or +3",
+      "fr": "Bouclier +1, +2 ou +3",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=bouclier-1-2-ou-3",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Animated Shield",
+      "fr": "Bouclier animé",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=bouclier-anime",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Arrow-Catching Shield",
+      "fr": "Bouclier antiprojectiles",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=bouclier-antiprojectiles",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Shield of Missile Attraction",
+      "fr": "Bouclier d'attraction des projectiles",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=bouclier-d-attraction-des-projectiles",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Shield of Expression",
+      "fr": "Bouclier expressif",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=bouclier-expressif",
+      "sourceBook": "Xanathar´s Guide to Everything"
+    },
+    {
+      "en": "Spellguard Shield",
+      "fr": "Bouclier gardesort",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=bouclier-gardesort",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Sentinel Shield",
+      "fr": "Bouclier sentinelle",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=bouclier-sentinelle",
+      "sourceBook": "Dungeon Master´s Guide"
+    },
+    {
+      "en": "Crystal Ball",
+      "fr": "Boule de cristal",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=boule-de-cristal",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Heward's Handy Spice Pouch",
+      "fr": "Bourse à épices magique d'Heward",
+      "aliases": [
+        "Bourse à épices d'Heward"
+      ],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=bourse-a-epices-magique-d-heward",
+      "sourceBook": "Xanathar´s Guide to Everything"
+    },
+    {
+      "en": "Efreeti Bottle",
+      "fr": "Bouteille de l'éfrit",
+      "aliases": [
+        "Bouteille du mauvais génie"
+      ],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=bouteille-de-l-efrit",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Eversmoking Bottle",
+      "fr": "Bouteille fumigène",
+      "aliases": [
+        "Urne fumigène"
+      ],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=bouteille-fumigene",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Bracers of Archery",
+      "fr": "Bracelets d'archer",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=bracelets-d-archer",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Bracers of Defense",
+      "fr": "Bracelets de défense",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=bracelets-de-defense",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Brazier of Commanding Fire Elementals",
+      "fr": "Brasero de contrôle des élémentaires du feu",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=brasero-de-controle-des-elementaires-du-feu",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Brooch of Shielding",
+      "fr": "Broche de défense",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=broche-de-defense",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Lock of Trickery",
+      "fr": "Cadenas sournois",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=cadenas-sournois",
+      "sourceBook": "Xanathar´s Guide to Everything"
+    },
+    {
+      "en": "Veteran's Cane",
+      "fr": "Canne de vétéran",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=canne-de-veteran",
+      "sourceBook": "Xanathar´s Guide to Everything"
+    },
+    {
+      "en": "Cloak of Many Fashions",
+      "fr": "Cape à la mode",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=cape-a-la-mode",
+      "sourceBook": "Xanathar´s Guide to Everything"
+    },
+    {
+      "en": "Cloak of Invisibility",
+      "fr": "Cape d'invisibilité",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=cape-d-invisibilite",
+      "sourceBook": "Dungeon Master´s Guide"
+    },
+    {
+      "en": "Cloak of Displacement",
+      "fr": "Cape de déplacement",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=cape-de-deplacement",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Cloak of Arachnida",
+      "fr": "Cape de l'arachnide",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=cape-de-l-arachnide",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Cloak of the Bat",
+      "fr": "Cape de la chauve-souris",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=cape-de-la-chauve-souris",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Cloak of the Manta Ray",
+      "fr": "Cape de la raie manta",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=cape-de-la-raie-manta",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Cloak of Protection",
+      "fr": "Cape de protection",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=cape-de-protection",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Wings of Flying",
+      "fr": "Cape de vol",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=cape-de-vol",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Cape of the Mountebank",
+      "fr": "Cape du prestidigitateur",
+      "aliases": [
+        "Cape de prestidigitateur"
+      ],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=cape-du-prestidigitateur",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Cloak of Elvenkind",
+      "fr": "Cape elfique",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=cape-elfique",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Cloak of Billowing",
+      "fr": "Cape virevoltante",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=cape-virevoltante",
+      "sourceBook": "Xanathar´s Guide to Everything"
+    },
+    {
+      "en": "Cap of Water Breathing",
+      "fr": "Capuchon de respiration aquatique",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=capuchon-de-respiration-aquatique",
+      "sourceBook": "Dungeon Master´s Guide"
+    },
+    {
+      "en": "Decanter of Endless Water",
+      "fr": "Carafe intarissable",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=carafe-intarissable",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Chime of Opening",
+      "fr": "Carillon d'ouverture",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=carillon-d-ouverture",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Quiver of Ehlonna",
+      "fr": "Carquois d'Ehlonna",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=carquois-d-ehlonna",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Deck of Illusions",
+      "fr": "Cartes d'illusion",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=cartes-d-illusion",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Deck of Many Things",
+      "fr": "Cartes merveilleuses",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=cartes-merveilleuses",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Belt of Giant Strength",
+      "fr": "Ceinturon de force de géant",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=ceinturon-de-force-de-geant",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Belt of Dwarvenkind",
+      "fr": "Ceinturon des nains",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=ceinturon-des-nains",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Candle of the Deep",
+      "fr": "Chandelle des profondeurs",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=chandelle-des-profondeurs",
+      "sourceBook": "Xanathar´s Guide to Everything"
+    },
+    {
+      "en": "Hat of Disguise",
+      "fr": "Chapeau de déguisement",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=chapeau-de-deguisement",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Hat of Wizardry",
+      "fr": "Chapeau de magicien",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=chapeau-de-magicien",
+      "sourceBook": "Xanathar´s Guide to Everything"
+    },
+    {
+      "en": "Hat of Vermin",
+      "fr": "Chapeau de vermine",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=chapeau-de-vermine",
+      "sourceBook": "Xanathar´s Guide to Everything"
+    },
+    {
+      "en": "Slippers of Spider Climbing",
+      "fr": "Chaussons de pattes d'araignée",
+      "aliases": [
+        "Chaussons de l'araignée"
+      ],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=chaussons-de-pattes-d-araignee",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Tankard of Sobriety",
+      "fr": "Chope de sobriété",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=chope-de-sobriete",
+      "sourceBook": "Xanathar´s Guide to Everything"
+    },
+    {
+      "en": "Candle of Invocation",
+      "fr": "Cierge d'invocation",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=cierge-d-invocation",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Scimitar of Speed",
+      "fr": "Cimeterre de rapidité",
+      "aliases": [
+        "Cimeterre de célérité"
+      ],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=cimeterre-de-rapidite",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Mystery Key",
+      "fr": "Clé mystérieuse",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=cle-mysterieuse",
+      "sourceBook": "Xanathar´s Guide to Everything"
+    },
+    {
+      "en": "Sovereign Glue",
+      "fr": "Colle universelle",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=colle-universelle",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Necklace of Adaptation",
+      "fr": "Collier d'adaptation",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=collier-d-adaptation",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Necklace of Fireballs",
+      "fr": "Collier de boules de feu",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=collier-de-boules-de-feu",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Necklace of Prayer Beads",
+      "fr": "Collier de perles de prière",
+      "aliases": [
+        "Chapelet"
+      ],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=collier-de-perles-de-priere",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Horn of Blasting",
+      "fr": "Cor de dévastation",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=cor-de-devastation",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Horn of Valhalla",
+      "fr": "Cor du Valhalla",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=cor-du-valhalla",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Rope of Entanglement",
+      "fr": "Corde d'enchevêtrement",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=corde-d-enchevetrement",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Rope of Climbing",
+      "fr": "Corde d'escalade",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=corde-d-escalade",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Rope of Mending",
+      "fr": "Corde réparable",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=corde-reparable",
+      "sourceBook": "Xanathar´s Guide to Everything"
+    },
+    {
+      "en": "Horn of Silent Alarm",
+      "fr": "Corne d'alarme silencieuse",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=corne-d-alarme-silencieuse",
+      "sourceBook": "Xanathar´s Guide to Everything"
+    },
+    {
+      "en": "Ear Horn of Hearing",
+      "fr": "Cornet acoustique",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=cornet-acoustique",
+      "sourceBook": "Xanathar´s Guide to Everything"
+    },
+    {
+      "en": "Alchemy Jug",
+      "fr": "Cruche alchimique",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=cruche-alchimique",
+      "sourceBook": "Dungeon Master´s Guide (BR)"
+    },
+    {
+      "en": "Cube of Force",
+      "fr": "Cube de force",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=cube-de-force",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Cubic Gate",
+      "fr": "Cube des plans",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=cube-des-plans",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Dagger of Venom",
+      "fr": "Dague venimeuse",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=dague-venimeuse",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Charlatan's Die",
+      "fr": "Dé de charlatan",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=de-de-charlatan",
+      "sourceBook": "Xanathar´s Guide to Everything"
+    },
+    {
+      "en": "Whelm",
+      "fr": "Déluge",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=deluge",
+      "sourceBook": "Dungeon Master´s Guide"
+    },
+    {
+      "en": "Circlet of Blasting",
+      "fr": "Diadème de destruction",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=diademe-de-destruction",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Potion of Longevity",
+      "fr": "Élixir de jouvence",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=elixir-de-jouvence",
+      "sourceBook": "Dungeon Master´s Guide (BR)"
+    },
+    {
+      "en": "Elixir of Health",
+      "fr": "Élixir de santé",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=elixir-de-sante",
+      "sourceBook": "Dungeon Master´s Guide (BR)"
+    },
+    {
+      "en": "Censer of Controlling Air Elementals",
+      "fr": "Encensoir de contrôle des élémentaires de l'air",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=encensoir-de-controle-des-elementaires-de-l-air",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Sword of Sharpness",
+      "fr": "Épée acérée",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=epee-aceree",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Flame Tongue",
+      "fr": "Épée ardente",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=epee-ardente",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Dancing Sword",
+      "fr": "Épée dansante",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=epee-dansante",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Sword of Kas",
+      "fr": "Épée de Kas",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=epee-de-kas",
+      "sourceBook": "Dungeon Master´s Guide"
+    },
+    {
+      "en": "Moon-touched Sword",
+      "fr": "Épée de lumière lunaire",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=epee-de-lumiere-lunaire",
+      "sourceBook": "Xanathar´s Guide to Everything"
+    },
+    {
+      "en": "Sword of Answering",
+      "fr": "Épée de réponse",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=epee-de-reponse",
+      "sourceBook": "Dungeon Master´s Guide"
+    },
+    {
+      "en": "Sword of Wounding",
+      "fr": "Épée mordante",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=epee-mordante",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Sun Blade",
+      "fr": "Épée radieuse",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=epee-radieuse",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Sword of Vengeance",
+      "fr": "Épée vengeresse",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=epee-vengeresse",
+      "sourceBook": "Dungeon Master´s Guide"
+    },
+    {
+      "en": "Sword of Life Stealing",
+      "fr": "Épée voleuse de vie",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=epee-voleuse-de-vie",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Vorpal Sword",
+      "fr": "Épée vorpale",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=epee-vorpale",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Wind Fan",
+      "fr": "Éventail enchanté",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=eventail-enchante",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Frost Brand",
+      "fr": "Fer gelé",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=fer-gele",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Horseshoes of Speed",
+      "fr": "Fers de rapidité",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=fers-de-rapidite",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Horseshoes of a Zephyr",
+      "fr": "Fers de zéphyr",
+      "aliases": [
+        "Fers du zéphyr"
+      ],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=fers-de-zephyr",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Figurine of Wondrous Power",
+      "fr": "Figurine merveilleuse",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=figurine-merveilleuse",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Iron Flask",
+      "fr": "Flasque de fer",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=flasque-de-fer",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Unbreakable Arrow",
+      "fr": "Flèche incassable",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=fleche-incassable",
+      "sourceBook": "Xanathar´s Guide to Everything"
+    },
+    {
+      "en": "Arrow of Slaying",
+      "fr": "Flèche tueuse",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=fleche-tueuse",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Pipes of the Sewers",
+      "fr": "Flûte des égouts",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=flute-des-egouts",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Pipes of Haunting",
+      "fr": "Flûte terrifiante",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=flute-terrifiante",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Daern's Instant Fortress",
+      "fr": "Forteresse instantanée de Daern",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=forteresse-instantanee-de-daern",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Gauntlets of Ogre Power",
+      "fr": "Gantelets de puissance d'ogre",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=gantelets-de-puissance-d-ogre",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Gloves of Thievery",
+      "fr": "Gants de chapardeur",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=gants-de-chapardeur",
+      "sourceBook": "Dungeon Master´s Guide"
+    },
+    {
+      "en": "Gloves of Swimming and Climbing",
+      "fr": "Gants de nage et d'escalade",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=gants-de-nage-et-d-escalade",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Gloves of Missile Snaring",
+      "fr": "Gants piégeurs de projectiles",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=gants-piegeurs-de-projectiles",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Defender",
+      "fr": "Gardienne",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=gardienne",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Gem of Brightness",
+      "fr": "Gemme d'illumination",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=gemme-d-illumination",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Gem of Seeing",
+      "fr": "Gemme de vision",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=gemme-de-vision",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Elemental Gem",
+      "fr": "Gemme élémentaire",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=gemme-elementaire",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Driftglobe",
+      "fr": "Globe flottant",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=globe-flottant",
+      "sourceBook": "Dungeon Master´s Guide (BR)"
+    },
+    {
+      "en": "Enduring Spellbook",
+      "fr": "Grimoire résistant",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=grimoire-resistant",
+      "sourceBook": "Xanathar´s Guide to Everything"
+    },
+    {
+      "en": "Axe of the Dwarvish Lords",
+      "fr": "Hache des seigneurs nains",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=hache-des-seigneurs-nains",
+      "sourceBook": "Dungeon Master´s Guide"
+    },
+    {
+      "en": "Berserker Axe",
+      "fr": "Hache du berserker",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=hache-du-berserker",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Plate Armor of Etherealness",
+      "fr": "Harnois éthéré",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=harnois-ethere",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Dwarven Plate",
+      "fr": "Harnois nain",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=harnois-nain",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Heward's Handy Haversack",
+      "fr": "Havresac magique d'Hévard",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=havresac-magique-d-hevard",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Helm of Comprehending Languages",
+      "fr": "Heaume de compréhension des langues",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=heaume-de-comprehension-des-langues",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Helm of Telepathy",
+      "fr": "Heaume de télépathie",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=heaume-de-telepathie",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Helm of Teleportation",
+      "fr": "Heaume de téléportation",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=heaume-de-teleportation",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Dread Helm",
+      "fr": "Heaume effrayant",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=heaume-effrayant",
+      "sourceBook": "Xanathar´s Guide to Everything"
+    },
+    {
+      "en": "Helm of Brilliance",
+      "fr": "Heaume scintillant",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=heaume-scintillant",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Oil of Sharpness",
+      "fr": "Huile d'affûtage",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=huile-d-affutage",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Oil of Slipperiness",
+      "fr": "Huile d'insaisissabilité",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=huile-d-insaisissabilite",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Oil of Etherealness",
+      "fr": "Huile éthérée",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=huile-etheree",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Instrument of Illusions",
+      "fr": "Instrument à illusions",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=instrument-a-illusions",
+      "sourceBook": "Xanathar´s Guide to Everything"
+    },
+    {
+      "en": "Instrument of Scribing",
+      "fr": "Instrument à message",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=instrument-a-message",
+      "sourceBook": "Xanathar´s Guide to Everything"
+    },
+    {
+      "en": "Instrument of the Bards",
+      "fr": "Instrument de barde",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=instrument-de-barde",
+      "sourceBook": "Dungeon Master´s Guide"
+    },
+    {
+      "en": "Bowl of Commanding Water Elementals",
+      "fr": "Jatte de contrôle des élémentaires de l'eau",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=jatte-de-controle-des-elementaires-de-l-eau",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Javelin of Lightning",
+      "fr": "Javeline de foudre",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=javeline-de-foudre",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Luck Blade",
+      "fr": "Lame porte-bonheur",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=lame-porte-bonheur",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Moonblade",
+      "fr": "Lamelune",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=lamelune",
+      "sourceBook": "Dungeon Master´s Guide"
+    },
+    {
+      "en": "Lantern of Revealing",
+      "fr": "Lanterne de révélation",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=lanterne-de-revelation",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Book of Vile Darkness",
+      "fr": "Les Chapitres interdits",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=les-chapitres-interdits",
+      "sourceBook": "Dungeon Master´s Guide"
+    },
+    {
+      "en": "Book of Exalted Deeds",
+      "fr": "Les Chapitres sacrés",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=les-chapitres-sacres",
+      "sourceBook": "Dungeon Master´s Guide"
+    },
+    {
+      "en": "Iron Bands of Bilarro",
+      "fr": "Liens de fer de Bilarro",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=liens-de-fer-de-bilarro",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Goggles of Night",
+      "fr": "Lunettes de nuit",
+      "aliases": [
+        "Lunettes du nyctalope"
+      ],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=lunettes-de-nuit",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Efreeti Chain",
+      "fr": "Mailles éfrit",
+      "aliases": [
+        "Cotte de mailles de l'éfrit"
+      ],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=mailles-efrit",
+      "sourceBook": "Dungeon Master´s Guide"
+    },
+    {
+      "en": "Elven Chain",
+      "fr": "Mailles elfiques",
+      "aliases": [
+        "Chemise de mailles elfique"
+      ],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=mailles-elfiques",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Mantle of Spell Resistance",
+      "fr": "Manteau de résistance aux sorts",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=manteau-de-resistance-aux-sorts",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Manual of Gainful Exercise",
+      "fr": "Manuel d'exercices physiques",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=manuel-d-exercices-physiques",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Manual of Bodily Health",
+      "fr": "Manuel de vitalité",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=manuel-de-vitalite",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Manual of Quickness of Action",
+      "fr": "Manuel de vivacité",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=manuel-de-vivacite",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Manual of Golems",
+      "fr": "Manuel des golems",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=manuel-des-golems",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Dwarven Thrower",
+      "fr": "Marteau de lancer nain",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=marteau-de-lancer-nain",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Hammer of Thunderbolts",
+      "fr": "Marteau de tonnerre",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=marteau-de-tonnerre",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Mace of Disruption",
+      "fr": "Masse d'anéantissement",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=masse-d-aneantissement",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Mace of Smiting",
+      "fr": "Masse destructrice",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=masse-destructrice",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Mace of Terror",
+      "fr": "Masse terrifiante",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=masse-terrifiante",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Medallion of Thoughts",
+      "fr": "Médaillon des pensées",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=medaillon-des-pensees",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Dimensional Shackles",
+      "fr": "Menottes dimensionnelles",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=menottes-dimensionnelles",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Mirror of Life Trapping",
+      "fr": "Miroir d'emprisonnement",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=miroir-d-emprisonnement",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Ammunition +1, +2, or +3",
+      "fr": "Munition +1, +2 ou +3",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=munition-1-2-ou-3",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Walloping Ammunition",
+      "fr": "Munition percutante",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=munition-percutante",
+      "sourceBook": "Xanathar´s Guide to Everything"
+    },
+    {
+      "en": "Blackrazor",
+      "fr": "Noir rasoir",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=noir-rasoir",
+      "sourceBook": "Dungeon Master´s Guide"
+    },
+    {
+      "en": "Ersatz Eye",
+      "fr": "Oeil artificiel",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=oeil-artificiel",
+      "sourceBook": "Xanathar´s Guide to Everything"
+    },
+    {
+      "en": "Eye and Hand of Vecna",
+      "fr": "Oeil et Main de Vecna",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=oeil-et-main-de-vecna",
+      "sourceBook": "Dungeon Master´s Guide"
+    },
+    {
+      "en": "Orb of Direction",
+      "fr": "Orbe boussole",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=orbe-boussole",
+      "sourceBook": "Xanathar´s Guide to Everything"
+    },
+    {
+      "en": "Orb of Dragonkind",
+      "fr": "Orbe des dragons",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=orbe-des-dragons",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Orb of Time",
+      "fr": "Orbe horloge",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=orbe-horloge",
+      "sourceBook": "Xanathar´s Guide to Everything"
+    },
+    {
+      "en": "Scroll of Protection",
+      "fr": "Parchemin de protection",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=parchemin-de-protection",
+      "sourceBook": "Dungeon Master´s Guide (BR)"
+    },
+    {
+      "en": "Spell Scroll",
+      "fr": "Parchemin de sort",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=parchemin-de-sort",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Perfume of Bwitching",
+      "fr": "Parfum envoûtant",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=parfum-envoutant",
+      "sourceBook": "Xanathar´s Guide to Everything"
+    },
+    {
+      "en": "Pole of Angling",
+      "fr": "Perche de pêcheur",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=perche-de-pecheur",
+      "sourceBook": "Xanathar´s Guide to Everything"
+    },
+    {
+      "en": "Pole of Collapsing",
+      "fr": "Perche rétractable",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=perche-retractable",
+      "sourceBook": "Xanathar´s Guide to Everything"
+    },
+    {
+      "en": "Bead of Force",
+      "fr": "Perle de force",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=perle-de-force",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Pearl of Power",
+      "fr": "Perle de pouvoir",
+      "aliases": [
+        "Perle de thaumaturgie"
+      ],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=perle-de-pouvoir",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Bead of Refreshment",
+      "fr": "Perle désaltérante",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=perle-desalterante",
+      "sourceBook": "Xanathar´s Guide to Everything"
+    },
+    {
+      "en": "Bead of Nourishment",
+      "fr": "Perle nutritive",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=perle-nutritive",
+      "sourceBook": "Xanathar´s Guide to Everything"
+    },
+    {
+      "en": "Philter of Love",
+      "fr": "Philtre d'amour",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=philtre-d-amour",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Stone of Controlling Earth Elementals",
+      "fr": "Pierre de contrôle des élémentaires de la terre",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=pierre-de-controle-des-elementaires-de-la-terre",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Ioun Stone",
+      "fr": "Pierre de Ioun",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=pierre-de-ioun",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Stone of Good Luck (Luckstone)",
+      "fr": "Pierre porte-bonheur",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=pierre-porte-bonheur",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Sending Stones",
+      "fr": "Pierres de communication à distance",
+      "aliases": [
+        "Pierres messagères"
+      ],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=pierres-de-communication-a-distance",
+      "sourceBook": "Dungeon Master´s Guide"
+    },
+    {
+      "en": "Nolzur's Marvelous Pigments",
+      "fr": "Pigments merveilleux de Nolzur",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=pigments-merveilleux-de-nolzur",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Pipe of Smoke Monsters",
+      "fr": "Pipe des monstres de fumée",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=pipe-des-monstres-de-fumee",
+      "sourceBook": "Xanathar´s Guide to Everything"
+    },
+    {
+      "en": "Quaal's Feather Token",
+      "fr": "Plume de Quaal",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=plume-de-quaal",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Pot of Awakening",
+      "fr": "Pot d'éveil",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=pot-d-eveil",
+      "sourceBook": "Xanathar´s Guide to Everything"
+    },
+    {
+      "en": "Potion of Growth",
+      "fr": "Potion d'agrandissement",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=potion-d-agrandissement",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Potion of Animal Friendship",
+      "fr": "Potion d'amitié avec les animaux",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=potion-d-amitie-avec-les-animaux",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Potion of Climbing",
+      "fr": "Potion d'escalade",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=potion-d-escalade",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Potion of Heroism",
+      "fr": "Potion d'héroïsme",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=potion-d-heroisme",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Potion of Invisibility",
+      "fr": "Potion d'invisibilité",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=potion-d-invisibilite",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Potion of Invulnerability",
+      "fr": "Potion d'invulnérabilité",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=potion-d-invulnerabilite",
+      "sourceBook": "Dungeon Master´s Guide (BR)"
+    },
+    {
+      "en": "Potion of Clairvoyance",
+      "fr": "Potion de clairvoyance",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=potion-de-clairvoyance",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Potion of Diminution",
+      "fr": "Potion de diminution",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=potion-de-diminution",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Potion of Giant Strength",
+      "fr": "Potion de force de géant",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=potion-de-force-de-geant",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Potion of Gaseous Form",
+      "fr": "Potion de forme gazeuse",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=potion-de-forme-gazeuse",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Potion of Healing",
+      "fr": "Potion de guérison",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=potion-de-guerison",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Potion of Mind Reading",
+      "fr": "Potion de lecture des pensées",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=potion-de-lecture-des-pensees",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Potion of Poison",
+      "fr": "Potion de poison",
+      "aliases": [
+        "Potion toxique"
+      ],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=potion-de-poison",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Potion of Resistance",
+      "fr": "Potion de résistance",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=potion-de-resistance",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Potion of Water Breathing",
+      "fr": "Potion de respiration aquatique",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=potion-de-respiration-aquatique",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Potion of Fire Breath",
+      "fr": "Potion de souffle enflammé",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=potion-de-souffle-enflamme",
+      "sourceBook": "Dungeon Master´s Guide (BR)"
+    },
+    {
+      "en": "Potion of Vitality",
+      "fr": "Potion de vitalité",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=potion-de-vitalite",
+      "sourceBook": "Dungeon Master´s Guide (BR)"
+    },
+    {
+      "en": "Potion of Speed",
+      "fr": "Potion de vitesse",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=potion-de-vitesse",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Potion of Flying",
+      "fr": "Potion de vol",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=potion-de-vol",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Dust of Sneezing and Choking",
+      "fr": "Poudre à éternuer",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=poudre-a-eternuer",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Talking Doll",
+      "fr": "Poupée qui parle",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=poupee-qui-parle",
+      "sourceBook": "Xanathar´s Guide to Everything"
+    },
+    {
+      "en": "Dust of Disappearance",
+      "fr": "Poussière de disparition",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=poussiere-de-disparition",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Dust of Dryness",
+      "fr": "Poussière dessiccative",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=poussiere-dessiccative",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Well of Many Worlds",
+      "fr": "Puits des mondes",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=puits-des-mondes",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Portable Hole",
+      "fr": "Puits portable",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=puits-portable",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Eyes of Charming",
+      "fr": "Regard charmeur",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=regard-charmeur",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Robe of Stars",
+      "fr": "Robe aux étoiles",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=robe-aux-etoiles",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Robe of Useful Items",
+      "fr": "Robe de camelot",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=robe-de-camelot",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Robe of the Archmagi",
+      "fr": "Robe de l'archimage",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=robe-de-l-archimage",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Robe of Eyes",
+      "fr": "Robe de vision totale",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=robe-de-vision-totale",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Robe of Scintillating Colors",
+      "fr": "Robe prismatique",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=robe-prismatique",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Ruby of the War Mage",
+      "fr": "Rubis du mage de guerre",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=rubis-du-mage-de-guerre",
+      "sourceBook": "Xanathar´s Guide to Everything"
+    },
+    {
+      "en": "Bag of Tricks",
+      "fr": "Sac à malices",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=sac-a-malices",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Bag of Beans",
+      "fr": "Sac de haricots",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=sac-de-haricots",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Bag of Devouring",
+      "fr": "Sac dévoreur",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=sac-devoreur",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Bag of Holding",
+      "fr": "Sac sans fond",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=sac-sans-fond",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Scarab of Protection",
+      "fr": "Scarabée de protection",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=scarabee-de-protection",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Rod of Absorption",
+      "fr": "Sceptre d'absorption",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=sceptre-d-absorption",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Rod of Lordly Might",
+      "fr": "Sceptre de puissance seigneuriale",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=sceptre-de-puissance-seigneuriale",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Rod of Resurrection",
+      "fr": "Sceptre de résurrection",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=sceptre-de-resurrection",
+      "sourceBook": "Dungeon Master´s Guide"
+    },
+    {
+      "en": "Rod of Security",
+      "fr": "Sceptre de sécurité",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=sceptre-de-securite",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Rod of Rulership",
+      "fr": "Sceptre de suzeraineté",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=sceptre-de-suzerainete",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Rod of Alertness",
+      "fr": "Sceptre de vigilance",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=sceptre-de-vigilance",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Rod of the Pact Keeper",
+      "fr": "Sceptre du gardien des pactes",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=sceptre-du-gardien-des-pactes",
+      "sourceBook": "Dungeon Master´s Guide"
+    },
+    {
+      "en": "Immovable Rod",
+      "fr": "Sceptre inamovible",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=sceptre-inamovible",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Tentacle Rod",
+      "fr": "Sceptre tentacule",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=sceptre-tentacule",
+      "sourceBook": "Dungeon Master´s Guide (BR)"
+    },
+    {
+      "en": "Saddle of the Cavalier",
+      "fr": "Selle du cavalier",
+      "aliases": [
+        "Selle du hussard"
+      ],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=selle-du-cavalier",
+      "sourceBook": "Dungeon Master´s Guide"
+    },
+    {
+      "en": "Universal Solvent",
+      "fr": "Solvant universel",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=solvant-universel",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Sphere of Annihilation",
+      "fr": "Sphère d'annihilation",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=sphere-d-annihilation",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Apparatus of Kwalish",
+      "fr": "Submersible de Kwalish",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=submersible-de-kwalish",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Talisman of the Sphere",
+      "fr": "Talisman de la sphère",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=talisman-de-la-sphere",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Talisman of Pure Good",
+      "fr": "Talisman du bien ultime",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=talisman-du-bien-ultime",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Talisman of Ultimate Evil",
+      "fr": "Talisman du mal absolu",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=talisman-du-mal-absolu",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Carpet of Flying",
+      "fr": "Tapis volant",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=tapis-volant",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Tome of the Stilled Tongue",
+      "fr": "Tome de la langue nouée",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=tome-de-la-langue-nouee",
+      "sourceBook": "Dungeon Master´s Guide"
+    },
+    {
+      "en": "Tome of Leadership and Influence",
+      "fr": "Traité d'autorité et d'influence",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=traite-d-autorite-et-d-influence",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Tome of Understanding",
+      "fr": "Traité de compréhension",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=traite-de-comprehension",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Tome of Clear Thought",
+      "fr": "Traité de perspicacité",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=traite-de-perspicacite",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Trident of Fish Command",
+      "fr": "Trident de domination aquatique",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=trident-de-domination-aquatique",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Dragon Slayer",
+      "fr": "Tueuse de dragons",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=tueuse-de-dragons",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Giant Slayer",
+      "fr": "Tueuse de géants",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=tueuse-de-geants",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Holy Avenger",
+      "fr": "Vengeresse sacrée",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=vengeresse-sacree",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Clothes of Mending",
+      "fr": "Vêtements raccommodeurs",
+      "aliases": [
+        "Habits autoréparateurs"
+      ],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=vetements-raccommodeurs",
+      "sourceBook": "Xanathar´s Guide to Everything"
+    },
+    {
+      "en": "Nine Lives Stealer",
+      "fr": "Voleuse des neuf vies",
+      "aliases": [
+        "Voleuse de vie"
+      ],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=voleuse-des-neuf-vies",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Eyes of the Eagle",
+      "fr": "Yeux de lynx",
+      "aliases": [],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=yeux-de-lynx",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    },
+    {
+      "en": "Eyes of Minute Seeing",
+      "fr": "Yeux grossissants",
+      "aliases": [
+        "Lentilles de netteté"
+      ],
+      "url": "https://www.aidedd.org/dnd/om.php?vf=yeux-grossissants",
+      "sourceBook": "Dungeon Master´s Guide (SRD)"
+    }
+  ],
+  "addedNames": [
+    "Ring of Elemental Command",
+    "Weapon +1, +2, or +3",
+    "Armor +1, +2, or +3",
+    "Wand of the War Mage +1, +2, or +3",
+    "Ammunition +1, +2, or +3"
+  ],
+  "addedAliases": [
+    {
+      "en": "Ring of Animal Influence",
+      "alias": "Anneau d'influence sur les animaux",
+      "fr": "Anneau d'influence animale"
+    },
+    {
+      "en": "Ring of Elemental Command",
+      "alias": "Anneau de contrôle des élémentaires",
+      "fr": "Anneau de maîtrise élémentaire"
+    },
+    {
+      "en": "Ring of Water Walking",
+      "alias": "Anneau de marche sur l'onde",
+      "fr": "Anneau de marche sur l'eau"
+    },
+    {
+      "en": "Ring of Spell Storing",
+      "alias": "Anneau de stockage de sort",
+      "fr": "Anneau de stockage de sorts"
+    },
+    {
+      "en": "Vicious Weapon",
+      "alias": "Arme vicieuse",
+      "fr": "Arme brutale"
+    },
+    {
+      "en": "Adamantine Armor",
+      "alias": "Armure d'adamantium",
+      "fr": "Armure en adamantium"
+    },
+    {
+      "en": "Mariner's Armor",
+      "alias": "Armure de matelot",
+      "fr": "Armure du matelot"
+    },
+    {
+      "en": "Armor of Gleaming",
+      "alias": "Armure rutilante",
+      "fr": "Armure impeccable"
+    },
+    {
+      "en": "Wand of Conducting",
+      "alias": "Baguette de chef d'orchestre",
+      "fr": "Baguette du chef d'orchestre"
+    },
+    {
+      "en": "Wand of Fear",
+      "alias": "Baguette de terreur",
+      "fr": "Baguette de peur"
+    },
+    {
+      "en": "Wand of Pyrotechnics",
+      "alias": "Baguette de pyrotechnicien",
+      "fr": "Baguette du pyrotechnicien"
+    },
+    {
+      "en": "Wand of Web",
+      "alias": "Baguette des toiles",
+      "fr": "Baguette de toile d'araignée"
+    },
+    {
+      "en": "Staff of Swarming Insects",
+      "alias": "Bâton de grand essaim",
+      "fr": "Bâton du grand essaim"
+    },
+    {
+      "en": "Staff of Adornment",
+      "alias": "Bâton orné",
+      "fr": "Bâton ostensible"
+    },
+    {
+      "en": "Boots of False Tracks",
+      "alias": "Bottes d'empreintes factices",
+      "fr": "Bottes aux empreintes factices"
+    },
+    {
+      "en": "Heward's Handy Spice Pouch",
+      "alias": "Bourse à épices magique d'Heward",
+      "fr": "Bourse à épices d'Huard"
+    },
+    {
+      "en": "Heward's Handy Spice Pouch",
+      "alias": "Bourse à épices d'Heward",
+      "fr": "Bourse à épices d'Huard"
+    },
+    {
+      "en": "Efreeti Bottle",
+      "alias": "Bouteille du mauvais génie",
+      "fr": "Bouteille de l'éfrit"
+    },
+    {
+      "en": "Eversmoking Bottle",
+      "alias": "Bouteille fumigène",
+      "fr": "Urne fumigène"
+    },
+    {
+      "en": "Veteran's Cane",
+      "alias": "Canne de vétéran",
+      "fr": "Canne du vétéran"
+    },
+    {
+      "en": "Cape of the Mountebank",
+      "alias": "Cape de prestidigitateur",
+      "fr": "Cape du prestidigitateur"
+    },
+    {
+      "en": "Slippers of Spider Climbing",
+      "alias": "Chaussons de pattes d'araignée",
+      "fr": "Chaussons de l'araignée"
+    },
+    {
+      "en": "Scimitar of Speed",
+      "alias": "Cimeterre de rapidité",
+      "fr": "Cimeterre de célérité"
+    },
+    {
+      "en": "Mystery Key",
+      "alias": "Clé mystérieuse",
+      "fr": "Clef mystérieuse"
+    },
+    {
+      "en": "Necklace of Prayer Beads",
+      "alias": "Collier de perles de prière",
+      "fr": "Collier de prière"
+    },
+    {
+      "en": "Necklace of Prayer Beads",
+      "alias": "Chapelet",
+      "fr": "Collier de prière"
+    },
+    {
+      "en": "Rope of Climbing",
+      "alias": "Corde d'escalade",
+      "fr": "Corde d'ascension"
+    },
+    {
+      "en": "Rope of Mending",
+      "alias": "Corde réparable",
+      "fr": "Corde remaillante"
+    },
+    {
+      "en": "Horn of Silent Alarm",
+      "alias": "Corne d'alarme silencieuse",
+      "fr": "Cor d'alarme silencieuse"
+    },
+    {
+      "en": "Charlatan's Die",
+      "alias": "Dé de charlatan",
+      "fr": "Dé du charlatan"
+    },
+    {
+      "en": "Flame Tongue",
+      "alias": "Épée ardente",
+      "fr": "Arme ardente"
+    },
+    {
+      "en": "Moon-Touched Sword",
+      "alias": "Épée de lumière lunaire",
+      "fr": "Épée sélène"
+    },
+    {
+      "en": "Horseshoes of a Zephyr",
+      "alias": "Fers du zéphyr",
+      "fr": "Fers de zéphyr"
+    },
+    {
+      "en": "Heward's Handy Haversack",
+      "alias": "Havresac magique d'Hévard",
+      "fr": "Havresac d'Huard"
+    },
+    {
+      "en": "Instrument of the Bards",
+      "alias": "Instrument de barde",
+      "fr": "Instrument des bardes"
+    },
+    {
+      "en": "Goggles of Night",
+      "alias": "Lunettes du nyctalope",
+      "fr": "Lunettes de nuit"
+    },
+    {
+      "en": "Efreeti Chain",
+      "alias": "Mailles éfrit",
+      "fr": "Mailles de l'éfrit"
+    },
+    {
+      "en": "Efreeti Chain",
+      "alias": "Cotte de mailles de l'éfrit",
+      "fr": "Mailles de l'éfrit"
+    },
+    {
+      "en": "Elven Chain",
+      "alias": "Chemise de mailles elfique",
+      "fr": "Mailles elfiques"
+    },
+    {
+      "en": "Dwarven Thrower",
+      "alias": "Marteau de lancer nain",
+      "fr": "Marteau volant des nains"
+    },
+    {
+      "en": "Walloping Ammunition",
+      "alias": "Munition percutante",
+      "fr": "Projectile percutant"
+    },
+    {
+      "en": "Blackrazor",
+      "alias": "Noir rasoir",
+      "fr": "Noirtranchant"
+    },
+    {
+      "en": "Pole of Angling",
+      "alias": "Perche de pêcheur",
+      "fr": "Perche du pêcheur"
+    },
+    {
+      "en": "Pearl of Power",
+      "alias": "Perle de thaumaturgie",
+      "fr": "Perle de pouvoir"
+    },
+    {
+      "en": "Sending Stones",
+      "alias": "Pierres de communication à distance",
+      "fr": "Pierres messagères"
+    },
+    {
+      "en": "Dust of Dryness",
+      "alias": "Poussière dessiccative",
+      "fr": "Poudre dessiccative"
+    },
+    {
+      "en": "Robe of Useful Items",
+      "alias": "Robe de camelot",
+      "fr": "Robe du camelot"
+    },
+    {
+      "en": "Bag of Beans",
+      "alias": "Sac de haricots",
+      "fr": "Sac de haricots magiques"
+    },
+    {
+      "en": "Tentacle Rod",
+      "alias": "Sceptre tentacule",
+      "fr": "Sceptre-tentacule"
+    },
+    {
+      "en": "Saddle of the Cavalier",
+      "alias": "Selle du hussard",
+      "fr": "Selle du cavalier"
+    },
+    {
+      "en": "Clothes of Mending",
+      "alias": "Vêtements raccommodeurs",
+      "fr": "Habits autoréparateurs"
+    },
+    {
+      "en": "Nine Lives Stealer",
+      "alias": "Voleuse des neuf vies",
+      "fr": "Voleuse de vie"
+    },
+    {
+      "en": "Eyes of Minute Seeing",
+      "alias": "Yeux grossissants",
+      "fr": "Lentilles de netteté"
+    }
+  ],
+  "correctedNames": [
+    {
+      "en": "Figurine of Wondrous Power, Ebony Fly",
+      "before": "Statuette merveilleuse (mouche d’ébène)",
+      "fr": "Figurine merveilleuse (mouche d’ébène)",
+      "source": "https://www.aidedd.org/magic-item/fr/figurine-merveilleuse"
+    },
+    {
+      "en": "Figurine of Wondrous Power, Golden Lions",
+      "before": "Statuette merveilleuse (lions d’or)",
+      "fr": "Figurine merveilleuse (lions d’or)",
+      "source": "https://www.aidedd.org/magic-item/fr/figurine-merveilleuse"
+    },
+    {
+      "en": "Figurine of Wondrous Power, Ivory Goats",
+      "before": "Statuette merveilleuse (chèvres d’ivoire)",
+      "fr": "Figurine merveilleuse (chèvres d’ivoire)",
+      "source": "https://www.aidedd.org/magic-item/fr/figurine-merveilleuse"
+    },
+    {
+      "en": "Figurine of Wondrous Power, Marble Elephant",
+      "before": "Statuette merveilleuse (éléphant de marbre)",
+      "fr": "Figurine merveilleuse (éléphant de marbre)",
+      "source": "https://www.aidedd.org/magic-item/fr/figurine-merveilleuse"
+    },
+    {
+      "en": "Figurine of Wondrous Power, Obsidian Steed",
+      "before": "Statuette merveilleuse (destrier d’obsidienne)",
+      "fr": "Figurine merveilleuse (destrier d’obsidienne)",
+      "source": "https://www.aidedd.org/magic-item/fr/figurine-merveilleuse"
+    },
+    {
+      "en": "Figurine of Wondrous Power, Onyx Dog",
+      "before": "Statuette merveilleuse (chien d’onyx)",
+      "fr": "Figurine merveilleuse (chien d’onyx)",
+      "source": "https://www.aidedd.org/magic-item/fr/figurine-merveilleuse"
+    },
+    {
+      "en": "Figurine of Wondrous Power, Serpentine Owl",
+      "before": "Statuette merveilleuse (chouette de serpentine)",
+      "fr": "Figurine merveilleuse (chouette de serpentine)",
+      "source": "https://www.aidedd.org/magic-item/fr/figurine-merveilleuse"
+    },
+    {
+      "en": "Ring of Air Elemental Command",
+      "before": "Anneau de contrôle des élémentaires de l’air",
+      "fr": "Anneau de maîtrise élémentaire (air)",
+      "source": "https://www.aidedd.org/magic-item/fr/anneau-de-ma%C3%AEtrise-elementaire"
+    },
+    {
+      "en": "Ring of Earth Elemental Command",
+      "before": "Anneau de contrôle des élémentaires de la terre",
+      "fr": "Anneau de maîtrise élémentaire (terre)",
+      "source": "https://www.aidedd.org/magic-item/fr/anneau-de-ma%C3%AEtrise-elementaire"
+    },
+    {
+      "en": "Ring of Fire Elemental Command",
+      "before": "Anneau de contrôle des élémentaires du feu",
+      "fr": "Anneau de maîtrise élémentaire (feu)",
+      "source": "https://www.aidedd.org/magic-item/fr/anneau-de-ma%C3%AEtrise-elementaire"
+    },
+    {
+      "en": "Ring of Water Elemental Command",
+      "before": "Anneau de contrôle des élémentaires de l’eau",
+      "fr": "Anneau de maîtrise élémentaire (eau)",
+      "source": "https://www.aidedd.org/magic-item/fr/anneau-de-ma%C3%AEtrise-elementaire"
+    },
+    {
+      "en": "Potion of Healing",
+      "before": "Potion de soins",
+      "fr": "Potion de guérison",
+      "source": "https://www.aidedd.org/magic-item/fr/potions-de-guerison"
+    },
+    {
+      "en": "Potion of Greater Healing",
+      "before": "Potion de soins supérieurs",
+      "fr": "Potion de guérison (importante)",
+      "source": "https://www.aidedd.org/magic-item/fr/potions-de-guerison"
+    },
+    {
+      "en": "Potion of Superior Healing",
+      "before": "Potion de soins majeurs",
+      "fr": "Potion de guérison (supérieure)",
+      "source": "https://www.aidedd.org/magic-item/fr/potions-de-guerison"
+    },
+    {
+      "en": "Potion of Supreme Healing",
+      "before": "Potion de soins suprêmes",
+      "fr": "Potion de guérison (suprême)",
+      "source": "https://www.aidedd.org/magic-item/fr/potions-de-guerison"
+    }
+  ]
+}

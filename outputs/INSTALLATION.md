@@ -55,7 +55,7 @@ La recherche française dans les champs Shard reste active automatiquement : cho
 
 ## Traduction et références
 
-Les noms utilisent les cinq index AideDD 2024, avec un catalogue intégré de **1 341 correspondances**. La traduction directe conserve les références locales et le chargement à la demande des descriptions publiques, y compris leurs variantes anciennes lorsque le texte Shard correspond. Les fiches consultées sur AideDD s’ouvrent désormais hors du panneau.
+Les noms utilisent les cinq index AideDD 2024, avec un catalogue intégré de **1 342 correspondances**. La traduction directe conserve les références locales et le chargement à la demande des descriptions publiques, y compris leurs variantes anciennes lorsque le texte Shard correspond. Les fiches consultées sur AideDD s’ouvrent désormais hors du panneau.
 
 Les données enregistrées dans Shard et les commandes de dés ne sont pas modifiées. Les traductions inconnues, les contenus maison et les textes de certains suppléments peuvent rester en anglais.
 

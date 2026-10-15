@@ -45,7 +45,7 @@ def load_packs(directory=None):
             where = f'{path.name}: entrée {i + 1}'
             if not isinstance(entry, dict):
                 raise ValueError(f'{where}: objet attendu')
-            unknown = set(entry) - {'id', 'kind', 'en', 'fr', 'variants', 'source', 'edition'}
+            unknown = set(entry) - {'id', 'kind', 'en', 'fr', 'variants', 'aliases', 'source', 'edition'}
             if unknown:
                 raise ValueError(f'{where}: champs inconnus : {sorted(unknown)}')
             ident, kind = entry.get('id'), entry.get('kind', 'description')
@@ -64,6 +64,9 @@ def load_packs(directory=None):
             variants = entry.get('variants', [])
             if not isinstance(variants, list) or any(not isinstance(v, str) or not v.strip() for v in variants):
                 raise ValueError(f'{where}: variants doit contenir des textes anglais non vides')
+            aliases = entry.get('aliases', [])
+            if not isinstance(aliases, list) or any(not isinstance(v, str) or not v.strip() for v in aliases) or (aliases and kind != 'term'):
+                raise ValueError(f'{where}: aliases doit contenir des noms alternatifs non vides pour un libellé')
             for en in [entry['en'], *variants]:
                 if kind == 'term' and ('|' in en or '|' in entry['fr'] or '\n' in en or '\n' in entry['fr']):
                     raise ValueError(f'{where}: un libellé ne peut contenir de barre verticale ou de saut de ligne')
@@ -77,8 +80,12 @@ def load_packs(directory=None):
                     old = seen[normalized]
                     if key(old['fr']) != key(entry['fr']) or old['kind'] != kind:
                         raise ValueError(f'{where}: traduction contradictoire avec {old["id"]} pour {en[:80]!r}')
+                    if aliases:
+                        old['aliases'] = list(dict.fromkeys(old.get('aliases', []) + aliases))
                     continue
                 row = {'id': ident, 'kind': kind, 'en': en, 'fr': entry['fr'], 'source': source, 'edition': edition, 'category': path.parent.name if path.name == 'traductions.json' else 'test'}
+                if aliases:
+                    row['aliases'] = list(dict.fromkeys(aliases))
                 rows.append(row)
                 seen[normalized] = row
     return rows

@@ -45,6 +45,7 @@ for const,name in modules:
   previous=records.get(key,{})
   aliases=previous.get('aliases',[])
   if previous.get('fr') and norm(previous['fr'])!=norm(fr):aliases=list(dict.fromkeys(aliases+[previous['fr']]))
+  if name=='feature-terms' and en in pack_terms:aliases=list(dict.fromkeys(aliases+pack_terms[en].get('aliases',[])))
   records[key]={'en':en,'fr':fr,'category':category,'source':source,'aliases':aliases}
   meta[key]={'source':source,'category':category,'aliases':aliases}
  emit_constant(const,data)

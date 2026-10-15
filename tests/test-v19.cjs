@@ -10,7 +10,7 @@ function setup(settings={}){
  try{
  await wait(()=>w.document.querySelector('.titletext').textContent==='Trait de feu');
  assert.equal(host.style.top,'16px');assert.equal(host.style.right,'16px');assert.equal(root.getElementById('panel').hidden,true);
- assert.equal(root.getElementById('panel').querySelector('input').id,'enabled');assert.equal(root.querySelectorAll('input[type=checkbox]').length,2);
+ assert.equal(root.getElementById('panel').querySelector('input').id,'enabled');assert.deepEqual([...root.querySelectorAll('input[type=checkbox]')].map(el=>el.id),['enabled','bilingual','showDescriptionStatus']);
  for(const id of ['aideddAuto','aideddNames','aideddOnline','aideddInline','corrections','english','french','save','remove','json','import','export','reference','aideddReader'])assert.equal(root.getElementById(id),null,id);
  assert.equal(menus.size,3);assert.equal([...menus.keys()].filter(s=>/désactiver|masquer/.test(s)).length,2);
  const button=root.getElementById('badge');button.click();assert.equal(root.getElementById('panel').hidden,false);

@@ -25,6 +25,8 @@ Le schéma fournit l’aide à la saisie dans les éditeurs compatibles JSON Sch
 
 Pour un petit libellé, ajouter `"kind": "term"`. Pour une description, `kind` est facultatif. Les noms déjà référencés par AideDD conservent la priorité AideDD.
 
+Un libellé peut conserver des noms alternatifs de recherche avec `"aliases": ["Ancien nom français"]`. Ces noms n’ajoutent pas de traductions anglaises et ne remplacent pas le nom affiché. Les noms d’objets, armes, monstres, sorts, dons, aptitudes et espèces des packs alimentent aussi les suggestions FR → EN des champs Shard.
+
 ## Paragraphes, variantes et valeurs
 
 - Copier le texte anglais complet tel qu’il apparaît dans Shard, avec ses valeurs et ses dés.

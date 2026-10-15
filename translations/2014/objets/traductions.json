@@ -503,57 +503,78 @@
       "id": "diagnostic.names.items.figurine-of-wondrous-power-ebony-fly",
       "kind": "term",
       "en": "Figurine of Wondrous Power, Ebony Fly",
-      "fr": "Statuette merveilleuse (mouche d’ébène)",
-      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
-      "edition": "any"
+      "fr": "Figurine merveilleuse (mouche d’ébène)",
+      "source": "AideDD 2024 · famille et variante vérifiées le 15 octobre 2026 · https://www.aidedd.org/magic-item/fr/figurine-merveilleuse",
+      "edition": "any",
+      "aliases": [
+        "Statuette merveilleuse (mouche d’ébène)"
+      ]
     },
     {
       "id": "diagnostic.names.items.figurine-of-wondrous-power-golden-lions",
       "kind": "term",
       "en": "Figurine of Wondrous Power, Golden Lions",
-      "fr": "Statuette merveilleuse (lions d’or)",
-      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
-      "edition": "any"
+      "fr": "Figurine merveilleuse (lions d’or)",
+      "source": "AideDD 2024 · famille et variante vérifiées le 15 octobre 2026 · https://www.aidedd.org/magic-item/fr/figurine-merveilleuse",
+      "edition": "any",
+      "aliases": [
+        "Statuette merveilleuse (lions d’or)"
+      ]
     },
     {
       "id": "diagnostic.names.items.figurine-of-wondrous-power-ivory-goats",
       "kind": "term",
       "en": "Figurine of Wondrous Power, Ivory Goats",
-      "fr": "Statuette merveilleuse (chèvres d’ivoire)",
-      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
-      "edition": "any"
+      "fr": "Figurine merveilleuse (chèvres d’ivoire)",
+      "source": "AideDD 2024 · famille et variante vérifiées le 15 octobre 2026 · https://www.aidedd.org/magic-item/fr/figurine-merveilleuse",
+      "edition": "any",
+      "aliases": [
+        "Statuette merveilleuse (chèvres d’ivoire)"
+      ]
     },
     {
       "id": "diagnostic.names.items.figurine-of-wondrous-power-marble-elephant",
       "kind": "term",
       "en": "Figurine of Wondrous Power, Marble Elephant",
-      "fr": "Statuette merveilleuse (éléphant de marbre)",
-      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
-      "edition": "any"
+      "fr": "Figurine merveilleuse (éléphant de marbre)",
+      "source": "AideDD 2024 · famille et variante vérifiées le 15 octobre 2026 · https://www.aidedd.org/magic-item/fr/figurine-merveilleuse",
+      "edition": "any",
+      "aliases": [
+        "Statuette merveilleuse (éléphant de marbre)"
+      ]
     },
     {
       "id": "diagnostic.names.items.figurine-of-wondrous-power-obsidian-steed",
       "kind": "term",
       "en": "Figurine of Wondrous Power, Obsidian Steed",
-      "fr": "Statuette merveilleuse (destrier d’obsidienne)",
-      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
-      "edition": "any"
+      "fr": "Figurine merveilleuse (destrier d’obsidienne)",
+      "source": "AideDD 2024 · famille et variante vérifiées le 15 octobre 2026 · https://www.aidedd.org/magic-item/fr/figurine-merveilleuse",
+      "edition": "any",
+      "aliases": [
+        "Statuette merveilleuse (destrier d’obsidienne)"
+      ]
     },
     {
       "id": "diagnostic.names.items.figurine-of-wondrous-power-onyx-dog",
       "kind": "term",
       "en": "Figurine of Wondrous Power, Onyx Dog",
-      "fr": "Statuette merveilleuse (chien d’onyx)",
-      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
-      "edition": "any"
+      "fr": "Figurine merveilleuse (chien d’onyx)",
+      "source": "AideDD 2024 · famille et variante vérifiées le 15 octobre 2026 · https://www.aidedd.org/magic-item/fr/figurine-merveilleuse",
+      "edition": "any",
+      "aliases": [
+        "Statuette merveilleuse (chien d’onyx)"
+      ]
     },
     {
       "id": "diagnostic.names.items.figurine-of-wondrous-power-serpentine-owl",
       "kind": "term",
       "en": "Figurine of Wondrous Power, Serpentine Owl",
-      "fr": "Statuette merveilleuse (chouette de serpentine)",
-      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
-      "edition": "any"
+      "fr": "Figurine merveilleuse (chouette de serpentine)",
+      "source": "AideDD 2024 · famille et variante vérifiées le 15 octobre 2026 · https://www.aidedd.org/magic-item/fr/figurine-merveilleuse",
+      "edition": "any",
+      "aliases": [
+        "Statuette merveilleuse (chouette de serpentine)"
+      ]
     },
     {
       "id": "diagnostic.names.items.instrument-of-the-bards-anstruth-harp",
@@ -2695,17 +2716,23 @@
       "id": "equipment.shared.report-11716.wand-of-scowls",
       "kind": "term",
       "edition": "any",
-      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "source": "AideDD · nom français de Xanathar’s Guide to Everything vérifié le 15 octobre 2026 · https://www.aidedd.org/dnd/om.php?vf=baguette-du-grincheux",
       "en": "Wand of Scowls",
-      "fr": "Baguette des grimaces"
+      "fr": "Baguette du grincheux",
+      "aliases": [
+        "Baguette des grimaces"
+      ]
     },
     {
       "id": "equipment.shared.report-11716.wand-of-smiles",
       "kind": "term",
       "edition": "any",
-      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "source": "AideDD · nom français de Xanathar’s Guide to Everything vérifié le 15 octobre 2026 · https://www.aidedd.org/dnd/om.php?vf=baguette-du-jovial",
       "en": "Wand of Smiles",
-      "fr": "Baguette des sourires"
+      "fr": "Baguette du jovial",
+      "aliases": [
+        "Baguette des sourires"
+      ]
     },
     {
       "id": "equipment.shared.report-11716.wheat",
@@ -2991,33 +3018,45 @@
       "id": "equipment.shared.report-11716.ring-of-air-elemental-command",
       "kind": "term",
       "edition": "any",
-      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "source": "AideDD 2024 · famille et variante vérifiées le 15 octobre 2026 · https://www.aidedd.org/magic-item/fr/anneau-de-ma%C3%AEtrise-elementaire",
       "en": "Ring of Air Elemental Command",
-      "fr": "Anneau de contrôle des élémentaires de l’air"
+      "fr": "Anneau de maîtrise élémentaire (air)",
+      "aliases": [
+        "Anneau de contrôle des élémentaires de l’air"
+      ]
     },
     {
       "id": "equipment.shared.report-11716.ring-of-earth-elemental-command",
       "kind": "term",
       "edition": "any",
-      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "source": "AideDD 2024 · famille et variante vérifiées le 15 octobre 2026 · https://www.aidedd.org/magic-item/fr/anneau-de-ma%C3%AEtrise-elementaire",
       "en": "Ring of Earth Elemental Command",
-      "fr": "Anneau de contrôle des élémentaires de la terre"
+      "fr": "Anneau de maîtrise élémentaire (terre)",
+      "aliases": [
+        "Anneau de contrôle des élémentaires de la terre"
+      ]
     },
     {
       "id": "equipment.shared.report-11716.ring-of-fire-elemental-command",
       "kind": "term",
       "edition": "any",
-      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "source": "AideDD 2024 · famille et variante vérifiées le 15 octobre 2026 · https://www.aidedd.org/magic-item/fr/anneau-de-ma%C3%AEtrise-elementaire",
       "en": "Ring of Fire Elemental Command",
-      "fr": "Anneau de contrôle des élémentaires du feu"
+      "fr": "Anneau de maîtrise élémentaire (feu)",
+      "aliases": [
+        "Anneau de contrôle des élémentaires du feu"
+      ]
     },
     {
       "id": "equipment.shared.report-11716.ring-of-water-elemental-command",
       "kind": "term",
       "edition": "any",
-      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "source": "AideDD 2024 · famille et variante vérifiées le 15 octobre 2026 · https://www.aidedd.org/magic-item/fr/anneau-de-ma%C3%AEtrise-elementaire",
       "en": "Ring of Water Elemental Command",
-      "fr": "Anneau de contrôle des élémentaires de l’eau"
+      "fr": "Anneau de maîtrise élémentaire (eau)",
+      "aliases": [
+        "Anneau de contrôle des élémentaires de l’eau"
+      ]
     },
     {
       "id": "equipment.shared.report-11716.scroll-of-protection-from-aberrations",
@@ -3944,6 +3983,82 @@
       "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
       "en": "Each type of musical instrument requires a separate proficiency.",
       "fr": "Chaque type d’instrument de musique nécessite une maîtrise distincte."
+    },
+    {
+      "id": "equipment.names-11726.potion-of-healing",
+      "kind": "term",
+      "edition": "any",
+      "en": "Potion of Healing",
+      "fr": "Potion de guérison",
+      "aliases": [
+        "Potion de soins"
+      ],
+      "source": "AideDD 2024 · tableau des noms et puissances des potions vérifié le 15 octobre 2026 · https://www.aidedd.org/magic-item/fr/potions-de-guerison"
+    },
+    {
+      "id": "equipment.names-11726.potion-of-greater-healing",
+      "kind": "term",
+      "edition": "any",
+      "en": "Potion of Greater Healing",
+      "fr": "Potion de guérison (importante)",
+      "aliases": [
+        "Potion de soins supérieurs"
+      ],
+      "source": "AideDD 2024 · tableau des noms et puissances des potions vérifié le 15 octobre 2026 · https://www.aidedd.org/magic-item/fr/potions-de-guerison"
+    },
+    {
+      "id": "equipment.names-11726.potion-of-superior-healing",
+      "kind": "term",
+      "edition": "any",
+      "en": "Potion of Superior Healing",
+      "fr": "Potion de guérison (supérieure)",
+      "aliases": [
+        "Potion de soins majeurs"
+      ],
+      "source": "AideDD 2024 · tableau des noms et puissances des potions vérifié le 15 octobre 2026 · https://www.aidedd.org/magic-item/fr/potions-de-guerison"
+    },
+    {
+      "id": "equipment.names-11726.potion-of-supreme-healing",
+      "kind": "term",
+      "edition": "any",
+      "en": "Potion of Supreme Healing",
+      "fr": "Potion de guérison (suprême)",
+      "aliases": [
+        "Potion de soins suprêmes"
+      ],
+      "source": "AideDD 2024 · tableau des noms et puissances des potions vérifié le 15 octobre 2026 · https://www.aidedd.org/magic-item/fr/potions-de-guerison"
+    },
+    {
+      "id": "equipment.names-11726.weapon-1-2-or-3",
+      "kind": "term",
+      "edition": "any",
+      "en": "Weapon +1, +2, or +3",
+      "fr": "Arme +1, +2 ou +3",
+      "source": "AideDD · index des noms 2014 vérifié le 15 octobre 2026 · https://www.aidedd.org/dnd/om.php?vf=arme-1-2-ou-3"
+    },
+    {
+      "id": "equipment.names-11726.armor-1-2-or-3",
+      "kind": "term",
+      "edition": "any",
+      "en": "Armor +1, +2, or +3",
+      "fr": "Armure +1, +2 ou +3",
+      "source": "AideDD · index des noms 2014 vérifié le 15 octobre 2026 · https://www.aidedd.org/dnd/om.php?vf=armure-1-2-ou-3"
+    },
+    {
+      "id": "equipment.names-11726.wand-of-the-war-mage-1-2-or-3",
+      "kind": "term",
+      "edition": "any",
+      "en": "Wand of the War Mage +1, +2, or +3",
+      "fr": "Baguette du mage de guerre +1, +2 ou +3",
+      "source": "AideDD · index des noms 2014 vérifié le 15 octobre 2026 · https://www.aidedd.org/dnd/om.php?vf=baguette-du-mage-de-guerre-1-2-ou-3"
+    },
+    {
+      "id": "equipment.names-11726.ammunition-1-2-or-3",
+      "kind": "term",
+      "edition": "any",
+      "en": "Ammunition +1, +2, or +3",
+      "fr": "Munition +1, +2 ou +3",
+      "source": "AideDD · index des noms 2014 vérifié le 15 octobre 2026 · https://www.aidedd.org/dnd/om.php?vf=munition-1-2-ou-3"
     }
   ]
 }

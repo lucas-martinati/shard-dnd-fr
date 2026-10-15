@@ -1,5 +1,5 @@
 {
-  "version": "1.17.23",
+  "version": "1.17.27",
   "reference": "Noms AideDD 2024 prioritaires. Références SRD disponibles séparément. Autres entrées identifiées.",
   "license": "Code MIT ; contenu SRD CC-BY-4.0 https://creativecommons.org/licenses/by/4.0/",
   "sources": [
@@ -12430,31 +12430,39 @@
     },
     {
       "en": "Potion of Healing",
-      "fr": "Potion de soins",
+      "fr": "Potion de guérison",
       "category": "équipement",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
-      "aliases": []
+      "source": "AideDD 2024 · tableau des noms et puissances des potions vérifié le 15 octobre 2026 · https://www.aidedd.org/magic-item/fr/potions-de-guerison",
+      "aliases": [
+        "Potion de soins"
+      ]
     },
     {
       "en": "Potion of Greater Healing",
-      "fr": "Potion de soins supérieurs",
+      "fr": "Potion de guérison (importante)",
       "category": "équipement",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
-      "aliases": []
+      "source": "AideDD 2024 · tableau des noms et puissances des potions vérifié le 15 octobre 2026 · https://www.aidedd.org/magic-item/fr/potions-de-guerison",
+      "aliases": [
+        "Potion de soins supérieurs"
+      ]
     },
     {
       "en": "Potion of Superior Healing",
-      "fr": "Potion de soins majeurs",
+      "fr": "Potion de guérison (supérieure)",
       "category": "équipement",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
-      "aliases": []
+      "source": "AideDD 2024 · tableau des noms et puissances des potions vérifié le 15 octobre 2026 · https://www.aidedd.org/magic-item/fr/potions-de-guerison",
+      "aliases": [
+        "Potion de soins majeurs"
+      ]
     },
     {
       "en": "Potion of Supreme Healing",
-      "fr": "Potion de soins suprêmes",
+      "fr": "Potion de guérison (suprême)",
       "category": "équipement",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
-      "aliases": []
+      "source": "AideDD 2024 · tableau des noms et puissances des potions vérifié le 15 octobre 2026 · https://www.aidedd.org/magic-item/fr/potions-de-guerison",
+      "aliases": [
+        "Potion de soins suprêmes"
+      ]
     },
     {
       "en": "Potion of Climbing",
@@ -12587,7 +12595,9 @@
       "category": "objet magique",
       "source": "AideDD · index 2024",
       "url": "https://www.aidedd.org/magic-item/fr/anneau-de-stockage-de-sorts",
-      "aliases": []
+      "aliases": [
+        "Anneau de stockage de sort"
+      ]
     },
     {
       "en": "Amulet of Health",
@@ -12633,6 +12643,7 @@
       "url": "https://www.aidedd.org/magic-item/fr/lunettes-de-nuit-du-nyctalope",
       "aliases": [
         "du nyctalope",
+        "Lunettes du nyctalope",
         "Lunettes de vision nocturne"
       ]
     },
@@ -12652,6 +12663,7 @@
       "url": "https://www.aidedd.org/magic-item/fr/perle-de-pouvoir-de-thaumaturgie",
       "aliases": [
         "de thaumaturgie",
+        "Perle de thaumaturgie",
         "Perle de puissance"
       ]
     },
@@ -12662,6 +12674,7 @@
       "source": "AideDD · index 2024",
       "url": "https://www.aidedd.org/magic-item/fr/pierres-messageres",
       "aliases": [
+        "Pierres de communication à distance",
         "Pierres de communication"
       ]
     },
@@ -15820,7 +15833,9 @@
       "category": "objet magique",
       "source": "AideDD · index 2024",
       "url": "https://www.aidedd.org/magic-item/fr/armure-en-adamantium",
-      "aliases": []
+      "aliases": [
+        "Armure d'adamantium"
+      ]
     },
     {
       "en": "Alchemy Jug",
@@ -16083,6 +16098,7 @@
       "source": "AideDD · index 2024",
       "url": "https://www.aidedd.org/magic-item/fr/cape-du-prestidigitateur",
       "aliases": [
+        "Cape de prestidigitateur",
         "Cape de saltimbanque"
       ]
     },
@@ -16300,7 +16316,9 @@
       "category": "objet magique",
       "source": "AideDD · index 2024",
       "url": "https://www.aidedd.org/magic-item/fr/poudre-dessiccative",
-      "aliases": []
+      "aliases": [
+        "Poussière dessiccative"
+      ]
     },
     {
       "en": "Dust of Sneezing and Choking",
@@ -16345,6 +16363,7 @@
       "url": "https://www.aidedd.org/magic-item/fr/bouteille-de-l-efrit-du-mauvais-genie",
       "aliases": [
         "du mauvais génie",
+        "Bouteille du mauvais génie",
         "Bouteille d’éfrit"
       ]
     },
@@ -16401,6 +16420,7 @@
       "source": "AideDD · index 2024",
       "url": "https://www.aidedd.org/magic-item/fr/lentilles-de-nettete",
       "aliases": [
+        "Yeux grossissants",
         "Yeux de lynx"
       ]
     },
@@ -16438,6 +16458,7 @@
       "source": "AideDD · index 2024",
       "url": "https://www.aidedd.org/magic-item/fr/arme-ardente",
       "aliases": [
+        "Épée ardente",
         "Langue de feu"
       ]
     },
@@ -16594,6 +16615,7 @@
       "source": "AideDD · index 2024",
       "url": "https://www.aidedd.org/magic-item/fr/havresac-d-huard",
       "aliases": [
+        "Havresac magique d'Hévard",
         "Havresac magique d’Hévard"
       ]
     },
@@ -16639,6 +16661,7 @@
       "source": "AideDD · index 2024",
       "url": "https://www.aidedd.org/magic-item/fr/fers-de-zephyr",
       "aliases": [
+        "Fers du zéphyr",
         "Fers à cheval du zéphyr"
       ]
     },
@@ -16665,7 +16688,9 @@
       "category": "objet magique",
       "source": "AideDD · index 2024",
       "url": "https://www.aidedd.org/magic-item/fr/instrument-des-bardes",
-      "aliases": []
+      "aliases": [
+        "Instrument de barde"
+      ]
     },
     {
       "en": "Ioun Stone",
@@ -16849,7 +16874,8 @@
       "url": "https://www.aidedd.org/magic-item/fr/collier-de-priere-chapelet-mystique",
       "aliases": [
         "Chapelet mystique",
-        "Collier de perles de prière"
+        "Collier de perles de prière",
+        "Chapelet"
       ]
     },
     {
@@ -16859,6 +16885,7 @@
       "source": "AideDD · index 2024",
       "url": "https://www.aidedd.org/magic-item/fr/voleuse-de-vie",
       "aliases": [
+        "Voleuse des neuf vies",
         "Voleuse de neuf vies"
       ]
     },
@@ -17084,6 +17111,7 @@
       "source": "AideDD · index 2024",
       "url": "https://www.aidedd.org/magic-item/fr/anneau-d-influence-animale",
       "aliases": [
+        "Anneau d'influence sur les animaux",
         "Anneau d’influence sur les animaux"
       ]
     },
@@ -17228,6 +17256,7 @@
       "source": "AideDD · index 2024",
       "url": "https://www.aidedd.org/magic-item/fr/anneau-de-marche-sur-l-eau",
       "aliases": [
+        "Anneau de marche sur l'onde",
         "Anneau de marche sur l’eau"
       ]
     },
@@ -17288,6 +17317,7 @@
       "source": "AideDD · index 2024",
       "url": "https://www.aidedd.org/magic-item/fr/robe-du-camelot",
       "aliases": [
+        "Robe de camelot",
         "Robe d’objets utiles"
       ]
     },
@@ -17340,6 +17370,7 @@
       "source": "AideDD · index 2024",
       "url": "https://www.aidedd.org/magic-item/fr/corde-d-ascension",
       "aliases": [
+        "Corde d'escalade",
         "Corde d’escalade"
       ]
     },
@@ -17367,7 +17398,9 @@
       "category": "objet magique",
       "source": "AideDD · index 2024",
       "url": "https://www.aidedd.org/magic-item/fr/cimeterre-de-celerite",
-      "aliases": []
+      "aliases": [
+        "Cimeterre de rapidité"
+      ]
     },
     {
       "en": "Shield of Missile Attraction",
@@ -17386,6 +17419,7 @@
       "source": "AideDD · index 2024",
       "url": "https://www.aidedd.org/magic-item/fr/chaussons-de-l-araignee",
       "aliases": [
+        "Chaussons de pattes d'araignée",
         "Chaussons d’araignée"
       ]
     },
@@ -17468,6 +17502,7 @@
       "source": "AideDD · index 2024",
       "url": "https://www.aidedd.org/magic-item/fr/baton-du-grand-essaim",
       "aliases": [
+        "Bâton de grand essaim",
         "Bâton de nuée d’insectes"
       ]
     },
@@ -17752,6 +17787,7 @@
       "url": "https://www.aidedd.org/magic-item/fr/baguette-de-toile-d-araignee-des-toiles",
       "aliases": [
         "des toiles",
+        "Baguette des toiles",
         "Baguette de toile d’araignée"
       ]
     },
@@ -32567,52 +32603,66 @@
     },
     {
       "en": "Figurine of Wondrous Power, Ebony Fly",
-      "fr": "Statuette merveilleuse (mouche d’ébène)",
+      "fr": "Figurine merveilleuse (mouche d’ébène)",
       "category": "équipement",
-      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
-      "aliases": []
+      "source": "AideDD 2024 · famille et variante vérifiées le 15 octobre 2026 · https://www.aidedd.org/magic-item/fr/figurine-merveilleuse",
+      "aliases": [
+        "Statuette merveilleuse (mouche d’ébène)"
+      ]
     },
     {
       "en": "Figurine of Wondrous Power, Golden Lions",
-      "fr": "Statuette merveilleuse (lions d’or)",
+      "fr": "Figurine merveilleuse (lions d’or)",
       "category": "équipement",
-      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
-      "aliases": []
+      "source": "AideDD 2024 · famille et variante vérifiées le 15 octobre 2026 · https://www.aidedd.org/magic-item/fr/figurine-merveilleuse",
+      "aliases": [
+        "Statuette merveilleuse (lions d’or)"
+      ]
     },
     {
       "en": "Figurine of Wondrous Power, Ivory Goats",
-      "fr": "Statuette merveilleuse (chèvres d’ivoire)",
+      "fr": "Figurine merveilleuse (chèvres d’ivoire)",
       "category": "équipement",
-      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
-      "aliases": []
+      "source": "AideDD 2024 · famille et variante vérifiées le 15 octobre 2026 · https://www.aidedd.org/magic-item/fr/figurine-merveilleuse",
+      "aliases": [
+        "Statuette merveilleuse (chèvres d’ivoire)"
+      ]
     },
     {
       "en": "Figurine of Wondrous Power, Marble Elephant",
-      "fr": "Statuette merveilleuse (éléphant de marbre)",
+      "fr": "Figurine merveilleuse (éléphant de marbre)",
       "category": "équipement",
-      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
-      "aliases": []
+      "source": "AideDD 2024 · famille et variante vérifiées le 15 octobre 2026 · https://www.aidedd.org/magic-item/fr/figurine-merveilleuse",
+      "aliases": [
+        "Statuette merveilleuse (éléphant de marbre)"
+      ]
     },
     {
       "en": "Figurine of Wondrous Power, Obsidian Steed",
-      "fr": "Statuette merveilleuse (destrier d’obsidienne)",
+      "fr": "Figurine merveilleuse (destrier d’obsidienne)",
       "category": "équipement",
-      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
-      "aliases": []
+      "source": "AideDD 2024 · famille et variante vérifiées le 15 octobre 2026 · https://www.aidedd.org/magic-item/fr/figurine-merveilleuse",
+      "aliases": [
+        "Statuette merveilleuse (destrier d’obsidienne)"
+      ]
     },
     {
       "en": "Figurine of Wondrous Power, Onyx Dog",
-      "fr": "Statuette merveilleuse (chien d’onyx)",
+      "fr": "Figurine merveilleuse (chien d’onyx)",
       "category": "équipement",
-      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
-      "aliases": []
+      "source": "AideDD 2024 · famille et variante vérifiées le 15 octobre 2026 · https://www.aidedd.org/magic-item/fr/figurine-merveilleuse",
+      "aliases": [
+        "Statuette merveilleuse (chien d’onyx)"
+      ]
     },
     {
       "en": "Figurine of Wondrous Power, Serpentine Owl",
-      "fr": "Statuette merveilleuse (chouette de serpentine)",
+      "fr": "Figurine merveilleuse (chouette de serpentine)",
       "category": "équipement",
-      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
-      "aliases": []
+      "source": "AideDD 2024 · famille et variante vérifiées le 15 octobre 2026 · https://www.aidedd.org/magic-item/fr/figurine-merveilleuse",
+      "aliases": [
+        "Statuette merveilleuse (chouette de serpentine)"
+      ]
     },
     {
       "en": "Instrument of the Bards, Anstruth Harp",
@@ -34485,17 +34535,21 @@
     },
     {
       "en": "Wand of Scowls",
-      "fr": "Baguette des grimaces",
+      "fr": "Baguette du grincheux",
       "category": "équipement",
-      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
-      "aliases": []
+      "source": "AideDD · nom français de Xanathar’s Guide to Everything vérifié le 15 octobre 2026 · https://www.aidedd.org/dnd/om.php?vf=baguette-du-grincheux",
+      "aliases": [
+        "Baguette des grimaces"
+      ]
     },
     {
       "en": "Wand of Smiles",
-      "fr": "Baguette des sourires",
+      "fr": "Baguette du jovial",
       "category": "équipement",
-      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
-      "aliases": []
+      "source": "AideDD · nom français de Xanathar’s Guide to Everything vérifié le 15 octobre 2026 · https://www.aidedd.org/dnd/om.php?vf=baguette-du-jovial",
+      "aliases": [
+        "Baguette des sourires"
+      ]
     },
     {
       "en": "Wheat",
@@ -34744,31 +34798,39 @@
     },
     {
       "en": "Ring of Air Elemental Command",
-      "fr": "Anneau de contrôle des élémentaires de l’air",
+      "fr": "Anneau de maîtrise élémentaire (air)",
       "category": "équipement",
-      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
-      "aliases": []
+      "source": "AideDD 2024 · famille et variante vérifiées le 15 octobre 2026 · https://www.aidedd.org/magic-item/fr/anneau-de-ma%C3%AEtrise-elementaire",
+      "aliases": [
+        "Anneau de contrôle des élémentaires de l’air"
+      ]
     },
     {
       "en": "Ring of Earth Elemental Command",
-      "fr": "Anneau de contrôle des élémentaires de la terre",
+      "fr": "Anneau de maîtrise élémentaire (terre)",
       "category": "équipement",
-      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
-      "aliases": []
+      "source": "AideDD 2024 · famille et variante vérifiées le 15 octobre 2026 · https://www.aidedd.org/magic-item/fr/anneau-de-ma%C3%AEtrise-elementaire",
+      "aliases": [
+        "Anneau de contrôle des élémentaires de la terre"
+      ]
     },
     {
       "en": "Ring of Fire Elemental Command",
-      "fr": "Anneau de contrôle des élémentaires du feu",
+      "fr": "Anneau de maîtrise élémentaire (feu)",
       "category": "équipement",
-      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
-      "aliases": []
+      "source": "AideDD 2024 · famille et variante vérifiées le 15 octobre 2026 · https://www.aidedd.org/magic-item/fr/anneau-de-ma%C3%AEtrise-elementaire",
+      "aliases": [
+        "Anneau de contrôle des élémentaires du feu"
+      ]
     },
     {
       "en": "Ring of Water Elemental Command",
-      "fr": "Anneau de contrôle des élémentaires de l’eau",
+      "fr": "Anneau de maîtrise élémentaire (eau)",
       "category": "équipement",
-      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
-      "aliases": []
+      "source": "AideDD 2024 · famille et variante vérifiées le 15 octobre 2026 · https://www.aidedd.org/magic-item/fr/anneau-de-ma%C3%AEtrise-elementaire",
+      "aliases": [
+        "Anneau de contrôle des élémentaires de l’eau"
+      ]
     },
     {
       "en": "Scroll of Protection from Aberrations",
@@ -35076,6 +35138,34 @@
       "fr": "Bas",
       "category": "équipement",
       "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "aliases": []
+    },
+    {
+      "en": "Weapon +1, +2, or +3",
+      "fr": "Arme +1, +2 ou +3",
+      "category": "équipement",
+      "source": "AideDD · index des noms 2014 vérifié le 15 octobre 2026 · https://www.aidedd.org/dnd/om.php?vf=arme-1-2-ou-3",
+      "aliases": []
+    },
+    {
+      "en": "Armor +1, +2, or +3",
+      "fr": "Armure +1, +2 ou +3",
+      "category": "équipement",
+      "source": "AideDD · index des noms 2014 vérifié le 15 octobre 2026 · https://www.aidedd.org/dnd/om.php?vf=armure-1-2-ou-3",
+      "aliases": []
+    },
+    {
+      "en": "Wand of the War Mage +1, +2, or +3",
+      "fr": "Baguette du mage de guerre +1, +2 ou +3",
+      "category": "équipement",
+      "source": "AideDD · index des noms 2014 vérifié le 15 octobre 2026 · https://www.aidedd.org/dnd/om.php?vf=baguette-du-mage-de-guerre-1-2-ou-3",
+      "aliases": []
+    },
+    {
+      "en": "Ammunition +1, +2, or +3",
+      "fr": "Munition +1, +2 ou +3",
+      "category": "équipement",
+      "source": "AideDD · index des noms 2014 vérifié le 15 octobre 2026 · https://www.aidedd.org/dnd/om.php?vf=munition-1-2-ou-3",
       "aliases": []
     },
     {
@@ -37614,7 +37704,9 @@
       "category": "objet magique",
       "source": "AideDD · index 2024",
       "url": "https://www.aidedd.org/magic-item/fr/armure-du-matelot",
-      "aliases": []
+      "aliases": [
+        "Armure de matelot"
+      ]
     },
     {
       "en": "Smoldering Armor",
@@ -37630,7 +37722,9 @@
       "category": "objet magique",
       "source": "AideDD · index 2024",
       "url": "https://www.aidedd.org/magic-item/fr/armure-impeccable",
-      "aliases": []
+      "aliases": [
+        "Armure rutilante"
+      ]
     },
     {
       "en": "Cast-Off Armor",
@@ -37662,7 +37756,9 @@
       "category": "objet magique",
       "source": "AideDD · index 2024",
       "url": "https://www.aidedd.org/magic-item/fr/baguette-du-chef-d-orchestre",
-      "aliases": []
+      "aliases": [
+        "Baguette de chef d'orchestre"
+      ]
     },
     {
       "en": "Wand of the War Mage, +1, +2, or +3",
@@ -37678,7 +37774,9 @@
       "category": "objet magique",
       "source": "AideDD · index 2024",
       "url": "https://www.aidedd.org/magic-item/fr/baguette-du-pyrotechnicien",
-      "aliases": []
+      "aliases": [
+        "Baguette de pyrotechnicien"
+      ]
     },
     {
       "en": "Baba Yaga's Dancing Broom",
@@ -37734,7 +37832,9 @@
       "category": "objet magique",
       "source": "AideDD · index 2024",
       "url": "https://www.aidedd.org/magic-item/fr/baton-ostensible",
-      "aliases": []
+      "aliases": [
+        "Bâton orné"
+      ]
     },
     {
       "en": "Enspelled Staff",
@@ -37758,7 +37858,9 @@
       "category": "objet magique",
       "source": "AideDD · index 2024",
       "url": "https://www.aidedd.org/magic-item/fr/bottes-aux-empreintes-factices",
-      "aliases": []
+      "aliases": [
+        "Bottes d'empreintes factices"
+      ]
     },
     {
       "en": "Shield, +1, +2, or +3",
@@ -37824,7 +37926,10 @@
       "category": "objet magique",
       "source": "AideDD · index 2024",
       "url": "https://www.aidedd.org/magic-item/fr/bourse-a-epices-d-huard",
-      "aliases": []
+      "aliases": [
+        "Bourse à épices magique d'Heward",
+        "Bourse à épices d'Heward"
+      ]
     },
     {
       "en": "Lock of Trickery",
@@ -37840,7 +37945,9 @@
       "category": "objet magique",
       "source": "AideDD · index 2024",
       "url": "https://www.aidedd.org/magic-item/fr/canne-du-veteran",
-      "aliases": []
+      "aliases": [
+        "Canne de vétéran"
+      ]
     },
     {
       "en": "Cloak of Many Fashions",
@@ -37928,7 +38035,9 @@
       "category": "objet magique",
       "source": "AideDD · index 2024",
       "url": "https://www.aidedd.org/magic-item/fr/clef-mysterieuse",
-      "aliases": []
+      "aliases": [
+        "Clé mystérieuse"
+      ]
     },
     {
       "en": "Horn of Silent Alarm",
@@ -37936,7 +38045,9 @@
       "category": "objet magique",
       "source": "AideDD · index 2024",
       "url": "https://www.aidedd.org/magic-item/fr/cor-d-alarme-silencieuse",
-      "aliases": []
+      "aliases": [
+        "Corne d'alarme silencieuse"
+      ]
     },
     {
       "en": "Rope of Mending",
@@ -37944,7 +38055,9 @@
       "category": "objet magique",
       "source": "AideDD · index 2024",
       "url": "https://www.aidedd.org/magic-item/fr/corde-remaillante",
-      "aliases": []
+      "aliases": [
+        "Corde réparable"
+      ]
     },
     {
       "en": "Ear Horn of Hearing",
@@ -37968,7 +38081,9 @@
       "category": "objet magique",
       "source": "AideDD · index 2024",
       "url": "https://www.aidedd.org/magic-item/fr/de-du-charlatan",
-      "aliases": []
+      "aliases": [
+        "Dé de charlatan"
+      ]
     },
     {
       "en": "Whelm",
@@ -38016,7 +38131,9 @@
       "category": "objet magique",
       "source": "AideDD · index 2024",
       "url": "https://www.aidedd.org/magic-item/fr/epee-selene",
-      "aliases": []
+      "aliases": [
+        "Épée de lumière lunaire"
+      ]
     },
     {
       "en": "Sword of Vengeance",
@@ -38056,7 +38173,9 @@
       "category": "objet magique",
       "source": "AideDD · index 2024",
       "url": "https://www.aidedd.org/magic-item/fr/habits-autoreparateurs",
-      "aliases": []
+      "aliases": [
+        "Vêtements raccommodeurs"
+      ]
     },
     {
       "en": "Axe of the Dwarvish Lords",
@@ -38144,7 +38263,10 @@
       "category": "objet magique",
       "source": "AideDD · index 2024",
       "url": "https://www.aidedd.org/magic-item/fr/mailles-de-l-efrit",
-      "aliases": []
+      "aliases": [
+        "Mailles éfrit",
+        "Cotte de mailles de l'éfrit"
+      ]
     },
     {
       "en": "Nature's Mantle",
@@ -38176,7 +38298,9 @@
       "category": "objet magique",
       "source": "AideDD · index 2024",
       "url": "https://www.aidedd.org/magic-item/fr/noirtranchant",
-      "aliases": []
+      "aliases": [
+        "Noir rasoir"
+      ]
     },
     {
       "en": "Ersatz Eye",
@@ -38256,7 +38380,9 @@
       "category": "objet magique",
       "source": "AideDD · index 2024",
       "url": "https://www.aidedd.org/magic-item/fr/perche-du-pecheur",
-      "aliases": []
+      "aliases": [
+        "Perche de pêcheur"
+      ]
     },
     {
       "en": "Pole of Collapsing",
@@ -38408,7 +38534,9 @@
       "category": "objet magique",
       "source": "AideDD · index 2024",
       "url": "https://www.aidedd.org/magic-item/fr/projectile-percutant",
-      "aliases": []
+      "aliases": [
+        "Munition percutante"
+      ]
     },
     {
       "en": "Ammunition of Slaying",
@@ -38432,7 +38560,9 @@
       "category": "objet magique",
       "source": "AideDD · index 2024",
       "url": "https://www.aidedd.org/magic-item/fr/sac-de-haricots-magiques",
-      "aliases": []
+      "aliases": [
+        "Sac de haricots"
+      ]
     },
     {
       "en": "Rod of Resurrection",
@@ -38456,7 +38586,9 @@
       "category": "objet magique",
       "source": "AideDD · index 2024",
       "url": "https://www.aidedd.org/magic-item/fr/sceptre-tentacule",
-      "aliases": []
+      "aliases": [
+        "Sceptre tentacule"
+      ]
     },
     {
       "en": "Saddle of the Cavalier",
@@ -38465,7 +38597,8 @@
       "source": "AideDD · index 2024",
       "url": "https://www.aidedd.org/magic-item/fr/selle-du-cavalier-du-hussard",
       "aliases": [
-        "du hussard"
+        "du hussard",
+        "Selle du hussard"
       ]
     },
     {
@@ -38499,6 +38632,16 @@
       "source": "AideDD · index 2024",
       "url": "https://www.aidedd.org/magic-item/fr/vague",
       "aliases": []
+    },
+    {
+      "en": "Ring of Elemental Command",
+      "fr": "Anneau de maîtrise élémentaire",
+      "category": "objet magique",
+      "source": "AideDD · index 2024",
+      "url": "https://www.aidedd.org/magic-item/fr/anneau-de-ma%C3%AEtrise-elementaire",
+      "aliases": [
+        "Anneau de contrôle des élémentaires"
+      ]
     }
   ]
 }
