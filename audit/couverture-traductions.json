@@ -107,9 +107,14 @@
             "entreesRattachees": 177,
             "libelles": 44,
             "blocs": 133
+          },
+          "sorts": {
+            "entreesRattachees": 23,
+            "libelles": 0,
+            "blocs": 23
           }
         },
-        "entreesRattachees": 2513
+        "entreesRattachees": 2536
       },
       {
         "id": "dnd-2024-mm",
@@ -387,7 +392,7 @@
       "nomsCatalogueAideDD2024": 391,
       "entreesDictionnaires": 511,
       "libellesEditables": 0,
-      "blocsEditables": 16
+      "blocsEditables": 39
     },
     "dons": {
       "nomsCatalogueAideDD2024": 75,
@@ -439,7 +444,7 @@
     }
   },
   "corpusLocaux": {
-    "descriptionsEtChampsLocauxUniques": 4720,
+    "descriptionsEtChampsLocauxUniques": 4745,
     "presentationsShard": {
       "fichesRelevees": 153,
       "avecDescription": 149,
@@ -575,7 +580,7 @@
       }
     },
     "armesSRD2024": 38,
-    "sousSectionsEtVariantesClasses": 288,
+    "sousSectionsEtVariantesClasses": 292,
     "nomsSousClassesPHB2024": 48
   },
   "aVerifier": [],

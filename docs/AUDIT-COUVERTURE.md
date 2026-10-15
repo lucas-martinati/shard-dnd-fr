@@ -166,3 +166,15 @@ Les nouveaux tests vérifient également une référence distante simulée avec 
 La 1.17.6 n’a pas encore été contrôlée en direct avec Tampermonkey. Brave continue de renvoyer « User unavailable » après les reconnexions signalées ; le chargement de cette version et son rendu restent à vérifier. Les 75 fiches détaillées de dons n’ont donc pas toutes été ouvertes dans Shard. Les descriptions des autres monstres, les aptitudes hors SRD des sous-classes et les contenus des suppléments restent des zones de couverture à poursuivre.
 
 Validation locale de la 1.17.6 : `npm run build`, `npm run translations:check`, l’ensemble de `npm test` et `git diff --check` passent. Les trois nouvelles suites couvrent les dons, la tarasque et les références distantes, puis les traits communs hors ligne. Le contrôle en direct reste en attente du chargement manuel et du retour de l’accès à Brave.
+
+## Espacement et paragraphes de sorts — 15 octobre 2026
+
+Les exemples utilisateur ont révélé deux défauts que les anciens tests ne distinguaient pas : une traduction française issue du PDF pouvait être mal espacée tout en correspondant à la source attendue par le test ; une description complète connue pouvait ne pas être reconnue lorsque Shard l’affichait en paragraphes séparés.
+
+La 1.17.11 corrige six descriptions structurées (Rage et Amélioration de caractéristique du Barbare, Sorts et Amélioration de caractéristique du Clerc, Sorts du Druide, Défense supérieure du Moine) et Sort prévenant. La recherche de mots fusionnés dans les corpus structurés a été suivie d’une correction manuelle ; aucune règle ne découpe automatiquement des mots français à l’exécution.
+
+Le pack `translations/dnd-2024/phb/sorts/traductions.json` ajoute 23 paragraphes et variantes vérifiés pour Communication avec les animaux, Trait ensorcelé, Rayon de lune, Animation des morts et Terrain hallucinatoire. Il conserve les distances anglaises, distingue l’annexe B du PHB du chapitre « Monstres » du SRD et prévoit les variantes sans dé visible relevées dans l’extrait utilisateur. Les paragraphes sont explicitement traduits, sans appariement par simple position.
+
+La fixture `tests/fixtures/spell-paragraphs-2024.json` et `tests/test-spell-paragraphs.cjs` vérifient ces textes hors ligne, avec liens, dés cliquables et icônes, une valeur de dé inconnue à laisser intacte et la restauration exacte du HTML anglais. Défense supérieure possède une attente lisible indépendante des données générées. Les tests Python contrôlent aussi les autres défauts d’espacement corrigés. Le raccourci `npm run test:corpus` exécute ces contrôles et la validation des sources ; la suite complète reste `npm test`.
+
+Cette passe vérifie les exemples signalés et les défauts similaires repérés dans les sources structurées. Elle ne constitue pas une relecture de tous les sorts ni une vérification en direct de cette version installée dans Tampermonkey. Les autres descriptions découpées différemment ou absentes du SRD peuvent encore nécessiter des paragraphes locaux explicites.

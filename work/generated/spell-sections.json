@@ -910,11 +910,6 @@
     "source": "SRD officiel 5.2.1 FR · section de Animate Dead · CC-BY-4.0"
   },
   {
-    "en": "Using a Higher-Level Spell Slot. You animate or reassert control over two additional Undead creatures for each spell slot level above 3. Each of the creatures must come from a different corpse or pile of bones.",
-    "fr": "Emplacement de niveau supérieur. Vous prenez ou prolongez le contrôle de deux Morts-vivants supplémentaires par niveau d’emplacement au-delà du 3e. Chacune de ces créatures doit être issue d’un tas d’os ou cadavre différent.",
-    "source": "SRD officiel 5.2.1 FR · section de Animate Dead · CC-BY-4.0"
-  },
-  {
     "en": "You animate or reassert control over two additional Undead creatures for each spell slot level above 3. Each of the creatures must come from a different corpse or pile of bones.",
     "fr": "Vous prenez ou prolongez le contrôle de deux Morts-vivants supplémentaires par niveau d’emplacement au-delà du 3e. Chacune de ces créatures doit être issue d’un tas d’os ou cadavre différent.",
     "source": "SRD officiel 5.2.1 FR · section de Animate Dead · CC-BY-4.0"
@@ -1867,11 +1862,6 @@
   {
     "en": "A silvery beam of pale light shines down in a 5-foot-radius, 40-foot-high Cylinder centered on a point within range. Until the spell ends, Dim Light fills the Cylinder, and you can take a Magic action on later turns to move the Cylinder up to 60 feet. When the Cylinder appears, each creature in it makes a Constitution saving throw. On a failed save, a creature takes 2d10 Radiant damage, and if the creature is shape-shifted (as a result of the Polymorph spell, for example), it reverts to its true form and can’t shape-shift until it leaves the Cylinder. On a successful save, a creature takes half as much damage only. A creature also makes this save when the spell’s area moves into its space and when it enters the spell’s area or ends its turn there. A creature makes this save only once per turn.",
     "fr": "Un large rayon de lueur argentée ténue plonge sous forme d’un Cylindre de 1,50 m de rayon et 12 m de haut, centré sur un point à portée. Jusqu’à la fin du sort, le Cylindre est empli de Lumière faible et vous pouvez entreprendre l’action Magie à vos tours suivants pour déplacer le Cylindre d’un maximum de 18 m. Lorsque le Cylindre apparaît, chaque créature prise à l’intérieur effectue un jet de sauvegarde de Constitution. En cas d’échec, elle subit 2d10 dégâts radiants et, si elle est métamorphosée (par le sort métamorphose, par exemple), elle reprend sa forme véritable et ne peut plus en changer tant qu’elle reste dans le Cylindre. En cas de réussite, elle subit uniquement la moitié de ces dégâts. Toute créature qui voit la zone du sort se déplacer dans son espace, ou qui pénètre dans la zone ou y termine son tour, est également soumise à ce JS. Une même créature n’effectue en aucun cas ce JS plus d’une fois par tour.",
-    "source": "SRD officiel 5.2.1 FR · section de Moonbeam · CC-BY-4.0"
-  },
-  {
-    "en": "Using a Higher-Level Spell Slot. The damage increases by 1d10 for each spell slot level above 2.",
-    "fr": "Emplacement de niveau supérieur. Les dégâts augmentent de 1d10 par niveau d’emplacement au-delà du 2e.",
     "source": "SRD officiel 5.2.1 FR · section de Moonbeam · CC-BY-4.0"
   },
   {

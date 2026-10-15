@@ -117,6 +117,10 @@ Le générateur conserve les traductions préexistantes et refuse les correspond
 
 ## Paragraphes des sorts et priorité des références
 
+Une description complète connue ne garantit pas que chacun de ses paragraphes soit reconnu séparément. Ajouter les paragraphes manquants dans `translations/dnd-2024/phb/sorts/traductions.json`, avec leur anglais exact, leur français et leur provenance. Ne pas les apparier automatiquement par leur seul ordre ou nombre de phrases. Les variantes qui citent l’annexe B du PHB restent distinctes de celles qui renvoient à « Monstres » dans le SRD. Un extrait sans dé visible ne doit pas recevoir un dé déduit du niveau du sort.
+
+`npm run test:corpus` lance la validation des sources, les tests Python et les régressions ciblées des paragraphes de sorts et de Défense supérieure. Ce contrôle court vérifie notamment les espaces, les paragraphes signalés, le fonctionnement hors ligne et les dés et liens cliquables. `npm test` ajoute les autres simulations DOM, dont les 239 fiches et 450 noms d’armes du catalogue Shard ; cette suite complète prend plusieurs minutes.
+
 Pour un sort à effets nommés, relier ses titres EN/FR dans `work/make-spell-sections.py`. Fournir les corps, les sections complètes et les titres ponctués permet de garder le gras existant. Les titres non ponctués sont reconnus comme repères de mise en forme sans devenir des traductions globales de mots courants tels que « Drop ».
 
 Le moteur traite chaque P/LI/BR et les sous-titres reconnus avant d’essayer un bloc complet. Il ne partage jamais une traduction entre plusieurs paragraphes par simple nombre de phrases. Une correspondance manquante demande un ajout explicite ou une référence distante compatible.

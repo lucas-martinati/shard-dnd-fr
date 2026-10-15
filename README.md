@@ -60,6 +60,8 @@ La 1.17.9 complète 20 paragraphes relevés sur 16 fiches d’équipement dans S
 
 La 1.17.10 ajoute 1 972 correspondances pour les aptitudes, dons et armes après ouverture des 60 fiches de classes/sous-classes, des 131 dons et de 48 armes représentatives. Les 450 noms du catalogue d’armes sont vérifiés localement. Elle centralise aussi la version dans `package.json`, avec `npm run version:patch` pour incrémenter et reconstruire. Le [complément d’audit](docs/AUDIT-COUVERTURE.md) précise le périmètre et les limites.
 
+La 1.17.11 corrige les espaces manquants dans six aptitudes SRD et une métamagie, dont Défense supérieure du Moine. Elle ajoute 23 paragraphes et variantes locaux pour Communication avec les animaux, Trait ensorcelé, Rayon de lune, Animation des morts et Terrain hallucinatoire. `npm run test:corpus` permet de lancer les validations du corpus et ces régressions ciblées sans parcourir tout le catalogue Shard ; `npm test` conserve les autres simulations de fiches.
+
 ## Repérer un passage non traduit
 
 1. Ouvrir la fiche ou la liste concernée dans Shard, avec la traduction activée.

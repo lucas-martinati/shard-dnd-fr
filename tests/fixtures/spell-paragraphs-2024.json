@@ -1,0 +1,140 @@
+[
+  {
+    "id": "spell.2024.speak-with-animals.communication",
+    "spell": "Speak with Animals",
+    "en": "For the duration, you can comprehend and verbally communicate with Beasts, and you can use any of the Influence action’s skill options with them.",
+    "fr": "Pendant toute la durée du sort, vous pouvez comprendre les Bêtes et communiquer verbalement avec elles. Vous pouvez utiliser avec elles toutes les options de compétence de l’action Influence."
+  },
+  {
+    "id": "spell.2024.speak-with-animals.information",
+    "spell": "Speak with Animals",
+    "en": "Most Beasts have little to say about topics that don’t pertain to survival or companionship, but at minimum, a Beast can give you information about nearby locations and monsters, including whatever it has perceived within the past day.",
+    "fr": "La plupart des Bêtes ont peu à dire sur les sujets qui ne concernent ni la survie ni les relations avec leurs compagnons. Une Bête peut néanmoins vous renseigner sur les lieux et les monstres des environs, notamment sur ce qu’elle a perçu au cours de la dernière journée."
+  },
+  {
+    "id": "spell.2024.moonbeam.cylinder",
+    "spell": "Moonbeam",
+    "en": "A silvery beam of pale light shines down in a 5-foot-radius, 40-foot-high Cylinder centered on a point within range. Until the spell ends, Dim Light fills the Cylinder, and you can take a Magic action on later turns to move the Cylinder up to 60 feet.",
+    "fr": "Un rayon argenté de lumière pâle descend sous la forme d’un Cylindre de 5 feet de rayon et de 40 feet de haut, centré sur un point à portée. Jusqu’à la fin du sort, une Lumière faible emplit le Cylindre. Lors de vos tours suivants, vous pouvez entreprendre l’action Magie pour déplacer le Cylindre d’un maximum de 60 feet."
+  },
+  {
+    "id": "spell.2024.moonbeam.saving-throw",
+    "spell": "Moonbeam",
+    "en": "When the Cylinder appears, each creature in it makes a Constitution saving throw. On a failed save, a creature takes 2d10 Radiant damage, and if the creature is shape-shifted (as a result of the Polymorph spell, for example), it reverts to its true form and can’t shape-shift until it leaves the Cylinder. On a successful save, a creature takes half as much damage only. A creature also makes this save when the spell’s area moves into its space and when it enters the spell’s area or ends its turn there. A creature makes this save only once per turn.",
+    "fr": "Lorsque le Cylindre apparaît, chaque créature qui s’y trouve effectue un jet de sauvegarde de Constitution. En cas d’échec, elle subit 2d10 dégâts radiants et, si elle a changé de forme (par exemple sous l’effet du sort Métamorphose), elle reprend sa forme véritable et ne peut plus changer de forme tant qu’elle n’a pas quitté le Cylindre. En cas de réussite, elle subit seulement la moitié des dégâts. Une créature effectue également ce jet de sauvegarde lorsque la zone du sort se déplace dans son espace, lorsqu’elle entre dans la zone ou lorsqu’elle y termine son tour. Une créature n’effectue ce jet de sauvegarde qu’une fois par tour."
+  },
+  {
+    "id": "spell.2024.moonbeam.saving-throw.sans-de-visible",
+    "spell": "Moonbeam",
+    "en": "When the Cylinder appears, each creature in it makes a Constitution saving throw. On a failed save, a creature takes  Radiant damage, and if the creature is shape-shifted (as a result of the Polymorph spell, for example), it reverts to its true form and can’t shape-shift until it leaves the Cylinder. On a successful save, a creature takes half as much damage only. A creature also makes this save when the spell’s area moves into its space and when it enters the spell’s area or ends its turn there. A creature makes this save only once per turn.",
+    "fr": "Lorsque le Cylindre apparaît, chaque créature qui s’y trouve effectue un jet de sauvegarde de Constitution. En cas d’échec, elle subit  dégâts radiants et, si elle a changé de forme (par exemple sous l’effet du sort Métamorphose), elle reprend sa forme véritable et ne peut plus changer de forme tant qu’elle n’a pas quitté le Cylindre. En cas de réussite, elle subit seulement la moitié des dégâts. Une créature effectue également ce jet de sauvegarde lorsque la zone du sort se déplace dans son espace, lorsqu’elle entre dans la zone ou lorsqu’elle y termine son tour. Une créature n’effectue ce jet de sauvegarde qu’une fois par tour."
+  },
+  {
+    "id": "spell.2024.moonbeam.higher-level",
+    "spell": "Moonbeam",
+    "en": "Using a Higher-Level Spell Slot. The damage increases by 1d10 for each spell slot level above 2.",
+    "fr": "Emplacement de niveau supérieur. Les dégâts augmentent de 1d10 pour chaque niveau d’emplacement de sort supérieur à 2."
+  },
+  {
+    "id": "spell.2024.moonbeam.higher-level.sans-de-visible",
+    "spell": "Moonbeam",
+    "en": "Using a Higher-Level Spell Slot. The damage increases by  for each spell slot level above 2.",
+    "fr": "Emplacement de niveau supérieur. Les dégâts augmentent de  pour chaque niveau d’emplacement de sort supérieur à 2."
+  },
+  {
+    "id": "spell.2024.animate-dead.creation.srd",
+    "spell": "Animate Dead",
+    "en": "Choose a pile of bones or a corpse of a Medium or Small Humanoid within range. The target becomes an Undead creature: a Skeleton if you chose bones or a Zombie if you chose a corpse (see “Monsters” for the stat blocks).",
+    "fr": "Choisissez un tas d’ossements ou le cadavre d’un Humanoïde de taille M ou P à portée. La cible devient un Mort-vivant : un squelette si vous avez choisi des ossements, ou un zombi si vous avez choisi un cadavre (voir « Monstres » pour les profils)."
+  },
+  {
+    "id": "spell.2024.animate-dead.creation.phb",
+    "spell": "Animate Dead",
+    "en": "Choose a pile of bones or a corpse of a Medium or Small Humanoid within range. The target becomes an Undead creature: a Skeleton if you chose bones or a Zombie if you chose a corpse (see appendix B for the stat blocks).",
+    "fr": "Choisissez un tas d’ossements ou le cadavre d’un Humanoïde de taille M ou P à portée. La cible devient un Mort-vivant : un squelette si vous avez choisi des ossements, ou un zombi si vous avez choisi un cadavre (voir l’annexe B pour les profils)."
+  },
+  {
+    "id": "spell.2024.animate-dead.commands",
+    "spell": "Animate Dead",
+    "en": "On each of your turns, you can take a Bonus Action to mentally command any creature you made with this spell if the creature is within 60 feet of you (if you control multiple creatures, you can command any of them at the same time, issuing the same command to each one). You decide what action the creature will take and where it will move on its next turn, or you can issue a general command, such as to guard a chamber or corridor. If you issue no commands, the creature takes the Dodge action and moves only to avoid harm. Once given an order, the creature continues to follow it until its task is complete.",
+    "fr": "À chacun de vos tours, vous pouvez entreprendre une action Bonus pour donner mentalement des ordres à toute créature créée par ce sort qui se trouve à 60 feet ou moins de vous. Si vous contrôlez plusieurs créatures, vous pouvez en commander plusieurs simultanément en donnant le même ordre à chacune. Vous décidez de l’action que la créature entreprendra et de son déplacement à son prochain tour, ou vous pouvez lui donner une instruction générale, comme garder une salle ou un couloir. Sans ordre de votre part, la créature entreprend l’action Esquive et se déplace uniquement pour éviter les dangers. Une fois un ordre reçu, elle continue de l’exécuter jusqu’à ce que sa tâche soit accomplie."
+  },
+  {
+    "id": "spell.2024.animate-dead.control",
+    "spell": "Animate Dead",
+    "en": "The creature is under your control for 24 hours, after which it stops obeying any command you’ve given it. To maintain control of the creature for another 24 hours, you must cast this spell on the creature again before the current 24-hour period ends. This use of the spell reasserts your control over up to four creatures you have animated with this spell rather than animating a new creature.",
+    "fr": "La créature reste sous votre contrôle pendant 24 heures, après quoi elle cesse d’obéir aux ordres que vous lui avez donnés. Pour conserver ce contrôle pendant 24 heures supplémentaires, vous devez relancer ce sort sur elle avant la fin de la période de 24 heures en cours. Cette utilisation du sort rétablit votre contrôle sur un maximum de quatre créatures que vous avez animées avec ce sort, au lieu d’en animer une nouvelle."
+  },
+  {
+    "id": "spell.2024.animate-dead.higher-level",
+    "spell": "Animate Dead",
+    "en": "Using a Higher-Level Spell Slot. You animate or reassert control over two additional Undead creatures for each spell slot level above 3. Each of the creatures must come from a different corpse or pile of bones.",
+    "fr": "Emplacement de niveau supérieur. Vous animez ou rétablissez votre contrôle sur deux Morts-vivants supplémentaires pour chaque niveau d’emplacement de sort supérieur à 3. Chaque créature doit provenir d’un cadavre ou d’un tas d’ossements différent."
+  },
+  {
+    "id": "spell.2024.hallucinatory-terrain.appearance",
+    "spell": "Hallucinatory Terrain",
+    "en": "You make natural terrain in a 150-foot Cube in range look, sound, and smell like another sort of natural terrain. Thus, open fields or a road can be made to resemble a swamp, hill, crevasse, or some other difficult or impassable terrain. A pond can be made to seem like a grassy meadow, a precipice like a gentle slope, or a rock-strewn gully like a wide and smooth road. Manufactured structures, equipment, and creatures within the area aren’t changed.",
+    "fr": "Vous donnez à un terrain naturel situé dans un Cube de 150 feet à portée l’apparence, les sons et les odeurs d’un autre type de terrain naturel. Ainsi, un champ ou une route peut sembler être un marais, une colline, une crevasse ou un autre terrain difficile ou infranchissable. Un étang peut ressembler à une prairie, un précipice à une pente douce, ou un ravin rocheux à une route large et régulière. Les constructions, l’équipement et les créatures dans la zone ne sont pas modifiés."
+  },
+  {
+    "id": "spell.2024.hallucinatory-terrain.detection",
+    "spell": "Hallucinatory Terrain",
+    "en": "The tactile characteristics of the terrain are unchanged, so creatures entering the area are likely to notice the illusion. If the difference isn’t obvious by touch, a creature examining the illusion can take the Study action to make an Intelligence (Investigation) check against your spell save DC to disbelieve it. If a creature discerns that the terrain is illusory, the creature sees a vague image superimposed on the real terrain.",
+    "fr": "Les propriétés tactiles du terrain restent inchangées : les créatures qui entrent dans la zone risquent donc de remarquer l’illusion. Si la différence n’est pas évidente au toucher, une créature qui examine l’illusion peut entreprendre l’action Étude pour effectuer un test d’Intelligence (Investigation) contre votre DD de sauvegarde des sorts afin de percer la supercherie. Une créature qui discerne le caractère illusoire du terrain voit une image vague superposée au terrain réel."
+  },
+  {
+    "id": "spell.2024.witch-bolt.attack",
+    "spell": "Witch Bolt",
+    "en": "A beam of crackling energy lances toward a creature within range, forming a sustained arc of lightning between you and the target. Make a ranged spell attack against it. On a hit, the target takes 2d12 Lightning damage.",
+    "fr": "Un rayon d’énergie crépitante se dirige vers une créature à portée, formant un arc de foudre continu entre vous et la cible. Effectuez une attaque de sort à distance contre elle. Si l’attaque touche, la cible subit 2d12 dégâts de foudre."
+  },
+  {
+    "id": "spell.2024.witch-bolt.attack.sans-de-visible",
+    "spell": "Witch Bolt",
+    "en": "A beam of crackling energy lances toward a creature within range, forming a sustained arc of lightning between you and the target. Make a ranged spell attack against it. On a hit, the target takes  Lightning damage.",
+    "fr": "Un rayon d’énergie crépitante se dirige vers une créature à portée, formant un arc de foudre continu entre vous et la cible. Effectuez une attaque de sort à distance contre elle. Si l’attaque touche, la cible subit  dégâts de foudre."
+  },
+  {
+    "id": "spell.2024.witch-bolt.subsequent-turns",
+    "spell": "Witch Bolt",
+    "en": "On each of your subsequent turns, you can take a Bonus Action to deal 1d12 Lightning damage to the target automatically, even if the first attack missed.",
+    "fr": "À chacun de vos tours suivants, vous pouvez entreprendre une action Bonus pour infliger automatiquement 1d12 dégâts de foudre à la cible, même si la première attaque a raté."
+  },
+  {
+    "id": "spell.2024.witch-bolt.subsequent-turns.sans-de-visible",
+    "spell": "Witch Bolt",
+    "en": "On each of your subsequent turns, you can take a Bonus Action to deal  Lightning damage to the target automatically, even if the first attack missed.",
+    "fr": "À chacun de vos tours suivants, vous pouvez entreprendre une action Bonus pour infliger automatiquement  dégâts de foudre à la cible, même si la première attaque a raté."
+  },
+  {
+    "id": "spell.2024.witch-bolt.end",
+    "spell": "Witch Bolt",
+    "en": "The spell ends if the target is ever outside the spell’s range or if it has Total Cover from you.",
+    "fr": "Le sort prend fin si la cible se trouve hors de portée du sort ou si elle bénéficie d’un Abri total contre vous."
+  },
+  {
+    "id": "spell.2024.witch-bolt.subsequent-and-end",
+    "spell": "Witch Bolt",
+    "en": "On each of your subsequent turns, you can take a Bonus Action to deal 1d12 Lightning damage to the target automatically, even if the first attack missed. The spell ends if the target is ever outside the spell’s range or if it has Total Cover from you.",
+    "fr": "À chacun de vos tours suivants, vous pouvez entreprendre une action Bonus pour infliger automatiquement 1d12 dégâts de foudre à la cible, même si la première attaque a raté. Le sort prend fin si la cible se trouve hors de portée du sort ou si elle bénéficie d’un Abri total contre vous."
+  },
+  {
+    "id": "spell.2024.witch-bolt.subsequent-and-end.sans-de-visible",
+    "spell": "Witch Bolt",
+    "en": "On each of your subsequent turns, you can take a Bonus Action to deal  Lightning damage to the target automatically, even if the first attack missed. The spell ends if the target is ever outside the spell’s range or if it has Total Cover from you.",
+    "fr": "À chacun de vos tours suivants, vous pouvez entreprendre une action Bonus pour infliger automatiquement  dégâts de foudre à la cible, même si la première attaque a raté. Le sort prend fin si la cible se trouve hors de portée du sort ou si elle bénéficie d’un Abri total contre vous."
+  },
+  {
+    "id": "spell.2024.witch-bolt.higher-level",
+    "spell": "Witch Bolt",
+    "en": "Using a Higher-Level Spell Slot. The initial damage increases by 1d12 for each spell slot level above 1.",
+    "fr": "Emplacement de niveau supérieur. Les dégâts initiaux augmentent de 1d12 pour chaque niveau d’emplacement de sort supérieur à 1."
+  },
+  {
+    "id": "spell.2024.witch-bolt.higher-level.sans-de-visible",
+    "spell": "Witch Bolt",
+    "en": "Using a Higher-Level Spell Slot. The initial damage increases by  for each spell slot level above 1.",
+    "fr": "Emplacement de niveau supérieur. Les dégâts initiaux augmentent de  pour chaque niveau d’emplacement de sort supérieur à 1."
+  }
+]

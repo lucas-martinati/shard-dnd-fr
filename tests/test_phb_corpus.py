@@ -1,5 +1,6 @@
 import copy
 import json
+import re
 import sys
 import tempfile
 import unittest
@@ -33,6 +34,28 @@ class PhbCorpusTest(unittest.TestCase):
         self.assertEqual(len(blocks), 70)
         self.assertEqual(len(index), 38)
         self.assertEqual(sum(row['kind'] == 'metamagic' for row in index), 10)
+
+    def test_known_pdf_spacing_errors_do_not_return(self):
+        rows = {row['id']: row for row in class_texts()}
+        expectations = {
+            'srd.classes.barbarian.1': ['Vous pouvez vous animer d’une force primitive appelée', 'si vous ne portez pas d’armure lourde', 'Neutralisé. Si votre Rage est encore active'],
+            'srd.classes.barbarian.8': ['le don Amélioration de caractéristique', 'cette aptitude aux niveaux de Barbare 8, 12 et 16'],
+            'srd.classes.cleric.1': ['que le nombre de sorts de votre liste corresponde au', 'niveau 3'],
+            'srd.classes.cleric.5': ['pour lequel', 'Vous recevez de nouveau'],
+            'srd.classes.druid.1': ['Chaque fois que vous gagnez un niveau de Druide', 'Sorts préparés du 1er niveau et plus', 'Amitié avec les animaux, lueurs féeriques, soins et vague tonnante'],
+            'srd.classes.monk.20': ['Au début de votre tour', 'pendant 1 minute', 'l’état Neutralisé', 'Durant cet intervalle'],
+        }
+        for ident, fragments in expectations.items():
+            for fragment in fragments:
+                with self.subTest(ident=ident, fragment=fragment):
+                    self.assertIn(fragment, rows[ident]['fr'])
+        options, _ = option_texts()
+        careful = next(row['fr'] for row in options if row['en'].startswith('Cost: 1 Sorcery Point When you cast a spell that forces'))
+        self.assertIn('1 point de Sorcellerie et désignez', careful)
+        self.assertIn('leur jet de sauvegarde contre le sort et ne subissent', careful)
+        # Ces textes français n’emploient pas de mots à capitales internes.
+        for row in [*rows.values(), *options]:
+            self.assertIsNone(re.search(r'[a-zà-öø-ÿ][A-ZÀ-ÖØ-Þ]', row['fr']), row['fr'])
 
     def test_edited_translation_is_authoritative(self):
         self.classes['entries'][0]['fr'] += ' Texte relu.'
