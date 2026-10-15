@@ -1,6 +1,7 @@
 const fs=require('fs'),{JSDOM}=require('jsdom'),assert=require('node:assert/strict');
 const code=fs.readFileSync('outputs/shard-dnd-fr.user.js','utf8');
-const rows=JSON.parse(fs.readFileSync('work/generated/feature-texts.json','utf8'));
+// Corpus de référence indépendant du build : vérifier les anciens paragraphes après leur répartition.
+const rows=JSON.parse(fs.readFileSync('tests/fixtures/features-personnage-2024.json','utf8'));
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));
 async function wait(f,message){for(let i=0;i<250&&!f();i++)await sleep(25);assert.ok(f(),message||'DOM update timed out');}
 const w=new JSDOM('<main><div id="sheet"><span id="sneakLabel">Sneak Attack</span><div class="stdcontent" id="features"></div><div id="labels"></div></div></main>',{url:'https://play.shardtabletop.com/#play?mode=character',runScripts:'outside-only',pretendToBeVisual:true}).window,d=w.document;

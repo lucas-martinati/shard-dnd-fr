@@ -7,7 +7,7 @@ from translation_packs import key, signature, load_packs
 from translation_sources import source as translation_source, DICTIONARIES
 
 ROOT = Path(__file__).resolve().parent.parent
-TABLE = json.loads((ROOT/'sources-generation/classes/sections-bilingues.json').read_text())['headings']
+TABLE = json.loads((ROOT/'translations/dnd-2024/phb/classes/sections-bilingues.json').read_text())['headings']
 ROWS = json.loads((ROOT/'work/generated/class-texts.json').read_text())
 existing_pairs={key(r['en']):r['fr'] for r in load_packs() if r['kind']=='description'}
 reserved=set(existing_pairs)
@@ -15,7 +15,7 @@ for path in tsv_sources():
     for line in path.read_text().splitlines():
         if line.count('|')==1 and len(line.split('|')[0])>=35:
             en,fr=line.split('|');reserved.add(key(en));existing_pairs.setdefault(key(en),fr)
-for filename in ['work/generated/feature-texts.json','work/generated/feat-texts.json','translations/dnd-2024/phb/objets/descriptions-srd.json']:
+for filename in ['work/generated/feat-texts.json','translations/dnd-2024/phb/objets/descriptions-srd.json']:
     for row in json.loads((ROOT/filename).read_text()):
         reserved.add(key(row['en']));existing_pairs[key(row['en'])]=row['fr']
 pairs, ambiguous = {}, set()

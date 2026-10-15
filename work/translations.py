@@ -72,7 +72,7 @@ def audit(path, include_labels=False, all_unknown=False):
             if '|' in line:
                 en, fr = line.split('|', 1)
                 known.update([key(en), key(fr)])
-    for filename in ['complete-texts.json', 'feature-texts.json', 'feat-texts.json']:
+    for filename in ['complete-texts.json', 'feat-texts.json']:
         for row in json.loads(translation_source(filename).read_text()):
             known.update([key(row['en']), key(row['fr'])])
     for row in load_packs():

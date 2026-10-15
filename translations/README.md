@@ -25,6 +25,8 @@ Modifier le `traductions.json` de l’ensemble et de la catégorie concernés. L
 
 Les TSV sont les dictionnaires historiques dont l’ordre de priorité est conservé par le registre de génération. Les descriptions de dons sont séparées entre `2014/dons/descriptions.json` et `dnd-2024/phb/dons/descriptions.json`. Les descriptions bilingues de sorts et d’équipement 2024 se trouvent avec le PHB. Les titres bilingues d’aptitudes de monstres sont des données utilisées par le script, dans `dnd-2024/mm/monstres/`.
 
+Les paragraphes de personnage 2024 et les variantes d’Attaque sournoise sont éditables directement dans les packs `dnd-2024/phb/classes/traductions.json` et `dnd-2024/phb/especes/traductions.json`. Les titres bilingues qui guident le découpage des aptitudes sont maintenus auprès des classes, dans `dnd-2024/phb/classes/sections-bilingues.json` ; leur format conserve les différentes formulations françaises reconnues.
+
 ## Autres données
 
 - [Audit et inventaires](../audit/README.md) : relevés, dates, suivi des ensembles et contrôles restants.

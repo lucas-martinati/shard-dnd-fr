@@ -5,7 +5,9 @@ Les fichiers `classes/descriptions-srd.json` et `classes/options-srd.json` conti
 - `descriptions-srd.json` : 232 aptitudes avec identifiant, classe, niveau, titres anglais et français, description EN/FR.
 - `options-srd.json` : 10 métamagies et 28 manifestations occultes, avec 70 blocs et variantes correspondant notamment à l’affichage séparé des coûts et prérequis.
 
-Ces fichiers sont éditables. Le build les valide et prépare les copies intermédiaires sans extraire de PDF. Les 288 sous-sections et variantes de classes restent générées depuis les aptitudes structurées et les titres bilingues de `sources-generation/classes/sections-bilingues.json`. Les autres descriptions déjà présentes conservent leur priorité lors de l’assemblage final.
+Ces fichiers sont éditables. Le build les valide et prépare les copies intermédiaires sans extraire de PDF. Les 288 sous-sections et variantes de classes restent générées depuis les aptitudes structurées et les titres bilingues de `classes/sections-bilingues.json`. Les autres descriptions déjà présentes conservent leur priorité lors de l’assemblage final.
+
+Les paragraphes courts issus d’extraits utilisateur et du SRD sont maintenus dans les packs `classes/traductions.json` et `especes/traductions.json`, avec leur provenance propre. Les variantes d’Attaque sournoise sont explicites dans le pack des classes : elles traduisent les dés affichés par Shard sans les déduire du niveau du personnage.
 
 ## Attribution conservée
 

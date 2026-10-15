@@ -16,7 +16,6 @@ for r in json.loads(translation_source('spell-reference.json').read_text()):
   if x and y:
    v=x[1].strip();w=y[1].strip();add(a+': '+v,b+' : '+w,'SRD 5.2.1 FR');add(v,w,'SRD 5.2.1 FR')
 for row in json.loads(translation_source('equipment-texts.json').read_text()):add(row['en'],row['fr'],row['source'])
-for row in json.loads(translation_source('feature-texts.json').read_text()):add(row['en'],row['fr'],row['source'])
 for row in json.loads(translation_source('feat-texts.json').read_text()):add(row['en'],row['fr'],row['source'])
 for line in translation_source('metamagic-descriptions.tsv').read_text().splitlines():
  en,fr=line.split('|');add(en,fr,'Traduction de l’extrait utilisateur · métamagie et Source de magie anciennes')

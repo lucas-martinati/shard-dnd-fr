@@ -51,7 +51,7 @@ for filename in tsv_sources():
         if '|' in line:
             en=line.split('|',1)[0]
             if len(en)>=35:reserved.add(key(en))
-for filename in ['feature-texts.json','feat-texts.json','equipment-texts.json']:
+for filename in ['feat-texts.json','equipment-texts.json']:
     for row in json.loads(translation_source(filename).read_text()):reserved.add(key(row['en']))
 def add(en,fr,name,strict=True):
     normalized=key(en)

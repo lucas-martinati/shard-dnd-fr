@@ -11006,6 +11006,282 @@
       "en": "Illusion Savant",
       "fr": "Savant en illusion",
       "source": "Traduction proposée du texte observé sur Shard · Titres des aptitudes PHB 2024 · relevé du 14 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "character.2024.barbarian.danger-sense",
+      "en": "You gain an uncanny sense of when things aren’t as they should be, giving you an edge when you dodge perils. You have Advantage on Dexterity saving throws unless you have the Incapacitated condition.",
+      "fr": "Vous percevez instinctivement les dangers, ce qui vous aide à les esquiver. Vous avez l’Avantage aux jets de sauvegarde de Dextérité, sauf si vous subissez l’état Neutralisé.",
+      "source": "Traduction de textes de personnage 2024 · extraits utilisateur et SRD 5.2.1"
+    },
+    {
+      "id": "character.2024.barbarian.reckless-attack",
+      "en": "You can throw aside all concern for defense to attack with increased ferocity. When you make your first attack roll on your turn, you can decide to attack recklessly. Doing so gives you Advantage on attack rolls using Strength until the start of your next turn, but attack rolls against you have Advantage during that time.",
+      "fr": "Vous pouvez abandonner toute prudence pour attaquer avec une férocité accrue. Lors de votre premier jet d’attaque à votre tour, vous pouvez décider d’attaquer avec témérité. Vous avez alors l’Avantage aux jets d’attaque utilisant la Force jusqu’au début de votre prochain tour, mais les jets d’attaque contre vous ont aussi l’Avantage pendant cette période.",
+      "source": "Traduction de textes de personnage 2024 · extraits utilisateur et SRD 5.2.1"
+    },
+    {
+      "id": "character.2024.barbarian.primal-knowledge.1",
+      "en": "You gain proficiency in another skill of your choice from the skill list available to Barbarians at level 1.",
+      "fr": "Vous gagnez la maîtrise d’une autre compétence de votre choix parmi celles disponibles aux Barbares de niveau 1.",
+      "source": "Traduction de textes de personnage 2024 · extraits utilisateur et SRD 5.2.1"
+    },
+    {
+      "id": "character.2024.barbarian.primal-knowledge.2",
+      "en": "In addition, while your Rage is active, you can channel primal power when you attempt certain tasks; whenever you make an ability check using one of the following skills, you can make it as a Strength check even if it normally uses a different ability: Acrobatics, Intimidation, Perception, Stealth, or Survival. When you use this ability, your Strength represents primal power coursing through you, honing your agility, bearing, and senses.",
+      "fr": "De plus, pendant votre Rage, vous pouvez canaliser une puissance primale pour accomplir certaines tâches. Lorsque vous effectuez un test d’Acrobaties, d’Intimidation, de Perception, de Discrétion ou de Survie, vous pouvez utiliser la Force à la place de la caractéristique normalement associée. Votre Force représente alors la puissance primale qui vous anime et aiguise votre agilité, votre prestance et vos sens.",
+      "source": "Traduction de textes de personnage 2024 · extraits utilisateur et SRD 5.2.1"
+    },
+    {
+      "id": "character.2024.barbarian.beast-sense-rituals",
+      "en": "You can cast the Beast Sense and Speak with Animals spells but only as Rituals. Wisdom is your spellcasting ability for them.",
+      "fr": "Vous pouvez lancer les sorts Perception bestiale et Communication avec les animaux, mais uniquement comme Rituels. La Sagesse est votre caractéristique d’incantation pour ces sorts.",
+      "source": "Traduction de textes de personnage 2024 · extraits utilisateur et SRD 5.2.1"
+    },
+    {
+      "id": "character.2024.rogue.sneak-attack.ally",
+      "en": "You don’t need Advantage on the attack roll if at least one of your allies is within 5 feet of the target, the ally doesn’t have the Incapacitated condition, and you don’t have Disadvantage on the attack roll.",
+      "fr": "Vous n’avez pas besoin de l’Avantage au jet d’attaque si au moins un de vos alliés se trouve à 5 feet ou moins de la cible, que cet allié ne subit pas l’état Neutralisé et que vous n’avez pas le Désavantage au jet d’attaque.",
+      "source": "Traduction de textes de personnage 2024 · extraits utilisateur et SRD 5.2.1"
+    },
+    {
+      "id": "character.2024.rogue.sneak-attack.scaling",
+      "en": "The extra damage increases as you gain Rogue levels, as shown in the Sneak Attack column of the Rogue Features table.",
+      "fr": "Les dégâts supplémentaires augmentent avec vos niveaux de Roublard, comme indiqué dans la colonne Attaque sournoise de la table des aptitudes du Roublard.",
+      "source": "Traduction de textes de personnage 2024 · extraits utilisateur et SRD 5.2.1"
+    },
+    {
+      "id": "character.2024.rogue.thieves-cant",
+      "en": "You picked up various languages in the communities where you plied your roguish talents. You know Thieves’ Cant and one other language of your choice.",
+      "fr": "Vous avez appris diverses langues au sein des communautés où vous avez exercé vos talents de Roublard. Vous connaissez l’argot des voleurs et une autre langue de votre choix.",
+      "source": "Traduction de textes de personnage 2024 · extraits utilisateur et SRD 5.2.1"
+    },
+    {
+      "id": "character.2024.rogue.weapon-mastery.1",
+      "en": "Your training with weapons allows you to use the mastery properties of two kinds of weapons of your choice with which you have proficiency, such as Daggers and Shortbows.",
+      "fr": "Votre entraînement vous permet d’utiliser les propriétés de Botte de deux types d’armes de votre choix dont vous avez la maîtrise, comme les dagues et les arcs courts.",
+      "source": "Traduction de textes de personnage 2024 · extraits utilisateur et SRD 5.2.1"
+    },
+    {
+      "id": "character.2024.rogue.weapon-mastery.2",
+      "en": "Whenever you finish a Long Rest, you can change the kinds of weapons you chose. For example, you could switch to using the mastery properties of Scimitars and Shortswords.",
+      "fr": "Chaque fois que vous terminez un Repos long, vous pouvez changer les types d’armes choisis. Vous pourriez, par exemple, choisir les propriétés de Botte des cimeterres et des épées courtes.",
+      "source": "Traduction de textes de personnage 2024 · extraits utilisateur et SRD 5.2.1"
+    },
+    {
+      "id": "character.2024.rogue.arcane-trickster.spellcasting.intro",
+      "en": "You have learned to cast spells.",
+      "fr": "Vous avez appris à lancer des sorts.",
+      "source": "Traduction de textes de personnage 2024 · extraits utilisateur et SRD 5.2.1"
+    },
+    {
+      "id": "character.2024.rogue.arcane-trickster.cantrips.1",
+      "en": "You know three cantrips: Mage Hand and two other cantrips of your choice from the Wizard spell list (see that class’s section for its list). Mind Sliver and Minor Illusion are recommended.",
+      "fr": "Vous connaissez trois sorts mineurs : Main de mage et deux autres de votre choix dans la liste de sorts du Magicien (voir la section de cette classe). Les sorts Piqûre mentale et Illusion mineure sont recommandés.",
+      "source": "Traduction de textes de personnage 2024 · extraits utilisateur et SRD 5.2.1"
+    },
+    {
+      "id": "character.2024.rogue.arcane-trickster.cantrips.2",
+      "en": "Whenever you gain a Rogue level, you can replace one of your cantrips, except Mage Hand, with another Wizard cantrip of your choice.",
+      "fr": "Chaque fois que vous gagnez un niveau de Roublard, vous pouvez remplacer l’un de vos sorts mineurs, à l’exception de Main de mage, par un autre sort mineur de Magicien de votre choix.",
+      "source": "Traduction de textes de personnage 2024 · extraits utilisateur et SRD 5.2.1"
+    },
+    {
+      "id": "character.2024.rogue.arcane-trickster.cantrips.3",
+      "en": "When you reach Rogue level 10, you learn another Wizard cantrip of your choice.",
+      "fr": "Au niveau 10 de Roublard, vous apprenez un autre sort mineur de Magicien de votre choix.",
+      "source": "Traduction de textes de personnage 2024 · extraits utilisateur et SRD 5.2.1"
+    },
+    {
+      "id": "character.2024.rogue.arcane-trickster.spell-slots",
+      "en": "The Arcane Trickster Spellcasting table shows how many spell slots you have to cast your level 1+ spells. You regain all expended spell slots when you finish a Long Rest.",
+      "fr": "La table de sorts de l’Arnaqueur arcanique indique le nombre d’emplacements dont vous disposez pour lancer vos sorts de niveau 1 et supérieur. Vous récupérez tous les emplacements dépensés à la fin d’un Repos long.",
+      "source": "Traduction de textes de personnage 2024 · extraits utilisateur et SRD 5.2.1"
+    },
+    {
+      "id": "character.2024.rogue.arcane-trickster.prepared-spells.1",
+      "en": "You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose three level 1 Wizard spells. Charm Person, Disguise Self, and Fog Cloud are recommended.",
+      "fr": "Vous préparez la liste des sorts de niveau 1 et supérieur que cette aptitude vous permet de lancer. Pour commencer, choisissez trois sorts de Magicien de niveau 1. Charme-personne, Déguisement et Nappe de brouillard sont recommandés.",
+      "source": "Traduction de textes de personnage 2024 · extraits utilisateur et SRD 5.2.1"
+    },
+    {
+      "id": "character.2024.rogue.arcane-trickster.prepared-spells.2",
+      "en": "The number of spells on your list increases as you gain Rogue levels, as shown in the Prepared Spells column of the Arcane Trickster Spellcasting table. Whenever that number increases, choose additional Wizard spells until the number of spells on your list matches the number in the Arcane Trickster Spellcasting table. The chosen spells must be of a level for which you have spell slots. For example, if you’re a level 7 Rogue, your list of prepared spells can include five Wizard spells of level 1 or 2 in any combination.",
+      "fr": "Le nombre de sorts de votre liste augmente avec vos niveaux de Roublard, comme indiqué dans la colonne Sorts préparés de la table de sorts de l’Arnaqueur arcanique. Chaque fois que ce nombre augmente, choisissez des sorts de Magicien supplémentaires pour atteindre le total indiqué. Vous devez disposer d’emplacements du niveau des sorts choisis. Par exemple, au niveau 7 de Roublard, votre liste peut comprendre cinq sorts de Magicien de niveau 1 ou 2, dans la combinaison de votre choix.",
+      "source": "Traduction de textes de personnage 2024 · extraits utilisateur et SRD 5.2.1"
+    },
+    {
+      "id": "character.2024.rogue.arcane-trickster.changing-spells",
+      "en": "Whenever you gain a Rogue level, you can replace one spell on your list with another Wizard spell for which you have spell slots.",
+      "fr": "Chaque fois que vous gagnez un niveau de Roublard, vous pouvez remplacer un sort de votre liste par un autre sort de Magicien d’un niveau pour lequel vous disposez d’emplacements.",
+      "source": "Traduction de textes de personnage 2024 · extraits utilisateur et SRD 5.2.1"
+    },
+    {
+      "id": "character.2024.rogue.arcane-trickster.spellcasting-ability",
+      "en": "Intelligence is your spellcasting ability for your Wizard spells.",
+      "fr": "L’Intelligence est votre caractéristique d’incantation pour vos sorts de Magicien.",
+      "source": "Traduction de textes de personnage 2024 · extraits utilisateur et SRD 5.2.1"
+    },
+    {
+      "id": "character.2024.rogue.arcane-trickster.spellcasting-focus",
+      "en": "You can use an Arcane Focus as a Spellcasting Focus for your Wizard spells.",
+      "fr": "Vous pouvez utiliser un focaliseur arcanique comme focaliseur d’incantation pour vos sorts de Magicien.",
+      "source": "Traduction de textes de personnage 2024 · extraits utilisateur et SRD 5.2.1"
+    },
+    {
+      "id": "character.2024.rogue.arcane-trickster.mage-hand",
+      "en": "When you cast Mage Hand, you can cast it as a Bonus Action, and you can make the spectral hand Invisible. You can control the hand as a Bonus Action, and through it, you can make Dexterity (Sleight of Hand) checks.",
+      "fr": "Vous pouvez lancer Main de mage par une action Bonus et rendre la main spectrale Invisible. Vous pouvez contrôler la main par une action Bonus et effectuer par son intermédiaire des tests de Dextérité (Escamotage).",
+      "source": "Traduction de textes de personnage 2024 · extraits utilisateur et SRD 5.2.1"
+    },
+    {
+      "id": "character.2024.rogue.cunning-action",
+      "en": "Your quick thinking and agility allow you to move and act quickly. On your turn, you can take one of the following actions as a Bonus Action: Dash, Disengage, or Hide.",
+      "fr": "Votre vivacité d’esprit et votre agilité vous permettent de vous déplacer et d’agir rapidement. À votre tour, vous pouvez entreprendre l’une des actions suivantes par une action Bonus : Foncer, Se désengager ou Se cacher.",
+      "source": "Traduction de textes de personnage 2024 · extraits utilisateur et SRD 5.2.1"
+    },
+    {
+      "id": "character.2024.rogue.steady-aim",
+      "en": "As a Bonus Action, you give yourself Advantage on your next attack roll on the current turn. You can use this feature only if you haven’t moved during this turn, and after you use it, your Speed is 0 until the end of the current turn.",
+      "fr": "Par une action Bonus, vous vous accordez l’Avantage au prochain jet d’attaque que vous effectuez durant ce tour. Vous ne pouvez utiliser cette aptitude que si vous ne vous êtes pas déplacé pendant ce tour. Après son utilisation, votre Vitesse est de 0 jusqu’à la fin du tour.",
+      "source": "Traduction de textes de personnage 2024 · extraits utilisateur et SRD 5.2.1"
+    },
+    {
+      "id": "character.2024.rogue.uncanny-dodge",
+      "en": "When an attacker that you can see hits you with an attack roll, you can take a Reaction to halve the attack’s damage against you (round down).",
+      "fr": "Lorsqu’un attaquant que vous voyez vous touche avec un jet d’attaque, vous pouvez utiliser votre Réaction pour réduire de moitié les dégâts que cette attaque vous inflige, en arrondissant à l’entier inférieur.",
+      "source": "Traduction de textes de personnage 2024 · extraits utilisateur et SRD 5.2.1"
+    },
+    {
+      "id": "character.2024.rogue.evasion",
+      "en": "You can nimbly dodge out of the way of certain dangers. When you’re subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail. You can’t use this feature if you have the Incapacitated condition.",
+      "fr": "Votre agilité vous permet d’esquiver certains dangers. Lorsqu’un effet vous permet d’effectuer un jet de sauvegarde de Dextérité pour ne subir que la moitié des dégâts, vous ne subissez aucun dégât en cas de réussite, et seulement la moitié en cas d’échec. Vous ne pouvez pas utiliser cette aptitude si vous subissez l’état Neutralisé.",
+      "source": "Traduction de textes de personnage 2024 · extraits utilisateur et SRD 5.2.1"
+    },
+    {
+      "id": "character.2024.rogue.reliable-talent",
+      "en": "Whenever you make an ability check that uses one of your skill or tool proficiencies, you can treat a d20 roll of 9 or lower as a 10.",
+      "fr": "Lorsque vous effectuez un test de caractéristique utilisant l’une de vos maîtrises de compétence ou d’outil, vous pouvez traiter un résultat de 9 ou moins sur le d20 comme un 10.",
+      "source": "Traduction de textes de personnage 2024 · extraits utilisateur et SRD 5.2.1"
+    },
+    {
+      "id": "character.2024.rogue.expertise.1",
+      "en": "You gain Expertise in two of your skill proficiencies of your choice. Sleight of Hand and Stealth are recommended if you have proficiency in them.",
+      "fr": "Vous gagnez l’Expertise dans deux de vos maîtrises de compétence de votre choix. Escamotage et Discrétion sont recommandées si vous les maîtrisez.",
+      "source": "Traduction de textes de personnage 2024 · extraits utilisateur et SRD 5.2.1"
+    },
+    {
+      "id": "character.2024.rogue.expertise.2",
+      "en": "At Rogue level 6, you gain Expertise in two more of your skill proficiencies of your choice.",
+      "fr": "Au niveau 6 de Roublard, vous gagnez l’Expertise dans deux autres maîtrises de compétence de votre choix.",
+      "source": "Traduction de textes de personnage 2024 · extraits utilisateur et SRD 5.2.1"
+    },
+    {
+      "id": "character.2024.class.extra-attack",
+      "en": "You can attack twice instead of once whenever you take the Attack action on your turn.",
+      "fr": "Lorsque vous entreprenez l’action Attaquer à votre tour, vous pouvez attaquer deux fois au lieu d’une.",
+      "source": "Traduction de textes de personnage 2024 · extraits utilisateur et SRD 5.2.1"
+    },
+    {
+      "id": "character.2024.barbarian.fast-movement",
+      "en": "Your speed increases by 10 feet while you aren’t wearing Heavy armor.",
+      "fr": "Votre vitesse augmente de 10 feet tant que vous ne portez pas d’armure lourde.",
+      "source": "Traduction de textes de personnage 2024 · extraits utilisateur et SRD 5.2.1"
+    },
+    {
+      "id": "character.2024.barbarian.feral-instinct",
+      "en": "Your instincts are so honed that you have Advantage on Initiative rolls.",
+      "fr": "Vos instincts sont si affûtés que vous avez l’Avantage aux jets d’Initiative.",
+      "source": "Traduction de textes de personnage 2024 · extraits utilisateur et SRD 5.2.1"
+    },
+    {
+      "id": "character.2024.barbarian.instinctive-pounce",
+      "en": "As part of the Bonus Action you take to enter your Rage, you can move up to half your Speed.",
+      "fr": "Dans le cadre de l’action Bonus utilisée pour entrer en Rage, vous pouvez vous déplacer jusqu’à la moitié de votre Vitesse.",
+      "source": "Traduction de textes de personnage 2024 · extraits utilisateur et SRD 5.2.1"
+    },
+    {
+      "id": "character.2024.barbarian.unarmored-defense",
+      "en": "While you aren’t wearing any armor, your base Armor Class equals 10 plus your Dexterity and Constitution modifiers. You can use a Shield and still gain this benefit.",
+      "fr": "Tant que vous ne portez pas d’armure, votre classe d’armure de base est égale à 10 plus vos modificateurs de Dextérité et de Constitution. Vous pouvez utiliser un bouclier tout en bénéficiant de cette aptitude.",
+      "source": "Traduction de textes de personnage 2024 · extraits utilisateur et SRD 5.2.1"
+    },
+    {
+      "id": "character.2024.barbarian.weapon-mastery.1",
+      "en": "Your training with weapons allows you to use the mastery properties of two kinds of Simple or Martial Melee weapons of your choice, such as Greataxes and Handaxes. Whenever you finish a Long Rest, you can practice weapon drills and change one of those weapon choices.",
+      "fr": "Votre entraînement vous permet d’utiliser les propriétés de Botte de deux types d’armes de corps à corps courantes ou de guerre de votre choix, comme les haches à deux mains et les hachettes. À la fin d’un Repos long, vous pouvez vous entraîner pour remplacer l’un de ces choix d’armes.",
+      "source": "Traduction de textes de personnage 2024 · extraits utilisateur et SRD 5.2.1"
+    },
+    {
+      "id": "character.2024.barbarian.weapon-mastery.2",
+      "en": "When you reach certain Barbarian levels, you gain the ability to use the mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Barbarian Features table.",
+      "fr": "À certains niveaux de Barbare, vous pouvez utiliser les propriétés de Botte de davantage de types d’armes, comme indiqué dans la colonne Bottes d’arme de la table des aptitudes du Barbare.",
+      "source": "Traduction de textes de personnage 2024 · extraits utilisateur et SRD 5.2.1"
+    },
+    {
+      "id": "character.2024.rogue.sneak-attack.damage.blank",
+      "en": "You know how to strike subtly and exploit a foe’s distraction. Once per turn, you can deal an extra  damage to one creature you hit with an attack roll if you have Advantage on the roll and the attack uses a Finesse or a Ranged weapon. The extra damage’s type is the same as the weapon’s type.",
+      "fr": "Vous savez frapper avec subtilité et exploiter la distraction d’un adversaire. Une fois par tour, vous pouvez infliger  dégâts supplémentaires à une créature que vous touchez avec un jet d’attaque si vous avez l’Avantage au jet et utilisez une arme dotée de la propriété Finesse ou une arme à distance. Les dégâts supplémentaires sont du même type que ceux de l’arme.",
+      "source": "Traduction de l’extrait utilisateur · Attaque sournoise 2024"
+    },
+    {
+      "id": "character.2024.rogue.sneak-attack.damage.1d6",
+      "en": "You know how to strike subtly and exploit a foe’s distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack roll if you have Advantage on the roll and the attack uses a Finesse or a Ranged weapon. The extra damage’s type is the same as the weapon’s type.",
+      "fr": "Vous savez frapper avec subtilité et exploiter la distraction d’un adversaire. Une fois par tour, vous pouvez infliger 1d6 dégâts supplémentaires à une créature que vous touchez avec un jet d’attaque si vous avez l’Avantage au jet et utilisez une arme dotée de la propriété Finesse ou une arme à distance. Les dégâts supplémentaires sont du même type que ceux de l’arme.",
+      "source": "Traduction de l’extrait utilisateur · Attaque sournoise 2024"
+    },
+    {
+      "id": "character.2024.rogue.sneak-attack.damage.2d6",
+      "en": "You know how to strike subtly and exploit a foe’s distraction. Once per turn, you can deal an extra 2d6 damage to one creature you hit with an attack roll if you have Advantage on the roll and the attack uses a Finesse or a Ranged weapon. The extra damage’s type is the same as the weapon’s type.",
+      "fr": "Vous savez frapper avec subtilité et exploiter la distraction d’un adversaire. Une fois par tour, vous pouvez infliger 2d6 dégâts supplémentaires à une créature que vous touchez avec un jet d’attaque si vous avez l’Avantage au jet et utilisez une arme dotée de la propriété Finesse ou une arme à distance. Les dégâts supplémentaires sont du même type que ceux de l’arme.",
+      "source": "Traduction de l’extrait utilisateur · Attaque sournoise 2024"
+    },
+    {
+      "id": "character.2024.rogue.sneak-attack.damage.3d6",
+      "en": "You know how to strike subtly and exploit a foe’s distraction. Once per turn, you can deal an extra 3d6 damage to one creature you hit with an attack roll if you have Advantage on the roll and the attack uses a Finesse or a Ranged weapon. The extra damage’s type is the same as the weapon’s type.",
+      "fr": "Vous savez frapper avec subtilité et exploiter la distraction d’un adversaire. Une fois par tour, vous pouvez infliger 3d6 dégâts supplémentaires à une créature que vous touchez avec un jet d’attaque si vous avez l’Avantage au jet et utilisez une arme dotée de la propriété Finesse ou une arme à distance. Les dégâts supplémentaires sont du même type que ceux de l’arme.",
+      "source": "Traduction de l’extrait utilisateur · Attaque sournoise 2024"
+    },
+    {
+      "id": "character.2024.rogue.sneak-attack.damage.4d6",
+      "en": "You know how to strike subtly and exploit a foe’s distraction. Once per turn, you can deal an extra 4d6 damage to one creature you hit with an attack roll if you have Advantage on the roll and the attack uses a Finesse or a Ranged weapon. The extra damage’s type is the same as the weapon’s type.",
+      "fr": "Vous savez frapper avec subtilité et exploiter la distraction d’un adversaire. Une fois par tour, vous pouvez infliger 4d6 dégâts supplémentaires à une créature que vous touchez avec un jet d’attaque si vous avez l’Avantage au jet et utilisez une arme dotée de la propriété Finesse ou une arme à distance. Les dégâts supplémentaires sont du même type que ceux de l’arme.",
+      "source": "Traduction de l’extrait utilisateur · Attaque sournoise 2024"
+    },
+    {
+      "id": "character.2024.rogue.sneak-attack.damage.5d6",
+      "en": "You know how to strike subtly and exploit a foe’s distraction. Once per turn, you can deal an extra 5d6 damage to one creature you hit with an attack roll if you have Advantage on the roll and the attack uses a Finesse or a Ranged weapon. The extra damage’s type is the same as the weapon’s type.",
+      "fr": "Vous savez frapper avec subtilité et exploiter la distraction d’un adversaire. Une fois par tour, vous pouvez infliger 5d6 dégâts supplémentaires à une créature que vous touchez avec un jet d’attaque si vous avez l’Avantage au jet et utilisez une arme dotée de la propriété Finesse ou une arme à distance. Les dégâts supplémentaires sont du même type que ceux de l’arme.",
+      "source": "Traduction de l’extrait utilisateur · Attaque sournoise 2024"
+    },
+    {
+      "id": "character.2024.rogue.sneak-attack.damage.6d6",
+      "en": "You know how to strike subtly and exploit a foe’s distraction. Once per turn, you can deal an extra 6d6 damage to one creature you hit with an attack roll if you have Advantage on the roll and the attack uses a Finesse or a Ranged weapon. The extra damage’s type is the same as the weapon’s type.",
+      "fr": "Vous savez frapper avec subtilité et exploiter la distraction d’un adversaire. Une fois par tour, vous pouvez infliger 6d6 dégâts supplémentaires à une créature que vous touchez avec un jet d’attaque si vous avez l’Avantage au jet et utilisez une arme dotée de la propriété Finesse ou une arme à distance. Les dégâts supplémentaires sont du même type que ceux de l’arme.",
+      "source": "Traduction de l’extrait utilisateur · Attaque sournoise 2024"
+    },
+    {
+      "id": "character.2024.rogue.sneak-attack.damage.7d6",
+      "en": "You know how to strike subtly and exploit a foe’s distraction. Once per turn, you can deal an extra 7d6 damage to one creature you hit with an attack roll if you have Advantage on the roll and the attack uses a Finesse or a Ranged weapon. The extra damage’s type is the same as the weapon’s type.",
+      "fr": "Vous savez frapper avec subtilité et exploiter la distraction d’un adversaire. Une fois par tour, vous pouvez infliger 7d6 dégâts supplémentaires à une créature que vous touchez avec un jet d’attaque si vous avez l’Avantage au jet et utilisez une arme dotée de la propriété Finesse ou une arme à distance. Les dégâts supplémentaires sont du même type que ceux de l’arme.",
+      "source": "Traduction de l’extrait utilisateur · Attaque sournoise 2024"
+    },
+    {
+      "id": "character.2024.rogue.sneak-attack.damage.8d6",
+      "en": "You know how to strike subtly and exploit a foe’s distraction. Once per turn, you can deal an extra 8d6 damage to one creature you hit with an attack roll if you have Advantage on the roll and the attack uses a Finesse or a Ranged weapon. The extra damage’s type is the same as the weapon’s type.",
+      "fr": "Vous savez frapper avec subtilité et exploiter la distraction d’un adversaire. Une fois par tour, vous pouvez infliger 8d6 dégâts supplémentaires à une créature que vous touchez avec un jet d’attaque si vous avez l’Avantage au jet et utilisez une arme dotée de la propriété Finesse ou une arme à distance. Les dégâts supplémentaires sont du même type que ceux de l’arme.",
+      "source": "Traduction de l’extrait utilisateur · Attaque sournoise 2024"
+    },
+    {
+      "id": "character.2024.rogue.sneak-attack.damage.9d6",
+      "en": "You know how to strike subtly and exploit a foe’s distraction. Once per turn, you can deal an extra 9d6 damage to one creature you hit with an attack roll if you have Advantage on the roll and the attack uses a Finesse or a Ranged weapon. The extra damage’s type is the same as the weapon’s type.",
+      "fr": "Vous savez frapper avec subtilité et exploiter la distraction d’un adversaire. Une fois par tour, vous pouvez infliger 9d6 dégâts supplémentaires à une créature que vous touchez avec un jet d’attaque si vous avez l’Avantage au jet et utilisez une arme dotée de la propriété Finesse ou une arme à distance. Les dégâts supplémentaires sont du même type que ceux de l’arme.",
+      "source": "Traduction de l’extrait utilisateur · Attaque sournoise 2024"
+    },
+    {
+      "id": "character.2024.rogue.sneak-attack.damage.10d6",
+      "en": "You know how to strike subtly and exploit a foe’s distraction. Once per turn, you can deal an extra 10d6 damage to one creature you hit with an attack roll if you have Advantage on the roll and the attack uses a Finesse or a Ranged weapon. The extra damage’s type is the same as the weapon’s type.",
+      "fr": "Vous savez frapper avec subtilité et exploiter la distraction d’un adversaire. Une fois par tour, vous pouvez infliger 10d6 dégâts supplémentaires à une créature que vous touchez avec un jet d’attaque si vous avez l’Avantage au jet et utilisez une arme dotée de la propriété Finesse ou une arme à distance. Les dégâts supplémentaires sont du même type que ceux de l’arme.",
+      "source": "Traduction de l’extrait utilisateur · Attaque sournoise 2024"
     }
   ]
 }

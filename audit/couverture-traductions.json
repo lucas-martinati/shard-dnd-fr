@@ -89,9 +89,9 @@
             "blocs": 28
           },
           "classes": {
-            "entreesRattachees": 1599,
+            "entreesRattachees": 1645,
             "libelles": 206,
-            "blocs": 1393
+            "blocs": 1439
           },
           "dons": {
             "entreesRattachees": 453,
@@ -109,7 +109,7 @@
             "blocs": 133
           }
         },
-        "entreesRattachees": 2467
+        "entreesRattachees": 2513
       },
       {
         "id": "dnd-2024-mm",
@@ -399,7 +399,7 @@
       "nomsCatalogueAideDD2024": 28,
       "entreesDictionnaires": 559,
       "libellesEditables": 206,
-      "blocsEditables": 1413
+      "blocsEditables": 1459
     },
     "especes": {
       "nomsCatalogueAideDD2024": 0,

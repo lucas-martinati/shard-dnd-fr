@@ -2,6 +2,6 @@
 
 `npm run build` reconstruit ces JSON à partir des packs, dictionnaires, corpus PHB structurés et sources de génération. Ne pas modifier directement ces résultats : corriger la source correspondante.
 
-`feature-texts.json` contient les variantes de personnage ; `feat-texts.json` assemble les descriptions des corpus 2014 et PHB 2024 sans mélanger leurs sources éditables. Les autres fichiers contiennent les classes, options, sous-sections de sorts et descriptions complètes assemblées.
+`feat-texts.json` assemble les descriptions des dons des corpus 2014 et PHB 2024 sans mélanger leurs sources éditables. Les autres fichiers contiennent les classes, options, sous-sections de sorts et descriptions complètes assemblées. Les paragraphes de personnage et variantes d’Attaque sournoise sont lus directement depuis les packs de classes et d’espèces du PHB, sans fichier `feature-texts.json` dédié.
 
 Les résultats techniques de couverture SRD sont dans `audit/generes/`, avec les autres données d’audit. Le rapport destiné à la consultation est dans `audit/couverture-traductions.json`.

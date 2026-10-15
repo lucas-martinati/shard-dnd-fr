@@ -107,7 +107,7 @@ Les descriptions non SRD et les variantes anciennes peuvent toujours être ajout
 
 ## Aptitudes présentées en sous-sections
 
-`sources-generation/classes/sections-bilingues.json` relie explicitement les titres anglais et français. `work/make-class-sections.py` découpe chaque version indépendamment, puis relie les sections par ces titres, avec validation des nombres et de l’ordre des dés. Cela couvre aussi des options que le français présente dans un autre ordre, comme les proies du Chasseur.
+`translations/dnd-2024/phb/classes/sections-bilingues.json` relie explicitement les titres anglais et français. `work/make-class-sections.py` découpe chaque version indépendamment, puis relie les sections par ces titres, avec validation des nombres et de l’ordre des dés. Cela couvre aussi des options que le français présente dans un autre ordre, comme les proies du Chasseur.
 
 Le générateur conserve les traductions préexistantes et refuse les correspondances ambiguës. Il produit une paire pour le titre, le corps et la section complète lorsque les valeurs concordent. Les nouveaux titres doivent correspondre aux libellés connus afin de conserver leur gras. Les variantes de référence au chapitre 7 et les introductions génériques de sous-classe sont générées pour toutes les classes concernées.
 
