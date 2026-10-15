@@ -51,6 +51,10 @@ Les tests sont regroupés dans `tests/`, avec les extraits HTML dans `tests/fixt
 
 `npm run test:interface` vérifie le panneau de paramètres de campagne relevé dans Shard, les menus ajoutés dynamiquement, les libellés de fiche et les infobulles. Il contrôle aussi la conservation des valeurs, des cases cochées, des liens et des interactions, puis la restauration exacte de l’anglais.
 
+`npm run test:spells` vérifie les paragraphes de sorts, leurs découpages SRD et 11 fiches HTML relevées dans le PHB Shard, avec les nombres, les dés, les liens et les tableaux. Cette suite contrôle aussi les 77 noms d’objets examinés. Les frontières de paragraphes EN/FR sont éditables dans `translations/dnd-2024/phb/sorts/decoupage-srd.json` : chaque frontière est associée explicitement à son équivalent, même si leur ordre diffère entre les deux langues.
+
+`npm run audit:spells` analyse hors ligne les 391 fiches publiques relevées le 15 octobre 2026 et écrit `audit/generes/sorts-phb-2024.json`. Ce contrôle complet peut prendre plusieurs minutes. Il recense les paragraphes restés identiques à l’anglais, y compris les légendes et noms propres à vérifier ; il ne mesure pas à lui seul l’exactitude de toutes les traductions. Il ne lit aucun champ de personnage ou de campagne et ne fait aucune requête réseau. Pour comparer un autre script : `node work/audit-spells.cjs --script /chemin/script.user.js --output /chemin/rapport.json`.
+
 Les catalogues de noms et de références sont indexés au démarrage. Les listes de correspondances de descriptions sont réutilisées jusqu’à leur prochaine modification. `npm run benchmark` mesure l’initialisation, la traduction de 400 blocs, 100 mutations et la restauration dans JSDOM ; il ne mesure pas le chargement complet de Shard ni les appels réseau.
 
 La vérification GitHub Actions reconstruit le script et refuse les livrables désynchronisés de leurs sources avant de lancer les tests. Après chaque modification, régénérer et versionner les fichiers produits par `npm run build`.

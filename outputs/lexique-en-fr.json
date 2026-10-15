@@ -1,5 +1,5 @@
 {
-  "version": "1.17.13",
+  "version": "1.17.14",
   "reference": "Noms AideDD 2024 prioritaires. Références SRD disponibles séparément. Autres entrées identifiées.",
   "license": "Code MIT ; contenu SRD CC-BY-4.0 https://creativecommons.org/licenses/by/4.0/",
   "sources": [
@@ -11725,7 +11725,7 @@
       "en": "Piton",
       "fr": "Piton",
       "category": "équipement",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
       "aliases": []
     },
     {
@@ -12292,7 +12292,7 @@
       "en": "Lyre",
       "fr": "Lyre",
       "category": "équipement",
-      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
       "aliases": []
     },
     {
@@ -31726,6 +31726,517 @@
       "aliases": []
     },
     {
+      "en": "Abacus",
+      "fr": "Boulier",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Airship",
+      "fr": "Dirigeable",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Alms Box",
+      "fr": "Tronc à aumônes",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Bag of Sand (Small)",
+      "fr": "Sac de sable (petit)",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Barrel",
+      "fr": "Tonneau",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Basket",
+      "fr": "Panier",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Bell",
+      "fr": "Cloche",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Birdpipes",
+      "fr": "Flûtes à oiseaux",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Blowgun Needles",
+      "fr": "Aiguilles de sarbacane",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Bucket",
+      "fr": "Seau",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Burnt Othur Fumes (Inhaled)",
+      "fr": "Vapeurs d’othur brûlé (inhalation)",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Carriage",
+      "fr": "Carrosse",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Carrion Crawler Mucus (Contact)",
+      "fr": "Mucus de charognard rampant (contact)",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Cart",
+      "fr": "Charrette",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Censer",
+      "fr": "Encensoir",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Chalk (1 piece)",
+      "fr": "Craie (1 morceau)",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Chariot",
+      "fr": "Chariot",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Common Clothes",
+      "fr": "Vêtements courants",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Costume Clothes",
+      "fr": "Costume de scène",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Crossbow Bolt Case",
+      "fr": "Étui à carreaux d’arbalète",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Diplomat's Chest",
+      "fr": "Coffret de diplomate",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Donkey",
+      "fr": "Âne",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Dragonchess Set",
+      "fr": "Jeu d’échecs draconiques",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Drow Poison (Injury)",
+      "fr": "Poison drow (blessure)",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Dulcimer",
+      "fr": "Tympanon",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Fine Clothes",
+      "fr": "Vêtements de qualité",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Firearm Bullets",
+      "fr": "Balles d’arme à feu",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Galley",
+      "fr": "Galère",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Glass Bottle",
+      "fr": "Bouteille en verre",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Glaur",
+      "fr": "Glaur",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Hand Drum",
+      "fr": "Tambour à main",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Hempen Rope (50 feet)",
+      "fr": "Corde de chanvre (50 feet)",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Incense (block)",
+      "fr": "Encens (bloc)",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Ink (1-ounce bottle)",
+      "fr": "Encre (bouteille de 1 ounce)",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Iron Pot",
+      "fr": "Marmite en fer",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Iron Spikes",
+      "fr": "Pointes en fer",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Iron Spikes (10)",
+      "fr": "Pointes en fer (10)",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Keelboat",
+      "fr": "Bateau à quille",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Knife (Small)",
+      "fr": "Couteau (petit)",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Leather-Bound Diary",
+      "fr": "Journal relié en cuir",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Longhorn",
+      "fr": "Corne longue",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Longship",
+      "fr": "Drakkar",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Maker's Mark Chisel",
+      "fr": "Burin de marquage d’artisan",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Map or Scroll Case",
+      "fr": "Étui à cartes ou à parchemins",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Merchant's Scale",
+      "fr": "Balance de marchand",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Military Uniform",
+      "fr": "Uniforme militaire",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Miner's Pick",
+      "fr": "Pic de mineur",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Pan Flute",
+      "fr": "Flûte de Pan",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Paper (one sheet)",
+      "fr": "Papier (une feuille)",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Parchment (one sheet)",
+      "fr": "Parchemin (une feuille)",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Pitcher",
+      "fr": "Pichet",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Portable Ram",
+      "fr": "Bélier portable",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Rowboat",
+      "fr": "Barque",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Sailing Ship",
+      "fr": "Navire à voiles",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Shawm",
+      "fr": "Chalemie",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Silk Rope (50 feet)",
+      "fr": "Corde de soie (50 feet)",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Sled",
+      "fr": "Traîneau",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Sledgehammer",
+      "fr": "Masse de chantier",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Songhorn",
+      "fr": "Corne chantante",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Steel Mirror",
+      "fr": "Miroir en acier",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "String",
+      "fr": "Ficelle",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Tankard",
+      "fr": "Chope",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Tantan",
+      "fr": "Tantan",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Thelarr",
+      "fr": "Thelarr",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Three-Dragon Ante Set",
+      "fr": "Jeu des Trois Dragons",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Tocken",
+      "fr": "Tocken",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Trinket",
+      "fr": "Bibelot",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Vestment",
+      "fr": "Vêtements liturgiques",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Wagon",
+      "fr": "Chariot de transport",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Wargong",
+      "fr": "Gong de guerre",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Warship",
+      "fr": "Navire de guerre",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Yarting",
+      "fr": "Yarting",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
+      "en": "Zulkoon",
+      "fr": "Zulkoon",
+      "category": "équipement",
+      "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
+      "aliases": []
+    },
+    {
       "en": "Enlarge",
       "fr": "Agrandissement",
       "category": "règles",
@@ -32157,6 +32668,62 @@
       "fr": "Dénué de conscience.",
       "category": "règles",
       "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "aliases": []
+    },
+    {
+      "en": "Your Knowledge of the Target Is...",
+      "fr": "Votre connaissance de la cible est…",
+      "category": "sort",
+      "source": "Traduction proposée de la fiche Shard · D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Secondhand (heard of the target)",
+      "fr": "Indirecte (vous avez entendu parler d’elle)",
+      "category": "sort",
+      "source": "Traduction proposée de la fiche Shard · D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Firsthand (met the target)",
+      "fr": "Directe (vous l’avez rencontrée)",
+      "category": "sort",
+      "source": "Traduction proposée de la fiche Shard · D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Extensive (know the target well)",
+      "fr": "Approfondie (vous la connaissez bien)",
+      "category": "sort",
+      "source": "Traduction proposée de la fiche Shard · D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "You Have the Target’s...",
+      "fr": "Vous disposez de…",
+      "category": "sort",
+      "source": "Traduction proposée de la fiche Shard · D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Picture or other likeness",
+      "fr": "Son portrait ou une autre représentation",
+      "category": "sort",
+      "source": "Traduction proposée de la fiche Shard · D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Garment or other possession",
+      "fr": "Un vêtement ou un autre bien personnel",
+      "category": "sort",
+      "source": "Traduction proposée de la fiche Shard · D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Body part, lock of hair, or bit of nail",
+      "fr": "Un élément anatomique, une mèche de cheveux ou une rognure d’ongle",
+      "category": "sort",
+      "source": "Traduction proposée de la fiche Shard · D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
       "aliases": []
     },
     {

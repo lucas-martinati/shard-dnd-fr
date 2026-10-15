@@ -11,8 +11,9 @@ const pending=()=>ps.map((p,i)=>({text:p.textContent,row:rows[i]})).filter(({tex
  ps.forEach((p,i)=>{const row=rows[i];
   // Messager animal conserve désormais les distances anglaises de Shard,
   // comme les portées en feet : 50/25 miles, au lieu de 75/37,5 km.
+  // Les feet, inches et miles sont aussi vérifiés sur le HTML réel dans test-phb-spell-layouts.
   const expected=row.en.includes('25 miles')&&row.en.includes('50 miles')?row.fr.replace('75 km','50 miles').replace('37,5 km','25 miles'):row.fr;
-  if(!/\d+\s*-?\s*(?:feet|foot|ft)\b/i.test(row.en))assert.equal(p.textContent,expected,row.en.slice(0,80));});
+  if(!/\d+\s*-?\s*(?:feet|foot|ft|miles?|inches|inch)\b/i.test(row.en))assert.equal(p.textContent,expected,row.en.slice(0,80));});
  dice.forEach((e,i)=>{assert.ok(e.isConnected);assert.equal(e.textContent,values[i]);e.click();});assert.equal(clicks,dice.length);
  const root=[...d.querySelectorAll('[data-shard-fr-ignore]')].map(e=>e.shadowRoot).find(r=>r?.getElementById('enabled')),enabled=root.getElementById('enabled');enabled.checked=false;enabled.dispatchEvent(new w.Event('change'));await wait(()=>main.innerHTML===original);
  console.log(`PASS spell sections: ${rows.length} segments et libellés, ${dice.length} dés cliquables, restauration exacte du HTML.`);

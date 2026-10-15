@@ -1,5 +1,1165 @@
 [
   {
+    "en": "You create up to four torch-size lights within range, making them appear as torches, lanterns, or glowing orbs that hover for the duration. Alternatively, you combine the four lights into one glowing Medium form that is vaguely humanlike. Whichever form you choose, each light sheds Dim Light in a 10foot radius.",
+    "fr": "Vous créez jusqu’à quatre lumières de la taille d’une torche, à portée ; pour toute la durée, elles ont l’aspect de torches, de lanternes ou de globes luisants qui flottent dans les airs. Au lieu de cela, vous pouvez fusionner les quatre lumières en forme luisante vaguement humaine, de taille M. Quelle que soit la forme choisie, chaque lueur émet une Lumière faible dans un rayon de 3 m.",
+    "source": "SRD officiel 5.2.1 FR · section de Dancing Lights · CC-BY-4.0"
+  },
+  {
+    "en": "As a Bonus Action, you can move the lights up to 60 feet to a space within range. A light must be within 20 feet of another light created by this spell, and a light vanishes if it exceeds the spell’s range.",
+    "fr": "Par une action Bonus, vous pouvez déplacer les lueurs d’un maximum de 18 m vers un nouvel espace à portée. Chaque lueur du sort, à sa création, doit se situer dans un rayon de 6 m d’une autre, et s’évanouit si jamais elle quitte la portée du sort.",
+    "source": "SRD officiel 5.2.1 FR · section de Dancing Lights · CC-BY-4.0"
+  },
+  {
+    "en": "You touch one Large or smaller object that isn’t being worn or carried by someone else. Until the spell ends, the object sheds Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. The light can be colored as you like.",
+    "fr": "Vous touchez physiquement un objet de taille G ou inférieure qui n’est porté par personne d’autre. Jusqu’à la fin du sort, l’objet produit une Lumière vive sur un rayon de 6 m et une Lumière faible sur 6 m de plus. La lumière peut présenter les teintes de votre choix.",
+    "source": "SRD officiel 5.2.1 FR · section de Light · CC-BY-4.0"
+  },
+  {
+    "en": "Covering the object with something opaque blocks the light. The spell ends if you cast it again.",
+    "fr": "Recouvrir l’objet d’une surface opaque bloque la lumière. Le sort prend fin si vous le relancez.",
+    "source": "SRD officiel 5.2.1 FR · section de Light · CC-BY-4.0"
+  },
+  {
+    "en": "A spectral, floating hand appears at a point you choose within range. The hand lasts for the duration. The hand vanishes if it is ever more than 30 feet away from you or if you cast this spell again.",
+    "fr": "Une main spectrale et flottante apparaît en un point que vous choisissez à portée. La main persiste pour toute la durée. Elle disparaît si jamais elle se retrouve à plus de 9 m de vous ou si vous relancez ce sort.",
+    "source": "SRD officiel 5.2.1 FR · section de Mage Hand · CC-BY-4.0"
+  },
+  {
+    "en": "When you cast the spell, you can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial.",
+    "fr": "À l’incantation du sort, la main peut servir à manipuler un objet, à ouvrir une porte ou un récipient non verrouillés, à ranger ou récupérer un objet dans un conteneur ouvert ou à déverser le contenu d’une fiole.",
+    "source": "SRD officiel 5.2.1 FR · section de Mage Hand · CC-BY-4.0"
+  },
+  {
+    "en": "As a Magic action on your later turns, you can control the hand thus again. As part of that action, you can move the hand up to 30 feet.",
+    "fr": "Au prix de l’action Magie à vos tours suivants, vous pouvez de nouveau contrôler ainsi la main. Dans le cadre de cette action, vous pouvez déplacer la main d’un maximum de 9 m.",
+    "source": "SRD officiel 5.2.1 FR · section de Mage Hand · CC-BY-4.0"
+  },
+  {
+    "en": "The hand can’t attack, activate magic items, or carry more than 10 pounds.",
+    "fr": "Elle ne peut ni attaquer, ni activer d’objet magique, ni porter plus de 10 pounds.",
+    "source": "SRD 5.2.1 FR · section de Mage Hand adaptée aux valeurs de Shard · CC-BY-4.0"
+  },
+  {
+    "en": "This spell repairs a single break or tear in an object you touch, such as a broken chain link, two halves of a broken key, a torn cloak, or a leaking wineskin. As long as the break or tear is no larger than 1 foot in any dimension, you mend it, leaving no trace of the former damage.",
+    "fr": "Ce sort répare une dégradation (déchirure ou bris) sur l’objet que vous touchez, comme un maillon de chaîne brisé, une clef en deux morceaux, une cape déchirée ou une outre percée. Tant que la dégradation ne dépasse pas 30 cm dans quelque dimension que ce soit, vous la réparez et il n’en reste nulle trace.",
+    "source": "SRD officiel 5.2.1 FR · section de Mending · CC-BY-4.0"
+  },
+  {
+    "en": "This spell can physically repair a magic item, but it can’t restore magic to such an object.",
+    "fr": "Ce sort peut réparer la structure physique d’un objet magique, mais il ne lui rendra pas sa magie.",
+    "source": "SRD officiel 5.2.1 FR · section de Mending · CC-BY-4.0"
+  },
+  {
+    "en": "You point toward a creature within range and whisper a message. The target (and only the target) hears the message and can reply in a whisper that only you can hear.",
+    "fr": "Vous pointez le doigt vers une créature à portée et murmurez un message. La cible (et seulement elle) entend votre message et peut y répondre par un murmure audible de votre seule personne.",
+    "source": "SRD officiel 5.2.1 FR · section de Message · CC-BY-4.0"
+  },
+  {
+    "en": "You can cast this spell through solid objects if you are familiar with the target and know it is beyond the barrier. Magical silence; 1 foot of stone, metal, or wood; or a thin sheet of lead blocks the spell.",
+    "fr": "Vous pouvez lancer ce sort à travers des objets solides si vous connaissez la cible et savez qu’elle se trouve derrière ces obstacles. Le silence magique, 30 cm de pierre, de métal ou de bois, ou une simple feuille de plomb suffisent à bloquer le sort.",
+    "source": "SRD officiel 5.2.1 FR · section de Message · CC-BY-4.0"
+  },
+  {
+    "en": "You make yourself—including your clothing, armor, weapons, and other belongings on your person— look different until the spell ends. You can seem 1 foot shorter or taller and can appear heavier or lighter. You must adopt a form that has the same basic arrangement of limbs as you have. Otherwise, the extent of the illusion is up to you.",
+    "fr": "Vous vous donnez un aspect différent jusqu’à la fin du sort ; vous pouvez ainsi altérer l’apparence de vos vêtements, de votre armure, de vos armes et autres biens portés. Vous pouvez paraître jusqu’à 30 cm plus grand ou plus petit, sembler plus léger ou plus lourd. Vous devez adopter une forme présentant la même répartition de membres que vous. Pour le reste, les détails de l’illusion vous appartiennent.",
+    "source": "SRD officiel 5.2.1 FR · section de Disguise Self · CC-BY-4.0"
+  },
+  {
+    "en": "The changes wrought by this spell fail to hold up to physical inspection. For example, if you use this spell to add a hat to your outfit, objects pass through the hat, and anyone who touches it would feel nothing.",
+    "fr": "Les changements apportés par le sort ne résistent pas à un examen physique. Exemple : si le sort ajoute un chapeau à votre accoutrement, ce couvre-chef n’est pas tangible, si bien que quiconque cherche à le toucher ne sentira sous ses doigts que de l’air.",
+    "source": "SRD officiel 5.2.1 FR · section de Disguise Self · CC-BY-4.0"
+  },
+  {
+    "en": "To discern that you are disguised, a creature must take the Study action to inspect your appearance and succeed on an Intelligence (Investigation) check against your spell save DC.",
+    "fr": "Pour comprendre que vous êtes déguisé, une créature doit consacrer l’action Étude à vous examiner et réussir un test d’Intelligence (Investigation) assorti de votre DD de sauvegarde des sorts.",
+    "source": "SRD officiel 5.2.1 FR · section de Disguise Self · CC-BY-4.0"
+  },
+  {
+    "en": "For the duration, you sense the location of any Aberration, Celestial, Elemental, Fey, Fiend, or Undead within 30 feet of yourself. You also sense whether the Hallow spell is active there and, if so, where.",
+    "fr": "Pour toute la durée, vous percevez la position de toutes les créatures suivantes dans un rayon de 9 m : Aberrations, Célestes, Élémentaires, Fées, Fiélons et Morts-vivants. Vous percevez également si le sort sanctification est actif dans la zone, et où.",
+    "source": "SRD officiel 5.2.1 FR · section de Detect Evil and Good · CC-BY-4.0"
+  },
+  {
+    "en": "The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of lead.",
+    "fr": "Le sort est bloqué par 30 cm de pierre, de terre ou de bois, par 2,5 cm de métal (une simple feuille dans le cas du plomb).",
+    "source": "SRD officiel 5.2.1 FR · section de Detect Thoughts · CC-BY-4.0"
+  },
+  {
+    "en": "For the duration, you sense the presence of magical effects within 30 feet of yourself. If you sense such effects, you can take the Magic action to see a faint aura around any visible creature or object in the area that bears the magic, and if an effect was created by a spell, you learn the spell’s school of magic.",
+    "fr": "Pour toute la durée, vous percevez la présence des effets magiques dans un rayon de 9 m. Si vous percevez de tels effets, vous pouvez entreprendre l’action Magie pour voir une faible aura autour de chaque créature et objet visibles et porteurs de magie de la zone, et vous apprenez l’école de magie correspondante dans le cas d’un effet produit par un sort.",
+    "source": "SRD officiel 5.2.1 FR · section de Detect Magic · CC-BY-4.0"
+  },
+  {
+    "en": "For the duration, you sense the location of poisons, poisonous or venomous creatures, and magical contagions within 30 feet of yourself. You sense the kind of poison, creature, or contagion in each case.",
+    "fr": "Pour toute la durée, vous percevez la position de tous les poisons, créatures venimeuses et vénéneuses, et maladies magiques dans un rayon de 9 m. Vous percevez dans chaque cas de quel genre de poison, créature ou maladie il s’agit.",
+    "source": "SRD officiel 5.2.1 FR · section de Detect Poison and Disease · CC-BY-4.0"
+  },
+  {
+    "en": "You create a sound or an image of an object within range that lasts for the duration. See the descriptions below for the effects of each. The illusion ends if you cast this spell again.",
+    "fr": "Vous créez à portée un son ou l’image d’un objet qui persiste pour toute la durée. La description qui suit détaille les effets pour chacun. L’illusion prend fin si vous relancez ce sort.",
+    "source": "SRD officiel 5.2.1 FR · section de Minor Illusion · CC-BY-4.0"
+  },
+  {
+    "en": "If a creature takes a Study action to examine the sound or image, the creature can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature.",
+    "fr": "Une créature qui entreprend l’action Étude pour examiner le son ou l’image peut comprendre qu’il s’agit d’une illusion en réussissant un test d’Intelligence (Investigation) assorti de votre DD de sauvegarde des sorts. Une créature qui perce l’illusion continue de la percevoir, quoiqu’amoindrie.",
+    "source": "SRD officiel 5.2.1 FR · section de Minor Illusion · CC-BY-4.0"
+  },
+  {
+    "en": "Sound. If you create a sound, its volume can range from a whisper to a scream. It can be your voice, someone else’s voice, a lion’s roar, a beating of drums, or any other sound you choose. The sound continues unabated throughout the duration, or you can make discrete sounds at different times before the spell ends.",
+    "fr": "Son. Si vous créez un son, son volume peut aller du murmure au cri. Il peut prendre votre voix, celle de quelqu’un d’autre, imiter le rugissement du lion, un roulement de tambour ou une autre forme de votre choix. Le son se prolonge sans discontinuer pour toute la durée, à moins que vous préfériez ne le faire intervenir que de temps à autre jusqu’à la fin du sort.",
+    "source": "SRD officiel 5.2.1 FR · section de Minor Illusion · CC-BY-4.0"
+  },
+  {
+    "en": "Image. If you create an image of an object—such as a chair, muddy footprints, or a small chest—it must be no larger than a 5-foot Cube. The image can’t create sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an illusion, since things can pass through it.",
+    "fr": "Image. Si vous créez l’image d’un objet, comme une chaise, des empreintes boueuses ou un petit coffre, il doit pouvoir tenir dans un Cube de 1,50 m. L’image ne peut créer ni son, ni lumière, ni odeur, ni autre effet sensoriel. Toute interaction physique avec l’image percera l’illusion, car elle n’est pas tangible.",
+    "source": "SRD officiel 5.2.1 FR · section de Minor Illusion · CC-BY-4.0"
+  },
+  {
+    "en": "You create the image of an object, a creature, or some other visible phenomenon that is no larger than a 15-foot Cube. The image appears at a spot within range and lasts for the duration. The image is purely visual; it isn’t accompanied by sound, smell, or other sensory effects.",
+    "fr": "Vous créez l’image d’un objet, d’une créature ou autre phénomène visible dont la taille ne dépasse pas celle d’un Cube de 4,50 m. L’image apparaît en un endroit à portée et persiste pour toute la durée. Elle est purement visuelle, dépourvue de son, d’odeur et de tout autre effet sensoriel.",
+    "source": "SRD officiel 5.2.1 FR · section de Silent Image · CC-BY-4.0"
+  },
+  {
+    "en": "As a Magic action, you can cause the image to move to any spot within range. As the image changes location, you can alter its appearance so that its movements appear natural for the image. For example, if you create an image of a creature and move it, you can alter the image so that it appears to be walking.",
+    "fr": "Au prix de l’action Magie, vous pouvez déplacer l’image en un point à portée. Lors de ce déplacement, vous pouvez modifier l’aspect de l’image afin que ses mouvements paraissent naturels. Exemple : si vous créez l’image d’une créature que vous faites se déplacer, vous pouvez faire en sorte qu’elle donne l’impression de marcher.",
+    "source": "SRD officiel 5.2.1 FR · section de Silent Image · CC-BY-4.0"
+  },
+  {
+    "en": "Physical interaction with the image reveals it to be an illusion, since things can pass through it. A creature that takes a Study action to examine the image can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image.",
+    "fr": "Toute interaction physique avec l’image percera l’illusion, car elle n’est pas tangible. Une créature qui entreprend l’action Étude pour examiner l’image peut comprendre qu’il s’agit d’une illusion en réussissant un test d’Intelligence (Investigation) assorti de votre DD de sauvegarde des sorts. Une créature qui perce l’illusion voit à travers l’image.",
+    "source": "SRD officiel 5.2.1 FR · section de Silent Image · CC-BY-4.0"
+  },
+  {
+    "en": "This spell creates an Invisible, mindless, shapeless, Medium force that performs simple tasks at your command until the spell ends. The servant springs into existence in an unoccupied space on the ground within range. It has AC 10, 1 Hit Point, and a Strength of 2, and it can’t attack. If it drops to 0 Hit Points, the spell ends.",
+    "fr": "Le sort crée une force de taille M, Invisible, dépourvue de conscience et de forme, qui accomplit des tâches rudimentaires sous vos ordres jusqu’à la fin du sort. Le serviteur se matérialise au sol, en un espace inoccupé à portée. Il est doté d’un CA de 10, de 1 point de vie, d’une Force de 2, et ne peut pas effectuer d’attaques. S’il tombe à 0 point de vie, le sort prend fin.",
+    "source": "SRD officiel 5.2.1 FR · section de Unseen Servant · CC-BY-4.0"
+  },
+  {
+    "en": "Once on each of your turns as a Bonus Action, you can mentally command the servant to move up to 15 feet and interact with an object. The servant can perform simple tasks that a human could do, such as fetching things, cleaning, mending, folding clothes, lighting fires, serving food, and pouring drinks. Once you give the command, the servant performs the task to the best of its ability until it completes the task, then waits for your next command.",
+    "fr": "À chacun de vos tours, vous pouvez par une action Bonus ordonner mentalement au serviteur de se déplacer d’un maximum de 4,50 m et d’interagir avec un objet. Le serviteur peut accomplir des tâches rudimentaires à la portée d’un humain, comme aller chercher des objets, nettoyer, réparer, repasser les vêtements, allumer un feu ou servir les repas et la boisson. Une fois l’instruction reçue, le serviteur s’attèle à la tâche de son mieux jusqu’à l’avoir accomplie, puis attend vos prochaines directives.",
+    "source": "SRD officiel 5.2.1 FR · section de Unseen Servant · CC-BY-4.0"
+  },
+  {
+    "en": "If you command the servant to perform a task that would move it more than 60 feet away from you, the spell ends.",
+    "fr": "Si vous lui assignez une tâche qui lui demande de s’éloigner de plus de 18 m de vous, le sort prend fin.",
+    "source": "SRD officiel 5.2.1 FR · section de Unseen Servant · CC-BY-4.0"
+  },
+  {
+    "en": "You touch another creature that is willing and create a mystic connection between you and the target until the spell ends. While the target is within 60 feet of you, it gains a +1 bonus to AC and saving throws, and it has Resistance to all damage. Also, each time it takes damage, you take the same amount of damage.",
+    "fr": "Vous touchez physiquement une créature consentante pour forger un lien magique entre elle et vous jusqu’à la fin du sort. Tant que la cible se trouve dans un rayon de 18 m de vous, elle reçoit un bonus de +1 à la CA et aux jets de sauvegarde, et bénéficie de la Résistance à tous les dégâts. Par ailleurs, chaque fois qu’elle subit des dégâts, vous en subissez autant.",
+    "source": "SRD officiel 5.2.1 FR · section de Warding Bond · CC-BY-4.0"
+  },
+  {
+    "en": "The spell ends if you drop to 0 Hit Points or if you and the target become separated by more than 60 feet. It also ends if the spell is cast again on either of the connected creatures.",
+    "fr": "Le sort prend fin si vous tombez à 0 point de vie ou si la cible et vous vous retrouvez distants de plus de 18 m. Il prend également fin s’il est relancé sur l’une des deux créatures ainsi liées.",
+    "source": "SRD officiel 5.2.1 FR · section de Warding Bond · CC-BY-4.0"
+  },
+  {
+    "en": "You conjure a mass of sticky webbing at a point within range. The webs fill a 20-foot Cube there for the duration. The webs are Difficult Terrain, and the area within them is Lightly Obscured.",
+    "fr": "Vous invoquez une masse gluante de fils d’araignée en un point que vous choisissez à portée. Pour toute la durée, cette toile remplit un Cube de 6 m depuis ce point d’origine. Elle constitue un Terrain difficile et la Visibilité est réduite dans la zone.",
+    "source": "SRD officiel 5.2.1 FR · section de Web · CC-BY-4.0"
+  },
+  {
+    "en": "If the webs aren’t anchored between two solid masses (such as walls or trees) or layered across a floor, wall, or ceiling, the web collapses on itself, and the spell ends at the start of your next turn. Webs layered over a flat surface have a depth of 5 feet.",
+    "fr": "Si les fils ne peuvent pas se fixer à deux volumes solides (comme des murs ou des arbres) et ne sont pas disposés en travers d’un sol, d’un mur ou d’un plafond, la toile s’effondre sur elle-même et le sort prend fin au début de votre tour suivant. Invoquée sur une surface plane, la toile présente une épaisseur de 1,50 m.",
+    "source": "SRD officiel 5.2.1 FR · section de Web · CC-BY-4.0"
+  },
+  {
+    "en": "The first time a creature enters the webs on a turn or starts its turn there, it must succeed on a Dexterity saving throw or have the Restrained condition while in the webs or until it breaks free.",
+    "fr": "Quand une créature pénètre pour la première fois d’un tour dans la toile ou qu’elle y commence son tour, elle doit réussir un jet de sauvegarde de Dextérité sous peine de subir l’état Entravé tant qu’elle reste dans la toile et qu’elle ne s’en est pas libérée.",
+    "source": "SRD officiel 5.2.1 FR · section de Web · CC-BY-4.0"
+  },
+  {
+    "en": "A creature Restrained by the webs can take an action to make a Strength (Athletics) check against your spell save DC. If it succeeds, it is no longer Restrained.",
+    "fr": "Une créature ainsi Entravée peut consacrer son action à effectuer un test de Force (Athlétisme) assorti de votre DD de sauvegarde des sorts. En cas de réussite, elle n’est plus Entravée.",
+    "source": "SRD officiel 5.2.1 FR · section de Web · CC-BY-4.0"
+  },
+  {
+    "en": "The webs are flammable. Any 5-foot Cube of webs exposed to fire burns away in 1 round, dealing 2d4 Fire damage to any creature that starts its turn in the fire.",
+    "fr": "La toile est inflammable. Tout Cube de toile de 1,50 m exposé aux flammes brûle en 1 round et inflige 2d4 dégâts de feu à toute créature qui commence son tour dans les flammes.",
+    "source": "SRD officiel 5.2.1 FR · section de Web · CC-BY-4.0"
+  },
+  {
+    "en": "You create a magical zone that guards against deception in a 15-foot-radius Sphere centered on a point within range. Until the spell ends, a creature that enters the spell’s area for the first time on a turn or starts its turn there makes a Charisma saving throw. On a failed save, a creature can’t speak a deliberate lie while in the radius. You know whether a creature succeeds or fails on this save.",
+    "fr": "Vous créez une zone magique qui interdit les mensonges dans une Sphère de 4,50 m de rayon centrée sur un point à portée. Jusqu’à la fin du sort, quand une créature entre dans la zone du sort pour la première fois d’un tour ou y commence son tour, elle effectue un jet de sauvegarde de Charisme. En cas d’échec, elle ne peut mentir sciemment tant qu’elle est dans la zone. Vous savez si une telle créature a raté ou réussi son jet de sauvegarde.",
+    "source": "SRD officiel 5.2.1 FR · section de Zone of Truth · CC-BY-4.0"
+  },
+  {
+    "en": "An affected creature is aware of the spell and can avoid answering questions to which it would normally respond with a lie. Such a creature can be evasive yet must be truthful.",
+    "fr": "Une créature affectée a conscience du sort et peut éluder les questions auxquelles elle répondrait normalement par un mensonge. Elle peut se montrer évasive, mais ce qu’elle dit doit rester vrai dans son esprit.",
+    "source": "SRD officiel 5.2.1 FR · section de Zone of Truth · CC-BY-4.0"
+  },
+  {
+    "en": "The ground in a 20-foot-radius Sphere centered on a point within range sprouts hard spikes and thorns. The area becomes Difficult Terrain for the duration. When a creature moves into or within the area, it takes 2d4 Piercing damage for every 5 feet it travels.",
+    "fr": "Le sol dans une Sphère de 6 m de rayon centrée sur un point à portée laisse émerger des pointes et épines coriaces. La zone devient un Terrain difficile pour toute la durée. Lorsqu’une créature pénètre dans la zone ou s’y déplace, elle subit 2d4 dégâts perforants par tranche de 1,50 m qu’elle y parcourt.",
+    "source": "SRD officiel 5.2.1 FR · section de Spike Growth · CC-BY-4.0"
+  },
+  {
+    "en": "The transformation of the ground is camouflaged to look natural. Any creature that can’t see the area when the spell is cast must take a Search action and succeed on a Wisdom (Perception or Survival) check against your spell save DC to recognize the terrain as hazardous before entering it.",
+    "fr": "La transformation du sol paraît naturelle. Toute créature qui ne voit pas la zone au moment de l’incantation doit entreprendre l’action Observation et réussir un test de Sagesse (Perception ou Survie) assorti de votre DD de sauvegarde des sorts pour reconnaître le danger avant de fouler ce sol.",
+    "source": "SRD officiel 5.2.1 FR · section de Spike Growth · CC-BY-4.0"
+  },
+  {
+    "en": "A Club or Quarterstaff you are holding is imbued with nature’s power. For the duration, you can use your spellcasting ability instead of Strength for the attack and damage rolls of melee attacks using that weapon, and the weapon’s damage die becomes a d8. If the attack deals damage, it can be Force damage or the weapon’s normal damage type (your choice).",
+    "fr": "Le bois d’un gourdin ou d’un bâton de combat que vous tenez s’imprègne du pouvoir de la nature. Pour toute la durée, vous pouvez recourir à votre caractéristique d’incantation plutôt qu’à la Force pour les jets d’attaque et de dégâts de vos attaques de corps à corps effectuées avec cette arme. Le dé de dégâts de l’arme passe en outre à d8. Si l’attaque inflige des dégâts, il peut s’agir de dégâts de force ou des dégâts normaux de l’arme (à votre convenance).",
+    "source": "SRD officiel 5.2.1 FR · section de Shillelagh · CC-BY-4.0"
+  },
+  {
+    "en": "The spell ends early if you cast it again or if you let go of the weapon.",
+    "fr": "Le sort prend fin prématurément si vous le relancez ou si vous lâchez l’arme.",
+    "source": "SRD officiel 5.2.1 FR · section de Shillelagh · CC-BY-4.0"
+  },
+  {
+    "en": "Cantrip Upgrade. The damage die changes when you reach levels 5 (d10), 11 (d12), and 17 (2d6).",
+    "fr": "Amélioration de sort mineur. Le dé de dégâts change lorsque vous atteignez les niveaux 5 (d10), 11 (d12) et 17 (2d6).",
+    "source": "SRD officiel 5.2.1 FR · section de Shillelagh · CC-BY-4.0"
+  },
+  {
+    "en": "You cast sorcerous energy at one creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d8 damage of a type you choose: Acid, Cold, Fire, Lightning, Poison, Psychic, or Thunder.",
+    "fr": "Vous projetez des énergies ensorcelées vers une créature ou un objet à portée. Effectuez une attaque de sort à distance contre la cible. Si l’attaque touche, la cible subit 1d8 dégâts du type choisi : acide, feu, foudre, froid, poison, psychiques ou tonnerre.",
+    "source": "SRD officiel 5.2.1 FR · section de Sorcerous Burst · CC-BY-4.0"
+  },
+  {
+    "en": "If you roll an 8 on a d8 for this spell, you can roll another d8, and add it to the damage. When you cast this spell, the maximum number of these d8s you can add to the spell’s damage equals your spellcasting ability modifier.",
+    "fr": "Si vous obtenez un 8 sur un d8 du sort, vous pouvez en lancer un autre d8 pour l’ajouter aux dégâts. Quand vous lancez ce sort, le maximum de d8 supplémentaires que vous pouvez ainsi ajouter aux dégâts du sort est égal à votre modificateur de caractéristique d’incantation.",
+    "source": "SRD 5.2.1 FR · section de Sorcerous Burst adaptée aux valeurs de Shard · CC-BY-4.0"
+  },
+  {
+    "en": "Cantrip Upgrade. The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8).",
+    "fr": "Amélioration de sort mineur. Les dégâts augmentent de 1d8 lorsque vous atteignez les niveaux 5 (2d8), 11 (3d8) et 17 (4d8).",
+    "source": "SRD officiel 5.2.1 FR · section de Starry Wisp · CC-BY-4.0"
+  },
+  {
+    "en": "You ward a creature within range. Until the spell ends, any creature who targets the warded creature with an attack roll or a damaging spell must succeed on a Wisdom saving throw or either choose a new target or lose the attack or spell. This spell doesn’t protect the warded creature from areas of effect.",
+    "fr": "Vous protégez une créature à portée. Jusqu’à la fin du sort, toute créature qui cible la créature protégée avec un jet d’attaque ou un sort nuisible doit réussir un jet de sauvegarde de Sagesse, sans quoi elle doit choisir une autre cible pour ne pas perdre l’attaque ou le sort. Ce sort ne protège pas la créature contre les zones d’effet.",
+    "source": "SRD officiel 5.2.1 FR · section de Sanctuary · CC-BY-4.0"
+  },
+  {
+    "en": "The spell ends if the warded creature makes an attack roll, casts a spell, or deals damage.",
+    "fr": "Le sort prend fin pour la créature protégée si elle effectue un jet d’attaque, lance un sort ou inflige des dégâts.",
+    "source": "SRD officiel 5.2.1 FR · section de Sanctuary · CC-BY-4.0"
+  },
+  {
+    "en": "You touch a corpse or other remains. For the duration, the target is protected from decay and can’t become Undead.",
+    "fr": "Vous touchez physiquement un cadavre ou autre dépouille. Pour toute la durée, la cible est protégée contre la putréfaction et rien ne peut en faire un Mort-vivant.",
+    "source": "SRD officiel 5.2.1 FR · section de Gentle Repose · CC-BY-4.0"
+  },
+  {
+    "en": "The spell also effectively extends the time limit on raising the target from the dead, since days spent under the influence of this spell don’t count against the time limit of spells such as Raise Dead.",
+    "fr": "Ce sort prolonge également le délai au-delà duquel la cible ne pourra plus être ramenée d’entre les morts, les jours passés sous l’influence de ce sort n’étant pas décomptés dans le cadre de sorts tels que rappel à la vie.",
+    "source": "SRD officiel 5.2.1 FR · section de Gentle Repose · CC-BY-4.0"
+  },
+  {
+    "en": "Each creature of your choice in a 5-foot-radius Sphere centered on a point within range must succeed on a Wisdom saving throw or have the Incapacitated condition until the end of its next turn, at which point it must repeat the save. If the target fails the second save, the target has the Unconscious condition for the duration. The spell ends on a target if it takes damage or someone within 5 feet of it takes an action to shake it out of the spell’s effect.",
+    "fr": "Chaque créature que vous choisissez dans une Sphère de 1,50 m centrée sur un point à portée doit réussir un jet de sauvegarde de Sagesse sous peine de subir l’état Neutralisé jusqu’à la fin de son tour suivant et de réitérer le JS à la fin de cet intervalle. Si la cible rate ce second JS, elle subit l’état Inconscient pour toute la durée. Le sort prend fin sur toute cible qui subit des dégâts ou qui reçoit une secousse énergique d’une autre créature située dans un rayon de 1,50 m d’elle.",
+    "source": "SRD officiel 5.2.1 FR · section de Sleep · CC-BY-4.0"
+  },
+  {
+    "en": "Creatures that don’t sleep, such as elves, or that have Immunity to the Exhaustion condition automatically succeed on saves against this spell.",
+    "fr": "Les créatures qui ne dorment pas, comme les elfes, et celles qui ont l’Immunité contre l’Épuisement, réussissent automatiquement leur JS contre ce sort.",
+    "source": "SRD officiel 5.2.1 FR · section de Sleep · CC-BY-4.0"
+  },
+  {
+    "en": "You suggest a course of activity—described in no more than 25 words—to one creature you can see within range that can hear and understand you. The suggestion must sound achievable and not involve anything that would obviously deal damage to the target or its allies. For example, you could say, “Fetch the key to the cult’s treasure vault, and give the key to me.” Or you could say, “Stop fighting, leave this library peacefully, and don’t return.”",
+    "fr": "Vous suggérez une ligne de conduite par 25 mots ou moins afin d’influencer magiquement une créature que vous voyez à portée, qui vous entend et vous comprend. La suggestion doit paraître raisonnable et ne pas présenter de risque évident d’infliger des dégâts à la cible ni à ses alliés. Vous pourriez ainsi formuler : « Récupère la clef de la chambre forte de la secte et apporte-la-moi. » Ou bien : « Cesse de combattre, quitte la bibliothèque sans faire d’histoires et ne reviens pas. »",
+    "source": "SRD officiel 5.2.1 FR · section de Suggestion · CC-BY-4.0"
+  },
+  {
+    "en": "The target must succeed on a Wisdom saving throw or have the Charmed condition for the duration or until you or your allies deal damage to the target. The Charmed target pursues the suggestion to the best of its ability. The suggested activity can continue for the entire duration, but if the suggested activity can be completed in a shorter time, the spell ends for the target upon completing it.",
+    "fr": "La cible doit réussir un jet de sauvegarde de Sagesse sous peine de subir l’état Charmé pour toute la durée ou jusqu’à que vous ou l’un de vos alliés lui infligiez des dégâts. La cible Charmée se soumet à la suggestion de son mieux. L’activité suggérée peut s’étendre sur toute la durée, mais s’il est possible de l’accomplir plus tôt, le sort prend fin sur la cible dès qu’elle en a terminé.",
+    "source": "SRD officiel 5.2.1 FR · section de Suggestion · CC-BY-4.0"
+  },
+  {
+    "en": "For the duration, magical Darkness spreads from a point within range and fills a 15-foot-radius Sphere. Darkvision can’t see through it, and nonmagical light can’t illuminate it.",
+    "fr": "Pour toute la durée, des Ténèbres magiques se déploient depuis un point à portée en remplissant une Sphère de 4,50 m de rayon. La Vision dans le noir ne perce pas ces ténèbres et les lumières non magiques n’illuminent pas dans la Sphère.",
+    "source": "SRD officiel 5.2.1 FR · section de Darkness · CC-BY-4.0"
+  },
+  {
+    "en": "Alternatively, you cast the spell on an object that isn’t being worn or carried, causing the Darkness to fill a 15-foot Emanation originating from that object. Covering that object with something opaque, such as a bowl or helm, blocks the Darkness.",
+    "fr": "Au lieu de cela, vous pouvez lancer le sort sur un objet porté par personne, de manière à ce que les Ténèbres emplissent une Émanation de 4,50 m centrée sur l’objet. Il suffit de recouvrir cet objet d’une surface opaque, comme une gamelle ou un heaume, pour bloquer les Ténèbres.",
+    "source": "SRD officiel 5.2.1 FR · section de Darkness · CC-BY-4.0"
+  },
+  {
+    "en": "If any of this spell’s area overlaps with an area of Bright Light or Dim Light created by a spell of level 2 or lower, that other spell is dispelled.",
+    "fr": "Si tout ou partie de ce sort chevauche la zone de Lumière vive ou faible créée par un sort du 2e niveau ou inférieur, l’effet qui produit cette lumière est dissipé.",
+    "source": "SRD officiel 5.2.1 FR · section de Darkness · CC-BY-4.0"
+  },
+  {
+    "en": "You activate one of the effects below. Until the spell ends, you can activate either effect as a Magic action on your later turns.",
+    "fr": "Vous activez l’un des effets ci-après. À vos tours suivants jusqu’à la fin du sort, vous pouvez activer l’un des deux effets au prix de l’action Magie.",
+    "source": "SRD officiel 5.2.1 FR · section de Detect Thoughts · CC-BY-4.0"
+  },
+  {
+    "en": "Sense Thoughts. You sense the presence of thoughts within 30 feet of yourself that belong to creatures that know languages or are telepathic. You don’t read the thoughts, but you know that a thinking creature is present.",
+    "fr": "Perception des pensées. Vous percevez la présence de pensées dans un rayon de 9 m, si elles émanent de créatures maîtrisant une langue ou télépathes. Vous ne lisez pas les pensées, mais savez qu’une créature pensante est présente, le cas échéant.",
+    "source": "SRD officiel 5.2.1 FR · section de Detect Thoughts · CC-BY-4.0"
+  },
+  {
+    "en": "Read Thoughts. Target one creature you can see within 30 feet of yourself or one creature within 30 feet of yourself that you detected with the Sense Thoughts option. You learn what is most on the target’s mind right now. If the target doesn’t know any languages and isn’t telepathic, you learn nothing.",
+    "fr": "Lecture des pensées. Dans un rayon de 9 m, ciblez une créature que vous voyez ou une créature que vous avez détectée avec l’option Perception des pensées. Vous savez ce qui occupe son esprit à l’instant présent. Si la cible ne connaît aucune langue et n’est pas télépathe, vous n’apprenez rien.",
+    "source": "SRD officiel 5.2.1 FR · section de Detect Thoughts · CC-BY-4.0"
+  },
+  {
+    "en": "As a Magic action on your next turn, you can try to probe deeper into the target’s mind. If you probe deeper, the target makes a Wisdom saving throw. On a failed save, you discern the target’s reasoning, emotions, and something that looms large in its mind (such as a worry, love, or hate). On a successful save, the spell ends. Either way, the target knows that you are probing into its mind, and until you shift your attention away from the target’s mind, the target can take an action on its turn to make an Intelligence (Arcana) check against your spell save DC, ending the spell on a success.",
+    "fr": "Au prix de l’action Magie à votre tour suivant, vous pouvez tenter de sonder davantage l’esprit de la cible. Dans ce cas, la cible effectue un jet de sauvegarde de Sagesse. En cas d’échec, vous saisissez comment elle raisonne, vous percevez son état émotionnel et ce qui l’anime ou la tracasse (une angoisse, une passion ou une haine, par exemple). En cas de réussite, le sort prend fin. Dans les deux cas, la cible sait que vous sondez son esprit. De plus, à moins que vous reportiez votre attention sur les pensées d’une autre créature, la cible peut consacrer l’action de son tour à effectuer un test d’Intelligence (Arcanes) contre votre DD de sauvegarde des sorts ; en cas de réussite, le sort prend fin.",
+    "source": "SRD officiel 5.2.1 FR · section de Detect Thoughts · CC-BY-4.0"
+  },
+  {
+    "en": "For the duration, the spell enlarges or reduces a creature or an object you can see within range (see the chosen effect below). A targeted object must be neither worn nor carried. If the target is an unwilling creature, it can make a Constitution saving throw. On a successful save, the spell has no effect.",
+    "fr": "Pour toute la durée, le sort agrandit ou rapetisse une créature ou un objet que vous voyez à portée (voir l’effet retenu ci-après). Dans le cas d’un objet, il ne doit être porté par personne. Si la cible est une créature non consentante, elle effectue un jet de sauvegarde de Constitution. En cas de réussite, le sort est sans effet.",
+    "source": "SRD officiel 5.2.1 FR · section de Enlarge/Reduce · CC-BY-4.0"
+  },
+  {
+    "en": "Everything that a targeted creature is wearing and carrying changes size with it. Any item it drops returns to normal size at once. A thrown weapon or piece of ammunition returns to normal size immediately after it hits or misses a target.",
+    "fr": "Tout ce que porte une créature ciblée change également de taille. Tout objet qu’elle lâche retrouve aussitôt sa taille normale. Les armes lancées et les projectiles retrouvent aussi leur taille dès qu’ils ont touché ou raté leur cible.",
+    "source": "SRD officiel 5.2.1 FR · section de Enlarge/Reduce · CC-BY-4.0"
+  },
+  {
+    "en": "Enlarge. The target’s size increases by one category—from Medium to Large, for example. The target also has Advantage on Strength checks and Strength saving throws. The target’s attacks with its enlarged weapons or Unarmed Strikes deal an extra 1d4 damage on a hit.",
+    "fr": "Agrandissement. La taille de la cible augmente d’une catégorie ; de taille M à G, par exemple. La cible a l’Avantage aux tests de Force et aux jets de sauvegarde de Force. Les attaques que la cible effectue avec une arme agrandie ou à mains nues infligent 1d4 dégâts supplémentaires quand elles touchent.",
+    "source": "SRD officiel 5.2.1 FR · section de Enlarge/Reduce · CC-BY-4.0"
+  },
+  {
+    "en": "Reduce. The target’s size decreases by one category—from Medium to Small, for example. The target also has Disadvantage on Strength checks and Strength saving throws. The target’s attacks with its reduced weapons or Unarmed Strikes deal 1d4 less damage on a hit (this can’t reduce the damage below 1).",
+    "fr": "Rapetissement. La taille de la cible diminue d’une catégorie ; de taille M à P, par exemple. La cible subit le Désavantage aux tests de Force et aux jets de sauvegarde de Force. Les attaques que la cible effectue avec une arme rapetissée ou à mains nues infligent 1d4 dégâts de moins quand elles touchent (minimum de 1 dégât).",
+    "source": "SRD officiel 5.2.1 FR · section de Enlarge/Reduce · CC-BY-4.0"
+  },
+  {
+    "en": "You set an alarm against intrusion. Choose a door, a window, or an area within range that is no larger than a 20-foot Cube. Until the spell ends, an alarm alerts you whenever a creature touches or enters the warded area. When you cast the spell, you can designate creatures that won’t set off the alarm. You also choose whether the alarm is audible or mental:",
+    "fr": "Vous disposez une alarme contre les intrus. Choisissez une porte, une fenêtre ou une zone à portée dont la taille n’excède pas un Cube de 6 m. Jusqu’à la fin du sort, vous êtes alerté chaque fois qu’une créature touche la zone protégée ou y pénètre. À l’incantation du sort, vous pouvez désigner des créatures qui ne déclencheront pas l’alarme. Vous choisissez également si l’alarme est mentale ou sonore :",
+    "source": "SRD officiel 5.2.1 FR · section de Alarm · CC-BY-4.0"
+  },
+  {
+    "en": "Audible Alarm. The alarm produces the sound of a handbell for 10 seconds within 60 feet of the warded area.",
+    "fr": "Alarme sonore. L’alarme produit le même son qu’une clochette, pendant 10 secondes, audible sur un rayon de 18 m de la zone protégée.",
+    "source": "SRD officiel 5.2.1 FR · section de Alarm · CC-BY-4.0"
+  },
+  {
+    "en": "Mental Alarm. You are alerted by a mental ping if you are within 1 mile of the warded area. This ping awakens you if you’re asleep.",
+    "fr": "Alarme mentale. L’alarme vous alerte par un signal psychique, à condition que vous soyez dans un rayon de 1,5 km de la zone protégée. Si vous dormez, ce signal vous réveille.",
+    "source": "SRD officiel 5.2.1 FR · section de Alarm · CC-BY-4.0"
+  },
+  {
+    "en": "You sense any trap within range that is within line of sight. A trap, for the purpose of this spell, includes any object or mechanism that was created to cause damage or other danger. Thus, the spell would sense the Alarm or Glyph of Warding spell or a mechanical pit trap, but it wouldn’t reveal a natural weakness in the floor, an unstable ceiling, or a hidden sinkhole.",
+    "fr": "Vous percevez la présence de tout piège à la fois à portée et dans votre champ de vision. Un piège, dans le cadre de ce sort, correspond à tout objet ou mécanisme conçu pour infliger des dégâts ou présenter un danger. Dans ces conditions, ce sort peut percevoir le sort alarme, un glyphe de garde ou une fosse qui s’ouvre mécaniquement, mais il ne révèle pas l’usure d’un plancher, l’instabilité d’un plafond ou un gouffre naturel caché par l’environnement.",
+    "source": "SRD officiel 5.2.1 FR · section de Find Traps · CC-BY-4.0"
+  },
+  {
+    "en": "This spell reveals that a trap is present but not its location. You do learn the general nature of the danger posed by a trap you sense.",
+    "fr": "Le sort se contente de révéler la présence d’un piège, pas son emplacement. Vous avez une notion de la nature du danger qu’il présente.",
+    "source": "SRD officiel 5.2.1 FR · section de Find Traps · CC-BY-4.0"
+  },
+  {
+    "en": "You evoke a fiery blade in your free hand. The blade is similar in size and shape to a scimitar, and it lasts for the duration. If you let go of the blade, it disappears, but you can evoke it again as a Bonus Action.",
+    "fr": "Vous faites apparaître une lame ardente dans votre main libre. La lame est comparable en taille et forme à un cimeterre. Elle persiste pour toute la durée. Si vous la lâchez, la lame disparaît, mais vous pouvez la faire réapparaître par une action Bonus.",
+    "source": "SRD officiel 5.2.1 FR · section de Flame Blade · CC-BY-4.0"
+  },
+  {
+    "en": "As a Magic action, you can make a melee spell attack with the fiery blade. On a hit, the target takes Fire damage equal to 3d6 plus your spellcasting ability modifier.",
+    "fr": "Au prix de l’action Magie, vous pouvez effectuer une attaque de sort avec la lame enflammée. Si l’attaque touche, la cible subit des dégâts de feu : 3d6 plus votre modificateur de caractéristique d’incantation.",
+    "source": "SRD officiel 5.2.1 FR · section de Flame Blade · CC-BY-4.0"
+  },
+  {
+    "en": "The flaming blade sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet.",
+    "fr": "La lame ardente projette une Lumière vive sur un rayon de 3 m, et une Lumière faible sur 3 m de plus.",
+    "source": "SRD officiel 5.2.1 FR · section de Flame Blade · CC-BY-4.0"
+  },
+  {
+    "en": "Using a Higher-Level Spell Slot. The damage increases by 1d6 for each spell slot level above 2.",
+    "fr": "Emplacement de niveau supérieur. Les dégâts augmentent de 1d6 par niveau d’emplacement au-delà du 2e.",
+    "source": "SRD officiel 5.2.1 FR · section de Shining Smite · CC-BY-4.0"
+  },
+  {
+    "en": "You create a 5-foot-diameter sphere of fire in an unoccupied space on the ground within range. It lasts for the duration. Any creature that ends its turn within 5 feet of the sphere makes a Dexterity saving throw, taking 2d6 Fire damage on a failed save or half as much damage on a successful one.",
+    "fr": "Vous produisez une Sphère de flammes de 1,50 m de diamètre qui apparaît au sol en un espace inoccupé à portée. Elle persiste pour toute la durée. Toute créature qui termine son tour dans un rayon de 1,50 m de la Sphère effectue un jet de sauvegarde de Dextérité et subit 2d6 dégâts de feu en cas d’échec, la moitié en cas de réussite.",
+    "source": "SRD officiel 5.2.1 FR · section de Flaming Sphere · CC-BY-4.0"
+  },
+  {
+    "en": "As a Bonus Action, you can move the sphere up to 30 feet, rolling it along the ground. If you move the sphere into a creature’s space, that creature makes the save against the sphere, and the sphere stops moving for the turn.",
+    "fr": "Par une action Bonus, vous pouvez déplacer la Sphère d’un maximum de 9 m, en la faisant rouler au sol. Si vous déplacez la Sphère dans l’espace d’une créature, celle-ci effectue un jet de sauvegarde contre les dégâts de la Sphère, puis la Sphère cesse de se déplacer pour ce tour.",
+    "source": "SRD officiel 5.2.1 FR · section de Flaming Sphere · CC-BY-4.0"
+  },
+  {
+    "en": "When you move the sphere, you can direct it over barriers up to 5 feet tall and jump it across pits up to 10 feet wide. Flammable objects that aren’t being worn or carried start burning if touched by the sphere, and it sheds Bright Light in a 20-foot radius and Dim Light for an additional 20 feet.",
+    "fr": "Lorsque vous déplacez la Sphère, vous pouvez lui faire franchir des obstacles dont la hauteur ne dépasse pas 1,50 m et des fosses d’une largeur maximale de 3 m. La Sphère embrase les objets inflammables qui ne sont portés par personne, produit une Lumière vive sur un rayon de 6 m et une Lumière faible sur 6 m de plus.",
+    "source": "SRD officiel 5.2.1 FR · section de Flaming Sphere · CC-BY-4.0"
+  },
+  {
+    "en": "A Line of strong wind 60 feet long and 10 feet wide blasts from you in a direction you choose for the duration. Each creature in the Line must succeed on a Strength saving throw or be pushed 15 feet away from you in a direction following the Line. A creature that ends its turn in the Line must make the same save.",
+    "fr": "Une Ligne de vent fort longue de 18 m et large de 3 m souffle depuis vous dans la direction de votre choix pour toute la durée. Toute créature prise dans la Ligne doit réussir un jet de sauvegarde de Force sous peine d’être repoussée de 4,50 m de vous selon la direction de la Ligne. Une créature qui termine son tour dans la Ligne est soumise au même JS.",
+    "source": "SRD officiel 5.2.1 FR · section de Gust of Wind · CC-BY-4.0"
+  },
+  {
+    "en": "Any creature in the Line must spend 2 feet of movement for every 1 foot it moves when moving closer to you.",
+    "fr": "Toute créature prise dans la Ligne qui se déplace vers vous doit dépenser 2 feet de déplacement pour chaque 1 foot parcouru.",
+    "source": "SRD 5.2.1 FR · section de Gust of Wind adaptée aux valeurs de Shard · CC-BY-4.0"
+  },
+  {
+    "en": "The gust disperses gas or vapor, and it extinguishes candles and similar unprotected flames in the area. It causes protected flames, such as those of lanterns, to dance wildly and has a 50 percent chance to extinguish them.",
+    "fr": "La bourrasque disperse les gaz et vapeurs, éteint les bougies et autres flammes exposées de la zone. Les flammes protégées, comme celles des lanternes, vacillent vigoureusement avec un risque de 50 % de s’éteindre.",
+    "source": "SRD officiel 5.2.1 FR · section de Gust of Wind · CC-BY-4.0"
+  },
+  {
+    "en": "As a Bonus Action on your later turns, you can change the direction in which the Line blasts from you.",
+    "fr": "Par une action Bonus à vos tours suivants, vous pouvez changer la direction dans laquelle la Ligne jaillit de vous.",
+    "source": "SRD officiel 5.2.1 FR · section de Gust of Wind · CC-BY-4.0"
+  },
+  {
+    "en": "Choose a manufactured metal object, such as a metal weapon or a suit of Heavy or Medium metal armor, that you can see within range. You cause the object to glow red-hot. Any creature in physical contact with the object takes 2d8 Fire damage when you cast the spell. Until the spell ends, you can take a Bonus Action on each of your later turns to deal this damage again if the object is within range.",
+    "fr": "Choisissez un objet manufacturé en métal, tel qu’une arme, ou une armure métallique intermédiaire ou lourde, que vous voyez à portée. Vous faites chauffer l’objet au rouge incandescent. Toute créature en contact physique avec l’objet subit 2d8 dégâts de feu à l’incantation du sort. Jusqu’à la fin du sort, vous pouvez appliquer de nouveau ces dégâts par une action Bonus à chacun de vos tours suivants, à condition que l’objet soit à portée.",
+    "source": "SRD officiel 5.2.1 FR · section de Heat Metal · CC-BY-4.0"
+  },
+  {
+    "en": "If a creature is holding or wearing the object and takes the damage from it, the creature must succeed on a Constitution saving throw or drop the object if it can. If it doesn’t drop the object, it has Disadvantage on attack rolls and ability checks until the start of your next turn.",
+    "fr": "Une créature qui tient un tel objet ou en est vêtue et qui subit les dégâts correspondants doit réussir un jet de sauvegarde de Constitution sous peine de lâcher l’objet (si elle en a la possibilité). Si elle ne peut pas le lâcher, elle a le Désavantage à ses jets d’attaque et tests de caractéristique jusqu’au début de votre tour suivant.",
+    "source": "SRD officiel 5.2.1 FR · section de Heat Metal · CC-BY-4.0"
+  },
+  {
+    "en": "Using a Higher-Level Spell Slot. The damage increases by 1d8 for each spell slot level above 2.",
+    "fr": "Emplacement de niveau supérieur. Les dégâts augmentent de 1d8 par niveau d’emplacement au-delà du 2e.",
+    "source": "SRD officiel 5.2.1 FR · section de Shatter · CC-BY-4.0"
+  },
+  {
+    "en": "Choose an object that you can see within range. The object can be a door, a box, a chest, a set of manacles, a padlock, or another object that contains a mundane or magical means that prevents access.",
+    "fr": "Choisissez un objet que vous voyez à portée. Il peut s’agir d’une porte, d’une boîte, d’un coffre, de menottes, d’un cadenas ou autre objet muni d’un système de fermeture, magique ou non.",
+    "source": "SRD officiel 5.2.1 FR · section de Knock · CC-BY-4.0"
+  },
+  {
+    "en": "A target that is held shut by a mundane lock or that is stuck or barred becomes unlocked, unstuck, or unbarred. If the object has multiple locks, only one of them is unlocked.",
+    "fr": "Une cible verrouillée par une serrure ordinaire, barrée ou coincée est aussitôt déverrouillée, débloquée ou décoincée. Si l’objet présente plusieurs verrous, un seul d’entre eux est débloqué.",
+    "source": "SRD officiel 5.2.1 FR · section de Knock · CC-BY-4.0"
+  },
+  {
+    "en": "If the target is held shut by Arcane Lock, that spell is suppressed for 10 minutes, during which time the target can be opened and closed.",
+    "fr": "Si la cible est fermée par verrou magique, ce sort est réprimé pendant 10 minutes, durant lesquelles vous pouvez ouvrir et fermer l’objet.",
+    "source": "SRD officiel 5.2.1 FR · section de Knock · CC-BY-4.0"
+  },
+  {
+    "en": "When you cast the spell, a loud knock, audible up to 300 feet away, emanates from the target.",
+    "fr": "À l’incantation du sort, un cognement sonore audible à 90 m émane de la cible.",
+    "source": "SRD officiel 5.2.1 FR · section de Knock · CC-BY-4.0"
+  },
+  {
+    "en": "One creature or loose object of your choice that you can see within range rises vertically up to 20 feet and remains suspended there for the duration. The spell can levitate an object that weighs up to 500 pounds. An unwilling creature that succeeds on a Constitution saving throw is unaffected.",
+    "fr": "Une créature ou un objet de votre choix que vous voyez à portée monte verticalement d’un maximum de 6 m et y reste, en suspension, pour toute la durée. Le sort peut faire léviter un objet dont le poids n’excède pas 500 pounds. Une créature non consentante qui réussit un jet de sauvegarde de Constitution n’est pas affectée.",
+    "source": "SRD 5.2.1 FR · section de Levitate adaptée aux valeurs de Shard · CC-BY-4.0"
+  },
+  {
+    "en": "The target can move only by pushing or pulling against a fixed object or surface within reach (such as a wall or a ceiling), which allows it to move as if it were climbing. You can change the target’s altitude by up to 20 feet in either direction on your turn. If you are the target, you can move up or down as part of your move. Otherwise, you can take a Magic action to move the target, which must remain within the spell’s range.",
+    "fr": "La cible ne peut se déplacer qu’en prenant appui sur des objets et surfaces fixes à portée (murs, plafonds, etc.), comme si elle escaladait. À votre tour, vous pouvez modifier l’altitude de la cible d’un maximum de 6 m vers le haut ou vers le bas. Si vous êtes la cible, vous pouvez vous déplacer ainsi dans le cadre de votre déplacement. Sans cela, vous devez entreprendre l’action Magie pour déplacer la cible, qui doit rester à portée du sort.",
+    "source": "SRD officiel 5.2.1 FR · section de Levitate · CC-BY-4.0"
+  },
+  {
+    "en": "Describe or name an object that is familiar to you. You sense the direction to the object’s location if that object is within 1,000 feet of you. If the object is in motion, you know the direction of its movement.",
+    "fr": "Décrivez ou nommez un objet qui vous est familier. Vous percevez dans quelle direction l’objet se trouve, à condition qu’il soit situé dans un rayon de 300 m. Si l’objet est en mouvement, vous savez dans quelle direction il se déplace.",
+    "source": "SRD officiel 5.2.1 FR · section de Locate Object · CC-BY-4.0"
+  },
+  {
+    "en": "The spell can locate a specific object known to you if you have seen it up close—within 30 feet—at least once. Alternatively, the spell can locate the nearest object of a particular kind, such as a certain kind of apparel, jewelry, furniture, tool, or weapon.",
+    "fr": "Le sort peut localiser un objet donné que vous connaissez, à condition que vous l’ayez déjà vu de près (9 m ou moins). Une autre option vous permet de localiser l’objet d’une certaine catégorie le plus proche, en mentionnant par exemple un certain genre de vêtement, de bijou, de meuble, d’outil ou d’arme.",
+    "source": "SRD officiel 5.2.1 FR · section de Locate Object · CC-BY-4.0"
+  },
+  {
+    "en": "This spell can’t locate an object if any thickness of lead blocks a direct path between you and the object.",
+    "fr": "Ce sort ne trouve pas l’objet si la moindre épaisseur de plomb vous en sépare.",
+    "source": "SRD officiel 5.2.1 FR · section de Locate Object · CC-BY-4.0"
+  },
+  {
+    "en": "You implant a message within an object in range—a message that is uttered when a trigger condition is met. Choose an object that you can see and that isn’t being worn or carried by another creature. Then speak the message, which must be 25 words or fewer, though it can be delivered over as long as 10 minutes. Finally, determine the circumstance that will trigger the spell to deliver your message.",
+    "fr": "Vous chargez un objet à portée d’un message qui sera prononcé lorsqu’une condition de déclenchement se présentera. Choisissez un objet que vous voyez et qui n’est pas porté par une autre créature. Prononcez alors un message d’un maximum de 25 mots (vous disposez toutefois de 10 minutes pour le peaufiner). Enfin, déterminez les circonstances qui déclencheront la transmission du message par le sort.",
+    "source": "SRD officiel 5.2.1 FR · section de Magic Mouth · CC-BY-4.0"
+  },
+  {
+    "en": "When that trigger occurs, a magical mouth appears on the object and recites the message in your voice and at the same volume you spoke. If the object you chose has a mouth or something that looks like a mouth (for example, the mouth of a statue), the magical mouth appears there, so the words appear to come from the object’s mouth. When you cast this spell, you can have the spell end after it delivers its message, or it can remain and repeat its message whenever the trigger occurs.",
+    "fr": "Quand cette condition se présente, une bouche magique apparaît sur l’objet et récite le message avec votre voix, au même volume que vous. Si l’objet choisi est lui-même doté d’une ouverture qui peut passer pour une bouche (comme sur une statue d’humanoïde), la bouche magique s’y manifeste et les mots semblent en émaner. À l’incantation du sort, vous pouvez décider que le sort prenne fin après avoir livré son message ou qu’il reste en place et répète son annonce chaque fois que le déclencheur se présente.",
+    "source": "SRD officiel 5.2.1 FR · section de Magic Mouth · CC-BY-4.0"
+  },
+  {
+    "en": "The trigger can be as general or as detailed as you like, though it must be based on visual or audible conditions that occur within 30 feet of the object. For example, you could instruct the mouth to speak when any creature moves within 30 feet of the object or when a silver bell rings within 30 feet of it.",
+    "fr": "Les circonstances de déclenchement peuvent être générales ou détaillées, à votre convenance, mais doivent correspondre à des conditions visuelles ou auditives intervenant dans un rayon de 9 m de l’objet. Vous pourriez ainsi statuer que la bouche s’exprime quand une créature s’approche à 9 m ou moins de l’objet ou quand une cloche d’argent sonne dans ce même rayon.",
+    "source": "SRD officiel 5.2.1 FR · section de Magic Mouth · CC-BY-4.0"
+  },
+  {
+    "en": "Three illusory duplicates of yourself appear in your space. Until the spell ends, the duplicates move with you and mimic your actions, shifting position so it’s impossible to track which image is real.",
+    "fr": "Trois répliques illusoires de vous-même apparaissent dans votre espace. Jusqu’à la fin du sort, les répliques se déplacent avec vous et reproduisent vos actions en changeant constamment de position, si bien qu’il est impossible de savoir quelle version est réelle.",
+    "source": "SRD officiel 5.2.1 FR · section de Mirror Image · CC-BY-4.0"
+  },
+  {
+    "en": "Each time a creature hits you with an attack roll during the spell’s duration, roll a d6 for each of your remaining duplicates. If any of the d6s rolls a 3 or higher, one of the duplicates is hit instead of you, and the duplicate is destroyed. The duplicates otherwise ignore all other damage and effects. The spell ends when all three duplicates are destroyed.",
+    "fr": "Chaque fois qu’une créature vous touche avec une attaque avant la fin du sort, lancez un d6 pour chacune de vos répliques. Si au moins l’un de ces d6 obtient un résultat de 3 ou plus, c’est l’une des répliques qui est touchée à votre place et qui est détruite. Pour le reste, les dégâts et effets ne s’appliquent pas aux répliques. Le sort prend fin quand les trois répliques sont détruites.",
+    "source": "SRD officiel 5.2.1 FR · section de Mirror Image · CC-BY-4.0"
+  },
+  {
+    "en": "A creature is unaffected by this spell if it has the Blinded condition, Blindsight, or Truesight.",
+    "fr": "Toute créature subissant l’état Aveuglé, ou dotée de la Vision aveugle ou de la Vision lucide, n’est pas affectée par ce sort.",
+    "source": "SRD officiel 5.2.1 FR · section de Mirror Image · CC-BY-4.0"
+  },
+  {
+    "en": "You touch a rope. One end of it hovers upward until the rope hangs perpendicular to the ground or the rope reaches a ceiling. At the rope’s upper end, an Invisible 3-foot-by-5-foot portal opens to an extra dimensional space that lasts until the spell ends. That space can be reached by climbing the rope, which can be pulled into or dropped out of it.",
+    "fr": "Vous touchez une corde. Une extrémité de la corde se dresse dans les airs jusqu’à ce que toute la corde soit perpendiculaire au sol ou qu’elle atteigne un plafond. À son extrémité supérieure, un portail Invisible de 1,50 m sur 90 cm donne sur un espace extradimensionnel qui persiste jusqu’à la fin du sort. On peut accéder à cet espace en grimpant au sommet de la corde qu’on peut haler dans l’espace ou laisser choir de l’ouverture.",
+    "source": "SRD officiel 5.2.1 FR · section de Rope Trick · CC-BY-4.0"
+  },
+  {
+    "en": "The space can hold up to eight Medium or smaller creatures. Attacks, spells, and other effects can’t pass into or out of the space, but creatures inside it can see through the portal. Anything inside the space drops out when the spell ends.",
+    "fr": "L’espace peut accueillir un maximum de huit créatures de taille M ou inférieure. Les attaques, sorts et autres effets ne peuvent franchir l’entrée de l’espace extradimensionnel, dans un sens comme dans l’autre, mais ses occupants voient ce qui se passe à l’extérieur. Tout ce qui se trouve à l’intérieur de l’espace tombe quand le sort prend fin.",
+    "source": "SRD officiel 5.2.1 FR · section de Rope Trick · CC-BY-4.0"
+  },
+  {
+    "en": "You create a floating, spectral force that resembles a weapon of your choice and lasts for the duration. The force appears within range in a space of your choice, and you can immediately make one melee spell attack against one creature within 5 feet of the force. On a hit, the target takes Force damage equal to 1d8 plus your spellcasting ability modifier.",
+    "fr": "Vous créez une arme spectrale et flottante à l’image de l’arme de votre choix, qui persiste pour toute la durée. L’arme apparaît à portée dans l’espace de votre choix et vous pouvez aussitôt effectuer une attaque de sort au corps à corps contre une créature située dans un rayon de 1,50 m de l’arme. Si l’attaque touche, la cible subit des dégâts de force égaux à 1d8 + votre modificateur de caractéristique d’incantation.",
+    "source": "SRD officiel 5.2.1 FR · section de Spiritual Weapon · CC-BY-4.0"
+  },
+  {
+    "en": "As a Bonus Action on your later turns, you can move the force up to 20 feet and repeat the attack against a creature within 5 feet of it.",
+    "fr": "Par une action Bonus à chaque tour consécutif, vous pouvez déplacer l’arme d’un maximum de 6 m et répéter l’attaque contre une créature située dans un rayon de 1,50 m de l’arme.",
+    "source": "SRD officiel 5.2.1 FR · section de Spiritual Weapon · CC-BY-4.0"
+  },
+  {
+    "en": "Using a Higher-Level Spell Slot. The damage increases by 1d8 for every slot level above 2.",
+    "fr": "Emplacement de niveau supérieur. Les dégâts augmentent de 1d8 par niveau d’emplacement au-delà du 2e.",
+    "source": "SRD officiel 5.2.1 FR · section de Spiritual Weapon · CC-BY-4.0"
+  },
+  {
+    "en": "A loud noise erupts from a point of your choice within range. Each creature in a 10-foot-radius Sphere centered there makes a Constitution saving throw, taking 3d8 Thunder damage on a failed save or half as much damage on a successful one. A Construct has Disadvantage on the save.",
+    "fr": "Un vacarme éclate en un point que vous choisissez à portée. Chaque créature prise dans une Sphère de 3 m de rayon centrée sur ce point effectue un jet de sauvegarde de Constitution et subit 3d8 dégâts de tonnerre en cas d’échec, la moitié en cas de réussite. Un Artificiel a le Désavantage à ce JS.",
+    "source": "SRD officiel 5.2.1 FR · section de Shatter · CC-BY-4.0"
+  },
+  {
+    "en": "A nonmagical object that isn’t being worn or carried also takes the damage if it’s in the spell’s area.",
+    "fr": "Un objet non magique qui n’est porté par personne subit lui aussi les dégâts s’il est dans la zone d’effet du sort.",
+    "source": "SRD officiel 5.2.1 FR · section de Shatter · CC-BY-4.0"
+  },
+  {
+    "en": "You create an Invisible sensor within range in a location familiar to you (a place you have visited or seen before) or in an obvious location that is unfamiliar to you (such as behind a door, around a corner, or in a grove of trees). The intangible, invulnerable sensor remains in place for the duration.",
+    "fr": "Vous créez un capteur Invisible à portée en un lieu que vous connaissez (pour l’avoir déjà visité ou vu) ou en un lieu que vous ne connaissez pas, mais que vous pouvez imaginer (derrière une porte, au coin d’un couloir ou dans un bosquet d’arbres). Ce capteur intangible et invulnérable reste en place pour toute la durée.",
+    "source": "SRD officiel 5.2.1 FR · section de Clairvoyance · CC-BY-4.0"
+  },
+  {
+    "en": "When you cast the spell, choose seeing or hearing. You can use the chosen sense through the sensor as if you were in its space. As a Bonus Action, you can switch between seeing and hearing.",
+    "fr": "À l’incantation du sort, choisissez entre écouter et observer. Vous pouvez alors recourir au sens retenu (ouïe ou vision) comme si vous vous trouviez dans l’espace du capteur. Par une action Bonus, vous pouvez passer de l’ouïe à la vision, ou réciproquement.",
+    "source": "SRD officiel 5.2.1 FR · section de Clairvoyance · CC-BY-4.0"
+  },
+  {
+    "en": "A creature that sees the sensor (such as a creature benefiting from See Invisibility or Truesight) sees a luminous orb about the size of your fist.",
+    "fr": "Une créature qui voit le capteur (parce qu’elle bénéficie de détection de l’invisibilité ou de la Vision lucide, par exemple) perçoit un globe lumineux de la taille de votre poing.",
+    "source": "SRD officiel 5.2.1 FR · section de Clairvoyance · CC-BY-4.0"
+  },
+  {
+    "en": "For the duration, sunlight spreads from a point within range and fills a 60-foot-radius Sphere. The sunlight’s area is Bright Light and sheds Dim Light for an additional 60 feet.",
+    "fr": "Pour toute la durée, la lumière du soleil rayonne depuis un point à portée en emplissant une Sphère de 18 m de rayon. La Sphère constitue une zone de Lumière vive et produit une Lumière faible sur 18 m de plus.",
+    "source": "SRD officiel 5.2.1 FR · section de Daylight · CC-BY-4.0"
+  },
+  {
+    "en": "Alternatively, you cast the spell on an object that isn’t being worn or carried, causing the sunlight to fill a 60-foot Emanation originating from that object. Covering that object with something opaque, such as a bowl or helm, blocks the sunlight.",
+    "fr": "Au lieu de cela, vous pouvez lancer le sort sur un objet porté par personne, de manière à ce que les rayons du soleil emplissent une Émanation de 18 m centrée sur l’objet. Il suffit de recouvrir cet objet d’une surface opaque, comme une gamelle ou un heaume, pour bloquer la lumière du soleil.",
+    "source": "SRD officiel 5.2.1 FR · section de Daylight · CC-BY-4.0"
+  },
+  {
+    "en": "If any of this spell’s area overlaps with an area of Darkness created by a spell of level 3 or lower, that other spell is dispelled.",
+    "fr": "Si tout ou partie de ce sort chevauche la zone de Ténèbres créée par un sort du 3e niveau ou inférieur, cet autre sort est dissipé.",
+    "source": "SRD officiel 5.2.1 FR · section de Daylight · CC-BY-4.0"
+  },
+  {
+    "en": "Each creature in a 30-foot Cone must succeed on a Wisdom saving throw or drop whatever it is holding and have the Frightened condition for the duration.",
+    "fr": "Chaque créature prise dans un Cône de 9 m doit réussir un jet de sauvegarde de Sagesse sous peine de lâcher ce qu’elle tient, et de subir l’état Effrayé pour toute la durée.",
+    "source": "SRD officiel 5.2.1 FR · section de Fear · CC-BY-4.0"
+  },
+  {
+    "en": "A Frightened creature takes the Dash action and moves away from you by the safest route on each of its turns unless there is nowhere to move. If the creature ends its turn in a space where it doesn’t have line of sight to you, the creature makes a Wisdom saving throw. On a successful save, the spell ends on that creature.",
+    "fr": "Ainsi Effrayée, la créature entreprend à chacun de ses tours l’action Pointe pour s’éloigner de vous par le chemin le plus sûr, sauf si elle n’a nulle part où aller. Si la créature termine son tour en un espace d’où elle ne vous a plus dans son champ de vision, elle effectue un jet de sauvegarde de Sagesse. En cas de réussite, le sort prend fin pour elle.",
+    "source": "SRD officiel 5.2.1 FR · section de Fear · CC-BY-4.0"
+  },
+  {
+    "en": "A willing creature you touch shape-shifts, along with everything it’s wearing and carrying, into a misty cloud for the duration. The spell ends on the target if it drops to 0 Hit Points or if it takes a Magic action to end the spell on itself.",
+    "fr": "Pour toute la durée, une créature consentante que vous touchez se métamorphose, ainsi que tout ce qu’elle porte, en nuage de brume. Le sort prend fin si la cible tombe à 0 point de vie ou si elle entreprend l’action Magie pour y mettre fin sur elle-même.",
+    "source": "SRD officiel 5.2.1 FR · section de Gaseous Form · CC-BY-4.0"
+  },
+  {
+    "en": "While in this form, the target’s only method of movement is a Fly Speed of 10 feet, and it can hover. The target can enter and occupy the space of another creature. The target has Resistance to Bludgeoning, Piercing, and Slashing damage; it has Immunity to the Prone condition; and it has Advantage on Strength, Dexterity, and Constitution saving throws. The target can pass through narrow openings, but it treats liquids as though they were solid surfaces.",
+    "fr": "Sous cette forme, la cible n’a qu’un seul mode de déplacement : une Vitesse de vol de 3 m, avec le vol stationnaire. Elle peut pénétrer dans l’espace d’une autre créature et l’occuper. La cible bénéficie de la Résistance aux dégâts contondants, perforants et tranchants, et de l’Immunité contre l’état À terre ; elle a aussi l’Avantage aux jets de sauvegarde de Force, Dextérité et Constitution. Elle peut se glisser dans les ouvertures les plus étroites, mais les liquides sont traités dans son cas comme des surfaces solides.",
+    "source": "SRD officiel 5.2.1 FR · section de Gaseous Form · CC-BY-4.0"
+  },
+  {
+    "en": "The target can’t talk or manipulate objects, and any objects it was carrying or holding can’t be dropped, used, or otherwise interacted with. Finally, the target can’t attack or cast spells.",
+    "fr": "La cible ne peut ni parler ni manipuler d’objets, et il lui reste impossible de lâcher ou d’utiliser ce qu’elle portait, ou d’interagir avec cet équipement. La cible ne peut ni attaquer ni lancer de sorts.",
+    "source": "SRD officiel 5.2.1 FR · section de Gaseous Form · CC-BY-4.0"
+  },
+  {
+    "en": "Using a Higher-Level Spell Slot. You can target one additional creature for each spell slot level above 3.",
+    "fr": "Emplacement de niveau supérieur. Vous pouvez cibler une créature supplémentaire par niveau d’emplacement au-delà du 3e.",
+    "source": "SRD officiel 5.2.1 FR · section de Gaseous Form · CC-BY-4.0"
+  },
+  {
+    "en": "Choose a willing creature that you can see within range. Until the spell ends, the target’s Speed is doubled, it gains a +2 bonus to Armor Class, it has Advantage on Dexterity saving throws, and it gains an additional action on each of its turns. That action can be used to take only the Attack (one attack only), Dash, Disengage, Hide, or Utilize action.",
+    "fr": "Choisissez une créature consentante que vous voyez à portée. Jusqu’à la fin du sort, la cible voit sa Vitesse doubler, sa classe d’armure reçoit un bonus de +2, elle a l’Avantage aux jets de sauvegarde de Dextérité et bénéficie d’une action supplémentaire à chacun de ses tours. Cette action ne peut servir qu’à entreprendre l’action Attaque (une seule attaque d’arme), Désengagement, Furtivité, Pointe ou Utilisation.",
+    "source": "SRD officiel 5.2.1 FR · section de Haste · CC-BY-4.0"
+  },
+  {
+    "en": "When the spell ends, the target is Incapacitated and has a Speed of 0 until the end of its next turn, as a wave of lethargy washes over it.",
+    "fr": "Lorsque le sort prend fin, jusqu’à la fin de son tour suivant, la cible en proie à une vague de léthargie subit l’état Neutralisé et sa vitesse est de 0.",
+    "source": "SRD officiel 5.2.1 FR · section de Haste · CC-BY-4.0"
+  },
+  {
+    "en": "You create a 10-foot-radius, 20-foot-tall Cylinder of magical energy centered on a point on the ground that you can see within range. Glowing runes appear wherever the Cylinder intersects with the floor or other surface.",
+    "fr": "Vous créez un Cylindre d’énergies magiques, de 3 m de rayon et 6 m de haut, centré sur un point du sol que vous voyez à portée. Des runes luisantes apparaissent sur toute surface comprise dans le Cylindre, y compris le sol.",
+    "source": "SRD officiel 5.2.1 FR · section de Magic Circle · CC-BY-4.0"
+  },
+  {
+    "en": "Choose one or more of the following types of creatures: Celestials, Elementals, Fey, Fiends, or Undead. The circle affects a creature of the chosen type in the following ways:",
+    "fr": "Choisissez un ou plusieurs types parmi les suivants : Célestes, Élémentaires, Fées, Fiélons et Morts-vivants. Le cercle affecte les créatures du ou des types retenus des façons suivantes :",
+    "source": "SRD officiel 5.2.1 FR · section de Magic Circle · CC-BY-4.0"
+  },
+  {
+    "en": "The creature can’t willingly enter the Cylinder by nonmagical means. If the creature tries to use teleportation or interplanar travel to do so, it must first succeed on a Charisma saving throw.",
+    "fr": "La créature ne peut pénétrer dans le Cylindre de son plein gré sans recourir à des moyens magiques. Si la créature recourt à la téléportation ou au voyage interplanaire pour ce faire, elle doit d’abord réussir un jet de sauvegarde de Charisme.",
+    "source": "SRD officiel 5.2.1 FR · section de Magic Circle · CC-BY-4.0"
+  },
+  {
+    "en": "The creature has Disadvantage on attack rolls against targets within the Cylinder.",
+    "fr": "La créature a le Désavantage aux jets d’attaque contre les cibles situées dans le Cylindre.",
+    "source": "SRD officiel 5.2.1 FR · section de Magic Circle · CC-BY-4.0"
+  },
+  {
+    "en": "Targets within the Cylinder can’t be possessed by or gain the Charmed or Frightened condition from the creature.",
+    "fr": "La créature ne peut pas posséder une cible comprise dans le Cylindre ni lui imposer l’état Charmé ou Effrayé.",
+    "source": "SRD officiel 5.2.1 FR · section de Magic Circle · CC-BY-4.0"
+  },
+  {
+    "en": "Each time you cast this spell, you can cause its magic to operate in the reverse direction, preventing a creature of the specified type from leaving the Cylinder and protecting targets outside it.",
+    "fr": "À chaque incantation du sort, vous pouvez inverser l’orientation de sa magie, c’est-à-dire en empêchant toute créature du ou des types retenus de quitter le Cylindre et en protégeant les cibles qui se trouvent à l’extérieur.",
+    "source": "SRD officiel 5.2.1 FR · section de Magic Circle · CC-BY-4.0"
+  },
+  {
+    "en": "Using a Higher-Level Spell Slot. The duration increases by 1 hour for each spell slot level above 3.",
+    "fr": "Emplacement de niveau supérieur. La durée augmente de 1 heure par niveau d’emplacement au-delà du 3e.",
+    "source": "SRD officiel 5.2.1 FR · section de Magic Circle · CC-BY-4.0"
+  },
+  {
+    "en": "You create the image of an object, a creature, or some other visible phenomenon that is no larger than a 20-foot Cube. The image appears at a spot that you can see within range and lasts for the duration. It seems real, including sounds, smells, and temperature appropriate to the thing depicted, but it can’t deal damage or cause conditions.",
+    "fr": "Vous créez l’image d’un objet, d’une créature ou autre phénomène visible dont la taille ne dépasse pas celle d’un Cube de 6 m. L’image apparaît en un endroit que vous voyez à portée et persiste pour toute la durée. Elle semble réelle, avec les sons, les odeurs et la température attendus, mais elle ne peut infliger de dégâts ni d’états.",
+    "source": "SRD officiel 5.2.1 FR · section de Major Image · CC-BY-4.0"
+  },
+  {
+    "en": "If you are within range of the illusion, you can take a Magic action to cause the image to move to any other spot within range. As the image changes location, you can alter its appearance so that its movements appear natural for the image. For example, if you create an image of a creature and move it, you can alter the image so that it appears to be walking. Similarly, you can cause the illusion to make different sounds at different times, even making it carry on a conversation, for example.",
+    "fr": "Si vous êtes à portée de l’illusion, vous pouvez entreprendre l’action Magie pour déplacer l’image vers un autre point à portée du sort. Lors de ce déplacement, vous pouvez modifier l’aspect de l’image afin que ses mouvements paraissent naturels. Exemple : si vous créez l’image d’une créature que vous faites déplacer, vous pouvez faire en sorte qu’elle donne l’impression de marcher. De même, vous pouvez lui faire produire des sons à votre guise et même la faire participer à une conversation.",
+    "source": "SRD officiel 5.2.1 FR · section de Major Image · CC-BY-4.0"
+  },
+  {
+    "en": "Physical interaction with the image reveals it to be an illusion, for things can pass through it. A creature that takes a Study action to examine the image can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image, and its other sensory qualities become faint to the creature.",
+    "fr": "Toute interaction physique avec l’image percera l’illusion, car elle n’est pas tangible. Une créature qui entreprend l’action Étude pour examiner l’image peut comprendre qu’il s’agit d’une illusion en réussissant un test d’Intelligence (Investigation) assorti de votre DD de sauvegarde des sorts. Une créature qui perce l’illusion voit au travers et ne perçoit que de manière amoindrie les propriétés sensorielles produites par l’image.",
+    "source": "SRD officiel 5.2.1 FR · section de Major Image · CC-BY-4.0"
+  },
+  {
+    "en": "Using a Higher-Level Spell Slot. The spell lasts until dispelled, without requiring Concentration, if cast with a level 4+ spell slot.",
+    "fr": "Emplacement de niveau supérieur. Lancé par un emplacement du 4e niveau ou supérieur, le sort persiste jusqu’à dissipation sans besoin de Concentration.",
+    "source": "SRD officiel 5.2.1 FR · section de Major Image · CC-BY-4.0"
+  },
+  {
+    "en": "This spell channels vitality into plants. The casting time you use determines whether the spell has the Overgrowth or the Enrichment effect below.",
+    "fr": "Ce sort gorge les plantes de vitalité. La durée d’incantation employée détermine l’effet du sort : Embroussaillement ou Fertilisation, ci-après.",
+    "source": "SRD officiel 5.2.1 FR · section de Plant Growth · CC-BY-4.0"
+  },
+  {
+    "en": "Overgrowth. Choose a point within range. All normal plants in a 100-foot-radius Sphere centered on that point become thick and overgrown. A creature moving through that area must spend 4 feet of movement for every 1 foot it moves. You can exclude one or more areas of any size within the spell’s area from being affected.",
+    "fr": "Embroussaillement. Choisissez un point à portée. Toutes les plantes normales dans une Sphère d’un rayon de 30 m centré sur ce point grossissent et grandissent. Une créature qui se déplace dans la zone doit dépenser 4 feet de déplacement pour chaque 1 foot parcouru. Vous pouvez désigner une ou plusieurs zones de n’importe quelle taille dans la zone d’effet du sort pour qu’elles ne soient pas affectées.",
+    "source": "SRD 5.2.1 FR · section de Plant Growth adaptée aux valeurs de Shard · CC-BY-4.0"
+  },
+  {
+    "en": "Enrichment. All plants in a half-mile radius centered on a point within range become enriched for 365 days. The plants yield twice the normal amount of food when harvested. They can benefit from only one Plant Growth per year.",
+    "fr": "Fertilisation. Toutes les plantes dans un rayon d’un demi-mile d’un point à portée gagnent en fécondité pendant 365 jours. Ces plantes produisent le double des apports alimentaires normaux lors des récoltes. Elles ne peuvent tirer profit de croissance végétale qu’une fois par an.",
+    "source": "SRD 5.2.1 FR · section de Plant Growth adaptée aux valeurs de Shard · CC-BY-4.0"
+  },
+  {
+    "en": "You grant the semblance of life to a corpse of your choice within range, allowing it to answer questions you pose. The corpse must have a mouth, and this spell fails if the deceased creature was Undead when it died. The spell also fails if the corpse was the target of this spell within the past 10 days.",
+    "fr": "Vous octroyez un semblant de vie à un cadavre que vous choisissez à portée, pour qu’il puisse répondre aux questions que vous lui posez. La dépouille doit disposer d’une bouche et le sort échoue si la créature décédée était un Mort-vivant au moment de trépasser. Le sort échoue également si le cadavre a déjà été ciblé par ce sort au cours des 10 derniers jours.",
+    "source": "SRD officiel 5.2.1 FR · section de Speak with Dead · CC-BY-4.0"
+  },
+  {
+    "en": "Until the spell ends, you can ask the corpse up to five questions. The corpse knows only what it knew in life, including the languages it knew. Answers are usually brief, cryptic, or repetitive, and the corpse is under no compulsion to offer a truthful answer if you are antagonistic toward it or it recognizes you as an enemy. This spell doesn’t return the creature’s soul to its body, only its animating spirit. Thus, the corpse can’t learn new information, doesn’t comprehend anything that has happened since it died, and can’t speculate about future events.",
+    "fr": "Jusqu’à la fin du sort, vous pouvez poser jusqu’à cinq questions à la dépouille. Elle ne sait rien de plus que de son vivant et parle toujours les mêmes langues. Ses réponses ont tendance à se montrer brèves, sibyllines ou répétitives, d’autant que le cadavre n’est nullement contraint de vous répondre avec sincérité si vous lui êtes antipathique ou s’il vous voit comme un ennemi. Ce sort ne ramène pas l’âme de la créature dans son corps ; il ne fait qu’animer son esprit. Ainsi, le cadavre ne peut rien apprendre de nouveau ni comprendre ce qui a pu se passer depuis son décès, et ne peut pas davantage conjecturer sur l’avenir.",
+    "source": "SRD officiel 5.2.1 FR · section de Speak with Dead · CC-BY-4.0"
+  },
+  {
+    "en": "You imbue plants in an immobile 30-foot Emanation with limited sentience and animation, giving them the ability to communicate with you and follow your simple commands. You can question plants about events in the spell’s area within the past day, gaining information about creatures that have passed, weather, and other circumstances.",
+    "fr": "Vous investissez la flore comprise dans une Émanation immobile de 9 m d’une conscience limitée et de mouvements, de quoi lui permettre de communiquer avec vous et de suivre vos instructions rudimentaires. Vous pouvez interroger ces plantes sur ce qui s’est passé dans la zone du sort depuis un jour, notamment la nature des créatures qui l’ont traversée, le temps qu’il a fait et autres détails.",
+    "source": "SRD officiel 5.2.1 FR · section de Speak with Plants · CC-BY-4.0"
+  },
+  {
+    "en": "You can also turn Difficult Terrain caused by plant growth (such as thickets and undergrowth) into ordinary terrain that lasts for the duration. Or you can turn ordinary terrain where plants are present into Difficult Terrain that lasts for the duration.",
+    "fr": "Vous pouvez également transformer tout Terrain difficile engendré par la végétation (buissons et sousbois, par exemple) en terrain ordinaire qui persiste pour toute la durée. Ou bien transformer un terrain ordinaire pourvu de végétation en Terrain difficile qui persiste pour toute la durée.",
+    "source": "SRD officiel 5.2.1 FR · section de Speak with Plants · CC-BY-4.0"
+  },
+  {
+    "en": "The spell doesn’t enable plants to uproot themselves and move about, but they can move their branches, tendrils, and stalks for you.",
+    "fr": "Le sort ne permet pas aux plantes de se déraciner pour se déplacer, mais elles peuvent agiter leurs branches, leurs vrilles et leurs pédoncules.",
+    "source": "SRD officiel 5.2.1 FR · section de Speak with Plants · CC-BY-4.0"
+  },
+  {
+    "en": "If a Plant creature is in the area, you can communicate with it as if you shared a common language.",
+    "fr": "Si une créature de type Plante se trouve dans la zone, vous pouvez communiquer avec elle comme si vous parliez une langue commune.",
+    "source": "SRD officiel 5.2.1 FR · section de Speak with Plants · CC-BY-4.0"
+  },
+  {
+    "en": "A wall of strong wind rises from the ground at a point you choose within range. You can make the wall up to 50 feet long, 15 feet high, and 1 foot thick. You can shape the wall in any way you choose so long as it makes one continuous path along the ground. The wall lasts for the duration.",
+    "fr": "Un mur de vent fort se dresse depuis le sol en un point que vous choisissez à portée. Vous pouvez ainsi ériger un mur dont la hauteur n’excède pas 4,50 m, la longueur 15 m et l’épaisseur 30 cm. Vous pouvez lui donner la forme de votre choix tant que le mur reste au contact du sol tout du long. Le mur persiste pour toute la durée.",
+    "source": "SRD officiel 5.2.1 FR · section de Wind Wall · CC-BY-4.0"
+  },
+  {
+    "en": "When the wall appears, each creature in its area makes a Strength saving throw, taking 4d8 Bludgeoning damage on a failed save or half as much damage on a successful one.",
+    "fr": "Quand le mur apparaît, chaque créature prise dans sa zone effectue un jet de sauvegarde de Force et subit 4d8 dégâts contondants en cas d’échec, la moitié en cas de réussite.",
+    "source": "SRD officiel 5.2.1 FR · section de Wind Wall · CC-BY-4.0"
+  },
+  {
+    "en": "The strong wind keeps fog, smoke, and other gases at bay. Small or smaller flying creatures or objects can’t pass through the wall. Loose, lightweight materials brought into the wall fly upward. Arrows, bolts, and other ordinary projectiles launched at targets behind the wall are deflected upward and miss automatically. Boulders hurled by Giants or siege engines, and similar projectiles, are unaffected. Creatures in gaseous form can’t pass through it.",
+    "fr": "Le vent fort repousse le brouillard, la fumée et autres gaz et vapeurs. Les créatures et objets volants de taille P ou inférieure ne peuvent pas traverser le mur. Les matériaux légers et libres s’envolent verticalement au contact du mur. Flèches, carreaux d’arbalète et autres projectiles ordinaires tirés sur des cibles situées derrière le mur sont déviés vers le haut et ratent automatiquement. (Les rochers lancés par des Géants et des engins de siège, et les projectiles du même acabit ne sont pas affectés.) Les créatures sous forme gazeuse ne peuvent pas le traverser.",
+    "source": "SRD officiel 5.2.1 FR · section de Wind Wall · CC-BY-4.0"
+  },
+  {
+    "en": "You create an Invisible, invulnerable eye within range that hovers for the duration. You mentally receive visual information from the eye, which can see in every direction. It also has Darkvision with a range of 30 feet.",
+    "fr": "Vous créez un œil invulnérable et Invisible à portée, qui flotte dans les airs pour toute la durée. Vous recevez mentalement des informations visuelles transmises par l’œil, qui voit dans toutes les directions. Il dispose en outre de la Vision dans le noir sur 9 m.",
+    "source": "SRD officiel 5.2.1 FR · section de Arcane Eye · CC-BY-4.0"
+  },
+  {
+    "en": "As a Bonus Action, you can move the eye up to 30 feet in any direction. A solid barrier blocks the eye’s movement, but the eye can pass through an opening as small as 1 inch in diameter.",
+    "fr": "Par une action Bonus, vous pouvez déplacer l’œil d’un maximum de 9 m dans la direction de votre choix. Un obstacle solide bloque les déplacements de l’œil, mais celui-ci peut se glisser dans un interstice d’une largeur minimale de 2,5 cm.",
+    "source": "SRD officiel 5.2.1 FR · section de Arcane Eye · CC-BY-4.0"
+  },
+  {
+    "en": "You touch a creature and grant it a measure of protection from death. The first time the target would drop to 0 Hit Points before the spell ends, the target instead drops to 1 Hit Point, and the spell ends.",
+    "fr": "Vous touchez une créature pour la préserver de la mort. La première fois que la cible est censée tomber à 0 point de vie avant la fin du sort, elle se retrouve en fait à 1 point de vie, puis le sort prend fin.",
+    "source": "SRD officiel 5.2.1 FR · section de Death Ward · CC-BY-4.0"
+  },
+  {
+    "en": "If the spell is still in effect when the target is subjected to an effect that would kill it instantly without dealing damage, that effect is negated against the target, and the spell ends.",
+    "fr": "Si ce sort est toujours actif alors que la cible est soumise à un effet censé la tuer sur le coup sans lui infliger de dégâts, cet effet est annulé en ce qui la concerne, et le sort prend fin.",
+    "source": "SRD officiel 5.2.1 FR · section de Death Ward · CC-BY-4.0"
+  },
+  {
+    "en": "You teleport to a location within range. You arrive at exactly the spot desired. It can be a place you can see, one you can visualize, or one you can describe by stating distance and direction, such as “200 feet straight downward” or “300 feet upward to the northwest at a 45-degree angle.”",
+    "fr": "Vous vous téléportez en un lieu à portée. Vous arrivez précisément à l’endroit désiré. Il peut s’agir d’un lieu que vous voyez, que vous visualisez ou dont vous pouvez spécifier la distance et la direction, comme « 60 m directement en contrebas » ou « en montant vers le nord-ouest à 45 degrés sur 90 m ».",
+    "source": "SRD officiel 5.2.1 FR · section de Dimension Door · CC-BY-4.0"
+  },
+  {
+    "en": "You can also teleport one willing creature. The creature must be within 5 feet of you when you teleport, and it teleports to a space within 5 feet of your destination space.",
+    "fr": "Vous pouvez aussi téléporter une créature consentante. Celle-ci doit se trouver dans un rayon de 1,50 m de vous quand vous vous téléportez, et réapparaît dans un rayon de 1,50 m de votre espace de destination.",
+    "source": "SRD officiel 5.2.1 FR · section de Dimension Door · CC-BY-4.0"
+  },
+  {
+    "en": "If you, the other creature, or both would arrive in a space occupied by a creature or completely filled by one or more objects, you and any creature traveling with you each take 4d6 Force damage, and the teleportation fails.",
+    "fr": "Si le sort est censé vous transporter (ou l’autre créature) en un lieu déjà occupé par une créature ou complètement obstrué par un ou plusieurs objets, vous et toute créature qui vous accompagne subissez chacun 4d6 dégâts de force et le sort ne vous téléporte pas.",
+    "source": "SRD officiel 5.2.1 FR · section de Dimension Door · CC-BY-4.0"
+  },
+  {
+    "en": "One Beast you can see within range must succeed on a Wisdom saving throw or have the Charmed condition for the duration. The target has Advantage on the save if you or your allies are fighting it. Whenever the target takes damage, it repeats the save, ending the spell on itself on a success.",
+    "fr": "Une Bête que vous voyez à portée doit réussir un jet de sauvegarde de Sagesse sous peine de subir l’état Charmé pour toute la durée. La cible a l’Avantage au JS si vous ou vos alliés êtes en train de l’affronter. Chaque fois que la cible subit des dégâts, elle réitère le JS et met un terme au sort sur elle-même en cas de réussite.",
+    "source": "SRD officiel 5.2.1 FR · section de Dominate Beast · CC-BY-4.0"
+  },
+  {
+    "en": "You have a telepathic link with the Charmed target while the two of you are on the same plane of existence. On your turn, you can use this link to issue commands to the target (no action required), such as “Attack that creature,” “Move over there,” or “Fetch that object.” The target does its best to obey on its turn. If it completes an order and doesn’t receive further direction from you, it acts and moves as it likes, focusing on protecting itself.",
+    "fr": "Un lien télépathique persiste entre vous et la cible Charmée tant que vous êtes tous deux sur un même plan d’existence. À votre tour, vous pouvez profiter de ce lien pour donner des ordres à la cible (pas d’action requise), tels que « Attaque cette créature », « File là-bas » ou « Attrape cet objet ». La cible fait de son mieux pour vous obéir à son tour. Si la créature accomplit sa tâche et ne reçoit pas d’autre instruction de votre part, elle agit et se déplace à sa guise, en cherchant avant tout à se protéger.",
+    "source": "SRD officiel 5.2.1 FR · section de Dominate Beast · CC-BY-4.0"
+  },
+  {
+    "en": "You can command the target to take a Reaction but must take your own Reaction to do so.",
+    "fr": "Vous pouvez aussi lui faire jouer une Réaction, au prix toutefois de votre propre Réaction.",
+    "source": "SRD officiel 5.2.1 FR · section de Dominate Beast · CC-BY-4.0"
+  },
+  {
+    "en": "Using a Higher-Level Spell Slot. Your Concentration can last longer with a spell slot of level 5 (up to 10 minutes), 6 (up to 1 hour), or 7+ (up to 8 hours).",
+    "fr": "Emplacement de niveau supérieur. Votre Concentration peut persister plus longtemps avec un emplacement du 5e niveau (jusqu’à 10 minutes), du 6e (jusqu’à 1 heure), ou du 7e et supérieur (jusqu’à 8 heures).",
+    "source": "SRD officiel 5.2.1 FR · section de Dominate Beast · CC-BY-4.0"
+  },
+  {
+    "en": "You convert raw materials into products of the same material. For example, you can fabricate a wooden bridge from a clump of trees, a rope from a patch of hemp, or clothes from flax or wool.",
+    "fr": "Vous convertissez des matières premières en produits finis. Vous pouvez ainsi fabriquer un pont de bois à partir d’un massif d’arbres, une corde à partir d’un tas de chanvre et des vêtements avec de la laine ou du lin en vrac.",
+    "source": "SRD officiel 5.2.1 FR · section de Fabricate · CC-BY-4.0"
+  },
+  {
+    "en": "Choose raw materials that you can see within range. You can fabricate a Large or smaller object (contained within a 10-foot Cube or eight connected 5-foot Cubes) given a sufficient quantity of material. If you’re working with metal, stone, or another mineral substance, however, the fabricated object can be no larger than Medium (contained within a 5-foot Cube). The quality of any fabricated objects is based on the quality of the raw materials.",
+    "fr": "Choisissez des matières premières que vous voyez à portée. Vous pouvez fabriquer un objet de taille G ou inférieure (qui loge dans un Cube de 3 m ou huit Cubes contigus de 1,50 m), à condition de disposer de suffisamment de matières premières. Si vous optez pour du métal, de la pierre ou toute autre substance minérale, l’objet fabriqué ne peut toutefois pas dépasser une taille M (qui loge dans un Cube de 1,50 m). La facture des objets ainsi confectionnés est à la mesure de la qualité des matières premières.",
+    "source": "SRD officiel 5.2.1 FR · section de Fabricate · CC-BY-4.0"
+  },
+  {
+    "en": "Creatures and magic items can’t be created by this spell. You also can’t use it to create items that require a high degree of skill—such as weapons and armor—unless you have proficiency with the type of Artisan’s Tools used to craft such objects.",
+    "fr": "Vous ne pouvez pas créer d’objet magique ni de créature avec ce sort. De même, vous ne pouvez pas créer d’objets dont la confection demande un savoir-faire exceptionnel, comme des armes ou des armures, sauf si vous disposez de la maîtrise des outils d’artisan correspondants.",
+    "source": "SRD officiel 5.2.1 FR · section de Fabricate · CC-BY-4.0"
+  },
+  {
+    "en": "Wispy flames wreathe your body for the duration, shedding Bright Light in a 10-foot radius and Dim Light for an additional 10 feet.",
+    "fr": "Des flammes ondoyantes vous enveloppent pour toute la durée en produisant une Lumière vive dans un rayon de 3 m et une Lumière faible sur 3 m de plus.",
+    "source": "SRD officiel 5.2.1 FR · section de Fire Shield · CC-BY-4.0"
+  },
+  {
+    "en": "The flames provide you with a warm shield or a chill shield, as you choose. The warm shield grants you Resistance to Cold damage, and the chill shield grants you Resistance to Fire damage.",
+    "fr": "Les flammes vous procurent un écran chaud ou frais, à votre convenance. Un écran chaud vous octroie la Résistance aux dégâts de froid, un écran frais la Résistance aux dégâts de feu.",
+    "source": "SRD officiel 5.2.1 FR · section de Fire Shield · CC-BY-4.0"
+  },
+  {
+    "en": "In addition, whenever a creature within 5 feet of you hits you with a melee attack roll, the shield erupts with flame. The attacker takes 2d8 Fire damage from a warm shield or 2d8 Cold damage from a chill shield.",
+    "fr": "De plus, chaque fois qu’une créature située dans un rayon de 1,50 m de vous vous touche avec un jet d’attaque de corps à corps, les flammes s’attisent brusquement. L’assaillant subit 2d8 dégâts de feu si l’écran est chaud, 2d8 dégâts de froid s’il est frais.",
+    "source": "SRD officiel 5.2.1 FR · section de Fire Shield · CC-BY-4.0"
+  },
+  {
+    "en": "You touch a willing creature. For the duration, the target’s movement is unaffected by Difficult Terrain, and spells and other magical effects can neither reduce the target’s Speed nor cause the target to have the Paralyzed or Restrained conditions. The target also has a Swim Speed equal to its Speed.",
+    "fr": "Vous touchez une créature consentante. Pour toute la durée, les déplacements de la cible ne sont pas affectés par le Terrain difficile, et les sorts et effets magiques ne peuvent ni réduire sa Vitesse, ni lui infliger l’état Paralysé ou Entravé. La cible dispose aussi d’une Vitesse de nage égale à sa Vitesse.",
+    "source": "SRD officiel 5.2.1 FR · section de Freedom of Movement · CC-BY-4.0"
+  },
+  {
+    "en": "In addition, the target can spend 5 feet of movement to automatically escape from nonmagical restraints, such as manacles or a creature imposing the Grappled condition on it.",
+    "fr": "De plus, la cible peut consacrer 1,50 m de son déplacement à s’extraire automatiquement d’entraves non magiques, comme des menottes ou l’étreinte d’une créature qui lui impose l’état Agrippé.",
+    "source": "SRD officiel 5.2.1 FR · section de Freedom of Movement · CC-BY-4.0"
+  },
+  {
+    "en": "Using a Higher-Level Spell Slot. You can target one additional creature for each spell slot level above 4.",
+    "fr": "Emplacement de niveau supérieur. Vous pouvez cibler une créature supplémentaire par niveau d’emplacement au-delà du 4e.",
+    "source": "SRD officiel 5.2.1 FR · section de Freedom of Movement · CC-BY-4.0"
+  },
+  {
+    "en": "You attempt to transform a creature that you can see within range into a Beast. The target must succeed on a Wisdom saving throw or shape-shift into a Beast form for the duration. That form can be any Beast you choose that has a Challenge Rating equal to or less than the target’s (or the target’s level if it doesn’t have a Challenge Rating). The target’s game statistics are replaced by the stat block of the chosen Beast, but the target retains its alignment, personality, creature type, Hit Points, and Hit Point Dice. See the “Animals” section of “Monsters” for a sample of Beast stat blocks.",
+    "fr": "Vous tentez de transformer en Bête une créature que vous voyez à portée. La cible doit réussir un jet de sauvegarde de Sagesse sous peine d’être métamorphosée en Bête pour toute la durée. Cette forme est une Bête de votre choix dont le facteur de puissance est inférieur ou égal à celui de la cible (ou à son niveau, si elle n’a pas de facteur de puissance). Le profil de la cible est remplacé par celui de la Bête retenue, si ce n’est que la cible conserve son alignement, sa personnalité, son type de créature, ses points de vie et ses dés de vie. La section « Animaux » de « Monstres » propose un échantillon de profils de Bêtes.",
+    "source": "SRD officiel 5.2.1 FR · section de Polymorph · CC-BY-4.0"
+  },
+  {
+    "en": "The target gains a number of Temporary Hit Points equal to the Hit Points of the Beast form. These Temporary Hit Points vanish if any remain when the spell ends. The spell ends early on the target if it has no Temporary Hit Points left.",
+    "fr": "La cible reçoit autant de points de vie temporaires que les points de vie de sa forme de Bête. Ces points de vie temporaires disparaissent s’il lui en reste à la fin du sort. Le sort prend fin prématurément sur la cible s’il ne lui reste plus de points de vie temporaires.",
+    "source": "SRD officiel 5.2.1 FR · section de Polymorph · CC-BY-4.0"
+  },
+  {
+    "en": "The target is limited in the actions it can perform by the anatomy of its new form, and it can’t speak or cast spells.",
+    "fr": "La cible est limitée dans les actions qu’elle peut entreprendre par l’anatomie de sa nouvelle forme, et elle ne peut ni parler ni lancer de sorts.",
+    "source": "SRD officiel 5.2.1 FR · section de Polymorph · CC-BY-4.0"
+  },
+  {
+    "en": "The target’s gear melds into the new form. The creature can’t use or otherwise benefit from any of that equipment.",
+    "fr": "L’équipement porté par la cible se fond dans sa nouvelle forme. La créature ne peut pas utiliser son équipement ni en bénéficier de quelque manière que ce soit.",
+    "source": "SRD officiel 5.2.1 FR · section de Polymorph · CC-BY-4.0"
+  },
+  {
+    "en": "Each Humanoid in a 20-foot-radius Sphere centered on a point you choose within range must succeed on a Charisma saving throw or be affected by one of the following effects (choose for each creature):",
+    "fr": "Chaque Humanoïde pris dans une Sphère de 6 m de rayon centrée sur un point que vous choisissez à portée doit réussir un jet de sauvegarde de Charisme, sous peine d’être affecté par l’un des effets suivants (choisissez pour chaque créature) :",
+    "source": "SRD officiel 5.2.1 FR · section de Calm Emotions · CC-BY-4.0"
+  },
+  {
+    "en": "The creature has Immunity to the Charmed and Frightened conditions until the spell ends. If the creature was already Charmed or Frightened, those conditions are suppressed for the duration.",
+    "fr": "La créature est immunisée contre les états Charmé et Effrayé jusqu’à la fin du sort. Si la créature était déjà Charmée ou Effrayée, ces états sont réprimés pour toute la durée.",
+    "source": "SRD officiel 5.2.1 FR · section de Calm Emotions · CC-BY-4.0"
+  },
+  {
+    "en": "The creature becomes Indifferent about creatures of your choice that it’s Hostile toward. This indifference ends if the target takes damage or witnesses its allies taking damage. When the spell ends, the creature’s attitude returns to normal.",
+    "fr": "Vous pouvez choisir des créatures envers lesquelles la cible est Hostile ; celle-ci devient indifférente à leur égard. Cette indifférence prend fin si la cible subit des dégâts ou est témoin de dégâts subis par ses alliés. Quand le sort prend fin, l’attitude de la créature revient à la normale.",
+    "source": "SRD officiel 5.2.1 FR · section de Calm Emotions · CC-BY-4.0"
+  },
+  {
+    "en": "You create a 20-foot-radius Sphere of yellow-green fog centered on a point within range. The fog lasts for the duration or until strong wind (such as the one created by Gust of Wind) disperses it, ending the spell. Its area is Heavily Obscured.",
+    "fr": "Vous créez une Sphère de 6 m de rayon constituée de brouillard d’un jaune verdâtre, centrée sur un point à portée. La brume persiste pour toute la durée, à moins qu’un vent fort (comme celui engendré par bourrasque) la disperse et mette fin au sort. Sa zone présente une Visibilité nulle.",
+    "source": "SRD officiel 5.2.1 FR · section de Cloudkill · CC-BY-4.0"
+  },
+  {
+    "en": "Each creature in the Sphere makes a Constitution saving throw, taking 5d8 Poison damage on a failed save or half as much damage on a successful one. A creature must also make this save when the Sphere moves into its space and when it enters the Sphere or ends its turn there. A creature makes this save only once per turn.",
+    "fr": "Chaque créature prise dans la Sphère effectue un jet de sauvegarde de Constitution et subit 5d8 dégâts de poison en cas d’échec, la moitié en cas de réussite. Toute créature qui voit la Sphère se déplacer dans son espace, ou qui pénètre dans la Sphère ou y termine son tour est également soumise à ce JS. Une même créature n’effectue en aucun cas ce JS plus d’une fois par tour.",
+    "source": "SRD officiel 5.2.1 FR · section de Cloudkill · CC-BY-4.0"
+  },
+  {
+    "en": "The Sphere moves 10 feet away from you at the start of each of your turns.",
+    "fr": "La Sphère s’éloigne de vous de 3 m au début de chacun de vos tours.",
+    "source": "SRD officiel 5.2.1 FR · section de Cloudkill · CC-BY-4.0"
+  },
+  {
+    "en": "Using a Higher-Level Spell Slot. The damage increases by 1d8 for each spell slot level above 5.",
+    "fr": "Emplacement de niveau supérieur. Les dégâts augmentent de 1d8 par niveau d’emplacement au-delà du 5e.",
+    "source": "SRD officiel 5.2.1 FR · section de Conjure Elemental · CC-BY-4.0"
+  },
+  {
+    "en": "You contact a deity or a divine proxy and ask up to three questions that can be answered with yes or no. You must ask your questions before the spell ends. You receive a correct answer for each question.",
+    "fr": "Vous contactez une divinité ou un intermédiaire divin pour lui poser trois questions auxquelles on peut répondre par l’affirmative ou la négative. Vous devez poser vos questions avant la fin du sort. Vous recevez une réponse juste à chaque question.",
+    "source": "SRD officiel 5.2.1 FR · section de Commune · CC-BY-4.0"
+  },
+  {
+    "en": "Divine beings aren’t necessarily omniscient, so you might receive “unclear” as an answer if a question pertains to information that lies beyond the deity’s knowledge. In a case where a one-word answer could be misleading or contrary to the deity’s interests, the GM might offer a short phrase as an answer instead.",
+    "fr": "Les êtres divins ne sont pas forcément omniscients, si bien que vous pouvez recevoir « incertain » comme réponse (au lieu de « oui » ou « non ») si la question fait appel à des éléments qui s’écartent du domaine de connaissance de la déité. Si une réponse en un mot peut s’avérer trompeuse ou contraire aux intérêts de la divinité, le MJ peut se fendre d’une courte phrase en guise de réponse.",
+    "source": "SRD officiel 5.2.1 FR · section de Commune · CC-BY-4.0"
+  },
+  {
+    "en": "If you cast the spell more than once before finishing a Long Rest, there is a cumulative 25 percent chance for each casting after the first that you get no answer.",
+    "fr": "Si vous lancez le sort plus d’une fois avant de terminer votre prochain Repos long, vous courez dès la deuxième incantation 25 % de risques cumulatifs qu’il ne vous livre aucune réponse.",
+    "source": "SRD officiel 5.2.1 FR · section de Commune · CC-BY-4.0"
+  },
+  {
+    "en": "You commune with nature spirits and gain knowledge of the surrounding area. In the outdoors, the spell gives you knowledge of the area within 3 miles of you. In caves and other natural underground settings, the radius is limited to 300 feet. The spell doesn’t function where nature has been replaced by construction, such as in castles and settlements.",
+    "fr": "Vous communiez avec des esprits de la nature en quête d’informations sur les environs. En extérieur, le sort vous investit des connaissances de la zone dans un rayon de 4,5 km. Dans une grotte et en milieu souterrain naturel, ce rayon est limité à 90 m. Le sort reste sans effet dans les endroits où la nature a laissé place aux constructions, comme dans un château ou dans un bourg.",
+    "source": "SRD officiel 5.2.1 FR · section de Commune with Nature · CC-BY-4.0"
+  },
+  {
+    "en": "Choose three of the following facts; you learn those facts as they pertain to the spell’s area: • Locations of settlements • Locations of portals to other planes of existence • Location of one Challenge Rating 10+ creature (GM’s choice) that is a Celestial, an Elemental, a Fey, a Fiend, or an Undead • The most prevalent kind of plant, mineral, or Beast (you choose which to learn) • Locations of bodies of water",
+    "fr": "Choisissez trois éléments parmi les suivants ; vous prenez connaissance de ces éléments, en relation avec la zone concernée : • Position des communautés implantées • Position des portails vers d’autres plans d’existence • Position d’une créature dont le facteur de puissance est d’au moins 10 (choisie par le MJ) et dont le type est Céleste, Élémentaire, Fée, Fiélon ou Mort-vivant • Type de plante, minéral ou Bête le plus courant (choisissez sur quel aspect vous informer) • Localisation des plans et cours d’eau",
+    "source": "SRD officiel 5.2.1 FR · section de Commune with Nature · CC-BY-4.0"
+  },
+  {
+    "en": "For example, you could determine the location of a powerful monster in the area, the locations of bodies of water, and the locations of any towns.",
+    "fr": "Ainsi, vous pouvez déterminer où se trouve un puissant monstre de la zone, les plans et cours d’eau, et les bourgs des environs.",
+    "source": "SRD officiel 5.2.1 FR · section de Commune with Nature · CC-BY-4.0"
+  },
+  {
+    "en": "You mentally contact a demigod, the spirit of a longdead sage, or some other knowledgeable entity from another plane. Contacting this otherworldly intelligence can break your mind. When you cast this spell, make a DC 15 Intelligence saving throw. On a successful save, you can ask the entity up to five questions. You must ask your questions before the spell ends. The GM answers each question with one word, such as “yes,” “no,” “maybe,” “never,” “irrelevant,” or “unclear” (if the entity doesn’t know the answer to the question). If a one-word answer would be misleading, the GM might instead offer a short phrase as an answer.",
+    "fr": "Vous contactez mentalement un demi-dieu, l’esprit d’un sage défunt ou quelque autre entité érudite d’un autre plan. Le contact avec une telle conscience extraplanaire peut vous anéantir l’esprit. À l’incantation du sort, effectuez un jet de sauvegarde d’Intelligence DD 15. En cas de sauvegarde réussie, vous pouvez poser jusqu’à cinq questions à l’entité. Vous devez les poser avant la fin du sort. Le MJ répond à chaque question par un seul mot, comme « oui », « non », « peut-être », « jamais », « inconséquent » ou « incertain » (si l’entité ne connaît pas la réponse). Si une réponse en un mot risque de s’avérer trompeuse, le MJ peut se fendre d’une courte phrase.",
+    "source": "SRD officiel 5.2.1 FR · section de Contact Other Plane · CC-BY-4.0"
+  },
+  {
+    "en": "On a failed save, you take 6d6 Psychic damage and have the Incapacitated condition until you finish a Long Rest. A Greater Restoration spell cast on you ends this effect.",
+    "fr": "En cas d’échec, vous subissez 6d6 dégâts psychiques, ainsi que l’état Neutralisé jusqu’à ce que vous terminiez un Repos long. Le sort restauration suprême lancé sur vous met un terme à cet effet.",
+    "source": "SRD officiel 5.2.1 FR · section de Contact Other Plane · CC-BY-4.0"
+  },
+  {
+    "en": "You target a creature you know on the same plane of existence. You or a willing creature you touch enters a trance state to act as a dream messenger. While in the trance, the messenger is Incapacitated and has a Speed of 0.",
+    "fr": "Vous ciblez une créature que vous connaissez sur votre plan d’existence. Vous-même, ou une créature consentante que vous touchez, entrez en transe pour faire office de messager onirique. Tant qu’il est en transe, le messager est Neutralisé et sa Vitesse est de 0.",
+    "source": "SRD officiel 5.2.1 FR · section de Dream · CC-BY-4.0"
+  },
+  {
+    "en": "If the target is asleep, the messenger appears in the target’s dreams and can converse with the target as long as it remains asleep, through the spell’s duration. The messenger can also shape the dream’s environment, creating landscapes, objects, and other images. The messenger can emerge from the trance at any time, ending the spell. The target recalls the dream perfectly upon waking.",
+    "fr": "Si la cible est endormie, le messager lui apparaît en rêve et peut converser avec elle aussi longtemps que le sommeil se prolonge et que le sort persiste. Le messager peut également façonner l’environnement du songe en y ajoutant des paysages, des objets et autres images. Le messager peut sortir de sa transe à tout moment, ce qui met fin au sort. La cible se souvient parfaitement du songe à son réveil.",
+    "source": "SRD officiel 5.2.1 FR · section de Dream · CC-BY-4.0"
+  },
+  {
+    "en": "If the target is awake when you cast the spell, the messenger knows it and can either end the trance (and the spell) or wait for the target to sleep, at which point the messenger enters its dreams.",
+    "fr": "Si la cible est réveillée à l’incantation du sort, le messager le sait et peut mettre un terme à sa transe (et au sort) ou attendre que la cible s’endorme, ce qui fera apparaître le messager dans ses rêves.",
+    "source": "SRD officiel 5.2.1 FR · section de Dream · CC-BY-4.0"
+  },
+  {
+    "en": "You can make the messenger terrifying to the target. If you do so, the messenger can deliver a message of no more than ten words, and then the target makes a Wisdom saving throw. On a failed save, the target gains no benefit from its rest, and it takes 3d6 Psychic damage when it wakes up.",
+    "fr": "Vous pouvez rendre le messager terrifiant pour la cible. Dans ce cas, il livre un message qui ne dépasse pas dix mots, après quoi la cible effectue un jet de sauvegarde de Sagesse. En cas d’échec, la cible ne reçoit aucun bénéfice de son Repos et subit 3d6 dégâts psychiques à son réveil.",
+    "source": "SRD officiel 5.2.1 FR · section de Dream · CC-BY-4.0"
+  },
+  {
+    "en": "You give a verbal command to a creature that you can see within range, ordering it to carry out some service or refrain from an action or a course of activity as you decide. The target must succeed on a Wisdom saving throw or have the Charmed condition for the duration. The target automatically succeeds if it can’t understand your command.",
+    "fr": "Vous intimez un ordre verbal à une créature que vous voyez à portée, pour la contraindre à accomplir une tâche ou l’empêcher d’exécuter certains actes que vous définissez. La cible doit réussir un jet de sauvegarde de Sagesse sous peine de subir l’état Charmé pour toute la durée du sort. Elle réussit automatiquement ce JS si elle n’est pas en mesure de comprendre votre ordre.",
+    "source": "SRD officiel 5.2.1 FR · section de Geas · CC-BY-4.0"
+  },
+  {
+    "en": "While Charmed, the creature takes 5d10 Psychic damage if it acts in a manner directly counter to your command. It takes this damage no more than once each day.",
+    "fr": "Tant que la créature est ainsi Charmée, elle subit 5d10 dégâts psychiques quand elle se conduit directement à l’encontre de vos instructions. Elle ne peut pas subir ces dégâts plus d’une fois par jour.",
+    "source": "SRD officiel 5.2.1 FR · section de Geas · CC-BY-4.0"
+  },
+  {
+    "en": "You can issue any command you choose, short of an activity that would result in certain death. Should you issue a suicidal command, the spell ends.",
+    "fr": "Vous pouvez donner n’importe quel ordre, en dehors d’une tâche dont l’issue serait forcément fatale à la cible. Si l’instruction intimée est suicidaire, le sort prend fin.",
+    "source": "SRD officiel 5.2.1 FR · section de Geas · CC-BY-4.0"
+  },
+  {
+    "en": "A Remove Curse, Greater Restoration, or Wish spell ends this spell.",
+    "fr": "Les sorts délivrance des malédictions, restauration suprême et souhait mettent chacun fin à ce sort.",
+    "source": "SRD officiel 5.2.1 FR · section de Geas · CC-BY-4.0"
+  },
+  {
+    "en": "Using a Higher-Level Spell Slot. If you use a level 7 or 8 spell slot, the duration is 365 days. If you use a level 9 spell slot, the spell lasts until it is ended by one of the spells mentioned above.",
+    "fr": "Emplacement de niveau supérieur. Avec un emplacement du 7e ou 8e niveau, la durée est de 365 jours. Avec un emplacement du 9e niveau, le sort persiste jusqu’à ce qu’un des sorts cités plus haut y mette fin.",
+    "source": "SRD officiel 5.2.1 FR · section de Geas · CC-BY-4.0"
+  },
+  {
+    "en": "Swarming locusts fill a 20-foot-radius Sphere centered on a point you choose within range. The Sphere remains for the duration, and its area is Lightly Obscured and Difficult Terrain.",
+    "fr": "Des nuées grouillantes de criquets emplissent une Sphère de 6 m de rayon centrée sur un point que vous choisissez à portée. La Sphère persiste pour toute la durée, et sa zone est à Visibilité réduite et constitue un Terrain difficile.",
+    "source": "SRD officiel 5.2.1 FR · section de Insect Plague · CC-BY-4.0"
+  },
+  {
+    "en": "When the swarm appears, each creature in it makes a Constitution saving throw, taking 4d10 Piercing damage on a failed save or half as much damage on a successful one. A creature also makes this save when it enters the spell’s area for the first time on a turn or ends its turn there. A creature makes this save only once per turn.",
+    "fr": "Chaque créature prise dans la nuée à son apparition effectue un jet de sauvegarde de Constitution, et subit 4d10 dégâts perforants en cas d’échec, la moitié en cas de réussite. Une créature effectue aussi ce JS lorsqu’elle pénètre dans la zone du sort pour la première fois d’un tour ou qu’elle y termine son tour. Une même créature n’effectue en aucun cas ce JS plus d’une fois par tour.",
+    "source": "SRD officiel 5.2.1 FR · section de Insect Plague · CC-BY-4.0"
+  },
+  {
+    "en": "Using a Higher-Level Spell Slot. The damage increases by 1d10 for each spell slot level above 5.",
+    "fr": "Emplacement de niveau supérieur. Les dégâts augmentent de 1d10 par niveau d’emplacement au-delà du 5e.",
+    "source": "SRD officiel 5.2.1 FR · section de Insect Plague · CC-BY-4.0"
+  },
+  {
+    "en": "You gain the Invisible condition at the same time that an illusory double of you appears where you are standing. The double lasts for the duration, but the invisibility ends immediately after you make an attack roll, deal damage, or cast a spell.",
+    "fr": "Vous recevez l’état Invisible et, dans le même temps, votre double illusoire se présente à l’endroit où vous vous tenez. Ce double persiste pour toute la durée, mais l’invisibilité prend fin si vous effectuez un jet d’attaque, infligez des dégâts ou lancez un sort.",
+    "source": "SRD officiel 5.2.1 FR · section de Mislead · CC-BY-4.0"
+  },
+  {
+    "en": "As a Magic action, you can move the illusory double up to twice your Speed and make it gesture, speak, and behave in whatever way you choose. It is intangible and invulnerable.",
+    "fr": "Au prix de l’action Magie, vous pouvez déplacer votre double à concurrence du double de votre Vitesse et le faire bouger, parler et se comporter à votre guise. Il est intangible et invulnérable.",
+    "source": "SRD officiel 5.2.1 FR · section de Mislead · CC-BY-4.0"
+  },
+  {
+    "en": "You can see through its eyes and hear through its ears as if you were located where it is.",
+    "fr": "Vous voyez et entendez comme si vous vous trouviez au même endroit que lui.",
+    "source": "SRD officiel 5.2.1 FR · section de Mislead · CC-BY-4.0"
+  },
+  {
+    "en": "You attempt to reshape another creature’s memories. One creature that you can see within range makes a Wisdom saving throw. If you are fighting the creature, it has Advantage on the save. On a failed save, the target has the Charmed condition for the duration. While Charmed in this way, the target also has the Incapacitated condition and is unaware of its surroundings, though it can hear you. If it takes any damage or is targeted by another spell, this spell ends, and no memories are modified.",
+    "fr": "Vous tentez de remodeler les souvenirs d’une autre créature. Une créature que vous voyez à portée effectue un jet de sauvegarde de Sagesse. Si vous êtes en train de l’affronter, elle a l’Avantage au JS. En cas d’échec, la cible subit l’état Charmé pour toute la durée. Ainsi Charmée, la cible subit aussi l’état Neutralisé et n’a pas conscience de son environnement, mais elle vous entend toujours. Si elle subit des dégâts ou est la cible d’un autre sort, cette modification de mémoire prend fin et nul souvenir n’est altéré.",
+    "source": "SRD officiel 5.2.1 FR · section de Modify Memory · CC-BY-4.0"
+  },
+  {
+    "en": "While this charm lasts, you can affect the target’s memory of an event that it experienced within the last 24 hours and that lasted no more than 10 minutes. You can permanently eliminate all memory of the event, allow the target to recall the event with perfect clarity, change its memory of the event’s details, or create a memory of some other event.",
+    "fr": "Tant que persiste ce charme, vous pouvez influer sur un souvenir de la cible ayant eu lieu au cours des 24 dernières heures et ne s’étalant pas sur plus de 10 minutes. Vous pouvez effacer toute mémoire de l’événement, permettre au contraire à la cible de se souvenir parfaitement de l’épisode dans les moindres détails, altérer certains éléments qui y sont liés dans son esprit ou créer de toutes pièces le souvenir d’un autre événement.",
+    "source": "SRD officiel 5.2.1 FR · section de Modify Memory · CC-BY-4.0"
+  },
+  {
+    "en": "You must speak to the target to describe how its memories are affected, and it must be able to understand your language for the modified memories to take root. Its mind fills in any gaps in the details of your description. If the spell ends before you finish describing the modified memories, the creature’s memory isn’t altered. Otherwise, the modified memories take hold when the spell ends.",
+    "fr": "Vous devez parler à la cible pour lui décrire en quoi sa mémoire est modifiée, sachant qu’elle doit comprendre la langue employée pour que le souvenir s’enracine. Son esprit se charge de combler les lacunes de votre description. Si le sort prend fin avant que vous ayez fini de décrire les souvenirs modifiés, la mémoire de la créature n’est pas altérée. Sinon, l’altération prend effet quand le sort se termine.",
+    "source": "SRD officiel 5.2.1 FR · section de Modify Memory · CC-BY-4.0"
+  },
+  {
+    "en": "A modified memory doesn’t necessarily affect how a creature behaves, particularly if the memory contradicts the creature’s natural inclinations, alignment, or beliefs. An illogical modified memory, such as a false memory of how much the creature enjoyed swimming in acid, is dismissed as a bad dream. The GM might deem a modified memory too nonsensical to affect a creature.",
+    "fr": "Sa mémoire modifiée, la créature ne va pas forcément se comporter différemment, surtout si ces souvenirs vont à l’encontre de ses penchants naturels, de son alignement ou de ses croyances. Si le souvenir implanté est absurde, comme un épisode dans lequel la créature se serait baignée dans l’acide en y prenant plaisir, il sera simplement perçu comme un mauvais rêve. Le MJ peut décider qu’un souvenir modifié est trop contraire à la raison pour affecter la créature.",
+    "source": "SRD officiel 5.2.1 FR · section de Modify Memory · CC-BY-4.0"
+  },
+  {
+    "en": "A Remove Curse or Greater Restoration spell cast on the target restores the creature’s true memory.",
+    "fr": "Le sort délivrance des malédictions ou restauration suprême lancé sur la cible lui rend sa mémoire d’origine.",
+    "source": "SRD officiel 5.2.1 FR · section de Modify Memory · CC-BY-4.0"
+  },
+  {
+    "en": "Using a Higher-Level Spell Slot. You can alter the target’s memories of an event that took place up to 7 days ago (level 6 spell slot), 30 days ago (level 7 spell slot), 365 days ago (level 8 spell slot), or any time in the creature’s past (level 9 spell slot).",
+    "fr": "Emplacement de niveau supérieur. Vous pouvez altérer le souvenir d’un événement qui remonte à un maximum de 7 jours (emplacement du 6e niveau), 30 jours (7e), 365 jours (8e) ou à tout moment de son passé (9e).",
+    "source": "SRD officiel 5.2.1 FR · section de Modify Memory · CC-BY-4.0"
+  },
+  {
+    "en": "A passage appears at a point that you can see on a wooden, plaster, or stone surface (such as a wall, ceiling, or floor) within range and lasts for the duration. You choose the opening’s dimensions: up to 5 feet wide, 8 feet tall, and 20 feet deep. The passage creates no instability in a structure surrounding it.",
+    "fr": "Un passage se forme en un point que vous voyez sur une surface de bois, de plâtre ou de pierre (comme un mur, un plafond ou un sol) à portée, et persiste pour toute la durée. Vous choisissez les dimensions de l’ouverture : jusqu’à 1,50 m de large, 2,40 m de haut et 6 m de profondeur. Le passage n’engendre aucune instabilité dans la structure qui l’entoure.",
+    "source": "SRD officiel 5.2.1 FR · section de Passwall · CC-BY-4.0"
+  },
+  {
+    "en": "When the opening disappears, any creatures or objects still in the passage created by the spell are safely ejected to an unoccupied space nearest to the surface on which you cast the spell.",
+    "fr": "Lorsque le passage disparaît, tous les objets et créatures qui s’y trouvent encore sont éjectés sans heurt dans les espaces inoccupés les plus proches de la surface affectée.",
+    "source": "SRD officiel 5.2.1 FR · section de Passwall · CC-BY-4.0"
+  },
+  {
+    "en": "You attempt to bind a Celestial, an Elemental, a Fey, or a Fiend to your service. The creature must be within range for the entire casting of the spell. (Typically, the creature is first summoned into the center of the inverted version of the Magic Circle spell to trap it while this spell is cast.) At the completion of the casting, the target must succeed on a Charisma saving throw or be bound to serve you for the duration. If the creature was summoned or created by another spell, that spell’s duration is extended to match the duration of this spell.",
+    "fr": "Vous tentez de soumettre un Céleste, un Élémentaire, une Fée ou un Fiélon à votre service. La créature doit être à portée pendant toute l’incantation. (Le plus souvent, on commence par convoquer la créature au centre d’un cercle magique inversé pour l’y séquestrer pendant l’incantation du présent sort.) À la fin de l’incantation, la cible doit réussir un jet de sauvegarde de Charisme sous peine d’être liée à votre service pour toute la durée. Si la créature a été convoquée ou créée par un autre sort, la durée de celui-ci augmente pour correspondre à la durée de cette entrave planaire.",
+    "source": "SRD officiel 5.2.1 FR · section de Planar Binding · CC-BY-4.0"
+  },
+  {
+    "en": "A bound creature must follow your commands to the best of its ability. You might command the creature to accompany you on an adventure, to guard a location, or to deliver a message. If the creature is Hostile, it strives to twist your commands to achieve its own objectives. If the creature carries out your commands completely before the spell ends, it travels to you to report this fact if you are on the same plane of existence. If you are on a different plane, it returns to the place where you bound it and remains there until the spell ends.",
+    "fr": "Une créature ainsi liée à votre service obéit à vos instructions de son mieux. Vous pouvez lui ordonner de vous accompagner à l’aventure, de garder un site ou de livrer un message. Si la créature est Hostile, elle cherche à détourner vos ordres à ses propres fins. Si la créature mène à bien toutes vos instructions avant la fin du sort, elle se transporte auprès de vous pour faire son rapport si vous êtes sur le même plan d’existence. Si vous vous trouvez sur un plan différent, elle repart vers le lieu où vous l’avez assujettie et y reste jusqu’à la fin du sort.",
+    "source": "SRD officiel 5.2.1 FR · section de Planar Binding · CC-BY-4.0"
+  },
+  {
+    "en": "Using a Higher-Level Spell Slot. The duration increases with a spell slot of level 6 (10 days), 7 (30 days), 8 (180 days), and 9 (366 days).",
+    "fr": "Emplacement de niveau supérieur. La durée augmente avec un emplacement du 6e niveau (10 jours), du 7e (30 jours), du 8e (180 jours) et du 9e (366 jours).",
+    "source": "SRD officiel 5.2.1 FR · section de Planar Binding · CC-BY-4.0"
+  },
+  {
+    "en": "With a touch, you revive a dead creature if it has been dead no longer than 10 days and it wasn’t Undead when it died.",
+    "fr": "D’un contact, vous ramenez à la vie une créature qui n’était pas un Mort-vivant quand elle est morte et dont la mort remonte à un maximum de 10 jours.",
+    "source": "SRD officiel 5.2.1 FR · section de Raise Dead · CC-BY-4.0"
+  },
+  {
+    "en": "The creature returns to life with 1 Hit Point. This spell also neutralizes any poisons that affected the creature at the time of death.",
+    "fr": "La créature est ramenée à la vie avec 1 point de vie. Ce sort neutralise également tous les poisons qui affectaient la créature au moment de mourir.",
+    "source": "SRD officiel 5.2.1 FR · section de Raise Dead · CC-BY-4.0"
+  },
+  {
+    "en": "This spell closes all mortal wounds, but it doesn’t restore missing body parts. If the creature is lacking body parts or organs integral for its survival— its head, for instance—the spell automatically fails.",
+    "fr": "Ce sort referme toutes les blessures mortelles, mais ne fait pas repousser l’anatomie manquante. Si la créature a perdu une partie de son anatomie ou des organes essentiels à sa survie ; sa tête par exemple, le sort échoue automatiquement.",
+    "source": "SRD officiel 5.2.1 FR · section de Raise Dead · CC-BY-4.0"
+  },
+  {
+    "en": "Coming back from the dead is an ordeal. The target takes a −4 penalty to D20 Tests. Every time the target finishes a Long Rest, the penalty is reduced by 1 until it becomes 0.",
+    "fr": "Revenir d’entre les morts demeure une épreuve. La cible subit un malus de –4 aux Tests d20. Chaque fois qu’elle termine un Repos long, ce malus diminue de 1, jusqu’à ce qu’il tombe à 0.",
+    "source": "SRD officiel 5.2.1 FR · section de Raise Dead · CC-BY-4.0"
+  },
+  {
+    "en": "You can see and hear a creature you choose that is on the same plane of existence as you. The target makes a Wisdom saving throw, which is modified (see the tables below) by how well you know the target and the sort of physical connection you have to it. The target doesn’t know what it is making the save against, only that it feels uneasy.",
+    "fr": "Vous voyez et entendez une créature de votre choix, située sur le même plan d’existence que vous. La cible effectue un jet de sauvegarde de Sagesse, modifié par votre connaissance de la créature et le genre de lien physique que vous entretenez avec elle (voir les tables ci-après). La cible ignore contre quoi s’effectue le JS, et ressent juste une forme de malaise.",
+    "source": "SRD officiel 5.2.1 FR · section de Scrying · CC-BY-4.0"
+  },
+  {
+    "en": "Your Knowledge of the Target Is … Save Modifier Secondhand (heard of the target) +5 Firsthand (met the target) +0 Extensive (know the target well) −5 You Have the Target’s … Save Modifier Picture or other likeness −2 Garment or other possession −4 Body part, lock of hair, or bit of nail −10",
+    "fr": "Votre connaissance de la cible est… Modificateur au JS indirecte (vous avez entendu parler d’elle) +5 directe (vous l’avez rencontrée) +0 intime (vous la connaissez) −5 Vous disposez… Modificateur au JS de son portrait ou autre représentation −2 d’un vêtement ou autre bien personnel −4 d’un élément anatomique, mèche de cheveux ou rognure d’ongle −10",
+    "source": "SRD officiel 5.2.1 FR · section de Scrying · CC-BY-4.0"
+  },
+  {
+    "en": "On a successful save, the target isn’t affected, and you can’t use this spell on it again for 24 hours.",
+    "fr": "En cas de JS réussi, la cible n’est pas affectée et vous ne pouvez plus réutiliser ce sort sur elle pendant 24 heures.",
+    "source": "SRD officiel 5.2.1 FR · section de Scrying · CC-BY-4.0"
+  },
+  {
+    "en": "On a failed save, the spell creates an Invisible, intangible sensor within 10 feet of the target. You can see and hear through the sensor as if you were there. The sensor moves with the target, remaining within 10 feet of it for the duration. If something can see the sensor, it appears as a luminous orb about the size of your fist.",
+    "fr": "En cas d’échec, le sort crée un capteur Invisible et intangible dans un rayon de 3 m de la cible. Vous voyez et entendez par l’intermédiaire du capteur comme si vous y étiez. Le capteur se déplace avec la cible, en restant dans un rayon de 3 m d’elle pour toute la durée. Pour qui perçoit le capteur, celui-ci apparaît comme un orbe lumineux de la taille de votre poing.",
+    "source": "SRD officiel 5.2.1 FR · section de Scrying · CC-BY-4.0"
+  },
+  {
+    "en": "Instead of targeting a creature, you can target a location you have seen. When you do so, the sensor appears at that location and doesn’t move.",
+    "fr": "Plutôt qu’une créature, vous pouvez cibler un lieu que vous avez déjà vu. Ce faisant, le capteur apparaît à l’endroit désigné et ne bouge plus.",
+    "source": "SRD officiel 5.2.1 FR · section de Scrying · CC-BY-4.0"
+  },
+  {
+    "en": "You give an illusory appearance to each creature of your choice that you can see within range. An unwilling target can make a Charisma saving throw, and if it succeeds, it is unaffected by this spell.",
+    "fr": "Vous modifiez de manière illusoire l’aspect des créatures de votre choix parmi celles que vous voyez à portée. Une créature non consentante peut effectuer un jet de sauvegarde de Charisme. En cas de réussite, elle n’est pas affectée par le sort.",
+    "source": "SRD officiel 5.2.1 FR · section de Seeming · CC-BY-4.0"
+  },
+  {
+    "en": "You can give the same appearance or different ones to the targets. The spell can change the appearance of the targets’ bodies and equipment. You can make each creature seem 1 foot shorter or taller and appear heavier or lighter. A target’s new appearance must have the same basic arrangement of limbs as the target, but the extent of the illusion is otherwise up to you. The spell lasts for the duration.",
+    "fr": "Vous pouvez donner le même aspect à chaque cible ou varier les illusions. Le sort altère l’aspect du corps des cibles comme de leur équipement. Vous pouvez aussi les faire paraître plus grandes ou plus petites, individuellement, à concurrence de 30 cm, et les faire passer pour plus lourdes ou plus légères. Le nouvel aspect de chaque cible doit présenter la même configuration de membres que la sienne, mais les détails de l’illusion sont pour le reste laissés à votre guise. Le sort persiste pour toute la durée.",
+    "source": "SRD officiel 5.2.1 FR · section de Seeming · CC-BY-4.0"
+  },
+  {
+    "en": "The changes wrought by this spell fail to hold up to physical inspection. For example, if you use this spell to add a hat to a creature’s outfit, objects pass through the hat.",
+    "fr": "Les changements apportés par le sort ne résistent pas à un examen physique. Exemple : si le sort ajoute un chapeau à l’accoutrement d’une créature, ce couvre-chef n’est pas tangible.",
+    "source": "SRD officiel 5.2.1 FR · section de Seeming · CC-BY-4.0"
+  },
+  {
+    "en": "A creature that takes the Study action to examine a target can make an Intelligence (Investigation) check against your spell save DC. If it succeeds, it becomes aware that the target is disguised.",
+    "fr": "Une créature peut entreprendre l’action Étude pour examiner une cible et effectuer un test d’Intelligence (Investigation) assorti de votre DD de sauvegarde des sorts. En cas de réussite, elle se rend compte que la cible est déguisée.",
+    "source": "SRD officiel 5.2.1 FR · section de Seeming · CC-BY-4.0"
+  },
+  {
+    "en": "You gain the ability to enter a tree and move from inside it to inside another tree of the same kind within 500 feet. Both trees must be living and at least the same size as you. You must use 5 feet of movement to enter a tree. You instantly know the location of all other trees of the same kind within 500 feet and, as part of the move used to enter the tree, can either pass into one of those trees or step out of the tree you’re in. You appear in a spot of your choice within 5 feet of the destination tree, using another 5 feet of movement. If you have no movement left, you appear within 5 feet of the tree you entered.",
+    "fr": "Vous recevez la faculté d’entrer dans un arbre et de vous y déplacer pour atteindre un autre arbre du même type distant d’un maximum de 150 m. Les deux arbres doivent être vivants et d’une catégorie de taille supérieure ou égale à la vôtre. Entrer dans un arbre nécessite d’y consacrer 1,50 m de déplacement. Vous prenez aussitôt conscience de la position de tous les autres arbres de la même essence dans un rayon de 150 m et, lors du déplacement qui vous permet de pénétrer dans l’arbre, vous avez alors le choix entre passer dans l’un de ces arbres ou ressortir par celui dans lequel vous venez d’entrer. Si vous consacrez 1,50 m de déplacement supplémentaire, vous apparaissez à l’endroit de votre choix dans un rayon de 1,50 m de l’arbre de destination. S’il ne vous reste aucun déplacement, vous réapparaissez dans un rayon de 1,50 m de l’arbre de départ.",
+    "source": "SRD officiel 5.2.1 FR · section de Tree Stride · CC-BY-4.0"
+  },
+  {
+    "en": "You can use this transportation ability only once on each of your turns. You must end each turn outside a tree.",
+    "fr": "Vous ne pouvez utiliser cette faculté de transport qu’une seule fois à chacun de vos tours. Vous devez terminer chaque tour à l’extérieur d’un arbre.",
+    "source": "SRD officiel 5.2.1 FR · section de Tree Stride · CC-BY-4.0"
+  },
+  {
+    "en": "An Invisible wall of force springs into existence at a point you choose within range. The wall appears in any orientation you choose, as a horizontal or vertical barrier or at an angle. It can be free floating or resting on a solid surface. You can form it into a hemispherical dome or a globe with a radius of up to 10 feet, or you can shape a flat surface made up of ten 10-foot-by-10-foot panels. Each panel must be contiguous with another panel. In any form, the wall is 1/4 inch thick and lasts for the duration. If the wall cuts through a creature’s space when it appears, the creature is pushed to one side of the wall (you choose which side).",
+    "fr": "Un mur de force invisible se matérialise en un point que vous choisissez à portée. Le mur se présente dans l’orientation de votre choix, horizontal ou vertical, voire complètement de biais. Il peut rester en suspension ou reposer sur une surface solide. Vous pouvez le façonner en dôme hémisphérique ou en globe d’un rayon maximal de 3 m, ou en faire une surface plane composée de dix pans de 3 m sur 3. Chaque pan doit être contigu avec un autre. Quelle que soit sa forme, le mur est épais de 1/4 inch et persiste pour toute la durée. Si le mur traverse l’espace d’une créature à son apparition, la créature est repoussée du côté du mur que vous choisissez.",
+    "source": "SRD 5.2.1 FR · section de Wall of Force adaptée aux valeurs de Shard · CC-BY-4.0"
+  },
+  {
+    "en": "Nothing can physically pass through the wall. It is immune to all damage and can’t be dispelled by Dispel Magic. A Disintegrate spell destroys the wall instantly, however. The wall also extends into the Ethereal Plane and blocks ethereal travel through the wall.",
+    "fr": "Rien ne peut franchir physiquement le mur. Il est immunisé contre tous les dégâts et insensible à dissipation de la magie. Le sort désintégration détruit en revanche le mur instantanément. Ce mur s’étend en outre sur le Plan Éthéré, ce qui empêche le voyage éthéré le traversant.",
+    "source": "SRD officiel 5.2.1 FR · section de Wall of Force · CC-BY-4.0"
+  },
+  {
+    "en": "A nonmagical wall of solid stone springs into existence at a point you choose within range. The wall is 6 inches thick and is composed of ten 10-foot-by10-foot panels. Each panel must be contiguous with another panel. Alternatively, you can create 10-footby-20-foot panels that are only 3 inches thick.",
+    "fr": "Un mur non magique de pierre solide se matérialise en un point que vous choisissez à portée. Le mur, épais de 15 cm, se compose de dix pans de 3 m sur 3. Chaque pan doit être contigu avec un autre. Une autre option consiste à créer des pans de 3 m sur 6, épais de seulement 7,5 cm.",
+    "source": "SRD officiel 5.2.1 FR · section de Wall of Stone · CC-BY-4.0"
+  },
+  {
+    "en": "If the wall cuts through a creature’s space when it appears, the creature is pushed to one side of the wall (you choose which side). If a creature would be surrounded on all sides by the wall (or the wall and another solid surface), that creature can make a Dexterity saving throw. On a success, it can use its Reaction to move up to its Speed so that it is no longer enclosed by the wall.",
+    "fr": "Si le mur traverse l’espace d’une créature à son apparition, la créature est repoussée du côté du mur que vous choisissez. Si une créature est censée se retrouver cernée par le mur de tous les côtés (ou par le mur et une autre surface solide), elle a droit à un jet de sauvegarde de Dextérité. En cas de réussite, elle peut jouer sa Réaction pour se déplacer dans les limites de sa Vitesse de manière à ne plus être séquestrée par le mur.",
+    "source": "SRD officiel 5.2.1 FR · section de Wall of Stone · CC-BY-4.0"
+  },
+  {
+    "en": "The wall can have any shape you desire, though it can’t occupy the same space as a creature or object. The wall doesn’t need to be vertical or rest on a firm foundation. It must, however, merge with and be solidly supported by existing stone. Thus, you can use this spell to bridge a chasm or create a ramp.",
+    "fr": "Le mur peut prendre toute forme de votre choix, mais il ne peut pas occuper le même espace que des créatures ou des objets. Il n’a pas besoin d’être vertical ni de reposer sur des fondations robustes. Il doit en revanche fusionner avec de la pierre existante, qui doit pouvoir le soutenir. Vous pouvez ainsi recourir à ce sort pour créer un pont qui enjambe un gouffre, ou un plan incliné.",
+    "source": "SRD officiel 5.2.1 FR · section de Wall of Stone · CC-BY-4.0"
+  },
+  {
+    "en": "If you create a span greater than 20 feet in length, you must halve the size of each panel to create supports. You can crudely shape the wall to create battlements and the like.",
+    "fr": "Si le pont ainsi créé dépasse 6 m de long, vous devez réduire de moitié la taille de chaque pan de façon à l’étayer. Vous pouvez grossièrement façonner le mur pour produire des remparts ou créneaux.",
+    "source": "SRD officiel 5.2.1 FR · section de Wall of Stone · CC-BY-4.0"
+  },
+  {
+    "en": "The wall is an object made of stone that can be damaged and thus breached. Each panel has AC 15 and 30 Hit Points per inch of thickness, and it has Immunity to Poison and Psychic damage. Reducing a panel to 0 Hit Points destroys it and might cause connected panels to collapse at the GM’s discretion.",
+    "fr": "Le mur est un objet de pierre que l’on peut endommager, ce qui permet d’y ouvrir une brèche. Chaque pan présente une CA de 15 et dispose de 30 points de vie par tranche de 2,5 cm d’épaisseur, et bénéficie de l’Immunité contre les dégâts psychiques et de poison. Un pan réduit à 0 point de vie est détruit, ce qui peut en outre provoquer l’effondrement de pans contigus, à l’appréciation du MJ.",
+    "source": "SRD officiel 5.2.1 FR · section de Wall of Stone · CC-BY-4.0"
+  },
+  {
+    "en": "If you maintain your Concentration on this spell for its full duration, the wall becomes permanent and can’t be dispelled. Otherwise, the wall disappears when the spell ends.",
+    "fr": "Si vous maintenez la Concentration sur ce sort jusqu’au terme de sa durée maximale, le mur devient permanent, sans possibilité de le dissiper. Sans cela, il disparaît quand le sort prend fin.",
+    "source": "SRD officiel 5.2.1 FR · section de Wall of Stone · CC-BY-4.0"
+  },
+  {
+    "en": "With a touch, you place an illusion on a willing creature or an object that isn’t being worn or carried. A creature gains the Mask effect below, and an object gains the False Aura effect below. The effect lasts for the duration. If you cast the spell on the same target every day for 30 days, the illusion lasts until dispelled.",
+    "fr": "D’un contact, vous placez une illusion sur une créature consentante ou un objet qui n’est porté par personne. Une créature reçoit l’effet Masque, tandis qu’un objet reçoit l’effet Aura factice (voir plus loin). Les effets persistent pour toute la durée. Si vous lancez ce sort sur une même créature ou un même objet pendant 30 jours consécutifs, l’illusion persiste jusqu’à dissipation.",
+    "source": "SRD officiel 5.2.1 FR · section de Arcanist's Magic Aura · CC-BY-4.0"
+  },
+  {
     "en": "You exert control over the elements, creating one of the following effects within range.",
     "fr": "Vous exercez votre contrôle sur les éléments, ce qui produit l’un des effets suivants à portée.",
     "source": "SRD officiel 5.2.1 FR · section de Elementalism · CC-BY-4.0"
@@ -400,11 +1560,6 @@
     "source": "SRD officiel 5.2.1 FR · section de Minor Illusion · CC-BY-4.0"
   },
   {
-    "en": "Sound. If you create a sound, its volume can range from a whisper to a scream. It can be your voice, someone else’s voice, a lion’s roar, a beating of drums, or any other sound you choose. The sound continues unabated throughout the duration, or you can make discrete sounds at different times before the spell ends.",
-    "fr": "Son. Si vous créez un son, son volume peut aller du murmure au cri. Il peut prendre votre voix, celle de quelqu’un d’autre, imiter le rugissement du lion, un roulement de tambour ou une autre forme de votre choix. Le son se prolonge sans discontinuer pour toute la durée, à moins que vous préfériez ne le faire intervenir que de temps à autre jusqu’à la fin du sort.",
-    "source": "SRD officiel 5.2.1 FR · section de Minor Illusion · CC-BY-4.0"
-  },
-  {
     "en": "Sound.",
     "fr": "Son.",
     "source": "SRD officiel 5.2.1 FR · section de Minor Illusion · CC-BY-4.0"
@@ -412,11 +1567,6 @@
   {
     "en": "If you create an image of an object—such as a chair, muddy footprints, or a small chest—it must be no larger than a 5-foot Cube. The image can’t create sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an illusion, since things can pass through it.",
     "fr": "Si vous créez l’image d’un objet, comme une chaise, des empreintes boueuses ou un petit coffre, il doit pouvoir tenir dans un Cube de 1,50 m. L’image ne peut créer ni son, ni lumière, ni odeur, ni autre effet sensoriel. Toute interaction physique avec l’image percera l’illusion, car elle n’est pas tangible.",
-    "source": "SRD officiel 5.2.1 FR · section de Minor Illusion · CC-BY-4.0"
-  },
-  {
-    "en": "Image. If you create an image of an object—such as a chair, muddy footprints, or a small chest—it must be no larger than a 5-foot Cube. The image can’t create sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an illusion, since things can pass through it.",
-    "fr": "Image. Si vous créez l’image d’un objet, comme une chaise, des empreintes boueuses ou un petit coffre, il doit pouvoir tenir dans un Cube de 1,50 m. L’image ne peut créer ni son, ni lumière, ni odeur, ni autre effet sensoriel. Toute interaction physique avec l’image percera l’illusion, car elle n’est pas tangible.",
     "source": "SRD officiel 5.2.1 FR · section de Minor Illusion · CC-BY-4.0"
   },
   {
@@ -473,11 +1623,6 @@
     "en": "Natural Weapons.",
     "fr": "Armes naturelles.",
     "source": "SRD officiel 5.2.1 FR · section de Alter Self · CC-BY-4.0"
-  },
-  {
-    "en": "You activate one of the effects below. Until the spell ends, you can activate either effect as a Magic action on your later turns.",
-    "fr": "Vous activez l’un des effets ci-après. À vos tours suivants jusqu’à la fin du sort, vous pouvez activer l’un des deux effets au prix de l’action Magie.",
-    "source": "SRD officiel 5.2.1 FR · section de Detect Thoughts · CC-BY-4.0"
   },
   {
     "en": "You sense the presence of thoughts within 30 feet of yourself that belong to creatures that know languages or are telepathic. You don’t read the thoughts, but you know that a thinking creature is present. The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of lead.",
@@ -920,11 +2065,6 @@
     "source": "SRD officiel 5.2.1 FR · section de Banishment · CC-BY-4.0"
   },
   {
-    "en": "Using a Higher-Level Spell Slot. You can target one additional creature for each spell slot level above 4.",
-    "fr": "Emplacement de niveau supérieur. Vous pouvez cibler une créature supplémentaire par niveau d’emplacement au-delà du 4e.",
-    "source": "SRD officiel 5.2.1 FR · section de Freedom of Movement · CC-BY-4.0"
-  },
-  {
     "en": "You can target one additional creature for each spell slot level above 4.",
     "fr": "Vous pouvez cibler une créature supplémentaire par niveau d’emplacement au-delà du 4e.",
     "source": "SRD officiel 5.2.1 FR · section de Freedom of Movement · CC-BY-4.0"
@@ -1065,11 +2205,6 @@
     "source": "SRD officiel 5.2.1 FR · section de Chromatic Orb · CC-BY-4.0"
   },
   {
-    "en": "Using a Higher-Level Spell Slot. The damage increases by 1d8 for each spell slot level above 1. The orb can leap a maximum number of times equal to the level of the slot expended, and a creature can be targeted only once by each casting of this spell.",
-    "fr": "Emplacement de niveau supérieur. Les dégâts augmentent de 1d8 par niveau d’emplacement au-delà du 1er. L’orbe est susceptible de rebondir autant de fois que le niveau de l’emplacement dépensé, une même créature ne pouvant être ciblée qu’une fois par incantation du sort.",
-    "source": "SRD officiel 5.2.1 FR · section de Chromatic Orb · CC-BY-4.0"
-  },
-  {
     "en": "The damage increases by 1d8 for each spell slot level above 1. The orb can leap a maximum number of times equal to the level of the slot expended, and a creature can be targeted only once by each casting of this spell.",
     "fr": "Les dégâts augmentent de 1d8 par niveau d’emplacement au-delà du 1er. L’orbe est susceptible de rebondir autant de fois que le niveau de l’emplacement dépensé, une même créature ne pouvant être ciblée qu’une fois par incantation du sort.",
     "source": "SRD officiel 5.2.1 FR · section de Chromatic Orb · CC-BY-4.0"
@@ -1093,11 +2228,6 @@
     "en": "You create a 20-foot-radius Sphere of yellow-green fog centered on a point within range. The fog lasts for the duration or until strong wind (such as the one created by Gust of Wind) disperses it, ending the spell. Its area is Heavily Obscured. Each creature in the Sphere makes a Constitution saving throw, taking 5d8 Poison damage on a failed save or half as much damage on a successful one. A creature must also make this save when the Sphere moves into its space and when it enters the Sphere or ends its turn there. A creature makes this save only once per turn. The Sphere moves 10 feet away from you at the start of each of your turns.",
     "fr": "Vous créez une Sphère de 6 m de rayon constituée de brouillard d’un jaune verdâtre, centrée sur un point à portée. La brume persiste pour toute la durée, à moins qu’un vent fort (comme celui engendré par bourrasque) la disperse et mette fin au sort. Sa zone présente une Visibilité nulle. Chaque créature prise dans la Sphère effectue un jet de sauvegarde de Constitution et subit 5d8 dégâts de poison en cas d’échec, la moitié en cas de réussite. Toute créature qui voit la Sphère se déplacer dans son espace, ou qui pénètre dans la Sphère ou y termine son tour est également soumise à ce JS. Une même créature n’effectue en aucun cas ce JS plus d’une fois par tour. La Sphère s’éloigne de vous de 3 m au début de chacun de vos tours.",
     "source": "SRD officiel 5.2.1 FR · section de Cloudkill · CC-BY-4.0"
-  },
-  {
-    "en": "Using a Higher-Level Spell Slot. The damage increases by 1d8 for each spell slot level above 5.",
-    "fr": "Emplacement de niveau supérieur. Les dégâts augmentent de 1d8 par niveau d’emplacement au-delà du 5e.",
-    "source": "SRD officiel 5.2.1 FR · section de Conjure Elemental · CC-BY-4.0"
   },
   {
     "en": "The damage increases by 1d8 for each spell slot level above 5.",
@@ -1295,11 +2425,6 @@
     "source": "SRD officiel 5.2.1 FR · section de Dominate Beast · CC-BY-4.0"
   },
   {
-    "en": "Using a Higher-Level Spell Slot. Your Concentration can last longer with a spell slot of level 5 (up to 10 minutes), 6 (up to 1 hour), or 7+ (up to 8 hours).",
-    "fr": "Emplacement de niveau supérieur. Votre Concentration peut persister plus longtemps avec un emplacement du 5e niveau (jusqu’à 10 minutes), du 6e (jusqu’à 1 heure), ou du 7e et supérieur (jusqu’à 8 heures).",
-    "source": "SRD officiel 5.2.1 FR · section de Dominate Beast · CC-BY-4.0"
-  },
-  {
     "en": "Your Concentration can last longer with a spell slot of level 5 (up to 10 minutes), 6 (up to 1 hour), or 7+ (up to 8 hours).",
     "fr": "Votre Concentration peut persister plus longtemps avec un emplacement du 5e niveau (jusqu’à 10 minutes), du 6e (jusqu’à 1 heure), ou du 7e et supérieur (jusqu’à 8 heures).",
     "source": "SRD officiel 5.2.1 FR · section de Dominate Beast · CC-BY-4.0"
@@ -1440,11 +2565,6 @@
     "source": "SRD officiel 5.2.1 FR · section de Flame Blade · CC-BY-4.0"
   },
   {
-    "en": "Using a Higher-Level Spell Slot. The damage increases by 1d6 for each spell slot level above 2.",
-    "fr": "Emplacement de niveau supérieur. Les dégâts augmentent de 1d6 par niveau d’emplacement au-delà du 2e.",
-    "source": "SRD officiel 5.2.1 FR · section de Shining Smite · CC-BY-4.0"
-  },
-  {
     "en": "The damage increases by 1d6 for each spell slot level above 2.",
     "fr": "Les dégâts augmentent de 1d6 par niveau d’emplacement au-delà du 2e.",
     "source": "SRD officiel 5.2.1 FR · section de Shining Smite · CC-BY-4.0"
@@ -1473,11 +2593,6 @@
     "en": "You touch a willing creature. For the duration, the target gains a Fly Speed of 60 feet and can hover. When the spell ends, the target falls if it is still aloft unless it can stop the fall.",
     "fr": "Vous touchez une créature consentante. Pour toute la durée, la cible acquiert une Vitesse de vol de 18 m et bénéficie du vol stationnaire. Lorsque le sort prend fin, la cible tombe si elle est toujours dans les airs, à moins de pouvoir arrêter sa chute.",
     "source": "SRD officiel 5.2.1 FR · section de Fly · CC-BY-4.0"
-  },
-  {
-    "en": "Using a Higher-Level Spell Slot. You can target one additional creature for each spell slot level above 3.",
-    "fr": "Emplacement de niveau supérieur. Vous pouvez cibler une créature supplémentaire par niveau d’emplacement au-delà du 3e.",
-    "source": "SRD officiel 5.2.1 FR · section de Gaseous Form · CC-BY-4.0"
   },
   {
     "en": "You can target one additional creature for each spell slot level above 3.",
@@ -1512,11 +2627,6 @@
   {
     "en": "You give a verbal command to a creature that you can see within range, ordering it to carry out some service or refrain from an action or a course of activity as you decide. The target must succeed on a Wisdom saving throw or have the Charmed condition for the duration. The target automatically succeeds if it can’t understand your command. While Charmed, the creature takes 5d10 Psychic damage if it acts in a manner directly counter to your command. It takes this damage no more than once each day. You can issue any command you choose, short of an activity that would result in certain death. Should you issue a suicidal command, the spell ends. A Remove Curse, Greater Restoration, or Wish spell ends this spell.",
     "fr": "Vous intimez un ordre verbal à une créature que vous voyez à portée, pour la contraindre à accomplir une tâche ou l’empêcher d’exécuter certains actes que vous définissez. La cible doit réussir un jet de sauvegarde de Sagesse sous peine de subir l’état Charmé pour toute la durée du sort. Elle réussit automatiquement ce JS si elle n’est pas en mesure de comprendre votre ordre. Tant que la créature est ainsi Charmée, elle subit 5d10 dégâts psychiques quand elle se conduit directement à l’encontre de vos instructions. Elle ne peut pas subir ces dégâts plus d’une fois par jour. Vous pouvez donner n’importe quel ordre, en dehors d’une tâche dont l’issue serait forcément fatale à la cible. Si l’instruction intimée est suicidaire, le sort prend fin. Les sorts délivrance des malédictions, restauration suprême et souhait mettent chacun fin à ce sort.",
-    "source": "SRD officiel 5.2.1 FR · section de Geas · CC-BY-4.0"
-  },
-  {
-    "en": "Using a Higher-Level Spell Slot. If you use a level 7 or 8 spell slot, the duration is 365 days. If you use a level 9 spell slot, the spell lasts until it is ended by one of the spells mentioned above.",
-    "fr": "Emplacement de niveau supérieur. Avec un emplacement du 7e ou 8e niveau, la durée est de 365 jours. Avec un emplacement du 9e niveau, le sort persiste jusqu’à ce qu’un des sorts cités plus haut y mette fin.",
     "source": "SRD officiel 5.2.1 FR · section de Geas · CC-BY-4.0"
   },
   {
@@ -1588,11 +2698,6 @@
     "en": "Choose a manufactured metal object, such as a metal weapon or a suit of Heavy or Medium metal armor, that you can see within range. You cause the object to glow red-hot. Any creature in physical contact with the object takes 2d8 Fire damage when you cast the spell. Until the spell ends, you can take a Bonus Action on each of your later turns to deal this damage again if the object is within range. If a creature is holding or wearing the object and takes the damage from it, the creature must succeed on a Constitution saving throw or drop the object if it can. If it doesn’t drop the object, it has Disadvantage on attack rolls and ability checks until the start of your next turn.",
     "fr": "Choisissez un objet manufacturé en métal, tel qu’une arme, ou une armure métallique intermédiaire ou lourde, que vous voyez à portée. Vous faites chauffer l’objet au rouge incandescent. Toute créature en contact physique avec l’objet subit 2d8 dégâts de feu à l’incantation du sort. Jusqu’à la fin du sort, vous pouvez appliquer de nouveau ces dégâts par une action Bonus à chacun de vos tours suivants, à condition que l’objet soit à portée. Une créature qui tient un tel objet ou en est vêtue et qui subit les dégâts correspondants doit réussir un jet de sauvegarde de Constitution sous peine de lâcher l’objet (si elle en a la possibilité). Si elle ne peut pas le lâcher, elle a le Désavantage à ses jets d’attaque et tests de caractéristique jusqu’au début de votre tour suivant.",
     "source": "SRD officiel 5.2.1 FR · section de Heat Metal · CC-BY-4.0"
-  },
-  {
-    "en": "Using a Higher-Level Spell Slot. The damage increases by 1d8 for each spell slot level above 2.",
-    "fr": "Emplacement de niveau supérieur. Les dégâts augmentent de 1d8 par niveau d’emplacement au-delà du 2e.",
-    "source": "SRD officiel 5.2.1 FR · section de Shatter · CC-BY-4.0"
   },
   {
     "en": "The damage increases by 1d8 for each spell slot level above 2.",
@@ -1670,11 +2775,6 @@
     "source": "SRD officiel 5.2.1 FR · section de Hold Person · CC-BY-4.0"
   },
   {
-    "en": "You create a shard of ice and fling it at one creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 Piercing damage. Hit or miss, the shard then explodes. The target and each creature within 5 feet of it must succeed on a Dexterity saving throw or take 2d6 Cold damage.",
-    "fr": "Vous créez un fragment de glace que vous lancez sur une créature à portée. Effectuez une attaque de sort à distance contre la cible. Si l’attaque touche, la cible subit 1d10 dégâts perforants. Que l’attaque touche ou rate, le fragment explose alors. La cible et toutes les créatures situées dans un rayon de 1,50 m d’elle doivent réussir un jet de sauvegarde de Dextérité, sous peine de subir 2d6 dégâts de froid",
-    "source": "SRD officiel 5.2.1 FR · section de Ice Knife · CC-BY-4.0"
-  },
-  {
     "en": "Using a Higher-Level Spell Slot. The Cold damage increases by 1d6 for each spell slot level above 1.",
     "fr": "Emplacement de niveau supérieur. Les dégâts de froid augmentent de 1d6 par niveau d’emplacement au-delà du 1er.",
     "source": "SRD officiel 5.2.1 FR · section de Ice Knife · CC-BY-4.0"
@@ -1710,11 +2810,6 @@
     "source": "SRD officiel 5.2.1 FR · section de Insect Plague · CC-BY-4.0"
   },
   {
-    "en": "Using a Higher-Level Spell Slot. The damage increases by 1d10 for each spell slot level above 5.",
-    "fr": "Emplacement de niveau supérieur. Les dégâts augmentent de 1d10 par niveau d’emplacement au-delà du 5e.",
-    "source": "SRD officiel 5.2.1 FR · section de Insect Plague · CC-BY-4.0"
-  },
-  {
     "en": "The damage increases by 1d10 for each spell slot level above 5.",
     "fr": "Les dégâts augmentent de 1d10 par niveau d’emplacement au-delà du 5e.",
     "source": "SRD officiel 5.2.1 FR · section de Insect Plague · CC-BY-4.0"
@@ -1742,11 +2837,6 @@
   {
     "en": "You create a 10-foot-radius, 20-foot-tall Cylinder of magical energy centered on a point on the ground that you can see within range. Glowing runes appear wherever the Cylinder intersects with the floor or other surface. Choose one or more of the following types of creatures: Celestials, Elementals, Fey, Fiends, or Undead. The circle affects a creature of the chosen type in the following ways: • The creature can’t willingly enter the Cylinder by nonmagical means. If the creature tries to use teleportation or interplanar travel to do so, it must first succeed on a Charisma saving throw. • The creature has Disadvantage on attack rolls against targets within the Cylinder. • Targets within the Cylinder can’t be possessed by or gain the Charmed or Frightened condition from the creature. Each time you cast this spell, you can cause its magic to operate in the reverse direction, preventing a creature of the specified type from leaving the Cylinder and protecting targets outside it.",
     "fr": "Vous créez un Cylindre d’énergies magiques, de 3 m de rayon et 6 m de haut, centré sur un point du sol que vous voyez à portée. Des runes luisantes apparaissent sur toute surface comprise dans le Cylindre, y compris le sol. Choisissez un ou plusieurs types parmi les suivants : Célestes, Élémentaires, Fées, Fiélons et Morts-vivants. Le cercle affecte les créatures du ou des types retenus des façons suivantes : • La créature ne peut pénétrer dans le Cylindre de son plein gré sans recourir à des moyens magiques. Si la créature recourt à la téléportation ou au voyage interplanaire pour ce faire, elle doit d’abord réussir un jet de sauvegarde de Charisme. • La créature a le Désavantage aux jets d’attaque contre les cibles situées dans le Cylindre. • La créature ne peut pas posséder une cible comprise dans le Cylindre ni lui imposer l’état Charmé ou Effrayé. À chaque incantation du sort, vous pouvez inverser l’orientation de sa magie, c’est-à-dire en empêchant toute créature du ou des types retenus de quitter le Cylindre et en protégeant les cibles qui se trouvent à l’extérieur.",
-    "source": "SRD officiel 5.2.1 FR · section de Magic Circle · CC-BY-4.0"
-  },
-  {
-    "en": "Using a Higher-Level Spell Slot. The duration increases by 1 hour for each spell slot level above 3.",
-    "fr": "Emplacement de niveau supérieur. La durée augmente de 1 heure par niveau d’emplacement au-delà du 3e.",
     "source": "SRD officiel 5.2.1 FR · section de Magic Circle · CC-BY-4.0"
   },
   {
@@ -1782,11 +2872,6 @@
   {
     "en": "You create the image of an object, a creature, or some other visible phenomenon that is no larger than a 20-foot Cube. The image appears at a spot that you can see within range and lasts for the duration. It seems real, including sounds, smells, and temperature appropriate to the thing depicted, but it can’t deal damage or cause conditions. If you are within range of the illusion, you can take a Magic action to cause the image to move to any other spot within range. As the image changes location, you can alter its appearance so that its movements appear natural for the image. For example, if you create an image of a creature and move it, you can alter the image so that it appears to be walking. Similarly, you can cause the illusion to make different sounds at different times, even making it carry on a conversation, for example. Physical interaction with the image reveals it to be an illusion, for things can pass through it. A creature that takes a Study action to examine the image can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image, and its other sensory qualities become faint to the creature.",
     "fr": "Vous créez l’image d’un objet, d’une créature ou autre phénomène visible dont la taille ne dépasse pas celle d’un Cube de 6 m. L’image apparaît en un endroit que vous voyez à portée et persiste pour toute la durée. Elle semble réelle, avec les sons, les odeurs et la température attendus, mais elle ne peut infliger de dégâts ni d’états. Si vous êtes à portée de l’illusion, vous pouvez entreprendre l’action Magie pour déplacer l’image vers un autre point à portée du sort. Lors de ce déplacement, vous pouvez modifier l’aspect de l’image afin que ses mouvements paraissent naturels. Exemple : si vous créez l’image d’une créature que vous faites déplacer, vous pouvez faire en sorte qu’elle donne l’impression de marcher. De même, vous pouvez lui faire produire des sons à votre guise et même la faire participer à une conversation. Toute interaction physique avec l’image percera l’illusion, car elle n’est pas tangible. Une créature qui entreprend l’action Étude pour examiner l’image peut comprendre qu’il s’agit d’une illusion en réussissant un test d’Intelligence (Investigation) assorti de votre DD de sauvegarde des sorts. Une créature qui perce l’illusion voit au travers et ne perçoit que de manière amoindrie les propriétés sensorielles produites par l’image.",
-    "source": "SRD officiel 5.2.1 FR · section de Major Image · CC-BY-4.0"
-  },
-  {
-    "en": "Using a Higher-Level Spell Slot. The spell lasts until dispelled, without requiring Concentration, if cast with a level 4+ spell slot.",
-    "fr": "Emplacement de niveau supérieur. Lancé par un emplacement du 4e niveau ou supérieur, le sort persiste jusqu’à dissipation sans besoin de Concentration.",
     "source": "SRD officiel 5.2.1 FR · section de Major Image · CC-BY-4.0"
   },
   {
@@ -1847,11 +2932,6 @@
   {
     "en": "You attempt to reshape another creature’s memories. One creature that you can see within range makes a Wisdom saving throw. If you are fighting the creature, it has Advantage on the save. On a failed save, the target has the Charmed condition for the duration. While Charmed in this way, the target also has the Incapacitated condition and is unaware of its surroundings, though it can hear you. If it takes any damage or is targeted by another spell, this spell ends, and no memories are modified. While this charm lasts, you can affect the target’s memory of an event that it experienced within the last 24 hours and that lasted no more than 10 minutes. You can permanently eliminate all memory of the event, allow the target to recall the event with perfect clarity, change its memory of the event’s details, or create a memory of some other event. You must speak to the target to describe how its memories are affected, and it must be able to understand your language for the modified memories to take root. Its mind fills in any gaps in the details of your description. If the spell ends before you finish describing the modified memories, the creature’s memory isn’t altered. Otherwise, the modified memories take hold when the spell ends. A modified memory doesn’t necessarily affect how a creature behaves, particularly if the memory contradicts the creature’s natural inclinations, alignment, or beliefs. An illogical modified memory, such as a false memory of how much the creature enjoyed swimming in acid, is dismissed as a bad dream. The GM might deem a modified memory too nonsensical to affect a creature. A Remove Curse or Greater Restoration spell cast on the target restores the creature’s true memory.",
     "fr": "Vous tentez de remodeler les souvenirs d’une autre créature. Une créature que vous voyez à portée effectue un jet de sauvegarde de Sagesse. Si vous êtes en train de l’affronter, elle a l’Avantage au JS. En cas d’échec, la cible subit l’état Charmé pour toute la durée. Ainsi Charmée, la cible subit aussi l’état Neutralisé et n’a pas conscience de son environnement, mais elle vous entend toujours. Si elle subit des dégâts ou est la cible d’un autre sort, cette modification de mémoire prend fin et nul souvenir n’est altéré. Tant que persiste ce charme, vous pouvez influer sur un souvenir de la cible ayant eu lieu au cours des 24 dernières heures et ne s’étalant pas sur plus de 10 minutes. Vous pouvez effacer toute mémoire de l’événement, permettre au contraire à la cible de se souvenir parfaitement de l’épisode dans les moindres détails, altérer certains éléments qui y sont liés dans son esprit ou créer de toutes pièces le souvenir d’un autre événement. Vous devez parler à la cible pour lui décrire en quoi sa mémoire est modifiée, sachant qu’elle doit comprendre la langue employée pour que le souvenir s’enracine. Son esprit se charge de combler les lacunes de votre description. Si le sort prend fin avant que vous ayez fini de décrire les souvenirs modifiés, la mémoire de la créature n’est pas altérée. Sinon, l’altération prend effet quand le sort se termine. Sa mémoire modifiée, la créature ne va pas forcément se comporter différemment, surtout si ces souvenirs vont à l’encontre de ses penchants naturels, de son alignement ou de ses croyances. Si le souvenir implanté est absurde, comme un épisode dans lequel la créature se serait baignée dans l’acide en y prenant plaisir, il sera simplement perçu comme un mauvais rêve. Le MJ peut décider qu’un souvenir modifié est trop contraire à la raison pour affecter la créature. Le sort délivrance des malédictions ou restauration suprême lancé sur la cible lui rend sa mémoire d’origine.",
-    "source": "SRD officiel 5.2.1 FR · section de Modify Memory · CC-BY-4.0"
-  },
-  {
-    "en": "Using a Higher-Level Spell Slot. You can alter the target’s memories of an event that took place up to 7 days ago (level 6 spell slot), 30 days ago (level 7 spell slot), 365 days ago (level 8 spell slot), or any time in the creature’s past (level 9 spell slot).",
-    "fr": "Emplacement de niveau supérieur. Vous pouvez altérer le souvenir d’un événement qui remonte à un maximum de 7 jours (emplacement du 6e niveau), 30 jours (7e), 365 jours (8e) ou à tout moment de son passé (9e).",
     "source": "SRD officiel 5.2.1 FR · section de Modify Memory · CC-BY-4.0"
   },
   {
@@ -1935,11 +3015,6 @@
     "source": "SRD officiel 5.2.1 FR · section de Produce Flame · CC-BY-4.0"
   },
   {
-    "en": "Cantrip Upgrade. The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8).",
-    "fr": "Amélioration de sort mineur. Les dégâts augmentent de 1d8 lorsque vous atteignez les niveaux 5 (2d8), 11 (3d8) et 17 (4d8).",
-    "source": "SRD officiel 5.2.1 FR · section de Starry Wisp · CC-BY-4.0"
-  },
-  {
     "en": "A frigid beam of blue-white light streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, it takes 1d8 Cold damage, and its Speed is reduced by 10 feet until the start of your next turn.",
     "fr": "Un rayon de lueur zébrée bleuâtre et glaciale file vers une créature à portée. Effectuez une attaque de sort à distance contre la cible. Si l’attaque touche, la cible subit 1d8 dégâts de froid et sa Vitesse est réduite de 3 m jusqu’au début de votre tour suivant.",
     "source": "SRD officiel 5.2.1 FR · section de Ray of Frost · CC-BY-4.0"
@@ -2017,11 +3092,6 @@
   {
     "en": "You create a floating, spectral force that resembles a weapon of your choice and lasts for the duration. The force appears within range in a space of your choice, and you can immediately make one melee spell attack against one creature within 5 feet of the force. On a hit, the target takes Force damage equal to 1d8 plus your spellcasting ability modifier. As a Bonus Action on your later turns, you can move the force up to 20 feet and repeat the attack against a creature within 5 feet of it.",
     "fr": "Vous créez une arme spectrale et flottante à l’image de l’arme de votre choix, qui persiste pour toute la durée. L’arme apparaît à portée dans l’espace de votre choix et vous pouvez aussitôt effectuer une attaque de sort au corps à corps contre une créature située dans un rayon de 1,50 m de l’arme. Si l’attaque touche, la cible subit des dégâts de force égaux à 1d8 + votre modificateur de caractéristique d’incantation. Par une action Bonus à chaque tour consécutif, vous pouvez déplacer l’arme d’un maximum de 6 m et répéter l’attaque contre une créature située dans un rayon de 1,50 m de l’arme.",
-    "source": "SRD officiel 5.2.1 FR · section de Spiritual Weapon · CC-BY-4.0"
-  },
-  {
-    "en": "Using a Higher-Level Spell Slot. The damage increases by 1d8 for every slot level above 2.",
-    "fr": "Emplacement de niveau supérieur. Les dégâts augmentent de 1d8 par niveau d’emplacement au-delà du 2e.",
     "source": "SRD officiel 5.2.1 FR · section de Spiritual Weapon · CC-BY-4.0"
   },
   {
@@ -2175,19 +3245,9 @@
     "source": "SRD officiel 5.2.1 FR · section de Planar Binding · CC-BY-4.0"
   },
   {
-    "en": "Using a Higher-Level Spell Slot. The duration increases with a spell slot of level 6 (10 days), 7 (30 days), 8 (180 days), and 9 (366 days).",
-    "fr": "Emplacement de niveau supérieur. La durée augmente avec un emplacement du 6e niveau (10 jours), du 7e (30 jours), du 8e (180 jours) et du 9e (366 jours).",
-    "source": "SRD officiel 5.2.1 FR · section de Planar Binding · CC-BY-4.0"
-  },
-  {
     "en": "The duration increases with a spell slot of level 6 (10 days), 7 (30 days), 8 (180 days), and 9 (366 days).",
     "fr": "La durée augmente avec un emplacement du 6e niveau (10 jours), du 7e (30 jours), du 8e (180 jours) et du 9e (366 jours).",
     "source": "SRD officiel 5.2.1 FR · section de Planar Binding · CC-BY-4.0"
-  },
-  {
-    "en": "As you hit the target, it takes an extra 1d6 Fire damage from the attack. At the start of each of its turns until the spell ends, the target takes 1d6 Fire damage and then makes a Constitution saving throw. On a failed save, the spell continues. On a successful save, the spell ends.",
-    "fr": "Alors que vous touchez la cible, elle subit 1d6 dégâts de feu supplémentaires de l’attaque. Au début de chacun de ses tours jusqu’à la fin du sort, la cible subit 1d6 dégâts de feu et effectue un jet de sauvegarde de Constitution. En cas d’échec, le sort se poursuit. En cas de réussite, le sort prend fin.",
-    "source": "SRD officiel 5.2.1 FR · section de Searing Smite · CC-BY-4.0"
   },
   {
     "en": "Using a Higher-Level Spell Slot. All the damage increases by 1d6 for each spell slot level above 1.",
@@ -2202,11 +3262,6 @@
   {
     "en": "A Club or Quarterstaff you are holding is imbued with nature’s power. For the duration, you can use your spellcasting ability instead of Strength for the attack and damage rolls of melee attacks using that weapon, and the weapon’s damage die becomes a d8. If the attack deals damage, it can be Force damage or the weapon’s normal damage type (your choice). The spell ends early if you cast it again or if you let go of the weapon.",
     "fr": "Le bois d’un gourdin ou d’un bâton de combat que vous tenez s’imprègne du pouvoir de la nature. Pour toute la durée, vous pouvez recourir à votre caractéristique d’incantation plutôt qu’à la Force pour les jets d’attaque et de dégâts de vos attaques de corps à corps effectuées avec cette arme. Le dé de dégâts de l’arme passe en outre à d8. Si l’attaque inflige des dégâts, il peut s’agir de dégâts de force ou des dégâts normaux de l’arme (à votre convenance). Le sort prend fin prématurément si vous le relancez ou si vous lâchez l’arme.",
-    "source": "SRD officiel 5.2.1 FR · section de Shillelagh · CC-BY-4.0"
-  },
-  {
-    "en": "Cantrip Upgrade. The damage die changes when you reach levels 5 (d10), 11 (d12), and 17 (2d6).",
-    "fr": "Amélioration de sort mineur. Le dé de dégâts change lorsque vous atteignez les niveaux 5 (d10), 11 (d12) et 17 (2d6).",
     "source": "SRD officiel 5.2.1 FR · section de Shillelagh · CC-BY-4.0"
   },
   {

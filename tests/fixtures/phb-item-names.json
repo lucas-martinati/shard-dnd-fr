@@ -1,0 +1,310 @@
+[
+  {
+    "en": "Abacus",
+    "fr": "Boulier"
+  },
+  {
+    "en": "Airship",
+    "fr": "Dirigeable"
+  },
+  {
+    "en": "Alms Box",
+    "fr": "Tronc à aumônes"
+  },
+  {
+    "en": "Bag of Sand (Small)",
+    "fr": "Sac de sable (petit)"
+  },
+  {
+    "en": "Barrel",
+    "fr": "Tonneau"
+  },
+  {
+    "en": "Basket",
+    "fr": "Panier"
+  },
+  {
+    "en": "Bell",
+    "fr": "Cloche"
+  },
+  {
+    "en": "Birdpipes",
+    "fr": "Flûtes à oiseaux"
+  },
+  {
+    "en": "Blowgun Needles",
+    "fr": "Aiguilles de sarbacane"
+  },
+  {
+    "en": "Bucket",
+    "fr": "Seau"
+  },
+  {
+    "en": "Burnt Othur Fumes (Inhaled)",
+    "fr": "Vapeurs d’othur brûlé (inhalation)"
+  },
+  {
+    "en": "Carriage",
+    "fr": "Carrosse"
+  },
+  {
+    "en": "Carrion Crawler Mucus (Contact)",
+    "fr": "Mucus de charognard rampant (contact)"
+  },
+  {
+    "en": "Cart",
+    "fr": "Charrette"
+  },
+  {
+    "en": "Censer",
+    "fr": "Encensoir"
+  },
+  {
+    "en": "Chalk (1 piece)",
+    "fr": "Craie (1 morceau)"
+  },
+  {
+    "en": "Chariot",
+    "fr": "Chariot"
+  },
+  {
+    "en": "Common Clothes",
+    "fr": "Vêtements courants"
+  },
+  {
+    "en": "Costume Clothes",
+    "fr": "Costume de scène"
+  },
+  {
+    "en": "Crossbow Bolt Case",
+    "fr": "Étui à carreaux d’arbalète"
+  },
+  {
+    "en": "Diplomat's Chest",
+    "fr": "Coffret de diplomate"
+  },
+  {
+    "en": "Donkey",
+    "fr": "Âne"
+  },
+  {
+    "en": "Dragonchess Set",
+    "fr": "Jeu d’échecs draconiques"
+  },
+  {
+    "en": "Drow Poison (Injury)",
+    "fr": "Poison drow (blessure)"
+  },
+  {
+    "en": "Dulcimer",
+    "fr": "Tympanon"
+  },
+  {
+    "en": "Fine Clothes",
+    "fr": "Vêtements de qualité"
+  },
+  {
+    "en": "Firearm Bullets",
+    "fr": "Balles d’arme à feu"
+  },
+  {
+    "en": "Galley",
+    "fr": "Galère"
+  },
+  {
+    "en": "Glass Bottle",
+    "fr": "Bouteille en verre"
+  },
+  {
+    "en": "Glaur",
+    "fr": "Glaur"
+  },
+  {
+    "en": "Hand Drum",
+    "fr": "Tambour à main"
+  },
+  {
+    "en": "Hempen Rope (50 feet)",
+    "fr": "Corde de chanvre (50 feet)"
+  },
+  {
+    "en": "Incense (block)",
+    "fr": "Encens (bloc)"
+  },
+  {
+    "en": "Ink (1-ounce bottle)",
+    "fr": "Encre (bouteille de 1 ounce)"
+  },
+  {
+    "en": "Iron Pot",
+    "fr": "Marmite en fer"
+  },
+  {
+    "en": "Iron Spikes",
+    "fr": "Pointes en fer"
+  },
+  {
+    "en": "Iron Spikes (10)",
+    "fr": "Pointes en fer (10)"
+  },
+  {
+    "en": "Keelboat",
+    "fr": "Bateau à quille"
+  },
+  {
+    "en": "Knife (Small)",
+    "fr": "Couteau (petit)"
+  },
+  {
+    "en": "Leather-Bound Diary",
+    "fr": "Journal relié en cuir"
+  },
+  {
+    "en": "Longhorn",
+    "fr": "Corne longue"
+  },
+  {
+    "en": "Longship",
+    "fr": "Drakkar"
+  },
+  {
+    "en": "Lyre",
+    "fr": "Lyre"
+  },
+  {
+    "en": "Maker's Mark Chisel",
+    "fr": "Burin de marquage d’artisan"
+  },
+  {
+    "en": "Map or Scroll Case",
+    "fr": "Étui à cartes ou à parchemins"
+  },
+  {
+    "en": "Merchant's Scale",
+    "fr": "Balance de marchand"
+  },
+  {
+    "en": "Military Uniform",
+    "fr": "Uniforme militaire"
+  },
+  {
+    "en": "Miner's Pick",
+    "fr": "Pic de mineur"
+  },
+  {
+    "en": "Mule",
+    "fr": "Mule"
+  },
+  {
+    "en": "Pan Flute",
+    "fr": "Flûte de Pan"
+  },
+  {
+    "en": "Paper (one sheet)",
+    "fr": "Papier (une feuille)"
+  },
+  {
+    "en": "Parchment (one sheet)",
+    "fr": "Parchemin (une feuille)"
+  },
+  {
+    "en": "Pitcher",
+    "fr": "Pichet"
+  },
+  {
+    "en": "Piton",
+    "fr": "Piton"
+  },
+  {
+    "en": "Portable Ram",
+    "fr": "Bélier portable"
+  },
+  {
+    "en": "Rowboat",
+    "fr": "Barque"
+  },
+  {
+    "en": "Sailing Ship",
+    "fr": "Navire à voiles"
+  },
+  {
+    "en": "Shawm",
+    "fr": "Chalemie"
+  },
+  {
+    "en": "Silk Rope (50 feet)",
+    "fr": "Corde de soie (50 feet)"
+  },
+  {
+    "en": "Sled",
+    "fr": "Traîneau"
+  },
+  {
+    "en": "Sledgehammer",
+    "fr": "Masse de chantier"
+  },
+  {
+    "en": "Songhorn",
+    "fr": "Corne chantante"
+  },
+  {
+    "en": "Steel Mirror",
+    "fr": "Miroir en acier"
+  },
+  {
+    "en": "String",
+    "fr": "Ficelle"
+  },
+  {
+    "en": "Tankard",
+    "fr": "Chope"
+  },
+  {
+    "en": "Tantan",
+    "fr": "Tantan"
+  },
+  {
+    "en": "Thelarr",
+    "fr": "Thelarr"
+  },
+  {
+    "en": "Three-Dragon Ante Set",
+    "fr": "Jeu des Trois Dragons"
+  },
+  {
+    "en": "Tocken",
+    "fr": "Tocken"
+  },
+  {
+    "en": "Trident",
+    "fr": "Trident"
+  },
+  {
+    "en": "Trinket",
+    "fr": "Bibelot"
+  },
+  {
+    "en": "Vestment",
+    "fr": "Vêtements liturgiques"
+  },
+  {
+    "en": "Wagon",
+    "fr": "Chariot de transport"
+  },
+  {
+    "en": "Wargong",
+    "fr": "Gong de guerre"
+  },
+  {
+    "en": "Warship",
+    "fr": "Navire de guerre"
+  },
+  {
+    "en": "Yarting",
+    "fr": "Yarting"
+  },
+  {
+    "en": "Zulkoon",
+    "fr": "Zulkoon"
+  }
+]

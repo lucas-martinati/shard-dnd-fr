@@ -181,6 +181,335 @@
       "fr": "Lorsque le sort prend fin, les créatures et objets encore présents dans l’espace extradimensionnel sont expulsés vers les espaces inoccupés les plus proches de l’entrée.",
       "edition": "2024",
       "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · paragraphes du Manoir signalés dans Shard · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "spell.2024.magic-aura.mask",
+      "en": "Choose a creature type other than the target’s actual type. Spells and other magical effects treat the target as if it were a creature of the chosen type.",
+      "fr": "Choisissez un type de créature autre que celui de la cible. Les sorts et effets magiques considèrent désormais la cible comme du type retenu.",
+      "source": "Traduction proposée du texte SRD 5.2.1 EN · CC-BY-4.0 · paragraphe vérifié, valeurs de Shard conservées · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "spell.2024.magic-aura.mask.heading",
+      "en": "Mask (Creature).",
+      "fr": "Masque (créature).",
+      "source": "Traduction proposée du texte SRD 5.2.1 EN · CC-BY-4.0 · paragraphe vérifié, valeurs de Shard conservées · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "spell.2024.magic-aura.mask.titled",
+      "en": "Mask (Creature). Choose a creature type other than the target’s actual type. Spells and other magical effects treat the target as if it were a creature of the chosen type.",
+      "fr": "Masque (créature). Choisissez un type de créature autre que celui de la cible. Les sorts et effets magiques considèrent désormais la cible comme du type retenu.",
+      "source": "Traduction proposée du texte SRD 5.2.1 EN · CC-BY-4.0 · paragraphe vérifié, valeurs de Shard conservées · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "spell.2024.magic-aura.false-aura",
+      "en": "You change the way the target appears to spells and magical effects that detect magical auras, such as Detect Magic. You can make a nonmagical object appear magical, make a magic item appear nonmagical, or change the object’s aura so that it appears to belong to a school of magic you choose.",
+      "fr": "Vous altérez la manière dont la cible se dévoile au gré de sorts et effets magiques qui perçoivent les auras magiques, tels que détection de la magie. Vous pouvez ainsi faire qu’un objet ordinaire paraisse magique, qu’un objet magique paraisse ordinaire, ou modifier l’aura magique d’un objet pour qu’elle soit associée à l’école de magie de votre choix.",
+      "source": "Traduction proposée du texte SRD 5.2.1 EN · CC-BY-4.0 · paragraphe vérifié, valeurs de Shard conservées · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "spell.2024.magic-aura.false-aura.heading",
+      "en": "False Aura (Object).",
+      "fr": "Aura factice (objet).",
+      "source": "Traduction proposée du texte SRD 5.2.1 EN · CC-BY-4.0 · paragraphe vérifié, valeurs de Shard conservées · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "spell.2024.magic-aura.false-aura.titled",
+      "en": "False Aura (Object). You change the way the target appears to spells and magical effects that detect magical auras, such as Detect Magic. You can make a nonmagical object appear magical, make a magic item appear nonmagical, or change the object’s aura so that it appears to belong to a school of magic you choose.",
+      "fr": "Aura factice (objet). Vous altérez la manière dont la cible se dévoile au gré de sorts et effets magiques qui perçoivent les auras magiques, tels que détection de la magie. Vous pouvez ainsi faire qu’un objet ordinaire paraisse magique, qu’un objet magique paraisse ordinaire, ou modifier l’aura magique d’un objet pour qu’elle soit associée à l’école de magie de votre choix.",
+      "source": "Traduction proposée du texte SRD 5.2.1 EN · CC-BY-4.0 · paragraphe vérifié, valeurs de Shard conservées · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "spell.2024.blink.ethereal",
+      "en": "Roll 1d6 at the end of each of your turns for the duration. On a roll of 4–6, you vanish from your current plane of existence and appear in the Ethereal Plane (the spell ends instantly if you are already on that plane). While on the Ethereal Plane, you can perceive the plane you left, which is cast in shades of gray, but you can’t see anything there more than 60 feet away. You can affect and be affected only by other creatures on the Ethereal Plane, and creatures on the other plane can’t perceive you unless they have a special ability that lets them perceive things on the Ethereal Plane.",
+      "fr": "Lancez 1d6 à la fin de chacun de vos tours pendant toute la durée du sort. Sur un résultat de 4 à 6, vous disparaissez de votre plan d’existence actuel et apparaissez sur le Plan Éthéré (le sort prend immédiatement fin si vous êtes déjà sur ce plan). Sur le Plan Éthéré, vous percevez le plan que vous avez quitté, qui apparaît en nuances de gris, mais vous ne pouvez rien y voir à plus de 60 feet. Vous pouvez uniquement affecter les autres créatures du Plan Éthéré et être affecté par elles. Les créatures de l’autre plan ne peuvent pas vous percevoir, à moins de disposer d’une capacité spéciale permettant de percevoir ce qui se trouve sur le Plan Éthéré.",
+      "source": "Traduction proposée du texte SRD 5.2.1 EN · CC-BY-4.0 · paragraphe vérifié, valeurs de Shard conservées · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "spell.2024.blink.ethereal.sans-de-visible",
+      "en": "Roll  at the end of each of your turns for the duration. On a roll of 4–6, you vanish from your current plane of existence and appear in the Ethereal Plane (the spell ends instantly if you are already on that plane). While on the Ethereal Plane, you can perceive the plane you left, which is cast in shades of gray, but you can’t see anything there more than 60 feet away. You can affect and be affected only by other creatures on the Ethereal Plane, and creatures on the other plane can’t perceive you unless they have a special ability that lets them perceive things on the Ethereal Plane.",
+      "fr": "Lancez  à la fin de chacun de vos tours pendant toute la durée du sort. Sur un résultat de 4 à 6, vous disparaissez de votre plan d’existence actuel et apparaissez sur le Plan Éthéré (le sort prend immédiatement fin si vous êtes déjà sur ce plan). Sur le Plan Éthéré, vous percevez le plan que vous avez quitté, qui apparaît en nuances de gris, mais vous ne pouvez rien y voir à plus de 60 feet. Vous pouvez uniquement affecter les autres créatures du Plan Éthéré et être affecté par elles. Les créatures de l’autre plan ne peuvent pas vous percevoir, à moins de disposer d’une capacité spéciale permettant de percevoir ce qui se trouve sur le Plan Éthéré.",
+      "source": "Traduction de l’extrait utilisateur · PHB 2024 · signalé le 15 octobre 2026"
+    },
+    {
+      "id": "spell.2024.blink.return",
+      "en": "You return to the other plane at the start of your next turn and when the spell ends if you are on the Ethereal Plane. You return to an unoccupied space of your choice that you can see within 10 feet of the space you left. If no unoccupied space is available within that range, you appear in the nearest unoccupied space.",
+      "fr": "Vous retournez sur l’autre plan au début de votre tour suivant, ainsi qu’à la fin du sort si vous êtes sur le Plan Éthéré. Vous réapparaissez dans un espace inoccupé de votre choix, que vous voyez à 10 feet ou moins de l’espace que vous aviez quitté. Si aucun espace inoccupé n’est disponible à cette distance, vous réapparaissez dans l’espace inoccupé le plus proche.",
+      "source": "Traduction proposée du texte SRD 5.2.1 EN · CC-BY-4.0 · paragraphe vérifié, valeurs de Shard conservées · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "spell.2024.locate-creature.direction",
+      "en": "Describe or name a creature that is familiar to you. You sense the direction to the creature’s location if that creature is within 1,000 feet of you. If the creature is moving, you know the direction of its movement.",
+      "fr": "Décrivez ou nommez une créature qui vous est familière. Vous percevez la direction dans laquelle elle se trouve si elle est à 1,000 feet ou moins de vous. Si elle se déplace, vous connaissez la direction de son déplacement.",
+      "source": "Traduction proposée du texte SRD 5.2.1 EN · CC-BY-4.0 · paragraphe vérifié, valeurs de Shard conservées · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "spell.2024.locate-creature.target",
+      "en": "The spell can locate a specific creature known to you or the nearest creature of a specific kind (such as a human or a unicorn) if you have seen such a creature up close—within 30 feet—at least once. If the creature you described or named is in a different form, such as under the effects of a Flesh to Stone or Polymorph spell, this spell doesn’t locate the creature.",
+      "fr": "Le sort peut localiser une créature précise que vous connaissez ou la créature la plus proche d’une catégorie particulière (un humain ou une licorne, par exemple), à condition que vous ayez déjà vu une telle créature de près, à 30 feet ou moins, au moins une fois. Si la créature décrite ou nommée a changé de forme, par exemple sous l’effet du sort Pétrification ou Métamorphose, ce sort ne la localise pas.",
+      "source": "Traduction proposée du texte SRD 5.2.1 EN · CC-BY-4.0 · paragraphe vérifié, valeurs de Shard conservées · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "spell.2024.locate-creature.lead",
+      "en": "This spell can’t locate a creature if any thickness of lead blocks a direct path between you and the creature.",
+      "fr": "Ce sort ne peut pas localiser une créature si la moindre épaisseur de plomb bloque le trajet direct entre vous et elle.",
+      "source": "Traduction proposée du texte SRD 5.2.1 EN · CC-BY-4.0 · paragraphe vérifié, valeurs de Shard conservées · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "spell.2024.awaken.transformation.srd",
+      "en": "You spend the casting time tracing magical pathways within a precious gemstone, and then touch the target. The target must be either a Beast or Plant creature with an Intelligence of 3 or less or a natural plant that isn’t a creature. The target gains an Intelligence of 10 and the ability to speak one language you know. If the target is a natural plant, it becomes a Plant creature and gains the ability to move its limbs, roots, vines, creepers, and so forth, and it gains senses similar to a human’s. The GM chooses statistics appropriate for the awakened Plant, such as the statistics for the Awakened Shrub or Awakened Tree in “Monsters.”",
+      "fr": "Vous consacrez le temps d’incantation à tracer des voies magiques dans une pierre précieuse, puis touchez la cible. Celle-ci doit être une Bête ou une Plante dotée d’une Intelligence de 3 ou moins, ou une plante naturelle qui n’est pas une créature. La cible reçoit une Intelligence de 10 et la faculté de parler une langue que vous connaissez. Si la cible est une plante naturelle, elle devient une créature de type Plante, capable de déplacer ses branches, racines, lianes et autres appendices. Elle reçoit aussi des sens semblables à ceux d’un humain. Le MJ choisit un profil adapté à la Plante éveillée, comme celui de l’arbuste éveillé ou de l’arbre éveillé dans « Monstres ».",
+      "source": "Traduction proposée du texte SRD 5.2.1 EN · CC-BY-4.0 · paragraphe vérifié, valeurs de Shard conservées · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "spell.2024.awaken.transformation.phb",
+      "en": "You spend the casting time tracing magical pathways within a precious gemstone, and then touch the target. The target must be either a Beast or Plant creature with an Intelligence of 3 or less or a natural plant that isn’t a creature. The target gains an Intelligence of 10 and the ability to speak one language you know. If the target is a natural plant, it becomes a Plant creature and gains the ability to move its limbs, roots, vines, creepers, and so forth, and it gains senses similar to a human’s. The DM chooses statistics appropriate for the awakened Plant, such as the statistics for the Awakened Shrub or Awakened Tree in the Monster Manual.",
+      "fr": "Vous consacrez le temps d’incantation à tracer des voies magiques dans une pierre précieuse, puis touchez la cible. Celle-ci doit être une Bête ou une Plante dotée d’une Intelligence de 3 ou moins, ou une plante naturelle qui n’est pas une créature. La cible reçoit une Intelligence de 10 et la faculté de parler une langue que vous connaissez. Si la cible est une plante naturelle, elle devient une créature de type Plante, capable de déplacer ses branches, racines, lianes et autres appendices. Elle reçoit aussi des sens semblables à ceux d’un humain. Le MJ choisit un profil adapté à la Plante éveillée, comme celui de l’arbuste éveillé ou de l’arbre éveillé dans le Manuel des monstres.",
+      "source": "Traduction de l’extrait utilisateur · PHB 2024 · signalé le 15 octobre 2026"
+    },
+    {
+      "id": "spell.2024.elemental-weapon.effect.sans-valeurs-visibles",
+      "en": "A nonmagical weapon you touch becomes a magic weapon. Choose one of the following damage types: Acid, Cold, Fire, Lightning, or Thunder. For the duration, the weapon has a  bonus to attack rolls and deals an extra  damage of the chosen type when it hits.",
+      "fr": "Une arme non magique que vous touchez devient une arme magique. Choisissez un type de dégâts parmi les suivants : acide, froid, feu, foudre ou tonnerre. Pendant toute la durée du sort, l’arme reçoit un bonus de  aux jets d’attaque et inflige  dégâts supplémentaires du type choisi lorsqu’elle touche.",
+      "source": "Traduction de l’extrait utilisateur · PHB 2024 · signalé le 15 octobre 2026"
+    },
+    {
+      "id": "spell.2024.elemental-weapon.upgrade.sans-valeurs-visibles",
+      "en": "Using a Higher-Level Spell Slot. If you use a level 5 or 6 spell slot, the bonus to attack rolls increases to , and the extra damage increases to . If you use a level 7+ spell slot, the bonus increases to , and the extra damage increases to .",
+      "fr": "Emplacement de niveau supérieur. Si vous utilisez un emplacement de sort de niveau 5 ou 6, le bonus aux jets d’attaque passe à  et les dégâts supplémentaires à . Si vous utilisez un emplacement de sort de niveau 7+, le bonus passe à  et les dégâts supplémentaires à .",
+      "source": "Traduction de l’extrait utilisateur · PHB 2024 · signalé le 15 octobre 2026"
+    },
+    {
+      "id": "spell.2024.shard.blade-ward.1",
+      "en": "Whenever a creature makes an attack roll against you before the spell ends, the attacker subtracts 1d4 from the attack roll.",
+      "fr": "Chaque fois qu’une créature effectue un jet d’attaque contre vous avant la fin du sort, elle soustrait 1d4 à ce jet.",
+      "source": "Traduction proposée du texte exact de la fiche Shard · D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "spell.2024.shard.friends.1",
+      "en": "You magically emanate a sense of friendship toward one creature you can see within range. The target must succeed on a Wisdom saving throw or have the Charmed condition for the duration. The target succeeds automatically if it isn’t a Humanoid, if you’re fighting it, or if you have cast this spell on it within the past 24 hours.",
+      "fr": "Vous faites magiquement naître un sentiment d’amitié chez une créature que vous voyez à portée. La cible doit réussir un jet de sauvegarde de Sagesse sous peine de subir l’état Charmé pour toute la durée. Elle réussit automatiquement si elle n’est pas un Humanoïde, si vous êtes en train de la combattre ou si vous avez lancé ce sort sur elle au cours des 24 dernières heures.",
+      "source": "Traduction proposée du texte exact de la fiche Shard · D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "spell.2024.shard.friends.2",
+      "en": "The spell ends early if the target takes damage or if you make an attack roll, deal damage, or force anyone to make a saving throw. When the spell ends, the target knows it was Charmed by you.",
+      "fr": "Le sort prend fin prématurément si la cible subit des dégâts, ou si vous effectuez un jet d’attaque, infligez des dégâts ou obligez quiconque à effectuer un jet de sauvegarde. À la fin du sort, la cible sait que vous l’avez Charmée.",
+      "source": "Traduction proposée du texte exact de la fiche Shard · D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "spell.2024.shard.mind-sliver.1",
+      "en": "You try to temporarily sliver the mind of one creature you can see within range. The target must succeed on an Intelligence saving throw or take 1d6 Psychic damage and subtract 1d4 from the next saving throw it makes before the end of your next turn.",
+      "fr": "Vous tentez de fissurer temporairement l’esprit d’une créature que vous voyez à portée. La cible doit réussir un jet de sauvegarde d’Intelligence sous peine de subir 1d6 dégâts psychiques et de soustraire 1d4 au prochain jet de sauvegarde qu’elle effectue avant la fin de votre tour suivant.",
+      "source": "Traduction proposée du texte exact de la fiche Shard · D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "spell.2024.shard.thorn-whip.1",
+      "en": "You create a vine-like whip covered in thorns that lashes out at your command toward a creature in range. Make a melee spell attack against the target. On a hit, the target takes 1d6 Piercing damage, and if it is Large or smaller, you can pull it up to 10 feet closer to you.",
+      "fr": "Vous créez un fouet semblable à une liane hérissée d’épines, qui frappe à votre ordre une créature à portée. Effectuez une attaque de sort au corps à corps contre la cible. Si l’attaque touche, elle subit 1d6 dégâts perforants et, si elle est de taille G ou inférieure, vous pouvez l’attirer de 10 feet vers vous.",
+      "source": "Traduction proposée du texte exact de la fiche Shard · D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "spell.2024.shard.thunderclap.1",
+      "en": "Each creature in a 5-foot Emanation originating from you must succeed on a Constitution saving throw or take 1d6 Thunder damage. The spell’s thunderous sound can be heard up to 100 feet away.",
+      "fr": "Chaque créature prise dans une Émanation de 5 feet provenant de vous doit réussir un jet de sauvegarde de Constitution sous peine de subir 1d6 dégâts de tonnerre. Le grondement du sort est audible jusqu’à 100 feet.",
+      "source": "Traduction proposée du texte exact de la fiche Shard · D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "spell.2024.shard.toll-the-dead.1",
+      "en": "You point at one creature you can see within range, and the single chime of a dolorous bell is audible within 10 feet of the target. The target must succeed on a Wisdom saving throw or take 1d8 Necrotic damage. If the target is missing any of its Hit Points, it instead takes 1d12 Necrotic damage.",
+      "fr": "Vous désignez une créature que vous voyez à portée et un unique tintement de cloche funèbre retentit dans un rayon de 10 feet autour d’elle. La cible doit réussir un jet de sauvegarde de Sagesse sous peine de subir 1d8 dégâts nécrotiques. S’il lui manque des points de vie, elle subit à la place 1d12 dégâts nécrotiques.",
+      "source": "Traduction proposée du texte exact de la fiche Shard · D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "spell.2024.shard.word-of-radiance.1",
+      "en": "Burning radiance erupts from you in a 5-foot Emanation. Each creature of your choice that you can see in it must succeed on a Constitution saving throw or take 1d6 Radiant damage.",
+      "fr": "Une lueur brûlante jaillit de vous dans une Émanation de 5 feet. Chaque créature de votre choix que vous y voyez doit réussir un jet de sauvegarde de Constitution sous peine de subir 1d6 dégâts radiants.",
+      "source": "Traduction proposée du texte exact de la fiche Shard · D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "spell.2024.shard.armor-of-agathys.1",
+      "en": "Protective magical frost surrounds you. You gain 5 Temporary Hit Points. If a creature hits you with a melee attack roll before the spell ends, the creature takes 5 Cold damage. The spell ends early if you have no Temporary Hit Points.",
+      "fr": "Un givre magique protecteur vous entoure. Vous recevez 5 points de vie temporaires. Si une créature vous touche avec un jet d’attaque au corps à corps avant la fin du sort, elle subit 5 dégâts de froid. Le sort prend fin prématurément si vous n’avez plus de points de vie temporaires.",
+      "source": "Traduction proposée du texte exact de la fiche Shard · D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "spell.2024.shard.arms-of-hadar.1",
+      "en": "Invoking Hadar, you cause tendrils to erupt from yourself. Each creature in a 10-foot Emanation originating from you makes a Strength saving throw. On a failed save, a target takes 2d6 Necrotic damage and can’t take Reactions until the start of its next turn. On a successful save, a target takes half as much damage only.",
+      "fr": "Vous invoquez Hadar et faites jaillir de vous des tentacules. Chaque créature prise dans une Émanation de 10 feet provenant de vous effectue un jet de sauvegarde de Force. En cas d’échec, elle subit 2d6 dégâts nécrotiques et ne peut pas jouer de Réaction jusqu’au début de son tour suivant. En cas de réussite, elle subit seulement la moitié des dégâts.",
+      "source": "Traduction proposée du texte exact de la fiche Shard · D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "spell.2024.shard.chromatic-orb.1",
+      "en": "You hurl an orb of energy at a target within range. Choose Acid, Cold, Fire, Lightning, Poison, or Thunder for the type of orb you create, and then make a ranged spell attack against the target. On a hit, the target takes 3d8 damage of the chosen type.",
+      "fr": "Vous projetez un orbe d’énergie vers une cible à portée. Choisissez son type de dégâts parmi les suivants : acide, froid, feu, foudre, poison ou tonnerre. Effectuez ensuite une attaque de sort à distance contre la cible. Si l’attaque touche, la cible subit 3d8 dégâts du type choisi.",
+      "source": "Traduction proposée du texte exact de la fiche Shard · D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "spell.2024.shard.chromatic-orb.2",
+      "en": "If you roll the same number on two or more of the d8s, the orb leaps to a different target of your choice within 30 feet of the target. Make an attack roll against the new target, and make a new damage roll. The orb can’t leap again unless you cast the spell with a level 2+ spell slot.",
+      "fr": "Si au moins deux d8 obtiennent le même résultat, l’orbe rebondit vers une autre cible de votre choix à 30 feet ou moins de la première. Effectuez un jet d’attaque contre la nouvelle cible et relancez les dégâts. L’orbe ne peut pas rebondir de nouveau, sauf si vous avez lancé le sort avec un emplacement de niveau 2+.",
+      "source": "Traduction proposée du texte exact de la fiche Shard · D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "spell.2024.shard.compelled-duel.1",
+      "en": "You try to compel a creature into a duel. One creature that you can see within range makes a Wisdom saving throw. On a failed save, the target has Disadvantage on attack rolls against creatures other than you, and it can’t willingly move to a space that is more than 30 feet away from you.",
+      "fr": "Vous tentez de contraindre une créature à vous affronter en duel. Une créature que vous voyez à portée effectue un jet de sauvegarde de Sagesse. En cas d’échec, elle a le Désavantage aux jets d’attaque contre les autres créatures et ne peut pas volontairement se déplacer à plus de 30 feet de vous.",
+      "source": "Traduction proposée du texte exact de la fiche Shard · D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "spell.2024.shard.compelled-duel.2",
+      "en": "The spell ends if you make an attack roll against a creature other than the target, if you cast a spell on an enemy other than the target, if an ally of yours damages the target, or if you end your turn more than 30 feet away from the target.",
+      "fr": "Le sort prend fin si vous effectuez un jet d’attaque contre une autre créature que la cible, si vous lancez un sort sur un autre ennemi, si l’un de vos alliés inflige des dégâts à la cible ou si vous terminez votre tour à plus de 30 feet d’elle.",
+      "source": "Traduction proposée du texte exact de la fiche Shard · D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "spell.2024.shard.ensnaring-strike.1",
+      "en": "As you hit the target, grasping vines appear on it, and it makes a Strength saving throw. A Large or larger creature has Advantage on this save. On a failed save, the target has the Restrained condition until the spell ends. On a successful save, the vines shrivel away, and the spell ends.",
+      "fr": "Lorsque vous touchez la cible, des lianes agrippantes apparaissent sur elle et elle effectue un jet de sauvegarde de Force. Une créature de taille G ou supérieure a l’Avantage à ce JS. En cas d’échec, la cible subit l’état Entravé jusqu’à la fin du sort. En cas de réussite, les lianes se flétrissent et le sort prend fin.",
+      "source": "Traduction proposée du texte exact de la fiche Shard · D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "spell.2024.shard.ensnaring-strike.2",
+      "en": "While Restrained, the target takes 1d6 Piercing damage at the start of each of its turns. The target or a creature within reach of it can take an action to make a Strength (Athletics) check against your spell save DC. On a success, the spell ends.",
+      "fr": "Tant qu’elle est Entravée, la cible subit 1d6 dégâts perforants au début de chacun de ses tours. La cible ou une créature qui peut l’atteindre peut consacrer une action à un test de Force (Athlétisme) contre votre DD de sauvegarde des sorts. En cas de réussite, le sort prend fin.",
+      "source": "Traduction proposée du texte exact de la fiche Shard · D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "spell.2024.shard.hail-of-thorns.1",
+      "en": "As you hit the creature, this spell creates a rain of thorns that sprouts from your Ranged weapon or ammunition. The target of the attack and each creature within 5 feet of it make a Dexterity saving throw, taking 1d10 Piercing damage on a failed save or half as much damage on a successful one.",
+      "fr": "Lorsque vous touchez la créature, une pluie d’épines jaillit de votre arme à distance ou de votre munition. La cible de l’attaque et chaque créature à 5 feet ou moins d’elle effectuent un jet de sauvegarde de Dextérité, subissant 1d10 dégâts perforants en cas d’échec, la moitié en cas de réussite.",
+      "source": "Traduction proposée du texte exact de la fiche Shard · D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "spell.2024.shard.ice-knife.1",
+      "en": "You create a shard of ice and fling it at one creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 Piercing damage. Hit or miss, the shard then explodes. The target and each creature within 5 feet of it must succeed on a Dexterity saving throw or take 2d6 Cold damage.",
+      "fr": "Vous créez un éclat de glace que vous lancez sur une créature à portée. Effectuez une attaque de sort à distance contre la cible. Si l’attaque touche, elle subit 1d10 dégâts perforants. Que l’attaque touche ou rate, l’éclat explose ensuite. La cible et chaque créature à 5 feet ou moins d’elle doivent réussir un jet de sauvegarde de Dextérité sous peine de subir 2d6 dégâts de froid.",
+      "source": "Traduction proposée du texte exact de la fiche Shard · D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "spell.2024.shard.searing-smite.1",
+      "en": "As you hit the target, it takes an extra 1d6 Fire damage from the attack. At the start of each of its turns until the spell ends, the target takes 1d6 Fire damage and then makes a Constitution saving throw. On a failed save, the spell continues. On a successful save, the spell ends.",
+      "fr": "Lorsque vous touchez la cible, l’attaque lui inflige 1d6 dégâts de feu supplémentaires. Au début de chacun de ses tours jusqu’à la fin du sort, elle subit 1d6 dégâts de feu puis effectue un jet de sauvegarde de Constitution. En cas d’échec, le sort continue. En cas de réussite, il prend fin.",
+      "source": "Traduction proposée du texte exact de la fiche Shard · D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "spell.2024.shard.thunderous-smite.1",
+      "en": "Your strike rings with thunder that is audible within 300 feet of you, and the target takes an extra 2d6 Thunder damage from the attack. Additionally, if the target is a creature, it must succeed on a Strength saving throw or be pushed 10 feet away from you and have the Prone condition.",
+      "fr": "Votre frappe retentit comme un coup de tonnerre audible dans un rayon de 300 feet et l’attaque inflige 2d6 dégâts de tonnerre supplémentaires à la cible. Si celle-ci est une créature, elle doit aussi réussir un jet de sauvegarde de Force sous peine d’être repoussée de 10 feet et de subir l’état À terre.",
+      "source": "Traduction proposée du texte exact de la fiche Shard · D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "spell.2024.shard.wrathful-smite.1",
+      "en": "The target takes an extra 1d6 Necrotic damage from the attack, and it must succeed on a Wisdom saving throw or have the Frightened condition until the spell ends. At the end of each of its turns, the Frightened target repeats the save, ending the spell on itself on a success.",
+      "fr": "L’attaque inflige 1d6 dégâts nécrotiques supplémentaires à la cible, qui doit réussir un jet de sauvegarde de Sagesse sous peine de subir l’état Effrayé jusqu’à la fin du sort. À la fin de chacun de ses tours, la cible Effrayée réitère le JS et met un terme au sort sur elle-même en cas de réussite.",
+      "source": "Traduction proposée du texte exact de la fiche Shard · D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "spell.2024.shard.elemental-weapon.1",
+      "en": "A nonmagical weapon you touch becomes a magic weapon. Choose one of the following damage types: Acid, Cold, Fire, Lightning, or Thunder. For the duration, the weapon has a +1 bonus to attack rolls and deals an extra 1d4 damage of the chosen type when it hits.",
+      "fr": "Une arme non magique que vous touchez devient une arme magique. Choisissez un type de dégâts parmi les suivants : acide, froid, feu, foudre ou tonnerre. Pendant toute la durée du sort, l’arme reçoit un bonus de +1 aux jets d’attaque et inflige 1d4 dégâts supplémentaires du type choisi lorsqu’elle touche.",
+      "source": "Traduction proposée du texte exact de la fiche Shard · D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "spell.2024.shard.toll-the-dead.upgrade",
+      "en": "Cantrip Upgrade. The damage increases by one die when you reach levels 5 (2d8 or 2d12), 11 (3d8 or 3d12), and 17 (4d8 or 4d12).",
+      "fr": "Amélioration de sort mineur. Les dégâts augmentent d’un dé lorsque vous atteignez les niveaux 5 (2d8 ou 2d12), 11 (3d8 ou 3d12) et 17 (4d8 ou 4d12).",
+      "source": "Traduction proposée du texte exact de la fiche Shard · D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "spell.2024.shard.armor-of-agathys.upgrade",
+      "en": "Using a Higher-Level Spell Slot. The Temporary Hit Points and the Cold damage both increase by 5 for each spell slot level above 1.",
+      "fr": "Emplacement de niveau supérieur. Les points de vie temporaires et les dégâts de froid augmentent chacun de 5 par niveau d’emplacement de sort supérieur à 1.",
+      "source": "Traduction proposée du texte exact de la fiche Shard · D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "spell.2024.shard.chromatic-orb.upgrade",
+      "en": "Using a Higher-Level Spell Slot. The damage increases by 1d8 for each spell slot level above 1. The orb can leap a maximum number of times equal to the level of the slot expended, and a creature can be targeted only once by each casting of this spell.",
+      "fr": "Emplacement de niveau supérieur. Les dégâts augmentent de 1d8 par niveau d’emplacement de sort supérieur à 1. L’orbe peut rebondir un nombre maximal de fois égal au niveau de l’emplacement dépensé et une créature ne peut être ciblée qu’une seule fois par incantation de ce sort.",
+      "source": "Traduction proposée du texte exact de la fiche Shard · D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "spell.2024.shard.elemental-weapon.upgrade",
+      "en": "Using a Higher-Level Spell Slot. If you use a level 5–6 spell slot, the bonus to attack rolls increases to +2, and the extra damage increases to 2d4. If you use a level 7+ spell slot, the bonus increases to +3, and the extra damage increases to 3d4.",
+      "fr": "Emplacement de niveau supérieur. Si vous utilisez un emplacement de sort de niveau 5–6, le bonus aux jets d’attaque passe à +2 et les dégâts supplémentaires à 2d4. Si vous utilisez un emplacement de sort de niveau 7+, le bonus passe à +3 et les dégâts supplémentaires à 3d4.",
+      "source": "Traduction proposée du texte exact de la fiche Shard · D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "spell.2024.shard.layout.1",
+      "kind": "description",
+      "en": "The awakened target has the Charmed condition for 30 days or until you or your allies deal damage to it. When that condition ends, the awakened creature chooses its attitude toward you.",
+      "fr": "La cible éveillée subit l’état Charmé pendant 30 jours ou jusqu’à ce que vous ou vos alliés lui infligiez des dégâts. Lorsque cet état prend fin, la créature éveillée choisit son attitude envers vous.",
+      "source": "Traduction proposée de la fiche Shard · D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "spell.2024.shard.layout.2",
+      "kind": "description",
+      "en": "A nonmagical wall of solid stone springs into existence at a point you choose within range. The wall is 6 inches thick and is composed of ten 10-foot-by-10-foot panels. Each panel must be contiguous with another panel. Alternatively, you can create 10-foot-by-20-foot panels that are only 3 inches thick.",
+      "fr": "Un mur non magique de pierre solide apparaît en un point de votre choix à portée. Le mur, épais de 6 inches, se compose de dix pans de 10 feet sur 10 feet. Chaque pan doit être contigu à un autre. Vous pouvez aussi créer des pans de 10 feet sur 20 feet, épais de seulement 3 inches.",
+      "source": "Traduction proposée de la fiche Shard · D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "spell.2024.shard.layout.3",
+      "kind": "description",
+      "en": "The wall is an object made of stone that can be damaged and thus breached. Each panel has AC 15 and 30 Hit Points per inch of thickness, and it has Immunity to Poison and Psychic damage. Reducing a panel to 0 Hit Points destroys it and might cause connected panels to collapse at the DM’s discretion.",
+      "fr": "Le mur est un objet en pierre qui peut être endommagé et ainsi percé. Chaque pan a une CA de 15 et 30 points de vie par inch d’épaisseur, ainsi que l’Immunité aux dégâts de poison et psychiques. Un pan réduit à 0 point de vie est détruit, ce qui peut aussi provoquer l’effondrement de pans contigus, à l’appréciation du MJ.",
+      "source": "Traduction proposée de la fiche Shard · D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "spell.2024.shard.layout.4",
+      "kind": "term",
+      "en": "Your Knowledge of the Target Is...",
+      "fr": "Votre connaissance de la cible est…",
+      "source": "Traduction proposée de la fiche Shard · D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "spell.2024.shard.layout.5",
+      "kind": "term",
+      "en": "Secondhand (heard of the target)",
+      "fr": "Indirecte (vous avez entendu parler d’elle)",
+      "source": "Traduction proposée de la fiche Shard · D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "spell.2024.shard.layout.6",
+      "kind": "term",
+      "en": "Firsthand (met the target)",
+      "fr": "Directe (vous l’avez rencontrée)",
+      "source": "Traduction proposée de la fiche Shard · D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "spell.2024.shard.layout.7",
+      "kind": "term",
+      "en": "Extensive (know the target well)",
+      "fr": "Approfondie (vous la connaissez bien)",
+      "source": "Traduction proposée de la fiche Shard · D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "spell.2024.shard.layout.8",
+      "kind": "term",
+      "en": "You Have the Target’s...",
+      "fr": "Vous disposez de…",
+      "source": "Traduction proposée de la fiche Shard · D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "spell.2024.shard.layout.9",
+      "kind": "term",
+      "en": "Picture or other likeness",
+      "fr": "Son portrait ou une autre représentation",
+      "source": "Traduction proposée de la fiche Shard · D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "spell.2024.shard.layout.10",
+      "kind": "term",
+      "en": "Garment or other possession",
+      "fr": "Un vêtement ou un autre bien personnel",
+      "source": "Traduction proposée de la fiche Shard · D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "spell.2024.shard.layout.11",
+      "kind": "term",
+      "en": "Body part, lock of hair, or bit of nail",
+      "fr": "Un élément anatomique, une mèche de cheveux ou une rognure d’ongle",
+      "source": "Traduction proposée de la fiche Shard · D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/"
     }
   ]
 }

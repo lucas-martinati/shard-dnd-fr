@@ -53,7 +53,7 @@ for filename in tsv_sources():
             if len(en)>=35:reserved.add(key(en))
 for filename in ['feat-texts.json','equipment-texts.json']:
     for row in json.loads(translation_source(filename).read_text()):reserved.add(key(row['en']))
-def add(en,fr,name,strict=True):
+def add(en,fr,name,strict=True,source=None):
     normalized=key(en)
     if normalized in reserved or normalized in ambiguous:
         return
@@ -65,9 +65,41 @@ def add(en,fr,name,strict=True):
     if old and key(old['fr'])!=key(fr):
         if strict:raise ValueError(f'{name}: correspondance de segment contradictoire')
         ambiguous.add(normalized);pairs.pop(normalized);return
-    pairs[normalized]={'en':en,'fr':fr,'source':f'SRD officiel 5.2.1 FR · section de {name} · CC-BY-4.0'}
+    pairs[normalized]={'en':en,'fr':fr,'source':source or f'SRD officiel 5.2.1 FR · section de {name} · CC-BY-4.0'}
 
 refs={r['en']:r for r in json.loads(translation_source('spell-reference.json').read_text())}
+# Les frontières EN/FR sont reliées par leur sens, indépendamment de leur ordre.
+# Une occurrence absente ou répétée interdit la génération du découpage.
+segmentation=json.loads(translation_source('spell-reference.json').with_name('decoupage-srd.json').read_text())
+boundaries=segmentation['paragraphs']
+for name,mapping in boundaries.items():
+    row=refs[name]
+    markers=[{'en':'','fr':''},*mapping]
+    a_label,b_label='Using a Higher-Level Spell Slot.','Emplacement de niveau supérieur.'
+    if a_label in row['englishBody'] and b_label in row['frenchBody']:
+        markers.append({'en':a_label,'fr':b_label})
+    a_label,b_label='Cantrip Upgrade.','Amélioration de sort mineur.'
+    if a_label in row['englishBody'] and b_label in row['frenchBody']:
+        markers.append({'en':a_label,'fr':b_label})
+    parts={}
+    for language,field in [('en','englishBody'),('fr','frenchBody')]:
+        text=row[field]
+        positions=[]
+        for i,marker in enumerate(markers):
+            label=marker[language]
+            if label and text.count(label)!=1:raise ValueError(f'{name}: frontière {language} absente ou ambiguë : {label}')
+            positions.append((text.index(label) if label else 0,i))
+        positions.sort()
+        for j,(start,i) in enumerate(positions):
+            end=positions[j+1][0] if j+1<len(positions) else len(text)
+            parts.setdefault(i,{})[language]=text[start:end].strip().lstrip('• ')
+    for part in parts.values():
+        adapted=False
+        for before,after in segmentation.get('frenchReplacements',{}).get(name,[]):
+            adapted=adapted or before in part['fr']
+            part['fr']=part['fr'].replace(before,after)
+        source=f'SRD 5.2.1 FR · section de {name} adaptée aux valeurs de Shard · CC-BY-4.0' if adapted else None
+        add(part['en'],part['fr'],name,source=source)
 for name,mapping in TABLE.items():
     row=refs[name]
     en_text,fr_text=row['englishBody'],row['frenchBody']

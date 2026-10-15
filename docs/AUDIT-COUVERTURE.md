@@ -1,5 +1,17 @@
 # Audit de couverture — 13 octobre 2026
 
+## Complément local du 15 octobre 2026 — sorts et noms d’objets
+
+Les 391 fiches de sorts du livre Shard **D&D 2024 PHB** ont été relevées. Elles contiennent 1 309 paragraphes, puces et cellules examinés. Comparé au commit `8af2d6d`, le même rendu hors ligne présente **243 blocs supplémentaires traduits** : les candidats entièrement inchangés en anglais passent de 845 à 602. Ces candidats incluent aussi des légendes, des noms propres et des textes anciens importés ; ce chiffre ne prouve ni l’absence ni l’exactitude d’une traduction. Le [rapport détaillé](../audit/generes/sorts-phb-2024.json) conserve les passages à vérifier. Aucun livre n’est déclaré intégralement traduit.
+
+Les cinq signalements (Aura magique de Nystul, Clignotement, Arme élémentaire, Localisation de créature et Éveil) sont intégralement traduits dans les fiches relevées. Les ajouts comprennent 53 correspondances éditables et le découpage explicite de 77 références SRD, qui porte les segments générés de 449 à 660. Les frontières anglaises et françaises sont associées par leur sens, même lorsque les effets ne sont pas présentés dans le même ordre. Les variantes du PHB sont conservées séparément ; les formulations différentes ne sont pas assimilées automatiquement au SRD.
+
+Le catalogue d’objets filtré sur ce livre présente 237 noms. Parmi les 77 libellés examinés, **66 reçoivent une traduction différente** et 11 sont déjà français ou des noms propres conservés. Ce contrôle porte sur les noms ; il ne valide pas toutes les descriptions d’objets. Voir [l’inventaire](../audit/inventaires/phb/objets-noms-2024.json).
+
+Le livre MM 2024 n’est pas proposé dans les filtres de la session utilisée pour ce relevé. Le lot d’environ 92 monstres signalé par l’utilisateur n’est donc pas déclaré traité. Les sources de bestiaire et les descriptions déjà présentes restent chargées.
+
+`npm run test:spells` vérifie les paragraphes, les segments SRD et 11 fiches HTML réelles : 53 paragraphes et cellules, 12 dés et 11 liens, les tableaux, les nombres, les champs privés et le retour exact à l’anglais. Les 77 noms d’objets sont inclus. Les contrôles de packs, de mise en forme, d’équipement ancien et de métadonnées passent également. Le nouveau script n’a pas été installé dans Tampermonkey pendant ce contrôle. Ce lot est préparé pour la version 1.17.14 ; les contrôles portent sur le script local généré.
+
 ## Priorité par livre — clarification du 14 octobre 2026
 
 L’objectif principal est le **D&D 2024 PHB**, puis le **D&D 2024 MM**. Les traductions des règles du joueur 2024, y compris les parties issues du SRD 5.2.1, sont dans `translations/dnd-2024/phb/` ; le bestiaire reste dans `translations/dnd-2024/mm/`. Le corpus historique, dont le guide Shard, et les noms de compatibilité sont regroupés dans `translations/2014/`. L’interface Shard reste séparée.

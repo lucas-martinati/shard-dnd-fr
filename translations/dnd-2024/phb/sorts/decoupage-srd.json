@@ -1,0 +1,785 @@
+{
+  "source": "SRD 5.2.1 EN et FR · CC-BY-4.0 · frontières de paragraphes vérifiées sémantiquement ; ne pas apparier les paragraphes par leur position",
+  "paragraphs": {
+    "Dancing Lights": [
+      {
+        "en": "As a Bonus Action,",
+        "fr": "Par une action Bonus,"
+      }
+    ],
+    "Light": [
+      {
+        "en": "Covering the object",
+        "fr": "Recouvrir l’objet"
+      }
+    ],
+    "Mage Hand": [
+      {
+        "en": "When you cast the spell,",
+        "fr": "À l’incantation du sort,"
+      },
+      {
+        "en": "As a Magic action on your later turns,",
+        "fr": "Au prix de l’action Magie à vos tours suivants,"
+      },
+      {
+        "en": "The hand can’t attack,",
+        "fr": "Elle ne peut ni attaquer,"
+      }
+    ],
+    "Mending": [
+      {
+        "en": "This spell can physically repair",
+        "fr": "Ce sort peut réparer la structure"
+      }
+    ],
+    "Message": [
+      {
+        "en": "You can cast this spell through",
+        "fr": "Vous pouvez lancer ce sort à travers"
+      }
+    ],
+    "Disguise Self": [
+      {
+        "en": "The changes wrought by this spell",
+        "fr": "Les changements apportés par le sort"
+      },
+      {
+        "en": "To discern that you are disguised,",
+        "fr": "Pour comprendre que vous êtes déguisé,"
+      }
+    ],
+    "Detect Evil and Good": [
+      {
+        "en": "The spell is blocked by",
+        "fr": "Le sort est bloqué par"
+      }
+    ],
+    "Detect Magic": [
+      {
+        "en": "The spell is blocked by",
+        "fr": "Le sort est bloqué par"
+      }
+    ],
+    "Detect Poison and Disease": [
+      {
+        "en": "The spell is blocked by",
+        "fr": "Le sort est bloqué par"
+      }
+    ],
+    "Minor Illusion": [
+      {
+        "en": "If a creature takes a Study action",
+        "fr": "Une créature qui entreprend l’action Étude"
+      },
+      {
+        "en": "Sound.",
+        "fr": "Son."
+      },
+      {
+        "en": "Image.",
+        "fr": "Image."
+      }
+    ],
+    "Silent Image": [
+      {
+        "en": "As a Magic action,",
+        "fr": "Au prix de l’action Magie,"
+      },
+      {
+        "en": "Physical interaction with the image",
+        "fr": "Toute interaction physique avec l’image"
+      }
+    ],
+    "Unseen Servant": [
+      {
+        "en": "Once on each of your turns",
+        "fr": "À chacun de vos tours,"
+      },
+      {
+        "en": "If you command the servant",
+        "fr": "Si vous lui assignez"
+      }
+    ],
+    "Warding Bond": [
+      {
+        "en": "The spell ends if you drop",
+        "fr": "Le sort prend fin si vous tombez"
+      }
+    ],
+    "Web": [
+      {
+        "en": "If the webs aren’t anchored",
+        "fr": "Si les fils ne peuvent pas"
+      },
+      {
+        "en": "The first time a creature enters",
+        "fr": "Quand une créature pénètre"
+      },
+      {
+        "en": "A creature Restrained by the webs",
+        "fr": "Une créature ainsi Entravée"
+      },
+      {
+        "en": "The webs are flammable.",
+        "fr": "La toile est inflammable."
+      }
+    ],
+    "Zone of Truth": [
+      {
+        "en": "An affected creature is aware",
+        "fr": "Une créature affectée a conscience"
+      }
+    ],
+    "Spike Growth": [
+      {
+        "en": "The transformation of the ground",
+        "fr": "La transformation du sol"
+      }
+    ],
+    "Shillelagh": [
+      {
+        "en": "The spell ends early",
+        "fr": "Le sort prend fin prématurément"
+      }
+    ],
+    "Sorcerous Burst": [
+      {
+        "en": "If you roll an 8",
+        "fr": "Si vous obtenez un 8"
+      }
+    ],
+    "Sanctuary": [
+      {
+        "en": "The spell ends if the warded creature",
+        "fr": "Le sort prend fin pour la créature protégée"
+      }
+    ],
+    "Gentle Repose": [
+      {
+        "en": "The spell also effectively extends",
+        "fr": "Ce sort prolonge également"
+      }
+    ],
+    "Sleep": [
+      {
+        "en": "Creatures that don’t sleep,",
+        "fr": "Les créatures qui ne dorment pas,"
+      }
+    ],
+    "Suggestion": [
+      {
+        "en": "The target must succeed",
+        "fr": "La cible doit réussir"
+      }
+    ],
+    "Darkness": [
+      {
+        "en": "Alternatively, you cast the spell",
+        "fr": "Au lieu de cela, vous pouvez lancer le sort"
+      },
+      {
+        "en": "If any of this spell’s area",
+        "fr": "Si tout ou partie de ce sort"
+      }
+    ],
+    "Detect Thoughts": [
+      {
+        "en": "Sense Thoughts. You sense",
+        "fr": "Perception des pensées. Vous percevez"
+      },
+      {
+        "en": "The spell is blocked by",
+        "fr": "Le sort est bloqué par"
+      },
+      {
+        "en": "Read Thoughts.",
+        "fr": "Lecture des pensées."
+      },
+      {
+        "en": "As a Magic action on your next turn,",
+        "fr": "Au prix de l’action Magie à votre tour suivant,"
+      }
+    ],
+    "Enlarge/Reduce": [
+      {
+        "en": "Everything that a targeted creature",
+        "fr": "Tout ce que porte une créature ciblée"
+      },
+      {
+        "en": "Enlarge.",
+        "fr": "Agrandissement."
+      },
+      {
+        "en": "Reduce.",
+        "fr": "Rapetissement."
+      }
+    ],
+    "Alarm": [
+      {
+        "en": "Audible Alarm.",
+        "fr": "Alarme sonore."
+      },
+      {
+        "en": "Mental Alarm.",
+        "fr": "Alarme mentale."
+      }
+    ],
+    "Find Traps": [
+      {
+        "en": "This spell reveals that",
+        "fr": "Le sort se contente de révéler"
+      }
+    ],
+    "Flame Blade": [
+      {
+        "en": "As a Magic action,",
+        "fr": "Au prix de l’action Magie,"
+      },
+      {
+        "en": "The flaming blade sheds",
+        "fr": "La lame ardente projette"
+      }
+    ],
+    "Flaming Sphere": [
+      {
+        "en": "As a Bonus Action,",
+        "fr": "Par une action Bonus,"
+      },
+      {
+        "en": "When you move the sphere,",
+        "fr": "Lorsque vous déplacez la Sphère,"
+      }
+    ],
+    "Gust of Wind": [
+      {
+        "en": "Any creature in the Line must spend",
+        "fr": "Toute créature prise dans la Ligne qui se déplace"
+      },
+      {
+        "en": "The gust disperses gas",
+        "fr": "La bourrasque disperse"
+      },
+      {
+        "en": "As a Bonus Action on your later turns,",
+        "fr": "Par une action Bonus à vos tours suivants,"
+      }
+    ],
+    "Heat Metal": [
+      {
+        "en": "If a creature is holding",
+        "fr": "Une créature qui tient"
+      }
+    ],
+    "Knock": [
+      {
+        "en": "A target that is held shut",
+        "fr": "Une cible verrouillée"
+      },
+      {
+        "en": "If the target is held shut by Arcane Lock,",
+        "fr": "Si la cible est fermée par verrou magique,"
+      },
+      {
+        "en": "When you cast the spell,",
+        "fr": "À l’incantation du sort,"
+      }
+    ],
+    "Levitate": [
+      {
+        "en": "The target can move only",
+        "fr": "La cible ne peut se déplacer qu’en"
+      },
+      {
+        "en": "When the spell ends,",
+        "fr": "Lorsque le sort prend fin,"
+      }
+    ],
+    "Locate Object": [
+      {
+        "en": "The spell can locate",
+        "fr": "Le sort peut localiser"
+      },
+      {
+        "en": "This spell can’t locate",
+        "fr": "Ce sort ne trouve pas l’objet"
+      }
+    ],
+    "Magic Mouth": [
+      {
+        "en": "When that trigger occurs,",
+        "fr": "Quand cette condition se présente,"
+      },
+      {
+        "en": "The trigger can be as general",
+        "fr": "Les circonstances de déclenchement"
+      }
+    ],
+    "Mirror Image": [
+      {
+        "en": "Each time a creature hits you",
+        "fr": "Chaque fois qu’une créature vous touche"
+      },
+      {
+        "en": "A creature is unaffected",
+        "fr": "Toute créature subissant"
+      }
+    ],
+    "Rope Trick": [
+      {
+        "en": "The space can hold",
+        "fr": "L’espace peut accueillir"
+      }
+    ],
+    "Spiritual Weapon": [
+      {
+        "en": "As a Bonus Action on your later turns,",
+        "fr": "Par une action Bonus à chaque tour consécutif,"
+      }
+    ],
+    "Shatter": [
+      {
+        "en": "A nonmagical object",
+        "fr": "Un objet non magique"
+      }
+    ],
+    "Clairvoyance": [
+      {
+        "en": "When you cast the spell,",
+        "fr": "À l’incantation du sort,"
+      },
+      {
+        "en": "A creature that sees the sensor",
+        "fr": "Une créature qui voit le capteur"
+      }
+    ],
+    "Daylight": [
+      {
+        "en": "Alternatively, you cast the spell",
+        "fr": "Au lieu de cela, vous pouvez lancer le sort"
+      },
+      {
+        "en": "If any of this spell’s area",
+        "fr": "Si tout ou partie de ce sort"
+      }
+    ],
+    "Fear": [
+      {
+        "en": "A Frightened creature",
+        "fr": "Ainsi Effrayée,"
+      }
+    ],
+    "Gaseous Form": [
+      {
+        "en": "While in this form,",
+        "fr": "Sous cette forme,"
+      },
+      {
+        "en": "The target can’t talk",
+        "fr": "La cible ne peut ni parler"
+      }
+    ],
+    "Haste": [
+      {
+        "en": "When the spell ends,",
+        "fr": "Lorsque le sort prend fin,"
+      }
+    ],
+    "Magic Circle": [
+      {
+        "en": "Choose one or more",
+        "fr": "Choisissez un ou plusieurs"
+      },
+      {
+        "en": "• The creature can’t willingly",
+        "fr": "• La créature ne peut pénétrer"
+      },
+      {
+        "en": "• The creature has Disadvantage",
+        "fr": "• La créature a le Désavantage"
+      },
+      {
+        "en": "• Targets within the Cylinder",
+        "fr": "• La créature ne peut pas posséder"
+      },
+      {
+        "en": "Each time you cast this spell,",
+        "fr": "À chaque incantation du sort,"
+      }
+    ],
+    "Major Image": [
+      {
+        "en": "If you are within range of the illusion,",
+        "fr": "Si vous êtes à portée de l’illusion,"
+      },
+      {
+        "en": "Physical interaction with the image",
+        "fr": "Toute interaction physique avec l’image"
+      }
+    ],
+    "Plant Growth": [
+      {
+        "en": "Overgrowth.",
+        "fr": "Embroussaillement."
+      },
+      {
+        "en": "Enrichment.",
+        "fr": "Fertilisation."
+      }
+    ],
+    "Speak with Dead": [
+      {
+        "en": "Until the spell ends,",
+        "fr": "Jusqu’à la fin du sort,"
+      }
+    ],
+    "Speak with Plants": [
+      {
+        "en": "You can also turn Difficult Terrain",
+        "fr": "Vous pouvez également transformer"
+      },
+      {
+        "en": "The spell doesn’t enable plants",
+        "fr": "Le sort ne permet pas aux plantes"
+      },
+      {
+        "en": "If a Plant creature",
+        "fr": "Si une créature de type Plante"
+      }
+    ],
+    "Wind Wall": [
+      {
+        "en": "When the wall appears,",
+        "fr": "Quand le mur apparaît,"
+      },
+      {
+        "en": "The strong wind keeps",
+        "fr": "Le vent fort repousse"
+      }
+    ],
+    "Arcane Eye": [
+      {
+        "en": "As a Bonus Action,",
+        "fr": "Par une action Bonus,"
+      }
+    ],
+    "Death Ward": [
+      {
+        "en": "If the spell is still in effect",
+        "fr": "Si ce sort est toujours actif"
+      }
+    ],
+    "Dimension Door": [
+      {
+        "en": "You can also teleport",
+        "fr": "Vous pouvez aussi téléporter"
+      },
+      {
+        "en": "If you, the other creature,",
+        "fr": "Si le sort est censé vous transporter"
+      }
+    ],
+    "Dominate Beast": [
+      {
+        "en": "You have a telepathic link",
+        "fr": "Un lien télépathique persiste"
+      },
+      {
+        "en": "You can command the target",
+        "fr": "Vous pouvez aussi lui faire jouer"
+      }
+    ],
+    "Fabricate": [
+      {
+        "en": "Choose raw materials",
+        "fr": "Choisissez des matières premières"
+      },
+      {
+        "en": "Creatures and magic items",
+        "fr": "Vous ne pouvez pas créer d’objet magique"
+      }
+    ],
+    "Fire Shield": [
+      {
+        "en": "The flames provide you",
+        "fr": "Les flammes vous procurent"
+      },
+      {
+        "en": "In addition, whenever a creature",
+        "fr": "De plus, chaque fois qu’une créature"
+      }
+    ],
+    "Freedom of Movement": [
+      {
+        "en": "In addition, the target",
+        "fr": "De plus, la cible"
+      }
+    ],
+    "Polymorph": [
+      {
+        "en": "The target gains a number",
+        "fr": "La cible reçoit autant de points de vie temporaires"
+      },
+      {
+        "en": "The target is limited",
+        "fr": "La cible est limitée"
+      },
+      {
+        "en": "The target’s gear melds",
+        "fr": "L’équipement porté par la cible"
+      }
+    ],
+    "Calm Emotions": [
+      {
+        "en": "• The creature has Immunity",
+        "fr": "• La créature est immunisée"
+      },
+      {
+        "en": "• The creature becomes Indifferent",
+        "fr": "• Vous pouvez choisir des créatures"
+      }
+    ],
+    "Cloudkill": [
+      {
+        "en": "Each creature in the Sphere",
+        "fr": "Chaque créature prise dans la Sphère"
+      },
+      {
+        "en": "The Sphere moves",
+        "fr": "La Sphère s’éloigne"
+      }
+    ],
+    "Commune": [
+      {
+        "en": "Divine beings aren’t necessarily",
+        "fr": "Les êtres divins ne sont pas forcément"
+      },
+      {
+        "en": "If you cast the spell more than once",
+        "fr": "Si vous lancez le sort plus d’une fois"
+      }
+    ],
+    "Commune with Nature": [
+      {
+        "en": "Choose three of the following facts;",
+        "fr": "Choisissez trois éléments parmi les suivants"
+      },
+      {
+        "en": "For example, you could",
+        "fr": "Ainsi, vous pouvez"
+      }
+    ],
+    "Contact Other Plane": [
+      {
+        "en": "On a failed save,",
+        "fr": "En cas d’échec,"
+      }
+    ],
+    "Dream": [
+      {
+        "en": "If the target is asleep,",
+        "fr": "Si la cible est endormie,"
+      },
+      {
+        "en": "If the target is awake",
+        "fr": "Si la cible est réveillée"
+      },
+      {
+        "en": "You can make the messenger",
+        "fr": "Vous pouvez rendre le messager"
+      }
+    ],
+    "Geas": [
+      {
+        "en": "While Charmed,",
+        "fr": "Tant que la créature est ainsi Charmée,"
+      },
+      {
+        "en": "You can issue any command",
+        "fr": "Vous pouvez donner n’importe quel ordre,"
+      },
+      {
+        "en": "A Remove Curse,",
+        "fr": "Les sorts délivrance des malédictions,"
+      }
+    ],
+    "Insect Plague": [
+      {
+        "en": "When the swarm appears,",
+        "fr": "Chaque créature prise dans la nuée à son apparition"
+      }
+    ],
+    "Mislead": [
+      {
+        "en": "As a Magic action,",
+        "fr": "Au prix de l’action Magie,"
+      },
+      {
+        "en": "You can see through its eyes",
+        "fr": "Vous voyez et entendez"
+      }
+    ],
+    "Modify Memory": [
+      {
+        "en": "While this charm lasts,",
+        "fr": "Tant que persiste ce charme,"
+      },
+      {
+        "en": "You must speak to the target",
+        "fr": "Vous devez parler à la cible"
+      },
+      {
+        "en": "A modified memory doesn’t necessarily",
+        "fr": "Sa mémoire modifiée,"
+      },
+      {
+        "en": "A Remove Curse or Greater Restoration",
+        "fr": "Le sort délivrance des malédictions ou restauration suprême"
+      }
+    ],
+    "Passwall": [
+      {
+        "en": "When the opening disappears,",
+        "fr": "Lorsque le passage disparaît,"
+      }
+    ],
+    "Planar Binding": [
+      {
+        "en": "A bound creature must",
+        "fr": "Une créature ainsi liée à votre service"
+      }
+    ],
+    "Raise Dead": [
+      {
+        "en": "The creature returns to life",
+        "fr": "La créature est ramenée à la vie"
+      },
+      {
+        "en": "This spell closes",
+        "fr": "Ce sort referme"
+      },
+      {
+        "en": "Coming back from the dead",
+        "fr": "Revenir d’entre les morts"
+      }
+    ],
+    "Scrying": [
+      {
+        "en": "Your Knowledge of the Target Is",
+        "fr": "Votre connaissance de la cible est"
+      },
+      {
+        "en": "On a successful save,",
+        "fr": "En cas de JS réussi,"
+      },
+      {
+        "en": "On a failed save,",
+        "fr": "En cas d’échec,"
+      },
+      {
+        "en": "Instead of targeting a creature,",
+        "fr": "Plutôt qu’une créature,"
+      }
+    ],
+    "Seeming": [
+      {
+        "en": "You can give the same appearance",
+        "fr": "Vous pouvez donner le même aspect"
+      },
+      {
+        "en": "The changes wrought by this spell",
+        "fr": "Les changements apportés par le sort"
+      },
+      {
+        "en": "A creature that takes the Study action",
+        "fr": "Une créature peut entreprendre l’action Étude"
+      }
+    ],
+    "Tree Stride": [
+      {
+        "en": "You can use this transportation",
+        "fr": "Vous ne pouvez utiliser cette faculté"
+      }
+    ],
+    "Wall of Force": [
+      {
+        "en": "Nothing can physically pass",
+        "fr": "Rien ne peut franchir physiquement"
+      }
+    ],
+    "Wall of Stone": [
+      {
+        "en": "If the wall cuts through",
+        "fr": "Si le mur traverse"
+      },
+      {
+        "en": "The wall can have any shape",
+        "fr": "Le mur peut prendre"
+      },
+      {
+        "en": "If you create a span",
+        "fr": "Si le pont ainsi créé"
+      },
+      {
+        "en": "The wall is an object made",
+        "fr": "Le mur est un objet de pierre"
+      },
+      {
+        "en": "If you maintain your Concentration",
+        "fr": "Si vous maintenez la Concentration"
+      }
+    ],
+    "Arcanist's Magic Aura": [
+      {
+        "en": "Mask (Creature).",
+        "fr": "Masque (créature)."
+      },
+      {
+        "en": "False Aura (Object).",
+        "fr": "Aura factice (objet)."
+      }
+    ]
+  },
+  "frenchReplacements": {
+    "Mage Hand": [
+      [
+        "5 kg",
+        "10 pounds"
+      ]
+    ],
+    "Sorcerous Burst": [
+      [
+        "lancer un autre pour",
+        "lancer un autre d8 pour"
+      ]
+    ],
+    "Levitate": [
+      [
+        "250 kg",
+        "500 pounds"
+      ]
+    ],
+    "Gust of Wind": [
+      [
+        "doit consacrer le double du déplacement normal pour toute distance parcourue.",
+        "doit dépenser 2 feet de déplacement pour chaque 1 foot parcouru."
+      ]
+    ],
+    "Plant Growth": [
+      [
+        "dans un rayon de 750 m",
+        "dans un rayon d’un demi-mile"
+      ],
+      [
+        "doit dépenser le quadruple de déplacement pour toute distance parcourue.",
+        "doit dépenser 4 feet de déplacement pour chaque 1 foot parcouru."
+      ]
+    ],
+    "Wall of Force": [
+      [
+        "épais de 6 mm",
+        "épais de 1/4 inch"
+      ]
+    ]
+  }
+}
