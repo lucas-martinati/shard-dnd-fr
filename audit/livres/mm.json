@@ -6,13 +6,38 @@
   "url": "https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i&cid=q4qshq492a8l16u0",
   "traductionIntegraleValidee": false,
   "consultation": {
-    "date": "2026-10-14",
-    "etat": "inaccessible-unknown-book",
-    "constat": "Le lien fourni affiche « Unknown book » dans la session actuelle. Le sommaire et le contenu du livre n’ont pas pu être vérifiés ; cela ne prouve pas leur absence dans le compte utilisateur."
+    "date": "2026-10-15",
+    "etat": "accessible-inventorie",
+    "constat": "Accès rétabli dans la bibliothèque du compte. Tous les chapitres alphabétiques et l’annexe A ont été ouverts : 469 profils et 2557 paragraphes de règles relevés. Il s’agit d’un import de compatibilité mécanique, pas du texte intégral imprimé. Dix profils du chapitre A sont complétés et contrôlés localement dans ce lot."
   },
-  "chapitresReleves": [],
+  "chapitresReleves": [
+    "Introduction",
+    "Monsters (A)",
+    "Monsters (B)",
+    "Monsters (C)",
+    "Monsters (D)",
+    "Monsters (E)",
+    "Monsters (F)",
+    "Monsters (G)",
+    "Monsters (H-J)",
+    "Monsters (K)",
+    "Monsters (L)",
+    "Monsters (M)",
+    "Monsters (N)",
+    "Monsters (O)",
+    "Monsters (P)",
+    "Monsters (Q)",
+    "Monsters (R)",
+    "Monsters (S)",
+    "Monsters (T)",
+    "Monsters (U)",
+    "Monsters (V)",
+    "Monsters (W)",
+    "Monsters (X-Z)",
+    "Appendix A: Animals"
+  ],
   "aFaire": [
-    "Rétablir l’accès au livre indiqué avant son inventaire en direct ; le corpus de monstres local reste disponible.",
+    "Compléter la traduction des profils inventoriés et vérifier le rendu du userscript installé dans Shard.",
     "Inventorier les chapitres et toutes les fiches liées ; distinguer les noms, présentations et contenus complets.",
     "Identifier les textes déjà couverts par le socle commun avant d’ajouter des traductions.",
     "Compléter les paragraphes, listes, options, tableaux, titres et variantes manquants, puis vérifier le rendu et les liens dans Shard."
@@ -21,5 +46,6 @@
     "Le rangement éditorial ne prouve pas une présence exclusive dans un livre. Les noms partagés restent stockés une seule fois et leur édition any est conservée lorsqu’aucune version précise n’est établie.",
     "Le nombre total de fiches et de blocs à traduire reste à établir ; aucun pourcentage de couverture intégrale n’est calculé."
   ],
-  "dossierTraductions": "translations/dnd-2024/mm"
+  "dossierTraductions": "translations/dnd-2024/mm",
+  "inventaire": "audit/inventaires/mm/shard-2024.json"
 }

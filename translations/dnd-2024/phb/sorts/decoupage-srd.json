@@ -738,6 +738,48 @@
         "en": "False Aura (Object).",
         "fr": "Aura factice (objet)."
       }
+    ],
+    "Find Familiar": [
+      {
+        "en": "Telepathic Connection.",
+        "fr": "Lien télépathique."
+      },
+      {
+        "en": "Finally, when you cast a spell",
+        "fr": "Enfin, si vous lancez un sort"
+      },
+      {
+        "en": "Combat.",
+        "fr": "Combat."
+      },
+      {
+        "en": "Disappearance of the Familiar.",
+        "fr": "Disparition du familier."
+      },
+      {
+        "en": "One Familiar Only.",
+        "fr": "Un seul familier."
+      }
+    ],
+    "Create or Destroy Water": [
+      {
+        "en": "Create Water.",
+        "fr": "Création d’eau."
+      },
+      {
+        "en": "Destroy Water.",
+        "fr": "Destruction d’eau."
+      }
+    ],
+    "Dispel Evil and Good": [
+      {
+        "en": "Break Enchantment.",
+        "fr": "Annulation d’enchantement."
+      },
+      {
+        "en": "Dismissal.",
+        "fr": "Renvoi."
+      }
     ]
   },
   "frenchReplacements": {
@@ -779,6 +821,12 @@
       [
         "épais de 6 mm",
         "épais de 1/4 inch"
+      ]
+    ],
+    "Create or Destroy Water": [
+      [
+        "40 litres",
+        "10 gallons"
       ]
     ]
   }

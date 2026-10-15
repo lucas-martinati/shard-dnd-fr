@@ -1,0 +1,2922 @@
+{
+  "date": "2026-10-15",
+  "source": "Livre Shard D&D 2024 MM, tous les chapitres et annexe A ouverts en lecture",
+  "livre": "https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i",
+  "profils": 469,
+  "paragraphesReleves": 2557,
+  "limite": "Inventaire des profils affichés dans cet import ; aucune validation de traduction intégrale du livre imprimé ou des 469 profils. Les noms identiques peuvent être déjà français.",
+  "chapitres": [
+    {
+      "titre": "Introduction",
+      "profils": 0
+    },
+    {
+      "titre": "Monsters (A)",
+      "profils": 19
+    },
+    {
+      "titre": "Monsters (B)",
+      "profils": 46
+    },
+    {
+      "titre": "Monsters (C)",
+      "profils": 31
+    },
+    {
+      "titre": "Monsters (D)",
+      "profils": 18
+    },
+    {
+      "titre": "Monsters (E)",
+      "profils": 8
+    },
+    {
+      "titre": "Monsters (F)",
+      "profils": 13
+    },
+    {
+      "titre": "Monsters (G)",
+      "profils": 47
+    },
+    {
+      "titre": "Monsters (H-J)",
+      "profils": 21
+    },
+    {
+      "titre": "Monsters (K)",
+      "profils": 10
+    },
+    {
+      "titre": "Monsters (L)",
+      "profils": 8
+    },
+    {
+      "titre": "Monsters (M)",
+      "profils": 35
+    },
+    {
+      "titre": "Monsters (N)",
+      "profils": 7
+    },
+    {
+      "titre": "Monsters (O)",
+      "profils": 7
+    },
+    {
+      "titre": "Monsters (P)",
+      "profils": 20
+    },
+    {
+      "titre": "Monsters (Q)",
+      "profils": 3
+    },
+    {
+      "titre": "Monsters (R)",
+      "profils": 13
+    },
+    {
+      "titre": "Monsters (S)",
+      "profils": 48
+    },
+    {
+      "titre": "Monsters (T)",
+      "profils": 9
+    },
+    {
+      "titre": "Monsters (U)",
+      "profils": 3
+    },
+    {
+      "titre": "Monsters (V)",
+      "profils": 6
+    },
+    {
+      "titre": "Monsters (W)",
+      "profils": 21
+    },
+    {
+      "titre": "Monsters (X-Z)",
+      "profils": 12
+    },
+    {
+      "titre": "Appendix A: Animals",
+      "profils": 64
+    }
+  ],
+  "fiches": [
+    {
+      "en": "Aarakocra Aeromancer",
+      "frDansLeScript": "Aarakocre, aéromancien",
+      "chapitre": "Monsters (A)",
+      "paragraphes": 6
+    },
+    {
+      "en": "Aarakocra Skirmisher",
+      "frDansLeScript": "Aarakocre, tirailleur",
+      "chapitre": "Monsters (A)",
+      "paragraphes": 2
+    },
+    {
+      "en": "Aboleth",
+      "frDansLeScript": "Aboleth",
+      "chapitre": "Monsters (A)",
+      "paragraphes": 14
+    },
+    {
+      "en": "Air Elemental",
+      "frDansLeScript": "Élémentaire de l'air",
+      "chapitre": "Monsters (A)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Animal Lord",
+      "frDansLeScript": "Seigneur des bêtes",
+      "chapitre": "Monsters (A)",
+      "paragraphes": 22
+    },
+    {
+      "en": "Animated Armor",
+      "frDansLeScript": "Armure animée",
+      "chapitre": "Monsters (A)",
+      "paragraphes": 2
+    },
+    {
+      "en": "Animated Broom",
+      "frDansLeScript": "Balai animé",
+      "chapitre": "Monsters (A)",
+      "paragraphes": 2
+    },
+    {
+      "en": "Animated Flying Sword",
+      "frDansLeScript": "Épée volante animée",
+      "chapitre": "Monsters (A)",
+      "paragraphes": 1
+    },
+    {
+      "en": "Animated Rug of Smothering",
+      "frDansLeScript": "Tapis étrangleur animé",
+      "chapitre": "Monsters (A)",
+      "paragraphes": 2
+    },
+    {
+      "en": "Ankheg",
+      "frDansLeScript": "Ankheg",
+      "chapitre": "Monsters (A)",
+      "paragraphes": 3
+    },
+    {
+      "en": "Arcanaloth",
+      "frDansLeScript": "Arcanaloth",
+      "chapitre": "Monsters (A)",
+      "paragraphes": 13
+    },
+    {
+      "en": "Arch-hag",
+      "frDansLeScript": "Archi-guenaude",
+      "chapitre": "Monsters (A)",
+      "paragraphes": 19
+    },
+    {
+      "en": "Assassin",
+      "frDansLeScript": "Assassin",
+      "chapitre": "Monsters (A)",
+      "paragraphes": 5
+    },
+    {
+      "en": "Awakened Shrub",
+      "frDansLeScript": "Arbuste éveillé",
+      "chapitre": "Monsters (A)",
+      "paragraphes": 1
+    },
+    {
+      "en": "Awakened Tree",
+      "frDansLeScript": "Arbre éveillé",
+      "chapitre": "Monsters (A)",
+      "paragraphes": 1
+    },
+    {
+      "en": "Axe Beak",
+      "frDansLeScript": "Bec de hache",
+      "chapitre": "Monsters (A)",
+      "paragraphes": 1
+    },
+    {
+      "en": "Giant Axe Beak",
+      "frDansLeScript": "Bec de hache géant",
+      "chapitre": "Monsters (A)",
+      "paragraphes": 3
+    },
+    {
+      "en": "Azer Pyromancer",
+      "frDansLeScript": "Azer, pyromancien",
+      "chapitre": "Monsters (A)",
+      "paragraphes": 8
+    },
+    {
+      "en": "Azer Sentinel",
+      "frDansLeScript": "Azer, sentinelle",
+      "chapitre": "Monsters (A)",
+      "paragraphes": 3
+    },
+    {
+      "en": "Balor",
+      "frDansLeScript": "Balor",
+      "chapitre": "Monsters (B)",
+      "paragraphes": 8
+    },
+    {
+      "en": "Bandit",
+      "frDansLeScript": "Bandit",
+      "chapitre": "Monsters (B)",
+      "paragraphes": 2
+    },
+    {
+      "en": "Bandit Captain",
+      "frDansLeScript": "Bandit, capitaine",
+      "chapitre": "Monsters (B)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Bandit Deceiver",
+      "frDansLeScript": "Bandit, embrouilleur",
+      "chapitre": "Monsters (B)",
+      "paragraphes": 6
+    },
+    {
+      "en": "Bandit Crime Lord",
+      "frDansLeScript": "Bandit, baron du crime",
+      "chapitre": "Monsters (B)",
+      "paragraphes": 5
+    },
+    {
+      "en": "Banshee",
+      "frDansLeScript": "Banshie",
+      "chapitre": "Monsters (B)",
+      "paragraphes": 6
+    },
+    {
+      "en": "Barbed Devil",
+      "frDansLeScript": "Diable barbelé",
+      "chapitre": "Monsters (B)",
+      "paragraphes": 7
+    },
+    {
+      "en": "Barlgura",
+      "frDansLeScript": "Barlgura",
+      "chapitre": "Monsters (B)",
+      "paragraphes": 8
+    },
+    {
+      "en": "Basilisk",
+      "frDansLeScript": "Basilic",
+      "chapitre": "Monsters (B)",
+      "paragraphes": 2
+    },
+    {
+      "en": "Bearded Devil",
+      "frDansLeScript": "Diable barbu",
+      "chapitre": "Monsters (B)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Behir",
+      "frDansLeScript": "Béhir",
+      "chapitre": "Monsters (B)",
+      "paragraphes": 6
+    },
+    {
+      "en": "Beholder",
+      "frDansLeScript": "Tyrannoeil",
+      "chapitre": "Monsters (B)",
+      "paragraphes": 8
+    },
+    {
+      "en": "Berserker Commander",
+      "frDansLeScript": "Berserker, chef",
+      "chapitre": "Monsters (B)",
+      "paragraphes": 5
+    },
+    {
+      "en": "Berserker",
+      "frDansLeScript": "Berserker",
+      "chapitre": "Monsters (B)",
+      "paragraphes": 2
+    },
+    {
+      "en": "Black Dragon Wyrmling",
+      "frDansLeScript": "Dragon noir, dragonnet",
+      "chapitre": "Monsters (B)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Young Black Dragon",
+      "frDansLeScript": "Dragon noir, jeune",
+      "chapitre": "Monsters (B)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Adult Black Dragon",
+      "frDansLeScript": "Dragon noir, adulte",
+      "chapitre": "Monsters (B)",
+      "paragraphes": 16
+    },
+    {
+      "en": "Ancient Black Dragon",
+      "frDansLeScript": "Dragon noir, ancien",
+      "chapitre": "Monsters (B)",
+      "paragraphes": 16
+    },
+    {
+      "en": "Black Pudding",
+      "frDansLeScript": "Pouding noir",
+      "chapitre": "Monsters (B)",
+      "paragraphes": 6
+    },
+    {
+      "en": "Twig Blight",
+      "frDansLeScript": "Nielleux",
+      "chapitre": "Monsters (B)",
+      "paragraphes": 2
+    },
+    {
+      "en": "Needle Blight",
+      "frDansLeScript": "Résineux",
+      "chapitre": "Monsters (B)",
+      "paragraphes": 2
+    },
+    {
+      "en": "Vine Blight",
+      "frDansLeScript": "Lierreux",
+      "chapitre": "Monsters (B)",
+      "paragraphes": 2
+    },
+    {
+      "en": "Tree Blight",
+      "frDansLeScript": "Arbroyeux",
+      "chapitre": "Monsters (B)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Gulthias Blight",
+      "frDansLeScript": "Rouilleux de Gulthias",
+      "chapitre": "Monsters (B)",
+      "paragraphes": 5
+    },
+    {
+      "en": "Blink Dog",
+      "frDansLeScript": "Chien esquiveur",
+      "chapitre": "Monsters (B)",
+      "paragraphes": 2
+    },
+    {
+      "en": "Blob of Annihilation",
+      "frDansLeScript": "Blob d'annihilation",
+      "chapitre": "Monsters (B)",
+      "paragraphes": 13
+    },
+    {
+      "en": "Blue Dragon Wyrmling",
+      "frDansLeScript": "Dragon bleu, dragonnet",
+      "chapitre": "Monsters (B)",
+      "paragraphes": 3
+    },
+    {
+      "en": "Young Blue Dragon",
+      "frDansLeScript": "Dragon bleu, jeune",
+      "chapitre": "Monsters (B)",
+      "paragraphes": 3
+    },
+    {
+      "en": "Adult Blue Dragon",
+      "frDansLeScript": "Dragon bleu, adulte",
+      "chapitre": "Monsters (B)",
+      "paragraphes": 15
+    },
+    {
+      "en": "Ancient Blue Dragon",
+      "frDansLeScript": "Dragon bleu, ancien",
+      "chapitre": "Monsters (B)",
+      "paragraphes": 15
+    },
+    {
+      "en": "Bone Devil",
+      "frDansLeScript": "Diable osseux",
+      "chapitre": "Monsters (B)",
+      "paragraphes": 5
+    },
+    {
+      "en": "Bone Naga",
+      "frDansLeScript": "Naga osseux",
+      "chapitre": "Monsters (B)",
+      "paragraphes": 6
+    },
+    {
+      "en": "Brass Dragon Wyrmling",
+      "frDansLeScript": "Dragon d'airain, dragonnet",
+      "chapitre": "Monsters (B)",
+      "paragraphes": 3
+    },
+    {
+      "en": "Young Brass Dragon",
+      "frDansLeScript": "Dragon d'airain, jeune",
+      "chapitre": "Monsters (B)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Adult Brass Dragon",
+      "frDansLeScript": "Dragon d'airain, adulte",
+      "chapitre": "Monsters (B)",
+      "paragraphes": 16
+    },
+    {
+      "en": "Ancient Brass Dragon",
+      "frDansLeScript": "Dragon d'airain, ancien",
+      "chapitre": "Monsters (B)",
+      "paragraphes": 16
+    },
+    {
+      "en": "Bronze Dragon Wyrmling",
+      "frDansLeScript": "Dragon de bronze, dragonnet",
+      "chapitre": "Monsters (B)",
+      "paragraphes": 5
+    },
+    {
+      "en": "Young Bronze Dragon",
+      "frDansLeScript": "Dragon de bronze, jeune",
+      "chapitre": "Monsters (B)",
+      "paragraphes": 5
+    },
+    {
+      "en": "Adult Bronze Dragon",
+      "frDansLeScript": "Dragon de bronze, adulte",
+      "chapitre": "Monsters (B)",
+      "paragraphes": 17
+    },
+    {
+      "en": "Ancient Bronze Dragon",
+      "frDansLeScript": "Dragon de bronze, ancien",
+      "chapitre": "Monsters (B)",
+      "paragraphes": 17
+    },
+    {
+      "en": "Bugbear Stalker",
+      "frDansLeScript": "Gobelours, traqueur",
+      "chapitre": "Monsters (B)",
+      "paragraphes": 5
+    },
+    {
+      "en": "Bugbear Warrior",
+      "frDansLeScript": "Gobelours, combattant",
+      "chapitre": "Monsters (B)",
+      "paragraphes": 3
+    },
+    {
+      "en": "Bulette",
+      "frDansLeScript": "Bulette",
+      "chapitre": "Monsters (B)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Bulette Pup",
+      "frDansLeScript": "Bulettiot",
+      "chapitre": "Monsters (B)",
+      "paragraphes": 2
+    },
+    {
+      "en": "Bullywug Bog Sage",
+      "frDansLeScript": "Brutacien, sage du marais",
+      "chapitre": "Monsters (B)",
+      "paragraphes": 8
+    },
+    {
+      "en": "Bullywug Warrior",
+      "frDansLeScript": "Brutacien, combattant",
+      "chapitre": "Monsters (B)",
+      "paragraphes": 0
+    },
+    {
+      "en": "Cambion",
+      "frDansLeScript": "Cambion",
+      "chapitre": "Monsters (C)",
+      "paragraphes": 6
+    },
+    {
+      "en": "Carrion Crawler",
+      "frDansLeScript": "Charognard rampant",
+      "chapitre": "Monsters (C)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Centaur Warden",
+      "frDansLeScript": "Centaure, gardien",
+      "chapitre": "Monsters (C)",
+      "paragraphes": 6
+    },
+    {
+      "en": "Centaur Trooper",
+      "frDansLeScript": "Centaure, soldat",
+      "chapitre": "Monsters (C)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Chain Devil",
+      "frDansLeScript": "Diable des chaînes",
+      "chapitre": "Monsters (C)",
+      "paragraphes": 6
+    },
+    {
+      "en": "Chasme",
+      "frDansLeScript": "Chasme",
+      "chapitre": "Monsters (C)",
+      "paragraphes": 5
+    },
+    {
+      "en": "Chimera",
+      "frDansLeScript": "Chimère",
+      "chapitre": "Monsters (C)",
+      "paragraphes": 5
+    },
+    {
+      "en": "Chuul",
+      "frDansLeScript": "Chuul",
+      "chapitre": "Monsters (C)",
+      "paragraphes": 5
+    },
+    {
+      "en": "Clay Golem",
+      "frDansLeScript": "Golem d'argile",
+      "chapitre": "Monsters (C)",
+      "paragraphes": 7
+    },
+    {
+      "en": "Cloaker",
+      "frDansLeScript": "Manteleur",
+      "chapitre": "Monsters (C)",
+      "paragraphes": 7
+    },
+    {
+      "en": "Cloud Giant",
+      "frDansLeScript": "Géant des nuages",
+      "chapitre": "Monsters (C)",
+      "paragraphes": 7
+    },
+    {
+      "en": "Cockatrice",
+      "frDansLeScript": "Cockatrice",
+      "chapitre": "Monsters (C)",
+      "paragraphes": 1
+    },
+    {
+      "en": "Cockatrice Regent",
+      "frDansLeScript": "Cockatrice souveraine",
+      "chapitre": "Monsters (C)",
+      "paragraphes": 5
+    },
+    {
+      "en": "Colossus",
+      "frDansLeScript": "Colosse",
+      "chapitre": "Monsters (C)",
+      "paragraphes": 11
+    },
+    {
+      "en": "Commoner",
+      "frDansLeScript": "Roturier",
+      "chapitre": "Monsters (C)",
+      "paragraphes": 2
+    },
+    {
+      "en": "Copper Dragon Wyrmling",
+      "frDansLeScript": "Dragon de cuivre, dragonnet",
+      "chapitre": "Monsters (C)",
+      "paragraphes": 3
+    },
+    {
+      "en": "Young Copper Dragon",
+      "frDansLeScript": "Dragon de cuivre, jeune",
+      "chapitre": "Monsters (C)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Adult Copper Dragon",
+      "frDansLeScript": "Dragon de cuivre, adulte",
+      "chapitre": "Monsters (C)",
+      "paragraphes": 16
+    },
+    {
+      "en": "Ancient Copper Dragon",
+      "frDansLeScript": "Dragon de cuivre, ancien",
+      "chapitre": "Monsters (C)",
+      "paragraphes": 16
+    },
+    {
+      "en": "Couatl",
+      "frDansLeScript": "Couatl",
+      "chapitre": "Monsters (C)",
+      "paragraphes": 7
+    },
+    {
+      "en": "Crawling Claw",
+      "frDansLeScript": "Griffe rampante",
+      "chapitre": "Monsters (C)",
+      "paragraphes": 1
+    },
+    {
+      "en": "Swarm of Crawling Claws",
+      "frDansLeScript": "Nuée de griffes rampantes",
+      "chapitre": "Monsters (C)",
+      "paragraphes": 2
+    },
+    {
+      "en": "Cultist",
+      "frDansLeScript": "Cultiste",
+      "chapitre": "Monsters (C)",
+      "paragraphes": 1
+    },
+    {
+      "en": "Cultist Fanatic",
+      "frDansLeScript": "Cultiste, fanatique",
+      "chapitre": "Monsters (C)",
+      "paragraphes": 6
+    },
+    {
+      "en": "Cultist Hierophant",
+      "frDansLeScript": "Cultiste, hiérophante",
+      "chapitre": "Monsters (C)",
+      "paragraphes": 6
+    },
+    {
+      "en": "Aberrant Cultist",
+      "frDansLeScript": "Cultiste, d'Aberration",
+      "chapitre": "Monsters (C)",
+      "paragraphes": 6
+    },
+    {
+      "en": "Death Cultist",
+      "frDansLeScript": "Cultiste, funeste",
+      "chapitre": "Monsters (C)",
+      "paragraphes": 6
+    },
+    {
+      "en": "Elemental Cultist",
+      "frDansLeScript": "Cultiste, d'Élémentaire",
+      "chapitre": "Monsters (C)",
+      "paragraphes": 6
+    },
+    {
+      "en": "Fiend Cultist",
+      "frDansLeScript": "Cultiste, de Fiélon",
+      "chapitre": "Monsters (C)",
+      "paragraphes": 6
+    },
+    {
+      "en": "Cyclops Oracle",
+      "frDansLeScript": "Cyclope, oracle",
+      "chapitre": "Monsters (C)",
+      "paragraphes": 7
+    },
+    {
+      "en": "Cyclops Sentry",
+      "frDansLeScript": "Cyclope, sentinelle",
+      "chapitre": "Monsters (C)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Dao",
+      "frDansLeScript": "Dao",
+      "chapitre": "Monsters (D)",
+      "paragraphes": 10
+    },
+    {
+      "en": "Darkmantle",
+      "frDansLeScript": "Mante obscure",
+      "chapitre": "Monsters (D)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Death Dog",
+      "frDansLeScript": "Chien du trépas",
+      "chapitre": "Monsters (D)",
+      "paragraphes": 2
+    },
+    {
+      "en": "Death Knight",
+      "frDansLeScript": "Chevalier de la mort",
+      "chapitre": "Monsters (D)",
+      "paragraphes": 15
+    },
+    {
+      "en": "Death Knight Aspirant",
+      "frDansLeScript": "Chevalier de la mort, aspirant",
+      "chapitre": "Monsters (D)",
+      "paragraphes": 9
+    },
+    {
+      "en": "Death Tyrant",
+      "frDansLeScript": "Tyramort",
+      "chapitre": "Monsters (D)",
+      "paragraphes": 12
+    },
+    {
+      "en": "Demilich",
+      "frDansLeScript": "Demi-liche",
+      "chapitre": "Monsters (D)",
+      "paragraphes": 13
+    },
+    {
+      "en": "Deva",
+      "frDansLeScript": "Déva",
+      "chapitre": "Monsters (D)",
+      "paragraphes": 8
+    },
+    {
+      "en": "Displacer Beast",
+      "frDansLeScript": "Bête éclipsante",
+      "chapitre": "Monsters (D)",
+      "paragraphes": 5
+    },
+    {
+      "en": "Djinni",
+      "frDansLeScript": "Djinn",
+      "chapitre": "Monsters (D)",
+      "paragraphes": 12
+    },
+    {
+      "en": "Doppelganger",
+      "frDansLeScript": "Doppelganger",
+      "chapitre": "Monsters (D)",
+      "paragraphes": 5
+    },
+    {
+      "en": "Dracolich",
+      "frDansLeScript": "Dracoliche",
+      "chapitre": "Monsters (D)",
+      "paragraphes": 15
+    },
+    {
+      "en": "Dragon Turtle",
+      "frDansLeScript": "Dragon-tortue",
+      "chapitre": "Monsters (D)",
+      "paragraphes": 5
+    },
+    {
+      "en": "Dretch",
+      "frDansLeScript": "Dretch",
+      "chapitre": "Monsters (D)",
+      "paragraphes": 2
+    },
+    {
+      "en": "Swarm of Dretches",
+      "frDansLeScript": "Nuée de dretches",
+      "chapitre": "Monsters (D)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Drider",
+      "frDansLeScript": "Drider",
+      "chapitre": "Monsters (D)",
+      "paragraphes": 7
+    },
+    {
+      "en": "Druid",
+      "frDansLeScript": "Druide",
+      "chapitre": "Monsters (D)",
+      "paragraphes": 7
+    },
+    {
+      "en": "Dryad",
+      "frDansLeScript": "Dryade",
+      "chapitre": "Monsters (D)",
+      "paragraphes": 9
+    },
+    {
+      "en": "Earth Elemental",
+      "frDansLeScript": "Élémentaire de la terre",
+      "chapitre": "Monsters (E)",
+      "paragraphes": 5
+    },
+    {
+      "en": "Efreeti",
+      "frDansLeScript": "Éfrit",
+      "chapitre": "Monsters (E)",
+      "paragraphes": 9
+    },
+    {
+      "en": "Elemental Cataclysm",
+      "frDansLeScript": "Cataclysme élémentaire",
+      "chapitre": "Monsters (E)",
+      "paragraphes": 10
+    },
+    {
+      "en": "Empyrean Iota",
+      "frDansLeScript": "Empyréen iota",
+      "chapitre": "Monsters (E)",
+      "paragraphes": 6
+    },
+    {
+      "en": "Empyrean",
+      "frDansLeScript": "Empyréen",
+      "chapitre": "Monsters (E)",
+      "paragraphes": 12
+    },
+    {
+      "en": "Erinyes",
+      "frDansLeScript": "Érinye",
+      "chapitre": "Monsters (E)",
+      "paragraphes": 7
+    },
+    {
+      "en": "Ettercap",
+      "frDansLeScript": "Ettercap",
+      "chapitre": "Monsters (E)",
+      "paragraphes": 7
+    },
+    {
+      "en": "Ettin",
+      "frDansLeScript": "Ettin",
+      "chapitre": "Monsters (E)",
+      "paragraphes": 3
+    },
+    {
+      "en": "Faerie Dragon Adult",
+      "frDansLeScript": "Dragon féerique, adulte",
+      "chapitre": "Monsters (F)",
+      "paragraphes": 7
+    },
+    {
+      "en": "Faerie Dragon Youth",
+      "frDansLeScript": "Dragon féerique, juvénile",
+      "chapitre": "Monsters (F)",
+      "paragraphes": 6
+    },
+    {
+      "en": "Fire Elemental",
+      "frDansLeScript": "Élémentaire du feu",
+      "chapitre": "Monsters (F)",
+      "paragraphes": 6
+    },
+    {
+      "en": "Fire Giant",
+      "frDansLeScript": "Géant du feu",
+      "chapitre": "Monsters (F)",
+      "paragraphes": 3
+    },
+    {
+      "en": "Flameskull",
+      "frDansLeScript": "Crânefeu",
+      "chapitre": "Monsters (F)",
+      "paragraphes": 9
+    },
+    {
+      "en": "Flesh Golem",
+      "frDansLeScript": "Golem de chair",
+      "chapitre": "Monsters (F)",
+      "paragraphes": 8
+    },
+    {
+      "en": "Flumph",
+      "frDansLeScript": "Flumph",
+      "chapitre": "Monsters (F)",
+      "paragraphes": 5
+    },
+    {
+      "en": "Fomorian",
+      "frDansLeScript": "Fomoire",
+      "chapitre": "Monsters (F)",
+      "paragraphes": 3
+    },
+    {
+      "en": "Frost Giant",
+      "frDansLeScript": "Géant du givre",
+      "chapitre": "Monsters (F)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Gas Spore Fungus",
+      "frDansLeScript": "Thallophyte, spore gazeuse",
+      "chapitre": "Monsters (F)",
+      "paragraphes": 2
+    },
+    {
+      "en": "Shrieker Fungus",
+      "frDansLeScript": "Thallophyte, criard",
+      "chapitre": "Monsters (F)",
+      "paragraphes": 1
+    },
+    {
+      "en": "Violet Fungus",
+      "frDansLeScript": "Thallophyte violette",
+      "chapitre": "Monsters (F)",
+      "paragraphes": 2
+    },
+    {
+      "en": "Violet Fungus Necrohulk",
+      "frDansLeScript": "Thallophyte, mastonécrofonge",
+      "chapitre": "Monsters (F)",
+      "paragraphes": 6
+    },
+    {
+      "en": "Galeb Duhr",
+      "frDansLeScript": "Galeb Duhr",
+      "chapitre": "Monsters (G)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Gargoyle",
+      "frDansLeScript": "Gargouille",
+      "chapitre": "Monsters (G)",
+      "paragraphes": 3
+    },
+    {
+      "en": "Gelatinous Cube",
+      "frDansLeScript": "Cube gélatineux",
+      "chapitre": "Monsters (G)",
+      "paragraphes": 6
+    },
+    {
+      "en": "Ghast",
+      "frDansLeScript": "Blême",
+      "chapitre": "Monsters (G)",
+      "paragraphes": 3
+    },
+    {
+      "en": "Ghast Gravecaller",
+      "frDansLeScript": "Blême fossoyeuse",
+      "chapitre": "Monsters (G)",
+      "paragraphes": 6
+    },
+    {
+      "en": "Ghost",
+      "frDansLeScript": "Fantôme",
+      "chapitre": "Monsters (G)",
+      "paragraphes": 9
+    },
+    {
+      "en": "Ghoul",
+      "frDansLeScript": "Goule",
+      "chapitre": "Monsters (G)",
+      "paragraphes": 3
+    },
+    {
+      "en": "Lacedon Ghoul",
+      "frDansLeScript": "Goule lacédone",
+      "chapitre": "Monsters (G)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Gibbering Mouther",
+      "frDansLeScript": "Babélien",
+      "chapitre": "Monsters (G)",
+      "paragraphes": 7
+    },
+    {
+      "en": "Githyanki Warrior",
+      "frDansLeScript": "Githyanki, combattant",
+      "chapitre": "Monsters (G)",
+      "paragraphes": 6
+    },
+    {
+      "en": "Githyanki Knight",
+      "frDansLeScript": "Githyanki, chevalier",
+      "chapitre": "Monsters (G)",
+      "paragraphes": 7
+    },
+    {
+      "en": "Githyanki Dracomancer",
+      "frDansLeScript": "Githyanki, dracomancien",
+      "chapitre": "Monsters (G)",
+      "paragraphes": 7
+    },
+    {
+      "en": "Githzerai Monk",
+      "frDansLeScript": "Githzerai, moine",
+      "chapitre": "Monsters (G)",
+      "paragraphes": 7
+    },
+    {
+      "en": "Githzerai Zerth",
+      "frDansLeScript": "Githzerai, zerth",
+      "chapitre": "Monsters (G)",
+      "paragraphes": 7
+    },
+    {
+      "en": "Githzerai Psion",
+      "frDansLeScript": "Githzerai, psion",
+      "chapitre": "Monsters (G)",
+      "paragraphes": 6
+    },
+    {
+      "en": "Glabrezu",
+      "frDansLeScript": "Glabrezu",
+      "chapitre": "Monsters (G)",
+      "paragraphes": 8
+    },
+    {
+      "en": "Gladiator",
+      "frDansLeScript": "Gladiateur",
+      "chapitre": "Monsters (G)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Gnoll Warrior",
+      "frDansLeScript": "Gnoll, combattant",
+      "chapitre": "Monsters (G)",
+      "paragraphes": 3
+    },
+    {
+      "en": "Gnoll Pack Lord",
+      "frDansLeScript": "Gnoll, chef de meute",
+      "chapitre": "Monsters (G)",
+      "paragraphes": 5
+    },
+    {
+      "en": "Gnoll Fang of Yeenoghu",
+      "frDansLeScript": "Gnoll, croc de Yeenoghu",
+      "chapitre": "Monsters (G)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Gnoll Demoniac",
+      "frDansLeScript": "Gnoll, démoniaque",
+      "chapitre": "Monsters (G)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Goblin Minion",
+      "frDansLeScript": "Gobelin, sbire",
+      "chapitre": "Monsters (G)",
+      "paragraphes": 2
+    },
+    {
+      "en": "Goblin Warrior",
+      "frDansLeScript": "Gobelin, combattant",
+      "chapitre": "Monsters (G)",
+      "paragraphes": 3
+    },
+    {
+      "en": "Goblin Boss",
+      "frDansLeScript": "Gobelin, chef",
+      "chapitre": "Monsters (G)",
+      "paragraphes": 5
+    },
+    {
+      "en": "Goblin Hexer",
+      "frDansLeScript": "Gobelin, maléficeur",
+      "chapitre": "Monsters (G)",
+      "paragraphes": 6
+    },
+    {
+      "en": "Gold Dragon Wyrmling",
+      "frDansLeScript": "Dragon d'or, dragonnet",
+      "chapitre": "Monsters (G)",
+      "paragraphes": 5
+    },
+    {
+      "en": "Young Gold Dragon",
+      "frDansLeScript": "Dragon d'or, jeune",
+      "chapitre": "Monsters (G)",
+      "paragraphes": 5
+    },
+    {
+      "en": "Adult Gold Dragon",
+      "frDansLeScript": "Dragon d'or, adulte",
+      "chapitre": "Monsters (G)",
+      "paragraphes": 17
+    },
+    {
+      "en": "Ancient Gold Dragon",
+      "frDansLeScript": "Dragon d'or, ancien",
+      "chapitre": "Monsters (G)",
+      "paragraphes": 17
+    },
+    {
+      "en": "Gorgon",
+      "frDansLeScript": "Gorgone",
+      "chapitre": "Monsters (G)",
+      "paragraphes": 3
+    },
+    {
+      "en": "Brazen Gorgon",
+      "frDansLeScript": "Gorgone ardente",
+      "chapitre": "Monsters (G)",
+      "paragraphes": 5
+    },
+    {
+      "en": "Goristro",
+      "frDansLeScript": "Goristro",
+      "chapitre": "Monsters (G)",
+      "paragraphes": 7
+    },
+    {
+      "en": "Gray Ooze",
+      "frDansLeScript": "Vase grise",
+      "chapitre": "Monsters (G)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Psychic Gray Ooze",
+      "frDansLeScript": "Vase grise psychique",
+      "chapitre": "Monsters (G)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Green Dragon Wyrmling",
+      "frDansLeScript": "Dragon vert, dragonnet",
+      "chapitre": "Monsters (G)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Young Green Dragon",
+      "frDansLeScript": "Dragon vert, jeune",
+      "chapitre": "Monsters (G)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Adult Green Dragon",
+      "frDansLeScript": "Dragon vert, adulte",
+      "chapitre": "Monsters (G)",
+      "paragraphes": 16
+    },
+    {
+      "en": "Ancient Green Dragon",
+      "frDansLeScript": "Dragon vert, ancien",
+      "chapitre": "Monsters (G)",
+      "paragraphes": 16
+    },
+    {
+      "en": "Green Hag",
+      "frDansLeScript": "Guenaude verte",
+      "chapitre": "Monsters (G)",
+      "paragraphes": 7
+    },
+    {
+      "en": "Grell",
+      "frDansLeScript": "Grell",
+      "chapitre": "Monsters (G)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Grick",
+      "frDansLeScript": "Grick",
+      "chapitre": "Monsters (G)",
+      "paragraphes": 3
+    },
+    {
+      "en": "Grick Ancient",
+      "frDansLeScript": "Grick vénérable",
+      "chapitre": "Monsters (G)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Griffon",
+      "frDansLeScript": "Griffon",
+      "chapitre": "Monsters (G)",
+      "paragraphes": 2
+    },
+    {
+      "en": "Grimlock",
+      "frDansLeScript": "Torve",
+      "chapitre": "Monsters (G)",
+      "paragraphes": 1
+    },
+    {
+      "en": "Guardian Naga",
+      "frDansLeScript": "Naga gardien",
+      "chapitre": "Monsters (G)",
+      "paragraphes": 7
+    },
+    {
+      "en": "Guard",
+      "frDansLeScript": "Garde",
+      "chapitre": "Monsters (G)",
+      "paragraphes": 1
+    },
+    {
+      "en": "Guard Captain",
+      "frDansLeScript": "Garde, capitaine",
+      "chapitre": "Monsters (G)",
+      "paragraphes": 3
+    },
+    {
+      "en": "Half-Dragon",
+      "frDansLeScript": "Demi-dragon",
+      "chapitre": "Monsters (H-J)",
+      "paragraphes": 5
+    },
+    {
+      "en": "Harpy",
+      "frDansLeScript": "Harpie",
+      "chapitre": "Monsters (H-J)",
+      "paragraphes": 2
+    },
+    {
+      "en": "Hell Hound",
+      "frDansLeScript": "Molosse infernal",
+      "chapitre": "Monsters (H-J)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Helmed Horror",
+      "frDansLeScript": "Horreur casquée",
+      "chapitre": "Monsters (H-J)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Hezrou",
+      "frDansLeScript": "Hezrou",
+      "chapitre": "Monsters (H-J)",
+      "paragraphes": 6
+    },
+    {
+      "en": "Hill Giant",
+      "frDansLeScript": "Géant des collines",
+      "chapitre": "Monsters (H-J)",
+      "paragraphes": 3
+    },
+    {
+      "en": "Hippogriff",
+      "frDansLeScript": "Hippogriffe",
+      "chapitre": "Monsters (H-J)",
+      "paragraphes": 3
+    },
+    {
+      "en": "Hobgoblin Warrior",
+      "frDansLeScript": "Hobgobelin, combattant",
+      "chapitre": "Monsters (H-J)",
+      "paragraphes": 3
+    },
+    {
+      "en": "Hobgoblin Captain",
+      "frDansLeScript": "Hobgobelin, capitaine",
+      "chapitre": "Monsters (H-J)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Hobgoblin Warlord",
+      "frDansLeScript": "Hobgobelin, seigneur de guerre",
+      "chapitre": "Monsters (H-J)",
+      "paragraphes": 5
+    },
+    {
+      "en": "Homunculus",
+      "frDansLeScript": "Homoncule",
+      "chapitre": "Monsters (H-J)",
+      "paragraphes": 2
+    },
+    {
+      "en": "Hook Horror",
+      "frDansLeScript": "Horreur crochue",
+      "chapitre": "Monsters (H-J)",
+      "paragraphes": 2
+    },
+    {
+      "en": "Horned Devil",
+      "frDansLeScript": "Diable cornu",
+      "chapitre": "Monsters (H-J)",
+      "paragraphes": 6
+    },
+    {
+      "en": "Hydra",
+      "frDansLeScript": "Hydre",
+      "chapitre": "Monsters (H-J)",
+      "paragraphes": 5
+    },
+    {
+      "en": "Ice Devil",
+      "frDansLeScript": "Diable gelé",
+      "chapitre": "Monsters (H-J)",
+      "paragraphes": 6
+    },
+    {
+      "en": "Imp",
+      "frDansLeScript": "Diablotin",
+      "chapitre": "Monsters (H-J)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Incubus",
+      "frDansLeScript": "Incube",
+      "chapitre": "Monsters (H-J)",
+      "paragraphes": 7
+    },
+    {
+      "en": "Intellect Devourer",
+      "frDansLeScript": "Dévoreur d'intellect",
+      "chapitre": "Monsters (H-J)",
+      "paragraphes": 6
+    },
+    {
+      "en": "Invisible Stalker",
+      "frDansLeScript": "Traqueur invisible",
+      "chapitre": "Monsters (H-J)",
+      "paragraphes": 5
+    },
+    {
+      "en": "Iron Golem",
+      "frDansLeScript": "Golem de fer",
+      "chapitre": "Monsters (H-J)",
+      "paragraphes": 7
+    },
+    {
+      "en": "Jackalwere",
+      "frDansLeScript": "Garou-chacal",
+      "chapitre": "Monsters (H-J)",
+      "paragraphes": 6
+    },
+    {
+      "en": "Kenku",
+      "frDansLeScript": "Kenku",
+      "chapitre": "Monsters (K)",
+      "paragraphes": 3
+    },
+    {
+      "en": "Knight",
+      "frDansLeScript": "Chevalier",
+      "chapitre": "Monsters (K)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Questing Knight",
+      "frDansLeScript": "Chevalier errant",
+      "chapitre": "Monsters (K)",
+      "paragraphes": 6
+    },
+    {
+      "en": "Kobold Warrior",
+      "frDansLeScript": "Kobold, combattant",
+      "chapitre": "Monsters (K)",
+      "paragraphes": 3
+    },
+    {
+      "en": "Winged Kobold",
+      "frDansLeScript": "Kobold ailé",
+      "chapitre": "Monsters (K)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Kraken",
+      "frDansLeScript": "Kraken",
+      "chapitre": "Monsters (K)",
+      "paragraphes": 16
+    },
+    {
+      "en": "Kuo-toa",
+      "frDansLeScript": "Kuo-toa",
+      "chapitre": "Monsters (K)",
+      "paragraphes": 5
+    },
+    {
+      "en": "Kuo-toa Whip",
+      "frDansLeScript": "Kuo-toa fouet",
+      "chapitre": "Monsters (K)",
+      "paragraphes": 5
+    },
+    {
+      "en": "Kuo-toa Monitor",
+      "frDansLeScript": "Kuo-toa cornac",
+      "chapitre": "Monsters (K)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Kuo-toa Archpriest",
+      "frDansLeScript": "Kuo-toa, archiprêtre",
+      "chapitre": "Monsters (K)",
+      "paragraphes": 8
+    },
+    {
+      "en": "Lamia",
+      "frDansLeScript": "Lamie",
+      "chapitre": "Monsters (L)",
+      "paragraphes": 7
+    },
+    {
+      "en": "Larva",
+      "frDansLeScript": "Larve",
+      "chapitre": "Monsters (L)",
+      "paragraphes": 1
+    },
+    {
+      "en": "Swarm of Larvae",
+      "frDansLeScript": "Nuée de larves",
+      "chapitre": "Monsters (L)",
+      "paragraphes": 2
+    },
+    {
+      "en": "Lemure",
+      "frDansLeScript": "Lémure",
+      "chapitre": "Monsters (L)",
+      "paragraphes": 2
+    },
+    {
+      "en": "Swarm of Lemures",
+      "frDansLeScript": "Nuée de lémures",
+      "chapitre": "Monsters (L)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Lich",
+      "frDansLeScript": "Liche",
+      "chapitre": "Monsters (L)",
+      "paragraphes": 18
+    },
+    {
+      "en": "Lizardfolk Geomancer",
+      "frDansLeScript": "Saurial, géomancien",
+      "chapitre": "Monsters (L)",
+      "paragraphes": 6
+    },
+    {
+      "en": "Lizardfolk Sovereign",
+      "frDansLeScript": "Saurial, souverain",
+      "chapitre": "Monsters (L)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Mage Apprentice",
+      "frDansLeScript": "Mage, apprenti",
+      "chapitre": "Monsters (M)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Mage",
+      "frDansLeScript": "Mage",
+      "chapitre": "Monsters (M)",
+      "paragraphes": 8
+    },
+    {
+      "en": "Archmage",
+      "frDansLeScript": "Archimage",
+      "chapitre": "Monsters (M)",
+      "paragraphes": 9
+    },
+    {
+      "en": "Magmin",
+      "frDansLeScript": "Magmatique",
+      "chapitre": "Monsters (M)",
+      "paragraphes": 3
+    },
+    {
+      "en": "Manes",
+      "frDansLeScript": "Mâne",
+      "chapitre": "Monsters (M)",
+      "paragraphes": 1
+    },
+    {
+      "en": "Manes Vaporspawn",
+      "frDansLeScript": "Mâne vaporeux",
+      "chapitre": "Monsters (M)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Manticore",
+      "frDansLeScript": "Manticore",
+      "chapitre": "Monsters (M)",
+      "paragraphes": 3
+    },
+    {
+      "en": "Marid",
+      "frDansLeScript": "Maride",
+      "chapitre": "Monsters (M)",
+      "paragraphes": 10
+    },
+    {
+      "en": "Marilith",
+      "frDansLeScript": "Marilith",
+      "chapitre": "Monsters (M)",
+      "paragraphes": 8
+    },
+    {
+      "en": "Medusa",
+      "frDansLeScript": "Méduse",
+      "chapitre": "Monsters (M)",
+      "paragraphes": 5
+    },
+    {
+      "en": "Dust Mephit",
+      "frDansLeScript": "Méphite poussiéreux",
+      "chapitre": "Monsters (M)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Ice Mephit",
+      "frDansLeScript": "Méphite gelé",
+      "chapitre": "Monsters (M)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Magma Mephit",
+      "frDansLeScript": "Méphite magmatique",
+      "chapitre": "Monsters (M)",
+      "paragraphes": 3
+    },
+    {
+      "en": "Mud Mephit",
+      "frDansLeScript": "Méphite boueux",
+      "chapitre": "Monsters (M)",
+      "paragraphes": 3
+    },
+    {
+      "en": "Smoke Mephit",
+      "frDansLeScript": "Méphite fumant",
+      "chapitre": "Monsters (M)",
+      "paragraphes": 3
+    },
+    {
+      "en": "Steam Mephit",
+      "frDansLeScript": "Méphite vaporeux",
+      "chapitre": "Monsters (M)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Merfolk Skirmisher",
+      "frDansLeScript": "Thalasséen, tirailleur",
+      "chapitre": "Monsters (M)",
+      "paragraphes": 2
+    },
+    {
+      "en": "Merfolk Wavebender",
+      "frDansLeScript": "Thalasséen, dompteur de l'onde",
+      "chapitre": "Monsters (M)",
+      "paragraphes": 7
+    },
+    {
+      "en": "Merrow",
+      "frDansLeScript": "Merrow",
+      "chapitre": "Monsters (M)",
+      "paragraphes": 5
+    },
+    {
+      "en": "Mezzoloth",
+      "frDansLeScript": "Mezzoloth",
+      "chapitre": "Monsters (M)",
+      "paragraphes": 8
+    },
+    {
+      "en": "Mimic",
+      "frDansLeScript": "Mimique",
+      "chapitre": "Monsters (M)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Mind Flayer",
+      "frDansLeScript": "Flagelleur mental",
+      "chapitre": "Monsters (M)",
+      "paragraphes": 7
+    },
+    {
+      "en": "Mind Flayer Arcanist",
+      "frDansLeScript": "Flagelleur mental, arcaniste",
+      "chapitre": "Monsters (M)",
+      "paragraphes": 8
+    },
+    {
+      "en": "Minotaur of Baphomet",
+      "frDansLeScript": "Minotaure de Baphomet",
+      "chapitre": "Monsters (M)",
+      "paragraphes": 2
+    },
+    {
+      "en": "Modron Monodrone",
+      "frDansLeScript": "Modron, monodrone",
+      "chapitre": "Monsters (M)",
+      "paragraphes": 3
+    },
+    {
+      "en": "Modron Duodrone",
+      "frDansLeScript": "Modron, duodrone",
+      "chapitre": "Monsters (M)",
+      "paragraphes": 3
+    },
+    {
+      "en": "Modron Tridrone",
+      "frDansLeScript": "Modron Tridrone",
+      "chapitre": "Monsters (M)",
+      "paragraphes": 3
+    },
+    {
+      "en": "Modron Quadrone",
+      "frDansLeScript": "Modron Quadrone",
+      "chapitre": "Monsters (M)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Modron Pentadrone",
+      "frDansLeScript": "Modron Pentadrone",
+      "chapitre": "Monsters (M)",
+      "paragraphes": 5
+    },
+    {
+      "en": "Mummy",
+      "frDansLeScript": "Momie",
+      "chapitre": "Monsters (M)",
+      "paragraphes": 3
+    },
+    {
+      "en": "Mummy Lord",
+      "frDansLeScript": "Seigneur momie",
+      "chapitre": "Monsters (M)",
+      "paragraphes": 19
+    },
+    {
+      "en": "Myconid Sprout",
+      "frDansLeScript": "Myconide, pousse",
+      "chapitre": "Monsters (M)",
+      "paragraphes": 3
+    },
+    {
+      "en": "Myconid Adult",
+      "frDansLeScript": "Myconide, adulte",
+      "chapitre": "Monsters (M)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Myconid Spore Servant",
+      "frDansLeScript": "Myconide, serviteur des spores",
+      "chapitre": "Monsters (M)",
+      "paragraphes": 1
+    },
+    {
+      "en": "Myconid Sovereign",
+      "frDansLeScript": "Myconide, souverain",
+      "chapitre": "Monsters (M)",
+      "paragraphes": 6
+    },
+    {
+      "en": "Nalfeshnee",
+      "frDansLeScript": "Nalfeshnie",
+      "chapitre": "Monsters (N)",
+      "paragraphes": 7
+    },
+    {
+      "en": "Night Hag",
+      "frDansLeScript": "Guenaude nocturne",
+      "chapitre": "Monsters (N)",
+      "paragraphes": 12
+    },
+    {
+      "en": "Nightmare",
+      "frDansLeScript": "Horriflamme",
+      "chapitre": "Monsters (N)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Noble",
+      "frDansLeScript": "Noble",
+      "chapitre": "Monsters (N)",
+      "paragraphes": 2
+    },
+    {
+      "en": "Noble Prodigy",
+      "frDansLeScript": "Noble, prodige",
+      "chapitre": "Monsters (N)",
+      "paragraphes": 6
+    },
+    {
+      "en": "Nothic",
+      "frDansLeScript": "Nothic",
+      "chapitre": "Monsters (N)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Nycaloth",
+      "frDansLeScript": "Nycaloth",
+      "chapitre": "Monsters (N)",
+      "paragraphes": 5
+    },
+    {
+      "en": "Ochre Jelly",
+      "frDansLeScript": "Gelée ocre",
+      "chapitre": "Monsters (O)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Ogre",
+      "frDansLeScript": "Ogre",
+      "chapitre": "Monsters (O)",
+      "paragraphes": 2
+    },
+    {
+      "en": "Ogrillon Ogre",
+      "frDansLeScript": "Ogrillon Ogre",
+      "chapitre": "Monsters (O)",
+      "paragraphes": 2
+    },
+    {
+      "en": "Oni",
+      "frDansLeScript": "Oni",
+      "chapitre": "Monsters (O)",
+      "paragraphes": 8
+    },
+    {
+      "en": "Otyugh",
+      "frDansLeScript": "Otyugh",
+      "chapitre": "Monsters (O)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Owlbear",
+      "frDansLeScript": "Ours-hibou",
+      "chapitre": "Monsters (O)",
+      "paragraphes": 2
+    },
+    {
+      "en": "Primeval Owlbear",
+      "frDansLeScript": "Ours-hibou primitif",
+      "chapitre": "Monsters (O)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Pegasus",
+      "frDansLeScript": "Pégase",
+      "chapitre": "Monsters (P)",
+      "paragraphes": 1
+    },
+    {
+      "en": "Performer",
+      "frDansLeScript": "Saltimbanque",
+      "chapitre": "Monsters (P)",
+      "paragraphes": 2
+    },
+    {
+      "en": "Performer Maestro",
+      "frDansLeScript": "Saltimbanque, maestro",
+      "chapitre": "Monsters (P)",
+      "paragraphes": 6
+    },
+    {
+      "en": "Performer Legend",
+      "frDansLeScript": "Saltimbanque, légende",
+      "chapitre": "Monsters (P)",
+      "paragraphes": 7
+    },
+    {
+      "en": "Peryton",
+      "frDansLeScript": "Péryton",
+      "chapitre": "Monsters (P)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Phase Spider",
+      "frDansLeScript": "Araignée de phase",
+      "chapitre": "Monsters (P)",
+      "paragraphes": 6
+    },
+    {
+      "en": "Piercer",
+      "frDansLeScript": "Perceur",
+      "chapitre": "Monsters (P)",
+      "paragraphes": 3
+    },
+    {
+      "en": "Pirate",
+      "frDansLeScript": "Pirate",
+      "chapitre": "Monsters (P)",
+      "paragraphes": 3
+    },
+    {
+      "en": "Pirate Captain",
+      "frDansLeScript": "Pirate, capitaine",
+      "chapitre": "Monsters (P)",
+      "paragraphes": 5
+    },
+    {
+      "en": "Pirate Admiral",
+      "frDansLeScript": "Pirate, amiral",
+      "chapitre": "Monsters (P)",
+      "paragraphes": 7
+    },
+    {
+      "en": "Pit Fiend",
+      "frDansLeScript": "Diantrefosse",
+      "chapitre": "Monsters (P)",
+      "paragraphes": 9
+    },
+    {
+      "en": "Pixie",
+      "frDansLeScript": "Pixie",
+      "chapitre": "Monsters (P)",
+      "paragraphes": 5
+    },
+    {
+      "en": "Pixie Wonderbringer",
+      "frDansLeScript": "Pixie émerveilleuse",
+      "chapitre": "Monsters (P)",
+      "paragraphes": 7
+    },
+    {
+      "en": "Planetar",
+      "frDansLeScript": "Planétar",
+      "chapitre": "Monsters (P)",
+      "paragraphes": 10
+    },
+    {
+      "en": "Poltergeist",
+      "frDansLeScript": "Poltergeist",
+      "chapitre": "Monsters (P)",
+      "paragraphes": 5
+    },
+    {
+      "en": "Priest Acolyte",
+      "frDansLeScript": "Prêtre, acolyte",
+      "chapitre": "Monsters (P)",
+      "paragraphes": 5
+    },
+    {
+      "en": "Priest",
+      "frDansLeScript": "Prêtre",
+      "chapitre": "Monsters (P)",
+      "paragraphes": 7
+    },
+    {
+      "en": "Archpriest",
+      "frDansLeScript": "Archiprêtre",
+      "chapitre": "Monsters (P)",
+      "paragraphes": 7
+    },
+    {
+      "en": "Pseudodragon",
+      "frDansLeScript": "Pseudodragon",
+      "chapitre": "Monsters (P)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Purple Worm",
+      "frDansLeScript": "Ver pourpre",
+      "chapitre": "Monsters (P)",
+      "paragraphes": 6
+    },
+    {
+      "en": "Quaggoth",
+      "frDansLeScript": "Quaggoth",
+      "chapitre": "Monsters (Q)",
+      "paragraphes": 3
+    },
+    {
+      "en": "Quaggoth Thonot",
+      "frDansLeScript": "Quaggoth thonot",
+      "chapitre": "Monsters (Q)",
+      "paragraphes": 7
+    },
+    {
+      "en": "Quasit",
+      "frDansLeScript": "Quasit",
+      "chapitre": "Monsters (Q)",
+      "paragraphes": 5
+    },
+    {
+      "en": "Rakshasa",
+      "frDansLeScript": "Rakshasa",
+      "chapitre": "Monsters (R)",
+      "paragraphes": 8
+    },
+    {
+      "en": "Red Dragon Wyrmling",
+      "frDansLeScript": "Dragon rouge, dragonnet",
+      "chapitre": "Monsters (R)",
+      "paragraphes": 3
+    },
+    {
+      "en": "Young Red Dragon",
+      "frDansLeScript": "Dragon rouge, jeune",
+      "chapitre": "Monsters (R)",
+      "paragraphes": 3
+    },
+    {
+      "en": "Adult Red Dragon",
+      "frDansLeScript": "Dragon rouge, adulte",
+      "chapitre": "Monsters (R)",
+      "paragraphes": 15
+    },
+    {
+      "en": "Ancient Red Dragon",
+      "frDansLeScript": "Dragon rouge, ancien",
+      "chapitre": "Monsters (R)",
+      "paragraphes": 15
+    },
+    {
+      "en": "Young Remorhaz",
+      "frDansLeScript": "Remorhaz, jeune",
+      "chapitre": "Monsters (R)",
+      "paragraphes": 2
+    },
+    {
+      "en": "Remorhaz",
+      "frDansLeScript": "Remorhaz",
+      "chapitre": "Monsters (R)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Revenant",
+      "frDansLeScript": "Revenant",
+      "chapitre": "Monsters (R)",
+      "paragraphes": 6
+    },
+    {
+      "en": "Graveyard Revenant",
+      "frDansLeScript": "Revenant, charnier",
+      "chapitre": "Monsters (R)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Haunting Revenant",
+      "frDansLeScript": "Revenant, tourmenteur",
+      "chapitre": "Monsters (R)",
+      "paragraphes": 6
+    },
+    {
+      "en": "Roc",
+      "frDansLeScript": "Rukh",
+      "chapitre": "Monsters (R)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Roper",
+      "frDansLeScript": "Enlaceur",
+      "chapitre": "Monsters (R)",
+      "paragraphes": 6
+    },
+    {
+      "en": "Rust Monster",
+      "frDansLeScript": "Oxydeur",
+      "chapitre": "Monsters (R)",
+      "paragraphes": 6
+    },
+    {
+      "en": "Sahuagin Warrior",
+      "frDansLeScript": "Sahuagin, combattant",
+      "chapitre": "Monsters (S)",
+      "paragraphes": 6
+    },
+    {
+      "en": "Sahuagin Priest",
+      "frDansLeScript": "Sahuagin, prêtre",
+      "chapitre": "Monsters (S)",
+      "paragraphes": 9
+    },
+    {
+      "en": "Sahuagin Baron",
+      "frDansLeScript": "Sahuagin, baron",
+      "chapitre": "Monsters (S)",
+      "paragraphes": 6
+    },
+    {
+      "en": "Salamander Fire Snake",
+      "frDansLeScript": "Salamandre, serpent de feu",
+      "chapitre": "Monsters (S)",
+      "paragraphes": 2
+    },
+    {
+      "en": "Salamander",
+      "frDansLeScript": "Salamandre",
+      "chapitre": "Monsters (S)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Salamander Inferno Master",
+      "frDansLeScript": "Salamandre, maîtresse des fournaises",
+      "chapitre": "Monsters (S)",
+      "paragraphes": 6
+    },
+    {
+      "en": "Satyr",
+      "frDansLeScript": "Satyre",
+      "chapitre": "Monsters (S)",
+      "paragraphes": 3
+    },
+    {
+      "en": "Satyr Revelmaster",
+      "frDansLeScript": "Satyre, maître des réjouissances",
+      "chapitre": "Monsters (S)",
+      "paragraphes": 6
+    },
+    {
+      "en": "Scarecrow",
+      "frDansLeScript": "Épouvantail",
+      "chapitre": "Monsters (S)",
+      "paragraphes": 2
+    },
+    {
+      "en": "Scout",
+      "frDansLeScript": "Éclaireur",
+      "chapitre": "Monsters (S)",
+      "paragraphes": 3
+    },
+    {
+      "en": "Scout Captain",
+      "frDansLeScript": "Éclaireur, capitaine",
+      "chapitre": "Monsters (S)",
+      "paragraphes": 5
+    },
+    {
+      "en": "Sea Hag",
+      "frDansLeScript": "Guenaude marine",
+      "chapitre": "Monsters (S)",
+      "paragraphes": 6
+    },
+    {
+      "en": "Shadow",
+      "frDansLeScript": "Ombre",
+      "chapitre": "Monsters (S)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Shadow Demon",
+      "frDansLeScript": "Démon des ombres",
+      "chapitre": "Monsters (S)",
+      "paragraphes": 5
+    },
+    {
+      "en": "Juvenile Shadow Dragon",
+      "frDansLeScript": "Dragon d'ombre immature",
+      "chapitre": "Monsters (S)",
+      "paragraphes": 6
+    },
+    {
+      "en": "Shadow Dragon",
+      "frDansLeScript": "Dragon d'ombre",
+      "chapitre": "Monsters (S)",
+      "paragraphes": 14
+    },
+    {
+      "en": "Shambling Mound",
+      "frDansLeScript": "Tertre errant",
+      "chapitre": "Monsters (S)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Shield Guardian",
+      "frDansLeScript": "Garde bouclier",
+      "chapitre": "Monsters (S)",
+      "paragraphes": 6
+    },
+    {
+      "en": "Silver Dragon Wyrmling",
+      "frDansLeScript": "Dragon d'argent, dragonnet",
+      "chapitre": "Monsters (S)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Young Silver Dragon",
+      "frDansLeScript": "Dragon d'argent, jeune",
+      "chapitre": "Monsters (S)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Adult Silver Dragon",
+      "frDansLeScript": "Dragon d'argent, adulte",
+      "chapitre": "Monsters (S)",
+      "paragraphes": 16
+    },
+    {
+      "en": "Ancient Silver Dragon",
+      "frDansLeScript": "Dragon d'argent, ancien",
+      "chapitre": "Monsters (S)",
+      "paragraphes": 16
+    },
+    {
+      "en": "Skeleton",
+      "frDansLeScript": "Squelette",
+      "chapitre": "Monsters (S)",
+      "paragraphes": 2
+    },
+    {
+      "en": "Warhorse Skeleton",
+      "frDansLeScript": "Cheval de guerre squelette",
+      "chapitre": "Monsters (S)",
+      "paragraphes": 1
+    },
+    {
+      "en": "Minotaur Skeleton",
+      "frDansLeScript": "Minotaure squelette",
+      "chapitre": "Monsters (S)",
+      "paragraphes": 2
+    },
+    {
+      "en": "Flaming Skeleton",
+      "frDansLeScript": "Squelette enflammé",
+      "chapitre": "Monsters (S)",
+      "paragraphes": 5
+    },
+    {
+      "en": "Slaad Tadpole",
+      "frDansLeScript": "Slaad, têtard",
+      "chapitre": "Monsters (S)",
+      "paragraphes": 2
+    },
+    {
+      "en": "Red Slaad",
+      "frDansLeScript": "Slaad rouge",
+      "chapitre": "Monsters (S)",
+      "paragraphes": 5
+    },
+    {
+      "en": "Blue Slaad",
+      "frDansLeScript": "Slaad bleu",
+      "chapitre": "Monsters (S)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Green Slaad",
+      "frDansLeScript": "Slaad vert",
+      "chapitre": "Monsters (S)",
+      "paragraphes": 8
+    },
+    {
+      "en": "Gray Slaad",
+      "frDansLeScript": "Slaad gris",
+      "chapitre": "Monsters (S)",
+      "paragraphes": 8
+    },
+    {
+      "en": "Death Slaad",
+      "frDansLeScript": "Slaad funeste",
+      "chapitre": "Monsters (S)",
+      "paragraphes": 8
+    },
+    {
+      "en": "Solar",
+      "frDansLeScript": "Solar",
+      "chapitre": "Monsters (S)",
+      "paragraphes": 14
+    },
+    {
+      "en": "Spectator",
+      "frDansLeScript": "Spectateur",
+      "chapitre": "Monsters (S)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Specter",
+      "frDansLeScript": "Spectre",
+      "chapitre": "Monsters (S)",
+      "paragraphes": 3
+    },
+    {
+      "en": "Sphinx of Wonder",
+      "frDansLeScript": "Sphinx merveilleux",
+      "chapitre": "Monsters (S)",
+      "paragraphes": 3
+    },
+    {
+      "en": "Sphinx of Secrets",
+      "frDansLeScript": "Sphinx mystérieux",
+      "chapitre": "Monsters (S)",
+      "paragraphes": 8
+    },
+    {
+      "en": "Sphinx of Lore",
+      "frDansLeScript": "Sphinx érudit",
+      "chapitre": "Monsters (S)",
+      "paragraphes": 15
+    },
+    {
+      "en": "Sphinx of Valor",
+      "frDansLeScript": "Sphinx valeureux",
+      "chapitre": "Monsters (S)",
+      "paragraphes": 18
+    },
+    {
+      "en": "Spy",
+      "frDansLeScript": "Espion",
+      "chapitre": "Monsters (S)",
+      "paragraphes": 3
+    },
+    {
+      "en": "Spy Master",
+      "frDansLeScript": "Espion, maître",
+      "chapitre": "Monsters (S)",
+      "paragraphes": 5
+    },
+    {
+      "en": "Spined Devil",
+      "frDansLeScript": "Diable épineux",
+      "chapitre": "Monsters (S)",
+      "paragraphes": 5
+    },
+    {
+      "en": "Spirit Naga",
+      "frDansLeScript": "Naga corrupteur",
+      "chapitre": "Monsters (S)",
+      "paragraphes": 7
+    },
+    {
+      "en": "Sprite",
+      "frDansLeScript": "Esprit follet",
+      "chapitre": "Monsters (S)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Stirge",
+      "frDansLeScript": "Strige",
+      "chapitre": "Monsters (S)",
+      "paragraphes": 2
+    },
+    {
+      "en": "Swarm of Stirges",
+      "frDansLeScript": "Nuée de striges",
+      "chapitre": "Monsters (S)",
+      "paragraphes": 2
+    },
+    {
+      "en": "Stone Giant",
+      "frDansLeScript": "Géant des pierres",
+      "chapitre": "Monsters (S)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Stone Golem",
+      "frDansLeScript": "Golem de pierre",
+      "chapitre": "Monsters (S)",
+      "paragraphes": 0
+    },
+    {
+      "en": "Tarrasque",
+      "frDansLeScript": "Tarasque",
+      "chapitre": "Monsters (T)",
+      "paragraphes": 14
+    },
+    {
+      "en": "Thri-kreen Marauder",
+      "frDansLeScript": "Thri-kreen, maraudeur",
+      "chapitre": "Monsters (T)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Thri-kreen Psion",
+      "frDansLeScript": "Thri-kreen, psion",
+      "chapitre": "Monsters (T)",
+      "paragraphes": 5
+    },
+    {
+      "en": "Tough",
+      "frDansLeScript": "Gros-bras",
+      "chapitre": "Monsters (T)",
+      "paragraphes": 3
+    },
+    {
+      "en": "Tough Boss",
+      "frDansLeScript": "Gros-bras, chef",
+      "chapitre": "Monsters (T)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Treant",
+      "frDansLeScript": "Sylvanien",
+      "chapitre": "Monsters (T)",
+      "paragraphes": 5
+    },
+    {
+      "en": "Troglodyte",
+      "frDansLeScript": "Troglodyte",
+      "chapitre": "Monsters (T)",
+      "paragraphes": 3
+    },
+    {
+      "en": "Troll",
+      "frDansLeScript": "Troll",
+      "chapitre": "Monsters (T)",
+      "paragraphes": 5
+    },
+    {
+      "en": "Troll Limb",
+      "frDansLeScript": "Abattis de troll",
+      "chapitre": "Monsters (T)",
+      "paragraphes": 3
+    },
+    {
+      "en": "Ultroloth",
+      "frDansLeScript": "Ultroloth",
+      "chapitre": "Monsters (U)",
+      "paragraphes": 9
+    },
+    {
+      "en": "Umber Hulk",
+      "frDansLeScript": "Mastodonte des ombres",
+      "chapitre": "Monsters (U)",
+      "paragraphes": 7
+    },
+    {
+      "en": "Unicorn",
+      "frDansLeScript": "Licorne",
+      "chapitre": "Monsters (U)",
+      "paragraphes": 16
+    },
+    {
+      "en": "Vampire Familiar",
+      "frDansLeScript": "Familier de vampire",
+      "chapitre": "Monsters (V)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Vampire Spawn",
+      "frDansLeScript": "Vampirien",
+      "chapitre": "Monsters (V)",
+      "paragraphes": 10
+    },
+    {
+      "en": "Vampire Nightbringer",
+      "frDansLeScript": "Vampire, héraut de la nuit",
+      "chapitre": "Monsters (V)",
+      "paragraphes": 5
+    },
+    {
+      "en": "Vampire",
+      "frDansLeScript": "Vampire",
+      "chapitre": "Monsters (V)",
+      "paragraphes": 24
+    },
+    {
+      "en": "Vampire Umbral Lord",
+      "frDansLeScript": "Vampire, seigneur des ombres",
+      "chapitre": "Monsters (V)",
+      "paragraphes": 20
+    },
+    {
+      "en": "Vrock",
+      "frDansLeScript": "Vrock",
+      "chapitre": "Monsters (V)",
+      "paragraphes": 6
+    },
+    {
+      "en": "Warrior Infantry",
+      "frDansLeScript": "Combattant, fantassin",
+      "chapitre": "Monsters (W)",
+      "paragraphes": 2
+    },
+    {
+      "en": "Warrior Veteran",
+      "frDansLeScript": "Combattant, vétéran",
+      "chapitre": "Monsters (W)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Warrior Commander",
+      "frDansLeScript": "Combattant, commandant",
+      "chapitre": "Monsters (W)",
+      "paragraphes": 7
+    },
+    {
+      "en": "Water Elemental",
+      "frDansLeScript": "Élémentaire de l'eau",
+      "chapitre": "Monsters (W)",
+      "paragraphes": 5
+    },
+    {
+      "en": "Water Weird",
+      "frDansLeScript": "Sibylle de l'eau",
+      "chapitre": "Monsters (W)",
+      "paragraphes": 3
+    },
+    {
+      "en": "Werebear",
+      "frDansLeScript": "Ours-garou",
+      "chapitre": "Monsters (W)",
+      "paragraphes": 5
+    },
+    {
+      "en": "Wereboar",
+      "frDansLeScript": "Sanglier-garou",
+      "chapitre": "Monsters (W)",
+      "paragraphes": 5
+    },
+    {
+      "en": "Wererat",
+      "frDansLeScript": "Rat-garou",
+      "chapitre": "Monsters (W)",
+      "paragraphes": 5
+    },
+    {
+      "en": "Weretiger",
+      "frDansLeScript": "Tigre-garou",
+      "chapitre": "Monsters (W)",
+      "paragraphes": 6
+    },
+    {
+      "en": "Werewolf",
+      "frDansLeScript": "Loup-garou",
+      "chapitre": "Monsters (W)",
+      "paragraphes": 6
+    },
+    {
+      "en": "White Dragon Wyrmling",
+      "frDansLeScript": "Dragon blanc, dragonnet",
+      "chapitre": "Monsters (W)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Young White Dragon",
+      "frDansLeScript": "Dragon blanc, jeune",
+      "chapitre": "Monsters (W)",
+      "paragraphes": 36
+    },
+    {
+      "en": "Adult White Dragon",
+      "frDansLeScript": "Dragon blanc, adulte",
+      "chapitre": "Monsters (W)",
+      "paragraphes": 13
+    },
+    {
+      "en": "Ancient White Dragon",
+      "frDansLeScript": "Dragon blanc, ancien",
+      "chapitre": "Monsters (W)",
+      "paragraphes": 13
+    },
+    {
+      "en": "Wight",
+      "frDansLeScript": "Nécrophage",
+      "chapitre": "Monsters (W)",
+      "paragraphes": 6
+    },
+    {
+      "en": "Will-o’-Wisp",
+      "frDansLeScript": "Feu follet",
+      "chapitre": "Monsters (W)",
+      "paragraphes": 6
+    },
+    {
+      "en": "Winter Wolf",
+      "frDansLeScript": "Loup arctique",
+      "chapitre": "Monsters (W)",
+      "paragraphes": 3
+    },
+    {
+      "en": "Worg",
+      "frDansLeScript": "Worg",
+      "chapitre": "Monsters (W)",
+      "paragraphes": 1
+    },
+    {
+      "en": "Dire Worg",
+      "frDansLeScript": "Worg sanguinaire",
+      "chapitre": "Monsters (W)",
+      "paragraphes": 5
+    },
+    {
+      "en": "Wraith",
+      "frDansLeScript": "Âme-en-peine",
+      "chapitre": "Monsters (W)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Wyvern",
+      "frDansLeScript": "Wyverne",
+      "chapitre": "Monsters (W)",
+      "paragraphes": 3
+    },
+    {
+      "en": "Xorn",
+      "frDansLeScript": "Xorn",
+      "chapitre": "Monsters (X-Z)",
+      "paragraphes": 6
+    },
+    {
+      "en": "Yeti",
+      "frDansLeScript": "Yéti",
+      "chapitre": "Monsters (X-Z)",
+      "paragraphes": 5
+    },
+    {
+      "en": "Abominable Yeti",
+      "frDansLeScript": "Yéti abominable",
+      "chapitre": "Monsters (X-Z)",
+      "paragraphes": 6
+    },
+    {
+      "en": "Yochlol",
+      "frDansLeScript": "Yochlol",
+      "chapitre": "Monsters (X-Z)",
+      "paragraphes": 11
+    },
+    {
+      "en": "Yuan-ti Infiltrator",
+      "frDansLeScript": "Yuan-ti, infiltrateur",
+      "chapitre": "Monsters (X-Z)",
+      "paragraphes": 7
+    },
+    {
+      "en": "Yuan-ti Malison (Type 1)",
+      "frDansLeScript": "Yuan-ti, malfice (type 1)",
+      "chapitre": "Monsters (X-Z)",
+      "paragraphes": 10
+    },
+    {
+      "en": "Yuan-ti Malison (Type 2)",
+      "frDansLeScript": "Yuan-ti, malfice (type 2)",
+      "chapitre": "Monsters (X-Z)",
+      "paragraphes": 9
+    },
+    {
+      "en": "Yuan-ti Malison (Type 3)",
+      "frDansLeScript": "Yuan-ti, malfice (type 3)",
+      "chapitre": "Monsters (X-Z)",
+      "paragraphes": 10
+    },
+    {
+      "en": "Yuan-ti Abomination",
+      "frDansLeScript": "Yuan-ti, abomination",
+      "chapitre": "Monsters (X-Z)",
+      "paragraphes": 9
+    },
+    {
+      "en": "Zombie",
+      "frDansLeScript": "Zombi",
+      "chapitre": "Monsters (X-Z)",
+      "paragraphes": 2
+    },
+    {
+      "en": "Ogre Zombie",
+      "frDansLeScript": "Ogre zombi",
+      "chapitre": "Monsters (X-Z)",
+      "paragraphes": 2
+    },
+    {
+      "en": "Beholder Zombie",
+      "frDansLeScript": "Tyrannoeil zombi",
+      "chapitre": "Monsters (X-Z)",
+      "paragraphes": 4
+    },
+    {
+      "en": "Allosaurus",
+      "frDansLeScript": "Allosaure",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 2
+    },
+    {
+      "en": "Ankylosaurus",
+      "frDansLeScript": "Ankylosaure",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 2
+    },
+    {
+      "en": "Ape",
+      "frDansLeScript": "Grand singe",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 3
+    },
+    {
+      "en": "Archelon",
+      "frDansLeScript": "Archélon",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 3
+    },
+    {
+      "en": "Baboon",
+      "frDansLeScript": "Babouin",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 2
+    },
+    {
+      "en": "Badger",
+      "frDansLeScript": "Blaireau",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 1
+    },
+    {
+      "en": "Bat",
+      "frDansLeScript": "Chauve-souris",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 1
+    },
+    {
+      "en": "Black Bear",
+      "frDansLeScript": "Ours noir",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 2
+    },
+    {
+      "en": "Blood Hawk",
+      "frDansLeScript": "Faucon de sang",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 2
+    },
+    {
+      "en": "Boar",
+      "frDansLeScript": "Sanglier",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 2
+    },
+    {
+      "en": "Brown Bear",
+      "frDansLeScript": "Ours brun",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 3
+    },
+    {
+      "en": "Camel",
+      "frDansLeScript": "Chameau",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 1
+    },
+    {
+      "en": "Cat",
+      "frDansLeScript": "Chat",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 2
+    },
+    {
+      "en": "Constrictor Snake",
+      "frDansLeScript": "Serpent constricteur",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 2
+    },
+    {
+      "en": "Crab",
+      "frDansLeScript": "Crabe",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 2
+    },
+    {
+      "en": "Crocodile",
+      "frDansLeScript": "Crocodile",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 2
+    },
+    {
+      "en": "Deer",
+      "frDansLeScript": "Cerf",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 2
+    },
+    {
+      "en": "Dire Wolf",
+      "frDansLeScript": "Loup sanguinaire",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 2
+    },
+    {
+      "en": "Draft Horse",
+      "frDansLeScript": "Cheval de trait",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 1
+    },
+    {
+      "en": "Elephant",
+      "frDansLeScript": "Éléphant",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 3
+    },
+    {
+      "en": "Eagle",
+      "frDansLeScript": "Aigle",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 1
+    },
+    {
+      "en": "Elk",
+      "frDansLeScript": "Élan",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 1
+    },
+    {
+      "en": "Flying Snake",
+      "frDansLeScript": "Serpent volant",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 2
+    },
+    {
+      "en": "Frog",
+      "frDansLeScript": "Grenouille",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 3
+    },
+    {
+      "en": "Giant Ape",
+      "frDansLeScript": "Singe géant",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 4
+    },
+    {
+      "en": "Giant Badger",
+      "frDansLeScript": "Blaireau géant",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 1
+    },
+    {
+      "en": "Giant Bat",
+      "frDansLeScript": "Chauve-souris géante",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 1
+    },
+    {
+      "en": "Giant Boar",
+      "frDansLeScript": "Sanglier géant",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 2
+    },
+    {
+      "en": "Giant Centipede",
+      "frDansLeScript": "Mille-pattes géant",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 1
+    },
+    {
+      "en": "Giant Constrictor Snake",
+      "frDansLeScript": "Serpent constricteur géant",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 3
+    },
+    {
+      "en": "Giant Crab",
+      "frDansLeScript": "Crabe géant",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 2
+    },
+    {
+      "en": "Giant Crocodile",
+      "frDansLeScript": "Crocodile géant",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 4
+    },
+    {
+      "en": "Giant Eagle",
+      "frDansLeScript": "Aigle géant",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 2
+    },
+    {
+      "en": "Giant Elk",
+      "frDansLeScript": "Élan géant",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 1
+    },
+    {
+      "en": "Giant Fire Beetle",
+      "frDansLeScript": "Scarabée de feu géant",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 2
+    },
+    {
+      "en": "Giant Frog",
+      "frDansLeScript": "Grenouille géante",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 5
+    },
+    {
+      "en": "Giant Goat",
+      "frDansLeScript": "Chèvre géante",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 1
+    },
+    {
+      "en": "Giant Hyena",
+      "frDansLeScript": "Hyène géante",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 2
+    },
+    {
+      "en": "Giant Lizard",
+      "frDansLeScript": "Lézard géant",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 2
+    },
+    {
+      "en": "Giant Octopus",
+      "frDansLeScript": "Pieuvre géante",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 3
+    },
+    {
+      "en": "Giant Owl",
+      "frDansLeScript": "Chouette géante",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 5
+    },
+    {
+      "en": "Giant Rat",
+      "frDansLeScript": "Rat géant",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 2
+    },
+    {
+      "en": "Giant Seahorse",
+      "frDansLeScript": "Hippocampe géant",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 3
+    },
+    {
+      "en": "Giant Scorpion",
+      "frDansLeScript": "Scorpion géant",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 3
+    },
+    {
+      "en": "Giant Shark",
+      "frDansLeScript": "Requin géant",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 3
+    },
+    {
+      "en": "Giant Spider",
+      "frDansLeScript": "Araignée géante",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 4
+    },
+    {
+      "en": "Giant Squid",
+      "frDansLeScript": "Calamar géant",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 5
+    },
+    {
+      "en": "Giant Toad",
+      "frDansLeScript": "Crapaud géant",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 4
+    },
+    {
+      "en": "Giant Venomous Snake",
+      "frDansLeScript": "Serpent venimeux géant",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 1
+    },
+    {
+      "en": "Giant Vulture",
+      "frDansLeScript": "Vautour géant",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 2
+    },
+    {
+      "en": "Giant Wasp",
+      "frDansLeScript": "Guêpe géante",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 2
+    },
+    {
+      "en": "Giant Weasel",
+      "frDansLeScript": "Belette géante",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 1
+    },
+    {
+      "en": "Giant Wolf Spider",
+      "frDansLeScript": "Araignée-loup géante",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 2
+    },
+    {
+      "en": "Goat",
+      "frDansLeScript": "Chèvre",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 1
+    },
+    {
+      "en": "Hawk",
+      "frDansLeScript": "Faucon",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 1
+    },
+    {
+      "en": "Hippopotamus",
+      "frDansLeScript": "Hippopotame",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 3
+    },
+    {
+      "en": "Hunter Shark",
+      "frDansLeScript": "Requin-chasseur",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 2
+    },
+    {
+      "en": "Hyena",
+      "frDansLeScript": "Hyène",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 2
+    },
+    {
+      "en": "Jackal",
+      "frDansLeScript": "Chacal",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 1
+    },
+    {
+      "en": "Killer Whale",
+      "frDansLeScript": "Épaulard",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 2
+    },
+    {
+      "en": "Lion",
+      "frDansLeScript": "Lion",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 5
+    },
+    {
+      "en": "Lizard",
+      "frDansLeScript": "Lézard",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 2
+    },
+    {
+      "en": "Mammoth",
+      "frDansLeScript": "Mammouth",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 3
+    },
+    {
+      "en": "Mastiff",
+      "frDansLeScript": "Molosse",
+      "chapitre": "Appendix A: Animals",
+      "paragraphes": 0
+    }
+  ]
+}

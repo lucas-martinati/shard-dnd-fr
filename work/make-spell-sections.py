@@ -138,6 +138,9 @@ for name,row in refs.items():
             continue
         a_before,a_tail=row['englishBody'].split(a_marker)
         b_before,b_tail=row['frenchBody'].split(b_marker)
+        for before,after in segmentation.get('frenchReplacements',{}).get(name,[]):
+            b_before=b_before.replace(before,after)
+            b_tail=b_tail.replace(before,after)
         add(a_before.strip(),b_before.strip(),name,strict=False)
         add(a_marker+a_tail,b_marker+b_tail,name,strict=False)
         add(a_tail,b_tail,name,strict=False)

@@ -1,5 +1,15 @@
 # Audit de couverture — 13 octobre 2026
 
+## Suite locale du 15 octobre — options de sorts et accès au MM
+
+Le lot précédent est commité et poussé en 1.17.14 (`774560d`). Les ajouts suivants restent locaux. Les options d’Appel de familier, de Création ou destruction d’eau et de Dissipation du mal et du bien sont découpées explicitement, avec leurs titres et la variante « annexe B » du PHB. Les volumes du sort d’eau sont conservés en gallons dans les nouvelles correspondances. Corde enchantée reçoit une variante exacte pour « extradimensional », le SRD ayant extrait ce mot en « extra dimensional ». Les fiches réelles des six sorts signalés ont été ajoutées aux contrôles, qui portent désormais sur 17 sorts et 78 paragraphes/cellules.
+
+L’accès au **D&D 2024 MM** est rétabli : 24 chapitres ou sections de navigation, dont l’introduction et l’annexe des animaux, ont été ouverts. L’[inventaire Shard](../audit/inventaires/mm/shard-2024.json) recense 469 profils et 2 557 paragraphes de règles. Cet import expose les mécaniques et ne reproduit pas le texte intégral du livre imprimé. L’ancien constat « Unknown book » ci-dessous décrit la session du 14 octobre et n’est plus le blocage actuel.
+
+Un premier lot complète dix profils : les deux aarakocras, l’élémentaire de l’air, quatre objets animés, l’ankheg et les deux azers. Il ajoute 31 correspondances exactes et contrôle 33 paragraphes de traits et d’actions. L’inventaire des autres profils ne valide pas leur traduction intégrale. Les noms laissés identiques ne sont pas automatiquement des manques : de nombreux noms de créatures sont les mêmes en français.
+
+Contrôles ciblés réussis : corpus et 25 tests Python, 91 extraits/variantes de sorts, 673 segments SRD, 17 fiches de sorts (78 paragraphes/cellules), dix profils MM (33 paragraphes, 32 dés et 18 liens), métadonnées et syntaxe. Les textes, chiffres, dés, liens et retour anglais sont vérifiés hors ligne. Les liens AideDD ajoutés par le script restent volontairement disponibles quand la traduction est désactivée. Aucune installation d’extension ni modification du compte Shard n’a été effectuée pendant ce lot.
+
 ## Complément local du 15 octobre 2026 — sorts et noms d’objets
 
 Les 391 fiches de sorts du livre Shard **D&D 2024 PHB** ont été relevées. Elles contiennent 1 309 paragraphes, puces et cellules examinés. Comparé au commit `8af2d6d`, le même rendu hors ligne présente **243 blocs supplémentaires traduits** : les candidats entièrement inchangés en anglais passent de 845 à 602. Ces candidats incluent aussi des légendes, des noms propres et des textes anciens importés ; ce chiffre ne prouve ni l’absence ni l’exactitude d’une traduction. Le [rapport détaillé](../audit/generes/sorts-phb-2024.json) conserve les passages à vérifier. Aucun livre n’est déclaré intégralement traduit.

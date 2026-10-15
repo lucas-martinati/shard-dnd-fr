@@ -2194,6 +2194,223 @@
       "fr": "Modron, monodrone",
       "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Reference Cards · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
       "edition": "2024"
+    },
+    {
+      "id": "monster.mm2024.shard.aarakocra-aeromancer.1",
+      "kind": "description",
+      "en": "Multiattack. The aarakocra makes two Wind Staff attacks, and it can use Spellcasting to cast Gust of Wind.",
+      "fr": "Attaques multiples. L’aarakocra effectue deux attaques de Bâton des vents et peut utiliser Incantation pour lancer Bourrasque.",
+      "source": "Traduction proposée du profil Shard · D&D 2024 MM · chapitre Monsters (A) · relevé du 15 octobre 2026 ; valeurs, dés, règles et distances du profil conservés."
+    },
+    {
+      "id": "monster.mm2024.shard.aarakocra-aeromancer.2",
+      "kind": "description",
+      "en": "Wind Staff. Melee or Ranged Attack Roll: +5, reach 5 ft. or range 120 ft. Hit: 7 (1d8 + 3) Bludgeoning damage plus 11 (2d10) Lightning damage.",
+      "fr": "Bâton des vents. Jet d’attaque au corps à corps ou à distance : +5, allonge 5 ft. ou portée 120 ft. Touché : 7 (1d8 + 3) dégâts contondants plus 11 (2d10) dégâts de foudre.",
+      "source": "Traduction proposée du profil Shard · D&D 2024 MM · chapitre Monsters (A) · relevé du 15 octobre 2026 ; valeurs, dés, règles et distances du profil conservés."
+    },
+    {
+      "id": "monster.mm2024.shard.aarakocra-aeromancer.3",
+      "kind": "description",
+      "en": "Spellcasting. The aarakocra casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save DC 13):",
+      "fr": "Incantation. L’aarakocra lance l’un des sorts suivants, sans composante matérielle, la Sagesse étant sa caractéristique d’incantation (DD de sauvegarde des sorts 13) :",
+      "source": "Traduction proposée du profil Shard · D&D 2024 MM · chapitre Monsters (A) · relevé du 15 octobre 2026 ; valeurs, dés, règles et distances du profil conservés."
+    },
+    {
+      "id": "monster.mm2024.shard.aarakocra-aeromancer.4",
+      "kind": "description",
+      "en": "At Will: Elementalism, Gust of Wind, Mage Hand, Message",
+      "fr": "À volonté : Élémentalisme, Bourrasque, Main de mage, Message",
+      "source": "Traduction proposée du profil Shard · D&D 2024 MM · chapitre Monsters (A) · relevé du 15 octobre 2026 ; valeurs, dés, règles et distances du profil conservés."
+    },
+    {
+      "id": "monster.mm2024.shard.aarakocra-aeromancer.5",
+      "kind": "description",
+      "en": "1/Day: Lightning Bolt",
+      "fr": "1/jour : Éclair",
+      "source": "Traduction proposée du profil Shard · D&D 2024 MM · chapitre Monsters (A) · relevé du 15 octobre 2026 ; valeurs, dés, règles et distances du profil conservés."
+    },
+    {
+      "id": "monster.mm2024.shard.aarakocra-aeromancer.6",
+      "kind": "description",
+      "en": "Feather Fall (1/Day). The aarakocra casts Feather Fall in response to that spell’s trigger, using the same spellcasting ability as Spellcasting.",
+      "fr": "Feuille morte (1/jour). L’aarakocra lance Feuille morte en réponse au déclencheur de ce sort, avec la même caractéristique d’incantation que pour Incantation.",
+      "source": "Traduction proposée du profil Shard · D&D 2024 MM · chapitre Monsters (A) · relevé du 15 octobre 2026 ; valeurs, dés, règles et distances du profil conservés."
+    },
+    {
+      "id": "monster.mm2024.shard.aarakocra-skirmisher.1",
+      "kind": "description",
+      "en": "Talons. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Slashing damage, or 9 (3d4 + 2) Slashing damage if the aarakocra moved 30+ feet straight toward the target immediately before the hit.",
+      "fr": "Serres. Jet d’attaque au corps à corps : +4, allonge 5 ft. Touché : 4 (1d4 + 2) dégâts tranchants, ou 9 (3d4 + 2) dégâts tranchants si l’aarakocra s’est déplacé d’au moins 30 feet en ligne droite vers la cible juste avant de la toucher.",
+      "source": "Traduction proposée du profil Shard · D&D 2024 MM · chapitre Monsters (A) · relevé du 15 octobre 2026 ; valeurs, dés, règles et distances du profil conservés."
+    },
+    {
+      "id": "monster.mm2024.shard.aarakocra-skirmisher.2",
+      "kind": "description",
+      "en": "Wind Javelin. Melee or Ranged Attack Roll: +4, reach 5 ft. or range 30/120 ft. Hit: 5 (1d6 + 2) Piercing damage plus 2 (1d4) Thunder damage. Hit or Miss: The javelin magically returns to the aarakocra’s hand immediately after a ranged attack.",
+      "fr": "Javeline des vents. Jet d’attaque au corps à corps ou à distance : +4, allonge 5 ft. ou portée 30/120 ft. Touché : 5 (1d6 + 2) dégâts perforants plus 2 (1d4) dégâts de tonnerre. Touché ou raté : la javeline revient magiquement dans la main de l’aarakocra immédiatement après une attaque à distance.",
+      "source": "Traduction proposée du profil Shard · D&D 2024 MM · chapitre Monsters (A) · relevé du 15 octobre 2026 ; valeurs, dés, règles et distances du profil conservés."
+    },
+    {
+      "id": "monster.mm2024.shard.air-elemental.1",
+      "kind": "description",
+      "en": "Air Form. The elemental can enter a creature’s space and stop there. It can move through a space as narrow as 1 inch without expending extra movement to do so.",
+      "fr": "Forme d’air. L’élémentaire peut pénétrer dans l’espace d’une créature et s’y arrêter. Il peut traverser une ouverture de seulement 1 inch de large sans dépenser de déplacement supplémentaire.",
+      "source": "Traduction proposée du profil Shard · D&D 2024 MM · chapitre Monsters (A) · relevé du 15 octobre 2026 ; valeurs, dés, règles et distances du profil conservés."
+    },
+    {
+      "id": "monster.mm2024.shard.air-elemental.2",
+      "kind": "description",
+      "en": "Multiattack. The elemental makes two Thunderous Slam attacks.",
+      "fr": "Attaques multiples. L’élémentaire effectue deux attaques de Coup tonitruant.",
+      "source": "Traduction proposée du profil Shard · D&D 2024 MM · chapitre Monsters (A) · relevé du 15 octobre 2026 ; valeurs, dés, règles et distances du profil conservés."
+    },
+    {
+      "id": "monster.mm2024.shard.air-elemental.3",
+      "kind": "description",
+      "en": "Thunderous Slam. Melee Attack Roll: +8, reach 10 ft. Hit: 14 (2d8 + 5) Thunder damage.",
+      "fr": "Coup tonitruant. Jet d’attaque au corps à corps : +8, allonge 10 ft. Touché : 14 (2d8 + 5) dégâts de tonnerre.",
+      "source": "Traduction proposée du profil Shard · D&D 2024 MM · chapitre Monsters (A) · relevé du 15 octobre 2026 ; valeurs, dés, règles et distances du profil conservés."
+    },
+    {
+      "id": "monster.mm2024.shard.air-elemental.4",
+      "kind": "description",
+      "en": "Whirlwind (Recharge 4–6). Strength Saving Throw: DC 13, one Medium or smaller creature in the elemental’s space. Failure: 24 (4d10 + 2) Thunder damage, and the target is pushed up to 20 feet straight away from the elemental and has the Prone condition. Success: Half damage only.",
+      "fr": "Tourbillon (Recharge 4–6). Jet de sauvegarde de Force : DD 13, une créature de taille M ou inférieure dans l’espace de l’élémentaire. Échec : 24 (4d10 + 2) dégâts de tonnerre, la cible est repoussée de 20 feet en ligne droite depuis l’élémentaire et subit l’état À terre. Réussite : moitié des dégâts uniquement.",
+      "source": "Traduction proposée du profil Shard · D&D 2024 MM · chapitre Monsters (A) · relevé du 15 octobre 2026 ; valeurs, dés, règles et distances du profil conservés."
+    },
+    {
+      "id": "monster.mm2024.shard.animated-armor.1",
+      "kind": "description",
+      "en": "Multiattack. The armor makes two Slam attacks.",
+      "fr": "Attaques multiples. L’armure effectue deux attaques de Coup.",
+      "source": "Traduction proposée du profil Shard · D&D 2024 MM · chapitre Monsters (A) · relevé du 15 octobre 2026 ; valeurs, dés, règles et distances du profil conservés."
+    },
+    {
+      "id": "monster.mm2024.shard.animated-armor.2",
+      "kind": "description",
+      "en": "Slam. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Bludgeoning damage.",
+      "fr": "Coup. Jet d’attaque au corps à corps : +4, allonge 5 ft. Touché : 5 (1d6 + 2) dégâts contondants.",
+      "source": "Traduction proposée du profil Shard · D&D 2024 MM · chapitre Monsters (A) · relevé du 15 octobre 2026 ; valeurs, dés, règles et distances du profil conservés."
+    },
+    {
+      "id": "monster.mm2024.shard.animated-broom.2",
+      "kind": "description",
+      "en": "Slam. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Bludgeoning damage.",
+      "fr": "Coup. Jet d’attaque au corps à corps : +5, allonge 5 ft. Touché : 5 (1d4 + 3) dégâts contondants.",
+      "source": "Traduction proposée du profil Shard · D&D 2024 MM · chapitre Monsters (A) · relevé du 15 octobre 2026 ; valeurs, dés, règles et distances du profil conservés."
+    },
+    {
+      "id": "monster.mm2024.shard.animated-flying-sword.1",
+      "kind": "description",
+      "en": "Slash. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Slashing damage.",
+      "fr": "Entaille. Jet d’attaque au corps à corps : +4, allonge 5 ft. Touché : 6 (1d8 + 2) dégâts tranchants.",
+      "source": "Traduction proposée du profil Shard · D&D 2024 MM · chapitre Monsters (A) · relevé du 15 octobre 2026 ; valeurs, dés, règles et distances du profil conservés."
+    },
+    {
+      "id": "monster.mm2024.shard.animated-rug-of-smothering.1",
+      "kind": "description",
+      "en": "Smother. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Bludgeoning damage. If the target is a Medium or smaller creature, the rug can give it the Grappled condition (escape DC 13) instead of dealing damage. Until the grapple ends, the target has the Blinded and Restrained conditions, is suffocating, and takes 10 (2d6 + 3) Bludgeoning damage at the start of each of its turns. The rug can smother only one creature at a time.",
+      "fr": "Étouffement. Jet d’attaque au corps à corps : +5, allonge 5 ft. Touché : 10 (2d6 + 3) dégâts contondants. Si la cible est une créature de taille M ou inférieure, le tapis peut lui imposer l’état Agrippé (évasion DD 13) au lieu d’infliger les dégâts. Jusqu’à la fin de la lutte, la cible subit les états Aveuglé et Entravé, suffoque et subit 10 (2d6 + 3) dégâts contondants au début de chacun de ses tours. Le tapis ne peut étouffer qu’une créature à la fois.",
+      "source": "Traduction proposée du profil Shard · D&D 2024 MM · chapitre Monsters (A) · relevé du 15 octobre 2026 ; valeurs, dés, règles et distances du profil conservés."
+    },
+    {
+      "id": "monster.mm2024.shard.animated-rug-of-smothering.2",
+      "kind": "description",
+      "en": "While grappling the target, the rug can’t take this action, the rug halves the damage it takes (round down), and the target takes the same amount of damage.",
+      "fr": "Tant qu’il agrippe la cible, le tapis ne peut pas entreprendre cette action, il divise par deux les dégâts qu’il subit (arrondis à l’inférieur) et la cible subit le même montant de dégâts.",
+      "source": "Traduction proposée du profil Shard · D&D 2024 MM · chapitre Monsters (A) · relevé du 15 octobre 2026 ; valeurs, dés, règles et distances du profil conservés."
+    },
+    {
+      "id": "monster.mm2024.shard.ankheg.1",
+      "kind": "description",
+      "en": "Tunneler. The ankheg can burrow through solid rock at half its Burrow Speed and leaves a 10-foot-diameter tunnel in its wake.",
+      "fr": "Fouisseur. L’ankheg peut creuser dans la roche solide à la moitié de sa Vitesse de fouissement et laisse derrière lui un tunnel de 10 feet de diamètre.",
+      "source": "Traduction proposée du profil Shard · D&D 2024 MM · chapitre Monsters (A) · relevé du 15 octobre 2026 ; valeurs, dés, règles et distances du profil conservés."
+    },
+    {
+      "id": "monster.mm2024.shard.ankheg.2",
+      "kind": "description",
+      "en": "Bite. Melee Attack Roll: +5 (with Advantage if the target is Grappled by the ankheg), reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage plus 3 (1d6) Acid damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 13).",
+      "fr": "Morsure. Jet d’attaque au corps à corps : +5 (avec l’Avantage si la cible est Agrippée par l’ankheg), allonge 5 ft. Touché : 10 (2d6 + 3) dégâts tranchants plus 3 (1d6) dégâts d’acide. Si la cible est une créature de taille G ou inférieure, elle subit l’état Agrippé (évasion DD 13).",
+      "source": "Traduction proposée du profil Shard · D&D 2024 MM · chapitre Monsters (A) · relevé du 15 octobre 2026 ; valeurs, dés, règles et distances du profil conservés."
+    },
+    {
+      "id": "monster.mm2024.shard.ankheg.3",
+      "kind": "description",
+      "en": "Acid Spray (Recharge 6). Dexterity Saving Throw: DC 12, each creature in a 30-foot-long, 5-foot-wide Line. Failure: 14 (4d6) Acid damage. Success: Half damage.",
+      "fr": "Projection d’acide (Recharge 6). Jet de sauvegarde de Dextérité : DD 12, chaque créature dans une Ligne longue de 30 feet et large de 5 feet. Échec : 14 (4d6) dégâts d’acide. Réussite : moitié des dégâts.",
+      "source": "Traduction proposée du profil Shard · D&D 2024 MM · chapitre Monsters (A) · relevé du 15 octobre 2026 ; valeurs, dés, règles et distances du profil conservés."
+    },
+    {
+      "id": "monster.mm2024.shard.azer-pyromancer.1",
+      "kind": "description",
+      "en": "Fire Aura. At the end of each of the azer’s turns, each creature of the azer’s choice in a 5-foot Emanation originating from the azer takes 11 (2d10) Fire damage unless the azer has the Incapacitated condition.",
+      "fr": "Aura de feu. À la fin de chacun des tours de l’azer, chaque créature de son choix dans une Émanation de 5 feet provenant de lui subit 11 (2d10) dégâts de feu, sauf si l’azer subit l’état Neutralisé.",
+      "source": "Traduction proposée du profil Shard · D&D 2024 MM · chapitre Monsters (A) · relevé du 15 octobre 2026 ; valeurs, dés, règles et distances du profil conservés."
+    },
+    {
+      "id": "monster.mm2024.shard.azer-pyromancer.2",
+      "kind": "description",
+      "en": "Illumination. The azer sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet.",
+      "fr": "Illumination. L’azer émet une Lumière vive dans un rayon de 10 feet et une Lumière faible sur 10 feet de plus.",
+      "source": "Traduction proposée du profil Shard · D&D 2024 MM · chapitre Monsters (A) · relevé du 15 octobre 2026 ; valeurs, dés, règles et distances du profil conservés."
+    },
+    {
+      "id": "monster.mm2024.shard.azer-pyromancer.3",
+      "kind": "description",
+      "en": "Multiattack. The azer makes two Flame Burst attacks.",
+      "fr": "Attaques multiples. L’azer effectue deux attaques de Décharge de flammes.",
+      "source": "Traduction proposée du profil Shard · D&D 2024 MM · chapitre Monsters (A) · relevé du 15 octobre 2026 ; valeurs, dés, règles et distances du profil conservés."
+    },
+    {
+      "id": "monster.mm2024.shard.azer-pyromancer.4",
+      "kind": "description",
+      "en": "Flame Burst. Melee or Ranged Attack Roll: +7, reach 5 ft. or range 120 ft. Hit: 15 (2d10 + 4) Fire damage.",
+      "fr": "Décharge de flammes. Jet d’attaque au corps à corps ou à distance : +7, allonge 5 ft. ou portée 120 ft. Touché : 15 (2d10 + 4) dégâts de feu.",
+      "source": "Traduction proposée du profil Shard · D&D 2024 MM · chapitre Monsters (A) · relevé du 15 octobre 2026 ; valeurs, dés, règles et distances du profil conservés."
+    },
+    {
+      "id": "monster.mm2024.shard.azer-pyromancer.5",
+      "kind": "description",
+      "en": "Spellcasting. The azer casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save DC 15):",
+      "fr": "Incantation. L’azer lance l’un des sorts suivants, sans composante matérielle, la Sagesse étant sa caractéristique d’incantation (DD de sauvegarde des sorts 15) :",
+      "source": "Traduction proposée du profil Shard · D&D 2024 MM · chapitre Monsters (A) · relevé du 15 octobre 2026 ; valeurs, dés, règles et distances du profil conservés."
+    },
+    {
+      "id": "monster.mm2024.shard.azer-pyromancer.6",
+      "kind": "description",
+      "en": "At Will: Elementalism, Mage Hand",
+      "fr": "À volonté : Élémentalisme, Main de mage",
+      "source": "Traduction proposée du profil Shard · D&D 2024 MM · chapitre Monsters (A) · relevé du 15 octobre 2026 ; valeurs, dés, règles et distances du profil conservés."
+    },
+    {
+      "id": "monster.mm2024.shard.azer-pyromancer.7",
+      "kind": "description",
+      "en": "1/Day: Fireball",
+      "fr": "1/jour : Boule de feu",
+      "source": "Traduction proposée du profil Shard · D&D 2024 MM · chapitre Monsters (A) · relevé du 15 octobre 2026 ; valeurs, dés, règles et distances du profil conservés."
+    },
+    {
+      "id": "monster.mm2024.shard.azer-pyromancer.8",
+      "kind": "description",
+      "en": "Hellish Rebuke (2/Day). The azer casts Hellish Rebuke in response to that spell’s trigger, using the same spellcasting ability as Spellcasting.",
+      "fr": "Représailles infernales (2/jour). L’azer lance Représailles infernales en réponse au déclencheur de ce sort, avec la même caractéristique d’incantation que pour Incantation.",
+      "source": "Traduction proposée du profil Shard · D&D 2024 MM · chapitre Monsters (A) · relevé du 15 octobre 2026 ; valeurs, dés, règles et distances du profil conservés."
+    },
+    {
+      "id": "monster.mm2024.shard.azer-sentinel.1",
+      "kind": "description",
+      "en": "Fire Aura. At the end of each of the azer’s turns, each creature of the azer’s choice in a 5-foot Emanation originating from the azer takes 5 (1d10) Fire damage unless the azer has the Incapacitated condition.",
+      "fr": "Aura de feu. À la fin de chacun des tours de l’azer, chaque créature de son choix dans une Émanation de 5 feet provenant de lui subit 5 (1d10) dégâts de feu, sauf si l’azer subit l’état Neutralisé.",
+      "source": "Traduction proposée du profil Shard · D&D 2024 MM · chapitre Monsters (A) · relevé du 15 octobre 2026 ; valeurs, dés, règles et distances du profil conservés."
+    },
+    {
+      "id": "monster.mm2024.shard.azer-sentinel.3",
+      "kind": "description",
+      "en": "Burning Hammer. Melee Attack Roll: +5, reach 5 ft. Hit: 8 (1d10 + 3) Bludgeoning damage plus 3 (1d6) Fire damage.",
+      "fr": "Marteau ardent. Jet d’attaque au corps à corps : +5, allonge 5 ft. Touché : 8 (1d10 + 3) dégâts contondants plus 3 (1d6) dégâts de feu.",
+      "source": "Traduction proposée du profil Shard · D&D 2024 MM · chapitre Monsters (A) · relevé du 15 octobre 2026 ; valeurs, dés, règles et distances du profil conservés."
     }
   ]
 }

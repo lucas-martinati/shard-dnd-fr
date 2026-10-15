@@ -490,5 +490,65 @@
     "spell": "Scrying",
     "en": "Body part, lock of hair, or bit of nail",
     "fr": "Un élément anatomique, une mèche de cheveux ou une rognure d’ongle"
+  },
+  {
+    "id": "spell.2024.shard.continued.find-familiar.phb-intro",
+    "spell": "Find Familiar",
+    "en": "You gain the service of a familiar, a spirit that takes an animal form you choose: Bat, Cat, Frog, Hawk, Lizard, Octopus, Owl, Rat, Raven, Spider, Weasel, or another Beast that has a Challenge Rating of 0. Appearing in an unoccupied space within range, the familiar has the statistics of the chosen form (see appendix B), though it is a Celestial, Fey, or Fiend (your choice) instead of a Beast. Your familiar acts independently of you, but it obeys your commands.",
+    "fr": "Vous recevez les services d’un familier, un esprit qui prend la forme animale de votre choix : chauve-souris, chat, grenouille, faucon, lézard, pieuvre, chouette, rat, corbeau, araignée, belette ou autre Bête dont le facteur de puissance est de 0. Il apparaît dans un espace inoccupé à portée et utilise le profil de la forme choisie (voir l’annexe B), mais son type est Céleste, Fée ou Fiélon (à votre choix) au lieu de Bête. Votre familier agit indépendamment de vous, mais obéit à vos ordres."
+  },
+  {
+    "id": "spell.2024.shard.continued.telepathic-connection.heading",
+    "spell": "Find Familiar",
+    "en": "Telepathic Connection.",
+    "fr": "Lien télépathique."
+  },
+  {
+    "id": "spell.2024.shard.continued.combat.heading",
+    "spell": "Find Familiar",
+    "en": "Combat.",
+    "fr": "Combat."
+  },
+  {
+    "id": "spell.2024.shard.continued.disappearance-of-the-familiar.heading",
+    "spell": "Find Familiar",
+    "en": "Disappearance of the Familiar.",
+    "fr": "Disparition du familier."
+  },
+  {
+    "id": "spell.2024.shard.continued.one-familiar-only.heading",
+    "spell": "Find Familiar",
+    "en": "One Familiar Only.",
+    "fr": "Un seul familier."
+  },
+  {
+    "id": "spell.2024.shard.continued.create-water.heading",
+    "spell": "Create or Destroy Water",
+    "en": "Create Water.",
+    "fr": "Création d’eau."
+  },
+  {
+    "id": "spell.2024.shard.continued.destroy-water.heading",
+    "spell": "Create or Destroy Water",
+    "en": "Destroy Water.",
+    "fr": "Destruction d’eau."
+  },
+  {
+    "id": "spell.2024.shard.continued.break-enchantment.heading",
+    "spell": "Dispel Evil and Good",
+    "en": "Break Enchantment.",
+    "fr": "Annulation d’enchantement."
+  },
+  {
+    "id": "spell.2024.shard.continued.dismissal.heading",
+    "spell": "Dispel Evil and Good",
+    "en": "Dismissal.",
+    "fr": "Renvoi."
+  },
+  {
+    "id": "spell.2024.shard.rope-trick.portal",
+    "spell": "Rope Trick",
+    "en": "You touch a rope. One end of it hovers upward until the rope hangs perpendicular to the ground or the rope reaches a ceiling. At the rope’s upper end, an Invisible 3-foot-by-5-foot portal opens to an extradimensional space that lasts until the spell ends. That space can be reached by climbing the rope, which can be pulled into or dropped out of it.",
+    "fr": "Vous touchez une corde. Une extrémité se dresse jusqu’à ce que la corde soit perpendiculaire au sol ou atteigne un plafond. À son extrémité supérieure, un portail Invisible de 3 feet sur 5 feet s’ouvre sur un espace extradimensionnel qui persiste jusqu’à la fin du sort. On accède à cet espace en grimpant à la corde, qui peut être halée à l’intérieur ou laissée pendre à l’extérieur."
   }
 ]

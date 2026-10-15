@@ -114,12 +114,12 @@
             "blocs": 133
           },
           "sorts": {
-            "entreesRattachees": 82,
-            "libelles": 8,
-            "blocs": 74
+            "entreesRattachees": 92,
+            "libelles": 16,
+            "blocs": 76
           }
         },
-        "entreesRattachees": 2843
+        "entreesRattachees": 2853
       },
       {
         "id": "dnd-2024-mm",
@@ -129,13 +129,38 @@
         "url": "https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i&cid=q4qshq492a8l16u0",
         "traductionIntegraleValidee": false,
         "consultation": {
-          "date": "2026-10-14",
-          "etat": "inaccessible-unknown-book",
-          "constat": "Le lien fourni affiche « Unknown book » dans la session actuelle. Le sommaire et le contenu du livre n’ont pas pu être vérifiés ; cela ne prouve pas leur absence dans le compte utilisateur."
+          "date": "2026-10-15",
+          "etat": "accessible-inventorie",
+          "constat": "Accès rétabli dans la bibliothèque du compte. Tous les chapitres alphabétiques et l’annexe A ont été ouverts : 469 profils et 2557 paragraphes de règles relevés. Il s’agit d’un import de compatibilité mécanique, pas du texte intégral imprimé. Dix profils du chapitre A sont complétés et contrôlés localement dans ce lot."
         },
-        "chapitresReleves": [],
+        "chapitresReleves": [
+          "Introduction",
+          "Monsters (A)",
+          "Monsters (B)",
+          "Monsters (C)",
+          "Monsters (D)",
+          "Monsters (E)",
+          "Monsters (F)",
+          "Monsters (G)",
+          "Monsters (H-J)",
+          "Monsters (K)",
+          "Monsters (L)",
+          "Monsters (M)",
+          "Monsters (N)",
+          "Monsters (O)",
+          "Monsters (P)",
+          "Monsters (Q)",
+          "Monsters (R)",
+          "Monsters (S)",
+          "Monsters (T)",
+          "Monsters (U)",
+          "Monsters (V)",
+          "Monsters (W)",
+          "Monsters (X-Z)",
+          "Appendix A: Animals"
+        ],
         "aFaire": [
-          "Rétablir l’accès au livre indiqué avant son inventaire en direct ; le corpus de monstres local reste disponible.",
+          "Compléter la traduction des profils inventoriés et vérifier le rendu du userscript installé dans Shard.",
           "Inventorier les chapitres et toutes les fiches liées ; distinguer les noms, présentations et contenus complets.",
           "Identifier les textes déjà couverts par le socle commun avant d’ajouter des traductions.",
           "Compléter les paragraphes, listes, options, tableaux, titres et variantes manquants, puis vérifier le rendu et les liens dans Shard."
@@ -145,16 +170,17 @@
           "Le nombre total de fiches et de blocs à traduire reste à établir ; aucun pourcentage de couverture intégrale n’est calculé."
         ],
         "dossierTraductions": "translations/dnd-2024/mm",
+        "inventaire": "audit/inventaires/mm/shard-2024.json",
         "dossier": "translations/dnd-2024/mm",
         "descriptionsEnFichiersDedies": 0,
         "packsRattachesParCategorie": {
           "monstres": {
-            "entreesRattachees": 313,
+            "entreesRattachees": 344,
             "libelles": 17,
-            "blocs": 296
+            "blocs": 327
           }
         },
-        "entreesRattachees": 313
+        "entreesRattachees": 344
       },
       {
         "id": "dnd-2014",
@@ -477,8 +503,8 @@
     "sorts": {
       "nomsCatalogueAideDD2024": 391,
       "entreesDictionnaires": 511,
-      "libellesEditables": 8,
-      "blocsEditables": 90
+      "libellesEditables": 16,
+      "blocsEditables": 92
     },
     "dons": {
       "nomsCatalogueAideDD2024": 75,
@@ -514,7 +540,7 @@
       "nomsCatalogueAideDD2024": 498,
       "entreesDictionnaires": 382,
       "libellesEditables": 17,
-      "blocsEditables": 296
+      "blocsEditables": 327
     },
     "regles": {
       "nomsCatalogueAideDD2024": 0,
@@ -530,7 +556,7 @@
     }
   },
   "corpusLocaux": {
-    "descriptionsEtChampsLocauxUniques": 5312,
+    "descriptionsEtChampsLocauxUniques": 5358,
     "presentationsShard": {
       "fichesRelevees": 153,
       "avecDescription": 149,
