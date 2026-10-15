@@ -12338,6 +12338,27 @@
       "fr": "Coups brutaux",
       "source": "Variante plurielle du libellé de fiche Shard ; terminologie de l’aptitude Brutal Strike du PHB 2024 et du SRD français 5.2.1.",
       "edition": "2024"
+    },
+    {
+      "id": "bard.glamour.beguiling-magic.character-description",
+      "kind": "description",
+      "en": "Immediately after you cast an Enchantment or Illusion spell using a spell slot, you can cause a creature you can see within 60 feet of yourself to make a Wisdom saving throw against your spell save DC. On a failed save, the target has the Charmed or Frightened condition (your choice) for 1 minute. The target repeats the save at the end of each of its turns, ending the effect on itself on a success.",
+      "fr": "Immédiatement après avoir lancé un sort d’Enchantement ou d’Illusion en dépensant un emplacement de sort, vous pouvez obliger une créature que vous voyez à 60 feet ou moins de vous à effectuer un jet de sauvegarde de Sagesse contre le DD de sauvegarde de vos sorts. En cas d’échec, la cible subit l’état Charmé ou Effrayé, au choix, pendant 1 minute. La cible réitère le jet à la fin de chacun de ses tours et met fin à l’effet sur elle-même en cas de réussite.",
+      "source": "Traduction proposée du texte observé sur Shard · Bard College of Glamour · sous-aptitudes de la fiche · relevé du 15 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "bard.glamour.beguiling-magic.recover-description",
+      "kind": "description",
+      "en": "Expend a use of Bardic Inspiration to regain use of Beguiling Magic.",
+      "fr": "Dépensez une utilisation de votre Inspiration bardique pour récupérer l’utilisation de Magie envoûtante.",
+      "source": "Traduction proposée du texte observé sur Shard · Bard College of Glamour · sous-aptitudes de la fiche · relevé du 15 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "bard.glamour.beguiling-magic.recover-name",
+      "kind": "term",
+      "en": "Restore Beguiling Magic",
+      "fr": "Récupérer Magie envoûtante",
+      "source": "Traduction proposée du texte observé sur Shard · Bard College of Glamour · sous-aptitudes de la fiche · relevé du 15 octobre 2026 · https://play.shardtabletop.com/"
     }
   ]
 }

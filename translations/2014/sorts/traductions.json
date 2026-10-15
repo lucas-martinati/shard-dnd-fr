@@ -3,6 +3,12 @@
   "edition": "2014",
   "entries": [
     {
+      "id": "spell.2014.hellish-rebuke.description",
+      "en": "You point your finger, and the creature that damaged you is momentarily surrounded by hellish flames. The creature must make a Dexterity saving throw. It takes 2d10 fire damage on a failed save, or half as much damage on a successful one.",
+      "fr": "Vous pointez le doigt, et la créature qui vous a infligé des dégâts se retrouve un court instant entourée de flammes infernales. Elle doit effectuer un jet de sauvegarde de Dextérité. Elle subit 2d10 dégâts de feu en cas d’échec, ou la moitié de ces dégâts en cas de réussite.",
+      "source": "Traduction proposée de l’extrait utilisateur · Représailles infernales, Shard Player’s Guide Volume 1 · formulation 2014 · dés conservés, également présents dans le SRD 5.2.1 du projet"
+    },
+    {
       "id": "thaumaturgie-puces-2014.voice",
       "en": "Your voice booms up to three times as loud as normal for 1 minute.",
       "fr": "Votre voix retentit jusqu’à trois fois plus fort que la normale pendant 1 minute.",

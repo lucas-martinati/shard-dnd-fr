@@ -13,6 +13,11 @@ content.innerHTML='<p>'+escape(en.slice(0,markers[0].start))+'</p>'+markers.map(
 const chosen=sections.find(r=>r.en===en);assert.ok(chosen,'Missing chapter 7 Ranger variant');
 const horde=sections.find(r=>r.en.startsWith('Once on each of your turns when you make an attack with a weapon,'));assert.ok(horde);const hordeCard=d.createElement('section');hordeCard.className='stdcontent';hordeCard.innerHTML='<h2>Horde Breaker</h2><p>'+escape(horde.en)+'</p>';main.append(hordeCard);
 const mantle=packs.find(r=>r.id==='bard.glamour.mantle-of-inspiration.description');const mantleCard=d.createElement('section');mantleCard.className='stdcontent';mantleCard.innerHTML='<strong>Manteau d’inspiration.</strong><p>'+escape(mantle.en)+'</p>';main.append(mantleCard);
+// La fiche utilise une sous-aptitude distincte du paragraphe du livre.
+const beguiling=packs.find(r=>r.id==='shard.classes.bard-college-of-glamour.c9c767b634');
+const recharge=packs.find(r=>r.id==='shard.classes.bard-college-of-glamour.396450416c');
+const glamourCard=d.createElement('section');glamourCard.className='stdcontent';
+glamourCard.innerHTML='<h2>Beguiling Magic</h2><div class="pre-wrap"><span><p>'+escape(beguiling.en.replace('In addition, immediately','Immediately'))+'</p><p>'+escape(recharge.en)+'</p></span></div><h2>Restore Beguiling Magic</h2><div class="pre-wrap"><span><p>Expend a use of Bardic Inspiration to regain use of Beguiling Magic.</p></span></div><p>'+escape(beguiling.en)+'</p>';main.append(glamourCard);
 const subclasses=[];
 for(const r of refs.filter(r=>r.name.endsWith('Subclass'))){const p=d.createElement('p');p.textContent=r.en.replace(/ The .+? subclass is detailed after this class’s description\./,'');main.append(p);subclasses.push(p)}assert.equal(subclasses.length,12);
 const names=fs.readFileSync('translations/dnd-2024/phb/classes/creation-2024.tsv','utf8').split('\n').slice(0,48).map(l=>l.split('|'));const titles=names.map(([en])=>{const h=d.createElement('h3');h.textContent=en;main.append(h);return h});
@@ -25,7 +30,13 @@ const pause=ms=>new Promise(r=>setTimeout(r,ms));async function wait(f){for(let 
  assert.doesNotMatch(content.textContent,/\b(?:You |Your |When |Whenever |The Ranger|Those spells|another Ranger)\b/);assert.match(content.textContent,/chapitre 7/);
  for(const style of styles)assert.ok(style.isConnected);assert.deepEqual([...content.querySelectorAll('strong')].map(e=>e.textContent),['Emplacements de sort.','Sorts préparés du niveau 1 et supérieur.','Modification des sorts préparés.','Caractéristique d’incantation.','Focaliseur d’incantation.']);
  await wait(()=>hordeCard.querySelector('p').textContent===horde.fr&&mantleCard.querySelector('p').textContent===mantle.fr&&subclasses.every(p=>!p.textContent.includes('You gain')));
+ await wait(()=>glamourCard.querySelector('p').textContent.startsWith('Immédiatement'));
+ assert.equal(glamourCard.querySelector('p').textContent,beguiling.fr.replace('De plus, immédiatement','Immédiatement'));
+ assert.equal(glamourCard.querySelectorAll('p')[1].textContent,recharge.fr);
+ assert.equal(glamourCard.querySelectorAll('p')[2].textContent,'Dépensez une utilisation de votre Inspiration bardique pour récupérer l’utilisation de Magie envoûtante.');
+ assert.equal(glamourCard.querySelectorAll('p')[3].textContent,beguiling.fr);
+ assert.deepEqual([...glamourCard.querySelectorAll('h2')].map(h=>h.textContent),['Magie envoûtante','Récupérer Magie envoûtante']);
  assert.equal(hordeCard.querySelector('h2').textContent,'Briseur de hordes');await wait(()=>titles.every((h,i)=>h.textContent===names[i][1]));titles.forEach((h,i)=>assert.equal(h.textContent,names[i][1]));
  const root=[...d.querySelectorAll('[data-shard-fr-ignore]')].map(e=>e.shadowRoot).find(r=>r?.getElementById('enabled')),enabled=root.getElementById('enabled');enabled.checked=false;enabled.dispatchEvent(new w.Event('change'));await wait(()=>main.innerHTML===original);
- console.log('PASS class sections: Rôdeur chapitre 7 et rubriques en gras, Briseur de hordes, Manteau, introductions des 12 classes, noms des 48 sous-classes, restauration.');
+ console.log('PASS class sections: Rôdeur chapitre 7 et rubriques en gras, Briseur de hordes, Manteau, Magie envoûtante (fiche et livre) et récupération, introductions des 12 classes, noms des 48 sous-classes, restauration.');
  }catch(e){console.error(content.textContent);throw e;}finally{w.close();}})().catch(e=>{console.error(e);process.exitCode=1});

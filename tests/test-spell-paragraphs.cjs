@@ -2,6 +2,14 @@ const fs = require('node:fs');
 const assert = require('node:assert/strict');
 const {JSDOM} = require('jsdom');
 const rows = JSON.parse(fs.readFileSync('tests/fixtures/spell-paragraphs-2024.json', 'utf8'));
+// Shard Player’s Guide conserve aussi la formulation de 2014 : les dés
+// cliquables omis par le copier-coller doivent rester dans le texte traduit.
+rows.push({
+  id: 'spell.2014.hellish-rebuke.description',
+  spell: 'Hellish Rebuke',
+  en: 'You point your finger, and the creature that damaged you is momentarily surrounded by hellish flames. The creature must make a Dexterity saving throw. It takes 2d10 fire damage on a failed save, or half as much damage on a successful one.',
+  fr: 'Vous pointez le doigt, et la créature qui vous a infligé des dégâts se retrouve un court instant entourée de flammes infernales. Elle doit effectuer un jet de sauvegarde de Dextérité. Elle subit 2d10 dégâts de feu en cas d’échec, ou la moitié de ces dégâts en cas de réussite.'
+});
 // Attente indépendante des JSON générés : le défaut d’extraction ne doit pas devenir la référence.
 const monk = {
   en: 'At the start of your turn, you can expend 3 Focus Points to bolster yourself against harm for 1 minute or until you have the Incapacitated condition. During that time, you have Resistance to all damage except Force damage.',
@@ -54,7 +62,7 @@ async function wait(predicate) {
     const enabled = root.getElementById('enabled');
     enabled.checked = false; enabled.dispatchEvent(new w.Event('change'));
     await wait(() => main.innerHTML === original);
-    console.log(`PASS paragraphes 2024 : ${rows.length} extraits/variantes de ${new Set(rows.map(row => row.spell)).size} sorts hors ligne, Défense supérieure lisible, dés/icônes/liens intacts, valeurs inconnues conservées et restauration exacte.`);
+    console.log(`PASS paragraphes de sorts : ${rows.length} extraits/variantes de ${new Set(rows.map(row => row.spell)).size} sorts hors ligne, Représailles infernales 2014, Défense supérieure lisible, dés/icônes/liens intacts, valeurs inconnues conservées et restauration exacte.`);
   } catch (error) {
     console.error(blocks.map((p, i) => ({id: rows[i]?.id || 'monk', expected: [...rows, monk][i].fr, actual: p.textContent})).filter(row => row.actual !== row.expected));
     throw error;

@@ -1,5 +1,5 @@
 {
-  "version": "1.17.27",
+  "version": "1.17.28",
   "reference": "Noms AideDD 2024 prioritaires. Références SRD disponibles séparément. Autres entrées identifiées.",
   "license": "Code MIT ; contenu SRD CC-BY-4.0 https://creativecommons.org/licenses/by/4.0/",
   "sources": [
@@ -29358,6 +29358,13 @@
       "fr": "Coups brutaux",
       "category": "aptitude de classe",
       "source": "Variante plurielle du libellé de fiche Shard ; terminologie de l’aptitude Brutal Strike du PHB 2024 et du SRD français 5.2.1.",
+      "aliases": []
+    },
+    {
+      "en": "Restore Beguiling Magic",
+      "fr": "Récupérer Magie envoûtante",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée du texte observé sur Shard · Bard College of Glamour · sous-aptitudes de la fiche · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
       "aliases": []
     },
     {
