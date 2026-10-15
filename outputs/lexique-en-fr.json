@@ -1,5 +1,5 @@
 {
-  "version": "1.17.15",
+  "version": "1.17.16",
   "reference": "Noms AideDD 2024 prioritaires. Références SRD disponibles séparément. Autres entrées identifiées.",
   "license": "Code MIT ; contenu SRD CC-BY-4.0 https://creativecommons.org/licenses/by/4.0/",
   "sources": [
@@ -31600,6 +31600,440 @@
       "aliases": []
     },
     {
+      "en": "Animated Object Medium or Smaller",
+      "fr": "Objet animé de taille M ou inférieure",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Avatar of Death",
+      "fr": "Avatar de la mort",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Dog",
+      "fr": "Chien",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Giant Insect Centipede",
+      "fr": "Insecte géant (mille-pattes)",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Giant Insect Wasp",
+      "fr": "Insecte géant (guêpe)",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Toad",
+      "fr": "Crapaud",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Giant Rat (Diseased)",
+      "fr": "Rat géant (malade)",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Warrior",
+      "fr": "Guerrier",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Deep Gnome (Svirfneblin)",
+      "fr": "Gnome des profondeurs (svirfneblin)",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Modron Tridrone",
+      "fr": "Modron, tridrone",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Modron Quadrone",
+      "fr": "Modron, quadrone",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Modron Pentadrone",
+      "fr": "Modron, pentadrone",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Swarm of Beetles",
+      "fr": "Nuée de coléoptères",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Swarm of Centipedes",
+      "fr": "Nuée de mille-pattes",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Swarm of Spiders",
+      "fr": "Nuée d’araignées",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Swarm of Wasps",
+      "fr": "Nuée de guêpes",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Field Spirit",
+      "fr": "Esprit des champs",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Super Goblin",
+      "fr": "Super gobelin",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Swarm of Burrowing Cockroaches",
+      "fr": "Nuée de cafards fouisseurs",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Cave Bear",
+      "fr": "Ours des cavernes",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Reincarnation of Thoss Spinderline",
+      "fr": "Réincarnation de Thoss Spinderline",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Spore Mother",
+      "fr": "Mère des spores",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Gynosphinx",
+      "fr": "Sphinx femelle",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Androsphinx",
+      "fr": "Sphinx mâle",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Adult Blue Dracolich",
+      "fr": "Dracoliche bleue adulte",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Otherworldly Steed Celestial",
+      "fr": "Monture d’outremonde (céleste)",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Otherworldly Steed Fey",
+      "fr": "Monture d’outremonde (fée)",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Otherworldly Steed Fiend",
+      "fr": "Monture d’outremonde (fiélonne)",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Bestial Spirit Air",
+      "fr": "Esprit bestial (aérien)",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Bestial Spirit Land",
+      "fr": "Esprit bestial (terrestre)",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Bestial Spirit Water",
+      "fr": "Esprit bestial (aquatique)",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Fey Spirit Fuming",
+      "fr": "Esprit féerique (furieux)",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Fey Spirit Mirthful",
+      "fr": "Esprit féerique (joyeux)",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Fey Spirit Tricksy",
+      "fr": "Esprit féerique (rusé)",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Undead Spirit Ghostly",
+      "fr": "Esprit mort-vivant (fantomatique)",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Undead Spirit Putrid",
+      "fr": "Esprit mort-vivant (putride)",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Undead Spirit Skeletal",
+      "fr": "Esprit mort-vivant (squelettique)",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Aberrant Spirit Beholderkin",
+      "fr": "Esprit aberrant (parent du tyrannœil)",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Aberrant Spirit Mind Flayer",
+      "fr": "Esprit aberrant (flagelleur mental)",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Aberrant Spirit Slaad",
+      "fr": "Esprit aberrant (slaad)",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Construct Spirit Clay",
+      "fr": "Esprit artificiel (argile)",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Construct Spirit Metal",
+      "fr": "Esprit artificiel (métal)",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Construct Spirit Stone",
+      "fr": "Esprit artificiel (pierre)",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Elemental Spirit Air",
+      "fr": "Esprit élémentaire (air)",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Elemental Spirit Earth",
+      "fr": "Esprit élémentaire (terre)",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Elemental Spirit Fire",
+      "fr": "Esprit élémentaire (feu)",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Elemental Spirit Water",
+      "fr": "Esprit élémentaire (eau)",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Celestial Spirit Avenger",
+      "fr": "Esprit céleste (vengeur)",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Celestial Spirit Defender",
+      "fr": "Esprit céleste (défenseur)",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Draconic Spirit Black",
+      "fr": "Esprit draconique (noir)",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Draconic Spirit Blue",
+      "fr": "Esprit draconique (bleu)",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Draconic Spirit Brass",
+      "fr": "Esprit draconique (airain)",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Draconic Spirit Bronze",
+      "fr": "Esprit draconique (bronze)",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Draconic Spirit Copper",
+      "fr": "Esprit draconique (cuivre)",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Draconic Spirit Gold",
+      "fr": "Esprit draconique (or)",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Draconic Spirit Green",
+      "fr": "Esprit draconique (vert)",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Draconic Spirit Red",
+      "fr": "Esprit draconique (rouge)",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Draconic Spirit Silver",
+      "fr": "Esprit draconique (argent)",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Draconic Spirit White",
+      "fr": "Esprit draconique (blanc)",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Fiendish Spirit Demon",
+      "fr": "Esprit fiélon (démon)",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Fiendish Spirit Devil",
+      "fr": "Esprit fiélon (diable)",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Fiendish Spirit Yugoloth",
+      "fr": "Esprit fiélon (yugoloth)",
+      "category": "monstre",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
       "en": "Legendary Resistance (6/Day)",
       "fr": "Résistance légendaire (6/jour)",
       "category": "monstre",
@@ -31723,6 +32157,2099 @@
       "fr": "Lanterne à capote",
       "category": "équipement",
       "source": "Traduction proposée des textes anglais relevés dans Shard · équipement ancien (règles 2014), Shard Player’s Guide Volume 1 ; certaines fiches sont aussi rattachées au D&D 2024 PHB · https://play.shardtabletop.com/#item · 14 octobre 2026. Édition déterminée par le texte, sans conversion des unités.",
+      "aliases": []
+    },
+    {
+      "en": "Amulet",
+      "fr": "Amulette",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Adventuring Gear",
+      "fr": "Équipement d’aventurier",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Instrument",
+      "fr": "Instrument",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Arrow",
+      "fr": "Flèche",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Crossbow Bolt",
+      "fr": "Carreau d’arbalète",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Blowgun Needle",
+      "fr": "Aiguille de sarbacane",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Sling Bullet",
+      "fr": "Bille de fronde",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Ball Bearing",
+      "fr": "Bille métallique",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Bomb",
+      "fr": "Bombe",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Assassin's Blood (Ingested)",
+      "fr": "Sang d’assassin (ingestion)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Canvas (1 sq. yd.)",
+      "fr": "Toile (1 yard carré)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Chicken",
+      "fr": "Poulet",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Cinnamon",
+      "fr": "Cannelle",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Cloves",
+      "fr": "Clous de girofle",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Copper Bar",
+      "fr": "Lingot de cuivre",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Cotton Cloth (1 sq. yd.)",
+      "fr": "Tissu de coton (1 yard carré)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Cow",
+      "fr": "Vache",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Dynamite (Stick)",
+      "fr": "Dynamite (bâton)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Explosive",
+      "fr": "Explosif",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Emblem",
+      "fr": "Emblème",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Essence of Ether (Inhaled)",
+      "fr": "Essence d’éther (inhalation)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Eye of Vecna",
+      "fr": "Œil de Vecna",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Flour",
+      "fr": "Farine",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Fragmentation Grenade",
+      "fr": "Grenade à fragmentation",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Ginger",
+      "fr": "Gingembre",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Gold Bar",
+      "fr": "Lingot d’or",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Grenade Launcher",
+      "fr": "Lance-grenades",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Gunpowder Horn",
+      "fr": "Corne à poudre",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Gunpowder Keg",
+      "fr": "Baril de poudre",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Hand of Vecna",
+      "fr": "Main de Vecna",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Horn of Valhalla, Iron",
+      "fr": "Cor du Valhalla (fer)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Iron Bar",
+      "fr": "Lingot de fer",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Linen (1 sq. yd.)",
+      "fr": "Lin (1 yard carré)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Malice (Inhaled)",
+      "fr": "Malice (inhalation)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Map to Ruin or Dungeon",
+      "fr": "Carte vers des ruines ou un donjon",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Midnight Tears (Ingested)",
+      "fr": "Larmes de minuit (ingestion)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Oil of Taggit (Contact)",
+      "fr": "Huile de taggit (contact)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Ox",
+      "fr": "Bœuf",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Bag of Tricks, Gray",
+      "fr": "Sac à malices (gris)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Bag of Tricks, Rust",
+      "fr": "Sac à malices (rouille)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Bag of Tricks, Tan",
+      "fr": "Sac à malices (brun)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Elemental Gem, Blue Sapphire",
+      "fr": "Gemme élémentaire (saphir bleu)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Elemental Gem, Emerald",
+      "fr": "Gemme élémentaire (émeraude)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Elemental Gem, Red Corundum",
+      "fr": "Gemme élémentaire (corindon rouge)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Elemental Gem, Yellow Diamond",
+      "fr": "Gemme élémentaire (diamant jaune)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Figurine of Wondrous Power, Ebony Fly",
+      "fr": "Statuette merveilleuse (mouche d’ébène)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Figurine of Wondrous Power, Golden Lions",
+      "fr": "Statuette merveilleuse (lions d’or)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Figurine of Wondrous Power, Ivory Goats",
+      "fr": "Statuette merveilleuse (chèvres d’ivoire)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Figurine of Wondrous Power, Marble Elephant",
+      "fr": "Statuette merveilleuse (éléphant de marbre)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Figurine of Wondrous Power, Obsidian Steed",
+      "fr": "Statuette merveilleuse (destrier d’obsidienne)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Figurine of Wondrous Power, Onyx Dog",
+      "fr": "Statuette merveilleuse (chien d’onyx)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Figurine of Wondrous Power, Serpentine Owl",
+      "fr": "Statuette merveilleuse (chouette de serpentine)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Instrument of the Bards, Anstruth Harp",
+      "fr": "Instrument des bardes (harpe d’Anstruth)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Instrument of the Bards, Canaith Mandolin",
+      "fr": "Instrument des bardes (mandoline de Canaith)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Instrument of the Bards, Cli Lyre",
+      "fr": "Instrument des bardes (lyre de Cli)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Instrument of the Bards, Doss Lute",
+      "fr": "Instrument des bardes (luth de Doss)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Instrument of the Bards, Fochlucan Bandore",
+      "fr": "Instrument des bardes (bandore de Fochlucan)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Instrument of the Bards, Mac-Fuirmidh Cittern",
+      "fr": "Instrument des bardes (cistre de Mac-Fuirmidh)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Instrument of the Bards, Ollamh Harp",
+      "fr": "Instrument des bardes (harpe d’Ollamh)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Ioun Stone, Absorption",
+      "fr": "Pierre de Ioun (absorption)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Ioun Stone, Agility",
+      "fr": "Pierre de Ioun (agilité)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Ioun Stone, Awareness",
+      "fr": "Pierre de Ioun (vigilance)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Ioun Stone, Fortitude",
+      "fr": "Pierre de Ioun (vigueur)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Ioun Stone, Greater Absorption",
+      "fr": "Pierre de Ioun (absorption supérieure)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Ioun Stone, Intellect",
+      "fr": "Pierre de Ioun (intellect)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Ioun Stone, Reserve",
+      "fr": "Pierre de Ioun (réserve)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Ioun Stone, Sustenance",
+      "fr": "Pierre de Ioun (subsistance)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Manual of Clay Golems",
+      "fr": "Manuel des golems d’argile",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Manual of Flesh Golems",
+      "fr": "Manuel des golems de chair",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Manual of Iron Golems",
+      "fr": "Manuel des golems de fer",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Manual of Stone Golems",
+      "fr": "Manuel des golems de pierre",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Cast-Off Breastplate",
+      "fr": "Cuirasse rapide",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Mariner's Breastplate",
+      "fr": "Cuirasse du matelot",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Mind Carapace Breastplate",
+      "fr": "Cuirasse à carapace mentale",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Mithral Breastplate",
+      "fr": "Cuirasse en mithral",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine Breastplate",
+      "fr": "Cuirasse en adamantium",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Breastplate of Gleaming",
+      "fr": "Cuirasse impeccable",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Breastplate of Acid Resistance",
+      "fr": "Cuirasse de résistance à l’acide",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Breastplate of Cold Resistance",
+      "fr": "Cuirasse de résistance au froid",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Breastplate of Fire Resistance",
+      "fr": "Cuirasse de résistance au feu",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Breastplate of Force Resistance",
+      "fr": "Cuirasse de résistance à la force",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Breastplate of Lightning Resistance",
+      "fr": "Cuirasse de résistance à la foudre",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Breastplate of Necrotic Resistance",
+      "fr": "Cuirasse de résistance aux dégâts nécrotiques",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Breastplate of Poison Resistance",
+      "fr": "Cuirasse de résistance au poison",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Breastplate of Psychic Resistance",
+      "fr": "Cuirasse de résistance aux dégâts psychiques",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Breastplate of Radiant Resistance",
+      "fr": "Cuirasse de résistance aux dégâts radiants",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Breastplate of Thunder Resistance",
+      "fr": "Cuirasse de résistance au tonnerre",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Cast-Off Chain Mail",
+      "fr": "Cotte de mailles rapide",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Mariner's Chain Mail",
+      "fr": "Cotte de mailles du matelot",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Mind Carapace Chain Mail",
+      "fr": "Cotte de mailles à carapace mentale",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Mithral Chain Mail",
+      "fr": "Cotte de mailles en mithral",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine Chain Mail",
+      "fr": "Cotte de mailles en adamantium",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Chain Mail of Gleaming",
+      "fr": "Cotte de mailles impeccable",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Chain Mail of Acid Resistance",
+      "fr": "Cotte de mailles de résistance à l’acide",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Chain Mail of Cold Resistance",
+      "fr": "Cotte de mailles de résistance au froid",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Chain Mail of Fire Resistance",
+      "fr": "Cotte de mailles de résistance au feu",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Chain Mail of Force Resistance",
+      "fr": "Cotte de mailles de résistance à la force",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Chain Mail of Lightning Resistance",
+      "fr": "Cotte de mailles de résistance à la foudre",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Chain Mail of Necrotic Resistance",
+      "fr": "Cotte de mailles de résistance aux dégâts nécrotiques",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Chain Mail of Poison Resistance",
+      "fr": "Cotte de mailles de résistance au poison",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Chain Mail of Psychic Resistance",
+      "fr": "Cotte de mailles de résistance aux dégâts psychiques",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Chain Mail of Radiant Resistance",
+      "fr": "Cotte de mailles de résistance aux dégâts radiants",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Chain Mail of Thunder Resistance",
+      "fr": "Cotte de mailles de résistance au tonnerre",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Cast-Off Chain Shirt",
+      "fr": "Chemise de mailles rapide",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Mariner's Chain Shirt",
+      "fr": "Chemise de mailles du matelot",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Mind Carapace Chain Shirt",
+      "fr": "Chemise de mailles à carapace mentale",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Mithral Chain Shirt",
+      "fr": "Chemise de mailles en mithral",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine Chain Shirt",
+      "fr": "Chemise de mailles en adamantium",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Chain Shirt of Gleaming",
+      "fr": "Chemise de mailles impeccable",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Chain Shirt of Acid Resistance",
+      "fr": "Chemise de mailles de résistance à l’acide",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Chain Shirt of Cold Resistance",
+      "fr": "Chemise de mailles de résistance au froid",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Chain Shirt of Fire Resistance",
+      "fr": "Chemise de mailles de résistance au feu",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Chain Shirt of Force Resistance",
+      "fr": "Chemise de mailles de résistance à la force",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Chain Shirt of Lightning Resistance",
+      "fr": "Chemise de mailles de résistance à la foudre",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Chain Shirt of Necrotic Resistance",
+      "fr": "Chemise de mailles de résistance aux dégâts nécrotiques",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Chain Shirt of Poison Resistance",
+      "fr": "Chemise de mailles de résistance au poison",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Chain Shirt of Psychic Resistance",
+      "fr": "Chemise de mailles de résistance aux dégâts psychiques",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Chain Shirt of Radiant Resistance",
+      "fr": "Chemise de mailles de résistance aux dégâts radiants",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Chain Shirt of Thunder Resistance",
+      "fr": "Chemise de mailles de résistance au tonnerre",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Half Plate Armor",
+      "fr": "Demi-plate",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Cast-Off Half Plate Armor",
+      "fr": "Demi-plate rapide",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Mariner's Half Plate Armor",
+      "fr": "Demi-plate du matelot",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Mind Carapace Half Plate Armor",
+      "fr": "Demi-plate à carapace mentale",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Mithral Half Plate Armor",
+      "fr": "Demi-plate en mithral",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine Half Plate Armor",
+      "fr": "Demi-plate en adamantium",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Half Plate Armor of Gleaming",
+      "fr": "Demi-plate impeccable",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Half Plate Armor of Acid Resistance",
+      "fr": "Demi-plate de résistance à l’acide",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Half Plate Armor of Cold Resistance",
+      "fr": "Demi-plate de résistance au froid",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Half Plate Armor of Fire Resistance",
+      "fr": "Demi-plate de résistance au feu",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Half Plate Armor of Force Resistance",
+      "fr": "Demi-plate de résistance à la force",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Half Plate Armor of Lightning Resistance",
+      "fr": "Demi-plate de résistance à la foudre",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Half Plate Armor of Necrotic Resistance",
+      "fr": "Demi-plate de résistance aux dégâts nécrotiques",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Half Plate Armor of Poison Resistance",
+      "fr": "Demi-plate de résistance au poison",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Half Plate Armor of Psychic Resistance",
+      "fr": "Demi-plate de résistance aux dégâts psychiques",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Half Plate Armor of Radiant Resistance",
+      "fr": "Demi-plate de résistance aux dégâts radiants",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Half Plate Armor of Thunder Resistance",
+      "fr": "Demi-plate de résistance au tonnerre",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Cast-Off Hide Armor",
+      "fr": "Armure de peaux rapide",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Mariner's Hide Armor",
+      "fr": "Armure de peaux du matelot",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Mind Carapace Hide Armor",
+      "fr": "Armure de peaux à carapace mentale",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Mithral Hide Armor",
+      "fr": "Armure de peaux en mithral",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine Hide Armor",
+      "fr": "Armure de peaux en adamantium",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Hide Armor of Gleaming",
+      "fr": "Armure de peaux impeccable",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Hide Armor of Acid Resistance",
+      "fr": "Armure de peaux de résistance à l’acide",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Hide Armor of Cold Resistance",
+      "fr": "Armure de peaux de résistance au froid",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Hide Armor of Fire Resistance",
+      "fr": "Armure de peaux de résistance au feu",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Hide Armor of Force Resistance",
+      "fr": "Armure de peaux de résistance à la force",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Hide Armor of Lightning Resistance",
+      "fr": "Armure de peaux de résistance à la foudre",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Hide Armor of Necrotic Resistance",
+      "fr": "Armure de peaux de résistance aux dégâts nécrotiques",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Hide Armor of Poison Resistance",
+      "fr": "Armure de peaux de résistance au poison",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Hide Armor of Psychic Resistance",
+      "fr": "Armure de peaux de résistance aux dégâts psychiques",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Hide Armor of Radiant Resistance",
+      "fr": "Armure de peaux de résistance aux dégâts radiants",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Hide Armor of Thunder Resistance",
+      "fr": "Armure de peaux de résistance au tonnerre",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Cast-Off Leather Armor",
+      "fr": "Armure de cuir rapide",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Mariner's Leather Armor",
+      "fr": "Armure de cuir du matelot",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Mind Carapace Leather Armor",
+      "fr": "Armure de cuir à carapace mentale",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Mithral Leather Armor",
+      "fr": "Armure de cuir en mithral",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine Leather Armor",
+      "fr": "Armure de cuir en adamantium",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Leather Armor of Gleaming",
+      "fr": "Armure de cuir impeccable",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Leather Armor of Acid Resistance",
+      "fr": "Armure de cuir de résistance à l’acide",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Leather Armor of Cold Resistance",
+      "fr": "Armure de cuir de résistance au froid",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Leather Armor of Fire Resistance",
+      "fr": "Armure de cuir de résistance au feu",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Leather Armor of Force Resistance",
+      "fr": "Armure de cuir de résistance à la force",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Leather Armor of Lightning Resistance",
+      "fr": "Armure de cuir de résistance à la foudre",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Leather Armor of Necrotic Resistance",
+      "fr": "Armure de cuir de résistance aux dégâts nécrotiques",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Leather Armor of Poison Resistance",
+      "fr": "Armure de cuir de résistance au poison",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Leather Armor of Psychic Resistance",
+      "fr": "Armure de cuir de résistance aux dégâts psychiques",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Leather Armor of Radiant Resistance",
+      "fr": "Armure de cuir de résistance aux dégâts radiants",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Leather Armor of Thunder Resistance",
+      "fr": "Armure de cuir de résistance au tonnerre",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Cast-Off Padded Armor",
+      "fr": "Armure matelassée rapide",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Mariner's Padded Armor",
+      "fr": "Armure matelassée du matelot",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Mind Carapace Padded Armor",
+      "fr": "Armure matelassée à carapace mentale",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Mithral Padded Armor",
+      "fr": "Armure matelassée en mithral",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine Padded Armor",
+      "fr": "Armure matelassée en adamantium",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Padded Armor of Gleaming",
+      "fr": "Armure matelassée impeccable",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Padded Armor of Acid Resistance",
+      "fr": "Armure matelassée de résistance à l’acide",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Padded Armor of Cold Resistance",
+      "fr": "Armure matelassée de résistance au froid",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Padded Armor of Fire Resistance",
+      "fr": "Armure matelassée de résistance au feu",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Padded Armor of Force Resistance",
+      "fr": "Armure matelassée de résistance à la force",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Padded Armor of Lightning Resistance",
+      "fr": "Armure matelassée de résistance à la foudre",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Padded Armor of Necrotic Resistance",
+      "fr": "Armure matelassée de résistance aux dégâts nécrotiques",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Padded Armor of Poison Resistance",
+      "fr": "Armure matelassée de résistance au poison",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Padded Armor of Psychic Resistance",
+      "fr": "Armure matelassée de résistance aux dégâts psychiques",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Padded Armor of Radiant Resistance",
+      "fr": "Armure matelassée de résistance aux dégâts radiants",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Padded Armor of Thunder Resistance",
+      "fr": "Armure matelassée de résistance au tonnerre",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Cast-Off Plate Armor",
+      "fr": "Harnois rapide",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Mariner's Plate Armor",
+      "fr": "Harnois du matelot",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Mind Carapace Plate Armor",
+      "fr": "Harnois à carapace mentale",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Mithral Plate Armor",
+      "fr": "Harnois en mithral",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine Plate Armor",
+      "fr": "Harnois en adamantium",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Plate Armor of Gleaming",
+      "fr": "Harnois impeccable",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Plate Armor of Acid Resistance",
+      "fr": "Harnois de résistance à l’acide",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Plate Armor of Cold Resistance",
+      "fr": "Harnois de résistance au froid",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Plate Armor of Fire Resistance",
+      "fr": "Harnois de résistance au feu",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Plate Armor of Force Resistance",
+      "fr": "Harnois de résistance à la force",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Plate Armor of Lightning Resistance",
+      "fr": "Harnois de résistance à la foudre",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Plate Armor of Necrotic Resistance",
+      "fr": "Harnois de résistance aux dégâts nécrotiques",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Plate Armor of Poison Resistance",
+      "fr": "Harnois de résistance au poison",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Plate Armor of Psychic Resistance",
+      "fr": "Harnois de résistance aux dégâts psychiques",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Plate Armor of Radiant Resistance",
+      "fr": "Harnois de résistance aux dégâts radiants",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Plate Armor of Thunder Resistance",
+      "fr": "Harnois de résistance au tonnerre",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Cast-Off Ring Mail",
+      "fr": "Broigne rapide",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Mariner's Ring Mail",
+      "fr": "Broigne du matelot",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Mind Carapace Ring Mail",
+      "fr": "Broigne à carapace mentale",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Mithral Ring Mail",
+      "fr": "Broigne en mithral",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine Ring Mail",
+      "fr": "Broigne en adamantium",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Ring Mail of Gleaming",
+      "fr": "Broigne impeccable",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Ring Mail of Acid Resistance",
+      "fr": "Broigne de résistance à l’acide",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Ring Mail of Cold Resistance",
+      "fr": "Broigne de résistance au froid",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Ring Mail of Fire Resistance",
+      "fr": "Broigne de résistance au feu",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Ring Mail of Force Resistance",
+      "fr": "Broigne de résistance à la force",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Ring Mail of Lightning Resistance",
+      "fr": "Broigne de résistance à la foudre",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Ring Mail of Necrotic Resistance",
+      "fr": "Broigne de résistance aux dégâts nécrotiques",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Ring Mail of Poison Resistance",
+      "fr": "Broigne de résistance au poison",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Ring Mail of Psychic Resistance",
+      "fr": "Broigne de résistance aux dégâts psychiques",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Ring Mail of Radiant Resistance",
+      "fr": "Broigne de résistance aux dégâts radiants",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Ring Mail of Thunder Resistance",
+      "fr": "Broigne de résistance au tonnerre",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Cast-Off Scale Mail",
+      "fr": "Armure d’écailles rapide",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Mariner's Scale Mail",
+      "fr": "Armure d’écailles du matelot",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Mind Carapace Scale Mail",
+      "fr": "Armure d’écailles à carapace mentale",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Mithral Scale Mail",
+      "fr": "Armure d’écailles en mithral",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine Scale Mail",
+      "fr": "Armure d’écailles en adamantium",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Scale Mail of Gleaming",
+      "fr": "Armure d’écailles impeccable",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Scale Mail of Acid Resistance",
+      "fr": "Armure d’écailles de résistance à l’acide",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Scale Mail of Cold Resistance",
+      "fr": "Armure d’écailles de résistance au froid",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Scale Mail of Fire Resistance",
+      "fr": "Armure d’écailles de résistance au feu",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Scale Mail of Force Resistance",
+      "fr": "Armure d’écailles de résistance à la force",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Scale Mail of Lightning Resistance",
+      "fr": "Armure d’écailles de résistance à la foudre",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Scale Mail of Necrotic Resistance",
+      "fr": "Armure d’écailles de résistance aux dégâts nécrotiques",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Scale Mail of Poison Resistance",
+      "fr": "Armure d’écailles de résistance au poison",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Scale Mail of Psychic Resistance",
+      "fr": "Armure d’écailles de résistance aux dégâts psychiques",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Scale Mail of Radiant Resistance",
+      "fr": "Armure d’écailles de résistance aux dégâts radiants",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Scale Mail of Thunder Resistance",
+      "fr": "Armure d’écailles de résistance au tonnerre",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Spiked Armor",
+      "fr": "Armure à pointes",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Cast-Off Spiked Armor",
+      "fr": "Armure à pointes rapide",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Mariner's Spiked Armor",
+      "fr": "Armure à pointes du matelot",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Mind Carapace Spiked Armor",
+      "fr": "Armure à pointes à carapace mentale",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Mithral Spiked Armor",
+      "fr": "Armure à pointes en mithral",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine Spiked Armor",
+      "fr": "Armure à pointes en adamantium",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Spiked Armor of Gleaming",
+      "fr": "Armure à pointes impeccable",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Spiked Armor of Acid Resistance",
+      "fr": "Armure à pointes de résistance à l’acide",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Spiked Armor of Cold Resistance",
+      "fr": "Armure à pointes de résistance au froid",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Spiked Armor of Fire Resistance",
+      "fr": "Armure à pointes de résistance au feu",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Spiked Armor of Force Resistance",
+      "fr": "Armure à pointes de résistance à la force",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Spiked Armor of Lightning Resistance",
+      "fr": "Armure à pointes de résistance à la foudre",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Spiked Armor of Necrotic Resistance",
+      "fr": "Armure à pointes de résistance aux dégâts nécrotiques",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Spiked Armor of Poison Resistance",
+      "fr": "Armure à pointes de résistance au poison",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Spiked Armor of Psychic Resistance",
+      "fr": "Armure à pointes de résistance aux dégâts psychiques",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Spiked Armor of Radiant Resistance",
+      "fr": "Armure à pointes de résistance aux dégâts radiants",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Spiked Armor of Thunder Resistance",
+      "fr": "Armure à pointes de résistance au tonnerre",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Cast-Off Splint Armor",
+      "fr": "Clibanion rapide",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Mariner's Splint Armor",
+      "fr": "Clibanion du matelot",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Mind Carapace Splint Armor",
+      "fr": "Clibanion à carapace mentale",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Mithral Splint Armor",
+      "fr": "Clibanion en mithral",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine Splint Armor",
+      "fr": "Clibanion en adamantium",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Splint Armor of Gleaming",
+      "fr": "Clibanion impeccable",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Splint Armor of Acid Resistance",
+      "fr": "Clibanion de résistance à l’acide",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Splint Armor of Cold Resistance",
+      "fr": "Clibanion de résistance au froid",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Splint Armor of Fire Resistance",
+      "fr": "Clibanion de résistance au feu",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Splint Armor of Force Resistance",
+      "fr": "Clibanion de résistance à la force",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Splint Armor of Lightning Resistance",
+      "fr": "Clibanion de résistance à la foudre",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Splint Armor of Necrotic Resistance",
+      "fr": "Clibanion de résistance aux dégâts nécrotiques",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Splint Armor of Poison Resistance",
+      "fr": "Clibanion de résistance au poison",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Splint Armor of Psychic Resistance",
+      "fr": "Clibanion de résistance aux dégâts psychiques",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Splint Armor of Radiant Resistance",
+      "fr": "Clibanion de résistance aux dégâts radiants",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Splint Armor of Thunder Resistance",
+      "fr": "Clibanion de résistance au tonnerre",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Cast-Off Studded Leather Armor",
+      "fr": "Armure de cuir clouté rapide",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Mariner's Studded Leather Armor",
+      "fr": "Armure de cuir clouté du matelot",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Mind Carapace Studded Leather Armor",
+      "fr": "Armure de cuir clouté à carapace mentale",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Mithral Studded Leather Armor",
+      "fr": "Armure de cuir clouté en mithral",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine Studded Leather Armor",
+      "fr": "Armure de cuir clouté en adamantium",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Studded Leather Armor of Gleaming",
+      "fr": "Armure de cuir clouté impeccable",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Studded Leather Armor of Acid Resistance",
+      "fr": "Armure de cuir clouté de résistance à l’acide",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Studded Leather Armor of Cold Resistance",
+      "fr": "Armure de cuir clouté de résistance au froid",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Studded Leather Armor of Fire Resistance",
+      "fr": "Armure de cuir clouté de résistance au feu",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Studded Leather Armor of Force Resistance",
+      "fr": "Armure de cuir clouté de résistance à la force",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Studded Leather Armor of Lightning Resistance",
+      "fr": "Armure de cuir clouté de résistance à la foudre",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Studded Leather Armor of Necrotic Resistance",
+      "fr": "Armure de cuir clouté de résistance aux dégâts nécrotiques",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Studded Leather Armor of Poison Resistance",
+      "fr": "Armure de cuir clouté de résistance au poison",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Studded Leather Armor of Psychic Resistance",
+      "fr": "Armure de cuir clouté de résistance aux dégâts psychiques",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Studded Leather Armor of Radiant Resistance",
+      "fr": "Armure de cuir clouté de résistance aux dégâts radiants",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Studded Leather Armor of Thunder Resistance",
+      "fr": "Armure de cuir clouté de résistance au tonnerre",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Arrow +1",
+      "fr": "Flèche +1",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Arrow +2",
+      "fr": "Flèche +2",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Arrow +3",
+      "fr": "Flèche +3",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine Arrow",
+      "fr": "Flèche en adamantium",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Blowgun Needle +1",
+      "fr": "Aiguille de sarbacane +1",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Blowgun Needle +2",
+      "fr": "Aiguille de sarbacane +2",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Blowgun Needle +3",
+      "fr": "Aiguille de sarbacane +3",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine Blowgun Needle",
+      "fr": "Aiguille de sarbacane en adamantium",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Crossbow Bolt +1",
+      "fr": "Carreau d’arbalète +1",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Crossbow Bolt +2",
+      "fr": "Carreau d’arbalète +2",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Crossbow Bolt +3",
+      "fr": "Carreau d’arbalète +3",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine Crossbow Bolt",
+      "fr": "Carreau d’arbalète en adamantium",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Sling Bullet +1",
+      "fr": "Bille de fronde +1",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Sling Bullet +2",
+      "fr": "Bille de fronde +2",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Sling Bullet +3",
+      "fr": "Bille de fronde +3",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés. Familles d’armures déclinées pour couvrir les variantes au-delà du rapport tronqué.",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine Sling Bullet",
+      "fr": "Bille de fronde en adamantium",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine Blowgun Needles (50)",
+      "fr": "Aiguilles de sarbacane en adamantium (50)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine Sling Bullets (20)",
+      "fr": "Billes de fronde en adamantium (20)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
       "aliases": []
     },
     {

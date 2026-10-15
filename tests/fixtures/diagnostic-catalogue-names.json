@@ -1,0 +1,1710 @@
+{
+  "sourceVersion": "1.17.14",
+  "monstres": [
+    {
+      "en": "Animated Object Medium or Smaller",
+      "fr": "Objet animé de taille M ou inférieure",
+      "statut": "traduit"
+    },
+    {
+      "en": "Avatar of Death",
+      "fr": "Avatar de la mort",
+      "statut": "traduit"
+    },
+    {
+      "en": "Bailey Francis",
+      "fr": "Bailey Francis",
+      "statut": "nom-propre-conserve"
+    },
+    {
+      "en": "Cheryl Moxin",
+      "fr": "Cheryl Moxin",
+      "statut": "nom-propre-conserve"
+    },
+    {
+      "en": "Dog",
+      "fr": "Chien",
+      "statut": "traduit"
+    },
+    {
+      "en": "Elsbeth Yilder",
+      "fr": "Elsbeth Yilder",
+      "statut": "nom-propre-conserve"
+    },
+    {
+      "en": "Frankie Laur",
+      "fr": "Frankie Laur",
+      "statut": "nom-propre-conserve"
+    },
+    {
+      "en": "Fred Rath",
+      "fr": "Fred Rath",
+      "statut": "nom-propre-conserve"
+    },
+    {
+      "en": "Giant Insect Centipede",
+      "fr": "Insecte géant (mille-pattes)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Giant Insect Wasp",
+      "fr": "Insecte géant (guêpe)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Harlan Francis",
+      "fr": "Harlan Francis",
+      "statut": "nom-propre-conserve"
+    },
+    {
+      "en": "Idris Solei",
+      "fr": "Idris Solei",
+      "statut": "nom-propre-conserve"
+    },
+    {
+      "en": "Junior",
+      "fr": "Junior",
+      "statut": "nom-propre-conserve"
+    },
+    {
+      "en": "Lolei Huddley",
+      "fr": "Lolei Huddley",
+      "statut": "nom-propre-conserve"
+    },
+    {
+      "en": "Marcus Moxin",
+      "fr": "Marcus Moxin",
+      "statut": "nom-propre-conserve"
+    },
+    {
+      "en": "Marda Francis",
+      "fr": "Marda Francis",
+      "statut": "nom-propre-conserve"
+    },
+    {
+      "en": "Otherworldly Steed Celestial",
+      "fr": "Monture d’outremonde (céleste)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Otherworldly Steed Fey",
+      "fr": "Monture d’outremonde (fée)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Otherworldly Steed Fiend",
+      "fr": "Monture d’outremonde (fiélonne)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Rutherford Laur",
+      "fr": "Rutherford Laur",
+      "statut": "nom-propre-conserve"
+    },
+    {
+      "en": "Toad",
+      "fr": "Crapaud",
+      "statut": "traduit"
+    },
+    {
+      "en": "Tommy Moxin",
+      "fr": "Tommy Moxin",
+      "statut": "nom-propre-conserve"
+    },
+    {
+      "en": "Yaz Huddley",
+      "fr": "Yaz Huddley",
+      "statut": "nom-propre-conserve"
+    },
+    {
+      "en": "Amaria Iddle",
+      "fr": "Amaria Iddle",
+      "statut": "nom-propre-conserve"
+    },
+    {
+      "en": "Giant Rat (Diseased)",
+      "fr": "Rat géant (malade)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Shane \"Kelpie\" Kapprin",
+      "fr": "Shane \"Kelpie\" Kapprin",
+      "statut": "nom-propre-conserve"
+    },
+    {
+      "en": "Warrior",
+      "fr": "Guerrier",
+      "statut": "traduit"
+    },
+    {
+      "en": "Bertie Yilder",
+      "fr": "Bertie Yilder",
+      "statut": "nom-propre-conserve"
+    },
+    {
+      "en": "Herpet",
+      "fr": "Herpet",
+      "statut": "nom-propre-conserve"
+    },
+    {
+      "en": "Targis",
+      "fr": "Targis",
+      "statut": "nom-propre-conserve"
+    },
+    {
+      "en": "Deep Gnome (Svirfneblin)",
+      "fr": "Gnome des profondeurs (svirfneblin)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Fuzz Mites",
+      "fr": "Fuzz Mites",
+      "statut": "a-verifier"
+    },
+    {
+      "en": "Modron Tridrone",
+      "fr": "Modron, tridrone",
+      "statut": "traduit"
+    },
+    {
+      "en": "Rock Garfin",
+      "fr": "Rock Garfin",
+      "statut": "a-verifier"
+    },
+    {
+      "en": "Swarm of Beetles",
+      "fr": "Nuée de coléoptères",
+      "statut": "traduit"
+    },
+    {
+      "en": "Swarm of Centipedes",
+      "fr": "Nuée de mille-pattes",
+      "statut": "traduit"
+    },
+    {
+      "en": "Swarm of Spiders",
+      "fr": "Nuée d’araignées",
+      "statut": "traduit"
+    },
+    {
+      "en": "Swarm of Wasps",
+      "fr": "Nuée de guêpes",
+      "statut": "traduit"
+    },
+    {
+      "en": "Tango Artzen",
+      "fr": "Tango Artzen",
+      "statut": "nom-propre-conserve"
+    },
+    {
+      "en": "Field Spirit",
+      "fr": "Esprit des champs",
+      "statut": "traduit"
+    },
+    {
+      "en": "Fuzz Golem",
+      "fr": "Fuzz Golem",
+      "statut": "a-verifier"
+    },
+    {
+      "en": "Modron Quadrone",
+      "fr": "Modron, quadrone",
+      "statut": "traduit"
+    },
+    {
+      "en": "Super Goblin",
+      "fr": "Super gobelin",
+      "statut": "traduit"
+    },
+    {
+      "en": "Swarm of Burrowing Cockroaches",
+      "fr": "Nuée de cafards fouisseurs",
+      "statut": "traduit"
+    },
+    {
+      "en": "Bestial Spirit Air",
+      "fr": "Esprit bestial (aérien)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Bestial Spirit Land",
+      "fr": "Esprit bestial (terrestre)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Bestial Spirit Water",
+      "fr": "Esprit bestial (aquatique)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Buckle Notts",
+      "fr": "Buckle Notts",
+      "statut": "nom-propre-conserve"
+    },
+    {
+      "en": "Cave Bear",
+      "fr": "Ours des cavernes",
+      "statut": "traduit"
+    },
+    {
+      "en": "Giant Fuzz Golem",
+      "fr": "Giant Fuzz Golem",
+      "statut": "a-verifier"
+    },
+    {
+      "en": "Kalba",
+      "fr": "Kalba",
+      "statut": "nom-propre-conserve"
+    },
+    {
+      "en": "Modron Pentadrone",
+      "fr": "Modron, pentadrone",
+      "statut": "traduit"
+    },
+    {
+      "en": "Tessa Brightburn",
+      "fr": "Tessa Brightburn",
+      "statut": "nom-propre-conserve"
+    },
+    {
+      "en": "Fey Spirit Fuming",
+      "fr": "Esprit féerique (furieux)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Fey Spirit Mirthful",
+      "fr": "Esprit féerique (joyeux)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Fey Spirit Tricksy",
+      "fr": "Esprit féerique (rusé)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Reincarnation of Thoss Spinderline",
+      "fr": "Réincarnation de Thoss Spinderline",
+      "statut": "traduit"
+    },
+    {
+      "en": "Thoss Spinderline",
+      "fr": "Thoss Spinderline",
+      "statut": "nom-propre-conserve"
+    },
+    {
+      "en": "Undead Spirit Ghostly",
+      "fr": "Esprit mort-vivant (fantomatique)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Undead Spirit Putrid",
+      "fr": "Esprit mort-vivant (putride)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Undead Spirit Skeletal",
+      "fr": "Esprit mort-vivant (squelettique)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Aberrant Spirit Beholderkin",
+      "fr": "Esprit aberrant (parent du tyrannœil)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Aberrant Spirit Mind Flayer",
+      "fr": "Esprit aberrant (flagelleur mental)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Aberrant Spirit Slaad",
+      "fr": "Esprit aberrant (slaad)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Claudio Vertorbrin",
+      "fr": "Claudio Vertorbrin",
+      "statut": "nom-propre-conserve"
+    },
+    {
+      "en": "Construct Spirit Clay",
+      "fr": "Esprit artificiel (argile)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Construct Spirit Metal",
+      "fr": "Esprit artificiel (métal)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Construct Spirit Stone",
+      "fr": "Esprit artificiel (pierre)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Elemental Spirit Air",
+      "fr": "Esprit élémentaire (air)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Elemental Spirit Earth",
+      "fr": "Esprit élémentaire (terre)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Elemental Spirit Fire",
+      "fr": "Esprit élémentaire (feu)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Elemental Spirit Water",
+      "fr": "Esprit élémentaire (eau)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Spore Mother",
+      "fr": "Mère des spores",
+      "statut": "traduit"
+    },
+    {
+      "en": "Celestial Spirit Avenger",
+      "fr": "Esprit céleste (vengeur)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Celestial Spirit Defender",
+      "fr": "Esprit céleste (défenseur)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Draconic Spirit Black",
+      "fr": "Esprit draconique (noir)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Draconic Spirit Blue",
+      "fr": "Esprit draconique (bleu)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Draconic Spirit Brass",
+      "fr": "Esprit draconique (airain)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Draconic Spirit Bronze",
+      "fr": "Esprit draconique (bronze)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Draconic Spirit Copper",
+      "fr": "Esprit draconique (cuivre)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Draconic Spirit Gold",
+      "fr": "Esprit draconique (or)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Draconic Spirit Green",
+      "fr": "Esprit draconique (vert)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Draconic Spirit Red",
+      "fr": "Esprit draconique (rouge)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Draconic Spirit Silver",
+      "fr": "Esprit draconique (argent)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Draconic Spirit White",
+      "fr": "Esprit draconique (blanc)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Fiendish Spirit Demon",
+      "fr": "Esprit fiélon (démon)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Fiendish Spirit Devil",
+      "fr": "Esprit fiélon (diable)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Fiendish Spirit Yugoloth",
+      "fr": "Esprit fiélon (yugoloth)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Gynosphinx",
+      "fr": "Sphinx femelle",
+      "statut": "traduit"
+    },
+    {
+      "en": "Adult Blue Dracolich",
+      "fr": "Dracoliche bleue adulte",
+      "statut": "traduit"
+    },
+    {
+      "en": "Androsphinx",
+      "fr": "Sphinx mâle",
+      "statut": "traduit"
+    },
+    {
+      "en": "Shard Tabletop",
+      "fr": "Shard Tabletop",
+      "statut": "nom-application"
+    }
+  ],
+  "objets": [
+    {
+      "en": "Adamantine Arrow",
+      "fr": "Flèche en adamantium"
+    },
+    {
+      "en": "Adamantine Blowgun Needle",
+      "fr": "Aiguille de sarbacane en adamantium"
+    },
+    {
+      "en": "Adamantine Blowgun Needles (50)",
+      "fr": "Aiguilles de sarbacane en adamantium (50)"
+    },
+    {
+      "en": "Adamantine Crossbow Bolt",
+      "fr": "Carreau d’arbalète en adamantium"
+    },
+    {
+      "en": "Adamantine Sling Bullet",
+      "fr": "Bille de fronde en adamantium"
+    },
+    {
+      "en": "Adamantine Sling Bullets (20)",
+      "fr": "Billes de fronde en adamantium (20)"
+    },
+    {
+      "en": "Adamantine Spiked Armor",
+      "fr": "Armure à pointes en adamantium"
+    },
+    {
+      "en": "Amulet",
+      "fr": "Amulette"
+    },
+    {
+      "en": "Adventuring Gear",
+      "fr": "Équipement d’aventurier"
+    },
+    {
+      "en": "Arrow",
+      "fr": "Flèche"
+    },
+    {
+      "en": "Arrow +1",
+      "fr": "Flèche +1"
+    },
+    {
+      "en": "Arrow +2",
+      "fr": "Flèche +2"
+    },
+    {
+      "en": "Arrow +3",
+      "fr": "Flèche +3"
+    },
+    {
+      "en": "Assassin's Blood (Ingested)",
+      "fr": "Sang d’assassin (ingestion)"
+    },
+    {
+      "en": "Bag of Tricks, Gray",
+      "fr": "Sac à malices (gris)"
+    },
+    {
+      "en": "Bag of Tricks, Rust",
+      "fr": "Sac à malices (rouille)"
+    },
+    {
+      "en": "Bag of Tricks, Tan",
+      "fr": "Sac à malices (brun)"
+    },
+    {
+      "en": "Ball Bearing",
+      "fr": "Bille métallique"
+    },
+    {
+      "en": "Instrument",
+      "fr": "Instrument"
+    },
+    {
+      "en": "Blowgun Needle",
+      "fr": "Aiguille de sarbacane"
+    },
+    {
+      "en": "Blowgun Needle +1",
+      "fr": "Aiguille de sarbacane +1"
+    },
+    {
+      "en": "Blowgun Needle +2",
+      "fr": "Aiguille de sarbacane +2"
+    },
+    {
+      "en": "Blowgun Needle +3",
+      "fr": "Aiguille de sarbacane +3"
+    },
+    {
+      "en": "Bomb",
+      "fr": "Bombe"
+    },
+    {
+      "en": "Breastplate of Acid Resistance",
+      "fr": "Cuirasse de résistance à l’acide"
+    },
+    {
+      "en": "Breastplate of Cold Resistance",
+      "fr": "Cuirasse de résistance au froid"
+    },
+    {
+      "en": "Breastplate of Fire Resistance",
+      "fr": "Cuirasse de résistance au feu"
+    },
+    {
+      "en": "Breastplate of Force Resistance",
+      "fr": "Cuirasse de résistance à la force"
+    },
+    {
+      "en": "Breastplate of Gleaming",
+      "fr": "Cuirasse impeccable"
+    },
+    {
+      "en": "Breastplate of Lightning Resistance",
+      "fr": "Cuirasse de résistance à la foudre"
+    },
+    {
+      "en": "Breastplate of Necrotic Resistance",
+      "fr": "Cuirasse de résistance aux dégâts nécrotiques"
+    },
+    {
+      "en": "Breastplate of Poison Resistance",
+      "fr": "Cuirasse de résistance au poison"
+    },
+    {
+      "en": "Breastplate of Psychic Resistance",
+      "fr": "Cuirasse de résistance aux dégâts psychiques"
+    },
+    {
+      "en": "Breastplate of Radiant Resistance",
+      "fr": "Cuirasse de résistance aux dégâts radiants"
+    },
+    {
+      "en": "Breastplate of Thunder Resistance",
+      "fr": "Cuirasse de résistance au tonnerre"
+    },
+    {
+      "en": "Canvas (1 sq. yd.)",
+      "fr": "Toile (1 yard carré)"
+    },
+    {
+      "en": "Cast-Off Breastplate",
+      "fr": "Cuirasse rapide"
+    },
+    {
+      "en": "Cast-Off Chain Mail",
+      "fr": "Cotte de mailles rapide"
+    },
+    {
+      "en": "Cast-Off Chain Shirt",
+      "fr": "Chemise de mailles rapide"
+    },
+    {
+      "en": "Cast-Off Half Plate Armor",
+      "fr": "Demi-plate rapide"
+    },
+    {
+      "en": "Cast-Off Hide Armor",
+      "fr": "Armure de peaux rapide"
+    },
+    {
+      "en": "Cast-Off Leather Armor",
+      "fr": "Armure de cuir rapide"
+    },
+    {
+      "en": "Cast-Off Padded Armor",
+      "fr": "Armure matelassée rapide"
+    },
+    {
+      "en": "Cast-Off Plate Armor",
+      "fr": "Harnois rapide"
+    },
+    {
+      "en": "Cast-Off Ring Mail",
+      "fr": "Broigne rapide"
+    },
+    {
+      "en": "Cast-Off Scale Mail",
+      "fr": "Armure d’écailles rapide"
+    },
+    {
+      "en": "Cast-Off Spiked Armor",
+      "fr": "Armure à pointes rapide"
+    },
+    {
+      "en": "Cast-Off Splint Armor",
+      "fr": "Clibanion rapide"
+    },
+    {
+      "en": "Cast-Off Studded Leather Armor",
+      "fr": "Armure de cuir clouté rapide"
+    },
+    {
+      "en": "Chain Mail of Acid Resistance",
+      "fr": "Cotte de mailles de résistance à l’acide"
+    },
+    {
+      "en": "Chain Mail of Cold Resistance",
+      "fr": "Cotte de mailles de résistance au froid"
+    },
+    {
+      "en": "Chain Mail of Fire Resistance",
+      "fr": "Cotte de mailles de résistance au feu"
+    },
+    {
+      "en": "Chain Mail of Force Resistance",
+      "fr": "Cotte de mailles de résistance à la force"
+    },
+    {
+      "en": "Chain Mail of Gleaming",
+      "fr": "Cotte de mailles impeccable"
+    },
+    {
+      "en": "Chain Mail of Lightning Resistance",
+      "fr": "Cotte de mailles de résistance à la foudre"
+    },
+    {
+      "en": "Chain Mail of Necrotic Resistance",
+      "fr": "Cotte de mailles de résistance aux dégâts nécrotiques"
+    },
+    {
+      "en": "Chain Mail of Poison Resistance",
+      "fr": "Cotte de mailles de résistance au poison"
+    },
+    {
+      "en": "Chain Mail of Psychic Resistance",
+      "fr": "Cotte de mailles de résistance aux dégâts psychiques"
+    },
+    {
+      "en": "Chain Mail of Radiant Resistance",
+      "fr": "Cotte de mailles de résistance aux dégâts radiants"
+    },
+    {
+      "en": "Chain Mail of Thunder Resistance",
+      "fr": "Cotte de mailles de résistance au tonnerre"
+    },
+    {
+      "en": "Chain Shirt of Acid Resistance",
+      "fr": "Chemise de mailles de résistance à l’acide"
+    },
+    {
+      "en": "Chain Shirt of Cold Resistance",
+      "fr": "Chemise de mailles de résistance au froid"
+    },
+    {
+      "en": "Chain Shirt of Fire Resistance",
+      "fr": "Chemise de mailles de résistance au feu"
+    },
+    {
+      "en": "Chain Shirt of Force Resistance",
+      "fr": "Chemise de mailles de résistance à la force"
+    },
+    {
+      "en": "Chain Shirt of Gleaming",
+      "fr": "Chemise de mailles impeccable"
+    },
+    {
+      "en": "Chain Shirt of Lightning Resistance",
+      "fr": "Chemise de mailles de résistance à la foudre"
+    },
+    {
+      "en": "Chain Shirt of Necrotic Resistance",
+      "fr": "Chemise de mailles de résistance aux dégâts nécrotiques"
+    },
+    {
+      "en": "Chain Shirt of Poison Resistance",
+      "fr": "Chemise de mailles de résistance au poison"
+    },
+    {
+      "en": "Chain Shirt of Psychic Resistance",
+      "fr": "Chemise de mailles de résistance aux dégâts psychiques"
+    },
+    {
+      "en": "Chain Shirt of Radiant Resistance",
+      "fr": "Chemise de mailles de résistance aux dégâts radiants"
+    },
+    {
+      "en": "Chain Shirt of Thunder Resistance",
+      "fr": "Chemise de mailles de résistance au tonnerre"
+    },
+    {
+      "en": "Chicken",
+      "fr": "Poulet"
+    },
+    {
+      "en": "Cinnamon",
+      "fr": "Cannelle"
+    },
+    {
+      "en": "Cloves",
+      "fr": "Clous de girofle"
+    },
+    {
+      "en": "Copper Bar",
+      "fr": "Lingot de cuivre"
+    },
+    {
+      "en": "Cotton Cloth (1 sq. yd.)",
+      "fr": "Tissu de coton (1 yard carré)"
+    },
+    {
+      "en": "Cow",
+      "fr": "Vache"
+    },
+    {
+      "en": "Crossbow Bolt",
+      "fr": "Carreau d’arbalète"
+    },
+    {
+      "en": "Crossbow Bolt +1",
+      "fr": "Carreau d’arbalète +1"
+    },
+    {
+      "en": "Crossbow Bolt +2",
+      "fr": "Carreau d’arbalète +2"
+    },
+    {
+      "en": "Crossbow Bolt +3",
+      "fr": "Carreau d’arbalète +3"
+    },
+    {
+      "en": "Dynamite (Stick)",
+      "fr": "Dynamite (bâton)"
+    },
+    {
+      "en": "Explosive",
+      "fr": "Explosif"
+    },
+    {
+      "en": "Elemental Gem, Blue Sapphire",
+      "fr": "Gemme élémentaire (saphir bleu)"
+    },
+    {
+      "en": "Elemental Gem, Emerald",
+      "fr": "Gemme élémentaire (émeraude)"
+    },
+    {
+      "en": "Elemental Gem, Red Corundum",
+      "fr": "Gemme élémentaire (corindon rouge)"
+    },
+    {
+      "en": "Elemental Gem, Yellow Diamond",
+      "fr": "Gemme élémentaire (diamant jaune)"
+    },
+    {
+      "en": "Emblem",
+      "fr": "Emblème"
+    },
+    {
+      "en": "Essence of Ether (Inhaled)",
+      "fr": "Essence d’éther (inhalation)"
+    },
+    {
+      "en": "Eye of Vecna",
+      "fr": "Œil de Vecna"
+    },
+    {
+      "en": "Figurine of Wondrous Power, Ebony Fly",
+      "fr": "Statuette merveilleuse (mouche d’ébène)"
+    },
+    {
+      "en": "Figurine of Wondrous Power, Golden Lions",
+      "fr": "Statuette merveilleuse (lions d’or)"
+    },
+    {
+      "en": "Figurine of Wondrous Power, Ivory Goats",
+      "fr": "Statuette merveilleuse (chèvres d’ivoire)"
+    },
+    {
+      "en": "Figurine of Wondrous Power, Marble Elephant",
+      "fr": "Statuette merveilleuse (éléphant de marbre)"
+    },
+    {
+      "en": "Figurine of Wondrous Power, Obsidian Steed",
+      "fr": "Statuette merveilleuse (destrier d’obsidienne)"
+    },
+    {
+      "en": "Figurine of Wondrous Power, Onyx Dog",
+      "fr": "Statuette merveilleuse (chien d’onyx)"
+    },
+    {
+      "en": "Figurine of Wondrous Power, Serpentine Owl",
+      "fr": "Statuette merveilleuse (chouette de serpentine)"
+    },
+    {
+      "en": "Flour",
+      "fr": "Farine"
+    },
+    {
+      "en": "Fragmentation Grenade",
+      "fr": "Grenade à fragmentation"
+    },
+    {
+      "en": "Ginger",
+      "fr": "Gingembre"
+    },
+    {
+      "en": "Gold Bar",
+      "fr": "Lingot d’or"
+    },
+    {
+      "en": "Grenade Launcher",
+      "fr": "Lance-grenades"
+    },
+    {
+      "en": "Gunpowder Horn",
+      "fr": "Corne à poudre"
+    },
+    {
+      "en": "Gunpowder Keg",
+      "fr": "Baril de poudre"
+    },
+    {
+      "en": "Half Plate Armor of Acid Resistance",
+      "fr": "Demi-plate de résistance à l’acide"
+    },
+    {
+      "en": "Half Plate Armor of Cold Resistance",
+      "fr": "Demi-plate de résistance au froid"
+    },
+    {
+      "en": "Half Plate Armor of Fire Resistance",
+      "fr": "Demi-plate de résistance au feu"
+    },
+    {
+      "en": "Half Plate Armor of Force Resistance",
+      "fr": "Demi-plate de résistance à la force"
+    },
+    {
+      "en": "Half Plate Armor of Lightning Resistance",
+      "fr": "Demi-plate de résistance à la foudre"
+    },
+    {
+      "en": "Half Plate Armor of Necrotic Resistance",
+      "fr": "Demi-plate de résistance aux dégâts nécrotiques"
+    },
+    {
+      "en": "Half Plate Armor of Poison Resistance",
+      "fr": "Demi-plate de résistance au poison"
+    },
+    {
+      "en": "Half Plate Armor of Psychic Resistance",
+      "fr": "Demi-plate de résistance aux dégâts psychiques"
+    },
+    {
+      "en": "Half Plate Armor of Radiant Resistance",
+      "fr": "Demi-plate de résistance aux dégâts radiants"
+    },
+    {
+      "en": "Half Plate Armor of Thunder Resistance",
+      "fr": "Demi-plate de résistance au tonnerre"
+    },
+    {
+      "en": "Hand of Vecna",
+      "fr": "Main de Vecna"
+    },
+    {
+      "en": "Hide Armor of Acid Resistance",
+      "fr": "Armure de peaux de résistance à l’acide"
+    },
+    {
+      "en": "Hide Armor of Cold Resistance",
+      "fr": "Armure de peaux de résistance au froid"
+    },
+    {
+      "en": "Hide Armor of Fire Resistance",
+      "fr": "Armure de peaux de résistance au feu"
+    },
+    {
+      "en": "Hide Armor of Force Resistance",
+      "fr": "Armure de peaux de résistance à la force"
+    },
+    {
+      "en": "Hide Armor of Gleaming",
+      "fr": "Armure de peaux impeccable"
+    },
+    {
+      "en": "Hide Armor of Lightning Resistance",
+      "fr": "Armure de peaux de résistance à la foudre"
+    },
+    {
+      "en": "Hide Armor of Necrotic Resistance",
+      "fr": "Armure de peaux de résistance aux dégâts nécrotiques"
+    },
+    {
+      "en": "Hide Armor of Poison Resistance",
+      "fr": "Armure de peaux de résistance au poison"
+    },
+    {
+      "en": "Hide Armor of Psychic Resistance",
+      "fr": "Armure de peaux de résistance aux dégâts psychiques"
+    },
+    {
+      "en": "Hide Armor of Radiant Resistance",
+      "fr": "Armure de peaux de résistance aux dégâts radiants"
+    },
+    {
+      "en": "Hide Armor of Thunder Resistance",
+      "fr": "Armure de peaux de résistance au tonnerre"
+    },
+    {
+      "en": "Horn of Valhalla, Iron",
+      "fr": "Cor du Valhalla (fer)"
+    },
+    {
+      "en": "Instrument of the Bards, Anstruth Harp",
+      "fr": "Instrument des bardes (harpe d’Anstruth)"
+    },
+    {
+      "en": "Instrument of the Bards, Canaith Mandolin",
+      "fr": "Instrument des bardes (mandoline de Canaith)"
+    },
+    {
+      "en": "Instrument of the Bards, Cli Lyre",
+      "fr": "Instrument des bardes (lyre de Cli)"
+    },
+    {
+      "en": "Instrument of the Bards, Doss Lute",
+      "fr": "Instrument des bardes (luth de Doss)"
+    },
+    {
+      "en": "Instrument of the Bards, Fochlucan Bandore",
+      "fr": "Instrument des bardes (bandore de Fochlucan)"
+    },
+    {
+      "en": "Instrument of the Bards, Mac-Fuirmidh Cittern",
+      "fr": "Instrument des bardes (cistre de Mac-Fuirmidh)"
+    },
+    {
+      "en": "Instrument of the Bards, Ollamh Harp",
+      "fr": "Instrument des bardes (harpe d’Ollamh)"
+    },
+    {
+      "en": "Ioun Stone, Absorption",
+      "fr": "Pierre de Ioun (absorption)"
+    },
+    {
+      "en": "Ioun Stone, Agility",
+      "fr": "Pierre de Ioun (agilité)"
+    },
+    {
+      "en": "Ioun Stone, Awareness",
+      "fr": "Pierre de Ioun (vigilance)"
+    },
+    {
+      "en": "Ioun Stone, Fortitude",
+      "fr": "Pierre de Ioun (vigueur)"
+    },
+    {
+      "en": "Ioun Stone, Greater Absorption",
+      "fr": "Pierre de Ioun (absorption supérieure)"
+    },
+    {
+      "en": "Ioun Stone, Intellect",
+      "fr": "Pierre de Ioun (intellect)"
+    },
+    {
+      "en": "Ioun Stone, Reserve",
+      "fr": "Pierre de Ioun (réserve)"
+    },
+    {
+      "en": "Ioun Stone, Sustenance",
+      "fr": "Pierre de Ioun (subsistance)"
+    },
+    {
+      "en": "Iron Bar",
+      "fr": "Lingot de fer"
+    },
+    {
+      "en": "Leather Armor of Acid Resistance",
+      "fr": "Armure de cuir de résistance à l’acide"
+    },
+    {
+      "en": "Leather Armor of Cold Resistance",
+      "fr": "Armure de cuir de résistance au froid"
+    },
+    {
+      "en": "Leather Armor of Fire Resistance",
+      "fr": "Armure de cuir de résistance au feu"
+    },
+    {
+      "en": "Leather Armor of Force Resistance",
+      "fr": "Armure de cuir de résistance à la force"
+    },
+    {
+      "en": "Leather Armor of Gleaming",
+      "fr": "Armure de cuir impeccable"
+    },
+    {
+      "en": "Leather Armor of Lightning Resistance",
+      "fr": "Armure de cuir de résistance à la foudre"
+    },
+    {
+      "en": "Leather Armor of Necrotic Resistance",
+      "fr": "Armure de cuir de résistance aux dégâts nécrotiques"
+    },
+    {
+      "en": "Leather Armor of Poison Resistance",
+      "fr": "Armure de cuir de résistance au poison"
+    },
+    {
+      "en": "Leather Armor of Psychic Resistance",
+      "fr": "Armure de cuir de résistance aux dégâts psychiques"
+    },
+    {
+      "en": "Leather Armor of Radiant Resistance",
+      "fr": "Armure de cuir de résistance aux dégâts radiants"
+    },
+    {
+      "en": "Leather Armor of Thunder Resistance",
+      "fr": "Armure de cuir de résistance au tonnerre"
+    },
+    {
+      "en": "Linen (1 sq. yd.)",
+      "fr": "Lin (1 yard carré)"
+    },
+    {
+      "en": "Malice (Inhaled)",
+      "fr": "Malice (inhalation)"
+    },
+    {
+      "en": "Manual of Clay Golems",
+      "fr": "Manuel des golems d’argile"
+    },
+    {
+      "en": "Manual of Flesh Golems",
+      "fr": "Manuel des golems de chair"
+    },
+    {
+      "en": "Manual of Iron Golems",
+      "fr": "Manuel des golems de fer"
+    },
+    {
+      "en": "Manual of Stone Golems",
+      "fr": "Manuel des golems de pierre"
+    },
+    {
+      "en": "Map to Ruin or Dungeon",
+      "fr": "Carte vers des ruines ou un donjon"
+    },
+    {
+      "en": "Mariner's Breastplate",
+      "fr": "Cuirasse du matelot"
+    },
+    {
+      "en": "Mariner's Chain Mail",
+      "fr": "Cotte de mailles du matelot"
+    },
+    {
+      "en": "Mariner's Chain Shirt",
+      "fr": "Chemise de mailles du matelot"
+    },
+    {
+      "en": "Mariner's Half Plate Armor",
+      "fr": "Demi-plate du matelot"
+    },
+    {
+      "en": "Mariner's Hide Armor",
+      "fr": "Armure de peaux du matelot"
+    },
+    {
+      "en": "Mariner's Leather Armor",
+      "fr": "Armure de cuir du matelot"
+    },
+    {
+      "en": "Mariner's Padded Armor",
+      "fr": "Armure matelassée du matelot"
+    },
+    {
+      "en": "Mariner's Plate Armor",
+      "fr": "Harnois du matelot"
+    },
+    {
+      "en": "Mariner's Ring Mail",
+      "fr": "Broigne du matelot"
+    },
+    {
+      "en": "Mariner's Scale Mail",
+      "fr": "Armure d’écailles du matelot"
+    },
+    {
+      "en": "Mariner's Spiked Armor",
+      "fr": "Armure à pointes du matelot"
+    },
+    {
+      "en": "Mariner's Splint Armor",
+      "fr": "Clibanion du matelot"
+    },
+    {
+      "en": "Mariner's Studded Leather Armor",
+      "fr": "Armure de cuir clouté du matelot"
+    },
+    {
+      "en": "Midnight Tears (Ingested)",
+      "fr": "Larmes de minuit (ingestion)"
+    },
+    {
+      "en": "Mind Carapace Chain Mail",
+      "fr": "Cotte de mailles à carapace mentale"
+    },
+    {
+      "en": "Mind Carapace Plate Armor",
+      "fr": "Harnois à carapace mentale"
+    },
+    {
+      "en": "Mind Carapace Ring Mail",
+      "fr": "Broigne à carapace mentale"
+    },
+    {
+      "en": "Mind Carapace Splint Armor",
+      "fr": "Clibanion à carapace mentale"
+    },
+    {
+      "en": "Mithral Breastplate",
+      "fr": "Cuirasse en mithral"
+    },
+    {
+      "en": "Mithral Chain Mail",
+      "fr": "Cotte de mailles en mithral"
+    },
+    {
+      "en": "Mithral Chain Shirt",
+      "fr": "Chemise de mailles en mithral"
+    },
+    {
+      "en": "Mithral Half Plate Armor",
+      "fr": "Demi-plate en mithral"
+    },
+    {
+      "en": "Mithral Plate Armor",
+      "fr": "Harnois en mithral"
+    },
+    {
+      "en": "Mithral Ring Mail",
+      "fr": "Broigne en mithral"
+    },
+    {
+      "en": "Mithral Scale Mail",
+      "fr": "Armure d’écailles en mithral"
+    },
+    {
+      "en": "Mithral Spiked Armor",
+      "fr": "Armure à pointes en mithral"
+    },
+    {
+      "en": "Mithral Splint Armor",
+      "fr": "Clibanion en mithral"
+    },
+    {
+      "en": "Oil of Taggit (Contact)",
+      "fr": "Huile de taggit (contact)"
+    },
+    {
+      "en": "Ox",
+      "fr": "Bœuf"
+    },
+    {
+      "en": "Padded Armor of Acid Resistance",
+      "fr": "Armure matelassée de résistance à l’acide"
+    },
+    {
+      "en": "Padded Armor of Cold Resistance",
+      "fr": "Armure matelassée de résistance au froid"
+    },
+    {
+      "en": "Padded Armor of Fire Resistance",
+      "fr": "Armure matelassée de résistance au feu"
+    },
+    {
+      "en": "Padded Armor of Force Resistance",
+      "fr": "Armure matelassée de résistance à la force"
+    },
+    {
+      "en": "Padded Armor of Gleaming",
+      "fr": "Armure matelassée impeccable"
+    },
+    {
+      "en": "Padded Armor of Lightning Resistance",
+      "fr": "Armure matelassée de résistance à la foudre"
+    },
+    {
+      "en": "Padded Armor of Necrotic Resistance",
+      "fr": "Armure matelassée de résistance aux dégâts nécrotiques"
+    },
+    {
+      "en": "Padded Armor of Poison Resistance",
+      "fr": "Armure matelassée de résistance au poison"
+    },
+    {
+      "en": "Padded Armor of Psychic Resistance",
+      "fr": "Armure matelassée de résistance aux dégâts psychiques"
+    },
+    {
+      "en": "Padded Armor of Radiant Resistance",
+      "fr": "Armure matelassée de résistance aux dégâts radiants"
+    }
+  ],
+  "rapportObjetsTronque": true,
+  "variantesSupplementaires": [
+    {
+      "en": "Sling Bullet",
+      "fr": "Bille de fronde"
+    },
+    {
+      "en": "Breastplate",
+      "fr": "Cuirasse"
+    },
+    {
+      "en": "Mind Carapace Breastplate",
+      "fr": "Cuirasse à carapace mentale"
+    },
+    {
+      "en": "Adamantine Breastplate",
+      "fr": "Cuirasse en adamantium"
+    },
+    {
+      "en": "Chain Mail",
+      "fr": "Cotte de mailles"
+    },
+    {
+      "en": "Adamantine Chain Mail",
+      "fr": "Cotte de mailles en adamantium"
+    },
+    {
+      "en": "Chain Shirt",
+      "fr": "Chemise de mailles"
+    },
+    {
+      "en": "Mind Carapace Chain Shirt",
+      "fr": "Chemise de mailles à carapace mentale"
+    },
+    {
+      "en": "Adamantine Chain Shirt",
+      "fr": "Chemise de mailles en adamantium"
+    },
+    {
+      "en": "Half Plate Armor",
+      "fr": "Demi-plate"
+    },
+    {
+      "en": "Mind Carapace Half Plate Armor",
+      "fr": "Demi-plate à carapace mentale"
+    },
+    {
+      "en": "Adamantine Half Plate Armor",
+      "fr": "Demi-plate en adamantium"
+    },
+    {
+      "en": "Half Plate Armor of Gleaming",
+      "fr": "Demi-plate impeccable"
+    },
+    {
+      "en": "Hide Armor",
+      "fr": "Armure de peaux"
+    },
+    {
+      "en": "Mind Carapace Hide Armor",
+      "fr": "Armure de peaux à carapace mentale"
+    },
+    {
+      "en": "Mithral Hide Armor",
+      "fr": "Armure de peaux en mithral"
+    },
+    {
+      "en": "Adamantine Hide Armor",
+      "fr": "Armure de peaux en adamantium"
+    },
+    {
+      "en": "Leather Armor",
+      "fr": "Armure de cuir"
+    },
+    {
+      "en": "Mind Carapace Leather Armor",
+      "fr": "Armure de cuir à carapace mentale"
+    },
+    {
+      "en": "Mithral Leather Armor",
+      "fr": "Armure de cuir en mithral"
+    },
+    {
+      "en": "Adamantine Leather Armor",
+      "fr": "Armure de cuir en adamantium"
+    },
+    {
+      "en": "Padded Armor",
+      "fr": "Armure matelassée"
+    },
+    {
+      "en": "Mind Carapace Padded Armor",
+      "fr": "Armure matelassée à carapace mentale"
+    },
+    {
+      "en": "Mithral Padded Armor",
+      "fr": "Armure matelassée en mithral"
+    },
+    {
+      "en": "Adamantine Padded Armor",
+      "fr": "Armure matelassée en adamantium"
+    },
+    {
+      "en": "Padded Armor of Thunder Resistance",
+      "fr": "Armure matelassée de résistance au tonnerre"
+    },
+    {
+      "en": "Plate Armor",
+      "fr": "Harnois"
+    },
+    {
+      "en": "Adamantine Plate Armor",
+      "fr": "Harnois en adamantium"
+    },
+    {
+      "en": "Plate Armor of Gleaming",
+      "fr": "Harnois impeccable"
+    },
+    {
+      "en": "Plate Armor of Acid Resistance",
+      "fr": "Harnois de résistance à l’acide"
+    },
+    {
+      "en": "Plate Armor of Cold Resistance",
+      "fr": "Harnois de résistance au froid"
+    },
+    {
+      "en": "Plate Armor of Fire Resistance",
+      "fr": "Harnois de résistance au feu"
+    },
+    {
+      "en": "Plate Armor of Force Resistance",
+      "fr": "Harnois de résistance à la force"
+    },
+    {
+      "en": "Plate Armor of Lightning Resistance",
+      "fr": "Harnois de résistance à la foudre"
+    },
+    {
+      "en": "Plate Armor of Necrotic Resistance",
+      "fr": "Harnois de résistance aux dégâts nécrotiques"
+    },
+    {
+      "en": "Plate Armor of Poison Resistance",
+      "fr": "Harnois de résistance au poison"
+    },
+    {
+      "en": "Plate Armor of Psychic Resistance",
+      "fr": "Harnois de résistance aux dégâts psychiques"
+    },
+    {
+      "en": "Plate Armor of Radiant Resistance",
+      "fr": "Harnois de résistance aux dégâts radiants"
+    },
+    {
+      "en": "Plate Armor of Thunder Resistance",
+      "fr": "Harnois de résistance au tonnerre"
+    },
+    {
+      "en": "Ring Mail",
+      "fr": "Broigne"
+    },
+    {
+      "en": "Adamantine Ring Mail",
+      "fr": "Broigne en adamantium"
+    },
+    {
+      "en": "Ring Mail of Gleaming",
+      "fr": "Broigne impeccable"
+    },
+    {
+      "en": "Ring Mail of Acid Resistance",
+      "fr": "Broigne de résistance à l’acide"
+    },
+    {
+      "en": "Ring Mail of Cold Resistance",
+      "fr": "Broigne de résistance au froid"
+    },
+    {
+      "en": "Ring Mail of Fire Resistance",
+      "fr": "Broigne de résistance au feu"
+    },
+    {
+      "en": "Ring Mail of Force Resistance",
+      "fr": "Broigne de résistance à la force"
+    },
+    {
+      "en": "Ring Mail of Lightning Resistance",
+      "fr": "Broigne de résistance à la foudre"
+    },
+    {
+      "en": "Ring Mail of Necrotic Resistance",
+      "fr": "Broigne de résistance aux dégâts nécrotiques"
+    },
+    {
+      "en": "Ring Mail of Poison Resistance",
+      "fr": "Broigne de résistance au poison"
+    },
+    {
+      "en": "Ring Mail of Psychic Resistance",
+      "fr": "Broigne de résistance aux dégâts psychiques"
+    },
+    {
+      "en": "Ring Mail of Radiant Resistance",
+      "fr": "Broigne de résistance aux dégâts radiants"
+    },
+    {
+      "en": "Ring Mail of Thunder Resistance",
+      "fr": "Broigne de résistance au tonnerre"
+    },
+    {
+      "en": "Scale Mail",
+      "fr": "Armure d’écailles"
+    },
+    {
+      "en": "Mind Carapace Scale Mail",
+      "fr": "Armure d’écailles à carapace mentale"
+    },
+    {
+      "en": "Adamantine Scale Mail",
+      "fr": "Armure d’écailles en adamantium"
+    },
+    {
+      "en": "Scale Mail of Gleaming",
+      "fr": "Armure d’écailles impeccable"
+    },
+    {
+      "en": "Scale Mail of Acid Resistance",
+      "fr": "Armure d’écailles de résistance à l’acide"
+    },
+    {
+      "en": "Scale Mail of Cold Resistance",
+      "fr": "Armure d’écailles de résistance au froid"
+    },
+    {
+      "en": "Scale Mail of Fire Resistance",
+      "fr": "Armure d’écailles de résistance au feu"
+    },
+    {
+      "en": "Scale Mail of Force Resistance",
+      "fr": "Armure d’écailles de résistance à la force"
+    },
+    {
+      "en": "Scale Mail of Lightning Resistance",
+      "fr": "Armure d’écailles de résistance à la foudre"
+    },
+    {
+      "en": "Scale Mail of Necrotic Resistance",
+      "fr": "Armure d’écailles de résistance aux dégâts nécrotiques"
+    },
+    {
+      "en": "Scale Mail of Poison Resistance",
+      "fr": "Armure d’écailles de résistance au poison"
+    },
+    {
+      "en": "Scale Mail of Psychic Resistance",
+      "fr": "Armure d’écailles de résistance aux dégâts psychiques"
+    },
+    {
+      "en": "Scale Mail of Radiant Resistance",
+      "fr": "Armure d’écailles de résistance aux dégâts radiants"
+    },
+    {
+      "en": "Scale Mail of Thunder Resistance",
+      "fr": "Armure d’écailles de résistance au tonnerre"
+    },
+    {
+      "en": "Spiked Armor",
+      "fr": "Armure à pointes"
+    },
+    {
+      "en": "Mind Carapace Spiked Armor",
+      "fr": "Armure à pointes à carapace mentale"
+    },
+    {
+      "en": "Spiked Armor of Gleaming",
+      "fr": "Armure à pointes impeccable"
+    },
+    {
+      "en": "Spiked Armor of Acid Resistance",
+      "fr": "Armure à pointes de résistance à l’acide"
+    },
+    {
+      "en": "Spiked Armor of Cold Resistance",
+      "fr": "Armure à pointes de résistance au froid"
+    },
+    {
+      "en": "Spiked Armor of Fire Resistance",
+      "fr": "Armure à pointes de résistance au feu"
+    },
+    {
+      "en": "Spiked Armor of Force Resistance",
+      "fr": "Armure à pointes de résistance à la force"
+    },
+    {
+      "en": "Spiked Armor of Lightning Resistance",
+      "fr": "Armure à pointes de résistance à la foudre"
+    },
+    {
+      "en": "Spiked Armor of Necrotic Resistance",
+      "fr": "Armure à pointes de résistance aux dégâts nécrotiques"
+    },
+    {
+      "en": "Spiked Armor of Poison Resistance",
+      "fr": "Armure à pointes de résistance au poison"
+    },
+    {
+      "en": "Spiked Armor of Psychic Resistance",
+      "fr": "Armure à pointes de résistance aux dégâts psychiques"
+    },
+    {
+      "en": "Spiked Armor of Radiant Resistance",
+      "fr": "Armure à pointes de résistance aux dégâts radiants"
+    },
+    {
+      "en": "Spiked Armor of Thunder Resistance",
+      "fr": "Armure à pointes de résistance au tonnerre"
+    },
+    {
+      "en": "Splint Armor",
+      "fr": "Clibanion"
+    },
+    {
+      "en": "Adamantine Splint Armor",
+      "fr": "Clibanion en adamantium"
+    },
+    {
+      "en": "Splint Armor of Gleaming",
+      "fr": "Clibanion impeccable"
+    },
+    {
+      "en": "Splint Armor of Acid Resistance",
+      "fr": "Clibanion de résistance à l’acide"
+    },
+    {
+      "en": "Splint Armor of Cold Resistance",
+      "fr": "Clibanion de résistance au froid"
+    },
+    {
+      "en": "Splint Armor of Fire Resistance",
+      "fr": "Clibanion de résistance au feu"
+    },
+    {
+      "en": "Splint Armor of Force Resistance",
+      "fr": "Clibanion de résistance à la force"
+    },
+    {
+      "en": "Splint Armor of Lightning Resistance",
+      "fr": "Clibanion de résistance à la foudre"
+    },
+    {
+      "en": "Splint Armor of Necrotic Resistance",
+      "fr": "Clibanion de résistance aux dégâts nécrotiques"
+    },
+    {
+      "en": "Splint Armor of Poison Resistance",
+      "fr": "Clibanion de résistance au poison"
+    },
+    {
+      "en": "Splint Armor of Psychic Resistance",
+      "fr": "Clibanion de résistance aux dégâts psychiques"
+    },
+    {
+      "en": "Splint Armor of Radiant Resistance",
+      "fr": "Clibanion de résistance aux dégâts radiants"
+    },
+    {
+      "en": "Splint Armor of Thunder Resistance",
+      "fr": "Clibanion de résistance au tonnerre"
+    },
+    {
+      "en": "Studded Leather Armor",
+      "fr": "Armure de cuir clouté"
+    },
+    {
+      "en": "Mind Carapace Studded Leather Armor",
+      "fr": "Armure de cuir clouté à carapace mentale"
+    },
+    {
+      "en": "Mithral Studded Leather Armor",
+      "fr": "Armure de cuir clouté en mithral"
+    },
+    {
+      "en": "Adamantine Studded Leather Armor",
+      "fr": "Armure de cuir clouté en adamantium"
+    },
+    {
+      "en": "Studded Leather Armor of Gleaming",
+      "fr": "Armure de cuir clouté impeccable"
+    },
+    {
+      "en": "Studded Leather Armor of Acid Resistance",
+      "fr": "Armure de cuir clouté de résistance à l’acide"
+    },
+    {
+      "en": "Studded Leather Armor of Cold Resistance",
+      "fr": "Armure de cuir clouté de résistance au froid"
+    },
+    {
+      "en": "Studded Leather Armor of Fire Resistance",
+      "fr": "Armure de cuir clouté de résistance au feu"
+    },
+    {
+      "en": "Studded Leather Armor of Force Resistance",
+      "fr": "Armure de cuir clouté de résistance à la force"
+    },
+    {
+      "en": "Studded Leather Armor of Lightning Resistance",
+      "fr": "Armure de cuir clouté de résistance à la foudre"
+    },
+    {
+      "en": "Studded Leather Armor of Necrotic Resistance",
+      "fr": "Armure de cuir clouté de résistance aux dégâts nécrotiques"
+    },
+    {
+      "en": "Studded Leather Armor of Poison Resistance",
+      "fr": "Armure de cuir clouté de résistance au poison"
+    },
+    {
+      "en": "Studded Leather Armor of Psychic Resistance",
+      "fr": "Armure de cuir clouté de résistance aux dégâts psychiques"
+    },
+    {
+      "en": "Studded Leather Armor of Radiant Resistance",
+      "fr": "Armure de cuir clouté de résistance aux dégâts radiants"
+    },
+    {
+      "en": "Studded Leather Armor of Thunder Resistance",
+      "fr": "Armure de cuir clouté de résistance au tonnerre"
+    },
+    {
+      "en": "Sling Bullet +1",
+      "fr": "Bille de fronde +1"
+    },
+    {
+      "en": "Sling Bullet +2",
+      "fr": "Bille de fronde +2"
+    },
+    {
+      "en": "Sling Bullet +3",
+      "fr": "Bille de fronde +3"
+    }
+  ]
+}

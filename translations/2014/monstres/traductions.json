@@ -1,0 +1,502 @@
+{
+  "$schema": "../../../docs/translation-pack.schema.json",
+  "edition": "any",
+  "entries": [
+    {
+      "id": "diagnostic.names.monsters.animated-object-medium-or-smaller",
+      "kind": "term",
+      "en": "Animated Object Medium or Smaller",
+      "fr": "Objet animé de taille M ou inférieure",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.avatar-of-death",
+      "kind": "term",
+      "en": "Avatar of Death",
+      "fr": "Avatar de la mort",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.dog",
+      "kind": "term",
+      "en": "Dog",
+      "fr": "Chien",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.giant-insect-centipede",
+      "kind": "term",
+      "en": "Giant Insect Centipede",
+      "fr": "Insecte géant (mille-pattes)",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.giant-insect-wasp",
+      "kind": "term",
+      "en": "Giant Insect Wasp",
+      "fr": "Insecte géant (guêpe)",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.toad",
+      "kind": "term",
+      "en": "Toad",
+      "fr": "Crapaud",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.giant-rat-diseased",
+      "kind": "term",
+      "en": "Giant Rat (Diseased)",
+      "fr": "Rat géant (malade)",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.warrior",
+      "kind": "term",
+      "en": "Warrior",
+      "fr": "Guerrier",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.deep-gnome-svirfneblin",
+      "kind": "term",
+      "en": "Deep Gnome (Svirfneblin)",
+      "fr": "Gnome des profondeurs (svirfneblin)",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.modron-tridrone",
+      "kind": "term",
+      "en": "Modron Tridrone",
+      "fr": "Modron, tridrone",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.modron-quadrone",
+      "kind": "term",
+      "en": "Modron Quadrone",
+      "fr": "Modron, quadrone",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.modron-pentadrone",
+      "kind": "term",
+      "en": "Modron Pentadrone",
+      "fr": "Modron, pentadrone",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.swarm-of-beetles",
+      "kind": "term",
+      "en": "Swarm of Beetles",
+      "fr": "Nuée de coléoptères",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.swarm-of-centipedes",
+      "kind": "term",
+      "en": "Swarm of Centipedes",
+      "fr": "Nuée de mille-pattes",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.swarm-of-spiders",
+      "kind": "term",
+      "en": "Swarm of Spiders",
+      "fr": "Nuée d’araignées",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.swarm-of-wasps",
+      "kind": "term",
+      "en": "Swarm of Wasps",
+      "fr": "Nuée de guêpes",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.field-spirit",
+      "kind": "term",
+      "en": "Field Spirit",
+      "fr": "Esprit des champs",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.super-goblin",
+      "kind": "term",
+      "en": "Super Goblin",
+      "fr": "Super gobelin",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.swarm-of-burrowing-cockroaches",
+      "kind": "term",
+      "en": "Swarm of Burrowing Cockroaches",
+      "fr": "Nuée de cafards fouisseurs",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.cave-bear",
+      "kind": "term",
+      "en": "Cave Bear",
+      "fr": "Ours des cavernes",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.reincarnation-of-thoss-spinderline",
+      "kind": "term",
+      "en": "Reincarnation of Thoss Spinderline",
+      "fr": "Réincarnation de Thoss Spinderline",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.spore-mother",
+      "kind": "term",
+      "en": "Spore Mother",
+      "fr": "Mère des spores",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.gynosphinx",
+      "kind": "term",
+      "en": "Gynosphinx",
+      "fr": "Sphinx femelle",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.androsphinx",
+      "kind": "term",
+      "en": "Androsphinx",
+      "fr": "Sphinx mâle",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.adult-blue-dracolich",
+      "kind": "term",
+      "en": "Adult Blue Dracolich",
+      "fr": "Dracoliche bleue adulte",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.otherworldly-steed-celestial",
+      "kind": "term",
+      "en": "Otherworldly Steed Celestial",
+      "fr": "Monture d’outremonde (céleste)",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.otherworldly-steed-fey",
+      "kind": "term",
+      "en": "Otherworldly Steed Fey",
+      "fr": "Monture d’outremonde (fée)",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.otherworldly-steed-fiend",
+      "kind": "term",
+      "en": "Otherworldly Steed Fiend",
+      "fr": "Monture d’outremonde (fiélonne)",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.bestial-spirit-air",
+      "kind": "term",
+      "en": "Bestial Spirit Air",
+      "fr": "Esprit bestial (aérien)",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.bestial-spirit-land",
+      "kind": "term",
+      "en": "Bestial Spirit Land",
+      "fr": "Esprit bestial (terrestre)",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.bestial-spirit-water",
+      "kind": "term",
+      "en": "Bestial Spirit Water",
+      "fr": "Esprit bestial (aquatique)",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.fey-spirit-fuming",
+      "kind": "term",
+      "en": "Fey Spirit Fuming",
+      "fr": "Esprit féerique (furieux)",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.fey-spirit-mirthful",
+      "kind": "term",
+      "en": "Fey Spirit Mirthful",
+      "fr": "Esprit féerique (joyeux)",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.fey-spirit-tricksy",
+      "kind": "term",
+      "en": "Fey Spirit Tricksy",
+      "fr": "Esprit féerique (rusé)",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.undead-spirit-ghostly",
+      "kind": "term",
+      "en": "Undead Spirit Ghostly",
+      "fr": "Esprit mort-vivant (fantomatique)",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.undead-spirit-putrid",
+      "kind": "term",
+      "en": "Undead Spirit Putrid",
+      "fr": "Esprit mort-vivant (putride)",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.undead-spirit-skeletal",
+      "kind": "term",
+      "en": "Undead Spirit Skeletal",
+      "fr": "Esprit mort-vivant (squelettique)",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.aberrant-spirit-beholderkin",
+      "kind": "term",
+      "en": "Aberrant Spirit Beholderkin",
+      "fr": "Esprit aberrant (parent du tyrannœil)",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.aberrant-spirit-mind-flayer",
+      "kind": "term",
+      "en": "Aberrant Spirit Mind Flayer",
+      "fr": "Esprit aberrant (flagelleur mental)",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.aberrant-spirit-slaad",
+      "kind": "term",
+      "en": "Aberrant Spirit Slaad",
+      "fr": "Esprit aberrant (slaad)",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.construct-spirit-clay",
+      "kind": "term",
+      "en": "Construct Spirit Clay",
+      "fr": "Esprit artificiel (argile)",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.construct-spirit-metal",
+      "kind": "term",
+      "en": "Construct Spirit Metal",
+      "fr": "Esprit artificiel (métal)",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.construct-spirit-stone",
+      "kind": "term",
+      "en": "Construct Spirit Stone",
+      "fr": "Esprit artificiel (pierre)",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.elemental-spirit-air",
+      "kind": "term",
+      "en": "Elemental Spirit Air",
+      "fr": "Esprit élémentaire (air)",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.elemental-spirit-earth",
+      "kind": "term",
+      "en": "Elemental Spirit Earth",
+      "fr": "Esprit élémentaire (terre)",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.elemental-spirit-fire",
+      "kind": "term",
+      "en": "Elemental Spirit Fire",
+      "fr": "Esprit élémentaire (feu)",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.elemental-spirit-water",
+      "kind": "term",
+      "en": "Elemental Spirit Water",
+      "fr": "Esprit élémentaire (eau)",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.celestial-spirit-avenger",
+      "kind": "term",
+      "en": "Celestial Spirit Avenger",
+      "fr": "Esprit céleste (vengeur)",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.celestial-spirit-defender",
+      "kind": "term",
+      "en": "Celestial Spirit Defender",
+      "fr": "Esprit céleste (défenseur)",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.draconic-spirit-black",
+      "kind": "term",
+      "en": "Draconic Spirit Black",
+      "fr": "Esprit draconique (noir)",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.draconic-spirit-blue",
+      "kind": "term",
+      "en": "Draconic Spirit Blue",
+      "fr": "Esprit draconique (bleu)",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.draconic-spirit-brass",
+      "kind": "term",
+      "en": "Draconic Spirit Brass",
+      "fr": "Esprit draconique (airain)",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.draconic-spirit-bronze",
+      "kind": "term",
+      "en": "Draconic Spirit Bronze",
+      "fr": "Esprit draconique (bronze)",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.draconic-spirit-copper",
+      "kind": "term",
+      "en": "Draconic Spirit Copper",
+      "fr": "Esprit draconique (cuivre)",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.draconic-spirit-gold",
+      "kind": "term",
+      "en": "Draconic Spirit Gold",
+      "fr": "Esprit draconique (or)",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.draconic-spirit-green",
+      "kind": "term",
+      "en": "Draconic Spirit Green",
+      "fr": "Esprit draconique (vert)",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.draconic-spirit-red",
+      "kind": "term",
+      "en": "Draconic Spirit Red",
+      "fr": "Esprit draconique (rouge)",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.draconic-spirit-silver",
+      "kind": "term",
+      "en": "Draconic Spirit Silver",
+      "fr": "Esprit draconique (argent)",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.draconic-spirit-white",
+      "kind": "term",
+      "en": "Draconic Spirit White",
+      "fr": "Esprit draconique (blanc)",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.fiendish-spirit-demon",
+      "kind": "term",
+      "en": "Fiendish Spirit Demon",
+      "fr": "Esprit fiélon (démon)",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.fiendish-spirit-devil",
+      "kind": "term",
+      "en": "Fiendish Spirit Devil",
+      "fr": "Esprit fiélon (diable)",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    },
+    {
+      "id": "diagnostic.names.monsters.fiendish-spirit-yugoloth",
+      "kind": "term",
+      "en": "Fiendish Spirit Yugoloth",
+      "fr": "Esprit fiélon (yugoloth)",
+      "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "edition": "any"
+    }
+  ]
+}

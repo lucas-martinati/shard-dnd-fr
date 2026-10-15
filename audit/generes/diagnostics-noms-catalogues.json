@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-15",
+  "versionDiagnostic": "1.17.14",
+  "perimetre": "Libellés de catalogues fournis par l’utilisateur, sans descriptions de fiches ni livre déterminé.",
+  "monstres": {
+    "candidats": 92,
+    "traduits": 62,
+    "nomsConserves": 25,
+    "nomApplication": 1,
+    "aVerifier": [
+      "Fuzz Mites",
+      "Rock Garfin",
+      "Fuzz Golem",
+      "Giant Fuzz Golem"
+    ]
+  },
+  "objets": {
+    "candidatsRecus": 200,
+    "tronque": true,
+    "candidatsCouverts": 200,
+    "nouvellesCorrespondances": 299,
+    "limite": "Le rapport s’arrête à Padded Armor of Radiant Resistance ; les variantes des familles d’armures sont aussi déclinées après cette borne, mais tous les noms du catalogue ne sont pas inventoriés."
+  },
+  "nouvellesCorrespondancesMonstres": 62,
+  "descriptionsIntegralementValidees": false
+}

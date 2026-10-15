@@ -1,5 +1,15 @@
 # Audit de couverture — 13 octobre 2026
 
+## Rapports utilisateur du 15 octobre — noms de monstres et d’objets
+
+Le diagnostic 1.17.14 fourni contient 92 candidats de monstres et 200 candidats d’objets. Il porte sur les noms visibles et quelques libellés de catégories, sans descriptions détaillées ni livre identifié. Le rapport d’objets est tronqué, ce qui empêche d’en déduire le nombre total de manques du catalogue.
+
+Le lot ajoute 62 traductions de libellés de créatures, notamment les variantes d’esprits invoqués, montures, nuées et modrons. Il conserve 25 noms de PNJ ou de contenu nommé, ainsi que le nom de l’application. Quatre noms de supplément demandent encore un contexte : Fuzz Mites, Rock Garfin, Fuzz Golem et Giant Fuzz Golem. Ils ne sont pas déclarés traduits. Ces noms de compatibilité sont rangés dans le corpus partagé historique, avec édition `any`, sans être attribués au MM 2024.
+
+Les 200 candidats d’objets sont couverts. Les familles d’armures ont aussi été déclinées au-delà de la coupure du rapport : résistance, armure rapide, armure du matelot, mithral, adamantium et carapace mentale. Le lot ajoute 299 correspondances d’objets, avec les munitions, poisons et variantes d’objets merveilleux signalés. Les formulations sont proposées ; leur présence ne valide pas leurs descriptions ni tous les suppléments.
+
+`npm run test:catalogue-names` contrôle les deux listes reçues et 110 variantes supplémentaires, relance le diagnostic sur leur rendu, vérifie les clics, la conservation des noms et champs privés et la restauration de l’anglais. Le [bilan local](../audit/generes/diagnostics-noms-catalogues.json) conserve les limites du relevé. Le lot précédent, comprenant les dix profils MM complets et les options de sorts, est publié en 1.17.15 (`ca0efef`).
+
 ## Suite locale du 15 octobre — options de sorts et accès au MM
 
 Le lot précédent est commité et poussé en 1.17.14 (`774560d`). Les ajouts suivants restent locaux. Les options d’Appel de familier, de Création ou destruction d’eau et de Dissipation du mal et du bien sont découpées explicitement, avec leurs titres et la variante « annexe B » du PHB. Les volumes du sort d’eau sont conservés en gallons dans les nouvelles correspondances. Corde enchantée reçoit une variante exacte pour « extradimensional », le SRD ayant extrait ce mot en « extra dimensional ». Les fiches réelles des six sorts signalés ont été ajoutées aux contrôles, qui portent désormais sur 17 sorts et 78 paragraphes/cellules.
