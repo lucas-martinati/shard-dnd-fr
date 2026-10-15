@@ -54,7 +54,7 @@ async function wait(predicate) {
     const enabled = root.getElementById('enabled');
     enabled.checked = false; enabled.dispatchEvent(new w.Event('change'));
     await wait(() => main.innerHTML === original);
-    console.log(`PASS paragraphes 2024 : ${rows.length} extraits/variantes de cinq sorts hors ligne, Défense supérieure lisible, dés/icônes/liens intacts, valeurs inconnues conservées et restauration exacte.`);
+    console.log(`PASS paragraphes 2024 : ${rows.length} extraits/variantes de ${new Set(rows.map(row => row.spell)).size} sorts hors ligne, Défense supérieure lisible, dés/icônes/liens intacts, valeurs inconnues conservées et restauration exacte.`);
   } catch (error) {
     console.error(blocks.map((p, i) => ({id: rows[i]?.id || 'monk', expected: [...rows, monk][i].fr, actual: p.textContent})).filter(row => row.actual !== row.expected));
     throw error;

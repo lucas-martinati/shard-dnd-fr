@@ -2178,6 +2178,22 @@
       "en": "Legendary Resistance (4/Day)",
       "fr": "Résistance légendaire (4/jour)",
       "source": "Titre du trait commun MM 2024 · https://www.aidedd.org/monster/fr/colosse"
+    },
+    {
+      "id": "shard.custom.reference-cards.3d1d7ddf05cf",
+      "kind": "description",
+      "en": "Modron Duodrone",
+      "fr": "Modron, duodrone",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Reference Cards · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.reference-cards.38d7e8afa46e",
+      "kind": "description",
+      "en": "Modron Monodrone",
+      "fr": "Modron, monodrone",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Reference Cards · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
     }
   ]
 }

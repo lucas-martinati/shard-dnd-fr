@@ -61,18 +61,34 @@
     {
       "id": "diseases",
       "groupe": "types-personnalises",
-      "nom": "Diseases",
+      "nom": "Maladies",
       "url": "https://play.shardtabletop.com/#customtable?type=Diseases",
       "traductionIntegraleValidee": false,
-      "aVerifierOuCompleter": "Inventorier et vérifier toutes les maladies et leurs effets, durées, conditions et moyens de guérison."
+      "aVerifierOuCompleter": "Les cartes et fiches natives relevées sont traduites et vérifiées localement. Contrôler le userscript installé dans Shard, les autres bibliothèques et les fiches cibles des liens avant de valider intégralement la rubrique.",
+      "validationLocale": {
+        "date": "2026-10-15",
+        "version": "1.17.12",
+        "fichesOuvertes": 3,
+        "cartesEtFichesVerifiees": true,
+        "inventaire": "inventaires/references-personnalisees.json",
+        "rapport": "generes/references-personnalisees.json"
+      }
     },
     {
       "id": "draconic-ancestries",
       "groupe": "types-personnalises",
-      "nom": "Draconic Ancestries",
+      "nom": "Ascendances draconiques",
       "url": "https://play.shardtabletop.com/#customtable?type=Draconic%20Ancestries",
       "traductionIntegraleValidee": false,
-      "aVerifierOuCompleter": "Inventorier et vérifier toutes les ascendances draconiques, leurs effets, choix et tableaux."
+      "aVerifierOuCompleter": "Les cartes et fiches natives relevées sont traduites et vérifiées localement. Contrôler le userscript installé dans Shard, les autres bibliothèques et les fiches cibles des liens avant de valider intégralement la rubrique.",
+      "validationLocale": {
+        "date": "2026-10-15",
+        "version": "1.17.12",
+        "fichesOuvertes": 10,
+        "cartesEtFichesVerifiees": true,
+        "inventaire": "inventaires/references-personnalisees.json",
+        "rapport": "generes/references-personnalisees.json"
+      }
     },
     {
       "id": "eldritch-invocations",
@@ -80,7 +96,15 @@
       "nom": "Manifestations occultes",
       "url": "https://play.shardtabletop.com/#customtable?type=Eldritch%20Invocations",
       "traductionIntegraleValidee": false,
-      "aVerifierOuCompleter": "Vérifier toutes les manifestations accessibles : prérequis, effets, choix, évolutions et variantes."
+      "aVerifierOuCompleter": "Les cartes et fiches natives relevées sont traduites et vérifiées localement. Contrôler le userscript installé dans Shard, les autres bibliothèques et les fiches cibles des liens avant de valider intégralement la rubrique.",
+      "validationLocale": {
+        "date": "2026-10-15",
+        "version": "1.17.12",
+        "fichesOuvertes": 79,
+        "cartesEtFichesVerifiees": true,
+        "inventaire": "inventaires/references-personnalisees.json",
+        "rapport": "generes/references-personnalisees.json"
+      }
     },
     {
       "id": "fighting-styles",
@@ -88,15 +112,31 @@
       "nom": "Styles de combat",
       "url": "https://play.shardtabletop.com/#customtable?type=Fighting%20Styles",
       "traductionIntegraleValidee": false,
-      "aVerifierOuCompleter": "Vérifier tous les styles et leurs règles intégrales, y compris les variantes anciennes et de suppléments."
+      "aVerifierOuCompleter": "Les cartes et fiches natives relevées sont traduites et vérifiées localement. Contrôler le userscript installé dans Shard, les autres bibliothèques et les fiches cibles des liens avant de valider intégralement la rubrique.",
+      "validationLocale": {
+        "date": "2026-10-15",
+        "version": "1.17.12",
+        "fichesOuvertes": 12,
+        "cartesEtFichesVerifiees": true,
+        "inventaire": "inventaires/references-personnalisees.json",
+        "rapport": "generes/references-personnalisees.json"
+      }
     },
     {
       "id": "maneuver-options",
       "groupe": "types-personnalises",
-      "nom": "Manœuvre Options",
+      "nom": "Options de manœuvre",
       "url": "https://play.shardtabletop.com/#customtable?type=Maneuver%20Options",
       "traductionIntegraleValidee": false,
-      "aVerifierOuCompleter": "Inventorier et vérifier toutes les manœuvres, leurs coûts, déclencheurs, choix et effets."
+      "aVerifierOuCompleter": "Les cartes et fiches natives relevées sont traduites et vérifiées localement. Contrôler le userscript installé dans Shard, les autres bibliothèques et les fiches cibles des liens avant de valider intégralement la rubrique.",
+      "validationLocale": {
+        "date": "2026-10-15",
+        "version": "1.17.12",
+        "fichesOuvertes": 20,
+        "cartesEtFichesVerifiees": true,
+        "inventaire": "inventaires/references-personnalisees.json",
+        "rapport": "generes/references-personnalisees.json"
+      }
     },
     {
       "id": "mastery-properties",
@@ -104,7 +144,15 @@
       "nom": "Propriétés de botte",
       "url": "https://play.shardtabletop.com/#customtable?type=Mastery%20Properties",
       "traductionIntegraleValidee": false,
-      "aVerifierOuCompleter": "Vérifier chaque propriété et sa règle complète. Ce catalogue doit être contrôlé séparément de Weapon Masteries."
+      "aVerifierOuCompleter": "Les cartes et fiches natives relevées sont traduites et vérifiées localement. Contrôler le userscript installé dans Shard, les autres bibliothèques et les fiches cibles des liens avant de valider intégralement la rubrique.",
+      "validationLocale": {
+        "date": "2026-10-15",
+        "version": "1.17.12",
+        "fichesOuvertes": 8,
+        "cartesEtFichesVerifiees": true,
+        "inventaire": "inventaires/references-personnalisees.json",
+        "rapport": "generes/references-personnalisees.json"
+      }
     },
     {
       "id": "metamagic",
@@ -112,23 +160,47 @@
       "nom": "Métamagie",
       "url": "https://play.shardtabletop.com/#customtable?type=Metamagic",
       "traductionIntegraleValidee": false,
-      "aVerifierOuCompleter": "Vérifier toutes les options, coûts, restrictions, effets et variantes accessibles, au-delà du seul corpus SRD."
+      "aVerifierOuCompleter": "Les cartes et fiches natives relevées sont traduites et vérifiées localement. Contrôler le userscript installé dans Shard, les autres bibliothèques et les fiches cibles des liens avant de valider intégralement la rubrique.",
+      "validationLocale": {
+        "date": "2026-10-15",
+        "version": "1.17.12",
+        "fichesOuvertes": 18,
+        "cartesEtFichesVerifiees": true,
+        "inventaire": "inventaires/references-personnalisees.json",
+        "rapport": "generes/references-personnalisees.json"
+      }
     },
     {
       "id": "reference-cards",
       "groupe": "types-personnalises",
-      "nom": "Reference Cards",
+      "nom": "Fiches de référence",
       "url": "https://play.shardtabletop.com/#customtable?type=Reference%20Cards",
       "traductionIntegraleValidee": false,
-      "aVerifierOuCompleter": "Inventorier et vérifier toutes les fiches de référence : règles, états, actions, effets et tableaux, y compris ceux ouverts par les liens des aptitudes."
+      "aVerifierOuCompleter": "Les cartes et fiches natives relevées sont traduites et vérifiées localement. Contrôler le userscript installé dans Shard, les autres bibliothèques et les fiches cibles des liens avant de valider intégralement la rubrique.",
+      "validationLocale": {
+        "date": "2026-10-15",
+        "version": "1.17.12",
+        "fichesOuvertes": 1,
+        "cartesEtFichesVerifiees": true,
+        "inventaire": "inventaires/references-personnalisees.json",
+        "rapport": "generes/references-personnalisees.json"
+      }
     },
     {
       "id": "warlock-pact-boons",
       "groupe": "types-personnalises",
-      "nom": "Warlock Pact Boons",
+      "nom": "Bienfaits de pacte de l’Occultiste",
       "url": "https://play.shardtabletop.com/#customtable?type=Warlock%20Pact%20Boons",
       "traductionIntegraleValidee": false,
-      "aVerifierOuCompleter": "Inventorier et vérifier tous les pactes, leurs effets, options, prérequis et variantes accessibles."
+      "aVerifierOuCompleter": "Les cartes et fiches natives relevées sont traduites et vérifiées localement. Contrôler le userscript installé dans Shard, les autres bibliothèques et les fiches cibles des liens avant de valider intégralement la rubrique.",
+      "validationLocale": {
+        "date": "2026-10-15",
+        "version": "1.17.12",
+        "fichesOuvertes": 3,
+        "cartesEtFichesVerifiees": true,
+        "inventaire": "inventaires/references-personnalisees.json",
+        "rapport": "generes/references-personnalisees.json"
+      }
     },
     {
       "id": "weapon-masteries",
@@ -136,14 +208,23 @@
       "nom": "Bottes d’arme",
       "url": "https://play.shardtabletop.com/#customtable?type=Weapon%20Masteries",
       "traductionIntegraleValidee": false,
-      "aVerifierOuCompleter": "Vérifier toutes les entrées et règles de ce catalogue, même lorsque leur nom ou leur propriété existe déjà dans Mastery Properties."
+      "aVerifierOuCompleter": "Les cartes et fiches natives relevées sont traduites et vérifiées localement. Contrôler le userscript installé dans Shard, les autres bibliothèques et les fiches cibles des liens avant de valider intégralement la rubrique.",
+      "validationLocale": {
+        "date": "2026-10-15",
+        "version": "1.17.12",
+        "fichesOuvertes": 38,
+        "cartesEtFichesVerifiees": true,
+        "inventaire": "inventaires/references-personnalisees.json",
+        "rapport": "generes/references-personnalisees.json"
+      }
     }
   ],
   "limites": [
     "Il s’agit d’un objectif et d’une liste de contrôles restants, pas d’un relevé affirmant que chaque rubrique est entièrement en anglais.",
     "Les présentations et plusieurs contenus détaillés sont déjà traduits, notamment pour les classes ; leur couverture complète dans tous les livres reste à établir.",
     "Les six rubriques d’options du personnage et les dix types personnalisés constituent un minimum : ajouter toute autre référence accessible depuis l’accueil.",
-    "Une liste aVerifier vide pour les appariements SRD ne signifie pas que ce périmètre Shard est intégralement traduit."
+    "Une liste aVerifier vide pour les appariements SRD ne signifie pas que ce périmètre Shard est intégralement traduit.",
+    "Les dix types personnalisés ont une validationLocale des 192 cartes et fiches natives relevées le 15 octobre 2026. traductionIntegraleValidee reste distincte : contrôle en direct du userscript installé, autres bibliothèques et fiches cibles des liens à poursuivre."
   ],
   "prioritesLivres": "livres.json",
   "ordreTravail": "D&D 2024 PHB, puis D&D 2024 MM ; corpus 2014 secondaire. Les rubriques ci-dessous restent le minimum final et sont vérifiées d’abord pour les deux livres prioritaires."

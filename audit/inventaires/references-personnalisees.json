@@ -1,0 +1,1266 @@
+{
+  "date": "2026-10-15",
+  "versionValidation": "1.17.12",
+  "methode": "Listes chargées intégralement, 192 fiches ouvertes et comparées à leurs cartes. Titres, sources et paragraphes concordants. Le même analyseur que le panneau a été exécuté localement sur les HTML relevés, puis les cartes et fiches ont été vérifiées avec le userscript généré.",
+  "fixture": "tests/fixtures/custom-references.json",
+  "rapport": "audit/generes/references-personnalisees.json",
+  "rubriques": [
+    {
+      "id": "diseases",
+      "type": "Diseases",
+      "nom": "Maladies",
+      "url": "https://play.shardtabletop.com/#customtable?type=Diseases",
+      "fichesOuvertes": 3,
+      "blocsDetailReleves": 15,
+      "entrees": [
+        {
+          "nom": "Cackle Fever",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 6
+        },
+        {
+          "nom": "Sewer Plague",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 5
+        },
+        {
+          "nom": "Sight Rot",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 4
+        }
+      ]
+    },
+    {
+      "id": "draconic-ancestries",
+      "type": "Draconic Ancestries",
+      "nom": "Ascendances draconiques",
+      "url": "https://play.shardtabletop.com/#customtable?type=Draconic%20Ancestries",
+      "fichesOuvertes": 10,
+      "blocsDetailReleves": 70,
+      "entrees": [
+        {
+          "nom": "Black",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 7
+        },
+        {
+          "nom": "Blue",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 7
+        },
+        {
+          "nom": "Brass",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 7
+        },
+        {
+          "nom": "Bronze",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 7
+        },
+        {
+          "nom": "Copper",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 7
+        },
+        {
+          "nom": "Gold",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 7
+        },
+        {
+          "nom": "Green",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 7
+        },
+        {
+          "nom": "Red",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 7
+        },
+        {
+          "nom": "Silver",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 7
+        },
+        {
+          "nom": "White",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 7
+        }
+      ]
+    },
+    {
+      "id": "eldritch-invocations",
+      "type": "Eldritch Invocations",
+      "nom": "Manifestations occultes",
+      "url": "https://play.shardtabletop.com/#customtable?type=Eldritch%20Invocations",
+      "fichesOuvertes": 79,
+      "blocsDetailReleves": 252,
+      "entrees": [
+        {
+          "nom": "Agonizing Blast",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 3
+        },
+        {
+          "nom": "Agonizing Blast",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 4
+        },
+        {
+          "nom": "Armor of Shadows",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Armor of Shadows",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Ascendant Step",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 3
+        },
+        {
+          "nom": "Ascendant Step",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 3
+        },
+        {
+          "nom": "Aspect of the Moon",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 3
+        },
+        {
+          "nom": "Beast Speech",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Beguiling Influence",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Bewitching Whispers",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 3
+        },
+        {
+          "nom": "Book of Ancient Secrets",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 4
+        },
+        {
+          "nom": "Chains of Carceri",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 3
+        },
+        {
+          "nom": "Chains of the Deodand",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 3
+        },
+        {
+          "nom": "Cloak of Flies",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 5
+        },
+        {
+          "nom": "Devil's Sight",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Devil’s Sight",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 3
+        },
+        {
+          "nom": "Devouring Blade",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 3
+        },
+        {
+          "nom": "Dreadful Word",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 3
+        },
+        {
+          "nom": "Eldritch Mind",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Eldritch Sight",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Eldritch Smite",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 3
+        },
+        {
+          "nom": "Eldritch Smite",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 3
+        },
+        {
+          "nom": "Eldritch Spear",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 3
+        },
+        {
+          "nom": "Eldritch Spear",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 4
+        },
+        {
+          "nom": "Eyes of the Rune Keeper",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Fiendish Vigor",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Fiendish Vigor",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 3
+        },
+        {
+          "nom": "Gaze of Two Minds",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Gaze of Two Minds",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 4
+        },
+        {
+          "nom": "Ghostly Gaze",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 4
+        },
+        {
+          "nom": "Gift of the Depths",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 4
+        },
+        {
+          "nom": "Gift of the Depths",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 4
+        },
+        {
+          "nom": "Gift of the Ever-Living Ones",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 3
+        },
+        {
+          "nom": "Gift of the Protectors",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 5
+        },
+        {
+          "nom": "Grasp of Hadar",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 3
+        },
+        {
+          "nom": "Improved Pact Weapon",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 5
+        },
+        {
+          "nom": "Investment of the Chain Master",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 8
+        },
+        {
+          "nom": "Lance of Lethargy",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 3
+        },
+        {
+          "nom": "Lessons of the First Ones 1",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 4
+        },
+        {
+          "nom": "Lessons of the First Ones 2",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 4
+        },
+        {
+          "nom": "Lessons of the First Ones 3",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 4
+        },
+        {
+          "nom": "Lessons of the First Ones 4",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 4
+        },
+        {
+          "nom": "Lessons of the First Ones 5",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 4
+        },
+        {
+          "nom": "Lifedrinker",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 3
+        },
+        {
+          "nom": "Lifedrinker",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 3
+        },
+        {
+          "nom": "Maddening Hex",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 3
+        },
+        {
+          "nom": "Mask of Many Faces",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Mask of Many Faces",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 3
+        },
+        {
+          "nom": "Master of Myriad Forms",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 3
+        },
+        {
+          "nom": "Master of Myriad Forms",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 3
+        },
+        {
+          "nom": "Minions of Chaos",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 3
+        },
+        {
+          "nom": "Mire the Mind",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 3
+        },
+        {
+          "nom": "Misty Visions",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Misty Visions",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 3
+        },
+        {
+          "nom": "One with Shadows",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 3
+        },
+        {
+          "nom": "One with Shadows",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 3
+        },
+        {
+          "nom": "Otherworldly Leap",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 3
+        },
+        {
+          "nom": "Otherworldly Leap",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 3
+        },
+        {
+          "nom": "Pact of the Blade",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 4
+        },
+        {
+          "nom": "Pact of the Chain",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 4
+        },
+        {
+          "nom": "Pact of the Tome",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 4
+        },
+        {
+          "nom": "Relentless Hex",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 3
+        },
+        {
+          "nom": "Repelling Blast",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 3
+        },
+        {
+          "nom": "Repelling Blast",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 4
+        },
+        {
+          "nom": "Sculptor of Flesh",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 3
+        },
+        {
+          "nom": "Shroud of Shadow",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 3
+        },
+        {
+          "nom": "Sign of Ill Omen",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 3
+        },
+        {
+          "nom": "Thief of Five Fates",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Thirsting Blade",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 3
+        },
+        {
+          "nom": "Thirsting Blade",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 3
+        },
+        {
+          "nom": "Tomb of Levistus",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 4
+        },
+        {
+          "nom": "Trickster's Escape",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 3
+        },
+        {
+          "nom": "Visions of Distant Realms",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 3
+        },
+        {
+          "nom": "Visions of Distant Realms",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 3
+        },
+        {
+          "nom": "Voice of the Chain Master",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 3
+        },
+        {
+          "nom": "Whispers of the Grave",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 3
+        },
+        {
+          "nom": "Whispers of the Grave",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 3
+        },
+        {
+          "nom": "Witch Sight",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 3
+        },
+        {
+          "nom": "Witch Sight",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 3
+        }
+      ]
+    },
+    {
+      "id": "fighting-styles",
+      "type": "Fighting Styles",
+      "nom": "Styles de combat",
+      "url": "https://play.shardtabletop.com/#customtable?type=Fighting%20Styles",
+      "fichesOuvertes": 12,
+      "blocsDetailReleves": 26,
+      "entrees": [
+        {
+          "nom": "Archery",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Blessed Warrior",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Blind Fighting",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Defense",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Druidic Warrior",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Dueling",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Great Weapon Fighting",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Interception",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Protection",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Thrown Weapon Fighting",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 3
+        },
+        {
+          "nom": "Two-Weapon Fighting",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Unarmed Fighting",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 3
+        }
+      ]
+    },
+    {
+      "id": "maneuver-options",
+      "type": "Maneuver Options",
+      "nom": "Options de manœuvre",
+      "url": "https://play.shardtabletop.com/#customtable?type=Maneuver%20Options",
+      "fichesOuvertes": 20,
+      "blocsDetailReleves": 41,
+      "entrees": [
+        {
+          "nom": "Ambush",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Bait and Switch",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 3
+        },
+        {
+          "nom": "Commander’s Strike",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Commanding Presence",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Disarming Attack",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Distracting Strike",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Evasive Footwork",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Feinting Attack",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Goading Attack",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Lunging Attack",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Maneuvering Attack",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Menacing Attack",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Parry",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Precision Attack",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Pushing Attack",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Rally",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Riposte",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Sweeping Attack",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Tactical Assessment",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Trip Attack",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        }
+      ]
+    },
+    {
+      "id": "mastery-properties",
+      "type": "Mastery Properties",
+      "nom": "Propriétés de botte",
+      "url": "https://play.shardtabletop.com/#customtable?type=Mastery%20Properties",
+      "fichesOuvertes": 8,
+      "blocsDetailReleves": 16,
+      "entrees": [
+        {
+          "nom": "Cleave",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Graze",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Nick",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Push",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Sap",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Slow",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Topple",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Vex",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        }
+      ]
+    },
+    {
+      "id": "metamagic",
+      "type": "Metamagic",
+      "nom": "Métamagie",
+      "url": "https://play.shardtabletop.com/#customtable?type=Metamagic",
+      "fichesOuvertes": 18,
+      "blocsDetailReleves": 52,
+      "entrees": [
+        {
+          "nom": "Careful Spell",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Careful Spell",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 3
+        },
+        {
+          "nom": "Distant Spell",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 3
+        },
+        {
+          "nom": "Distant Spell",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 3
+        },
+        {
+          "nom": "Empowered Spell",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 3
+        },
+        {
+          "nom": "Empowered Spell",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 4
+        },
+        {
+          "nom": "Extended Spell",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Extended Spell",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 4
+        },
+        {
+          "nom": "Heightened Spell",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Heightened Spell",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 3
+        },
+        {
+          "nom": "Quickened Spell",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Quickened Spell",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 3
+        },
+        {
+          "nom": "Seeking Spell",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 4
+        },
+        {
+          "nom": "Subtle Spell",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Subtle Spell",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 3
+        },
+        {
+          "nom": "Transmuted Spell",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 3
+        },
+        {
+          "nom": "Twinned Spell",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 3
+        },
+        {
+          "nom": "Twinned Spell",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 3
+        }
+      ]
+    },
+    {
+      "id": "reference-cards",
+      "type": "Reference Cards",
+      "nom": "Fiches de référence",
+      "url": "https://play.shardtabletop.com/#customtable?type=Reference%20Cards",
+      "fichesOuvertes": 1,
+      "blocsDetailReleves": 109,
+      "entrees": [
+        {
+          "nom": "Wild Magic Surge",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 109
+        }
+      ]
+    },
+    {
+      "id": "warlock-pact-boons",
+      "type": "Warlock Pact Boons",
+      "nom": "Bienfaits de pacte de l’Occultiste",
+      "url": "https://play.shardtabletop.com/#customtable?type=Warlock%20Pact%20Boons",
+      "fichesOuvertes": 3,
+      "blocsDetailReleves": 10,
+      "entrees": [
+        {
+          "nom": "Pact of the Blade",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 4
+        },
+        {
+          "nom": "Pact of the Chain",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 4
+        },
+        {
+          "nom": "Pact of the Tome",
+          "source": "Shard Player's Guide Volume 1",
+          "edition": "any",
+          "blocsDetail": 2
+        }
+      ]
+    },
+    {
+      "id": "weapon-masteries",
+      "type": "Weapon Masteries",
+      "nom": "Bottes d’arme",
+      "url": "https://play.shardtabletop.com/#customtable?type=Weapon%20Masteries",
+      "fichesOuvertes": 38,
+      "blocsDetailReleves": 76,
+      "entrees": [
+        {
+          "nom": "Battleaxe",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Blowgun",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Club",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Dagger",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Dart",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Flail",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Glaive",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Greataxe",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Greatclub",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Greatsword",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Halberd",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Hand Crossbow",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Handaxe",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Heavy Crossbow",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Javelin",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Lance",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Light Crossbow",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Light Hammer",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Longbow",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Longsword",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Mace",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Maul",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Morningstar",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Musket",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Pike",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Pistol",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Quarterstaff",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Rapier",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Scimitar",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Shortbow",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Shortsword",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Sickle",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Sling",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Spear",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Trident",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "War Pick",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Warhammer",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        },
+        {
+          "nom": "Whip",
+          "source": "D&D 2024 PHB",
+          "edition": "2024",
+          "blocsDetail": 2
+        }
+      ]
+    }
+  ],
+  "limites": [
+    "Le guide Shard est rangé avec le corpus historique ; son édition reste any lorsque le livre affiché ne précise pas de millésime.",
+    "Les fiches natives des dix rubriques accessibles le 15 octobre 2026 sont couvertes par ce relevé. Les autres bibliothèques, ajouts futurs et les fiches de sorts ou monstres cibles des liens ne sont pas intégralement vérifiés par cette passe.",
+    "La validation porte sur les HTML relevés et les simulations DOM locales. La version installée dans Tampermonkey n’a pas été contrôlée en direct."
+  ]
+}

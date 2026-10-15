@@ -136,5 +136,41 @@
     "spell": "Witch Bolt",
     "en": "Using a Higher-Level Spell Slot. The initial damage increases by  for each spell slot level above 1.",
     "fr": "Emplacement de niveau supérieur. Les dégâts initiaux augmentent de  pour chaque niveau d’emplacement de sort supérieur à 1."
+  },
+  {
+    "id": "spell.2024.magnificent-mansion.paragraph.1",
+    "spell": "Mordenkainen’s Magnificent Mansion",
+    "en": "You conjure a shimmering door in range that lasts for the duration. The door leads to an extradimensional dwelling and is 5 feet wide and 10 feet tall. You and any creature you designate when you cast the spell can enter the extradimensional dwelling as long as the door remains open. You can open or close it (no action required) if you are within 30 feet of it. While closed, the door is imperceptible.",
+    "fr": "Vous invoquez une porte chatoyante à portée pour toute la durée du sort. Elle ouvre sur une demeure extradimensionnelle et mesure 5 feet de large sur 10 feet de haut. Vous et les créatures que vous désignez à l’incantation pouvez entrer dans la demeure tant que la porte reste ouverte. Vous pouvez l’ouvrir ou la fermer sans action si vous êtes à 30 feet ou moins d’elle. Lorsqu’elle est fermée, elle est imperceptible."
+  },
+  {
+    "id": "spell.2024.magnificent-mansion.paragraph.2",
+    "spell": "Mordenkainen’s Magnificent Mansion",
+    "en": "Beyond the door is a magnificent foyer with numerous chambers beyond. The dwelling’s atmosphere is clean, fresh, and warm.",
+    "fr": "Au-delà de la porte se trouve un magnifique vestibule desservant de nombreuses pièces. L’atmosphère de la demeure est propre, fraîche et agréablement chaude."
+  },
+  {
+    "id": "spell.2024.magnificent-mansion.paragraph.3",
+    "spell": "Mordenkainen’s Magnificent Mansion",
+    "en": "You can create any floor plan you like for the dwelling, but it can’t exceed 50 contiguous 10-foot Cubes. The place is furnished and decorated as you choose. It contains sufficient food to serve a ninecourse banquet for up to 100 people. Furnishings and other objects created by this spell dissipate into smoke if removed from it.",
+    "fr": "Vous choisissez librement le plan de la demeure, qui ne peut toutefois dépasser 50 Cubes contigus de 10 feet. Elle est meublée et décorée à votre convenance et contient assez de nourriture pour servir un banquet de neuf plats à un maximum de 100 personnes. Les meubles et autres objets créés par ce sort se dissipent en fumée s’ils sont emportés hors de la demeure."
+  },
+  {
+    "id": "spell.2024.magnificent-mansion.paragraph.3.phb",
+    "spell": "Mordenkainen’s Magnificent Mansion",
+    "en": "You can create any floor plan you like for the dwelling, but it can’t exceed 50 contiguous 10-foot Cubes. The place is furnished and decorated as you choose. It contains sufficient food to serve a nine-course banquet for up to 100 people. Furnishings and other objects created by this spell dissipate into smoke if removed from it.",
+    "fr": "Vous choisissez librement le plan de la demeure, qui ne peut toutefois dépasser 50 Cubes contigus de 10 feet. Elle est meublée et décorée à votre convenance et contient assez de nourriture pour servir un banquet de neuf plats à un maximum de 100 personnes. Les meubles et autres objets créés par ce sort se dissipent en fumée s’ils sont emportés hors de la demeure."
+  },
+  {
+    "id": "spell.2024.magnificent-mansion.paragraph.4",
+    "spell": "Mordenkainen’s Magnificent Mansion",
+    "en": "A staff of 100 near-transparent servants attends all who enter. You determine the appearance of these servants and their attire. They are invulnerable and obey your commands. Each servant can perform tasks that a human could perform, but they can’t attack or take any action that would directly harm another creature. Thus the servants can fetch things, clean, mend, fold clothes, light fires, serve food, pour wine, and so on. The servants can’t leave the dwelling.",
+    "fr": "100 serviteurs presque transparents s’occupent de tous les visiteurs. Vous choisissez leur apparence et leur tenue. Ils sont invulnérables et obéissent à vos ordres. Chacun peut accomplir les tâches dont un humain est capable, mais ne peut pas attaquer ni entreprendre d’action susceptible de nuire directement à une autre créature. Ils peuvent ainsi apporter des objets, nettoyer, réparer, plier des vêtements, allumer un feu, servir de la nourriture ou verser du vin. Les serviteurs ne peuvent pas quitter la demeure."
+  },
+  {
+    "id": "spell.2024.magnificent-mansion.paragraph.5",
+    "spell": "Mordenkainen’s Magnificent Mansion",
+    "en": "When the spell ends, any creatures or objects left inside the extradimensional space are expelled into the unoccupied spaces nearest to the entrance.",
+    "fr": "Lorsque le sort prend fin, les créatures et objets encore présents dans l’espace extradimensionnel sont expulsés vers les espaces inoccupés les plus proches de l’entrée."
   }
 ]

@@ -315,6 +315,46 @@
       "en": "Checking sign in status...",
       "fr": "Vérification de la connexion…",
       "source": "Traduction proposée des libellés relevés dans Shard (chargement, accueil, catalogue et fiches d’objets) · https://play.shardtabletop.com/ · 14 octobre 2026"
+    },
+    {
+      "id": "shard.interface.custom.diseases",
+      "kind": "term",
+      "en": "Diseases",
+      "fr": "Maladies",
+      "source": "Traduction proposée des rubriques de références personnalisées Shard · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.interface.custom.draconic-ancestries",
+      "kind": "term",
+      "en": "Draconic Ancestries",
+      "fr": "Ascendances draconiques",
+      "source": "Traduction proposée des rubriques de références personnalisées Shard · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.interface.custom.maneuver-options",
+      "kind": "term",
+      "en": "Maneuver Options",
+      "fr": "Options de manœuvre",
+      "source": "Traduction proposée des rubriques de références personnalisées Shard · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.interface.custom.reference-cards",
+      "kind": "term",
+      "en": "Reference Cards",
+      "fr": "Fiches de référence",
+      "source": "Traduction proposée des rubriques de références personnalisées Shard · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.interface.custom.warlock-pact-boons",
+      "kind": "term",
+      "en": "Warlock Pact Boons",
+      "fr": "Bienfaits de pacte de l’Occultiste",
+      "source": "Traduction proposée des rubriques de références personnalisées Shard · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
     }
   ]
 }

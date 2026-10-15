@@ -112,6 +112,182 @@
       "en": "Woodland elves roam the high forests in small family groups. The tend to be reclusive and nomadic, but sometimes form permanent communities. Their sacred places nest high among the trees in old growth forests.",
       "fr": "Les elfes sylvestres parcourent les hautes forêts en petits groupes familiaux. Ils sont généralement reclus et nomades, mais fondent parfois des communautés permanentes. Leurs lieux sacrés sont nichés au sommet des arbres des forêts anciennes.",
       "source": "Traduction proposée des descriptions visibles de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "shard.custom.draconic-ancestries.8066960b8cd5",
+      "kind": "description",
+      "en": "You are descended from a black dragon.",
+      "fr": "Vous descendez d’un dragon noir.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Draconic Ancestries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.draconic-ancestries.9472cd6f5ba1",
+      "kind": "description",
+      "en": "You can use your action to exhale acid in a line 30 feet long by 5 feet wide. Each creature in the line must make a Dexterity saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 acid damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.",
+      "fr": "Vous pouvez utiliser votre action pour souffler de l’acide dans une ligne de 30 feet de long sur 5 feet de large. Chaque créature dans cette zone doit effectuer un jet de sauvegarde de Dextérité. Le DD est égal à 8 + votre modificateur de Constitution + votre bonus de maîtrise. Une créature subit 2d6 dégâts d’acide en cas d’échec, et la moitié en cas de réussite. Les dégâts passent à 3d6 au niveau 6, à 4d6 au niveau 11 et à 5d6 au niveau 16.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Draconic Ancestries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.draconic-ancestries.5420f1af7519",
+      "kind": "description",
+      "en": "After you use your breath weapon, you can't use it again until you complete a short or long rest.",
+      "fr": "Après avoir utilisé votre Souffle, vous devez terminer un Repos court ou long avant de pouvoir l’utiliser de nouveau.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Draconic Ancestries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.draconic-ancestries.dc02643fe144",
+      "kind": "term",
+      "en": "Draconic Resistance",
+      "fr": "Résistance draconique",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Draconic Ancestries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.draconic-ancestries.4b54b03161ba",
+      "kind": "description",
+      "en": "You have resistance to acid damage.",
+      "fr": "Vous avez la Résistance aux dégâts d’acide.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Draconic Ancestries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.draconic-ancestries.ad899d5aa64e",
+      "kind": "description",
+      "en": "You are descended from a blue dragon.",
+      "fr": "Vous descendez d’un dragon bleu.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Draconic Ancestries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.draconic-ancestries.61c305d33033",
+      "kind": "description",
+      "en": "You can use your action to exhale lightning in a line 30 feet long by 5 feet wide. Each creature in the line must make a Dexterity saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 lightning damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.",
+      "fr": "Vous pouvez utiliser votre action pour souffler de la foudre dans une ligne de 30 feet de long sur 5 feet de large. Chaque créature dans cette zone doit effectuer un jet de sauvegarde de Dextérité. Le DD est égal à 8 + votre modificateur de Constitution + votre bonus de maîtrise. Une créature subit 2d6 dégâts de foudre en cas d’échec, et la moitié en cas de réussite. Les dégâts passent à 3d6 au niveau 6, à 4d6 au niveau 11 et à 5d6 au niveau 16.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Draconic Ancestries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.draconic-ancestries.3bb0cc96fc98",
+      "kind": "description",
+      "en": "You have resistance to lightning damage.",
+      "fr": "Vous avez la Résistance aux dégâts de foudre.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Draconic Ancestries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.draconic-ancestries.9c3b33a0f88f",
+      "kind": "description",
+      "en": "You are descended from a brass dragon.",
+      "fr": "Vous descendez d’un dragon d’airain.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Draconic Ancestries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.draconic-ancestries.e28a82f701d5",
+      "kind": "description",
+      "en": "You can use your action to exhale fire in a line 30 feet long by 5 feet wide. Each creature in the line must make a Dexterity saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 fire damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.",
+      "fr": "Vous pouvez utiliser votre action pour souffler du feu dans une ligne de 30 feet de long sur 5 feet de large. Chaque créature dans cette zone doit effectuer un jet de sauvegarde de Dextérité. Le DD est égal à 8 + votre modificateur de Constitution + votre bonus de maîtrise. Une créature subit 2d6 dégâts de feu en cas d’échec, et la moitié en cas de réussite. Les dégâts passent à 3d6 au niveau 6, à 4d6 au niveau 11 et à 5d6 au niveau 16.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Draconic Ancestries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.draconic-ancestries.5ac722d723a4",
+      "kind": "description",
+      "en": "You are descended from a bronze dragon.",
+      "fr": "Vous descendez d’un dragon de bronze.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Draconic Ancestries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.draconic-ancestries.b59905adaf8e",
+      "kind": "description",
+      "en": "You are descended from a copper dragon.",
+      "fr": "Vous descendez d’un dragon de cuivre.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Draconic Ancestries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.draconic-ancestries.07a53ab721f5",
+      "kind": "description",
+      "en": "You are descended from a gold dragon.",
+      "fr": "Vous descendez d’un dragon d’or.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Draconic Ancestries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.draconic-ancestries.4ce567a7d51d",
+      "kind": "description",
+      "en": "You can use your action to exhale fire in a 15 foot cone. Each creature in the cone must make a Dexterity saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 fire damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.",
+      "fr": "Vous pouvez utiliser votre action pour souffler du feu dans un cône de 15 feet. Chaque créature dans cette zone doit effectuer un jet de sauvegarde de Dextérité. Le DD est égal à 8 + votre modificateur de Constitution + votre bonus de maîtrise. Une créature subit 2d6 dégâts de feu en cas d’échec, et la moitié en cas de réussite. Les dégâts passent à 3d6 au niveau 6, à 4d6 au niveau 11 et à 5d6 au niveau 16.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Draconic Ancestries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.draconic-ancestries.cf4c886e44df",
+      "kind": "description",
+      "en": "You are descended from a green dragon.",
+      "fr": "Vous descendez d’un dragon vert.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Draconic Ancestries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.draconic-ancestries.a21386d488a8",
+      "kind": "description",
+      "en": "You can use your action to exhale poison in a 15 foot cone. Each creature in the cone must make a Constitution saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 poison damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.",
+      "fr": "Vous pouvez utiliser votre action pour souffler du poison dans un cône de 15 feet. Chaque créature dans cette zone doit effectuer un jet de sauvegarde de Constitution. Le DD est égal à 8 + votre modificateur de Constitution + votre bonus de maîtrise. Une créature subit 2d6 dégâts de poison en cas d’échec, et la moitié en cas de réussite. Les dégâts passent à 3d6 au niveau 6, à 4d6 au niveau 11 et à 5d6 au niveau 16.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Draconic Ancestries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.draconic-ancestries.1e0e6f0dc1a4",
+      "kind": "description",
+      "en": "You have resistance to poison damage.",
+      "fr": "Vous avez la Résistance aux dégâts de poison.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Draconic Ancestries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.draconic-ancestries.5e6c4633b6b8",
+      "kind": "description",
+      "en": "You are descended from a red dragon.",
+      "fr": "Vous descendez d’un dragon rouge.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Draconic Ancestries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.draconic-ancestries.582d01a1ae83",
+      "kind": "description",
+      "en": "You are descended from a silver dragon.",
+      "fr": "Vous descendez d’un dragon d’argent.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Draconic Ancestries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.draconic-ancestries.9a89b4931997",
+      "kind": "description",
+      "en": "You can use your action to exhale frost in a 15 foot cone. Each creature in the cone must make a Constitution saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 cold damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.",
+      "fr": "Vous pouvez utiliser votre action pour souffler du givre dans un cône de 15 feet. Chaque créature dans cette zone doit effectuer un jet de sauvegarde de Constitution. Le DD est égal à 8 + votre modificateur de Constitution + votre bonus de maîtrise. Une créature subit 2d6 dégâts de froid en cas d’échec, et la moitié en cas de réussite. Les dégâts passent à 3d6 au niveau 6, à 4d6 au niveau 11 et à 5d6 au niveau 16.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Draconic Ancestries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.draconic-ancestries.3ef48ade10a8",
+      "kind": "description",
+      "en": "You have resistance to cold damage.",
+      "fr": "Vous avez la Résistance aux dégâts de froid.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Draconic Ancestries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.draconic-ancestries.82388e18c43c",
+      "kind": "description",
+      "en": "You are descended from a white dragon.",
+      "fr": "Vous descendez d’un dragon blanc.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Draconic Ancestries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
     }
   ]
 }

@@ -62,6 +62,8 @@ La 1.17.10 ajoute 1 972 correspondances pour les aptitudes, dons et armes après
 
 La 1.17.11 corrige les espaces manquants dans six aptitudes SRD et une métamagie, dont Défense supérieure du Moine. Elle ajoute 23 paragraphes et variantes locaux pour Communication avec les animaux, Trait ensorcelé, Rayon de lune, Animation des morts et Terrain hallucinatoire. `npm run test:corpus` permet de lancer les validations du corpus et ces régressions ciblées sans parcourir tout le catalogue Shard ; `npm test` conserve les autres simulations de fiches.
 
+La 1.17.12 ajoute 347 correspondances pour les dix rubriques de références personnalisées et les paragraphes du Manoir somptueux de Mordenkainen. Les 192 cartes et fiches intégrales accessibles ont été relevées et vérifiées localement : maladies, ascendances draconiques, manifestations, styles, manœuvres, propriétés de botte, métamagie, Magie sauvage, pactes et bottes d’arme. `npm run test:references` vérifie leur rendu et exécute le même analyseur que le panneau. Les objets restent hors de cette passe ; le [relevé détaillé](audit/inventaires/references-personnalisees.json) précise les sources et limites.
+
 ## Repérer un passage non traduit
 
 1. Ouvrir la fiche ou la liste concernée dans Shard, avec la traduction activée.

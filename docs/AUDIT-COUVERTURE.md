@@ -178,3 +178,29 @@ Le pack `translations/dnd-2024/phb/sorts/traductions.json` ajoute 23 paragraphes
 La fixture `tests/fixtures/spell-paragraphs-2024.json` et `tests/test-spell-paragraphs.cjs` vérifient ces textes hors ligne, avec liens, dés cliquables et icônes, une valeur de dé inconnue à laisser intacte et la restauration exacte du HTML anglais. Défense supérieure possède une attente lisible indépendante des données générées. Les tests Python contrôlent aussi les autres défauts d’espacement corrigés. Le raccourci `npm run test:corpus` exécute ces contrôles et la validation des sources ; la suite complète reste `npm test`.
 
 Cette passe vérifie les exemples signalés et les défauts similaires repérés dans les sources structurées. Elle ne constitue pas une relecture de tous les sorts ni une vérification en direct de cette version installée dans Tampermonkey. Les autres descriptions découpées différemment ou absentes du SRD peuvent encore nécessiter des paragraphes locaux explicites.
+
+## Dix rubriques de références personnalisées — 15 octobre 2026
+
+Le relevé de la 1.17.12 couvre les cartes et les fiches intégrales des dix types demandés. Les listes ont été parcourues jusqu’à leur fin, notamment les manifestations chargées progressivement. Les titres, sources et paragraphes des cartes ont été comparés aux fiches ouvertes.
+
+| Rubrique | Fiches ouvertes |
+| --- | ---: |
+| Maladies | 3 |
+| Ascendances draconiques | 10 |
+| Manifestations occultes | 79 |
+| Styles de combat | 12 |
+| Options de manœuvre | 20 |
+| Propriétés de botte | 8 |
+| Métamagie | 18 |
+| Fiches de référence : Magie sauvage | 1 |
+| Bienfaits de pacte de l’Occultiste | 3 |
+| Bottes d’arme | 38 |
+| Total | 192 |
+
+347 correspondances sont ajoutées, y compris les prérequis séparés ou entre parenthèses, les variantes des paragraphes du Manoir et la graphie corrigée « battleaxe » en complément de « batteaxe » observée dans Shard. Les effets des versions anciennes et 2024 ne sont pas réécrits les uns à partir des autres. Le nom précis du livre est conservé ; les textes du guide Shard sans millésime restent `any`, même dans le corpus historique.
+
+Le navigateur intégré n’exposait pas le panneau Tampermonkey. Le même analyseur du userscript a donc été exécuté localement sur les HTML relevés, puis relancé après les ajouts. Les 192 cartes et fiches représentent 1 279 blocs contrôlés, 616 liens et 63 dés cliquables. Les cellules, fusions de lignes et colonnes de la table de Magie sauvage et la restauration exacte du HTML anglais sont vérifiées. Les candidats restants de l’analyseur sont les noms de livres et la notation d’un dé ; aucun reliquat de description n’est conservé.
+
+Ce contrôle a également révélé que la graphie « œil du mage » d’une description SRD ne concordait pas avec le nom « Oeil du mage » utilisé par un lien AideDD. Le moteur reconnaît désormais ces variantes de ligature pour conserver le lien et traduire le paragraphe entier.
+
+L’inventaire est dans `audit/inventaires/references-personnalisees.json`, les HTML et attentes dans `tests/fixtures/custom-references.json`, et le résultat de `npm run test:references` dans `audit/generes/references-personnalisees.json`. `validationLocale` est renseignée pour les dix rubriques du périmètre ; `traductionIntegraleValidee` reste distincte. Les autres bibliothèques, les fiches cibles des liens de sorts et monstres et le rendu de la version installée dans Tampermonkey restent à contrôler. Les objets ne font pas partie de cette passe.

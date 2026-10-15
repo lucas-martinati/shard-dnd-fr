@@ -315,6 +315,110 @@
       "en": "Charisma.",
       "fr": "Charisme.",
       "source": "Traduction proposée du texte observé sur Shard · Resilient · relevé du 14 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "shard.custom.fighting-styles.1a1092589862",
+      "kind": "description",
+      "en": "You learn two cantrips of your choice from the cleric spell list. They count as paladin spells for you, and Charisma is your spellcasting ability for them. Whenever you gain a level in this class, you can replace one of these cantrips with another cantrip from the cleric spell list.",
+      "fr": "Vous apprenez deux sorts mineurs de votre choix dans la liste des sorts de Clerc. Ils sont considérés comme des sorts de Paladin pour vous, et le Charisme est votre caractéristique d’incantation pour ces sorts. Chaque fois que vous gagnez un niveau dans cette classe, vous pouvez remplacer l’un d’eux par un autre sort mineur de la liste des sorts de Clerc.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Fighting Styles · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.fighting-styles.00d9a820e1b5",
+      "kind": "description",
+      "en": "Being unable to see a creature doesn’t impose disadvantage on your attack rolls against it, provided the creature isn’t hidden from you.",
+      "fr": "Ne pas voir une créature ne vous impose pas le Désavantage aux jets d’attaque contre elle, à condition qu’elle ne soit pas cachée de vous.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Fighting Styles · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.fighting-styles.24261d4da21d",
+      "kind": "description",
+      "en": "While you are wearing armor, you gain a +1 bonus to AC.",
+      "fr": "Tant que vous portez une armure, vous bénéficiez d’un bonus de +1 à la CA.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Fighting Styles · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.fighting-styles.c84320cc573d",
+      "kind": "description",
+      "en": "You learn two cantrips of your choice from the druid spell list. They count as ranger spells for you, and Wisdom is your spellcasting ability for them. Whenever you gain a level in this class, you can replace one of these cantrips with another cantrip from the druid spell list.",
+      "fr": "Vous apprenez deux sorts mineurs de votre choix dans la liste des sorts de Druide. Ils sont considérés comme des sorts de Rôdeur pour vous, et la Sagesse est votre caractéristique d’incantation pour ces sorts. Chaque fois que vous gagnez un niveau dans cette classe, vous pouvez remplacer l’un d’eux par un autre sort mineur de la liste des sorts de Druide.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Fighting Styles · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.fighting-styles.e8a2014892db",
+      "kind": "description",
+      "en": "When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.",
+      "fr": "Lorsque vous maniez une arme de corps à corps dans une main et aucune autre arme, vous bénéficiez d’un bonus de +2 aux jets de dégâts de cette arme.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Fighting Styles · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.fighting-styles.c90ce09491f0",
+      "kind": "description",
+      "en": "When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.",
+      "fr": "Lorsque vous obtenez 1 ou 2 sur un dé de dégâts d’une attaque effectuée avec une arme de corps à corps maniée à deux mains, vous pouvez relancer ce dé et devez conserver le nouveau résultat, même s’il s’agit de 1 ou de 2. L’arme doit posséder la propriété À deux mains ou Polyvalente pour bénéficier de cet effet.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Fighting Styles · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.fighting-styles.94dfa744e617",
+      "kind": "description",
+      "en": "When a creature you can see hits a target that is within 5 feet of you with an attack, you can use your reaction to reduce the damage the target takes by 1d10 + your proficiency bonus (to a minimum of 0 damage). You must be wielding a shield or a simple or martial weapon to use this reaction.",
+      "fr": "Lorsqu’une créature que vous voyez touche par une attaque une cible située à 5 feet ou moins de vous, vous pouvez jouer votre Réaction pour réduire les dégâts subis par la cible de 1d10 + votre bonus de maîtrise, avec un minimum de 0 dégât. Vous devez manier un bouclier ou une arme courante ou de guerre pour utiliser cette Réaction.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Fighting Styles · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.fighting-styles.cc8393a0b9e2",
+      "kind": "description",
+      "en": "When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.",
+      "fr": "Lorsqu’une créature que vous voyez attaque une cible autre que vous située à 5 feet ou moins de vous, vous pouvez jouer votre Réaction pour imposer le Désavantage au jet d’attaque. Vous devez manier un bouclier.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Fighting Styles · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.fighting-styles.811db4e13352",
+      "kind": "description",
+      "en": "You can draw a weapon that has the thrown property as part of the attack you make with the weapon.",
+      "fr": "Vous pouvez dégainer une arme dotée de la propriété Lancer dans le cadre de l’attaque que vous effectuez avec cette arme.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Fighting Styles · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.fighting-styles.ff93fe41c7dd",
+      "kind": "description",
+      "en": "In addition, when you hit with a ranged attack using a thrown weapon, you gain a +1 bonus to the damage roll.",
+      "fr": "De plus, lorsque vous touchez avec une attaque à distance utilisant une arme lancée, vous bénéficiez d’un bonus de +1 au jet de dégâts.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Fighting Styles · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.fighting-styles.f512d1e49ab6",
+      "kind": "description",
+      "en": "When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.",
+      "fr": "Lorsque vous combattez à deux armes, vous pouvez ajouter votre modificateur de caractéristique aux dégâts de la seconde attaque.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Fighting Styles · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.fighting-styles.f1ed84c23a80",
+      "kind": "description",
+      "en": "Your unarmed strikes can deal bludgeoning damage equal to 1d6 + your Strength modifier. If you strike with two free hands, the d6 becomes a d8.",
+      "fr": "Vos attaques à mains nues peuvent infliger des dégâts contondants égaux à 1d6 + votre modificateur de Force. Si vous frappez avec vos deux mains libres, le d6 devient un d8.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Fighting Styles · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.fighting-styles.3c333dedcac1",
+      "kind": "description",
+      "en": "When you successfully start a grapple, you can deal 1d4 bludgeoning damage to the grappled creature. Until the grapple ends, you can also deal this damage to the creature whenever you hit it with a melee attack.",
+      "fr": "Lorsque vous agrippez une créature avec succès, vous pouvez lui infliger 1d4 dégâts contondants. Jusqu’à la fin de la lutte, vous pouvez également lui infliger ces dégâts chaque fois que vous la touchez avec une attaque de corps à corps.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Fighting Styles · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
     }
   ]
 }

@@ -644,7 +644,10 @@
       const entry=entries.get(normalize(match[1]));
       const heading=lookupPair(inlineKey(match[1]+'.'))?.replace(/[.:]$/,'')||lookupPair(inlineKey(match[1]))||entry?.fr;
       // Les descriptions restent françaises, même si les noms isolés sont bilingues.
-      return [...new Set([translate(en,source),heading?heading+match[2]:null,entry?entry.fr+match[2]:null,...(heading&&match[2]?[heading+'.',heading+':']:[]),...(/[,;]/.test(match[2])?[heading,entry?.fr]:[]),en,en.replace(/[\uE000-\uF8FF]/g,'')].filter(Boolean).map(s=>s.trim()))];
+      const values=[translate(en,source),heading?heading+match[2]:null,entry?entry.fr+match[2]:null,...(heading&&match[2]?[heading+'.',heading+':']:[]),...(/[,;]/.test(match[2])?[heading,entry?.fr]:[]),en,en.replace(/[\uE000-\uF8FF]/g,'')].filter(Boolean);
+      // Le SRD écrit « œil » là où certains noms AideDD emploient « oeil ».
+      // Reconnaître les deux graphies pour garder le lien dans le paragraphe traduit.
+      return [...new Set(values.flatMap(value=>[value,value.replace(/œ/gi,'oe'),value.replace(/oe/gi,'œ')]).map(s=>s.trim()))];
     }
     const formatted=[];
     for(const node of nodes){

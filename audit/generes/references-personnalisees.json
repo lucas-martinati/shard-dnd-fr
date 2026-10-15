@@ -1,0 +1,1065 @@
+{
+  "date": "2026-10-15",
+  "scriptVersion": "1.17.12",
+  "fiches": 192,
+  "blocsVerifies": 1279,
+  "liensVerifies": 616,
+  "desVerifies": 63,
+  "candidatsRestants": [],
+  "ecartsDeTraduction": [],
+  "metadonneesEtDes": [
+    {
+      "en": "Source. Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "Cackle Fever",
+      "occurrences": 6
+    },
+    {
+      "en": "Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "Cackle Fever",
+      "occurrences": 6,
+      "attribute": "title"
+    },
+    {
+      "en": "Source. Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "Black",
+      "occurrences": 16
+    },
+    {
+      "en": "Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "Black",
+      "occurrences": 16,
+      "attribute": "title"
+    },
+    {
+      "en": "Source. Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "Silver",
+      "occurrences": 4
+    },
+    {
+      "en": "Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "Silver",
+      "occurrences": 4,
+      "attribute": "title"
+    },
+    {
+      "en": "Source. Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "reference-unavailable",
+      "context": "Agonizing Blast",
+      "occurrences": 5
+    },
+    {
+      "en": "Source. Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 5
+    },
+    {
+      "en": "Source. D&D 2024 PHB",
+      "kind": "term",
+      "reason": "reference-unavailable",
+      "context": "Agonizing Blast",
+      "occurrences": 3
+    },
+    {
+      "en": "Source. D&D 2024 PHB",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 3
+    },
+    {
+      "en": "Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "reference-unavailable",
+      "context": "Agonizing Blast",
+      "occurrences": 5,
+      "attribute": "title"
+    },
+    {
+      "en": "Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 5,
+      "attribute": "title"
+    },
+    {
+      "en": "D&D 2024 PHB",
+      "kind": "term",
+      "reason": "reference-unavailable",
+      "context": "Agonizing Blast",
+      "occurrences": 3,
+      "attribute": "title"
+    },
+    {
+      "en": "D&D 2024 PHB",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 3,
+      "attribute": "title"
+    },
+    {
+      "en": "Source. Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "reference-unavailable",
+      "context": "Beguiling Influence",
+      "occurrences": 6
+    },
+    {
+      "en": "Source. Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 8
+    },
+    {
+      "en": "Source. D&D 2024 PHB",
+      "kind": "term",
+      "reason": "reference-unavailable",
+      "context": "Devil’s Sight",
+      "occurrences": 1
+    },
+    {
+      "en": "Source. D&D 2024 PHB",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 1
+    },
+    {
+      "en": "Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "reference-unavailable",
+      "context": "Beguiling Influence",
+      "occurrences": 6,
+      "attribute": "title"
+    },
+    {
+      "en": "Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 8,
+      "attribute": "title"
+    },
+    {
+      "en": "D&D 2024 PHB",
+      "kind": "term",
+      "reason": "reference-unavailable",
+      "context": "Devil’s Sight",
+      "occurrences": 1,
+      "attribute": "title"
+    },
+    {
+      "en": "D&D 2024 PHB",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 1,
+      "attribute": "title"
+    },
+    {
+      "en": "Source. D&D 2024 PHB",
+      "kind": "term",
+      "reason": "reference-unavailable",
+      "context": "Devouring Blade",
+      "occurrences": 4
+    },
+    {
+      "en": "Source. D&D 2024 PHB",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 4
+    },
+    {
+      "en": "Source. Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "reference-unavailable",
+      "context": "Dreadful Word",
+      "occurrences": 4
+    },
+    {
+      "en": "Source. Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 4
+    },
+    {
+      "en": "D&D 2024 PHB",
+      "kind": "term",
+      "reason": "reference-unavailable",
+      "context": "Devouring Blade",
+      "occurrences": 4,
+      "attribute": "title"
+    },
+    {
+      "en": "D&D 2024 PHB",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 4,
+      "attribute": "title"
+    },
+    {
+      "en": "Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "reference-unavailable",
+      "context": "Dreadful Word",
+      "occurrences": 4,
+      "attribute": "title"
+    },
+    {
+      "en": "Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 4,
+      "attribute": "title"
+    },
+    {
+      "en": "Source. Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "reference-unavailable",
+      "context": "Eyes of the Rune Keeper",
+      "occurrences": 5
+    },
+    {
+      "en": "Source. Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 5
+    },
+    {
+      "en": "Source. D&D 2024 PHB",
+      "kind": "term",
+      "reason": "reference-unavailable",
+      "context": "Fiendish Vigor",
+      "occurrences": 3
+    },
+    {
+      "en": "Source. D&D 2024 PHB",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 3
+    },
+    {
+      "en": "Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "reference-unavailable",
+      "context": "Eyes of the Rune Keeper",
+      "occurrences": 5,
+      "attribute": "title"
+    },
+    {
+      "en": "Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 5,
+      "attribute": "title"
+    },
+    {
+      "en": "D&D 2024 PHB",
+      "kind": "term",
+      "reason": "reference-unavailable",
+      "context": "Fiendish Vigor",
+      "occurrences": 3,
+      "attribute": "title"
+    },
+    {
+      "en": "D&D 2024 PHB",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 3,
+      "attribute": "title"
+    },
+    {
+      "en": "Source. Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "reference-unavailable",
+      "context": "Gift of the Ever-Living Ones",
+      "occurrences": 4
+    },
+    {
+      "en": "Source. Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 4
+    },
+    {
+      "en": "Source. D&D 2024 PHB",
+      "kind": "term",
+      "reason": "reference-unavailable",
+      "context": "Gift of the Protectors",
+      "occurrences": 2
+    },
+    {
+      "en": "Source. D&D 2024 PHB",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 6
+    },
+    {
+      "en": "Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "reference-unavailable",
+      "context": "Gift of the Ever-Living Ones",
+      "occurrences": 4,
+      "attribute": "title"
+    },
+    {
+      "en": "Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 4,
+      "attribute": "title"
+    },
+    {
+      "en": "D&D 2024 PHB",
+      "kind": "term",
+      "reason": "reference-unavailable",
+      "context": "Gift of the Protectors",
+      "occurrences": 2,
+      "attribute": "title"
+    },
+    {
+      "en": "D&D 2024 PHB",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 6,
+      "attribute": "title"
+    },
+    {
+      "en": "Source. D&D 2024 PHB",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "Lessons of the First Ones 3",
+      "occurrences": 8
+    },
+    {
+      "en": "Source. Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "reference-unavailable",
+      "context": "Lifedrinker",
+      "occurrences": 3
+    },
+    {
+      "en": "Source. Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 3
+    },
+    {
+      "en": "Source. D&D 2024 PHB",
+      "kind": "term",
+      "reason": "reference-unavailable",
+      "context": "Lifedrinker",
+      "occurrences": 2
+    },
+    {
+      "en": "D&D 2024 PHB",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "Lessons of the First Ones 3",
+      "occurrences": 8,
+      "attribute": "title"
+    },
+    {
+      "en": "Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "reference-unavailable",
+      "context": "Lifedrinker",
+      "occurrences": 3,
+      "attribute": "title"
+    },
+    {
+      "en": "Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 3,
+      "attribute": "title"
+    },
+    {
+      "en": "D&D 2024 PHB",
+      "kind": "term",
+      "reason": "reference-unavailable",
+      "context": "Lifedrinker",
+      "occurrences": 2,
+      "attribute": "title"
+    },
+    {
+      "en": "Source. Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "reference-unavailable",
+      "context": "Master of Myriad Forms",
+      "occurrences": 5
+    },
+    {
+      "en": "Source. Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 5
+    },
+    {
+      "en": "Source. D&D 2024 PHB",
+      "kind": "term",
+      "reason": "reference-unavailable",
+      "context": "Master of Myriad Forms",
+      "occurrences": 3
+    },
+    {
+      "en": "Source. D&D 2024 PHB",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 3
+    },
+    {
+      "en": "Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "reference-unavailable",
+      "context": "Master of Myriad Forms",
+      "occurrences": 5,
+      "attribute": "title"
+    },
+    {
+      "en": "Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 5,
+      "attribute": "title"
+    },
+    {
+      "en": "D&D 2024 PHB",
+      "kind": "term",
+      "reason": "reference-unavailable",
+      "context": "Master of Myriad Forms",
+      "occurrences": 3,
+      "attribute": "title"
+    },
+    {
+      "en": "D&D 2024 PHB",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 3,
+      "attribute": "title"
+    },
+    {
+      "en": "Source. Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "reference-unavailable",
+      "context": "Otherworldly Leap",
+      "occurrences": 3
+    },
+    {
+      "en": "Source. Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 3
+    },
+    {
+      "en": "Source. D&D 2024 PHB",
+      "kind": "term",
+      "reason": "reference-unavailable",
+      "context": "Otherworldly Leap",
+      "occurrences": 5
+    },
+    {
+      "en": "Source. D&D 2024 PHB",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 5
+    },
+    {
+      "en": "Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "reference-unavailable",
+      "context": "Otherworldly Leap",
+      "occurrences": 3,
+      "attribute": "title"
+    },
+    {
+      "en": "Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 3,
+      "attribute": "title"
+    },
+    {
+      "en": "D&D 2024 PHB",
+      "kind": "term",
+      "reason": "reference-unavailable",
+      "context": "Otherworldly Leap",
+      "occurrences": 5,
+      "attribute": "title"
+    },
+    {
+      "en": "D&D 2024 PHB",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 5,
+      "attribute": "title"
+    },
+    {
+      "en": "Source. Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "reference-unavailable",
+      "context": "Sculptor of Flesh",
+      "occurrences": 7
+    },
+    {
+      "en": "Source. Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 7
+    },
+    {
+      "en": "Source. D&D 2024 PHB",
+      "kind": "term",
+      "reason": "reference-unavailable",
+      "context": "Thirsting Blade",
+      "occurrences": 1
+    },
+    {
+      "en": "Source. D&D 2024 PHB",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 1
+    },
+    {
+      "en": "Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "reference-unavailable",
+      "context": "Sculptor of Flesh",
+      "occurrences": 7,
+      "attribute": "title"
+    },
+    {
+      "en": "Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 7,
+      "attribute": "title"
+    },
+    {
+      "en": "D&D 2024 PHB",
+      "kind": "term",
+      "reason": "reference-unavailable",
+      "context": "Thirsting Blade",
+      "occurrences": 1,
+      "attribute": "title"
+    },
+    {
+      "en": "D&D 2024 PHB",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 1,
+      "attribute": "title"
+    },
+    {
+      "en": "Source. Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "reference-unavailable",
+      "context": "Visions of Distant Realms",
+      "occurrences": 4
+    },
+    {
+      "en": "Source. Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 4
+    },
+    {
+      "en": "Source. D&D 2024 PHB",
+      "kind": "term",
+      "reason": "reference-unavailable",
+      "context": "Visions of Distant Realms",
+      "occurrences": 3
+    },
+    {
+      "en": "Source. D&D 2024 PHB",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 3
+    },
+    {
+      "en": "Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "reference-unavailable",
+      "context": "Visions of Distant Realms",
+      "occurrences": 4,
+      "attribute": "title"
+    },
+    {
+      "en": "Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 4,
+      "attribute": "title"
+    },
+    {
+      "en": "D&D 2024 PHB",
+      "kind": "term",
+      "reason": "reference-unavailable",
+      "context": "Visions of Distant Realms",
+      "occurrences": 3,
+      "attribute": "title"
+    },
+    {
+      "en": "D&D 2024 PHB",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 3,
+      "attribute": "title"
+    },
+    {
+      "en": "Source. Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "reference-unavailable",
+      "context": "Archery",
+      "occurrences": 6
+    },
+    {
+      "en": "Source. Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 10
+    },
+    {
+      "en": "Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "reference-unavailable",
+      "context": "Archery",
+      "occurrences": 6,
+      "attribute": "title"
+    },
+    {
+      "en": "Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 10,
+      "attribute": "title"
+    },
+    {
+      "en": "Source. Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "reference-unavailable",
+      "context": "Protection",
+      "occurrences": 4
+    },
+    {
+      "en": "Source. Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 4
+    },
+    {
+      "en": "Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "reference-unavailable",
+      "context": "Protection",
+      "occurrences": 4,
+      "attribute": "title"
+    },
+    {
+      "en": "Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 4,
+      "attribute": "title"
+    },
+    {
+      "en": "Source. D&D 2024 PHB",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "Ambush",
+      "occurrences": 16
+    },
+    {
+      "en": "D&D 2024 PHB",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "Ambush",
+      "occurrences": 16,
+      "attribute": "title"
+    },
+    {
+      "en": "Source. D&D 2024 PHB",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "Goading Attack",
+      "occurrences": 16
+    },
+    {
+      "en": "D&D 2024 PHB",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "Goading Attack",
+      "occurrences": 16,
+      "attribute": "title"
+    },
+    {
+      "en": "Source. D&D 2024 PHB",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "Riposte",
+      "occurrences": 8
+    },
+    {
+      "en": "D&D 2024 PHB",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "Riposte",
+      "occurrences": 8,
+      "attribute": "title"
+    },
+    {
+      "en": "Source. D&D 2024 PHB",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "Cleave",
+      "occurrences": 15
+    },
+    {
+      "en": "Source. D&D 2024 PHB",
+      "kind": "term",
+      "reason": "reference-unavailable",
+      "context": "Slow",
+      "occurrences": 1
+    },
+    {
+      "en": "D&D 2024 PHB",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "Cleave",
+      "occurrences": 15,
+      "attribute": "title"
+    },
+    {
+      "en": "D&D 2024 PHB",
+      "kind": "term",
+      "reason": "reference-unavailable",
+      "context": "Slow",
+      "occurrences": 1,
+      "attribute": "title"
+    },
+    {
+      "en": "Source. Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "Careful Spell",
+      "occurrences": 8
+    },
+    {
+      "en": "Source. D&D 2024 PHB",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "Careful Spell",
+      "occurrences": 8
+    },
+    {
+      "en": "Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "Careful Spell",
+      "occurrences": 8,
+      "attribute": "title"
+    },
+    {
+      "en": "D&D 2024 PHB",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "Careful Spell",
+      "occurrences": 8,
+      "attribute": "title"
+    },
+    {
+      "en": "Source. Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "Heightened Spell",
+      "occurrences": 6
+    },
+    {
+      "en": "Source. D&D 2024 PHB",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "Heightened Spell",
+      "occurrences": 10
+    },
+    {
+      "en": "Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "Heightened Spell",
+      "occurrences": 6,
+      "attribute": "title"
+    },
+    {
+      "en": "D&D 2024 PHB",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "Heightened Spell",
+      "occurrences": 10,
+      "attribute": "title"
+    },
+    {
+      "en": "Source. Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "Twinned Spell",
+      "occurrences": 2
+    },
+    {
+      "en": "Source. D&D 2024 PHB",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "Twinned Spell",
+      "occurrences": 2
+    },
+    {
+      "en": "Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "Twinned Spell",
+      "occurrences": 2,
+      "attribute": "title"
+    },
+    {
+      "en": "D&D 2024 PHB",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "Twinned Spell",
+      "occurrences": 2,
+      "attribute": "title"
+    },
+    {
+      "en": "1d100",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "Wild Magic Surge",
+      "occurrences": 2
+    },
+    {
+      "en": "Source. D&D 2024 PHB",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "Wild Magic Surge",
+      "occurrences": 2
+    },
+    {
+      "en": "D&D 2024 PHB",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "Wild Magic Surge",
+      "occurrences": 2,
+      "attribute": "title"
+    },
+    {
+      "en": "Source. Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "reference-unavailable",
+      "context": "Pact of the Blade",
+      "occurrences": 3
+    },
+    {
+      "en": "Source. Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 3
+    },
+    {
+      "en": "Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "reference-unavailable",
+      "context": "Pact of the Blade",
+      "occurrences": 3,
+      "attribute": "title"
+    },
+    {
+      "en": "Shard Player's Guide Volume 1",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 3,
+      "attribute": "title"
+    },
+    {
+      "en": "Source. D&D 2024 PHB",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "Battleaxe",
+      "occurrences": 16
+    },
+    {
+      "en": "D&D 2024 PHB",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "Battleaxe",
+      "occurrences": 16,
+      "attribute": "title"
+    },
+    {
+      "en": "Source. D&D 2024 PHB",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "Greatclub",
+      "occurrences": 16
+    },
+    {
+      "en": "D&D 2024 PHB",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "Greatclub",
+      "occurrences": 16,
+      "attribute": "title"
+    },
+    {
+      "en": "Source. D&D 2024 PHB",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "Light Crossbow",
+      "occurrences": 16
+    },
+    {
+      "en": "D&D 2024 PHB",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "Light Crossbow",
+      "occurrences": 16,
+      "attribute": "title"
+    },
+    {
+      "en": "Source. D&D 2024 PHB",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "Pike",
+      "occurrences": 16
+    },
+    {
+      "en": "D&D 2024 PHB",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "Pike",
+      "occurrences": 16,
+      "attribute": "title"
+    },
+    {
+      "en": "Source. D&D 2024 PHB",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "Sling",
+      "occurrences": 12
+    },
+    {
+      "en": "D&D 2024 PHB",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "Sling",
+      "occurrences": 12,
+      "attribute": "title"
+    }
+  ],
+  "groupes": [
+    {
+      "type": "Diseases",
+      "fiches": 3,
+      "cartesEtFichesVerifiees": true
+    },
+    {
+      "type": "Draconic Ancestries",
+      "fiches": 10,
+      "cartesEtFichesVerifiees": true
+    },
+    {
+      "type": "Eldritch Invocations",
+      "fiches": 79,
+      "cartesEtFichesVerifiees": true
+    },
+    {
+      "type": "Fighting Styles",
+      "fiches": 12,
+      "cartesEtFichesVerifiees": true
+    },
+    {
+      "type": "Maneuver Options",
+      "fiches": 20,
+      "cartesEtFichesVerifiees": true
+    },
+    {
+      "type": "Mastery Properties",
+      "fiches": 8,
+      "cartesEtFichesVerifiees": true
+    },
+    {
+      "type": "Metamagic",
+      "fiches": 18,
+      "cartesEtFichesVerifiees": true
+    },
+    {
+      "type": "Reference Cards",
+      "fiches": 1,
+      "cartesEtFichesVerifiees": true
+    },
+    {
+      "type": "Warlock Pact Boons",
+      "fiches": 3,
+      "cartesEtFichesVerifiees": true
+    },
+    {
+      "type": "Weapon Masteries",
+      "fiches": 38,
+      "cartesEtFichesVerifiees": true
+    }
+  ],
+  "limites": [
+    "Validation locale des HTML relevés ; le userscript installé dans Tampermonkey n’a pas été contrôlé en direct.",
+    "Le relevé couvre les entrées accessibles dans les dix rubriques le 15 octobre 2026 ; les ajouts futurs et les autres bibliothèques restent à vérifier."
+  ]
+}

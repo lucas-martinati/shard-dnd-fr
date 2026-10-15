@@ -101,6 +101,889 @@
       "id": "narrative.class.wizard.any.1",
       "en": "Able to learn and cast spells, Wizards are always searching for hidden knowledge and power.",
       "fr": "Capables d’apprendre et de lancer des sorts, les magiciens recherchent sans cesse les connaissances cachées et le pouvoir."
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.f0d4e1e433ae",
+      "kind": "description",
+      "en": "Prerequisite: Eldritch Blast spell",
+      "fr": "Prérequis : sort Décharge occulte",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.7d93b6fed40b",
+      "kind": "description",
+      "en": "When you cast eldritch blast, add your Charisma modifier to the damage it deals on a hit.",
+      "fr": "Lorsque vous lancez Décharge occulte, ajoutez votre modificateur de Charisme aux dégâts infligés lorsque l’attaque touche.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.dc804742ba6f",
+      "kind": "description",
+      "en": "You can cast mage armor on yourself at will, without expending a spell slot or material components.",
+      "fr": "Vous pouvez lancer Armure de mage sur vous-même à volonté, sans dépenser d’emplacement de sort ni de composantes matérielles.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.e4ef1778dfab",
+      "kind": "description",
+      "en": "Prerequisite: 9th level",
+      "fr": "Prérequis : niveau 9",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.0134dcabf6d0",
+      "kind": "description",
+      "en": "You can cast levitate on yourself at will, without expending a spell slot or material components.",
+      "fr": "Vous pouvez lancer Lévitation sur vous-même à volonté, sans dépenser d’emplacement de sort ni de composantes matérielles.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.04ce03c1738c",
+      "kind": "term",
+      "en": "Aspect of the Moon",
+      "fr": "Aspect de la lune",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.ef1cc6288f60",
+      "kind": "description",
+      "en": "Prerequisite: Pact of the Tome feature",
+      "fr": "Prérequis : aptitude Pacte du grimoire",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.2ce7a719db07",
+      "kind": "description",
+      "en": "You no longer need to sleep and can't be forced to sleep by any means. To gain the benefits of a long rest, you can spend all 8 hours doing light activity, such as reading your Book of Shadows and keeping watch.",
+      "fr": "Vous n’avez plus besoin de dormir et aucun moyen ne peut vous forcer à dormir. Pour bénéficier d’un Repos long, vous pouvez consacrer les 8 heures à des activités légères, comme lire votre Livre des ombres et monter la garde.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.f52afd5f0663",
+      "kind": "term",
+      "en": "Beast Speech",
+      "fr": "Langage des bêtes",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.5796b50bad4f",
+      "kind": "description",
+      "en": "You can cast speak with animals at will, without expending a spell slot.",
+      "fr": "Vous pouvez lancer Communication avec les animaux à volonté, sans dépenser d’emplacement de sort.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.116d20eae444",
+      "kind": "term",
+      "en": "Beguiling Influence",
+      "fr": "Influence séduisante",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.201e7c611101",
+      "kind": "description",
+      "en": "You gain proficiency in the Deception and Persuasion skills.",
+      "fr": "Vous gagnez la maîtrise des compétences Tromperie et Persuasion.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.343306b7d8f3",
+      "kind": "term",
+      "en": "Bewitching Whispers",
+      "fr": "Murmures ensorcelants",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.feb140d36937",
+      "kind": "description",
+      "en": "Prerequisite: 7th level",
+      "fr": "Prérequis : niveau 7",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.07a7d7c183c7",
+      "kind": "description",
+      "en": "You can cast compulsion once using a warlock spell slot. You can't do so again until you finish a long rest.",
+      "fr": "Vous pouvez lancer Compulsion une fois en utilisant un emplacement de sort d’Occultiste. Vous devez terminer un Repos long avant de pouvoir le lancer de nouveau ainsi.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.7efdb15e93ca",
+      "kind": "term",
+      "en": "Book of Ancient Secrets",
+      "fr": "Livre des secrets anciens",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.b72c02804b3a",
+      "kind": "description",
+      "en": "You can now inscribe magical rituals in your Book of Shadows. Choose two 1st-level spells that have the ritual tag from any class's spell list. The spells needn't be from the same spell list. The spells appear in the book and don't count against the number of spells you know. With your Book of Shadows in hand, you can cast the chosen spells as rituals. You can't cast the spells except as rituals, unless you've learned them by some other means. You can also cast a warlock spell you know as a ritual if it has the ritual tag.",
+      "fr": "Vous pouvez désormais inscrire des rituels magiques dans votre Livre des ombres. Choisissez deux sorts de niveau 1 portant la mention Rituel dans les listes de sorts de n’importe quelles classes. Ces sorts peuvent provenir de listes différentes. Ils apparaissent dans le livre et ne comptent pas dans le nombre de sorts que vous connaissez. Votre Livre des ombres en main, vous pouvez les lancer comme Rituels. Vous ne pouvez les lancer autrement que si vous les avez appris par un autre moyen. Vous pouvez également lancer comme Rituel un sort d’Occultiste que vous connaissez s’il porte la mention Rituel.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.171c3aaceef9",
+      "kind": "description",
+      "en": "On your adventures, you can add other ritual spells to your Book of Shadows. When you find such a spell, you can add it to the book if the spell's level is equal to or less than half your warlock level (rounded up) and if you can spare the time to transcribe the spell. For each level of the spell, the transcription process takes 2 hours and costs 50 gp for the rare inks needed to inscribe it.",
+      "fr": "Au fil de vos aventures, vous pouvez ajouter d’autres sorts rituels à votre Livre des ombres. Lorsque vous trouvez un tel sort, vous pouvez le recopier si son niveau ne dépasse pas la moitié de votre niveau d’Occultiste, arrondie au supérieur, et si vous disposez du temps nécessaire. Pour chaque niveau du sort, la transcription demande 2 heures et coûte 50 po d’encres rares.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.e60295c94467",
+      "kind": "term",
+      "en": "Chains of Carceri",
+      "fr": "Chaînes de Carcères",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.bc4595dd46ae",
+      "kind": "description",
+      "en": "Prerequisite: Pact of the Chain feature, 15th level",
+      "fr": "Prérequis : aptitude Pacte de la chaîne, niveau 15",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.a5c5e89cf71d",
+      "kind": "description",
+      "en": "You can cast hold monster at will—targeting a celestial, fiend, or elemental—without expending a spell slot or material components. You must finish a long rest before you can use this invocation on the same creature again.",
+      "fr": "Vous pouvez lancer Immobilisation de monstre à volonté, en ciblant un céleste, un fiélon ou un élémentaire, sans dépenser d’emplacement de sort ni de composantes matérielles. Vous devez terminer un Repos long avant d’utiliser de nouveau cette manifestation sur la même créature.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.0b1d52b965f0",
+      "kind": "term",
+      "en": "Chains of the Deodand",
+      "fr": "Chaînes du Déodand",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.668c877d510c",
+      "kind": "term",
+      "en": "Cloak of Flies",
+      "fr": "Cape de mouches",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.5b2f12c6fe58",
+      "kind": "description",
+      "en": "Prerequisite: 5th level",
+      "fr": "Prérequis : niveau 5",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.92be021c491e",
+      "kind": "description",
+      "en": "As a bonus action, you can surround yourself with a magical aura that looks like buzzing flies. The aura extends 5 feet from you in every direction, but not through total cover. It lasts until you're incapacitated or you dismiss it as a bonus action.",
+      "fr": "Par une action Bonus, vous pouvez vous entourer d’une aura magique semblable à des mouches bourdonnantes. Elle s’étend à 5 feet de vous dans toutes les directions, sans traverser un Abri total. Elle persiste jusqu’à ce que vous soyez Neutralisé ou que vous la dissipiez par une action Bonus.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.256a527986fa",
+      "kind": "description",
+      "en": "The aura grants you advantage on Charisma (Intimidation) checks but disadvantage on all other Charisma checks. Any other creature that starts its turn in the aura takes poison damage equal to your Charisma modifier (minimum of 0 damage).",
+      "fr": "L’aura vous donne l’Avantage aux tests de Charisme (Intimidation), mais le Désavantage à tous les autres tests de Charisme. Toute autre créature qui commence son tour dans l’aura subit des dégâts de poison égaux à votre modificateur de Charisme, avec un minimum de 0 dégât.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.6fb6b13ed3eb",
+      "kind": "description",
+      "en": "Once you use this invocation, you can't use it again until you finish a short or long rest.",
+      "fr": "Après avoir utilisé cette manifestation, vous devez terminer un Repos court ou long avant de pouvoir l’utiliser de nouveau.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.3160113440ae",
+      "kind": "description",
+      "en": "You can see normally in darkness, both magical and nonmagical, to a distance of 120 feet.",
+      "fr": "Vous voyez normalement dans les ténèbres, magiques ou non, jusqu’à une distance de 120 feet.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.15e5403f1551",
+      "kind": "term",
+      "en": "Dreadful Word",
+      "fr": "Parole redoutable",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.f095ed06ba63",
+      "kind": "description",
+      "en": "You can cast confusion once using a warlock spell slot. You can't do so again until you finish a long rest.",
+      "fr": "Vous pouvez lancer Confusion une fois en utilisant un emplacement de sort d’Occultiste. Vous devez terminer un Repos long avant de pouvoir le lancer de nouveau ainsi.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.7c1755bf6622",
+      "kind": "term",
+      "en": "Eldritch Sight",
+      "fr": "Vision occulte",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.c3e0bcba1cd9",
+      "kind": "description",
+      "en": "You can cast detect magic at will, without expending a spell slot.",
+      "fr": "Vous pouvez lancer Détection de la magie à volonté, sans dépenser d’emplacement de sort.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.79f9a327a568",
+      "kind": "description",
+      "en": "Prerequisite: Pact of the Blade feature, 5th level",
+      "fr": "Prérequis : aptitude Pacte de la lame, niveau 5",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.5382c6c94b13",
+      "kind": "description",
+      "en": "Once per turn when you hit a creature with your pact weapon, you can expend a warlock spell slot to deal an extra 1d8 force damage to the target, plus another 1d8 per level of the spell slot, and you can knock the target prone if it is Huge or smaller.",
+      "fr": "Une fois par tour, lorsque vous touchez une créature avec votre arme de pacte, vous pouvez dépenser un emplacement de sort d’Occultiste pour lui infliger 1d8 dégâts de force supplémentaires, plus 1d8 par niveau de l’emplacement. Vous pouvez également la jeter À terre si elle est de taille TG ou inférieure.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.7d0dd66b49f2",
+      "kind": "description",
+      "en": "When you cast eldritch blast, its range is 300 feet.",
+      "fr": "Lorsque vous lancez Décharge occulte, sa portée est de 300 feet.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.eafc6c83ad16",
+      "kind": "term",
+      "en": "Eyes of the Rune Keeper",
+      "fr": "Yeux du gardien des runes",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.c07ca7bdc6a9",
+      "kind": "description",
+      "en": "You can read all writing.",
+      "fr": "Vous pouvez lire toutes les écritures.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.cac6b44db9e6",
+      "kind": "description",
+      "en": "You can cast false life on yourself at will as a 1st-level spell, without expending a spell slot or material components.",
+      "fr": "Vous pouvez lancer Simulacre de vie sur vous-même à volonté comme sort de niveau 1, sans dépenser d’emplacement de sort ni de composantes matérielles.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.93a67748df33",
+      "kind": "description",
+      "en": "You can use your action to touch a willing humanoid and perceive through its senses until the end of your next turn. As long as the creature is on the same plane of existence as you, you can use your action on subsequent turns to maintain this connection, extending the duration until the end of your next turn. While perceiving through the other creature's senses, you benefit from any special senses possessed by that creature, and you are blinded and deafened to your own surroundings.",
+      "fr": "Vous pouvez utiliser votre action pour toucher un humanoïde consentant et percevoir par ses sens jusqu’à la fin de votre prochain tour. Tant qu’il se trouve sur le même plan d’existence que vous, vous pouvez utiliser votre action lors des tours suivants pour maintenir ce lien jusqu’à la fin de votre prochain tour. Lorsque vous percevez par ses sens, vous bénéficiez de ses sens spéciaux, mais vous êtes Aveuglé et Assourdi à l’égard de votre propre environnement.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.7e2125f71a77",
+      "kind": "term",
+      "en": "Ghostly Gaze",
+      "fr": "Regard fantomatique",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.722f448c501c",
+      "kind": "description",
+      "en": "As an action, you gain the ability to see through solid objects to a range of 30 feet. Within that range, you have darkvision if you don't already have it. This special sight lasts for 1 minute or until your concentration ends (as if you were concentrating on a spell). During that time, you perceive objects as ghostly, transparent images.",
+      "fr": "Par une action, vous pouvez voir à travers les objets solides dans un rayon de 30 feet. Dans ce rayon, vous disposez de la Vision dans le noir si vous ne la possédez pas déjà. Cette vision spéciale dure 1 minute ou jusqu’à la fin de votre Concentration, comme si vous vous concentriez sur un sort. Pendant ce temps, les objets vous apparaissent comme des images fantomatiques et transparentes.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.5f889d18959b",
+      "kind": "description",
+      "en": "You can breathe underwater, and you gain a swimming speed equal to your walking speed.",
+      "fr": "Vous pouvez respirer sous l’eau et votre vitesse de nage est égale à votre vitesse de marche.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.d4e7fe69105a",
+      "kind": "description",
+      "en": "You can also cast water breathing once without expending a spell slot. You regain the ability to do so when you finish a long rest.",
+      "fr": "Vous pouvez également lancer Respiration aquatique une fois sans dépenser d’emplacement de sort. Vous récupérez cette utilisation en terminant un Repos long.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.6cb778e5bfbc",
+      "kind": "term",
+      "en": "Gift of the Ever-Living Ones",
+      "fr": "Don des Éternels",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.1ca02c773d5a",
+      "kind": "description",
+      "en": "Prerequisite: Pact of the Chain feature",
+      "fr": "Prérequis : aptitude Pacte de la chaîne",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.db7565671754",
+      "kind": "description",
+      "en": "Whenever you regain hit points while your familiar is within 100 feet of you, treat any dice rolled to determine the hit points you regain as having rolled their maximum value for you.",
+      "fr": "Chaque fois que vous récupérez des points de vie alors que votre familier est à 100 feet ou moins de vous, tous les dés lancés pour déterminer les points de vie récupérés sont considérés comme ayant donné leur résultat maximal.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.bc923485d347",
+      "kind": "term",
+      "en": "Grasp of Hadar",
+      "fr": "Étreinte de Hadar",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.3acea3d33185",
+      "kind": "description",
+      "en": "Once on each of your turns when you hit a creature with your eldritch blast, you can move that creature in a straight line 10 feet closer to you.",
+      "fr": "Une fois à chacun de vos tours, lorsque vous touchez une créature avec Décharge occulte, vous pouvez la rapprocher de vous de 10 feet en ligne droite.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.9bf5d2d564ae",
+      "kind": "term",
+      "en": "Improved Pact Weapon",
+      "fr": "Arme de pacte améliorée",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.43b8d6c2efb7",
+      "kind": "description",
+      "en": "Prerequisite: Pact of the Blade feature",
+      "fr": "Prérequis : aptitude Pacte de la lame",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.26904a6b1e74",
+      "kind": "description",
+      "en": "You can use any weapon you summon with your Pact of the Blade feature as a spellcasting focus for your warlock spells.",
+      "fr": "Vous pouvez utiliser toute arme invoquée par votre aptitude Pacte de la lame comme focaliseur d’incantation pour vos sorts d’Occultiste.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.de88eadb0e15",
+      "kind": "description",
+      "en": "In addition, the weapon gains a +1 bonus to its attack and damage rolls, unless it is a magic weapon that already has a bonus to those rolls.",
+      "fr": "De plus, cette arme bénéficie d’un bonus de +1 aux jets d’attaque et de dégâts, sauf si elle est déjà magique et possède un bonus à ces jets.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.1eaeba1cc17e",
+      "kind": "description",
+      "en": "Finally, the weapon you conjure can be a shortbow, longbow, light crossbow, or heavy crossbow.",
+      "fr": "Enfin, l’arme que vous invoquez peut être un arc court, un arc long, une arbalète légère ou une arbalète lourde.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.2c5bf1e2203e",
+      "kind": "term",
+      "en": "Lance of Lethargy",
+      "fr": "Lance de léthargie",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.8ee8122c9da2",
+      "kind": "description",
+      "en": "Once on each of your turns when you hit a creature with your eldritch blast, you can reduce that creature's speed by 10 feet until the end of your next turn.",
+      "fr": "Une fois à chacun de vos tours, lorsque vous touchez une créature avec Décharge occulte, vous pouvez réduire sa vitesse de 10 feet jusqu’à la fin de votre prochain tour.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.291fcf297361",
+      "kind": "description",
+      "en": "Prerequisite: 12th level, Pact of the Blade feature",
+      "fr": "Prérequis : niveau 12, aptitude Pacte de la lame",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.42c1bbbd8aac",
+      "kind": "description",
+      "en": "When you hit a creature with your pact weapon, the creature takes extra necrotic damage equal to your Charisma modifier (minimum of 1).",
+      "fr": "Lorsque vous touchez une créature avec votre arme de pacte, elle subit des dégâts nécrotiques supplémentaires égaux à votre modificateur de Charisme, avec un minimum de 1.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.4f996ed4cac0",
+      "kind": "term",
+      "en": "Maddening Hex",
+      "fr": "Maléfice affolant",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.d1b665fb4d71",
+      "kind": "description",
+      "en": "Prerequisite: 5th level, Hex/Curse spell",
+      "fr": "Prérequis : niveau 5, sort Maléfice/Malédiction",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.ab7513c2bd03",
+      "kind": "description",
+      "en": "As a bonus action, you cause a psychic disturbance around the target cursed by your hex spell or by a warlock feature of yours, such as Hexblade's Curse or Sign of Ill Omen. When you do so, you deal psychic damage to the cursed target and each creature of your choice that you can see within 5 feet of it. The psychic damage equals your Charisma modifier (minimum of 1 damage). To use this invocation, you must be able to see the cursed target, and it must be within 30 feet of you.",
+      "fr": "Par une action Bonus, vous provoquez une perturbation psychique autour de la cible maudite par votre sort Maléfice ou par une aptitude d’Occultiste, comme la Malédiction de la Lame maudite ou Signe de mauvais augure. Vous infligez alors des dégâts psychiques à la cible et à chaque créature de votre choix que vous voyez à 5 feet ou moins d’elle. Ces dégâts sont égaux à votre modificateur de Charisme, avec un minimum de 1 dégât. Pour utiliser cette manifestation, vous devez voir la cible maudite et elle doit se trouver à 30 feet ou moins de vous.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.a8509d8d3885",
+      "kind": "description",
+      "en": "You can cast disguise self at will, without expending a spell slot.",
+      "fr": "Vous pouvez lancer Déguisement à volonté, sans dépenser d’emplacement de sort.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.9419faeabf45",
+      "kind": "description",
+      "en": "Prerequisite: 15th level",
+      "fr": "Prérequis : niveau 15",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.b5aa57e7f673",
+      "kind": "description",
+      "en": "You can cast alter self at will, without expending a spell slot.",
+      "fr": "Vous pouvez lancer Modification d'apparence à volonté, sans dépenser d’emplacement de sort.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.f06559967601",
+      "kind": "term",
+      "en": "Minions of Chaos",
+      "fr": "Serviteurs du chaos",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.ba93c2e7fd16",
+      "kind": "description",
+      "en": "You can cast conjure elemental once using a warlock spell slot. You can't do so again until you finish a long rest.",
+      "fr": "Vous pouvez lancer Invocation d'élémentaire une fois en utilisant un emplacement de sort d’Occultiste. Vous devez terminer un Repos long avant de pouvoir le lancer de nouveau ainsi.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.f49ad53dca6f",
+      "kind": "term",
+      "en": "Mire the Mind",
+      "fr": "Esprit embourbé",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.b5de92a82361",
+      "kind": "description",
+      "en": "You can cast slow once using a warlock spell slot. You can't do so again until you finish a long rest.",
+      "fr": "Vous pouvez lancer Lenteur une fois en utilisant un emplacement de sort d’Occultiste. Vous devez terminer un Repos long avant de pouvoir le lancer de nouveau ainsi.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.80b4810b0a8f",
+      "kind": "description",
+      "en": "You can cast silent image at will, without expending a spell slot or material components.",
+      "fr": "Vous pouvez lancer Image silencieuse à volonté, sans dépenser d’emplacement de sort ni de composantes matérielles.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.5d0dc441c762",
+      "kind": "description",
+      "en": "When you are in an area of dim light or darkness, you can use your action to become invisible until you move or take an action or a reaction.",
+      "fr": "Lorsque vous êtes dans une zone de Lumière faible ou de Ténèbres, vous pouvez utiliser votre action pour devenir Invisible jusqu’à ce que vous vous déplaciez ou entrepreniez une action ou une Réaction.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.e1412661a466",
+      "kind": "description",
+      "en": "You can cast jump on yourself at will, without expending a spell slot or material components.",
+      "fr": "Vous pouvez lancer Saut sur vous-même à volonté, sans dépenser d’emplacement de sort ni de composantes matérielles.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.e9eacfeb1b0d",
+      "kind": "term",
+      "en": "Relentless Hex",
+      "fr": "Maléfice implacable",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.c50b1a21d78b",
+      "kind": "description",
+      "en": "Prerequisite: 7th level, Hex/Curse spell",
+      "fr": "Prérequis : niveau 7, sort Maléfice/Malédiction",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.2f83986765be",
+      "kind": "description",
+      "en": "Your curse creates a temporary bond between you and your target. As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see within 5 feet of the target cursed by your hex spell or by a warlock feature of yours, such as Hexblade's Curse or Sign of Ill Omen. To teleport in this way, you must be able to see the cursed target.",
+      "fr": "Votre malédiction crée un lien temporaire entre vous et votre cible. Par une action Bonus, vous pouvez vous téléporter magiquement d’un maximum de 30 feet vers un espace inoccupé que vous voyez à 5 feet ou moins de la cible maudite par votre sort Maléfice ou une aptitude d’Occultiste, comme la Malédiction de la Lame maudite ou Signe de mauvais augure. Vous devez voir la cible maudite pour vous téléporter ainsi.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.3c73afcf7426",
+      "kind": "description",
+      "en": "When you hit a creature with eldritch blast, you can push the creature up to 10 feet away from you in a straight line.",
+      "fr": "Lorsque vous touchez une créature avec Décharge occulte, vous pouvez la repousser en ligne droite d’un maximum de 10 feet.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.3fab4833608b",
+      "kind": "term",
+      "en": "Sculptor of Flesh",
+      "fr": "Sculpteur de chair",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.c447c192910a",
+      "kind": "description",
+      "en": "You can cast polymorph once using a warlock spell slot. You can't do so again until you finish a long rest.",
+      "fr": "Vous pouvez lancer Métamorphose une fois en utilisant un emplacement de sort d’Occultiste. Vous devez terminer un Repos long avant de pouvoir le lancer de nouveau ainsi.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.625ff6be446b",
+      "kind": "term",
+      "en": "Shroud of Shadow",
+      "fr": "Linceul d’ombre",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.f8fdef3f843c",
+      "kind": "description",
+      "en": "You can cast invisibility at will, without expending a spell slot.",
+      "fr": "Vous pouvez lancer Invisibilité à volonté, sans dépenser d’emplacement de sort.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.82be5aa43cdf",
+      "kind": "term",
+      "en": "Sign of Ill Omen",
+      "fr": "Signe de mauvais augure",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.818635b1f092",
+      "kind": "description",
+      "en": "You can cast bestow curse once using a warlock spell slot. You can't do so again until you finish a long rest.",
+      "fr": "Vous pouvez lancer Malédiction une fois en utilisant un emplacement de sort d’Occultiste. Vous devez terminer un Repos long avant de pouvoir le lancer de nouveau ainsi.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.047e5f6abe83",
+      "kind": "term",
+      "en": "Thief of Five Fates",
+      "fr": "Voleur des cinq destinées",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.0d01fb6fb800",
+      "kind": "description",
+      "en": "You can cast bane once using a warlock spell slot. You can't do so again until you finish a long rest.",
+      "fr": "Vous pouvez lancer Imprécation une fois en utilisant un emplacement de sort d’Occultiste. Vous devez terminer un Repos long avant de pouvoir le lancer de nouveau ainsi.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.0a3509840e03",
+      "kind": "description",
+      "en": "You can attack with your pact weapon twice, instead of once, whenever you take the Attack action on your turn.",
+      "fr": "Lorsque vous entreprenez l’action Attaquer à votre tour, vous pouvez attaquer deux fois avec votre arme de pacte au lieu d’une.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.08622e798345",
+      "kind": "term",
+      "en": "Tomb of Levistus",
+      "fr": "Tombeau de Levistus",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.e529dbcf1f67",
+      "kind": "description",
+      "en": "As a reaction when you take damage, you can entomb yourself in ice, which melts away at the end of your next turn. You gain 10 temporary hit points per warlock level, which take as much of the triggering damage as possible. Immediately after you take the damage, you gain vulnerability to fire damage, your speed is reduced to 0, and you are incapacitated. These effects, including any remaining temporary hit points, all end when the ice melts.",
+      "fr": "Par une Réaction lorsque vous subissez des dégâts, vous pouvez vous enfermer dans de la glace qui fond à la fin de votre prochain tour. Vous gagnez 10 points de vie temporaires par niveau d’Occultiste, qui absorbent autant que possible les dégâts déclencheurs. Immédiatement après ces dégâts, vous gagnez la Vulnérabilité aux dégâts de feu, votre vitesse tombe à 0 et vous êtes Neutralisé. Tous ces effets, y compris les points de vie temporaires restants, prennent fin lorsque la glace fond.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.420abdd11c47",
+      "kind": "term",
+      "en": "Trickster's Escape",
+      "fr": "Échappée du trompeur",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.810167e5a07e",
+      "kind": "description",
+      "en": "You can cast freedom of movement once on yourself without expending a spell slot. You regain the ability to do so when you finish a long rest.",
+      "fr": "Vous pouvez lancer Liberté de mouvement une fois sur vous-même sans dépenser d’emplacement de sort. Vous récupérez cette utilisation en terminant un Repos long.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.15616ccc5ff4",
+      "kind": "description",
+      "en": "You can cast arcane eye at will, without expending a spell slot.",
+      "fr": "Vous pouvez lancer Oeil du mage à volonté, sans dépenser d’emplacement de sort.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.af9cb559f081",
+      "kind": "term",
+      "en": "Voice of the Chain Master",
+      "fr": "Voix du maître de la chaîne",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.7bafbfaeacfd",
+      "kind": "description",
+      "en": "You can communicate telepathically with your familiar and perceive through your familiar's senses as long as you are on the same plane of existence. Additionally, while perceiving through your familiar's senses, you can also speak through your familiar in your own voice, even if your familiar is normally incapable of speech.",
+      "fr": "Vous pouvez communiquer par télépathie avec votre familier et percevoir par ses sens tant que vous vous trouvez sur le même plan d’existence. Lorsque vous percevez par ses sens, vous pouvez également parler par son intermédiaire avec votre propre voix, même s’il est normalement incapable de parler.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.3fb010d38751",
+      "kind": "description",
+      "en": "You can cast speak with dead at will, without expending a spell slot.",
+      "fr": "Vous pouvez lancer Communication avec les morts à volonté, sans dépenser d’emplacement de sort.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.709e3afe282a",
+      "kind": "description",
+      "en": "You can see the true form of any shapechanger or creature concealed by illusion or transmutation magic while the creature is within 30 feet of you and within line of sight.",
+      "fr": "Vous voyez la forme véritable de tout métamorphe ou de toute créature dissimulée par une illusion ou une transmutation, tant que cette créature se trouve à 30 feet ou moins de vous et dans votre ligne de mire.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.warlock-pact-boons.add8d6df3857",
+      "kind": "description",
+      "en": "You can use your action to create a pact weapon in your empty hand. You can choose the form that this melee weapon takes each time you create it (see chapter 5 for weapon options). You are proficient with it while you wield it. This weapon counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.",
+      "fr": "Vous pouvez utiliser votre action pour créer une arme de pacte dans votre main vide. Vous choisissez la forme de cette arme de corps à corps à chaque création (voir le chapitre 5 pour les armes possibles). Vous avez la maîtrise de cette arme lorsque vous la maniez. Elle est considérée comme magique pour surmonter la résistance et l’immunité aux attaques et dégâts non magiques.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Warlock Pact Boons · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.warlock-pact-boons.718f6bde84bc",
+      "kind": "description",
+      "en": "Your pact weapon disappears if it is more than 5 feet away from you for 1 minute or more. It also disappears if you use this feature again, if you dismiss the weapon (no action required), or if you die.",
+      "fr": "Votre arme de pacte disparaît si elle reste à plus de 5 feet de vous pendant 1 minute ou plus. Elle disparaît également si vous utilisez de nouveau cette aptitude, si vous la dissipez (aucune action requise) ou si vous mourez.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Warlock Pact Boons · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.warlock-pact-boons.9ece993b5e23",
+      "kind": "description",
+      "en": "You can transform one magic weapon into your pact weapon by performing a special ritual while you hold the weapon. You perform the ritual over the course of 1 hour, which can be done during a short rest. You can then dismiss the weapon, shunting it into an extradimensional space, and it appears whenever you create your pact weapon thereafter. You can't affect an artifact or a sentient weapon in this way. The weapon ceases being your pact weapon if you die, if you perform the 1-hour ritual on a different weapon, or if you use a 1-hour ritual to break your bond to it. The weapon appears at your feet if it is in the extradimensional space when the bond breaks.",
+      "fr": "Vous pouvez transformer une arme magique en arme de pacte par un rituel spécial accompli en la tenant. Ce rituel prend 1 heure et peut être effectué pendant un Repos court. Vous pouvez ensuite dissiper l’arme vers un espace extradimensionnel ; elle réapparaît chaque fois que vous créez votre arme de pacte. Vous ne pouvez pas affecter ainsi un artefact ni une arme consciente. Le lien de pacte prend fin si vous mourez, accomplissez le rituel de 1 heure sur une autre arme ou accomplissez un rituel de 1 heure pour rompre ce lien. Si l’arme se trouve dans l’espace extradimensionnel lorsque le lien est rompu, elle apparaît à vos pieds.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Warlock Pact Boons · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.warlock-pact-boons.f6174109bf0b",
+      "kind": "description",
+      "en": "You learn the find familiar spell and can cast it as a ritual. The spell doesn't count against your number of spells known.",
+      "fr": "Vous apprenez le sort Appel de familier et pouvez le lancer comme Rituel. Il ne compte pas dans le nombre de sorts que vous connaissez.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Warlock Pact Boons · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.warlock-pact-boons.a97721ff077b",
+      "kind": "description",
+      "en": "When you cast the spell, you can choose one of the normal forms for your familiar or one of the following special forms: imp, pseudodragon, quasit, or sprite.",
+      "fr": "Lorsque vous lancez ce sort, vous pouvez choisir une forme normale de familier ou l’une des formes spéciales suivantes : diablotin, pseudodragon, quasit ou esprit follet.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Warlock Pact Boons · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.warlock-pact-boons.86438bd74167",
+      "kind": "description",
+      "en": "Additionally, when you take the Attack action, you can forgo one of your own attacks to allow your familiar to use its reaction to make one attack of its own.",
+      "fr": "De plus, lorsque vous entreprenez l’action Attaquer, vous pouvez renoncer à l’une de vos attaques pour permettre au familier de jouer sa Réaction et d’effectuer une attaque.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Warlock Pact Boons · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.warlock-pact-boons.6438747c2bda",
+      "kind": "description",
+      "en": "Your patron gives you a grimoire called a Book of Shadows. When you gain this feature, choose three cantrips from any class's spell list. The cantrips do not need to be from the same spell list. While the book is on your person, you can cast those cantrips at will. They don't count against your number of cantrips known. Any cantrip you cast with this feature is considered a warlock cantrip for you. If you lose your Book of Shadows, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and it destroys the previous book. The book turns to ash when you die.",
+      "fr": "Votre protecteur vous donne un grimoire appelé Livre des ombres. Lorsque vous gagnez cette aptitude, choisissez trois sorts mineurs dans les listes de sorts de n’importe quelles classes ; ils peuvent provenir de listes différentes. Tant que vous portez le livre, vous pouvez les lancer à volonté. Ils ne comptent pas dans le nombre de sorts mineurs que vous connaissez. Tout sort mineur lancé grâce à cette aptitude est considéré comme un sort mineur d’Occultiste pour vous. Si vous perdez votre Livre des ombres, une cérémonie de 1 heure vous permet d’en recevoir un nouveau de votre protecteur. Elle peut être accomplie pendant un Repos court ou long et détruit le précédent livre. Le livre tombe en cendres à votre mort.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Warlock Pact Boons · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.prerequisite.card.b4c0230cb753",
+      "en": "(Prerequisite: Eldritch Blast spell)",
+      "fr": "(Prérequis : sort Décharge occulte)",
+      "source": "Traduction proposée des prérequis des cartes Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.prerequisite.card.b8f0cffe9dac",
+      "en": "(Prerequisite: 9th level)",
+      "fr": "(Prérequis : niveau 9)",
+      "source": "Traduction proposée des prérequis des cartes Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.prerequisite.card.528e2a1f7878",
+      "en": "(Prerequisite: Pact of the Tome feature)",
+      "fr": "(Prérequis : aptitude Pacte du grimoire)",
+      "source": "Traduction proposée des prérequis des cartes Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.prerequisite.card.bca02fedaf88",
+      "en": "(Prerequisite: 7th level)",
+      "fr": "(Prérequis : niveau 7)",
+      "source": "Traduction proposée des prérequis des cartes Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.prerequisite.card.fceb0888361b",
+      "en": "(Prerequisite: Pact of the Chain feature, 15th level)",
+      "fr": "(Prérequis : aptitude Pacte de la chaîne, niveau 15)",
+      "source": "Traduction proposée des prérequis des cartes Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.prerequisite.card.68c7ae65a9fe",
+      "en": "(Prerequisite: 5th level)",
+      "fr": "(Prérequis : niveau 5)",
+      "source": "Traduction proposée des prérequis des cartes Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.prerequisite.card.7ed594695c6a",
+      "en": "(Prerequisite: Pact of the Blade feature, 5th level)",
+      "fr": "(Prérequis : aptitude Pacte de la lame, niveau 5)",
+      "source": "Traduction proposée des prérequis des cartes Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.prerequisite.card.378392c823b9",
+      "en": "(Prerequisite: Pact of the Chain feature)",
+      "fr": "(Prérequis : aptitude Pacte de la chaîne)",
+      "source": "Traduction proposée des prérequis des cartes Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.prerequisite.card.c24174170433",
+      "en": "(Prerequisite: Pact of the Blade feature)",
+      "fr": "(Prérequis : aptitude Pacte de la lame)",
+      "source": "Traduction proposée des prérequis des cartes Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.prerequisite.card.bc49cd481c66",
+      "en": "(Prerequisite: 12th level, Pact of the Blade feature)",
+      "fr": "(Prérequis : niveau 12, aptitude Pacte de la lame)",
+      "source": "Traduction proposée des prérequis des cartes Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.prerequisite.card.fcc7ea3d7de4",
+      "en": "(Prerequisite: 5th level, Hex/Curse spell)",
+      "fr": "(Prérequis : niveau 5, sort Maléfice/Malédiction)",
+      "source": "Traduction proposée des prérequis des cartes Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.prerequisite.card.e9a723aee583",
+      "en": "(Prerequisite: 15th level)",
+      "fr": "(Prérequis : niveau 15)",
+      "source": "Traduction proposée des prérequis des cartes Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.prerequisite.card.ccacd689a890",
+      "en": "(Prerequisite: 7th level, Hex/Curse spell)",
+      "fr": "(Prérequis : niveau 7, sort Maléfice/Malédiction)",
+      "source": "Traduction proposée des prérequis des cartes Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
     }
   ]
 }

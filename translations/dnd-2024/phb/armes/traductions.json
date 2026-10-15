@@ -517,6 +517,313 @@
       "fr": "Vous pouvez manifester des lames scintillantes d’énergie psychique. Chaque fois que vous effectuez l’action Attaquer ou une attaque d’opportunité, vous pouvez manifester une lame psychique dans votre main libre et effectuer l’attaque avec cette lame. Attaque de la main secondaire par une action bonus après une attaque avec une lame psychique.",
       "source": "Traduction proposée du texte observé sur Shard · Psychic Blade Off Hand · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
       "edition": "any"
+    },
+    {
+      "id": "shard.custom.weapon-masteries.6c883e7cba6b",
+      "kind": "description",
+      "en": "Mastery of the batteaxe enables Topple.",
+      "fr": "La botte de cette arme (Hache d’armes) permet d’utiliser la propriété Renversement.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Weapon Masteries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024",
+      "variants": [
+        "Mastery of the battleaxe enables Topple."
+      ]
+    },
+    {
+      "id": "shard.custom.weapon-masteries.a8bf463d8247",
+      "kind": "description",
+      "en": "Mastery of the blowgun enables Vex.",
+      "fr": "La botte de cette arme (Sarbacane) permet d’utiliser la propriété Ouverture.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Weapon Masteries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.weapon-masteries.513b6be63c71",
+      "kind": "description",
+      "en": "Mastery of the club enables Slow.",
+      "fr": "La botte de cette arme (Gourdin) permet d’utiliser la propriété Ralentissement.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Weapon Masteries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.weapon-masteries.f66d9ddc622c",
+      "kind": "description",
+      "en": "Mastery of the dagger enables Nick.",
+      "fr": "La botte de cette arme (Dague) permet d’utiliser la propriété Coup double.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Weapon Masteries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.weapon-masteries.e767ce884f20",
+      "kind": "description",
+      "en": "Mastery of the dart enables Vex.",
+      "fr": "La botte de cette arme (Fléchette) permet d’utiliser la propriété Ouverture.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Weapon Masteries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.weapon-masteries.7ffd7045b63e",
+      "kind": "description",
+      "en": "Mastery of the flail enables Sap.",
+      "fr": "La botte de cette arme (Fléau d’armes) permet d’utiliser la propriété Sape.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Weapon Masteries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.weapon-masteries.554a0e3ce172",
+      "kind": "description",
+      "en": "Mastery of the glaive enables Graze.",
+      "fr": "La botte de cette arme (Coutille) permet d’utiliser la propriété Écorchure.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Weapon Masteries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.weapon-masteries.c5dcadfee7c0",
+      "kind": "description",
+      "en": "Mastery of the greataxe enables Cleave.",
+      "fr": "La botte de cette arme (Hache à deux mains) permet d’utiliser la propriété Enchaînement.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Weapon Masteries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.weapon-masteries.f6731798d5be",
+      "kind": "description",
+      "en": "Mastery of the greatclub enables Push.",
+      "fr": "La botte de cette arme (Massue) permet d’utiliser la propriété Bourrade.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Weapon Masteries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.weapon-masteries.fa820e7cb2d5",
+      "kind": "description",
+      "en": "Mastery of the greatsword enables Graze.",
+      "fr": "La botte de cette arme (Épée à deux mains) permet d’utiliser la propriété Écorchure.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Weapon Masteries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.weapon-masteries.2b554f859a95",
+      "kind": "description",
+      "en": "Mastery of the halberd enables Cleave.",
+      "fr": "La botte de cette arme (Hallebarde) permet d’utiliser la propriété Enchaînement.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Weapon Masteries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.weapon-masteries.7b731f7c92ff",
+      "kind": "description",
+      "en": "Mastery of the hand crossbow enables Vex.",
+      "fr": "La botte de cette arme (Arbalète de poing) permet d’utiliser la propriété Ouverture.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Weapon Masteries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.weapon-masteries.412e4ce79402",
+      "kind": "description",
+      "en": "Mastery of the handaxe enables Vex.",
+      "fr": "La botte de cette arme (Hachette) permet d’utiliser la propriété Ouverture.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Weapon Masteries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.weapon-masteries.be06c4248071",
+      "kind": "description",
+      "en": "Mastery of the heavy crossbow enables Push.",
+      "fr": "La botte de cette arme (Arbalète lourde) permet d’utiliser la propriété Bourrade.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Weapon Masteries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.weapon-masteries.d0898a345549",
+      "kind": "description",
+      "en": "Mastery of the javelin enables Slow.",
+      "fr": "La botte de cette arme (Javeline) permet d’utiliser la propriété Ralentissement.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Weapon Masteries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.weapon-masteries.7e625e5bd5b6",
+      "kind": "description",
+      "en": "Mastery of the lance enables Topple.",
+      "fr": "La botte de cette arme (Lance d’arçon) permet d’utiliser la propriété Renversement.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Weapon Masteries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.weapon-masteries.d1518f052884",
+      "kind": "description",
+      "en": "Mastery of the light crossbow enables Slow.",
+      "fr": "La botte de cette arme (Arbalète légère) permet d’utiliser la propriété Ralentissement.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Weapon Masteries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.weapon-masteries.9fe372245959",
+      "kind": "description",
+      "en": "Mastery of the light hammer enables Nick.",
+      "fr": "La botte de cette arme (Marteau léger) permet d’utiliser la propriété Coup double.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Weapon Masteries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.weapon-masteries.8ba1cb74c7c9",
+      "kind": "description",
+      "en": "Mastery of the longbow enables Slow.",
+      "fr": "La botte de cette arme (Arc long) permet d’utiliser la propriété Ralentissement.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Weapon Masteries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.weapon-masteries.0202de27ce1d",
+      "kind": "description",
+      "en": "Mastery of the longsword enables Sap.",
+      "fr": "La botte de cette arme (Épée longue) permet d’utiliser la propriété Sape.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Weapon Masteries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.weapon-masteries.aad7a0cfe11e",
+      "kind": "description",
+      "en": "Mastery of the mace enables Sap.",
+      "fr": "La botte de cette arme (Masse d’armes) permet d’utiliser la propriété Sape.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Weapon Masteries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.weapon-masteries.90febc845ca2",
+      "kind": "description",
+      "en": "Mastery of the maul enables Topple.",
+      "fr": "La botte de cette arme (Maillet d’armes) permet d’utiliser la propriété Renversement.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Weapon Masteries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.weapon-masteries.dfe3225e171c",
+      "kind": "description",
+      "en": "Mastery of the morningstar enables Sap.",
+      "fr": "La botte de cette arme (Morgenstern) permet d’utiliser la propriété Sape.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Weapon Masteries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.weapon-masteries.1fe4c43d1af1",
+      "kind": "description",
+      "en": "Mastery of the musket enables Slow.",
+      "fr": "La botte de cette arme (Mousquet) permet d’utiliser la propriété Ralentissement.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Weapon Masteries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.weapon-masteries.9f51ed6c18a0",
+      "kind": "description",
+      "en": "Mastery of the pike enables Push.",
+      "fr": "La botte de cette arme (Pique) permet d’utiliser la propriété Bourrade.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Weapon Masteries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.weapon-masteries.078107adc5f9",
+      "kind": "description",
+      "en": "Mastery of the pistol enables Vex.",
+      "fr": "La botte de cette arme (Pistolet) permet d’utiliser la propriété Ouverture.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Weapon Masteries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.weapon-masteries.b7ea3dee0ace",
+      "kind": "description",
+      "en": "Mastery of the quarterstaff enables Topple.",
+      "fr": "La botte de cette arme (Bâton de combat) permet d’utiliser la propriété Renversement.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Weapon Masteries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.weapon-masteries.1a20404d88d8",
+      "kind": "description",
+      "en": "Mastery of the rapier enables Vex.",
+      "fr": "La botte de cette arme (Rapière) permet d’utiliser la propriété Ouverture.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Weapon Masteries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.weapon-masteries.3ca581b2f354",
+      "kind": "description",
+      "en": "Mastery of the scimitar enables Nick.",
+      "fr": "La botte de cette arme (Cimeterre) permet d’utiliser la propriété Coup double.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Weapon Masteries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.weapon-masteries.afa54f9678ba",
+      "kind": "description",
+      "en": "Mastery of the shortbow enables Vex.",
+      "fr": "La botte de cette arme (Arc court) permet d’utiliser la propriété Ouverture.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Weapon Masteries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.weapon-masteries.935900df410b",
+      "kind": "description",
+      "en": "Mastery of the shortsword enables Vex.",
+      "fr": "La botte de cette arme (Épée courte) permet d’utiliser la propriété Ouverture.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Weapon Masteries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.weapon-masteries.631d921d7956",
+      "kind": "description",
+      "en": "Mastery of the sickle enables Nick.",
+      "fr": "La botte de cette arme (Serpe) permet d’utiliser la propriété Coup double.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Weapon Masteries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.weapon-masteries.275ffe937498",
+      "kind": "description",
+      "en": "Mastery of the sling enables Slow.",
+      "fr": "La botte de cette arme (Fronde) permet d’utiliser la propriété Ralentissement.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Weapon Masteries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.weapon-masteries.85c07d7a2ece",
+      "kind": "description",
+      "en": "Mastery of the spear enables Sap.",
+      "fr": "La botte de cette arme (Lance) permet d’utiliser la propriété Sape.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Weapon Masteries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.weapon-masteries.1431de9193d9",
+      "kind": "description",
+      "en": "Mastery of the trident enables Topple.",
+      "fr": "La botte de cette arme (Trident) permet d’utiliser la propriété Renversement.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Weapon Masteries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.weapon-masteries.404de455c781",
+      "kind": "description",
+      "en": "Mastery of the war pick enables Sap.",
+      "fr": "La botte de cette arme (Pic de guerre) permet d’utiliser la propriété Sape.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Weapon Masteries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.weapon-masteries.c7f92552af5c",
+      "kind": "description",
+      "en": "Mastery of the warhammer enables Push.",
+      "fr": "La botte de cette arme (Marteau de guerre) permet d’utiliser la propriété Bourrade.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Weapon Masteries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.weapon-masteries.b39ae6dcc1df",
+      "kind": "description",
+      "en": "Mastery of the whip enables Slow.",
+      "fr": "La botte de cette arme (Fouet) permet d’utiliser la propriété Ralentissement.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Weapon Masteries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
     }
   ]
 }

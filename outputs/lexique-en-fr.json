@@ -1,5 +1,5 @@
 {
-  "version": "1.17.11",
+  "version": "1.17.12",
   "reference": "Noms AideDD 2024 prioritaires. Références SRD disponibles séparément. Autres entrées identifiées.",
   "license": "Code MIT ; contenu SRD CC-BY-4.0 https://creativecommons.org/licenses/by/4.0/",
   "sources": [
@@ -27561,6 +27561,195 @@
       "aliases": []
     },
     {
+      "en": "Aspect of the Moon",
+      "fr": "Aspect de la lune",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Beast Speech",
+      "fr": "Langage des bêtes",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Beguiling Influence",
+      "fr": "Influence séduisante",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Bewitching Whispers",
+      "fr": "Murmures ensorcelants",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Book of Ancient Secrets",
+      "fr": "Livre des secrets anciens",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Chains of Carceri",
+      "fr": "Chaînes de Carcères",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Chains of the Deodand",
+      "fr": "Chaînes du Déodand",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Cloak of Flies",
+      "fr": "Cape de mouches",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Dreadful Word",
+      "fr": "Parole redoutable",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Eldritch Sight",
+      "fr": "Vision occulte",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Eyes of the Rune Keeper",
+      "fr": "Yeux du gardien des runes",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Ghostly Gaze",
+      "fr": "Regard fantomatique",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Gift of the Ever-Living Ones",
+      "fr": "Don des Éternels",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Grasp of Hadar",
+      "fr": "Étreinte de Hadar",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Improved Pact Weapon",
+      "fr": "Arme de pacte améliorée",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Lance of Lethargy",
+      "fr": "Lance de léthargie",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Maddening Hex",
+      "fr": "Maléfice affolant",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Minions of Chaos",
+      "fr": "Serviteurs du chaos",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Mire the Mind",
+      "fr": "Esprit embourbé",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Relentless Hex",
+      "fr": "Maléfice implacable",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Sculptor of Flesh",
+      "fr": "Sculpteur de chair",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Shroud of Shadow",
+      "fr": "Linceul d’ombre",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Sign of Ill Omen",
+      "fr": "Signe de mauvais augure",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Thief of Five Fates",
+      "fr": "Voleur des cinq destinées",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Tomb of Levistus",
+      "fr": "Tombeau de Levistus",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Trickster's Escape",
+      "fr": "Échappée du trompeur",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Voice of the Chain Master",
+      "fr": "Voix du maître de la chaîne",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
       "en": "Forceful Blow",
       "fr": "Coup appuyé",
       "category": "aptitude de classe",
@@ -29003,6 +29192,41 @@
       "aliases": []
     },
     {
+      "en": "Lessons of the First Ones 1",
+      "fr": "Enseignement des Premiers-Nés 1",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Lessons of the First Ones 2",
+      "fr": "Enseignement des Premiers-Nés 2",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Lessons of the First Ones 3",
+      "fr": "Enseignement des Premiers-Nés 3",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Lessons of the First Ones 4",
+      "fr": "Enseignement des Premiers-Nés 4",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Lessons of the First Ones 5",
+      "fr": "Enseignement des Premiers-Nés 5",
+      "category": "aptitude de classe",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
       "en": "(Prerequisite: Dexterity 13 or higher)",
       "fr": "(Prérequis : Dextérité 13 ou plus)",
       "category": "don",
@@ -30102,6 +30326,13 @@
       "aliases": []
     },
     {
+      "en": "Draconic Resistance",
+      "fr": "Résistance draconique",
+      "category": "trait d’espèce",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Draconic Ancestries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
       "en": "Draconic Ancestors",
       "fr": "Ancêtres draconiques",
       "category": "trait d’espèce",
@@ -30578,6 +30809,41 @@
       "aliases": []
     },
     {
+      "en": "Diseases",
+      "fr": "Maladies",
+      "category": "interface",
+      "source": "Traduction proposée des rubriques de références personnalisées Shard · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Draconic Ancestries",
+      "fr": "Ascendances draconiques",
+      "category": "interface",
+      "source": "Traduction proposée des rubriques de références personnalisées Shard · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Maneuver Options",
+      "fr": "Options de manœuvre",
+      "category": "interface",
+      "source": "Traduction proposée des rubriques de références personnalisées Shard · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Reference Cards",
+      "fr": "Fiches de référence",
+      "category": "interface",
+      "source": "Traduction proposée des rubriques de références personnalisées Shard · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Warlock Pact Boons",
+      "fr": "Bienfaits de pacte de l’Occultiste",
+      "category": "interface",
+      "source": "Traduction proposée des rubriques de références personnalisées Shard · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
       "en": "Legendary Resistance (6/Day)",
       "fr": "Résistance légendaire (6/jour)",
       "category": "monstre",
@@ -30813,6 +31079,27 @@
       "fr": "Mort",
       "category": "règles",
       "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1 · relevé du 13 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Cackle Fever",
+      "fr": "Fièvre rieuse",
+      "category": "règles",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Diseases · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Sewer Plague",
+      "fr": "Peste des égouts",
+      "category": "règles",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Diseases · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Sight Rot",
+      "fr": "Pourriture oculaire",
+      "category": "règles",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Diseases · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
       "aliases": []
     },
     {

@@ -11282,6 +11282,1054 @@
       "en": "You know how to strike subtly and exploit a foe’s distraction. Once per turn, you can deal an extra 10d6 damage to one creature you hit with an attack roll if you have Advantage on the roll and the attack uses a Finesse or a Ranged weapon. The extra damage’s type is the same as the weapon’s type.",
       "fr": "Vous savez frapper avec subtilité et exploiter la distraction d’un adversaire. Une fois par tour, vous pouvez infliger 10d6 dégâts supplémentaires à une créature que vous touchez avec un jet d’attaque si vous avez l’Avantage au jet et utilisez une arme dotée de la propriété Finesse ou une arme à distance. Les dégâts supplémentaires sont du même type que ceux de l’arme.",
       "source": "Traduction de l’extrait utilisateur · Attaque sournoise 2024"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.c106b0d97d71",
+      "kind": "description",
+      "en": "Prerequisite: Level 2+ Warlock, a Warlock Cantrip That Deals Damage",
+      "fr": "Prérequis : Occultiste de niveau 2+, un sort mineur d’Occultiste qui inflige des dégâts",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.a20d32c6a980",
+      "kind": "description",
+      "en": "Choose one of your known Warlock cantrips that deals damage. You can add your Charisma modifier to that spell’s damage rolls.",
+      "fr": "Choisissez un sort mineur d’Occultiste que vous connaissez et qui inflige des dégâts. Vous pouvez ajouter votre modificateur de Charisme aux jets de dégâts de ce sort.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.5ef4a447223c",
+      "kind": "description",
+      "en": "Repeatable. You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.",
+      "fr": "Répétable. Vous pouvez choisir cette manifestation plusieurs fois. À chaque fois, choisissez un autre sort mineur admissible.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.e15ead04d58b",
+      "kind": "description",
+      "en": "Prerequisite: Level 5+ Warlock",
+      "fr": "Prérequis : Occultiste de niveau 5+",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.76c376063e4f",
+      "kind": "description",
+      "en": "Prerequisite: Level 2+ Warlock",
+      "fr": "Prérequis : Occultiste de niveau 2+",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.be2c118cd733",
+      "kind": "description",
+      "en": "You can see normally in Dim Light and Darkness—both magical and nonmagical—within 120 feet of yourself.",
+      "fr": "Vous voyez normalement dans la Lumière faible et les Ténèbres, magiques ou non, dans un rayon de 120 feet autour de vous.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.d8ec3ec63832",
+      "kind": "description",
+      "en": "Prerequisite: Level 12+ Warlock, Thirsting Blade Invocation",
+      "fr": "Prérequis : Occultiste de niveau 12+, manifestation Lame assoiffée",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.4dc2068c1ac3",
+      "kind": "description",
+      "en": "Prerequisite: Level 5+ Warlock, Pact of the Blade Invocation",
+      "fr": "Prérequis : Occultiste de niveau 5+, manifestation Pacte de la lame",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.b3b5640d34ed",
+      "kind": "description",
+      "en": "Choose one of your known Warlock cantrips that deals damage and has a range of 10+ feet. When you cast that spell, its range increases by a number of feet equal to 30 times your Warlock level.",
+      "fr": "Choisissez un sort mineur d’Occultiste que vous connaissez, qui inflige des dégâts et dont la portée est de 10+ feet. Lorsque vous le lancez, sa portée augmente d’un nombre de feet égal à 30 fois votre niveau d’Occultiste.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.1a23d1d0a15b",
+      "kind": "description",
+      "en": "You can use a Bonus Action to touch a willing creature and perceive through its senses until the end of your next turn. As long as the creature is on the same plane of existence as you, you can take a Bonus Action on subsequent turns to maintain this connection, extending the duration until the end of your next turn. The connection ends if you don’t maintain it in this way.",
+      "fr": "Vous pouvez utiliser une action Bonus pour toucher une créature consentante et percevoir par ses sens jusqu’à la fin de votre prochain tour. Tant qu’elle se trouve sur le même plan d’existence que vous, vous pouvez entreprendre une action Bonus lors des tours suivants pour maintenir ce lien jusqu’à la fin de votre prochain tour. Le lien prend fin si vous ne l’entretenez pas ainsi.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.872444ca1be5",
+      "kind": "description",
+      "en": "While perceiving through the other creature’s senses, you benefit from any special senses possessed by that creature, and you can cast spells as if you were in your space or the other creature’s space if the two of you are within 60 feet of each other.",
+      "fr": "Lorsque vous percevez par les sens de l’autre créature, vous bénéficiez de ses sens spéciaux. Vous pouvez lancer des sorts comme si vous occupiez votre espace ou celui de la créature, à condition que vous soyez à 60 feet ou moins l’un de l’autre.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.0441c2d05541",
+      "kind": "description",
+      "en": "You can breathe underwater, and you gain a Swim Speed equal to your Speed.",
+      "fr": "Vous pouvez respirer sous l’eau et gagnez une Vitesse de nage égale à votre Vitesse.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.51c6537efd76",
+      "kind": "description",
+      "en": "You can also cast Water Breathing once without expending a spell slot. You regain the ability to cast it in this way again when you finish a Long Rest.",
+      "fr": "Vous pouvez également lancer Respiration aquatique une fois sans dépenser d’emplacement de sort. Vous récupérez cette utilisation en terminant un Repos long.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.f7e13a1583e5",
+      "kind": "description",
+      "en": "Prerequisite: Level 9+ Warlock, Pact of the Tome Invocation",
+      "fr": "Prérequis : Occultiste de niveau 9+, manifestation Pacte du grimoire",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.acac4266e087",
+      "kind": "description",
+      "en": "A new page appears in your Book of Shadows when you conjure it. With your permission, a creature can take an action to write its name on that page, which can contain a number of names equal to your Charisma modifier (minimum of one name).",
+      "fr": "Une nouvelle page apparaît dans votre Livre des ombres lorsque vous le convoquez. Avec votre permission, une créature peut utiliser une action pour y inscrire son nom. La page peut contenir autant de noms que votre modificateur de Charisme, avec un minimum d’un nom.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.ebde6ce9b895",
+      "kind": "description",
+      "en": "When any creature whose name is on the page is reduced to 0 Hit Points but not killed outright, the creature magically drops to 1 Hit Point instead. Once this magic is triggered, no creature can benefit from it until you finish a Long Rest.",
+      "fr": "Lorsqu’une créature dont le nom figure sur la page tombe à 0 point de vie sans être tuée sur le coup, elle conserve magiquement 1 point de vie à la place. Après le déclenchement de cette magie, aucune créature ne peut en bénéficier de nouveau avant que vous ayez terminé un Repos long.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.ad4258d8eee4",
+      "kind": "description",
+      "en": "As a Magic action, you can erase a name on the page by touching it.",
+      "fr": "Par une action Magie, vous pouvez effacer un nom de la page en la touchant.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.ae047b598a8a",
+      "kind": "description",
+      "en": "Prerequisite: Level 5+ Warlock, Pact of the Chain Invocation",
+      "fr": "Prérequis : Occultiste de niveau 5+, manifestation Pacte de la chaîne",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.9cf302985e0c",
+      "kind": "description",
+      "en": "When you cast Find Familiar, you infuse the summoned familiar with a measure of your eldritch power, granting the creature the following benefits.",
+      "fr": "Lorsque vous lancez Appel de familier, vous imprégnez le familier invoqué d’une part de votre puissance occulte et lui accordez les bénéfices suivants.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.c0902f93561a",
+      "kind": "description",
+      "en": "Aerial or Aquatic. The familiar gains either a Fly Speed or a Swim Speed (your choice) of 40 feet.",
+      "fr": "Aérien ou aquatique. Le familier gagne une Vitesse de vol ou de nage, au choix, de 40 feet.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.a048e743145c",
+      "kind": "description",
+      "en": "Quick Attack. As a Bonus Action, you can command the familiar to take the Attack action.",
+      "fr": "Attaque rapide. Par une action Bonus, vous pouvez ordonner au familier d’entreprendre l’action Attaquer.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.61e024d5de91",
+      "kind": "description",
+      "en": "Necrotic or Radiant Damage. Whenever the familiar deals Bludgeoning, Piercing, or Slashing damage, you can make it deal Necrotic or Radiant damage instead.",
+      "fr": "Dégâts nécrotiques ou radiants. Lorsque le familier inflige des dégâts contondants, perforants ou tranchants, vous pouvez les remplacer par des dégâts nécrotiques ou radiants.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.9abc7c296b8d",
+      "kind": "description",
+      "en": "Your Save DC. If the familiar forces a creature to make a saving throw, it uses your spell save DC.",
+      "fr": "Votre DD de sauvegarde. Si le familier impose un jet de sauvegarde à une créature, il utilise votre DD de sauvegarde des sorts.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.c871e73e4562",
+      "kind": "description",
+      "en": "Resistance. When the familiar takes damage, you can take a Reaction to grant it Resistance against that damage.",
+      "fr": "Résistance. Lorsque le familier subit des dégâts, vous pouvez jouer une Réaction pour lui accorder la Résistance à ces dégâts.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.c0030d222d08",
+      "kind": "term",
+      "en": "Lessons of the First Ones 1",
+      "fr": "Enseignement des Premiers-Nés 1",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.84d556623f93",
+      "kind": "description",
+      "en": "You have received knowledge from an elder entity of the multiverse, allowing you to gain one Origin feat of your choice.",
+      "fr": "Vous avez reçu les connaissances d’une entité ancestrale du multivers, ce qui vous permet de gagner un don d’origine de votre choix.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.b429e7ea6c0b",
+      "kind": "description",
+      "en": "You can gain this invocation more than once. Each time you do so, choose a different Origin feat.",
+      "fr": "Vous pouvez choisir cette manifestation plusieurs fois. À chaque fois, choisissez un autre don d’origine.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.ae3b2a4774a6",
+      "kind": "term",
+      "en": "Lessons of the First Ones 2",
+      "fr": "Enseignement des Premiers-Nés 2",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.7d25c1967496",
+      "kind": "description",
+      "en": "Prerequisite: Level 2+ Warlock, Lessons of the First Ones",
+      "fr": "Prérequis : Occultiste de niveau 2+, Enseignement des Premiers-Nés",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.702cbf57ec56",
+      "kind": "term",
+      "en": "Lessons of the First Ones 3",
+      "fr": "Enseignement des Premiers-Nés 3",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.d9259f5a6484",
+      "kind": "description",
+      "en": "Prerequisite: Level 2+ Warlock, Lessons of the First Ones 2",
+      "fr": "Prérequis : Occultiste de niveau 2+, Enseignement des Premiers-Nés 2",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.4c180fea05c5",
+      "kind": "term",
+      "en": "Lessons of the First Ones 4",
+      "fr": "Enseignement des Premiers-Nés 4",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.5b2e5daf41ec",
+      "kind": "description",
+      "en": "Prerequisite: Level 2+ Warlock, Lessons of the First Ones 3",
+      "fr": "Prérequis : Occultiste de niveau 2+, Enseignement des Premiers-Nés 3",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.5970508308a2",
+      "kind": "term",
+      "en": "Lessons of the First Ones 5",
+      "fr": "Enseignement des Premiers-Nés 5",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.f268adf9055f",
+      "kind": "description",
+      "en": "Prerequisite: Level 2+ Warlock, Lessons of the First Ones 4",
+      "fr": "Prérequis : Occultiste de niveau 2+, Enseignement des Premiers-Nés 4",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.3b3914e7358c",
+      "kind": "description",
+      "en": "Prerequisite: Level 9+ Warlock, Pact of the Blade Invocation",
+      "fr": "Prérequis : Occultiste de niveau 9+, manifestation Pacte de la lame",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.9cc225f12e78",
+      "kind": "description",
+      "en": "As a Bonus Action, you can conjure a pact weapon in your hand—a Simple or Martial Melee weapon of your choice with which you bond—or create a bond with a magic weapon you touch; you can’t bond with a magic weapon if someone else is attuned to it or another Warlock is bonded with it. Until the bond ends, you have proficiency with the weapon, and you can use it as a Spellcasting Focus.",
+      "fr": "Par une action Bonus, vous pouvez invoquer dans votre main une arme de pacte, une arme courante ou de guerre de corps à corps de votre choix à laquelle vous vous liez, ou vous lier à une arme magique que vous touchez. Vous ne pouvez pas vous lier à une arme magique si quelqu’un d’autre y est harmonisé ou si un autre Occultiste y est lié. Tant que ce lien persiste, vous avez la maîtrise de l’arme et pouvez l’utiliser comme focaliseur d’incantation.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.540781f9c80f",
+      "kind": "description",
+      "en": "Whenever you attack with the bonded weapon, you can use your Charisma modifier for the attack and damage rolls instead of using Strength or Dexterity; and you can cause the weapon to deal Necrotic, Psychic, or Radiant damage or its normal damage type.",
+      "fr": "Lorsque vous attaquez avec l’arme liée, vous pouvez utiliser votre modificateur de Charisme aux jets d’attaque et de dégâts à la place de la Force ou de la Dextérité. Vous pouvez également lui faire infliger des dégâts nécrotiques, psychiques ou radiants, ou conserver son type de dégâts normal.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.54f5cc8bb9fb",
+      "kind": "description",
+      "en": "Your bond with the weapon ends if you use this feature’s Bonus Action again, if the weapon is more than 5 feet away from you for 1 minute or more, or if you die. A conjured weapon disappears when the bond ends.",
+      "fr": "Votre lien avec l’arme prend fin si vous utilisez de nouveau l’action Bonus de cette aptitude, si l’arme se trouve à plus de 5 feet de vous pendant 1 minute ou plus, ou si vous mourez. Une arme invoquée disparaît lorsque le lien prend fin.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.5fe3f111bc7c",
+      "kind": "description",
+      "en": "You learn the Find Familiar spell and can cast it as a Magic action without expending a spell slot.",
+      "fr": "Vous apprenez le sort Appel de familier et pouvez le lancer par une action Magie sans dépenser d’emplacement de sort.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.5c02285413bc",
+      "kind": "description",
+      "en": "When you cast the spell, you choose one of the normal forms for your familiar or one of the following special forms: Imp, Pseudodragon, Quasit, Skeleton, Slaad Tadpole, Sphinx of Wonder, Sprite, or Venomous Snake (see appendix B for the familiar’s stat block).",
+      "fr": "Lorsque vous lancez ce sort, vous choisissez une forme normale de familier ou l’une des formes spéciales suivantes : Diablotin, Pseudodragon, Quasit, Squelette, Slaad, têtard, Sphinx merveilleux, Esprit follet ou Serpent venimeux (voir l’annexe B pour le profil du familier).",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.242b95157200",
+      "kind": "description",
+      "en": "Additionally, when you take the Attack action, you can forgo one of your own attacks to allow your familiar to make one attack of its own with its Reaction.",
+      "fr": "De plus, lorsque vous entreprenez l’action Attaquer, vous pouvez renoncer à l’une de vos attaques pour permettre au familier de jouer sa Réaction et d’effectuer une attaque.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.1bc3fc62caef",
+      "kind": "description",
+      "en": "Stitching together strands of shadow, you conjure forth a book in your hand at the end of a Short or Long Rest. This Book of Shadows (you determine its appearance) contains eldritch magic that only you can access, granting you the benefits below. The book disappears if you conjure another book with this feature or if you die.",
+      "fr": "En entrelaçant des filaments d’ombre, vous invoquez un livre dans votre main à la fin d’un Repos court ou long. Ce Livre des ombres, dont vous choisissez l’apparence, contient une magie occulte accessible à vous seul et vous accorde les bénéfices suivants. Il disparaît si vous en invoquez un autre avec cette aptitude ou si vous mourez.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.e2944957031a",
+      "kind": "description",
+      "en": "Cantrips and Rituals. When the book appears, choose three cantrips, and choose two level 1 spells that have the Ritual tag. The spells can be from any class’s spell list, and they must be spells you don’t already have prepared. While the book is on your person, you have the chosen spells prepared, and they function as Warlock spells for you.",
+      "fr": "Sorts mineurs et rituels. Lorsque le livre apparaît, choisissez trois sorts mineurs et deux sorts de niveau 1 portant la mention Rituel. Ils peuvent provenir des listes de sorts de n’importe quelles classes et doivent être des sorts que vous n’avez pas déjà préparés. Tant que vous portez le livre, ces sorts sont préparés et fonctionnent comme des sorts d’Occultiste pour vous.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.da7a2e2e9b72",
+      "kind": "description",
+      "en": "Spellcasting Focus. You can use the book as a Spellcasting Focus.",
+      "fr": "Focaliseur d’incantation. Vous pouvez utiliser le livre comme focaliseur d’incantation.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.f2b71acd8a5e",
+      "kind": "description",
+      "en": "Prerequisite: Level 2+ Warlock, a Warlock Cantrip That Deals Damage via an Attack Roll",
+      "fr": "Prérequis : Occultiste de niveau 2+, un sort mineur d’Occultiste qui inflige des dégâts par un jet d’attaque",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.e418998042bb",
+      "kind": "description",
+      "en": "Choose one of your known Warlock cantrips that requires an attack roll. When you hit a Large or smaller creature with that cantrip, you can push the creature up to 10 feet straight away from you.",
+      "fr": "Choisissez un sort mineur d’Occultiste que vous connaissez et qui demande un jet d’attaque. Lorsque vous touchez une créature de taille G ou inférieure avec ce sort mineur, vous pouvez la repousser en ligne droite d’un maximum de 10 feet.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.2230633e1745",
+      "kind": "description",
+      "en": "Prerequisite: Level 9+ Warlock",
+      "fr": "Prérequis : Occultiste de niveau 9+",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.dac92713e3e0",
+      "kind": "description",
+      "en": "Prerequisite: Level 7+ Warlock",
+      "fr": "Prérequis : Occultiste de niveau 7+",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.eldritch-invocations.8613df9705ff",
+      "kind": "description",
+      "en": "Prerequisite: Level 15+ Warlock",
+      "fr": "Prérequis : Occultiste de niveau 15+",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.maneuver-options.94c3df06f5df",
+      "kind": "description",
+      "en": "When you hit a creature with an attack roll, you can expend one Superiority Die to attempt to goad the target into attacking you. Add the Superiority Die to the attack’s damage roll. The target must succeed on a Wisdom saving throw or have Disadvantage on attack rolls against targets other than you until the end of your next turn.",
+      "fr": "Lorsque vous touchez une créature avec un jet d’attaque, vous pouvez dépenser un dé de supériorité pour tenter de la provoquer. Ajoutez le dé de supériorité au jet de dégâts de l’attaque. La cible doit réussir un jet de sauvegarde de Sagesse sous peine de subir le Désavantage aux jets d’attaque contre toute cible autre que vous jusqu’à la fin de votre prochain tour.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Maneuver Options · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.maneuver-options.5e639777d15b",
+      "kind": "description",
+      "en": "When you’re within 5 feet of a creature on your turn, you can expend one Superiority Die and switch places with that creature, provided you spend at least 5 feet of movement and the creature is willing and doesn’t have the Incapacitated condition. This movement doesn’t provoke Opportunity Attacks.",
+      "fr": "Lorsque vous êtes à 5 feet ou moins d’une créature à votre tour, vous pouvez dépenser un dé de supériorité et échanger votre position avec elle, à condition de dépenser au moins 5 feet de déplacement et que la créature soit consentante et ne soit pas Neutralisée. Ce déplacement ne provoque pas d’attaques d’opportunité.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Maneuver Options · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.maneuver-options.13aec03de414",
+      "kind": "description",
+      "en": "Roll the Superiority Die. Until the start of your next turn, you or the other creature (your choice) gains a bonus to AC equal to the number rolled.",
+      "fr": "Lancez le dé de supériorité. Jusqu’au début de votre prochain tour, vous ou l’autre créature, au choix, bénéficiez d’un bonus à la CA égal au résultat.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Maneuver Options · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.maneuver-options.223ddd06c7fc",
+      "kind": "description",
+      "en": "When you take the Attack action on your turn, you can replace one of your attacks to direct one of your companions to strike. When you do so, choose a willing creature who can see or hear you and expend one Superiority Die. That creature can immediately use its Reaction to make one attack with a weapon or an Unarmed Strike, adding the Superiority Die to the attack’s damage roll on a hit.",
+      "fr": "Lorsque vous entreprenez l’action Attaquer à votre tour, vous pouvez remplacer l’une de vos attaques pour ordonner à un compagnon de frapper. Choisissez alors une créature consentante qui vous voit ou vous entend et dépensez un dé de supériorité. Elle peut immédiatement jouer sa Réaction pour effectuer une attaque avec une arme ou à mains nues, en ajoutant le dé de supériorité aux dégâts si l’attaque touche.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Maneuver Options · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.maneuver-options.3cafb65ff575",
+      "kind": "description",
+      "en": "When you make a Charisma (Intimidation, Performance, or Persuasion) check, you can expend one Superiority Die and add that die to the roll.",
+      "fr": "Lorsque vous effectuez un test de Charisme (Intimidation, Représentation ou Persuasion), vous pouvez dépenser un dé de supériorité et l’ajouter au jet.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Maneuver Options · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.maneuver-options.c2c62e8f4535",
+      "kind": "description",
+      "en": "When you hit a creature with an attack roll, you can expend one Superiority Die to attempt to disarm the target. Add the Superiority Die roll to the attack’s damage roll. The target must succeed on a Strength saving throw or drop one object of your choice that it’s holding, with the object landing in its space.",
+      "fr": "Lorsque vous touchez une créature avec un jet d’attaque, vous pouvez dépenser un dé de supériorité pour tenter de la désarmer. Ajoutez le résultat du dé de supériorité aux dégâts de l’attaque. La cible doit réussir un jet de sauvegarde de Force sous peine de lâcher un objet de votre choix qu’elle tient, qui tombe dans son espace.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Maneuver Options · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.maneuver-options.47c787f74358",
+      "kind": "description",
+      "en": "When you hit a creature with an attack roll, you can expend one Superiority Die to distract the target. Add the Superiority Die roll to the attack’s damage roll. The next attack roll against the target by an attacker other than you has Advantage if the attack is made before the start of your next turn.",
+      "fr": "Lorsque vous touchez une créature avec un jet d’attaque, vous pouvez dépenser un dé de supériorité pour la distraire. Ajoutez le résultat du dé de supériorité aux dégâts de l’attaque. Le prochain jet d’attaque contre la cible effectué par une autre créature que vous bénéficie de l’Avantage s’il intervient avant le début de votre prochain tour.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Maneuver Options · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.maneuver-options.a4be6322a99d",
+      "kind": "description",
+      "en": "As a Bonus Action, you can expend one Superiority Die and take the Disengage action. You also roll the die and add the number rolled to your AC until the start of your next turn.",
+      "fr": "Par une action Bonus, vous pouvez dépenser un dé de supériorité et entreprendre l’action Se désengager. Lancez également ce dé et ajoutez son résultat à votre CA jusqu’au début de votre prochain tour.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Maneuver Options · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.maneuver-options.7ee01fa954cd",
+      "kind": "description",
+      "en": "As a Bonus Action, you can expend one Superiority Die to feint, choosing one creature within 5 feet of yourself as your target. You have Advantage on your next attack roll against that target this turn. If that attack hits, add the Superiority Die to the attack’s damage roll.",
+      "fr": "Par une action Bonus, vous pouvez dépenser un dé de supériorité pour feinter contre une créature située à 5 feet ou moins de vous. Vous avez l’Avantage au prochain jet d’attaque contre elle durant ce tour. Si cette attaque touche, ajoutez le dé de supériorité à ses dégâts.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Maneuver Options · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.maneuver-options.1e8628a16bfb",
+      "kind": "description",
+      "en": "As a Bonus Action, you can expend one Superiority Die and take the Dash action. If you move at least 5 feet in a straight line immediately before hitting with a melee attack as part of the Attack action on this turn, you can add the Superiority Die to the attack’s damage roll.",
+      "fr": "Par une action Bonus, vous pouvez dépenser un dé de supériorité et entreprendre l’action Foncer. Si vous vous déplacez d’au moins 5 feet en ligne droite immédiatement avant de toucher avec une attaque de corps à corps effectuée dans le cadre de l’action Attaquer durant ce tour, vous pouvez ajouter le dé de supériorité aux dégâts de cette attaque.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Maneuver Options · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.maneuver-options.864b8a10b435",
+      "kind": "description",
+      "en": "When you hit a creature with an attack roll, you can expend one Superiority Die to maneuver one of your comrades into another position. Add the Superiority Die roll to the attack’s damage roll, and choose a willing creature who can see or hear you. That creature can use its Reaction to move up to half its Speed without provoking an Opportunity Attacks from the target of your attack.",
+      "fr": "Lorsque vous touchez une créature avec un jet d’attaque, vous pouvez dépenser un dé de supériorité pour permettre à un camarade de se repositionner. Ajoutez le résultat du dé de supériorité aux dégâts de l’attaque et choisissez une créature consentante qui vous voit ou vous entend. Elle peut jouer sa Réaction pour se déplacer d’un maximum de la moitié de sa Vitesse sans provoquer d’attaque d’opportunité de la cible de votre attaque.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Maneuver Options · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.maneuver-options.992e417b6602",
+      "kind": "description",
+      "en": "When you hit a creature with an attack roll, you can expend one Superiority Die to attempt to frighten the target. Add the Superiority Die to the attack’s damage roll. The target must succeed on a Wisdom saving throw or have the Frightened condition until the end of your next turn.",
+      "fr": "Lorsque vous touchez une créature avec un jet d’attaque, vous pouvez dépenser un dé de supériorité pour tenter de l’effrayer. Ajoutez le dé de supériorité aux dégâts de l’attaque. La cible doit réussir un jet de sauvegarde de Sagesse sous peine d’être Effrayée jusqu’à la fin de votre prochain tour.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Maneuver Options · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.maneuver-options.61e01eff6b42",
+      "kind": "description",
+      "en": "When another creature damages you with a melee attack roll, you can take a Reaction and expend one Superiority Die to reduce the damage by the number you roll on your Superiority Die plus your Strength or Dexterity modifier (your choice).",
+      "fr": "Lorsqu’une autre créature vous inflige des dégâts avec un jet d’attaque de corps à corps, vous pouvez jouer une Réaction et dépenser un dé de supériorité pour réduire ces dégâts du résultat du dé plus votre modificateur de Force ou de Dextérité, au choix.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Maneuver Options · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.maneuver-options.4701b6b9b590",
+      "kind": "description",
+      "en": "When you miss with an attack roll, you can expend one Superiority Die, roll that die, and add it to the attack roll, potentially causing the attack to hit.",
+      "fr": "Lorsque vous ratez un jet d’attaque, vous pouvez dépenser et lancer un dé de supériorité, puis l’ajouter au jet d’attaque, ce qui peut transformer l’échec en réussite.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Maneuver Options · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.maneuver-options.92ce2ebd34c6",
+      "kind": "description",
+      "en": "As a Bonus Action, you can expend one Superiority Die to bolster the resolve of a companion. Choose an ally of yours within 30 feet of yourself who can see or hear you. That creature gains Temporary Hit Points equal to the Superiority Die roll plus half your Fighter level (round down).",
+      "fr": "Par une action Bonus, vous pouvez dépenser un dé de supériorité pour raffermir la détermination d’un compagnon. Choisissez un allié situé à 30 feet ou moins de vous qui vous voit ou vous entend. Il gagne des points de vie temporaires égaux au résultat du dé de supériorité plus la moitié de votre niveau de Guerrier, arrondie à l’inférieur.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Maneuver Options · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.maneuver-options.00f541e3862e",
+      "kind": "description",
+      "en": "When a creature misses you with a melee attack roll, you can take a Reaction and expend one Superiority Die to make a melee attack roll with a weapon or an Unarmed Strike against the creature. If you hit, add the Superiority Die to the attack’s damage.",
+      "fr": "Lorsqu’une créature vous rate avec un jet d’attaque de corps à corps, vous pouvez jouer une Réaction et dépenser un dé de supériorité pour effectuer contre elle un jet d’attaque de corps à corps avec une arme ou à mains nues. Si vous touchez, ajoutez le dé de supériorité aux dégâts de l’attaque.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Maneuver Options · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.maneuver-options.db0b8ebcbd44",
+      "kind": "description",
+      "en": "When you hit a creature with a melee attack roll using a weapon or an Unarmed Strike, you can expend one Superiority Die to attempt to damage another creature. Choose another creature within 5 feet of the original target and within your reach. If the original attack roll would hit the second creature, it takes damage equal to the number you roll on your Superiority Die. The damage is of the same type dealt by the original attack.",
+      "fr": "Lorsque vous touchez une créature avec un jet d’attaque de corps à corps utilisant une arme ou une attaque à mains nues, vous pouvez dépenser un dé de supériorité pour tenter de blesser une autre créature. Choisissez une autre créature située à 5 feet ou moins de la première cible et à votre allonge. Si le jet d’attaque initial touchait également cette seconde créature, elle subit des dégâts égaux au résultat du dé de supériorité. Ces dégâts sont du même type que ceux de l’attaque initiale.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Maneuver Options · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.maneuver-options.e29c744c0db7",
+      "kind": "description",
+      "en": "When you make an Intelligence (History or Investigation) check or a Wisdom (Insight) check, you can expend one Superiority Die and add that die to the ability check.",
+      "fr": "Lorsque vous effectuez un test d’Intelligence (Histoire ou Investigation) ou de Sagesse (Intuition), vous pouvez dépenser un dé de supériorité et l’ajouter au test.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Maneuver Options · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.maneuver-options.72f2f4a77d2f",
+      "kind": "description",
+      "en": "When you hit a creature with an attack roll using a weapon or an Unarmed Strike, you can expend one Superiority Die and add the die to the attack’s damage roll. If the target is Large or smaller, it must succeed on a Strength saving throw or have the Prone condition.",
+      "fr": "Lorsque vous touchez une créature avec un jet d’attaque utilisant une arme ou une attaque à mains nues, vous pouvez dépenser un dé de supériorité et l’ajouter aux dégâts. Si la cible est de taille G ou inférieure, elle doit réussir un jet de sauvegarde de Force sous peine de tomber À terre.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Maneuver Options · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.metamagic.78f806fe6e56",
+      "kind": "description",
+      "en": "Cost: 1 Sorcery Point",
+      "fr": "Coût : 1 point de Sorcellerie",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Metamagic · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.metamagic.fc719ba96e24",
+      "kind": "description",
+      "en": "When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell’s full force. To do so, spend 1 Sorcery Point and choose a number of those creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the spell, and it takes no damage if it would normally take half damage on a successful save.",
+      "fr": "Lorsque vous lancez un sort qui contraint d’autres créatures à effectuer un jet de sauvegarde, vous pouvez protéger certaines de ces créatures des pleins effets du sort. À cette fin, dépensez 1 point de Sorcellerie et désignez des créatures dont le nombre n’excède pas votre modificateur de Charisme (minimum d’une créature). Les créatures choisies réussissent automatiquement leur jet de sauvegarde contre le sort et ne subissent aucun dégât si elles étaient censées les réduire de moitié en cas de réussite.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Metamagic · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.metamagic.8b098bc435a4",
+      "kind": "description",
+      "en": "Cost: 2 Sorcery Points",
+      "fr": "Coût : 2 points de Sorcellerie",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Metamagic · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.reference-cards.bdbb6f2f20f3",
+      "kind": "description",
+      "en": "Roll on this table at the start of each of your turns for the next minute, ignoring this result on subsequent rolls.",
+      "fr": "Pendant la prochaine minute, lancez sur cette table au début de chacun de vos tours, en ignorant ce résultat lors des jets suivants.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Reference Cards · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.reference-cards.391313cbeda4",
+      "kind": "description",
+      "en": "A creature that is Friendly toward you appears in a random unoccupied space within 60 feet of you. The creature is under the DM’s control and disappears 1 minute later. Roll 1d4 to determine the creature:",
+      "fr": "Une créature Amicale envers vous apparaît dans un espace inoccupé aléatoire à 60 feet ou moins de vous. Elle est contrôlée par le MJ et disparaît 1 minute plus tard. Lancez 1d4 pour déterminer la créature :",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Reference Cards · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.reference-cards.c77c41f95ad2",
+      "kind": "description",
+      "en": "For the next minute, you regain 5 Hit Points at the start of each of your turns.",
+      "fr": "Pendant la prochaine minute, vous récupérez 5 points de vie au début de chacun de vos tours.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Reference Cards · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.reference-cards.a1d8c39d30a4",
+      "kind": "description",
+      "en": "Creatures have Disadvantage on saving throws against the next spell you cast in the next minute that involves a saving throw.",
+      "fr": "Les créatures ont le Désavantage aux jets de sauvegarde contre le prochain sort que vous lancez durant la prochaine minute et qui impose un jet de sauvegarde.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Reference Cards · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.reference-cards.488016d0b798",
+      "kind": "description",
+      "en": "You are subjected to an effect that lasts for 1 minute unless its description says otherwise. Roll 1d8 to determine the effect:",
+      "fr": "Vous subissez un effet qui dure 1 minute, sauf indication contraire dans sa description. Lancez 1d8 pour déterminer l’effet :",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Reference Cards · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.reference-cards.fce541bb367d",
+      "kind": "description",
+      "en": "You’re surrounded by faint, ethereal music only you and creatures within 5 feet of you can hear",
+      "fr": "Une musique éthérée et légère vous entoure ; seuls vous et les créatures à 5 feet ou moins de vous pouvez l’entendre",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Reference Cards · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.reference-cards.300734ac11f8",
+      "kind": "description",
+      "en": "Your size increases by one size category",
+      "fr": "Votre taille augmente d’une catégorie",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Reference Cards · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.reference-cards.349c186dd147",
+      "kind": "description",
+      "en": "You grow a long beard made of feathers that remains until you sneeze, at which point the feathers explode from your face and vanish",
+      "fr": "Une longue barbe de plumes vous pousse et persiste jusqu’à ce que vous éternuiez ; les plumes jaillissent alors de votre visage et disparaissent",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Reference Cards · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.reference-cards.bb5df2e7c3ca",
+      "kind": "description",
+      "en": "You must shout when you speak",
+      "fr": "Vous devez crier lorsque vous parlez",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Reference Cards · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.reference-cards.46946c494bf1",
+      "kind": "description",
+      "en": "Illusory butterflies flutter in the air within 10 feet of you",
+      "fr": "Des papillons illusoires voltigent dans un rayon de 10 feet autour de vous",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Reference Cards · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.reference-cards.2353eae3f4c6",
+      "kind": "description",
+      "en": "An eye appears on your forehead, granting you Advantage on Wisdom (Perception) checks",
+      "fr": "Un œil apparaît sur votre front et vous donne l’Avantage aux tests de Sagesse (Perception)",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Reference Cards · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.reference-cards.2370d5676608",
+      "kind": "description",
+      "en": "Pink bubbles float out of your mouth whenever you speak",
+      "fr": "Des bulles roses sortent de votre bouche chaque fois que vous parlez",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Reference Cards · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.reference-cards.99e7df4d90f5",
+      "kind": "description",
+      "en": "Your skin turns a vibrant shade of blue for 24 hours or until the effect is ended by a Remove Curse spell.",
+      "fr": "Votre peau devient bleu vif pendant 24 heures ou jusqu’à ce que l’effet soit dissipé par le sort Délivrance des malédictions.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Reference Cards · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.reference-cards.32d794d26e2f",
+      "kind": "description",
+      "en": "For the next minute, all your spells with a casting time of an action have a casting time of a Bonus Action.",
+      "fr": "Pendant la prochaine minute, tous vos sorts dont le temps d’incantation est une action ont un temps d’incantation d’une action Bonus.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Reference Cards · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.reference-cards.f0c4137ace6b",
+      "kind": "description",
+      "en": "You are transported to the Astral Plane until the end of your next turn. You then return to the space you previously occupied or the nearest unoccupied space if that space is occupied.",
+      "fr": "Vous êtes transporté dans le Plan Astral jusqu’à la fin de votre prochain tour. Vous revenez ensuite dans l’espace que vous occupiez, ou dans l’espace inoccupé le plus proche s’il est occupé.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Reference Cards · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.reference-cards.ab9b703c5507",
+      "kind": "description",
+      "en": "The next time you cast a spell that deals damage within the next minute, don’t roll the spell’s damage dice for the damage. Instead use the highest number possible for each damage die.",
+      "fr": "La prochaine fois que vous lancez un sort infligeant des dégâts durant la prochaine minute, ne lancez pas ses dés de dégâts. Utilisez plutôt le résultat maximal possible de chaque dé.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Reference Cards · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.reference-cards.9b5dec21cbf7",
+      "kind": "description",
+      "en": "You have Resistance to all damage for the next minute.",
+      "fr": "Vous avez la Résistance à tous les dégâts pendant la prochaine minute.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Reference Cards · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.reference-cards.7150fc0fadc5",
+      "kind": "description",
+      "en": "You turn into a potted plant until the start of your next turn. While you’re a plant, you have the Incapacitated condition and have Vulnerability to all damage. If you drop to 0 Hit Points, your pot breaks, and your form reverts.",
+      "fr": "Vous devenez une plante en pot jusqu’au début de votre prochain tour. Sous cette forme, vous êtes Neutralisé et avez la Vulnérabilité à tous les dégâts. Si vous tombez à 0 point de vie, le pot se brise et vous reprenez votre forme.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Reference Cards · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.reference-cards.6a4f44e49d70",
+      "kind": "description",
+      "en": "For the next minute, you can teleport up to 20 feet as a Bonus Action on each of your turns.",
+      "fr": "Pendant la prochaine minute, vous pouvez vous téléporter d’un maximum de 20 feet par une action Bonus à chacun de vos tours.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Reference Cards · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.reference-cards.240fbd3f5100",
+      "kind": "description",
+      "en": "You and up to three creatures you choose within 30 feet of you have the Invisible condition for 1 minute. This invisibility ends on a creature immediately after it makes an attack roll, deals damage, or casts a spell.",
+      "fr": "Vous et jusqu’à trois créatures de votre choix à 30 feet ou moins de vous devenez Invisibles pendant 1 minute. Cette invisibilité prend fin pour une créature dès qu’elle effectue un jet d’attaque, inflige des dégâts ou lance un sort.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Reference Cards · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.reference-cards.187ef0aa70a1",
+      "kind": "description",
+      "en": "A spectral shield hovers near you for the next minute, granting you a +2 bonus to AC and immunity to Magic Missile.",
+      "fr": "Un bouclier spectral flotte près de vous pendant la prochaine minute, vous donnant un bonus de +2 à la CA et l’immunité à Projectile magique.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Reference Cards · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.reference-cards.179f6a61a2d9",
+      "kind": "description",
+      "en": "You can take one extra action on this turn.",
+      "fr": "Vous pouvez entreprendre une action supplémentaire durant ce tour.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Reference Cards · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.reference-cards.083fb3b69733",
+      "kind": "description",
+      "en": "You cast a random spell. If the spell normally requires Concentration, it doesn’t require Concentration in this case; the spell lasts for its full duration. Roll 1d10 to determine the spell:",
+      "fr": "Vous lancez un sort déterminé aléatoirement. S’il exige normalement la Concentration, elle n’est pas nécessaire ici ; le sort persiste pour toute sa durée. Lancez 1d10 pour déterminer le sort :",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Reference Cards · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.reference-cards.275d71aa9c3e",
+      "kind": "description",
+      "en": "Fly (cast on a random creature within 60 feet of you)",
+      "fr": "Vol (lancé sur une créature aléatoire à 60 feet ou moins de vous)",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Reference Cards · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.reference-cards.13c3a91ac1e1",
+      "kind": "description",
+      "en": "Levitate (cast on yourself)",
+      "fr": "Lévitation (lancée sur vous-même)",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Reference Cards · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.reference-cards.123242917c2c",
+      "kind": "description",
+      "en": "Magic Missile (cast as a level 5 spell)",
+      "fr": "Projectile magique (lancé comme sort de niveau 5)",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Reference Cards · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.reference-cards.11c7b1599454",
+      "kind": "description",
+      "en": "Polymorph (cast on yourself), and if you fail the saving throw, you turn into a Goat (see appendix B)",
+      "fr": "Métamorphose (lancée sur vous-même) ; si vous ratez le jet de sauvegarde, vous devenez une Chèvre (voir l’annexe B)",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Reference Cards · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.reference-cards.0ce7f17ca263",
+      "kind": "description",
+      "en": "For the next minute, any flammable, nonmagical object you touch that isn’t being worn or carried by another creature bursts into flame, takes 1d4 Fire damage, and is burning.",
+      "fr": "Pendant la prochaine minute, tout objet inflammable et non magique que vous touchez et qui n’est ni porté ni transporté par une autre créature prend feu, subit 1d4 dégâts de feu et brûle.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Reference Cards · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.reference-cards.ab5d6aa707a7",
+      "kind": "description",
+      "en": "If you die within the next hour, you immediately revive as if by the Reincarnate spell.",
+      "fr": "Si vous mourez au cours de la prochaine heure, vous revenez immédiatement à la vie comme sous l’effet du sort Réincarnation.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Reference Cards · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.reference-cards.7b03dd09f1e7",
+      "kind": "description",
+      "en": "You have the Frightened condition until the end of your next turn. The DM determines the source of your fear.",
+      "fr": "Vous êtes Effrayé jusqu’à la fin de votre prochain tour. Le MJ détermine la source de votre peur.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Reference Cards · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.reference-cards.5507403ec249",
+      "kind": "description",
+      "en": "You teleport up to 60 feet to an unoccupied space you can see.",
+      "fr": "Vous vous téléportez d’un maximum de 60 feet vers un espace inoccupé que vous voyez.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Reference Cards · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.reference-cards.45174c03bdd4",
+      "kind": "description",
+      "en": "A random creature within 60 feet of you has the Poisoned condition for 1d4 hours.",
+      "fr": "Une créature aléatoire située à 60 feet ou moins de vous est Empoisonnée pendant 1d4 heures.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Reference Cards · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.reference-cards.161f8ad5c141",
+      "kind": "description",
+      "en": "You radiate Bright Light in a 30-foot radius for the next minute. Any creature that ends its turn within 5 feet of you has the Blinded condition until the end of its next turn.",
+      "fr": "Vous émettez une Lumière vive dans un rayon de 30 feet pendant la prochaine minute. Toute créature qui termine son tour à 5 feet ou moins de vous est Aveuglée jusqu’à la fin de son prochain tour.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Reference Cards · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.reference-cards.40a1a24eed02",
+      "kind": "description",
+      "en": "Up to three creatures of your choice that you can see within 30 feet of you take 1d10 Necrotic damage. You regain Hit Points equal to the sum of the Necrotic damage dealt.",
+      "fr": "Jusqu’à trois créatures de votre choix que vous voyez à 30 feet ou moins de vous subissent 1d10 dégâts nécrotiques. Vous récupérez autant de points de vie que le total des dégâts nécrotiques infligés.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Reference Cards · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.reference-cards.97e0fd7ad76e",
+      "kind": "description",
+      "en": "Up to three creatures of your choice that you can see within 30 feet of you take 4d10 Lightning damage.",
+      "fr": "Jusqu’à trois créatures de votre choix que vous voyez à 30 feet ou moins de vous subissent 4d10 dégâts de foudre.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Reference Cards · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.reference-cards.139ede8c2ddd",
+      "kind": "description",
+      "en": "You and all creatures within 30 feet of you have Vulnerability to Piercing damage for the next minute.",
+      "fr": "Vous et toutes les créatures à 30 feet ou moins de vous avez la Vulnérabilité aux dégâts perforants pendant la prochaine minute.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Reference Cards · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.reference-cards.9a8a5df9dd4d",
+      "kind": "description",
+      "en": "Roll 1d6:",
+      "fr": "Lancez 1d6 :",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Reference Cards · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.reference-cards.5eb12ae0cd1b",
+      "kind": "description",
+      "en": "You regain 2d10 Hit Points",
+      "fr": "Vous récupérez 2d10 points de vie",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Reference Cards · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.reference-cards.9a1952eb6fe9",
+      "kind": "description",
+      "en": "One ally of your choice within 300 feet of you regains 2d10 Hit Points",
+      "fr": "Un allié de votre choix à 300 feet ou moins de vous récupère 2d10 points de vie",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Reference Cards · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.reference-cards.c8a4520e7fac",
+      "kind": "description",
+      "en": "You regain your lowest-level expended spell slot",
+      "fr": "Vous récupérez votre emplacement de sort dépensé du niveau le plus bas",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Reference Cards · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.reference-cards.a4b9f56c9202",
+      "kind": "description",
+      "en": "One ally of your choice within 300 feet of you regains their lowest-level expended spell slot",
+      "fr": "Un allié de votre choix à 300 feet ou moins de vous récupère son emplacement de sort dépensé du niveau le plus bas",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Reference Cards · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.reference-cards.fedc60492adb",
+      "kind": "description",
+      "en": "You regain all your expended Sorcery Points",
+      "fr": "Vous récupérez tous vos points de Sorcellerie dépensés",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Reference Cards · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.reference-cards.f932b0af381b",
+      "kind": "description",
+      "en": "All the effects of row 17–20 affect you simultaneously.",
+      "fr": "Tous les effets de la ligne 17–20 vous affectent simultanément.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Reference Cards · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.maneuver-options.3d99a1081e1f",
+      "kind": "description",
+      "en": "When you make a Dexterity (Stealth) check or an Initiative roll, you can expend one Superiority Die and add the die to the roll, unless you have the Incapacitated condition.",
+      "fr": "Lorsque vous effectuez un test de Dextérité (Discrétion) ou un jet d’Initiative, vous pouvez dépenser un dé de supériorité et l’ajouter au jet, sauf si vous êtes Neutralisé.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Maneuver Options · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.maneuver-options.d7518bae4c5c",
+      "kind": "description",
+      "en": "When you hit a creature with an attack roll using a weapon or an Unarmed Strike, you can expend one Superiority Die to attempt to drive the target back. Add the Superiority Die to the attack’s damage roll. If the target is Large or smaller, it must succeed on a Strength saving throw or be pushed up to 15 feet directly away from you.",
+      "fr": "Lorsque vous touchez une créature avec un jet d’attaque utilisant une arme ou une attaque à mains nues, vous pouvez dépenser un dé de supériorité pour tenter de la repousser. Ajoutez le dé de supériorité aux dégâts de l’attaque. Si la cible est de taille G ou inférieure, elle doit réussir un jet de sauvegarde de Force sous peine d’être repoussée en ligne droite d’un maximum de 15 feet en s’éloignant de vous.",
+      "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Maneuver Options · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.prerequisite.card.5c52e33f5d4c",
+      "en": "(Prerequisite: Level 2+ Warlock, a Warlock Cantrip That Deals Damage)",
+      "fr": "(Prérequis : Occultiste de niveau 2+, un sort mineur d’Occultiste qui inflige des dégâts)",
+      "source": "Traduction proposée des prérequis des cartes Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.prerequisite.card.1a1c626b54f8",
+      "en": "(Prerequisite: Level 5+ Warlock)",
+      "fr": "(Prérequis : Occultiste de niveau 5+)",
+      "source": "Traduction proposée des prérequis des cartes Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.prerequisite.card.12116233b114",
+      "en": "(Prerequisite: Level 2+ Warlock)",
+      "fr": "(Prérequis : Occultiste de niveau 2+)",
+      "source": "Traduction proposée des prérequis des cartes Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.prerequisite.card.88c057659ffa",
+      "en": "(Prerequisite: Level 12+ Warlock, Thirsting Blade Invocation)",
+      "fr": "(Prérequis : Occultiste de niveau 12+, manifestation Lame assoiffée)",
+      "source": "Traduction proposée des prérequis des cartes Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.prerequisite.card.85c5670759d4",
+      "en": "(Prerequisite: Level 5+ Warlock, Pact of the Blade Invocation)",
+      "fr": "(Prérequis : Occultiste de niveau 5+, manifestation Pacte de la lame)",
+      "source": "Traduction proposée des prérequis des cartes Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.prerequisite.card.6bcbc7addfc2",
+      "en": "(Prerequisite: Level 9+ Warlock, Pact of the Tome Invocation)",
+      "fr": "(Prérequis : Occultiste de niveau 9+, manifestation Pacte du grimoire)",
+      "source": "Traduction proposée des prérequis des cartes Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.prerequisite.card.479f40b05d3c",
+      "en": "(Prerequisite: Level 5+ Warlock, Pact of the Chain Invocation)",
+      "fr": "(Prérequis : Occultiste de niveau 5+, manifestation Pacte de la chaîne)",
+      "source": "Traduction proposée des prérequis des cartes Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.prerequisite.card.316a233f9b8d",
+      "en": "(Prerequisite: Level 2+ Warlock, Lessons of the First Ones)",
+      "fr": "(Prérequis : Occultiste de niveau 2+, Enseignement des Premiers-Nés)",
+      "source": "Traduction proposée des prérequis des cartes Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.prerequisite.card.e8133e4d2435",
+      "en": "(Prerequisite: Level 2+ Warlock, Lessons of the First Ones 2)",
+      "fr": "(Prérequis : Occultiste de niveau 2+, Enseignement des Premiers-Nés 2)",
+      "source": "Traduction proposée des prérequis des cartes Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.prerequisite.card.92a4144fa34a",
+      "en": "(Prerequisite: Level 2+ Warlock, Lessons of the First Ones 3)",
+      "fr": "(Prérequis : Occultiste de niveau 2+, Enseignement des Premiers-Nés 3)",
+      "source": "Traduction proposée des prérequis des cartes Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.prerequisite.card.9e5873ce121d",
+      "en": "(Prerequisite: Level 2+ Warlock, Lessons of the First Ones 4)",
+      "fr": "(Prérequis : Occultiste de niveau 2+, Enseignement des Premiers-Nés 4)",
+      "source": "Traduction proposée des prérequis des cartes Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.prerequisite.card.fa3fa064a214",
+      "en": "(Prerequisite: Level 9+ Warlock, Pact of the Blade Invocation)",
+      "fr": "(Prérequis : Occultiste de niveau 9+, manifestation Pacte de la lame)",
+      "source": "Traduction proposée des prérequis des cartes Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.prerequisite.card.3e745724458d",
+      "en": "(Prerequisite: Level 2+ Warlock, a Warlock Cantrip That Deals Damage via an Attack Roll)",
+      "fr": "(Prérequis : Occultiste de niveau 2+, un sort mineur d’Occultiste qui inflige des dégâts par un jet d’attaque)",
+      "source": "Traduction proposée des prérequis des cartes Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.prerequisite.card.2303388242f9",
+      "en": "(Prerequisite: Level 9+ Warlock)",
+      "fr": "(Prérequis : Occultiste de niveau 9+)",
+      "source": "Traduction proposée des prérequis des cartes Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.prerequisite.card.057912d96f5d",
+      "en": "(Prerequisite: Level 7+ Warlock)",
+      "fr": "(Prérequis : Occultiste de niveau 7+)",
+      "source": "Traduction proposée des prérequis des cartes Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
+    },
+    {
+      "id": "shard.custom.prerequisite.card.b398164975d1",
+      "en": "(Prerequisite: Level 15+ Warlock)",
+      "fr": "(Prérequis : Occultiste de niveau 15+)",
+      "source": "Traduction proposée des prérequis des cartes Shard · D&D 2024 PHB · Eldritch Invocations · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "2024"
     }
   ]
 }

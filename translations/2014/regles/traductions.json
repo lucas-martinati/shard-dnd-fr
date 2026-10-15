@@ -558,6 +558,126 @@
       "fr": "Une créature renvoyée doit consacrer ses tours à s’éloigner de vous autant que possible et ne peut pas se déplacer volontairement à moins de 30 feet de vous. Elle ne peut pas non plus entreprendre de Réaction. Pour son action, elle ne peut que Foncer ou tenter d’échapper à un effet qui l’empêche de se déplacer. Si elle ne peut aller nulle part, elle peut entreprendre l’action Esquiver.",
       "source": "Traduction proposée du texte affiché dans le catalogue Conditions de Shard · Shard Player's Guide Volume 1, D&D 2024 PHB · relevé du 13 octobre 2026",
       "edition": "any"
+    },
+    {
+      "id": "shard.custom.diseases.8037fa422004",
+      "kind": "term",
+      "en": "Cackle Fever",
+      "fr": "Fièvre rieuse",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Diseases · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.diseases.ce850e7105f8",
+      "kind": "description",
+      "en": "This disease targets humanoids, although gnomes are strangely immune. While in the grips of this disease, victims frequently succumb to fits of mad laughter, giving the disease its common name and its morbid nickname: \"the shrieks.\"",
+      "fr": "Cette maladie touche les humanoïdes, mais les gnomes y sont étrangement immunisés. Les victimes sont souvent prises de crises de rire dément, ce qui lui vaut son nom courant et son surnom morbide : « les hurlements ».",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Diseases · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.diseases.c3eab458f71e",
+      "kind": "description",
+      "en": "Symptoms manifest 1d4 hours after infection and include fever and disorientation. The infected creature gains one level of exhaustion that can't be removed until the disease is cured.",
+      "fr": "Les symptômes apparaissent 1d4 heures après l’infection et comprennent de la fièvre et une désorientation. La créature infectée gagne un niveau d’Épuisement qui ne peut pas être éliminé tant que la maladie n’est pas guérie.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Diseases · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.diseases.e24e888706c6",
+      "kind": "description",
+      "en": "Any event that causes the infected creature great stress—including entering combat, taking damage, experiencing fear, or having a nightmare—forces the creature to make a DC 13 Constitution saving throw. On a failed save, the creature takes 5 (1d10) psychic damage and becomes incapacitated with mad laughter for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the mad laughter and the incapacitated condition on a success.",
+      "fr": "Tout événement provoquant un stress intense chez la créature infectée, comme entrer en combat, subir des dégâts, avoir peur ou faire un cauchemar, lui impose un jet de sauvegarde de Constitution DD 13. En cas d’échec, elle subit 5 (1d10) dégâts psychiques et devient Neutralisée par un rire dément pendant 1 minute. Elle peut réitérer le jet de sauvegarde à la fin de chacun de ses tours ; en cas de réussite, le rire dément et l’état Neutralisé prennent fin.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Diseases · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.diseases.41563df460be",
+      "kind": "description",
+      "en": "Any humanoid creature that starts its turn within 10 feet of an infected creature in the throes of mad laughter must succeed on a DC 10 Constitution saving throw or also become infected with the disease. Once a creature succeeds on this save, it is immune to the mad laughter of that particular infected creature for 24 hours.",
+      "fr": "Tout humanoïde qui commence son tour à 10 feet ou moins d’une créature infectée prise d’un rire dément doit réussir un jet de sauvegarde de Constitution DD 10 sous peine de contracter la maladie. Après une réussite, il est immunisé pendant 24 heures contre le rire dément de cette créature infectée précise.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Diseases · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.diseases.ee9d0ddef4ef",
+      "kind": "description",
+      "en": "At the end of each long rest, an infected creature can make a DC 13 Constitution saving throw. On a successful save, the DC for this save and for the save to avoid an attack of mad laughter drops by 1d6. When the saving throw DC drops to 0, the creature recovers from the disease. A creature that fails three of these saving throws gains a randomly determined form of indefinite madness, as described later in this chapter.",
+      "fr": "À la fin de chaque Repos long, une créature infectée peut effectuer un jet de sauvegarde de Constitution DD 13. En cas de réussite, le DD de ce jet et de celui permettant d’éviter une crise de rire dément diminue de 1d6. Lorsque le DD tombe à 0, la créature guérit. Une créature qui rate trois de ces jets de sauvegarde acquiert une forme de folie permanente déterminée aléatoirement, décrite plus loin dans ce chapitre.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Diseases · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.diseases.04b751a528c2",
+      "kind": "term",
+      "en": "Sewer Plague",
+      "fr": "Peste des égouts",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Diseases · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.diseases.6e2eb10d5f52",
+      "kind": "description",
+      "en": "Sewer plague is a generic term for a broad category of illnesses that incubate in sewers, refuse heaps, and stagnant swamps, and which are sometimes transmitted by creatures that dwell in those areas, such as rats and otyughs.",
+      "fr": "La peste des égouts désigne un large ensemble de maladies qui se développent dans les égouts, les tas d’ordures et les marécages stagnants. Elles sont parfois transmises par les créatures qui vivent dans ces lieux, comme les rats et les otyughs.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Diseases · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.diseases.fd51a1c218d5",
+      "kind": "description",
+      "en": "When a humanoid creature is bitten by a creature that carries the disease, or when it comes into contact with filth or offal contaminated by the disease, the creature must succeed on a DC 11 Constitution saving throw or become infected.",
+      "fr": "Lorsqu’un humanoïde est mordu par une créature porteuse de la maladie ou entre en contact avec des immondices ou des déchets organiques contaminés, il doit réussir un jet de sauvegarde de Constitution DD 11 sous peine d’être infecté.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Diseases · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.diseases.6bc7650251fa",
+      "kind": "description",
+      "en": "It takes 1d4 days for sewer plague's symptoms to manifest in an infected creature. Symptoms include fatigue and cramps. The infected creature suffers one level of exhaustion, and it regains only half the normal number of hit points from spending Hit Dice and no hit points from finishing a long rest.",
+      "fr": "Les symptômes de la peste des égouts apparaissent 1d4 jours après l’infection : fatigue et crampes. La créature infectée subit un niveau d’Épuisement. Elle ne récupère que la moitié des points de vie normalement obtenus en dépensant des dés de vie et ne récupère aucun point de vie en terminant un Repos long.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Diseases · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.diseases.211ce5f6a6d9",
+      "kind": "description",
+      "en": "At the end of each long rest, an infected creature must make a DC 11 Constitution saving throw. On a failed save, the character gains one level of exhaustion. On a successful save, the character's exhaustion level decreases by one level. If a successful saving throw reduces the infected creature's level of exhaustion below 1, the creature recovers from the disease.",
+      "fr": "À la fin de chaque Repos long, une créature infectée doit effectuer un jet de sauvegarde de Constitution DD 11. En cas d’échec, elle gagne un niveau d’Épuisement. En cas de réussite, son niveau d’Épuisement diminue d’un niveau. Si cette réussite fait descendre son niveau d’Épuisement sous 1, elle guérit.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Diseases · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.diseases.a809197e2694",
+      "kind": "term",
+      "en": "Sight Rot",
+      "fr": "Pourriture oculaire",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Diseases · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.diseases.4f0cb44aa925",
+      "kind": "description",
+      "en": "This painful infection causes bleeding from the eyes and eventually blinds the victim.",
+      "fr": "Cette infection douloureuse provoque des saignements des yeux et finit par rendre sa victime aveugle.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Diseases · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.diseases.d5b8b0dcc8f7",
+      "kind": "description",
+      "en": "A beast or humanoid that drinks water tainted by sight rot must succeed on a DC 15 Constitution saving throw or become infected. One day after infection, the creature's vision starts to become blurry. The creature takes a −1 penalty to attack rolls and ability checks that rely on sight. At the end of each long rest after the symptoms appear, the penalty worsens by 1. When it reaches −5, the victim is blinded until its sight is restored by magic such as lesser restoration or heal.",
+      "fr": "Une bête ou un humanoïde qui boit de l’eau contaminée par la pourriture oculaire doit réussir un jet de sauvegarde de Constitution DD 15 sous peine d’être infecté. Un jour après l’infection, sa vision devient floue. La créature subit un malus de −1 aux jets d’attaque et aux tests de caractéristique qui font appel à la vue. À la fin de chaque Repos long après l’apparition des symptômes, ce malus augmente de 1. Lorsqu’il atteint −5, la victime est Aveuglée jusqu’à ce que sa vue soit restaurée par une magie telle que Restauration partielle ou Guérison.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Diseases · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
+    },
+    {
+      "id": "shard.custom.diseases.8939a0abda7a",
+      "kind": "description",
+      "en": "Sight rot can be cured using a rare flower called Eyebright, which grows in some swamps. Given an hour, a character who has proficiency with an herbalism kit can turn the flower into one dose of ointment. Applied to the eyes before a long rest, one dose of it prevents the disease from worsening after that rest. After three doses, the ointment cures the disease entirely.",
+      "fr": "La pourriture oculaire peut être guérie avec une fleur rare appelée euphraise, qui pousse dans certains marécages. En une heure, un personnage ayant la maîtrise du matériel d’herboriste peut transformer cette fleur en une dose d’onguent. Appliquée sur les yeux avant un Repos long, une dose empêche la maladie de s’aggraver après ce repos. Après trois doses, l’onguent guérit entièrement la maladie.",
+      "source": "Traduction proposée des fiches intégrales Shard · Shard Player's Guide Volume 1 · Diseases · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "edition": "any"
     }
   ]
 }
