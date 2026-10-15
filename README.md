@@ -50,7 +50,7 @@ Les constantes de données du userscript sont toutes sérialisées au format JSO
 
 Les tests sont regroupés dans `tests/`, avec les extraits HTML dans `tests/fixtures/`. `npm test` lance les suites JavaScript et Python. Les tests inclus couvrent la configuration, la recherche et les liens, les aptitudes de personnages, les variantes de métamagie, les interactions, la migration du cache et le retour au texte anglais.
 
-`npm run test:interface` vérifie le panneau de paramètres de campagne relevé dans Shard, les menus ajoutés dynamiquement, les libellés de fiche et les infobulles. Il contrôle aussi la conservation des valeurs, des cases cochées, des liens et des interactions, puis la restauration exacte de l’anglais.
+`npm run test:interface` vérifie le panneau de paramètres de campagne relevé dans Shard, les menus ajoutés dynamiquement, les libellés de fiche, les dialogues de repos court et long et les infobulles. Il contrôle aussi la conservation des valeurs, des cases cochées, des liens et des interactions, les compteurs de dés de vie et de PV, puis la restauration exacte de l’anglais.
 
 `npm run test:spells` vérifie les paragraphes de sorts, leurs découpages SRD et 17 fiches HTML relevées dans le PHB Shard, avec les nombres, les dés, les liens et les tableaux. Cette suite contrôle aussi les 77 noms d’objets examinés. Les frontières de paragraphes EN/FR sont éditables dans `translations/dnd-2024/phb/sorts/decoupage-srd.json` : chaque frontière est associée explicitement à son équivalent, même si leur ordre diffère entre les deux langues.
 

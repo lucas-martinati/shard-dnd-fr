@@ -1,5 +1,5 @@
 {
-  "version": "1.17.22",
+  "version": "1.17.23",
   "reference": "Noms AideDD 2024 prioritaires. Références SRD disponibles séparément. Autres entrées identifiées.",
   "license": "Code MIT ; contenu SRD CC-BY-4.0 https://creativecommons.org/licenses/by/4.0/",
   "sources": [
@@ -14224,6 +14224,97 @@
     {
       "en": "RA",
       "fr": "R",
+      "category": "vocabulaire",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "aliases": []
+    },
+    {
+      "en": "Do Long Rest",
+      "fr": "Terminer le repos long",
+      "category": "vocabulaire",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "aliases": []
+    },
+    {
+      "en": "Features Recovered",
+      "fr": "Aptitudes récupérées",
+      "category": "vocabulaire",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "aliases": []
+    },
+    {
+      "en": "Equipment with Features Recovered",
+      "fr": "Équipement dont les aptitudes sont récupérées",
+      "category": "vocabulaire",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "aliases": []
+    },
+    {
+      "en": "Spells Slots",
+      "fr": "Emplacements de sort",
+      "category": "vocabulaire",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "aliases": []
+    },
+    {
+      "en": "Regain all of your Hit Dice",
+      "fr": "Récupérer tous vos dés de vie",
+      "category": "vocabulaire",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "aliases": []
+    },
+    {
+      "en": "Regains up to half of your Hit Dice (rules as written)",
+      "fr": "Récupérer jusqu’à la moitié de vos dés de vie (règles telles qu’écrites)",
+      "category": "vocabulaire",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "aliases": []
+    },
+    {
+      "en": "A long rest is a period of extended downtime, at least 8 hours long, during which a character sleeps or performs light activity: reading, talking, eating, or standing watch for no more than 2 hours.",
+      "fr": "Un repos long est une période de détente prolongée d’au moins 8 heures, pendant laquelle un personnage dort ou se livre à des activités légères : lire, discuter, manger ou monter la garde pendant 2 heures au maximum.",
+      "category": "vocabulaire",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "aliases": []
+    },
+    {
+      "en": "At the end of a long rest, a character regains all lost hit points.",
+      "fr": "À la fin d’un repos long, un personnage récupère tous ses points de vie perdus.",
+      "category": "vocabulaire",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "aliases": []
+    },
+    {
+      "en": "Do Short Rest",
+      "fr": "Terminer le repos court",
+      "category": "vocabulaire",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "aliases": []
+    },
+    {
+      "en": "Spend Hit Die",
+      "fr": "Dépenser un dé de vie",
+      "category": "vocabulaire",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "aliases": []
+    },
+    {
+      "en": "A short rest is a period of downtime, at least 1 hour long, during which a character does nothing more strenuous than eating, drinking, reading, and tending to wounds.",
+      "fr": "Un repos court est une période de détente d’au moins 1 heure, pendant laquelle un personnage ne fait rien de plus éprouvant que manger, boire, lire ou soigner ses blessures.",
+      "category": "vocabulaire",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "aliases": []
+    },
+    {
+      "en": "A character can spend one or more Hit Dice at the end of a short rest. For each Hit Die, roll the die and add your Constitution modifier. Regain hit points equal to the total.",
+      "fr": "Un personnage peut dépenser un ou plusieurs dés de vie à la fin d’un repos court. Pour chaque dé de vie, lancez le dé et ajoutez votre modificateur de Constitution. Vous récupérez un nombre de points de vie égal au total.",
+      "category": "vocabulaire",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "aliases": []
+    },
+    {
+      "en": "You are at maximum hit points",
+      "fr": "Vos points de vie sont au maximum :",
       "category": "vocabulaire",
       "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
       "aliases": []

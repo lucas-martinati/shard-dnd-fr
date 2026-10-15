@@ -1,5 +1,11 @@
 # Audit de couverture — 13 octobre 2026
 
+## Dialogues de repos de la fiche personnage — 1.17.23 et 1.17.24
+
+Les dialogues de repos long et court ont été relevés dans Shard le 15 octobre 2026, sans valider de repos ni dépenser de dé. Les explications, choix de récupération, titres de ressources et boutons sont traduits dans le lexique d’interface. Les règles affichées par Shard sont conservées, même lorsque leur formulation vient d’une édition antérieure.
+
+Le compteur du repos court et les messages de PV utilisent des nombres variables, séparés par React dans des nœuds texte adjacents. La traduction reconnaît ces formulations uniquement dans le dialogue de repos court et conserve les nœuds numériques. Le test d’interface utilise la structure relevée et le message de PV au maximum fourni par l’utilisateur ; il vérifie les valeurs, le passage du pluriel au singulier, les boutons et la restauration exacte de l’anglais.
+
 ## Rapport de sorts 1.17.20 reçu en collage coupé — 1.17.22
 
 L’en-tête annonce 560 candidats, mais le fichier reçu se termine avant la fin de l’entrée de Flétrissement. Les valeurs JSON anglaises complètes récupérables donnent 123 occurrences, soit 118 passages distincts. Les 23 passages du lot précédent sont conservés sans duplication ; les 95 autres reçoivent une correspondance, pour 40 sorts supplémentaires (94 passages descriptifs et le libellé Présages). Le nom manquant du dernier passage est retrouvé par comparaison avec le paragraphe de Flétrissement de l’inventaire HTML local. Le reste des 560 candidats n’est pas présent et n’est pas déclaré traité. Le [relevé de contrôle](../tests/fixtures/diagnostic-spell-descriptions-11720.json) conserve ces limites.

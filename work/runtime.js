@@ -186,7 +186,7 @@
         if(/\bslow\b/i.test(original)&&el.matches('article,[role="dialog"],tr,.stdcontent'))break;
       }
     }
-    if(processSplitLabel(node))return;
+    if(processRestLabel(node)||processSplitLabel(node))return;
     discoverInline(node,original);
     // Une cellule est un bloc autonome, même dans un tableau de description.
     let prose=node.parentElement.closest('p,li,td,th,.description,.pre-wrap');
@@ -203,6 +203,24 @@
     const translated=partialProse&&!completePairs.has(inlineKey(original))&&!customKeys.has(normalize(original))?original:translate(original,context);
     tokenState.set(node,{original,output:translated,revision,enabled,bilingual});
     if (translated !== current) node.data = translated;
+  }
+  function processRestLabel(node){
+    if(!enabled||excluded(node.parentElement))return false;
+    const dialog=node.parentElement.closest('[role="dialog"]'),title=dialog?.querySelector('.MuiDialogTitle-root,.titletext');
+    if(!title||!/^short rest$/i.test(blockEnglish(title).trim()))return false;
+    // React sépare les nombres du texte. Garder chaque nœud pour ses mises à jour.
+    const nodes=[node];let sibling=node.previousSibling;
+    while(sibling?.nodeType===3){nodes.unshift(sibling);sibling=sibling.previousSibling;}
+    sibling=node.nextSibling;while(sibling?.nodeType===3){nodes.push(sibling);sibling=sibling.nextSibling;}
+    const source=nodes.map(originalNode).join(''),count=/^\s*with\s+(\d+)\s+left\s*$/i.exec(source);
+    const hp=/^\s*You have \d+ hit points out of a maximum of \d+\.\s*$/i.test(source);
+    const max=/^\s*You are at maximum hit points\s+\d+\.\s*$/i.test(source);
+    if(!count&&!hp&&!max)return false;
+    for(const item of nodes){
+      const original=originalNode(item),output=count?original.replace(/\bwith\b/i,'dont').replace(/\bleft\b/i,Number(count[1])>1?'disponibles':'disponible'):original.replace('You have','Vous avez').replace('hit points out of a maximum of','points de vie sur un maximum de').replace('You are at maximum hit points','Vos points de vie sont au maximum :');
+      tokenState.set(item,{original,output,revision,enabled,bilingual});if(item.data!==output)item.data=output;
+    }
+    return true;
   }
   function processSplitLabel(node){
     if(!enabled)return false;

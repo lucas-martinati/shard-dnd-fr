@@ -203,3 +203,16 @@ Min|Min.
 A|A
 BA|AB
 RA|R
+Do Long Rest|Terminer le repos long
+Features Recovered|Aptitudes récupérées
+Equipment with Features Recovered|Équipement dont les aptitudes sont récupérées
+Spells Slots|Emplacements de sort
+Regain all of your Hit Dice|Récupérer tous vos dés de vie
+Regains up to half of your Hit Dice (rules as written)|Récupérer jusqu’à la moitié de vos dés de vie (règles telles qu’écrites)
+A long rest is a period of extended downtime, at least 8 hours long, during which a character sleeps or performs light activity: reading, talking, eating, or standing watch for no more than 2 hours.|Un repos long est une période de détente prolongée d’au moins 8 heures, pendant laquelle un personnage dort ou se livre à des activités légères : lire, discuter, manger ou monter la garde pendant 2 heures au maximum.
+At the end of a long rest, a character regains all lost hit points.|À la fin d’un repos long, un personnage récupère tous ses points de vie perdus.
+Do Short Rest|Terminer le repos court
+Spend Hit Die|Dépenser un dé de vie
+A short rest is a period of downtime, at least 1 hour long, during which a character does nothing more strenuous than eating, drinking, reading, and tending to wounds.|Un repos court est une période de détente d’au moins 1 heure, pendant laquelle un personnage ne fait rien de plus éprouvant que manger, boire, lire ou soigner ses blessures.
+A character can spend one or more Hit Dice at the end of a short rest. For each Hit Die, roll the die and add your Constitution modifier. Regain hit points equal to the total.|Un personnage peut dépenser un ou plusieurs dés de vie à la fin d’un repos court. Pour chaque dé de vie, lancez le dé et ajoutez votre modificateur de Constitution. Vous récupérez un nombre de points de vie égal au total.
+You are at maximum hit points|Vos points de vie sont au maximum :
