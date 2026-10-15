@@ -313,6 +313,7 @@
         if (!state || r.target.getAttribute(r.attributeName)!==state.output) queue(r.target);
       }
     }
+    scheduleDescriptionStatus();
   });
   observer.observe(document.body,{subtree:true,childList:true,characterData:true,attributes:true,attributeFilter:[...ATTRS,'contenteditable']});
   document.addEventListener('focusin',event => {
@@ -334,9 +335,9 @@
   panel.innerHTML=`<label class="primary"><span id="enabledLabel">Traduction activée</span><input id="enabled" type="checkbox" role="switch" aria-label="Activer la traduction"></label><h2>D&D FR · Configuration</h2><label class="secondary"><input id="bilingual" type="checkbox"><span>Afficher aussi les noms anglais <small>(sorts, monstres, objets)</small></span></label><label for="buttonPosition">Bouton D&D FR</label><select id="buttonPosition"><option value="top-right">En haut à droite</option><option value="top-left">En haut à gauche</option><option value="bottom-right">En bas à droite</option><option value="bottom-left">En bas à gauche</option><option value="hidden">Ne pas afficher</option></select><p><small>Configuration accessible via le menu Tampermonkey ou Alt + Maj + F.</small></p><form id="referenceSearch"><label for="search">Rechercher une fiche AideDD</label><div class="row"><input id="search" type="search" placeholder="Nom français ou anglais…" autocomplete="off"><button type="submit">Ouvrir ↗</button></div></form><p id="searchStatus" role="status"></p><div id="results"></div>`;
   shadow.append(panel);
   const diagnostics=document.createElement('details');
-  diagnostics.innerHTML='<summary>Repérer les traductions manquantes</summary><p>Analyse les textes actuellement affichés. Les résultats sont des candidats à vérifier, y compris des noms propres. Le rapport reste local et ne contient pas les valeurs des champs.</p><div class="row"><button id="scanMissing" type="button">Analyser la page</button><button id="clearMissing" type="button">Effacer</button></div><p id="missingStatus" role="status"></p><ol id="missingResults"></ol><button id="exportMissing" type="button" disabled>Exporter le rapport JSON</button>';
+  diagnostics.innerHTML='<summary>Repérer les traductions manquantes</summary><p>Analyse les textes actuellement affichés. Les résultats sont des candidats à vérifier, y compris des noms propres. Le rapport reste local et ne contient pas les valeurs des champs.</p><div class="row"><button id="scanMissing" type="button">Analyser la page</button><button id="clearMissing" type="button">Effacer</button></div><p id="missingStatus" role="status"></p><label><input id="showDescriptionStatus" type="checkbox"> Afficher l’état des descriptions vérifiées</label><p>Les états apparaissent après lecture du texte d’une fiche. Le contrôle automatique ouvre puis referme les fiches chargées (100 maximum) et peut être arrêté. « Aucun anglais repéré » reste un indice, pas une validation de la traduction.</p><div class="row"><button id="inspectDescriptions" type="button" disabled>Contrôler le contenu des fiches</button><button id="stopDescriptions" type="button" disabled>Arrêter</button></div><p id="descriptionStatus" role="status"></p><ol id="descriptionResults"></ol><ol id="missingResults"></ol><button id="exportMissing" type="button" disabled>Exporter le rapport JSON</button>';
   panel.append(diagnostics);
-  style.textContent+='details{margin-top:18px;border-top:1px solid #34435a;padding-top:12px}summary{cursor:pointer;font-weight:600}#missingResults{padding-left:22px;max-height:240px;overflow:auto}#missingResults li{margin:10px 0;overflow-wrap:anywhere}#missingResults small{display:block}button:disabled{opacity:.5;cursor:default}';
+  style.textContent+='details{margin-top:18px;border-top:1px solid #34435a;padding-top:12px}summary{cursor:pointer;font-weight:600}#missingResults,#descriptionResults{padding-left:22px;max-height:240px;overflow:auto}#missingResults li,#descriptionResults li{margin:10px 0;overflow-wrap:anywhere}#missingResults small{display:block}button:disabled{opacity:.5;cursor:default}';
   const badge=document.createElement('button'); badge.id='badge'; badge.type='button'; badge.textContent='D&D FR'; badge.setAttribute('aria-label','Ouvrir les réglages de traduction'); shadow.append(badge);
   document.body.append(host);
   const $=id=>shadow.getElementById(id);
@@ -823,7 +824,7 @@
     }catch{} // Un quota de stockage ne doit pas interrompre la traduction.
   }
   function requestInline(rows){
-    if(!enabled||!aideddInline||!aideddOnline||!rows.length||typeof GM_xmlhttpRequest!=='function')return;
+    if(!enabled||!aideddInline||!aideddOnline||!rows.length||typeof GM_xmlhttpRequest!=='function'||descriptionRun)return;
     if(rows.length>1){for(const row of rows)requestInline([row]);return;}
     const row=rows[0],previous=inlineLoads.get(row.url);
     if(previous&&(previous.state!=='error'||Date.now()-previous.at<60000))return;
@@ -951,7 +952,7 @@
     }
   }catch{}
 
-  // Analyse volontaire : aucune collecte en arrière-plan, aucun stockage ni envoi.
+  // Diagnostic local, volontaire : aucune persistance ni envoi du rapport.
   const diagnosticMarks=new Set();let diagnosticReport=null;
   const diagnosticStyle=document.createElement('style');
   diagnosticStyle.textContent='[data-shard-fr-diagnostic]{outline:2px dashed #db921f!important;outline-offset:3px!important}';document.head.append(diagnosticStyle);
@@ -959,6 +960,7 @@
   const frenchClue=/[àâçéèêëîïôùûüÿœæ]|\b(?:le|la|les|des|du|une|un|vos|vous|votre|avec|pour|dans|sont)\b/i;
   const diagnosticSelector='p,li,td,th,h1,h2,h3,h4,h5,h6,[role="heading"],.titletext,button,label,option,.description,.pre-wrap,.stdcontent,div';
   function clearDiagnostics(){
+    stopDescriptionCheck(true);resetDescriptionChecks();
     for(const el of diagnosticMarks)el.removeAttribute('data-shard-fr-diagnostic');
     diagnosticMarks.clear();diagnosticReport=null;$('missingResults').replaceChildren();$('missingStatus').textContent='';$('exportMissing').disabled=true;
   }
@@ -982,14 +984,14 @@
     return 'missing-translation';
   }
   const diagnosticLabels={'translation-disabled':'Traduction désactivée','conflicting-translations':'Traductions contradictoires','unrecognized-layout':'Traduction connue, structure à vérifier','reference-loading':'Référence en cours de chargement','reference-unavailable':'Référence distante indisponible','missing-translation':'Correspondance absente ou formulation différente'};
-  function scanDiagnostics(){
-    clearDiagnostics();
+  function collectDiagnostics(root=document.body,mark=true,attributes=true){
     const knownFrench=new Set([...entries.values()].map(row=>inlineKey(row.fr)));
     for(const fr of [...completePairs.values(),...inlinePairs.values()])if(fr)knownFrench.add(inlineKey(fr));
     const missing=[],seen=new Map(),visibleCache=new WeakMap();let examined=0,truncated=false;
     const add=(el,source,attribute=null,displayed=null)=>{
       source=source.replace(/\s+/g,' ').trim();
-      if(!source||source.length>6000||!/[a-zA-Z]/.test(source)||knownFrench.has(inlineKey(source)))return;
+      if(!source||!/[a-zA-Z]/.test(source)||/^(?:\d+)?d\d+$/i.test(source)||knownFrench.has(inlineKey(source)))return;
+      if(source.length>6000){truncated=true;return;}
       const expected=lookupPair(inlineKey(source))||translate(source);
       const current=attribute?el.getAttribute(attribute):(displayed??el.textContent);
       if(inlineKey(current||'')===inlineKey(expected)&&inlineKey(expected)!==inlineKey(source))return;
@@ -1006,9 +1008,9 @@
         if(attribute)row.attribute=attribute;
         seen.set(key,row);missing.push(row);
       }
-      el.setAttribute('data-shard-fr-diagnostic','');diagnosticMarks.add(el);
+      if(mark){el.setAttribute('data-shard-fr-diagnostic','');diagnosticMarks.add(el);}
     };
-    for(const el of document.body.querySelectorAll(diagnosticSelector+',span,a')){
+    for(const el of [root,...root.querySelectorAll(diagnosticSelector+',span,a')]){
       if(++examined>10000){truncated=true;break;}
       if(excluded(el)||!diagnosticVisible(el,visibleCache))continue;
       const nodes=blockNodes(el).filter(n=>(n.parentElement.closest(diagnosticSelector)||n.parentElement.closest('span,a'))===el&&diagnosticVisible(n.parentElement,visibleCache)),source=nodes.map(originalNode).join('');
@@ -1017,16 +1019,186 @@
       const remainder=changed?nodes.filter(n=>n.data===originalNode(n)).map(n=>n.data).join(''):source;
       if(!changed||englishClue.test(remainder))add(el,remainder,null,nodes.map(n=>n.data).join(''));
     }
-    for(const el of document.body.querySelectorAll(ATTRS.map(attr=>'['+attr+']').join(','))){
+    for(const el of attributes?root.querySelectorAll(ATTRS.map(attr=>'['+attr+']').join(',')):[]){
       if(++examined>10000){truncated=true;break;}
       if(el.closest('[data-shard-fr-ignore],script,style,iframe,svg,textarea,[role="textbox"],[contenteditable]:not([contenteditable="false"]),.ql-editor,.ProseMirror,.CodeMirror,.monaco-editor')||!diagnosticVisible(el,visibleCache))continue;
       for(const attr of ATTRS){const current=el.getAttribute(attr);if(current===null)continue;const state=attrState.get(el)?.get(attr);if(state&&current===state.output&&state.output!==state.original)continue;add(el,current,attr);}
     }
+    return {missing,truncated};
+  }
+  function scanDiagnostics(){
+    clearDiagnostics();
+    const {missing,truncated}=collectDiagnostics();
     diagnosticReport={schemaVersion:1,scriptVersion:SCRIPT_VERSION,scope:'visible-page',translationEnabled:enabled,truncated,missingCount:missing.length,missing};
     $('missingStatus').textContent=missing.length+' candidat(s) à vérifier.'+(truncated?' Analyse limitée : ouvre une fiche ou réduis la liste, puis relance.':'')+(!enabled?' Active la traduction, puis relance l’analyse.':'');
     for(const row of missing){const item=document.createElement('li'),text=document.createElement('span'),detail=document.createElement('small');text.textContent=row.en;detail.textContent=diagnosticLabels[row.reason]+(row.context?' · '+row.context:'')+(row.occurrences>1?' · '+row.occurrences+' occurrences':'');item.append(text,detail);$('missingResults').append(item);}
     $('exportMissing').disabled=false;
   }
+  // Les états décrivent uniquement le texte des fiches effectivement examinées.
+  let descriptionStates=new WeakMap(),descriptionSelection=null,descriptionRun=null,descriptionTimer=null,descriptionAction=false;
+  const descriptionBadges=new Set(),descriptionChecks=new Map(),descriptionScans=new WeakMap();
+  const descriptionLabels={unchecked:'Description : non vérifiée',checking:'Description : vérification…',incomplete:'Description : à compléter',clear:'Description : aucun anglais repéré',empty:'Sans description',unavailable:'Description : vérification impossible',loading:'Description : chargement à vérifier'};
+  function catalogueCells(){
+    if(!/^#(?:spell|item|monster|feat)(?:\?|$)/.test(location.hash))return [];
+    const visibleCache=new WeakMap();
+    return [...document.querySelectorAll('td.hoverhighlight.w-100')].filter(el=>!excluded(el)&&!el.closest('[role="dialog"]')&&diagnosticVisible(el,visibleCache));
+  }
+  function catalogueEntry(cell){
+    const node=blockNodes(cell).find(n=>n.data.trim());
+    return {cell,name:node?originalNode(node).trim():''};
+  }
+  function descriptionBadge(entry,status){
+    if(!entry.cell.isConnected)return;
+    let badge=[...entry.cell.querySelectorAll('[data-shard-fr-description-status]')][0];
+    if(!badge){badge=document.createElement('small');badge.setAttribute('data-shard-fr-ignore','');badge.setAttribute('data-shard-fr-description-status','');badge.style.cssText='display:block;font-size:11px;line-height:1.4;color:inherit;opacity:.85';entry.cell.append(badge);descriptionBadges.add(badge);}
+    const text=descriptionLabels[status]||descriptionLabels.unchecked;
+    if(badge.textContent!==text)badge.textContent=text;
+    descriptionStates.set(entry.cell,{name:entry.name,status});
+  }
+  function removeDescriptionBadge(cell){
+    const badge=cell.querySelector('[data-shard-fr-description-status]');if(badge){badge.remove();descriptionBadges.delete(badge);}
+    descriptionStates.delete(cell);descriptionChecks.delete(cell);
+  }
+  function resetDescriptionChecks(){
+    clearTimeout(descriptionTimer);descriptionTimer=null;descriptionSelection=null;descriptionStates=new WeakMap();descriptionChecks.clear();
+    for(const badge of descriptionBadges)badge.remove();descriptionBadges.clear();
+    $('descriptionResults').replaceChildren();$('descriptionStatus').textContent='';
+  }
+  function descriptionDialog(entry){
+    const dialogs=[...document.querySelectorAll('[role="dialog"]')].filter(el=>diagnosticVisible(el,new WeakMap()));
+    if(dialogs.length!==1)return null;
+    const dialog=dialogs[0],title=dialog.querySelector('.MuiDialogTitle-root .titletext');
+    return title&&inlineKey(blockEnglish(title))===inlineKey(entry.name)?dialog:null;
+  }
+  function descriptionClose(dialog){
+    return [...dialog.querySelectorAll('.MuiDialogActions-root button')].find(b=>!b.disabled&&/^(?:close|fermer)$/i.test(blockEnglish(b).trim()));
+  }
+  function descriptionClick(el){descriptionAction=true;try{el.click();}finally{descriptionAction=false;}}
+  function descriptionBusy(dialog){
+    let state=descriptionScans.get(dialog);
+    if(!state||state.text!==dialog.textContent){state={text:dialog.textContent,iterator:scan(dialog),done:false};descriptionScans.set(dialog,state);}
+    const start=performance.now();
+    while(!state.done&&performance.now()-start<12)state.done=state.iterator.next().done;
+    state.text=dialog.textContent;return !state.done;
+  }
+  function checkDescription(entry,dialog,loading=false){
+    const roots=[...dialog.querySelectorAll('.MuiDialogContent-root .pre-wrap')].filter(el=>!excluded(el)&&diagnosticVisible(el,new WeakMap()));
+    if(!roots.length)return {name:entry.name,status:'unavailable',missing:[]};
+    const missing=[],seen=new Set();let hasText=false,truncated=false;
+    for(const root of roots){
+      hasText ||= blockNodes(root).some(n=>diagnosticVisible(n.parentElement,new WeakMap())&&n.data.trim());
+      const result=collectDiagnostics(root,false,false);truncated ||= result.truncated;
+      for(const row of result.missing){const key=inlineKey(row.en);if(!seen.has(key)){missing.push(row);seen.add(key);}}
+    }
+    return {name:entry.name,status:!hasText?(loading?'loading':'empty'):missing.length?(loading||missing.some(r=>r.reason==='reference-loading')?'loading':'incomplete'):truncated?'unavailable':'clear',truncated,missing};
+  }
+  function recordDescription(entry,result){
+    descriptionBadge(entry,result.status);descriptionChecks.set(entry.cell,result);
+    renderDescriptionReport([...descriptionChecks.values()],'catalogue-descriptions');
+  }
+  function renderDescriptionReport(descriptions,scope){
+    $('descriptionResults').replaceChildren();
+    for(const row of descriptions){
+      const li=document.createElement('li');li.textContent=row.name+' — '+descriptionLabels[row.status]+(row.missing.length?' ('+row.missing.length+' candidat(s))':'');$('descriptionResults').append(li);
+    }
+    // Même format de candidats que l’analyse de page, plus l’état de chaque fiche.
+    const missing=descriptions.flatMap(row=>row.missing);
+    diagnosticReport={schemaVersion:1,scriptVersion:SCRIPT_VERSION,scope,translationEnabled:enabled,truncated:descriptions.some(row=>row.truncated),missingCount:missing.length,missing,descriptions};
+    $('exportMissing').disabled=false;
+  }
+  function scheduleDescriptionStatus(){
+    if(!enabled||!$('showDescriptionStatus').checked||descriptionTimer)return;
+    descriptionTimer=setTimeout(()=>{
+      descriptionTimer=null;
+      for(const cell of catalogueCells()){
+        const entry=catalogueEntry(cell),state=descriptionStates.get(cell);
+        if(state&&state.name!==entry.name){
+          removeDescriptionBadge(cell);
+        }
+      }
+      if(descriptionRun||!descriptionSelection||!enabled)return;
+      const entry=descriptionSelection,dialog=descriptionDialog(entry);
+      if(!entry.cell.isConnected){descriptionSelection=null;return;}
+      if(!dialog)return;
+      if(descriptionBusy(dialog)){scheduleDescriptionStatus();return;}
+      const fingerprint=dialog.textContent;
+      if(entry.fingerprint===fingerprint)return;
+      recordDescription(entry,checkDescription(entry,dialog));entry.fingerprint=dialog.textContent;
+    },200);
+  }
+  function stopDescriptionCheck(discard=false,close=true){
+    if(descriptionRun){descriptionRun.cancelled=true;descriptionRun.discard ||= discard;descriptionRun.close=close;}
+  }
+  const descriptionPause=()=>new Promise(resolve=>setTimeout(resolve,50));
+  async function scanDescriptions(){
+    if(descriptionRun)return;
+    if(!enabled){$('descriptionStatus').textContent='Active la traduction avant de vérifier les descriptions.';return;}
+    if(document.querySelector('[role="dialog"]')){$('descriptionStatus').textContent='Ferme la fiche ouverte avant de lancer la vérification de la liste.';return;}
+    const all=catalogueCells().map(catalogueEntry).filter(e=>e.name),entries=all.filter(e=>{const result=descriptionChecks.get(e.cell);return !result||result.name!==e.name||['loading','unavailable'].includes(result.status);}).slice(0,100);
+    if(!entries.length){$('descriptionStatus').textContent=all.length?'Toutes les entrées chargées ont été vérifiées. Fais défiler la liste pour charger les suivantes.':'Ouvre une liste de sorts, objets, monstres ou dons.';return;}
+    const run={cancelled:false,discard:false,close:true,hash:location.hash,dialog:null,entry:null};descriptionRun=run;
+    $('inspectDescriptions').disabled=true;$('stopDescriptions').disabled=false;$('scanMissing').disabled=true;
+    let checked=0;
+    try{
+      for(const entry of entries){
+        if(run.cancelled||location.hash!==run.hash)break;
+        if(!entry.cell.isConnected||catalogueEntry(entry.cell).name!==entry.name){run.cancelled=true;break;}
+        if(document.querySelector('[role="dialog"]')){run.cancelled=true;run.close=false;break;}
+        run.entry=entry;descriptionBadge(entry,'checking');$('descriptionStatus').textContent='Vérification '+(checked+1)+' / '+entries.length+' : '+entry.name;
+        descriptionClick(entry.cell);
+        let dialog=null;
+        for(let attempt=0;attempt<80&&!run.cancelled;attempt++){
+          await descriptionPause();if(location.hash!==run.hash){run.cancelled=true;run.close=false;break;}
+          dialog=descriptionDialog(entry);if(dialog)break;
+        }
+        if(run.cancelled)break;
+        if(!dialog){recordDescription(entry,{name:entry.name,status:'unavailable',missing:[]});run.cancelled=true;break;}
+        run.dialog=dialog;
+        let stable=0;
+        for(let attempt=0;attempt<40&&!run.cancelled;attempt++){
+          await descriptionPause();
+          if(descriptionDialog(entry)!==dialog){run.cancelled=true;run.close=false;break;}
+          stable=descriptionBusy(dialog)?0:stable+1;if(stable>=3)break;
+        }
+        if(run.cancelled)break;
+        recordDescription(entry,checkDescription(entry,dialog,stable<3));checked++;
+        const close=descriptionClose(dialog);
+        if(!close){run.cancelled=true;run.close=false;break;}
+        descriptionClick(close);
+        for(let attempt=0;attempt<40&&dialog.isConnected&&!run.cancelled;attempt++)await descriptionPause();
+        if(dialog.isConnected){run.cancelled=true;run.close=false;break;}
+        run.dialog=null;
+      }
+    }catch{run.cancelled=true;}
+    finally{
+      const owned=run.entry&&descriptionDialog(run.entry);
+      if(run.close&&location.hash===run.hash&&owned&&(!run.dialog||owned===run.dialog)){const close=descriptionClose(owned);if(close)descriptionClick(close);}
+      if(!run.discard){
+        for(const entry of entries)if(descriptionStates.get(entry.cell)?.status==='checking'){
+          const previous=descriptionChecks.get(entry.cell);
+          if(previous?.name===entry.name)descriptionBadge(entry,previous.status);else removeDescriptionBadge(entry.cell);
+        }
+        $('descriptionStatus').textContent=(run.cancelled?'Vérification arrêtée. ':'Vérification terminée. ')+checked+' / '+entries.length+' fiche(s) vérifiée(s).'+(all.length>100?' Limite de 100 fiches par passage ; relance pour poursuivre.':' Fais défiler la liste pour charger les suivantes.');
+      }
+      descriptionRun=null;$('inspectDescriptions').disabled=!$('showDescriptionStatus').checked;$('stopDescriptions').disabled=true;$('scanMissing').disabled=false;descriptionSelection=null;
+    }
+  }
+  $('showDescriptionStatus').onchange=()=>{
+    if(!$('showDescriptionStatus').checked){stopDescriptionCheck(true);clearDiagnostics();}
+    $('inspectDescriptions').disabled=!$('showDescriptionStatus').checked||!!descriptionRun;scheduleDescriptionStatus();
+  };
+  $('inspectDescriptions').onclick=scanDescriptions;$('stopDescriptions').onclick=()=>stopDescriptionCheck();
+  // Le clic manuel met aussi l’état à jour, sans imposer un parcours automatique.
+  document.addEventListener('click',event=>{
+    if(descriptionAction||!$('showDescriptionStatus').checked||event.composedPath().includes(host))return;
+    if(descriptionRun)stopDescriptionCheck(false,false);
+    const cell=event.target instanceof Element?event.target.closest('td.hoverhighlight.w-100'):null;
+    descriptionSelection=cell&&catalogueCells().includes(cell)?catalogueEntry(cell):null;scheduleDescriptionStatus();
+  },true);
+  for(const type of ['input','change'])document.addEventListener(type,event=>{
+    if(descriptionRun&&!event.composedPath().includes(host))stopDescriptionCheck(false,false);
+  },true);
+
   $('scanMissing').onclick=scanDiagnostics;$('clearMissing').onclick=clearDiagnostics;
   $('exportMissing').onclick=()=>{
     if(!diagnosticReport)return;

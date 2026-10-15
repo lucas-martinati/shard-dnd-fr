@@ -2530,6 +2530,1420 @@
       "fr": "Billes de fronde en adamantium (20)",
       "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
       "edition": "any"
+    },
+    {
+      "id": "equipment.shared.report-11716.pale-tincture-ingested",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Pale Tincture (Ingested)",
+      "fr": "Teinture pâle (ingestion)"
+    },
+    {
+      "id": "equipment.shared.report-11716.pepper",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Pepper",
+      "fr": "Poivre"
+    },
+    {
+      "id": "equipment.shared.report-11716.pig",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Pig",
+      "fr": "Cochon"
+    },
+    {
+      "id": "equipment.shared.report-11716.platinum-bar",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Platinum Bar",
+      "fr": "Lingot de platine"
+    },
+    {
+      "id": "equipment.shared.report-11716.purple-worm-poison-injury",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Purple Worm Poison (Injury)",
+      "fr": "Poison de ver pourpre (blessure)"
+    },
+    {
+      "id": "equipment.shared.report-11716.regional-map",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Regional Map",
+      "fr": "Carte régionale"
+    },
+    {
+      "id": "equipment.shared.report-11716.reliquary",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Reliquary",
+      "fr": "Reliquaire"
+    },
+    {
+      "id": "equipment.shared.report-11716.saffron",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Saffron",
+      "fr": "Safran"
+    },
+    {
+      "id": "equipment.shared.report-11716.salt",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Salt",
+      "fr": "Sel"
+    },
+    {
+      "id": "equipment.shared.report-11716.serpent-venom-injury",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Serpent Venom (Injury)",
+      "fr": "Venin de serpent (blessure)"
+    },
+    {
+      "id": "equipment.shared.report-11716.sheep",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Sheep",
+      "fr": "Mouton"
+    },
+    {
+      "id": "equipment.shared.report-11716.shield-of-far-sight",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Shield of Far Sight",
+      "fr": "Bouclier de vision lointaine"
+    },
+    {
+      "id": "equipment.shared.report-11716.silk-1-sq-yd",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Silk (1 sq. yd.)",
+      "fr": "Soie (1 yard carré)"
+    },
+    {
+      "id": "equipment.shared.report-11716.silver-bar",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Silver Bar",
+      "fr": "Lingot d’argent"
+    },
+    {
+      "id": "equipment.shared.report-11716.smoke-grenade",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Smoke Grenade",
+      "fr": "Grenade fumigène"
+    },
+    {
+      "id": "equipment.shared.report-11716.survival-mantle",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Survival Mantle",
+      "fr": "Manteau de survie"
+    },
+    {
+      "id": "equipment.shared.report-11716.tears-of-virulence-emblem",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Tears of Virulence Emblem",
+      "fr": "Emblème des Larmes de virulence"
+    },
+    {
+      "id": "equipment.shared.report-11716.torpor-ingested",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Torpor (Ingested)",
+      "fr": "Torpeur (ingestion)"
+    },
+    {
+      "id": "equipment.shared.report-11716.truth-serum-ingested",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Truth Serum (Ingested)",
+      "fr": "Sérum de vérité (ingestion)"
+    },
+    {
+      "id": "equipment.shared.report-11716.unbreakable-arrow",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Unbreakable Arrow",
+      "fr": "Flèche incassable"
+    },
+    {
+      "id": "equipment.shared.report-11716.wand-of-scowls",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Wand of Scowls",
+      "fr": "Baguette des grimaces"
+    },
+    {
+      "id": "equipment.shared.report-11716.wand-of-smiles",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Wand of Smiles",
+      "fr": "Baguette des sourires"
+    },
+    {
+      "id": "equipment.shared.report-11716.wheat",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Wheat",
+      "fr": "Blé"
+    },
+    {
+      "id": "equipment.shared.report-11716.writ-of-free-agency",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Writ of Free Agency",
+      "fr": "Lettre de libre mandat"
+    },
+    {
+      "id": "equipment.shared.report-11716.wyvern-poison-injury",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Wyvern Poison (Injury)",
+      "fr": "Poison de wiverne (blessure)"
+    },
+    {
+      "id": "equipment.shared.report-11716.yew-wand",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Yew Wand",
+      "fr": "Baguette en if"
+    },
+    {
+      "id": "equipment.shared.report-11716.potion-of-acid-resistance",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Potion of Acid Resistance",
+      "fr": "Potion de résistance à l’acide"
+    },
+    {
+      "id": "equipment.shared.report-11716.ring-of-acid-resistance",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Ring of Acid Resistance",
+      "fr": "Anneau de résistance à l’acide"
+    },
+    {
+      "id": "equipment.shared.report-11716.potion-of-cold-resistance",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Potion of Cold Resistance",
+      "fr": "Potion de résistance au froid"
+    },
+    {
+      "id": "equipment.shared.report-11716.ring-of-cold-resistance",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Ring of Cold Resistance",
+      "fr": "Anneau de résistance au froid"
+    },
+    {
+      "id": "equipment.shared.report-11716.ring-of-fire-resistance",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Ring of Fire Resistance",
+      "fr": "Anneau de résistance au feu"
+    },
+    {
+      "id": "equipment.shared.report-11716.potion-of-force-resistance",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Potion of Force Resistance",
+      "fr": "Potion de résistance à la force"
+    },
+    {
+      "id": "equipment.shared.report-11716.ring-of-force-resistance",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Ring of Force Resistance",
+      "fr": "Anneau de résistance à la force"
+    },
+    {
+      "id": "equipment.shared.report-11716.potion-of-lightning-resistance",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Potion of Lightning Resistance",
+      "fr": "Potion de résistance à la foudre"
+    },
+    {
+      "id": "equipment.shared.report-11716.ring-of-lightning-resistance",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Ring of Lightning Resistance",
+      "fr": "Anneau de résistance à la foudre"
+    },
+    {
+      "id": "equipment.shared.report-11716.potion-of-necrotic-resistance",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Potion of Necrotic Resistance",
+      "fr": "Potion de résistance aux dégâts nécrotiques"
+    },
+    {
+      "id": "equipment.shared.report-11716.ring-of-necrotic-resistance",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Ring of Necrotic Resistance",
+      "fr": "Anneau de résistance aux dégâts nécrotiques"
+    },
+    {
+      "id": "equipment.shared.report-11716.potion-of-poison-resistance",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Potion of Poison Resistance",
+      "fr": "Potion de résistance au poison"
+    },
+    {
+      "id": "equipment.shared.report-11716.ring-of-poison-resistance",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Ring of Poison Resistance",
+      "fr": "Anneau de résistance au poison"
+    },
+    {
+      "id": "equipment.shared.report-11716.potion-of-psychic-resistance",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Potion of Psychic Resistance",
+      "fr": "Potion de résistance aux dégâts psychiques"
+    },
+    {
+      "id": "equipment.shared.report-11716.ring-of-psychic-resistance",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Ring of Psychic Resistance",
+      "fr": "Anneau de résistance aux dégâts psychiques"
+    },
+    {
+      "id": "equipment.shared.report-11716.potion-of-radiant-resistance",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Potion of Radiant Resistance",
+      "fr": "Potion de résistance aux dégâts radiants"
+    },
+    {
+      "id": "equipment.shared.report-11716.ring-of-radiant-resistance",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Ring of Radiant Resistance",
+      "fr": "Anneau de résistance aux dégâts radiants"
+    },
+    {
+      "id": "equipment.shared.report-11716.potion-of-thunder-resistance",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Potion of Thunder Resistance",
+      "fr": "Potion de résistance au tonnerre"
+    },
+    {
+      "id": "equipment.shared.report-11716.ring-of-thunder-resistance",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Ring of Thunder Resistance",
+      "fr": "Anneau de résistance au tonnerre"
+    },
+    {
+      "id": "equipment.shared.report-11716.potion-of-cloud-giant-strength",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Potion of Cloud Giant Strength",
+      "fr": "Potion de force de géant des nuages"
+    },
+    {
+      "id": "equipment.shared.report-11716.potion-of-fire-giant-strength",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Potion of Fire Giant Strength",
+      "fr": "Potion de force de géant du feu"
+    },
+    {
+      "id": "equipment.shared.report-11716.potion-of-frost-giant-strength",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Potion of Frost Giant Strength",
+      "fr": "Potion de force de géant du givre"
+    },
+    {
+      "id": "equipment.shared.report-11716.potion-of-hill-giant-strength",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Potion of Hill Giant Strength",
+      "fr": "Potion de force de géant des collines"
+    },
+    {
+      "id": "equipment.shared.report-11716.potion-of-stone-giant-strength",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Potion of Stone Giant Strength",
+      "fr": "Potion de force de géant des pierres"
+    },
+    {
+      "id": "equipment.shared.report-11716.potion-of-storm-giant-strength",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Potion of Storm Giant Strength",
+      "fr": "Potion de force de géant des tempêtes"
+    },
+    {
+      "id": "equipment.shared.report-11716.quaal-s-feather-token-anchor",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Quaal's Feather Token, Anchor",
+      "fr": "Plume de Quaal (ancre)"
+    },
+    {
+      "id": "equipment.shared.report-11716.quaal-s-feather-token-bird",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Quaal's Feather Token, Bird",
+      "fr": "Plume de Quaal (oiseau)"
+    },
+    {
+      "id": "equipment.shared.report-11716.quaal-s-feather-token-fan",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Quaal's Feather Token, Fan",
+      "fr": "Plume de Quaal (éventail)"
+    },
+    {
+      "id": "equipment.shared.report-11716.quaal-s-feather-token-swan-boat",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Quaal's Feather Token, Swan Boat",
+      "fr": "Plume de Quaal (bateau-cygne)"
+    },
+    {
+      "id": "equipment.shared.report-11716.quaal-s-feather-token-tree",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Quaal's Feather Token, Tree",
+      "fr": "Plume de Quaal (arbre)"
+    },
+    {
+      "id": "equipment.shared.report-11716.quaal-s-feather-token-whip",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Quaal's Feather Token, Whip",
+      "fr": "Plume de Quaal (fouet)"
+    },
+    {
+      "id": "equipment.shared.report-11716.ring-of-air-elemental-command",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Ring of Air Elemental Command",
+      "fr": "Anneau de contrôle des élémentaires de l’air"
+    },
+    {
+      "id": "equipment.shared.report-11716.ring-of-earth-elemental-command",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Ring of Earth Elemental Command",
+      "fr": "Anneau de contrôle des élémentaires de la terre"
+    },
+    {
+      "id": "equipment.shared.report-11716.ring-of-fire-elemental-command",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Ring of Fire Elemental Command",
+      "fr": "Anneau de contrôle des élémentaires du feu"
+    },
+    {
+      "id": "equipment.shared.report-11716.ring-of-water-elemental-command",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Ring of Water Elemental Command",
+      "fr": "Anneau de contrôle des élémentaires de l’eau"
+    },
+    {
+      "id": "equipment.shared.report-11716.scroll-of-protection-from-aberrations",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Scroll of Protection from Aberrations",
+      "fr": "Parchemin de protection contre les aberrations"
+    },
+    {
+      "id": "equipment.shared.report-11716.scroll-of-protection-from-beasts",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Scroll of Protection from Beasts",
+      "fr": "Parchemin de protection contre les bêtes"
+    },
+    {
+      "id": "equipment.shared.report-11716.scroll-of-protection-from-celestials",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Scroll of Protection from Celestials",
+      "fr": "Parchemin de protection contre les célestes"
+    },
+    {
+      "id": "equipment.shared.report-11716.scroll-of-protection-from-elementals",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Scroll of Protection from Elementals",
+      "fr": "Parchemin de protection contre les élémentaires"
+    },
+    {
+      "id": "equipment.shared.report-11716.scroll-of-protection-from-fey",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Scroll of Protection from Fey",
+      "fr": "Parchemin de protection contre les fées"
+    },
+    {
+      "id": "equipment.shared.report-11716.scroll-of-protection-from-fiends",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Scroll of Protection from Fiends",
+      "fr": "Parchemin de protection contre les fiélons"
+    },
+    {
+      "id": "equipment.shared.report-11716.scroll-of-protection-from-plants",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Scroll of Protection from Plants",
+      "fr": "Parchemin de protection contre les plantes"
+    },
+    {
+      "id": "equipment.shared.report-11716.scroll-of-protection-from-undead",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Scroll of Protection from Undead",
+      "fr": "Parchemin de protection contre les morts-vivants"
+    },
+    {
+      "id": "equipment.shared.report-11716.smoldering-breastplate",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Smoldering Breastplate",
+      "fr": "Cuirasse fumante"
+    },
+    {
+      "id": "equipment.shared.report-11716.smoldering-chain-mail",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Smoldering Chain Mail",
+      "fr": "Cotte de mailles fumante"
+    },
+    {
+      "id": "equipment.shared.report-11716.smoldering-chain-shirt",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Smoldering Chain Shirt",
+      "fr": "Chemise de mailles fumante"
+    },
+    {
+      "id": "equipment.shared.report-11716.smoldering-half-plate-armor",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Smoldering Half Plate Armor",
+      "fr": "Demi-plate fumante"
+    },
+    {
+      "id": "equipment.shared.report-11716.smoldering-hide-armor",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Smoldering Hide Armor",
+      "fr": "Armure de peaux fumante"
+    },
+    {
+      "id": "equipment.shared.report-11716.smoldering-leather-armor",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Smoldering Leather Armor",
+      "fr": "Armure de cuir fumante"
+    },
+    {
+      "id": "equipment.shared.report-11716.smoldering-padded-armor",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Smoldering Padded Armor",
+      "fr": "Armure matelassée fumante"
+    },
+    {
+      "id": "equipment.shared.report-11716.smoldering-plate-armor",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Smoldering Plate Armor",
+      "fr": "Harnois fumant"
+    },
+    {
+      "id": "equipment.shared.report-11716.smoldering-ring-mail",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Smoldering Ring Mail",
+      "fr": "Broigne fumante"
+    },
+    {
+      "id": "equipment.shared.report-11716.smoldering-scale-mail",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Smoldering Scale Mail",
+      "fr": "Armure d’écailles fumante"
+    },
+    {
+      "id": "equipment.shared.report-11716.smoldering-spiked-armor",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Smoldering Spiked Armor",
+      "fr": "Armure à pointes fumante"
+    },
+    {
+      "id": "equipment.shared.report-11716.smoldering-splint-armor",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Smoldering Splint Armor",
+      "fr": "Clibanion fumant"
+    },
+    {
+      "id": "equipment.shared.report-11716.smoldering-studded-leather-armor",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Smoldering Studded Leather Armor",
+      "fr": "Armure de cuir clouté fumante"
+    },
+    {
+      "id": "equipment.shared.report-11716.walloping-arrow",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Walloping Arrow",
+      "fr": "Flèche percutante"
+    },
+    {
+      "id": "equipment.shared.report-11716.walloping-arrows-20",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Walloping Arrows (20)",
+      "fr": "Flèches percutantes (20)"
+    },
+    {
+      "id": "equipment.shared.report-11716.silvered-arrow",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Silvered Arrow",
+      "fr": "Flèche argentée"
+    },
+    {
+      "id": "equipment.shared.report-11716.silvered-arrows-20",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Silvered Arrows (20)",
+      "fr": "Flèches argentées (20)"
+    },
+    {
+      "id": "equipment.shared.report-11716.walloping-blowgun-needle",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Walloping Blowgun Needle",
+      "fr": "Aiguille de sarbacane percutante"
+    },
+    {
+      "id": "equipment.shared.report-11716.walloping-blowgun-needles-50",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Walloping Blowgun Needles (50)",
+      "fr": "Aiguilles de sarbacane percutantes (50)"
+    },
+    {
+      "id": "equipment.shared.report-11716.silvered-blowgun-needle",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Silvered Blowgun Needle",
+      "fr": "Aiguille de sarbacane argentée"
+    },
+    {
+      "id": "equipment.shared.report-11716.silvered-blowgun-needles-50",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Silvered Blowgun Needles (50)",
+      "fr": "Aiguilles de sarbacane argentées (50)"
+    },
+    {
+      "id": "equipment.shared.report-11716.walloping-crossbow-bolt",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Walloping Crossbow Bolt",
+      "fr": "Carreau d’arbalète percutant"
+    },
+    {
+      "id": "equipment.shared.report-11716.walloping-crossbow-bolts-20",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Walloping Crossbow Bolts (20)",
+      "fr": "Carreaux d’arbalète percutants (20)"
+    },
+    {
+      "id": "equipment.shared.report-11716.silvered-crossbow-bolt",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Silvered Crossbow Bolt",
+      "fr": "Carreau d’arbalète argenté"
+    },
+    {
+      "id": "equipment.shared.report-11716.silvered-crossbow-bolts-20",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Silvered Crossbow Bolts (20)",
+      "fr": "Carreaux d’arbalète argentés (20)"
+    },
+    {
+      "id": "equipment.shared.report-11716.walloping-sling-bullet",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Walloping Sling Bullet",
+      "fr": "Bille de fronde percutante"
+    },
+    {
+      "id": "equipment.shared.report-11716.walloping-sling-bullets-20",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Walloping Sling Bullets (20)",
+      "fr": "Billes de fronde percutantes (20)"
+    },
+    {
+      "id": "equipment.shared.report-11716.silvered-sling-bullet",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Silvered Sling Bullet",
+      "fr": "Bille de fronde argentée"
+    },
+    {
+      "id": "equipment.shared.report-11716.silvered-sling-bullets-20",
+      "kind": "term",
+      "edition": "any",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "en": "Silvered Sling Bullets (20)",
+      "fr": "Billes de fronde argentées (20)"
+    },
+    {
+      "id": "equipment.2014.report-11717.000",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "Whenever you hit an object using this ammunition, the hit is a critical hit.",
+      "fr": "Chaque fois que vous touchez un objet avec cette munition, le coup est un coup critique."
+    },
+    {
+      "id": "equipment.2014.report-11717.001",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "Ammunition. You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. Loading a one-handed weapon requires a free hand. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.",
+      "fr": "Munitions. Vous ne pouvez utiliser une arme dotée de la propriété Munitions pour effectuer une attaque à distance que si vous disposez des projectiles nécessaires. Chaque attaque effectuée avec cette arme dépense une munition. Sortir la munition d’un carquois, d’un étui ou d’un autre contenant fait partie de l’attaque. Charger une arme à une main nécessite une main libre. À la fin du combat, vous pouvez récupérer la moitié des munitions dépensées en consacrant une minute à fouiller le champ de bataille."
+    },
+    {
+      "id": "equipment.2014.report-11717.002",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon. A sling must be loaded to deal any damage when used in this way.",
+      "fr": "Si vous utilisez une arme dotée de la propriété Munitions pour effectuer une attaque de corps à corps, vous la traitez comme une arme improvisée. Une fronde doit être chargée pour infliger des dégâts de cette manière."
+    },
+    {
+      "id": "equipment.2014.report-11717.003",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you're wearing it, any critical hit against you becomes a normal hit.",
+      "fr": "Cette armure est renforcée d’adamantium, l’une des substances les plus dures qui soient. Tant que vous la portez, tout coup critique contre vous devient un coup normal."
+    },
+    {
+      "id": "equipment.2014.report-11717.004",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "Crew. A ship needs a crew of skilled hirelings to function. As per the Player's Handbook, one skilled hireling costs at least 2 gp per day. The minimum number of skilled hirelings needed to crew a ship depends on the type of vessel.",
+      "fr": "Équipage. Un navire nécessite un équipage d’employés qualifiés pour fonctionner. Selon le Manuel des joueurs, un employé qualifié coûte au moins 2 po par jour. Le nombre minimal d’employés qualifiés nécessaires à la manœuvre dépend du type de navire."
+    },
+    {
+      "id": "equipment.2014.report-11717.005",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "You can track the loyalty of individual crew members or the crew as a whole using the optional loyalty rules in chapter 4 of the Dungeon Master's Guide. If at least half the crew becomes disloyal during a voyage, the crew turns hostile and stages a mutiny. If the ship is berthed, disloyal crew members leave the ship and never return.",
+      "fr": "Vous pouvez suivre la loyauté de chaque membre de l’équipage ou de l’équipage entier avec les règles optionnelles de loyauté du chapitre 4 du Guide du maître. Si au moins la moitié de l’équipage devient déloyale pendant un voyage, l’équipage devient hostile et se mutine. Si le navire est à quai, les membres déloyaux quittent le navire et ne reviennent jamais."
+    },
+    {
+      "id": "equipment.2014.report-11717.006",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "Passengers. The table indicates the number of Small and Medium passengers the ship can accommodate.",
+      "fr": "Passagers. Le tableau indique le nombre de passagers de taille P et M que le navire peut accueillir."
+    },
+    {
+      "id": "equipment.2014.report-11717.007",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "Cargo. The maximum tonnage the ship can carry.",
+      "fr": "Cargaison. Le tonnage maximal que le navire peut transporter."
+    },
+    {
+      "id": "equipment.2014.report-11717.008",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "Damage Threshold. If a ship has a Damage Threshold, it has immunity to all damage unless it takes an amount of damage equal to or greater than its damage threshold, in which case it takes damage as normal. Any damage that fails to meet or exceed the damage threshold is considered superficial and doesn't reduce the ship's hit points",
+      "fr": "Seuil de dégâts. Si un navire possède un seuil de dégâts, il est immunisé contre tous les dégâts, sauf s’il subit un montant de dégâts égal ou supérieur à ce seuil ; il subit alors les dégâts normalement. Tout montant de dégâts inférieur au seuil est considéré comme superficiel et ne réduit pas les points de vie du navire."
+    },
+    {
+      "id": "equipment.2014.report-11717.009",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "Ship Repair. Repairs to a damaged ship can be made while the vessel is berthed. Repairing 1 hit point of damage requires 1 day and costs 20 gp for materials and labor.",
+      "fr": "Réparation du navire. Un navire endommagé peut être réparé à quai. Réparer 1 point de vie nécessite 1 jour et coûte 20 po de matériaux et de main-d’œuvre."
+    },
+    {
+      "id": "equipment.2014.report-11717.010",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "Arcana. Proficiency with alchemist's supplies allows you to unlock more information on Arcana checks involving potions and similar materials.",
+      "fr": "Arcanes. La maîtrise du matériel d’alchimiste vous permet d’obtenir davantage d’informations lors des tests d’Arcanes concernant les potions et les substances similaires."
+    },
+    {
+      "id": "equipment.2014.report-11717.011",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "Investigation. When you inspect an area for clues, proficiency with alchemist's supplies grants additional insight into any chemicals or other substances that might have been used in the area.",
+      "fr": "Investigation. Lorsque vous cherchez des indices dans une zone, la maîtrise du matériel d’alchimiste vous apporte des renseignements supplémentaires sur les produits chimiques ou autres substances qui ont pu y être utilisés."
+    },
+    {
+      "id": "equipment.2014.report-11717.012",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "Alchemical Crafting. You can use this tool proficiency to create alchemical items. A character can spend money to collect raw materials, which weigh 1 pound for every 50 gp spent. The DM can allow a character to make a check using the indicated skill with advantage. As part of a long rest, you can use alchemist's supplies to make one dose of acid, alchemist's fire, antitoxin, oil, perfume, or soap. Subtract half the value of the created item from the total gp worth of raw materials you are carrying.",
+      "fr": "Fabrication alchimique. Vous pouvez utiliser cette maîtrise d’outils pour créer des objets alchimiques. Un personnage peut dépenser de l’argent pour rassembler des matières premières, qui pèsent 1 livre par tranche de 50 po dépensées. Le MJ peut autoriser un test avec la compétence indiquée et l’Avantage. Dans le cadre d’un repos long, vous pouvez utiliser le matériel d’alchimiste pour fabriquer une dose d’acide, de feu grégeois, d’antitoxine, d’huile, de parfum ou de savon. Soustrayez la moitié de la valeur de l’objet créé de la valeur totale, en po, des matières premières que vous transportez."
+    },
+    {
+      "id": "equipment.2014.report-11717.014",
+      "kind": "term",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "Activity",
+      "fr": "Activité"
+    },
+    {
+      "id": "equipment.2014.report-11717.015",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "Artisan Tools. These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.",
+      "fr": "Outils d’artisan. Ces outils spéciaux comprennent les objets nécessaires à l’exercice d’un métier ou d’un artisanat. La maîtrise d’un ensemble d’outils d’artisan vous permet d’ajouter votre bonus de maîtrise aux tests de caractéristique effectués avec ces outils dans le cadre de cet artisanat. Chaque type d’outils d’artisan nécessite une maîtrise distincte."
+    },
+    {
+      "id": "equipment.2014.report-11717.016",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "This ceramic jug appears to be able to hold a gallon of liquid and weighs 12 pounds whether full or empty. Sloshing sounds can be heard from within the jug when it is shaken, even if the jug is empty.",
+      "fr": "Cette cruche en céramique semble pouvoir contenir un gallon de liquide et pèse 12 livres, pleine ou vide. Quand on la secoue, on entend un clapotis à l’intérieur, même si elle est vide."
+    },
+    {
+      "id": "equipment.2014.report-11717.017",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "You can use an action and name one liquid from the table below to cause the jug to produce the chosen liquid. Afterward, you can uncork the jug as an action and pour that liquid out, up to 2 gallons per minute. The maximum amount of liquid the jug can produce depends on the liquid you named.",
+      "fr": "Vous pouvez consacrer une action à nommer un liquide du tableau ci-dessous pour que la cruche le produise. Vous pouvez ensuite la déboucher par une action et en verser le liquide, jusqu’à 2 gallons par minute. La quantité maximale produite dépend du liquide choisi."
+    },
+    {
+      "id": "equipment.2014.report-11717.018",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "Once the jug starts producing a liquid, it can't produce a different one, or more of one that has reached its maximum, until the next dawn.",
+      "fr": "Une fois que la cruche commence à produire un liquide, elle ne peut pas en produire un autre, ni dépasser la quantité maximale de celui-ci, avant l’aube suivante."
+    },
+    {
+      "id": "equipment.2014.report-11717.019",
+      "kind": "term",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "Liquid",
+      "fr": "Liquide"
+    },
+    {
+      "id": "equipment.2014.report-11717.020",
+      "kind": "term",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "Max Amount",
+      "fr": "Quantité maximale"
+    },
+    {
+      "id": "equipment.2014.report-11717.021",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "A alms box is a small box with a slot in the lid for depositing coins.",
+      "fr": "Un tronc à aumônes est une petite boîte dont le couvercle est percé d’une fente permettant d’y déposer des pièces."
+    },
+    {
+      "id": "equipment.2014.report-11717.022",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "Your Constitution score is 19 while you wear this amulet. It has no effect on you if your Constitution score is already 19 or higher without it.",
+      "fr": "Votre valeur de Constitution est de 19 tant que vous portez cette amulette. Elle n’a aucun effet si votre Constitution est déjà de 19 ou plus sans elle."
+    },
+    {
+      "id": "equipment.2014.report-11717.023",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "While holding this shield, you can speak its command word as a bonus action to cause it to animate. The shield leaps into the air and hovers in your space to protect you as if you were wielding it, leaving your hands free. The shield remains animated for 1 minute, until you use a bonus action to end this effect, or until you are incapacitated or die, at which point the shield falls to the ground or into your hand if you have one free.",
+      "fr": "Tant que vous tenez ce bouclier, vous pouvez prononcer son mot de commande par une action Bonus pour l’animer. Le bouclier s’élève dans les airs et flotte dans votre espace pour vous protéger comme si vous le maniiez, en vous laissant les mains libres. Il reste animé pendant 1 minute, jusqu’à ce que vous mettiez fin à cet effet par une action Bonus, ou jusqu’à ce que vous soyez neutralisé ou mouriez. Il tombe alors au sol ou dans votre main si vous en avez une de libre."
+    },
+    {
+      "id": "equipment.2014.report-11717.024",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "This item first appears to be a Large sealed iron barrel weighing 500 pounds. The barrel has a hidden catch, which can be found with a successful DC 20 Intelligence (Investigation) check. Releasing the catch unlocks a hatch at one end of the barrel, allowing two Medium or smaller creatures to crawl inside. Ten levers are set in a row at the far end, each in a neutral position, able to move either up or down. When certain levers are used, the apparatus transforms to resemble a giant lobster.",
+      "fr": "Cet objet ressemble d’abord à un grand tonneau de fer scellé de taille G, pesant 500 livres. Il possède un loquet dissimulé, qu’un test d’Intelligence (Investigation) DD 20 réussi permet de découvrir. Actionner ce loquet déverrouille une trappe à une extrémité du tonneau, permettant à deux créatures de taille M ou inférieure d’entrer à l’intérieur. Dix leviers sont alignés à l’autre extrémité, chacun en position neutre et pouvant être levé ou abaissé. Certaines combinaisons de leviers transforment l’appareil pour lui donner l’apparence d’un homard géant."
+    },
+    {
+      "id": "equipment.2014.report-11717.025",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "The apparatus of Kwalish is a Large object with the following statistics:",
+      "fr": "L’appareil de Kwalish est un objet de taille G doté des caractéristiques suivantes :"
+    },
+    {
+      "id": "equipment.2014.report-11717.026",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "To be used as a vehicle, the apparatus requires one pilot. While the apparatus's hatch is closed, the compartment is airtight and watertight. The compartment holds enough air for 10 hours of breathing, divided by the number of breathing creatures inside.",
+      "fr": "L’appareil nécessite un pilote pour servir de véhicule. Quand sa trappe est fermée, le compartiment est étanche à l’air et à l’eau. Il contient assez d’air pour 10 heures de respiration, divisées par le nombre de créatures qui respirent à l’intérieur."
+    },
+    {
+      "id": "equipment.2014.report-11717.027",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "The apparatus floats on water. It can also go underwater to a depth of 900 feet. Below that, the vehicle takes 2d6 bludgeoning damage per minute from pressure.",
+      "fr": "L’appareil flotte sur l’eau. Il peut aussi descendre jusqu’à une profondeur de 900 feet. Au-delà, la pression lui inflige 2d6 dégâts contondants par minute."
+    },
+    {
+      "id": "equipment.2014.report-11717.028",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "A creature in the compartment can use an action to move as many as two of the apparatus's levers up or down. After each use, a lever goes back to its neutral position. Each lever, from left to right, functions as shown in the Apparatus of Kwalish Levers table.",
+      "fr": "Une créature dans le compartiment peut consacrer une action à lever ou abaisser jusqu’à deux leviers de l’appareil. Après chaque utilisation, un levier revient en position neutre. De gauche à droite, chaque levier fonctionne comme l’indique le tableau des leviers de l’appareil de Kwalish."
+    },
+    {
+      "id": "equipment.2014.report-11717.029",
+      "kind": "term",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "Apparatus of Kwalish Levers:",
+      "fr": "Leviers de l’appareil de Kwalish :"
+    },
+    {
+      "id": "equipment.2014.report-11717.030",
+      "kind": "term",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "Lever",
+      "fr": "Levier"
+    },
+    {
+      "id": "equipment.2014.report-11717.031",
+      "kind": "term",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "Up",
+      "fr": "Haut"
+    },
+    {
+      "id": "equipment.2014.report-11717.032",
+      "kind": "term",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "Down",
+      "fr": "Bas"
+    },
+    {
+      "id": "equipment.2014.report-11717.033",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "Legs and tail extend, allowing the apparatus to walk and swim.",
+      "fr": "Les pattes et la queue se déploient, permettant à l’appareil de marcher et de nager."
+    },
+    {
+      "id": "equipment.2014.report-11717.034",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "Legs and tail retract, reducing the apparatus's speed to 0 and making it unable to benefit from bonuses to speed.",
+      "fr": "Les pattes et la queue se rétractent, réduisant la vitesse de l’appareil à 0 et l’empêchant de bénéficier de bonus à la vitesse."
+    },
+    {
+      "id": "equipment.2014.report-11717.035",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "Two claws extend from the front sides of the apparatus.",
+      "fr": "Deux pinces se déploient sur les côtés avant de l’appareil."
+    },
+    {
+      "id": "equipment.2014.report-11717.036",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "The claws retract.",
+      "fr": "Les pinces se rétractent."
+    },
+    {
+      "id": "equipment.2014.report-11717.037",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "Each extended claw makes the following melee weapon attack: +8 to hit, reach 5 ft., one target. 7 (2d6",
+      "fr": "Chaque pince déployée effectue l’attaque d’arme de corps à corps suivante : +8 pour toucher, allonge de 5 ft., une cible. 7 (2d6"
+    },
+    {
+      "id": "equipment.2014.report-11717.038",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "Each extended claw makes the following melee weapon attack: +8 to hit, reach 5 ft., one target. Hit: The target is grappled (escape DC 15).",
+      "fr": "Chaque pince déployée effectue l’attaque d’arme de corps à corps suivante : +8 pour toucher, allonge de 5 ft., une cible. Touché : la cible est agrippée (évasion DD 15)."
+    },
+    {
+      "id": "equipment.2014.report-11717.039",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "The apparatus walks or swims forward.",
+      "fr": "L’appareil marche ou nage vers l’avant."
+    },
+    {
+      "id": "equipment.2014.report-11717.040",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "The apparatus walks or swims backward.",
+      "fr": "L’appareil marche ou nage vers l’arrière."
+    },
+    {
+      "id": "equipment.2014.report-11717.041",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "The apparatus turns 90 degrees left.",
+      "fr": "L’appareil tourne de 90 degrés vers la gauche."
+    },
+    {
+      "id": "equipment.2014.report-11717.042",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "The apparatus turns 90 degrees right.",
+      "fr": "L’appareil tourne de 90 degrés vers la droite."
+    },
+    {
+      "id": "equipment.2014.report-11717.043",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "The light turns off.",
+      "fr": "La lumière s’éteint."
+    },
+    {
+      "id": "equipment.2014.report-11717.044",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "The apparatus sinks as much as 20 feet in liquid.",
+      "fr": "L’appareil descend de 20 feet au maximum dans un liquide."
+    },
+    {
+      "id": "equipment.2014.report-11717.045",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "The apparatus rises up to 20 feet in liquid.",
+      "fr": "L’appareil remonte de 20 feet au maximum dans un liquide."
+    },
+    {
+      "id": "equipment.2014.report-11717.046",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "The rear hatch unseals and opens.",
+      "fr": "La trappe arrière se déverrouille et s’ouvre."
+    },
+    {
+      "id": "equipment.2014.report-11717.047",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "The rear hatch closes and seals.",
+      "fr": "La trappe arrière se ferme et se verrouille."
+    },
+    {
+      "id": "equipment.2014.report-11717.048",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "An arcane focus is a Special item designed to channel the power of arcane Spells. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting focus, using it in place of any material component which does not list a cost.",
+      "fr": "Un focaliseur arcanique est un objet spécial conçu pour canaliser la puissance des sorts arcaniques. Un ensorceleur, un occultiste ou un magicien peut l’utiliser comme focaliseur d’incantation à la place de toute composante matérielle dont aucun coût n’est indiqué."
+    },
+    {
+      "id": "equipment.2014.report-11717.049",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "You have resistance to nonmagical damage while you wear this armor. Additionally, you can use an action to make yourself immune to nonmagical damage for 10 minutes or until you are no longer wearing the armor. Once this special action is used, it can't be used again until the next dawn.",
+      "fr": "Vous bénéficiez d’une résistance aux dégâts non magiques tant que vous portez cette armure. Vous pouvez également consacrer une action à vous immuniser contre les dégâts non magiques pendant 10 minutes ou jusqu’à ce que vous retiriez l’armure. Une fois utilisée, cette action spéciale ne peut plus l’être avant l’aube suivante."
+    },
+    {
+      "id": "equipment.2014.report-11717.050",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "While wearing this armor, you are vunerable to bludgeoning damage.",
+      "fr": "Tant que vous portez cette armure, vous êtes vulnérable aux dégâts contondants."
+    },
+    {
+      "id": "equipment.2014.report-11717.051",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "Curse. This armor is cursed, a fact that is revealed only when an identify spell is cast on the armor or you attune to it. Attuning to the armor curses you until you are targeted by the remove curse spell or similar magic; removing the armor fails to end the curse. While cursed you have vulnerability to piercing and slashing damage.",
+      "fr": "Malédiction. Cette armure est maudite, ce qui n’est révélé que si le sort identification est lancé sur elle ou si vous vous y harmonisez. L’harmonisation vous maudit jusqu’à ce que vous soyez la cible du sort délivrance des malédictions ou d’une magie similaire ; retirer l’armure ne met pas fin à la malédiction. Tant que vous êtes maudit, vous êtes vulnérable aux dégâts perforants et tranchants."
+    },
+    {
+      "id": "equipment.2014.report-11717.052",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "While wearing this armor, you are vulnerable to piercing damage.",
+      "fr": "Tant que vous portez cette armure, vous êtes vulnérable aux dégâts perforants."
+    },
+    {
+      "id": "equipment.2014.report-11717.053",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "Curse. This armor is cursed, a fact that is revealed only when an identify spell is cast on the armor or you attune to it. Attuning to the armor curses you until you are targeted by the remove curse spell or similar magic; removing the armor fails to end the curse. While cursed you have vulnerability to bludgeoning and slashing damage.",
+      "fr": "Malédiction. Cette armure est maudite, ce qui n’est révélé que si le sort identification est lancé sur elle ou si vous vous y harmonisez. L’harmonisation vous maudit jusqu’à ce que vous soyez la cible du sort délivrance des malédictions ou d’une magie similaire ; retirer l’armure ne met pas fin à la malédiction. Tant que vous êtes maudit, vous êtes vulnérable aux dégâts contondants et tranchants."
+    },
+    {
+      "id": "equipment.2014.report-11717.054",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "While wearing this armor, you are vulnerable to slashing damage.",
+      "fr": "Tant que vous portez cette armure, vous êtes vulnérable aux dégâts tranchants."
+    },
+    {
+      "id": "equipment.2014.report-11717.055",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "Curse. This armor is cursed, a fact that is revealed only when an identify spell is cast on the armor or you attune to it. Attuning to the armor curses you until you are targeted by the remove curse spell or similar magic; removing the armor fails to end the curse. While cursed you have vulnerability to bludgeoning and piercing damage.",
+      "fr": "Malédiction. Cette armure est maudite, ce qui n’est révélé que si le sort identification est lancé sur elle ou si vous vous y harmonisez. L’harmonisation vous maudit jusqu’à ce que vous soyez la cible du sort délivrance des malédictions ou d’une magie similaire ; retirer l’armure ne met pas fin à la malédiction. Tant que vous êtes maudit, vous êtes vulnérable aux dégâts contondants et perforants."
+    },
+    {
+      "id": "equipment.2014.report-11717.056",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "You have a +1 bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.",
+      "fr": "Vous bénéficiez d’un bonus de +1 aux jets d’attaque et de dégâts effectués avec cette munition magique. Une fois qu’elle a touché une cible, la munition cesse d’être magique."
+    },
+    {
+      "id": "equipment.2014.report-11717.057",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "You have a +2 bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.",
+      "fr": "Vous bénéficiez d’un bonus de +2 aux jets d’attaque et de dégâts effectués avec cette munition magique. Une fois qu’elle a touché une cible, la munition cesse d’être magique."
+    },
+    {
+      "id": "equipment.2014.report-11717.058",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "You have a +3 bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.",
+      "fr": "Vous bénéficiez d’un bonus de +3 aux jets d’attaque et de dégâts effectués avec cette munition magique. Une fois qu’elle a touché une cible, la munition cesse d’être magique."
+    },
+    {
+      "id": "equipment.2014.report-11717.059",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "You gain a +2 bonus to AC against ranged attacks while you wield this shield. This bonus is in addition to the shield's normal bonus to AC. In addition, whenever an attacker makes a ranged attack against a target within 5 feet of you, you can use your reaction to become the target of the attack instead.",
+      "fr": "Vous bénéficiez d’un bonus de +2 à la CA contre les attaques à distance tant que vous maniez ce bouclier. Ce bonus s’ajoute au bonus normal du bouclier à la CA. De plus, chaque fois qu’un attaquant effectue une attaque à distance contre une cible située à 5 feet ou moins de vous, vous pouvez utiliser votre réaction pour devenir la cible de cette attaque à sa place."
+    },
+    {
+      "id": "equipment.2014.report-11717.060",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "Arrows are used with a weapon that has the ammunition property to make a ranged attack. Arrows are typically stored in a Quiver (bought separately).",
+      "fr": "Les flèches s’utilisent avec une arme dotée de la propriété Munitions pour effectuer une attaque à distance. Elles sont généralement rangées dans un carquois (acheté séparément)."
+    },
+    {
+      "id": "equipment.2014.report-11717.061",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "A creature subjected to this poison must make a DC 10 Constitution saving throw. On a failed save, it takes 6 (1d12) poison damage and is poisoned for 24 hours. On a successful save, the creature takes half damage and isn't poisoned.",
+      "fr": "Une créature exposée à ce poison doit effectuer un jet de sauvegarde de Constitution DD 10. En cas d’échec, elle subit 6 (1d12) dégâts de poison et est empoisonnée pendant 24 heures. En cas de réussite, elle subit la moitié des dégâts et n’est pas empoisonnée."
+    },
+    {
+      "id": "equipment.2014.report-11717.062",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "A backpack can hold one cubic foot or 30 pounds of gear. You can also strap items, such as a bedroll or a coil of rope, to the outside of a backpack.",
+      "fr": "Un sac à dos peut contenir un pied cube ou 30 livres d’équipement. Vous pouvez aussi fixer des objets, comme une couverture ou une corde enroulée, à l’extérieur du sac."
+    },
+    {
+      "id": "equipment.2014.report-11717.063",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "Inside this heavy cloth bag are 3d4 dry beans. The bag weighs ½ pound plus ¼ pound for each bean it contains.",
+      "fr": "Ce sac en tissu épais contient 3d4 haricots secs. Il pèse ½ livre, plus ¼ de livre par haricot qu’il contient."
+    },
+    {
+      "id": "equipment.2014.report-11717.064",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "If you dump the bag's contents out on the ground, they explode in a 10-foot radius, extending from the beans. Each creature in the area, including you, must make a DC 15 Dexterity saving throw, taking 5d4 fire damage on a failed save, or half as much damage on a successful one. The fire ignites flammable objects in the area that aren't being worn or carried.",
+      "fr": "Si vous videz le sac sur le sol, les haricots explosent dans un rayon de 10 feet autour d’eux. Chaque créature dans cette zone, vous compris, doit effectuer un jet de sauvegarde de Dextérité DD 15 et subit 5d4 dégâts de feu en cas d’échec, ou la moitié en cas de réussite. Le feu embrase les objets inflammables de la zone qui ne sont ni portés ni transportés."
+    },
+    {
+      "id": "equipment.2014.report-11717.065",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "If you remove a bean from the bag, plant it in dirt or sand, and then water it, the bean produces an effect 1 minute later from the ground where it was planted. The DM can choose an effect from the following table, determine it randomly, or create an effect.",
+      "fr": "Si vous sortez un haricot du sac, le plantez dans la terre ou le sable, puis l’arrosez, il produit un effet 1 minute plus tard à l’endroit où il a été planté. Le MJ peut choisir un effet dans le tableau suivant, le déterminer aléatoirement ou en inventer un."
+    },
+    {
+      "id": "equipment.2014.report-11717.067",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "5d4 toadstools sprout. If a creature eats a toadstool, roll any die. On an odd roll, the eater must succeed on a DC 15 Constitution saving throw or take 5d6 poison damage and become poisoned for 1 hour. On an even roll, the eater gains 5d6 temporary hit points for 1 hour.",
+      "fr": "5d4 champignons poussent. Si une créature en mange un, lancez un dé. Sur un résultat impair, elle doit réussir un jet de sauvegarde de Constitution DD 15 sous peine de subir 5d6 dégâts de poison et d’être empoisonnée pendant 1 heure. Sur un résultat pair, elle gagne 5d6 points de vie temporaires pendant 1 heure."
+    },
+    {
+      "id": "equipment.2014.report-11717.068",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "A geyser erupts and spouts water, beer, berry juice, tea, vinegar, wine, or oil (DM's choice) 30 feet into the air for 1d12 rounds.",
+      "fr": "Un geyser surgit et projette de l’eau, de la bière, du jus de baies, du thé, du vinaigre, du vin ou de l’huile (au choix du MJ) à 30 feet dans les airs pendant 1d12 rounds."
+    },
+    {
+      "id": "equipment.2014.report-11717.069",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "A treant sprouts. There's a 50 percent chance that the treant is chaotic evil and attacks.",
+      "fr": "Un sylvanien apparaît. Il a 50 pour cent de chances d’être chaotique mauvais et d’attaquer."
+    },
+    {
+      "id": "equipment.2014.report-11717.070",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "An animate, immobile stone statue in your likeness rises. It makes verbal threats against you. If you leave it and others come near, it describes you as the most heinous of villains and directs the newcomers to find and attack you. If you are on the same plane of existence as the statue, it knows where you are. The statue becomes inanimate after 24 hours.",
+      "fr": "Une statue animée mais immobile, en pierre et à votre effigie, apparaît. Elle vous menace verbalement. Si vous partez et que d’autres créatures s’en approchent, elle vous décrit comme le pire des scélérats et leur ordonne de vous trouver et de vous attaquer. Si vous êtes sur le même plan d’existence que la statue, elle sait où vous êtes. Elle devient inerte après 24 heures."
+    },
+    {
+      "id": "equipment.2014.report-11717.071",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "A campfire with blue flames springs forth and burns for 24 hours (or until it is extinguished).",
+      "fr": "Un feu de camp aux flammes bleues apparaît et brûle pendant 24 heures (ou jusqu’à ce qu’il soit éteint)."
+    },
+    {
+      "id": "equipment.2014.report-11717.072",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "1d4+8 bright pink toads crawl forth. Whenever a toad is touched, it transforms into a Large or smaller monster of the DM's choice. The monster remains for 1 minute, then disappears in a puff of bright pink smoke.",
+      "fr": "1d4+8 crapauds rose vif apparaissent. Chaque fois qu’un crapaud est touché, il se transforme en monstre de taille G ou inférieure, au choix du MJ. Le monstre reste pendant 1 minute, puis disparaît dans un nuage de fumée rose vif."
+    },
+    {
+      "id": "equipment.2014.report-11717.073",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "A fruit tree grows. It has 1d10+20 fruit, 1d8 of which act as randomly determined magic potions, while one acts as an ingested poison of the DM's choice. The tree vanishes after 1 hour. Picked fruit remains, retaining any magic for 30 days.",
+      "fr": "Un arbre fruitier pousse. Il porte 1d10+20 fruits, dont 1d8 produisent les effets de potions magiques déterminées aléatoirement, tandis qu’un autre agit comme un poison par ingestion choisi par le MJ. L’arbre disparaît après 1 heure. Les fruits cueillis demeurent et conservent leur magie pendant 30 jours."
+    },
+    {
+      "id": "equipment.2014.report-11717.074",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "A nest of 1d4+3 eggs springs up. Any creature that eats an egg must make a DC 20 Constitution saving throw. On a successful save, a creature permanently increases its lowest ability score by 1, randomly choosing among equally low scores. On a failed save, the creature takes 10d6 force damage from an internal magical explosion.",
+      "fr": "Un nid contenant 1d4+3 œufs apparaît. Toute créature qui mange un œuf doit effectuer un jet de sauvegarde de Constitution DD 20. En cas de réussite, sa caractéristique la plus basse augmente définitivement de 1, déterminée aléatoirement en cas d’égalité. En cas d’échec, la créature subit 10d6 dégâts de force provoqués par une explosion magique interne."
+    },
+    {
+      "id": "equipment.2014.report-11717.075",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "A pyramid with a 60-foot-square base bursts upward. Inside is a sarcophagus containing a mummy lord. The pyramid is treated as the mummy lord's lair, and its sarcophagus contains treasure of the DM's choice.",
+      "fr": "Une pyramide dont la base est un carré de 60 feet de côté surgit du sol. À l’intérieur se trouve un sarcophage contenant un seigneur momie. La pyramide est considérée comme son antre et le sarcophage contient un trésor choisi par le MJ."
+    },
+    {
+      "id": "equipment.2014.report-11717.076",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "A giant beanstalk sprouts, growing to a height of the DM's choice. The top leads where the DM chooses, such as to a great view, a cloud giant's castle, or a different plane of existence.",
+      "fr": "Un haricot géant pousse jusqu’à une hauteur choisie par le MJ. Son sommet mène à un lieu choisi par le MJ : un panorama magnifique, le château d’un géant des nuages ou un autre plan d’existence, par exemple."
+    },
+    {
+      "id": "equipment.2014.report-11717.077",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "This bag superficially resembles a bag of holding but is a feeding orifice for a gigantic extradimensional creature. Turning the bag inside out closes the orifice.",
+      "fr": "Ce sac ressemble extérieurement à un sac sans fond, mais constitue l’orifice nourricier d’une gigantesque créature extradimensionnelle. Retourner le sac referme cet orifice."
+    },
+    {
+      "id": "equipment.2014.report-11717.078",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "The extradimensional creature attached to the bag can sense whatever is placed inside the bag. Animal or vegetable matter placed wholly in the bag is devoured and lost forever. When part of a living creature is placed in the bag, as happens when someone reaches inside it, there is a 50 percent chance that the creature is pulled inside the bag. A creature inside the bag can use its action to try to escape with a successful DC 15 Strength check. Another creature can use its action to reach into the bag to pull a creature out, doing so with a successful DC 20 Strength check (provided it isn't pulled inside the bag first). Any creature that starts its turn inside the bag is devoured, its body destroyed.",
+      "fr": "La créature extradimensionnelle reliée au sac perçoit tout ce qui y est placé. Toute matière animale ou végétale entièrement introduite dans le sac est dévorée et perdue à jamais. Lorsqu’une partie d’une créature vivante est introduite dans le sac, par exemple quand quelqu’un y plonge la main, la créature a 50 pour cent de chances d’être aspirée à l’intérieur. Une créature dans le sac peut consacrer son action à tenter de s’échapper en réussissant un test de Force DD 15. Une autre créature peut consacrer son action à passer la main dans le sac pour en sortir la première, en réussissant un test de Force DD 20, à condition de ne pas être elle-même aspirée. Toute créature qui commence son tour dans le sac est dévorée et son corps est détruit."
+    },
+    {
+      "id": "equipment.2014.report-11717.079",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "Inanimate objects can be stored in the bag, which can hold a cubic foot of such material. However, once each day, the bag swallows any objects inside it and spits them out into another plane of existence. The DM determines the time and plane.",
+      "fr": "Le sac peut contenir un pied cube d’objets inanimés. Toutefois, une fois par jour, il avale les objets qu’il contient et les recrache sur un autre plan d’existence. Le MJ détermine le moment et le plan."
+    },
+    {
+      "id": "equipment.2014.report-11717.080",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "If the bag is pierced or torn, it is destroyed, and anything contained within it is transported to a random location on the Astral Plane.",
+      "fr": "Si le sac est percé ou déchiré, il est détruit et son contenu est transporté vers un lieu aléatoire du plan Astral."
+    },
+    {
+      "id": "equipment.2014.report-11717.081",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "This bag has an interior space considerably larger than its outside dimensions, roughly 2 feet in diameter at the mouth and 4 feet deep. The bag can hold up to 500 pounds, not exceeding a volume of 64 cubic feet. The bag weighs 15 pounds, regardless of its contents. Retrieving an item from the bag requires an action.",
+      "fr": "L’espace intérieur de ce sac est considérablement plus grand que ses dimensions extérieures, d’environ 2 feet de diamètre à l’ouverture et 4 feet de profondeur. Il peut contenir jusqu’à 500 livres sans dépasser un volume de 64 pieds cubes. Le sac pèse 15 livres, quel que soit son contenu. En sortir un objet nécessite une action."
+    },
+    {
+      "id": "equipment.2014.report-11717.082",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "If the bag is overloaded, pierced, or torn, it ruptures and is destroyed, and its contents are scattered in the Astral Plane. If the bag is turned inside out, its contents spill forth, unharmed, but the bag must be put right before it can be used again. Breathing creatures inside the bag can survive up to a number of minutes equal to 10 divided by the number of creatures (minimum 1 minute), after which time they begin to suffocate.",
+      "fr": "Si le sac est surchargé, percé ou déchiré, il se rompt et est détruit ; son contenu est dispersé dans le plan Astral. Si le sac est retourné, son contenu tombe au sol sans subir de dégâts, mais le sac doit être remis à l’endroit pour être réutilisé. Les créatures qui respirent peuvent y survivre pendant un nombre de minutes égal à 10 divisé par le nombre de créatures présentes, avec un minimum de 1 minute, après quoi elles commencent à suffoquer."
+    },
+    {
+      "id": "equipment.2014.report-11717.083",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "Placing a bag of holding inside an extradimensional space created by a Heward's handy haversack, portable hole, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate is sucked through it to a random location on the Astral Plane. The gate then closes. The gate is one-way only and can't be reopened.",
+      "fr": "Placer un sac sans fond dans un espace extradimensionnel créé par un havresac pratique d’Hévard, un puits portatif ou un objet similaire détruit instantanément les deux objets et ouvre un portail vers le plan Astral. Le portail apparaît à l’endroit où un objet a été placé dans l’autre. Toute créature située à 10 feet ou moins est aspirée vers un lieu aléatoire du plan Astral. Le portail se referme ensuite. Il est à sens unique et ne peut pas être rouvert."
+    },
+    {
+      "id": "equipment.2014.report-11717.084",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "This ordinary bag, made from gray cloth, appears empty. Reaching inside the bag, however, reveals the presence of a small, fuzzy object.",
+      "fr": "Ce sac ordinaire en tissu gris paraît vide. Y plonger la main révèle toutefois la présence d’un petit objet duveteux."
+    },
+    {
+      "id": "equipment.2014.report-11717.085",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "You can use an action to pull the fuzzy object from the bag and throw it up to 20 feet. When the object lands, it transforms into a creature you determine by rolling a d8 and consulting the table. The creature vanishes at the next dawn or when it is reduced to 0 hit points.",
+      "fr": "Vous pouvez consacrer une action à sortir cet objet duveteux du sac et à le lancer jusqu’à 20 feet. Quand il atterrit, il se transforme en une créature déterminée en lançant un d8 et en consultant le tableau. Elle disparaît à l’aube suivante ou lorsqu’elle est réduite à 0 point de vie."
+    },
+    {
+      "id": "equipment.2014.report-11717.086",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "The creature is friendly to you and your companions, and it acts on your turn. You can use a bonus action to command how the creature moves and what action it takes on its next turn, or to give it general orders, such as to attack your enemies. In the absence of such orders, the creature acts in a fashion appropriate to its nature.",
+      "fr": "La créature est amicale envers vous et vos compagnons et agit à votre tour. Vous pouvez utiliser une action Bonus pour lui ordonner comment se déplacer et quelle action effectuer à son prochain tour, ou lui donner un ordre général, comme attaquer vos ennemis. En l’absence d’ordre, elle agit conformément à sa nature."
+    },
+    {
+      "id": "equipment.2014.report-11717.087",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "Once three fuzzy objects have been pulled from the bag, the bag can't be used again until the next dawn.",
+      "fr": "Une fois trois objets duveteux sortis du sac, celui-ci ne peut plus être utilisé avant l’aube suivante."
+    },
+    {
+      "id": "equipment.2014.report-11717.089",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "This ordinary bag, made from rust cloth, appears empty. Reaching inside the bag, however, reveals the presence of a small, fuzzy object.",
+      "fr": "Ce sac ordinaire en tissu rouille paraît vide. Y plonger la main révèle toutefois la présence d’un petit objet duveteux."
+    },
+    {
+      "id": "equipment.2014.report-11717.090",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "This ordinary bag, made from tan cloth, appears empty. Reaching inside the bag, however, reveals the presence of a small, fuzzy object.",
+      "fr": "Ce sac ordinaire en tissu brun paraît vide. Y plonger la main révèle toutefois la présence d’un petit objet duveteux."
+    },
+    {
+      "id": "equipment.2014.report-11717.091",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "Instrument. If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument.",
+      "fr": "Instrument. Si vous maîtrisez un instrument de musique, vous pouvez ajouter votre bonus de maîtrise aux tests de caractéristique effectués pour jouer de cet instrument."
+    },
+    {
+      "id": "equipment.2014.report-11717.092",
+      "kind": "description",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "en": "Each type of musical instrument requires a separate proficiency.",
+      "fr": "Chaque type d’instrument de musique nécessite une maîtrise distincte."
     }
   ]
 }

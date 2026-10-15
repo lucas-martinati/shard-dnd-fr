@@ -1,5 +1,5 @@
 {
-  "version": "1.17.16",
+  "version": "1.17.19",
   "reference": "Noms AideDD 2024 prioritaires. Références SRD disponibles séparément. Autres entrées identifiées.",
   "license": "Code MIT ; contenu SRD CC-BY-4.0 https://creativecommons.org/licenses/by/4.0/",
   "sources": [
@@ -34250,6 +34250,741 @@
       "fr": "Billes de fronde en adamantium (20)",
       "category": "équipement",
       "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
+      "aliases": []
+    },
+    {
+      "en": "Pale Tincture (Ingested)",
+      "fr": "Teinture pâle (ingestion)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Pepper",
+      "fr": "Poivre",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Pig",
+      "fr": "Cochon",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Platinum Bar",
+      "fr": "Lingot de platine",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Purple Worm Poison (Injury)",
+      "fr": "Poison de ver pourpre (blessure)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Regional Map",
+      "fr": "Carte régionale",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Reliquary",
+      "fr": "Reliquaire",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Saffron",
+      "fr": "Safran",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Salt",
+      "fr": "Sel",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Serpent Venom (Injury)",
+      "fr": "Venin de serpent (blessure)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Sheep",
+      "fr": "Mouton",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Shield of Far Sight",
+      "fr": "Bouclier de vision lointaine",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Silk (1 sq. yd.)",
+      "fr": "Soie (1 yard carré)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Silver Bar",
+      "fr": "Lingot d’argent",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Smoke Grenade",
+      "fr": "Grenade fumigène",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Survival Mantle",
+      "fr": "Manteau de survie",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Tears of Virulence Emblem",
+      "fr": "Emblème des Larmes de virulence",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Torpor (Ingested)",
+      "fr": "Torpeur (ingestion)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Truth Serum (Ingested)",
+      "fr": "Sérum de vérité (ingestion)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Unbreakable Arrow",
+      "fr": "Flèche incassable",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Wand of Scowls",
+      "fr": "Baguette des grimaces",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Wand of Smiles",
+      "fr": "Baguette des sourires",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Wheat",
+      "fr": "Blé",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Writ of Free Agency",
+      "fr": "Lettre de libre mandat",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Wyvern Poison (Injury)",
+      "fr": "Poison de wiverne (blessure)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Yew Wand",
+      "fr": "Baguette en if",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Potion of Acid Resistance",
+      "fr": "Potion de résistance à l’acide",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Ring of Acid Resistance",
+      "fr": "Anneau de résistance à l’acide",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Potion of Cold Resistance",
+      "fr": "Potion de résistance au froid",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Ring of Cold Resistance",
+      "fr": "Anneau de résistance au froid",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Ring of Fire Resistance",
+      "fr": "Anneau de résistance au feu",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Potion of Force Resistance",
+      "fr": "Potion de résistance à la force",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Ring of Force Resistance",
+      "fr": "Anneau de résistance à la force",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Potion of Lightning Resistance",
+      "fr": "Potion de résistance à la foudre",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Ring of Lightning Resistance",
+      "fr": "Anneau de résistance à la foudre",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Potion of Necrotic Resistance",
+      "fr": "Potion de résistance aux dégâts nécrotiques",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Ring of Necrotic Resistance",
+      "fr": "Anneau de résistance aux dégâts nécrotiques",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Potion of Poison Resistance",
+      "fr": "Potion de résistance au poison",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Ring of Poison Resistance",
+      "fr": "Anneau de résistance au poison",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Potion of Psychic Resistance",
+      "fr": "Potion de résistance aux dégâts psychiques",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Ring of Psychic Resistance",
+      "fr": "Anneau de résistance aux dégâts psychiques",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Potion of Radiant Resistance",
+      "fr": "Potion de résistance aux dégâts radiants",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Ring of Radiant Resistance",
+      "fr": "Anneau de résistance aux dégâts radiants",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Potion of Thunder Resistance",
+      "fr": "Potion de résistance au tonnerre",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Ring of Thunder Resistance",
+      "fr": "Anneau de résistance au tonnerre",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Potion of Cloud Giant Strength",
+      "fr": "Potion de force de géant des nuages",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Potion of Fire Giant Strength",
+      "fr": "Potion de force de géant du feu",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Potion of Frost Giant Strength",
+      "fr": "Potion de force de géant du givre",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Potion of Hill Giant Strength",
+      "fr": "Potion de force de géant des collines",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Potion of Stone Giant Strength",
+      "fr": "Potion de force de géant des pierres",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Potion of Storm Giant Strength",
+      "fr": "Potion de force de géant des tempêtes",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Quaal's Feather Token, Anchor",
+      "fr": "Plume de Quaal (ancre)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Quaal's Feather Token, Bird",
+      "fr": "Plume de Quaal (oiseau)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Quaal's Feather Token, Fan",
+      "fr": "Plume de Quaal (éventail)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Quaal's Feather Token, Swan Boat",
+      "fr": "Plume de Quaal (bateau-cygne)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Quaal's Feather Token, Tree",
+      "fr": "Plume de Quaal (arbre)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Quaal's Feather Token, Whip",
+      "fr": "Plume de Quaal (fouet)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Ring of Air Elemental Command",
+      "fr": "Anneau de contrôle des élémentaires de l’air",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Ring of Earth Elemental Command",
+      "fr": "Anneau de contrôle des élémentaires de la terre",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Ring of Fire Elemental Command",
+      "fr": "Anneau de contrôle des élémentaires du feu",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Ring of Water Elemental Command",
+      "fr": "Anneau de contrôle des élémentaires de l’eau",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Scroll of Protection from Aberrations",
+      "fr": "Parchemin de protection contre les aberrations",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Scroll of Protection from Beasts",
+      "fr": "Parchemin de protection contre les bêtes",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Scroll of Protection from Celestials",
+      "fr": "Parchemin de protection contre les célestes",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Scroll of Protection from Elementals",
+      "fr": "Parchemin de protection contre les élémentaires",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Scroll of Protection from Fey",
+      "fr": "Parchemin de protection contre les fées",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Scroll of Protection from Fiends",
+      "fr": "Parchemin de protection contre les fiélons",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Scroll of Protection from Plants",
+      "fr": "Parchemin de protection contre les plantes",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Scroll of Protection from Undead",
+      "fr": "Parchemin de protection contre les morts-vivants",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Smoldering Breastplate",
+      "fr": "Cuirasse fumante",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Smoldering Chain Mail",
+      "fr": "Cotte de mailles fumante",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Smoldering Chain Shirt",
+      "fr": "Chemise de mailles fumante",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Smoldering Half Plate Armor",
+      "fr": "Demi-plate fumante",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Smoldering Hide Armor",
+      "fr": "Armure de peaux fumante",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Smoldering Leather Armor",
+      "fr": "Armure de cuir fumante",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Smoldering Padded Armor",
+      "fr": "Armure matelassée fumante",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Smoldering Plate Armor",
+      "fr": "Harnois fumant",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Smoldering Ring Mail",
+      "fr": "Broigne fumante",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Smoldering Scale Mail",
+      "fr": "Armure d’écailles fumante",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Smoldering Spiked Armor",
+      "fr": "Armure à pointes fumante",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Smoldering Splint Armor",
+      "fr": "Clibanion fumant",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Smoldering Studded Leather Armor",
+      "fr": "Armure de cuir clouté fumante",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Walloping Arrow",
+      "fr": "Flèche percutante",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Walloping Arrows (20)",
+      "fr": "Flèches percutantes (20)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Silvered Arrow",
+      "fr": "Flèche argentée",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Silvered Arrows (20)",
+      "fr": "Flèches argentées (20)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Walloping Blowgun Needle",
+      "fr": "Aiguille de sarbacane percutante",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Walloping Blowgun Needles (50)",
+      "fr": "Aiguilles de sarbacane percutantes (50)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Silvered Blowgun Needle",
+      "fr": "Aiguille de sarbacane argentée",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Silvered Blowgun Needles (50)",
+      "fr": "Aiguilles de sarbacane argentées (50)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Walloping Crossbow Bolt",
+      "fr": "Carreau d’arbalète percutant",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Walloping Crossbow Bolts (20)",
+      "fr": "Carreaux d’arbalète percutants (20)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Silvered Crossbow Bolt",
+      "fr": "Carreau d’arbalète argenté",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Silvered Crossbow Bolts (20)",
+      "fr": "Carreaux d’arbalète argentés (20)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Walloping Sling Bullet",
+      "fr": "Bille de fronde percutante",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Walloping Sling Bullets (20)",
+      "fr": "Billes de fronde percutantes (20)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Silvered Sling Bullet",
+      "fr": "Bille de fronde argentée",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Silvered Sling Bullets (20)",
+      "fr": "Billes de fronde argentées (20)",
+      "category": "équipement",
+      "source": "Traduction proposée des libellés du diagnostic utilisateur 1.17.16 · 15 octobre 2026 · catalogue Shard multi-livres, édition indéterminée ; variantes supplémentaires des familles signalées. Ce relevé ne contient pas les descriptions.",
+      "aliases": []
+    },
+    {
+      "en": "Activity",
+      "fr": "Activité",
+      "category": "équipement",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "aliases": []
+    },
+    {
+      "en": "Liquid",
+      "fr": "Liquide",
+      "category": "équipement",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "aliases": []
+    },
+    {
+      "en": "Max Amount",
+      "fr": "Quantité maximale",
+      "category": "équipement",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "aliases": []
+    },
+    {
+      "en": "Apparatus of Kwalish Levers:",
+      "fr": "Leviers de l’appareil de Kwalish :",
+      "category": "équipement",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "aliases": []
+    },
+    {
+      "en": "Lever",
+      "fr": "Levier",
+      "category": "équipement",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "aliases": []
+    },
+    {
+      "en": "Up",
+      "fr": "Haut",
+      "category": "équipement",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "aliases": []
+    },
+    {
+      "en": "Down",
+      "fr": "Bas",
+      "category": "équipement",
+      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
       "aliases": []
     },
     {

@@ -1,5 +1,27 @@
 # Audit de couverture — 13 octobre 2026
 
+## Retrait du mode par nom — 1.17.19
+
+Le rapport utilisateur 1.17.18 porte sur 450 entrées : 429 associations non renseignées, une référence associée et 20 fiches déjà contrôlées sur leur texte. Cet index apporte trop peu d’information dans le catalogue réel. Le mode rapide par nom, ses indicateurs, ses données et sa génération sont retirés. Les associations mentionnées dans le bilan historique ci-dessous ne sont plus livrées. Les traductions ajoutées dans les lots précédents restent conservées.
+
+Le diagnostic de page et le contrôle facultatif du contenu des fiches restent disponibles. Un état n’apparaît désormais qu’après lecture de la description, avec progression et arrêt pour le parcours automatique. L’export décrit uniquement les fiches examinées.
+
+## Rapport de descriptions 1.17.17 — mode rapide et équipement ancien
+
+Le rapport de 100 fiches contient 48 états sans anglais repéré, 39 à compléter, 11 en chargement et deux sans description. Les 151 candidats correspondent à 93 textes distincts. Deux sont des dés (`d8`, `d100`) désormais ignorés, et un est un nom déjà couvert. Les 90 autres correspondent à 83 passages descriptifs et sept libellés ajoutés. Un passage de l’appareil de Kwalish est un fragment coupé au niveau des dés : sa traduction conserve ce fragment sans inventer la suite. Les nombres et les unités du relevé sont conservés. Les textes relèvent des formulations anciennes ; ils ne sont pas attribués au PHB 2024.
+
+Un index explicite relie 476 noms à des références ou fragments : 356 noms de sorts (alias inclus), 72 références d’équipement et 48 associations d’objets aux passages signalés. Les associations aux fragments sont éditables dans `translations/2014/objets/descriptions-par-nom.json` et pointent vers les identifiants du pack. Le build refuse une référence absente. L’index livré est `outputs/descriptions-par-nom.json`. Il ne déduit pas une description à partir d’une simple traduction de nom. Une absence d’association n’est donc pas une absence de traduction.
+
+L’affichage des associations ne nécessite aucune ouverture de fiche ni requête réseau. Le parcours détaillé reste volontaire ; il n’attend plus la file globale de traduction ni les références AideDD et ne déclenche pas de nouvelles consultations distantes. Une référence en attente ne fait plus classer en chargement un texte déjà traduit. Les tests ciblés vérifient ces comportements, la séparation objets/sorts, les alias, les états inconnus et les 93 textes du rapport.
+
+## Nouveau rapport d’objets 1.17.16 et descriptions des catalogues
+
+Les 102 candidats reçus contiennent 92 noms nécessitant une traduction, huit libellés conservés en français (Totem, Yklwa, variantes +1/+2/+3 de Yklwa et Trident), le nom de l’application et un fragment de caractéristiques `magical , Unknown (Magic)15,`. Ce dernier ne constitue pas un nom d’objet et reste à examiner avec sa fiche. Le lot ajoute 98 correspondances : les 92 noms et six variantes de ces familles. Le [relevé de contrôle](../tests/fixtures/diagnostic-object-names-11716.json) conserve ces distinctions. Il ne permet pas de conclure sur leurs descriptions ni de les attribuer au livre 2024.
+
+L’analyseur propose maintenant un parcours volontaire des descriptions des listes de sorts, objets, monstres et dons. Il ouvre puis ferme les fiches chargées, avec une limite de 100 par passage, une progression et un arrêt. Les mêmes repères de langue sont appliqués au seul contenu des descriptions, après traitement de la traduction. Les états apparaissent dans les lignes et dans l’export JSON ; une fiche vide, inaccessible ou en cours de chargement reçoit un état distinct. « Aucun anglais repéré » ne certifie pas la qualité ni l’exhaustivité de la traduction. Les états ne sont pas persistés et sont effacés au changement de page.
+
+La structure de liste et de dialogue d’objet a été vérifiée dans Shard. Les contrôles locaux portent sur le script généré : traductions partielles, fiches vides, français, actualisation après ouverture manuelle, arrêt immédiat, changement de page, borne de 100 et conservation des champs et actions d’édition. `npm run test:diagnostics` et `npm run test:catalogue-names` ciblent ces changements.
+
 ## Rapports utilisateur du 15 octobre — noms de monstres et d’objets
 
 Le diagnostic 1.17.14 fourni contient 92 candidats de monstres et 200 candidats d’objets. Il porte sur les noms visibles et quelques libellés de catégories, sans descriptions détaillées ni livre identifié. Le rapport d’objets est tronqué, ce qui empêche d’en déduire le nombre total de manques du catalogue.

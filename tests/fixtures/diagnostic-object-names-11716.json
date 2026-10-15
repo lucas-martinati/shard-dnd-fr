@@ -1,0 +1,542 @@
+{
+  "sourceVersion": "1.17.16",
+  "objets": [
+    {
+      "en": "Pale Tincture (Ingested)",
+      "fr": "Teinture pâle (ingestion)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Pepper",
+      "fr": "Poivre",
+      "statut": "traduit"
+    },
+    {
+      "en": "Pig",
+      "fr": "Cochon",
+      "statut": "traduit"
+    },
+    {
+      "en": "Platinum Bar",
+      "fr": "Lingot de platine",
+      "statut": "traduit"
+    },
+    {
+      "en": "Potion of Acid Resistance",
+      "fr": "Potion de résistance à l’acide",
+      "statut": "traduit"
+    },
+    {
+      "en": "Potion of Cloud Giant Strength",
+      "fr": "Potion de force de géant des nuages",
+      "statut": "traduit"
+    },
+    {
+      "en": "Potion of Cold Resistance",
+      "fr": "Potion de résistance au froid",
+      "statut": "traduit"
+    },
+    {
+      "en": "Potion of Fire Giant Strength",
+      "fr": "Potion de force de géant du feu",
+      "statut": "traduit"
+    },
+    {
+      "en": "Potion of Force Resistance",
+      "fr": "Potion de résistance à la force",
+      "statut": "traduit"
+    },
+    {
+      "en": "Potion of Frost Giant Strength",
+      "fr": "Potion de force de géant du givre",
+      "statut": "traduit"
+    },
+    {
+      "en": "Potion of Hill Giant Strength",
+      "fr": "Potion de force de géant des collines",
+      "statut": "traduit"
+    },
+    {
+      "en": "Potion of Lightning Resistance",
+      "fr": "Potion de résistance à la foudre",
+      "statut": "traduit"
+    },
+    {
+      "en": "Potion of Necrotic Resistance",
+      "fr": "Potion de résistance aux dégâts nécrotiques",
+      "statut": "traduit"
+    },
+    {
+      "en": "Potion of Psychic Resistance",
+      "fr": "Potion de résistance aux dégâts psychiques",
+      "statut": "traduit"
+    },
+    {
+      "en": "Potion of Radiant Resistance",
+      "fr": "Potion de résistance aux dégâts radiants",
+      "statut": "traduit"
+    },
+    {
+      "en": "Potion of Stone Giant Strength",
+      "fr": "Potion de force de géant des pierres",
+      "statut": "traduit"
+    },
+    {
+      "en": "Potion of Storm Giant Strength",
+      "fr": "Potion de force de géant des tempêtes",
+      "statut": "traduit"
+    },
+    {
+      "en": "Potion of Thunder Resistance",
+      "fr": "Potion de résistance au tonnerre",
+      "statut": "traduit"
+    },
+    {
+      "en": "Purple Worm Poison (Injury)",
+      "fr": "Poison de ver pourpre (blessure)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Quaal's Feather Token, Anchor",
+      "fr": "Plume de Quaal (ancre)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Quaal's Feather Token, Bird",
+      "fr": "Plume de Quaal (oiseau)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Quaal's Feather Token, Fan",
+      "fr": "Plume de Quaal (éventail)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Quaal's Feather Token, Swan Boat",
+      "fr": "Plume de Quaal (bateau-cygne)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Quaal's Feather Token, Tree",
+      "fr": "Plume de Quaal (arbre)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Regional Map",
+      "fr": "Carte régionale",
+      "statut": "traduit"
+    },
+    {
+      "en": "Reliquary",
+      "fr": "Reliquaire",
+      "statut": "traduit"
+    },
+    {
+      "en": "Ring of Acid Resistance",
+      "fr": "Anneau de résistance à l’acide",
+      "statut": "traduit"
+    },
+    {
+      "en": "Ring of Air Elemental Command",
+      "fr": "Anneau de contrôle des élémentaires de l’air",
+      "statut": "traduit"
+    },
+    {
+      "en": "Ring of Cold Resistance",
+      "fr": "Anneau de résistance au froid",
+      "statut": "traduit"
+    },
+    {
+      "en": "Ring of Earth Elemental Command",
+      "fr": "Anneau de contrôle des élémentaires de la terre",
+      "statut": "traduit"
+    },
+    {
+      "en": "Ring of Fire Elemental Command",
+      "fr": "Anneau de contrôle des élémentaires du feu",
+      "statut": "traduit"
+    },
+    {
+      "en": "Ring of Fire Resistance",
+      "fr": "Anneau de résistance au feu",
+      "statut": "traduit"
+    },
+    {
+      "en": "Ring of Force Resistance",
+      "fr": "Anneau de résistance à la force",
+      "statut": "traduit"
+    },
+    {
+      "en": "Ring of Lightning Resistance",
+      "fr": "Anneau de résistance à la foudre",
+      "statut": "traduit"
+    },
+    {
+      "en": "Ring of Necrotic Resistance",
+      "fr": "Anneau de résistance aux dégâts nécrotiques",
+      "statut": "traduit"
+    },
+    {
+      "en": "Ring of Poison Resistance",
+      "fr": "Anneau de résistance au poison",
+      "statut": "traduit"
+    },
+    {
+      "en": "Ring of Psychic Resistance",
+      "fr": "Anneau de résistance aux dégâts psychiques",
+      "statut": "traduit"
+    },
+    {
+      "en": "Ring of Radiant Resistance",
+      "fr": "Anneau de résistance aux dégâts radiants",
+      "statut": "traduit"
+    },
+    {
+      "en": "Ring of Thunder Resistance",
+      "fr": "Anneau de résistance au tonnerre",
+      "statut": "traduit"
+    },
+    {
+      "en": "Ring of Water Elemental Command",
+      "fr": "Anneau de contrôle des élémentaires de l’eau",
+      "statut": "traduit"
+    },
+    {
+      "en": "Saffron",
+      "fr": "Safran",
+      "statut": "traduit"
+    },
+    {
+      "en": "Salt",
+      "fr": "Sel",
+      "statut": "traduit"
+    },
+    {
+      "en": "Scroll of Protection from Aberrations",
+      "fr": "Parchemin de protection contre les aberrations",
+      "statut": "traduit"
+    },
+    {
+      "en": "Scroll of Protection from Beasts",
+      "fr": "Parchemin de protection contre les bêtes",
+      "statut": "traduit"
+    },
+    {
+      "en": "Scroll of Protection from Celestials",
+      "fr": "Parchemin de protection contre les célestes",
+      "statut": "traduit"
+    },
+    {
+      "en": "Scroll of Protection from Elementals",
+      "fr": "Parchemin de protection contre les élémentaires",
+      "statut": "traduit"
+    },
+    {
+      "en": "Scroll of Protection from Fey",
+      "fr": "Parchemin de protection contre les fées",
+      "statut": "traduit"
+    },
+    {
+      "en": "Scroll of Protection from Fiends",
+      "fr": "Parchemin de protection contre les fiélons",
+      "statut": "traduit"
+    },
+    {
+      "en": "Scroll of Protection from Plants",
+      "fr": "Parchemin de protection contre les plantes",
+      "statut": "traduit"
+    },
+    {
+      "en": "Scroll of Protection from Undead",
+      "fr": "Parchemin de protection contre les morts-vivants",
+      "statut": "traduit"
+    },
+    {
+      "en": "Serpent Venom (Injury)",
+      "fr": "Venin de serpent (blessure)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Sheep",
+      "fr": "Mouton",
+      "statut": "traduit"
+    },
+    {
+      "en": "Shield of Far Sight",
+      "fr": "Bouclier de vision lointaine",
+      "statut": "traduit"
+    },
+    {
+      "en": "Silk (1 sq. yd.)",
+      "fr": "Soie (1 yard carré)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Silver Bar",
+      "fr": "Lingot d’argent",
+      "statut": "traduit"
+    },
+    {
+      "en": "Silvered Blowgun Needle",
+      "fr": "Aiguille de sarbacane argentée",
+      "statut": "traduit"
+    },
+    {
+      "en": "Silvered Blowgun Needles (50)",
+      "fr": "Aiguilles de sarbacane argentées (50)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Silvered Sling Bullet",
+      "fr": "Bille de fronde argentée",
+      "statut": "traduit"
+    },
+    {
+      "en": "Silvered Sling Bullets (20)",
+      "fr": "Billes de fronde argentées (20)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Smoke Grenade",
+      "fr": "Grenade fumigène",
+      "statut": "traduit"
+    },
+    {
+      "en": "Smoldering Breastplate",
+      "fr": "Cuirasse fumante",
+      "statut": "traduit"
+    },
+    {
+      "en": "Smoldering Chain Mail",
+      "fr": "Cotte de mailles fumante",
+      "statut": "traduit"
+    },
+    {
+      "en": "Smoldering Chain Shirt",
+      "fr": "Chemise de mailles fumante",
+      "statut": "traduit"
+    },
+    {
+      "en": "Smoldering Half Plate Armor",
+      "fr": "Demi-plate fumante",
+      "statut": "traduit"
+    },
+    {
+      "en": "Smoldering Hide Armor",
+      "fr": "Armure de peaux fumante",
+      "statut": "traduit"
+    },
+    {
+      "en": "Smoldering Leather Armor",
+      "fr": "Armure de cuir fumante",
+      "statut": "traduit"
+    },
+    {
+      "en": "Smoldering Padded Armor",
+      "fr": "Armure matelassée fumante",
+      "statut": "traduit"
+    },
+    {
+      "en": "Smoldering Plate Armor",
+      "fr": "Harnois fumant",
+      "statut": "traduit"
+    },
+    {
+      "en": "Smoldering Ring Mail",
+      "fr": "Broigne fumante",
+      "statut": "traduit"
+    },
+    {
+      "en": "Smoldering Scale Mail",
+      "fr": "Armure d’écailles fumante",
+      "statut": "traduit"
+    },
+    {
+      "en": "Smoldering Spiked Armor",
+      "fr": "Armure à pointes fumante",
+      "statut": "traduit"
+    },
+    {
+      "en": "Smoldering Splint Armor",
+      "fr": "Clibanion fumant",
+      "statut": "traduit"
+    },
+    {
+      "en": "Smoldering Studded Leather Armor",
+      "fr": "Armure de cuir clouté fumante",
+      "statut": "traduit"
+    },
+    {
+      "en": "Survival Mantle",
+      "fr": "Manteau de survie",
+      "statut": "traduit"
+    },
+    {
+      "en": "magical , Unknown (Magic)15,",
+      "fr": null,
+      "statut": "metadonnees-a-verifier"
+    },
+    {
+      "en": "Tears of Virulence Emblem",
+      "fr": "Emblème des Larmes de virulence",
+      "statut": "traduit"
+    },
+    {
+      "en": "Torpor (Ingested)",
+      "fr": "Torpeur (ingestion)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Totem",
+      "fr": "Totem",
+      "statut": "libelle-conserve"
+    },
+    {
+      "en": "Trident +1",
+      "fr": "Trident +1",
+      "statut": "libelle-conserve"
+    },
+    {
+      "en": "Trident +2",
+      "fr": "Trident +2",
+      "statut": "libelle-conserve"
+    },
+    {
+      "en": "Trident +3",
+      "fr": "Trident +3",
+      "statut": "libelle-conserve"
+    },
+    {
+      "en": "Truth Serum (Ingested)",
+      "fr": "Sérum de vérité (ingestion)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Unbreakable Arrow",
+      "fr": "Flèche incassable",
+      "statut": "traduit"
+    },
+    {
+      "en": "Walloping Arrow",
+      "fr": "Flèche percutante",
+      "statut": "traduit"
+    },
+    {
+      "en": "Walloping Arrows (20)",
+      "fr": "Flèches percutantes (20)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Walloping Blowgun Needle",
+      "fr": "Aiguille de sarbacane percutante",
+      "statut": "traduit"
+    },
+    {
+      "en": "Walloping Blowgun Needles (50)",
+      "fr": "Aiguilles de sarbacane percutantes (50)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Walloping Crossbow Bolt",
+      "fr": "Carreau d’arbalète percutant",
+      "statut": "traduit"
+    },
+    {
+      "en": "Walloping Crossbow Bolts (20)",
+      "fr": "Carreaux d’arbalète percutants (20)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Walloping Sling Bullet",
+      "fr": "Bille de fronde percutante",
+      "statut": "traduit"
+    },
+    {
+      "en": "Walloping Sling Bullets (20)",
+      "fr": "Billes de fronde percutantes (20)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Wand of Scowls",
+      "fr": "Baguette des grimaces",
+      "statut": "traduit"
+    },
+    {
+      "en": "Wand of Smiles",
+      "fr": "Baguette des sourires",
+      "statut": "traduit"
+    },
+    {
+      "en": "Wheat",
+      "fr": "Blé",
+      "statut": "traduit"
+    },
+    {
+      "en": "Writ of Free Agency",
+      "fr": "Lettre de libre mandat",
+      "statut": "traduit"
+    },
+    {
+      "en": "Wyvern Poison (Injury)",
+      "fr": "Poison de wiverne (blessure)",
+      "statut": "traduit"
+    },
+    {
+      "en": "Yew Wand",
+      "fr": "Baguette en if",
+      "statut": "traduit"
+    },
+    {
+      "en": "Yklwa",
+      "fr": "Yklwa",
+      "statut": "libelle-conserve"
+    },
+    {
+      "en": "Yklwa +1",
+      "fr": "Yklwa +1",
+      "statut": "libelle-conserve"
+    },
+    {
+      "en": "Yklwa +2",
+      "fr": "Yklwa +2",
+      "statut": "libelle-conserve"
+    },
+    {
+      "en": "Yklwa +3",
+      "fr": "Yklwa +3",
+      "statut": "libelle-conserve"
+    },
+    {
+      "en": "Shard Tabletop",
+      "fr": "Shard Tabletop",
+      "statut": "nom-application"
+    }
+  ],
+  "variantesSupplementaires": [
+    {
+      "en": "Potion of Poison Resistance",
+      "fr": "Potion de résistance au poison"
+    },
+    {
+      "en": "Quaal's Feather Token, Whip",
+      "fr": "Plume de Quaal (fouet)"
+    },
+    {
+      "en": "Silvered Arrow",
+      "fr": "Flèche argentée"
+    },
+    {
+      "en": "Silvered Arrows (20)",
+      "fr": "Flèches argentées (20)"
+    },
+    {
+      "en": "Silvered Crossbow Bolt",
+      "fr": "Carreau d’arbalète argenté"
+    },
+    {
+      "en": "Silvered Crossbow Bolts (20)",
+      "fr": "Carreaux d’arbalète argentés (20)"
+    }
+  ],
+  "limites": "Contrôle des noms seulement ; aucun état de traduction des descriptions ne peut être déduit de ce rapport."
+}

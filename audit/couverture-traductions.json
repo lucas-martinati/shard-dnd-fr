@@ -240,9 +240,9 @@
             "blocs": 0
           },
           "objets": {
-            "entreesRattachees": 323,
-            "libelles": 307,
-            "blocs": 16
+            "entreesRattachees": 511,
+            "libelles": 412,
+            "blocs": 99
           },
           "regles": {
             "entreesRattachees": 99,
@@ -255,7 +255,7 @@
             "blocs": 16
           }
         },
-        "entreesRattachees": 1254
+        "entreesRattachees": 1442
       }
     ],
     "regleClassement": "Un emplacement éditorial par texte : règles du joueur 2024 avec le PHB, bestiaire 2024 avec le MM, corpus historique et lexique non spécifique dans 2014. L’emplacement ne remplace pas la source précise ni l’édition portée par l’entrée.",
@@ -532,8 +532,8 @@
     "objets": {
       "nomsCatalogueAideDD2024": 349,
       "entreesDictionnaires": 510,
-      "libellesEditables": 383,
-      "blocsEditables": 16
+      "libellesEditables": 488,
+      "blocsEditables": 99
     },
     "armes": {
       "nomsCatalogueAideDD2024": 0,
@@ -561,7 +561,7 @@
     }
   },
   "corpusLocaux": {
-    "descriptionsEtChampsLocauxUniques": 5358,
+    "descriptionsEtChampsLocauxUniques": 5441,
     "presentationsShard": {
       "fichesRelevees": 153,
       "avecDescription": 149,

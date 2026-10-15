@@ -12,6 +12,10 @@
 
 Dans le panneau D&D FR, ouvre **Repérer les traductions manquantes**, puis clique sur **Analyser la page**. Les candidats sont regroupés avec leur contexte et une cause possible. **Exporter le rapport JSON** enregistre le relevé sur ton ordinateur ; **Effacer** retire les repères. Relance l’analyse après avoir ouvert une autre fiche ou attendu une référence AideDD.
 
+**Descriptions depuis la liste :** coche **Afficher l’état des descriptions vérifiées**, puis utilise **Contrôler le contenu des fiches** si tu souhaites parcourir les descriptions. Ce contrôle ouvre puis referme les fiches chargées, par lots de 100 au maximum. **Arrêter** l’interrompt. Fais défiler la liste pour charger les suivantes, puis relance. Le contrôle utilise les traductions locales sans attendre la file globale ni de nouvelles références distantes. Ouvrir une fiche manuellement actualise également son état.
+
+Les états apparaissent uniquement après examen du texte : **à compléter**, **aucun anglais repéré**, **sans description** ou **vérification impossible**. Les fiches non examinées ne portent pas d’indicateur. Le mode d’association par nom a été retiré car son index était trop incomplet. Le repérage repose sur des indices de langue et ne certifie pas l’exactitude du français. Les états restent en mémoire pour cette page et sont inclus dans l’export JSON. Un changement de page ou **Effacer** remet le relevé à zéro.
+
 Le diagnostic n’envoie rien et ne lit pas les valeurs des champs ni les éditeurs. Il peut inclure des noms propres ou du contenu personnalisé affiché : vérifie le rapport avant de le partager. Il est limité à 200 candidats et ne constitue pas un pourcentage de couverture du site.
 
 ## Mises à jour suivantes

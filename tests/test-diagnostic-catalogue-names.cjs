@@ -1,7 +1,8 @@
 const fs=require('node:fs'),assert=require('node:assert/strict'),{JSDOM}=require('jsdom');
 const fixture=JSON.parse(fs.readFileSync('tests/fixtures/diagnostic-catalogue-names.json','utf8'));
+const next=JSON.parse(fs.readFileSync('tests/fixtures/diagnostic-object-names-11716.json','utf8'));
 const w=new JSDOM('<main></main>',{url:'https://play.shardtabletop.com/#item',runScripts:'outside-only',pretendToBeVisual:true}).window,d=w.document,main=d.querySelector('main');
-const cases=[...fixture.monstres,...fixture.objets,...fixture.variantesSupplementaires].map(row=>{const button=d.createElement('button');button.textContent=row.en;main.append(button);return{...row,button};});
+const cases=[...fixture.monstres,...fixture.objets,...fixture.variantesSupplementaires,...next.objets.filter(r=>r.fr!==null),...next.variantesSupplementaires].map(row=>{const button=d.createElement('button');button.textContent=row.en;main.append(button);return{...row,button};});
 const field=d.createElement('input');field.value='Avatar of Death';main.append(field);const notes=d.createElement('div');notes.contentEditable='true';notes.setAttribute('contenteditable','true');notes.textContent='Adamantine Arrow';main.append(notes);const sentinel=d.createElement('button');sentinel.textContent='Close';main.append(sentinel);const original=main.innerHTML;let clicks=0,blob;cases.forEach(({button})=>button.onclick=()=>clicks++);
 w.GM_getValue=(k,f)=>f;w.GM_setValue=()=>{};w.GM_registerMenuCommand=()=>{};w.URL.createObjectURL=b=>{blob=b;return'blob:local-report';};w.URL.revokeObjectURL=()=>{};w.HTMLAnchorElement.prototype.click=function(){};
 const pause=ms=>new Promise(r=>setTimeout(r,ms));async function wait(f){for(let i=0;i<600&&!f();i++)await pause(25);assert.ok(f(),'Catalogue name update timed out');}
@@ -10,5 +11,5 @@ const pause=ms=>new Promise(r=>setTimeout(r,ms));async function wait(f){for(let 
  const root=[...d.querySelectorAll('[data-shard-fr-ignore]')].map(e=>e.shadowRoot).find(r=>r?.getElementById('scanMissing'));root.getElementById('scanMissing').click();root.getElementById('exportMissing').click();const report=await new Promise((resolve,reject)=>{const r=new w.FileReader();r.onload=()=>resolve(JSON.parse(r.result));r.onerror=reject;r.readAsText(blob);});
  const corrected=new Set(cases.filter(r=>r.en!==r.fr).map(r=>r.en));assert.ok(!report.missing.some(r=>corrected.has(r.en)),'Les noms corrigés ne doivent plus figurer parmi les manques');assert.equal(report.truncated,false);
  const enabled=root.getElementById('enabled');enabled.checked=false;enabled.dispatchEvent(new w.Event('change'));await wait(()=>main.innerHTML===original);
- console.log(`PASS diagnostics catalogues : 92 candidats monstres, 200 objets, ${fixture.variantesSupplementaires.length} variantes supplémentaires ; noms propres et champs conservés, candidats corrigés absents du nouveau diagnostic, clics et restauration exacte.`);
+ console.log(`PASS diagnostics catalogues : 92 candidats monstres, 200 objets, ${fixture.variantesSupplementaires.length} variantes supplémentaires ; second rapport de 102 candidats et 6 variantes ; noms propres et champs conservés, candidats corrigés absents du nouveau diagnostic, clics et restauration exacte.`);
 }finally{w.close();}})().catch(e=>{console.error(e);process.exitCode=1;});
