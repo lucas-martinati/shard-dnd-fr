@@ -13,12 +13,16 @@ const example=JSON.parse(fs.readFileSync('tests/fixtures/metamagic-legacy-pairs.
 rows.push({id:'barbarian.high.test.spell-link',en:example[0],fr:example[1]});
 cases.push(['test.spell-link','Metamagic','<strong>Metamagic.</strong> ',example[0].replace('magic missile','<a href="#spell-magic-missile"><strong>magic missile</strong></a>'),'Métamagie.']);
 for(const [id,title,label,en]of cases){const p=d.createElement('p');p.dataset.id=id;p.innerHTML=label+en;main.append(p);}
-const original=main.innerHTML,blocks=[...main.children],elements=[...main.querySelectorAll('b,strong,i,em,a')],links=[...main.querySelectorAll('a')],hrefs=links.map(a=>a.getAttribute('href')),dice=[...main.querySelectorAll('.dodieroll')],values=dice.map(e=>e.textContent);let clicks=0;dice.forEach(e=>e.onclick=()=>clicks++);links.forEach(e=>e.addEventListener('click',e=>{e.preventDefault();clicks++}));
+const blocks=[...main.children];
+const shortCases=[['1st','1er'],['2nd','2e'],['20th','20e'],['2 hours','2 heures'],['Duration: Concentration, up to 2 hours','Durée : Concentration, jusqu’à 2 heures'],['DC15 Fire','DD15 Feu'],['STR — DEX','FOR — DEX'],['You discover an unfamiliar crystal machine.','You discover an unfamiliar crystal machine.']];
+const shortBlocks=shortCases.map(([en])=>{const p=d.createElement('p');p.textContent=en;main.append(p);return p;});
+const original=main.innerHTML,elements=[...main.querySelectorAll('b,strong,i,em,a')],links=[...main.querySelectorAll('a')],hrefs=links.map(a=>a.getAttribute('href')),dice=[...main.querySelectorAll('.dodieroll')],values=dice.map(e=>e.textContent);let clicks=0;dice.forEach(e=>e.onclick=()=>clicks++);links.forEach(e=>e.addEventListener('click',e=>{e.preventDefault();clicks++}));
 w.GM_getValue=(k,f)=>k==='shard-fr-v1'?JSON.stringify({bilingual:true}):f;w.GM_setValue=()=>{};w.GM_registerMenuCommand=()=>{};
 const pause=ms=>new Promise(r=>setTimeout(r,ms));async function wait(f){for(let i=0;i<240&&!f();i++)await pause(25);assert.ok(f(),'DOM update timed out');}
 (async()=>{try{
  w.eval(fs.readFileSync('outputs/shard-dnd-fr.user.js','utf8'));
  await wait(()=>blocks.every((p,i)=>p.textContent.includes(get(cases[i][0]).fr)));
+ await wait(()=>shortBlocks.every((p,i)=>p.textContent===shortCases[i][1]));
  blocks.forEach((p,i)=>{
   assert.equal(p.querySelector('strong,b,em').textContent,cases[i][4],'Formatted heading stays short');
   assert.ok(p.childNodes[p.childNodes.length-1].textContent.trim().length>0,'Description remains outside heading');

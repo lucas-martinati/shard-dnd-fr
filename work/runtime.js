@@ -30,6 +30,38 @@
   // Une ancienne synchronisation ne doit pas masquer les références ajoutées au script.
   let aideddRows=validRows(aideddCache.rows)?[...new Map([...AIDEDD_CATALOG,...aideddCache.rows].map(r=>[normalize(r.en)+'|'+r.kind,r])).values()]:AIDEDD_CATALOG;
   let entries, tokenRE, phraseRE, names, customKeys, effectiveMeta, aideddIndex;
+  let tokenKeys=[],phraseKeys=[];const shortTokenMatchers=new Map(),shortPhraseMatchers=new Map(),shortKnownWords=new Map();
+  const shortTextLimit=length=>length<=32?32:length<=64?64:length<=128?128:256;
+  function structuredRemainder(source){
+    return source.replace(/\b(?:Niveau|DD\d+)\b/g,'').replace(/\b\d+(?:st|nd|rd|th)(?:[-\s]level)?\b/gi,'').replace(/\b\d*(?:ft|feet|foot|lb|lbs|d\d+)\b\.?/gi,'').replace(/\b(?:C|L|V|S|M)\b/g,'');
+  }
+  function shortTextHasUnknownWord(source){
+    if(source.length>256)return false;
+    const text=normalize(structuredRemainder(source));
+    // Les autres écritures conservent le moteur Unicode complet.
+    if(/[^\x00-\x7f]/.test(text))return false;
+    const limit=shortTextLimit(source.length);
+    if(!shortKnownWords.has(limit)){
+      const words=new Set();
+      // Après normalisation des clés, ſ peut encore correspondre à s en mode iu.
+      for(const key of tokenKeys)if(key.length<=limit)for(const word of key.replace(/ſ/g,'s').match(/[a-z]+/g)||[])words.add(word);
+      shortKnownWords.set(limit,words);
+    }
+    const words=shortKnownWords.get(limit);
+    return (text.match(/[a-z]+/g)||[]).some(word=>!words.has(word));
+  }
+  function textMatcher(source,prose=false){
+    if(source.length>256)return prose?phraseRE:tokenRE;
+    const limit=shortTextLimit(source.length);
+    const cache=prose?shortPhraseMatchers:shortTokenMatchers;
+    if(!cache.has(limit)){
+      // Une expression littérale plus longue que le texte ne peut pas y entrer.
+      // Garder l’ordre, les variantes typographiques et les frontières d’origine.
+      const keys=(prose?phraseKeys:tokenKeys).filter(key=>key.length<=limit);
+      cache.set(limit,new RegExp('(?<![\\p{L}\\p{N}_])(?:'+keys.map(pattern).join('|')+')(?![\\p{L}\\p{N}_])','giu'));
+    }
+    return cache.get(limit);
+  }
   const baseTerms=new Map(TRANSLATION_TERMS.map(row=>[normalize(row.en),row]));
   const bundledIndex=new Map(AIDEDD_CATALOG.map(row=>[normalize(row.en)+'|'+row.kind,row]));
   const legacyIndex=new Map();
@@ -63,6 +95,7 @@
     names = new Set([...baseTerms].filter(([,row])=>row.usage.includes('name')).map(([key])=>key));
     if(aideddNames)for(const row of aideddRows)names.add(normalize(row.en));
     const keys = [...entries.keys()].sort((a,b) => b.length-a.length);
+    tokenKeys=keys;shortTokenMatchers.clear();shortPhraseMatchers.clear();shortKnownWords.clear();
     // Un seul remplacement par passe : aucun remplacement récursif du français produit.
     tokenRE = new RegExp('(?<![\\p{L}\\p{N}_])(?:' + keys.map(pattern).join('|') + ')(?![\\p{L}\\p{N}_])', 'giu');
     // Dans une phrase inconnue, ne traduire que les groupes de mots D&D explicites.
@@ -71,6 +104,7 @@
     // Les mots courants anglais pouvant aussi désigner un sort restent ambigus en prose.
     const ambiguous = new Set(['light','aid','alarm','command','friends','jump','sleep','fear','darkness','web','daylight','silence','message','wish','gate','hex','detect','move','charge']);
     const proseKeys = keys.filter(k => k === 'hit:' || (explicitNames.has(k) && !ambiguous.has(k)) || (k.includes(' ') && (k.length > 30 || !/^(pick |select |add |remove |new |set |show |at |per )/.test(k))));
+    phraseKeys=proseKeys;
     phraseRE = new RegExp('(?<![\\p{L}\\p{N}_])(?:' + proseKeys.map(pattern).join('|') + ')(?![\\p{L}\\p{N}_])', 'giu');
     referenceIndex=new Map();
     referenceSearchRows=aideddRows.map(row=>{
@@ -104,8 +138,26 @@
     });
   }
   const weaponMasteryContext=text=>/(?:\bmastery\b|bottes? d.armes?|propriétés? (?:de )?botte|this weapon|cette arme|slashing|piercing|bludgeoning|tranchant|perforant|contondant|two-handed|à deux mains)/i.test(text);
+  const translationCache=new Map();let translationCacheRevision=-1,translationCacheBilingual=null,translationCacheRoute='';
   function translate(source, context = source) {
     if (!enabled || !source.trim() || source.length > 50000) return source;
+    // Le résultat dépend aussi du contexte (Light, Save, etc.) et de la page.
+    // Cache en mémoire uniquement, borné à 256 textes et 4 contextes par texte.
+    if(translationCacheRevision!==revision||translationCacheBilingual!==bilingual||translationCacheRoute!==location.hash){
+      translationCache.clear();translationCacheRevision=revision;translationCacheBilingual=bilingual;translationCacheRoute=location.hash;
+    }
+    const cacheable=source.length<=4000&&context.length<=4000,contexts=cacheable?translationCache.get(source):null;
+    if(contexts?.has(context))return contexts.get(context);
+    const translated=translateUncached(source,context);
+    if(cacheable){
+      const values=contexts||new Map();
+      if(!contexts){if(translationCache.size>=256)translationCache.delete(translationCache.keys().next().value);translationCache.set(source,values);}
+      if(values.size>=4)values.delete(values.keys().next().value);
+      values.set(context,translated);
+    }
+    return translated;
+  }
+  function translateUncached(source,context){
     const originalSource=source;
     const exact = entries.get(normalize(source));
     const complete=lookupPair(inlineKey(source));
@@ -132,16 +184,20 @@
     const cast=/^Cast\s+(?:Level\s+)?([1-9])(?:st|nd|rd|th)?(?:[- ]level)?\s+Spell\s*:\s*(.+)$/i.exec(source.trim());
     if(cast)return `Lancer le sort de niveau ${cast[1]} : ${translate(cast[2])}`;
     source = source.replace(/\bCast\s+(?:Level\s+)?([1-9])(?:st|nd|rd|th)?(?:[- ]level)?\s+Spell\s*:/gi, (_,n) => `Lancer le sort de niveau ${n} :`).replace(/\b([1-9])(?:st|nd|rd|th)[-\s]level\b/gi, (_,n) => `Niveau ${n}`).replace(/\bDC(?=\d)/g, 'DD');
+    // Un mot absent de tous les libellés possibles interdit toute couverture.
+    // Garder alors la phrase entière, comme le moteur complet.
+    if(shortTextHasUnknownWord(source)){const duration=translateDuration(source);return duration!==null?duration:originalSource;}
     // Reconnaître les lignes de statistiques uniquement si tous les mots sont connus.
-    const residual = source.replace(tokenRE, '').replace(/\b(?:Niveau|DD\d+)\b/g, '').replace(/\b\d+(?:st|nd|rd|th)(?:[-\s]level)?\b/gi, '').replace(/\b\d*(?:ft|feet|foot|lb|lbs|d\d+)\b\.?/gi, '').replace(/\b(?:C|L|V|S|M)\b/g, '').replace(/[^\p{L}]/gu, '');
+    const tokens=textMatcher(source);
+    const residual = structuredRemainder(source.replace(tokens,'')).replace(/[^\p{L}]/gu,'');
     const structured = source.length < 450 && residual.length === 0;
     // Une phrase inconnue reste entière en anglais. Ne jamais produire un mélange de langues.
     if(!structured){
       const duration=translateDuration(source);if(duration!==null)return duration;
-      const covered=source.replace(phraseRE,'').replace(/[^\p{L}]/gu,'');
+      const covered=source.replace(textMatcher(source,true),'').replace(/[^\p{L}]/gu,'');
       if(covered)return originalSource;
     }
-    const matcher = structured ? tokenRE : phraseRE;
+    const matcher = structured ? tokens : textMatcher(source,true);
     // Conserver les chiffres et les unités de jeu ; ft et lb ne sont pas convertis.
     const segments = [];
     let last = 0;
@@ -1012,26 +1068,49 @@
     const units={round:'round',minute:'minute',hour:'heure',day:'jour'};
     return (m[1]?'Durée : ':'')+(m[2]?'Concentration, ':'')+(m[3]?'jusqu’à ':'')+m[4]+' '+units[m[5].toLowerCase()]+(Number(m[4])>1?'s':'');
   }
-  let blockCacheRevision=-1,blockPairs=[];const blockTranslationCache=new Map();
+  let blockCacheRevision=-1,blockPairIndex=new Map();const blockTranslationCache=new Map();
+  function indexBlockPairs(pairs){
+    // Un fragment de six caractères appartient nécessairement au texte exact.
+    // Choisir le plus rare parmi début, milieu et fin évite une recherche globale,
+    // sans perdre les correspondances ni modifier les frontières de mots.
+    const grams=en=>[...new Set([en.slice(0,6),en.slice(Math.floor((en.length-6)/2),Math.floor((en.length-6)/2)+6),en.slice(-6)])];
+    const frequencies=new Map();
+    for(const [en]of pairs)for(const gram of grams(en))frequencies.set(gram,(frequencies.get(gram)||0)+1);
+    const index=new Map();
+    for(const pair of pairs){
+      const anchor=grams(pair[0]).reduce((best,gram)=>frequencies.get(gram)<frequencies.get(best)?gram:best);
+      if(!index.has(anchor))index.set(anchor,[]);index.get(anchor).push(pair);
+    }
+    return index;
+  }
+  function matchingBlockPairs(text){
+    const visited=new Set(),matches=[];
+    for(let i=0;i<=text.length-6;i++){
+      const gram=text.slice(i,i+6),bucket=blockPairIndex.get(gram);
+      if(!bucket||visited.has(gram))continue;visited.add(gram);
+      for(const pair of bucket)if(text.includes(pair[0]))matches.push(pair);
+    }
+    return matches;
+  }
   function translateCompleteBlock(source){
     if(source.length<35)return null;
     if(blockCacheRevision!==revision){
       blockTranslationCache.clear();
       const selected=new Map(completePairs);
       for(const [en,fr]of inlinePairs)if(fr&&!localCorrections.has(en)&&!(inlineSources.has(en)&&!inlinePriority(en))&&(inlinePriority(en)||!selected.has(en)))selected.set(en,fr);
-      blockPairs=[...selected].filter(([en,fr])=>fr&&en.length>=12).sort((a,b)=>b[0].length-a[0].length);
+      blockPairIndex=indexBlockPairs([...selected].filter(([en,fr])=>fr&&en.length>=12));
       blockCacheRevision=revision;
     }
     const key=inlineKey(source);
     if(blockTranslationCache.has(key))return blockTranslationCache.get(key);
     const result=reconstructCompleteBlock(source);
-    if(blockTranslationCache.size>600)blockTranslationCache.clear();
+    if(blockTranslationCache.size>=600)blockTranslationCache.delete(blockTranslationCache.keys().next().value);
     blockTranslationCache.set(key,result);return result;
   }
   function reconstructCompleteBlock(source){
     // Reconstruction de blocs complets (libellés séparés, BR, plusieurs paragraphes).
     let text=inlineKey(source),changed=false;
-    const pairs=blockPairs.filter(([en])=>text.includes(en));
+    const pairs=matchingBlockPairs(text);
     const pieces=[];let rest=text;
     while(rest){let match=null;for(const [en,fr]of pairs){const at=rest.indexOf(en);if(at>=0&&(!match||at<match.at||(at===match.at&&en.length>match.en.length)))match={at,en,fr};}
       if(!match){pieces.push({en:rest});break;}
@@ -1083,6 +1162,21 @@
   // ambigu en français ; exiger aussi la construction anglaise « of/with ».
   const englishFragmentClue=/\b(?:a|an)\s+[a-z][a-z'-]*(?:\s+[a-z][a-z'-]*){0,3}\s+(?:of|with)\s+[a-z][a-z'-]*\b/i;
   const hasEnglishClue=source=>englishClue.test(source)||englishFragmentClue.test(source);
+  const diagnosticMaterialValue=/^(?:(?:components|composantes)\s*:\s*)?(?:(?:V|S)\s*,\s*)*M\s*\(([^)]+)\)/i;
+  const englishMaterialWords=/\b(?:powder|sand|wire|incense|ash|ashes|fur|feathers?|charcoal|salt|silver|gold|iron|copper|diamonds?|rub(?:y|ies)|sul(?:f|ph)ur|dust|glass|wood|leather|thread|rope|worth|consumed|consumes)\b/i;
+  const looksEnglishMaterial=source=>/^(?:a|an|some)\s+[a-z]/i.test(source.trim())||englishMaterialWords.test(source);
+  function hasDiagnosticEnglish(source,el,contexts,visibleCache){
+    if(hasEnglishClue(source))return true;
+    const material=diagnosticMaterialValue.exec(source);
+    if(material)return looksEnglishMaterial(material[1]);
+    if(!looksEnglishMaterial(source))return false;
+    // Un span isolé peut contenir le matériau : confirmer le champ Composantes
+    // dans son paragraphe, sans lire les valeurs ni les contenus masqués.
+    const block=el.closest('p,li,td,th')||el;
+    if(!contexts.has(block))contexts.set(block,blockNodes(block).filter(n=>diagnosticVisible(n.parentElement,visibleCache)).map(originalNode).join(''));
+    const field=diagnosticMaterialValue.exec(contexts.get(block).trim());
+    return !!field&&looksEnglishMaterial(field[1]);
+  }
   const frenchClue=/[àâçéèêëîïôùûüÿœæ]|\b(?:le|la|les|des|du|une|un|vos|vous|votre|avec|pour|dans|sont)\b/i;
   const diagnosticSelector='p,li,td,th,h1,h2,h3,h4,h5,h6,[role="heading"],.titletext,button,label,option,.description,.pre-wrap,.stdcontent,div';
   const diagnosticIgnoredLabels=new Set(['source','sources','shard','shard tabletop','shard tabletap']);
@@ -1125,11 +1219,19 @@
     return 'missing-translation';
   }
   const diagnosticLabels={'translation-disabled':'Traduction désactivée','conflicting-translations':'Traductions contradictoires','unrecognized-layout':'Traduction connue, structure à vérifier','reference-loading':'Référence en cours de chargement','reference-unavailable':'Référence distante indisponible','missing-translation':'Correspondance absente ou formulation différente'};
+  let diagnosticFrenchRevision=-1,diagnosticFrenchValues=new Set();
+  function knownDiagnosticFrench(){
+    if(diagnosticFrenchRevision!==revision){
+      diagnosticFrenchValues=new Set([...entries.values()].map(row=>inlineKey(row.fr)));
+      for(const fr of [...completePairs.values(),...inlinePairs.values()])if(fr)diagnosticFrenchValues.add(inlineKey(fr));
+      diagnosticFrenchRevision=revision;
+    }
+    return diagnosticFrenchValues;
+  }
   function collectDiagnostics(root=document.body,mark=true,attributes=true){
     const resultLimit=analysisResultLimit||Infinity,nodeLimit=analysisNodeLimit||Infinity;
-    const knownFrench=new Set([...entries.values()].map(row=>inlineKey(row.fr)));
-    for(const fr of [...completePairs.values(),...inlinePairs.values()])if(fr)knownFrench.add(inlineKey(fr));
-    const missing=[],seen=new Map(),visibleCache=new WeakMap();let examined=0,truncated=false;
+    const knownFrench=knownDiagnosticFrench();
+    const missing=[],seen=new Map(),visibleCache=new WeakMap(),materialContexts=new WeakMap();let examined=0,truncated=false;
     const books=new Set();
     // Les titres de suppléments inconnus sont attestés par la mention Source de Shard.
     for(const el of document.querySelectorAll('.titletext[title],.titletext [title]')){
@@ -1137,16 +1239,17 @@
       const title=attrState.get(el)?.get('title')?.original??el.getAttribute('title');
       if(title?.trim())books.add(normalize(title));
     }
-    const add=(el,source,attribute=null,displayed=null)=>{
+    const add=(el,source,attribute=null,displayed=null,residual=false)=>{
       source=source.replace(/\s+/g,' ').trim();
       if(!source||!/[a-zA-Z]/.test(source)||/^(?:\d+)?d\d+$/i.test(source)||/^\d+(?:[.,]\d+)?\s*lb\.?$/i.test(source)||diagnosticFormulaOnly(source)||knownFrench.has(inlineKey(source))||ignoredDiagnosticLabel(source,books))return;
       const expected=lookupPair(inlineKey(source))||translate(source,creatureSavingThrowCell(el,source)?'creature ability saving throws':source);
       const current=attribute?el.getAttribute(attribute):(displayed??el.textContent);
-      if(inlineKey(current||'')===inlineKey(expected)&&inlineKey(expected)!==inlineKey(source))return;
+      if(!residual&&inlineKey(current||'')===inlineKey(expected)&&inlineKey(expected)!==inlineKey(source))return;
       const isLabel=attribute||source.length<100&&!el.matches('p,li,.description,.pre-wrap');
-      if(!isLabel&&!hasEnglishClue(source))return;
-      if(isLabel&&!hasEnglishClue(source)&&frenchClue.test(source))return;
-      const reason=diagnosticReason(el,source),key=inlineKey(source)+'|'+reason+'|'+(attribute||'');
+      const english=hasDiagnosticEnglish(source,el,materialContexts,visibleCache);
+      if(!isLabel&&!english)return;
+      if(isLabel&&!english&&frenchClue.test(source))return;
+      const reason=residual?'unrecognized-layout':diagnosticReason(el,source),key=inlineKey(source)+'|'+reason+'|'+(attribute||'');
       if(seen.has(key)){seen.get(key).occurrences++;}
       else{
         if(missing.length>=resultLimit){truncated=true;return;}
@@ -1158,14 +1261,29 @@
       }
       if(mark){el.setAttribute('data-shard-fr-diagnostic','');diagnosticMarks.add(el);}
     };
+    // Attribuer chaque nœud à son bloc une seule fois, au lieu de reparcourir
+    // le sous-arbre de chacun de ses ancêtres (livres et dialogues imbriqués).
+    const ownedNodes=new Map(),walker=document.createTreeWalker(root,NodeFilter.SHOW_ELEMENT|NodeFilter.SHOW_TEXT,{acceptNode:n=>{
+      if(n.nodeType===1)return excluded(n)||!diagnosticVisible(n,visibleCache)?NodeFilter.FILTER_REJECT:NodeFilter.FILTER_SKIP;
+      return NodeFilter.FILTER_ACCEPT;
+    }});
+    let node;while((node=walker.nextNode())){
+      if(excluded(node.parentElement)||!diagnosticVisible(node.parentElement,visibleCache))continue;
+      const owner=node.parentElement.closest(diagnosticSelector)||node.parentElement.closest('span,a');
+      if(!owner)continue;if(!ownedNodes.has(owner))ownedNodes.set(owner,[]);ownedNodes.get(owner).push(node);
+    }
     for(const el of [root,...root.querySelectorAll(diagnosticSelector+',span,a')]){
       if(++examined>nodeLimit){truncated=true;break;}
       if(excluded(el)||!diagnosticVisible(el,visibleCache))continue;
-      const nodes=blockNodes(el).filter(n=>(n.parentElement.closest(diagnosticSelector)||n.parentElement.closest('span,a'))===el&&diagnosticVisible(n.parentElement,visibleCache)),source=nodes.map(originalNode).join('');
+      const nodes=ownedNodes.get(el)||[],source=nodes.map(originalNode).join('');
       // Si une partie du bloc est déjà française, ne rapporter que le reliquat.
       const changed=nodes.some(n=>n.data!==originalNode(n));
       const remainder=changed?nodes.filter(n=>n.data===originalNode(n)).map(n=>n.data).join(''):source;
-      if(!changed||hasEnglishClue(remainder))add(el,remainder,null,nodes.map(n=>n.data).join(''));
+      const displayed=nodes.map(n=>n.data).join(''),material=changed?diagnosticMaterialValue.exec(displayed.trim()):null;
+      // Une substitution de quelques mots dans un même nœud ne prouve pas que
+      // tout le champ est traduit. Conserver l’anglais original dans le rapport.
+      if(material&&looksEnglishMaterial(material[1])&&!knownFrench.has(inlineKey(displayed)))add(el,source,null,displayed,true);
+      else if(!changed||hasDiagnosticEnglish(remainder,el,materialContexts,visibleCache))add(el,remainder,null,displayed);
     }
     for(const el of attributes?root.querySelectorAll(ATTRS.map(attr=>'['+attr+']').join(',')):[]){
       if(++examined>nodeLimit){truncated=true;break;}

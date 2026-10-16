@@ -1,0 +1,168 @@
+{
+  "date": "2026-10-17",
+  "environment": {
+    "node": "22.23.2",
+    "jsdom": "30.1.2",
+    "network": false
+  },
+  "before": {
+    "scriptPath": "outputs/shard-dnd-fr.user.js · 1.17.44 · e3216a6",
+    "startupMs": [
+      371.5533300000001,
+      208.79897499999993,
+      158.29555499999992,
+      154.78131499999995,
+      155.58512900000005
+    ],
+    "medianMs": 158.29555499999992,
+    "domRuns": [
+      {
+        "blocks": 400,
+        "mutatedBlocks": 100,
+        "startupMs": 154.6202559999997,
+        "firstScanMs": 670.5380620000001,
+        "mutationScanMs": 140.13164099999995,
+        "restoreMs": 239.39133500000025,
+        "maxEventLoopDelayMs": 147.30027100000007
+      },
+      {
+        "blocks": 400,
+        "mutatedBlocks": 100,
+        "startupMs": 156.39163000000008,
+        "firstScanMs": 595.6492679999997,
+        "mutationScanMs": 139.42207499999995,
+        "restoreMs": 242.94348700000046,
+        "maxEventLoopDelayMs": 147.60019499999999
+      },
+      {
+        "blocks": 400,
+        "mutatedBlocks": 100,
+        "startupMs": 149.3738569999996,
+        "firstScanMs": 589.5970910000005,
+        "mutationScanMs": 138.28828499999963,
+        "restoreMs": 239.4484709999997,
+        "maxEventLoopDelayMs": 139.88995799999975
+      }
+    ],
+    "medianFirstScanMs": 595.6492679999997,
+    "medianMutationScanMs": 139.42207499999995,
+    "descriptionRuns": [
+      {
+        "blocks": 60,
+        "startupMs": 150.8365190000004,
+        "firstScanMs": 3276.408880000001,
+        "diagnosticMs": [
+          823.0102619999998,
+          745.8311830000002,
+          727.1368710000006
+        ],
+        "diagnosticStatus": "20 candidat(s) à vérifier."
+      },
+      {
+        "blocks": 60,
+        "startupMs": 174.64014099999986,
+        "firstScanMs": 1301.4526880000012,
+        "diagnosticMs": [
+          736.7022130000005,
+          713.5892829999993,
+          725.575189000001
+        ],
+        "diagnosticStatus": "20 candidat(s) à vérifier."
+      },
+      {
+        "blocks": 60,
+        "startupMs": 162.4682069999999,
+        "firstScanMs": 1299.062229000001,
+        "diagnosticMs": [
+          728.5641830000022,
+          712.6571199999998,
+          708.4161459999996
+        ],
+        "diagnosticStatus": "20 candidat(s) à vérifier."
+      }
+    ],
+    "medianDescriptionScanMs": 1301.4526880000012,
+    "medianDiagnosticMs": 727.1368710000006,
+    "note": "JSDOM sur la même machine, sans réseau : 400 libellés, 100 mutations, restauration, 60 blocs de description imbriqués et trois analyses de page. Les délais incluent les timers ; ce benchmark ne remplace pas une mesure dans Shard."
+  },
+  "after": {
+    "scriptPath": "outputs/shard-dnd-fr.user.js · 1.17.45",
+    "startupMs": [
+      372.84852300000006,
+      212.812099,
+      160.14099799999985,
+      152.89788199999998,
+      167.27835400000004
+    ],
+    "medianMs": 167.27835400000004,
+    "domRuns": [
+      {
+        "blocks": 400,
+        "mutatedBlocks": 100,
+        "startupMs": 159.11834599999997,
+        "firstScanMs": 700.8624359999999,
+        "mutationScanMs": 138.20506400000022,
+        "restoreMs": 264.412417,
+        "maxEventLoopDelayMs": 151.68922799999996
+      },
+      {
+        "blocks": 400,
+        "mutatedBlocks": 100,
+        "startupMs": 151.82698299999993,
+        "firstScanMs": 596.0901320000003,
+        "mutationScanMs": 164.00226499999962,
+        "restoreMs": 242.03712600000017,
+        "maxEventLoopDelayMs": 143.37971900000002
+      },
+      {
+        "blocks": 400,
+        "mutatedBlocks": 100,
+        "startupMs": 157.44532000000027,
+        "firstScanMs": 568.0898559999996,
+        "mutationScanMs": 139.32948300000044,
+        "restoreMs": 290.6091039999992,
+        "maxEventLoopDelayMs": 148.43802499999993
+      }
+    ],
+    "medianFirstScanMs": 596.0901320000003,
+    "medianMutationScanMs": 139.32948300000044,
+    "descriptionRuns": [
+      {
+        "blocks": 60,
+        "startupMs": 160.54312899999968,
+        "firstScanMs": 942.0664000000006,
+        "diagnosticMs": [
+          260.25941299999977,
+          84.97105800000008,
+          74.51391799999965
+        ],
+        "diagnosticStatus": "21 candidat(s) à vérifier."
+      },
+      {
+        "blocks": 60,
+        "startupMs": 144.97566899999947,
+        "firstScanMs": 431.066366,
+        "diagnosticMs": [
+          205.84569100000044,
+          75.34732600000007,
+          71.85155899999972
+        ],
+        "diagnosticStatus": "21 candidat(s) à vérifier."
+      },
+      {
+        "blocks": 60,
+        "startupMs": 193.39146400000027,
+        "firstScanMs": 431.972675,
+        "diagnosticMs": [
+          212.06107799999882,
+          77.06929500000115,
+          74.5066569999999
+        ],
+        "diagnosticStatus": "21 candidat(s) à vérifier."
+      }
+    ],
+    "medianDescriptionScanMs": 431.972675,
+    "medianDiagnosticMs": 77.06929500000115,
+    "note": "JSDOM sur la même machine, sans réseau : 400 libellés, 100 mutations, restauration, 60 blocs de description imbriqués et trois analyses de page. Les délais incluent les timers ; ce benchmark ne remplace pas une mesure dans Shard."
+  }
+}

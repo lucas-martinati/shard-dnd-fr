@@ -48,6 +48,12 @@ function setup(settings={}){
  const title=w.document.querySelector('.titletext');title.textContent='Wolf';await wait(()=>w.document.querySelector('[data-shard-fr-link] a')?.href==='https://www.aidedd.org/monster/fr/loup');assert.equal(w.document.querySelectorAll('[data-shard-fr-link]').length,1);
  title.textContent='Bag of Holding';await wait(()=>w.document.querySelector('[data-shard-fr-link] a')?.href==='https://www.aidedd.org/magic-item/fr/sac-sans-fond');
  title.textContent='Private homebrew item';await wait(()=>!w.document.querySelector('[data-shard-fr-link]'));
+ // Les résultats mémorisés restent sensibles au contexte, à la route et au bilingue.
+ const contexts=w.document.createElement('section');contexts.innerHTML='<div><span data-test="weapon-light">Light</span> Slashing</div><button data-test="spell-light">Light</button>';w.document.body.append(contexts);
+ await wait(()=>contexts.querySelector('[data-test=weapon-light]').textContent==='Légère'&&contexts.querySelector('[data-test=spell-light]').textContent==='Lumière (Light)');
+ w.location.hash='#feat';const feat=w.document.createElement('button');feat.textContent='Piercer';w.document.body.append(feat);await wait(()=>feat.textContent==='Empaleur (Piercer)');
+ w.location.hash='#monster';const monster=w.document.createElement('button');monster.textContent='Piercer';w.document.body.append(monster);await wait(()=>monster.textContent==='Perceur (Piercer)');
+ bilingual.checked=false;bilingual.dispatchEvent(new w.Event('change'));await wait(()=>monster.textContent==='Perceur'&&contexts.querySelector('[data-test=spell-light]').textContent==='Lumière');
  assert.equal(JSON.parse(saved.get('shard-fr-v1')).custom['Fire Bolt'],'Traduction incorrecte','Old stored data retained without applying it');
  console.log('PASS 1.9: simplified UI, mandatory AideDD, two quick settings + configuration, hide/shortcut/menu/four corners, bilingual gear, feet, exact/ambiguous search, safe links, reused Shard dialog.');
  }finally{w.close();}

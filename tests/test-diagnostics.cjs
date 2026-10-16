@@ -9,6 +9,9 @@ const w=new JSDOM(html,{url:'https://play.shardtabletop.com/#spell?private=PRIVA
 const materials=d.createElement('section');
 materials.innerHTML='<p id="material-plain">a sliver of obsidian</p><p id="material-components">V, S, M (a sliver of obsidian)</p><p id="material-mixed"><b>Components:</b> V, S, M (a sliver of obsidian)</p><p id="material-french-label"><b>Composantes :</b> V, S, M (a pinch of starlight)</p><p id="material-known"><b>Components:</b> V, S, M (a sliver of glass)</p><p id="material-french">Composantes : V, S, M (un éclat de cristal)</p><p id="french-article">Il a besoin de repos.</p>';
 d.body.append(materials);
+const shortMaterials=d.createElement('section');
+shortMaterials.innerHTML='<p id="material-dust"><b>Components:</b> V, S, M (fine moonstone dust)</p><p id="material-incense">Composantes : V, S, M (burning violet incense)</p><p id="material-bell"><b>Composantes :</b> V, S, M (<span>a tiny silver bell</span>)</p><p id="material-french-hidden">Composantes : V, S, M (une poudre de pierre lunaire<span hidden>fine sand</span>)</p><p id="french-material-noun">Une fiole contient une poudre argentée.</p>';
+d.body.append(shortMaterials);
 const metadata=d.createElement('section');
 metadata.innerHTML='<button id="subclasses">Subclasses</button><div class="mv1 titletext"><i><b title="Unknown Adventure Guide">Source. </b><a>Unknown Adventure Guide</a></i></div><span title="D&amp;D 2024 PHB" aria-label="Shard Tabletop">Source:</span>';
 const ignoredLabels=['D&D 2024 PHB','D&D 2024 MM','D&D 2014 DMG','D&D 2024 Player’s Handbook','Monster Manual (2024)',"Shard Player’s Guide Volume 1",'SRD 5.2.1','Shard Tabletop','Shard Tabletap','Shard','Source','Source.','Sources:','Source. D&D 2024 PHB',"Source. Shard Player’s Guide Volume 1, D&D 2024 PHB", "Source. Shard Player’s Guide Volume 1, Shard Bestiary Volume 1",'Sources: Shard Tabletop','Source: Unknown Adventure Guide','Unknown Adventure Guide'];
@@ -48,6 +51,9 @@ async function exported(root){await wait(() => !root.getElementById('exportMissi
   for(const id of ['material-plain','material-components','material-mixed','material-french-label'])assert.ok(d.getElementById(id).hasAttribute('data-shard-fr-diagnostic'),id);
   for(const id of ['material-known','material-french','french-article'])assert.ok(!d.getElementById(id).hasAttribute('data-shard-fr-diagnostic'),'Aucun faux positif français : '+id);
   assert.ok(!report.missing.some(row=>/un éclat de (?:verre|cristal)|Il a besoin de repos/.test(row.en)));
+  for(const id of ['material-dust','material-incense','material-bell'])assert.ok(d.getElementById(id).hasAttribute('data-shard-fr-diagnostic'),'Matériau sans phrase de règles : '+id);
+  assert.ok(report.missing.some(row=>row.en==='Composantes : V, S, M (a tiny silver bell)'&&row.reason==='unrecognized-layout'),'Une traduction partielle conserve le texte anglais d’origine dans le rapport');
+  for(const id of ['material-french-hidden','french-material-noun'])assert.ok(!d.getElementById(id).hasAttribute('data-shard-fr-diagnostic'),'Le contexte français et les enfants masqués sont exclus : '+id);
   for(const text of [bookMention,appMention,sourceMention])assert.ok(report.missing.some(row=>row.en===text),'Une règle citant une source reste analysée : '+text);
   assert.ok(report.missing.some(row=>row.en==='Mystery Manual'),'Un titre non reconnu comme source reste analysé');
   assert.ok(!report.missing.some(row=>ignoredLabels.includes(row.en)||row.en==='Subclasses'||row.en==='Source. Unknown Adventure Guide'),'Les métadonnées et le bouton traduit sont exclus');

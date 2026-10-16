@@ -1,6 +1,6 @@
 {
   "name": "shard-dnd-fr",
-  "version": "1.17.44",
+  "version": "1.17.45",
   "private": true,
   "description": "Traduction française D&D pour Shard Tabletop",
   "scripts": {
