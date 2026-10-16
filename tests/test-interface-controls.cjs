@@ -76,15 +76,41 @@ async function wait(f){for(let i=0;i<300&&!f();i++)await pause(25);assert.ok(f()
  count.data='4';await wait(()=>diceRow.textContent.includes('dont 4 disponibles'));
  const whole=d.createElement('div');whole.textContent='You have 8 hit points out of a maximum of 12.';short.querySelector('[role=dialog]').append(whole);
  await wait(()=>whole.textContent==='Vous avez 8 points de vie sur un maximum de 12.');
+ // Textes MJ fournis : panneaux ajoutés après chargement, paragraphes et BR séparés.
+ const encounters=d.createElement('section');encounters.innerHTML=fs.readFileSync('tests/fixtures/dm-encounters.html','utf8');
+ const encountersOriginal=encounters.innerHTML,encounterInput=encounters.querySelector('input'),encounterButtons=[...encounters.querySelectorAll('button')],encounterIcons=[...encounters.querySelectorAll('.fas,.MuiTouchRipple-root')],finishEmphasis=encounters.querySelector('strong');
+ const noTreasure='Aucun trésor n’a été défini pour cette rencontre.',prepareTreasure='Pour le préparer, ajoutez du trésor aux créatures ou aux pions de trésor des rencontres prévues.',addTreasure='Vous pouvez aussi ajouter du trésor directement maintenant.';
+ const randomHelp='Vous pouvez commencer une rencontre en sélectionnant une rencontre aléatoire ou simplement en choisissant des monstres.',plannedHelp='Les rencontres prévues peuvent être lancées ici, depuis des repères ou depuis un livre.';
+ const encounterExpected={
+  'encounter-start':'Commencer','encounter-finish':'Terminer','treasure-add':'Ajouter','random-encounter':'Rencontre aléatoire','encounter-cancel':'Annuler',
+  'treasure-intro':noTreasure+' '+prepareTreasure,'treasure-now':addTreasure,
+  'treasure-no':noTreasure,'treasure-prepare':prepareTreasure,'treasure-corrected':noTreasure+' '+prepareTreasure,'treasure-full':noTreasure+' '+prepareTreasure+' '+addTreasure,'treasure-lines':noTreasure+prepareTreasure+addTreasure,
+  'encounter-intro':randomHelp+' '+plannedHelp,'encounter-random-help':randomHelp,'encounter-planned-help':plannedHelp,
+  'encounter-finish-help':'Cliquez sur le bouton Terminer en mode aventure une fois la rencontre terminée pour retirer les monstres et préparer la rencontre suivante.',
+  'empty-encounters':'Liste vide','choose-encounter':'Choisir une rencontre','select-encounter':'Choisir une rencontre'
+ };
+ let encounterClicks=0;for(const el of encounterButtons)el.onclick=()=>encounterClicks++;main.append(encounters);
+ await wait(()=>Object.entries(encounterExpected).every(([id,fr])=>encounters.querySelector('[data-test="'+id+'"]').textContent.trim()===fr));
+ assert.deepEqual([...encounters.querySelectorAll('.titletext')].map(el=>el.textContent),['Attribuer le trésor','Choisir une rencontre']);
+ assert.equal(encounters.querySelector('label').textContent,'Nom');assert.equal(encounterInput.placeholder,'Nom');assert.equal(encounterInput.getAttribute('aria-label'),'Nom');assert.equal(encounterInput.value,'Start');assert.equal(encounters.querySelector('input'),encounterInput);
+ assert.equal(encounters.querySelector('[data-test=encounter-start]').title,'Commencer');assert.equal(encounters.querySelector('[data-test=encounter-finish]').getAttribute('aria-label'),'Terminer');
+ assert.equal(encounters.querySelector('strong'),finishEmphasis);assert.equal(finishEmphasis.textContent,'Terminer');assert.equal(encounters.querySelectorAll('br').length,2);
+ assert.deepEqual([...encounters.querySelectorAll('.fas,.MuiTouchRipple-root')],encounterIcons);
+ assert.equal(encounters.querySelector('[data-test=encounter-unknown]').textContent,'You can start an encounter with private rules chosen by your gamemaster.');
+ assert.equal(encounters.querySelector('textarea').value,'Click Finish button in adventuring mode when encounter completes to clear monsters for next encounter.');assert.equal(encounters.querySelector('[contenteditable]').textContent,'No treasure has been defined for this encounter.');
+ for(const el of encounterButtons)el.click();assert.equal(encounterClicks,encounterButtons.length);
  const root=[...d.querySelectorAll('[data-shard-fr-ignore]')].map(e=>e.shadowRoot).find(r=>r?.getElementById('enabled')),enabled=root.getElementById('enabled');
  enabled.checked=false;enabled.dispatchEvent(new w.Event('change'));
  // Attendre la restauration du dernier bloc avant de retirer les dialogues :
  // le parcours asynchrone utilise encore leurs nœuds pour atteindre ce bloc.
  await wait(()=>whole.textContent==='You have 8 hit points out of a maximum of 12.');
  await wait(()=>menu.innerHTML===menuOriginal&&sheet.innerHTML===sheetOriginal);
+ await wait(()=>encounters.innerHTML===encountersOriginal);
+ enabled.checked=true;enabled.dispatchEvent(new w.Event('change'));await wait(()=>Object.entries(encounterExpected).every(([id,fr])=>encounters.querySelector('[data-test="'+id+'"]').textContent.trim()===fr));
+ enabled.checked=false;enabled.dispatchEvent(new w.Event('change'));await wait(()=>encounters.innerHTML===encountersOriginal);encounters.remove();
  await wait(()=>treasure.innerHTML===treasureOriginal);treasure.remove();
  await wait(()=>restOptions.innerHTML===optionsOriginal);restOptions.remove();assert.equal(rest.innerHTML,restOriginal);rest.remove();
  whole.remove();assert.equal(short.innerHTML,shortOriginal);short.remove();
  menu.remove();sheet.remove();assert.equal(main.innerHTML,original);
- console.log('PASS interface : campagne, menus dynamiques, fiche, repos court et long, compteurs React variables, infobulles, interactions et restauration exacte.');
+ console.log('PASS interface : campagne, menus dynamiques, trésor et rencontres MJ, fiche, repos court et long, compteurs React variables, infobulles, interactions et restauration exacte.');
 }finally{w.close();}})().catch(e=>{console.error(e);process.exitCode=1;});

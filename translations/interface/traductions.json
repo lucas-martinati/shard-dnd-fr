@@ -2,6 +2,78 @@
   "$schema": "../../docs/translation-pack.schema.json",
   "entries": [
     {
+      "id": "shard.interface.encounters.start",
+      "kind": "term",
+      "en": "Start",
+      "fr": "Commencer",
+      "source": "Traduction proposée des commandes MJ de la carte signalées par l’utilisateur · 16 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "shard.interface.encounters.finish",
+      "kind": "term",
+      "en": "Finish",
+      "fr": "Terminer",
+      "source": "Traduction proposée des commandes MJ de la carte signalées par l’utilisateur · 16 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "shard.interface.encounters.pick-encounter",
+      "kind": "term",
+      "en": "Pick Encounter",
+      "variants": ["Choose Encounter", "Select Encounter"],
+      "fr": "Choisir une rencontre",
+      "source": "Traduction proposée du sélecteur de rencontre signalé par l’utilisateur ; variantes de libellé équivalentes · 16 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "shard.interface.encounters.start-help",
+      "en": "You can start an encounter by selecting a random encounter, or just picking monsters. Planned encounters can be started here, from pins or from a book.",
+      "fr": "Vous pouvez commencer une rencontre en sélectionnant une rencontre aléatoire ou simplement en choisissant des monstres. Les rencontres prévues peuvent être lancées ici, depuis des repères ou depuis un livre.",
+      "source": "Traduction proposée des textes MJ fournis par l’utilisateur (rencontres sur une carte) · 16 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "shard.interface.encounters.random-or-monsters-help",
+      "en": "You can start an encounter by selecting a random encounter, or just picking monsters.",
+      "fr": "Vous pouvez commencer une rencontre en sélectionnant une rencontre aléatoire ou simplement en choisissant des monstres.",
+      "source": "Traduction proposée des textes MJ fournis par l’utilisateur (rencontres sur une carte) · 16 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "shard.interface.encounters.planned-help",
+      "en": "Planned encounters can be started here, from pins or from a book.",
+      "fr": "Les rencontres prévues peuvent être lancées ici, depuis des repères ou depuis un livre.",
+      "source": "Traduction proposée des textes MJ fournis par l’utilisateur (rencontres sur une carte) · 16 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "shard.interface.encounters.finish-help",
+      "en": "Click Finish button in adventuring mode when encounter completes to clear monsters for next encounter.",
+      "fr": "Cliquez sur le bouton Terminer en mode aventure une fois la rencontre terminée pour retirer les monstres et préparer la rencontre suivante.",
+      "source": "Traduction proposée des textes MJ fournis par l’utilisateur (rencontres sur une carte) · 16 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "shard.interface.encounters.no-treasure",
+      "en": "No treasure has been defined for this encounter.",
+      "fr": "Aucun trésor n’a été défini pour cette rencontre.",
+      "source": "Traduction proposée du texte MJ fourni par l’utilisateur, découpé par phrase ou paragraphe · 16 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "shard.interface.encounters.prepare-treasure",
+      "en": "To prepare treasure add treasure to creatures or treasure tokens in planned enounters.",
+      "variants": ["To prepare treasure add treasure to creatures or treasure tokens in planned encounters."],
+      "fr": "Pour le préparer, ajoutez du trésor aux créatures ou aux pions de trésor des rencontres prévues.",
+      "source": "Traduction proposée du texte MJ fourni par l’utilisateur, avec et sans la coquille anglaise enounters · 16 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "shard.interface.encounters.no-treasure-help",
+      "en": "No treasure has been defined for this encounter. To prepare treasure add treasure to creatures or treasure tokens in planned enounters.",
+      "variants": ["No treasure has been defined for this encounter. To prepare treasure add treasure to creatures or treasure tokens in planned encounters."],
+      "fr": "Aucun trésor n’a été défini pour cette rencontre. Pour le préparer, ajoutez du trésor aux créatures ou aux pions de trésor des rencontres prévues.",
+      "source": "Traduction proposée du texte MJ fourni par l’utilisateur, découpé par paragraphe, avec et sans la coquille anglaise enounters · 16 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "shard.interface.encounters.add-treasure-now",
+      "en": "You can directly add treasure now.",
+      "fr": "Vous pouvez aussi ajouter du trésor directement maintenant.",
+      "source": "Traduction proposée du texte MJ fourni par l’utilisateur, découpé par paragraphe · 16 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
       "id": "shard.interface.subclasses",
       "kind": "term",
       "en": "Subclasses",
@@ -801,6 +873,7 @@
       "id": "shard.interface.controls.no-treasure-has-been-defined-for-this-encounter-to-prepare-treasure-add-treasure-to-creatures-or-tre",
       "kind": "description",
       "en": "No treasure has been defined for this encounter. To prepare treasure add treasure to creatures or treasure tokens in planned enounters. You can directly add treasure now.",
+      "variants": ["No treasure has been defined for this encounter. To prepare treasure add treasure to creatures or treasure tokens in planned encounters. You can directly add treasure now."],
       "fr": "Aucun trésor n’a été défini pour cette rencontre. Pour le préparer, ajoutez du trésor aux créatures ou aux pions de trésor des rencontres prévues. Vous pouvez aussi ajouter du trésor directement maintenant.",
       "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
       "edition": "any"

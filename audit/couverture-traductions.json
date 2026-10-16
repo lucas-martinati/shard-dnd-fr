@@ -564,8 +564,8 @@
     },
     "interface": {
       "nomsCatalogueAideDD2024": 0,
-      "libellesEditables": 359,
-      "blocsEditables": 8
+      "libellesEditables": 364,
+      "blocsEditables": 19
     }
   },
   "corpusLocaux": {
@@ -577,7 +577,7 @@
       "fichesOuvertes": 1372,
       "controle": "audit/generes/guide-equipment.json"
     },
-    "descriptionsEtChampsLocauxUniques": 9406,
+    "descriptionsEtChampsLocauxUniques": 9417,
     "presentationsShard": {
       "fichesRelevees": 153,
       "avecDescription": 149,

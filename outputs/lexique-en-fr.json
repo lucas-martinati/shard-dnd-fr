@@ -1,5 +1,5 @@
 {
-  "version": "1.17.40",
+  "version": "1.17.41",
   "reference": "Noms AideDD 2024 prioritaires. Références SRD disponibles séparément. Autres entrées identifiées.",
   "license": "Code MIT ; contenu SRD CC-BY-4.0 https://creativecommons.org/licenses/by/4.0/",
   "sources": [
@@ -10539,6 +10539,41 @@
       "fr": "Vous n’avez pas besoin de dormir et la magie ne peut pas vous endormir.",
       "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
       "category": "description",
+      "aliases": []
+    },
+    {
+      "en": "Start",
+      "fr": "Commencer",
+      "source": "Traduction proposée des commandes MJ de la carte signalées par l’utilisateur · 16 octobre 2026 · https://play.shardtabletop.com/",
+      "category": "interface",
+      "aliases": []
+    },
+    {
+      "en": "Finish",
+      "fr": "Terminer",
+      "source": "Traduction proposée des commandes MJ de la carte signalées par l’utilisateur · 16 octobre 2026 · https://play.shardtabletop.com/",
+      "category": "interface",
+      "aliases": []
+    },
+    {
+      "en": "Pick Encounter",
+      "fr": "Choisir une rencontre",
+      "source": "Traduction proposée du sélecteur de rencontre signalé par l’utilisateur ; variantes de libellé équivalentes · 16 octobre 2026 · https://play.shardtabletop.com/",
+      "category": "interface",
+      "aliases": []
+    },
+    {
+      "en": "Choose Encounter",
+      "fr": "Choisir une rencontre",
+      "source": "Traduction proposée du sélecteur de rencontre signalé par l’utilisateur ; variantes de libellé équivalentes · 16 octobre 2026 · https://play.shardtabletop.com/",
+      "category": "interface",
+      "aliases": []
+    },
+    {
+      "en": "Select Encounter",
+      "fr": "Choisir une rencontre",
+      "source": "Traduction proposée du sélecteur de rencontre signalé par l’utilisateur ; variantes de libellé équivalentes · 16 octobre 2026 · https://play.shardtabletop.com/",
+      "category": "interface",
       "aliases": []
     },
     {

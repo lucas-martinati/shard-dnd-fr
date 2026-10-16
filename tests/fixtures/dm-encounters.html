@@ -1,0 +1,36 @@
+<!-- Simulation à partir des textes MJ fournis le 16 octobre 2026 ; ce HTML n’est pas un relevé de Shard. -->
+<nav aria-label="Map encounters">
+  <button data-test="encounter-start" title="Start"><span class="fas fa-play" aria-hidden="true"></span><span>Start</span><span class="MuiTouchRipple-root"></span></button>
+  <button data-test="encounter-finish" aria-label="Finish"><span>Finish</span><span class="MuiTouchRipple-root"></span></button>
+</nav>
+<div role="dialog">
+  <div class="MuiDialogTitle-root"><h2 class="titletext">Grant Treasure</h2></div>
+  <div class="hk-well">
+    <p data-test="treasure-intro">No treasure has been defined for this encounter. To prepare treasure add treasure to creatures or treasure tokens in planned enounters.</p>
+    <p data-test="treasure-now">You can directly add treasure now.&nbsp;</p>
+  </div>
+  <button data-test="treasure-add">Add</button>
+</div>
+<div role="dialog">
+  <div class="MuiDialogTitle-root"><h2 class="titletext">Pick Encounter</h2></div>
+  <label for="encounter-name">Name</label><input id="encounter-name" placeholder="Name" aria-label="Name" value="Start">
+  <div data-test="empty-encounters">Empty List</div>
+  <div class="hk-well">
+    <p data-test="encounter-intro">You can start an encounter by selecting a random encounter, or just picking monsters. Planned encounters can be started here, from pins or from a book.</p>
+    <p data-test="encounter-finish-help">Click <strong>Finish</strong> button in adventuring mode when encounter completes to clear monsters for next encounter.</p>
+  </div>
+  <button data-test="random-encounter">Random Encounter</button><button data-test="encounter-cancel">Cancel</button>
+</div>
+<section aria-label="Paragraph layouts">
+  <p data-test="treasure-no">No treasure has been defined for this encounter.</p>
+  <p data-test="treasure-prepare">To prepare treasure add treasure to creatures or treasure tokens in planned enounters.</p>
+  <p data-test="treasure-corrected">No treasure has been defined for this encounter. To prepare treasure add treasure to creatures or treasure tokens in planned encounters.</p>
+  <p data-test="treasure-full">No treasure has been defined for this encounter. To prepare treasure add treasure to creatures or treasure tokens in planned enounters. You can directly add treasure now.</p>
+  <p data-test="treasure-lines">No treasure has been defined for this encounter.<br>To prepare treasure add treasure to creatures or treasure tokens in planned encounters.<br>You can directly add treasure now.</p>
+  <p data-test="encounter-random-help">You can start an encounter by selecting a random encounter, or just picking monsters.</p>
+  <p data-test="encounter-planned-help">Planned encounters can be started here, from pins or from a book.</p>
+  <span data-test="choose-encounter">Choose Encounter</span><span data-test="select-encounter">Select Encounter</span>
+  <p data-test="encounter-unknown">You can start an encounter with private rules chosen by your gamemaster.</p>
+  <textarea>Click Finish button in adventuring mode when encounter completes to clear monsters for next encounter.</textarea>
+  <div contenteditable="true">No treasure has been defined for this encounter.</div>
+</section>
