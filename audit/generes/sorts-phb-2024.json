@@ -1,11 +1,11 @@
 {
   "date": "2026-10-15",
   "source": "Fiches Shard du livre D&D 2024 PHB relevées le 15 octobre 2026",
-  "scriptVersion": "1.17.36",
+  "scriptVersion": "1.17.37",
   "fiches": 391,
   "paragraphes": 1309,
-  "paragraphesInchanges": 88,
-  "fichesAvecCandidats": 26,
+  "paragraphesInchanges": 68,
+  "fichesAvecCandidats": 18,
   "note": "Candidats : textes anglais inchangés, y compris légendes, noms propres ou formulations anciennes importées. Ce compteur ne prouve pas à lui seul qu’une fiche est intégralement traduite.",
   "aVerifier": [
     {
@@ -45,14 +45,6 @@
       "en": "Neither good nor bad"
     },
     {
-      "sort": "Conjure Woodland Beings",
-      "en": "You conjure nature spirits that flit around you in a 10-foot Emanation for the duration. Whenever the Emanation enters the space of a creature you can see and whenever a creature you can see enters the Emanation or ends its turn there, you can force that creature to make a Wisdom saving throw. The creature takes 5d8 Force damage on a failed save or half as much damage on a successful one. A creature makes this save only once per turn."
-    },
-    {
-      "sort": "Conjure Woodland Beings",
-      "en": "In addition, you can take the Disengage action as a Bonus Action for the spell’s duration."
-    },
-    {
       "sort": "Divination",
       "en": "The spell doesn't take into account any possible circumstances that might change the outcome, such as the casting of additional spells or the loss or gain of a companion."
     },
@@ -69,14 +61,6 @@
       "en": "Any enemy that moves to a space within 10 feet of the guardian for the first time on a turn or starts its turn there makes a Dexterity saving throw, taking 20 Radiant damage on a failed save or half as much damage on a successful one. The guardian vanishes when it has dealt a total of 60 damage."
     },
     {
-      "sort": "Antilife Shell",
-      "en": "An aura extends from you in a 10-foot Emanation for the duration. The aura prevents creatures other than Constructs and Undead from passing or reaching through it. An affected creature can cast spells or make attacks with Ranged or Reach weapons through the barrier."
-    },
-    {
-      "sort": "Antilife Shell",
-      "en": "If you move so that an affected creature is forced to pass through the barrier, the spell ends."
-    },
-    {
       "sort": "Commune with Nature",
       "en": "Locations of settlements"
     },
@@ -91,14 +75,6 @@
     {
       "sort": "Cone of Cold",
       "en": "A creature killed by this spell becomes a frozen statue until it thaws."
-    },
-    {
-      "sort": "Creation",
-      "en": "You pull wisps of shadow material from the Shadowfell to create an object within range. It is either an object of vegetable matter (soft goods, rope, wood, and the like) or mineral matter (stone, crystal, metal, and the like). The object must be no larger than a 5-foot Cube, and the object must be of a form and material that you have seen."
-    },
-    {
-      "sort": "Creation",
-      "en": "The spell’s duration depends on the object’s material, as shown in the Materials table. If the object is composed of multiple materials, use the shortest duration. Using any object created by this spell as another spell’s Material component causes the other spell to fail."
     },
     {
       "sort": "Creation",
@@ -129,18 +105,6 @@
       "en": "1 minute"
     },
     {
-      "sort": "Flame Strike",
-      "en": "A vertical column of brilliant fire roars down from above. Each creature in a 10-foot-radius, 40-foot-high Cylinder centered on a point within range makes a Dexterity saving throw, taking 5d6 Fire damage and 5d6 Radiant damage on a failed save or half as much damage on a successful one."
-    },
-    {
-      "sort": "Jallarzi’s Storm of Radiance",
-      "en": "You unleash a storm of flashing light and raging thunder in a 10-foot-radius, 40-foot-high Cylinder centered on a point you can see within range. While in this area, creatures have the Blinded and Deafened conditions, and they can’t cast spells with a Verbal component."
-    },
-    {
-      "sort": "Jallarzi’s Storm of Radiance",
-      "en": "When the storm appears, each creature in it makes a Constitution saving throw, taking 2d10 Radiant damage and 2d10 Thunder damage on a failed save or half as much damage on a successful one. A creature also makes this save when it enters the spell’s area for the first time on a turn or ends its turn there. A creature makes this save only once per turn."
-    },
-    {
       "sort": "Reincarnate",
       "en": "Aasimar"
     },
@@ -153,28 +117,12 @@
       "en": "Goliath"
     },
     {
-      "sort": "Conjure Fey",
-      "en": "You conjure a Medium spirit from the Feywild in an unoccupied space you can see within range. The spirit lasts for the duration, and it looks like a Fey creature of your choice. When the spirit appears, you can make one melee spell attack against a creature within 5 feet of it. On a hit, the target takes Psychic damage equal to 3d12 plus your spellcasting ability modifier, and the target has the Frightened condition until the start of your next turn, with both you and the spirit as the source of the fear."
-    },
-    {
-      "sort": "Conjure Fey",
-      "en": "As a Bonus Action on your later turns, you can teleport the spirit to an unoccupied space you can see within 30 feet of the space it left and make the attack against a creature within 5 feet of it."
-    },
-    {
       "sort": "Contingency",
       "en": "Choose a spell of level 5 or lower that you can cast, that has a casting time of an action, and that can target you. You cast that spell—called the contingent spell—as part of casting Contingency, expending spell slots for both, but the contingent spell doesn’t come into effect. Instead, it takes effect when a certain trigger occurs. You describe that trigger when you cast the two spells. For example, a Contingency cast with Water Breathing might stipulate that Water Breathing comes into effect when you are engulfed in water or a similar liquid."
     },
     {
       "sort": "Guards and Wards",
       "en": "Magic Mouth in two locations"
-    },
-    {
-      "sort": "Heroes’ Feast",
-      "en": "You conjure a feast that appears on a surface in an unoccupied 10-foot Cube next to you. The feast takes 1 hour to consume and disappears at the end of that time, and the beneficial effects don’t set in until this hour is over. Up to twelve creatures can partake of the feast."
-    },
-    {
-      "sort": "Heroes’ Feast",
-      "en": "A creature that partakes gains several benefits, which last for 24 hours. The creature has Resistance to Poison damage, and it has Immunity to the Frightened and Poisoned conditions. Its Hit Point maximum also increases by 2d10, and it gains the same number of Hit Points."
     },
     {
       "sort": "Mass Suggestion",
@@ -225,10 +173,6 @@
       "en": "False destination"
     },
     {
-      "sort": "Animal Shapes",
-      "en": "A target’s game statistics are replaced by the chosen Beast’s statistics, but the target retains its creature type; Hit Points; Hit Point Dice; alignment; ability to communicate; and Intelligence, Wisdom, and Charisma scores. The target’s actions are limited by the Beast form’s anatomy, and it can’t cast spells. The target’s equipment melds into the new form, and the target can’t use any of that equipment while in that form."
-    },
-    {
       "sort": "Antipathy/Sympathy",
       "en": "Antipathy. The enchantment causes creatures of the kind you designated to feel an intense urge to leave the area and avoid the target. When such a creature can see the target or comes within 60 feet of it, the creature must succeed on a Wisdom saving throw or become frightened. The creature remains frightened while it can see the target or is within 60 feet of it. While frightened by the target, the creature must use its movement to move to the nearest safe spot from which it can't see the target. If the creature moves more than 60 feet from the target and can't see it, the creature is no longer frightened, but the creature becomes frightened again if it regains sight of the target or moves within 60 feet of it."
     },
@@ -247,18 +191,6 @@
     {
       "sort": "Antipathy/Sympathy",
       "en": "A creature that successfully saves against this effect is immune to it for 1 minute, after which time it can be affected again."
-    },
-    {
-      "sort": "Control Weather",
-      "en": "You take control of the weather within 5 miles of you for the duration. You must be outdoors to cast this spell, and it ends early if you go indoors."
-    },
-    {
-      "sort": "Control Weather",
-      "en": "When you cast the spell, you change the current weather conditions, which are determined by the DM. You can change precipitation, temperature, and wind. It takes 1d4 × 10 minutes for the new conditions to take effect. Once they do so, you can change the conditions again. When the spell ends, the weather gradually returns to normal."
-    },
-    {
-      "sort": "Control Weather",
-      "en": "When you change the weather conditions, find a current condition on the following tables and change its stage by one, up or down. When changing the wind, you can change its direction."
     },
     {
       "sort": "Control Weather",
@@ -331,18 +263,6 @@
     {
       "sort": "Control Weather",
       "en": "Storm"
-    },
-    {
-      "sort": "Demiplane",
-      "en": "You create a shadowy Medium door on a flat solid surface that you can see within range. This door can be opened and closed, and it leads to a demiplane that is an empty room 30 feet in each dimension, made of wood or stone (your choice)."
-    },
-    {
-      "sort": "Demiplane",
-      "en": "When the spell ends, the door vanishes, and any objects inside the demiplane remain there. Any creatures inside also remain unless they opt to be shunted through the door as it vanishes, landing with the Prone condition in the unoccupied spaces closest to the door’s former space."
-    },
-    {
-      "sort": "Demiplane",
-      "en": "Each time you cast this spell, you can create a new demiplane or connect the shadowy door to a demiplane you created with a previous casting of this spell. Additionally, if you know the nature and contents of a demiplane created by a casting of this spell by another creature, you can connect the shadowy door to that demiplane instead."
     },
     {
       "sort": "Sunburst",

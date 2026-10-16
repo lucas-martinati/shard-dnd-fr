@@ -1483,8 +1483,8 @@
     {
       "id": "spell.2024.report-11735.895cef15f998",
       "en": "On a failed save, the target takes 10d12 Psychic damage and can’t cast spells or take the Magic action. At the end of every 30 days, the target repeats the save, ending the effect on a success. The effect can also be ended by the Greater Restoration, Heal, or Wish spell.",
-      "fr": "En cas d’échec, elle subit 10d12 dégâts psychiques et ne peut pas lancer de sort ni entreprendre l’action Magie. À l’issue de chaque tranche de 30 jours, la cible réitère le JS et met un terme à l’effet en cas de réussite. Les sorts guérison, restauration suprême et souhait mettent également chacun fin à l’effet.",
-      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · rapport 1.17.35 du 16 octobre 2026 · segment du SRD officiel 5.2.1 FR adapté aux valeurs et unités de Shard · CC-BY-4.0"
+      "fr": "En cas d’échec, elle subit 10d12 dégâts psychiques et ne peut pas lancer de sort ni entreprendre l’action Magie. À l’issue de chaque tranche de 30 jours, la cible réitère le JS et met un terme à l’effet en cas de réussite. Les sorts restauration suprême, guérison et souhait mettent également chacun fin à l’effet.",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · rapport 1.17.35 du 16 octobre 2026 · segment du SRD officiel 5.2.1 FR adapté aux valeurs et unités de Shard · CC-BY-4.0 · correction du rapport 1.17.36 : ordre des sorts conservé pour les liens Shard"
     },
     {
       "id": "spell.2024.report-11735.7081c7abff13",
@@ -4209,6 +4209,144 @@
       "en": "Components: V, S, M (diamonds worth 25,000+ GP, which the spell consumes)",
       "fr": "Composantes : V, S, M (des diamants d’une valeur de 25,000+ po, que le sort détruit)",
       "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · composantes et valeurs du rapport 1.17.35 du 16 octobre 2026"
+    },
+    {
+      "id": "spell.2024.report-11736.ac04e2e4047e",
+      "en": "A target’s game statistics are replaced by the chosen Beast’s statistics, but the target retains its creature type; Hit Points; Hit Point Dice; alignment; ability to communicate; and Intelligence, Wisdom, and Charisma scores. The target’s actions are limited by the Beast form’s anatomy, and it can’t cast spells. The target’s equipment melds into the new form, and the target can’t use any of that equipment while in that form.",
+      "fr": "Le profil de jeu de la cible est remplacé par celui de la Bête choisie, mais la cible conserve son type de créature, ses points de vie, ses dés de vie, son alignement, sa faculté de communication et ses valeurs d’Intelligence, de Sagesse et de Charisme. Les actions de la cible sont limitées par l’anatomie de sa forme de Bête et elle ne peut pas lancer de sorts. Son équipement se fond dans la nouvelle forme et elle ne peut pas utiliser cet équipement tant qu’elle la conserve.",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · rapport 1.17.36 du 16 octobre 2026"
+    },
+    {
+      "id": "spell.2024.report-11736.2592e05a58e9",
+      "en": "An aura extends from you in a 10-foot Emanation for the duration. The aura prevents creatures other than Constructs and Undead from passing or reaching through it. An affected creature can cast spells or make attacks with Ranged or Reach weapons through the barrier.",
+      "fr": "Une aura émane de vous sous forme d’une Émanation de 10 feet pour toute la durée. Elle empêche les créatures autres que les Artificiels et les Morts-vivants de la franchir ou de passer au travers. Une créature affectée peut lancer des sorts ou effectuer des attaques avec des armes à distance ou à allonge à travers la barrière.",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · rapport 1.17.36 du 16 octobre 2026"
+    },
+    {
+      "id": "spell.2024.report-11736.7e4cf9022b7e",
+      "en": "If you move so that an affected creature is forced to pass through the barrier, the spell ends.",
+      "fr": "Si vous vous déplacez de façon à obliger une créature affectée à traverser la barrière, le sort prend fin.",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · rapport 1.17.36 du 16 octobre 2026"
+    },
+    {
+      "id": "spell.2024.report-11736.2a81de76fdef",
+      "en": "You conjure a Medium spirit from the Feywild in an unoccupied space you can see within range. The spirit lasts for the duration, and it looks like a Fey creature of your choice. When the spirit appears, you can make one melee spell attack against a creature within 5 feet of it. On a hit, the target takes Psychic damage equal to 3d12 plus your spellcasting ability modifier, and the target has the Frightened condition until the start of your next turn, with both you and the spirit as the source of the fear.",
+      "fr": "Vous invoquez un esprit de taille M issu de la Féerie dans un espace inoccupé que vous voyez à portée. L’esprit persiste pour toute la durée et prend l’apparence d’une Fée de votre choix. À son apparition, vous pouvez effectuer une attaque de sort au corps à corps contre une créature dans un rayon de 5 feet de lui. Si l’attaque touche, la cible subit des dégâts psychiques égaux à 3d12 plus votre modificateur de caractéristique d’incantation et l’état Effrayé jusqu’au début de votre tour suivant, vous-même et l’esprit étant tous deux la source de sa peur.",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · rapport 1.17.36 du 16 octobre 2026"
+    },
+    {
+      "id": "spell.2024.report-11736.c92efd646989",
+      "en": "As a Bonus Action on your later turns, you can teleport the spirit to an unoccupied space you can see within 30 feet of the space it left and make the attack against a creature within 5 feet of it.",
+      "fr": "Par une action Bonus à vos tours suivants, vous pouvez téléporter l’esprit dans un espace inoccupé que vous voyez dans un rayon de 30 feet de l’espace qu’il quitte et effectuer l’attaque contre une créature dans un rayon de 5 feet de lui.",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · rapport 1.17.36 du 16 octobre 2026"
+    },
+    {
+      "id": "spell.2024.report-11736.300ed5a4f1ea",
+      "en": "You conjure nature spirits that flit around you in a 10-foot Emanation for the duration. Whenever the Emanation enters the space of a creature you can see and whenever a creature you can see enters the Emanation or ends its turn there, you can force that creature to make a Wisdom saving throw. The creature takes 5d8 Force damage on a failed save or half as much damage on a successful one. A creature makes this save only once per turn.",
+      "fr": "Vous invoquez des esprits de la nature qui volètent autour de vous sous forme d’une Émanation de 10 feet pour toute la durée. Chaque fois que l’Émanation entre dans l’espace d’une créature que vous voyez, ou qu’une créature que vous voyez entre dans l’Émanation ou y termine son tour, vous pouvez la contraindre à un jet de sauvegarde de Sagesse. La créature subit 5d8 dégâts de force en cas d’échec, la moitié en cas de réussite. Une créature n’effectue ce jet de sauvegarde qu’une fois par tour.",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · rapport 1.17.36 du 16 octobre 2026"
+    },
+    {
+      "id": "spell.2024.report-11736.7534540d0ec3",
+      "en": "In addition, you can take the Disengage action as a Bonus Action for the spell’s duration.",
+      "fr": "De plus, vous pouvez entreprendre l’action Désengagement par une action Bonus pour toute la durée du sort.",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · rapport 1.17.36 du 16 octobre 2026"
+    },
+    {
+      "id": "spell.2024.report-11736.e8a7005c0ead",
+      "en": "You take control of the weather within 5 miles of you for the duration. You must be outdoors to cast this spell, and it ends early if you go indoors.",
+      "fr": "Vous prenez le contrôle du climat dans un rayon de 5 miles de vous pour toute la durée. Vous devez être à l’extérieur pour lancer ce sort, qui prend fin prématurément si vous rentrez à l’intérieur.",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · rapport 1.17.36 du 16 octobre 2026"
+    },
+    {
+      "id": "spell.2024.report-11736.04c05d0d9d27",
+      "en": "When you cast the spell, you change the current weather conditions, which are determined by the DM. You can change precipitation, temperature, and wind. It takes 1d4 × 10 minutes for the new conditions to take effect. Once they do so, you can change the conditions again. When the spell ends, the weather gradually returns to normal.",
+      "fr": "À l’incantation du sort, vous changez les conditions climatiques actuelles, déterminées par le MJ. Vous pouvez modifier les précipitations, la température et le vent. Les nouvelles conditions mettent 1d4 × 10 minutes à prendre effet. Vous pouvez ensuite modifier à nouveau ces conditions. Quand le sort prend fin, le temps revient progressivement à la normale.",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · rapport 1.17.36 du 16 octobre 2026"
+    },
+    {
+      "id": "spell.2024.report-11736.cebe6acd1829",
+      "en": "When you change the weather conditions, find a current condition on the following tables and change its stage by one, up or down. When changing the wind, you can change its direction.",
+      "fr": "Lorsque vous changez les conditions climatiques, trouvez la condition actuelle dans les tables suivantes et modifiez son stade d’un cran, vers le haut ou le bas. Lorsque vous changez le vent, vous pouvez modifier sa direction.",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · rapport 1.17.36 du 16 octobre 2026"
+    },
+    {
+      "id": "spell.2024.report-11736.de057e5d298b",
+      "en": "You pull wisps of shadow material from the Shadowfell to create an object within range. It is either an object of vegetable matter (soft goods, rope, wood, and the like) or mineral matter (stone, crystal, metal, and the like). The object must be no larger than a 5-foot Cube, and the object must be of a form and material that you have seen.",
+      "fr": "Vous extrayez des volutes de matière ombreuse de la Gisombre pour créer un objet à portée. Il est constitué soit de matière végétale, comme du textile, de la corde ou du bois, soit de matière minérale, comme de la pierre, du cristal ou du métal. L’objet doit tenir dans un Cube de 5 feet et sa forme ainsi que sa matière doivent correspondre à quelque chose que vous avez déjà vu.",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · rapport 1.17.36 du 16 octobre 2026"
+    },
+    {
+      "id": "spell.2024.report-11736.c2ad0f785bef",
+      "en": "The spell’s duration depends on the object’s material, as shown in the Materials table. If the object is composed of multiple materials, use the shortest duration. Using any object created by this spell as another spell’s Material component causes the other spell to fail.",
+      "fr": "La durée du sort dépend de la matière de l’objet, comme l’indique la table Matériaux. Si l’objet est composé de plusieurs matières, utilisez la durée la plus courte. Utiliser un objet créé par ce sort comme composante matérielle d’un autre sort fait échouer celui-ci.",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · rapport 1.17.36 du 16 octobre 2026"
+    },
+    {
+      "id": "spell.2024.report-11736.f9d39665b234",
+      "en": "You create a shadowy Medium door on a flat solid surface that you can see within range. This door can be opened and closed, and it leads to a demiplane that is an empty room 30 feet in each dimension, made of wood or stone (your choice).",
+      "fr": "Vous créez une porte ombreuse de taille M sur une surface solide et plane que vous voyez à portée. Cette porte peut être ouverte et fermée et mène à un demi-plan constitué d’une salle vide de 30 feet dans chaque dimension, faite de bois ou de pierre, à votre choix.",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · rapport 1.17.36 du 16 octobre 2026"
+    },
+    {
+      "id": "spell.2024.report-11736.ef85cadec52c",
+      "en": "When the spell ends, the door vanishes, and any objects inside the demiplane remain there. Any creatures inside also remain unless they opt to be shunted through the door as it vanishes, landing with the Prone condition in the unoccupied spaces closest to the door’s former space.",
+      "fr": "Quand le sort prend fin, la porte disparaît et les objets dans le demi-plan y restent. Les créatures à l’intérieur y restent également, sauf si elles choisissent d’être expulsées par la porte lorsqu’elle disparaît ; elles atterrissent alors avec l’état À terre dans les espaces inoccupés les plus proches de l’ancien emplacement de la porte.",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · rapport 1.17.36 du 16 octobre 2026"
+    },
+    {
+      "id": "spell.2024.report-11736.e3c33df2d151",
+      "en": "Each time you cast this spell, you can create a new demiplane or connect the shadowy door to a demiplane you created with a previous casting of this spell. Additionally, if you know the nature and contents of a demiplane created by a casting of this spell by another creature, you can connect the shadowy door to that demiplane instead.",
+      "fr": "Chaque fois que vous lancez ce sort, vous pouvez créer un nouveau demi-plan ou relier la porte ombreuse à un demi-plan créé lors d’une précédente incantation de ce sort. De plus, si vous connaissez la nature et le contenu d’un demi-plan créé par une autre créature avec ce sort, vous pouvez y relier la porte ombreuse à la place.",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · rapport 1.17.36 du 16 octobre 2026"
+    },
+    {
+      "id": "spell.2024.report-11736.fad204affd99",
+      "en": "Casting Time: 1 bonus action, which you take immediately after hitting a creature with a weapon",
+      "fr": "Temps d’incantation : 1 action Bonus, immédiatement après avoir touché une créature avec une arme",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · rapport 1.17.36 du 16 octobre 2026"
+    },
+    {
+      "id": "spell.2024.report-11736.2732c3b36bfd",
+      "en": "A vertical column of brilliant fire roars down from above. Each creature in a 10-foot-radius, 40-foot-high Cylinder centered on a point within range makes a Dexterity saving throw, taking 5d6 Fire damage and 5d6 Radiant damage on a failed save or half as much damage on a successful one.",
+      "fr": "Une colonne verticale de flammes radieuses surgit des hauteurs. Chaque créature dans un Cylindre de 10 feet de rayon et de 40 feet de haut, centré sur un point à portée, effectue un jet de sauvegarde de Dextérité et subit 5d6 dégâts de feu et 5d6 dégâts radiants en cas d’échec, la moitié en cas de réussite.",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · rapport 1.17.36 du 16 octobre 2026"
+    },
+    {
+      "id": "spell.2024.report-11736.57256fcc11d7",
+      "en": "You conjure a feast that appears on a surface in an unoccupied 10-foot Cube next to you. The feast takes 1 hour to consume and disappears at the end of that time, and the beneficial effects don’t set in until this hour is over. Up to twelve creatures can partake of the feast.",
+      "fr": "Vous invoquez un festin qui apparaît sur une surface dans un Cube inoccupé de 10 feet à côté de vous. Il faut 1 heure pour le consommer ; il disparaît à la fin de cet intervalle et ses bénéfices ne prennent effet qu’une fois cette heure écoulée. Jusqu’à douze créatures peuvent participer au festin.",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · rapport 1.17.36 du 16 octobre 2026"
+    },
+    {
+      "id": "spell.2024.report-11736.195d7405d7b0",
+      "en": "A creature that partakes gains several benefits, which last for 24 hours. The creature has Resistance to Poison damage, and it has Immunity to the Frightened and Poisoned conditions. Its Hit Point maximum also increases by 2d10, and it gains the same number of Hit Points.",
+      "fr": "Une créature qui participe au festin reçoit plusieurs bénéfices pendant 24 heures. Elle bénéficie de la Résistance aux dégâts de poison et de l’Immunité contre les états Effrayé et Empoisonné. Son maximum de points de vie augmente également de 2d10 et elle gagne le même nombre de points de vie.",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · rapport 1.17.36 du 16 octobre 2026"
+    },
+    {
+      "id": "spell.2024.report-11736.266f8adfbad3",
+      "en": "You unleash a storm of flashing light and raging thunder in a 10-foot-radius, 40-foot-high Cylinder centered on a point you can see within range. While in this area, creatures have the Blinded and Deafened conditions, and they can’t cast spells with a Verbal component.",
+      "fr": "Vous déchaînez une tempête de lumière fulgurante et de tonnerre furieux dans un Cylindre de 10 feet de rayon et de 40 feet de haut, centré sur un point que vous voyez à portée. Les créatures dans cette zone subissent les états Aveuglé et Assourdi et ne peuvent pas lancer de sorts comportant une composante verbale.",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · rapport 1.17.36 du 16 octobre 2026"
+    },
+    {
+      "id": "spell.2024.report-11736.ab1a9026e750",
+      "en": "When the storm appears, each creature in it makes a Constitution saving throw, taking 2d10 Radiant damage and 2d10 Thunder damage on a failed save or half as much damage on a successful one. A creature also makes this save when it enters the spell’s area for the first time on a turn or ends its turn there. A creature makes this save only once per turn.",
+      "fr": "À l’apparition de la tempête, chaque créature qui s’y trouve effectue un jet de sauvegarde de Constitution et subit 2d10 dégâts radiants et 2d10 dégâts de tonnerre en cas d’échec, la moitié en cas de réussite. Une créature effectue également ce jet de sauvegarde lorsqu’elle entre dans la zone du sort pour la première fois d’un tour ou y termine son tour. Une créature n’effectue ce jet de sauvegarde qu’une fois par tour.",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · rapport 1.17.36 du 16 octobre 2026"
+    },
+    {
+      "id": "spell.2024.report-11736.59e453884f1b",
+      "en": "The Radiant and Thunder damage increase by 1d10 for each spell slot level above 5.",
+      "fr": "Les dégâts radiants et les dégâts de tonnerre augmentent de 1d10 pour chaque niveau d’emplacement de sort supérieur à 5.",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · rapport 1.17.36 du 16 octobre 2026"
+    },
+    {
+      "id": "spell.2024.report-11736.jallarzi.higher-level",
+      "en": "Using a Higher-Level Spell Slot. The Radiant and Thunder damage increase by 1d10 for each spell slot level above 5.",
+      "fr": "Emplacement de niveau supérieur. Les dégâts radiants et les dégâts de tonnerre augmentent de 1d10 pour chaque niveau d’emplacement de sort supérieur à 5.",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · rapport 1.17.36 du 16 octobre 2026"
     }
   ]
 }

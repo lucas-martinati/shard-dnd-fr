@@ -1,6 +1,6 @@
 # Audit de couverture — état du 16 octobre 2026
 
-Ce document résume les contrôles utiles pour la version 1.17.36. Les anciens bilans de versions et de migrations restent dans l’historique Git. Les traductions sont dans `translations/`, les exemples de non-régression dans `tests/fixtures/` et les inventaires conservés dans [audit/](../audit/README.md).
+Ce document résume les contrôles utiles pour la version 1.17.37. Les anciens bilans de versions et de migrations restent dans l’historique Git. Les traductions sont dans `translations/`, les exemples de non-régression dans `tests/fixtures/` et les inventaires conservés dans [audit/](../audit/README.md).
 
 Les tests locaux vérifient les extraits relevés, leurs règles, leurs liens, leurs dés et leur restauration en anglais. Ils ne valident pas à eux seuls tous les écrans, tous les suppléments ni le rendu de la version installée dans Tampermonkey. Aucun livre n’est déclaré intégralement traduit.
 
@@ -17,11 +17,11 @@ Le [suivi du PHB](../audit/livres/phb.json) conserve les chapitres relevés et l
 | Dons | 75 dons 2024, 131 cartes, 223 extraits et 739 blocs ou champs | `tests/test-feat-catalog.cjs` |
 | Armes | 38 armes SRD, propriétés et bottes ; 450 noms du catalogue Shard | `tests/test-weapons.cjs`, `tests/test-shard-catalogue.cjs` |
 | Conditions | 48 fiches Shard, états anciens et 2024, tableaux et effets supplémentaires | `tests/test-condition-catalog.cjs` |
-| Derniers rapports | 17 candidats de classes, 11 de dons, 90 d’équipement, puis 1 033 signalements de sorts | `npm run test:book-reports` |
+| Derniers rapports | 17 candidats de classes, 11 de dons, 90 d’équipement, puis 1 033 et 23 signalements de sorts | `npm run test:book-reports` |
 
-Les derniers rapports sont conservés dans les fixtures `reports-classes-feats-equipment-11734.json` et `spell-book-reports-11735.json`. Les trois compagnons du rôdeur restent dans les classes du PHB. Les poids, statistiques et variables Shard sont conservés. Chanceux est testé avec un ancien cache distant ; sa correction locale et son lien Test de d20 restent cohérents.
+Les derniers rapports sont conservés dans les fixtures `reports-classes-feats-equipment-11734.json` et `spell-book-reports-11735.json`, complétées par `spell-book-report-11736.json` pour les 12 sorts du dernier rapport. Les trois compagnons du rôdeur restent dans les classes du PHB. Les poids, statistiques et variables Shard sont conservés. Chanceux est testé avec un ancien cache distant ; sa correction locale et son lien Test de d20 restent cohérents.
 
-Le [rapport des sorts](../audit/generes/sorts-phb-2024.json) est régénéré par `npm run audit:spells` sur les 391 fiches publiques relevées, comprenant 1 309 paragraphes, puces et cellules. Le contrôle du 16 octobre en 1.17.36 conserve 88 blocs encore identiques à l’anglais, répartis sur 26 fiches, contre 457 blocs dans le précédent rapport 1.17.34. Ces candidats incluent des légendes ou noms propres : ce compteur ne mesure ni la qualité du français ni tous les reliquats partiellement traduits. La version testée figure dans le JSON ; les anciens compteurs ne servent plus de liste de travail actuelle.
+Le [rapport des sorts](../audit/generes/sorts-phb-2024.json) est régénéré par `npm run audit:spells` sur les 391 fiches publiques relevées, comprenant 1 309 paragraphes, puces et cellules. Le contrôle du 16 octobre en 1.17.37 conserve 68 blocs encore identiques à l’anglais, répartis sur 18 fiches, contre 88 blocs sur 26 fiches en 1.17.36. Ces candidats incluent des légendes ou noms propres : ce compteur ne mesure ni la qualité du français ni tous les reliquats partiellement traduits. La version testée figure dans le JSON ; les anciens compteurs ne servent plus de liste de travail actuelle.
 
 Le [relevé des noms d’équipement PHB](../audit/inventaires/phb/objets-noms-2024.json) conserve 237 noms, dont les 77 libellés examinés lors du premier lot. Il ne valide pas toutes les descriptions d’objets.
 
@@ -47,7 +47,7 @@ Le [relevé des noms d’objets AideDD](../audit/inventaires/noms-objets-aidedd.
 
 Quatre noms de supplément restent à contextualiser : **Fuzz Mites**, **Rock Garfin**, **Fuzz Golem** et **Giant Fuzz Golem**. Le fragment `magical , Unknown (Magic)15,` du rapport d’objets reste également à examiner dans sa fiche. Ces éléments ne sont pas déclarés traduits par déduction.
 
-Le [relevé historique du guide Shard](../audit/generes/shard-players-guide-v1.json) conserve les résultats de la version 1.17.28 : 734 notices et fiches examinées, dont 319 sorts, 239 notices d’objets magiques, 58 notices d’équipement et 118 fiches supplémentaires. Ses 1 941 signalements sont conservés par fiche pour une nouvelle vérification. Ils ne constituent pas une liste de manques confirmés en 1.17.36. Les descriptions des 1 255 entrées non ouvertes individuellement dans la liste d’équipement restent hors de ce contrôle.
+Le [relevé historique du guide Shard](../audit/generes/shard-players-guide-v1.json) conserve les résultats de la version 1.17.28 : 734 notices et fiches examinées, dont 319 sorts, 239 notices d’objets magiques, 58 notices d’équipement et 118 fiches supplémentaires. Ses 1 941 signalements sont conservés par fiche pour une nouvelle vérification. Ils ne constituent pas une liste de manques confirmés en 1.17.37. Les descriptions des 1 255 entrées non ouvertes individuellement dans la liste d’équipement restent hors de ce contrôle.
 
 Les anciennes règles importées conservent leurs effets exacts. Les variantes 2014 et 2024 ne sont pas réécrites les unes à partir des autres ; les noms propres et les textes sans millésime peuvent rester en édition `any`.
 

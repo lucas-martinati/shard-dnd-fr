@@ -14,4 +14,6 @@ Les paragraphes de personnage 2024 sont maintenus dans les packs `translations/d
 
 Les outils sont dans `work/`. Leurs résultats intermédiaires sont dans `work/generated/` ; les fichiers distribués pour Tampermonkey restent dans `outputs/`. Le rapport de couverture est produit dans `audit/`.
 
+Voir [les constantes embarquées et leurs sources](../docs/DONNEES-GENEREES.md) pour le détail des TSV, packs, corpus et catalogues réellement chargés. Les noms historiques des constantes ne correspondent pas toujours au classement éditorial actuel.
+
 Les aptitudes et options issues du SRD sont désormais éditables dans `translations/dnd-2024/phb/classes/descriptions-srd.json` et `options-srd.json`. Les générateurs les lisent directement ; `data/` et le découpage des PDF ont été retirés. Voir [leur provenance](../translations/dnd-2024/phb/SOURCES-SRD.md).

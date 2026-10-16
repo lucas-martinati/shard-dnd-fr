@@ -292,7 +292,7 @@
       "reason": "missing-translation",
       "context": "",
       "occurrences": 1,
-      "fr": "En cas d’échec, elle subit 10d12 dégâts psychiques et ne peut pas lancer de sort ni entreprendre l’action Magie. À l’issue de chaque tranche de 30 jours, la cible réitère le JS et met un terme à l’effet en cas de réussite. Les sorts guérison, restauration suprême et souhait mettent également chacun fin à l’effet."
+      "fr": "En cas d’échec, elle subit 10d12 dégâts psychiques et ne peut pas lancer de sort ni entreprendre l’action Magie. À l’issue de chaque tranche de 30 jours, la cible réitère le JS et met un terme à l’effet en cas de réussite. Les sorts restauration suprême, guérison et souhait mettent également chacun fin à l’effet."
     },
     {
       "en": "On a successful save, the target takes half as much damage only.",
