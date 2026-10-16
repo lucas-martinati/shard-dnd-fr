@@ -1,304 +1,60 @@
-# Audit de couverture — 13 octobre 2026
+# Audit de couverture — état du 16 octobre 2026
 
-## Comparaison complète des noms d’objets AideDD — 1.17.26
+Ce document résume les contrôles utiles pour la version 1.17.36. Les anciens bilans de versions et de migrations restent dans l’historique Git. Les traductions sont dans `translations/`, les exemples de non-régression dans `tests/fixtures/` et les inventaires conservés dans [audit/](../audit/README.md).
 
-Le [relevé des noms](../audit/inventaires/noms-objets-aidedd.json) compare les 350 entrées de l’index 2024 et les 323 entrées de l’ancien index. Les 39 différences de noms déjà présents dans l’index 2024 sont des variantes d’édition ; leurs noms 2024 restent prioritaires. 53 alias anciens ou secondaires sont ajoutés à la recherche, sans recopier les descriptions ni changer les règles. La coquille « Perfume of Bwitching » de l’ancien tableau est écartée.
+Les tests locaux vérifient les extraits relevés, leurs règles, leurs liens, leurs dés et leur restauration en anglais. Ils ne valident pas à eux seuls tous les écrans, tous les suppléments ni le rendu de la version installée dans Tampermonkey. Aucun livre n’est déclaré intégralement traduit.
 
-L’Anneau de maîtrise élémentaire manquait parce que son URL publique contient « maîtrise » avec un accent. La validation accepte désormais les lettres latines accentuées, après décodage du chemin, en conservant le domaine HTTPS, le type de fiche et l’interdiction des paramètres et séparateurs supplémentaires. L’anneau rejoint le catalogue embarqué. Quatre noms VO collectifs d’objets de l’ancien index sont aussi ajoutés au lexique. Les nouvelles références embarquées complètent un ancien cache sans attendre la prochaine synchronisation.
+## PHB 2024
 
-15 noms sont corrigés : sept variantes de Figurine merveilleuse, quatre anneaux de maîtrise élémentaire et les quatre puissances de potion de guérison. Les anciens noms restent recherchables. La correspondance Greater → importante et Superior → supérieure est vérifiée dans le tableau AideDD 2024 ; les variantes de figurines et d’anneaux suivent les familles et sous-titres des fiches 2024. Ces corrections portent sur les noms, pas sur leurs descriptions.
+Le [suivi du PHB](../audit/livres/phb.json) conserve les chapitres relevés et les contrôles restants. L’adaptation Shard expose les mécaniques du livre ; elle ne reproduit pas tout son texte imprimé.
 
-`tests/test-item-name-search.cjs` vérifie les 350 noms 2024 à l’affichage, 322 noms de recherche anciens, les 15 corrections et leurs anciens noms (702 recherches), le champ Shard recevant l’anglais, la restauration exacte, un cache antérieur et la validation des URL accentuées ou malformées. Il est inclus dans `npm run test:catalogue-names`.
+| Corpus contrôlé localement | Périmètre | Contrôle |
+| --- | --- | --- |
+| Présentations | 153 fiches, 248 paragraphes ou puces ; dont 10 espèces, 24 lignages, 12 classes, 48 sous-classes et 16 historiques 2024 | `tests/test-narratives.cjs` |
+| Classes SRD | 232 aptitudes des 12 classes, 38 options en 70 blocs, 292 sous-sections et variantes | `tests/test-classes.cjs`, `tests/test-class-sections.cjs` |
+| Fiche du moine | 37 descriptions d’aptitudes et sous-aptitudes, dont titres découpés entre plusieurs balises | `npm run test:monk` |
+| Historiques | 80 champs des 16 historiques PHB : caractéristiques, dons, compétences, outils, équipements | `npm run test:backgrounds` |
+| Dons | 75 dons 2024, 131 cartes, 223 extraits et 739 blocs ou champs | `tests/test-feat-catalog.cjs` |
+| Armes | 38 armes SRD, propriétés et bottes ; 450 noms du catalogue Shard | `tests/test-weapons.cjs`, `tests/test-shard-catalogue.cjs` |
+| Conditions | 48 fiches Shard, états anciens et 2024, tableaux et effets supplémentaires | `tests/test-condition-catalog.cjs` |
+| Derniers rapports | 17 candidats de classes, 11 de dons, 90 d’équipement, puis 1 033 signalements de sorts | `npm run test:book-reports` |
 
-## Noms supplémentaires dans la recherche — 1.17.25
+Les derniers rapports sont conservés dans les fixtures `reports-classes-feats-equipment-11734.json` et `spell-book-reports-11735.json`. Les trois compagnons du rôdeur restent dans les classes du PHB. Les poids, statistiques et variables Shard sont conservés. Chanceux est testé avec un ancien cache distant ; sa correction locale et son lien Test de d20 restent cohérents.
 
-Les suggestions FR → EN des champs Shard ignoraient les noms ajoutés dans les packs récents lorsqu’ils étaient absents des anciens dictionnaires et de l’index AideDD 2024. Les libellés d’équipement, monstres, sorts, dons, aptitudes et espèces de ces packs alimentent désormais la recherche. Les libellés d’interface et de règles ne sont pas ajoutés à cette liste de noms.
+Le [rapport des sorts](../audit/generes/sorts-phb-2024.json) est régénéré par `npm run audit:spells` sur les 391 fiches publiques relevées, comprenant 1 309 paragraphes, puces et cellules. Le contrôle du 16 octobre en 1.17.36 conserve 88 blocs encore identiques à l’anglais, répartis sur 26 fiches, contre 457 blocs dans le précédent rapport 1.17.34. Ces candidats incluent des légendes ou noms propres : ce compteur ne mesure ni la qualité du français ni tous les reliquats partiellement traduits. La version testée figure dans le JSON ; les anciens compteurs ne servent plus de liste de travail actuelle.
 
-Les noms AideDD de Xanathar vérifiés le 15 octobre 2026 corrigent Wand of Scowls en [Baguette du grincheux](https://www.aidedd.org/dnd/om.php?vf=baguette-du-grincheux) et Wand of Smiles en [Baguette du jovial](https://www.aidedd.org/dnd/om.php?vf=baguette-du-jovial). Le champ `aliases` des libellés conserve les anciennes traductions proposées « Baguette des grimaces » et « Baguette des sourires » pour la recherche. Elles aboutissent aux mêmes noms anglais sans remplacer les noms affichés. Le test de recherche vérifie les noms d’équipement du lexique généré, les deux anciens noms et les événements transmis au champ Shard ; le catalogue de noms conserve ses tests de traduction et de restauration.
+Le [relevé des noms d’équipement PHB](../audit/inventaires/phb/objets-noms-2024.json) conserve 237 noms, dont les 77 libellés examinés lors du premier lot. Il ne valide pas toutes les descriptions d’objets.
 
-## Dialogues de repos de la fiche personnage — 1.17.23 et 1.17.24
+## Bestiaire 2024
 
-Les dialogues de repos long et court ont été relevés dans Shard le 15 octobre 2026, sans valider de repos ni dépenser de dé. Les explications, choix de récupération, titres de ressources et boutons sont traduits dans le lexique d’interface. Les règles affichées par Shard sont conservées, même lorsque leur formulation vient d’une édition antérieure.
+L’[inventaire Shard du MM](../audit/inventaires/mm/shard-2024.json) recense 469 profils et 2 557 paragraphes relevés dans 24 chapitres ou sections. Le livre était accessible lors du relevé du 15 octobre ; l’ancien constat « Unknown book » n’est plus un blocage actuel.
 
-Le compteur du repos court et les messages de PV utilisent des nombres variables, séparés par React dans des nœuds texte adjacents. La traduction reconnaît ces formulations uniquement dans le dialogue de repos court et conserve les nœuds numériques. Le test d’interface utilise la structure relevée et le message de PV au maximum fourni par l’utilisateur ; il vérifie les valeurs, le passage du pluriel au singulier, les boutons et la restauration exacte de l’anglais.
+Les contrôles locaux couvrent la tarasque entière, dix profils MM complets (33 paragraphes), et 217 traits communs de 183 créatures. Ils vérifient aussi les tableaux, les dés, les liens, les titres en gras ou italique, les unités, les exceptions inconnues et le retour à l’anglais. Voir `npm run test:mm`, `tests/test-monster-actions.cjs` et `tests/test-monster-common.cjs`.
 
-## Rapport de sorts 1.17.20 reçu en collage coupé — 1.17.22
-
-L’en-tête annonce 560 candidats, mais le fichier reçu se termine avant la fin de l’entrée de Flétrissement. Les valeurs JSON anglaises complètes récupérables donnent 123 occurrences, soit 118 passages distincts. Les 23 passages du lot précédent sont conservés sans duplication ; les 95 autres reçoivent une correspondance, pour 40 sorts supplémentaires (94 passages descriptifs et le libellé Présages). Le nom manquant du dernier passage est retrouvé par comparaison avec le paragraphe de Flétrissement de l’inventaire HTML local. Le reste des 560 candidats n’est pas présent et n’est pas déclaré traité. Le [relevé de contrôle](../tests/fixtures/diagnostic-spell-descriptions-11720.json) conserve ces limites.
-
-Le lot couvre notamment Rire hideux de Tasha, Disque flottant de Tenser, Messager animal, les convocations, Monture, Force fantasmagorique, Boule de feu, Glyphe de garde, Gardiens spirituels, Bannissement et le premier paragraphe reçu de Flétrissement. Il conserve les nombres, les dés, les unités et les formulations 2024 du texte Shard, y compris les variantes de titres d’amélioration contenant la coquille anglaise « about ». Les traductions françaises proposées restituent le sens sans modifier les règles.
-
-Le reliquat de Malédiction avait perdu le lien Dodge déjà traduit. La traduction complète existait dans les segments SRD ; sa mise en place échouait parce que le lien est nommé « Esquiver » dans le lexique, alors que le paragraphe français emploie « l’action Esquive ». La reconnaissance des ancres accepte désormais ce nom dans les paragraphes traduits, sans changer le libellé des contrôles ni leurs gestionnaires. Le test couvre les 118 passages reçus, la phrase complète de Malédiction, les dés et liens, l’absence de candidats résiduels et la restauration exacte de l’anglais.
-
-## Rapport de sorts et séparation des diagnostics — 1.17.21
-
-Le rapport utilisateur 1.17.19 comporte 87 fiches : 74 sans anglais repéré, 11 à compléter, une en chargement et une non vérifiée. Ses 23 candidats distincts sont maintenant associés à des traductions exactes, pour 12 sorts : Lumières dansantes, Flamme, Mains brûlantes, Déguisement, Enchevêtrement, Lueurs féeriques, Baies nourricières, Graisse, Maléfice, Marque du chasseur, Identification et Script illusoire. Les paragraphes sont rangés dans le pack des sorts PHB 2024 ; nombres, dés et unités sont conservés.
-
-Le panneau sépare désormais le relevé de page et le contrôle des descriptions, avec leurs états, listes, boutons d’effacement et exports indépendants. Les fichiers sont `shard-dnd-fr-page.json` et `shard-dnd-fr-descriptions.json`. L’ancien bouton commun exportait le dernier rapport produit ; les résultats n’étaient pas fusionnés, mais l’interface ne permettait pas de choisir clairement.
-
-Les fiches dont la description reste incomplète ont un contour rouge. Les états sans manque et sans description ne surchargent plus les noms de libellés ; le récapitulatif et l’export conservent ces états. Les résultats du panneau se concentrent sur les fiches à examiner. Les tests contrôlent les deux ordres d’analyse, la conservation des rapports, leurs noms de fichiers, l’effacement indépendant des contours et la traduction des 23 paragraphes avec les dés interactifs. Le choix des sources 2024 du lot précédent est conservé.
-
-## Choix de source dans le vérificateur — 1.17.20
-
-Le blocage sur Bouclier a été reproduit dans Shard : le clic ouvre un menu de sources et non directement un dialogue. Deux options mentionnent le PHB 2024, mais la première a `Shard Player’s Guide Volume 1` pour source principale. Le vérificateur sélectionne maintenant l’option dont la source principale est D&D 2024, puis attend la fiche. Lorsque plusieurs livres 2024 sont proposés, le PHB est privilégié pour les sorts et dons, le MM pour les monstres et le DMG pour les objets.
-
-Si aucune option 2024 utilisable n’est présente, le choix est fermé, l’entrée est signalée et le parcours continue. Un arrêt ferme également le choix de source ouvert par le parcours. La sélection automatique s’applique uniquement pendant ce parcours ; les consultations manuelles conservent leur choix de livre. Les tests utilisent les structures du menu et de la fiche Bouclier relevées dans Shard, et vérifient les sources mixtes, les options désactivées, l’arrêt, la poursuite et l’exclusion des menus sans rapport.
-
-## Retrait du mode par nom — 1.17.19
-
-Le rapport utilisateur 1.17.18 porte sur 450 entrées : 429 associations non renseignées, une référence associée et 20 fiches déjà contrôlées sur leur texte. Cet index apporte trop peu d’information dans le catalogue réel. Le mode rapide par nom, ses indicateurs, ses données et sa génération sont retirés. Les associations mentionnées dans le bilan historique ci-dessous ne sont plus livrées. Les traductions ajoutées dans les lots précédents restent conservées.
-
-Le diagnostic de page et le contrôle facultatif du contenu des fiches restent disponibles. Un état n’apparaît désormais qu’après lecture de la description, avec progression et arrêt pour le parcours automatique. L’export décrit uniquement les fiches examinées.
-
-## Rapport de descriptions 1.17.17 — mode rapide et équipement ancien
-
-Le rapport de 100 fiches contient 48 états sans anglais repéré, 39 à compléter, 11 en chargement et deux sans description. Les 151 candidats correspondent à 93 textes distincts. Deux sont des dés (`d8`, `d100`) désormais ignorés, et un est un nom déjà couvert. Les 90 autres correspondent à 83 passages descriptifs et sept libellés ajoutés. Un passage de l’appareil de Kwalish est un fragment coupé au niveau des dés : sa traduction conserve ce fragment sans inventer la suite. Les nombres et les unités du relevé sont conservés. Les textes relèvent des formulations anciennes ; ils ne sont pas attribués au PHB 2024.
-
-Un index explicite relie 476 noms à des références ou fragments : 356 noms de sorts (alias inclus), 72 références d’équipement et 48 associations d’objets aux passages signalés. Les associations aux fragments sont éditables dans `translations/2014/objets/descriptions-par-nom.json` et pointent vers les identifiants du pack. Le build refuse une référence absente. L’index livré est `outputs/descriptions-par-nom.json`. Il ne déduit pas une description à partir d’une simple traduction de nom. Une absence d’association n’est donc pas une absence de traduction.
-
-L’affichage des associations ne nécessite aucune ouverture de fiche ni requête réseau. Le parcours détaillé reste volontaire ; il n’attend plus la file globale de traduction ni les références AideDD et ne déclenche pas de nouvelles consultations distantes. Une référence en attente ne fait plus classer en chargement un texte déjà traduit. Les tests ciblés vérifient ces comportements, la séparation objets/sorts, les alias, les états inconnus et les 93 textes du rapport.
-
-## Nouveau rapport d’objets 1.17.16 et descriptions des catalogues
-
-Les 102 candidats reçus contiennent 92 noms nécessitant une traduction, huit libellés conservés en français (Totem, Yklwa, variantes +1/+2/+3 de Yklwa et Trident), le nom de l’application et un fragment de caractéristiques `magical , Unknown (Magic)15,`. Ce dernier ne constitue pas un nom d’objet et reste à examiner avec sa fiche. Le lot ajoute 98 correspondances : les 92 noms et six variantes de ces familles. Le [relevé de contrôle](../tests/fixtures/diagnostic-object-names-11716.json) conserve ces distinctions. Il ne permet pas de conclure sur leurs descriptions ni de les attribuer au livre 2024.
-
-L’analyseur propose maintenant un parcours volontaire des descriptions des listes de sorts, objets, monstres et dons. Il ouvre puis ferme les fiches chargées, avec une limite de 100 par passage, une progression et un arrêt. Les mêmes repères de langue sont appliqués au seul contenu des descriptions, après traitement de la traduction. Les états apparaissent dans les lignes et dans l’export JSON ; une fiche vide, inaccessible ou en cours de chargement reçoit un état distinct. « Aucun anglais repéré » ne certifie pas la qualité ni l’exhaustivité de la traduction. Les états ne sont pas persistés et sont effacés au changement de page.
-
-La structure de liste et de dialogue d’objet a été vérifiée dans Shard. Les contrôles locaux portent sur le script généré : traductions partielles, fiches vides, français, actualisation après ouverture manuelle, arrêt immédiat, changement de page, borne de 100 et conservation des champs et actions d’édition. `npm run test:diagnostics` et `npm run test:catalogue-names` ciblent ces changements.
-
-## Rapports utilisateur du 15 octobre — noms de monstres et d’objets
-
-Le diagnostic 1.17.14 fourni contient 92 candidats de monstres et 200 candidats d’objets. Il porte sur les noms visibles et quelques libellés de catégories, sans descriptions détaillées ni livre identifié. Le rapport d’objets est tronqué, ce qui empêche d’en déduire le nombre total de manques du catalogue.
-
-Le lot ajoute 62 traductions de libellés de créatures, notamment les variantes d’esprits invoqués, montures, nuées et modrons. Il conserve 25 noms de PNJ ou de contenu nommé, ainsi que le nom de l’application. Quatre noms de supplément demandent encore un contexte : Fuzz Mites, Rock Garfin, Fuzz Golem et Giant Fuzz Golem. Ils ne sont pas déclarés traduits. Ces noms de compatibilité sont rangés dans le corpus partagé historique, avec édition `any`, sans être attribués au MM 2024.
-
-Les 200 candidats d’objets sont couverts. Les familles d’armures ont aussi été déclinées au-delà de la coupure du rapport : résistance, armure rapide, armure du matelot, mithral, adamantium et carapace mentale. Le lot ajoute 299 correspondances d’objets, avec les munitions, poisons et variantes d’objets merveilleux signalés. Les formulations sont proposées ; leur présence ne valide pas leurs descriptions ni tous les suppléments.
-
-`npm run test:catalogue-names` contrôle les deux listes reçues et 110 variantes supplémentaires, relance le diagnostic sur leur rendu, vérifie les clics, la conservation des noms et champs privés et la restauration de l’anglais. Le [bilan local](../audit/generes/diagnostics-noms-catalogues.json) conserve les limites du relevé. Le lot précédent, comprenant les dix profils MM complets et les options de sorts, est publié en 1.17.15 (`ca0efef`).
-
-## Suite locale du 15 octobre — options de sorts et accès au MM
-
-Le lot précédent est commité et poussé en 1.17.14 (`774560d`). Les ajouts suivants restent locaux. Les options d’Appel de familier, de Création ou destruction d’eau et de Dissipation du mal et du bien sont découpées explicitement, avec leurs titres et la variante « annexe B » du PHB. Les volumes du sort d’eau sont conservés en gallons dans les nouvelles correspondances. Corde enchantée reçoit une variante exacte pour « extradimensional », le SRD ayant extrait ce mot en « extra dimensional ». Les fiches réelles des six sorts signalés ont été ajoutées aux contrôles, qui portent désormais sur 17 sorts et 78 paragraphes/cellules.
-
-L’accès au **D&D 2024 MM** est rétabli : 24 chapitres ou sections de navigation, dont l’introduction et l’annexe des animaux, ont été ouverts. L’[inventaire Shard](../audit/inventaires/mm/shard-2024.json) recense 469 profils et 2 557 paragraphes de règles. Cet import expose les mécaniques et ne reproduit pas le texte intégral du livre imprimé. L’ancien constat « Unknown book » ci-dessous décrit la session du 14 octobre et n’est plus le blocage actuel.
-
-Un premier lot complète dix profils : les deux aarakocras, l’élémentaire de l’air, quatre objets animés, l’ankheg et les deux azers. Il ajoute 31 correspondances exactes et contrôle 33 paragraphes de traits et d’actions. L’inventaire des autres profils ne valide pas leur traduction intégrale. Les noms laissés identiques ne sont pas automatiquement des manques : de nombreux noms de créatures sont les mêmes en français.
-
-Contrôles ciblés réussis : corpus et 25 tests Python, 91 extraits/variantes de sorts, 673 segments SRD, 17 fiches de sorts (78 paragraphes/cellules), dix profils MM (33 paragraphes, 32 dés et 18 liens), métadonnées et syntaxe. Les textes, chiffres, dés, liens et retour anglais sont vérifiés hors ligne. Les liens AideDD ajoutés par le script restent volontairement disponibles quand la traduction est désactivée. Aucune installation d’extension ni modification du compte Shard n’a été effectuée pendant ce lot.
-
-## Complément local du 15 octobre 2026 — sorts et noms d’objets
-
-Les 391 fiches de sorts du livre Shard **D&D 2024 PHB** ont été relevées. Elles contiennent 1 309 paragraphes, puces et cellules examinés. Comparé au commit `8af2d6d`, le même rendu hors ligne présente **243 blocs supplémentaires traduits** : les candidats entièrement inchangés en anglais passent de 845 à 602. Ces candidats incluent aussi des légendes, des noms propres et des textes anciens importés ; ce chiffre ne prouve ni l’absence ni l’exactitude d’une traduction. Le [rapport détaillé](../audit/generes/sorts-phb-2024.json) conserve les passages à vérifier. Aucun livre n’est déclaré intégralement traduit.
-
-Les cinq signalements (Aura magique de Nystul, Clignotement, Arme élémentaire, Localisation de créature et Éveil) sont intégralement traduits dans les fiches relevées. Les ajouts comprennent 53 correspondances éditables et le découpage explicite de 77 références SRD, qui porte les segments générés de 449 à 660. Les frontières anglaises et françaises sont associées par leur sens, même lorsque les effets ne sont pas présentés dans le même ordre. Les variantes du PHB sont conservées séparément ; les formulations différentes ne sont pas assimilées automatiquement au SRD.
-
-Le catalogue d’objets filtré sur ce livre présente 237 noms. Parmi les 77 libellés examinés, **66 reçoivent une traduction différente** et 11 sont déjà français ou des noms propres conservés. Ce contrôle porte sur les noms ; il ne valide pas toutes les descriptions d’objets. Voir [l’inventaire](../audit/inventaires/phb/objets-noms-2024.json).
-
-Le livre MM 2024 n’est pas proposé dans les filtres de la session utilisée pour ce relevé. Le lot d’environ 92 monstres signalé par l’utilisateur n’est donc pas déclaré traité. Les sources de bestiaire et les descriptions déjà présentes restent chargées.
-
-`npm run test:spells` vérifie les paragraphes, les segments SRD et 11 fiches HTML réelles : 53 paragraphes et cellules, 12 dés et 11 liens, les tableaux, les nombres, les champs privés et le retour exact à l’anglais. Les 77 noms d’objets sont inclus. Les contrôles de packs, de mise en forme, d’équipement ancien et de métadonnées passent également. Le nouveau script n’a pas été installé dans Tampermonkey pendant ce contrôle. Ce lot est préparé pour la version 1.17.14 ; les contrôles portent sur le script local généré.
-
-## Priorité par livre — clarification du 14 octobre 2026
-
-L’objectif principal est le **D&D 2024 PHB**, puis le **D&D 2024 MM**. Les traductions des règles du joueur 2024, y compris les parties issues du SRD 5.2.1, sont dans `translations/dnd-2024/phb/` ; le bestiaire reste dans `translations/dnd-2024/mm/`. Le corpus historique, dont le guide Shard, et les noms de compatibilité sont regroupés dans `translations/2014/`. L’interface Shard reste séparée.
-
-Le rangement éditorial ne remplace pas la provenance : les sources et éditions sont conservées, notamment `any` pour les libellés non spécifiques. Le classement des 406 anciennes entrées de `a-classer` est terminé selon cette convention. Certains noms et effets personnalisés restent sans livre imprimé identifié ; leur emplacement ne prétend pas résoudre cette attribution bibliographique. Voir [la méthode](../audit/classement.json).
-
-Le [suivi par livre](../audit/livres.json) est repris dans `suiviLivres` du rapport de couverture. Le sommaire du PHB a été relevé, mais ses chapitres complets restent à vérifier. Son Disclaimer indique que cet import contient les mécaniques absentes du SRD 5.2 et ne reproduit pas tout le texte du livre imprimé. Les traductions bilingues correspondantes sont désormais structurées dans les fichiers `descriptions-srd.json` et `options-srd.json` du PHB. Les générateurs ne lisent plus les extraits PDF de l’ancien dossier `data/` ; l’attribution est conservée dans [SOURCES-SRD.md](../translations/dnd-2024/phb/SOURCES-SRD.md).
-
-Le lien MM fourni affiche **Unknown book** dans la session du 14 octobre 2026 : aucun inventaire intégral de ce livre n’est validé. Les traductions locales du bestiaire restent chargées. L’introduction et les crédits du guide Shard indiquent une origine majoritairement SRD sous OGL ; ce guide est distinct des sources SRD 5.2.1 du projet.
-
-Les compteurs de packs rattachés ne comptent que les entrées de ces dossiers. Ils ne mesurent ni toutes les correspondances communes utilisables dans un livre, ni la traduction de toutes ses fiches. Aucun livre n’est déclaré intégralement traduit. Les 16 rubriques ci-dessous restent le minimum final, à traiter d’abord pour le PHB et le MM.
+L’index contient 628 titres bilingues d’aptitudes. Le [relevé de références](../audit/inventaires/mm/references-2024.json) conserve les 498 références comparées : 2 171 blocs anglais, 1 912 appariements et 259 blocs à vérifier. Ces associations historiques ne prouvent pas leur acceptation par le moteur actuel ni la traduction des 469 profils Shard. Les actions distantes exigent un titre bilingue attesté et des règles compatibles. Le [suivi du MM](../audit/livres/mm.json) conserve les travaux restants.
 
 ## Objectif minimal : toutes les références accessibles depuis l’accueil
 
-L’objectif final est de traduire **le contenu intégral de toutes les références accessibles depuis l’accueil de Shard**, pour les livres et éditions disponibles. Les 16 rubriques ci-dessous constituent un minimum ; toute autre référence proposée par l’accueil doit également rejoindre cet inventaire.
+Le [périmètre structuré](../audit/perimetre-references.json) distingue six catégories de personnage — historiques, classes, dons, espèces, sorts et équipement — et dix types personnalisés. Le PHB puis le MM 2024 restent prioritaires ; le corpus 2014 apporte la compatibilité historique.
 
-Une rubrique reste **à vérifier et compléter** tant que ses fiches intégrales n’ont pas toutes été contrôlées. Un nom, une description brève, une correspondance SRD ou une référence AideDD disponible ne suffit pas à la déclarer entièrement traduite. Les présentations des classes et sous-classes relevées sont traduites et de nombreuses aptitudes détaillées sont déjà couvertes ; le contenu complet de toutes les classes, sous-classes, options et variantes accessibles reste à compléter ou vérifier.
+Les dix types personnalisés relevés représentent 192 cartes et fiches : maladies (3), ascendances draconiques (10), manifestations occultes (79), styles de combat (12), manœuvres (20), propriétés de botte (8), métamagie (18), Magie sauvage (1), bienfaits de pacte (3) et bottes d’arme (38).
 
-### Options du personnage
+L’[inventaire](../audit/inventaires/references-personnalisees.json) conserve les sources et éditions. `npm run test:references` vérifie les 1 279 blocs, 616 liens, 63 dés et tableaux des HTML relevés, puis écrit le [résultat versionné](../audit/generes/references-personnalisees.json). Les noms de livres, les mentions Source et les dés isolés reconnus sont exclus des signalements. La validation locale reste distincte d’une validation intégrale de toutes les bibliothèques disponibles.
 
-| Référence | Contenu intégral à vérifier ou compléter |
-| --- | --- |
-| [Historiques](https://play.shardtabletop.com/#backgrounds) | Aptitudes, dons, compétences, langues, équipement et variantes. |
-| [Classes](https://play.shardtabletop.com/#class) | Classes et sous-classes, tous les niveaux, aptitudes, options, prérequis et tableaux. Les résumés traduits ne valident pas ces contenus. |
-| [Dons](https://play.shardtabletop.com/#feats) | Prérequis, effets détaillés, choix et variantes de chaque édition et livre. |
-| [Objets](https://play.shardtabletop.com/#item) | Objets usuels et magiques, armes, armures, propriétés, bottes, charges, harmonisation et tableaux. Les noms d’armes ne valident pas leurs descriptions. |
-| [Races / Espèces](https://play.shardtabletop.com/#race) | Traits, lignages, ascendances, options et variantes. |
-| [Sorts](https://play.shardtabletop.com/#spell) | Paramètres, composantes, effets, cibles, options, améliorations et tableaux. |
+## Noms, corpus anciens et points encore ouverts
 
-### Types personnalisés
+Le [relevé des noms d’objets AideDD](../audit/inventaires/noms-objets-aidedd.json) compare 350 noms 2024 et 323 anciens. Les noms 2024 restent prioritaires ; les alias anciens sont recherchables. `npm run test:catalogue-names` vérifie les corrections, les URL accentuées, les recherches, les champs et les rapports de noms utilisateur. Ces contrôles ne valident pas les descriptions.
 
-| Référence | Contenu intégral à vérifier ou compléter |
-| --- | --- |
-| [Diseases](https://play.shardtabletop.com/#customtable?type=Diseases) | Toutes les maladies, effets, durées et moyens de guérison. |
-| [Draconic Ancestries](https://play.shardtabletop.com/#customtable?type=Draconic%20Ancestries) | Toutes les ascendances draconiques, effets, choix et tableaux. |
-| [Manifestations occultes](https://play.shardtabletop.com/#customtable?type=Eldritch%20Invocations) | Toutes les manifestations, prérequis, effets, choix et évolutions. |
-| [Styles de combat](https://play.shardtabletop.com/#customtable?type=Fighting%20Styles) | Tous les styles, avec leurs règles et variantes. |
-| [Manœuvre Options](https://play.shardtabletop.com/#customtable?type=Maneuver%20Options) | Toutes les manœuvres, coûts, déclencheurs, choix et effets. |
-| [Propriétés de botte](https://play.shardtabletop.com/#customtable?type=Mastery%20Properties) | Chaque propriété et sa règle complète, dans ce catalogue spécifique. |
-| [Métamagie](https://play.shardtabletop.com/#customtable?type=Metamagic) | Toutes les options, coûts, restrictions, effets et variantes. |
-| [Reference Cards](https://play.shardtabletop.com/#customtable?type=Reference%20Cards) | Toutes les règles, états, actions, effets et tableaux, y compris les fiches liées depuis les aptitudes. |
-| [Warlock Pact Boons](https://play.shardtabletop.com/#customtable?type=Warlock%20Pact%20Boons) | Tous les pactes, effets, options, prérequis et variantes. |
-| [Bottes d’arme](https://play.shardtabletop.com/#customtable?type=Weapon%20Masteries) | Chaque entrée et sa règle complète ; ce contrôle reste distinct de Mastery Properties. |
+Quatre noms de supplément restent à contextualiser : **Fuzz Mites**, **Rock Garfin**, **Fuzz Golem** et **Giant Fuzz Golem**. Le fragment `magical , Unknown (Magic)15,` du rapport d’objets reste également à examiner dans sa fiche. Ces éléments ne sont pas déclarés traduits par déduction.
 
-Pour chaque rubrique, inventorier toutes les entrées puis vérifier séparément les **noms et résumés** et les **fiches complètes** : paragraphes, sous-sections, listes, choix, tableaux et contenus chargés à l’ouverture ou par les liens. Contrôler le rendu avec le userscript actif dans Shard, les chiffres, dés et unités de jeu, les liens et la restauration de l’anglais. Une entrée sans description ou inaccessible doit être signalée comme telle ; aucun texte ne doit être inventé.
+Le [relevé historique du guide Shard](../audit/generes/shard-players-guide-v1.json) conserve les résultats de la version 1.17.28 : 734 notices et fiches examinées, dont 319 sorts, 239 notices d’objets magiques, 58 notices d’équipement et 118 fiches supplémentaires. Ses 1 941 signalements sont conservés par fiche pour une nouvelle vérification. Ils ne constituent pas une liste de manques confirmés en 1.17.36. Les descriptions des 1 255 entrées non ouvertes individuellement dans la liste d’équipement restent hors de ce contrôle.
 
-Le [périmètre structuré](../audit/perimetre-references.json) conserve les objectifs et l’état de validation de ces rubriques. Il est repris dans `objectifReferencesAccueil` par `npm run translations:coverage` et dans `audit/couverture-traductions.json`. Les validations intégrales restent ouvertes : cela ne signifie pas que tous les textes de ces rubriques sont absents du corpus. La liste `aVerifier` des appariements SRD ne mesure pas ce périmètre ; elle peut être vide alors que des fiches Shard restent partiellement en anglais.
+Les anciennes règles importées conservent leurs effets exacts. Les variantes 2014 et 2024 ne sont pas réécrites les unes à partir des autres ; les noms propres et les textes sans millésime peuvent rester en édition `any`.
 
-## Complément du 14 octobre 2026 — aptitudes, dons, armes et version 1.17.10
+## Sources, génération et entretien
 
-Le catalogue public de Shard a été parcouru pour ouvrir les 12 classes et leurs 48 sous-classes 2024, les 131 fiches détaillées de dons disponibles, ainsi que 48 fiches d’armes représentatives. La liste des armes a fourni 450 lignes, soit 449 noms distincts, avec les variantes +1/+2/+3, en adamantium, argentées et les grandes familles d’armes magiques.
+Les aptitudes et options SRD sont éditables dans les fichiers structurés du PHB, avec leur [attribution](../translations/dnd-2024/phb/SOURCES-SRD.md). Le build ne dépend plus d’extraits PDF. La [méthode de classement](../audit/classement.json) conserve la provenance éditoriale ; un dossier ne prouve pas la présence exclusive d’un texte dans le livre imprimé.
 
-Cette passe ajoute 1 972 correspondances exactes : 1 402 pour les classes et aptitudes, 49 pour les dons et 521 pour les armes et leurs pluriels. Elles couvrent des paragraphes, options, champs, titres de niveau, cellules de tableaux et noms complets. Les règles communes des armes magiques sont réutilisées lorsque leur anglais est identique. Les chiffres, dés et distances de Shard sont conservés ; une propriété ancienne n’est pas réécrite selon sa version 2024. Les traductions proposées et leur provenance sont identifiées par entrée.
+`npm run build` reconstruit les données, les inventaires techniques `classes-srd.json` et `options-srd.json`, ainsi que la [couverture](../audit/couverture-traductions.json). Celle-ci compte séparément noms, blocs, fiches observées et appariements. Une liste `aVerifier` vide pour les classes/options SRD ne signifie pas que tout Shard est traduit.
 
-`tests/fixtures/shard-catalogue.json` conserve les 239 extraits HTML ouverts et les 450 noms de la liste. Le test du catalogue les traite par petits lots, vérifie les nouvelles correspondances, l’identité des liens et dés, leurs clics et la restauration du HTML anglais. Les autres suites continuent de vérifier les descriptions préexistantes et les différences entre éditions. Les lignes de description en DIV sans classe, avec des fragments en gras, bénéficient aussi du traitement des paragraphes.
-
-Ce relevé des fiches anglaises dans le navigateur et ses tests locaux ne constituent pas une vérification en direct du nouveau userscript installé dans Tampermonkey. Les descriptions des 450 armes n’ont pas toutes été ouvertes : le contrôle détaillé porte sur 48 fiches et les textes qu’elles partagent. Les autres suppléments, contenus maison et descriptions de monstres restent des zones de couverture partielle.
-
-La version de publication vient uniquement de `package.json`. `npm run version:patch` augmente le correctif et reconstruit les livrables ; `npm run build` synchronise le verrou npm et génère les versions du userscript, des métadonnées, du panneau et du lexique. Les anciennes notes de publication gardent leurs numéros historiques.
-
-## Complément du 14 octobre 2026 — équipement, version 1.17.9
-
-Examen de l’accueil, des filtres du catalogue d’objets et de 18 fiches dans la session Shard accessible au navigateur intégré : Abacus, Acid, Acid (vial), Alchemist’s Fire (flask), Ball Bearings (Bag of 1,000), Caltrops (20), Holy Water (flask), Oil (flask), Basic Poison (vial), Healer’s Kit, Hunting Trap, Manacles, Crowbar, Antitoxin, Tinderbox, Bullseye Lantern, Hooded Lantern et Adamantine Dagger. Aucun personnage, objet ou contenu de campagne n’a été modifié.
-
-La fiche Abacus ne contient pas de description ; aucun texte n’y a été ajouté. Acid utilise la description 2024 déjà couverte. Les 15 autres objets usuels présentent 16 paragraphes absents du corpus local, désormais ajoutés dans les packs d’objets anciens et partagés. La dague en adamantium ajoute son effet sur les objets et trois sections titrées de propriétés, dont les corps existaient déjà. Neuf noms exacts manquants et quatre libellés observés sont ajoutés : modification des attributs, liste vide, effacement d’un filtre et vérification de la connexion.
-
-Les fiches Feu grégeois, Poison simple, Trousse de soins, Pied-de-biche, Antitoxine et les deux lanternes associent une ancienne formulation au D&D 2024 PHB. Les entrées sont documentées comme règles 2014 d’après le texte exact, sans remplacer l’attaque improvisée, l’action requise ou une exception par un mécanisme 2024. Distances, volumes, valeurs numériques et dés restent ceux affichés dans Shard.
-
-`tests/fixtures/equipment-legacy.json` conserve uniquement les extraits de description et noms des 16 fiches complétées. `test-equipment-legacy.cjs` vérifie leurs traductions, le paragraphe imbriqué du rituel d’eau bénite, les titres en gras/italique, trois liens, six dés cliquables (dont le témoin Acide 2024), les attributs d’affichage, la conservation d’une valeur de recherche et le retour exact à l’anglais. Un texte inconnu aux valeurs différentes reste intact. La traduction française a été vérifiée avec le userscript généré dans JSDOM ; cette version n’a pas été installée dans Tampermonkey pendant cet examen. Ce relevé ciblé ne constitue pas une couverture complète du catalogue ni de tous les écrans Shard.
-
-## Périmètre observé
-
-Audit du dépôt en version 1.17.1, puis de Shard connecté : accueil, navigation de référence, bibliothèque, filtres, historiques, espèces et états. Le navigateur intégré a servi à examiner l'anglais ; Brave, avec Tampermonkey et le script déjà actif, a permis de constater les manques de traduction. Aucun personnage ni contenu de campagne n'a été modifié.
-
-Cet échantillon n'est pas un audit exhaustif de tous les écrans. Le jeu en campagne, les éditeurs de cartes, les achats, les fonctions d'abonnement, le contenu de tous les livres et les suppléments restent à examiner. Les livres disponibles diffèrent entre les deux sessions de navigateur.
-
-## Couverture avant les ajouts
-
-Les références embarquées comprennent 391 noms de sorts, 75 dons, 28 manifestations, 349 objets magiques et 498 monstres AideDD 2024. Ce sont des **noms**, pas autant de descriptions traduites.
-
-La prose locale comprend notamment 339 sorts SRD, 232 aptitudes des 12 classes SRD, 10 options de métamagie, 28 manifestations, 72 descriptions d'équipement et des segments supplémentaires de sorts et de classes. Les 38 armes SRD ont un catalogue et des descriptions de propriétés/bottes testés. Les sous-classes hors SRD ne sont pas toutes couvertes : leurs noms traduits ne garantissent pas leur prose.
-
-Le pack interface était vide, même si des TSV traduisaient déjà la fiche de personnage. La bibliothèque et des commandes d'accueil restaient en anglais dans Brave. Le pack espèces n'exposait que 15 descriptions, mais des traits supplémentaires existaient déjà dans les anciennes sources : le nombre du pack sous-estimait donc aussi ce corpus. Les descriptions des états 2024 observées étaient largement absentes.
-
-## Mécanismes et limites
-
-1. Les TSV et les libellés des packs alimentent un dictionnaire. Les noms AideDD ont priorité. Une ligne structurée peut être composée de plusieurs termes connus ; une phrase inconnue n'est pas traduite mot à mot.
-2. Les descriptions locales sont reconnues par leur texte anglais, avec normalisation des espaces, apostrophes et contractions. L'édition du pack documente la source : elle ne choisit pas automatiquement les règles d'un personnage.
-3. Les paragraphes, puces et cellules sont traités séparément. Les titres connus servent de repères. Le français n'est pas réparti arbitrairement entre plusieurs paragraphes.
-4. Seuls les nœuds texte et les attributs d'affichage changent. Les éléments de lien, de dé et de mise en forme conservent leur identité et leurs gestionnaires. Les champs éditables et notes restent exclus.
-5. Les références AideDD distantes dépendent du réseau et d'une compatibilité du texte et de la structure. Elles ne prouvent pas que tous les contenus d'une fiche ou d'un livre sont traduits.
-6. La désactivation restaure les textes et attributs originaux. Les mutations Shard sont rescannées sans modifier les données de jeu.
-
-Les sources historiques peuvent utiliser un autre terme français que les nouveaux libellés AideDD, notamment pour certaines actions. Il faut harmoniser leurs sources, en respectant leur édition, plutôt qu'empiler une traduction contradictoire. Les valeurs et dés concordants ne prouvent pas à eux seuls l'équivalence d'une règle.
-
-## Compléments de la 1.17.2
-
-- Navigation générale, bibliothèque et filtres : catégories `interface/`.
-- Les 15 états du SRD 2024, avec corps, sous-titres, sections et variantes avec/sans introduction : catégorie `regles/`. Le catalogue `etats-2024.json` relie les sections effectivement chargées, y compris les sections communes à plusieurs états.
-- Espèces : lignages elfiques et gnomes, six ascendances de goliath, formes et carrure, traits d'orc, héritages fiélons, tailles et Vision dans le noir. Les traductions déjà présentes sont réutilisées. Les récits d'origine et les traits hors SRD ne sont pas tous couverts.
-- Repérage des titres Shard en `<span class="b i">` et des titres ponctués connus dans le lexique, même lorsqu'ils ne sont pas des descriptions autonomes.
-- Distinction du trait humain « Polyvalent » et de la propriété d'arme « Polyvalente » suivant le contexte.
-
-Les ajouts sont des traductions proposées du SRD anglais sous CC-BY-4.0 et des libellés observés ; ils ne sont pas présentés comme des formulations officielles AideDD. Les distances restent celles de Shard en feet.
-
-## Complément de la 1.17.3 issu de l'essai dans Brave
-
-Les fiches Shard des sous-espèces de goliath ajoutent la phrase de récupération des utilisations dans le même paragraphe que l'effet. Le SRD la place dans l'introduction commune de l'Ascendance gigante. Les fiches observées du feu et des pierres ont confirmé cette variante. La 1.17.3 ajoute cette phrase commune, les six titres courts et les petits libellés de descendance. Un test reconstruit les six fiches avec les classes `stdcontent`, `pre-wrap`, `inlinefirstp`, `b i` et `dodieroll` observées.
-
-## Vérification
-
-### Priorité aux descriptions de présentation — 1.17.4
-
-Le relevé a été étendu aux textes de présentation complets, et pas seulement aux noms et traits. Il comprend les 10 espèces et 24 lignages/sous-espèces du PHB 2024, les 12 classes et leurs 48 sous-classes, ainsi que les 16 historiques 2024. Les introductions, accroches en italique et préceptes en puces des sous-classes sont inclus. Les descriptions anciennes et propres au guide Shard visibles dans les mêmes catalogues sont également traduites.
-
-Au total, le relevé contient 153 fiches et 248 paragraphes ou puces. Quatre fiches anciennes n'ont pas de description dans Shard ; aucun texte n'a été inventé pour les remplir. Les 149 fiches qui comportent une présentation ont une correspondance pour chaque bloc. Le catalogue `audit/inventaires/descriptions-visibles.json` relie les fiches aux identifiants réellement chargés. Ces chiffres décrivent le relevé des présentations ; ils ne signifient pas que toutes les aptitudes des 48 sous-classes sont traduites.
-
-Les textes anglais ont été relevés avec la traduction temporairement désactivée, puis celle-ci a été réactivée. Les cartes conservent leur texte complet dans le DOM même quand leur aperçu est tronqué par `ll-8` ou `ll-10`. Les traductions sont placées par paragraphe dans `especes/`, `classes/` et `regles/` pour les historiques. Les textes sont des traductions proposées des contenus observés, avec leur livre source et leur édition ; ils ne sont pas étiquetés comme du SRD lorsqu'ils n'en proviennent pas.
-
-`tests/fixtures/narrative-cards.json` conserve le HTML des présentations relevées, sans données de personnage ou de campagne. `test-narratives.cjs` contrôle les 248 blocs, les 48 noms de sous-classe, les listes de préceptes, les italiques imbriqués, la présentation en carte et en fiche ouverte, un lien et un terme en gras, les valeurs de longévité et la restauration exacte du HTML.
-
-`npm run build` régénère les livrables et l'inventaire. `npm test` inclut les tests des packs et la suite `test-general-categories.cjs` : états avec liens, gras/italique, titres CSS Shard, dé avec icône, navigation, champs privés, règle inconnue, distinction des éditions et restauration exacte du HTML.
-
-L'inventaire `audit/couverture-traductions.json` sépare les libellés des blocs et compte aussi les descriptions/champs locaux uniques. Aucun pourcentage « tout Shard » n'est donné sans dénominateur connu.
-
-La 1.17.2 a été chargée manuellement dans Brave et ses traductions d'états ont été vérifiées sur la page réelle : titres en gras, paragraphes séparés et liens de Vitesse, Neutralisé et jets de sauvegarde. Les traits Forme de géant et Forte carrure et les tailles en feet ont également été vérifiés sur une fiche d'espèce. Les anciennes règles 2014 et les effets personnalisés de la liste ne sont pas remplacés par les descriptions 2024. Les effets En sang/Vision dans le noir/abris étaient alors à compléter ; ils sont couverts à partir de la 1.17.5, et les récits d'espèce relevés à partir de la 1.17.4.
-
-La 1.17.3 a ensuite été chargée et la fiche du goliath des pierres vérifiée dans Brave : descendance, titres en gras/italique, effet, phrase de récupération des utilisations, distances en feet et élément de dé `1d12` sont présents en français. Une capture a été conservée localement hors du dépôt. Les gestionnaires de clic des dés sont vérifiés dans les tests locaux ; aucun jet n'a été envoyé dans une partie pendant l'audit.
-
-La 1.17.4 a été chargée manuellement puis vérifiée dans Brave : les 19 cartes d'espèce de base affichent leurs 32 paragraphes en français, la fiche ouverte de l'aasimar reprend ses trois paragraphes complets, et les 29 cartes d'historique affichent leurs présentations traduites. Le sélecteur des quatre serments du paladin 2024 a également été contrôlé : accroches en italique, paragraphes complets et douze préceptes en puces sont traduits. Des captures locales des espèces et du sélecteur de sous-classe ont été conservées hors du dépôt. Les 48 présentations de sous-classe sont couvertes par les fixtures et tests ; le contrôle en direct de cette version a porté sur les quatre serments, pas sur les 48 fiches ouvertes individuellement. Les titres et paragraphes ajoutés à une fenêtre apparaissent progressivement pendant le parcours asynchrone du moteur.
-
-L'accès automatisé au tableau de bord Tampermonkey (`chrome-extension://`) est bloqué par la politique du navigateur. Les nouvelles versions doivent donc être chargées manuellement avant de vérifier leur rendu en direct dans Brave ; les tests locaux ne remplacent pas cette étape.
-
-### Catalogue des conditions et effets — 1.17.5
-
-Le relevé complet du catalogue Conditions contient 48 fiches : les 15 états anciens, les 15 états 2024 et les effets supplémentaires ou répétés entre livres. Les 47 fiches ayant une description en carte contiennent 122 paragraphes, puces et cellules non vides, dont six cellules numériques inchangées. Le catalogue `audit/inventaires/conditions-shard.json` référence les 116 blocs textuels et leurs 93 correspondances distinctes. La carte de Métamorphose n’a pas de description ; sa fiche ouverte contient une description de Transformation, auparavant traduite par la référence AideDD à la consultation et désormais couverte localement et incluse dans les fixtures.
-
-La 1.17.5 ajoute 60 blocs distincts, dont les trois libellés du tableau d’Épuisement, et six noms généraux. Les traductions respectent les effets affichés : Épuisement 2014 conserve son tableau et ses conditions de récupération, Étourdi 2014 conserve l’interdiction de se déplacer et la parole hésitante, tandis que les états 2024 gardent leurs effets propres. Les effets Inspiration et Renvoi affichés dans plusieurs livres restent les règles effectivement présentes, même lorsque Shard les associe au PHB 2024. Les pieds, chiffres et dés ne sont pas convertis.
-
-Les tests utilisent le HTML original des 48 cartes et de la fiche Transformation. Ils vérifient le tableau, les paragraphes et puces, les liens avec leurs adresses et gestionnaires, les deux dés `1d4` avec leurs icônes, les différences entre éditions et la restauration exacte de l’anglais. Une correction générale du moteur reconnaît les cellules de tableau comme des blocs autonomes : des libellés courts tels que Niveau, Effet et Mort n’étaient auparavant pas traduits lorsqu’ils se trouvaient dans un tableau entouré d’une longue description.
-
-Après chargement manuel de la 1.17.5 dans Brave, les 48 cartes ont été comparées au corpus : les 122 blocs non vides correspondent exactement aux attentes françaises, sans écart. La fiche ouverte d’Épuisement ancien confirme les sept lignes du tableau et les quatre paragraphes qui suivent ; celle de Métamorphose confirme le titre Transformation et sa description locale. Des captures du catalogue et du tableau ont été conservées hors du dépôt. Aucun état n’a été appliqué à un personnage et aucun jet n’a été envoyé dans une partie. `npm test`, `npm run translations:check` et `git diff --check` passent.
-
-### Dons et aptitudes de monstres — 1.17.6
-
-Deux catégories distinctes sont traitées : les dons de personnage, et les traits/actions du bestiaire. Le travail ne se limite pas à la tarasque.
-
-Le catalogue Dons de Shard a fourni 131 cartes et 20 fiches détaillées avant l’interruption du contrôle de Brave. Les descriptions détaillées manquantes sont complétées à partir des références anglaises publiques des dons 2024 et de l’extrait des faveurs épiques transmis par l’utilisateur. Les 75 dons PHB 2024, dont les 12 faveurs épiques et les styles de combat, disposent ainsi d’une description locale testée. Les cartes anciennes relevées restent distinctes des règles 2024, notamment Alerte. Les prérequis et les augmentations de caractéristique sont inclus. Les formulations françaises sont proposées ; elles ne sont pas présentées comme une transcription officielle des descriptions AideDD indisponibles. Les noms et termes français suivent les références AideDD disponibles.
-
-`audit/inventaires/phb/dons-2024.json` documente les sources. `tests/fixtures/feat-catalog.json` contient 223 extraits et 739 blocs ou champs attendus : cartes, fiches ouvertes, références détaillées et deux extraits utilisateur pour les Faveurs de compétence et de vitesse. Les trous laissés par les dés dans le texte copié ne sont pas interprétés comme des valeurs absentes des règles : les fiches détaillées et références anglaises servent à vérifier les dés. Une erreur OCR « S feet » de la référence de Télékinésiste est corrigée en « 5 feet », distance confirmée par les 1,50 m de la référence française ; l’adaptation est indiquée dans la fixture.
-
-La tarasque complète est traduite localement : quatre traits, cinq actions, Engloutissement en action bonus, l’introduction des actions légendaires et leurs deux options. Les 13 sections comportent 14 paragraphes, puisque l’évasion d’Engloutissement forme un paragraphe séparé dans l’extrait utilisateur. Le test conserve dix dés interactifs avec leurs icônes, les liens des sorts et états, les titres gras/italiques, les valeurs et les distances de Shard.
-
-Le bestiaire gagne également 217 traits locaux relevés sur 183 créatures, répartis entre neuf familles : Résistance à la magie, Résistance légendaire, Amphibie, Forme immuable, Pattes d’araignée, Monstre de siège, Repli aérien, Tactique de meute et Déplacement intangible. Les corps anglais exacts sont enregistrés dans le pack `monstres/` ; aucune expression générique ne traduit automatiquement une règle inconnue. Des traductions existantes sont réutilisées lorsque le corps est déjà connu. Ces traits ne rendent pas toutes les autres aptitudes des 183 créatures disponibles hors ligne. Le catalogue `traits-communs-2024.json` et son test contrôlent chaque corps avec son titre, les états liés, les dés, les différences de distance et les exceptions supplémentaires inconnues.
-
-Le rapprochement des références distantes a été étendu aux traits, actions, actions bonus, réactions et introductions légendaires. Les rubriques sont conservées ; les paragraphes ne sont pas associés par simple position. Les titres attestés sont utilisés en priorité, puis une signature de valeurs doit être unique dans les deux sens pour permettre une association sans titre connu. Les descriptions trop courtes ou présentant des valeurs incompatibles sont rejetées. Ce contrôle de structure et de valeurs ne constitue pas à lui seul une vérification sémantique de toute la traduction.
-
-L’index comprend 628 titres bilingues d’aptitudes. L’audit des 498 références publiques compte 2 171 blocs anglais, dont 1 912 associés et 259 à vérifier ; 30 références n’ont aucun bloc d’action français exploitable. D’autres références n’offrent que des fragments, ou diffèrent dans leurs règles ou valeurs. Ces chiffres mesurent les associations entre références, pas le rendu effectif de toutes les fiches Shard. Les listes de sorts et les autres structures hors paragraphes ne sont pas comptées comme des blocs d’action autonomes par ce relevé. Le corpus français complet du bestiaire n’est pas embarqué dans cet index.
-
-Le moteur reconnaît désormais les icônes de dés sans les déplacer ou les effacer, les abréviations `ft.`, les distances `30+ feet`, les inches et les miles présents dans l’anglais. Les références métriques compatibles reprennent les unités anglaises de Shard. Un libellé de don « Piercer » n’entraîne plus l’ajout du lien du monstre homonyme. Les termes identiques dans les deux langues, tels qu’Expertise, peuvent appartenir à un bloc traduit sans faire échouer sa reconstruction. Les doublons de formulations sont harmonisés dans leurs sources, en conservant notamment « Médecin de bataille » et « Imposture ».
-
-Les nouveaux tests vérifient également une référence distante simulée avec des titres inconnus, des paragraphes français dans un ordre différent, une introduction légendaire hors `.description`, deux traits sans chiffres qui nécessitent leurs titres attestés, des unités métriques et des valeurs incompatibles à refuser. Les clics des liens et des dés, leur identité DOM et la restauration exacte restent contrôlés sans envoyer de jet dans une partie.
-
-La 1.17.6 n’a pas encore été contrôlée en direct avec Tampermonkey. Brave continue de renvoyer « User unavailable » après les reconnexions signalées ; le chargement de cette version et son rendu restent à vérifier. Les 75 fiches détaillées de dons n’ont donc pas toutes été ouvertes dans Shard. Les descriptions des autres monstres, les aptitudes hors SRD des sous-classes et les contenus des suppléments restent des zones de couverture à poursuivre.
-
-Validation locale de la 1.17.6 : `npm run build`, `npm run translations:check`, l’ensemble de `npm test` et `git diff --check` passent. Les trois nouvelles suites couvrent les dons, la tarasque et les références distantes, puis les traits communs hors ligne. Le contrôle en direct reste en attente du chargement manuel et du retour de l’accès à Brave.
-
-## Espacement et paragraphes de sorts — 15 octobre 2026
-
-Les exemples utilisateur ont révélé deux défauts que les anciens tests ne distinguaient pas : une traduction française issue du PDF pouvait être mal espacée tout en correspondant à la source attendue par le test ; une description complète connue pouvait ne pas être reconnue lorsque Shard l’affichait en paragraphes séparés.
-
-La 1.17.11 corrige six descriptions structurées (Rage et Amélioration de caractéristique du Barbare, Sorts et Amélioration de caractéristique du Clerc, Sorts du Druide, Défense supérieure du Moine) et Sort prévenant. La recherche de mots fusionnés dans les corpus structurés a été suivie d’une correction manuelle ; aucune règle ne découpe automatiquement des mots français à l’exécution.
-
-Le pack `translations/dnd-2024/phb/sorts/traductions.json` ajoute 23 paragraphes et variantes vérifiés pour Communication avec les animaux, Trait ensorcelé, Rayon de lune, Animation des morts et Terrain hallucinatoire. Il conserve les distances anglaises, distingue l’annexe B du PHB du chapitre « Monstres » du SRD et prévoit les variantes sans dé visible relevées dans l’extrait utilisateur. Les paragraphes sont explicitement traduits, sans appariement par simple position.
-
-La fixture `tests/fixtures/spell-paragraphs-2024.json` et `tests/test-spell-paragraphs.cjs` vérifient ces textes hors ligne, avec liens, dés cliquables et icônes, une valeur de dé inconnue à laisser intacte et la restauration exacte du HTML anglais. Défense supérieure possède une attente lisible indépendante des données générées. Les tests Python contrôlent aussi les autres défauts d’espacement corrigés. Le raccourci `npm run test:corpus` exécute ces contrôles et la validation des sources ; la suite complète reste `npm test`.
-
-Cette passe vérifie les exemples signalés et les défauts similaires repérés dans les sources structurées. Elle ne constitue pas une relecture de tous les sorts ni une vérification en direct de cette version installée dans Tampermonkey. Les autres descriptions découpées différemment ou absentes du SRD peuvent encore nécessiter des paragraphes locaux explicites.
-
-## Dix rubriques de références personnalisées — 15 octobre 2026
-
-Le relevé de la 1.17.12 couvre les cartes et les fiches intégrales des dix types demandés. Les listes ont été parcourues jusqu’à leur fin, notamment les manifestations chargées progressivement. Les titres, sources et paragraphes des cartes ont été comparés aux fiches ouvertes.
-
-| Rubrique | Fiches ouvertes |
-| --- | ---: |
-| Maladies | 3 |
-| Ascendances draconiques | 10 |
-| Manifestations occultes | 79 |
-| Styles de combat | 12 |
-| Options de manœuvre | 20 |
-| Propriétés de botte | 8 |
-| Métamagie | 18 |
-| Fiches de référence : Magie sauvage | 1 |
-| Bienfaits de pacte de l’Occultiste | 3 |
-| Bottes d’arme | 38 |
-| Total | 192 |
-
-347 correspondances sont ajoutées, y compris les prérequis séparés ou entre parenthèses, les variantes des paragraphes du Manoir et la graphie corrigée « battleaxe » en complément de « batteaxe » observée dans Shard. Les effets des versions anciennes et 2024 ne sont pas réécrits les uns à partir des autres. Le nom précis du livre est conservé ; les textes du guide Shard sans millésime restent `any`, même dans le corpus historique.
-
-Le navigateur intégré n’exposait pas le panneau Tampermonkey. Le même analyseur du userscript a donc été exécuté localement sur les HTML relevés, puis relancé après les ajouts. Les 192 cartes et fiches représentent 1 279 blocs contrôlés, 616 liens et 63 dés cliquables. Les cellules, fusions de lignes et colonnes de la table de Magie sauvage et la restauration exacte du HTML anglais sont vérifiées. Les candidats restants de l’analyseur sont les noms de livres et la notation d’un dé ; aucun reliquat de description n’est conservé.
-
-Ce contrôle a également révélé que la graphie « œil du mage » d’une description SRD ne concordait pas avec le nom « Oeil du mage » utilisé par un lien AideDD. Le moteur reconnaît désormais ces variantes de ligature pour conserver le lien et traduire le paragraphe entier.
-
-L’inventaire est dans `audit/inventaires/references-personnalisees.json`, les HTML et attentes dans `tests/fixtures/custom-references.json`, et le résultat de `npm run test:references` dans `audit/generes/references-personnalisees.json`. `validationLocale` est renseignée pour les dix rubriques du périmètre ; `traductionIntegraleValidee` reste distincte. Les autres bibliothèques, les fiches cibles des liens de sorts et monstres et le rendu de la version installée dans Tampermonkey restent à contrôler. Les objets ne font pas partie de cette passe.
+Après une correction, relancer les contrôles pertinents et l’audit concerné avant de réutiliser son compteur. Les bilans ponctuels remplacés par des fixtures et tests sont retirés ; les inventaires nécessaires aux tests, les sources et les candidats non revérifiés restent conservés. Le [guide de contribution](AJOUTER-DES-TRADUCTIONS.md) décrit les variantes, la validation et les diagnostics locaux.
