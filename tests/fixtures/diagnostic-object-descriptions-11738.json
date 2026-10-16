@@ -1,0 +1,26 @@
+{
+  "scriptVersion": "1.17.38",
+  "source": "Rapport utilisateur du 16 octobre 2026",
+  "cases": [
+    {
+      "en": "Incorporeal Movement. The avatar can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.",
+      "fr": "Déplacement intangible. L’avatar peut traverser les autres créatures et les objets comme s’ils étaient un terrain difficile. Il subit 5 (1d10) dégâts de force s’il termine son tour à l’intérieur d’un objet."
+    },
+    {
+      "en": "Turning Immunity. The avatar is immune to features that turn undead.",
+      "fr": "Immunité au renvoi. L’avatar est immunisé contre les aptitudes qui renvoient les morts-vivants."
+    },
+    {
+      "en": "Reaping Scythe. The avatar sweeps its spectral scythe through a creature within 5 feet of it, dealing 7 (1d8 + 3) slashing damage plus 4 (1d8) necrotic damage.",
+      "fr": "Faux faucheuse. L’avatar fait passer sa faux spectrale à travers une créature située dans un rayon de 5 feet de lui, lui infligeant 7 (1d8 + 3) dégâts tranchants plus 4 (1d8) dégâts nécrotiques."
+    },
+    {
+      "en": "Each of the quiver's three compartments connects to an extradimensional space that allows the quiver to hold numerous items while never weighing more than 2 pounds. The shortest compartment can hold up to sixty arrows, bolts, or similar objects. The midsize compartment holds up to eighteen javelins or similar objects. The longest compartment holds up to six long objects, such as bows, quarterstaffs, or spears.",
+      "fr": "Chacun des trois compartiments du carquois donne accès à un espace extradimensionnel qui lui permet de contenir de nombreux objets sans jamais peser plus de 2 pounds. Le compartiment le plus court peut contenir jusqu’à soixante flèches, carreaux ou objets similaires. Le compartiment intermédiaire peut contenir jusqu’à dix-huit javelines ou objets similaires. Le compartiment le plus long peut contenir jusqu’à six objets longs, comme des arcs, des bâtons de combat ou des lances."
+    },
+    {
+      "en": "You can draw any item the quiver contains as if doing so from a regular quiver or scabbard.",
+      "fr": "Vous pouvez sortir n’importe quel objet du carquois comme vous le feriez d’un carquois ou d’un fourreau ordinaire."
+    }
+  ]
+}
