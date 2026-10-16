@@ -2,6 +2,8 @@ const fs = require('node:fs');
 const assert = require('node:assert/strict');
 const {JSDOM} = require('jsdom');
 const rows = JSON.parse(fs.readFileSync('tests/fixtures/spell-paragraphs-2024.json', 'utf8'));
+const materials = require('./fixtures/spell-materials-11743.json');
+for(const row of materials)rows.push({...row,id:'spell.material.'+row.spell});
 rows.push(...JSON.parse(fs.readFileSync('tests/fixtures/spell-audit-additions-11734.json', 'utf8')).cases.map((row, i) => ({ ...row, spell: row.name, id: 'spell.audit-11734.' + i })));
 // Shard Player’s Guide conserve aussi la formulation de 2014 : les dés
 // cliquables omis par le copier-coller doivent rester dans le texte traduit.
@@ -32,12 +34,13 @@ const blocks = [...rows, monk].map(row => {
   return p;
 });
 // La fiche signalée a déjà son libellé français ; le matériau reste dans un autre nœud.
-const componentLayouts = ['Components:', 'Composantes:'].map(label => {
+const componentLayouts = [{en:'a sliver of glass',fr:'un éclat de verre'},...materials].flatMap(row => ['Components:', 'Component:', 'Composantes:', 'Composante:'].map(label => {
   const p = d.createElement('p');
-  p.innerHTML = '<strong>' + label + '</strong> V, S, M (<span>a sliver of glass</span>)';
+  p.innerHTML = '<strong>' + label + '</strong> V, S, M (<span>' + escape(row.en) + '</span>)';
   main.append(p);
-  return {p, heading: p.querySelector('strong'), material: p.querySelector('span')};
-});
+  const expectedHeading=/s:$/.test(label)?'Composantes':'Composante';
+  return {p, expected:expectedHeading+' : V, S, M ('+row.fr+')', expectedHeading, heading: p.querySelector('strong'), material: p.querySelector('span')};
+}));
 const unknown = d.createElement('p');
 // Une valeur de dé différente n’est pas une nouvelle règle à déduire automatiquement.
 unknown.textContent = rows.find(row => row.id === 'spell.2024.witch-bolt.subsequent-turns').en.replace('1d12', '1d20');
@@ -61,10 +64,11 @@ async function wait(predicate) {
   try {
     w.eval(fs.readFileSync('outputs/shard-dnd-fr.user.js', 'utf8'));
     await wait(() => blocks.every((p, i) => p.textContent === [...rows, monk][i].fr));
-    await wait(() => componentLayouts.every(({p}) => /^Composantes\s*: V, S, M \(un éclat de verre\)$/.test(p.textContent)));
-    for (const {p, heading, material} of componentLayouts) {
+    const plain = text => text.replace(/\s*:\s*/g, ': ').trim();
+    await wait(() => componentLayouts.every(({p,expected}) => plain(p.textContent)===plain(expected)));
+    for (const {p, heading, material, expectedHeading} of componentLayouts) {
       assert.equal(p.querySelector('strong'), heading);assert.equal(p.querySelector('span'), material);
-      assert.match(heading.textContent, /^Composantes\s*:$/);
+      assert.equal(plain(heading.textContent),expectedHeading+':');
     }
     assert.equal(blocks.at(-1).parentElement.querySelector('h2').textContent, 'Niveau 18 : Défense supérieure');
     assert.equal(unknown.textContent, rows.find(row => row.id === 'spell.2024.witch-bolt.subsequent-turns').en.replace('1d12', '1d20'));

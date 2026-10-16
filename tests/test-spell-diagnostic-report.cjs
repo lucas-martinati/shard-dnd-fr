@@ -2,6 +2,10 @@ const fs=require('node:fs'),assert=require('node:assert/strict'),{JSDOM}=require
 const previous=JSON.parse(fs.readFileSync('tests/fixtures/diagnostic-spell-descriptions-11719.json','utf8'));
 const fixture=JSON.parse(fs.readFileSync('tests/fixtures/diagnostic-spell-descriptions-11720.json','utf8'));
 const cases=[...fixture.cases,...fixture.extraCases];
+for(const row of require('./fixtures/spell-materials-11743.json')){
+ cases.push({...row,name:row.spell});
+ for(const label of ['Components','Component','Composantes','Composante'])cases.push({name:row.spell,en:label+': V, S, M ('+row.en+')',fr:(label.endsWith('s')?'Composantes':'Composante')+' : V, S, M ('+row.fr+')'});
+}
 const report11741=JSON.parse(fs.readFileSync('tests/fixtures/spell-report-11741.json','utf8'));
 assert.equal(report11741.cases.length,report11741.reportedMissingCount);cases.push(...report11741.cases);
 assert.equal(fixture.previouslyCovered,23);assert.equal(fixture.newCorrespondences,95);assert.equal(fixture.attachmentTruncated,true);

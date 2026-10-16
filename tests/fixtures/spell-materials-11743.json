@@ -1,0 +1,32 @@
+[
+  {
+    "spell": "Conjure Barrage / Conjure Volley",
+    "en": "a Melee or Ranged weapon worth at least 1 CP",
+    "fr": "une arme de corps à corps ou à distance d’une valeur d’au moins 1 pc"
+  },
+  {
+    "spell": "Feign Death",
+    "en": "a pinch of graveyard dirt",
+    "fr": "une pincée de terre de cimetière"
+  },
+  {
+    "spell": "Hunger of Hadar",
+    "en": "a pickled tentacle",
+    "fr": "un tentacule conservé dans du vinaigre"
+  },
+  {
+    "spell": "Jallarzi’s Storm of Radiance",
+    "en": "a pinch of phosphorus",
+    "fr": "une pincée de phosphore"
+  },
+  {
+    "spell": "Jump",
+    "en": "a grasshopper’s hind leg",
+    "fr": "une patte arrière de sauterelle"
+  },
+  {
+    "spell": "Armor of Agathys",
+    "en": "a shard of blue glass",
+    "fr": "un éclat de verre bleu"
+  }
+]

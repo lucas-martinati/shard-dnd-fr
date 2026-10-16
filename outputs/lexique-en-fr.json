@@ -1,5 +1,5 @@
 {
-  "version": "1.17.43",
+  "version": "1.17.44",
   "reference": "Noms AideDD 2024 prioritaires. Références SRD disponibles séparément. Autres entrées identifiées.",
   "license": "Code MIT ; contenu SRD CC-BY-4.0 https://creativecommons.org/licenses/by/4.0/",
   "sources": [
@@ -38131,6 +38131,48 @@
       "en": "a sliver of glass",
       "fr": "un éclat de verre",
       "source": "Traduction proposée de l’extrait utilisateur · Nuée de dagues, composante matérielle · D&D 2024 PHB · 16 octobre 2026",
+      "category": "vocabulaire",
+      "aliases": []
+    },
+    {
+      "en": "a Melee or Ranged weapon worth at least 1 CP",
+      "fr": "une arme de corps à corps ou à distance d’une valeur d’au moins 1 pc",
+      "source": "Traduction proposée de l’extrait utilisateur · Conjure Barrage / Conjure Volley, composantes matérielles · D&D 2024 PHB · 16 octobre 2026",
+      "category": "vocabulaire",
+      "aliases": []
+    },
+    {
+      "en": "a pinch of graveyard dirt",
+      "fr": "une pincée de terre de cimetière",
+      "source": "Traduction proposée de l’extrait utilisateur · Feign Death, composantes matérielles · D&D 2024 PHB · 16 octobre 2026",
+      "category": "vocabulaire",
+      "aliases": []
+    },
+    {
+      "en": "a pickled tentacle",
+      "fr": "un tentacule conservé dans du vinaigre",
+      "source": "Traduction proposée de l’extrait utilisateur · Hunger of Hadar, composantes matérielles · D&D 2024 PHB · 16 octobre 2026",
+      "category": "vocabulaire",
+      "aliases": []
+    },
+    {
+      "en": "a pinch of phosphorus",
+      "fr": "une pincée de phosphore",
+      "source": "Traduction proposée de l’extrait utilisateur · Jallarzi’s Storm of Radiance, composantes matérielles · D&D 2024 PHB · 16 octobre 2026",
+      "category": "vocabulaire",
+      "aliases": []
+    },
+    {
+      "en": "a grasshopper’s hind leg",
+      "fr": "une patte arrière de sauterelle",
+      "source": "Traduction proposée de l’extrait utilisateur · Jump, composantes matérielles · D&D 2024 PHB · 16 octobre 2026",
+      "category": "vocabulaire",
+      "aliases": []
+    },
+    {
+      "en": "a shard of blue glass",
+      "fr": "un éclat de verre bleu",
+      "source": "Traduction proposée de l’extrait utilisateur · Armor of Agathys, composantes matérielles · D&D 2024 PHB · 16 octobre 2026",
       "category": "vocabulaire",
       "aliases": []
     },
