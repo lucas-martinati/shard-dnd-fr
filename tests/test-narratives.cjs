@@ -7,7 +7,7 @@ assert.equal(manifest.filter(f=>f.type==='subspecies'&&f.edition==='2024').lengt
 assert.equal(manifest.filter(f=>f.type==='class'&&f.edition==='2024').length,12);
 assert.equal(manifest.filter(f=>f.type==='subclass').length,48);
 assert.equal(manifest.filter(f=>f.type==='background'&&f.edition==='2024').length,16);
-const expectedNames=fs.readFileSync('translations/dnd-2024/phb/classes/creation-2024.tsv','utf8').split('\n').slice(0,48).map(line=>line.split('|')[0]).sort();
+const expectedNames=Object.values(JSON.parse(fs.readFileSync('translations/dnd-2024/phb/classes/sous-classes.json','utf8'))).flat().sort();
 assert.deepEqual(manifest.filter(f=>f.type==='subclass').map(f=>f.name).sort(),expectedNames);
 for(const name of ['Barbarian','Bard','Cleric','Druid','Fighter','Monk','Paladin','Ranger','Rogue','Sorcerer','Warlock','Wizard'])assert.equal(manifest.filter(f=>f.type==='subclass'&&f.class===name).length,4);
 assert.deepEqual(fixtures.map(f=>f.id),manifest.map(f=>f.id));

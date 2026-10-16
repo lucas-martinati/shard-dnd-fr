@@ -23,11 +23,14 @@ def book_report():
         translation_directory = ROOT / book['dossierTraductions']
         for pack_path in sorted(translation_directory.rglob('traductions.json')):
             entries = json.loads(pack_path.read_text())['entries']
-            counts[pack_path.parent.name] = {
+            added = {
                 'entreesRattachees': len(entries),
                 'libelles': sum(e.get('kind', 'description') == 'term' for e in entries),
                 'blocs': sum(e.get('kind', 'description') == 'description' for e in entries),
             }
+            total = counts.setdefault(pack_path.parent.name, {name: 0 for name in added})
+            for name, count in added.items():
+                total[name] += count
         structured = {}
         if book['id'] == 'dnd-2024-phb':
             blocks, options = option_texts()
@@ -45,14 +48,8 @@ def report():
     names = Counter(CATALOG_CATEGORIES[row['kind']] for row in json.loads((ROOT/'sources-generation/catalogues/aidedd-2024.json').read_text()))
     categories = {}
     for category in CATEGORIES:
-        terms = set()
-        for path in (ROOT/'translations').rglob('*.tsv'):
-            if path.parent.name != category:
-                continue
-            for line in path.read_text().splitlines():
-                if line.count('|')==1 and not line.split('|')[0].isdecimal():terms.add(line.split('|')[0])
         rows = [row for row in packs if row['category']==category]
-        categories[category] = {'nomsCatalogueAideDD2024':names[category], 'entreesDictionnaires':len(terms), 'libellesEditables':sum(r['kind']=='term' for r in rows), 'blocsEditables':sum(r['kind']=='description' for r in rows)}
+        categories[category] = {'nomsCatalogueAideDD2024':names[category], 'libellesEditables':sum(r['kind']=='term' for r in rows), 'blocsEditables':sum(r['kind']=='description' for r in rows)}
     classes = json.loads((ROOT/'audit/generes/classes-srd.json').read_text())
     options = json.loads((ROOT/'audit/generes/options-srd.json').read_text())
     per_class = {}
@@ -71,6 +68,7 @@ def report():
     monster_references = json.loads((ROOT/'audit/inventaires/mm/references-2024.json').read_text())['fiches']
     common_traits = json.loads((ROOT/'audit/inventaires/mm/traits-communs-2024.json').read_text())['traits']
     pack_ids = {r['id'] for r in packs}
+    guide = json.loads((ROOT/'tests/fixtures/shard-players-guide-v1.json').read_text())
     if any(ident not in pack_ids for f in presentations for ident in f['paragraphes']):
         raise ValueError('Le catalogue des descriptions visibles référence un bloc absent des packs')
     if any(ident not in pack_ids for f in shard_conditions + condition_details for ident in f['sections']):
@@ -80,6 +78,7 @@ def report():
         'objectifReferencesAccueil':json.loads((ROOT/'audit/perimetre-references.json').read_text()),
         'categories':categories,
         'corpusLocaux':{
+            'equipementGuideShard':{'releve':guide['date'],'chapitres':2,'listeEquipement':1,'noticesObjetsMagiques':len(guide['magic']),'fichesOuvertes':len(guide['items']),'controle':'audit/generes/guide-equipment.json'},
             'descriptionsEtChampsLocauxUniques':len({key(r['en']) for r in complete}),
             'presentationsShard':{
                 'fichesRelevees':len(presentations),

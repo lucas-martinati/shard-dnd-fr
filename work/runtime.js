@@ -6,7 +6,6 @@
   const searchKey=s=>normalize(s).normalize('NFD').replace(/\p{M}/gu,'').replace(/œ/g,'oe').replace(/æ/g,'ae');
   const escapeRE = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   const pattern = s => escapeRE(s).replace(/'/g, "['’‘ʼ]").replace(/ /g, '\\s+').replace(/-/g, '[-‐‑–]');
-  const parse = raw => raw.trim().split('\n').map(line => { const i = line.indexOf('|'); return [line.slice(0,i), line.slice(i+1)]; });
   let settings;
   try { settings = JSON.parse(GM_getValue(KEY, '{}')); } catch { settings = {}; }
   if (!settings || typeof settings !== 'object' || Array.isArray(settings)) settings = {};
@@ -33,7 +32,7 @@
   let entries, tokenRE, phraseRE, names, customKeys, effectiveMeta, aideddIndex;
   const bundledIndex=new Map(AIDEDD_CATALOG.map(row=>[normalize(row.en)+'|'+row.kind,row]));
   const legacyIndex=new Map();
-  for(const row of LEGACY_CATALOG){
+  for(const row of REFERENCE_CATALOG_2014){
     const key=normalize(row.en);
     if(!legacyIndex.has(key))legacyIndex.set(key,[]);
     legacyIndex.get(key).push(row);
@@ -49,9 +48,7 @@
     for(const row of aideddRows){const key=normalize(row.en);if(!aideddIndex.has(key))aideddIndex.set(key,[]);aideddIndex.get(key).push(row);}
     entries = new Map();
     customKeys = new Set(Object.keys(custom).map(normalize));
-    for (const data of [MONSTERS, SPELLS, TERMS, EQUIPMENT, INTERFACE, RULES2024, MAGICITEMS, GM, EXPANSION, DESCRIPTIONS, DRUID, CREATION, CANONICAL_SPELLS, CANONICAL_FEATURES, CANONICAL_COMBAT, COMBAT_DESCRIPTIONS, FEATURE_TERMS]) {
-      for (const [en,fr] of parse(data)) entries.set(normalize(en), {en,fr});
-    }
+    for (const [en,fr] of TRANSLATION_TERMS) entries.set(normalize(en), {en,fr});
     effectiveMeta={...TERM_META};
     if(aideddNames)for(const row of aideddRows){
       const key=normalize(row.en),previous=entries.get(key),old=effectiveMeta[key]||{};
@@ -63,13 +60,13 @@
     for (const [en,fr] of Object.entries(custom)) {
       if (en.trim() && typeof fr === 'string') entries.set(normalize(en), {en,fr});
     }
-    names = new Set([SPELLS, CANONICAL_SPELLS, MONSTERS, MAGICITEMS, EQUIPMENT].flatMap(data => parse(data).map(([en]) => normalize(en))));
+    names = new Set(Object.keys(TERM_META).filter(key=>TERM_META[key].usage.includes('name')));
     if(aideddNames)for(const row of aideddRows)names.add(normalize(row.en));
     const keys = [...entries.keys()].sort((a,b) => b.length-a.length);
     // Un seul remplacement par passe : aucun remplacement récursif du français produit.
     tokenRE = new RegExp('(?<![\\p{L}\\p{N}_])(?:' + keys.map(pattern).join('|') + ')(?![\\p{L}\\p{N}_])', 'giu');
     // Dans une phrase inconnue, ne traduire que les groupes de mots D&D explicites.
-    const explicitNames = new Set([SPELLS,CANONICAL_SPELLS].flatMap(data=>parse(data).map(([en])=>normalize(en))));
+    const explicitNames = new Set(Object.keys(TERM_META).filter(key=>TERM_META[key].usage.includes('spell')));
     if(aideddNames)for(const row of aideddRows)if(row.kind==='spell')explicitNames.add(normalize(row.en));
     // Les mots courants anglais pouvant aussi désigner un sort restent ambigus en prose.
     const ambiguous = new Set(['light','aid','alarm','command','friends','jump','sleep','fear','darkness','web','daylight','silence','message','wish','gate','hex','detect','move','charge']);
@@ -86,11 +83,6 @@
     });
     revision++;
   }
-  const referenceByEnglish = new Map(SPELL_REFERENCE.map(r=>[normalize(r.en),r]));
-  for (const [alias,canonical] of Object.entries(REFERENCE_ALIASES)) {
-    const ref=referenceByEnglish.get(normalize(canonical));if(ref)referenceByEnglish.set(normalize(alias),ref);
-  }
-  const referenceBodies = new Map(SPELL_REFERENCE.map(r=>[normalize(r.englishBody),r.frenchBody]));
   const ordinal = n => n === '1' ? '1er' : n+'e';
   function preserveFeet(source,french){
     // Remettre les distances attestées dans le texte anglais, sans toucher aux dés
@@ -119,8 +111,6 @@
     const complete=lookupPair(inlineKey(source));
     const surround = text => source.match(/^\s*/)[0] + text + source.match(/\s*$/)[0];
     if(complete&&!customKeys.has(normalize(source)))return surround(preserveFeet(source,complete));
-    const fullDescription=referenceBodies.get(normalize(source));
-    if (fullDescription && !customKeys.has(normalize(source))) return surround(preserveFeet(source,fullDescription));
     const output = (entry, matched, allowBilingual) => {
       const key = normalize(matched);
       if (!customKeys.has(key)) {
@@ -204,9 +194,9 @@
       const local=node.parentElement.closest('div');
       // Un conteneur de fiche n’est pas un paragraphe : ses titres, tableaux
       // et contrôles se traduisent indépendamment des descriptions voisines.
-      if(local&&!local.querySelector('div,p,li,table,h1,h2,h3,input,button,.description,.pre-wrap'))prose=local;
+      if(local&&!local.querySelector('div,p,li,table,h1,h2,h3,h4,h5,h6,input,button,.description,.pre-wrap'))prose=local;
     }
-    if(node.parentElement.closest('h1,h2,h3,[role="heading"],.titletext,button'))prose=null;
+    if(node.parentElement.closest('h1,h2,h3,h4,h5,h6,[role="heading"],.titletext,button'))prose=null;
     const proseText=prose?blockEnglish(prose):'';
     const fragments=proseText.match(/\b(?:the|you|your|a|an|can|must|within|that|of|is|to|and|or|for|with)\b/gi)||[];
     const partialProse=fragments.length>=3 && proseText.length>35 && proseText.length<6000 && inlineKey(proseText)!==inlineKey(original) && !completePairs.has(inlineKey(proseText));
@@ -381,9 +371,7 @@
   const searchBox=document.createElement('section');searchBox.setAttribute('aria-label','Suggestions de recherche D&D en français');
   searchRoot.append(searchStyle,searchBox);document.body.append(searchHost);
   let nativeTarget=null, nativeHits=[], activeHit=-1, applyingSearch=false;
-  const searchableKeys=new Set([SPELLS,MONSTERS,EQUIPMENT,MAGICITEMS,TERMS,EXPANSION,CREATION,CANONICAL_SPELLS,CANONICAL_FEATURES,CANONICAL_COMBAT].flatMap(data=>parse(data).filter(([en])=>en.length<100).map(([en])=>normalize(en))));
-  // Les packs récents contiennent aussi des noms absents des anciens TSV.
-  for(const [en]of parse(FEATURE_TERMS))if(['équipement','monstre','sort','don','aptitude de classe','trait d’espèce'].includes(TERM_META[normalize(en)]?.category))searchableKeys.add(normalize(en));
+  const searchableKeys=new Set(Object.keys(TERM_META).filter(key=>TERM_META[key].usage.includes('search')));
   function isSearchInput(el) {
     if (!(el instanceof HTMLInputElement) || el.disabled || el.readOnly || el.closest('[data-shard-fr-ignore]')) return false;
     if (!['text','search'].includes(el.type)) return false;
@@ -685,7 +673,12 @@
       // Le lien d’action peut être nommé « Esquiver » dans le lexique,
       // alors que le SRD et les paragraphes utilisent « l’action Esquive ».
       const actionNoun=normalize(match[1])==='dodge'?'Esquive':null;
-      const values=[translate(en,source),actionNoun?actionNoun+match[2]:null,heading?heading+match[2]:null,entry?entry.fr+match[2]:null,...(heading&&match[2]?[heading+'.',heading+':']:[]),...(/[,;]/.test(match[2])?[heading,entry?.fr]:[]),en,en.replace(/[\uE000-\uF8FF]/g,'')].filter(Boolean);
+      const aliases=(termMeta(normalize(match[1])).aliases||[]).map(alias=>alias+match[2]);
+      // Un lien Shard peut porter le possessif anglais d’un nom propre.
+      // Le français conserve le nom, mais exprime la possession hors du lien.
+      const possessive=/^([\p{L} -]+)['’]s$/u.exec(match[1]);
+      const properName=possessive&&(entries.has(normalize(possessive[1]))||/^[A-Z]/.test(possessive[1]))?translate(possessive[1],source):null;
+      const values=[translate(en,source),actionNoun?actionNoun+match[2]:null,heading?heading+match[2]:null,entry?entry.fr+match[2]:null,...aliases,properName,...(heading&&match[2]?[heading+'.',heading+':']:[]),...(/[,;]/.test(match[2])?[heading,entry?.fr]:[]),en,en.replace(/[\uE000-\uF8FF]/g,'')].filter(Boolean);
       // Le SRD écrit « œil » là où certains noms AideDD emploient « oeil ».
       // Reconnaître les deux graphies pour garder le lien dans le paragraphe traduit.
       return [...new Set(values.flatMap(value=>[value,value.replace(/œ/gi,'oe'),value.replace(/oe/gi,'œ')]).map(s=>s.trim()))];
@@ -1016,13 +1009,13 @@
   const frenchClue=/[àâçéèêëîïôùûüÿœæ]|\b(?:le|la|les|des|du|une|un|vos|vous|votre|avec|pour|dans|sont)\b/i;
   const diagnosticSelector='p,li,td,th,h1,h2,h3,h4,h5,h6,[role="heading"],.titletext,button,label,option,.description,.pre-wrap,.stdcontent,div';
   const diagnosticIgnoredLabels=new Set(['source','sources','shard','shard tabletop','shard tabletap']);
-  const diagnosticBookLabel=/^(?:d\s*&\s*d(?:\s+(?:2014|2024))?\s+(?:phb|mm|dmg|player's handbook|monster manual|dungeon master's guide)|(?:player's handbook|monster manual|dungeon master's guide)(?:\s*\((?:2014|2024)\))?|srd\s+5\.[12](?:\.\d+)?|shard player's guide(?:\s+volume\s+\d+)?)$/i;
+  const diagnosticBookLabel=/^(?:d\s*&\s*d(?:\s+(?:2014|2024))?\s+(?:phb|mm|dmg|player's handbook|monster manual|dungeon master's guide)|(?:player's handbook|monster manual|dungeon master's guide)(?:\s*\((?:2014|2024)\))?|srd\s+5\.[12](?:\.\d+)?|shard (?:player's guide|bestiary)(?:\s+volume\s+\d+)?)$/i;
   function ignoredDiagnosticLabel(source,books){
     // Correspondances complètes uniquement : ne pas masquer une règle qui cite un livre.
     const normalized=normalize(source);
     if(diagnosticIgnoredLabels.has(normalized.replace(/[.:]$/,'').trim()))return true;
     const label=normalized.replace(/^sources?(?:\s*[.:]\s*|\s+)/,'').replace(/[.:]$/,'').trim();
-    return diagnosticIgnoredLabels.has(label)||books.has(label)||diagnosticBookLabel.test(label);
+    return diagnosticIgnoredLabels.has(label)||books.has(label)||diagnosticBookLabel.test(label)||(/^sources?[.:\s]/.test(normalized)&&label.split(/\s*[,;]\s*/).every(part=>books.has(part)||diagnosticBookLabel.test(part)));
   }
   function diagnosticFormulaOnly(source){
     // Les variables Shard restent opaques, même quand le reste du paragraphe est traduit.

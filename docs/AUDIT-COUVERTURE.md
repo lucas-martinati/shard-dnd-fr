@@ -1,6 +1,6 @@
 # Audit de couverture — état du 16 octobre 2026
 
-Ce document résume les contrôles utiles pour la version 1.17.37. Les anciens bilans de versions et de migrations restent dans l’historique Git. Les traductions sont dans `translations/`, les exemples de non-régression dans `tests/fixtures/` et les inventaires conservés dans [audit/](../audit/README.md).
+Ce document résume les contrôles utiles pour la version 1.17.38. Les anciens bilans de versions et de migrations restent dans l’historique Git. Les traductions sont dans `translations/`, les exemples de non-régression dans `tests/fixtures/` et les inventaires conservés dans [audit/](../audit/README.md).
 
 Les tests locaux vérifient les extraits relevés, leurs règles, leurs liens, leurs dés et leur restauration en anglais. Ils ne valident pas à eux seuls tous les écrans, tous les suppléments ni le rendu de la version installée dans Tampermonkey. Aucun livre n’est déclaré intégralement traduit.
 
@@ -47,7 +47,7 @@ Le [relevé des noms d’objets AideDD](../audit/inventaires/noms-objets-aidedd.
 
 Quatre noms de supplément restent à contextualiser : **Fuzz Mites**, **Rock Garfin**, **Fuzz Golem** et **Giant Fuzz Golem**. Le fragment `magical , Unknown (Magic)15,` du rapport d’objets reste également à examiner dans sa fiche. Ces éléments ne sont pas déclarés traduits par déduction.
 
-Le [relevé historique du guide Shard](../audit/generes/shard-players-guide-v1.json) conserve les résultats de la version 1.17.28 : 734 notices et fiches examinées, dont 319 sorts, 239 notices d’objets magiques, 58 notices d’équipement et 118 fiches supplémentaires. Ses 1 941 signalements sont conservés par fiche pour une nouvelle vérification. Ils ne constituent pas une liste de manques confirmés en 1.17.37. Les descriptions des 1 255 entrées non ouvertes individuellement dans la liste d’équipement restent hors de ce contrôle.
+Le [contrôle de l’équipement du guide Shard](../audit/generes/guide-equipment.json) couvre le relevé du 16 octobre : chapitres Équipement et Objets magiques, 239 notices et 1 372 fiches ouvertes individuellement dans la liste d’équipement. `npm run test:guide` contrôle les blocs, tableaux, liens, dés et poids, puis restaure le contenu anglais. Le test de migration contrôle aussi les 5 004 correspondances historiques, leurs alias et leurs usages. Les packs du guide sont dans `translations/2014/shard-players-guide-v1/`. Le [relevé antérieur](../audit/generes/shard-players-guide-v1.json), en version 1.17.28, conserve uniquement les 319 sorts : les anciens signalements d’équipement sont retirés après leur remplacement. Ce travail ne valide pas les autres chapitres du guide.
 
 Les anciennes règles importées conservent leurs effets exacts. Les variantes 2014 et 2024 ne sont pas réécrites les unes à partir des autres ; les noms propres et les textes sans millésime peuvent rester en édition `any`.
 

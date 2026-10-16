@@ -7,8 +7,9 @@ from pathlib import Path
 # Les modules de génération restent dans work/.
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "work"))
 
-from translation_packs import key, load_packs, check_existing
+from translation_packs import key, load_packs, check_existing, deduplicate_descriptions
 from translations import audit
+from translation_coverage import book_report
 
 
 class PacksTest(unittest.TestCase):
@@ -103,6 +104,51 @@ class PacksTest(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'contradictoire'):
             load_packs(self.root)
         self.assertNotEqual(key('You can use this power.'), key("You can't use this power."))
+
+    def test_migrated_usages_and_aliases_survive_deduplication(self):
+        self.write([self.entry(usage=['inline', 'name'], aliases=['Ancien libellé'], labelCategory='aptitude de classe')], 'a.json')
+        self.write([self.entry(id='test.copy', usage=['search', 'inline'], aliases=['Autre nom'])], 'b.json')
+        row, = load_packs(self.root)
+        self.assertEqual(row['usage'], ['inline', 'name', 'search'])
+        self.assertEqual(row['aliases'], ['Ancien libellé', 'Autre nom'])
+        self.assertEqual(row['labelCategory'], 'aptitude de classe')
+        for usage in ['name', ['unknown'], ['name', 'name']]:
+            self.write([self.entry(usage=usage)], 'a.json')
+            with self.assertRaisesRegex(ValueError, 'usage'):
+                load_packs(self.root)
+
+    def test_description_deduplication_preserves_priority_and_provenance(self):
+        rows = [dict(en='A rule.', fr=fr, source=source) for fr, source in [
+            ('Première règle.', 'SRD'), ('Ancienne variante.', 'Ancien corpus'),
+            ('Règle corrigée.', 'Traduction de l’extrait fourni'),
+            ('Autre variante.', 'Autre corpus'),
+            ('Dernière correction.', 'Traduction proposée à partir du relevé')]]
+        unique, = deduplicate_descriptions(rows)
+        self.assertEqual(unique['fr'], 'Dernière correction.')
+        self.assertEqual(unique['sources'], [row['source'] for row in rows])
+        self.assertEqual(deduplicate_descriptions(rows[:2])[0]['fr'], 'Première règle.')
+        other = dict(en='Another rule.', fr='Autre règle.', source='SRD')
+        self.assertEqual(len(deduplicate_descriptions(rows + [other])), 2)
+        unit_variants = [dict(en=en, fr='La même portée.', source='SRD') for en in [
+            'A 10-foot range.', 'A 10 feet range.', 'A 10 ft. range.']]
+        self.assertEqual(len(deduplicate_descriptions(unit_variants)), 1)
+
+    def test_book_counts_include_nested_guide_packs(self):
+        root = Path(__file__).resolve().parents[1]
+        paths = ['translations/2014/objets/traductions.json',
+                 'translations/2014/shard-players-guide-v1/objets/traductions.json']
+        expected = sum(len(json.loads((root / path).read_text())['entries']) for path in paths)
+        book = next(book for book in book_report()['livres'] if book['id'] == 'dnd-2014')
+        self.assertEqual(book['packsRattachesParCategorie']['objets']['entreesRattachees'], expected)
+
+    def test_weapon_headings_do_not_split_feminine_endings(self):
+        for row in load_packs():
+            if row['en'].startswith(('Special.', 'Versatile.')):
+                self.assertNotRegex(row['fr'], r'^(?:Spécial|Polyvalent)\.\s+e\.\s', row['id'])
+            if row['en'].startswith(('You have disadvantage when you use a lance',
+                                     'A Large or smaller creature hit by a net',
+                                     'A Versatile weapon can be used')):
+                self.assertFalse(row['fr'].startswith('e. '), row['id'])
 
     def test_duplicate_ids_and_typo_fail(self):
         self.write([self.entry(), self.entry(en='Another text.')])

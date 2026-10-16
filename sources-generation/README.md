@@ -4,7 +4,7 @@ Ce dossier contient le registre technique et les catalogues de références util
 
 | Emplacement | Utilisation |
 | --- | --- |
-| `chemins.json` | Registre des chemins et ordre de lecture des dictionnaires ; conserve les priorités lors d’un déplacement |
+| `chemins.json` | Registre des chemins des corpus structurés lus par les générateurs |
 | `catalogues/aidedd-2024.json` | Noms, traductions et liens des références AideDD 2024 |
 | `catalogues/2014.json` | Références historiques utilisées pour les anciens contenus |
 
@@ -14,6 +14,6 @@ Les paragraphes de personnage 2024 sont maintenus dans les packs `translations/d
 
 Les outils sont dans `work/`. Leurs résultats intermédiaires sont dans `work/generated/` ; les fichiers distribués pour Tampermonkey restent dans `outputs/`. Le rapport de couverture est produit dans `audit/`.
 
-Voir [les constantes embarquées et leurs sources](../docs/DONNEES-GENEREES.md) pour le détail des TSV, packs, corpus et catalogues réellement chargés. Les noms historiques des constantes ne correspondent pas toujours au classement éditorial actuel.
+Voir [les constantes embarquées et leurs sources](../docs/DONNEES-GENEREES.md) pour le détail des packs, corpus et catalogues réellement chargés. Les constantes historiques ont été remplacées par les données issues des packs.
 
 Les aptitudes et options issues du SRD sont désormais éditables dans `translations/dnd-2024/phb/classes/descriptions-srd.json` et `options-srd.json`. Les générateurs les lisent directement ; `data/` et le découpage des PDF ont été retirés. Voir [leur provenance](../translations/dnd-2024/phb/SOURCES-SRD.md).

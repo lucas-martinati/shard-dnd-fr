@@ -4347,6 +4347,4487 @@
       "en": "Using a Higher-Level Spell Slot. The Radiant and Thunder damage increase by 1d10 for each spell slot level above 5.",
       "fr": "Emplacement de niveau supérieur. Les dégâts radiants et les dégâts de tonnerre augmentent de 1d10 pour chaque niveau d’emplacement de sort supérieur à 5.",
       "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · rapport 1.17.36 du 16 octobre 2026"
+    },
+    {
+      "id": "corpus.1f3909509ad6af6d",
+      "kind": "term",
+      "en": "Acid Splash",
+      "fr": "Aspersion acide",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "aliases": [
+        "Aspersion d’acide"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.440837a7ea38c38a",
+      "kind": "term",
+      "en": "Chill Touch",
+      "fr": "Contact glacial",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.332a8e13e5d7c9f8",
+      "kind": "term",
+      "en": "Dancing Lights",
+      "fr": "Lumières dansantes",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.470a6d56dc4fb403",
+      "kind": "term",
+      "en": "Druidcraft",
+      "fr": "Druidisme",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.90993e77b9525c9d",
+      "kind": "term",
+      "en": "Eldritch Blast",
+      "fr": "Décharge occulte",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.0f55b5a8dbec2fe3",
+      "kind": "term",
+      "en": "Elementalism",
+      "fr": "Élémentalisme",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.0d69f451df3d8317",
+      "kind": "term",
+      "en": "Fire Bolt",
+      "fr": "Trait de feu",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.10af9928ba801e7d",
+      "kind": "term",
+      "en": "Guidance",
+      "fr": "Assistance",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.dbcd5e7bb7a0f538",
+      "kind": "term",
+      "en": "Light",
+      "fr": "Lumière",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.cb0d3238583c0fb0",
+      "kind": "term",
+      "en": "Mage Hand",
+      "fr": "Main du mage",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "aliases": [
+        "Main de mage"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.3376ef7bd9fa9477",
+      "kind": "term",
+      "en": "Mending",
+      "fr": "Réparation",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.2f77668a9dfbf8d5",
+      "kind": "term",
+      "en": "Message",
+      "fr": "Message",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.48a7a2fc6615014b",
+      "kind": "term",
+      "en": "Minor Illusion",
+      "fr": "Illusion mineure",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.117982c1a182978e",
+      "kind": "term",
+      "en": "Poison Spray",
+      "fr": "Bouffée de poison",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.136dc1705ed3496e",
+      "kind": "term",
+      "en": "Prestidigitation",
+      "fr": "Prestidigitation",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.bcb2424fc7e5eed7",
+      "kind": "term",
+      "en": "Produce Flame",
+      "fr": "Flammes",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.596bc1f37d379a6b",
+      "kind": "term",
+      "en": "Ray of Frost",
+      "fr": "Rayon de givre",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.c35070bce1f55441",
+      "kind": "term",
+      "en": "Resistance",
+      "fr": "Résistance",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.560d616c7de628af",
+      "kind": "term",
+      "en": "Sacred Flame",
+      "fr": "Flamme sacrée",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.7d95b5921d70baa8",
+      "kind": "term",
+      "en": "Shillelagh",
+      "fr": "Crosse des druides",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "aliases": [
+        "Gourdin magique"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.8eaa4fbfbbfa885c",
+      "kind": "term",
+      "en": "Shocking Grasp",
+      "fr": "Poigne électrique",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.be56ae74fa66d64a",
+      "kind": "term",
+      "en": "Sorcerous Burst",
+      "fr": "Éruption ensorcelée",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.0f36b432fc227da3",
+      "kind": "term",
+      "en": "Spare the Dying",
+      "fr": "Stabilisation",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.2e5057b967191874",
+      "kind": "term",
+      "en": "Starry Wisp",
+      "fr": "Poussière d’étoile",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "aliases": [
+        "Étincelle étoilée"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.1118dde764109023",
+      "kind": "term",
+      "en": "Thaumaturgy",
+      "fr": "Thaumaturgie",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.586e7686597f25c7",
+      "kind": "term",
+      "en": "True Strike",
+      "fr": "Coup au but",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.3ada7d3a14292e3c",
+      "kind": "term",
+      "en": "Vicious Mockery",
+      "fr": "Moquerie cruelle",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.f3b67957357963f7",
+      "kind": "term",
+      "en": "Alarm",
+      "fr": "Alarme",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.05fff242e9381a7f",
+      "kind": "term",
+      "en": "Animal Friendship",
+      "fr": "Amitié avec les animaux",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.0fb54cd1ca3e128c",
+      "kind": "term",
+      "en": "Bane",
+      "fr": "Imprécation",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "aliases": [
+        "Fléau"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.3abbd69ed48b2d67",
+      "kind": "term",
+      "en": "Bless",
+      "fr": "Bénédiction",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.35dc00703dc4783e",
+      "kind": "term",
+      "en": "Burning Hands",
+      "fr": "Mains brûlantes",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.939473c4290ebf6d",
+      "kind": "term",
+      "en": "Charm Person",
+      "fr": "Charme-personne",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.08eb74928f769690",
+      "kind": "term",
+      "en": "Chromatic Orb",
+      "fr": "Orbe chromatique",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.ff7cecad3664302e",
+      "kind": "term",
+      "en": "Color Spray",
+      "fr": "Couleurs dansantes",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.713166971d730f81",
+      "kind": "term",
+      "en": "Command",
+      "fr": "Injonction",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.298a1a90934964a9",
+      "kind": "term",
+      "en": "Comprehend Languages",
+      "fr": "Compréhension des langues",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.bbc9ac615250103f",
+      "kind": "term",
+      "en": "Create or Destroy Water",
+      "fr": "Création ou destruction d’eau",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.37e7b242876dfe75",
+      "kind": "term",
+      "en": "Cure Wounds",
+      "fr": "Soins",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.3cdd8799bd310546",
+      "kind": "term",
+      "en": "Detect Evil and Good",
+      "fr": "Détection du mal et du bien",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.d69eecab2f767f0d",
+      "kind": "term",
+      "en": "Detect Magic",
+      "fr": "Détection de la magie",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.7681399f64b46507",
+      "kind": "term",
+      "en": "Detect Poison and Disease",
+      "fr": "Détection du poison et des maladies",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.141b672aa8e4872a",
+      "kind": "term",
+      "en": "Disguise Self",
+      "fr": "Déguisement",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.1ddfacdaca9dc350",
+      "kind": "term",
+      "en": "Dissonant Whispers",
+      "fr": "Murmures dissonants",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.5baaf8915ec3d7b9",
+      "kind": "term",
+      "en": "Divine Favor",
+      "fr": "Faveur divine",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.92826569045fc856",
+      "kind": "term",
+      "en": "Divine Smite",
+      "fr": "Châtiment divin",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.045b32625b312289",
+      "kind": "term",
+      "en": "Ensnaring Strike",
+      "fr": "Frappe piégeuse",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.45fe07b35406916f",
+      "kind": "term",
+      "en": "Entangle",
+      "fr": "Enchevêtrement",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.2a06626dae5960fc",
+      "kind": "term",
+      "en": "Expeditious Retreat",
+      "fr": "Repli expéditif",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.f64fa5018db43306",
+      "kind": "term",
+      "en": "Faerie Fire",
+      "fr": "Lueurs féeriques",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.f383c8de0e5acc04",
+      "kind": "term",
+      "en": "False Life",
+      "fr": "Simulacre de vie",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.470f8f8daa1f2e6f",
+      "kind": "term",
+      "en": "Feather Fall",
+      "fr": "Feuille morte",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.7d66b5952df9f407",
+      "kind": "term",
+      "en": "Find Familiar",
+      "fr": "Appel de familier",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.3cb723cc4f7db027",
+      "kind": "term",
+      "en": "Floating Disk",
+      "fr": "Disque flottant",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.9d4af7faf4f33e39",
+      "kind": "term",
+      "en": "Fog Cloud",
+      "fr": "Nappe de brouillard",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.9abbbe12f07f0104",
+      "kind": "term",
+      "en": "Goodberry",
+      "fr": "Baies nourricières",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.d9607a5345f7bc7e",
+      "kind": "term",
+      "en": "Grease",
+      "fr": "Graisse",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.3396532a27a47077",
+      "kind": "term",
+      "en": "Guiding Bolt",
+      "fr": "Rayon traçant",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "aliases": [
+        "Éclair traçant"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.47af1dbd23c9ca96",
+      "kind": "term",
+      "en": "Healing Word",
+      "fr": "Mot de guérison",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.f9a43d7f6862abaf",
+      "kind": "term",
+      "en": "Hellish Rebuke",
+      "fr": "Représailles infernales",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.96ddb894f3a53e0e",
+      "kind": "term",
+      "en": "Heroism",
+      "fr": "Héroïsme",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.69493e6f1a6957ca",
+      "kind": "term",
+      "en": "Hex",
+      "fr": "Maléfice",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.d3c050dcd5d3e90d",
+      "kind": "term",
+      "en": "Hunter's Mark",
+      "fr": "Marque du chasseur",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.4f8f6a9a6619ce9d",
+      "kind": "term",
+      "en": "Ice Knife",
+      "fr": "Couteau de glace",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.4786cd5110a4a25d",
+      "kind": "term",
+      "en": "Identify",
+      "fr": "Identification",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.90a0aa327e5c31a5",
+      "kind": "term",
+      "en": "Illusory Script",
+      "fr": "Texte illusoire",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.832d6d1b804c2513",
+      "kind": "term",
+      "en": "Inflict Wounds",
+      "fr": "Blessure",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.9ee0ca3e24d60ea0",
+      "kind": "term",
+      "en": "Jump",
+      "fr": "Saut",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.35a995a2dad61040",
+      "kind": "term",
+      "en": "Longstrider",
+      "fr": "Grande foulée",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.41b7590882c44f25",
+      "kind": "term",
+      "en": "Mage Armor",
+      "fr": "Armure du mage",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "aliases": [
+        "Armure de mage"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.111a74afc067f116",
+      "kind": "term",
+      "en": "Magic Missile",
+      "fr": "Projectile magique",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.37bcb670c3e050dc",
+      "kind": "term",
+      "en": "Protection from Evil and Good",
+      "fr": "Protection contre le mal et le bien",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.f9854dd8aac96307",
+      "kind": "term",
+      "en": "Purify Food and Drink",
+      "fr": "Purification de la nourriture et de l’eau",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.54a70f9f87fcf287",
+      "kind": "term",
+      "en": "Ray of Sickness",
+      "fr": "Rayon empoisonné",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.275a77faac4972ad",
+      "kind": "term",
+      "en": "Sanctuary",
+      "fr": "Sanctuaire",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.877e4ccaa6566afb",
+      "kind": "term",
+      "en": "Searing Smite",
+      "fr": "Châtiment de fournaise",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "aliases": [
+        "Châtiment calcinant"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.480d4be7d61fe52b",
+      "kind": "term",
+      "en": "Shield",
+      "fr": "Bouclier",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.9e9577cd9fe55999",
+      "kind": "term",
+      "en": "Shield of Faith",
+      "fr": "Bouclier de la foi",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.9d5f144c9af97aae",
+      "kind": "term",
+      "en": "Silent Image",
+      "fr": "Image silencieuse",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.d466bcf52eb6921b",
+      "kind": "term",
+      "en": "Sleep",
+      "fr": "Sommeil",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.c7926a4f3c997549",
+      "kind": "term",
+      "en": "Speak with Animals",
+      "fr": "Communication avec les animaux",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.45dda862d77f1a69",
+      "kind": "term",
+      "en": "Hideous Laughter",
+      "fr": "Fou rire",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.03ecdd9fe8029c3a",
+      "kind": "term",
+      "en": "Thunderwave",
+      "fr": "Vague tonnante",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.ad9c74013f680b9f",
+      "kind": "term",
+      "en": "Unseen Servant",
+      "fr": "Serviteur invisible",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.9d328997de3d9633",
+      "kind": "term",
+      "en": "Aid",
+      "fr": "Aide",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.772e8a460022e461",
+      "kind": "term",
+      "en": "Alter Self",
+      "fr": "Modification d’apparence",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.df8b04c5c34c44db",
+      "kind": "term",
+      "en": "Animal Messenger",
+      "fr": "Messager animal",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.ba5ef3000ab0a849",
+      "kind": "term",
+      "en": "Arcane Lock",
+      "fr": "Verrou magique",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.3222c5b890a2fc30",
+      "kind": "term",
+      "en": "Augury",
+      "fr": "Augure",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.059e3425ec44ab07",
+      "kind": "term",
+      "en": "Barkskin",
+      "fr": "Peau d’écorce",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.0cf18124af6fcb17",
+      "kind": "term",
+      "en": "Blindness/Deafness",
+      "fr": "Cécité/surdité",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.cd83e6731d2b1736",
+      "kind": "term",
+      "en": "Blur",
+      "fr": "Flou",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.c07766ba966fc9bf",
+      "kind": "term",
+      "en": "Calm Emotions",
+      "fr": "Apaisement des émotions",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.595c4eb089c50f47",
+      "kind": "term",
+      "en": "Continual Flame",
+      "fr": "Flamme éternelle",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.9ab31dcb2ffd3b36",
+      "kind": "term",
+      "en": "Darkness",
+      "fr": "Ténèbres",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.fb92a6a907e62d62",
+      "kind": "term",
+      "en": "Darkvision",
+      "fr": "Vision dans le noir",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.4a3f341dc64aa0b6",
+      "kind": "term",
+      "en": "Dragon's Breath",
+      "fr": "Souffle du dragon",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.d99c305b1e2f51fd",
+      "kind": "term",
+      "en": "Enhance Ability",
+      "fr": "Amélioration de caractéristique",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.8e533bbaf06311df",
+      "kind": "term",
+      "en": "Enlarge/Reduce",
+      "fr": "Agrandissement/rapetissement",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.b4cb1328be7f1f82",
+      "kind": "term",
+      "en": "Enthrall",
+      "fr": "Discours captivant",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.5fdbd6276d1aa515",
+      "kind": "term",
+      "en": "Find Steed",
+      "fr": "Appel de destrier",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.b4eb600e2bd266ee",
+      "kind": "term",
+      "en": "Find Traps",
+      "fr": "Détection des pièges",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.afda1c312f2f2403",
+      "kind": "term",
+      "en": "Flame Blade",
+      "fr": "Lame de feu",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.239da9b9ed6cd960",
+      "kind": "term",
+      "en": "Flaming Sphere",
+      "fr": "Sphère de feu",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.4148bc14f4044bb8",
+      "kind": "term",
+      "en": "Gentle Repose",
+      "fr": "Doux repos",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "aliases": [
+        "Préservation des morts"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.1a2ee52facf70ca5",
+      "kind": "term",
+      "en": "Gust of Wind",
+      "fr": "Bourrasque",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.7d8f42053de978cd",
+      "kind": "term",
+      "en": "Heat Metal",
+      "fr": "Métal brûlant",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.f0d35390cb244d75",
+      "kind": "term",
+      "en": "Hold Person",
+      "fr": "Immobilisation de personne",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.d53895c6eb7816fb",
+      "kind": "term",
+      "en": "Invisibility",
+      "fr": "Invisibilité",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.61622162cdb3f208",
+      "kind": "term",
+      "en": "Knock",
+      "fr": "Déblocage",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.3a902d824623a7c4",
+      "kind": "term",
+      "en": "Lesser Restoration",
+      "fr": "Restauration partielle",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.03a0beaa38ee0bf0",
+      "kind": "term",
+      "en": "Levitate",
+      "fr": "Lévitation",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.2b585f6f3600e0e9",
+      "kind": "term",
+      "en": "Locate Animals or Plants",
+      "fr": "Localisation d’animaux ou de plantes",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.41031569b74f0b5f",
+      "kind": "term",
+      "en": "Locate Object",
+      "fr": "Localisation d’objet",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.b837300403d6c1e0",
+      "kind": "term",
+      "en": "Magic Mouth",
+      "fr": "Bouche magique",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.f959847f3f89a2a9",
+      "kind": "term",
+      "en": "Magic Weapon",
+      "fr": "Arme magique",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.d10f90c341d46797",
+      "kind": "term",
+      "en": "Acid Arrow",
+      "fr": "Flèche acide",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.6daff20e32786449",
+      "kind": "term",
+      "en": "Mind Spike",
+      "fr": "Épine mentale",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.1624e5bc418da476",
+      "kind": "term",
+      "en": "Mirror Image",
+      "fr": "Image miroir",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.0e976d89fc0d00c4",
+      "kind": "term",
+      "en": "Misty Step",
+      "fr": "Foulée brumeuse",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.e26bda0defe90c9a",
+      "kind": "term",
+      "en": "Moonbeam",
+      "fr": "Rayon de lune",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.f4228612d568999a",
+      "kind": "term",
+      "en": "Arcanist's Magic Aura",
+      "fr": "Aura magique de l’arcaniste",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.99a9e400714b068a",
+      "kind": "term",
+      "en": "Pass without Trace",
+      "fr": "Passage sans trace",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.a5f9ada993272749",
+      "kind": "term",
+      "en": "Phantasmal Force",
+      "fr": "Force fantasmagorique",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.506dfecb6215a446",
+      "kind": "term",
+      "en": "Prayer of Healing",
+      "fr": "Prière de guérison",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.e961de312bd436b4",
+      "kind": "term",
+      "en": "Protection from Poison",
+      "fr": "Protection contre le poison",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.f11aa46e52cb966c",
+      "kind": "term",
+      "en": "Ray of Enfeeblement",
+      "fr": "Rayon affaiblissant",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.6bb95d4eeb08bdba",
+      "kind": "term",
+      "en": "Rope Trick",
+      "fr": "Corde enchantée",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.2cecea4087afa8d0",
+      "kind": "term",
+      "en": "Scorching Ray",
+      "fr": "Rayon ardent",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.d7ac873e51aae909",
+      "kind": "term",
+      "en": "See Invisibility",
+      "fr": "Détection de l’invisibilité",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.e25ac0db27e81435",
+      "kind": "term",
+      "en": "Shatter",
+      "fr": "Fracassement",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.6c61fe498281f421",
+      "kind": "term",
+      "en": "Silence",
+      "fr": "Silence",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.ff461db1c030d0c5",
+      "kind": "term",
+      "en": "Spider Climb",
+      "fr": "Pattes d’araignée",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.2df3fd222c226203",
+      "kind": "term",
+      "en": "Spike Growth",
+      "fr": "Croissance d’épines",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.cc8d76ff5378ae11",
+      "kind": "term",
+      "en": "Spiritual Weapon",
+      "fr": "Arme spirituelle",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.527f6bc857ad184e",
+      "kind": "term",
+      "en": "Suggestion",
+      "fr": "Suggestion",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.2d6205bdcf2d1740",
+      "kind": "term",
+      "en": "Warding Bond",
+      "fr": "Lien de protection",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.2975104784a401e3",
+      "kind": "term",
+      "en": "Web",
+      "fr": "Toile d’araignée",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.23154e660c1e76a7",
+      "kind": "term",
+      "en": "Zone of Truth",
+      "fr": "Zone de vérité",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.5a36e355b2390a35",
+      "kind": "term",
+      "en": "Animate Dead",
+      "fr": "Animation des morts",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.5b4723ae63c516f2",
+      "kind": "term",
+      "en": "Beacon of Hope",
+      "fr": "Lueur d’espoir",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.a824f34f6cbec9e9",
+      "kind": "term",
+      "en": "Bestow Curse",
+      "fr": "Malédiction",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.a37430e22cd01df0",
+      "kind": "term",
+      "en": "Blink",
+      "fr": "Clignotement",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.fcaee130f84da575",
+      "kind": "term",
+      "en": "Call Lightning",
+      "fr": "Appel de la foudre",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.932322ea9e594610",
+      "kind": "term",
+      "en": "Clairvoyance",
+      "fr": "Clairvoyance",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.1fa2d804e94b485e",
+      "kind": "term",
+      "en": "Conjure Animals",
+      "fr": "Invocation d’animaux",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.8cf3154ed50fbd29",
+      "kind": "term",
+      "en": "Counterspell",
+      "fr": "Contresort",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.71cacf0f1146b255",
+      "kind": "term",
+      "en": "Create Food and Water",
+      "fr": "Création de nourriture et d’eau",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.30dfa1dd5d120984",
+      "kind": "term",
+      "en": "Daylight",
+      "fr": "Lumière du jour",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.d004ff3c3b43ebf8",
+      "kind": "term",
+      "en": "Dispel Magic",
+      "fr": "Dissipation de la magie",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.140262b32b0c98df",
+      "kind": "term",
+      "en": "Fear",
+      "fr": "Terreur",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.cc173df6702cba90",
+      "kind": "term",
+      "en": "Fireball",
+      "fr": "Boule de feu",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.31bbe05d43158cd2",
+      "kind": "term",
+      "en": "Fly",
+      "fr": "Vol",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.a53ef4dc94d1e005",
+      "kind": "term",
+      "en": "Gaseous Form",
+      "fr": "Forme gazeuse",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.88934a51f63ab103",
+      "kind": "term",
+      "en": "Glyph of Warding",
+      "fr": "Glyphe de garde",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "aliases": [
+        "Glyphe de protection"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.de3b46da4da8a98c",
+      "kind": "term",
+      "en": "Haste",
+      "fr": "Hâte",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.1f3804c161c387fe",
+      "kind": "term",
+      "en": "Hypnotic Pattern",
+      "fr": "Motif hypnotique",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.dbc0ad8f1c78a857",
+      "kind": "term",
+      "en": "Tiny Hut",
+      "fr": "Petite hutte",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.6501d6e4ac16bd7d",
+      "kind": "term",
+      "en": "Lightning Bolt",
+      "fr": "Éclair",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.c2cff6a4e3e6fe9f",
+      "kind": "term",
+      "en": "Magic Circle",
+      "fr": "Cercle magique",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.b824616228a1b5a2",
+      "kind": "term",
+      "en": "Major Image",
+      "fr": "Image majeure",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.fa0aba6cde452cc7",
+      "kind": "term",
+      "en": "Mass Healing Word",
+      "fr": "Mot de guérison de groupe",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.f979feedc1fbaa1e",
+      "kind": "term",
+      "en": "Meld into Stone",
+      "fr": "Fusion dans la pierre",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.49af28ac3151d013",
+      "kind": "term",
+      "en": "Nondetection",
+      "fr": "Antidétection",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.3b52ee4963466935",
+      "kind": "term",
+      "en": "Phantom Steed",
+      "fr": "Monture fantôme",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.145dfbb52f3f2446",
+      "kind": "term",
+      "en": "Plant Growth",
+      "fr": "Croissance végétale",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.473313312d4db36b",
+      "kind": "term",
+      "en": "Protection from Energy",
+      "fr": "Protection contre l’énergie",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "aliases": [
+        "Protection contre une énergie"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.6b7573221b4facf1",
+      "kind": "term",
+      "en": "Remove Curse",
+      "fr": "Délivrance des malédictions",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.ed215f3ddb08712a",
+      "kind": "term",
+      "en": "Revivify",
+      "fr": "Retour à la vie",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.e595f17fac1d8384",
+      "kind": "term",
+      "en": "Sending",
+      "fr": "Communication à distance",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.922a0ebbe60f4f22",
+      "kind": "term",
+      "en": "Sleet Storm",
+      "fr": "Tempête de neige",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.4b2bebbf33aeb7ae",
+      "kind": "term",
+      "en": "Slow",
+      "fr": "Lenteur",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.23d9590095845c75",
+      "kind": "term",
+      "en": "Speak with Dead",
+      "fr": "Communication avec les morts",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.088812898bcf73b0",
+      "kind": "term",
+      "en": "Speak with Plants",
+      "fr": "Communication avec les plantes",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.05306c92743bad25",
+      "kind": "term",
+      "en": "Spirit Guardians",
+      "fr": "Esprits gardiens",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.1d9f00d3365bc58b",
+      "kind": "term",
+      "en": "Stinking Cloud",
+      "fr": "Nuage nauséabond",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.d86f8ab2e7be3e29",
+      "kind": "term",
+      "en": "Tongues",
+      "fr": "Don des langues",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.24ac7c1d348993ea",
+      "kind": "term",
+      "en": "Vampiric Touch",
+      "fr": "Caresse du vampire",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "aliases": [
+        "Toucher du vampire"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.4fa023594764255f",
+      "kind": "term",
+      "en": "Water Breathing",
+      "fr": "Respiration aquatique",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.c471c8f83cfb9823",
+      "kind": "term",
+      "en": "Water Walk",
+      "fr": "Marche sur l’onde",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "aliases": [
+        "Marche sur l’eau"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.9403a9de45d88c83",
+      "kind": "term",
+      "en": "Wind Wall",
+      "fr": "Mur de vent",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.1e6586a08579d05f",
+      "kind": "term",
+      "en": "Arcane Eye",
+      "fr": "Œil du mage",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "aliases": [
+        "Œil magique"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.546a5bb58f8970b2",
+      "kind": "term",
+      "en": "Aura of Life",
+      "fr": "Aura de vie",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.5354553b11bbdd3a",
+      "kind": "term",
+      "en": "Banishment",
+      "fr": "Bannissement",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.f4ba436410ceedd1",
+      "kind": "term",
+      "en": "Blight",
+      "fr": "Flétrissement",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.c2ba1dc53cbe5769",
+      "kind": "term",
+      "en": "Charm Monster",
+      "fr": "Charme-monstre",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.d42a977adf1da72c",
+      "kind": "term",
+      "en": "Compulsion",
+      "fr": "Compulsion",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.9507ad17d71faf99",
+      "kind": "term",
+      "en": "Confusion",
+      "fr": "Confusion",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.cca5553e88a99d4b",
+      "kind": "term",
+      "en": "Conjure Minor Elementals",
+      "fr": "Invocation d’élémentaires mineurs",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.737e28a95eb2e2ee",
+      "kind": "term",
+      "en": "Conjure Woodland Beings",
+      "fr": "Invocation d’êtres sylvestres",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.0670fb782b59c7ec",
+      "kind": "term",
+      "en": "Control Water",
+      "fr": "Contrôle de l’eau",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.5f316c451793cbbe",
+      "kind": "term",
+      "en": "Death Ward",
+      "fr": "Protection contre la mort",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.45f3b27f0f45984d",
+      "kind": "term",
+      "en": "Dimension Door",
+      "fr": "Porte dimensionnelle",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.c80c49892e26ab7c",
+      "kind": "term",
+      "en": "Divination",
+      "fr": "Divination",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.d30ff5821c25108b",
+      "kind": "term",
+      "en": "Dominate Beast",
+      "fr": "Domination de bête",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.12d3248b8c3697e9",
+      "kind": "term",
+      "en": "Black Tentacles",
+      "fr": "Tentacules noirs",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.ad579f3461c0a74e",
+      "kind": "term",
+      "en": "Fabricate",
+      "fr": "Fabrication",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.b970634c84097e5f",
+      "kind": "term",
+      "en": "Fire Shield",
+      "fr": "Bouclier de feu",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.3c2d6a2ae46e0775",
+      "kind": "term",
+      "en": "Freedom of Movement",
+      "fr": "Liberté de mouvement",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.be869245f5ab6cd9",
+      "kind": "term",
+      "en": "Giant Insect",
+      "fr": "Insecte géant",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.8df8ce7362ec7df3",
+      "kind": "term",
+      "en": "Greater Invisibility",
+      "fr": "Invisibilité suprême",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "aliases": [
+        "Invisibilité supérieure"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.3e408c91d74cb939",
+      "kind": "term",
+      "en": "Guardian of Faith",
+      "fr": "Gardien de la foi",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.f18130564369992e",
+      "kind": "term",
+      "en": "Hallucinatory Terrain",
+      "fr": "Terrain hallucinatoire",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.dfccfbed6a527e36",
+      "kind": "term",
+      "en": "Ice Storm",
+      "fr": "Tempête de grêle",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.61067e063dffe556",
+      "kind": "term",
+      "en": "Secret Chest",
+      "fr": "Coffre secret",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.fde0313e5c7ccbe0",
+      "kind": "term",
+      "en": "Locate Creature",
+      "fr": "Localisation de créature",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.081e451c4c1e5c64",
+      "kind": "term",
+      "en": "Faithful Hound",
+      "fr": "Chien de garde",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.12c5a8e836851614",
+      "kind": "term",
+      "en": "Private Sanctum",
+      "fr": "Sanctuaire privé",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.0498ad76689fe3c4",
+      "kind": "term",
+      "en": "Resilient Sphere",
+      "fr": "Sphère résiliente",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.9d9b4d847bc2e111",
+      "kind": "term",
+      "en": "Phantasmal Killer",
+      "fr": "Assassin imaginaire",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.e9737018aa315546",
+      "kind": "term",
+      "en": "Polymorph",
+      "fr": "Métamorphose",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.7a48a925ec3a16bf",
+      "kind": "term",
+      "en": "Stone Shape",
+      "fr": "Façonnage de la pierre",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.c0a22c923c4433b6",
+      "kind": "term",
+      "en": "Stoneskin",
+      "fr": "Peau de pierre",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.94f812f380938e0d",
+      "kind": "term",
+      "en": "Vitriolic Sphere",
+      "fr": "Sphère de vitriol",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "aliases": [
+        "Sphère corrosive"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.1474217534f30e0e",
+      "kind": "term",
+      "en": "Wall of Fire",
+      "fr": "Mur de feu",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.c561a34c9fb64264",
+      "kind": "term",
+      "en": "Animate Objects",
+      "fr": "Animation des objets",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "aliases": [
+        "Animation d’objets"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.5dfa789cd26274b8",
+      "kind": "term",
+      "en": "Antilife Shell",
+      "fr": "Coquille antivie",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.3516f67acbf31253",
+      "kind": "term",
+      "en": "Awaken",
+      "fr": "Éveil",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.a00d5d323fe9d02d",
+      "kind": "term",
+      "en": "Arcane Hand",
+      "fr": "Main arcanique",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.2765936838782395",
+      "kind": "term",
+      "en": "Cloudkill",
+      "fr": "Brume mortelle",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.eaf0dc2a430e9b8b",
+      "kind": "term",
+      "en": "Commune",
+      "fr": "Communion",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.2f00f352010408fb",
+      "kind": "term",
+      "en": "Commune with Nature",
+      "fr": "Communion avec la nature",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.9d6a11309ab760c7",
+      "kind": "term",
+      "en": "Cone of Cold",
+      "fr": "Cône de froid",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.155ce25615f8455b",
+      "kind": "term",
+      "en": "Conjure Elemental",
+      "fr": "Invocation d’élémentaire",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.b21860ea0cc56e3e",
+      "kind": "term",
+      "en": "Contact Other Plane",
+      "fr": "Contact avec les plans",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "aliases": [
+        "Contact avec un autre plan"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.bd1cbd171fababc2",
+      "kind": "term",
+      "en": "Contagion",
+      "fr": "Contagion",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.6d0a88373d20612e",
+      "kind": "term",
+      "en": "Creation",
+      "fr": "Création",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.ae8d7a1c8c1204b4",
+      "kind": "term",
+      "en": "Dispel Evil and Good",
+      "fr": "Dissipation du mal et du bien",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.2acbb22b8f59ad7c",
+      "kind": "term",
+      "en": "Dominate Person",
+      "fr": "Domination de personne",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.c6d5ed757b66bfd3",
+      "kind": "term",
+      "en": "Dream",
+      "fr": "Songe",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.5a00094785687f02",
+      "kind": "term",
+      "en": "Flame Strike",
+      "fr": "Colonne de flamme",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.aea4e2a8ac6976f2",
+      "kind": "term",
+      "en": "Geas",
+      "fr": "Quête",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.7cd7b3a95d476c01",
+      "kind": "term",
+      "en": "Greater Restoration",
+      "fr": "Restauration suprême",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "aliases": [
+        "Restauration supérieure"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.3703d5b4c6d14f0b",
+      "kind": "term",
+      "en": "Hallow",
+      "fr": "Sanctification",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.e69ee6168fa8c25e",
+      "kind": "term",
+      "en": "Hold Monster",
+      "fr": "Immobilisation de monstre",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.7e468937cc8a284c",
+      "kind": "term",
+      "en": "Insect Plague",
+      "fr": "Fléau d’insectes",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.1d3139f1334a8163",
+      "kind": "term",
+      "en": "Legend Lore",
+      "fr": "Mythes et légendes",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.b8224ff1cecd6bb3",
+      "kind": "term",
+      "en": "Mass Cure Wounds",
+      "fr": "Soins de groupe",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.2c377e7e65371521",
+      "kind": "term",
+      "en": "Mislead",
+      "fr": "Double illusoire",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.e59e076647a53ec8",
+      "kind": "term",
+      "en": "Modify Memory",
+      "fr": "Modification de mémoire",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.75c416a571a66b26",
+      "kind": "term",
+      "en": "Passwall",
+      "fr": "Passe-muraille",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.98e02a1820d64f88",
+      "kind": "term",
+      "en": "Planar Binding",
+      "fr": "Entrave planaire",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "aliases": [
+        "Contrat"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.858cd61e5d1e40d8",
+      "kind": "term",
+      "en": "Raise Dead",
+      "fr": "Rappel à la vie",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.8a3d1109238b6e2d",
+      "kind": "term",
+      "en": "Telepathic Bond",
+      "fr": "Lien télépathique",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.db7d97d0be88eac5",
+      "kind": "term",
+      "en": "Reincarnate",
+      "fr": "Réincarnation",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.c318b517ee020ea2",
+      "kind": "term",
+      "en": "Scrying",
+      "fr": "Scrutation",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.e235c018ae45e804",
+      "kind": "term",
+      "en": "Seeming",
+      "fr": "Apparence trompeuse",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.75d1c73f26a32db9",
+      "kind": "term",
+      "en": "Summon Dragon",
+      "fr": "Convocation de dragon",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.f410d53a7a4787a7",
+      "kind": "term",
+      "en": "Telekinesis",
+      "fr": "Télékinésie",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.bfd62cdba9f6854a",
+      "kind": "term",
+      "en": "Teleportation Circle",
+      "fr": "Cercle de téléportation",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.e730370727fbacf2",
+      "kind": "term",
+      "en": "Tree Stride",
+      "fr": "Passage par les arbres",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "aliases": [
+        "Voyage par les arbres"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.bfc66640863459c9",
+      "kind": "term",
+      "en": "Wall of Force",
+      "fr": "Mur de force",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.0a544774d0c23d0c",
+      "kind": "term",
+      "en": "Wall of Stone",
+      "fr": "Mur de pierre",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.0abc9e4a8a8dd4d2",
+      "kind": "term",
+      "en": "Blade Barrier",
+      "fr": "Barrière de lames",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.36951c674a8da47f",
+      "kind": "term",
+      "en": "Chain Lightning",
+      "fr": "Chaîne d’éclairs",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.58f788360ff0a4d9",
+      "kind": "term",
+      "en": "Circle of Death",
+      "fr": "Cercle de mort",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.bdd21111d490f6f0",
+      "kind": "term",
+      "en": "Conjure Fey",
+      "fr": "Invocation de fée",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.33ac7f4f748f1c6f",
+      "kind": "term",
+      "en": "Contingency",
+      "fr": "Préméditation",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "aliases": [
+        "Prévoyance"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.6294ed9695d2e96d",
+      "kind": "term",
+      "en": "Create Undead",
+      "fr": "Création de mort-vivant",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.59023abea680c1ec",
+      "kind": "term",
+      "en": "Disintegrate",
+      "fr": "Désintégration",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.0783b75a43a8e890",
+      "kind": "term",
+      "en": "Instant Summons",
+      "fr": "Convocations instantanées",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.f18fe90f0b9450dc",
+      "kind": "term",
+      "en": "Eyebite",
+      "fr": "Mauvais œil",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.8cee9230e2d7ab66",
+      "kind": "term",
+      "en": "Find the Path",
+      "fr": "Orientation",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.fb2a3e111cff7b6a",
+      "kind": "term",
+      "en": "Flesh to Stone",
+      "fr": "Pétrification",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.9c4cc573cd05d891",
+      "kind": "term",
+      "en": "Forbiddance",
+      "fr": "Interdiction",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.e31eff32369ff804",
+      "kind": "term",
+      "en": "Globe of Invulnerability",
+      "fr": "Globe d’invulnérabilité",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.1e9f82a832ce3411",
+      "kind": "term",
+      "en": "Guards and Wards",
+      "fr": "Protections et sceaux",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.84efb34057239ad0",
+      "kind": "term",
+      "en": "Harm",
+      "fr": "Contamination",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.421acf13c1cb044e",
+      "kind": "term",
+      "en": "Heal",
+      "fr": "Guérison",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.22ad59b629efdbcb",
+      "kind": "term",
+      "en": "Heroes' Feast",
+      "fr": "Festin des héros",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.64d1f4fed786b23e",
+      "kind": "term",
+      "en": "Magic Jar",
+      "fr": "Possession",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.629c701775c3956f",
+      "kind": "term",
+      "en": "Mass Suggestion",
+      "fr": "Suggestion de groupe",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.b70b6583948704c3",
+      "kind": "term",
+      "en": "Move Earth",
+      "fr": "Glissement de terrain",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.10b9aa44f043dae9",
+      "kind": "term",
+      "en": "Freezing Sphere",
+      "fr": "Sphère glacée",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "aliases": [
+        "Sphère glaciale"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.079388020706c48f",
+      "kind": "term",
+      "en": "Irresistible Dance",
+      "fr": "Danse irrésistible",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.a634524be031810f",
+      "kind": "term",
+      "en": "Planar Ally",
+      "fr": "Allié planaire",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.e442284ce7bc5e39",
+      "kind": "term",
+      "en": "Programmed Illusion",
+      "fr": "Illusion programmée",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.eee8a35cddba5826",
+      "kind": "term",
+      "en": "Sunbeam",
+      "fr": "Rayon de soleil",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.6c319cc2eca3037d",
+      "kind": "term",
+      "en": "Transport via Plants",
+      "fr": "Voie végétale",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.62aff9f2836d72a5",
+      "kind": "term",
+      "en": "True Seeing",
+      "fr": "Vision suprême",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.1f9630c181f06e97",
+      "kind": "term",
+      "en": "Wall of Ice",
+      "fr": "Mur de glace",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.1a277da8b68eceb5",
+      "kind": "term",
+      "en": "Wall of Thorns",
+      "fr": "Mur d’épines",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.d17c0090671d43c1",
+      "kind": "term",
+      "en": "Wind Walk",
+      "fr": "Vent divin",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "aliases": [
+        "Marche sur le vent"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.7ce9d4c611940bb9",
+      "kind": "term",
+      "en": "Word of Recall",
+      "fr": "Mot de retour",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.4e120d27ad946770",
+      "kind": "term",
+      "en": "Conjure Celestial",
+      "fr": "Invocation de céleste",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.0d841497863f5eb9",
+      "kind": "term",
+      "en": "Delayed Blast Fireball",
+      "fr": "Boule de feu à retardement",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.1af0bdae4469792e",
+      "kind": "term",
+      "en": "Divine Word",
+      "fr": "Parole divine",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.4a7c77ad04cc697e",
+      "kind": "term",
+      "en": "Etherealness",
+      "fr": "Forme éthérée",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.c28bfecb77d588e1",
+      "kind": "term",
+      "en": "Finger of Death",
+      "fr": "Doigt de mort",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.51e63b49dfcecb8d",
+      "kind": "term",
+      "en": "Fire Storm",
+      "fr": "Tempête de feu",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.0d912f0af645db26",
+      "kind": "term",
+      "en": "Forcecage",
+      "fr": "Cage de force",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.76754306948f5a4d",
+      "kind": "term",
+      "en": "Mirage Arcane",
+      "fr": "Mirage",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.57dbf9df45f33c5b",
+      "kind": "term",
+      "en": "Magnificent Mansion",
+      "fr": "Manoir somptueux",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.94cc5fe805768fc8",
+      "kind": "term",
+      "en": "Arcane Sword",
+      "fr": "Épée arcanique",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.d0bbdb580e152be2",
+      "kind": "term",
+      "en": "Plane Shift",
+      "fr": "Changement de plan",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.59058e0f9e9bb050",
+      "kind": "term",
+      "en": "Prismatic Spray",
+      "fr": "Embruns prismatiques",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "aliases": [
+        "Rayons prismatiques"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.ff98d0d75dc5c8cb",
+      "kind": "term",
+      "en": "Project Image",
+      "fr": "Image projetée",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "aliases": [
+        "Projection d’image"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.1651031bf58d8eea",
+      "kind": "term",
+      "en": "Regenerate",
+      "fr": "Régénération",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.7f65e66d7b992f00",
+      "kind": "term",
+      "en": "Resurrection",
+      "fr": "Résurrection",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.90410d3de28a63e7",
+      "kind": "term",
+      "en": "Reverse Gravity",
+      "fr": "Inversion de la gravité",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.c2a0d732a534c33e",
+      "kind": "term",
+      "en": "Sequester",
+      "fr": "Dissimulation suprême",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "aliases": [
+        "Dissimulation"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.adced5422dd6209b",
+      "kind": "term",
+      "en": "Simulacrum",
+      "fr": "Simulacre",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.ba0e4afa93400b80",
+      "kind": "term",
+      "en": "Symbol",
+      "fr": "Symbole",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.e68b3b94586dd2cc",
+      "kind": "term",
+      "en": "Teleport",
+      "fr": "Téléportation",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.7ced9feca08657eb",
+      "kind": "term",
+      "en": "Animal Shapes",
+      "fr": "Métamorphose animale",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "aliases": [
+        "Formes animales"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.bb6564d7a07e9347",
+      "kind": "term",
+      "en": "Antimagic Field",
+      "fr": "Champ antimagie",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.9f13d77d2512a339",
+      "kind": "term",
+      "en": "Antipathy/Sympathy",
+      "fr": "Aversion/attirance",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.7f131359095baef3",
+      "kind": "term",
+      "en": "Befuddlement",
+      "fr": "Aliénation",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "aliases": [
+        "Confusion mentale"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.5779f32fab00c2aa",
+      "kind": "term",
+      "en": "Clone",
+      "fr": "Clone",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.e579cff3dc728206",
+      "kind": "term",
+      "en": "Control Weather",
+      "fr": "Contrôle du climat",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.7f7b2e0ae02ce410",
+      "kind": "term",
+      "en": "Demiplane",
+      "fr": "Demi-plan",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.c8be641534bae454",
+      "kind": "term",
+      "en": "Dominate Monster",
+      "fr": "Domination de monstre",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.7f65878d43af1631",
+      "kind": "term",
+      "en": "Earthquake",
+      "fr": "Tremblement de terre",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.64c849146bbc52c1",
+      "kind": "term",
+      "en": "Glibness",
+      "fr": "Bagou",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.079342c04644d965",
+      "kind": "term",
+      "en": "Holy Aura",
+      "fr": "Aura sacrée",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.03e04ea9cd7636e8",
+      "kind": "term",
+      "en": "Incendiary Cloud",
+      "fr": "Nuage incendiaire",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.23f7c69145a5b1e0",
+      "kind": "term",
+      "en": "Maze",
+      "fr": "Dédale",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.dc00b5232c3ca128",
+      "kind": "term",
+      "en": "Mind Blank",
+      "fr": "Esprit impénétrable",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.3439f5849c6c765c",
+      "kind": "term",
+      "en": "Power Word Stun",
+      "fr": "Mot de pouvoir étourdissant",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.78a6fbadb4319aa4",
+      "kind": "term",
+      "en": "Sunburst",
+      "fr": "Éclat du soleil",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.fd94aaf4c6f400d9",
+      "kind": "term",
+      "en": "Tsunami",
+      "fr": "Tsunami",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.9730138914358887",
+      "kind": "term",
+      "en": "Astral Projection",
+      "fr": "Projection astrale",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.572c6fa88957f80f",
+      "kind": "term",
+      "en": "Foresight",
+      "fr": "Prémonition",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.fa77a5252d38a04c",
+      "kind": "term",
+      "en": "Gate",
+      "fr": "Portail",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.baaaf99c9be2f74a",
+      "kind": "term",
+      "en": "Imprisonment",
+      "fr": "Emprisonnement",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.15337904da45f857",
+      "kind": "term",
+      "en": "Mass Heal",
+      "fr": "Guérison de groupe",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.b8908bc094a23d0e",
+      "kind": "term",
+      "en": "Meteor Swarm",
+      "fr": "Nuée de météores",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.9fba5795e6ada711",
+      "kind": "term",
+      "en": "Power Word Heal",
+      "fr": "Mot de pouvoir guérisseur",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.8ea0058637326ef0",
+      "kind": "term",
+      "en": "Power Word Kill",
+      "fr": "Mot de pouvoir mortel",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.061c0689cc5396bf",
+      "kind": "term",
+      "en": "Prismatic Wall",
+      "fr": "Mur prismatique",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.5fc5e4616c4753b9",
+      "kind": "term",
+      "en": "Shapechange",
+      "fr": "Changement de forme",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.c3ea8f88be2b2e80",
+      "kind": "term",
+      "en": "Storm of Vengeance",
+      "fr": "Tempête vengeresse",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.a68172caa11b1466",
+      "kind": "term",
+      "en": "Time Stop",
+      "fr": "Arrêt du temps",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.763011036ae95d0a",
+      "kind": "term",
+      "en": "True Polymorph",
+      "fr": "Métamorphose suprême",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.64a4a24244bf28e7",
+      "kind": "term",
+      "en": "True Resurrection",
+      "fr": "Résurrection suprême",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.7617549a6498f0d4",
+      "kind": "term",
+      "en": "Weird",
+      "fr": "Ennemi subconscient",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.3ab8a8811496055f",
+      "kind": "term",
+      "en": "Wish",
+      "fr": "Souhait",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
+    },
+    {
+      "id": "corpus.bad4da828dd6593d",
+      "kind": "term",
+      "en": "Shining Smite",
+      "fr": "Châtiment de révélation",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort"
     }
   ]
 }

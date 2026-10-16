@@ -1,7 +1,7 @@
 from translation_sources import source as translation_source
 import json,re
 from pathlib import Path
-from translation_packs import load_packs, check_existing, key
+from translation_packs import load_packs, check_existing, key, deduplicate_descriptions
 root=Path(__file__).resolve().parent/'generated';pairs=[]
 def add(en,fr,source):
  if en and fr:pairs.append({'en':en,'fr':fr,'source':source})
@@ -20,17 +20,20 @@ for r in json.loads(translation_source('spell-reference.json').read_text()):
    v=x[1].strip();w=y[1].strip();add(a+': '+v,b+' : '+w,'SRD 5.2.1 FR');add(v,w,'SRD 5.2.1 FR')
 for row in json.loads(translation_source('equipment-texts.json').read_text()):add(row['en'],row['fr'],row['source'])
 for row in json.loads(translation_source('feat-texts.json').read_text()):add(row['en'],row['fr'],row['source'])
-for line in translation_source('metamagic-descriptions.tsv').read_text().splitlines():
- en,fr=line.split('|');add(en,fr,'Traduction de l’extrait utilisateur · métamagie et Source de magie anciennes')
 for row in json.loads((root/'spell-sections.json').read_text()):add(row['en'],row['fr'],row['source'])
 pack_rows=load_packs()
-check_existing(pack_rows,pairs)
+check_existing([row for row in pack_rows if 'inline' not in row.get('usage',[])],pairs)
 for row in pack_rows:
- if row['kind']=='description':add(row['en'],row['fr'],row['source'])
+ if row['kind']=='description' and 'inline' not in row.get('usage',[]):add(row['en'],row['fr'],row['source'])
+known_inline={key(row['en']) for row in pairs}
+for row in pack_rows:
+ if row['kind']=='description' and 'inline' in row.get('usage',[]) and key(row['en']) not in known_inline:
+  add(row['en'],row['fr'],row['source']);known_inline.add(key(row['en']))
 # Le corpus de classes complète les sources existantes sans les remplacer.
 known={key(row['en']) for row in pairs}
 for row in json.loads((root/'class-texts.json').read_text())+json.loads((root/'option-texts.json').read_text())+json.loads((root/'class-sections.json').read_text()):
  if key(row['en']) not in known:
   add(row['en'],row['fr'],row['source']);known.add(key(row['en']))
+pairs=deduplicate_descriptions(pairs)
 (root/'complete-texts.json').write_text(json.dumps(pairs,ensure_ascii=False,separators=(',',':')))
 print(len(pairs),'paires de descriptions et champs complets')

@@ -12551,6 +12551,6090 @@
       "en": "Beast’s Strike. Melee Attack Roll: {summoner wis}+{summoner proficiency}, reach 5 ft. Hit: 1d4 + 3 + {summoner wis} Slashing damage.",
       "fr": "Frappe de la bête. Jet d’attaque au corps à corps : {summoner wis}+{summoner proficiency}, allonge 5 ft. Touché : 1d4 + 3 + {summoner wis} dégâts tranchants.",
       "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés"
+    },
+    {
+      "id": "corpus.c2d31bc82e366f1f",
+      "kind": "term",
+      "en": "Assassin",
+      "fr": "Assassin",
+      "source": "AideDD · index des sous-classes 2024 (noms)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.8b7476aa9c01ddb9",
+      "kind": "term",
+      "en": "Draconic Sorcery",
+      "fr": "Sorcellerie draconique",
+      "source": "AideDD · index des sous-classes 2024 (noms)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.d0dc8a2a8303bf4a",
+      "kind": "term",
+      "en": "Champion",
+      "fr": "Champion",
+      "source": "AideDD · index des sous-classes 2024 (noms)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.20c56bfb6b54a998",
+      "kind": "term",
+      "en": "Battle Master",
+      "fr": "Maître de guerre",
+      "source": "AideDD · index des sous-classes 2024 (noms)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.144c2ae4906953ab",
+      "kind": "term",
+      "en": "Eldritch Knight",
+      "fr": "Chevalier occulte",
+      "source": "AideDD · index des sous-classes 2024 (noms)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.18c1e01b901c9529",
+      "kind": "term",
+      "en": "Arcane Trickster",
+      "fr": "Arnaqueur arcanique",
+      "source": "AideDD · index des sous-classes 2024 (noms)",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Escroc arcanique"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.2fd478c88ca0e81b",
+      "kind": "term",
+      "en": "Thief",
+      "fr": "Voleur",
+      "source": "AideDD · index des sous-classes 2024 (noms)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.2340e6d7f093a89b",
+      "kind": "term",
+      "en": "Life Domain",
+      "fr": "Domaine de la Vie",
+      "source": "AideDD · index des sous-classes 2024 (noms)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.ef7ee4933051c923",
+      "kind": "term",
+      "en": "Light Domain",
+      "fr": "Domaine de Lumière",
+      "source": "AideDD · index des sous-classes 2024 (noms)",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Domaine de la Lumière"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.93d5a4463a1400ec",
+      "kind": "term",
+      "en": "War Domain",
+      "fr": "Domaine de la Guerre",
+      "source": "AideDD · index des sous-classes 2024 (noms)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.d15e4808048c08da",
+      "kind": "term",
+      "en": "Trickery Domain",
+      "fr": "Domaine de la Ruse",
+      "source": "AideDD · index des sous-classes 2024 (noms)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.76ce5931b3c646ae",
+      "kind": "term",
+      "en": "Circle of the Moon",
+      "fr": "Cercle de la Lune",
+      "source": "AideDD · index des sous-classes 2024 (noms)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.7218c6f21835c04d",
+      "kind": "term",
+      "en": "Circle of the Land",
+      "fr": "Cercle de la Terre",
+      "source": "AideDD · index des sous-classes 2024 (noms)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.065ea0b89be12176",
+      "kind": "term",
+      "en": "Oath of Devotion",
+      "fr": "Serment de Dévotion",
+      "source": "AideDD · index des sous-classes 2024 (noms)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.0729305ca957db76",
+      "kind": "term",
+      "en": "Oath of Vengeance",
+      "fr": "Serment de Vengeance",
+      "source": "AideDD · index des sous-classes 2024 (noms)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.32c28c9c4a62c117",
+      "kind": "term",
+      "en": "Oath of the Ancients",
+      "fr": "Serment des Anciens",
+      "source": "AideDD · index des sous-classes 2024 (noms)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.00997bc64ee69725",
+      "kind": "term",
+      "en": "Thieves' Cant",
+      "fr": "Argot des voleurs",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.fc435a1abfcf3a39",
+      "kind": "term",
+      "en": "Druidic",
+      "fr": "Druidique",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.cae65a343a7a964f",
+      "kind": "term",
+      "en": "Spell List",
+      "fr": "Liste des sorts",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.0ce3a662d1128335",
+      "kind": "term",
+      "en": "Spellcasting",
+      "fr": "Sorts",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Incantation"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.da012dc9e2d26a3c",
+      "kind": "term",
+      "en": "Pact Magic",
+      "fr": "Magie de pacte",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.39a5905653f3a404",
+      "kind": "term",
+      "en": "Known Spells",
+      "fr": "Sorts connus",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.5587487c2fb78c43",
+      "kind": "term",
+      "en": "Prepared Spells",
+      "fr": "Sorts préparés",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.d98c9e21ca8aec06",
+      "kind": "term",
+      "en": "Always Prepared",
+      "fr": "Toujours préparé",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.2b47f4876f70affb",
+      "kind": "term",
+      "en": "Extra Attack",
+      "fr": "Attaque supplémentaire",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.41989a18dbcab284",
+      "kind": "term",
+      "en": "Metamagic",
+      "fr": "Métamagie",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.b4a82a66d77a762e",
+      "kind": "term",
+      "en": "Font of Magic",
+      "fr": "Réserve arcanique",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Source de magie"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.730e6c375078fae3",
+      "kind": "term",
+      "en": "Innate Sorcery",
+      "fr": "Sorcellerie innée",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.306ea6fe1e25ec78",
+      "kind": "term",
+      "en": "Sorcerous Restoration",
+      "fr": "Restauration ensorcelée",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.70a7149a42f74678",
+      "kind": "term",
+      "en": "Sorcery Incarnate",
+      "fr": "Sorcellerie incarnée",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.ec706c24925a1974",
+      "kind": "term",
+      "en": "Arcane Apotheosis",
+      "fr": "Apothéose arcanique",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.dc4b4c4df6ab479f",
+      "kind": "term",
+      "en": "Draconic Resilience",
+      "fr": "Résistance draconique",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Résistance draconique",
+        "Résilience draconique"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.7bfaa6aaee434798",
+      "kind": "term",
+      "en": "Elemental Affinity",
+      "fr": "Affinité élémentaire",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.c4ca4c911b629437",
+      "kind": "term",
+      "en": "Dragon Wings",
+      "fr": "Ailes draconiques",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Ailes de dragon"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.110049cc8ca88c81",
+      "kind": "term",
+      "en": "Rage",
+      "fr": "Rage",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.2b0810c42449f877",
+      "kind": "term",
+      "en": "Reckless Attack",
+      "fr": "Témérité",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Attaque téméraire"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.c2b1c7f8144091a8",
+      "kind": "term",
+      "en": "Unarmored Defense",
+      "fr": "Défense sans armure",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.5e9d5a32f237b147",
+      "kind": "term",
+      "en": "Danger Sense",
+      "fr": "Sens du danger",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.c56a6337a1243724",
+      "kind": "term",
+      "en": "Bardic Inspiration",
+      "fr": "Inspiration bardique",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.30a8fa4bba912b0c",
+      "kind": "term",
+      "en": "Jack of All Trades",
+      "fr": "Touche-à-tout",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.2d82f4982eac84f7",
+      "kind": "term",
+      "en": "Channel Divinity",
+      "fr": "Conduit divin",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Canalisation d’énergie divine"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.48d71ea975fa43cc",
+      "kind": "term",
+      "en": "Divine Intervention",
+      "fr": "Intervention divine",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.c7cf7be2c9c9d2ac",
+      "kind": "term",
+      "en": "Wild Shape",
+      "fr": "Forme sauvage",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.10b84c97541fe7e5",
+      "kind": "term",
+      "en": "Second Wind",
+      "fr": "Second souffle",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.02697cd673dae5c7",
+      "kind": "term",
+      "en": "Action Surge",
+      "fr": "Fougue",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.67e76e07d5c8d66d",
+      "kind": "term",
+      "en": "Indomitable",
+      "fr": "Inflexible",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Indomptable"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.b24f1a40a400ebb3",
+      "kind": "term",
+      "en": "Fighting Style",
+      "fr": "Style de combat",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.b4d41a3fea0e7a6c",
+      "kind": "term",
+      "en": "Sneak Attack",
+      "fr": "Attaque sournoise",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.cb3dbd9fd5e2c21f",
+      "kind": "term",
+      "en": "Cunning Action",
+      "fr": "Ruse",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.79b24bdfbc192431",
+      "kind": "term",
+      "en": "Uncanny Dodge",
+      "fr": "Esquive instinctive",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.3643dd816bb8e97a",
+      "kind": "term",
+      "en": "Evasion",
+      "fr": "Esquive totale",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.3f49c21d68145a71",
+      "kind": "term",
+      "en": "Reliable Talent",
+      "fr": "Savoir-faire",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Talent fiable"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.7dc1d981910d1ae3",
+      "kind": "term",
+      "en": "Martial Arts",
+      "fr": "Arts martiaux",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.7bd0eac37f05454b",
+      "kind": "term",
+      "en": "Stunning Strike",
+      "fr": "Frappe étourdissante",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.5fcab339ec1abfd4",
+      "kind": "term",
+      "en": "Deflect Attacks",
+      "fr": "Déviation d’assaut",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Déviation d’attaques"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.71a0d6109cf22a67",
+      "kind": "term",
+      "en": "Slow Fall",
+      "fr": "Chute ralentie",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.d3a47bb9e4dca206",
+      "kind": "term",
+      "en": "Lay On Hands",
+      "fr": "Imposition des mains",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.da9628ab920042ff",
+      "kind": "term",
+      "en": "Aura of Protection",
+      "fr": "Aura de protection",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.46c59f68dcabd2a8",
+      "kind": "term",
+      "en": "Favored Enemy",
+      "fr": "Ennemi juré",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.7431ed2e0a7efeca",
+      "kind": "term",
+      "en": "Deft Explorer",
+      "fr": "Fin explorateur",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Explorateur habile"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.97aaf7fffe5448ce",
+      "kind": "term",
+      "en": "Eldritch Invocations",
+      "fr": "Manifestations occultes",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Invocations occultes"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.fabd42e41d6ef0a7",
+      "kind": "term",
+      "en": "Mystic Arcanum",
+      "fr": "Arcanum mystique",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.fc04ac9df0f7d7eb",
+      "kind": "term",
+      "en": "Arcane Recovery",
+      "fr": "Restauration magique",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Restauration arcanique"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.7a08ee0b140ef067",
+      "kind": "term",
+      "en": "Sculpt Spells",
+      "fr": "Façonneur de sorts",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Façonnage des sorts"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.8197b36d80f6236c",
+      "kind": "term",
+      "en": "Spell Mastery",
+      "fr": "Maîtrise des sorts",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.fdb7edbf6ae76a8b",
+      "kind": "term",
+      "en": "Signature Spells",
+      "fr": "Sorts de prédilection",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.7ddb42b39f742513",
+      "kind": "term",
+      "en": "Ability Score Improvement",
+      "fr": "Amélioration de caractéristique",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Amélioration de caractéristiques"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.e8f498a8b5f550d7",
+      "kind": "term",
+      "en": "Weapon Mastery",
+      "fr": "Bottes d’arme",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "aliases": [
+        "Botte d’arme"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.030c926e794f4708",
+      "kind": "term",
+      "en": "Character Level",
+      "fr": "Niveau de personnage",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Niveau du personnage"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.5ef5ef0364b6939c",
+      "kind": "term",
+      "en": "all",
+      "fr": "Tous",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "aliases": [
+        "Tout"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.7c89cc35bd32a1b9",
+      "kind": "term",
+      "en": "Weapon Proficiencies",
+      "fr": "Maîtrises d’armes",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.da0c660f7ad8e889",
+      "kind": "term",
+      "en": "Draconic Spells",
+      "fr": "Sorts draconiques",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.4588b4f08dab506d",
+      "kind": "term",
+      "en": "Dragon Companion",
+      "fr": "Compagnon draconique",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.4f624e9403313356",
+      "kind": "term",
+      "en": "Aberrant Sorcery",
+      "fr": "Sorcellerie aberrante",
+      "source": "AideDD · index des sous-classes 2024 (noms)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.000713c544287bc0",
+      "kind": "term",
+      "en": "Clockwork Sorcery",
+      "fr": "Sorcellerie mécanique",
+      "source": "AideDD · index des sous-classes 2024 (noms)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.bfe1a2306d5d535e",
+      "kind": "term",
+      "en": "Wild Magic Sorcery",
+      "fr": "Sorcellerie sauvage",
+      "source": "AideDD · index des sous-classes 2024 (noms)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.de1df5ac2853f4d9",
+      "kind": "term",
+      "en": "Sorcerer Subclass",
+      "fr": "Sous-classe d’Ensorceleur",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Sous-classe d’Ensorceleur",
+        "Sous-classe : Ensorceleur"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.a5524db32e129ce3",
+      "kind": "term",
+      "en": "Sorcerer Features",
+      "fr": "Aptitudes : Ensorceleur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Aptitudes de l’Ensorceleur"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.14517aa2be5475f7",
+      "kind": "term",
+      "en": "Epic Boon",
+      "fr": "Faveur épique",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.7ade725bde7a808c",
+      "kind": "term",
+      "en": "Pick Sorcerer Spells",
+      "fr": "Choisir les sorts de ensorceleur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Choisir les sorts d’ensorceleur"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.f0bac9a7db564eb7",
+      "kind": "term",
+      "en": "Tactical Mind",
+      "fr": "Sens tactique",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Esprit tactique"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.e17ecd7a0afe752b",
+      "kind": "term",
+      "en": "Tactical Shift",
+      "fr": "Décalage tactique",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Déplacement tactique"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.d189b5664aad2c60",
+      "kind": "term",
+      "en": "Tactical Master",
+      "fr": "Botte tactique",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Maître tacticien"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.5cb4b23db6a0417a",
+      "kind": "term",
+      "en": "Studied Attacks",
+      "fr": "Attaques avisées",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Attaques étudiées"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.3c675bd0a5b09820",
+      "kind": "term",
+      "en": "Primal Knowledge",
+      "fr": "Savoir primal",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.f3616c90ce22e5cd",
+      "kind": "term",
+      "en": "Brutal Strike",
+      "fr": "Coup brutal",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Frappe brutale"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.3bf8877284297860",
+      "kind": "term",
+      "en": "Primal Champion",
+      "fr": "Champion primitif",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.7aaf7326e97647e6",
+      "kind": "term",
+      "en": "Divine Order",
+      "fr": "Ordre divin",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.07164e06059e758e",
+      "kind": "term",
+      "en": "Primal Order",
+      "fr": "Ordre primitif",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Ordre primal"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.5214eecc12a0f329",
+      "kind": "term",
+      "en": "Wild Companion",
+      "fr": "Compagnon sauvage",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.c2e0e1259ba83a6b",
+      "kind": "term",
+      "en": "Wild Resurgence",
+      "fr": "Regain sauvage",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Résurgence sauvage"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.e81730cd02ad19b5",
+      "kind": "term",
+      "en": "Elemental Fury",
+      "fr": "Fureur élémentaire",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.eb083c0f512540ed",
+      "kind": "term",
+      "en": "Font of Inspiration",
+      "fr": "Source d’inspiration",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.1bdb581b0d449ccd",
+      "kind": "term",
+      "en": "Countercharm",
+      "fr": "Contre-charme",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.b318b7d8246f1e3d",
+      "kind": "term",
+      "en": "Magical Discoveries",
+      "fr": "Découvertes magiques",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.dd09b89f65385dd5",
+      "kind": "term",
+      "en": "Magical Secrets",
+      "fr": "Secrets magiques",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.e6e3247aa3515a00",
+      "kind": "term",
+      "en": "Monk's Focus",
+      "fr": "Credo du Moine",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Focalisation du moine"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.3fb37cc6775f061c",
+      "kind": "term",
+      "en": "Uncanny Metabolism",
+      "fr": "Métabolisme surnaturel",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.87b7dc50d65485c0",
+      "kind": "term",
+      "en": "Self-Restoration",
+      "fr": "Autosubsistance",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Restauration personnelle"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.42e9bb29e2841dee",
+      "kind": "term",
+      "en": "Heightened Focus",
+      "fr": "Credo accru",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Focalisation accrue"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.6ea23c8e4b65674d",
+      "kind": "term",
+      "en": "Body and Mind",
+      "fr": "Esprit et corps",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Corps et esprit"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.06c5128acbba741d",
+      "kind": "term",
+      "en": "Cunning Strike",
+      "fr": "Frappe malicieuse",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Frappe rusée"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.cf3925aea6e72c1a",
+      "kind": "term",
+      "en": "Steady Aim",
+      "fr": "Visée appliquée",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Visée stable"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.da5315fb15850763",
+      "kind": "term",
+      "en": "Devious Strikes",
+      "fr": "Coups vicieux",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Frappes sournoises"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.0fdfed042e747a39",
+      "kind": "term",
+      "en": "Roving",
+      "fr": "Arpenteur",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Mobilité"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.412805f345e43fac",
+      "kind": "term",
+      "en": "Relentless Hunter",
+      "fr": "Chasseur implacable",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.9344d6dddcb8973d",
+      "kind": "term",
+      "en": "Precise Hunter",
+      "fr": "Chasseur précis",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.4fcb8732d02a1f99",
+      "kind": "term",
+      "en": "Tireless",
+      "fr": "Infatigable",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.7660580872cc3060",
+      "kind": "term",
+      "en": "Eldritch Master",
+      "fr": "Maître de l’occulte",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.2955ec82d7b0e325",
+      "kind": "term",
+      "en": "Magical Cunning",
+      "fr": "Rouerie magique",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Ruse magique"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.2689ee5eaaa06e01",
+      "kind": "term",
+      "en": "Contact Patron",
+      "fr": "Communication avec le protecteur",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Contact avec le protecteur"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.3cfd550cebe7c6c9",
+      "kind": "term",
+      "en": "Scholar",
+      "fr": "Érudition",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Érudit"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.1b7622416393d3d7",
+      "kind": "term",
+      "en": "Memorize Spell",
+      "fr": "Mémorisation de sort",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.c7d8da4b2f3abfef",
+      "kind": "term",
+      "en": "Potent Cantrip",
+      "fr": "Sort mineur appuyé",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Sort mineur puissant"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.5fbf47a0ef591a61",
+      "kind": "term",
+      "en": "Druid Features",
+      "fr": "Aptitudes : Druide",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Aptitudes du druide"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.b5b75ded1c8008ba",
+      "kind": "term",
+      "en": "Druid Subclass",
+      "fr": "Sous-classe de Druide",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Sous-classe de druide",
+        "Sous-classe : Druide"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.7244856fab0cd8b6",
+      "kind": "term",
+      "en": "Druid Spell List",
+      "fr": "Liste des sorts de druide",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.f3879df896639615",
+      "kind": "term",
+      "en": "Druid Spells",
+      "fr": "Sorts de druide",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.39410dddcb55801e",
+      "kind": "term",
+      "en": "Druid Level",
+      "fr": "Niveau de druide",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.01cdf90de55377e0",
+      "kind": "term",
+      "en": "Circle of the Sea",
+      "fr": "Cercle des Mers",
+      "source": "AideDD · index des sous-classes 2024 (noms)",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Cercle de la Mer"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.57fb3c2b03601468",
+      "kind": "term",
+      "en": "Circle of the Stars",
+      "fr": "Cercle des Astres",
+      "source": "AideDD · index des sous-classes 2024 (noms)",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Cercle des Étoiles"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.bc518979d5964ab4",
+      "kind": "term",
+      "en": "Land's Aid",
+      "fr": "Aval de la terre",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Aide de la terre"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.828f31e550cb1eee",
+      "kind": "term",
+      "en": "Natural Recovery",
+      "fr": "Ressourcement",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Restauration naturelle"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.7415e3f5f0a22845",
+      "kind": "term",
+      "en": "Nature's Ward",
+      "fr": "Protégé de dame Nature",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Protection de la nature"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.94ea43009f5885a5",
+      "kind": "term",
+      "en": "Nature's Sanctuary",
+      "fr": "Sanctuaire de dame Nature",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Sanctuaire de la nature"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.63d5b60d72e7c663",
+      "kind": "term",
+      "en": "Beast Spells",
+      "fr": "Incantation animale",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.2bef4d1034a697d5",
+      "kind": "term",
+      "en": "Archdruid",
+      "fr": "Archidruide",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.1184a8fccde8135c",
+      "kind": "description",
+      "en": "You have learned to cast spells through studying the mystical forces of nature.",
+      "fr": "Vous avez appris à lancer des sorts en étudiant les forces mystiques de la nature.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.d4902671f15aef61",
+      "kind": "description",
+      "en": "See chapter 7 for the rules on spellcasting.",
+      "fr": "Consultez le chapitre 7 pour les règles d’incantation.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.8f36e4f58a3cbd88",
+      "kind": "description",
+      "en": "The information below details how you use those rules with Druid spells, which appear on the Druid Spell List later in the class’s description.",
+      "fr": "Les informations ci-dessous expliquent comment appliquer ces règles aux sorts de druide, dont la liste figure plus loin dans la description de la classe.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.c7b2f8b40be49e6b",
+      "kind": "description",
+      "en": "You know two cantrips of your choice from the Druid spell list.",
+      "fr": "Vous connaissez deux sorts mineurs de votre choix dans la liste des sorts de druide.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.3f36ab3d3e6367c2",
+      "kind": "description",
+      "en": "Druidcraft and Produce Flame are recommended.",
+      "fr": "Druidisme et Flammes sont recommandés.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.be4ebd2c9b029487",
+      "kind": "description",
+      "en": "Whenever you gain a Druid level, you can replace one of your cantrips with another cantrip of your choice from the Druid spell list.",
+      "fr": "Chaque fois que vous gagnez un niveau de druide, vous pouvez remplacer l’un de vos sorts mineurs par un autre de votre choix dans la liste des sorts de druide.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.ec16fdc40ca3b4f9",
+      "kind": "description",
+      "en": "When you reach Druid levels 4 and 10, you learn another cantrip of your choice from the Druid spell list, as shown in the Cantrips column of the Druid Features table.",
+      "fr": "Aux niveaux 4 et 10 de druide, vous apprenez un sort mineur supplémentaire de votre choix dans la liste des sorts de druide, comme indiqué dans la colonne Sorts mineurs de la table des aptitudes du druide.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.7e3be49d87dc249d",
+      "kind": "description",
+      "en": "The Druid Features table shows how many spell slots you have to cast your level 1+ spells.",
+      "fr": "La table des aptitudes du druide indique le nombre d’emplacements dont vous disposez pour lancer vos sorts de niveau 1 et supérieur.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.4234707aa411b109",
+      "kind": "description",
+      "en": "To start, choose four level 1 spells from the Druid spell list.",
+      "fr": "Pour commencer, choisissez quatre sorts de niveau 1 dans la liste des sorts de druide.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.8ab7f240953c5400",
+      "kind": "description",
+      "en": "Animal Friendship, Cure Wounds, Faerie Fire, and Thunderwave are recommended.",
+      "fr": "Amitié avec les animaux, Soins, Lueurs féeriques et Vague tonnante sont recommandés.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.451adb66197b8312",
+      "kind": "description",
+      "en": "The number of spells on your list increases as you gain Druid levels, as shown in the Prepared Spells column of the Druid Features table.",
+      "fr": "Le nombre de sorts de votre liste augmente avec vos niveaux de druide, comme indiqué dans la colonne Sorts préparés de la table des aptitudes du druide.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.9fd9313441d56171",
+      "kind": "description",
+      "en": "Whenever that number increases, choose additional spells from the Druid spell list until the number of spells on your list matches the number on the table.",
+      "fr": "Chaque fois que ce nombre augmente, choisissez des sorts supplémentaires dans la liste des sorts de druide jusqu’à atteindre le nombre indiqué dans la table.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.e533ffd61fb9582e",
+      "kind": "description",
+      "en": "For example, if you’re a level 3 Druid, your list of prepared spells can include six spells of levels 1 and 2 in any combination.",
+      "fr": "Par exemple, un druide de niveau 3 peut préparer six sorts de niveaux 1 et 2, répartis comme il le souhaite.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.2f7165a0fb46e94d",
+      "kind": "description",
+      "en": "If another Druid feature gives you spells that you always have prepared, those spells don’t count against the number of spells you can prepare with this feature, but those spells otherwise count as Druid spells for you.",
+      "fr": "Si une autre aptitude de druide vous accorde des sorts toujours préparés, ils ne comptent pas dans le nombre de sorts que cette aptitude permet de préparer, mais sont considérés comme des sorts de druide pour vous.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.15f593ac7736dac2",
+      "kind": "description",
+      "en": "Whenever you finish a Long Rest, you can change your list of prepared spells, replacing any of the spells with other Druid spells for which you have spell slots.",
+      "fr": "Lorsque vous terminez un repos long, vous pouvez modifier votre liste de sorts préparés en remplaçant les sorts de votre choix par d’autres sorts de druide pour lesquels vous disposez d’emplacements.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.bfef7230562d32e4",
+      "kind": "description",
+      "en": "Wisdom is your spellcasting ability for your Druid spells.",
+      "fr": "La Sagesse est votre caractéristique d’incantation pour vos sorts de druide.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.fa54d57fe337dabb",
+      "kind": "description",
+      "en": "You can use a Druidic Focus as a Spellcasting Focus for your Druid spells.",
+      "fr": "Vous pouvez utiliser un focaliseur druidique comme focaliseur d’incantation pour vos sorts de druide.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.9718ed5e68afa469",
+      "kind": "description",
+      "en": "You know Druidic, the secret language of Druids.",
+      "fr": "Vous connaissez le druidique, la langue secrète des druides.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.4c2bb60191925318",
+      "kind": "description",
+      "en": "While learning this ancient tongue, you also unlocked the magic of communicating with animals; you always have the Speak with Animals spell prepared.",
+      "fr": "En apprenant cette langue ancienne, vous avez aussi découvert la magie de la communication animale ; le sort Communication avec les animaux est toujours préparé pour vous.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.e6304e4a7a006380",
+      "kind": "description",
+      "en": "You can use Druidic to leave hidden messages.",
+      "fr": "Vous pouvez utiliser le druidique pour laisser des messages cachés.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.d95294eb221804c0",
+      "kind": "description",
+      "en": "You and others who know Druidic automatically spot such a message.",
+      "fr": "Vous et les autres créatures connaissant le druidique repérez automatiquement ces messages.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.b5c45aebbe588aef",
+      "kind": "description",
+      "en": "Others spot the message’s presence with a successful DC 15 Intelligence (Investigation) check but can’t decipher it without magic.",
+      "fr": "Les autres repèrent la présence du message en réussissant un test d’Intelligence (Investigation) DD 15, mais ne peuvent pas le déchiffrer sans magie.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.cfe2f9b16431694e",
+      "kind": "description",
+      "en": "You know one extra cantrip from the Druid spell list.",
+      "fr": "Vous connaissez un sort mineur supplémentaire dans la liste des sorts de druide.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.89f9152f6a8c97d1",
+      "kind": "description",
+      "en": "In addition, your mystical connection to nature gives you a bonus to your Intelligence (Arcana or Nature) checks.",
+      "fr": "De plus, votre lien mystique avec la nature vous accorde un bonus aux tests d’Intelligence (Arcanes ou Nature).",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.de1ef55ce1b08be3",
+      "kind": "description",
+      "en": "The bonus equals your Wisdom modifier (minimum bonus of +1).",
+      "fr": "Ce bonus est égal à votre modificateur de Sagesse (minimum +1).",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.faeeaf0ec7cf3559",
+      "kind": "description",
+      "en": "The bonus equals your Wisdom modifier (minimum bonus of ).",
+      "fr": "Ce bonus est égal à votre modificateur de Sagesse (bonus minimal non affiché).",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.a76f11354efb59c2",
+      "kind": "description",
+      "en": "The power of nature allows you to assume the form of an animal.",
+      "fr": "Le pouvoir de la nature vous permet de prendre la forme d’un animal.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.e0b794886dd328f6",
+      "kind": "description",
+      "en": "As a Bonus Action, you shape-shift into a Beast form that you have learned for this feature (see “Known Forms” below).",
+      "fr": "Par une action bonus, vous prenez une forme de bête apprise grâce à cette aptitude (voir « Formes connues » ci-dessous).",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.adbda493e93aea19",
+      "kind": "description",
+      "en": "You stay in that form for a number of hours equal to half your Druid level or until you use Wild Shape again, have the Incapacitated condition, or die.",
+      "fr": "Vous conservez cette forme pendant un nombre d’heures égal à la moitié de votre niveau de druide, ou jusqu’à ce que vous utilisiez de nouveau Forme sauvage, subissiez l’état Neutralisé ou mouriez.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.ca299f21da7115b0",
+      "kind": "description",
+      "en": "You can also leave the form early as a Bonus Action.",
+      "fr": "Vous pouvez aussi reprendre votre forme normale plus tôt par une action bonus.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.e28ad80b5a9f9dae",
+      "kind": "description",
+      "en": "You can use Wild Shape twice.",
+      "fr": "Vous pouvez utiliser Forme sauvage deux fois.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.52a7426c274b72c1",
+      "kind": "description",
+      "en": "You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.",
+      "fr": "Vous récupérez une utilisation dépensée à la fin d’un repos court, et toutes vos utilisations à la fin d’un repos long.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.92a7b08063924727",
+      "kind": "description",
+      "en": "You gain additional uses when you reach certain Druid levels, as shown in the Wild Shape column of the Druid Features table.",
+      "fr": "Vous obtenez des utilisations supplémentaires à certains niveaux de druide, comme indiqué dans la colonne Forme sauvage de la table des aptitudes du druide.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.131517e9afae007e",
+      "kind": "description",
+      "en": "You know four Beast forms for this feature, chosen from among Beast stat blocks that have a maximum Challenge Rating of 1/4 and that lack a Fly Speed (see appendix B for stat block options).",
+      "fr": "Vous connaissez quatre formes de bête pour cette aptitude, choisies parmi les profils de bêtes dont le facteur de puissance ne dépasse pas 1/4 et qui n’ont pas de vitesse de vol (voir les profils de l’annexe B).",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.41362ec602d88fb7",
+      "kind": "description",
+      "en": "The Rat, Riding Horse, Spider, and Wolf are recommended.",
+      "fr": "Le rat, le cheval de selle, l’araignée et le loup sont recommandés.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.64910ac6b5076552",
+      "kind": "description",
+      "en": "Whenever you finish a Long Rest, you can replace one of your known forms with another eligible form.",
+      "fr": "Lorsque vous terminez un repos long, vous pouvez remplacer l’une de vos formes connues par une autre forme admissible.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.cbddd0a7075f7119",
+      "kind": "description",
+      "en": "When you reach certain Druid levels, your number of known forms and the maximum Challenge Rating for those forms increases, as shown in the Beast Shapes table.",
+      "fr": "À certains niveaux de druide, le nombre de formes connues et leur facteur de puissance maximal augmentent, comme indiqué dans la table Formes de bête.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.883e0a009dcb939d",
+      "kind": "description",
+      "en": "In addition, starting at level 8, you can adopt a form that has a Fly Speed.",
+      "fr": "De plus, à partir du niveau 8, vous pouvez adopter une forme possédant une vitesse de vol.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.73e8fac8fd69678c",
+      "kind": "description",
+      "en": "When choosing known forms, you may look in the Monster Manual or elsewhere for eligible Beasts if the Dungeon Master permits you to do so.",
+      "fr": "Pour choisir vos formes connues, vous pouvez chercher des bêtes admissibles dans le Manuel des monstres ou dans d’autres sources si le maître du jeu vous y autorise.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.150fa42e8684a58b",
+      "kind": "description",
+      "en": "While in a form, you retain your personality, memories, and ability to speak, and the following rules apply:",
+      "fr": "Sous cette forme, vous conservez votre personnalité, vos souvenirs et votre capacité à parler. Les règles suivantes s’appliquent :",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.147817bec264c015",
+      "kind": "description",
+      "en": "When you assume a Wild Shape form, you gain a number of Temporary Hit Points equal to your Druid level.",
+      "fr": "Lorsque vous prenez une forme sauvage, vous gagnez un nombre de points de vie temporaires égal à votre niveau de druide.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.84e98590897bb24b",
+      "kind": "description",
+      "en": "Your game statistics are replaced by the Beast’s stat block, but you retain your creature type; Hit Points; Hit Point Dice; Intelligence, Wisdom, and Charisma scores; class features; languages; and feats.",
+      "fr": "Vos statistiques sont remplacées par le profil de la bête, mais vous conservez votre type de créature, vos points de vie, vos dés de vie, vos valeurs d’Intelligence, de Sagesse et de Charisme, vos aptitudes de classe, vos langues et vos dons.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.90f167cfcf72e5d3",
+      "kind": "description",
+      "en": "You also retain your skill and saving throw proficiencies and use your Proficiency Bonus for them, in addition to gaining the proficiencies of the creature.",
+      "fr": "Vous conservez aussi vos maîtrises de compétences et de jets de sauvegarde, auxquelles vous appliquez votre bonus de maîtrise, et vous obtenez les maîtrises de la créature.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.81d177be63ad64ed",
+      "kind": "description",
+      "en": "If a skill or saving throw modifier in the Beast’s stat block is higher than yours, use the one in the stat block.",
+      "fr": "Si le modificateur d’une compétence ou d’un jet de sauvegarde du profil de la bête est supérieur au vôtre, utilisez celui du profil.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.ad317eade5f45363",
+      "kind": "description",
+      "en": "You can’t cast spells, but shape-shifting doesn’t break your Concentration or otherwise interfere with a spell you’ve already cast.",
+      "fr": "Vous ne pouvez pas lancer de sorts, mais la métamorphose ne rompt pas votre concentration et ne perturbe pas les sorts que vous avez déjà lancés.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.071de06eb803d163",
+      "kind": "description",
+      "en": "Your ability to handle objects is determined by the form’s limbs rather than your own.",
+      "fr": "Votre capacité à manipuler des objets dépend des membres de la forme adoptée.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.b11c92fb098c66ed",
+      "kind": "description",
+      "en": "In addition, you choose whether your equipment falls in your space, merges into your new form, or is worn by it.",
+      "fr": "De plus, vous choisissez si votre équipement tombe dans votre espace, fusionne avec votre nouvelle forme ou est porté par elle.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.d08257fd7414691d",
+      "kind": "description",
+      "en": "Worn equipment functions as normal, but the DM decides whether it’s practical for the new form to wear a piece of equipment based on the creature’s size and shape.",
+      "fr": "L’équipement porté fonctionne normalement, mais le MJ décide si la nouvelle forme peut effectivement le porter, selon la taille et la morphologie de la créature.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.0d5891849a1e31f7",
+      "kind": "description",
+      "en": "Your equipment doesn’t change size or shape to match the new form, and any equipment that the new form can’t wear must either fall to the ground or merge with the form.",
+      "fr": "Votre équipement ne change ni de taille ni de forme. Tout équipement que votre nouvelle forme ne peut pas porter doit tomber au sol ou fusionner avec elle.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.081a3f27efbdcabc",
+      "kind": "description",
+      "en": "Equipment that merges with the form has no effect while you’re in that form.",
+      "fr": "L’équipement fusionné avec votre forme ne produit aucun effet tant que vous conservez cette forme.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.fec25d026f550189",
+      "kind": "description",
+      "en": "You can summon a nature spirit that assumes an animal form to aid you.",
+      "fr": "Vous pouvez invoquer un esprit de la nature qui prend une forme animale pour vous aider.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.5a445caafbe989b8",
+      "kind": "description",
+      "en": "As a Magic action, you can expend a spell slot or a use of Wild Shape to cast the Find Familiar spell without Material components.",
+      "fr": "Par une action Magie, vous pouvez dépenser un emplacement de sort ou une utilisation de Forme sauvage pour lancer Appel de familier sans composantes matérielles.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.c85029f559fdfac6",
+      "kind": "description",
+      "en": "When you cast the spell in this way, the familiar is Fey and disappears when you finish a Long Rest.",
+      "fr": "Lorsque vous lancez le sort de cette manière, le familier est une fée et disparaît à la fin de votre prochain repos long.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.33baefc2ed264853",
+      "kind": "description",
+      "en": "You gain a Druid subclass of your choice.",
+      "fr": "Vous choisissez une sous-classe de druide.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.6ebdd2580e05c4cc",
+      "kind": "description",
+      "en": "The Circle of the Land, Circle of the Moon, Circle of the Sea, and Circle of the Stars subclasses are detailed after this class’s description.",
+      "fr": "Les Cercles de la Terre, de la Lune, de la Mer et des Étoiles sont décrits après la présentation de cette classe.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.14d352faa7d1b78f",
+      "kind": "description",
+      "en": "A subclass is a specialization that grants you features at certain Druid levels.",
+      "fr": "Une sous-classe est une spécialisation qui vous accorde des aptitudes à certains niveaux de druide.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.7fdfbc59831fd2e8",
+      "kind": "description",
+      "en": "For the rest of your career, you gain each of your subclass’s features that are of your Druid level or lower.",
+      "fr": "Vous obtenez ensuite chaque aptitude de votre sous-classe dont le niveau requis est inférieur ou égal à votre niveau de druide.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.312913627fb5f402",
+      "kind": "description",
+      "en": "You can channel lunar magic when you assume a Wild Shape form, granting you the benefits below.",
+      "fr": "Lorsque vous prenez une forme sauvage, vous pouvez canaliser la magie lunaire pour obtenir les bénéfices suivants.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.1c5df807e6e4bf95",
+      "kind": "description",
+      "en": "The maximum Challenge Rating for the form equals your Druid level divided by 3 (round down).",
+      "fr": "Le facteur de puissance maximal de la forme est égal à votre niveau de druide divisé par 3, arrondi à l’inférieur.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.056fba072ba3e86d",
+      "kind": "description",
+      "en": "Until you leave the form, your AC equals 13 plus your Wisdom modifier if that total is higher than the Beast’s AC.",
+      "fr": "Tant que vous conservez cette forme, votre CA est égale à 13 plus votre modificateur de Sagesse si ce total dépasse la CA de la bête.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.796d400dc322df79",
+      "kind": "description",
+      "en": "You gain a number of Temporary Hit Points equal to three times your Druid level.",
+      "fr": "Vous gagnez un nombre de points de vie temporaires égal à trois fois votre niveau de druide.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.5c67d2580202ae70",
+      "kind": "description",
+      "en": "When you reach a Druid level specified in the Circle of the Moon Spells table, you thereafter always have the listed spells prepared.",
+      "fr": "Lorsque vous atteignez un niveau de druide indiqué dans la table Sorts du Cercle de la Lune, les sorts correspondants sont désormais toujours préparés pour vous.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.8695d17672d001e1",
+      "kind": "description",
+      "en": "In addition, you can cast the spells from this feature while you’re in a Wild Shape form.",
+      "fr": "De plus, vous pouvez lancer les sorts de cette aptitude sous forme sauvage.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.e64f39d79c415ca8",
+      "kind": "description",
+      "en": "You can finish a Long Rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness.",
+      "fr": "Vous pouvez terminer un repos long en 4 heures si vous les passez dans une méditation semblable à une transe, pendant laquelle vous restez conscient.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.5dab66209d297a3d",
+      "kind": "term",
+      "en": "Path of the Berserker",
+      "fr": "Voie du Berserker",
+      "source": "AideDD · index des sous-classes 2024 (noms)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.2dd62dceba5b3aad",
+      "kind": "term",
+      "en": "Path of the Wild Heart",
+      "fr": "Voie du Cœur sauvage",
+      "source": "AideDD · index des sous-classes 2024 (noms)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.183859bfad4c86c0",
+      "kind": "term",
+      "en": "Path of the World Tree",
+      "fr": "Voie de l’Arbre-Monde",
+      "source": "AideDD · index des sous-classes 2024 (noms)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.cbfbeaadaf74636e",
+      "kind": "term",
+      "en": "Path of the Zealot",
+      "fr": "Voie du Zélateur",
+      "source": "AideDD · index des sous-classes 2024 (noms)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.3de1424008973630",
+      "kind": "term",
+      "en": "College of Dance",
+      "fr": "Collège de la Danse",
+      "source": "AideDD · index des sous-classes 2024 (noms)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.d019cf7397f92f56",
+      "kind": "term",
+      "en": "College of Glamour",
+      "fr": "Collège de la Séduction",
+      "source": "AideDD · index des sous-classes 2024 (noms)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.71ba3ba5e46c3a6f",
+      "kind": "term",
+      "en": "College of Lore",
+      "fr": "Collège du Savoir",
+      "source": "AideDD · index des sous-classes 2024 (noms)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.e805f083c1d88e98",
+      "kind": "term",
+      "en": "College of Valor",
+      "fr": "Collège de la Vaillance",
+      "source": "AideDD · index des sous-classes 2024 (noms)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.57108e4ed19fadd2",
+      "kind": "term",
+      "en": "Psi Warrior",
+      "fr": "Soldat psi",
+      "source": "AideDD · index des sous-classes 2024 (noms)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.1c496cc12ff55f0f",
+      "kind": "term",
+      "en": "Warrior of Mercy",
+      "fr": "Credo de la Miséricorde",
+      "source": "AideDD · index des sous-classes 2024 (noms)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.916d16dd19702e27",
+      "kind": "term",
+      "en": "Warrior of Shadow",
+      "fr": "Credo de l’Ombre",
+      "source": "AideDD · index des sous-classes 2024 (noms)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.0c17bdff55effb66",
+      "kind": "term",
+      "en": "Warrior of the Elements",
+      "fr": "Credo des Éléments",
+      "source": "AideDD · index des sous-classes 2024 (noms)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.c3722ddb49166f1b",
+      "kind": "term",
+      "en": "Warrior of the Open Hand",
+      "fr": "Credo de la Paume",
+      "source": "AideDD · index des sous-classes 2024 (noms)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.0e69a4aea08aa71d",
+      "kind": "term",
+      "en": "Oath of Glory",
+      "fr": "Serment de Gloire",
+      "source": "AideDD · index des sous-classes 2024 (noms)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.4d2f5107205b3f56",
+      "kind": "term",
+      "en": "Beast Master",
+      "fr": "Belluaire",
+      "source": "AideDD · index des sous-classes 2024 (noms)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.edb65956717d52cb",
+      "kind": "term",
+      "en": "Fey Wanderer",
+      "fr": "Vagabond féerique",
+      "source": "AideDD · index des sous-classes 2024 (noms)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.0cfbdce9f109affe",
+      "kind": "term",
+      "en": "Gloom Stalker",
+      "fr": "Traqueur des ténèbres",
+      "source": "AideDD · index des sous-classes 2024 (noms)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.680ce38047bf1f29",
+      "kind": "term",
+      "en": "Hunter",
+      "fr": "Chasseur",
+      "source": "AideDD · index des sous-classes 2024 (noms)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.57cbb4ccd78e4708",
+      "kind": "term",
+      "en": "Soulknife",
+      "fr": "Âme acérée",
+      "source": "AideDD · index des sous-classes 2024 (noms)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.d78509072d6665d0",
+      "kind": "term",
+      "en": "Archfey Patron",
+      "fr": "Protecteur Archifée",
+      "source": "AideDD · index des sous-classes 2024 (noms)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.7fb885c6b6c98200",
+      "kind": "term",
+      "en": "Celestial Patron",
+      "fr": "Protecteur Céleste",
+      "source": "AideDD · index des sous-classes 2024 (noms)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.626d8da74978467c",
+      "kind": "term",
+      "en": "Fiend Patron",
+      "fr": "Protecteur Fiélon",
+      "source": "AideDD · index des sous-classes 2024 (noms)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.c782aae32dd4b0f0",
+      "kind": "term",
+      "en": "Great Old One Patron",
+      "fr": "Protecteur Grand Ancien",
+      "source": "AideDD · index des sous-classes 2024 (noms)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.dc821e01c53d9c31",
+      "kind": "term",
+      "en": "Abjurer",
+      "fr": "Abjurateur",
+      "source": "AideDD · index des sous-classes 2024 (noms)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.814c35d724986800",
+      "kind": "term",
+      "en": "Diviner",
+      "fr": "Devin",
+      "source": "AideDD · index des sous-classes 2024 (noms)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.0fad16130efd51d3",
+      "kind": "term",
+      "en": "Evoker",
+      "fr": "Évocateur",
+      "source": "AideDD · index des sous-classes 2024 (noms)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.bec39dcc3c94d53a",
+      "kind": "term",
+      "en": "Illusionist",
+      "fr": "Illusionniste",
+      "source": "AideDD · index des sous-classes 2024 (noms)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.bc05f9f2a3703f3d",
+      "kind": "term",
+      "en": "Fighting Styles",
+      "fr": "Styles de combat",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.d7846fc90c781807",
+      "kind": "term",
+      "en": "Maneuver",
+      "fr": "Manœuvre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.3291bfc0e42ef590",
+      "kind": "term",
+      "en": "Maneuvers",
+      "fr": "Manœuvres",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.770fbfb23bc4e2f7",
+      "kind": "term",
+      "en": "Maneuvers Known",
+      "fr": "Manœuvres connues",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.63048942d83fec5d",
+      "kind": "term",
+      "en": "Combat Superiority",
+      "fr": "Supériorité au combat",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.d654eaa0ba2a014b",
+      "kind": "term",
+      "en": "Superiority Die",
+      "fr": "Dé de supériorité",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.32ccc817ffb1dc3b",
+      "kind": "term",
+      "en": "Superiority Dice",
+      "fr": "Dés de supériorité",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.8e45ba29ce3ad0d8",
+      "kind": "term",
+      "en": "Student of War",
+      "fr": "Disciple de la guerre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.dd4b2a4fbc5aa48c",
+      "kind": "term",
+      "en": "Know Your Enemy",
+      "fr": "Connaissance de l’ennemi",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.bb0550ac1a7fbc43",
+      "kind": "term",
+      "en": "Improved Combat Superiority",
+      "fr": "Supériorité au combat améliorée",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.4cf92935c62ffa82",
+      "kind": "term",
+      "en": "Relentless",
+      "fr": "Implacable",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.a29c74269a8c224d",
+      "kind": "term",
+      "en": "Ambush",
+      "fr": "Embuscade",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.27feedadcb0870df",
+      "kind": "term",
+      "en": "Bait and Switch",
+      "fr": "Permutation tactique",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.ccd3a5a8dece1d8a",
+      "kind": "term",
+      "en": "Brace",
+      "fr": "Préparation",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.b68222d0798e47db",
+      "kind": "term",
+      "en": "Commander's Strike",
+      "fr": "Frappe du commandant",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.242202f5f0704dba",
+      "kind": "term",
+      "en": "Commanding Presence",
+      "fr": "Présence autoritaire",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.8e68ae96638c4aed",
+      "kind": "term",
+      "en": "Disarming Attack",
+      "fr": "Attaque désarmante",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.06ef54865e1d0c51",
+      "kind": "term",
+      "en": "Distracting Strike",
+      "fr": "Frappe de diversion",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.da3ae9298d16bd02",
+      "kind": "term",
+      "en": "Evasive Footwork",
+      "fr": "Jeu de jambes défensif",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.5861db347a69d3a4",
+      "kind": "term",
+      "en": "Feinting Attack",
+      "fr": "Feinte",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.03eaa64b28dd2960",
+      "kind": "term",
+      "en": "Goading Attack",
+      "fr": "Attaque provocatrice",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.2e9ab2c93ef2c903",
+      "kind": "term",
+      "en": "Grappling Strike",
+      "fr": "Frappe agrippante",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.55784c0749a64e56",
+      "kind": "term",
+      "en": "Lunging Attack",
+      "fr": "Attaque allongée",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.004f9a07a9de5235",
+      "kind": "term",
+      "en": "Maneuvering Attack",
+      "fr": "Attaque de manœuvre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.b381adb02f8079a8",
+      "kind": "term",
+      "en": "Menacing Attack",
+      "fr": "Attaque menaçante",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.e68f72e2139dc01b",
+      "kind": "term",
+      "en": "Precision Attack",
+      "fr": "Attaque précise",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.a9e823ea8c8564f5",
+      "kind": "term",
+      "en": "Pushing Attack",
+      "fr": "Attaque repoussante",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.b49b7728887e73b2",
+      "kind": "term",
+      "en": "Quick Toss",
+      "fr": "Lancer rapide",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.debfff9aeb72f58e",
+      "kind": "term",
+      "en": "Rally",
+      "fr": "Ralliement",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.6e1bdc294002f23d",
+      "kind": "term",
+      "en": "Riposte",
+      "fr": "Riposte",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.a5d49da1ff3f43d1",
+      "kind": "term",
+      "en": "Sweeping Attack",
+      "fr": "Attaque balayante",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.a310ee986ef2c2da",
+      "kind": "term",
+      "en": "Tactical Assessment",
+      "fr": "Évaluation tactique",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.303d8800f907ff90",
+      "kind": "term",
+      "en": "Trip Attack",
+      "fr": "Croc-en-jambe",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.b5b06eca3a90e118",
+      "kind": "term",
+      "en": "Fighting Style Options",
+      "fr": "Options de style de combat",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.4ecf423f18826988",
+      "kind": "term",
+      "en": "Select Fighting Style",
+      "fr": "Choisir un style de combat",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.d3e1b8ae7730eccc",
+      "kind": "term",
+      "en": "Pick Fighting Style",
+      "fr": "Choisir un style de combat",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.625aada46f30b11b",
+      "kind": "term",
+      "en": "Pick Maneuvers",
+      "fr": "Choisir les manœuvres",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.04898abae8be76ea",
+      "kind": "term",
+      "en": "Weapon Mastery Options",
+      "fr": "Options de bottes d’armes",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.5c2b09bc4683d438",
+      "kind": "term",
+      "en": "Core Traits",
+      "fr": "Traits de base",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.405f906b557eca0b",
+      "kind": "term",
+      "en": "Primary Ability",
+      "fr": "Caractéristique principale",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.fecb575b1eb5b81a",
+      "kind": "term",
+      "en": "Primary Abilities",
+      "fr": "Caractéristiques principales",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.c7900fa5d485af8f",
+      "kind": "term",
+      "en": "Subclass Features",
+      "fr": "Aptitudes de sous-classe",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.188892cc95adb54b",
+      "kind": "term",
+      "en": "Subclass Feature",
+      "fr": "Aptitude de sous-classe",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.b7f94ab8952f92ab",
+      "kind": "term",
+      "en": "Class Level",
+      "fr": "Niveau de classe",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.2220c1f46ea686e1",
+      "kind": "term",
+      "en": "Class Levels",
+      "fr": "Niveaux de classe",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.d3e1c5f8a6e240fc",
+      "kind": "term",
+      "en": "Origin",
+      "fr": "Origine",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.02dedc3e35530ca3",
+      "kind": "term",
+      "en": "Origins",
+      "fr": "Origines",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.eab5525396647fe6",
+      "kind": "term",
+      "en": "Character Origins",
+      "fr": "Origines des personnages",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.1f3b4454ee768620",
+      "kind": "term",
+      "en": "Character Species",
+      "fr": "Espèces des personnages",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.ec8f5c98b4922ca0",
+      "kind": "term",
+      "en": "Background Feat",
+      "fr": "Don d’historique",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.c1b8138a895715e6",
+      "kind": "term",
+      "en": "Background Ability Scores",
+      "fr": "Caractéristiques de l’historique",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.dc90909de4c80167",
+      "kind": "term",
+      "en": "Ability Score Choices",
+      "fr": "Choix des caractéristiques",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.80ef5b77645fdd69",
+      "kind": "term",
+      "en": "Choose a Feat",
+      "fr": "Choisir un don",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.ef4e6243120d3155",
+      "kind": "term",
+      "en": "Select Feat",
+      "fr": "Choisir un don",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.0484f95a05ea048b",
+      "kind": "term",
+      "en": "Pick Feat",
+      "fr": "Choisir un don",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.8ffccae63b4f9295",
+      "kind": "term",
+      "en": "Pick Skills",
+      "fr": "Choisir les compétences",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.86f5c5c3b960148d",
+      "kind": "term",
+      "en": "Select Skills",
+      "fr": "Choisir les compétences",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.aa3fed13351a9a6e",
+      "kind": "term",
+      "en": "Select Languages",
+      "fr": "Choisir les langues",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.e2f526414690ba47",
+      "kind": "term",
+      "en": "Select Tools",
+      "fr": "Choisir les outils",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.ea1fd8b25a8b4f22",
+      "kind": "term",
+      "en": "Select Weapon Mastery",
+      "fr": "Choisir une botte d’arme",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.e6c463b7f4f783eb",
+      "kind": "term",
+      "en": "Feat Options",
+      "fr": "Options de dons",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.51d6c06eddf07e15",
+      "kind": "term",
+      "en": "Available Feats",
+      "fr": "Dons disponibles",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.2faeafa730e9a0ca",
+      "kind": "term",
+      "en": "Bonus Spells",
+      "fr": "Sorts supplémentaires",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.675fa64670f1f430",
+      "kind": "term",
+      "en": "Domain Spells",
+      "fr": "Sorts de domaine",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.7bd6921e2dccbb0b",
+      "kind": "term",
+      "en": "Oath Spells",
+      "fr": "Sorts de serment",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.4184ecb7073f699f",
+      "kind": "term",
+      "en": "Expanded Spell List",
+      "fr": "Liste de sorts étendue",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.68c26e6b87e1ad71",
+      "kind": "term",
+      "en": "Familiar",
+      "fr": "Familier",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.b1daa3855b5eba19",
+      "kind": "term",
+      "en": "Animal Companion",
+      "fr": "Compagnon animal",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.2e8c69b42d89dda3",
+      "kind": "term",
+      "en": "Primal Companion",
+      "fr": "Compagnon primordial",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.d8b5a6008e953d76",
+      "kind": "term",
+      "en": "Beast of the Land",
+      "fr": "Bête terrestre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.5cb97e0792880fa3",
+      "kind": "term",
+      "en": "Beast of the Sea",
+      "fr": "Bête marine",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.36b4f07ba98b9666",
+      "kind": "term",
+      "en": "Beast of the Sky",
+      "fr": "Bête aérienne",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.51d53dc6077d004e",
+      "kind": "term",
+      "en": "Psionic Energy Dice",
+      "fr": "Dés d’énergie psionique",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.364c308b2e4ec66c",
+      "kind": "term",
+      "en": "Psionic Power",
+      "fr": "Puissance psionique",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.5339886ae736cb8a",
+      "kind": "term",
+      "en": "Psionic Strike",
+      "fr": "Frappe psionique",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.0e783bbfa26e37bc",
+      "kind": "term",
+      "en": "Protective Field",
+      "fr": "Champ protecteur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.b65b029de581badb",
+      "kind": "term",
+      "en": "Telekinetic Movement",
+      "fr": "Déplacement télékinétique",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.b288c0a99eb214a9",
+      "kind": "term",
+      "en": "Psychic Blades",
+      "fr": "Lames psychiques",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.e5181080936c123f",
+      "kind": "term",
+      "en": "Psychic Whispers",
+      "fr": "Murmures psychiques",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.22f1dd65b6daaadf",
+      "kind": "term",
+      "en": "Psychic Teleportation",
+      "fr": "Téléportation psychique",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.d2ebf0b2d3d8b599",
+      "kind": "term",
+      "en": "Soul Blades",
+      "fr": "Lames de l’âme",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.1c071e0f645455d0",
+      "kind": "term",
+      "en": "Rend Mind",
+      "fr": "Déchirure mentale",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.95a77e943e74130b",
+      "kind": "term",
+      "en": "Dread Ambusher",
+      "fr": "Embuscade redoutable",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.5133447ebfd2e69a",
+      "kind": "term",
+      "en": "Umbral Sight",
+      "fr": "Vision ombrale",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.4ebc880774914329",
+      "kind": "term",
+      "en": "Stalker's Flurry",
+      "fr": "Rafale du traqueur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.7eec8cbac23893dd",
+      "kind": "term",
+      "en": "Stalker's Dodge",
+      "fr": "Esquive du traqueur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.5f141a031e34b2b6",
+      "kind": "term",
+      "en": "Dreadful Strike",
+      "fr": "Frappe redoutable",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.705ca3ade74e931c",
+      "kind": "term",
+      "en": "Otherworldly Glamour",
+      "fr": "Séduction surnaturelle",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.869d821b358beb12",
+      "kind": "term",
+      "en": "Beguiling Twist",
+      "fr": "Retournement envoûtant",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.6a7d1594fb88ca4b",
+      "kind": "term",
+      "en": "Fey Reinforcements",
+      "fr": "Renforts féeriques",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.7adc9d90dffe0488",
+      "kind": "term",
+      "en": "Misty Wanderer",
+      "fr": "Vagabond brumeux",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.0047838b05a4c4cd",
+      "kind": "term",
+      "en": "Divine Fury",
+      "fr": "Fureur divine",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.d2e6323e341957a8",
+      "kind": "term",
+      "en": "Warrior of the Gods",
+      "fr": "Guerrier des dieux",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.ac74437a31063f11",
+      "kind": "term",
+      "en": "Fanatical Focus",
+      "fr": "Focalisation fanatique",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.3a3304bb4ea45944",
+      "kind": "term",
+      "en": "Zealous Presence",
+      "fr": "Présence zélée",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.18e3b6a14ee5cbb4",
+      "kind": "term",
+      "en": "Rage of the Gods",
+      "fr": "Rage des dieux",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.e7b2847a89fb55c1",
+      "kind": "term",
+      "en": "Vitality of the Tree",
+      "fr": "Vitalité de l’arbre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.d59640ceea245aa6",
+      "kind": "term",
+      "en": "Branches of the Tree",
+      "fr": "Branches de l’arbre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.98bfb11d277f9042",
+      "kind": "term",
+      "en": "Battering Roots",
+      "fr": "Racines percutantes",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.cbe6ea287ab25fb1",
+      "kind": "term",
+      "en": "Travel Along the Tree",
+      "fr": "Voyage le long de l’arbre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.35b81139f5c3a698",
+      "kind": "term",
+      "en": "Dazzling Footwork",
+      "fr": "Jeu de jambes éblouissant",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.395b2d8650a64f0d",
+      "kind": "term",
+      "en": "Inspiring Movement",
+      "fr": "Mouvement inspirant",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.c73c92d7dc984f20",
+      "kind": "term",
+      "en": "Leading Evasion",
+      "fr": "Esquive partagée",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.5f7d9a923e6ea0f5",
+      "kind": "term",
+      "en": "Beguiling Magic",
+      "fr": "Magie envoûtante",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.a32e4ac0bb27d6d0",
+      "kind": "term",
+      "en": "Mantle of Inspiration",
+      "fr": "Manteau d’inspiration",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.6ced70cc0abe76f2",
+      "kind": "term",
+      "en": "Mantle of Majesty",
+      "fr": "Manteau de majesté",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.6d2ab3af49e35e7c",
+      "kind": "term",
+      "en": "Unbreakable Majesty",
+      "fr": "Majesté inébranlable",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.82d48c0a32386f4b",
+      "kind": "term",
+      "en": "War Magic",
+      "fr": "Magie de guerre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.8e4e7e595ab25c6a",
+      "kind": "term",
+      "en": "Improved War Magic",
+      "fr": "Magie de guerre améliorée",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.1d4b844c32f102a1",
+      "kind": "term",
+      "en": "War Bond",
+      "fr": "Lien de guerre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.69ee9404d72eacfa",
+      "kind": "term",
+      "en": "Eldritch Strike",
+      "fr": "Frappe occulte",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.bcb83d4f64c8a90f",
+      "kind": "term",
+      "en": "Arcane Charge",
+      "fr": "Charge arcanique",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.3d70437406ca4cdd",
+      "kind": "term",
+      "en": "Open Hand Technique",
+      "fr": "Technique de la Paume",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.5f70d8988272b836",
+      "kind": "term",
+      "en": "Wholeness of Body",
+      "fr": "Plénitude physique",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Intégrité physique"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.adffaf6d0cac52c9",
+      "kind": "term",
+      "en": "Fleet Step",
+      "fr": "Foulée preste",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Pas agile"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.ebe7d59350e1e17c",
+      "kind": "term",
+      "en": "Quivering Palm",
+      "fr": "Paume vibratoire",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.02bbadbb7819b480",
+      "kind": "term",
+      "en": "Shadow Arts",
+      "fr": "Arts de l’ombre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.b0adcc8ace6f9a0e",
+      "kind": "term",
+      "en": "Shadow Step",
+      "fr": "Pas de l’ombre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.b6826eb175e635c3",
+      "kind": "term",
+      "en": "Improved Shadow Step",
+      "fr": "Pas de l’ombre amélioré",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.8d06457126297306",
+      "kind": "term",
+      "en": "Cloak of Shadows",
+      "fr": "Manteau d’ombres",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.b15baa8abb303e72",
+      "kind": "term",
+      "en": "Elemental Attunement",
+      "fr": "Harmonisation élémentaire",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.e4a601d983182d84",
+      "kind": "term",
+      "en": "Elemental Burst",
+      "fr": "Explosion élémentaire",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.826e8f4f546a8957",
+      "kind": "term",
+      "en": "Stride of the Elements",
+      "fr": "Foulée des éléments",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.ce31f252cbdf0bb4",
+      "kind": "term",
+      "en": "Elemental Epitome",
+      "fr": "Incarnation élémentaire",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.984ba79823696e72",
+      "kind": "term",
+      "en": "Hand of Harm",
+      "fr": "Main nuisible",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.74d7c17e5333df11",
+      "kind": "term",
+      "en": "Hand of Healing",
+      "fr": "Main guérisseuse",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.822312083493c1d4",
+      "kind": "term",
+      "en": "Flurry of Healing and Harm",
+      "fr": "Déluge de soins et de blessures",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.04888bc1b81a40d8",
+      "kind": "term",
+      "en": "Hand of Ultimate Mercy",
+      "fr": "Main de miséricorde ultime",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.841a86efe594e0c0",
+      "kind": "term",
+      "en": "Steps of the Fey",
+      "fr": "Pas féeriques",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.e26ad1e008f44494",
+      "kind": "term",
+      "en": "Misty Escape",
+      "fr": "Fuite brumeuse",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.a7bc2411b2bf5038",
+      "kind": "term",
+      "en": "Beguiling Defenses",
+      "fr": "Défenses envoûtantes",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.a0e3ee92637d3c2d",
+      "kind": "term",
+      "en": "Bewitching Magic",
+      "fr": "Magie ensorcelante",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.260317ba6b0851c6",
+      "kind": "term",
+      "en": "Healing Light",
+      "fr": "Lumière guérisseuse",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.c55d71a79b717d35",
+      "kind": "term",
+      "en": "Radiant Soul",
+      "fr": "Âme radiante",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.3fe6f50233fcae65",
+      "kind": "term",
+      "en": "Celestial Resilience",
+      "fr": "Résilience céleste",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.fda5e351ada8a97a",
+      "kind": "term",
+      "en": "Searing Vengeance",
+      "fr": "Vengeance brûlante",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.195fafd07d8dc816",
+      "kind": "term",
+      "en": "Awakened Mind",
+      "fr": "Esprit éveillé",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.124d00bc2588536b",
+      "kind": "term",
+      "en": "Psychic Spells",
+      "fr": "Sorts psychiques",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.1cb08fdb98eda9f0",
+      "kind": "term",
+      "en": "Clairvoyant Combatant",
+      "fr": "Combattant clairvoyant",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.5fa1c8672de913ea",
+      "kind": "term",
+      "en": "Eldritch Hex",
+      "fr": "Maléfice occulte",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.5b78de637ac23cf8",
+      "kind": "term",
+      "en": "Thought Shield",
+      "fr": "Bouclier de pensée",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.1c1f3a524418a006",
+      "kind": "term",
+      "en": "Create Thrall",
+      "fr": "Création de serviteur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.73d11a8650f0b6a5",
+      "kind": "term",
+      "en": "Arcane Ward",
+      "fr": "Protection arcanique",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.72623b255cff6b57",
+      "kind": "term",
+      "en": "Projected Ward",
+      "fr": "Protection projetée",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.9281450b5e0176e4",
+      "kind": "term",
+      "en": "Spell Breaker",
+      "fr": "Briseur de sorts",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.a5e3aca729682093",
+      "kind": "term",
+      "en": "Spell Resistance",
+      "fr": "Résistance aux sorts",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.dc13ccc9944c19cf",
+      "kind": "term",
+      "en": "Portent",
+      "fr": "Présage",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.c988a329d76c7348",
+      "kind": "term",
+      "en": "Expert Divination",
+      "fr": "Divination experte",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.4dd1e67a13988783",
+      "kind": "term",
+      "en": "The Third Eye",
+      "fr": "Le troisième œil",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.5ac4aec562d90700",
+      "kind": "term",
+      "en": "Greater Portent",
+      "fr": "Présage supérieur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.e51230085128a156",
+      "kind": "term",
+      "en": "Improved Illusions",
+      "fr": "Illusions améliorées",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.dd3e45ac98df675d",
+      "kind": "term",
+      "en": "Phantasmal Creatures",
+      "fr": "Créatures fantasmatiques",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.a99aef7d9ef2ec87",
+      "kind": "term",
+      "en": "Illusory Self",
+      "fr": "Soi illusoire",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.637dc0b30927cd14",
+      "kind": "term",
+      "en": "Illusory Reality",
+      "fr": "Réalité illusoire",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.cfe172149132d723",
+      "kind": "term",
+      "en": "Barbarian Subclass",
+      "fr": "Sous-classe de Barbare",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Sous-classe : Barbare"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.cb92549328845bd9",
+      "kind": "term",
+      "en": "Barbarian Features",
+      "fr": "Aptitudes : Barbare",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.349ee7e8ae5198f9",
+      "kind": "term",
+      "en": "Barbarian Level",
+      "fr": "Niveau de barbare",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.451cb54eb03d118f",
+      "kind": "term",
+      "en": "Barbarian Spells",
+      "fr": "Sorts de barbare",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.32dc020bde16e616",
+      "kind": "term",
+      "en": "Barbarian Spell List",
+      "fr": "Liste des sorts de barbare",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.721f3709b0ad0e88",
+      "kind": "term",
+      "en": "Pick Barbarian Spells",
+      "fr": "Choisir les sorts de barbare",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.89c35e925f01c9d6",
+      "kind": "term",
+      "en": "Core Barbarian Traits",
+      "fr": "Traits de base : Barbare",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.0d417e0259b05f6c",
+      "kind": "term",
+      "en": "Bard Subclass",
+      "fr": "Sous-classe de Barde",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Sous-classe : Barde"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.cb70e2169bf449d7",
+      "kind": "term",
+      "en": "Bard Features",
+      "fr": "Aptitudes : Barde",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.7cb16361c4d3847f",
+      "kind": "term",
+      "en": "Bard Level",
+      "fr": "Niveau de barde",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.a3c6aa23fd2409f9",
+      "kind": "term",
+      "en": "Bard Spells",
+      "fr": "Sorts de barde",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.d61aa54756006228",
+      "kind": "term",
+      "en": "Bard Spell List",
+      "fr": "Liste des sorts de barde",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.fb725967f09e8eaa",
+      "kind": "term",
+      "en": "Pick Bard Spells",
+      "fr": "Choisir les sorts de barde",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.f327be0c8462b004",
+      "kind": "term",
+      "en": "Core Bard Traits",
+      "fr": "Traits de base : Barde",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.3ea6f1e03176b3fd",
+      "kind": "term",
+      "en": "Cleric Subclass",
+      "fr": "Sous-classe de Clerc",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Sous-classe : Clerc"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.b5900417cde1d5d4",
+      "kind": "term",
+      "en": "Cleric Features",
+      "fr": "Aptitudes : Clerc",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.95fc843f0b62d07c",
+      "kind": "term",
+      "en": "Cleric Level",
+      "fr": "Niveau de clerc",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.97bcaa30a20ffe02",
+      "kind": "term",
+      "en": "Cleric Spells",
+      "fr": "Sorts de clerc",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.ac6439a6768e91f9",
+      "kind": "term",
+      "en": "Cleric Spell List",
+      "fr": "Liste des sorts de clerc",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.d5d27d9c817a327d",
+      "kind": "term",
+      "en": "Pick Cleric Spells",
+      "fr": "Choisir les sorts de clerc",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.670f1df737207b89",
+      "kind": "term",
+      "en": "Core Cleric Traits",
+      "fr": "Traits de base : Clerc",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.b6e5dad0c053050d",
+      "kind": "term",
+      "en": "Pick Druid Spells",
+      "fr": "Choisir les sorts de druide",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.64699cb66aeb9d58",
+      "kind": "term",
+      "en": "Core Druid Traits",
+      "fr": "Traits de base : Druide",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.f22387cdfdbee11a",
+      "kind": "term",
+      "en": "Fighter Subclass",
+      "fr": "Sous-classe de Guerrier",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Sous-classe : Guerrier"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.cb94c4f8d32611b6",
+      "kind": "term",
+      "en": "Fighter Features",
+      "fr": "Aptitudes : Guerrier",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.9badec117b789ae4",
+      "kind": "term",
+      "en": "Fighter Level",
+      "fr": "Niveau de guerrier",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.a2aafa893f270fd6",
+      "kind": "term",
+      "en": "Fighter Spells",
+      "fr": "Sorts de guerrier",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.fa863daf13bb52d0",
+      "kind": "term",
+      "en": "Fighter Spell List",
+      "fr": "Liste des sorts de guerrier",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.ace60a0ec959521d",
+      "kind": "term",
+      "en": "Pick Fighter Spells",
+      "fr": "Choisir les sorts de guerrier",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.221f3a894a429d96",
+      "kind": "term",
+      "en": "Core Fighter Traits",
+      "fr": "Traits de base : Guerrier",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.22b8e6725b9a8538",
+      "kind": "term",
+      "en": "Monk Subclass",
+      "fr": "Sous-classe de Moine",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Sous-classe : Moine"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.26902b509318f4a1",
+      "kind": "term",
+      "en": "Monk Features",
+      "fr": "Aptitudes : Moine",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.0f1fae567dc0b821",
+      "kind": "term",
+      "en": "Monk Level",
+      "fr": "Niveau de moine",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.418f79998ab6753d",
+      "kind": "term",
+      "en": "Monk Spells",
+      "fr": "Sorts de moine",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.a9d0b71a9b0ae549",
+      "kind": "term",
+      "en": "Monk Spell List",
+      "fr": "Liste des sorts de moine",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.067284383bb8d7ba",
+      "kind": "term",
+      "en": "Pick Monk Spells",
+      "fr": "Choisir les sorts de moine",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.9b932165914f30ca",
+      "kind": "term",
+      "en": "Core Monk Traits",
+      "fr": "Traits de base : Moine",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.8fcf3b7bd550f6a2",
+      "kind": "term",
+      "en": "Paladin Subclass",
+      "fr": "Sous-classe de Paladin",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Sous-classe : Paladin"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.f9f924fd556090bc",
+      "kind": "term",
+      "en": "Paladin Features",
+      "fr": "Aptitudes : Paladin",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.12a8fc105d01cf32",
+      "kind": "term",
+      "en": "Paladin Level",
+      "fr": "Niveau de paladin",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.ce77af5f3a177b43",
+      "kind": "term",
+      "en": "Paladin Spells",
+      "fr": "Sorts de paladin",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.dad24dfc29261cb3",
+      "kind": "term",
+      "en": "Paladin Spell List",
+      "fr": "Liste des sorts de paladin",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.7c190b989b123141",
+      "kind": "term",
+      "en": "Pick Paladin Spells",
+      "fr": "Choisir les sorts de paladin",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.55b6e5f98dc76bee",
+      "kind": "term",
+      "en": "Core Paladin Traits",
+      "fr": "Traits de base : Paladin",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.672c5eec34296eac",
+      "kind": "term",
+      "en": "Ranger Subclass",
+      "fr": "Sous-classe de Rôdeur",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Sous-classe : Rôdeur"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.b0faecd22dda4d70",
+      "kind": "term",
+      "en": "Ranger Features",
+      "fr": "Aptitudes : Rôdeur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.9254d08b186a7ce6",
+      "kind": "term",
+      "en": "Ranger Level",
+      "fr": "Niveau de rôdeur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.26513072d735bfe9",
+      "kind": "term",
+      "en": "Ranger Spells",
+      "fr": "Sorts de rôdeur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.4eef3c973f7f2213",
+      "kind": "term",
+      "en": "Ranger Spell List",
+      "fr": "Liste des sorts de rôdeur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.9b8c98bd8ff6e3af",
+      "kind": "term",
+      "en": "Pick Ranger Spells",
+      "fr": "Choisir les sorts de rôdeur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.e933625d72fbc34f",
+      "kind": "term",
+      "en": "Core Ranger Traits",
+      "fr": "Traits de base : Rôdeur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.2dbdca083fed1ae1",
+      "kind": "term",
+      "en": "Rogue Subclass",
+      "fr": "Sous-classe de Roublard",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Sous-classe : Roublard"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.e8a8aec5f1d2da50",
+      "kind": "term",
+      "en": "Rogue Features",
+      "fr": "Aptitudes : Roublard",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.19fa50fe14b436dc",
+      "kind": "term",
+      "en": "Rogue Level",
+      "fr": "Niveau de roublard",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.4f4c5c5bedf418c1",
+      "kind": "term",
+      "en": "Rogue Spells",
+      "fr": "Sorts de roublard",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.d5916bd3be04708e",
+      "kind": "term",
+      "en": "Rogue Spell List",
+      "fr": "Liste des sorts de roublard",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.c9382f53710759a3",
+      "kind": "term",
+      "en": "Pick Rogue Spells",
+      "fr": "Choisir les sorts de roublard",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.95923db8181befa3",
+      "kind": "term",
+      "en": "Core Rogue Traits",
+      "fr": "Traits de base : Roublard",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.fe9ac641d995b2dc",
+      "kind": "term",
+      "en": "Sorcerer Level",
+      "fr": "Niveau de ensorceleur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.25d15ccea793bf37",
+      "kind": "term",
+      "en": "Sorcerer Spells",
+      "fr": "Sorts de ensorceleur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.ea9ddfd5bc69b745",
+      "kind": "term",
+      "en": "Sorcerer Spell List",
+      "fr": "Liste des sorts de ensorceleur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.e405837ab2bf1088",
+      "kind": "term",
+      "en": "Core Sorcerer Traits",
+      "fr": "Traits de base : Ensorceleur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.2e1ce14fc51d78ab",
+      "kind": "term",
+      "en": "Warlock Subclass",
+      "fr": "Sous-classe d’Occultiste",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Sous-classe : Occultiste"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.6739fd408ef1d112",
+      "kind": "term",
+      "en": "Warlock Features",
+      "fr": "Aptitudes : Occultiste",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.c0e5784bf68043bb",
+      "kind": "term",
+      "en": "Warlock Level",
+      "fr": "Niveau de occultiste",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.f5fbfdb5f0a96ee0",
+      "kind": "term",
+      "en": "Warlock Spells",
+      "fr": "Sorts de occultiste",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.7f9aca5d4d23fcf4",
+      "kind": "term",
+      "en": "Warlock Spell List",
+      "fr": "Liste des sorts de occultiste",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.2b133c31d0f8b1cb",
+      "kind": "term",
+      "en": "Pick Warlock Spells",
+      "fr": "Choisir les sorts de occultiste",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.7cb4f29991ae7b1a",
+      "kind": "term",
+      "en": "Core Warlock Traits",
+      "fr": "Traits de base : Occultiste",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.93541a7d47157e42",
+      "kind": "term",
+      "en": "Wizard Subclass",
+      "fr": "Sous-classe de Magicien",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Sous-classe : Magicien"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.15fa2a82ba2e872f",
+      "kind": "term",
+      "en": "Wizard Features",
+      "fr": "Aptitudes : Magicien",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.4df5b6760fec4695",
+      "kind": "term",
+      "en": "Wizard Level",
+      "fr": "Niveau de magicien",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.99ff59bad31c3978",
+      "kind": "term",
+      "en": "Wizard Spells",
+      "fr": "Sorts de magicien",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.1c07835b52805c99",
+      "kind": "term",
+      "en": "Wizard Spell List",
+      "fr": "Liste des sorts de magicien",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.d7b836d8d8d91dd0",
+      "kind": "term",
+      "en": "Pick Wizard Spells",
+      "fr": "Choisir les sorts de magicien",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.e2a93263c4be3ca0",
+      "kind": "term",
+      "en": "Core Wizard Traits",
+      "fr": "Traits de base : Magicien",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "création de personnage"
+    },
+    {
+      "id": "corpus.d1779fb543bb21bf",
+      "kind": "term",
+      "en": "Fast Movement",
+      "fr": "Déplacement rapide",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.88f6abc4a289e7f7",
+      "kind": "term",
+      "en": "Feral Instinct",
+      "fr": "Instinct sauvage",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.45f248a47a2e25a4",
+      "kind": "term",
+      "en": "Instinctive Pounce",
+      "fr": "Bond instinctif",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.0bb2bd056380f299",
+      "kind": "term",
+      "en": "Relentless Rage",
+      "fr": "Rage implacable",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.22b6c77ea58724a0",
+      "kind": "term",
+      "en": "Improved Brutal Strike",
+      "fr": "Coup brutal amélioré",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.72f8b9673a06e547",
+      "kind": "term",
+      "en": "Persistent Rage",
+      "fr": "Rage persistante",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.3e2da994e5f84ad2",
+      "kind": "term",
+      "en": "Indomitable Might",
+      "fr": "Puissance indomptable",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.148b8f01ccb30c07",
+      "kind": "term",
+      "en": "Frenzy",
+      "fr": "Frénésie",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.15a6951917ec9fff",
+      "kind": "term",
+      "en": "Mindless Rage",
+      "fr": "Rage aveugle",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.5dd0cd4a0b58d82a",
+      "kind": "term",
+      "en": "Retaliation",
+      "fr": "Représailles",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.50f2df7903c82053",
+      "kind": "term",
+      "en": "Intimidating Presence",
+      "fr": "Présence intimidante",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.49504f3e09ba6a8f",
+      "kind": "term",
+      "en": "Superior Inspiration",
+      "fr": "Inspiration supérieure",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.4170fc9cb07740ef",
+      "kind": "term",
+      "en": "Words of Creation",
+      "fr": "Verbe de la création",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.d7d2129c8c4ee211",
+      "kind": "term",
+      "en": "Bonus Proficiencies",
+      "fr": "Maîtrises supplémentaires",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.2a225014c83db269",
+      "kind": "term",
+      "en": "Cutting Words",
+      "fr": "Mots cinglants",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.294d5d6d3565e07a",
+      "kind": "term",
+      "en": "Peerless Skill",
+      "fr": "Compétence hors pair",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.7405938339c59303",
+      "kind": "term",
+      "en": "Sear Undead",
+      "fr": "Calcination de Mort-vivant",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.6486319a4910cb04",
+      "kind": "term",
+      "en": "Blessed Strikes",
+      "fr": "Impacts bénis",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.8bfa0668e44aafc9",
+      "kind": "term",
+      "en": "Improved Blessed Strikes",
+      "fr": "Impacts bénis améliorés",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.9fdc6dc4924a5a87",
+      "kind": "term",
+      "en": "Greater Divine Intervention",
+      "fr": "Intervention divine suprême",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.1961746acf1371b8",
+      "kind": "term",
+      "en": "Disciple of Life",
+      "fr": "Disciple de la Vie",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.0e731e365f3421d5",
+      "kind": "term",
+      "en": "Life Domain Spells",
+      "fr": "Sorts du Domaine de la Vie",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.2bb2544c149f0ead",
+      "kind": "term",
+      "en": "Preserve Life",
+      "fr": "Survivance",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.26bb3adaf55cf023",
+      "kind": "term",
+      "en": "Blessed Healer",
+      "fr": "Guérisseur béni",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.aea106b4820a9db9",
+      "kind": "term",
+      "en": "Supreme Healing",
+      "fr": "Guérison suprême",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.94ce7de920489274",
+      "kind": "term",
+      "en": "Improved Elemental Fury",
+      "fr": "Fureur élémentaire améliorée",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.5f925655f170d30c",
+      "kind": "term",
+      "en": "Circle of the Land Spells",
+      "fr": "Sorts du Cercle de la Terre",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.45173f87d3b7353e",
+      "kind": "term",
+      "en": "Two Extra Attacks",
+      "fr": "Double attaque supplémentaire",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.d70fde68d8fd1b96",
+      "kind": "term",
+      "en": "Three Extra Attacks",
+      "fr": "Triple attaque supplémentaire",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.8d01a224efa56c1e",
+      "kind": "term",
+      "en": "Improved Critical",
+      "fr": "Critique amélioré",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.a50422c80de5468d",
+      "kind": "term",
+      "en": "Remarkable Athlete",
+      "fr": "Athlète accompli",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.7b4bb9c2f6a96a04",
+      "kind": "term",
+      "en": "Additional Fighting Style",
+      "fr": "Style de combat supplémentaire",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.81db925d75cad1d2",
+      "kind": "term",
+      "en": "Heroic Warrior",
+      "fr": "Héros du champ d’honneur",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.8011b37656b391eb",
+      "kind": "term",
+      "en": "Superior Critical",
+      "fr": "Critique supérieur",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.51b40c9947e4735a",
+      "kind": "term",
+      "en": "Survivor",
+      "fr": "Survivant",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.cc8c351b3e7499c7",
+      "kind": "term",
+      "en": "Unarmored Movement",
+      "fr": "Déplacement sans armure",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.482052aebcdc43b8",
+      "kind": "term",
+      "en": "Empowered Strikes",
+      "fr": "Frappes renforcées",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.c3f998709cd5c449",
+      "kind": "term",
+      "en": "Acrobatic Movement",
+      "fr": "Mouvement acrobatique",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.43738c01579b13f2",
+      "kind": "term",
+      "en": "Deflect Energy",
+      "fr": "Parade énergétique",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.5e2f6428e93506af",
+      "kind": "term",
+      "en": "Disciplined Survivor",
+      "fr": "Survivant discipliné",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.d99bebd8632b861a",
+      "kind": "term",
+      "en": "Perfect Focus",
+      "fr": "Credo parachevé",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.bb695c95381a6279",
+      "kind": "term",
+      "en": "Superior Defense",
+      "fr": "Défense supérieure",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.854cbfbd0403f0ca",
+      "kind": "term",
+      "en": "Paladin's Smite",
+      "fr": "Châtiment de paladin",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.d5dccbbcd283db7d",
+      "kind": "term",
+      "en": "Faithful Steed",
+      "fr": "Fidèle destrier",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.4161983d81ac7422",
+      "kind": "term",
+      "en": "Abjure Foes",
+      "fr": "Abjuration d’ennemis",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.9b16568a97e68561",
+      "kind": "term",
+      "en": "Aura of Courage",
+      "fr": "Aura de courage",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.5c7ab24dd076fc8d",
+      "kind": "term",
+      "en": "Radiant Strikes",
+      "fr": "Frappes radiantes",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.246bc240aa5e03c1",
+      "kind": "term",
+      "en": "Restoring Touch",
+      "fr": "Toucher réparateur",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.b9212e66be9e6de5",
+      "kind": "term",
+      "en": "Aura Expansion",
+      "fr": "Aura étendue",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.8e7994f8e6037319",
+      "kind": "term",
+      "en": "Oath of Devotion Spells",
+      "fr": "Sorts du Serment de Dévotion",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.e8836e1e56e5d7fb",
+      "kind": "term",
+      "en": "Sacred Weapon",
+      "fr": "Arme sacrée",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.cd160000e44ee8db",
+      "kind": "term",
+      "en": "Aura of Devotion",
+      "fr": "Aura de dévotion",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.78fce6b153a8f975",
+      "kind": "term",
+      "en": "Smite of Protection",
+      "fr": "Châtiment de protection",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.49f6f201cbb1bfe7",
+      "kind": "term",
+      "en": "Holy Nimbus",
+      "fr": "Nimbe sacré",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.efd962ceaa6770cc",
+      "kind": "term",
+      "en": "Nature's Veil",
+      "fr": "Voile de la nature",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.13353e20f4e2d181",
+      "kind": "term",
+      "en": "Feral Senses",
+      "fr": "Sens sauvages",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.b4e908550779a262",
+      "kind": "term",
+      "en": "Foe Slayer",
+      "fr": "Tueur implacable",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.0acbf9de0926cdfb",
+      "kind": "term",
+      "en": "Hunter's Lore",
+      "fr": "Savoir du Chasseur",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.d436ca048a300b95",
+      "kind": "term",
+      "en": "Hunter's Prey",
+      "fr": "Proie du chasseur",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.6988be294f048131",
+      "kind": "term",
+      "en": "Defensive Tactics",
+      "fr": "Tactiques défensives",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.0e25d84ccbe4cdf7",
+      "kind": "term",
+      "en": "Superior Hunter's Prey",
+      "fr": "Proie du chasseur supérieure",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.2b4b3bdd8c3b6e1c",
+      "kind": "term",
+      "en": "Superior Hunter's Defense",
+      "fr": "Défense de chasseur supérieure",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.cc785730e8fd916f",
+      "kind": "term",
+      "en": "Improved Cunning Strike",
+      "fr": "Frappe malicieuse améliorée",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.4ebd2d545616ebf2",
+      "kind": "term",
+      "en": "Slippery Mind",
+      "fr": "Esprit fuyant",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.b22d58e783495e79",
+      "kind": "term",
+      "en": "Elusive",
+      "fr": "Insaisissable",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.3a681e39ad8b4a14",
+      "kind": "term",
+      "en": "Stroke of Luck",
+      "fr": "Coup de chance",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.fba4c022997dc5dc",
+      "kind": "term",
+      "en": "Fast Hands",
+      "fr": "Mains lestes",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.7cb93edc3f3366e2",
+      "kind": "term",
+      "en": "Second-Story Work",
+      "fr": "Monte-en-l’air",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.dc632a2c6e4ffe13",
+      "kind": "term",
+      "en": "Supreme Sneak",
+      "fr": "Furtivité suprême",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.da46ee4b93c711b3",
+      "kind": "term",
+      "en": "Use Magic Device",
+      "fr": "Utilisation d’objets magiques",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.7dc67964a93105c1",
+      "kind": "term",
+      "en": "Thief's Reflexes",
+      "fr": "Réflexes de voleur",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.3b2bff52b5a817ed",
+      "kind": "term",
+      "en": "Dark One's Blessing",
+      "fr": "Bénédiction du ténébreux",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.3318785cc464fc3e",
+      "kind": "term",
+      "en": "Fiend Spells",
+      "fr": "Sorts du Fiélon",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.7a922e14e753ad02",
+      "kind": "term",
+      "en": "Dark One's Own Luck",
+      "fr": "Chance du ténébreux",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.54a45b1821368275",
+      "kind": "term",
+      "en": "Fiendish Resilience",
+      "fr": "Résistance fiélonne",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.46b5e7c93810a182",
+      "kind": "term",
+      "en": "Hurl Through Hell",
+      "fr": "Traversée des enfers",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.1d0734032dede441",
+      "kind": "term",
+      "en": "Ritual Adept",
+      "fr": "Savoir rituel",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.7ecefbdb31c4c69d",
+      "kind": "term",
+      "en": "Evocation Savant",
+      "fr": "Évocateur érudit",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.06eb009c1d9e5a7e",
+      "kind": "term",
+      "en": "Empowered Evocation",
+      "fr": "Évocation améliorée",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.18b0955da4369137",
+      "kind": "term",
+      "en": "Overchannel",
+      "fr": "Surcharge magique",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "aptitude de classe"
+    },
+    {
+      "id": "corpus.a570dd4e6f5af23d",
+      "kind": "term",
+      "en": "Mage Hand Legerdemain",
+      "fr": "Escamotage de main de mage",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.6c99513adf31841d",
+      "kind": "term",
+      "en": "Animal Speaker",
+      "fr": "Langage des animaux",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.e0633206cf879cb2",
+      "kind": "term",
+      "en": "Toggle Effects",
+      "fr": "Activer / désactiver les effets",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.62922b6f3b09c083",
+      "kind": "term",
+      "en": "Cast as Bonus Action",
+      "fr": "Lancer par une action Bonus",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.1e56d2672051b076",
+      "kind": "term",
+      "en": "see description",
+      "fr": "Voir la description",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.0239655f85f33a51",
+      "kind": "term",
+      "en": "Rage Damage",
+      "fr": "Dégâts de Rage",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.669ca8a59feb80b3",
+      "kind": "term",
+      "en": "Rages",
+      "fr": "Rages",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.c01ae24954a54800",
+      "kind": "term",
+      "en": "Light, Thrown",
+      "fr": "Légère, Lancer",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.859bce34cb205d3f",
+      "kind": "term",
+      "en": "Light and Thrown",
+      "fr": "Légère et Lancer",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.a46b3b460561f043",
+      "kind": "term",
+      "en": "Dungeon Delver",
+      "fr": "Explorateur de donjons",
+      "source": "AideDD · index des dons 2014 (nom)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
     }
   ]
 }

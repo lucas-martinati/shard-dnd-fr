@@ -13,14 +13,16 @@
       "kind": "term",
       "en": "My Characters",
       "fr": "Mes personnages",
-      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026"
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "usage": []
     },
     {
       "id": "shard.interface.new-character",
       "kind": "term",
       "en": "New Character",
       "fr": "Nouveau personnage",
-      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026"
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "usage": []
     },
     {
       "id": "shard.interface.campaigns",
@@ -97,7 +99,11 @@
       "kind": "term",
       "en": "Book",
       "fr": "Livre",
-      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026"
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "usage": [
+        "name",
+        "search"
+      ]
     },
     {
       "id": "shard.interface.reference",
@@ -195,7 +201,8 @@
       "kind": "term",
       "en": "Not in campaign",
       "fr": "Hors campagne",
-      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026"
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "usage": []
     },
     {
       "id": "shard.interface.new",
@@ -209,7 +216,8 @@
       "kind": "term",
       "en": "more...",
       "fr": "Plus…",
-      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026"
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "usage": []
     },
     {
       "id": "shard.interface.advanced-filter",
@@ -230,7 +238,8 @@
       "kind": "term",
       "en": "Game System",
       "fr": "Système de jeu",
-      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026"
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "usage": []
     },
     {
       "id": "shard.interface.collection",
@@ -258,21 +267,35 @@
       "kind": "term",
       "en": "search",
       "fr": "Rechercher",
-      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026"
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Chercher"
+      ]
     },
     {
       "id": "shard.interface.base-race",
       "kind": "term",
       "en": "Base Race",
       "fr": "Espèce de base",
-      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026"
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "usage": [],
+      "aliases": [
+        "Race de base"
+      ]
     },
     {
       "id": "shard.interface.subraces",
       "kind": "term",
       "en": "Subraces",
       "fr": "Sous-espèces",
-      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026"
+      "source": "Traduction proposée des libellés généraux observés dans Shard (accueil, bibliothèque, références et filtres) · https://play.shardtabletop.com/ · audit du 13 octobre 2026",
+      "usage": [],
+      "aliases": [
+        "Sous-races"
+      ]
     },
     {
       "id": "shard.interface.variants",
@@ -1283,6 +1306,1812 @@
       "fr": "Exporter",
       "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
       "kind": "term"
+    },
+    {
+      "id": "corpus.1405a63e8a78b85c",
+      "kind": "term",
+      "en": "Character",
+      "fr": "Personnage",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.6fac39e2845bb812",
+      "kind": "term",
+      "en": "Characters",
+      "fr": "Personnages",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.e6332247f503befa",
+      "kind": "term",
+      "en": "Character Sheet",
+      "fr": "Fiche de personnage",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.0be57f3e2869a9e5",
+      "kind": "term",
+      "en": "Character Name",
+      "fr": "Nom du personnage",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.b39cb24477b8d0e0",
+      "kind": "term",
+      "en": "Character Options",
+      "fr": "Options du personnage",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.c1862410076c1394",
+      "kind": "term",
+      "en": "Split Screen",
+      "fr": "Écran partagé",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.d5cdfcf7ff75338f",
+      "kind": "term",
+      "en": "Top",
+      "fr": "Haut",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.ff8059dc6752afdd",
+      "kind": "term",
+      "en": "Actions",
+      "fr": "Actions",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.5697d03daef4de9c",
+      "kind": "term",
+      "en": "Features",
+      "fr": "Aptitudes",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.7f2465ac7cefab27",
+      "kind": "term",
+      "en": "Equipment",
+      "fr": "Équipement",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.758f487fe8e9fcc5",
+      "kind": "term",
+      "en": "Inventory",
+      "fr": "Inventaire",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.21e49eb2b299c9f7",
+      "kind": "term",
+      "en": "Log",
+      "fr": "Journal",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.e0ab4adb01b26f98",
+      "kind": "term",
+      "en": "Traits",
+      "fr": "Traits",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.66d0f523a379b2de",
+      "kind": "term",
+      "en": "Skills",
+      "fr": "Compétences",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.a8bc4da129aba170",
+      "kind": "term",
+      "en": "Senses",
+      "fr": "Sens",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.318655cea4bd2096",
+      "kind": "term",
+      "en": "Languages",
+      "fr": "Langues",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.aafc7b0e9b9e48bd",
+      "kind": "term",
+      "en": "Weapons",
+      "fr": "Armes",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.a592855d0508d161",
+      "kind": "term",
+      "en": "Armor",
+      "fr": "Armure",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.ea93d6a262ecb87a",
+      "kind": "term",
+      "en": "Tools",
+      "fr": "Outils",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.8a7525b1492fb848",
+      "kind": "term",
+      "en": "Notes",
+      "fr": "Notes",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.64cff1319d2fd2cb",
+      "kind": "term",
+      "en": "Action",
+      "fr": "Action",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.33b93476cf597a33",
+      "kind": "term",
+      "en": "Time",
+      "fr": "Temps",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.d05d5b86bd5ef12e",
+      "kind": "term",
+      "en": "Hit/DC",
+      "fr": "Attaque/DD",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.8a043f55ef384584",
+      "kind": "term",
+      "en": "Hit",
+      "fr": "Attaque",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.0c874f581a4534f1",
+      "kind": "term",
+      "en": "Damage",
+      "fr": "Dégâts",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.358511c8c09805c9",
+      "kind": "term",
+      "en": "Effects",
+      "fr": "Effets",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.c36d819e7bc6d2b7",
+      "kind": "term",
+      "en": "Use",
+      "fr": "Utiliser",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.9e6151acb057025d",
+      "kind": "term",
+      "en": "Uses",
+      "fr": "Utilisations",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.885fd3041d12884b",
+      "kind": "term",
+      "en": "Equip",
+      "fr": "Équiper",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.4543c883301ab0ca",
+      "kind": "term",
+      "en": "Unequip",
+      "fr": "Déséquiper",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.c4dc8a3877a429eb",
+      "kind": "term",
+      "en": "Equipped",
+      "fr": "Équipé",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.f73b0db1d2a848c3",
+      "kind": "term",
+      "en": "Unequipped",
+      "fr": "Non équipé",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.9c083aa97861c1b3",
+      "kind": "term",
+      "en": "Carry",
+      "fr": "Porter",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.4102dc6d4471981b",
+      "kind": "term",
+      "en": "Carrying",
+      "fr": "Charge portée",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.84cb6067bac9c7a9",
+      "kind": "term",
+      "en": "Carrying Capacity",
+      "fr": "Capacité de charge",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.b202ed35c9759018",
+      "kind": "term",
+      "en": "Encumbered",
+      "fr": "Encombré",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.7061d72dec5d46b1",
+      "kind": "term",
+      "en": "Heavily Encumbered",
+      "fr": "Lourdement encombré",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.f3c25130858e4e8f",
+      "kind": "term",
+      "en": "Unencumbered",
+      "fr": "Non encombré",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.822bab8d41bca8d7",
+      "kind": "term",
+      "en": "Quantity",
+      "fr": "Quantité",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.dc937b59892604f5",
+      "kind": "term",
+      "en": "None",
+      "fr": "Aucun",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.b14821319ef8b550",
+      "kind": "term",
+      "en": "Levels",
+      "fr": "Niveaux",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.4f3a9bd003974a5e",
+      "kind": "term",
+      "en": "Class",
+      "fr": "Classe",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.84637286c5b731d7",
+      "kind": "term",
+      "en": "Classes",
+      "fr": "Classes",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.f52ff824cfd57896",
+      "kind": "term",
+      "en": "Subclass",
+      "fr": "Sous-classe",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.73134ce128291dc3",
+      "kind": "term",
+      "en": "Race",
+      "fr": "Race",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.56205e12c20fb568",
+      "kind": "term",
+      "en": "Species",
+      "fr": "Espèce",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.ea2b8a878841df59",
+      "kind": "term",
+      "en": "Background",
+      "fr": "Historique",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.16a0b5fabbaf4030",
+      "kind": "term",
+      "en": "Backgrounds",
+      "fr": "Historiques",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.9194ccf56b9cace0",
+      "kind": "term",
+      "en": "Feats",
+      "fr": "Dons",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.8664d8a3721c324a",
+      "kind": "term",
+      "en": "Feat",
+      "fr": "Don",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.c372fee9b4566b85",
+      "kind": "term",
+      "en": "Speed",
+      "fr": "Vitesse",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.49ba63e89af69e4d",
+      "kind": "term",
+      "en": "Movement",
+      "fr": "Déplacement",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.1af851907331c0ed",
+      "kind": "term",
+      "en": "Size",
+      "fr": "Taille",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.9d597870c4b3f76d",
+      "kind": "term",
+      "en": "Alignment",
+      "fr": "Alignement",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.a04630ef8bc3da8c",
+      "kind": "term",
+      "en": "Gender",
+      "fr": "Genre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.a39e9d9816a99fc0",
+      "kind": "term",
+      "en": "Eyes",
+      "fr": "Yeux",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.bfe2eca401797325",
+      "kind": "term",
+      "en": "Height",
+      "fr": "Taille corporelle",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.403109cf2448759b",
+      "kind": "term",
+      "en": "Faith",
+      "fr": "Croyance",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.ababed4823ab79d2",
+      "kind": "term",
+      "en": "Hair",
+      "fr": "Cheveux",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.1fc91201eedbfcb7",
+      "kind": "term",
+      "en": "Skin",
+      "fr": "Peau",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.39b7370f30a36139",
+      "kind": "term",
+      "en": "Age",
+      "fr": "Âge",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.81d27ef6d5033c3e",
+      "kind": "term",
+      "en": "Weight",
+      "fr": "Poids",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.03f8c1273e3da99b",
+      "kind": "term",
+      "en": "Male",
+      "fr": "Masculin",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.e8cca808ae5aaa03",
+      "kind": "term",
+      "en": "Female",
+      "fr": "Féminin",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.4ce6c76e539a7b56",
+      "kind": "term",
+      "en": "Personality Traits",
+      "fr": "Traits de personnalité",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.d9d81de4bb27153d",
+      "kind": "term",
+      "en": "Ideals",
+      "fr": "Idéaux",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.3c5627d987b73aa7",
+      "kind": "term",
+      "en": "Bonds",
+      "fr": "Liens",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.f05aa1a518373c26",
+      "kind": "term",
+      "en": "Flaws",
+      "fr": "Défauts",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.a17d8c66cc79a03b",
+      "kind": "term",
+      "en": "Faction",
+      "fr": "Faction",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.ec759c668ff99100",
+      "kind": "term",
+      "en": "Allies & Organization",
+      "fr": "Alliés et organisations",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.4a516f23f5bfba3b",
+      "kind": "term",
+      "en": "Allies and Organizations",
+      "fr": "Alliés et organisations",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.0ee1a779f1a7ff93",
+      "kind": "term",
+      "en": "Other Traits",
+      "fr": "Autres traits",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.482b7775b1805cc9",
+      "kind": "term",
+      "en": "Backstory",
+      "fr": "Histoire du personnage",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.070f0e8fe6f3f911",
+      "kind": "term",
+      "en": "Creature Companions",
+      "fr": "Créatures compagnes",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.ea125361b042093c",
+      "kind": "term",
+      "en": "Companions",
+      "fr": "Compagnons",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.13d03e0a05306341",
+      "kind": "term",
+      "en": "Session Log",
+      "fr": "Journal de session",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.ad040b5b71665a33",
+      "kind": "term",
+      "en": "Adventure Title",
+      "fr": "Titre de l’aventure",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.e34f2651a1b43435",
+      "kind": "term",
+      "en": "Session Notes",
+      "fr": "Notes de session",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.6959b4159575d8dd",
+      "kind": "term",
+      "en": "Session",
+      "fr": "Session",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.15b61974b2707a7b",
+      "kind": "term",
+      "en": "Location",
+      "fr": "Lieu",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.6a3aea19761ac823",
+      "kind": "term",
+      "en": "DM",
+      "fr": "MJ",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.0d4c58274cf05743",
+      "kind": "term",
+      "en": "Dungeon Master",
+      "fr": "Maître du jeu",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.8e37953d23daca5f",
+      "kind": "term",
+      "en": "Value",
+      "fr": "Valeur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.ba19e9c3d5f49882",
+      "kind": "term",
+      "en": "Red",
+      "fr": "Rouge",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.ec7d56a01607001e",
+      "kind": "term",
+      "en": "Blue",
+      "fr": "Bleu",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.d486dfbd5fb57834",
+      "kind": "term",
+      "en": "Green",
+      "fr": "Vert",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.c6cfe6e4f129a346",
+      "kind": "term",
+      "en": "Black",
+      "fr": "Noir",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.3495e757855a5c67",
+      "kind": "term",
+      "en": "White",
+      "fr": "Blanc",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.6249df4367d0a2e0",
+      "kind": "term",
+      "en": "Gold",
+      "fr": "Or",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.a0b43df06f52085e",
+      "kind": "term",
+      "en": "Silver",
+      "fr": "Argent",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.d916515d826cf07e",
+      "kind": "term",
+      "en": "Bronze",
+      "fr": "Bronze",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.54fb636380fa6abc",
+      "kind": "term",
+      "en": "Brass",
+      "fr": "Airain",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.d35b0efe21288fd5",
+      "kind": "term",
+      "en": "Copper",
+      "fr": "Cuivre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.142d3a82fb883cc0",
+      "kind": "term",
+      "en": "Innate",
+      "fr": "Inné",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.44bc3799892c50fa",
+      "kind": "term",
+      "en": "Healing",
+      "fr": "Soins",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.9fd728c66c9a256b",
+      "kind": "term",
+      "en": "Add",
+      "fr": "Ajouter",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.464c4ffd019e1e96",
+      "kind": "term",
+      "en": "Edit",
+      "fr": "Modifier",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.e2d0a54968ead24e",
+      "kind": "term",
+      "en": "Delete",
+      "fr": "Supprimer",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.c3812fc4acb861d5",
+      "kind": "term",
+      "en": "Remove",
+      "fr": "Retirer",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.1509f561f2416598",
+      "kind": "term",
+      "en": "Save",
+      "fr": "Enregistrer",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.19766ed6ccb2f4a3",
+      "kind": "term",
+      "en": "Cancel",
+      "fr": "Annuler",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.7d9eb7acb13e2462",
+      "kind": "term",
+      "en": "Close",
+      "fr": "Fermer",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.11a6767d5674c7e4",
+      "kind": "term",
+      "en": "Done",
+      "fr": "Terminé",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.1ff57a29d7c9d11b",
+      "kind": "term",
+      "en": "Next",
+      "fr": "Suivant",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.a57b08a480b822a0",
+      "kind": "term",
+      "en": "Previous",
+      "fr": "Précédent",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.76900f1bfd16c8d4",
+      "kind": "term",
+      "en": "Back",
+      "fr": "Retour",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.eebdd24a77d9ad32",
+      "kind": "term",
+      "en": "Confirm",
+      "fr": "Confirmer",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.daee7606b339f3c3",
+      "kind": "term",
+      "en": "Reset",
+      "fr": "Réinitialiser",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.d0db8b5e364b6989",
+      "kind": "term",
+      "en": "Options",
+      "fr": "Options",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.74a883a037bc227f",
+      "kind": "term",
+      "en": "Settings",
+      "fr": "Paramètres",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.5a23444828db654a",
+      "kind": "term",
+      "en": "Manage",
+      "fr": "Gérer",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.693f2c7314099978",
+      "kind": "term",
+      "en": "Manage Spells",
+      "fr": "Gérer les sorts",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.1e6e9c19de723ec9",
+      "kind": "term",
+      "en": "Add Spell",
+      "fr": "Ajouter un sort",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.0e73504a9df821ac",
+      "kind": "term",
+      "en": "Add Spells",
+      "fr": "Ajouter des sorts",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.1193785c5ef0b16f",
+      "kind": "term",
+      "en": "Add Equipment",
+      "fr": "Ajouter de l’équipement",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.90b9cb33c8619e85",
+      "kind": "term",
+      "en": "Add Feature",
+      "fr": "Ajouter une aptitude",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.054bcbbe578e1d87",
+      "kind": "term",
+      "en": "Add Item",
+      "fr": "Ajouter un objet",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.2a78025de6aae5e7",
+      "kind": "term",
+      "en": "Select",
+      "fr": "Sélectionner",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.57fd7a0cf33f2666",
+      "kind": "term",
+      "en": "Selected",
+      "fr": "Sélectionné",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.47bd3a8aad780d11",
+      "kind": "term",
+      "en": "Select Spells",
+      "fr": "Choisir les sorts",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.638e249f4a15ebb8",
+      "kind": "term",
+      "en": "Filter",
+      "fr": "Filtrer",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.546ebb8eb993ea56",
+      "kind": "term",
+      "en": "Filters",
+      "fr": "Filtres",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.dcd1d5223f73b3a9",
+      "kind": "term",
+      "en": "Name",
+      "fr": "Nom",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.baaddf70fb5d432b",
+      "kind": "term",
+      "en": "Type",
+      "fr": "Type",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.526e0087cc3f254d",
+      "kind": "term",
+      "en": "Description",
+      "fr": "Description",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.45989de49fb7f66d",
+      "kind": "term",
+      "en": "Details",
+      "fr": "Détails",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.0e570ca6fabe24f9",
+      "kind": "term",
+      "en": "Source",
+      "fr": "Source",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.caf85b0888d78f1f",
+      "kind": "term",
+      "en": "Sources",
+      "fr": "Sources",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.204a5eb2cd28bcfd",
+      "kind": "term",
+      "en": "Cost",
+      "fr": "Coût",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.93c91c851e7acc17",
+      "kind": "term",
+      "en": "Price",
+      "fr": "Prix",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.c9b3c38247f744e1",
+      "kind": "term",
+      "en": "Total",
+      "fr": "Total",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.f3e4352a5df650e5",
+      "kind": "term",
+      "en": "Remaining",
+      "fr": "Restants",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.e674447337e83c13",
+      "kind": "term",
+      "en": "Available",
+      "fr": "Disponibles",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.ae7d8dfac9ff5e0f",
+      "kind": "term",
+      "en": "Used",
+      "fr": "Utilisés",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.ee820467e916f34a",
+      "kind": "term",
+      "en": "Prepare",
+      "fr": "Préparer",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.6967ba6d5f31e0f1",
+      "kind": "term",
+      "en": "Unprepare",
+      "fr": "Ne plus préparer",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.ce78afd0e6a225ec",
+      "kind": "term",
+      "en": "Learn",
+      "fr": "Apprendre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.a6bd489d95504499",
+      "kind": "term",
+      "en": "Forget",
+      "fr": "Oublier",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.4464105f259b6424",
+      "kind": "term",
+      "en": "Roll",
+      "fr": "Lancer les dés",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.3cac2f7e2790410f",
+      "kind": "term",
+      "en": "Roll Dice",
+      "fr": "Lancer les dés",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.18363dbee31e6a38",
+      "kind": "term",
+      "en": "Reroll",
+      "fr": "Relancer",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.46cc8f367eea8e88",
+      "kind": "term",
+      "en": "Level Up",
+      "fr": "Monter de niveau",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.2303d108f5b3c6e6",
+      "kind": "term",
+      "en": "Experience Points",
+      "fr": "Points d’expérience",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.ffdc189265608ca8",
+      "kind": "term",
+      "en": "Hit Points Maximum",
+      "fr": "Maximum de points de vie",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.7e5afb1c56755cb7",
+      "kind": "term",
+      "en": "Maximum Hit Points",
+      "fr": "Maximum de points de vie",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.9421dfd8eca83238",
+      "kind": "term",
+      "en": "Successes",
+      "fr": "Réussites",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.7bd31a025d29d8ec",
+      "kind": "term",
+      "en": "Failures",
+      "fr": "Échecs",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.d587622d277c4be4",
+      "kind": "term",
+      "en": "Bonus",
+      "fr": "Bonus",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.4cd548f3cc29cf9c",
+      "kind": "term",
+      "en": "Attack",
+      "fr": "Attaque",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.1e3a955bd202b306",
+      "kind": "term",
+      "en": "Attacks",
+      "fr": "Attaques",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.2e24eb8ac3378a24",
+      "kind": "term",
+      "en": "Melee",
+      "fr": "Corps à corps",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.3f0b51a2492f73ec",
+      "kind": "term",
+      "en": "Ranged",
+      "fr": "À distance",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.b6c1d862f9f75ec3",
+      "kind": "term",
+      "en": "Both",
+      "fr": "Les deux",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.8411f5abb4c710b1",
+      "kind": "term",
+      "en": "Visible",
+      "fr": "Visible",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.7e6fefff0f0aeb6c",
+      "kind": "term",
+      "en": "Hidden",
+      "fr": "Masqué",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.591935b15b1c88e2",
+      "kind": "term",
+      "en": "Public",
+      "fr": "Public",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.c63eb6720c6e8849",
+      "kind": "term",
+      "en": "Private",
+      "fr": "Privé",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.494ca78f7374e46f",
+      "kind": "term",
+      "en": "Custom",
+      "fr": "Personnalisé",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.2213674d80047f09",
+      "kind": "term",
+      "en": "Customizations",
+      "fr": "Personnalisations",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.43bc0f5fc035108f",
+      "kind": "term",
+      "en": "Override",
+      "fr": "Remplacement",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.21b111cbfe6e8fca",
+      "kind": "term",
+      "en": "Default",
+      "fr": "Par défaut",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.09d3d9872894694e",
+      "kind": "term",
+      "en": "Round Up",
+      "fr": "Arrondir au supérieur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.a02ecfccce90728a",
+      "kind": "term",
+      "en": "Round Down",
+      "fr": "Arrondir à l’inférieur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.fb271178274470e6",
+      "kind": "term",
+      "en": "Per Rest",
+      "fr": "Par repos",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.652bcc3a47842889",
+      "kind": "term",
+      "en": "Item",
+      "fr": "Objet",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.fb8e7a1a3cb7b25d",
+      "kind": "term",
+      "en": "Items",
+      "fr": "Objets",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.3ac1a9ec4fa7a9fa",
+      "kind": "term",
+      "en": "Currency",
+      "fr": "Monnaie",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.35466d70b1189c56",
+      "kind": "term",
+      "en": "Wealth",
+      "fr": "Richesse",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.0c7823e8c759af7d",
+      "kind": "term",
+      "en": "Container",
+      "fr": "Contenant",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.a22daa7f02a26cc2",
+      "kind": "term",
+      "en": "Containers",
+      "fr": "Contenants",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.437aea62a5bd6ad4",
+      "kind": "term",
+      "en": "Contents",
+      "fr": "Contenu",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.185d01780f2a0af0",
+      "kind": "term",
+      "en": "Bonus Actions",
+      "fr": "Actions bonus",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.8a7ede6b5f07f792",
+      "kind": "term",
+      "en": "Reactions",
+      "fr": "Réactions",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.55392712406611ed",
+      "kind": "term",
+      "en": "Free Actions",
+      "fr": "Actions gratuites",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.f7cc1bc13a049152",
+      "kind": "term",
+      "en": "Limited Use",
+      "fr": "Utilisation limitée",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.fcb4845c0e62400f",
+      "kind": "term",
+      "en": "Limited Uses",
+      "fr": "Utilisations limitées",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.6afed28f75a1a7be",
+      "kind": "term",
+      "en": "Ritual Casting",
+      "fr": "Incantation rituelle",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.e84ac200edc014fd",
+      "kind": "term",
+      "en": "Armor Proficiencies",
+      "fr": "Maîtrises d’armures",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.c5eedbd639ecf2e2",
+      "kind": "term",
+      "en": "Tool Proficiencies",
+      "fr": "Maîtrises d’outils",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.08e0e16fd64acca1",
+      "kind": "term",
+      "en": "Skill Proficiencies",
+      "fr": "Maîtrises de compétences",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.9c3f0522e1e7ef40",
+      "kind": "term",
+      "en": "Saving Throw Proficiencies",
+      "fr": "Maîtrises des jets de sauvegarde",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.d1a1f5ac1567c6f1",
+      "kind": "term",
+      "en": "Attunement Slots",
+      "fr": "Emplacements d’harmonisation",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.a1a5936d3b0f8a69",
+      "kind": "term",
+      "en": "Max",
+      "fr": "Max.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.dea79332147ffe1f",
+      "kind": "term",
+      "en": "Min",
+      "fr": "Min.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.559aead08264d579",
+      "kind": "term",
+      "en": "A",
+      "fr": "A",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.296d71a7f66e75b7",
+      "kind": "term",
+      "en": "BA",
+      "fr": "AB",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.5a4afafd041a19c6",
+      "kind": "term",
+      "en": "RA",
+      "fr": "R",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.8aae5195f01be6a5",
+      "kind": "term",
+      "en": "Do Long Rest",
+      "fr": "Terminer le repos long",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.c03b308cfce89e17",
+      "kind": "term",
+      "en": "Features Recovered",
+      "fr": "Aptitudes récupérées",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.841c9bc7b78d8a54",
+      "kind": "term",
+      "en": "Equipment with Features Recovered",
+      "fr": "Équipement dont les aptitudes sont récupérées",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.c60dba396537a6b3",
+      "kind": "term",
+      "en": "Spells Slots",
+      "fr": "Emplacements de sort",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.96ebed6da9fc33a1",
+      "kind": "term",
+      "en": "Regain all of your Hit Dice",
+      "fr": "Récupérer tous vos dés de vie",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.29ec4170ec4eaf3a",
+      "kind": "term",
+      "en": "Regains up to half of your Hit Dice (rules as written)",
+      "fr": "Récupérer jusqu’à la moitié de vos dés de vie (règles telles qu’écrites)",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.4cbc9d5ad1788e40",
+      "kind": "description",
+      "en": "A long rest is a period of extended downtime, at least 8 hours long, during which a character sleeps or performs light activity: reading, talking, eating, or standing watch for no more than 2 hours.",
+      "fr": "Un repos long est une période de détente prolongée d’au moins 8 heures, pendant laquelle un personnage dort ou se livre à des activités légères : lire, discuter, manger ou monter la garde pendant 2 heures au maximum.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.1464abf2764a86f0",
+      "kind": "term",
+      "en": "At the end of a long rest, a character regains all lost hit points.",
+      "fr": "À la fin d’un repos long, un personnage récupère tous ses points de vie perdus.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.1457ba2989868486",
+      "kind": "term",
+      "en": "Do Short Rest",
+      "fr": "Terminer le repos court",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.49b0288ee888dd08",
+      "kind": "term",
+      "en": "Spend Hit Die",
+      "fr": "Dépenser un dé de vie",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.8e3dc24995a9ae78",
+      "kind": "description",
+      "en": "A short rest is a period of downtime, at least 1 hour long, during which a character does nothing more strenuous than eating, drinking, reading, and tending to wounds.",
+      "fr": "Un repos court est une période de détente d’au moins 1 heure, pendant laquelle un personnage ne fait rien de plus éprouvant que manger, boire, lire ou soigner ses blessures.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.c9d4e44e7883428f",
+      "kind": "description",
+      "en": "A character can spend one or more Hit Dice at the end of a short rest. For each Hit Die, roll the die and add your Constitution modifier. Regain hit points equal to the total.",
+      "fr": "Un personnage peut dépenser un ou plusieurs dés de vie à la fin d’un repos court. Pour chaque dé de vie, lancez le dé et ajoutez votre modificateur de Constitution. Vous récupérez un nombre de points de vie égal au total.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.4bf1ef7018f01d86",
+      "kind": "term",
+      "en": "You are at maximum hit points",
+      "fr": "Vos points de vie sont au maximum :",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
     }
   ]
 }

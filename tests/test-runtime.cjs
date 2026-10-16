@@ -26,7 +26,7 @@ async function wait(fn){for(let i=0;i<160&&!fn();i++)await pause(25);assert.ok(f
  const config=roots.find(r=>r.getElementById('enabled'));
  const input=d.querySelector('input[type=search]');let received;
  input.addEventListener('input',()=>received=input.value);
- for(const [query,english]of [['boule de feu','Fireball'],['trait ensorcele','Witch Bolt'],['baguette du grincheux','Wand of Scowls'],['baguette des grimaces','Wand of Scowls'],['baguette du jovial','Wand of Smiles'],['baguette des sourires','Wand of Smiles']]){
+ for(const [query,english]of [['artisan','Crafter'],['boule de feu','Fireball'],['trait ensorcele','Witch Bolt'],['baguette du grincheux','Wand of Scowls'],['baguette des grimaces','Wand of Scowls'],['baguette du jovial','Wand of Smiles'],['baguette des sourires','Wand of Smiles']]){
   input.value=query;input.dispatchEvent(new w.Event('input',{bubbles:true}));
   const button=[...search.querySelectorAll('button')].find(b=>b.querySelector('small').textContent===english);assert.ok(button,query);button.click();
   assert.equal(input.value,english);assert.equal(received,english);

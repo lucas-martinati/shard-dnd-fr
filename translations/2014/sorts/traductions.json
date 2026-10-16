@@ -138,6 +138,2400 @@
       "fr": "Rapetissement. La taille de la cible est divisée par deux dans toutes les dimensions et son poids est réduit au huitième de son poids normal. Cette réduction diminue sa catégorie de taille d’un cran, de Moyenne à Petite, par exemple. Jusqu’à la fin du sort, la cible subit aussi le Désavantage aux tests de Force et aux jets de sauvegarde de Force. Ses armes rétrécissent également pour s’adapter à sa nouvelle taille. Tant que ces armes sont rapetissées, les attaques de la cible effectuées avec elles infligent 1d4 dégâts de moins, sans que cela puisse réduire les dégâts en dessous de 1.",
       "source": "Traduction française proposée du paragraphe exact des fiches Shard PHB relevées le 15 octobre 2026 · audit hors ligne de la version 1.17.34 · formulation conservée indépendamment du livre affiché",
       "edition": "any"
+    },
+    {
+      "id": "corpus.962162e6983b9f28",
+      "kind": "term",
+      "en": "Blade Ward",
+      "fr": "Protection contre les armes",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.ae857562019320a0",
+      "kind": "term",
+      "en": "Booming Blade",
+      "fr": "Lame retentissante",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.b523babbee9d03d2",
+      "kind": "term",
+      "en": "Control Flames",
+      "fr": "Contrôle des flammes",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.bfc452f5c28e4220",
+      "kind": "term",
+      "en": "Create Bonfire",
+      "fr": "Création de feu de joie",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.700ef08eda050157",
+      "kind": "term",
+      "en": "Encode Thoughts",
+      "fr": "Encodage de pensées",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.bd104d1b98d03227",
+      "kind": "term",
+      "en": "Friends",
+      "fr": "Amis",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.28d0ed8f607a57aa",
+      "kind": "term",
+      "en": "Frostbite",
+      "fr": "Gelure",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.2d7b7b3a5d410e27",
+      "kind": "term",
+      "en": "Green-Flame Blade",
+      "fr": "Lame aux flammes vertes",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.22baca2d2ee27d8c",
+      "kind": "term",
+      "en": "Gust",
+      "fr": "Bourrasque mineure",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.6137a062f8a6a339",
+      "kind": "term",
+      "en": "Infestation",
+      "fr": "Infestation",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.d6f559e30c6dec62",
+      "kind": "term",
+      "en": "Lightning Lure",
+      "fr": "Ferrage foudroyant",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.181f7d3616c688a0",
+      "kind": "term",
+      "en": "Magic Stone",
+      "fr": "Pierre magique",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.12c5ebb8e3a725df",
+      "kind": "term",
+      "en": "Mind Sliver",
+      "fr": "Éclat mental",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.e4a9241b233d47ea",
+      "kind": "term",
+      "en": "Mold Earth",
+      "fr": "Façonnage de la terre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.d17af4ad9a92b223",
+      "kind": "term",
+      "en": "Primal Savagery",
+      "fr": "Sauvagerie primitive",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.3da44a6b3663bade",
+      "kind": "term",
+      "en": "Sapping Sting",
+      "fr": "Piqûre débilitante",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.d22ff6458c7a0795",
+      "kind": "term",
+      "en": "Shape Water",
+      "fr": "Façonnage de l’eau",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.f6702dc81a04d998",
+      "kind": "term",
+      "en": "Sword Burst",
+      "fr": "Éruption de lames",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.e3229b4c08a34399",
+      "kind": "term",
+      "en": "Thorn Whip",
+      "fr": "Fouet épineux",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.05e1376e5611e831",
+      "kind": "term",
+      "en": "Thunderclap",
+      "fr": "Coup de tonnerre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.daff28c9af4a5bcf",
+      "kind": "term",
+      "en": "Toll the Dead",
+      "fr": "Glas",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.832f0305521c8811",
+      "kind": "term",
+      "en": "Word of Radiance",
+      "fr": "Mot de radiance",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.6f3714e9de3f3dd5",
+      "kind": "term",
+      "en": "Absorb Elements",
+      "fr": "Absorption des éléments",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.6de39a9d7000626c",
+      "kind": "term",
+      "en": "Armor of Agathys",
+      "fr": "Armure d’Agathys",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.9826104f756dd625",
+      "kind": "term",
+      "en": "Arms of Hadar",
+      "fr": "Tentacules de Hadar",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.9b7b9d28cb657b10",
+      "kind": "term",
+      "en": "Beast Bond",
+      "fr": "Lien avec une bête",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.21e902d728e9dd2d",
+      "kind": "term",
+      "en": "Catapult",
+      "fr": "Catapulte",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.2bd0c750cee85017",
+      "kind": "term",
+      "en": "Cause Fear",
+      "fr": "Frayeur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.7a14ea65a77a69b2",
+      "kind": "term",
+      "en": "Ceremony",
+      "fr": "Cérémonie",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.8f559d2fb81d7240",
+      "kind": "term",
+      "en": "Chaos Bolt",
+      "fr": "Éclair de chaos",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.d823aa63de5b61a9",
+      "kind": "term",
+      "en": "Compelled Duel",
+      "fr": "Duel forcé",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.781fd2956d4bcd22",
+      "kind": "term",
+      "en": "Earth Tremor",
+      "fr": "Secousse sismique",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.3d88399912278154",
+      "kind": "term",
+      "en": "Hail of Thorns",
+      "fr": "Grêle d’épines",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.15e313bff2f9290b",
+      "kind": "term",
+      "en": "Silvery Barbs",
+      "fr": "Barbes argentées",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.2374a7cc1179d7ee",
+      "kind": "term",
+      "en": "Snare",
+      "fr": "Collet",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.192f62b16f70542e",
+      "kind": "term",
+      "en": "Tasha's Caustic Brew",
+      "fr": "Mixture caustique de Tasha",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.a41e6119e53037a9",
+      "kind": "term",
+      "en": "Tasha's Hideous Laughter",
+      "fr": "Fou rire de Tasha",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.849590eafeae16cf",
+      "kind": "term",
+      "en": "Tenser's Floating Disk",
+      "fr": "Disque flottant de Tenser",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.d2640192306953d2",
+      "kind": "term",
+      "en": "Thunderous Smite",
+      "fr": "Châtiment tonitruant",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.6d59c92ca05f25d5",
+      "kind": "term",
+      "en": "Witch Bolt",
+      "fr": "Trait ensorcelé",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.2e812a9ac89e0505",
+      "kind": "term",
+      "en": "Wrathful Smite",
+      "fr": "Châtiment courroucé",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.65868f4212b7075b",
+      "kind": "term",
+      "en": "Zephyr Strike",
+      "fr": "Frappe du zéphyr",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.5d860f5f7046225f",
+      "kind": "term",
+      "en": "Aganazzar's Scorcher",
+      "fr": "Flambée d’Aganazzar",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.8159d542a56ef45d",
+      "kind": "term",
+      "en": "Arcane Vigor",
+      "fr": "Vigueur arcanique",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.b72a97a219a00061",
+      "kind": "term",
+      "en": "Beast Sense",
+      "fr": "Sens animal",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.9a69ecccbfe6dcbd",
+      "kind": "term",
+      "en": "Branding Smite",
+      "fr": "Châtiment révélateur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.f706d0671a07ee46",
+      "kind": "term",
+      "en": "Cloud of Daggers",
+      "fr": "Nuée de dagues",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.43ea40914673feb7",
+      "kind": "term",
+      "en": "Cordon of Arrows",
+      "fr": "Cordon de flèches",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.ce9ca0edc61f897e",
+      "kind": "term",
+      "en": "Crown of Madness",
+      "fr": "Couronne du dément",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.76988a1ed32328f9",
+      "kind": "term",
+      "en": "Dust Devil",
+      "fr": "Tourbillon de poussière",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.07141fb5f71b44b2",
+      "kind": "term",
+      "en": "Earthbind",
+      "fr": "Attraction terrestre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.7ab1e78bb49ada6e",
+      "kind": "term",
+      "en": "Healing Spirit",
+      "fr": "Esprit guérisseur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.67d32ffb4bfd7095",
+      "kind": "term",
+      "en": "Maximilian's Earthen Grasp",
+      "fr": "Poigne de terre de Maximilien",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.12aec43d9d3d67ab",
+      "kind": "term",
+      "en": "Melf's Acid Arrow",
+      "fr": "Flèche acide de Melf",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.7b84e2b17e0e1dec",
+      "kind": "term",
+      "en": "Nathair's Mischief",
+      "fr": "Espièglerie de Nathair",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.cfa3bf626bbcd879",
+      "kind": "term",
+      "en": "Nystul's Magic Aura",
+      "fr": "Aura magique de Nystul",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.548c7ee241196840",
+      "kind": "term",
+      "en": "Pyrotechnics",
+      "fr": "Pyrotechnie",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.953ad56526bb8b8f",
+      "kind": "term",
+      "en": "Shadow Blade",
+      "fr": "Lame d’ombres",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.bca0f79752def14e",
+      "kind": "term",
+      "en": "Skywrite",
+      "fr": "Libellé aérien",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.2aeeb971da07154b",
+      "kind": "term",
+      "en": "Snilloc's Snowball Swarm",
+      "fr": "Nuée de boules de neige de Snilloc",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.933a0c3dcc9f5709",
+      "kind": "term",
+      "en": "Summon Beast",
+      "fr": "Convocation de bête",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.0241d9a84797337b",
+      "kind": "term",
+      "en": "Tasha's Mind Whip",
+      "fr": "Fouet mental de Tasha",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.1ac0be8a14d4a12b",
+      "kind": "term",
+      "en": "Vortex Warp",
+      "fr": "Distorsion vortex",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.a7fc33b84c9e3a9c",
+      "kind": "term",
+      "en": "Warding Wind",
+      "fr": "Vent protecteur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.d3ee67494cc5f65a",
+      "kind": "term",
+      "en": "Wither and Bloom",
+      "fr": "Flétrissement et floraison",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.fe5da4bc08bfc22c",
+      "kind": "term",
+      "en": "Antagonize",
+      "fr": "Antagonisme",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.5328a17bdca1ba51",
+      "kind": "term",
+      "en": "Ashardalon's Stride",
+      "fr": "Foulée d’Ashardalon",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.7743c708a91196c7",
+      "kind": "term",
+      "en": "Aura of Vitality",
+      "fr": "Aura de vitalité",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.9f21dbdd5a4c0b5f",
+      "kind": "term",
+      "en": "Blinding Smite",
+      "fr": "Châtiment aveuglant",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.e0ca51648525f276",
+      "kind": "term",
+      "en": "Conjure Barrage",
+      "fr": "Invocation de projectiles",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.67ea8e8383b41c96",
+      "kind": "term",
+      "en": "Crusader's Mantle",
+      "fr": "Aura du croisé",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.5ae36e98f1ffa03d",
+      "kind": "term",
+      "en": "Elemental Weapon",
+      "fr": "Arme élémentaire",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.66bfd349bfee234b",
+      "kind": "term",
+      "en": "Enemies Abound",
+      "fr": "Ennemis à foison",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.e1fce8bd14cbbad6",
+      "kind": "term",
+      "en": "Erupting Earth",
+      "fr": "Éruption de terre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.96a4e8defb1302d5",
+      "kind": "term",
+      "en": "Feign Death",
+      "fr": "Mort simulée",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.a029f8201205ecff",
+      "kind": "term",
+      "en": "Flame Arrows",
+      "fr": "Flèches enflammées",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.a0ca8626a2ac804d",
+      "kind": "term",
+      "en": "Hunger of Hadar",
+      "fr": "Faim de Hadar",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.227280cea3355235",
+      "kind": "term",
+      "en": "Intellect Fortress",
+      "fr": "Forteresse d’intellect",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.0e3661fae61c5ff6",
+      "kind": "term",
+      "en": "Leomund's Tiny Hut",
+      "fr": "Petite hutte de Léomund",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.1a36e86250d8ac77",
+      "kind": "term",
+      "en": "Life Transference",
+      "fr": "Transfert de vie",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.4110c557d7220e26",
+      "kind": "term",
+      "en": "Lightning Arrow",
+      "fr": "Flèche de foudre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.aaac90464f3a447b",
+      "kind": "term",
+      "en": "Melf's Minute Meteors",
+      "fr": "Minuscules météores de Melf",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.fd858f64405d1a35",
+      "kind": "term",
+      "en": "Spirit Shroud",
+      "fr": "Voile spirituel",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.c93cef4e9beb2bf1",
+      "kind": "term",
+      "en": "Summon Fey",
+      "fr": "Convocation de fée",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.afa939b56ab8f770",
+      "kind": "term",
+      "en": "Summon Lesser Demons",
+      "fr": "Convocation de démons mineurs",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.622f6296b69e3ae8",
+      "kind": "term",
+      "en": "Summon Shadowspawn",
+      "fr": "Convocation de rejeton d’ombre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.0f1a1fd475b89f48",
+      "kind": "term",
+      "en": "Summon Undead",
+      "fr": "Convocation de mort-vivant",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.6e12697543018b87",
+      "kind": "term",
+      "en": "Thunder Step",
+      "fr": "Foulée tonitruante",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.0ed4c1e4d7d51389",
+      "kind": "term",
+      "en": "Tidal Wave",
+      "fr": "Vague déferlante",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.d40e127184bff73d",
+      "kind": "term",
+      "en": "Wall of Sand",
+      "fr": "Mur de sable",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.66cc3717b436c530",
+      "kind": "term",
+      "en": "Wall of Water",
+      "fr": "Mur d’eau",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.7f77f91161ae15ba",
+      "kind": "term",
+      "en": "Aura of Purity",
+      "fr": "Aura de pureté",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.286da46d0ff08ec6",
+      "kind": "term",
+      "en": "Elemental Bane",
+      "fr": "Fléau élémentaire",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.608802e4c64b1333",
+      "kind": "term",
+      "en": "Evard's Black Tentacles",
+      "fr": "Tentacules noirs d’Evard",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.aaaf9e342654dbea",
+      "kind": "term",
+      "en": "Find Greater Steed",
+      "fr": "Appel de destrier supérieur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.af1d1f28e11631e1",
+      "kind": "term",
+      "en": "Grasping Vine",
+      "fr": "Liane avide",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.c17d2254f0afe223",
+      "kind": "term",
+      "en": "Guardian of Nature",
+      "fr": "Gardien de la nature",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.aee1e9b358bb47b4",
+      "kind": "term",
+      "en": "Leomund's Secret Chest",
+      "fr": "Coffre secret de Léomund",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.e257413e0d8f7c19",
+      "kind": "term",
+      "en": "Mordenkainen's Faithful Hound",
+      "fr": "Chien de garde de Mordenkainen",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.e4a518c5f426e4a9",
+      "kind": "term",
+      "en": "Mordenkainen's Private Sanctum",
+      "fr": "Sanctuaire privé de Mordenkainen",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.14c317716bb602bf",
+      "kind": "term",
+      "en": "Otiluke's Resilient Sphere",
+      "fr": "Sphère résiliente d’Otiluke",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.3549004ae9ff0b8f",
+      "kind": "term",
+      "en": "Raulothim's Psychic Lance",
+      "fr": "Lance d’arçon psychique de Raulothim",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.589b45f3d24e654d",
+      "kind": "term",
+      "en": "Shadow of Moil",
+      "fr": "Ombre d’égarement",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.6e29117b14ee54b7",
+      "kind": "term",
+      "en": "Sickening Radiance",
+      "fr": "Rayonnement écœurant",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.1358cd8d2cca35ac",
+      "kind": "term",
+      "en": "Staggering Smite",
+      "fr": "Châtiment débilitant",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.209a62381fc98131",
+      "kind": "term",
+      "en": "Storm Sphere",
+      "fr": "Sphère de tempête",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.1b64799a458bb57c",
+      "kind": "term",
+      "en": "Summon Aberration",
+      "fr": "Convocation d’aberration",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.82aab21d79a9b7ab",
+      "kind": "term",
+      "en": "Summon Construct",
+      "fr": "Convocation d’artificiel",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.e349daa9793b5a26",
+      "kind": "term",
+      "en": "Summon Elemental",
+      "fr": "Convocation d’élémentaire",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.65dbd3f9ace37ee9",
+      "kind": "term",
+      "en": "Summon Greater Demon",
+      "fr": "Convocation de démon majeur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.978b029383013733",
+      "kind": "term",
+      "en": "Watery Sphere",
+      "fr": "Sphère aqueuse",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.14cbfea08501975a",
+      "kind": "term",
+      "en": "Banishing Smite",
+      "fr": "Châtiment du ban",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.4514163c3b373152",
+      "kind": "term",
+      "en": "Bigby's Hand",
+      "fr": "Main de Bigby",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.7c36fa6b73b95364",
+      "kind": "term",
+      "en": "Circle of Power",
+      "fr": "Cercle de pouvoir",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.ccba738d04f41f12",
+      "kind": "term",
+      "en": "Conjure Volley",
+      "fr": "Invocation de volée",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.b25025edb38feb93",
+      "kind": "term",
+      "en": "Control Winds",
+      "fr": "Contrôle des vents",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.cbe5573c4ecfa2dc",
+      "kind": "term",
+      "en": "Danse Macabre",
+      "fr": "Danse macabre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.0dfd8feb99c09519",
+      "kind": "term",
+      "en": "Dawn",
+      "fr": "Aube",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.55a16bc34e46f244",
+      "kind": "term",
+      "en": "Destructive Wave",
+      "fr": "Vague destructrice",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.6cb963bc97e37fa6",
+      "kind": "term",
+      "en": "Enervation",
+      "fr": "Énervation",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.f2d318d50b2bf2fd",
+      "kind": "term",
+      "en": "Far Step",
+      "fr": "Foulée dimensionnelle",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.6d1327a7c7195a22",
+      "kind": "term",
+      "en": "Holy Weapon",
+      "fr": "Arme sacrée",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.913ae163503ad752",
+      "kind": "term",
+      "en": "Immolation",
+      "fr": "Immolation",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.bb91d0dc88206341",
+      "kind": "term",
+      "en": "Infernal Calling",
+      "fr": "Assignation infernale",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.f27831e092ef14a2",
+      "kind": "term",
+      "en": "Maelstrom",
+      "fr": "Maelström",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.3fbe38ecf59cef5b",
+      "kind": "term",
+      "en": "Negative Energy Flood",
+      "fr": "Déluge d’énergie négative",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.8e7edf6e428e1806",
+      "kind": "term",
+      "en": "Rary's Telepathic Bond",
+      "fr": "Lien télépathique de Rary",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.f21f3efffe73bcf1",
+      "kind": "term",
+      "en": "Skill Empowerment",
+      "fr": "Amélioration de compétences",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.1d2d9141fa7e3ae0",
+      "kind": "term",
+      "en": "Steel Wind Strike",
+      "fr": "Frappe du vent d’acier",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.258208a137268454",
+      "kind": "term",
+      "en": "Summon Celestial",
+      "fr": "Convocation de céleste",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.dbfefe3be7639c0b",
+      "kind": "term",
+      "en": "Summon Draconic Spirit",
+      "fr": "Convocation d’esprit draconique",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.56222b57e48495da",
+      "kind": "term",
+      "en": "Swift Quiver",
+      "fr": "Carquois magique",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.c6a996b0c964d557",
+      "kind": "term",
+      "en": "Synaptic Static",
+      "fr": "Synapses dissonantes",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.8291555c01bad713",
+      "kind": "term",
+      "en": "Transmute Rock",
+      "fr": "Transmutation de la pierre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.c080d351f8040c42",
+      "kind": "term",
+      "en": "Wall of Light",
+      "fr": "Mur de lumière",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.2c3fe239aad4159d",
+      "kind": "term",
+      "en": "Wrath of Nature",
+      "fr": "Fureur de la nature",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.8c2fc794f0a06e7d",
+      "kind": "term",
+      "en": "Arcane Gate",
+      "fr": "Portail arcanique",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.79599080640bd34f",
+      "kind": "term",
+      "en": "Bones of the Earth",
+      "fr": "Ossements de la Terre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.01ccda575ef3016d",
+      "kind": "term",
+      "en": "Create Homunculus",
+      "fr": "Création d’homoncule",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.269a467e6b2b16d9",
+      "kind": "term",
+      "en": "Drawmij's Instant Summons",
+      "fr": "Convocations instantanées de Drawmij",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.c910b9bfc814478b",
+      "kind": "term",
+      "en": "Druid Grove",
+      "fr": "Bosquet des druides",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.b4668a0b6c756682",
+      "kind": "term",
+      "en": "Fizban's Platinum Shield",
+      "fr": "Bouclier de platine de Fizban",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.ed3b46905ca4cdda",
+      "kind": "term",
+      "en": "Investiture of Flame",
+      "fr": "Sacre de la flamme",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.d472450ab84de6d9",
+      "kind": "term",
+      "en": "Investiture of Ice",
+      "fr": "Sacre de la glace",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.6c334184bd494d03",
+      "kind": "term",
+      "en": "Investiture of Stone",
+      "fr": "Sacre de la pierre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.4e73da58505fb26a",
+      "kind": "term",
+      "en": "Investiture of Wind",
+      "fr": "Sacre du vent",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.3415cae12b255863",
+      "kind": "term",
+      "en": "Mental Prison",
+      "fr": "Prison mentale",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.cba64c7752b78a9e",
+      "kind": "term",
+      "en": "Otiluke's Freezing Sphere",
+      "fr": "Sphère glaciale d’Otiluke",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.518fccb0b0a24696",
+      "kind": "term",
+      "en": "Otto's Irresistible Dance",
+      "fr": "Danse irrésistible d’Otto",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.fe0e868d944de530",
+      "kind": "term",
+      "en": "Primordial Ward",
+      "fr": "Protection primordiale",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.4720c0c3df2ea08e",
+      "kind": "term",
+      "en": "Scatter",
+      "fr": "Dispersion",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.ded284e84f25ccad",
+      "kind": "term",
+      "en": "Soul Cage",
+      "fr": "Cage des âmes",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.cec29574c3086a9c",
+      "kind": "term",
+      "en": "Summon Fiend",
+      "fr": "Convocation de fiélon",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.16caeb4d8247f5e5",
+      "kind": "term",
+      "en": "Tasha's Otherworldly Guise",
+      "fr": "Costume d’Outremonde de Tasha",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.a04870775cca16ac",
+      "kind": "term",
+      "en": "Tenser's Transformation",
+      "fr": "Transformation de Tenser",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.ef858d94491ca118",
+      "kind": "term",
+      "en": "Crown of Stars",
+      "fr": "Couronne d’étoiles",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.27410a0a093f98f2",
+      "kind": "term",
+      "en": "Draconic Transformation",
+      "fr": "Transformation draconique",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.f76016fe589451fd",
+      "kind": "term",
+      "en": "Mordenkainen's Magnificent Mansion",
+      "fr": "Manoir somptueux de Mordenkainen",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.eb75475e7dffd181",
+      "kind": "term",
+      "en": "Mordenkainen's Sword",
+      "fr": "Épée de Mordenkainen",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.05f788dfa06a7bec",
+      "kind": "term",
+      "en": "Power Word Pain",
+      "fr": "Mot de pouvoir douloureux",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.472439a99ac5a7e7",
+      "kind": "term",
+      "en": "Temple of the Gods",
+      "fr": "Temple des dieux",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.c976afe002884825",
+      "kind": "term",
+      "en": "Whirlwind",
+      "fr": "Tourbillon",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.5c1233350272d396",
+      "kind": "term",
+      "en": "Abi-Dalzim's Horrid Wilting",
+      "fr": "Flétrissure épouvantable d’Abi-Dalzim",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.dcddc47e957c123a",
+      "kind": "term",
+      "en": "Feeblemind",
+      "fr": "Esprit faible",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.07d4d5dc39e6cf0c",
+      "kind": "term",
+      "en": "Illusory Dragon",
+      "fr": "Dragon illusoire",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.611c25fe1330624a",
+      "kind": "term",
+      "en": "Maddening Darkness",
+      "fr": "Ténèbres affolantes",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.641501bac5032320",
+      "kind": "term",
+      "en": "Mighty Fortress",
+      "fr": "Forteresse majestueuse",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.9fb0c7c3e0ccdb51",
+      "kind": "term",
+      "en": "Blade of Disaster",
+      "fr": "Lame du désastre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.692971ee7e68dd8b",
+      "kind": "term",
+      "en": "Invulnerability",
+      "fr": "Invulnérabilité",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.2f28904badc1a2d0",
+      "kind": "term",
+      "en": "Mass Polymorph",
+      "fr": "Métamorphose de groupe",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.e33e871f2ca2a2b4",
+      "kind": "term",
+      "en": "Psychic Scream",
+      "fr": "Hurlement psychique",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ],
+      "labelCategory": "sort",
+      "edition": "any"
     }
   ]
 }

@@ -343,7 +343,11 @@
       "en": "Lyre",
       "fr": "Lyre",
       "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
-      "edition": "any"
+      "edition": "any",
+      "usage": [
+        "name",
+        "search"
+      ]
     },
     {
       "id": "item.phb.shard.name.maker-s-mark-chisel",
@@ -391,7 +395,11 @@
       "en": "Mule",
       "fr": "Mule",
       "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
-      "edition": "any"
+      "edition": "any",
+      "usage": [
+        "name",
+        "search"
+      ]
     },
     {
       "id": "item.phb.shard.name.pan-flute",
@@ -431,7 +439,11 @@
       "en": "Piton",
       "fr": "Piton",
       "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
-      "edition": "any"
+      "edition": "any",
+      "usage": [
+        "name",
+        "search"
+      ]
     },
     {
       "id": "item.phb.shard.name.portable-ram",

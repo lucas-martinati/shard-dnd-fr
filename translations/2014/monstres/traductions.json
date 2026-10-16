@@ -497,6 +497,4846 @@
       "fr": "Esprit fiélon (yugoloth)",
       "source": "Traduction proposée des libellés exacts signalés par le diagnostic utilisateur 1.17.14 · 15 octobre 2026 · catalogue Shard multi-livres, édition non déterminée par le rapport ; terminologie commune et noms AideDD réutilisés.",
       "edition": "any"
+    },
+    {
+      "id": "corpus.04feeb543e370f83",
+      "kind": "term",
+      "en": "Aboleth",
+      "fr": "Aboleth",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.44268f6149fc93a2",
+      "kind": "term",
+      "en": "Adult Oblex",
+      "fr": "Oblex adulte",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.0d5d918e5b3a02ec",
+      "kind": "term",
+      "en": "Air Elemental",
+      "fr": "Élémentaire de l’air",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.a8ee7229fcd67e44",
+      "kind": "term",
+      "en": "Allosaurus",
+      "fr": "Allosaure",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.bfb7a3e9ab069ed6",
+      "kind": "term",
+      "en": "Animated Armor",
+      "fr": "Armure animée",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.dd47c14489ec73e8",
+      "kind": "term",
+      "en": "Animated Object",
+      "fr": "Objet animé",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.0776a57d5b90f056",
+      "kind": "term",
+      "en": "Ankheg",
+      "fr": "Ankheg",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.752673ab6df99cf4",
+      "kind": "term",
+      "en": "Ankylosaurus",
+      "fr": "Ankylosaure",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.94e0f9bc5febddee",
+      "kind": "term",
+      "en": "Ape",
+      "fr": "Grand singe",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.4746a4f58adcc465",
+      "kind": "term",
+      "en": "Archmage",
+      "fr": "Archimage",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.322c500cf59df735",
+      "kind": "term",
+      "en": "Awakened Shrub",
+      "fr": "Arbuste éveillé",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.cc2d91cc829ea34a",
+      "kind": "term",
+      "en": "Awakened Tree",
+      "fr": "Arbre éveillé",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.ddad9c46be6f0ef8",
+      "kind": "term",
+      "en": "Axe Beak",
+      "fr": "Bec de hache",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.93cc42d211801c80",
+      "kind": "term",
+      "en": "Azer",
+      "fr": "Azer",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.582e5d31b3ff1d25",
+      "kind": "term",
+      "en": "Baboon",
+      "fr": "Babouin",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.05ce03962fb8386d",
+      "kind": "term",
+      "en": "Badger",
+      "fr": "Blaireau",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.2c56d64d4f7e8e26",
+      "kind": "term",
+      "en": "Balor",
+      "fr": "Balor",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.9b9e42be5c574f70",
+      "kind": "term",
+      "en": "Bandit",
+      "fr": "Bandit",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.1f6c4da86f1d7f64",
+      "kind": "term",
+      "en": "Bandit Captain",
+      "fr": "Chef de bande",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.e0eed8d4f6e08a59",
+      "kind": "term",
+      "en": "Barbed Devil",
+      "fr": "Diable barbelé",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.5fac2c3826942f50",
+      "kind": "term",
+      "en": "Basilisk",
+      "fr": "Basilic",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.f2813a523c21f665",
+      "kind": "term",
+      "en": "Bat",
+      "fr": "Chauve-souris",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.f3f2275671f9f3d6",
+      "kind": "term",
+      "en": "Bearded Devil",
+      "fr": "Diable barbu",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.c8fe27d1cfb1497f",
+      "kind": "term",
+      "en": "Behir",
+      "fr": "Béhir",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.860c4c28c3abff9d",
+      "kind": "term",
+      "en": "Beholder",
+      "fr": "Tyrannœil",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.143f40fdffa420df",
+      "kind": "term",
+      "en": "Berserker",
+      "fr": "Berserker",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.5b4a2c42d4c5ae2b",
+      "kind": "term",
+      "en": "Black Bear",
+      "fr": "Ours noir",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.5703600a2a7893a7",
+      "kind": "term",
+      "en": "Black Pudding",
+      "fr": "Pouding noir",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.f5f4e5437abcc456",
+      "kind": "term",
+      "en": "Blink Dog",
+      "fr": "Chien esquiveur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.144148b038a2e91a",
+      "kind": "term",
+      "en": "Blood Hawk",
+      "fr": "Faucon de sang",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.bf10a5ee1fab92a8",
+      "kind": "term",
+      "en": "Boar",
+      "fr": "Sanglier",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.610e9f6e843465f0",
+      "kind": "term",
+      "en": "Bone Devil",
+      "fr": "Diable osseux",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.7259d9f830818d33",
+      "kind": "term",
+      "en": "Brass Dragon",
+      "fr": "Dragon d’airain",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.f4b44e4166297844",
+      "kind": "term",
+      "en": "Bronze Dragon",
+      "fr": "Dragon de bronze",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.642cdc6f1b8a221d",
+      "kind": "term",
+      "en": "Brown Bear",
+      "fr": "Ours brun",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.8c832917bc8f836c",
+      "kind": "term",
+      "en": "Bugbear Chief",
+      "fr": "Chef gobelours",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.92687bfb99beedd2",
+      "kind": "term",
+      "en": "Bugbear Warrior",
+      "fr": "Combattant gobelours",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.be8a9ac6a2d4b88f",
+      "kind": "term",
+      "en": "Bugbear Stalker",
+      "fr": "Traqueur gobelours",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.e3e6f1fbb650861b",
+      "kind": "term",
+      "en": "Bulette",
+      "fr": "Bulette",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.31e4041f45daa91f",
+      "kind": "term",
+      "en": "Camel",
+      "fr": "Chameau",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.c3f9d4d972b7946f",
+      "kind": "term",
+      "en": "Carrion Crawler",
+      "fr": "Charognard rampant",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.48735c4fae42d150",
+      "kind": "term",
+      "en": "Cat",
+      "fr": "Chat",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.18694499c862decb",
+      "kind": "term",
+      "en": "Centaur",
+      "fr": "Centaure",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.620a1b4faab7bd4e",
+      "kind": "term",
+      "en": "Chain Devil",
+      "fr": "Diable des chaînes",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.2c16e3683d77efdd",
+      "kind": "term",
+      "en": "Chimera",
+      "fr": "Chimère",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.4a304a762be5096a",
+      "kind": "term",
+      "en": "Chuul",
+      "fr": "Chtuul",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.78991aed42e2007f",
+      "kind": "term",
+      "en": "Clay Golem",
+      "fr": "Golem d’argile",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.e3ac5f58d2975653",
+      "kind": "term",
+      "en": "Cloaker",
+      "fr": "Manteleur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.5d179b78859e058f",
+      "kind": "term",
+      "en": "Cloud Giant",
+      "fr": "Géant des nuages",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.db8d86028ad88719",
+      "kind": "term",
+      "en": "Cockatrice",
+      "fr": "Cockatrice",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.db170e0a51a48d0f",
+      "kind": "term",
+      "en": "Commoner",
+      "fr": "Roturier",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.225629d3bc4acf09",
+      "kind": "term",
+      "en": "Constrictor Snake",
+      "fr": "Serpent constricteur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.9d757aaa142209a9",
+      "kind": "term",
+      "en": "Couatl",
+      "fr": "Couatl",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.41c84037142d7c4b",
+      "kind": "term",
+      "en": "Crab",
+      "fr": "Crabe",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.0a6806dd3169fe87",
+      "kind": "term",
+      "en": "Crocodile",
+      "fr": "Crocodile",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.2787ea728b283871",
+      "kind": "term",
+      "en": "Cultist",
+      "fr": "Sectateur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.367fcb4093676214",
+      "kind": "term",
+      "en": "Cult Fanatic",
+      "fr": "Fanatique de secte",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.1b404bfcad1fe261",
+      "kind": "term",
+      "en": "Darkmantle",
+      "fr": "Mante obscure",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.88fb37c3baa36ffc",
+      "kind": "term",
+      "en": "Death Dog",
+      "fr": "Chien du trépas",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.483f6fa93702b9ee",
+      "kind": "term",
+      "en": "Death Knight",
+      "fr": "Chevalier de la mort",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.54e0e288376a3605",
+      "kind": "term",
+      "en": "Death Tyrant",
+      "fr": "Tyrannœil funeste",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.02a33fcce4f483e5",
+      "kind": "term",
+      "en": "Deep Gnome",
+      "fr": "Gnome des profondeurs",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.ba8af0f4802678da",
+      "kind": "term",
+      "en": "Deer",
+      "fr": "Petit cervidé",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.0e9c439c73b67fbd",
+      "kind": "term",
+      "en": "Deva",
+      "fr": "Déva",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.d1efddfeacd78b61",
+      "kind": "term",
+      "en": "Dire Wolf",
+      "fr": "Loup sanguinaire",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.b183817c20dbaa3d",
+      "kind": "term",
+      "en": "Displacer Beast",
+      "fr": "Bête éclipsante",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.04c5ffb350044021",
+      "kind": "term",
+      "en": "Djinni",
+      "fr": "Djinn",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.41c9ba197f435133",
+      "kind": "term",
+      "en": "Doppelganger",
+      "fr": "Doppelganger",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.f344f7e3de22e027",
+      "kind": "term",
+      "en": "Draft Horse",
+      "fr": "Cheval de trait",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.bc18c96d0a89a970",
+      "kind": "term",
+      "en": "Dragon Turtle",
+      "fr": "Dragon-tortue",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.9acb0ef3006fe32e",
+      "kind": "term",
+      "en": "Dretch",
+      "fr": "Dretch",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.21728ea7760441ca",
+      "kind": "term",
+      "en": "Drider",
+      "fr": "Drider",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.25dd76a060932a17",
+      "kind": "term",
+      "en": "Drow Elite Warrior",
+      "fr": "Guerrier d’élite drow",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.c33d9d2624f59461",
+      "kind": "term",
+      "en": "Drow Mage",
+      "fr": "Mage drow",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.40f5bf03d5322953",
+      "kind": "term",
+      "en": "Drow Priestess of Lolth",
+      "fr": "Prêtresse drow de Lolth",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.2a0ecde022c8e9cf",
+      "kind": "term",
+      "en": "Dryad",
+      "fr": "Dryade",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.9fe2a63dc8a277ef",
+      "kind": "term",
+      "en": "Duergar",
+      "fr": "Duergar",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.e5360a1fe63076f6",
+      "kind": "term",
+      "en": "Dust Mephit",
+      "fr": "Méphite de poussière",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.9bebadf8653f1e28",
+      "kind": "term",
+      "en": "Eagle",
+      "fr": "Aigle",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.61929253f7b09af9",
+      "kind": "term",
+      "en": "Earth Elemental",
+      "fr": "Élémentaire de la terre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.579119c25f743975",
+      "kind": "term",
+      "en": "Efreeti",
+      "fr": "Éfrit",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.d48f07feb6fc19b9",
+      "kind": "term",
+      "en": "Elephant",
+      "fr": "Éléphant",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.9b55fa90a42cc18a",
+      "kind": "term",
+      "en": "Elk",
+      "fr": "Grand cervidé",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.ada70946ea8e4bf3",
+      "kind": "term",
+      "en": "Erinyes",
+      "fr": "Érinye",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.53fb0a9562721d6a",
+      "kind": "term",
+      "en": "Ettercap",
+      "fr": "Ettercap",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.60bc980147f38005",
+      "kind": "term",
+      "en": "Ettin",
+      "fr": "Ettin",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.bac6742c1c132ff9",
+      "kind": "term",
+      "en": "Fire Elemental",
+      "fr": "Élémentaire du feu",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.5930851bb999ccdf",
+      "kind": "term",
+      "en": "Fire Giant",
+      "fr": "Géant du feu",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.c240dbc986b89a21",
+      "kind": "term",
+      "en": "Flesh Golem",
+      "fr": "Golem de chair",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.9b4acdc681448be2",
+      "kind": "term",
+      "en": "Flumph",
+      "fr": "Flumph",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.d26e6e9a6a065977",
+      "kind": "term",
+      "en": "Flying Snake",
+      "fr": "Serpent volant",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.4d35f60d2bcf9170",
+      "kind": "term",
+      "en": "Flying Sword",
+      "fr": "Épée volante",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.5a9be7ac6d979ce0",
+      "kind": "term",
+      "en": "Frog",
+      "fr": "Grenouille",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.bac4b9bb889e5324",
+      "kind": "term",
+      "en": "Frost Giant",
+      "fr": "Géant du givre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.b44f2738b3701178",
+      "kind": "term",
+      "en": "Gargoyle",
+      "fr": "Gargouille",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.789bdacbf05e584b",
+      "kind": "term",
+      "en": "Gelatinous Cube",
+      "fr": "Cube gélatineux",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.657f74e68b6fbec9",
+      "kind": "term",
+      "en": "Ghast",
+      "fr": "Blême",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.df1bc4984a055e10",
+      "kind": "term",
+      "en": "Ghost",
+      "fr": "Fantôme",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.2deb15182283b478",
+      "kind": "term",
+      "en": "Ghoul",
+      "fr": "Goule",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.fc45042a3e73456c",
+      "kind": "term",
+      "en": "Giant Ape",
+      "fr": "Singe géant",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.e1a9360387175fd9",
+      "kind": "term",
+      "en": "Giant Badger",
+      "fr": "Blaireau géant",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.6e05bee3d93ac627",
+      "kind": "term",
+      "en": "Giant Bat",
+      "fr": "Chauve-souris géante",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.087b0be39181cdd9",
+      "kind": "term",
+      "en": "Giant Boar",
+      "fr": "Sanglier géant",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.ad5ef2b876ed1871",
+      "kind": "term",
+      "en": "Giant Centipede",
+      "fr": "Mille-pattes géant",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.5b2224b93b6b0f09",
+      "kind": "term",
+      "en": "Giant Constrictor Snake",
+      "fr": "Serpent constricteur géant",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.2b0eea55a872ce16",
+      "kind": "term",
+      "en": "Giant Crab",
+      "fr": "Crabe géant",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.acb007ceda9df803",
+      "kind": "term",
+      "en": "Giant Crocodile",
+      "fr": "Crocodile géant",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.f7dc449e4159fd3e",
+      "kind": "term",
+      "en": "Giant Eagle",
+      "fr": "Aigle géant",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.0507a80a3fa09d49",
+      "kind": "term",
+      "en": "Giant Elk",
+      "fr": "Cervidé géant",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.6060a3a28007cd87",
+      "kind": "term",
+      "en": "Giant Fire Beetle",
+      "fr": "Scarabée de feu géant",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.9ad615efe1a88970",
+      "kind": "term",
+      "en": "Giant Frog",
+      "fr": "Grenouille géante",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.a650203f9431c970",
+      "kind": "term",
+      "en": "Giant Goat",
+      "fr": "Chèvre géante",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.58190bebe4a65f37",
+      "kind": "term",
+      "en": "Giant Hyena",
+      "fr": "Hyène géante",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.5234ce6c266b175d",
+      "kind": "term",
+      "en": "Giant Lizard",
+      "fr": "Lézard géant",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.2da152c5e680d7f7",
+      "kind": "term",
+      "en": "Giant Octopus",
+      "fr": "Pieuvre géante",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.74c406dc12110b63",
+      "kind": "term",
+      "en": "Giant Owl",
+      "fr": "Chouette géante",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.e92de1f635774461",
+      "kind": "term",
+      "en": "Giant Poisonous Snake",
+      "fr": "Serpent venimeux géant",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.123a2b5b1c62854c",
+      "kind": "term",
+      "en": "Giant Venomous Snake",
+      "fr": "Serpent venimeux géant",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.3d927167b438bade",
+      "kind": "term",
+      "en": "Giant Rat",
+      "fr": "Rat géant",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.0b29ae11f19085be",
+      "kind": "term",
+      "en": "Giant Scorpion",
+      "fr": "Scorpion géant",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.504e8014aa943a57",
+      "kind": "term",
+      "en": "Giant Sea Horse",
+      "fr": "Hippocampe géant",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.4b4aeaf66bddc226",
+      "kind": "term",
+      "en": "Giant Shark",
+      "fr": "Requin géant",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.b2349263cfa5d2db",
+      "kind": "term",
+      "en": "Giant Spider",
+      "fr": "Araignée géante",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.58cc58774cb12e1d",
+      "kind": "term",
+      "en": "Giant Toad",
+      "fr": "Crapaud géant",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.134833d2d6b60cda",
+      "kind": "term",
+      "en": "Giant Vulture",
+      "fr": "Vautour géant",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.3710689d8cc06cfb",
+      "kind": "term",
+      "en": "Giant Wasp",
+      "fr": "Guêpe géante",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.81b2c0788f07caa4",
+      "kind": "term",
+      "en": "Giant Weasel",
+      "fr": "Belette géante",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.7b609e2f9d77a3eb",
+      "kind": "term",
+      "en": "Giant Wolf Spider",
+      "fr": "Araignée-loup géante",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.a6219e0b663f2cef",
+      "kind": "term",
+      "en": "Gibbering Mouther",
+      "fr": "Babélien",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.1597b59ab745fff4",
+      "kind": "term",
+      "en": "Glabrezu",
+      "fr": "Glabrezu",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.1f0cc9c91ce64379",
+      "kind": "term",
+      "en": "Gladiator",
+      "fr": "Gladiateur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.3024eaa7297ff73f",
+      "kind": "term",
+      "en": "Gnoll",
+      "fr": "Gnoll",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.1a13ce8c64a0528b",
+      "kind": "term",
+      "en": "Gnoll Pack Lord",
+      "fr": "Seigneur de meute gnoll",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.ac68bd931568ef75",
+      "kind": "term",
+      "en": "Goat",
+      "fr": "Chèvre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.65daf8be4579607a",
+      "kind": "term",
+      "en": "Goblin Boss",
+      "fr": "Chef gobelin",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.d835a7abb04fa8f5",
+      "kind": "term",
+      "en": "Goblin Minion",
+      "fr": "Sbire gobelin",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.cf8a45421d9cc60d",
+      "kind": "term",
+      "en": "Goblin Warrior",
+      "fr": "Combattant gobelin",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.c8bae27c7ef39160",
+      "kind": "term",
+      "en": "Gorgon",
+      "fr": "Gorgone",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.6a86a51b562108a5",
+      "kind": "term",
+      "en": "Gray Ooze",
+      "fr": "Vase grise",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.0d360fc5fd93cc2e",
+      "kind": "term",
+      "en": "Green Hag",
+      "fr": "Guenaude verte",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.fbf80835b7fb15a8",
+      "kind": "term",
+      "en": "Grell",
+      "fr": "Grell",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.81df8a3dcdd98257",
+      "kind": "term",
+      "en": "Grick",
+      "fr": "Grick",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.80e8f4b84b7d74fe",
+      "kind": "term",
+      "en": "Griffon",
+      "fr": "Griffon",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.429afb6b6f4cbde4",
+      "kind": "term",
+      "en": "Grimlock",
+      "fr": "Torve",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.7d1338901560280d",
+      "kind": "term",
+      "en": "Guard Captain",
+      "fr": "Capitaine de la garde",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.e641eb06a89b009e",
+      "kind": "term",
+      "en": "Guardian Naga",
+      "fr": "Naga gardien",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.9abe81c517f4050e",
+      "kind": "term",
+      "en": "Half-Red Dragon Veteran",
+      "fr": "Vétéran demi-dragon rouge",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.2ae07f175ff17853",
+      "kind": "term",
+      "en": "Harpy",
+      "fr": "Harpie",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.c03a7ef3e98faadd",
+      "kind": "term",
+      "en": "Hawk",
+      "fr": "Faucon",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.1be4b441a9499874",
+      "kind": "term",
+      "en": "Hell Hound",
+      "fr": "Molosse infernal",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.4eb9934e3f9aebd5",
+      "kind": "term",
+      "en": "Hezrou",
+      "fr": "Hezrou",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.a8ab62ec000b67c5",
+      "kind": "term",
+      "en": "Hill Giant",
+      "fr": "Géant des collines",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.b131e84054a7ffcf",
+      "kind": "term",
+      "en": "Hippogriff",
+      "fr": "Hippogriffe",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.64e3a82c168854c6",
+      "kind": "term",
+      "en": "Hobgoblin Captain",
+      "fr": "Capitaine hobgobelin",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.75e803d0fe49eef0",
+      "kind": "term",
+      "en": "Hobgoblin Warlord",
+      "fr": "Seigneur de guerre hobgobelin",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.95fe07d2c8470b8e",
+      "kind": "term",
+      "en": "Hobgoblin Warrior",
+      "fr": "Combattant hobgobelin",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.ed4daa1d7ec1b664",
+      "kind": "term",
+      "en": "Homunculus",
+      "fr": "Homoncule",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.3da63d7471b61819",
+      "kind": "term",
+      "en": "Hook Horror",
+      "fr": "Horreur crochue",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.8fdd4fbf1c9720c0",
+      "kind": "term",
+      "en": "Horned Devil",
+      "fr": "Diable cornu",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.7fee8cb52a19fe39",
+      "kind": "term",
+      "en": "Hunter Shark",
+      "fr": "Requin chasseur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.0815efe9d8ce8046",
+      "kind": "term",
+      "en": "Hydra",
+      "fr": "Hydre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.ca3e1461dbd49de7",
+      "kind": "term",
+      "en": "Hyena",
+      "fr": "Hyène",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.8ed538f586c0cb75",
+      "kind": "term",
+      "en": "Ice Devil",
+      "fr": "Diable gelé",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.861e50733e30b64b",
+      "kind": "term",
+      "en": "Ice Mephit",
+      "fr": "Méphite de glace",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.a7a9ffc4a1b681e6",
+      "kind": "term",
+      "en": "Imp",
+      "fr": "Diablotin",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.d214e6565b905d90",
+      "kind": "term",
+      "en": "Intellect Devourer",
+      "fr": "Dévoreur d’intellect",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.943e314c76d79cbd",
+      "kind": "term",
+      "en": "Invisible Stalker",
+      "fr": "Traqueur invisible",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.15bcdcc513acc66c",
+      "kind": "term",
+      "en": "Iron Golem",
+      "fr": "Golem de fer",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.67dfbcbc215eebb7",
+      "kind": "term",
+      "en": "Jackal",
+      "fr": "Chacal",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.5dbef2b338819c2f",
+      "kind": "term",
+      "en": "Killer Whale",
+      "fr": "Épaulard",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.f24b52468bfaef30",
+      "kind": "term",
+      "en": "Knight",
+      "fr": "Chevalier",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.b1fdf767738c8a27",
+      "kind": "term",
+      "en": "Kraken",
+      "fr": "Kraken",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.0ae4012fd201c039",
+      "kind": "term",
+      "en": "Lamia",
+      "fr": "Lamie",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.475a43ba4b3ced88",
+      "kind": "term",
+      "en": "Lemure",
+      "fr": "Lémure",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.7caf523f691be468",
+      "kind": "term",
+      "en": "Lich",
+      "fr": "Liche",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.ffee89e3ddeb59c5",
+      "kind": "term",
+      "en": "Lion",
+      "fr": "Lion",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.943b1f9df88791bc",
+      "kind": "term",
+      "en": "Lizard",
+      "fr": "Lézard",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.e181bc015be0fe01",
+      "kind": "term",
+      "en": "Mage",
+      "fr": "Mage",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.7ac15c25080c16e2",
+      "kind": "term",
+      "en": "Magma Mephit",
+      "fr": "Méphite de magma",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.67fcf7946678ab51",
+      "kind": "term",
+      "en": "Magmin",
+      "fr": "Magmatique",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.544a3548837a51af",
+      "kind": "term",
+      "en": "Mammoth",
+      "fr": "Mammouth",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.f571571f5f2d4c33",
+      "kind": "term",
+      "en": "Manticore",
+      "fr": "Manticore",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.49997fe340c2749b",
+      "kind": "term",
+      "en": "Marilith",
+      "fr": "Marilith",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.3f6a70f07be990ec",
+      "kind": "term",
+      "en": "Mastiff",
+      "fr": "Molosse",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.7def2d5ca100992e",
+      "kind": "term",
+      "en": "Medusa",
+      "fr": "Méduse",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.8a7124efd7d316b2",
+      "kind": "term",
+      "en": "Merfolk",
+      "fr": "Ondin",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.fc7bba2c56b113e4",
+      "kind": "term",
+      "en": "Merrow",
+      "fr": "Merrow",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.63f3f9f2e37f1cad",
+      "kind": "term",
+      "en": "Mimic",
+      "fr": "Mimique",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.b8feb39116b75b15",
+      "kind": "term",
+      "en": "Mind Flayer",
+      "fr": "Flagelleur mental",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.8b60504d140cee2e",
+      "kind": "term",
+      "en": "Minotaur",
+      "fr": "Minotaure",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.fc4ee2bc3d9a8d06",
+      "kind": "term",
+      "en": "Minotaur Skeleton",
+      "fr": "Squelette de minotaure",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.16e58e706912e1df",
+      "kind": "term",
+      "en": "Mummy",
+      "fr": "Momie",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.68da1f0d8a5bea8c",
+      "kind": "term",
+      "en": "Mummy Lord",
+      "fr": "Momie auguste",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.425734b04e087380",
+      "kind": "term",
+      "en": "Nalfeshnee",
+      "fr": "Nalfeshnie",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.268d9fe9ebc3b1d2",
+      "kind": "term",
+      "en": "Night Hag",
+      "fr": "Guenaude nocturne",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.864e8d565eac5de1",
+      "kind": "term",
+      "en": "Nightmare",
+      "fr": "Cauchemar",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any",
+      "aliases": [
+        "Destrier noir"
+      ]
+    },
+    {
+      "id": "corpus.19784e53be9f4965",
+      "kind": "term",
+      "en": "Ochre Jelly",
+      "fr": "Gelée ocre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.a7c7b3a28a6194e5",
+      "kind": "term",
+      "en": "Octopus",
+      "fr": "Pieuvre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.a8d2d8de5215444c",
+      "kind": "term",
+      "en": "Ogre",
+      "fr": "Ogre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.3e345e8bc1944063",
+      "kind": "term",
+      "en": "Ogre Zombie",
+      "fr": "Ogre zombi",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.6147f60498bb2f3f",
+      "kind": "term",
+      "en": "Oni",
+      "fr": "Oni",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.aaccc88f1619a993",
+      "kind": "term",
+      "en": "Orc War Chief",
+      "fr": "Chef de guerre orc",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.24220a93bc90a83a",
+      "kind": "term",
+      "en": "Orc Eye of Gruumsh",
+      "fr": "Œil de Gruumsh orc",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.ff6c584f13209e24",
+      "kind": "term",
+      "en": "Otyugh",
+      "fr": "Otyugh",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.72992b75e60c8806",
+      "kind": "term",
+      "en": "Owl",
+      "fr": "Chouette",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.cb31d5e3c443a603",
+      "kind": "term",
+      "en": "Owlbear",
+      "fr": "Hibours",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.a78623da70d5561d",
+      "kind": "term",
+      "en": "Panther",
+      "fr": "Panthère",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.2023bb247b5e7154",
+      "kind": "term",
+      "en": "Pegasus",
+      "fr": "Pégase",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.3ca8773dbd242458",
+      "kind": "term",
+      "en": "Phase Spider",
+      "fr": "Araignée de phase",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.47de0869c1b4eb3d",
+      "kind": "term",
+      "en": "Piranha",
+      "fr": "Piranha",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.db576401cb528d69",
+      "kind": "term",
+      "en": "Pit Fiend",
+      "fr": "Diantrefosse",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.e8b883b1eadaa534",
+      "kind": "term",
+      "en": "Pixie",
+      "fr": "Pixie",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.572836b5cc4e43e3",
+      "kind": "term",
+      "en": "Planetar",
+      "fr": "Planétar",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.0edfadc1ce80fdf0",
+      "kind": "term",
+      "en": "Plesiosaurus",
+      "fr": "Plésiosaure",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.56547461e3c64bf0",
+      "kind": "term",
+      "en": "Poisonous Snake",
+      "fr": "Serpent venimeux",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.b487e2f43fd3fd4c",
+      "kind": "term",
+      "en": "Venomous Snake",
+      "fr": "Serpent venimeux",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.ed7a63179bce2f24",
+      "kind": "term",
+      "en": "Polar Bear",
+      "fr": "Ours polaire",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.5cb47a9bbad3a14c",
+      "kind": "term",
+      "en": "Pony",
+      "fr": "Poney",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.909a4523837aae51",
+      "kind": "term",
+      "en": "Priest",
+      "fr": "Prêtre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.d8b8d0299cea0d3b",
+      "kind": "term",
+      "en": "Pseudodragon",
+      "fr": "Pseudodragon",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.5d6af9bcd330c584",
+      "kind": "term",
+      "en": "Pteranodon",
+      "fr": "Ptéranodon",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.cb89eef256c4871a",
+      "kind": "term",
+      "en": "Purple Worm",
+      "fr": "Ver pourpre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.e2fbf1415241cc1f",
+      "kind": "term",
+      "en": "Quaggoth",
+      "fr": "Quaggoth",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.55a6a4fc974b9d13",
+      "kind": "term",
+      "en": "Quasit",
+      "fr": "Quasit",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.eb806d09fdbe9bb2",
+      "kind": "term",
+      "en": "Quipper",
+      "fr": "Piranha",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.c98e364d69c1db55",
+      "kind": "term",
+      "en": "Rakshasa",
+      "fr": "Rakshasa",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.d606ae3e2f4a7d0e",
+      "kind": "term",
+      "en": "Rat",
+      "fr": "Rat",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.9cccdbb77e00a04c",
+      "kind": "term",
+      "en": "Raven",
+      "fr": "Corbeau",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.2d3ddb2c99c5c804",
+      "kind": "term",
+      "en": "Red Dragon",
+      "fr": "Dragon rouge",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.5fb7c0ac0304e1eb",
+      "kind": "term",
+      "en": "Reef Shark",
+      "fr": "Requin de récif",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.3d21f25afc3d0a77",
+      "kind": "term",
+      "en": "Remorhaz",
+      "fr": "Remorhaz",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.4605d77e58d75e79",
+      "kind": "term",
+      "en": "Rhinoceros",
+      "fr": "Rhinocéros",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.02127e82e5247a64",
+      "kind": "term",
+      "en": "Riding Horse",
+      "fr": "Cheval de selle",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.d1e081cb0af657e6",
+      "kind": "term",
+      "en": "Roc",
+      "fr": "Rukh",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.562615f09d86541e",
+      "kind": "term",
+      "en": "Roper",
+      "fr": "Enlaceur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.f66db72d72dd4c8b",
+      "kind": "term",
+      "en": "Rug of Smothering",
+      "fr": "Tapis étrangleur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.040479515b0b89d4",
+      "kind": "term",
+      "en": "Rust Monster",
+      "fr": "Oxydeur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.4b360683fee57a19",
+      "kind": "term",
+      "en": "Saber-Toothed Tiger",
+      "fr": "Tigre à dents de sabre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.31342c7e692b9cc3",
+      "kind": "term",
+      "en": "Sahuagin",
+      "fr": "Sahuagin",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.26751e470e3fa570",
+      "kind": "term",
+      "en": "Salamander",
+      "fr": "Salamandre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.c928d8f9ffac90f5",
+      "kind": "term",
+      "en": "Satyr",
+      "fr": "Satyre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.8ec64f59fd8eed75",
+      "kind": "term",
+      "en": "Scorpion",
+      "fr": "Scorpion",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.8a1db462be753774",
+      "kind": "term",
+      "en": "Scout",
+      "fr": "Éclaireur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.07db619a749045e4",
+      "kind": "term",
+      "en": "Sea Hag",
+      "fr": "Guenaude marine",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.39a853034e8dd234",
+      "kind": "term",
+      "en": "Sea Horse",
+      "fr": "Hippocampe",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.4c764cb6248ef933",
+      "kind": "term",
+      "en": "Shadow",
+      "fr": "Ombre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.9fbfaf8bddcf8f92",
+      "kind": "term",
+      "en": "Shambling Mound",
+      "fr": "Tertre errant",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.4ef54a7dfebf3aca",
+      "kind": "term",
+      "en": "Shield Guardian",
+      "fr": "Garde animé",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.51dad11f1b1bceab",
+      "kind": "term",
+      "en": "Shrieker",
+      "fr": "Criard",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.ea5f6bdc79b884c3",
+      "kind": "term",
+      "en": "Skeleton",
+      "fr": "Squelette",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.31ce6e79178093b7",
+      "kind": "term",
+      "en": "Solar",
+      "fr": "Solar",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.5ccda7f08fd1a2d1",
+      "kind": "term",
+      "en": "Spectator",
+      "fr": "Spectateur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.7070bb4c686e1cb1",
+      "kind": "term",
+      "en": "Specter",
+      "fr": "Spectre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.2964c4cc2db4b4fb",
+      "kind": "term",
+      "en": "Spider",
+      "fr": "Araignée",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.2a98ccb7ec528ab3",
+      "kind": "term",
+      "en": "Spirit Naga",
+      "fr": "Naga corrupteur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.610cc33146e5be61",
+      "kind": "term",
+      "en": "Sprite",
+      "fr": "Esprit follet",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.aa01aabf676492ab",
+      "kind": "term",
+      "en": "Spy",
+      "fr": "Espion",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.a9f719bea6fcca95",
+      "kind": "term",
+      "en": "Steam Mephit",
+      "fr": "Méphite de vapeur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.f8d3ff8a0e78d447",
+      "kind": "term",
+      "en": "Stirge",
+      "fr": "Strige",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.afd5edf4769c7113",
+      "kind": "term",
+      "en": "Stone Giant",
+      "fr": "Géant des pierres",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.1a234744f50cea32",
+      "kind": "term",
+      "en": "Stone Golem",
+      "fr": "Golem de pierre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.1ced0a063657aefb",
+      "kind": "term",
+      "en": "Storm Giant",
+      "fr": "Géant des tempêtes",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.14b4955bda3539b6",
+      "kind": "term",
+      "en": "Succubus",
+      "fr": "Succube",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.3305e1dd6926c172",
+      "kind": "term",
+      "en": "Incubus",
+      "fr": "Incube",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.f0c7e8f8cf9625e8",
+      "kind": "term",
+      "en": "Succubus/Incubus",
+      "fr": "Succube/incube",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.976d79307b670ddb",
+      "kind": "term",
+      "en": "Swarm of Bats",
+      "fr": "Nuée de chauves-souris",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.c40bdb2ac0e7f593",
+      "kind": "term",
+      "en": "Swarm of Insects",
+      "fr": "Nuée d’insectes",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.aca1d04ece64b1b4",
+      "kind": "term",
+      "en": "Swarm of Poisonous Snakes",
+      "fr": "Nuée de serpents venimeux",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.bc5712dee0f341a2",
+      "kind": "term",
+      "en": "Swarm of Venomous Snakes",
+      "fr": "Nuée de serpents venimeux",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.22c55db124f48a1b",
+      "kind": "term",
+      "en": "Swarm of Quippers",
+      "fr": "Nuée de piranhas",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.c4d49f6103d2d7b3",
+      "kind": "term",
+      "en": "Swarm of Rats",
+      "fr": "Nuée de rats",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.e8bb6a8443d075f1",
+      "kind": "term",
+      "en": "Swarm of Ravens",
+      "fr": "Nuée de corbeaux",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.88df9e3747eac0b3",
+      "kind": "term",
+      "en": "Tarrasque",
+      "fr": "Tarasque",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.04b6809ed19ed426",
+      "kind": "term",
+      "en": "Thug",
+      "fr": "Gros-bras",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.410f76d01d8a9981",
+      "kind": "term",
+      "en": "Tiger",
+      "fr": "Tigre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.1cf03871cad7ce75",
+      "kind": "term",
+      "en": "Treant",
+      "fr": "Sylvanien",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.6a10996926f75a70",
+      "kind": "term",
+      "en": "Tribal Warrior",
+      "fr": "Guerrier tribal",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.ea17f57cff080a33",
+      "kind": "term",
+      "en": "Triceratops",
+      "fr": "Tricératops",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.9bac25686c53aa85",
+      "kind": "term",
+      "en": "Troll",
+      "fr": "Troll",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.7d731fedf7984545",
+      "kind": "term",
+      "en": "Tyrannosaurus Rex",
+      "fr": "Tyrannosaure",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.7b852c5ff3009495",
+      "kind": "term",
+      "en": "Umber Hulk",
+      "fr": "Ombre des roches",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.50593b53890f621c",
+      "kind": "term",
+      "en": "Unicorn",
+      "fr": "Licorne",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.ef177717b2d61a6a",
+      "kind": "term",
+      "en": "Vampire",
+      "fr": "Vampire",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.abb580af224d3f40",
+      "kind": "term",
+      "en": "Vampire Spawn",
+      "fr": "Vampirien",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.abcf0f136c1ed0dd",
+      "kind": "term",
+      "en": "Veteran",
+      "fr": "Vétéran",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.f64da9fc3eea45be",
+      "kind": "term",
+      "en": "Violet Fungus",
+      "fr": "Thallophyte violette",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.763bd76359203921",
+      "kind": "term",
+      "en": "Vrock",
+      "fr": "Vrock",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.298c1f2b8274acf3",
+      "kind": "term",
+      "en": "Vulture",
+      "fr": "Vautour",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.081be115c2d54999",
+      "kind": "term",
+      "en": "Warhorse",
+      "fr": "Destrier",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.58f342107c3b1137",
+      "kind": "term",
+      "en": "Warhorse Skeleton",
+      "fr": "Destrier squelette",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.2d0174b5e6d0673d",
+      "kind": "term",
+      "en": "Water Elemental",
+      "fr": "Élémentaire de l’eau",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.79e1e75882a89a8d",
+      "kind": "term",
+      "en": "Weasel",
+      "fr": "Belette",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.c8037be01a967f54",
+      "kind": "term",
+      "en": "Werebear",
+      "fr": "Ours-garou",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.243bbe1d0e37e8c5",
+      "kind": "term",
+      "en": "Wereboar",
+      "fr": "Sanglier-garou",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.1770b96be50b9224",
+      "kind": "term",
+      "en": "Wererat",
+      "fr": "Rat-garou",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.348f0f525ef92cc6",
+      "kind": "term",
+      "en": "Weretiger",
+      "fr": "Tigre-garou",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.a2a5639765ce5eeb",
+      "kind": "term",
+      "en": "Werewolf",
+      "fr": "Loup-garou",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.f7ff36bad37c833d",
+      "kind": "term",
+      "en": "White Dragon",
+      "fr": "Dragon blanc",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.ce1830d827d13036",
+      "kind": "term",
+      "en": "Wight",
+      "fr": "Nécronte",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.09d101ecd2a9d1a3",
+      "kind": "term",
+      "en": "Will-o'-Wisp",
+      "fr": "Feu follet",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.0930cb67e9bdc65f",
+      "kind": "term",
+      "en": "Winter Wolf",
+      "fr": "Loup arctique",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.ea858afbf837aae7",
+      "kind": "term",
+      "en": "Wolf",
+      "fr": "Loup",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.2be12932d2b17316",
+      "kind": "term",
+      "en": "Worg",
+      "fr": "Worg",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.c781316c9ff4beaa",
+      "kind": "term",
+      "en": "Wraith",
+      "fr": "Âme-en-peine",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.d8e7ff4df59742f5",
+      "kind": "term",
+      "en": "Wyvern",
+      "fr": "Vouivre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.34986afd9246c390",
+      "kind": "term",
+      "en": "Xorn",
+      "fr": "Xorn",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.7ca0e69e1426e70a",
+      "kind": "term",
+      "en": "Yeti",
+      "fr": "Yéti",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.2538fdde780b2dcb",
+      "kind": "term",
+      "en": "Yuan-ti Pureblood",
+      "fr": "Yuan-ti sang-pur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.4c876e938c74ff4d",
+      "kind": "term",
+      "en": "Zombie",
+      "fr": "Zombi",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.caffa8492a88734c",
+      "kind": "term",
+      "en": "Ancient Black Dragon",
+      "fr": "Dragon noir vénérable",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.6e13c698283e69c1",
+      "kind": "term",
+      "en": "Adult Black Dragon",
+      "fr": "Dragon noir adulte",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.aa9762d46d7a8015",
+      "kind": "term",
+      "en": "Young Black Dragon",
+      "fr": "Jeune dragon noir",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.c3277eb45d0dcb6f",
+      "kind": "term",
+      "en": "Black Dragon Wyrmling",
+      "fr": "Dragonnet noir",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.9b1adcfd6533c5db",
+      "kind": "term",
+      "en": "Ancient Blue Dragon",
+      "fr": "Dragon bleu vénérable",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.0113983e93b867e2",
+      "kind": "term",
+      "en": "Adult Blue Dragon",
+      "fr": "Dragon bleu adulte",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.f9e2b61f2f194375",
+      "kind": "term",
+      "en": "Young Blue Dragon",
+      "fr": "Jeune dragon bleu",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.5e62c0870f72df89",
+      "kind": "term",
+      "en": "Blue Dragon Wyrmling",
+      "fr": "Dragonnet bleu",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.d11058522d8d7556",
+      "kind": "term",
+      "en": "Ancient Green Dragon",
+      "fr": "Dragon vert vénérable",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.e3ba65951ec9947a",
+      "kind": "term",
+      "en": "Adult Green Dragon",
+      "fr": "Dragon vert adulte",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.8523cb4110964db6",
+      "kind": "term",
+      "en": "Young Green Dragon",
+      "fr": "Jeune dragon vert",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.f7f2b012b560ae38",
+      "kind": "term",
+      "en": "Green Dragon Wyrmling",
+      "fr": "Dragonnet vert",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.adf136b3aa5cf588",
+      "kind": "term",
+      "en": "Ancient Red Dragon",
+      "fr": "Dragon rouge vénérable",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.f14e0f3483ad1876",
+      "kind": "term",
+      "en": "Adult Red Dragon",
+      "fr": "Dragon rouge adulte",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.0f6c5144d8806f90",
+      "kind": "term",
+      "en": "Young Red Dragon",
+      "fr": "Jeune dragon rouge",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.2fe7f9d3723e8e6b",
+      "kind": "term",
+      "en": "Red Dragon Wyrmling",
+      "fr": "Dragonnet rouge",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.87647144a9e084a8",
+      "kind": "term",
+      "en": "Ancient White Dragon",
+      "fr": "Dragon blanc vénérable",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.f4458d15e3680552",
+      "kind": "term",
+      "en": "Adult White Dragon",
+      "fr": "Dragon blanc adulte",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.a73c8566359df6e9",
+      "kind": "term",
+      "en": "Young White Dragon",
+      "fr": "Jeune dragon blanc",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.56a002c10096cccf",
+      "kind": "term",
+      "en": "White Dragon Wyrmling",
+      "fr": "Dragonnet blanc",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.9bb005640aef99f7",
+      "kind": "term",
+      "en": "Ancient Brass Dragon",
+      "fr": "Dragon d’airain vénérable",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.a96ca58423a4bc10",
+      "kind": "term",
+      "en": "Adult Brass Dragon",
+      "fr": "Dragon d’airain adulte",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.1806b6913dbbe238",
+      "kind": "term",
+      "en": "Young Brass Dragon",
+      "fr": "Jeune dragon d’airain",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.19dd64683ac2c2c8",
+      "kind": "term",
+      "en": "Brass Dragon Wyrmling",
+      "fr": "Dragonnet d’airain",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.7161f7501ce86265",
+      "kind": "term",
+      "en": "Ancient Bronze Dragon",
+      "fr": "Dragon de bronze vénérable",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.fc1bd22accb73b1f",
+      "kind": "term",
+      "en": "Adult Bronze Dragon",
+      "fr": "Dragon de bronze adulte",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.a4b0bcc5364dcf18",
+      "kind": "term",
+      "en": "Young Bronze Dragon",
+      "fr": "Jeune dragon de bronze",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.4e715a901c8e19be",
+      "kind": "term",
+      "en": "Bronze Dragon Wyrmling",
+      "fr": "Dragonnet de bronze",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.882417e8e5b736c5",
+      "kind": "term",
+      "en": "Ancient Copper Dragon",
+      "fr": "Dragon de cuivre vénérable",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.027156237b66fccb",
+      "kind": "term",
+      "en": "Adult Copper Dragon",
+      "fr": "Dragon de cuivre adulte",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.dac5e6b388c22a01",
+      "kind": "term",
+      "en": "Young Copper Dragon",
+      "fr": "Jeune dragon de cuivre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.e69d162e3bfaa9bb",
+      "kind": "term",
+      "en": "Copper Dragon Wyrmling",
+      "fr": "Dragonnet de cuivre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.6f212dd26e673e95",
+      "kind": "term",
+      "en": "Ancient Gold Dragon",
+      "fr": "Dragon d’or vénérable",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.ad20d16e864ebee4",
+      "kind": "term",
+      "en": "Adult Gold Dragon",
+      "fr": "Dragon d’or adulte",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.1c3d760ae35aa6a3",
+      "kind": "term",
+      "en": "Young Gold Dragon",
+      "fr": "Jeune dragon d’or",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.8914ed202969aa92",
+      "kind": "term",
+      "en": "Gold Dragon Wyrmling",
+      "fr": "Dragonnet d’or",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.6c97ebbb7b8c6423",
+      "kind": "term",
+      "en": "Ancient Silver Dragon",
+      "fr": "Dragon d’argent vénérable",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.4cd82931166af067",
+      "kind": "term",
+      "en": "Adult Silver Dragon",
+      "fr": "Dragon d’argent adulte",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.d4fae6068dd07e6b",
+      "kind": "term",
+      "en": "Young Silver Dragon",
+      "fr": "Jeune dragon d’argent",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.3f7803139e383367",
+      "kind": "term",
+      "en": "Silver Dragon Wyrmling",
+      "fr": "Dragonnet d’argent",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.96c7a5cb087f6081",
+      "kind": "term",
+      "en": "Sphinx of Lore",
+      "fr": "Sphinx érudit",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.c5ce87ee811c3bdf",
+      "kind": "term",
+      "en": "Sphinx of Wonder",
+      "fr": "Sphinx merveilleux",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.c151b1fa46561967",
+      "kind": "term",
+      "en": "Sphinx of Valor",
+      "fr": "Sphinx valeureux",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.4e3e3d9c247696f1",
+      "kind": "term",
+      "en": "Azer Sentinel",
+      "fr": "Sentinelle azer",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.77dc2b09fc74005d",
+      "kind": "term",
+      "en": "Centaur Trooper",
+      "fr": "Soldat centaure",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.049483819abc7701",
+      "kind": "term",
+      "en": "Gnoll Warrior",
+      "fr": "Combattant gnoll",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.1657287de38530c4",
+      "kind": "term",
+      "en": "Kobold Warrior",
+      "fr": "Combattant kobold",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.ac1560de1d4411ad",
+      "kind": "term",
+      "en": "Sahuagin Warrior",
+      "fr": "Combattant sahuagin",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.202c07fcaf6157aa",
+      "kind": "term",
+      "en": "Merfolk Skirmisher",
+      "fr": "Tirailleur thalasséen",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.2aecfe15c341f5d5",
+      "kind": "term",
+      "en": "Pirate",
+      "fr": "Pirate",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.6eb7fb7428a99fdc",
+      "kind": "term",
+      "en": "Pirate Captain",
+      "fr": "Capitaine pirate",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.b5ca9b45d5ce3377",
+      "kind": "term",
+      "en": "Tough Boss",
+      "fr": "Chef gros-bras",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.dfaeda9f8defea80",
+      "kind": "term",
+      "en": "Minotaur of Baphomet",
+      "fr": "Minotaure de Baphomet",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.4828db2f2852f242",
+      "kind": "term",
+      "en": "Crawling Claw",
+      "fr": "Sénestre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.ae7e3063aab51899",
+      "kind": "term",
+      "en": "Swarm of Crawling Claws",
+      "fr": "Nuée de sénestres",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.e820f4a95d9080c9",
+      "kind": "term",
+      "en": "Flameskull",
+      "fr": "Horriflamme",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.6ee3f7996cfd72e9",
+      "kind": "term",
+      "en": "Vampire Familiar",
+      "fr": "Familier de vampire",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.76d778b4ca448a58",
+      "kind": "term",
+      "en": "Hippopotamus",
+      "fr": "Hippopotame",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "monstre",
+      "edition": "any"
+    },
+    {
+      "id": "guide2014.creature.2c296f2f722907b8",
+      "en": "Giant Fly",
+      "fr": "Mouche géante",
+      "kind": "term",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "source": "Traduction de l’extrait Shard · créatures citées dans les objets magiques du guide"
+    },
+    {
+      "id": "guide2014.creature.45530a2fb9a8f9e0",
+      "en": "Shriekers",
+      "fr": "Criards",
+      "kind": "term",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "source": "Traduction de l’extrait Shard · créatures citées dans les objets magiques du guide"
+    },
+    {
+      "id": "guide2014.creature.948e5af905857944",
+      "kind": "term",
+      "en": "Guards",
+      "fr": "Gardes",
+      "source": "Traduction de l’extrait Shard · pluriels des créatures citées dans les tables d’objets magiques",
+      "usage": [
+        "name",
+        "search"
+      ]
+    },
+    {
+      "id": "guide2014.creature.fce0d021b1bd521f",
+      "kind": "term",
+      "en": "Acolytes",
+      "fr": "Acolytes",
+      "source": "Traduction de l’extrait Shard · pluriels des créatures citées dans les tables d’objets magiques",
+      "usage": [
+        "name",
+        "search"
+      ]
+    },
+    {
+      "id": "guide2014.creature.6ebbcfd1076bf6e2",
+      "kind": "term",
+      "en": "Bandits",
+      "fr": "Bandits",
+      "source": "Traduction de l’extrait Shard · pluriels des créatures citées dans les tables d’objets magiques",
+      "usage": [
+        "name",
+        "search"
+      ]
+    },
+    {
+      "id": "guide2014.creature.01f3c5565fd790fa",
+      "kind": "term",
+      "en": "Mastiffs",
+      "fr": "Molosses",
+      "source": "Traduction de l’extrait Shard · pluriels des créatures citées dans les tables d’objets magiques",
+      "usage": [
+        "name",
+        "search"
+      ]
     }
   ]
 }

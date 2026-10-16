@@ -89,9 +89,9 @@
             "blocs": 66
           },
           "classes": {
-            "entreesRattachees": 1811,
-            "libelles": 223,
-            "blocs": 1588
+            "entreesRattachees": 2349,
+            "libelles": 697,
+            "blocs": 1652
           },
           "dons": {
             "entreesRattachees": 461,
@@ -99,9 +99,9 @@
             "blocs": 287
           },
           "especes": {
-            "entreesRattachees": 188,
+            "entreesRattachees": 189,
             "libelles": 56,
-            "blocs": 132
+            "blocs": 133
           },
           "objets": {
             "entreesRattachees": 163,
@@ -109,17 +109,17 @@
             "blocs": 47
           },
           "regles": {
-            "entreesRattachees": 259,
-            "libelles": 57,
-            "blocs": 202
+            "entreesRattachees": 551,
+            "libelles": 346,
+            "blocs": 205
           },
           "sorts": {
-            "entreesRattachees": 708,
-            "libelles": 52,
+            "entreesRattachees": 1046,
+            "libelles": 390,
             "blocs": 656
           }
         },
-        "entreesRattachees": 3703
+        "entreesRattachees": 4872
       },
       {
         "id": "dnd-2024-mm",
@@ -189,20 +189,37 @@
         "objectifTraductionIntegrale": false,
         "traductionIntegraleValidee": false,
         "consultation": {
-          "date": "2026-10-14",
+          "date": "2026-10-16",
           "etat": "accessible",
           "constat": "L’introduction et les crédits indiquent que la majorité du contenu vient du SRD de cinquième édition, republié sous OGL. Ce guide ne doit pas être confondu avec les sources SRD 5.2.1 EN/FR du projet. Ce constat porte sur le guide consulté ; il ne certifie pas la couverture de tout le corpus 2014."
         },
-        "chapitresReleves": [],
+        "chapitresReleves": [
+          {
+            "titre": "Equipment",
+            "releve": "2026-10-16",
+            "controle": "audit/generes/guide-equipment.json"
+          },
+          {
+            "titre": "Magic Items",
+            "releve": "2026-10-16",
+            "notices": 239,
+            "controle": "audit/generes/guide-equipment.json"
+          },
+          {
+            "titre": "Equipment List",
+            "releve": "2026-10-16",
+            "fichesOuvertes": 1372,
+            "controle": "audit/generes/guide-equipment.json"
+          }
+        ],
         "aFaire": [
-          "Conserver la compatibilité des règles et noms historiques, après les priorités PHB et MM 2024.",
-          "Inventorier les chapitres et toutes les fiches liées ; distinguer les noms, présentations et contenus complets.",
-          "Réutiliser les traductions existantes sans dupliquer les noms partagés entre éditions.",
-          "Compléter les paragraphes, listes, options, tableaux, titres et variantes manquants, puis vérifier le rendu et les liens dans Shard."
+          "Conserver la compatibilité des règles et noms historiques.",
+          "Compléter et vérifier les autres chapitres du guide, notamment les sorts, classes et espèces, selon leurs formulations propres.",
+          "Vérifier les futurs ajouts Shard et le rendu de la version installée dans Tampermonkey."
         ],
         "limites": [
           "Le rangement éditorial ne prouve pas une présence exclusive dans un livre. Les noms partagés restent stockés une seule fois et leur édition any est conservée lorsqu’aucune version précise n’est établie.",
-          "Le nombre total de fiches et de blocs à traduire reste à établir ; aucun pourcentage de couverture intégrale n’est calculé."
+          "Le contrôle d’équipement concerne les deux chapitres et les 1 372 fiches du relevé du 16 octobre 2026 ; il ne valide pas les autres chapitres du guide ni tout le corpus 2014."
         ],
         "dossierTraductions": "translations/2014",
         "sourcesShard": [
@@ -220,9 +237,9 @@
             "blocs": 141
           },
           "classes": {
-            "entreesRattachees": 132,
+            "entreesRattachees": 144,
             "libelles": 27,
-            "blocs": 105
+            "blocs": 117
           },
           "dons": {
             "entreesRattachees": 58,
@@ -235,27 +252,27 @@
             "blocs": 35
           },
           "monstres": {
-            "entreesRattachees": 62,
-            "libelles": 62,
+            "entreesRattachees": 435,
+            "libelles": 435,
             "blocs": 0
           },
           "objets": {
-            "entreesRattachees": 519,
-            "libelles": 420,
-            "blocs": 99
+            "entreesRattachees": 4468,
+            "libelles": 1440,
+            "blocs": 3028
           },
           "regles": {
-            "entreesRattachees": 99,
-            "libelles": 21,
-            "blocs": 78
+            "entreesRattachees": 1017,
+            "libelles": 719,
+            "blocs": 298
           },
           "sorts": {
-            "entreesRattachees": 22,
-            "libelles": 0,
+            "entreesRattachees": 193,
+            "libelles": 171,
             "blocs": 22
           }
         },
-        "entreesRattachees": 1456
+        "entreesRattachees": 6879
       }
     ],
     "regleClassement": "Un emplacement éditorial par texte : règles du joueur 2024 avec le PHB, bestiaire 2024 avec le MM, corpus historique et lexique non spécifique dans 2014. L’emplacement ne remplace pas la source précise ni l’édition portée par l’entrée.",
@@ -507,61 +524,60 @@
   "categories": {
     "sorts": {
       "nomsCatalogueAideDD2024": 391,
-      "entreesDictionnaires": 511,
-      "libellesEditables": 52,
+      "libellesEditables": 561,
       "blocsEditables": 678
     },
     "dons": {
       "nomsCatalogueAideDD2024": 75,
-      "entreesDictionnaires": 0,
       "libellesEditables": 185,
       "blocsEditables": 336
     },
     "classes": {
       "nomsCatalogueAideDD2024": 28,
-      "entreesDictionnaires": 559,
-      "libellesEditables": 250,
-      "blocsEditables": 1693
+      "libellesEditables": 724,
+      "blocsEditables": 1769
     },
     "especes": {
       "nomsCatalogueAideDD2024": 0,
-      "entreesDictionnaires": 0,
       "libellesEditables": 61,
-      "blocsEditables": 168
+      "blocsEditables": 169
     },
     "objets": {
       "nomsCatalogueAideDD2024": 350,
-      "entreesDictionnaires": 510,
-      "libellesEditables": 536,
-      "blocsEditables": 146
+      "libellesEditables": 1556,
+      "blocsEditables": 3075
     },
     "armes": {
       "nomsCatalogueAideDD2024": 0,
-      "entreesDictionnaires": 0,
       "libellesEditables": 430,
       "blocsEditables": 208
     },
     "monstres": {
       "nomsCatalogueAideDD2024": 498,
-      "entreesDictionnaires": 382,
-      "libellesEditables": 79,
+      "libellesEditables": 452,
       "blocsEditables": 327
     },
     "regles": {
       "nomsCatalogueAideDD2024": 0,
-      "entreesDictionnaires": 1299,
-      "libellesEditables": 77,
-      "blocsEditables": 280
+      "libellesEditables": 1064,
+      "blocsEditables": 503
     },
     "interface": {
       "nomsCatalogueAideDD2024": 0,
-      "entreesDictionnaires": 218,
-      "libellesEditables": 162,
-      "blocsEditables": 5
+      "libellesEditables": 359,
+      "blocsEditables": 8
     }
   },
   "corpusLocaux": {
-    "descriptionsEtChampsLocauxUniques": 6191,
+    "equipementGuideShard": {
+      "releve": "2026-10-16",
+      "chapitres": 2,
+      "listeEquipement": 1,
+      "noticesObjetsMagiques": 239,
+      "fichesOuvertes": 1372,
+      "controle": "audit/generes/guide-equipment.json"
+    },
+    "descriptionsEtChampsLocauxUniques": 9401,
     "presentationsShard": {
       "fichesRelevees": 153,
       "avecDescription": 149,

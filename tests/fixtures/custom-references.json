@@ -5634,7 +5634,7 @@
             {
               "tag": "P",
               "en": "When you roll damage for a spell, you can spend 1 Sorcery Point to reroll a number of the damage dice up to your Charisma modifier (minimum of one), and you must use the new rolls.",
-              "fr": "Lorsque vous tirez les dégâts d’un sort, vous pouvez dépenser 1 point de sorcellerie pour relancer un nombre de dés de dégâts allant jusqu’à votre modificateur de Charisme, avec un minimum de 1. Vous devez utiliser les nouveaux résultats."
+              "fr": "Lorsque vous tirez les dégâts d’un sort, vous pouvez dépenser 1 point de sorcellerie pour relancer un nombre de dés de dégâts allant jusqu’à votre modificateur de Charisme, avec au minimum un dé. Vous devez utiliser les nouveaux résultats."
             },
             {
               "tag": "P",
@@ -5656,7 +5656,7 @@
             {
               "tag": "P",
               "en": "When you roll damage for a spell, you can spend 1 Sorcery Point to reroll a number of the damage dice up to your Charisma modifier (minimum of one), and you must use the new rolls.",
-              "fr": "Lorsque vous tirez les dégâts d’un sort, vous pouvez dépenser 1 point de sorcellerie pour relancer un nombre de dés de dégâts allant jusqu’à votre modificateur de Charisme, avec un minimum de 1. Vous devez utiliser les nouveaux résultats."
+              "fr": "Lorsque vous tirez les dégâts d’un sort, vous pouvez dépenser 1 point de sorcellerie pour relancer un nombre de dés de dégâts allant jusqu’à votre modificateur de Charisme, avec au minimum un dé. Vous devez utiliser les nouveaux résultats."
             },
             {
               "tag": "P",
@@ -5834,7 +5834,7 @@
             {
               "tag": "P",
               "en": "When you cast a spell that has a casting time of 1 action, you can spend 2 sorcery points to change the casting time to 1 bonus action for this casting.",
-              "fr": "Lorsque vous lancez un sort dont le temps d’incantation est de 1 action, vous pouvez dépenser 2 points de sorcellerie pour le lancer par une action bonus pour cette incantation."
+              "fr": "Lorsque vous lancez un sort dont le temps d’incantation est de 1 action, vous pouvez dépenser 2 points de sorcellerie pour le lancer par 1 action bonus pour cette incantation."
             }
           ],
           "listBlocks": [
@@ -5846,7 +5846,7 @@
             {
               "tag": "P",
               "en": "When you cast a spell that has a casting time of 1 action, you can spend 2 sorcery points to change the casting time to 1 bonus action for this casting.",
-              "fr": "Lorsque vous lancez un sort dont le temps d’incantation est de 1 action, vous pouvez dépenser 2 points de sorcellerie pour le lancer par une action bonus pour cette incantation."
+              "fr": "Lorsque vous lancez un sort dont le temps d’incantation est de 1 action, vous pouvez dépenser 2 points de sorcellerie pour le lancer par 1 action bonus pour cette incantation."
             }
           ]
         },

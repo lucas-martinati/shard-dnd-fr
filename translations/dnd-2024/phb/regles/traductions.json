@@ -1187,7 +1187,11 @@
       "id": "background.phb2024.acolyte.1.body",
       "en": "Magic Initiate (Cleric)",
       "fr": "Initié à la magie (clerc)",
-      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds",
+      "usage": [
+        "search",
+        "inline"
+      ]
     },
     {
       "id": "background.phb2024.acolyte.2.heading",
@@ -1206,7 +1210,12 @@
       "id": "background.phb2024.acolyte.3.body",
       "en": "Calligrapher’s Supplies",
       "fr": "Matériel de calligraphe",
-      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds",
+      "usage": [
+        "name",
+        "search",
+        "inline"
+      ]
     },
     {
       "id": "background.phb2024.acolyte.4.heading",
@@ -1231,7 +1240,14 @@
       "id": "background.phb2024.artisan.1.body",
       "en": "Crafter",
       "fr": "Façonneur",
-      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds",
+      "usage": [
+        "search",
+        "inline"
+      ],
+      "aliases": [
+        "Artisan"
+      ]
     },
     {
       "id": "background.phb2024.artisan.2.body",
@@ -1261,7 +1277,11 @@
       "id": "background.phb2024.charlatan.1.body",
       "en": "Skilled",
       "fr": "Doué",
-      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds",
+      "usage": [
+        "search",
+        "inline"
+      ]
     },
     {
       "id": "background.phb2024.charlatan.2.body",
@@ -1273,7 +1293,12 @@
       "id": "background.phb2024.charlatan.3.body",
       "en": "Forgery Kit",
       "fr": "Matériel de contrefaçon",
-      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds",
+      "usage": [
+        "name",
+        "search",
+        "inline"
+      ]
     },
     {
       "id": "background.phb2024.charlatan.4.body",
@@ -1291,7 +1316,11 @@
       "id": "background.phb2024.criminal.1.body",
       "en": "Alert",
       "fr": "Vigilant",
-      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds",
+      "usage": [
+        "search",
+        "inline"
+      ]
     },
     {
       "id": "background.phb2024.criminal.2.body",
@@ -1303,7 +1332,12 @@
       "id": "background.phb2024.criminal.3.body",
       "en": "Thieves’ Tools",
       "fr": "Outils de voleur",
-      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds",
+      "usage": [
+        "name",
+        "search",
+        "inline"
+      ]
     },
     {
       "id": "background.phb2024.criminal.4.body",
@@ -1321,7 +1355,11 @@
       "id": "background.phb2024.entertainer.1.body",
       "en": "Musician",
       "fr": "Musicien",
-      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds",
+      "usage": [
+        "search",
+        "inline"
+      ]
     },
     {
       "id": "background.phb2024.entertainer.2.body",
@@ -1351,7 +1389,11 @@
       "id": "background.phb2024.farmer.1.body",
       "en": "Tough",
       "fr": "Robuste",
-      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds",
+      "usage": [
+        "search",
+        "inline"
+      ]
     },
     {
       "id": "background.phb2024.farmer.2.body",
@@ -1399,7 +1441,11 @@
       "id": "background.phb2024.guide.1.body",
       "en": "Magic Initiate (Druid)",
       "fr": "Initié à la magie (druide)",
-      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds",
+      "usage": [
+        "search",
+        "inline"
+      ]
     },
     {
       "id": "background.phb2024.guide.2.body",
@@ -1411,7 +1457,12 @@
       "id": "background.phb2024.guide.3.body",
       "en": "Cartographer’s Tools",
       "fr": "Outils de cartographe",
-      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds",
+      "usage": [
+        "name",
+        "search",
+        "inline"
+      ]
     },
     {
       "id": "background.phb2024.guide.4.body",
@@ -1429,7 +1480,11 @@
       "id": "background.phb2024.hermit.1.body",
       "en": "Healer",
       "fr": "Guérisseur",
-      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds",
+      "usage": [
+        "search",
+        "inline"
+      ]
     },
     {
       "id": "background.phb2024.hermit.2.body",
@@ -1441,7 +1496,12 @@
       "id": "background.phb2024.hermit.3.body",
       "en": "Herbalism Kit",
       "fr": "Matériel d’herboriste",
-      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds",
+      "usage": [
+        "name",
+        "search",
+        "inline"
+      ]
     },
     {
       "id": "background.phb2024.hermit.4.body",
@@ -1459,7 +1519,11 @@
       "id": "background.phb2024.merchant.1.body",
       "en": "Lucky",
       "fr": "Chanceux",
-      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds",
+      "usage": [
+        "search",
+        "inline"
+      ]
     },
     {
       "id": "background.phb2024.merchant.2.body",
@@ -1471,7 +1535,12 @@
       "id": "background.phb2024.merchant.3.body",
       "en": "Navigator’s Tools",
       "fr": "Outils de navigateur",
-      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds",
+      "usage": [
+        "name",
+        "search",
+        "inline"
+      ]
     },
     {
       "id": "background.phb2024.merchant.4.body",
@@ -1507,7 +1576,11 @@
       "id": "background.phb2024.sage.1.body",
       "en": "Magic Initiate (Wizard)",
       "fr": "Initié à la magie (magicien)",
-      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds",
+      "usage": [
+        "search",
+        "inline"
+      ]
     },
     {
       "id": "background.phb2024.sage.2.body",
@@ -1531,7 +1604,11 @@
       "id": "background.phb2024.sailor.1.body",
       "en": "Tavern Brawler",
       "fr": "Bagarreur de tavernes",
-      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds",
+      "usage": [
+        "search",
+        "inline"
+      ]
     },
     {
       "id": "background.phb2024.sailor.2.body",
@@ -1573,7 +1650,14 @@
       "id": "background.phb2024.soldier.1.body",
       "en": "Savage Attacker",
       "fr": "Sauvagerie martiale",
-      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds",
+      "usage": [
+        "search",
+        "inline"
+      ],
+      "aliases": [
+        "Attaquant sauvage"
+      ]
     },
     {
       "id": "background.phb2024.soldier.2.body",
@@ -1618,6 +1702,3026 @@
       "fr": "Test de d20",
       "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
       "kind": "term"
+    },
+    {
+      "id": "corpus.31a31b4d4686ceeb",
+      "kind": "term",
+      "en": "Ability Check",
+      "fr": "Test de caractéristique",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.82748eaa9e541093",
+      "kind": "term",
+      "en": "Quickened Spell",
+      "fr": "Sort accéléré",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "combat"
+    },
+    {
+      "id": "corpus.fcc3b34f950afb20",
+      "kind": "term",
+      "en": "Subtle Spell",
+      "fr": "Sort subtil",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "combat"
+    },
+    {
+      "id": "corpus.b13064a5705f979f",
+      "kind": "term",
+      "en": "Twinned Spell",
+      "fr": "Sort jumeau",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Sort jumelé"
+      ],
+      "labelCategory": "combat"
+    },
+    {
+      "id": "corpus.de2a34ffd6c6104e",
+      "kind": "term",
+      "en": "Careful Spell",
+      "fr": "Sort prévenant",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Sort prudent"
+      ],
+      "labelCategory": "combat"
+    },
+    {
+      "id": "corpus.ccd85546bb65fbd8",
+      "kind": "term",
+      "en": "Distant Spell",
+      "fr": "Sort ample",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Sort distant"
+      ],
+      "labelCategory": "combat"
+    },
+    {
+      "id": "corpus.37f6bdee0eb29b17",
+      "kind": "term",
+      "en": "Empowered Spell",
+      "fr": "Sort renforcé",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "combat"
+    },
+    {
+      "id": "corpus.28bdbc045c3d58b4",
+      "kind": "term",
+      "en": "Extended Spell",
+      "fr": "Sort étendu",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "combat"
+    },
+    {
+      "id": "corpus.621103ec186e5615",
+      "kind": "term",
+      "en": "Heightened Spell",
+      "fr": "Sort intensifié",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "combat"
+    },
+    {
+      "id": "corpus.85cd2990d62b5775",
+      "kind": "term",
+      "en": "Seeking Spell",
+      "fr": "Sort chercheur",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "combat"
+    },
+    {
+      "id": "corpus.50b914f00afccffe",
+      "kind": "term",
+      "en": "Transmuted Spell",
+      "fr": "Sort transmuté",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "combat"
+    },
+    {
+      "id": "corpus.1f77fb6d772208ad",
+      "kind": "term",
+      "en": "Infernal Legacy",
+      "fr": "Ascendance infernale",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.4dc2ac8b633be0ae",
+      "kind": "term",
+      "en": "Agonizing Blast",
+      "fr": "Décharge déchirante",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "combat"
+    },
+    {
+      "id": "corpus.52f42d1b09896cb7",
+      "kind": "term",
+      "en": "Repelling Blast",
+      "fr": "Décharge répulsive",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "combat"
+    },
+    {
+      "id": "corpus.02f350c6e1318b50",
+      "kind": "term",
+      "en": "Pact of the Blade",
+      "fr": "Pacte de la lame",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "combat"
+    },
+    {
+      "id": "corpus.a40c941634eec75b",
+      "kind": "term",
+      "en": "Pact of the Chain",
+      "fr": "Pacte de la chaîne",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "combat"
+    },
+    {
+      "id": "corpus.20d65972881fc670",
+      "kind": "term",
+      "en": "Pact of the Tome",
+      "fr": "Pacte du grimoire",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "combat"
+    },
+    {
+      "id": "corpus.b53fc8c68dd5624c",
+      "kind": "term",
+      "en": "Grappler",
+      "fr": "Empoigneur",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Lutteur"
+      ],
+      "labelCategory": "combat"
+    },
+    {
+      "id": "corpus.d3df0c610dcde91e",
+      "kind": "term",
+      "en": "Magic Initiate",
+      "fr": "Initié à la magie",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "combat"
+    },
+    {
+      "id": "corpus.b4858c1affc60a65",
+      "kind": "term",
+      "en": "Two-Handed",
+      "fr": "Deux mains",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "aliases": [
+        "À deux mains"
+      ],
+      "labelCategory": "combat"
+    },
+    {
+      "id": "corpus.e946abd159c3e001",
+      "kind": "term",
+      "en": "Cleave",
+      "fr": "Enchaînement",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "combat"
+    },
+    {
+      "id": "corpus.aa45665753dbfc89",
+      "kind": "term",
+      "en": "Graze",
+      "fr": "Écorchure",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "aliases": [
+        "Éraflure"
+      ],
+      "labelCategory": "combat"
+    },
+    {
+      "id": "corpus.d7439c4d3981a069",
+      "kind": "term",
+      "en": "Nick",
+      "fr": "Coup double",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "aliases": [
+        "Entaille"
+      ],
+      "labelCategory": "combat"
+    },
+    {
+      "id": "corpus.aba3be22737a5900",
+      "kind": "term",
+      "en": "Sap",
+      "fr": "Sape",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "aliases": [
+        "Affaiblissement"
+      ],
+      "labelCategory": "combat"
+    },
+    {
+      "id": "corpus.cce79bc635ab1519",
+      "kind": "term",
+      "en": "Slow mastery",
+      "fr": "Ralentissement",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "combat"
+    },
+    {
+      "id": "corpus.4bdad3aea28f48e9",
+      "kind": "term",
+      "en": "Topple",
+      "fr": "Renversement",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "combat"
+    },
+    {
+      "id": "corpus.4cc6139a20696176",
+      "kind": "term",
+      "en": "Vex",
+      "fr": "Ouverture",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "aliases": [
+        "Sape"
+      ],
+      "labelCategory": "combat"
+    },
+    {
+      "id": "corpus.6a0a0288ac6b0b74",
+      "kind": "term",
+      "en": "Spells",
+      "fr": "Sorts",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.1500405573373612",
+      "kind": "term",
+      "en": "Cast",
+      "fr": "Lancer",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.656641e51a3c566d",
+      "kind": "term",
+      "en": "Cast Spell",
+      "fr": "Lancer le sort",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.8f81d8b92557260d",
+      "kind": "term",
+      "en": "Sorcerous Origin",
+      "fr": "Origine magique",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.8140b3c78af57c0d",
+      "kind": "term",
+      "en": "Sorcerous Origin feature",
+      "fr": "Aptitude d’origine magique",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.e8280be462d1062c",
+      "kind": "term",
+      "en": "Boon of Dimensional Travel",
+      "fr": "Faveur de déplacement dimensionnel",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "combat"
+    },
+    {
+      "id": "corpus.493f330120d76a23",
+      "kind": "term",
+      "en": "Boon of Combat Prowess",
+      "fr": "Faveur de prouesse martiale",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "combat"
+    },
+    {
+      "id": "corpus.efa84450d6cebf68",
+      "kind": "term",
+      "en": "Boon of Fate",
+      "fr": "Faveur du destin",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "combat"
+    },
+    {
+      "id": "corpus.bf88c7caecce00a1",
+      "kind": "term",
+      "en": "Boon of Irresistible Offense",
+      "fr": "Faveur d’attaque irrésistible",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Faveur d’Offensive irrésistible"
+      ],
+      "labelCategory": "combat"
+    },
+    {
+      "id": "corpus.7adb0d4c3a5b24c5",
+      "kind": "term",
+      "en": "Boon of the Night Spirit",
+      "fr": "Faveur de l’esprit nocturne",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "combat"
+    },
+    {
+      "id": "corpus.6dabdca6e17a84da",
+      "kind": "term",
+      "en": "Boon of Spell Recall",
+      "fr": "Faveur de mémoire magique",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Faveur de Rappel des sorts"
+      ],
+      "labelCategory": "combat"
+    },
+    {
+      "id": "corpus.4a80de4f7c734df3",
+      "kind": "term",
+      "en": "Boon of Truesight",
+      "fr": "Faveur de Vision lucide",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "combat"
+    },
+    {
+      "id": "corpus.e321a970cbf5c53d",
+      "kind": "term",
+      "en": "Spellcasting Focus",
+      "fr": "Focaliseur d’incantation",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.8acc744c41af0b66",
+      "kind": "term",
+      "en": "Spell Attack Modifier",
+      "fr": "Modificateur d’attaque des sorts",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.76a751389363ee4c",
+      "kind": "term",
+      "en": "Class Features",
+      "fr": "Aptitudes de classe",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.ec01cb04369ef5ee",
+      "kind": "term",
+      "en": "Class Feature Options",
+      "fr": "Options d’aptitudes de classe",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.dcde8d3db1d0be5d",
+      "kind": "term",
+      "en": "Character Description Options",
+      "fr": "Options de description du personnage",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.58cba48cf7d43a0b",
+      "kind": "term",
+      "en": "Spell Slots per Spell Level",
+      "fr": "Emplacements par niveau de sort",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.4b7f05413fb9743c",
+      "kind": "term",
+      "en": "Metamagic Known",
+      "fr": "Options de métamagie connues",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.f7d3e65cdbc96df0",
+      "kind": "term",
+      "en": "Cantrips Known",
+      "fr": "Sorts mineurs connus",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.74326555b3eafea7",
+      "kind": "term",
+      "en": "Prepared Spells of Level 1+",
+      "fr": "Sorts préparés du niveau 1 et supérieur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.5778deb12a5c9156",
+      "kind": "term",
+      "en": "Spells Known of 1st Level and Higher",
+      "fr": "Sorts connus du niveau 1 et supérieur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.9724b8847a6e1346",
+      "kind": "term",
+      "en": "Changing Your Prepared Spells",
+      "fr": "Modification des sorts préparés",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.4de7a65afb96fb98",
+      "kind": "term",
+      "en": "Converting Spell Slots to Sorcery Points",
+      "fr": "Conversion d’emplacements de sort en points de sorcellerie",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.15a72f8c95a57b1b",
+      "kind": "term",
+      "en": "Hit Points at 1st Level",
+      "fr": "Points de vie au niveau 1",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.6d59f3db3041e6ba",
+      "kind": "term",
+      "en": "Hit Points at Higher Levels",
+      "fr": "Points de vie aux niveaux suivants",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.2e2cd0277a120c8a",
+      "kind": "term",
+      "en": "My Character",
+      "fr": "Mon personnage",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.ac461667a825d608",
+      "kind": "term",
+      "en": "Create New Character",
+      "fr": "Créer un personnage",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.272921b6e8bdbd8d",
+      "kind": "term",
+      "en": "Select Class",
+      "fr": "Choisir une classe",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.c79baacef99545e8",
+      "kind": "term",
+      "en": "Select Subclass",
+      "fr": "Choisir une sous-classe",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.f5b10d06248cf08a",
+      "kind": "term",
+      "en": "Select Species",
+      "fr": "Choisir une espèce",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.b70cb17c98d9753b",
+      "kind": "term",
+      "en": "Select Background",
+      "fr": "Choisir un historique",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.d754e62607a586bb",
+      "kind": "term",
+      "en": "Pick Species",
+      "fr": "Choisir une espèce",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.e932f4664fa9d32f",
+      "kind": "term",
+      "en": "Pick Race",
+      "fr": "Choisir une race",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.a1a601372d808065",
+      "kind": "term",
+      "en": "Pick Background",
+      "fr": "Choisir un historique",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.ba7ebb6c0b122ffd",
+      "kind": "term",
+      "en": "Pick Class",
+      "fr": "Choisir une classe",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.090a6bc98f370abb",
+      "kind": "term",
+      "en": "Pick Abilities",
+      "fr": "Définir les caractéristiques",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.90c415217a67eaae",
+      "kind": "term",
+      "en": "Pick Options",
+      "fr": "Choisir les options",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.1b0e838ba8e4b3bf",
+      "kind": "term",
+      "en": "Pick Metamagic",
+      "fr": "Choisir la métamagie",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.831a9d52a9c37435",
+      "kind": "term",
+      "en": "Pick",
+      "fr": "Choisir",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.c0bf75bd78bf9572",
+      "kind": "term",
+      "en": "Change",
+      "fr": "Changer",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.6f202f54a7b2d8fe",
+      "kind": "term",
+      "en": "List",
+      "fr": "Liste",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.a525be98c4abc148",
+      "kind": "term",
+      "en": "Show Details",
+      "fr": "Afficher les détails",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.7e109cb5507c37a8",
+      "kind": "term",
+      "en": "Missing Selection",
+      "fr": "Choix manquant",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.57f662a079e1488a",
+      "kind": "term",
+      "en": "Need to pick subclass",
+      "fr": "Sous-classe à choisir",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.f5ddf116097e4e25",
+      "kind": "term",
+      "en": "Need to pick Sorcerous Origin",
+      "fr": "Origine magique à choisir",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.54b99aae53c1ba7b",
+      "kind": "term",
+      "en": "(need to select)",
+      "fr": "(choix requis)",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.6df1bb18a59ab97d",
+      "kind": "term",
+      "en": "Skill",
+      "fr": "Compétence",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.b826c1e5815042e4",
+      "kind": "term",
+      "en": "Roll HP",
+      "fr": "Tirer les PV",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.9aa0682325cfc918",
+      "kind": "term",
+      "en": "Next Round",
+      "fr": "Round suivant",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.eda8d185447924a9",
+      "kind": "term",
+      "en": "Add Condition",
+      "fr": "Ajouter un état",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.e1ceb58a3e984dd4",
+      "kind": "term",
+      "en": "Upload Token",
+      "fr": "Importer un pion",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.f352df0baba15ca1",
+      "kind": "term",
+      "en": "Search Web for Token",
+      "fr": "Chercher un pion sur le Web",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.8b466302543ab417",
+      "kind": "term",
+      "en": "Pick Token",
+      "fr": "Choisir un pion",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.fc0bb85f3867f1df",
+      "kind": "term",
+      "en": "New Session",
+      "fr": "Nouvelle session",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.85a39ab345d672ff",
+      "kind": "term",
+      "en": "Yes",
+      "fr": "Oui",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.1ea442a134b2a184",
+      "kind": "term",
+      "en": "No",
+      "fr": "Non",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.565339bc4d33d728",
+      "kind": "term",
+      "en": "OK",
+      "fr": "OK",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.80e3a955fb45b545",
+      "kind": "term",
+      "en": "Remove Sorcerer",
+      "fr": "Retirer les niveaux d’ensorceleur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.8eff83a0f069ffd7",
+      "kind": "term",
+      "en": "Default (Spell Slots)",
+      "fr": "Par défaut (emplacements de sort)",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.a974d2494c2d9a3b",
+      "kind": "term",
+      "en": "Starting Equipment",
+      "fr": "Équipement de départ",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.7c4b04c22742e9b6",
+      "kind": "term",
+      "en": "Ability Score Increases",
+      "fr": "Augmentations de caractéristiques",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.6f2566418b01dda9",
+      "kind": "term",
+      "en": "Standard Array",
+      "fr": "Valeurs standard",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.b2cb8853aea8940d",
+      "kind": "term",
+      "en": "Point Buy",
+      "fr": "Achat de points",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.c2f42c27c4a58075",
+      "kind": "term",
+      "en": "Roll Abilities",
+      "fr": "Tirer les caractéristiques",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.dae826547f4ea64a",
+      "kind": "term",
+      "en": "Choose Equipment",
+      "fr": "Choisir l’équipement",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.58b7b58de6c6a50f",
+      "kind": "term",
+      "en": "Character Sheet Style",
+      "fr": "Style de fiche",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.c8f3c277c3e1e5d5",
+      "kind": "term",
+      "en": "Set Player Name",
+      "fr": "Définir le nom du joueur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.3064d79a295cefe4",
+      "kind": "term",
+      "en": "Rename",
+      "fr": "Renommer",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.ab4ab0421d60bce7",
+      "kind": "term",
+      "en": "Change Shape",
+      "fr": "Changer de forme",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.22ec21a502a2e734",
+      "kind": "term",
+      "en": "Hero Abilities",
+      "fr": "Aptitudes héroïques",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.0f7e141ef6e9c885",
+      "kind": "term",
+      "en": "Copy To",
+      "fr": "Copier vers",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.dcd3d2ecd6c8c470",
+      "kind": "term",
+      "en": "Select Extensions",
+      "fr": "Choisir les extensions",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.df0fe79898ef413e",
+      "kind": "term",
+      "en": "Print",
+      "fr": "Imprimer",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.6e639713cb39a5d3",
+      "kind": "term",
+      "en": "Dice",
+      "fr": "Dés",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.30e0457ecd317a78",
+      "kind": "term",
+      "en": "Heroic Inspiration",
+      "fr": "Inspiration héroïque",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.9778c9e68da5d095",
+      "kind": "term",
+      "en": "Abyssal Legacy",
+      "fr": "Ascendance abyssale",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.bf7d53f772075b88",
+      "kind": "term",
+      "en": "Chthonic Legacy",
+      "fr": "Ascendance chthonienne",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.3b79190c2084a87d",
+      "kind": "term",
+      "en": "Draconic Flight",
+      "fr": "Vol draconique",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.13e1c03aeb2f9607",
+      "kind": "term",
+      "en": "Celestial Revelation",
+      "fr": "Révélation céleste",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.8daa1bc7eaefbdd0",
+      "kind": "term",
+      "en": "Healing Hands",
+      "fr": "Mains guérisseuses",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.807995813db923b2",
+      "kind": "term",
+      "en": "Light Bearer",
+      "fr": "Porteur de lumière",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.d7008cd8b669ed8d",
+      "kind": "term",
+      "en": "Halfling Luck",
+      "fr": "Chance halfeline",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.2ed8477a0eb9ec67",
+      "kind": "term",
+      "en": "Weapon Masteries",
+      "fr": "Bottes d’arme",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Bottes d’armes"
+      ],
+      "labelCategory": "combat"
+    },
+    {
+      "id": "corpus.e05d70199503da0d",
+      "kind": "term",
+      "en": "Primal Strike",
+      "fr": "Frappe primitive",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.65f3cd633953c005",
+      "kind": "term",
+      "en": "Bardic Versatility",
+      "fr": "Polyvalence bardique",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.2a17972fd71aae2a",
+      "kind": "term",
+      "en": "Epic Boons",
+      "fr": "Faveurs épiques",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.762a4843695f2a16",
+      "kind": "term",
+      "en": "Firebolt",
+      "fr": "Trait de feu",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.03d5b2de1df725ca",
+      "kind": "term",
+      "en": "Creature Type",
+      "fr": "Type de créature",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.d2253641722e7fc5",
+      "kind": "term",
+      "en": "Humanoid",
+      "fr": "Humanoïde",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.dc42ecf8e39d17d2",
+      "kind": "term",
+      "en": "Aberration",
+      "fr": "Aberration",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.628bf77a740094a9",
+      "kind": "term",
+      "en": "Beast",
+      "fr": "Bête",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.67e7c6e28e540b4f",
+      "kind": "term",
+      "en": "Construct",
+      "fr": "Artificiel",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.bbe963c645f060d6",
+      "kind": "term",
+      "en": "Dragon",
+      "fr": "Dragon",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.4309e83a3ded6e66",
+      "kind": "term",
+      "en": "Elemental",
+      "fr": "Élémentaire",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.eceaa44320e415a1",
+      "kind": "term",
+      "en": "Fey",
+      "fr": "Fée",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.5a0f5f99f9e5ce21",
+      "kind": "term",
+      "en": "Fiend",
+      "fr": "Fiélon",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.3b9da656aec79069",
+      "kind": "term",
+      "en": "Monstrosity",
+      "fr": "Monstruosité",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.f19643d5c0aec2a3",
+      "kind": "term",
+      "en": "Ooze",
+      "fr": "Vase",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.0bd287f6ce17c0df",
+      "kind": "term",
+      "en": "Plant",
+      "fr": "Plante",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.a5bb6066391197b9",
+      "kind": "term",
+      "en": "Undead",
+      "fr": "Mort-vivant",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.e23621e5772519b6",
+      "kind": "term",
+      "en": "Fire Resistance",
+      "fr": "Résistance au feu",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.dc88186e188f6d75",
+      "kind": "term",
+      "en": "Poison Resistance",
+      "fr": "Résistance au poison",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.cf9011977d9a22a6",
+      "kind": "term",
+      "en": "Necrotic Resistance",
+      "fr": "Résistance nécrotique",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.36ae85511c705c38",
+      "kind": "term",
+      "en": "Innate Spellcasting",
+      "fr": "Incantation innée",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.cc153811c4847367",
+      "kind": "term",
+      "en": "Pick Starting Equipment",
+      "fr": "Choisir l’équipement de départ",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.6c3fdb567af522d9",
+      "kind": "term",
+      "en": "Adjust abilities",
+      "fr": "Ajuster les caractéristiques",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.524b7712a123e771",
+      "kind": "term",
+      "en": "Keen Senses",
+      "fr": "Sens aiguisés",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.3452ffeaec504cfb",
+      "kind": "term",
+      "en": "Ask Gamemaster",
+      "fr": "Demander au MJ",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.19133ee56e5cce2b",
+      "kind": "term",
+      "en": "Selected Spells",
+      "fr": "Sorts sélectionnés",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.6b04bdabb82c2fe5",
+      "kind": "term",
+      "en": "Select Equipment",
+      "fr": "Choisir l’équipement",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.f25d5cb5c369c844",
+      "kind": "term",
+      "en": "All Spells",
+      "fr": "Tous les sorts",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.b877e9212b41f8c8",
+      "kind": "term",
+      "en": "All Sources",
+      "fr": "Toutes les sources",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.93927fe63edf5ac7",
+      "kind": "term",
+      "en": "Spellcasting Type",
+      "fr": "Type d’incantation",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.e0cdd07f6a270b82",
+      "kind": "term",
+      "en": "Requirements",
+      "fr": "Conditions requises",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.eaf5c28560a60857",
+      "kind": "term",
+      "en": "Prerequisite",
+      "fr": "Prérequis",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.865514682d0132ab",
+      "kind": "term",
+      "en": "Prerequisites",
+      "fr": "Prérequis",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.9c40ae32bd6bd868",
+      "kind": "term",
+      "en": "Ability",
+      "fr": "Caractéristique",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.81932b99d9d932d9",
+      "kind": "term",
+      "en": "Abilities",
+      "fr": "Caractéristiques",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.0c2d3b8713b00333",
+      "kind": "term",
+      "en": "Increase",
+      "fr": "Augmentation",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.5412dd3fd391e985",
+      "kind": "term",
+      "en": "Increases",
+      "fr": "Augmentations",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.907769f87324282d",
+      "kind": "term",
+      "en": "Multiclass",
+      "fr": "Multiclassage",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.dcc951358e93aa03",
+      "kind": "term",
+      "en": "Traveler's Clothes",
+      "fr": "Vêtements de voyage",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.c595cc906bd9abad",
+      "kind": "term",
+      "en": "Oil (flask)s",
+      "fr": "Flasques d’huile",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.a762cea65f55268f",
+      "kind": "term",
+      "en": "Pick Gold Alternative",
+      "fr": "Choisir l’alternative en or",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.8b9832817ec3a6df",
+      "kind": "term",
+      "en": "Pick Spells",
+      "fr": "Choisir les sorts",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.1e18acd8c503c85d",
+      "kind": "term",
+      "en": "Character options only",
+      "fr": "Options du personnage uniquement",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.3659749a9d458720",
+      "kind": "term",
+      "en": "Class/Source",
+      "fr": "Classe/Source",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.6cd2e331855da821",
+      "kind": "term",
+      "en": "School",
+      "fr": "École",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.ce54f0e22dbb39de",
+      "kind": "term",
+      "en": "Component",
+      "fr": "Composante",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.07ec71afe4ab6b7e",
+      "kind": "term",
+      "en": "No action required",
+      "fr": "Aucune action requise",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.e768f9b1591dbe9f",
+      "kind": "term",
+      "en": "1 reaction",
+      "fr": "1 réaction",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.451f0f443e685558",
+      "kind": "term",
+      "en": "Telepathic",
+      "fr": "Télépathe",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Télépathique"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.32c0c84455c7f7aa",
+      "kind": "term",
+      "en": "Magician",
+      "fr": "Mage",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.81258b7c45d5e6c9",
+      "kind": "term",
+      "en": "Warden",
+      "fr": "Gardien",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.c8d5b85a59672dea",
+      "kind": "term",
+      "en": "Thaumaturge",
+      "fr": "Thaumaturge",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.84edb6a537368a4a",
+      "kind": "term",
+      "en": "Protector",
+      "fr": "Protecteur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.1cd2a31a812c63c6",
+      "kind": "term",
+      "en": "Circle Forms",
+      "fr": "Formes du cercle",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.4e9ebc1b5aaa2a67",
+      "kind": "term",
+      "en": "Lunar Wild Shape",
+      "fr": "Forme sauvage lunaire",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.272952e299267ad2",
+      "kind": "term",
+      "en": "Circle of the Moon Spells",
+      "fr": "Sorts du Cercle de la Lune",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.161f21b593dcd201",
+      "kind": "term",
+      "en": "Circle of Dreams",
+      "fr": "Cercle des Rêves",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.d12053133b2d8b1a",
+      "kind": "term",
+      "en": "Circle of the Shepherd",
+      "fr": "Cercle du Berger",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.ce20641059ecc111",
+      "kind": "term",
+      "en": "Circle of Spores",
+      "fr": "Cercle des Spores",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.8fbcf0e42398d509",
+      "kind": "term",
+      "en": "Circle of Wildfire",
+      "fr": "Cercle du Feu sauvage",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.6e0516c3ac32c1ae",
+      "kind": "term",
+      "en": "Number of Uses",
+      "fr": "Nombre d’utilisations",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.a5665fa787e7a3d1",
+      "kind": "term",
+      "en": "Known Forms",
+      "fr": "Formes connues",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.ae1766b91e2adaf2",
+      "kind": "term",
+      "en": "Beast Shapes",
+      "fr": "Formes de bête",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.af9bf9bea0bd1690",
+      "kind": "term",
+      "en": "Rules While Shape-Shifted",
+      "fr": "Règles sous forme animale",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.4eb1f1973c2f47d5",
+      "kind": "term",
+      "en": "Game Statistics",
+      "fr": "Statistiques de jeu",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.745196eff60988a5",
+      "kind": "term",
+      "en": "No Spellcasting",
+      "fr": "Aucune incantation",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.de5236ee1561d9d4",
+      "kind": "term",
+      "en": "Objects",
+      "fr": "Objets",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.5b689a40d4e902da",
+      "kind": "term",
+      "en": "Lunar Radiance",
+      "fr": "Radiance lunaire",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.fe41a670bc5e1f34",
+      "kind": "term",
+      "en": "Improved Lunar Radiance",
+      "fr": "Radiance lunaire améliorée",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.fcc07ff4fb559f40",
+      "kind": "term",
+      "en": "Moonlight Step",
+      "fr": "Pas de clair de lune",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.a5c1cbfb7428a814",
+      "kind": "term",
+      "en": "Thousand Forms",
+      "fr": "Mille formes",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.9290055db34928ac",
+      "kind": "term",
+      "en": "Starry Form",
+      "fr": "Forme étoilée",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.eac3c5fa753dad49",
+      "kind": "term",
+      "en": "Star Map",
+      "fr": "Carte stellaire",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.20693caa7397c527",
+      "kind": "term",
+      "en": "Cosmic Omen",
+      "fr": "Présage cosmique",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.a145dafea873c7a7",
+      "kind": "term",
+      "en": "Twinkling Constellations",
+      "fr": "Constellations scintillantes",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.b2845da14461ce53",
+      "kind": "term",
+      "en": "Full of Stars",
+      "fr": "Plein d’étoiles",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.333d9a6c899dc228",
+      "kind": "term",
+      "en": "Wrath of the Sea",
+      "fr": "Courroux de la mer",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.1211fe06c49afbf5",
+      "kind": "term",
+      "en": "Aquatic Affinity",
+      "fr": "Affinité aquatique",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.49230dfc30f5080f",
+      "kind": "term",
+      "en": "Stormborn",
+      "fr": "Enfant de la tempête",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.d5ac876ff1e04c5c",
+      "kind": "term",
+      "en": "Oceanic Gift",
+      "fr": "Don océanique",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.305efd09c3e006ab",
+      "kind": "term",
+      "en": "Common Sign Language",
+      "fr": "Langue des signes commune",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.33adf68b63295f65",
+      "kind": "term",
+      "en": "Two-Person Tent",
+      "fr": "Tente pour deux personnes",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.1e09d12af83b7f10",
+      "kind": "term",
+      "en": "Two Person Tent",
+      "fr": "Tente pour deux personnes",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.650bf7751040eec4",
+      "kind": "term",
+      "en": "Tent (two-person)",
+      "fr": "Tente pour deux personnes",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.180aca3484f545e8",
+      "kind": "term",
+      "en": "Tent",
+      "fr": "Tente",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.7d07e3fe31ae49e4",
+      "kind": "term",
+      "en": "Over capacity",
+      "fr": "Capacité dépassée",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.9d60841e0a7891df",
+      "kind": "term",
+      "en": "Check",
+      "fr": "Test",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.037d0692fd441ace",
+      "kind": "term",
+      "en": "Cast Level",
+      "fr": "Lancer au niveau",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.3fee95da5ab69ebf",
+      "kind": "term",
+      "en": "Simple",
+      "fr": "Courante",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.3d45b4ae2f59073c",
+      "kind": "term",
+      "en": "Martial",
+      "fr": "De guerre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.96c47b56d527d81f",
+      "kind": "term",
+      "en": "Light, Shields",
+      "fr": "Armures légères, boucliers",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.75f6e28be7f4bb6f",
+      "kind": "term",
+      "en": "Light, Medium, Shields",
+      "fr": "Armures légères et intermédiaires, boucliers",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.87d5d48053644cc5",
+      "kind": "term",
+      "en": "Light, Medium, Heavy, Shields",
+      "fr": "Armures légères, intermédiaires et lourdes, boucliers",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.cff7c65f4d8202ed",
+      "kind": "term",
+      "en": "Light, Medium, Heavy",
+      "fr": "Armures légères, intermédiaires et lourdes",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.fe8ebf117e0b44bf",
+      "kind": "term",
+      "en": "Light, Medium",
+      "fr": "Armures légères et intermédiaires",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.3a5f07a64ec30c87",
+      "kind": "term",
+      "en": "Slashing, Light",
+      "fr": "Tranchant, Légère",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.86019bd8f6a290bd",
+      "kind": "term",
+      "en": "Slashing; Light",
+      "fr": "Tranchant ; Légère",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.5208d78a8f2a6e3d",
+      "kind": "term",
+      "en": "Speedy",
+      "fr": "Vélocité",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.7c522250f6a8c8d9",
+      "kind": "term",
+      "en": "Poisoner",
+      "fr": "Empoisonneur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.cb54a47b672c3d76",
+      "kind": "term",
+      "en": "Lightly Armored",
+      "fr": "Armures légères",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.d3fd873e43ef5f80",
+      "kind": "term",
+      "en": "Moderately Armored",
+      "fr": "Armures intermédiaires",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.2a5f640641c8d25e",
+      "kind": "term",
+      "en": "Heavily Armored",
+      "fr": "Armures lourdes",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.09798d2436f27b49",
+      "kind": "term",
+      "en": "Medium Armor Master",
+      "fr": "Maître des armures intermédiaires",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.1c2b8e840a07a994",
+      "kind": "term",
+      "en": "Fighting Initiate",
+      "fr": "Initié au combat",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.07a8e8df2c658514",
+      "kind": "term",
+      "en": "Eldritch Adept",
+      "fr": "Adepte occulte",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.71ded9b1a916755b",
+      "kind": "term",
+      "en": "Metamagic Adept",
+      "fr": "Adepte de la métamagie",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.6b2c9c26b37d8150",
+      "kind": "term",
+      "en": "Artificer Initiate",
+      "fr": "Initié à l’artifice",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.d4ea93a7fd4ead99",
+      "kind": "term",
+      "en": "Dragon Fear",
+      "fr": "Peur draconique",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.8a2905fb7175e617",
+      "kind": "term",
+      "en": "Dragon Hide",
+      "fr": "Peau de dragon",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.b81863747dd08e11",
+      "kind": "term",
+      "en": "Drow High Magic",
+      "fr": "Haute magie drow",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.469f10842d691926",
+      "kind": "term",
+      "en": "Dwarven Fortitude",
+      "fr": "Vigueur naine",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.6fea08baf39cae15",
+      "kind": "term",
+      "en": "Elven Accuracy",
+      "fr": "Précision elfique",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.5752e3544b1fa53e",
+      "kind": "term",
+      "en": "Fade Away",
+      "fr": "Disparition",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.ef5f932b4ca9a689",
+      "kind": "term",
+      "en": "Fey Teleportation",
+      "fr": "Téléportation féerique",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.585736624a0985ed",
+      "kind": "term",
+      "en": "Flames of Phlegethos",
+      "fr": "Flammes de Phlégéthos",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.63e18582978f3dee",
+      "kind": "term",
+      "en": "Infernal Constitution",
+      "fr": "Constitution infernale",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.69418c1aab3cd6c0",
+      "kind": "term",
+      "en": "Orcish Fury",
+      "fr": "Fureur orc",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.a070c2dbca8daa0f",
+      "kind": "term",
+      "en": "Prodigy",
+      "fr": "Prodige",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.3ffdeee4d41c5878",
+      "kind": "term",
+      "en": "Second Chance",
+      "fr": "Seconde chance",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.cbae29ef4d6f7b5c",
+      "kind": "term",
+      "en": "Squat Nimbleness",
+      "fr": "Agilité des petits",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.5971b0828b6c6a3d",
+      "kind": "term",
+      "en": "Wood Elf Magic",
+      "fr": "Magie des elfes des bois",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.364c2b22f3c9bbe1",
+      "kind": "term",
+      "en": "Bountiful Luck",
+      "fr": "Chance abondante",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.eb0a5eb1734aa8b1",
+      "kind": "term",
+      "en": "Gift of the Chromatic Dragon",
+      "fr": "Don du dragon chromatique",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.27674f1f2ee99eb5",
+      "kind": "term",
+      "en": "Gift of the Gem Dragon",
+      "fr": "Don du dragon de gemme",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.bea4104b4fe221c9",
+      "kind": "term",
+      "en": "Gift of the Metallic Dragon",
+      "fr": "Don du dragon métallique",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.4d13367b199b8828",
+      "kind": "term",
+      "en": "Strike of the Giants",
+      "fr": "Frappe des géants",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.b044531e2dac3642",
+      "kind": "term",
+      "en": "Ember of the Fire Giant",
+      "fr": "Braise du géant du feu",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.f72fd0da087b9138",
+      "kind": "term",
+      "en": "Fury of the Frost Giant",
+      "fr": "Furie du géant du givre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.2f97cf26df9528e1",
+      "kind": "term",
+      "en": "Guile of the Cloud Giant",
+      "fr": "Ruse du géant des nuages",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.5cc07a628cb37aa3",
+      "kind": "term",
+      "en": "Keenness of the Stone Giant",
+      "fr": "Perspicacité du géant des pierres",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.c04c3749b43b39fe",
+      "kind": "term",
+      "en": "Soul of the Storm Giant",
+      "fr": "Âme du géant des tempêtes",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.9ea060c109ff2df7",
+      "kind": "term",
+      "en": "Vigor of the Hill Giant",
+      "fr": "Vigueur du géant des collines",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.f7ee56fed43024a3",
+      "kind": "term",
+      "en": "Magic Initiate: Cleric",
+      "fr": "Initié à la magie : clerc",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.5e69df358da9c6af",
+      "kind": "term",
+      "en": "Magic Initiate: Druid",
+      "fr": "Initié à la magie : druide",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.62b1063f13ed7e47",
+      "kind": "term",
+      "en": "Magic Initiate: Wizard",
+      "fr": "Initié à la magie : magicien",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.9fb7027aa860eb3d",
+      "kind": "term",
+      "en": "Boon of Energy Resistance",
+      "fr": "Faveur de Résistance à l’énergie",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.34d1572534e20c4b",
+      "kind": "term",
+      "en": "Boon of Fortitude",
+      "fr": "Faveur de Vigueur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.107d0c6b6eccdf35",
+      "kind": "term",
+      "en": "Boon of Recovery",
+      "fr": "Faveur de Récupération",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.d3e2a0d16faa3ec6",
+      "kind": "term",
+      "en": "Boon of Skill",
+      "fr": "Faveur de Compétence",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.058f14bb97c776af",
+      "kind": "term",
+      "en": "Boon of Speed",
+      "fr": "Faveur de Vitesse",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.63c14ac0392b0b31",
+      "kind": "term",
+      "en": "Blind Fighting",
+      "fr": "Combat à l’aveugle",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.e764cd0e7c9aae8e",
+      "kind": "term",
+      "en": "Thrown Weapon Fighting",
+      "fr": "Combat à l’arme de jet",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.8bea3ccde2f1eb62",
+      "kind": "term",
+      "en": "Unarmed Fighting",
+      "fr": "Combat à mains nues",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.20608287ee49950e",
+      "kind": "term",
+      "en": "Blessed Warrior",
+      "fr": "Guerrier béni",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.75bf2501f90785c6",
+      "kind": "term",
+      "en": "Druidic Warrior",
+      "fr": "Guerrier druidique",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.18c8390751ea309c",
+      "kind": "term",
+      "en": "Archery",
+      "fr": "Archerie",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "combat"
+    },
+    {
+      "id": "corpus.6d3b491cc4b3b8c9",
+      "kind": "term",
+      "en": "Defense",
+      "fr": "Défense",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "combat"
+    },
+    {
+      "id": "corpus.5108aa705ffcb4e0",
+      "kind": "term",
+      "en": "Dueling",
+      "fr": "Duel",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.2e8a188d04c2dd86",
+      "kind": "term",
+      "en": "Great Weapon Fighting",
+      "fr": "Armes à deux mains",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Combat à l’arme à deux mains"
+      ],
+      "labelCategory": "combat"
+    },
+    {
+      "id": "corpus.bd5864eb8cda6f6f",
+      "kind": "term",
+      "en": "Interception",
+      "fr": "Interception",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.0e97ad021672d434",
+      "kind": "term",
+      "en": "Protection",
+      "fr": "Protection",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.6dcbbe6c7e41c8f7",
+      "kind": "term",
+      "en": "Two-Weapon Fighting",
+      "fr": "Combat à deux armes",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "combat"
+    },
+    {
+      "id": "corpus.4500f25c3586f32f",
+      "kind": "term",
+      "en": "Superior Technique",
+      "fr": "Technique supérieure",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.63c5b77101f2fd7c",
+      "kind": "term",
+      "en": "Spell",
+      "fr": "Sort",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.3b3f659ced96f9f8",
+      "kind": "term",
+      "en": "Cast Spell:",
+      "fr": "Lancer le sort :",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.1b52f3a2e1514873",
+      "kind": "term",
+      "en": "hr",
+      "fr": "h",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.4e9682fa850ed767",
+      "kind": "term",
+      "en": "hrs",
+      "fr": "h",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.db7e1e6d87ef806a",
+      "kind": "term",
+      "en": "Fly Speed",
+      "fr": "Vitesse de vol",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.6b42e083e43815f1",
+      "kind": "term",
+      "en": "Walk Speed",
+      "fr": "Vitesse de marche",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.83bc480be7f2eeee",
+      "kind": "term",
+      "en": "Swim Speed",
+      "fr": "Vitesse de nage",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.290fcbeb46d4d9b3",
+      "kind": "term",
+      "en": "Burrow Speed",
+      "fr": "Vitesse de fouissement",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "corpus.26e1d05e235ca855",
+      "kind": "term",
+      "en": "Armor of Shadows",
+      "fr": "Armure d’ombres",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "combat"
+    },
+    {
+      "id": "corpus.03b19f60ba875e6e",
+      "kind": "term",
+      "en": "Lifedrinker",
+      "fr": "Buveuse de vie",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "combat"
+    },
+    {
+      "id": "corpus.be483c96caeae575",
+      "kind": "term",
+      "en": "Investment of the Chain Master",
+      "fr": "Engagement du maître des chaînes",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "combat"
+    },
+    {
+      "id": "corpus.ccb693cd0dfca3d9",
+      "kind": "term",
+      "en": "Lessons of the First Ones",
+      "fr": "Enseignement des Premiers-Nés",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "combat"
+    },
+    {
+      "id": "corpus.65507ea5addab48f",
+      "kind": "term",
+      "en": "Eldritch Mind",
+      "fr": "Esprit occulte",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "combat"
+    },
+    {
+      "id": "corpus.0b0b4b4830522b9a",
+      "kind": "term",
+      "en": "Eldritch Smite",
+      "fr": "Frappe occulte",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "combat"
+    },
+    {
+      "id": "corpus.158a76b7580c1752",
+      "kind": "term",
+      "en": "Thirsting Blade",
+      "fr": "Lame assoiffée",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "combat"
+    },
+    {
+      "id": "corpus.f8aa64bc24e0ba32",
+      "kind": "term",
+      "en": "Devouring Blade",
+      "fr": "Lame dévorante",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "combat"
+    },
+    {
+      "id": "corpus.a867c2d21b40ca4c",
+      "kind": "term",
+      "en": "Eldritch Spear",
+      "fr": "Lance occulte",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "combat"
+    },
+    {
+      "id": "corpus.e098a9c74d5d508e",
+      "kind": "term",
+      "en": "Master of Myriad Forms",
+      "fr": "Maître des formes",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "combat"
+    },
+    {
+      "id": "corpus.211a8731c5b66981",
+      "kind": "term",
+      "en": "One with Shadows",
+      "fr": "Maître des ombres",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "combat"
+    },
+    {
+      "id": "corpus.db4f4be7cf0c78d8",
+      "kind": "term",
+      "en": "Mask of Many Faces",
+      "fr": "Mille visages",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "combat"
+    },
+    {
+      "id": "corpus.89e80e9912e30dcc",
+      "kind": "term",
+      "en": "Whispers of the Grave",
+      "fr": "Murmures de la tombe",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "combat"
+    },
+    {
+      "id": "corpus.c13d886b825bc583",
+      "kind": "term",
+      "en": "Ascendant Step",
+      "fr": "Pas aérien",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "combat"
+    },
+    {
+      "id": "corpus.b170a8f913c0830b",
+      "kind": "term",
+      "en": "Gaze of Two Minds",
+      "fr": "Perception transférée",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "combat"
+    },
+    {
+      "id": "corpus.8c71bde0fb7c1fb0",
+      "kind": "term",
+      "en": "Gift of the Depths",
+      "fr": "Présent des profondeurs",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "combat"
+    },
+    {
+      "id": "corpus.bdbea1b6637bee03",
+      "kind": "term",
+      "en": "Gift of the Protectors",
+      "fr": "Présent des sauveurs",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "search"
+      ],
+      "labelCategory": "combat"
+    },
+    {
+      "id": "corpus.5f9a0821423cec19",
+      "kind": "description",
+      "en": "You gain a +2 bonus to attack rolls you make with Ranged weapons.",
+      "fr": "Vous recevez un bonus de +2 aux jets d’attaque effectués avec des armes à distance.",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.d823e9bf9f33de4a",
+      "kind": "description",
+      "en": "When you roll damage for an attack you make with a Melee weapon that you are holding with two hands, you can treat any 1 or 2 on a damage die as a 3.",
+      "fr": "Lorsque vous lancez les dégâts d’une attaque effectuée avec une arme de corps à corps tenue à deux mains, vous pouvez considérer tous les 1 et 2 obtenus aux dés de dégâts comme des 3.",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
+    },
+    {
+      "id": "corpus.aef037486f6c01bd",
+      "kind": "description",
+      "en": "The weapon must have the Two-Handed or Versatile property to gain this benefit.",
+      "fr": "Pour que vous puissiez recevoir ce bénéfice, l’arme doit afficher la propriété Deux mains ou Polyvalente.",
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
     }
   ]
 }

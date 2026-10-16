@@ -8,7 +8,10 @@
       "en": "Epic Boon Feats",
       "fr": "Dons de faveur épique",
       "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
-      "edition": "any"
+      "edition": "any",
+      "usage": [
+        "search"
+      ]
     },
     {
       "id": "feat.catalogue.field.5",
@@ -16,7 +19,10 @@
       "en": "General Feats",
       "fr": "Dons généraux",
       "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
-      "edition": "any"
+      "edition": "any",
+      "usage": [
+        "search"
+      ]
     },
     {
       "id": "feat.catalogue.field.6",
@@ -24,7 +30,10 @@
       "en": "Origin Feats",
       "fr": "Dons d’origine",
       "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
-      "edition": "any"
+      "edition": "any",
+      "usage": [
+        "search"
+      ]
     },
     {
       "id": "feat.catalogue.field.7",
@@ -32,7 +41,10 @@
       "en": "Fighting Style Feats",
       "fr": "Dons de style de combat",
       "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
-      "edition": "any"
+      "edition": "any",
+      "usage": [
+        "search"
+      ]
     },
     {
       "id": "feat.catalogue.field.45",
@@ -155,7 +167,14 @@
       "kind": "term",
       "en": "Push",
       "fr": "Bourrade",
-      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "aliases": [
+        "Poussée"
+      ]
     },
     {
       "id": "feat.heading.luck-points",
@@ -169,7 +188,10 @@
       "kind": "term",
       "en": "Concentration",
       "fr": "Concentration",
-      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "usage": [
+        "search"
+      ]
     },
     {
       "id": "feat.heading.somatic-components",
@@ -789,7 +811,10 @@
       "id": "feat.catalogue.healer.168",
       "en": "Whenever you roll a die to determine the number of Hit Points you restore with a spell or with this feat's Battle Medic benefit, you can reroll the die if it rolls a 1, and you must use the new roll.",
       "fr": "Lorsque vous lancez un dé pour déterminer les points de vie rendus par un sort ou par le bénéfice Médecin de bataille de ce don, vous pouvez relancer un résultat de 1 ; vous devez alors utiliser le nouveau résultat.",
-      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/healer · relevé du 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire"
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/healer · relevé du 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
+      "usage": [
+        "inline"
+      ]
     },
     {
       "id": "feat.catalogue.healer.169",
@@ -1254,28 +1279,49 @@
       "kind": "term",
       "en": "Shadow Magic",
       "fr": "Magie de l’Ombre",
-      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Magie des ombres"
+      ]
     },
     {
       "id": "feat.heading.enhanced-unarmed-strike",
       "kind": "term",
       "en": "Enhanced Unarmed Strike",
       "fr": "Frappe à mains nues améliorée",
-      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "usage": [
+        "search"
+      ]
     },
     {
       "id": "feat.heading.damage-rerolls",
       "kind": "term",
       "en": "Damage Rerolls",
       "fr": "Relancer des dégâts",
-      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Relance des dégâts"
+      ]
     },
     {
       "id": "feat.heading.improvised-weaponry",
       "kind": "term",
       "en": "Improvised Weaponry",
       "fr": "Armement improvisé",
-      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Armes improvisées"
+      ]
     },
     {
       "id": "feat.heading.enhanced-critical",
@@ -1289,21 +1335,31 @@
       "kind": "term",
       "en": "Advantage",
       "fr": "Avantage",
-      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "usage": [
+        "search"
+      ]
     },
     {
       "id": "feat.heading.disadvantage",
       "kind": "term",
       "en": "Disadvantage",
       "fr": "Désavantage",
-      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "usage": [
+        "search"
+      ]
     },
     {
       "id": "feat.heading.cook-s-utensils",
       "kind": "term",
       "en": "Cook's Utensils",
       "fr": "Ustensiles de cuisinier",
-      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "usage": [
+        "name",
+        "search"
+      ]
     },
     {
       "id": "feat.heading.replenishing-meal",
@@ -1359,7 +1415,10 @@
       "kind": "term",
       "en": "Fog of War",
       "fr": "Brouillard de guerre",
-      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "usage": [
+        "search"
+      ]
     },
     {
       "id": "feat.heading.sniper",
@@ -1373,7 +1432,10 @@
       "kind": "term",
       "en": "Parry",
       "fr": "Parade",
-      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "usage": [
+        "search"
+      ]
     },
     {
       "id": "feat.heading.puncture",
@@ -1436,14 +1498,20 @@
       "kind": "term",
       "en": "Skill Proficiency",
       "fr": "Maîtrise de compétence",
-      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "usage": [
+        "search"
+      ]
     },
     {
       "id": "feat.heading.expertise",
       "kind": "term",
       "en": "Expertise",
       "fr": "Expertise",
-      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "usage": [
+        "search"
+      ]
     },
     {
       "id": "feat.heading.improved-dash",
@@ -1499,14 +1567,23 @@
       "kind": "term",
       "en": "Battle Medic",
       "fr": "Médecin de bataille",
-      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "usage": [
+        "search"
+      ]
     },
     {
       "id": "feat.heading.healing-rerolls",
       "kind": "term",
       "en": "Healing Rerolls",
       "fr": "Retirage des soins",
-      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Relance des soins"
+      ]
     },
     {
       "id": "feat.heading.bypass-cover",
@@ -1681,7 +1758,12 @@
       "kind": "term",
       "en": "Detect Thoughts",
       "fr": "Détection des pensées",
-      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "usage": [
+        "name",
+        "search",
+        "spell"
+      ]
     },
     {
       "id": "feat.heading.long-shots",
@@ -1791,7 +1873,12 @@
       "id": "feat.catalogue.crafter.5",
       "en": "Artisan’s Tools",
       "fr": "Outils d’artisan",
-      "source": "Traduction proposée du texte anglais · Source.  D&D 2024 PHB · relevé du 13 octobre 2026"
+      "source": "Traduction proposée du texte anglais · Source.  D&D 2024 PHB · relevé du 13 octobre 2026",
+      "usage": [
+        "name",
+        "search",
+        "inline"
+      ]
     },
     {
       "id": "feat.catalogue.crafter.6",
@@ -1803,7 +1890,12 @@
       "id": "feat.catalogue.crafter.7",
       "en": "Carpenter’s Tools",
       "fr": "Outils de menuisier",
-      "source": "Traduction proposée du texte anglais · Source.  D&D 2024 PHB · relevé du 13 octobre 2026"
+      "source": "Traduction proposée du texte anglais · Source.  D&D 2024 PHB · relevé du 13 octobre 2026",
+      "usage": [
+        "name",
+        "search",
+        "inline"
+      ]
     },
     {
       "id": "feat.catalogue.crafter.8",
@@ -1815,7 +1907,12 @@
       "id": "feat.catalogue.crafter.9",
       "en": "Leatherworker’s Tools",
       "fr": "Outils de travailleur du cuir",
-      "source": "Traduction proposée du texte anglais · Source.  D&D 2024 PHB · relevé du 13 octobre 2026"
+      "source": "Traduction proposée du texte anglais · Source.  D&D 2024 PHB · relevé du 13 octobre 2026",
+      "usage": [
+        "name",
+        "search",
+        "inline"
+      ]
     },
     {
       "id": "feat.catalogue.crafter.10",
@@ -1827,19 +1924,34 @@
       "id": "feat.catalogue.crafter.11",
       "en": "Mason’s Tools",
       "fr": "Outils de maçon",
-      "source": "Traduction proposée du texte anglais · Source.  D&D 2024 PHB · relevé du 13 octobre 2026"
+      "source": "Traduction proposée du texte anglais · Source.  D&D 2024 PHB · relevé du 13 octobre 2026",
+      "usage": [
+        "name",
+        "search",
+        "inline"
+      ]
     },
     {
       "id": "feat.catalogue.crafter.12",
       "en": "Block and Tackle",
       "fr": "Palan",
-      "source": "Traduction proposée du texte anglais · Source.  D&D 2024 PHB · relevé du 13 octobre 2026"
+      "source": "Traduction proposée du texte anglais · Source.  D&D 2024 PHB · relevé du 13 octobre 2026",
+      "usage": [
+        "name",
+        "search",
+        "inline"
+      ]
     },
     {
       "id": "feat.catalogue.crafter.13",
       "en": "Potter’s Tools",
       "fr": "Outils de potier",
-      "source": "Traduction proposée du texte anglais · Source.  D&D 2024 PHB · relevé du 13 octobre 2026"
+      "source": "Traduction proposée du texte anglais · Source.  D&D 2024 PHB · relevé du 13 octobre 2026",
+      "usage": [
+        "name",
+        "search",
+        "inline"
+      ]
     },
     {
       "id": "feat.catalogue.crafter.14",
@@ -1851,7 +1963,12 @@
       "id": "feat.catalogue.crafter.15",
       "en": "Smith’s Tools",
       "fr": "Outils de forgeron",
-      "source": "Traduction proposée du texte anglais · Source.  D&D 2024 PHB · relevé du 13 octobre 2026"
+      "source": "Traduction proposée du texte anglais · Source.  D&D 2024 PHB · relevé du 13 octobre 2026",
+      "usage": [
+        "name",
+        "search",
+        "inline"
+      ]
     },
     {
       "id": "feat.catalogue.crafter.16",
@@ -1863,7 +1980,12 @@
       "id": "feat.catalogue.crafter.17",
       "en": "Tinker’s Tools",
       "fr": "Outils de bricoleur",
-      "source": "Traduction proposée du texte anglais · Source.  D&D 2024 PHB · relevé du 13 octobre 2026"
+      "source": "Traduction proposée du texte anglais · Source.  D&D 2024 PHB · relevé du 13 octobre 2026",
+      "usage": [
+        "name",
+        "search",
+        "inline"
+      ]
     },
     {
       "id": "feat.catalogue.crafter.18",
@@ -1875,7 +1997,12 @@
       "id": "feat.catalogue.crafter.19",
       "en": "Weaver’s Tools",
       "fr": "Outils de tisserand",
-      "source": "Traduction proposée du texte anglais · Source.  D&D 2024 PHB · relevé du 13 octobre 2026"
+      "source": "Traduction proposée du texte anglais · Source.  D&D 2024 PHB · relevé du 13 octobre 2026",
+      "usage": [
+        "name",
+        "search",
+        "inline"
+      ]
     },
     {
       "id": "feat.catalogue.crafter.20",
@@ -1887,7 +2014,12 @@
       "id": "feat.catalogue.crafter.21",
       "en": "Woodcarver’s Tools",
       "fr": "Outils de sculpteur sur bois",
-      "source": "Traduction proposée du texte anglais · Source.  D&D 2024 PHB · relevé du 13 octobre 2026"
+      "source": "Traduction proposée du texte anglais · Source.  D&D 2024 PHB · relevé du 13 octobre 2026",
+      "usage": [
+        "name",
+        "search",
+        "inline"
+      ]
     },
     {
       "id": "feat.catalogue.crafter.22",
@@ -1971,7 +2103,10 @@
       "id": "feat.catalogue.defense.23",
       "en": "While you're wearing Light, Medium, or Heavy armor, you gain a +1 bonus to Armor Class.",
       "fr": "Tant que vous portez une armure légère, intermédiaire ou lourde, vous recevez un bonus de +1 à la Classe d’armure.",
-      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/defense · relevé du 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire"
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/defense · relevé du 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
+      "usage": [
+        "inline"
+      ]
     },
     {
       "id": "feat.catalogue.great-weapon-fighting.24",
@@ -1983,7 +2118,10 @@
       "id": "feat.catalogue.two-weapon-fighting.25",
       "en": "When you make an extra attack as a result of using a weapon that has the Light property, you can add your ability modifier to the damage of that attack if you aren't already adding it to the damage.",
       "fr": "Lorsque vous effectuez une attaque supplémentaire résultant de l’emploi d’une arme avec la propriété Légère, vous pouvez ajouter votre modificateur de caractéristique aux dégâts de cette attaque si vous ne l’ajoutiez pas déjà.",
-      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/two-weapon-fighting · relevé du 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire"
+      "source": "Traduction proposée du texte anglais · https://www.aidedd.org/feat/two-weapon-fighting · relevé du 13 octobre 2026 ; formulation existante réutilisée pour éviter une correspondance contradictoire",
+      "usage": [
+        "inline"
+      ]
     },
     {
       "id": "feat.catalogue.magic-initiate.26",
@@ -2351,7 +2489,10 @@
       "kind": "term",
       "en": "Ability Score Increase",
       "fr": "Augmentation de caractéristique",
-      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "usage": [
+        "search"
+      ]
     },
     {
       "id": "feat.heading.impersonation",
@@ -2365,7 +2506,10 @@
       "kind": "term",
       "en": "Climb Speed",
       "fr": "Vitesse d’escalade",
-      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "usage": [
+        "search"
+      ]
     },
     {
       "id": "feat.heading.hop-up",
@@ -2463,14 +2607,23 @@
       "kind": "term",
       "en": "Blindsight",
       "fr": "Vision aveugle",
-      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "usage": [
+        "search"
+      ]
     },
     {
       "id": "feat.heading.tool-proficiency",
       "kind": "term",
       "en": "Tool Proficiency",
       "fr": "Maîtrise d’outils",
-      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Maîtrise d’outil"
+      ]
     },
     {
       "id": "feat.heading.discount",
@@ -2491,7 +2644,13 @@
       "kind": "term",
       "en": "Truesight",
       "fr": "Vision véritable",
-      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Vision lucide"
+      ]
     },
     {
       "id": "feat.heading.weapon-proficiency",
@@ -2554,7 +2713,10 @@
       "kind": "term",
       "en": "Armor Training",
       "fr": "Formation aux armures",
-      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "usage": [
+        "search"
+      ]
     },
     {
       "id": "feat.heading.saving-throw-proficiency",
@@ -2575,7 +2737,10 @@
       "kind": "term",
       "en": "Initiative Swap",
       "fr": "Échange d’Initiative",
-      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026"
+      "source": "Nom de bénéfice de don 2024 · traduction proposée ; noms français AideDD lorsque disponibles · 13 octobre 2026",
+      "usage": [
+        "search"
+      ]
     },
     {
       "id": "feat.catalogue.field.0",
@@ -2591,7 +2756,10 @@
       "en": "Origin Feat",
       "fr": "Don d’origine",
       "edition": "any",
-      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026"
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "usage": [
+        "search"
+      ]
     },
     {
       "id": "feat.catalogue.field.2",
@@ -2599,7 +2767,10 @@
       "en": "Fighting Style Feat",
       "fr": "Don de style de combat",
       "edition": "any",
-      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026"
+      "source": "Prérequis et catégories des dons observés dans Shard ou leur référence anglaise · traduction proposée · 13 octobre 2026",
+      "usage": [
+        "search"
+      ]
     },
     {
       "id": "feat.catalogue.field.3",

@@ -21,7 +21,8 @@ const glamourCard=d.createElement('section');glamourCard.className='stdcontent';
 glamourCard.innerHTML='<h2>Beguiling Magic</h2><div class="pre-wrap"><span><p>'+escape(beguiling.en.replace('In addition, immediately','Immediately'))+'</p><p>'+escape(recharge.en)+'</p></span></div><h2>Restore Beguiling Magic</h2><div class="pre-wrap"><span><p>Expend a use of Bardic Inspiration to regain use of Beguiling Magic.</p></span></div><p>'+escape(beguiling.en)+'</p>';main.append(glamourCard);
 const subclasses=[];
 for(const r of refs.filter(r=>r.name.endsWith('Subclass'))){const p=d.createElement('p');p.textContent=r.en.replace(/ The .+? subclass is detailed after this class’s description\./,'');main.append(p);subclasses.push(p)}assert.equal(subclasses.length,12);
-const names=fs.readFileSync('translations/dnd-2024/phb/classes/creation-2024.tsv','utf8').split('\n').slice(0,48).map(l=>l.split('|'));const titles=names.map(([en])=>{const h=d.createElement('h3');h.textContent=en;main.append(h);return h});
+const packNames=new Map(packs.flatMap(row=>[row.en,...row.variants||[]].map(en=>[en,row.fr])));
+const names=Object.values(JSON.parse(fs.readFileSync('translations/dnd-2024/phb/classes/sous-classes.json','utf8'))).flat().map(en=>{assert.ok(packNames.has(en),en);return[en,packNames.get(en)];});const titles=names.map(([en])=>{const h=d.createElement('h3');h.textContent=en;main.append(h);return h});
 const styles=[...content.querySelectorAll('strong,i')],original=main.innerHTML;
 w.GM_getValue=(k,f)=>f;w.GM_setValue=()=>{};w.GM_registerMenuCommand=()=>{};
 const pause=ms=>new Promise(r=>setTimeout(r,ms));async function wait(f){for(let i=0;i<300&&!f();i++)await pause(25);assert.ok(f(),'Class sections translation timed out');}

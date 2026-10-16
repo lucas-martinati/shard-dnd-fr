@@ -1,0 +1,615 @@
+{
+  "reportedCount": 122,
+  "cases": [
+    {
+      "en": "Introduction",
+      "fr": "Introduction",
+      "kind": "term"
+    },
+    {
+      "en": "Races",
+      "fr": "Races",
+      "kind": "term"
+    },
+    {
+      "en": "Character Advancement",
+      "fr": "Progression des personnages",
+      "kind": "term"
+    },
+    {
+      "en": "Adventuring",
+      "fr": "Aventure",
+      "kind": "term"
+    },
+    {
+      "en": "Combat",
+      "fr": "Combat",
+      "kind": "term"
+    },
+    {
+      "en": "Selling Treasure",
+      "fr": "Vente de trésors",
+      "kind": "term"
+    },
+    {
+      "en": "Trade Goods",
+      "fr": "Marchandises",
+      "kind": "term"
+    },
+    {
+      "en": "Expenses",
+      "fr": "Dépenses",
+      "kind": "term"
+    },
+    {
+      "en": "Services",
+      "fr": "Services",
+      "kind": "term"
+    },
+    {
+      "en": "- Improvised Weapons",
+      "fr": "- Armes improvisées",
+      "kind": "term"
+    },
+    {
+      "en": "Encumbrance",
+      "fr": "Encombrement",
+      "kind": "term"
+    },
+    {
+      "en": "Tabletop Extras",
+      "fr": "Options pour table virtuelle",
+      "kind": "term"
+    },
+    {
+      "en": "Legal Information",
+      "fr": "Informations légales",
+      "kind": "term"
+    },
+    {
+      "en": "Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).",
+      "fr": "Les pièces courantes existent en plusieurs valeurs, selon la valeur relative du métal qui les compose. Les trois plus répandues sont la pièce d’or (po), la pièce d’argent (pa) et la pièce de cuivre (pc).",
+      "kind": "description"
+    },
+    {
+      "en": "With one gold piece, a character can buy a bedroll, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.",
+      "fr": "Avec une pièce d’or, un personnage peut acheter un sac de couchage, 50 feet de bonne corde ou une chèvre. Un artisan compétent, sans être exceptionnel, peut gagner une pièce d’or par jour. La pièce d’or est l’unité standard de mesure de la richesse, même lorsqu’elle n’est pas couramment utilisée comme monnaie. Lorsque des marchands négocient des biens ou services valant des centaines ou des milliers de pièces d’or, ils échangent rarement des pièces individuelles. La pièce d’or sert plutôt de mesure de valeur, les échanges se faisant en lingots d’or, lettres de crédit ou marchandises précieuses.",
+      "kind": "description"
+    },
+    {
+      "en": "One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for half a day, a flask of lamp oil, or a night's rest in a poor inn.",
+      "fr": "Une pièce d’or vaut dix pièces d’argent, monnaie la plus répandue parmi les gens du peuple. Une pièce d’argent paie une demi-journée de travail d’un ouvrier, une flasque d’huile à lampe ou une nuit dans une auberge pauvre.",
+      "kind": "description"
+    },
+    {
+      "en": "Platinum pieces are rare in everyday life. Each platinum piece is worth ten gold pieces.",
+      "fr": "Les pièces de platine sont rares dans la vie quotidienne. Chaque pièce de platine vaut dix pièces d’or.",
+      "kind": "description"
+    },
+    {
+      "en": "Opportunities abound to find treasure, equipment, weapons, armor, and more in the dungeons you explore. Normally, you can sell your treasures and trinkets when you return to a town or other settlement, provided that you can find buyers and merchants interested in your loot.",
+      "fr": "Les donjons que vous explorez offrent de nombreuses occasions de découvrir des trésors, équipements, armes, armures et autres biens. Vous pouvez généralement vendre vos trésors et babioles en revenant dans une ville ou une autre communauté, à condition de trouver des acheteurs et des marchands intéressés par votre butin.",
+      "kind": "description"
+    },
+    {
+      "en": "Arms, Armor, and Other Equipment. As a general rule, undamaged weapons, armor, and other equipment fetch half their cost when sold in a market. Weapons and armor used by monsters are rarely in good enough condition to sell.",
+      "fr": "Armes, armures et autres équipements. En règle générale, les armes, armures et autres équipements en bon état se vendent à la moitié de leur prix sur un marché. Ceux qui ont été utilisés par des monstres sont rarement en assez bon état pour être vendus.",
+      "kind": "description"
+    },
+    {
+      "en": "Magic Items. Selling magic items is problematic. Finding someone to buy a potion or a scroll isn't too hard, but other items are out of the realm of most but the wealthiest nobles. Likewise, aside from a few common magic items, you won't normally come across magic items or spells to purchase. The value of magic is far beyond simple gold and should always be treated as such.",
+      "fr": "Objets magiques. Vendre des objets magiques pose problème. Il est assez facile de trouver un acheteur pour une potion ou un parchemin, mais les autres objets restent hors de portée de presque tous, sauf des nobles les plus fortunés. De même, à l’exception de quelques objets magiques courants, vous trouverez rarement des objets magiques ou des sorts à acheter. La valeur de la magie dépasse de loin de simples pièces d’or et doit toujours être considérée comme telle.",
+      "kind": "description"
+    },
+    {
+      "en": "Gems, Jewelry, and Art Objects. These items retain their full value in the marketplace, and you can either trade them in for coin or use them as currency for other transactions. For exceptionally valuable treasures, the GM might require you to find a buyer in a large town or larger community first.",
+      "fr": "Gemmes, bijoux et objets d’art. Ces objets conservent toute leur valeur sur le marché. Vous pouvez les échanger contre des pièces ou vous en servir comme monnaie lors d’autres transactions. Pour des trésors exceptionnellement précieux, le MJ peut exiger que vous trouviez d’abord un acheteur dans une grande ville ou une communauté plus importante.",
+      "kind": "description"
+    },
+    {
+      "en": "Trade Goods. On the borderlands, many people conduct transactions through barter. Like gems and art objects, trade goods—bars of iron, bags of salt, livestock, and so on—retain their full value in the market and can be used as currency.",
+      "fr": "Marchandises. Dans les régions frontalières, beaucoup de transactions se font par troc. Comme les gemmes et les objets d’art, les marchandises — lingots de fer, sacs de sel, bétail, etc. — conservent toute leur valeur sur le marché et peuvent servir de monnaie.",
+      "kind": "description"
+    },
+    {
+      "en": "This section describes items that have special rules or require further explanation.",
+      "fr": "Cette section décrit les objets soumis à des règles particulières ou nécessitant des explications supplémentaires.",
+      "kind": "description"
+    },
+    {
+      "en": "Arcane Focus. An arcane focus is a special item—an orb, a crystal, a rod, a specially constructed staff, a wand—like length of wood, or some similar item— designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus.",
+      "fr": "Focaliseur arcanique. Un focaliseur arcanique est un objet spécial — orbe, cristal, sceptre, bâton spécialement conçu, morceau de bois semblable à une baguette ou objet similaire — destiné à canaliser la puissance des sorts arcaniques. Un ensorceleur, un occultiste ou un magicien peut l’utiliser comme focaliseur d’incantation.",
+      "kind": "description"
+    },
+    {
+      "en": "Ball Bearings. As an action, you can spill these tiny metal balls from their pouch to cover a level, square area that is 10 feet on a side. A creature moving across the covered area must succeed on a DC 10 Dexterity saving throw or fall prone. A creature moving through the area at half speed doesn't need to make the save.",
+      "fr": "Billes. Par une action, vous pouvez vider ces petites billes métalliques de leur sacoche pour couvrir une surface plane carrée de 10 feet de côté. Une créature traversant cette zone doit réussir un jet de sauvegarde de Dextérité DD 10 ou tomber À terre. Une créature qui traverse la zone à la moitié de sa vitesse n’a pas besoin d’effectuer ce jet.",
+      "kind": "description"
+    },
+    {
+      "en": "Block and Tackle. A set of pulleys with a cable threaded through them and a hook to attach to objects, a block and tackle allows you to hoist up to four times the weight you can normally lift.",
+      "fr": "Palan. Cet ensemble de poulies, traversées par un câble et munies d’un crochet pour fixer les objets, permet de soulever jusqu’à quatre fois le poids que vous pouvez normalement lever.",
+      "kind": "description"
+    },
+    {
+      "en": "Book. A book might contain poetry, historical accounts, information pertaining to a particular field of lore, diagrams and notes on gnomish contraptions, or just about anything else that can be represented using text or pictures. A book of spells is a spellbook (described later in this section).",
+      "fr": "Livre. Un livre peut contenir de la poésie, des récits historiques, des connaissances sur un domaine particulier, des schémas et notes sur des inventions gnomes, ou presque tout ce qui peut être représenté par du texte et des images. Un livre de sorts est un grimoire, décrit plus loin dans cette section.",
+      "kind": "description"
+    },
+    {
+      "en": "Caltrops. As an action, you can spread a bag of caltrops to cover a square area that is 5 feet on a side. Any creature that enters the area must succeed on a DC 15 Dexterity saving throw or stop moving this turn and take 1 piercing damage. Taking this damage reduces the creature's walking speed by 10 feet until the creature regains at least 1 hit point. A creature moving through the area at half speed doesn't need to make the save.",
+      "fr": "Chausse-trappes. Par une action, vous pouvez répandre un sac de chausse-trappes sur une zone carrée de 5 feet de côté. Toute créature qui entre dans cette zone doit réussir un jet de sauvegarde de Dextérité DD 15 ou cesser de se déplacer pour ce tour et subir 1 dégât perforant. Ces dégâts réduisent sa vitesse au sol de 10 feet jusqu’à ce qu’elle récupère au moins 1 point de vie. Une créature traversant la zone à la moitié de sa vitesse n’a pas besoin d’effectuer ce jet.",
+      "kind": "description"
+    },
+    {
+      "en": "Case, Crossbow Bolt. This wooden case can hold up to twenty crossbow bolts.",
+      "fr": "Étui à carreaux. Cet étui en bois peut contenir jusqu’à vingt carreaux d’arbalète.",
+      "kind": "description"
+    },
+    {
+      "en": "Case, Map or Scroll. This cylindrical leather case can hold up to ten rolled-up sheets of paper or five rolled-up sheets of parchment.",
+      "fr": "Étui à cartes ou parchemins. Cet étui cylindrique en cuir peut contenir jusqu’à dix feuilles de papier roulées ou cinq feuilles de parchemin roulées.",
+      "kind": "description"
+    },
+    {
+      "en": "Climber's Kit. A climber's kit includes special pitons, boot tips, gloves, and a harness. You can use the climber's kit as an action to anchor yourself; when you do, you can't fall more than 25 feet from the point where you anchored yourself, and you can't climb more than 25 feet away from that point without undoing the anchor.",
+      "fr": "Matériel d’escalade. Ce matériel comprend des pitons spéciaux, des embouts de chaussures, des gants et un harnais. Par une action, vous pouvez l’utiliser pour vous ancrer. Vous ne pouvez alors pas tomber à plus de 25 feet de votre point d’ancrage, ni grimper à plus de 25 feet de ce point sans défaire l’ancrage.",
+      "kind": "description"
+    },
+    {
+      "en": "Component Pouch. A component pouch is a small, watertight leather belt pouch that has compartments to hold all the material components and other special items you need to cast your spells, except for those components that have a specific cost (as indicated in a spell's description).",
+      "fr": "Sacoche à composantes. Cette petite sacoche de ceinture en cuir étanche possède des compartiments pour toutes les composantes matérielles et autres objets spéciaux nécessaires à vos sorts, sauf ceux dont le coût est précisé dans la description d’un sort.",
+      "kind": "description"
+    },
+    {
+      "en": "This kit includes a wooden rod, silken line, corkwood bobbers, steel hooks, lead sinkers, velvet lures, and narrow netting.",
+      "fr": "Cet ensemble comprend une canne en bois, une ligne en soie, des flotteurs en liège, des hameçons en acier, des plombs, des leurres en velours et un filet étroit.",
+      "kind": "description"
+    },
+    {
+      "en": "Holy Symbol. A holy symbol is a representation of a god or pantheon. It might be an amulet depicting a symbol representing a deity, the same symbol carefully engraved or inlaid as an emblem on a shield, or a tiny box holding a fragment of a sacred relic. The \"Pantheons\" section lists the symbols commonly associated with many gods in the multiverse. A cleric or paladin can use a holy symbol as a spellcasting focus. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield.",
+      "fr": "Symbole sacré. Un symbole sacré représente un dieu ou un panthéon. Il peut s’agir d’une amulette figurant le symbole d’une divinité, de ce même symbole gravé ou incrusté sur un bouclier, ou d’une petite boîte contenant un fragment de relique sacrée. La section « Panthéons » présente les symboles associés aux dieux du multivers. Un clerc ou un paladin peut utiliser un symbole sacré comme focaliseur d’incantation. Il doit alors le tenir en main, le porter de façon visible ou l’arborer sur un bouclier.",
+      "kind": "description"
+    },
+    {
+      "en": "Lamp. A lamp casts bright light in a 15-foot radius and dim light for an additional 30 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil.",
+      "fr": "Lampe. Une lampe diffuse une lumière vive dans un rayon de 15 feet et une lumière faible sur 30 feet supplémentaires. Une fois allumée, elle brûle pendant 6 heures avec une flasque d’huile de 1 pint.",
+      "kind": "description"
+    },
+    {
+      "en": "Lock. A key is provided with the lock. Without the key, a creature proficient with thieves' tools can pick this lock with a successful DC 15 Dexterity check. Your GM may decide that better locks are available for higher prices.",
+      "fr": "Cadenas. Une clé est fournie avec le cadenas. Sans cette clé, une créature maîtrisant les outils de voleur peut le crocheter en réussissant un test de Dextérité DD 15. Le MJ peut décider que des cadenas de meilleure qualité existent à des prix supérieurs.",
+      "kind": "description"
+    },
+    {
+      "en": "Magnifying Glass. This lens allows a closer look at small objects. It is also useful as a substitute for flint and steel when starting fires. Lighting a fire with a magnifying glass requires light as bright as sunlight to focus, tinder to ignite, and about 5 minutes for the fire to ignite. A magnifying glass grants advantage on any ability check made to appraise or inspect an item that is small or highly detailed.",
+      "fr": "Loupe. Cette lentille permet d’examiner de près de petits objets. Elle peut aussi remplacer le silex et l’acier pour allumer un feu : il faut une lumière au moins aussi vive que celle du soleil à concentrer, de l’amadou et environ 5 minutes pour obtenir une flamme. Une loupe octroie l’Avantage aux tests de caractéristique effectués pour évaluer ou examiner un objet petit ou très détaillé.",
+      "kind": "description"
+    },
+    {
+      "en": "Mess Kit. This tin box contains a cup and simple cutlery. The box clamps together, and one side can be used as a cooking pan and the other as a plate or shallow bowl.",
+      "fr": "Gamelle. Cette boîte en fer-blanc contient une tasse et des couverts simples. Les deux parties s’emboîtent ; l’une peut servir de poêle, l’autre d’assiette ou de bol peu profond.",
+      "kind": "description"
+    },
+    {
+      "en": "Potion of Healing. A character who drinks the magical red fluid in this vial regains 2d4 + 2 hit points. Drinking or administering a potion takes an action.",
+      "fr": "Potion de guérison. Un personnage qui boit le liquide rouge magique de cette fiole récupère 2d4 + 2 points de vie. Boire ou administrer une potion nécessite une action.",
+      "kind": "description"
+    },
+    {
+      "en": "Pouch. A cloth or leather pouch can hold up to 20 sling bullets or 50 blowgun needles, among other things. A compartmentalized pouch for holding spell components is called a component pouch (described earlier in this section).",
+      "fr": "Sacoche. Une sacoche de tissu ou de cuir peut contenir notamment jusqu’à 20 billes de fronde ou 50 aiguilles de sarbacane. Une sacoche compartimentée destinée aux composantes de sorts est appelée sacoche à composantes, décrite plus haut dans cette section.",
+      "kind": "description"
+    },
+    {
+      "en": "Ram, Portable. You can use a portable ram to break down doors. When doing so, you gain a +4 bonus on the Strength check. One other character can help you use the ram, giving you advantage on this check.",
+      "fr": "Bélier portatif. Vous pouvez utiliser un bélier portatif pour enfoncer des portes. Vous recevez alors un bonus de +4 au test de Force. Un autre personnage peut vous aider à utiliser le bélier, ce qui vous octroie l’Avantage à ce test.",
+      "kind": "description"
+    },
+    {
+      "en": "Scale, Merchant's. A scale includes a small balance, pans, and a suitable assortment of weights up to 2 pounds. With it, you can measure the exact weight of small objects, such as raw precious metals or trade goods, to help determine their worth.",
+      "fr": "Balance de marchand. Cet ensemble comprend une petite balance, des plateaux et un assortiment de poids allant jusqu’à 2 pounds. Il permet de mesurer le poids exact de petits objets, comme des métaux précieux bruts ou des marchandises, afin d’en déterminer la valeur.",
+      "kind": "description"
+    },
+    {
+      "en": "Tinderbox. This small container holds flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a torch—or anything else with abundant, exposed fuel—takes an action. Lighting any other fire takes 1 minute.",
+      "fr": "Boîte à amadou. Ce petit récipient contient un silex, un briquet d’acier et de l’amadou, généralement du tissu sec imbibé d’huile légère, pour allumer un feu. Allumer une torche, ou tout autre combustible abondant et exposé, nécessite une action. Allumer tout autre feu prend 1 minute.",
+      "kind": "description"
+    },
+    {
+      "en": "Torch. A torch burns for 1 hour, providing bright light in a 20-foot radius and dim light for an additional 20 feet. If you make a melee attack with a burning torch and hit, it deals 1 fire damage.",
+      "fr": "Torche. Une torche brûle pendant 1 heure, diffusant une lumière vive dans un rayon de 20 feet et une lumière faible sur 20 feet supplémentaires. Si vous touchez avec une attaque au corps à corps effectuée avec une torche enflammée, elle inflige 1 dégât de feu.",
+      "kind": "description"
+    },
+    {
+      "en": "* You can also strap items, such as a bedroll or a coil of rope, to the outside of a backpack.",
+      "fr": "* Vous pouvez aussi attacher des objets, comme un sac de couchage ou une bobine de corde, à l’extérieur d’un sac à dos.",
+      "kind": "description"
+    },
+    {
+      "en": "The starting equipment you get from your class includes a collection of useful adventuring gear, put together in a pack. The contents of these packs are listed here. If you are buying your starting equipment, you can purchase a pack for the price shown, which might be cheaper than buying the items individually.",
+      "fr": "L’équipement de départ fourni par votre classe comprend un ensemble de matériel utile pour l’aventure, rassemblé dans un paquetage. Le contenu de ces paquetages est indiqué ici. Si vous achetez votre équipement de départ, vous pouvez acquérir un paquetage au prix indiqué, parfois inférieur à celui de ses éléments achetés séparément.",
+      "kind": "description"
+    },
+    {
+      "en": "Burglar's Pack (16 gp). Includes a backpack, a bag of 1,000 ball bearings, 10 feet of string, a bell, 5 candles, a crowbar, a hammer, 10 pitons, a hooded lantern, 2 flasks of oil, 5 days rations, a tinderbox, and a waterskin. The pack also has 50 feet of hempen rope strapped to the side of it.",
+      "fr": "Paquetage de cambrioleur (16 po). Comprend un sac à dos, un sac de 1,000 billes, 10 feet de ficelle, une cloche, 5 bougies, un pied-de-biche, un marteau, 10 pitons, une lanterne à capote, 2 flasques d’huile, 5 jours de rations, une boîte à amadou et une outre. Une corde en chanvre de 50 feet est également attachée sur le côté du paquetage.",
+      "kind": "description"
+    },
+    {
+      "en": "Dungeoneer's Pack (12 gp). Includes a backpack, a crowbar, a hammer, 10 pitons, 10 torches, a tinderbox, 10 days of rations, and a waterskin. The pack also has 50 feet of hempen rope strapped to the side of it.",
+      "fr": "Paquetage d’exploration souterraine (12 po). Comprend un sac à dos, un pied-de-biche, un marteau, 10 pitons, 10 torches, une boîte à amadou, 10 jours de rations et une outre. Une corde en chanvre de 50 feet est également attachée sur le côté du paquetage.",
+      "kind": "description"
+    },
+    {
+      "en": "Explorer's Pack (10 gp). Includes a backpack, a bedroll, a mess kit, a tinderbox, 10 torches, 10 days of rations, and a waterskin. The pack also has 50 feet of hempen rope strapped to the side of it.",
+      "fr": "Paquetage d’explorateur (10 po). Comprend un sac à dos, un sac de couchage, une gamelle, une boîte à amadou, 10 torches, 10 jours de rations et une outre. Une corde en chanvre de 50 feet est également attachée sur le côté du paquetage.",
+      "kind": "description"
+    },
+    {
+      "en": "A tool helps you to do something you couldn't otherwise do, such as craft or repair an item, forge a document, or pick a lock. Your race, class, background, or feats give you proficiency with certain tools. Proficiency with a tool allows you to add your proficiency bonus to any ability check you make using that tool. Tool use is not tied to a single ability, since proficiency with a tool represents broader knowledge of its use. For example, the GM might ask you to make a Dexterity check to carve a fine detail with your woodcarver's tools, or a Strength check to make something out of particularly hard wood.",
+      "fr": "Un outil permet d’accomplir une tâche autrement impossible, comme fabriquer ou réparer un objet, falsifier un document ou crocheter une serrure. Votre race, votre classe, votre historique ou vos dons vous octroient la maîtrise de certains outils. Cette maîtrise permet d’ajouter votre bonus de maîtrise à tout test de caractéristique effectué avec l’outil. L’utilisation d’un outil n’est pas liée à une seule caractéristique : sa maîtrise représente une connaissance plus générale de son emploi. Le MJ peut ainsi demander un test de Dextérité pour sculpter un détail délicat avec des outils de sculpteur sur bois, ou un test de Force pour travailler un bois particulièrement dur.",
+      "kind": "description"
+    },
+    {
+      "en": "* See the \"Mounts and Vehicles\" section.",
+      "fr": "* Reportez-vous à la section « Montures et véhicules ».",
+      "kind": "description"
+    },
+    {
+      "en": "Artisan's Tools. These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.",
+      "fr": "Outils d’artisan. Ces outils spéciaux comprennent le matériel nécessaire à l’exercice d’un artisanat ou d’un métier. La table présente les types d’outils les plus courants, chacun correspondant à un artisanat particulier. La maîtrise d’un ensemble d’outils d’artisan permet d’ajouter votre bonus de maîtrise aux tests de caractéristique effectués avec ces outils dans le cadre de votre artisanat. Chaque type d’outils d’artisan nécessite une maîtrise distincte.",
+      "kind": "description"
+    },
+    {
+      "en": "Disguise Kit. This pouch of cosmetics, hair dye, and small props lets you create disguises that change your physical appearance. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a visual disguise.",
+      "fr": "Accessoires de déguisement. Cette sacoche de cosmétiques, teintures pour cheveux et petits accessoires permet de créer des déguisements qui modifient votre apparence physique. Sa maîtrise permet d’ajouter votre bonus de maîtrise aux tests de caractéristique effectués pour créer un déguisement visuel.",
+      "kind": "description"
+    },
+    {
+      "en": "Forgery Kit. This small box contains a variety of papers and parchments, pens and inks, seals and sealing wax, gold and silver leaf, and other supplies necessary to create convincing forgeries of physical documents. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a physical forgery of a document.",
+      "fr": "Accessoires de faussaire. Cette petite boîte contient divers papiers et parchemins, plumes et encres, sceaux et cire à cacheter, feuilles d’or et d’argent, ainsi que le matériel nécessaire à la création de faux documents matériels convaincants. Sa maîtrise permet d’ajouter votre bonus de maîtrise aux tests de caractéristique effectués pour fabriquer un faux document matériel.",
+      "kind": "description"
+    },
+    {
+      "en": "Gaming Set. This item encompasses a wide range of game pieces, including dice and decks of cards (for games such as Three-Dragon Ante). A few common examples appear on the Tools table, but other kinds of gaming sets exist. If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set. Each type of gaming set requires a separate proficiency.",
+      "fr": "Jeu. Cet objet couvre une grande variété de pièces de jeu, dont les dés et les jeux de cartes, comme l’Ante des trois dragons. La table Outils en donne quelques exemples courants, mais d’autres jeux existent. Si vous maîtrisez un jeu, vous pouvez ajouter votre bonus de maîtrise aux tests de caractéristique effectués pour y jouer. Chaque type de jeu nécessite une maîtrise distincte.",
+      "kind": "description"
+    },
+    {
+      "en": "Herbalism Kit. This kit contains a variety of instruments such as clippers, mortar and pestle, and pouches and vials used by herbalists to create remedies and potions. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to identify or apply herbs. Also, proficiency with this kit is required to create antitoxin and potions of healing.",
+      "fr": "Matériel d’herboriste. Cet ensemble contient divers instruments, comme des cisailles, un mortier et un pilon, ainsi que des sacoches et fioles utilisées par les herboristes pour créer des remèdes et des potions. Sa maîtrise permet d’ajouter votre bonus de maîtrise aux tests de caractéristique effectués pour identifier ou appliquer des herbes. Elle est également requise pour créer de l’antitoxine et des potions de guérison.",
+      "kind": "description"
+    },
+    {
+      "en": "Musical Instrument. Several of the most common types of musical instruments are shown on the table as examples. If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency.",
+      "fr": "Instrument de musique. La table présente plusieurs instruments courants à titre d’exemple. Si vous maîtrisez un instrument donné, vous pouvez ajouter votre bonus de maîtrise aux tests de caractéristique effectués pour en jouer. Un barde peut utiliser un instrument de musique comme focaliseur d’incantation. Chaque type d’instrument nécessite une maîtrise distincte.",
+      "kind": "description"
+    },
+    {
+      "en": "Navigator's Tools. This set of instruments is used for navigation at sea. Proficiency with navigator's tools lets you chart a ship's course and follow navigation charts. In addition, these tools allow you to add your proficiency bonus to any ability check you make to avoid getting lost at sea.",
+      "fr": "Outils de navigateur. Cet ensemble d’instruments sert à la navigation en mer. Sa maîtrise permet de tracer la route d’un navire et de suivre des cartes marines. Ces outils permettent également d’ajouter votre bonus de maîtrise aux tests de caractéristique effectués pour éviter de vous perdre en mer.",
+      "kind": "description"
+    },
+    {
+      "en": "Poisoner's Kit. A poisoner's kit includes the vials, chemicals, and other equipment necessary for the creation of poisons. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to craft or use poisons.",
+      "fr": "Matériel d’empoisonneur. Cet ensemble comprend les fioles, produits chimiques et autres équipements nécessaires à la création de poisons. Sa maîtrise permet d’ajouter votre bonus de maîtrise aux tests de caractéristique effectués pour fabriquer ou utiliser des poisons.",
+      "kind": "description"
+    },
+    {
+      "en": "Thieves' Tools. This set of tools includes a small file, a set of lock picks, a small mirror mounted on a metal handle, a set of narrow-bladed scissors, and a pair of pliers. Proficiency with these tools lets you add your proficiency bonus to any ability checks you make to disarm traps or open locks.",
+      "fr": "Outils de voleur. Cet ensemble comprend une petite lime, des crochets, un petit miroir monté sur un manche métallique, des ciseaux à lames étroites et une pince. Sa maîtrise permet d’ajouter votre bonus de maîtrise aux tests de caractéristique effectués pour désamorcer des pièges ou ouvrir des serrures.",
+      "kind": "description"
+    },
+    {
+      "en": "A good mount can help you move more quickly through the wilderness, but its primary purpose is to carry the gear that would otherwise slow you down. The Mounts and Other Animals table shows each animal's speed and base carrying capacity.",
+      "fr": "Une bonne monture permet de traverser plus rapidement les contrées sauvages, mais son rôle principal est de porter l’équipement qui vous ralentirait autrement. La table Montures et autres animaux indique la vitesse et la capacité de charge de base de chaque animal.",
+      "kind": "description"
+    },
+    {
+      "en": "An animal pulling a carriage, cart, chariot, sled, or wagon can move weight up to five times its base carrying capacity, including the weight of the vehicle. If multiple animals pull the same vehicle, they can add their carrying capacity together.",
+      "fr": "Un animal tirant une calèche, une charrette, un char, un traîneau ou un chariot peut déplacer jusqu’à cinq fois sa capacité de charge de base, poids du véhicule compris. Si plusieurs animaux tirent le même véhicule, leurs capacités de charge s’additionnent.",
+      "kind": "description"
+    },
+    {
+      "en": "Mounts other than those listed here are available in fantasy gaming worlds, but they are rare and not normally available for purchase. These include flying mounts (pegasi, griffons, hippogriffs, and similar animals) and even aquatic mounts (giant sea horses, for example). Acquiring such a mount often means securing an egg and raising the creature yourself, making a bargain with a powerful entity, or negotiating with the mount itself.",
+      "fr": "D’autres montures existent dans les mondes fantastiques, mais elles sont rares et ne peuvent généralement pas être achetées. Il s’agit notamment de montures volantes, comme les pégases, griffons, hippogriffes et animaux similaires, voire de montures aquatiques comme les hippocampes géants. Pour en obtenir une, il faut souvent trouver un œuf et élever la créature, conclure un marché avec une puissante entité ou négocier avec la monture elle-même.",
+      "kind": "description"
+    },
+    {
+      "en": "Barding. Barding is armor designed to protect an animal's head, neck, chest, and body. Any type of armor shown on the Armor table can be purchased as barding. The cost is four times the equivalent armor made for humanoids, and it weighs twice as much.",
+      "fr": "Barde. Une barde est une armure conçue pour protéger la tête, le cou, le poitrail et le corps d’un animal. Tout type d’armure de la table Armures peut être acheté sous forme de barde. Son prix est quatre fois celui de l’armure équivalente pour humanoïde et son poids est doublé.",
+      "kind": "description"
+    },
+    {
+      "en": "Saddles. A military saddle braces the rider, helping you keep your seat on an active mount in battle. It gives you advantage on any check you make to remain mounted. An exotic saddle is required for riding any aquatic or flying mount.",
+      "fr": "Selles. Une selle militaire soutient le cavalier et l’aide à rester en selle sur une monture active au combat. Elle octroie l’Avantage aux tests effectués pour rester en selle. Une selle exotique est nécessaire pour monter une créature aquatique ou volante.",
+      "kind": "description"
+    },
+    {
+      "en": "Vehicle Proficiency. If you have proficiency with a certain kind of vehicle (land or water), you can add your proficiency bonus to any check you make to control that kind of vehicle in difficult circumstances.",
+      "fr": "Maîtrise des véhicules. Si vous maîtrisez un type de véhicule, terrestre ou aquatique, vous pouvez ajouter votre bonus de maîtrise aux tests effectués pour le contrôler dans des circonstances difficiles.",
+      "kind": "description"
+    },
+    {
+      "en": "Rowed Vessels. Keelboats and rowboats are used on lakes and rivers. If going downstream, add the speed of the current (typically 3 miles per hour) to the speed of the vehicle. These vehicles can't be rowed against any significant current, but they can be pulled upstream by draft animals on the shores. A rowboat weighs 100 pounds, in case adventurers carry it over land.",
+      "fr": "Embarcations à rames. Les barges et barques servent sur les lacs et les rivières. En descendant le courant, ajoutez sa vitesse, généralement 3 miles par heure, à celle du véhicule. Ces embarcations ne peuvent pas remonter un courant important à la rame, mais des animaux de trait peuvent les tirer depuis les berges. Une barque pèse 100 pounds, si les aventuriers veulent la transporter sur terre.",
+      "kind": "description"
+    },
+    {
+      "en": "Guilds, nobles, and royalty regulate trade. Chartered companies are granted rights to conduct trade along certain routes, to send merchant ships to various ports, or to buy or sell specific goods. Guilds set prices for the goods or services that they control, and determine who may or may not offer those goods and services. Merchants commonly exchange trade goods without using currency. The Trade Goods table shows the value of commonly exchanged goods.",
+      "fr": "Les guildes, la noblesse et la royauté réglementent le commerce. Des compagnies à charte reçoivent le droit de commercer sur certaines routes, d’envoyer des navires marchands dans différents ports ou d’acheter et vendre des marchandises précises. Les guildes fixent les prix des biens et services qu’elles contrôlent et décident qui peut les proposer. Les marchands échangent couramment des marchandises sans utiliser de monnaie. La table Marchandises indique la valeur des biens habituellement échangés.",
+      "kind": "description"
+    },
+    {
+      "en": "When not descending into the depths of the earth, exploring ruins for lost treasures, or waging war against the encroaching darkness, adventurers face more mundane realities. Even in a fantastical world, people require basic necessities such as shelter, sustenance, and clothing. These things cost money, although some lifestyles cost more than others.",
+      "fr": "Lorsqu’ils ne descendent pas dans les profondeurs de la terre, n’explorent pas des ruines à la recherche de trésors oubliés ou ne combattent pas les ténèbres grandissantes, les aventuriers font face à des réalités plus ordinaires. Même dans un monde fantastique, chacun a besoin d’un abri, de nourriture et de vêtements. Tout cela coûte de l’argent, certains trains de vie étant plus coûteux que d’autres.",
+      "kind": "description"
+    },
+    {
+      "en": "Lifestyle Expenses",
+      "fr": "Dépenses de train de vie",
+      "kind": "term"
+    },
+    {
+      "en": "Lifestyle expenses provide you with a simple way to account for the cost of living in a fantasy world. They cover your accommodations, food and drink, and all your other necessities. Furthermore, expenses cover the cost of maintaining your equipment so you can be ready when adventure next calls.",
+      "fr": "Les dépenses de train de vie permettent de comptabiliser simplement le coût de la vie dans un monde fantastique. Elles couvrent le logement, la nourriture, les boissons et tous les autres besoins essentiels. Elles comprennent également l’entretien de votre équipement, afin d’être prêt pour la prochaine aventure.",
+      "kind": "description"
+    },
+    {
+      "en": "At the start of each week or month (your choice), choose a lifestyle from the Expenses table and pay the price to sustain that lifestyle. The prices listed are per day, so if you wish to calculate the cost of your chosen lifestyle over a thirty-day period, multiply the listed price by 30. Your lifestyle might change from one period to the next, based on the funds you have at your disposal, or you might maintain the same lifestyle throughout your character's career.",
+      "fr": "Au début de chaque semaine ou de chaque mois, à votre choix, choisissez un train de vie dans la table Dépenses et payez le prix correspondant. Les prix sont indiqués par jour : pour calculer le coût sur une période de trente jours, multipliez le prix indiqué par 30. Votre train de vie peut changer d’une période à l’autre selon vos ressources, ou rester identique pendant toute la carrière de votre personnage.",
+      "kind": "description"
+    },
+    {
+      "en": "Your lifestyle choice can have consequences. Maintaining a wealthy lifestyle might help you make contacts with the rich and powerful, though you run the risk of attracting thieves. Likewise, living frugally might help you avoid criminals, but you are unlikely to make powerful connections.",
+      "fr": "Votre choix de train de vie peut avoir des conséquences. Un train de vie riche peut vous aider à nouer des contacts avec les puissants, mais risque d’attirer les voleurs. Une vie frugale peut vous éviter de croiser des criminels, tout en limitant vos relations avec les personnes influentes.",
+      "kind": "description"
+    },
+    {
+      "en": "Wretched. You live in inhumane conditions. With no place to call home, you shelter wherever you can, sneaking into barns, huddling in old crates, and relying on the good graces of people better off than you. A wretched lifestyle presents abundant dangers. Violence, disease, and hunger follow you wherever you go. Other wretched people covet your armor, weapons, and adventuring gear, which represent a fortune by their standards. You are beneath the notice of most people.",
+      "fr": "Misérable. Vous vivez dans des conditions inhumaines. Sans domicile, vous vous abritez où vous pouvez : en vous glissant dans une grange, en vous blottissant dans de vieilles caisses ou en comptant sur la générosité de personnes mieux loties. Ce train de vie présente de nombreux dangers. La violence, la maladie et la faim vous suivent partout. D’autres miséreux convoitent vos armes, votre armure et votre matériel d’aventure, qui représentent une fortune à leurs yeux. La plupart des gens ne vous prêtent aucune attention.",
+      "kind": "description"
+    },
+    {
+      "en": "Squalid. You live in a leaky stable, a mud-floored hut just outside town, or a vermin-infested boarding house in the worst part of town. You have shelter from the elements, but you live in a desperate and often violent environment, in places rife with disease, hunger, and misfortune. You are beneath the notice of most people, and you have few legal protections. Most people at this lifestyle level have suffered some terrible setback. They might be disturbed, marked as exiles, or suffer from disease.",
+      "fr": "Sordide. Vous vivez dans une écurie qui prend l’eau, une cabane au sol de terre à la sortie de la ville ou une pension infestée de vermine dans son pire quartier. Vous êtes à l’abri des intempéries, mais votre environnement est désespéré, souvent violent, et accablé par la maladie, la faim et le malheur. La plupart des gens vous ignorent et vous bénéficiez de peu de protections légales. Les personnes qui vivent ainsi ont généralement subi un terrible revers : elles peuvent être perturbées, exilées ou malades.",
+      "kind": "description"
+    },
+    {
+      "en": "Poor. A poor lifestyle means going without the comforts available in a stable community. Simple food and lodgings, threadbare clothing, and unpredictable conditions result in a sufficient, though probably unpleasant, experience. Your accommodations might be a room in a flophouse or in the common room above a tavern. You benefit from some legal protections, but you still have to contend with violence, crime, and disease. People at this lifestyle level tend to be unskilled laborers, costermongers, peddlers, thieves, mercenaries, and other disreputable types.",
+      "fr": "Pauvre. Vous vivez sans les commodités d’une communauté stable. Une nourriture et un logement simples, des vêtements usés et des conditions imprévisibles procurent une existence suffisante, mais probablement désagréable. Vous logez peut-être dans un garni ou dans la salle commune au-dessus d’une taverne. Vous bénéficiez de certaines protections légales, mais devez toujours affronter la violence, le crime et la maladie. Ce train de vie est fréquent chez les ouvriers sans qualification, marchands ambulants, colporteurs, voleurs, mercenaires et autres personnes peu respectées.",
+      "kind": "description"
+    },
+    {
+      "en": "Modest. A modest lifestyle keeps you out of the slums and ensures that you can maintain your equipment. You live in an older part of town, renting a room in a boarding house, inn, or temple. You don't go hungry or thirsty, and your living conditions are clean, if simple. Ordinary people living modest lifestyles include soldiers with families, laborers, students, priests, hedge wizards, and the like.",
+      "fr": "Modeste. Un train de vie modeste vous tient à l’écart des taudis et vous permet d’entretenir votre équipement. Vous louez une chambre dans une pension, une auberge ou un temple d’un vieux quartier. Vous ne souffrez ni de la faim ni de la soif et vos conditions de vie sont propres, quoique simples. Soldats chargés de famille, ouvriers, étudiants, prêtres et magiciens de campagne mènent couramment cette vie.",
+      "kind": "description"
+    },
+    {
+      "en": "Comfortable. Choosing a comfortable lifestyle means that you can afford nicer clothing and can easily maintain your equipment. You live in a small cottage in a middle-class neighborhood or in a private room at a fine inn. You associate with merchants, skilled tradespeople, and military officers.",
+      "fr": "Confortable. Vous pouvez vous offrir des vêtements de meilleure qualité et entretenir facilement votre équipement. Vous vivez dans une petite maison d’un quartier de classe moyenne ou dans une chambre privée d’une bonne auberge. Vous fréquentez des marchands, des artisans qualifiés et des officiers.",
+      "kind": "description"
+    },
+    {
+      "en": "Wealthy. Choosing a wealthy lifestyle means living a life of luxury, though you might not have achieved the social status associated with the old money of nobility or royalty. You live a lifestyle comparable to that of a highly successful merchant, a favored servant of the royalty, or the owner of a few small businesses. You have respectable lodgings, usually a spacious home in a good part of town or a comfortable suite at a fine inn. You likely have a small staff of servants.",
+      "fr": "Riche. Vous vivez dans le luxe, sans nécessairement bénéficier du statut social associé aux vieilles fortunes de la noblesse ou de la royauté. Votre train de vie ressemble à celui d’un marchand prospère, d’un serviteur favori de la cour ou du propriétaire de quelques petites entreprises. Vous disposez d’un logement respectable, généralement une maison spacieuse dans un bon quartier ou une suite confortable dans une bonne auberge. Vous employez probablement quelques domestiques.",
+      "kind": "description"
+    },
+    {
+      "en": "Aristocratic. You live a life of plenty and comfort. You move in circles populated by the most powerful people in the community. You have excellent lodgings, perhaps a townhouse in the nicest part of town or rooms in the finest inn. You dine at the best restaurants, retain the most skilled and fashionable tailor, and have servants attending to your every need. You receive invitations to the social gatherings of the rich and powerful, and spend evenings in the company of politicians, guild leaders, high priests, and nobility. You must also contend with the highest levels of deceit and treachery. The wealthier you are, the greater the chance you will be drawn into political intrigue as a pawn or participant.",
+      "fr": "Aristocratique. Vous vivez dans l’abondance et le confort, entouré des personnes les plus puissantes de la communauté. Vous disposez d’un excellent logement, peut-être une maison dans le plus beau quartier ou des appartements dans la meilleure auberge. Vous fréquentez les meilleurs restaurants, engagez les tailleurs les plus habiles et les plus en vue, et des domestiques répondent à tous vos besoins. Vous êtes invité aux réceptions des riches et des puissants et passez vos soirées auprès de politiciens, maîtres de guildes, grands prêtres et nobles. Vous devez aussi affronter les pires tromperies et trahisons. Plus vous êtes riche, plus vous risquez d’être entraîné dans des intrigues politiques, comme pion ou comme acteur.",
+      "kind": "description"
+    },
+    {
+      "en": "The expenses and lifestyles described here assume that you are spending your time between adventures in town, availing yourself of whatever services you can afford—paying for food and shelter, paying townspeople to sharpen your sword and repair your armor, and so on. Some characters, though, might prefer to spend their time away from civilization, sustaining themselves in the wild by hunting, foraging, and repairing their own gear.",
+      "fr": "Les dépenses et trains de vie décrits ici supposent que vous passez le temps entre vos aventures en ville, en payant les services que vous pouvez vous offrir : repas et logement, affûtage de votre épée, réparation de votre armure, etc. Certains personnages préfèrent toutefois vivre loin de la civilisation, en chassant, en cherchant leur nourriture et en réparant eux-mêmes leur matériel.",
+      "kind": "description"
+    },
+    {
+      "en": "Maintaining this kind of lifestyle doesn't require you to spend any coin, but it is time-consuming. If you spend your time between adventures practicing a profession, you can eke out the equivalent of a poor lifestyle. Proficiency in the Survival skill lets you live at the equivalent of a comfortable lifestyle.",
+      "fr": "Ce mode de vie ne coûte pas nécessairement de l’argent, mais demande du temps. Si vous exercez une profession entre vos aventures, vous pouvez atteindre l’équivalent d’un train de vie pauvre. La maîtrise de la compétence Survie permet de vivre dans l’équivalent d’un train de vie confortable.",
+      "kind": "description"
+    },
+    {
+      "en": "Food, Drink, and Lodging",
+      "fr": "Nourriture, boissons et logement",
+      "kind": "term"
+    },
+    {
+      "en": "The Food, Drink, and Lodging table gives prices for individual food items and a single night's lodging. These prices are included in your total lifestyle expenses.",
+      "fr": "La table Nourriture, boissons et logement indique le prix des aliments pris séparément et d’une nuit d’hébergement. Ces prix sont compris dans vos dépenses totales de train de vie.",
+      "kind": "description"
+    },
+    {
+      "en": "Adventurers can pay nonplayer characters to assist them or act on their behalf in a variety of circumstances. Most such hirelings have fairly ordinary skills, while others are masters of a craft or art, and a few are experts with specialized adventuring skills.",
+      "fr": "Les aventuriers peuvent payer des personnages non-joueurs pour les aider ou agir en leur nom dans diverses circonstances. La plupart de ces employés possèdent des compétences ordinaires ; d’autres sont maîtres d’un artisanat ou d’un art, et quelques-uns sont experts dans des domaines utiles à l’aventure.",
+      "kind": "description"
+    },
+    {
+      "en": "Some of the most basic types of hirelings appear on the Services table. Other common hirelings include any of the wide variety of people who inhabit a typical town or city, when the adventurers pay them to perform a specific task. For example, a wizard might pay a carpenter to construct an elaborate chest (and its miniature replica) for use in the secret chest spell. A fighter might commission a blacksmith to forge a special sword. A bard might pay a tailor to make exquisite clothing for an upcoming performance in front of the duke.",
+      "fr": "La table Services présente certains employés courants. Les aventuriers peuvent également payer toutes sortes d’habitants d’une ville pour accomplir une tâche précise. Un magicien peut ainsi rémunérer un menuisier pour fabriquer un coffre ouvragé et sa réplique miniature destinés au sort coffre secret. Un guerrier peut commander une épée spéciale à un forgeron. Un barde peut engager un tailleur pour confectionner de beaux vêtements avant une représentation devant le duc.",
+      "kind": "description"
+    },
+    {
+      "en": "Other hirelings provide more expert or dangerous services. Mercenary soldiers paid to help the adventurers take on a hobgoblin army are hirelings, as are sages hired to research ancient or esoteric lore. If a high-level adventurer establishes a stronghold of some kind, he or she might hire a whole staff of servants and agents to run the place, from a castellan or steward to menial laborers to keep the stables clean. These hirelings often enjoy a long-term contract that includes a place to live within the stronghold as part of the offered compensation.",
+      "fr": "D’autres employés proposent des services plus spécialisés ou dangereux. Les mercenaires engagés pour combattre une armée de hobgobelins et les sages chargés de rechercher un savoir ancien ou ésotérique en sont des exemples. Un aventurier de haut niveau qui établit une forteresse peut employer tout un personnel, du châtelain ou de l’intendant aux ouvriers chargés des écuries. Ces employés travaillent souvent sous contrat de longue durée, avec un logement dans la forteresse en complément de leur rémunération.",
+      "kind": "description"
+    },
+    {
+      "en": "Skilled hirelings include anyone hired to perform a service that involves a proficiency (including weapon, tool, or skill): a mercenary, artisan, scribe, and so on. The pay shown is a minimum; some expert hirelings require more pay. Untrained hirelings are hired for menial work that requires no particular skill and can include laborers, porters, maids, and similar workers.",
+      "fr": "Les employés qualifiés accomplissent un service exigeant une maîtrise, qu’il s’agisse d’une arme, d’un outil ou d’une compétence : mercenaires, artisans, scribes, etc. Le salaire indiqué est un minimum ; certains experts demandent davantage. Les employés non qualifiés sont engagés pour des tâches ne nécessitant aucune compétence particulière, comme les manœuvres, porteurs, servantes et travailleurs similaires.",
+      "kind": "description"
+    },
+    {
+      "en": "Within a city",
+      "fr": "Dans une ville",
+      "kind": "description"
+    },
+    {
+      "en": "Spellcasting Services",
+      "fr": "Services d’incantation",
+      "kind": "term"
+    },
+    {
+      "en": "People who are able to cast spells don't fall into the category of ordinary hirelings. It might be possible to find someone willing to cast a spell in exchange for coin or favors, but it is rarely easy and no established pay rates exist. As a rule, the higher the level of the desired spell, the harder it is to find someone who can cast it and the more it costs.",
+      "fr": "Les personnes capables de lancer des sorts ne sont pas des employés ordinaires. Il est parfois possible de trouver quelqu’un acceptant de lancer un sort contre de l’argent ou une faveur, mais c’est rarement facile et il n’existe pas de tarif établi. En règle générale, plus le niveau du sort désiré est élevé, plus il est difficile et coûteux de trouver quelqu’un capable de le lancer.",
+      "kind": "description"
+    },
+    {
+      "en": "Hiring someone to cast a relatively common spell of 1st or 2nd level, such as cure wounds or identify, is easy enough in a city or town, and might cost 10 to 50 gold pieces (plus the cost of any expensive material components). Finding someone able and willing to cast a higher-level spell might involve traveling to a large city, perhaps one with a university or prominent temple. Once found, the spellcaster might ask for a service instead of payment—the kind of service that only adventurers can provide, such as retrieving a rare item from a dangerous locale or traversing a monster-infested wilderness to deliver something important to a distant settlement.",
+      "fr": "Dans une ville, il est assez facile d’engager quelqu’un pour lancer un sort relativement courant du 1er ou du 2e niveau, comme soins ou identification. Cela peut coûter de 10 à 50 pièces d’or, en plus des composantes matérielles coûteuses éventuelles. Trouver quelqu’un capable et désireux de lancer un sort de niveau supérieur peut nécessiter un voyage vers une grande ville, peut-être dotée d’une université ou d’un temple important. Une fois trouvé, l’incantateur peut demander un service plutôt qu’un paiement : une tâche réservée aux aventuriers, comme récupérer un objet rare dans un lieu dangereux ou traverser une contrée infestée de monstres pour livrer un bien important à une communauté lointaine.",
+      "kind": "description"
+    },
+    {
+      "en": "Fantasy gaming worlds are a vast tapestry made up of many different cultures, each with its own technology level. For this reason, adventurers have access to a variety of armor types, ranging from leather armor to chain mail to costly plate armor, with several other kinds of armor in between. The Armor table collects the most commonly available types of armor found in the game and separates them into three categories: light armor, medium armor, and heavy armor. Many warriors supplement their armor with a shield.",
+      "fr": "Les mondes fantastiques rassemblent de nombreuses cultures, chacune dotée de son propre niveau technologique. Les aventuriers ont donc accès à une grande variété d’armures, du cuir à la cotte de mailles et au coûteux harnois, avec plusieurs catégories intermédiaires. La table Armures regroupe les types les plus courants et les répartit en trois catégories : armures légères, intermédiaires et lourdes. De nombreux guerriers complètent leur armure par un bouclier.",
+      "kind": "description"
+    },
+    {
+      "en": "The Armor table shows the cost, weight, and other properties of the common types of armor worn in fantasy gaming worlds.",
+      "fr": "La table Armures indique le prix, le poids et les autres propriétés des armures courantes des mondes fantastiques.",
+      "kind": "description"
+    },
+    {
+      "en": "Armor Proficiency. Anyone can put on a suit of armor or strap a shield to an arm. Only those proficient in the armor's use know how to wear it effectively, however.",
+      "fr": "Maîtrise des armures. N’importe qui peut enfiler une armure ou attacher un bouclier à son bras. Seules les créatures qui maîtrisent leur utilisation savent toutefois les porter efficacement.",
+      "kind": "description"
+    },
+    {
+      "en": "Your class gives you proficiency with certain types of armor. If you wear armor that you lack proficiency with, you have disadvantage on any ability check, saving throw, or attack roll that involves Strength or Dexterity, and you can't cast spells.",
+      "fr": "Votre classe vous octroie la maîtrise de certains types d’armures. Si vous portez une armure que vous ne maîtrisez pas, vous subissez le Désavantage aux tests de caractéristique, jets de sauvegarde et jets d’attaque faisant intervenir la Force ou la Dextérité, et vous ne pouvez pas lancer de sorts.",
+      "kind": "description"
+    },
+    {
+      "en": "Armor Class (AC). Armor protects its wearer from attacks. The armor (and shield) you wear determines your base Armor Class.",
+      "fr": "Classe d’armure (CA). Une armure protège son porteur contre les attaques. L’armure et le bouclier que vous portez déterminent votre Classe d’armure de base.",
+      "kind": "description"
+    },
+    {
+      "en": "Heavy Armor. Heavier armor interferes with the wearer's ability to move quickly, stealthily, and freely. If the Armor table shows \"Str 13\" or \"Str 15\" in the Strength column for an armor type, the armor reduces the wearer's speed by 10 feet unless the wearer has a Strength score equal to or higher than the listed score.",
+      "fr": "Armures lourdes. Les armures les plus lourdes gênent les déplacements rapides, discrets et libres. Si la table Armures indique « For 13 » ou « For 15 » dans la colonne Force, l’armure réduit votre vitesse de 10 feet, sauf si votre valeur de Force atteint ou dépasse la valeur indiquée.",
+      "kind": "description"
+    },
+    {
+      "en": "Stealth. If the Armor table shows \"Disadvantage\" in the Stealth column, the wearer has disadvantage on Dexterity (Stealth) checks.",
+      "fr": "Discrétion. Si la table Armures indique « Désavantage » dans la colonne Discrétion, le porteur subit le Désavantage aux tests de Dextérité (Discrétion).",
+      "kind": "description"
+    },
+    {
+      "en": "Shields. A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time.",
+      "fr": "Boucliers. Un bouclier est fabriqué en bois ou en métal et tenu d’une main. Le manier augmente votre Classe d’armure de 2. Vous ne pouvez bénéficier que d’un seul bouclier à la fois.",
+      "kind": "description"
+    },
+    {
+      "en": "Your class grants proficiency in certain weapons, reflecting both the class's focus and the tools you are most likely to use. Whether you favor a longsword or a longbow, your weapon and your ability to wield it effectively can mean the difference between life and death while adventuring.",
+      "fr": "Votre classe vous octroie la maîtrise de certaines armes, selon sa vocation et les outils que vous êtes susceptible d’utiliser. Que vous préfériez une épée longue ou un arc long, votre arme et votre habileté à la manier peuvent faire la différence entre la vie et la mort au cours d’une aventure.",
+      "kind": "description"
+    },
+    {
+      "en": "The Weapons table shows the most common weapons used in the fantasy gaming worlds, their price and weight, the damage they deal when they hit, and any special properties they possess. Every weapon is classified as either melee or ranged. A melee weapon is used to attack a target within 5 feet of you, whereas a ranged weapon is used to attack a target at a distance.",
+      "fr": "La table Armes présente les armes les plus courantes des mondes fantastiques, leur prix et leur poids, les dégâts qu’elles infligent ainsi que leurs propriétés particulières. Chaque arme est classée comme arme de corps à corps ou arme à distance. Une arme de corps à corps sert à attaquer une cible dans un rayon de 5 feet, tandis qu’une arme à distance permet d’attaquer une cible plus éloignée.",
+      "kind": "description"
+    },
+    {
+      "en": "Your race, class, and feats can grant you proficiency with certain weapons or categories of weapons. The two categories are simple and martial. Most people can use simple weapons with proficiency. These weapons include clubs, maces, and other weapons often found in the hands of commoners. Martial weapons, including swords, axes, and polearms, require more specialized training to use effectively.",
+      "fr": "Votre race, votre classe et vos dons peuvent vous octroyer la maîtrise de certaines armes ou catégories d’armes. Les deux catégories sont les armes courantes et les armes de guerre. La plupart des gens maîtrisent les armes courantes, comme les gourdins, masses et autres armes fréquemment utilisées par les gens du peuple. Les armes de guerre, notamment les épées, haches et armes d’hast, exigent un entraînement plus spécialisé pour être utilisées efficacement.",
+      "kind": "description"
+    },
+    {
+      "en": "Most warriors use martial weapons because these weapons put their fighting style and training to best use.",
+      "fr": "La plupart des guerriers utilisent des armes de guerre, qui correspondent le mieux à leur style de combat et à leur entraînement.",
+      "kind": "description"
+    },
+    {
+      "en": "Proficiency with a weapon allows you to add your proficiency bonus to the attack roll for any attack you make with that weapon. If you make an attack roll using a weapon with which you lack proficiency, you do not add your proficiency bonus to the attack roll.",
+      "fr": "La maîtrise d’une arme permet d’ajouter votre bonus de maîtrise au jet d’attaque de toute attaque effectuée avec cette arme. Si vous attaquez avec une arme que vous ne maîtrisez pas, vous n’ajoutez pas votre bonus de maîtrise au jet d’attaque.",
+      "kind": "description"
+    },
+    {
+      "en": "Many weapons have special properties related to their use, as shown in the Weapons table.",
+      "fr": "De nombreuses armes possèdent des propriétés particulières liées à leur utilisation, présentées dans la table Armes.",
+      "kind": "description"
+    },
+    {
+      "en": "Ammunition. You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack (you need a free hand to load a one-handed weapon). At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.",
+      "fr": "Munitions. Vous pouvez utiliser une arme dotée de cette propriété pour effectuer une attaque à distance uniquement si vous disposez des munitions nécessaires. Chaque attaque dépense une munition. Sortir la munition d’un carquois, d’un étui ou d’un autre contenant fait partie de l’attaque ; vous devez avoir une main libre pour charger une arme à une main. À la fin du combat, vous pouvez récupérer la moitié des munitions dépensées en consacrant une minute à fouiller le champ de bataille.",
+      "kind": "description"
+    },
+    {
+      "en": "If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon (see \"Improvised Weapons\" later in the section). A sling must be loaded to deal any damage when used in this way.",
+      "fr": "Si vous utilisez une arme dotée de la propriété Munitions pour effectuer une attaque au corps à corps, traitez-la comme une arme improvisée, selon la section « Armes improvisées » ci-dessous. Une fronde doit être chargée pour infliger des dégâts de cette manière.",
+      "kind": "description"
+    },
+    {
+      "en": "Range. A weapon that can be used to make a ranged attack has a range in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's long range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.",
+      "fr": "Portée. Une arme permettant d’effectuer une attaque à distance présente une portée entre parenthèses après la propriété Munitions ou Lancer. La première valeur indique sa portée normale en pieds ; la seconde indique sa portée longue. Au-delà de la portée normale, vous subissez le Désavantage au jet d’attaque. Vous ne pouvez pas attaquer une cible au-delà de la portée longue.",
+      "kind": "description"
+    },
+    {
+      "en": "Special. A weapon with the special property has unusual rules governing its use, explained in the weapon's description (see \"Special Weapons\" later in this section).",
+      "fr": "Spéciale. Une arme dotée de cette propriété est soumise à des règles inhabituelles, détaillées dans sa description, à la section « Armes spéciales » ci-dessous.",
+      "kind": "description"
+    },
+    {
+      "en": "This weapon requires two hands when you attack with it.",
+      "fr": "Cette arme nécessite deux mains pour attaquer.",
+      "kind": "description"
+    },
+    {
+      "en": "Improvised Weapons",
+      "fr": "Armes improvisées",
+      "kind": "term"
+    },
+    {
+      "en": "Sometimes characters don't have their weapons and have to attack with whatever is at hand. An improvised weapon includes any object you can wield in one or two hands, such as broken glass, a table leg, a frying pan, a wagon wheel, or a dead goblin.",
+      "fr": "Il arrive qu’un personnage n’ait pas ses armes et doive attaquer avec ce qui lui tombe sous la main. Une arme improvisée est un objet pouvant être manié à une ou deux mains, comme du verre brisé, un pied de table, une poêle, une roue de chariot ou un gobelin mort.",
+      "kind": "description"
+    },
+    {
+      "en": "Often, an improvised weapon is similar to an actual weapon and can be treated as such. For example, a table leg is akin to a club. At the GM's option, a character proficient with a weapon can use a similar object as if it were that weapon and use his or her proficiency bonus.",
+      "fr": "Une arme improvisée ressemble souvent à une véritable arme et peut être traitée comme telle. Un pied de table ressemble ainsi à un gourdin. Le MJ peut permettre à un personnage maîtrisant une arme d’utiliser un objet similaire comme cette arme et d’appliquer son bonus de maîtrise.",
+      "kind": "description"
+    },
+    {
+      "en": "An object that bears no resemblance to a weapon deals 1d4 damage (the GM assigns a damage type appropriate to the object). If a character uses a ranged weapon to make a melee attack, or throws a melee weapon that does not have the thrown property, it also deals 1d4 damage. An improvised thrown weapon has a normal range of 20 feet and a long range of 60 feet.",
+      "fr": "Un objet ne ressemblant à aucune arme inflige 1d4 dégâts, dont le MJ détermine le type approprié. Si un personnage utilise une arme à distance pour effectuer une attaque au corps à corps, ou lance une arme de corps à corps dépourvue de la propriété Lancer, elle inflige également 1d4 dégâts. Une arme improvisée lancée a une portée normale de 20 feet et une portée longue de 60 feet.",
+      "kind": "description"
+    },
+    {
+      "en": "Some monsters that have immunity or resistance to nonmagical weapons are susceptible to silver weapons, so cautious adventurers invest extra coin to plate their weapons with silver. You can silver a single weapon or ten pieces of ammunition for 100 gp. This cost represents not only the price of the silver, but the time and expertise needed to add silver to the weapon without making it less effective.",
+      "fr": "Certains monstres immunisés ou résistants aux armes non magiques peuvent être affectés par les armes en argent. Les aventuriers prudents peuvent donc payer pour faire argenter leurs armes. Vous pouvez faire argenter une arme ou dix munitions pour 100 po. Ce coût couvre l’argent lui-même, ainsi que le temps et le savoir-faire nécessaires pour l’appliquer sans diminuer l’efficacité de l’arme.",
+      "kind": "description"
+    },
+    {
+      "en": "Lance. You have disadvantage when you use a lance to attack a target within 5 feet of you. Also, a lance requires two hands to wield when you aren't mounted.",
+      "fr": "Lance d’arçon. Vous subissez le Désavantage lorsque vous attaquez avec cette arme une cible dans un rayon de 5 feet. De plus, une lance d’arçon nécessite deux mains pour être maniée lorsque vous n’êtes pas monté.",
+      "kind": "description"
+    },
+    {
+      "en": "Net. A Large or smaller creature hit by a net is restrained until it is freed. A net has no effect on creatures that are formless, or creatures that are Huge or larger. A creature can use its action to make a DC 10 Strength check, freeing itself or another creature within its reach on a success. Dealing 5 slashing damage to the net (AC 10) also frees the creature without harming it, ending the effect and destroying the net.",
+      "fr": "Filet. Une créature de taille G ou inférieure touchée par un filet est Entravée jusqu’à ce qu’elle soit libérée. Le filet n’affecte pas les créatures dépourvues de forme ni celles de taille TG ou supérieure. Une créature peut consacrer son action à un test de Force DD 10 et se libérer ou libérer une créature à portée d’allonge en cas de réussite. Infliger 5 dégâts tranchants au filet, dont la CA est de 10, libère également la créature sans la blesser, met fin à l’effet et détruit le filet.",
+      "kind": "description"
+    },
+    {
+      "en": "When you use an action, bonus action, or reaction to attack with a net, you can make only one attack regardless of the number of attacks you can normally make.",
+      "fr": "Lorsque vous utilisez une action, une action bonus ou une réaction pour attaquer avec un filet, vous ne pouvez effectuer qu’une seule attaque, quel que soit le nombre d’attaques que vous pourriez normalement effectuer.",
+      "kind": "description"
+    },
+    {
+      "en": "The rules for lifting and carrying are intentionally simple. If you are looking for more detailed rules for determining how a character is hindered by the weight of equipment use these rules.",
+      "fr": "Les règles de levage et de transport sont volontairement simples. Si vous souhaitez détailler davantage la gêne provoquée par le poids de l’équipement, utilisez les règles suivantes.",
+      "kind": "description"
+    },
+    {
+      "en": "If you carry weight in excess of 5 times your Strength score, you are encumbered, which means your speed drops by 10 feet.",
+      "fr": "Si vous portez un poids supérieur à 5 fois votre valeur de Force, vous êtes Encombré et votre vitesse diminue de 10 feet.",
+      "kind": "description"
+    },
+    {
+      "en": "If you carry weight in excess of 10 times your Strength score, up to your maximum carrying capacity, you are instead heavily encumbered, which means your speed drops by 20 feet and you have disadvantage on ability checks, attack rolls, and saving throws that use Strength, Dexterity, or Constitution.",
+      "fr": "Si vous portez un poids supérieur à 10 fois votre valeur de Force, sans dépasser votre capacité de charge maximale, vous êtes Lourdement encombré : votre vitesse diminue de 20 feet et vous subissez le Désavantage aux tests de caractéristique, jets d’attaque et jets de sauvegarde faisant intervenir la Force, la Dextérité ou la Constitution.",
+      "kind": "description"
+    }
+  ]
+}

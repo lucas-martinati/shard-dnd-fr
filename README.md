@@ -48,7 +48,7 @@ Les traductions sont organisées dans `translations/dnd-2024/phb/`, `translation
 
 Les constantes de données du userscript sont toutes sérialisées au format JSON compact, une déclaration par ligne. Les fichiers sources JSON restent indentés pour faciliter leur édition ; les retours à la ligne contenus dans les traductions sont conservés sous forme échappée.
 
-Le [relevé des données embarquées](docs/DONNEES-GENEREES.md) relie chaque constante à ses sources et distingue les doublons, les priorités et les index inutilisés. L’export `lexique-en-fr.json` contient le lexique ; les descriptions complètes sont assemblées dans `COMPLETE_TEXTS` et ne figurent pas toutes dans cet export.
+Le [relevé des données embarquées](docs/DONNEES-GENEREES.md) décrit les sept constantes générées depuis les packs, les priorités et le retrait des anciens dictionnaires et index inutilisés. L’export `lexique-en-fr.json` contient le lexique ; les descriptions complètes sont assemblées dans `COMPLETE_TEXTS` et ne figurent pas toutes dans cet export.
 
 Les tests sont regroupés dans `tests/`, avec les extraits HTML dans `tests/fixtures/`. `npm test` lance les suites JavaScript et Python. Les tests inclus couvrent la configuration, la recherche et les liens, les aptitudes de personnages, les variantes de métamagie, les interactions, la migration du cache et le retour au texte anglais.
 
@@ -128,3 +128,5 @@ npm test
 Le code est sous licence MIT ; les textes SRD et autres contenus gardent leurs licences respectives. Voir [LICENSE](LICENSE) et [NOTICE.md](NOTICE.md). Projet indépendant, non affilié à Shard Tabletop, AideDD ou Wizards of the Coast.
 
 `npm run test:diagnostics` vérifie les deux modes d’analyse : page visible et parcours du texte des descriptions. Les contrôles couvrent les exports et effacements indépendants, les contours rouges, les 118 passages récupérés des rapports de sorts 1.17.19/1.17.20 (dont 23 déjà couverts), l’absence du mode par nom, le choix de la source 2024 (dont Bouclier), les états, l’arrêt, les changements de page, les références distantes en attente, l’exclusion des champs et les 93 candidats du rapport d’objets 1.17.17.
+
+La 1.17.38 intègre les anciens dictionnaires TSV aux packs JSON, réorganise les phrases du druide et retire les constantes et index redondants. Les compléments du Shard Player’s Guide Volume 1 couvrent les chapitres Équipement et Objets magiques, 239 notices et 1 372 fiches d’équipement, avec leurs variantes. `npm run test:guide` vérifie le relevé HTML hors ligne, les tableaux, liens, dés, poids et la restauration du contenu anglais. `npm run test:migration` contrôle les anciennes correspondances, les alias et les usages conservés. Voir [les données générées](docs/DONNEES-GENEREES.md) et [la provenance du guide](translations/2014/shard-players-guide-v1/README.md).

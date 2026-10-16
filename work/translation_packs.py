@@ -45,10 +45,16 @@ def load_packs(directory=None):
             where = f'{path.name}: entrée {i + 1}'
             if not isinstance(entry, dict):
                 raise ValueError(f'{where}: objet attendu')
-            unknown = set(entry) - {'id', 'kind', 'en', 'fr', 'variants', 'aliases', 'source', 'edition'}
+            unknown = set(entry) - {'id', 'kind', 'en', 'fr', 'variants', 'aliases', 'source', 'edition', 'usage', 'labelCategory'}
             if unknown:
                 raise ValueError(f'{where}: champs inconnus : {sorted(unknown)}')
             ident, kind = entry.get('id'), entry.get('kind', 'description')
+            usage = entry.get('usage')
+            if usage is not None and (not isinstance(usage, list) or any(u not in ['name', 'spell', 'search', 'inline'] for u in usage) or len(set(usage)) != len(usage)):
+                raise ValueError(f'{where}: usage doit contenir des modes distincts name, spell, search ou inline')
+            label_category = entry.get('labelCategory')
+            if label_category is not None and (not isinstance(label_category, str) or not label_category.strip()):
+                raise ValueError(f'{where}: labelCategory invalide')
             source = entry.get('source', pack.get('source'))
             edition = entry.get('edition', pack.get('edition', 'any'))
             if not isinstance(source, str) or not source.strip() or edition not in ['2014', '2024', 'any']:
@@ -65,7 +71,7 @@ def load_packs(directory=None):
             if not isinstance(variants, list) or any(not isinstance(v, str) or not v.strip() for v in variants):
                 raise ValueError(f'{where}: variants doit contenir des textes anglais non vides')
             aliases = entry.get('aliases', [])
-            if not isinstance(aliases, list) or any(not isinstance(v, str) or not v.strip() for v in aliases) or (aliases and kind != 'term'):
+            if not isinstance(aliases, list) or any(not isinstance(v, str) or not v.strip() for v in aliases) or (aliases and kind != 'term' and 'inline' not in (usage or [])):
                 raise ValueError(f'{where}: aliases doit contenir des noms alternatifs non vides pour un libellé')
             for en in [entry['en'], *variants]:
                 if kind == 'term' and ('|' in en or '|' in entry['fr'] or '\n' in en or '\n' in entry['fr']):
@@ -85,10 +91,16 @@ def load_packs(directory=None):
                     old = seen[normalized]
                     if key(old['fr']) != key(entry['fr']) or old['kind'] != kind:
                         raise ValueError(f'{where}: traduction contradictoire avec {old["id"]} pour {en[:80]!r}')
+                    if usage is not None:
+                        old['usage'] = list(dict.fromkeys(old.get('usage', []) + usage))
                     if aliases:
                         old['aliases'] = list(dict.fromkeys(old.get('aliases', []) + aliases))
                     continue
                 row = {'id': ident, 'kind': kind, 'en': en, 'fr': entry['fr'], 'source': source, 'edition': edition, 'category': path.parent.name if path.name == 'traductions.json' else 'test'}
+                if usage is not None:
+                    row['usage'] = usage
+                if label_category is not None:
+                    row['labelCategory'] = label_category
                 if aliases:
                     row['aliases'] = list(dict.fromkeys(aliases))
                 rows.append(row)
@@ -107,3 +119,21 @@ def check_existing(rows, existing):
         previous = index.get(key(row['en']))
         if previous and key(row['fr']) not in previous:
             raise ValueError(f"{row['id']}: traduction différente d’une description existante ; corriger sa source au lieu de la masquer")
+
+
+def deduplicate_descriptions(rows):
+    """Priorité du moteur : première paire, puis dernière correction locale."""
+    unique = {}
+    for row in rows:
+        # Même clé que inlineKey() : icônes et notations équivalentes de pieds.
+        english = re.sub(r'[\uE000-\uF8FF]', '', row['en'])
+        english = re.sub(r'\b(\d+(?:\.\d+)?)\s*-\s*foot\b', r'\1 feet', english, flags=re.I)
+        english = re.sub(r'\b(?:ft|feet|foot)\b\.?', 'feet', english, flags=re.I)
+        normalized = key(english)
+        old = unique.get(normalized)
+        sources = list(dict.fromkeys((old.get('sources', [old['source']]) if old else []) + [row['source']]))
+        if old is None or re.match(r'^Traduction (?:de|proposée)\b', row['source']):
+            unique[normalized] = dict(row)
+        if len(sources) > 1:
+            unique[normalized]['sources'] = sources
+    return list(unique.values())

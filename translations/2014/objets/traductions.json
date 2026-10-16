@@ -3870,7 +3870,7 @@
       "kind": "description",
       "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
       "en": "A pyramid with a 60-foot-square base bursts upward. Inside is a sarcophagus containing a mummy lord. The pyramid is treated as the mummy lord's lair, and its sarcophagus contains treasure of the DM's choice.",
-      "fr": "Une pyramide dont la base est un carré de 60 feet de côté surgit du sol. À l’intérieur se trouve un sarcophage contenant un seigneur momie. La pyramide est considérée comme son antre et le sarcophage contient un trésor choisi par le MJ."
+      "fr": "Une pyramide dont la base est un carré de 60 feet de côté surgit du sol. À l’intérieur se trouve un sarcophage contenant un seigneur momie. La pyramide est considérée comme l’antre du seigneur momie et le sarcophage contient un trésor choisi par le MJ."
     },
     {
       "id": "equipment.2014.report-11717.076",
@@ -3924,9 +3924,9 @@
     {
       "id": "equipment.2014.report-11717.083",
       "kind": "description",
-      "source": "Traduction proposée des passages exacts du diagnostic utilisateur 1.17.17 · 15 octobre 2026 · équipement et objets, textes anciens (actions et formulations 2014). Les fragments de tableau et les unités du relevé sont conservés ; aucune conversion en règles 2024.",
+      "source": "Traduction de l’extrait Shard · Shard Player’s Guide Volume 1 · ordre et noms des liens conservés",
       "en": "Placing a bag of holding inside an extradimensional space created by a Heward's handy haversack, portable hole, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate is sucked through it to a random location on the Astral Plane. The gate then closes. The gate is one-way only and can't be reopened.",
-      "fr": "Placer un sac sans fond dans un espace extradimensionnel créé par un havresac pratique d’Hévard, un puits portatif ou un objet similaire détruit instantanément les deux objets et ouvre un portail vers le plan Astral. Le portail apparaît à l’endroit où un objet a été placé dans l’autre. Toute créature située à 10 feet ou moins est aspirée vers un lieu aléatoire du plan Astral. Le portail se referme ensuite. Il est à sens unique et ne peut pas être rouvert."
+      "fr": "Placer un sac sans fond dans un espace extradimensionnel créé par un havresac magique d’Hévard, un puits portable ou un objet similaire détruit instantanément les deux objets et ouvre un portail vers le plan Astral. Le portail apparaît à l’endroit où un objet a été placé dans l’autre. Toute créature située à 10 feet ou moins est aspirée vers un lieu aléatoire du plan Astral. Le portail se referme ensuite. Il est à sens unique et ne peut pas être rouvert."
     },
     {
       "id": "equipment.2014.report-11717.084",
@@ -3993,7 +3993,11 @@
       "aliases": [
         "Potion de soins"
       ],
-      "source": "AideDD 2024 · tableau des noms et puissances des potions vérifié le 15 octobre 2026 · https://www.aidedd.org/magic-item/fr/potions-de-guerison"
+      "source": "AideDD 2024 · tableau des noms et puissances des potions vérifié le 15 octobre 2026 · https://www.aidedd.org/magic-item/fr/potions-de-guerison",
+      "usage": [
+        "name",
+        "search"
+      ]
     },
     {
       "id": "equipment.names-11726.potion-of-greater-healing",
@@ -4004,7 +4008,11 @@
       "aliases": [
         "Potion de soins supérieurs"
       ],
-      "source": "AideDD 2024 · tableau des noms et puissances des potions vérifié le 15 octobre 2026 · https://www.aidedd.org/magic-item/fr/potions-de-guerison"
+      "source": "AideDD 2024 · tableau des noms et puissances des potions vérifié le 15 octobre 2026 · https://www.aidedd.org/magic-item/fr/potions-de-guerison",
+      "usage": [
+        "name",
+        "search"
+      ]
     },
     {
       "id": "equipment.names-11726.potion-of-superior-healing",
@@ -4015,7 +4023,11 @@
       "aliases": [
         "Potion de soins majeurs"
       ],
-      "source": "AideDD 2024 · tableau des noms et puissances des potions vérifié le 15 octobre 2026 · https://www.aidedd.org/magic-item/fr/potions-de-guerison"
+      "source": "AideDD 2024 · tableau des noms et puissances des potions vérifié le 15 octobre 2026 · https://www.aidedd.org/magic-item/fr/potions-de-guerison",
+      "usage": [
+        "name",
+        "search"
+      ]
     },
     {
       "id": "equipment.names-11726.potion-of-supreme-healing",
@@ -4026,7 +4038,11 @@
       "aliases": [
         "Potion de soins suprêmes"
       ],
-      "source": "AideDD 2024 · tableau des noms et puissances des potions vérifié le 15 octobre 2026 · https://www.aidedd.org/magic-item/fr/potions-de-guerison"
+      "source": "AideDD 2024 · tableau des noms et puissances des potions vérifié le 15 octobre 2026 · https://www.aidedd.org/magic-item/fr/potions-de-guerison",
+      "usage": [
+        "name",
+        "search"
+      ]
     },
     {
       "id": "equipment.names-11726.weapon-1-2-or-3",
@@ -4059,6 +4075,5674 @@
       "en": "Ammunition +1, +2, or +3",
       "fr": "Munition +1, +2 ou +3",
       "source": "AideDD · index des noms 2014 vérifié le 15 octobre 2026 · https://www.aidedd.org/dnd/om.php?vf=munition-1-2-ou-3"
+    },
+    {
+      "id": "corpus.38bfe12bc386bd08",
+      "kind": "term",
+      "en": "Weapons, Armor & Tools",
+      "fr": "Armes, armures et outils",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.04942c6b3634a108",
+      "kind": "term",
+      "en": "Simple Weapons",
+      "fr": "Armes courantes",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.ce2c3abbe73eee3b",
+      "kind": "term",
+      "en": "Martial Weapons",
+      "fr": "Armes de guerre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.bc68eb21e7879950",
+      "kind": "term",
+      "en": "Simple Melee Weapons",
+      "fr": "Armes courantes de corps à corps",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.f6fc426585a12947",
+      "kind": "term",
+      "en": "Simple Ranged Weapons",
+      "fr": "Armes courantes à distance",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.c664e05a72c32c1a",
+      "kind": "term",
+      "en": "Martial Melee Weapons",
+      "fr": "Armes de guerre de corps à corps",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.689d1b473ec98576",
+      "kind": "term",
+      "en": "Martial Ranged Weapons",
+      "fr": "Armes de guerre à distance",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.1b329ddc8a34adfe",
+      "kind": "term",
+      "en": "Light Armor",
+      "fr": "Armure légère",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.e2a45d7d144d40dd",
+      "kind": "term",
+      "en": "Medium Armor",
+      "fr": "Armure intermédiaire",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.4bc2d20a5687b54f",
+      "kind": "term",
+      "en": "Heavy Armor",
+      "fr": "Armure lourde",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.36786280d525703d",
+      "kind": "term",
+      "en": "Shields",
+      "fr": "Boucliers",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.b2430601d4ce1bcb",
+      "kind": "term",
+      "en": "Crossbow, Light",
+      "fr": "Arbalète légère",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.fbbdebeb2a85d1b4",
+      "kind": "term",
+      "en": "Crossbow, Hand",
+      "fr": "Arbalète de poing",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.b11fe50fb29b2ff1",
+      "kind": "term",
+      "en": "Crossbow, Heavy",
+      "fr": "Arbalète lourde",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.660fb2c41d028988",
+      "kind": "term",
+      "en": "Net",
+      "fr": "Filet",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.e644504d32206c95",
+      "kind": "term",
+      "en": "Padded",
+      "fr": "Armure matelassée",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.a0ec12e20821847e",
+      "kind": "term",
+      "en": "Padded Armor",
+      "fr": "Armure matelassée",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.e8e775159a57aaaf",
+      "kind": "term",
+      "en": "Leather",
+      "fr": "Armure de cuir",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.883177524590266e",
+      "kind": "term",
+      "en": "Leather Armor",
+      "fr": "Armure de cuir",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.e7c0cb19ee5d8f3b",
+      "kind": "term",
+      "en": "Studded Leather",
+      "fr": "Armure de cuir clouté",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.6741270241c0e378",
+      "kind": "term",
+      "en": "Studded Leather Armor",
+      "fr": "Armure de cuir clouté",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.7bc220a17afc3fde",
+      "kind": "term",
+      "en": "Hide Armor",
+      "fr": "Armure de peaux",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.4d6e150d62634e8d",
+      "kind": "term",
+      "en": "Chain Shirt",
+      "fr": "Chemise de mailles",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.f4f89400211db8de",
+      "kind": "term",
+      "en": "Scale Mail",
+      "fr": "Armure d’écailles",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.8b377c204fd82afe",
+      "kind": "term",
+      "en": "Breastplate",
+      "fr": "Cuirasse",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.462390e10d99789c",
+      "kind": "term",
+      "en": "Half Plate",
+      "fr": "Demi-plate",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.0c1e2eea5940f699",
+      "kind": "term",
+      "en": "Ring Mail",
+      "fr": "Broigne",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.9ad06ec617e41078",
+      "kind": "term",
+      "en": "Chain Mail",
+      "fr": "Cotte de mailles",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.beab09342710c826",
+      "kind": "term",
+      "en": "Splint",
+      "fr": "Clibanion",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.1ab6e55a2cf6a1e1",
+      "kind": "term",
+      "en": "Splint Armor",
+      "fr": "Clibanion",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.a7cd5d8f8422554b",
+      "kind": "term",
+      "en": "Plate",
+      "fr": "Harnois",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.03f74e91e302151c",
+      "kind": "term",
+      "en": "Plate Armor",
+      "fr": "Harnois",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.f5ba1f5823a37525",
+      "kind": "term",
+      "en": "Ammunition",
+      "fr": "Munitions",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.b97b8f529f5228ca",
+      "kind": "term",
+      "en": "Finesse",
+      "fr": "Finesse",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.caaba84670559b5b",
+      "kind": "term",
+      "en": "Heavy",
+      "fr": "Lourde",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.0e17f5f87373c388",
+      "kind": "term",
+      "en": "Light weapon",
+      "fr": "Arme légère",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.dc380888c4e2c776",
+      "kind": "term",
+      "en": "Loading",
+      "fr": "Chargement",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.4c25d8a1e8878153",
+      "kind": "term",
+      "en": "Range (normal/long)",
+      "fr": "Portée (normale/longue)",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.5cc449eb11668ec7",
+      "kind": "term",
+      "en": "Thrown",
+      "fr": "Lancer",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.f0a5b7ff631ae28e",
+      "kind": "term",
+      "en": "Adamantine",
+      "fr": "Adamantium",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.e2dc54e9213a23cc",
+      "kind": "term",
+      "en": "Silvered",
+      "fr": "Argenté",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.5118f76d9067edc5",
+      "kind": "term",
+      "en": "Backpack",
+      "fr": "Sac à dos",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.5fbbcda3e82882f0",
+      "kind": "term",
+      "en": "Bedroll",
+      "fr": "Sac de couchage",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.c18f9ed184c7e012",
+      "kind": "term",
+      "en": "Blanket",
+      "fr": "Couverture",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.75656ad6e09976f2",
+      "kind": "term",
+      "en": "Candle",
+      "fr": "Bougie",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.dae0896cbc2c67bf",
+      "kind": "term",
+      "en": "Chain",
+      "fr": "Chaîne",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.78ea37549c376a4e",
+      "kind": "term",
+      "en": "Chalk",
+      "fr": "Craie",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.378d83808237a445",
+      "kind": "term",
+      "en": "Chest",
+      "fr": "Coffre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.9e4c20bcb4e3265d",
+      "kind": "term",
+      "en": "Climber's Kit",
+      "fr": "Matériel d’escalade",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.96525b45f2cc3a04",
+      "kind": "term",
+      "en": "Clothes, Common",
+      "fr": "Vêtements courants",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.e4c40bd1d64afaef",
+      "kind": "term",
+      "en": "Clothes, Fine",
+      "fr": "Vêtements de qualité",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.053a5b94b48f1f39",
+      "kind": "term",
+      "en": "Clothes, Traveler's",
+      "fr": "Vêtements de voyage",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.f417388c91fdfd18",
+      "kind": "term",
+      "en": "Component Pouch",
+      "fr": "Sacoche à composantes",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.bae103eef86e0965",
+      "kind": "term",
+      "en": "Crowbar",
+      "fr": "Pied-de-biche",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.317ba8945fe2369e",
+      "kind": "term",
+      "en": "Fishing Tackle",
+      "fr": "Matériel de pêche",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.c0862201e27e10f5",
+      "kind": "term",
+      "en": "Flask",
+      "fr": "Flasque",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.2493167703018e59",
+      "kind": "term",
+      "en": "Grappling Hook",
+      "fr": "Grappin",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.c157cbf647f56e73",
+      "kind": "term",
+      "en": "Hammer",
+      "fr": "Marteau",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.1f8b0d2523756b09",
+      "kind": "term",
+      "en": "Healer's Kit",
+      "fr": "Trousse de soins",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.96e61a88f8da5866",
+      "kind": "term",
+      "en": "Holy Symbol",
+      "fr": "Symbole sacré",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.ae351f9a3fcd5ab5",
+      "kind": "term",
+      "en": "Holy Water",
+      "fr": "Eau bénite",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.2ed3b10a370693d0",
+      "kind": "term",
+      "en": "Holy Water (flask)",
+      "fr": "Eau bénite (flasque)",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.46594469a67f5500",
+      "kind": "term",
+      "en": "Hourglass",
+      "fr": "Sablier",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.fc3af0856339502e",
+      "kind": "term",
+      "en": "Hunting Trap",
+      "fr": "Piège à mâchoires",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.f089d62295937bb4",
+      "kind": "term",
+      "en": "Ink",
+      "fr": "Encre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.3c66a28b5d66fe7f",
+      "kind": "term",
+      "en": "Ink Pen",
+      "fr": "Plume d’écriture",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.79f2528ce56c3ead",
+      "kind": "term",
+      "en": "Jug",
+      "fr": "Cruche",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.df0663641d3ef583",
+      "kind": "term",
+      "en": "Ladder",
+      "fr": "Échelle",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.bc294628171a12e7",
+      "kind": "term",
+      "en": "Lamp",
+      "fr": "Lampe",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.24d81ca96b71013a",
+      "kind": "term",
+      "en": "Lantern, Bullseye",
+      "fr": "Lanterne sourde",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.15aa56a5e3dc7d02",
+      "kind": "term",
+      "en": "Lantern, Hooded",
+      "fr": "Lanterne à capote",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.db44b8db4f05d720",
+      "kind": "term",
+      "en": "Lock",
+      "fr": "Serrure",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.e730b181996a00c2",
+      "kind": "term",
+      "en": "Magnifying Glass",
+      "fr": "Loupe",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.a4b3a47f88cab9f9",
+      "kind": "term",
+      "en": "Manacles",
+      "fr": "Menottes",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.fd7bead875a8147b",
+      "kind": "term",
+      "en": "Mess Kit",
+      "fr": "Gamelle",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.7801e9d783827089",
+      "kind": "term",
+      "en": "Mirror, Steel",
+      "fr": "Miroir en acier",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.8984990d107bbaba",
+      "kind": "term",
+      "en": "Oil (flask)",
+      "fr": "Huile (flasque)",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.2378bdd2cf4f491c",
+      "kind": "term",
+      "en": "Oil",
+      "fr": "Huile",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.35045eff549e30b5",
+      "kind": "term",
+      "en": "Paper",
+      "fr": "Papier",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.ff872964e5ec9c9b",
+      "kind": "term",
+      "en": "Parchment",
+      "fr": "Parchemin",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.5f52aeaf76f02847",
+      "kind": "term",
+      "en": "Perfume",
+      "fr": "Parfum",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.99ad6fa412a689e4",
+      "kind": "term",
+      "en": "Poison, Basic (vial)",
+      "fr": "Poison simple (fiole)",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.593fab4e3859ee11",
+      "kind": "term",
+      "en": "Pole",
+      "fr": "Perche",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.efb2933df6b6ab9c",
+      "kind": "term",
+      "en": "Pot, Iron",
+      "fr": "Marmite en fer",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.6878061e92552132",
+      "kind": "term",
+      "en": "Pouch",
+      "fr": "Bourse",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.210b56c8d06acd33",
+      "kind": "term",
+      "en": "Quiver",
+      "fr": "Carquois",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.77fb8b278cce7fdd",
+      "kind": "term",
+      "en": "Ram, Portable",
+      "fr": "Bélier portatif",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.99867da1164eb328",
+      "kind": "term",
+      "en": "Rations (1 day)",
+      "fr": "Rations (1 jour)",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.d595b92321290a0e",
+      "kind": "term",
+      "en": "Rations",
+      "fr": "Rations",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.2cf664617c2df11b",
+      "kind": "term",
+      "en": "Robes",
+      "fr": "Robe",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.76ac2a9f7dd49a38",
+      "kind": "term",
+      "en": "Rope, Hempen",
+      "fr": "Corde en chanvre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.b57b8d79a7815ade",
+      "kind": "term",
+      "en": "Rope, Silk",
+      "fr": "Corde en soie",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.b6337bdcf05e243e",
+      "kind": "term",
+      "en": "Rope",
+      "fr": "Corde",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.006a933c950f8356",
+      "kind": "term",
+      "en": "Sack",
+      "fr": "Sac",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.327f4013bfaca1eb",
+      "kind": "term",
+      "en": "Sealing Wax",
+      "fr": "Cire à cacheter",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.1e4706405c5e8988",
+      "kind": "term",
+      "en": "Shovel",
+      "fr": "Pelle",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.8c021060fbe27366",
+      "kind": "term",
+      "en": "Signal Whistle",
+      "fr": "Sifflet",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.4991c7eb4709d5d7",
+      "kind": "term",
+      "en": "Signet Ring",
+      "fr": "Chevalière",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.8bc81bb8ff09d50a",
+      "kind": "term",
+      "en": "Soap",
+      "fr": "Savon",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.5960a44a15a409ee",
+      "kind": "term",
+      "en": "Spellbook",
+      "fr": "Grimoire",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.6db6b286bcd1d9eb",
+      "kind": "term",
+      "en": "Spikes, Iron",
+      "fr": "Pointes en fer",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.da9188c97a12f1bd",
+      "kind": "term",
+      "en": "Spyglass",
+      "fr": "Longue-vue",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.8c55a1f5336b97b2",
+      "kind": "term",
+      "en": "Tent, Two-Person",
+      "fr": "Tente pour deux personnes",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.6bfd456a621d3f12",
+      "kind": "term",
+      "en": "Tinderbox",
+      "fr": "Boîte à amadou",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.dcc578acd71a7bf2",
+      "kind": "term",
+      "en": "Torch",
+      "fr": "Torche",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.1519d03a529e521d",
+      "kind": "term",
+      "en": "Vial",
+      "fr": "Fiole",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.6d072346c9c1298b",
+      "kind": "term",
+      "en": "Waterskin",
+      "fr": "Outre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.2f582321915f36d6",
+      "kind": "term",
+      "en": "Whetstone",
+      "fr": "Pierre à aiguiser",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.7b349b6f8412f5da",
+      "kind": "term",
+      "en": "Ball Bearings",
+      "fr": "Billes métalliques",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.28988c078135fd57",
+      "kind": "term",
+      "en": "Caltrops",
+      "fr": "Chausse-trappes",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.423c677c12e0b601",
+      "kind": "term",
+      "en": "Arrows",
+      "fr": "Flèches",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.9b7bde5a3e286036",
+      "kind": "term",
+      "en": "Crossbow Bolts",
+      "fr": "Carreaux d’arbalète",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.b523ea9be576f50e",
+      "kind": "term",
+      "en": "Sling Bullets",
+      "fr": "Billes de fronde",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.a616ca0fc111cda7",
+      "kind": "term",
+      "en": "Arcane Focus",
+      "fr": "Focaliseur arcanique",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.8bf020d74731d6ef",
+      "kind": "term",
+      "en": "Druidic Focus",
+      "fr": "Focaliseur druidique",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.b8c18c6a3877270c",
+      "kind": "term",
+      "en": "Crystal",
+      "fr": "Cristal",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.8483460e43ab483c",
+      "kind": "term",
+      "en": "Orb",
+      "fr": "Orbe",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.a612a5f4c623bee0",
+      "kind": "term",
+      "en": "Rod",
+      "fr": "Sceptre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.681927e34b77e4b9",
+      "kind": "term",
+      "en": "Staff",
+      "fr": "Bâton",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.3e7962d21cc549dd",
+      "kind": "term",
+      "en": "Wand",
+      "fr": "Baguette",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.e1d6f36ef4272079",
+      "kind": "term",
+      "en": "Sprig of Mistletoe",
+      "fr": "Brin de gui",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.6009ecc66848f2c1",
+      "kind": "term",
+      "en": "Wooden Staff",
+      "fr": "Bâton en bois",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.1f3a78a0404c4c65",
+      "kind": "term",
+      "en": "Dungeoneer's Pack",
+      "fr": "Sac d’exploration souterraine",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.ab785bb3f1b9c97c",
+      "kind": "term",
+      "en": "Explorer's Pack",
+      "fr": "Sac d’explorateur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.213d75c1102303e3",
+      "kind": "term",
+      "en": "Burglar's Pack",
+      "fr": "Sac de cambrioleur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.859ceaba856ffcda",
+      "kind": "term",
+      "en": "Diplomat's Pack",
+      "fr": "Sac de diplomate",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.b92f6a112cc1edb3",
+      "kind": "term",
+      "en": "Entertainer's Pack",
+      "fr": "Sac d’artiste",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.2875510d19badc81",
+      "kind": "term",
+      "en": "Priest's Pack",
+      "fr": "Sac d’ecclésiastique",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.a69e3cef77cd6ee0",
+      "kind": "term",
+      "en": "Scholar's Pack",
+      "fr": "Sac d’érudit",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.4220ea79d58b05cf",
+      "kind": "term",
+      "en": "Alchemist's Supplies",
+      "fr": "Matériel d’alchimiste",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.77983cd307f9094b",
+      "kind": "term",
+      "en": "Brewer's Supplies",
+      "fr": "Matériel de brasseur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.96196069fed84eee",
+      "kind": "term",
+      "en": "Cobbler's Tools",
+      "fr": "Outils de cordonnier",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.eedcfcf8a464b4b5",
+      "kind": "term",
+      "en": "Glassblower's Tools",
+      "fr": "Outils de souffleur de verre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.b53f4d63b97e3b46",
+      "kind": "term",
+      "en": "Jeweler's Tools",
+      "fr": "Outils de joaillier",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.518ab24cc726b330",
+      "kind": "term",
+      "en": "Painter's Supplies",
+      "fr": "Matériel de peintre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.bac7ef63f4aa908e",
+      "kind": "term",
+      "en": "Disguise Kit",
+      "fr": "Accessoires de déguisement",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.ecb9f77ed931fb23",
+      "kind": "term",
+      "en": "Poisoner's Kit",
+      "fr": "Matériel d’empoisonneur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.74c085d5fcccb6a7",
+      "kind": "term",
+      "en": "Musical Instrument",
+      "fr": "Instrument de musique",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.9c4927484e597a02",
+      "kind": "term",
+      "en": "Gaming Set",
+      "fr": "Jeu",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.1a3224e1647373c2",
+      "kind": "term",
+      "en": "Dice Set",
+      "fr": "Dés à jouer",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.b28ab4c725b0dbe3",
+      "kind": "term",
+      "en": "Playing Card Set",
+      "fr": "Jeu de cartes",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.b5b32bd9b874b8ea",
+      "kind": "term",
+      "en": "Lute",
+      "fr": "Luth",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.90bd676e9f0637d5",
+      "kind": "term",
+      "en": "Flute",
+      "fr": "Flûte",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.1d506926a25746f8",
+      "kind": "term",
+      "en": "Drum",
+      "fr": "Tambour",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.9ebf503462b39881",
+      "kind": "term",
+      "en": "Horn",
+      "fr": "Cor",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.2f1938febc2ae358",
+      "kind": "term",
+      "en": "Viol",
+      "fr": "Viole",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.d74f2a0f451c1db5",
+      "kind": "term",
+      "en": "Bagpipes",
+      "fr": "Cornemuse",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.49142fc6ea9aff20",
+      "kind": "term",
+      "en": "Land Vehicles",
+      "fr": "Véhicules terrestres",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.5376711b25b7aceb",
+      "kind": "term",
+      "en": "Water Vehicles",
+      "fr": "Véhicules aquatiques",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.02f81c851bb7db05",
+      "kind": "term",
+      "en": "Copper Pieces",
+      "fr": "Pièces de cuivre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.447f48ca792de991",
+      "kind": "term",
+      "en": "Silver Pieces",
+      "fr": "Pièces d’argent",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.80efd573b8fac963",
+      "kind": "term",
+      "en": "Electrum Pieces",
+      "fr": "Pièces d’électrum",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.e8235c9bd6c4adb2",
+      "kind": "term",
+      "en": "Platinum Pieces",
+      "fr": "Pièces de platine",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.c3f761e1cfcb2688",
+      "kind": "term",
+      "en": "Copper Piece",
+      "fr": "Pièce de cuivre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.e645d51d926d7fec",
+      "kind": "term",
+      "en": "Silver Piece",
+      "fr": "Pièce d’argent",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.f29bc8fdba30a904",
+      "kind": "term",
+      "en": "Electrum Piece",
+      "fr": "Pièce d’électrum",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.7c18e7394cf08fab",
+      "kind": "term",
+      "en": "Gold Piece",
+      "fr": "Pièce d’or",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.69222656ee5b2e26",
+      "kind": "term",
+      "en": "Platinum Piece",
+      "fr": "Pièce de platine",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.e44b4bd707c540bc",
+      "kind": "term",
+      "en": "cp",
+      "fr": "pc",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.be18b85f77fc024d",
+      "kind": "term",
+      "en": "sp",
+      "fr": "pa",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.0e26f370b56256f2",
+      "kind": "term",
+      "en": "ep",
+      "fr": "pe",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.ce552f91e9dc7913",
+      "kind": "term",
+      "en": "gp",
+      "fr": "po",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.d53315bea08cec50",
+      "kind": "term",
+      "en": "pp",
+      "fr": "pp",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.ac37c8ed12692479",
+      "kind": "term",
+      "en": "Potion of Climbing",
+      "fr": "Potion d’escalade",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.2338030fe2b6a6e5",
+      "kind": "term",
+      "en": "Potion of Flying",
+      "fr": "Potion de vol",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.1b944d0862277033",
+      "kind": "term",
+      "en": "Potion of Invisibility",
+      "fr": "Potion d’invisibilité",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.60c819254c7d5f37",
+      "kind": "term",
+      "en": "Potion of Water Breathing",
+      "fr": "Potion de respiration aquatique",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.37346f7c0253f178",
+      "kind": "term",
+      "en": "Potion of Fire Resistance",
+      "fr": "Potion de résistance au feu",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.152f4698fa7754c7",
+      "kind": "term",
+      "en": "Potion of Speed",
+      "fr": "Potion de vitesse",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.3107d8d94cbc7488",
+      "kind": "term",
+      "en": "Spell Scroll",
+      "fr": "Parchemin de sort",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.074f82c84406e9c0",
+      "kind": "term",
+      "en": "Bag of Holding",
+      "fr": "Sac sans fond",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.b50856c5841a901f",
+      "kind": "term",
+      "en": "Bag of Tricks",
+      "fr": "Sac à malice",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.337196301ef56f55",
+      "kind": "term",
+      "en": "Boots of Elvenkind",
+      "fr": "Bottes elfiques",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.fd11bf5a4d3bb40e",
+      "kind": "term",
+      "en": "Boots of Speed",
+      "fr": "Bottes de rapidité",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.f3b8690259310384",
+      "kind": "term",
+      "en": "Boots of Striding and Springing",
+      "fr": "Bottes de sept lieues",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.1639e5a95b4d46e3",
+      "kind": "term",
+      "en": "Cloak of Elvenkind",
+      "fr": "Cape elfique",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.bffc719f82ff347d",
+      "kind": "term",
+      "en": "Cloak of Protection",
+      "fr": "Cape de protection",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.ca15cee95192abe8",
+      "kind": "term",
+      "en": "Ring of Protection",
+      "fr": "Anneau de protection",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.6791ad997940945f",
+      "kind": "term",
+      "en": "Ring of Spell Storing",
+      "fr": "Anneau de stockage de sorts",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.06e0efd035c03ca4",
+      "kind": "term",
+      "en": "Amulet of Health",
+      "fr": "Amulette de santé",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.a6d98bc0524bc540",
+      "kind": "term",
+      "en": "Gauntlets of Ogre Power",
+      "fr": "Gantelets de puissance d’ogre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.4e836f0efba2fd26",
+      "kind": "term",
+      "en": "Belt of Giant Strength",
+      "fr": "Ceinturon de force de géant",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.cb6cb77119af9f23",
+      "kind": "term",
+      "en": "Bracers of Defense",
+      "fr": "Bracelets de défense",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.fc8ba4eca9aa7590",
+      "kind": "term",
+      "en": "Goggles of Night",
+      "fr": "Lunettes de vision nocturne",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.c4ca80d8993f6a9d",
+      "kind": "term",
+      "en": "Immovable Rod",
+      "fr": "Sceptre inamovible",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.08ce6e6b95a28b76",
+      "kind": "term",
+      "en": "Pearl of Power",
+      "fr": "Perle de puissance",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.641bc097d76ac0ed",
+      "kind": "term",
+      "en": "Sending Stones",
+      "fr": "Pierres de communication",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.0be6b386dfaaa880",
+      "kind": "term",
+      "en": "Wand of Magic Missiles",
+      "fr": "Baguette de projectiles magiques",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.e185f79ad5a3f038",
+      "kind": "term",
+      "en": "Wand of the War Mage",
+      "fr": "Baguette du mage de guerre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.78de94d62df001d4",
+      "kind": "term",
+      "en": "Weapon of Warning",
+      "fr": "Arme d’alerte",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.b454f61f9ac28ede",
+      "kind": "term",
+      "en": "Winged Boots",
+      "fr": "Bottes ailées",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.ee2970d641a47733",
+      "kind": "term",
+      "en": "Attunement",
+      "fr": "Harmonisation",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.139770144064dfda",
+      "kind": "term",
+      "en": "Requires Attunement",
+      "fr": "Nécessite une harmonisation",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.7abe3ecd056b743c",
+      "kind": "term",
+      "en": "Attuned",
+      "fr": "Harmonisé",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.6624ca5a3d88ebbc",
+      "kind": "term",
+      "en": "Unattuned",
+      "fr": "Non harmonisé",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.ce9b9e6a2b753fcc",
+      "kind": "term",
+      "en": "Uncommon",
+      "fr": "Peu commun",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.291d2a97565f2e9c",
+      "kind": "term",
+      "en": "Rare",
+      "fr": "Rare",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.8945b60e2336f90e",
+      "kind": "term",
+      "en": "Very Rare",
+      "fr": "Très rare",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.c80b041f5d1d1157",
+      "kind": "term",
+      "en": "Legendary",
+      "fr": "Légendaire",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.e06171a1c467f2d4",
+      "kind": "term",
+      "en": "Artifact",
+      "fr": "Artefact",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.6abb4cb4cab7484a",
+      "kind": "term",
+      "en": "Wondrous Item",
+      "fr": "Objet merveilleux",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.090f3d942f1cd384",
+      "kind": "term",
+      "en": "Mundane",
+      "fr": "Ordinaire",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.a83b8cc620aa99cf",
+      "kind": "term",
+      "en": "Magic Item",
+      "fr": "Objet magique",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.917fab7d7c801989",
+      "kind": "term",
+      "en": "Magic Items",
+      "fr": "Objets magiques",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.d3f9533d4d14486d",
+      "kind": "term",
+      "en": "Charges",
+      "fr": "Charges",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.b40b0ea8c7273da9",
+      "kind": "term",
+      "en": "Adamantine Armor",
+      "fr": "Armure en adamantium",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.2d2b0b42fdfdd8f5",
+      "kind": "term",
+      "en": "Alchemy Jug",
+      "fr": "Cruche alchimique",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.db6a8539a4eeb240",
+      "kind": "term",
+      "en": "Ammunition, +1",
+      "fr": "Munitions +1",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.358a640bb4ba39f3",
+      "kind": "term",
+      "en": "Ammunition, +2",
+      "fr": "Munitions +2",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.d8f1c61c20e140e7",
+      "kind": "term",
+      "en": "Ammunition, +3",
+      "fr": "Munitions +3",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.b829fe0776a0d556",
+      "kind": "term",
+      "en": "Amulet of Proof against Detection and Location",
+      "fr": "Amulette d’antidétection",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.e0f521ed1866fc0a",
+      "kind": "term",
+      "en": "Amulet of the Planes",
+      "fr": "Amulette des plans",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.ea10439b51377c9b",
+      "kind": "term",
+      "en": "Animated Shield",
+      "fr": "Bouclier animé",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.cc5a7ec54b145597",
+      "kind": "term",
+      "en": "Apparatus of Kwalish",
+      "fr": "Appareil de Kwalish",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.fe58339defa1e34c",
+      "kind": "term",
+      "en": "Armor of Invulnerability",
+      "fr": "Armure d’invulnérabilité",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.ec343a71cc3a0f85",
+      "kind": "term",
+      "en": "Armor of Resistance",
+      "fr": "Armure de résistance",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.014304f8b699939f",
+      "kind": "term",
+      "en": "Armor of Vulnerability",
+      "fr": "Armure de vulnérabilité",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.d28a308fedba34a9",
+      "kind": "term",
+      "en": "Arrow of Slaying",
+      "fr": "Flèche tueuse",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.a044aa0e465ba3aa",
+      "kind": "term",
+      "en": "Arrow-Catching Shield",
+      "fr": "Bouclier antiprojectiles",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.7c16ee254a73f53c",
+      "kind": "term",
+      "en": "Bag of Devouring",
+      "fr": "Sac dévoreur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.8db1d2ecf1d820a8",
+      "kind": "term",
+      "en": "Bead of Force",
+      "fr": "Bille de force",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.f79f3cdebfbcbcbf",
+      "kind": "term",
+      "en": "Belt of Dwarvenkind",
+      "fr": "Ceinturon des nains",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.78dc01cce638cbc8",
+      "kind": "term",
+      "en": "Belt of Hill Giant Strength",
+      "fr": "Ceinturon de force de géant des collines",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.4775e742d95d43e1",
+      "kind": "term",
+      "en": "Belt of Stone Giant Strength",
+      "fr": "Ceinturon de force de géant des pierres",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.f16462e55514bf93",
+      "kind": "term",
+      "en": "Belt of Frost Giant Strength",
+      "fr": "Ceinturon de force de géant du givre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.4deec8c859713a8c",
+      "kind": "term",
+      "en": "Belt of Fire Giant Strength",
+      "fr": "Ceinturon de force de géant du feu",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.b6cd19163813e12b",
+      "kind": "term",
+      "en": "Belt of Cloud Giant Strength",
+      "fr": "Ceinturon de force de géant des nuages",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.8380f9f1d41fffc3",
+      "kind": "term",
+      "en": "Belt of Storm Giant Strength",
+      "fr": "Ceinturon de force de géant des tempêtes",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.00f81753fbb09233",
+      "kind": "term",
+      "en": "Berserker Axe",
+      "fr": "Hache du berserker",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.599c2edbabe0be32",
+      "kind": "term",
+      "en": "Boots of Levitation",
+      "fr": "Bottes de lévitation",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.9046953f879e49e8",
+      "kind": "term",
+      "en": "Boots of the Winterlands",
+      "fr": "Bottes des terres gelées",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.b312f315c049f5fe",
+      "kind": "term",
+      "en": "Bowl of Commanding Water Elementals",
+      "fr": "Bassin de contrôle des élémentaires de l’eau",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.0cf121a0d37cc1b1",
+      "kind": "term",
+      "en": "Bracers of Archery",
+      "fr": "Bracelets d’archerie",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.726be452b094617f",
+      "kind": "term",
+      "en": "Brazier of Commanding Fire Elementals",
+      "fr": "Brasero de contrôle des élémentaires du feu",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.1bfd2a252fd5de88",
+      "kind": "term",
+      "en": "Brooch of Shielding",
+      "fr": "Broche de protection",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.8dbf7a2f49776fa6",
+      "kind": "term",
+      "en": "Broom of Flying",
+      "fr": "Balai volant",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.70439e9988ade0ea",
+      "kind": "term",
+      "en": "Candle of Invocation",
+      "fr": "Chandelle d’invocation",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.585f9af41565d76c",
+      "kind": "term",
+      "en": "Cape of the Mountebank",
+      "fr": "Cape de saltimbanque",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.36368effd64eacf1",
+      "kind": "term",
+      "en": "Carpet of Flying",
+      "fr": "Tapis volant",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.64ee63313da19164",
+      "kind": "term",
+      "en": "Censer of Controlling Air Elementals",
+      "fr": "Encensoir de contrôle des élémentaires de l’air",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.c6deeb538d06a614",
+      "kind": "term",
+      "en": "Chime of Opening",
+      "fr": "Carillon d’ouverture",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.745d882ac5397751",
+      "kind": "term",
+      "en": "Circlet of Blasting",
+      "fr": "Diadème de dévastation",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.fb48949ec8203811",
+      "kind": "term",
+      "en": "Cloak of Arachnida",
+      "fr": "Cape de l’araignée",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.d8e81e6e637152fb",
+      "kind": "term",
+      "en": "Cloak of Displacement",
+      "fr": "Cape de déplacement",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.8382c0bc717de051",
+      "kind": "term",
+      "en": "Cloak of Invisibility",
+      "fr": "Cape d’invisibilité",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.0ed52f03e6def944",
+      "kind": "term",
+      "en": "Cloak of the Bat",
+      "fr": "Cape de la chauve-souris",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.03fc1a2196b8d3e6",
+      "kind": "term",
+      "en": "Cloak of the Manta Ray",
+      "fr": "Cape de la raie manta",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.a4a863612bd4ab69",
+      "kind": "term",
+      "en": "Crystal Ball",
+      "fr": "Boule de cristal",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.4a9d81c84ac38fdf",
+      "kind": "term",
+      "en": "Cube of Force",
+      "fr": "Cube de force",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.718fd17e0a697b9a",
+      "kind": "term",
+      "en": "Cubic Gate",
+      "fr": "Cube de portail",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.d8305f42002425dc",
+      "kind": "term",
+      "en": "Dagger of Venom",
+      "fr": "Dague venimeuse",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.52fc9b6d217e6082",
+      "kind": "term",
+      "en": "Dancing Sword",
+      "fr": "Épée dansante",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.5515409add766021",
+      "kind": "term",
+      "en": "Decanter of Endless Water",
+      "fr": "Carafe intarissable",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.8265b69456708210",
+      "kind": "term",
+      "en": "Deck of Illusions",
+      "fr": "Jeu d’illusions",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.6740f5bb41715f90",
+      "kind": "term",
+      "en": "Deck of Many Things",
+      "fr": "Jeu de cartes merveilleuses",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.157ddc59b5e4e7ca",
+      "kind": "term",
+      "en": "Defender",
+      "fr": "Défenderesse",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.f54781995516d938",
+      "kind": "term",
+      "en": "Demon Armor",
+      "fr": "Armure démoniaque",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.f03f1bf23753a142",
+      "kind": "term",
+      "en": "Dimensional Shackles",
+      "fr": "Menottes dimensionnelles",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.56213703dac5b9c1",
+      "kind": "term",
+      "en": "Dragon Scale Mail",
+      "fr": "Armure d’écailles de dragon",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.61c383f068cba811",
+      "kind": "term",
+      "en": "Dragon Slayer",
+      "fr": "Tueuse de dragons",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.dec7402b853962a3",
+      "kind": "term",
+      "en": "Dust of Disappearance",
+      "fr": "Poudre de disparition",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.00608e95fd64797c",
+      "kind": "term",
+      "en": "Dust of Dryness",
+      "fr": "Poudre dessiccative",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.8c7f3fc6c436fb17",
+      "kind": "term",
+      "en": "Dust of Sneezing and Choking",
+      "fr": "Poudre à éternuer et suffoquer",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.7fca62f15897131c",
+      "kind": "term",
+      "en": "Dwarven Plate",
+      "fr": "Harnois nain",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.dfd5c56f48882adb",
+      "kind": "term",
+      "en": "Dwarven Thrower",
+      "fr": "Marteau de lancer nain",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.bbe9cd557f42affa",
+      "kind": "term",
+      "en": "Efficient Quiver",
+      "fr": "Carquois efficace",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.06912669e504d148",
+      "kind": "term",
+      "en": "Efreeti Bottle",
+      "fr": "Bouteille d’éfrit",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.000233b4bf6616e7",
+      "kind": "term",
+      "en": "Elemental Gem",
+      "fr": "Gemme élémentaire",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.c12c06aa08ab26d0",
+      "kind": "term",
+      "en": "Elixir of Health",
+      "fr": "Élixir de santé",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.6ddb1b49d36535cb",
+      "kind": "term",
+      "en": "Elven Chain",
+      "fr": "Chemise de mailles elfique",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.fe1760fab84b3224",
+      "kind": "term",
+      "en": "Eversmoking Bottle",
+      "fr": "Bouteille fumigène",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.c35bf0873feb6139",
+      "kind": "term",
+      "en": "Eyes of Charming",
+      "fr": "Yeux de charme",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.bb83a1dcbab25d9a",
+      "kind": "term",
+      "en": "Eyes of Minute Seeing",
+      "fr": "Yeux de lynx",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.a9b735eb27edf2b4",
+      "kind": "term",
+      "en": "Eyes of the Eagle",
+      "fr": "Yeux d’aigle",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.fa9a46cc891db6a5",
+      "kind": "term",
+      "en": "Feather Token",
+      "fr": "Plume merveilleuse",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.8a7cdbda0067ca56",
+      "kind": "term",
+      "en": "Figurine of Wondrous Power",
+      "fr": "Statuette merveilleuse",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.61d115b98b299847",
+      "kind": "term",
+      "en": "Flame Tongue",
+      "fr": "Langue de feu",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.60283c9cbce58210",
+      "kind": "term",
+      "en": "Folding Boat",
+      "fr": "Bateau pliant",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.70807119543d2a87",
+      "kind": "term",
+      "en": "Frost Brand",
+      "fr": "Marque de givre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.d9cb5c86de99b112",
+      "kind": "term",
+      "en": "Gem of Brightness",
+      "fr": "Gemme de lumière",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.d8f6ca95b2e4f399",
+      "kind": "term",
+      "en": "Gem of Seeing",
+      "fr": "Gemme de vision",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.4724b0be50337edc",
+      "kind": "term",
+      "en": "Giant Slayer",
+      "fr": "Tueuse de géants",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.d556c0eb92f95edf",
+      "kind": "term",
+      "en": "Glamoured Studded Leather",
+      "fr": "Armure de cuir clouté glamour",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.5e26bb51cabca617",
+      "kind": "term",
+      "en": "Gloves of Missile Snaring",
+      "fr": "Gants antiprojectiles",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.4b854a2ddf0f142a",
+      "kind": "term",
+      "en": "Gloves of Swimming and Climbing",
+      "fr": "Gants de nage et d’escalade",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.ac7ba801dd0c307d",
+      "kind": "term",
+      "en": "Gloves of Thievery",
+      "fr": "Gants de vol",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.35f8036cefff6769",
+      "kind": "term",
+      "en": "Hammer of Thunderbolts",
+      "fr": "Marteau de tonnerre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.d3ebe4034e8dfb6e",
+      "kind": "term",
+      "en": "Hat of Disguise",
+      "fr": "Chapeau de déguisement",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.16cf648c8e11ca5e",
+      "kind": "term",
+      "en": "Headband of Intellect",
+      "fr": "Bandeau d’intelligence",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.4bb06db09b14dafa",
+      "kind": "term",
+      "en": "Helm of Brilliance",
+      "fr": "Heaume de brillance",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.f3be178028be6f3f",
+      "kind": "term",
+      "en": "Helm of Comprehending Languages",
+      "fr": "Heaume de compréhension des langues",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.dead2e5e877ecc31",
+      "kind": "term",
+      "en": "Helm of Telepathy",
+      "fr": "Heaume de télépathie",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.d21ee9a7e11df1d3",
+      "kind": "term",
+      "en": "Helm of Teleportation",
+      "fr": "Heaume de téléportation",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.c153e794b0c53435",
+      "kind": "term",
+      "en": "Heward's Handy Haversack",
+      "fr": "Havresac magique d’Hévard",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.0a5ca37fb943b9d2",
+      "kind": "term",
+      "en": "Handy Haversack",
+      "fr": "Havresac magique",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.d477b07ee6545d4b",
+      "kind": "term",
+      "en": "Holy Avenger",
+      "fr": "Sainte justicière",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.8b2d6dbe15411772",
+      "kind": "term",
+      "en": "Horn of Blasting",
+      "fr": "Cor de destruction",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.9ad31a7f4595bc1d",
+      "kind": "term",
+      "en": "Horn of Valhalla",
+      "fr": "Cor du Valhalla",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.509f55a411282224",
+      "kind": "term",
+      "en": "Horseshoes of a Zephyr",
+      "fr": "Fers à cheval du zéphyr",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.6bae557d51db78f4",
+      "kind": "term",
+      "en": "Horseshoes of Speed",
+      "fr": "Fers à cheval de rapidité",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.4d652c14e923cf54",
+      "kind": "term",
+      "en": "Instant Fortress",
+      "fr": "Forteresse instantanée",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.7953d659a6cd629d",
+      "kind": "term",
+      "en": "Instrument of the Bards",
+      "fr": "Instrument des bardes",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.c1044f63d75299ab",
+      "kind": "term",
+      "en": "Ioun Stone",
+      "fr": "Pierre ioun",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.d29e8946f6467e65",
+      "kind": "term",
+      "en": "Iron Bands of Binding",
+      "fr": "Bandes de fer entravantes",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.04446dda23b8397b",
+      "kind": "term",
+      "en": "Iron Flask",
+      "fr": "Flasque de fer",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.2fd6aa02c0369bb5",
+      "kind": "term",
+      "en": "Javelin of Lightning",
+      "fr": "Javeline de foudre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.2683e392a48e8db4",
+      "kind": "term",
+      "en": "Lantern of Revealing",
+      "fr": "Lanterne révélatrice",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.d4a3153ed61a62d7",
+      "kind": "term",
+      "en": "Luck Blade",
+      "fr": "Lame porte-bonheur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.4a5371b48ee7f758",
+      "kind": "term",
+      "en": "Mace of Disruption",
+      "fr": "Masse de destruction",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.c247a18cd77ceda3",
+      "kind": "term",
+      "en": "Mace of Smiting",
+      "fr": "Masse de démolition",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.e7dd8e17f988a036",
+      "kind": "term",
+      "en": "Mace of Terror",
+      "fr": "Masse terrifiante",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.77eeb20d1e147a87",
+      "kind": "term",
+      "en": "Mantle of Spell Resistance",
+      "fr": "Manteau de résistance aux sorts",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.5d1e1284203475f8",
+      "kind": "term",
+      "en": "Manual of Bodily Health",
+      "fr": "Manuel de vitalité",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.4db6649a3d72da52",
+      "kind": "term",
+      "en": "Manual of Gainful Exercise",
+      "fr": "Manuel de remise en forme",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.967e379d706ead77",
+      "kind": "term",
+      "en": "Manual of Golems",
+      "fr": "Manuel des golems",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.3d857d02b79fa880",
+      "kind": "term",
+      "en": "Manual of Quickness of Action",
+      "fr": "Manuel de vivacité",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.be7466db04897549",
+      "kind": "term",
+      "en": "Marvelous Pigments",
+      "fr": "Pigments merveilleux",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.070873f992342300",
+      "kind": "term",
+      "en": "Medallion of Thoughts",
+      "fr": "Médaillon des pensées",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.661fa0ce2633d015",
+      "kind": "term",
+      "en": "Mirror of Life Trapping",
+      "fr": "Miroir d’emprisonnement",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.2af62506fa512289",
+      "kind": "term",
+      "en": "Mithral Armor",
+      "fr": "Armure en mithral",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.772747ead4f164c8",
+      "kind": "term",
+      "en": "Necklace of Adaptation",
+      "fr": "Collier d’adaptation",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.489d0dce1cdfb4d5",
+      "kind": "term",
+      "en": "Necklace of Fireballs",
+      "fr": "Collier de boules de feu",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.4174b4916a8ee241",
+      "kind": "term",
+      "en": "Necklace of Prayer Beads",
+      "fr": "Collier de perles de prière",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.545d8e311acb69e3",
+      "kind": "term",
+      "en": "Nine Lives Stealer",
+      "fr": "Voleuse de neuf vies",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.4a7d67f88fcc5344",
+      "kind": "term",
+      "en": "Oathbow",
+      "fr": "Arc du serment",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.39ea83117ebf88ce",
+      "kind": "term",
+      "en": "Oil of Etherealness",
+      "fr": "Huile éthérée",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.88a98aec833f449f",
+      "kind": "term",
+      "en": "Oil of Sharpness",
+      "fr": "Huile d’affûtage",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.ac922b337343ee84",
+      "kind": "term",
+      "en": "Oil of Slipperiness",
+      "fr": "Huile glissante",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.12cec68f0e36cbc1",
+      "kind": "term",
+      "en": "Periapt of Health",
+      "fr": "Périapte de santé",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.0a67d5f8f8bb7371",
+      "kind": "term",
+      "en": "Periapt of Proof against Poison",
+      "fr": "Périapte de protection contre le poison",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.762900c5dbc64ed7",
+      "kind": "term",
+      "en": "Periapt of Wound Closure",
+      "fr": "Périapte de cicatrisation",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.aa376a3c8b7399ea",
+      "kind": "term",
+      "en": "Philter of Love",
+      "fr": "Philtre d’amour",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.8c1b24e77f50fdd6",
+      "kind": "term",
+      "en": "Pipes of Haunting",
+      "fr": "Flûte terrifiante",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.e5bfb6faa847e1ad",
+      "kind": "term",
+      "en": "Pipes of the Sewers",
+      "fr": "Flûte des égouts",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.a4e0e81e3c323613",
+      "kind": "term",
+      "en": "Plate Armor of Etherealness",
+      "fr": "Harnois éthéré",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.6c441b49ad68f9f5",
+      "kind": "term",
+      "en": "Portable Hole",
+      "fr": "Trou portable",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.9a2cf59c05fd3335",
+      "kind": "term",
+      "en": "Potion of Animal Friendship",
+      "fr": "Potion d’amitié avec les animaux",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.25ed525ffb19a251",
+      "kind": "term",
+      "en": "Potion of Clairvoyance",
+      "fr": "Potion de clairvoyance",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.16b984d0ac8a526f",
+      "kind": "term",
+      "en": "Potion of Diminution",
+      "fr": "Potion de rétrécissement",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.3ddb5cc33d78d6c0",
+      "kind": "term",
+      "en": "Potion of Gaseous Form",
+      "fr": "Potion de forme gazeuse",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.567e6ce99648a9ff",
+      "kind": "term",
+      "en": "Potion of Giant Strength",
+      "fr": "Potion de force de géant",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.839cada4ffa9571f",
+      "kind": "term",
+      "en": "Potion of Growth",
+      "fr": "Potion de croissance",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.4446276b9a99edf2",
+      "kind": "term",
+      "en": "Potion of Heroism",
+      "fr": "Potion d’héroïsme",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.7215ecfba6225d08",
+      "kind": "term",
+      "en": "Potion of Mind Reading",
+      "fr": "Potion de lecture des pensées",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.db3828a01d2f0421",
+      "kind": "term",
+      "en": "Potion of Poison",
+      "fr": "Potion de poison",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.086779c5ce5b6d11",
+      "kind": "term",
+      "en": "Potion of Resistance",
+      "fr": "Potion de résistance",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.3718b2f2d281caf9",
+      "kind": "term",
+      "en": "Potion of Vitality",
+      "fr": "Potion de vitalité",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.04c604d9bb911ee6",
+      "kind": "term",
+      "en": "Restorative Ointment",
+      "fr": "Onguent réparateur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.c86f2e01e5d16179",
+      "kind": "term",
+      "en": "Ring of Animal Influence",
+      "fr": "Anneau d’influence sur les animaux",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.f7ec45ce643dca20",
+      "kind": "term",
+      "en": "Ring of Evasion",
+      "fr": "Anneau d’esquive totale",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.01e1f4df4d123f80",
+      "kind": "term",
+      "en": "Ring of Feather Falling",
+      "fr": "Anneau de feuille morte",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.e56919057e1c7a94",
+      "kind": "term",
+      "en": "Ring of Free Action",
+      "fr": "Anneau de liberté d’action",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.12853cb576169439",
+      "kind": "term",
+      "en": "Ring of Invisibility",
+      "fr": "Anneau d’invisibilité",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.8badf375150b915a",
+      "kind": "term",
+      "en": "Ring of Jumping",
+      "fr": "Anneau de saut",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.0d5dc5e0e51b7c71",
+      "kind": "term",
+      "en": "Ring of Mind Shielding",
+      "fr": "Anneau de protection mentale",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.f0fdd1272ceb6f4f",
+      "kind": "term",
+      "en": "Ring of Regeneration",
+      "fr": "Anneau de régénération",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.9de56af02993d3a2",
+      "kind": "term",
+      "en": "Ring of Resistance",
+      "fr": "Anneau de résistance",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.73dfd6ebb98334f5",
+      "kind": "term",
+      "en": "Ring of Shooting Stars",
+      "fr": "Anneau d’étoiles filantes",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.2efe11a5a0f9bff4",
+      "kind": "term",
+      "en": "Ring of Spell Turning",
+      "fr": "Anneau de renvoi des sorts",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.991adecbb9689806",
+      "kind": "term",
+      "en": "Ring of Swimming",
+      "fr": "Anneau de nage",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.6b6a0487b174962b",
+      "kind": "term",
+      "en": "Ring of Telekinesis",
+      "fr": "Anneau de télékinésie",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.8817a75e8cd17915",
+      "kind": "term",
+      "en": "Ring of the Ram",
+      "fr": "Anneau du bélier",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.cd6b8496569b91fa",
+      "kind": "term",
+      "en": "Ring of Three Wishes",
+      "fr": "Anneau de trois souhaits",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.04fe465ae21e1d08",
+      "kind": "term",
+      "en": "Ring of Warmth",
+      "fr": "Anneau de chaleur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.8ec2cc16e52a1f29",
+      "kind": "term",
+      "en": "Ring of Water Walking",
+      "fr": "Anneau de marche sur l’eau",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.3e779ac09c945180",
+      "kind": "term",
+      "en": "Ring of X-ray Vision",
+      "fr": "Anneau de vision aux rayons X",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.9dfe04542852eb00",
+      "kind": "term",
+      "en": "Robe of Eyes",
+      "fr": "Robe aux yeux multiples",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.7ca49e1870aa4253",
+      "kind": "term",
+      "en": "Robe of Scintillating Colors",
+      "fr": "Robe aux couleurs scintillantes",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.7d047180265c4c15",
+      "kind": "term",
+      "en": "Robe of Stars",
+      "fr": "Robe d’étoiles",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.a518d07b86f114cc",
+      "kind": "term",
+      "en": "Robe of the Archmagi",
+      "fr": "Robe de l’archimage",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.8d3656d2ce15b3c8",
+      "kind": "term",
+      "en": "Robe of Useful Items",
+      "fr": "Robe d’objets utiles",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.4fcb84fe1bbd6451",
+      "kind": "term",
+      "en": "Rod of Absorption",
+      "fr": "Sceptre d’absorption",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.9c7be41d5821b949",
+      "kind": "term",
+      "en": "Rod of Alertness",
+      "fr": "Sceptre de vigilance",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.69cdf3b9ec276533",
+      "kind": "term",
+      "en": "Rod of Lordly Might",
+      "fr": "Sceptre de puissance seigneuriale",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.d58c27f8671926c9",
+      "kind": "term",
+      "en": "Rod of Rulership",
+      "fr": "Sceptre de suzeraineté",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.f0b89d0754db3b1d",
+      "kind": "term",
+      "en": "Rod of Security",
+      "fr": "Sceptre de sécurité",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.933c38d36752f095",
+      "kind": "term",
+      "en": "Rope of Climbing",
+      "fr": "Corde d’escalade",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.e88c1fb4cefd48e9",
+      "kind": "term",
+      "en": "Rope of Entanglement",
+      "fr": "Corde d’enchevêtrement",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.5be1e86e78c52b12",
+      "kind": "term",
+      "en": "Scarab of Protection",
+      "fr": "Scarabée de protection",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.547d574ecd8c1f53",
+      "kind": "term",
+      "en": "Scimitar of Speed",
+      "fr": "Cimeterre de célérité",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.1f78cb9f58a4a5f0",
+      "kind": "term",
+      "en": "Shield of Missile Attraction",
+      "fr": "Bouclier d’attraction des projectiles",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.7551a3f22f4fed78",
+      "kind": "term",
+      "en": "Slippers of Spider Climbing",
+      "fr": "Chaussons d’araignée",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.43769eeaa1c2004d",
+      "kind": "term",
+      "en": "Sovereign Glue",
+      "fr": "Colle universelle",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.03eb137a79798561",
+      "kind": "term",
+      "en": "Spellguard Shield",
+      "fr": "Bouclier de résistance aux sorts",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.195cf916f34e93db",
+      "kind": "term",
+      "en": "Staff of Charming",
+      "fr": "Bâton de charme",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.b949e123ca7a1f8c",
+      "kind": "term",
+      "en": "Staff of Fire",
+      "fr": "Bâton de feu",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.12cce28e437bb04f",
+      "kind": "term",
+      "en": "Staff of Frost",
+      "fr": "Bâton de givre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.d2d6c54d3774e165",
+      "kind": "term",
+      "en": "Staff of Healing",
+      "fr": "Bâton de guérison",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.e43d7c400d3478eb",
+      "kind": "term",
+      "en": "Staff of Power",
+      "fr": "Bâton de puissance",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.d832e74e45184090",
+      "kind": "term",
+      "en": "Staff of Striking",
+      "fr": "Bâton de frappe",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.dbcb73135a472d88",
+      "kind": "term",
+      "en": "Staff of Swarming Insects",
+      "fr": "Bâton de nuée d’insectes",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.03f40be0d340c9d2",
+      "kind": "term",
+      "en": "Staff of the Magi",
+      "fr": "Bâton du mage",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.3386e0b918e4ed92",
+      "kind": "term",
+      "en": "Staff of the Python",
+      "fr": "Bâton du python",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.38355cf38f16cf20",
+      "kind": "term",
+      "en": "Staff of the Woodlands",
+      "fr": "Bâton des forêts",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.ccf22899adaa739a",
+      "kind": "term",
+      "en": "Staff of Thunder and Lightning",
+      "fr": "Bâton de tonnerre et de foudre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.ffa85f55820aa5a2",
+      "kind": "term",
+      "en": "Staff of Withering",
+      "fr": "Bâton de flétrissement",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.d4b552da0b712cc9",
+      "kind": "term",
+      "en": "Stone of Controlling Earth Elementals",
+      "fr": "Pierre de contrôle des élémentaires de la terre",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.91e47e4926e54056",
+      "kind": "term",
+      "en": "Stone of Good Luck",
+      "fr": "Pierre porte-bonheur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.9ec828513fe9b330",
+      "kind": "term",
+      "en": "Luckstone",
+      "fr": "Pierre porte-bonheur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.d0fafebe210148b5",
+      "kind": "term",
+      "en": "Sun Blade",
+      "fr": "Lame solaire",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.77a0c866c065d530",
+      "kind": "term",
+      "en": "Sword of Life Stealing",
+      "fr": "Épée voleuse de vie",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.9173429dab2ece81",
+      "kind": "term",
+      "en": "Sword of Sharpness",
+      "fr": "Épée d’acuité",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.a67df29cc25eb8fe",
+      "kind": "term",
+      "en": "Sword of Wounding",
+      "fr": "Épée sanglante",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.e028fd93d71cbe5f",
+      "kind": "term",
+      "en": "Talisman of Pure Good",
+      "fr": "Talisman du bien absolu",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.136483b98877cc94",
+      "kind": "term",
+      "en": "Talisman of the Sphere",
+      "fr": "Talisman de la sphère",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.04338351f1318dd0",
+      "kind": "term",
+      "en": "Talisman of Ultimate Evil",
+      "fr": "Talisman du mal absolu",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.9541d8159ea4c445",
+      "kind": "term",
+      "en": "Tome of Clear Thought",
+      "fr": "Manuel de perspicacité",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.cf28f2d1eab2b8dc",
+      "kind": "term",
+      "en": "Tome of Leadership and Influence",
+      "fr": "Manuel de charisme et d’influence",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.9864b560dc8d1100",
+      "kind": "term",
+      "en": "Tome of Understanding",
+      "fr": "Manuel de compréhension",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.402610025412d906",
+      "kind": "term",
+      "en": "Trident of Fish Command",
+      "fr": "Trident de domination aquatique",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.e818177ec2106cc6",
+      "kind": "term",
+      "en": "Universal Solvent",
+      "fr": "Solvant universel",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.fedeb193f7a0d752",
+      "kind": "term",
+      "en": "Vicious Weapon",
+      "fr": "Arme vicieuse",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.feb4fcef752f3446",
+      "kind": "term",
+      "en": "Vorpal Sword",
+      "fr": "Épée vorpale",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.52486e29a0780fea",
+      "kind": "term",
+      "en": "Wand of Binding",
+      "fr": "Baguette d’entraves",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.1aef1fc759e66a79",
+      "kind": "term",
+      "en": "Wand of Enemy Detection",
+      "fr": "Baguette de détection des ennemis",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.d7b44482d8ada7ed",
+      "kind": "term",
+      "en": "Wand of Fear",
+      "fr": "Baguette de terreur",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.31a9fa489368a66f",
+      "kind": "term",
+      "en": "Wand of Fireballs",
+      "fr": "Baguette de boules de feu",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.5abfdacaf75c9b53",
+      "kind": "term",
+      "en": "Wand of Lightning Bolts",
+      "fr": "Baguette d’éclairs",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.ea56e9dc128d3869",
+      "kind": "term",
+      "en": "Wand of Magic Detection",
+      "fr": "Baguette de détection de la magie",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.fe48e79314003269",
+      "kind": "term",
+      "en": "Wand of Paralysis",
+      "fr": "Baguette de paralysie",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.a196d80799981b20",
+      "kind": "term",
+      "en": "Wand of Polymorph",
+      "fr": "Baguette de métamorphose",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.d76c778aa24c830f",
+      "kind": "term",
+      "en": "Wand of Secrets",
+      "fr": "Baguette des secrets",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.1a095d6fe8fa5a18",
+      "kind": "term",
+      "en": "Wand of Web",
+      "fr": "Baguette de toile d’araignée",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.9f3720fd0ed8cefe",
+      "kind": "term",
+      "en": "Wand of Wonder",
+      "fr": "Baguette merveilleuse",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.47dd19ff86672d1a",
+      "kind": "term",
+      "en": "Well of Many Worlds",
+      "fr": "Puits des mondes",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.60b34b48eb1b25c9",
+      "kind": "term",
+      "en": "Wind Fan",
+      "fr": "Éventail à bourrasque",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.b2f4e8948de50e19",
+      "kind": "term",
+      "en": "Wings of Flying",
+      "fr": "Ailes de vol",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.e38056fc09f87e66",
+      "kind": "term",
+      "en": "Charge Cost",
+      "fr": "Coût en charges",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.0bb6f899004a5316",
+      "kind": "term",
+      "en": "Remaining Charges",
+      "fr": "Charges restantes",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.05816dcff51e5d1f",
+      "kind": "term",
+      "en": "Cursed",
+      "fr": "Maudit",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.88b3d8eed54f6ff0",
+      "kind": "term",
+      "en": "Curse",
+      "fr": "Malédiction",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.be06cde0f2f35956",
+      "kind": "term",
+      "en": "Sentient",
+      "fr": "Conscient",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.5c108e70592bfa67",
+      "kind": "term",
+      "en": "Consumable",
+      "fr": "Consommable",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.7cb53ac08582f52d",
+      "kind": "term",
+      "en": "Consumables",
+      "fr": "Consommables",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.feddcf308625463b",
+      "kind": "term",
+      "en": "Rarity",
+      "fr": "Rareté",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
+    },
+    {
+      "id": "corpus.8ecf6441624b563f",
+      "kind": "term",
+      "en": "Wondrous Items",
+      "fr": "Objets merveilleux",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "labelCategory": "équipement",
+      "edition": "any"
     }
   ]
 }

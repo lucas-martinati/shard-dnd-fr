@@ -4,7 +4,6 @@ from translation_sources import source as translation_source
 Les listes FR n’ont pas toujours le même ordre que les listes EN : ne jamais
 associer deux effets seulement à partir de leur position.
 """
-from translation_sources import tsv_sources
 from pathlib import Path
 import json
 import re
@@ -44,13 +43,8 @@ def sections(text, labels):
 pairs={}
 ambiguous=set()
 skipped=[]
-reserved={key(row['en']) for row in load_packs() if row['kind']=='description'}
+reserved={key(row['en']) for row in load_packs() if row['kind']=='description' or 'inline' in row.get('usage',[])}
 # Les descriptions déjà traduites par le lexique gardent leur formulation.
-for filename in tsv_sources():
-    for line in filename.read_text().splitlines():
-        if '|' in line:
-            en=line.split('|',1)[0]
-            if len(en)>=35:reserved.add(key(en))
 for filename in ['feat-texts.json','equipment-texts.json']:
     for row in json.loads(translation_source(filename).read_text()):reserved.add(key(row['en']))
 def add(en,fr,name,strict=True,source=None):

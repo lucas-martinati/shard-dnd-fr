@@ -16,7 +16,10 @@
       "en": "Daggers",
       "fr": "Dagues",
       "source": "Traduction proposée des noms d’équipement présents sur les fiches de classe Shard · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "edition": "any"
+      "edition": "any",
+      "usage": [
+        "search"
+      ]
     },
     {
       "id": "shard.armes.plural.6444c365db",
@@ -40,7 +43,11 @@
       "en": "Gold Pieces",
       "fr": "Pièces d’or",
       "source": "Traduction proposée des noms d’équipement présents sur les fiches de classe Shard · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
-      "edition": "any"
+      "edition": "any",
+      "usage": [
+        "name",
+        "search"
+      ]
     },
     {
       "id": "mastery.cleave",
@@ -95,7 +102,13 @@
       "kind": "term",
       "en": "Mastery Properties",
       "fr": "Propriétés de botte",
-      "source": "Traduction de passages du SRD 5.2.1 EN · bottes d’arme · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+      "source": "Traduction de passages du SRD 5.2.1 EN · bottes d’arme · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Propriétés botte"
+      ]
     },
     {
       "id": "mastery.label.weapon-property",
@@ -189,266 +202,424 @@
       "kind": "term",
       "en": "Club",
       "fr": "Gourdin",
-      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
+      "usage": [
+        "name",
+        "search"
+      ]
     },
     {
       "id": "weapons.name.2",
       "kind": "term",
       "en": "Dagger",
       "fr": "Dague",
-      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
+      "usage": [
+        "name",
+        "search"
+      ]
     },
     {
       "id": "weapons.name.3",
       "kind": "term",
       "en": "Greatclub",
       "fr": "Massue",
-      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
+      "usage": [
+        "name",
+        "search"
+      ]
     },
     {
       "id": "weapons.name.4",
       "kind": "term",
       "en": "Handaxe",
       "fr": "Hachette",
-      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
+      "usage": [
+        "name",
+        "search"
+      ]
     },
     {
       "id": "weapons.name.5",
       "kind": "term",
       "en": "Javelin",
       "fr": "Javeline",
-      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
+      "usage": [
+        "name",
+        "search"
+      ]
     },
     {
       "id": "weapons.name.6",
       "kind": "term",
       "en": "Light Hammer",
       "fr": "Marteau léger",
-      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
+      "usage": [
+        "name",
+        "search"
+      ]
     },
     {
       "id": "weapons.name.7",
       "kind": "term",
       "en": "Mace",
       "fr": "Masse d’armes",
-      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
+      "usage": [
+        "name",
+        "search"
+      ]
     },
     {
       "id": "weapons.name.8",
       "kind": "term",
       "en": "Quarterstaff",
       "fr": "Bâton de combat",
-      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "aliases": [
+        "Bâton"
+      ]
     },
     {
       "id": "weapons.name.9",
       "kind": "term",
       "en": "Sickle",
       "fr": "Serpe",
-      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
+      "usage": [
+        "name",
+        "search"
+      ]
     },
     {
       "id": "weapons.name.10",
       "kind": "term",
       "en": "Spear",
       "fr": "Lance",
-      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
+      "usage": [
+        "name",
+        "search"
+      ]
     },
     {
       "id": "weapons.name.11",
       "kind": "term",
       "en": "Dart",
       "fr": "Fléchette",
-      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
+      "usage": [
+        "name",
+        "search"
+      ]
     },
     {
       "id": "weapons.name.12",
       "kind": "term",
       "en": "Light Crossbow",
       "fr": "Arbalète légère",
-      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
+      "usage": [
+        "name",
+        "search"
+      ]
     },
     {
       "id": "weapons.name.13",
       "kind": "term",
       "en": "Shortbow",
       "fr": "Arc court",
-      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
+      "usage": [
+        "name",
+        "search"
+      ]
     },
     {
       "id": "weapons.name.14",
       "kind": "term",
       "en": "Sling",
       "fr": "Fronde",
-      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
+      "usage": [
+        "name",
+        "search"
+      ]
     },
     {
       "id": "weapons.name.15",
       "kind": "term",
       "en": "Battleaxe",
       "fr": "Hache d’armes",
-      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
+      "usage": [
+        "name",
+        "search"
+      ]
     },
     {
       "id": "weapons.name.16",
       "kind": "term",
       "en": "Flail",
       "fr": "Fléau d’armes",
-      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
+      "usage": [
+        "name",
+        "search"
+      ]
     },
     {
       "id": "weapons.name.17",
       "kind": "term",
       "en": "Glaive",
       "fr": "Coutille",
-      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
+      "usage": [
+        "name",
+        "search"
+      ]
     },
     {
       "id": "weapons.name.18",
       "kind": "term",
       "en": "Greataxe",
       "fr": "Hache à deux mains",
-      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
+      "usage": [
+        "name",
+        "search"
+      ]
     },
     {
       "id": "weapons.name.19",
       "kind": "term",
       "en": "Greatsword",
       "fr": "Épée à deux mains",
-      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
+      "usage": [
+        "name",
+        "search"
+      ]
     },
     {
       "id": "weapons.name.20",
       "kind": "term",
       "en": "Halberd",
       "fr": "Hallebarde",
-      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
+      "usage": [
+        "name",
+        "search"
+      ]
     },
     {
       "id": "weapons.name.21",
       "kind": "term",
       "en": "Lance",
       "fr": "Lance d’arçon",
-      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
+      "usage": [
+        "name",
+        "search"
+      ]
     },
     {
       "id": "weapons.name.22",
       "kind": "term",
       "en": "Longsword",
       "fr": "Épée longue",
-      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
+      "usage": [
+        "name",
+        "search"
+      ]
     },
     {
       "id": "weapons.name.23",
       "kind": "term",
       "en": "Maul",
       "fr": "Maillet d’armes",
-      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "aliases": [
+        "Maillet"
+      ]
     },
     {
       "id": "weapons.name.24",
       "kind": "term",
       "en": "Morningstar",
       "fr": "Morgenstern",
-      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
+      "usage": [
+        "name",
+        "search"
+      ]
     },
     {
       "id": "weapons.name.25",
       "kind": "term",
       "en": "Pike",
       "fr": "Pique",
-      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
+      "usage": [
+        "name",
+        "search"
+      ]
     },
     {
       "id": "weapons.name.26",
       "kind": "term",
       "en": "Rapier",
       "fr": "Rapière",
-      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
+      "usage": [
+        "name",
+        "search"
+      ]
     },
     {
       "id": "weapons.name.27",
       "kind": "term",
       "en": "Scimitar",
       "fr": "Cimeterre",
-      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
+      "usage": [
+        "name",
+        "search"
+      ]
     },
     {
       "id": "weapons.name.28",
       "kind": "term",
       "en": "Shortsword",
       "fr": "Épée courte",
-      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
+      "usage": [
+        "name",
+        "search"
+      ]
     },
     {
       "id": "weapons.name.29",
       "kind": "term",
       "en": "Trident",
       "fr": "Trident",
-      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
+      "usage": [
+        "name",
+        "search"
+      ]
     },
     {
       "id": "weapons.name.30",
       "kind": "term",
       "en": "Warhammer",
       "fr": "Marteau de guerre",
-      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
+      "usage": [
+        "name",
+        "search"
+      ]
     },
     {
       "id": "weapons.name.31",
       "kind": "term",
       "en": "War Pick",
       "fr": "Pic de guerre",
-      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
+      "usage": [
+        "name",
+        "search"
+      ]
     },
     {
       "id": "weapons.name.32",
       "kind": "term",
       "en": "Whip",
       "fr": "Fouet",
-      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
+      "usage": [
+        "name",
+        "search"
+      ]
     },
     {
       "id": "weapons.name.33",
       "kind": "term",
       "en": "Blowgun",
       "fr": "Sarbacane",
-      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
+      "usage": [
+        "name",
+        "search"
+      ]
     },
     {
       "id": "weapons.name.34",
       "kind": "term",
       "en": "Hand Crossbow",
       "fr": "Arbalète de poing",
-      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
+      "usage": [
+        "name",
+        "search"
+      ]
     },
     {
       "id": "weapons.name.35",
       "kind": "term",
       "en": "Heavy Crossbow",
       "fr": "Arbalète lourde",
-      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
+      "usage": [
+        "name",
+        "search"
+      ]
     },
     {
       "id": "weapons.name.36",
       "kind": "term",
       "en": "Longbow",
       "fr": "Arc long",
-      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
+      "usage": [
+        "name",
+        "search"
+      ]
     },
     {
       "id": "weapons.name.37",
       "kind": "term",
       "en": "Musket",
       "fr": "Mousquet",
-      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
+      "usage": [
+        "name",
+        "search"
+      ]
     },
     {
       "id": "weapons.name.38",
       "kind": "term",
       "en": "Pistol",
       "fr": "Pistolet",
-      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes"
+      "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
+      "usage": [
+        "name",
+        "search"
+      ]
     },
     {
       "id": "proprietes-armes-2024.light.rule",

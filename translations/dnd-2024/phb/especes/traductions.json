@@ -6,7 +6,10 @@
       "id": "elf.fey-ancestry",
       "en": "You have Advantage on saving throws you make to avoid or end the Charmed condition.",
       "fr": "Vous avez l’Avantage aux jets de sauvegarde visant à éviter l’état Charmé ou à y mettre fin.",
-      "source": "Traduction de passages du SRD 5.2.1 EN · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd"
+      "source": "Traduction de passages du SRD 5.2.1 EN · adaptation française · CC-BY-4.0 · https://www.dndbeyond.com/srd",
+      "usage": [
+        "inline"
+      ]
     },
     {
       "id": "elf.keen-senses",
@@ -97,7 +100,10 @@
       "kind": "term",
       "en": "Draconic Ancestry",
       "fr": "Ascendance draconique",
-      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "usage": [
+        "search"
+      ]
     },
     {
       "id": "species.heading.1",
@@ -111,28 +117,49 @@
       "kind": "term",
       "en": "Dwarven Resilience",
       "fr": "Résilience naine",
-      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Résistance naine"
+      ]
     },
     {
       "id": "species.heading.3",
       "kind": "term",
       "en": "Dwarven Toughness",
       "fr": "Ténacité naine",
-      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Robustesse naine"
+      ]
     },
     {
       "id": "species.heading.4",
       "kind": "term",
       "en": "Stonecunning",
       "fr": "Connaissance de la pierre",
-      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "usage": [
+        "search"
+      ]
     },
     {
       "id": "species.heading.5",
       "kind": "term",
       "en": "Elven Lineage",
       "fr": "Lignage elfique",
-      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Lignée elfique"
+      ]
     },
     {
       "id": "species.heading.7",
@@ -153,28 +180,52 @@
       "kind": "term",
       "en": "Gnomish Lineage",
       "fr": "Lignage gnome",
-      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Lignée gnome"
+      ]
     },
     {
       "id": "species.heading.11",
       "kind": "term",
       "en": "Giant Ancestry",
       "fr": "Ascendance gigante",
-      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Ascendance des géants"
+      ]
     },
     {
       "id": "species.heading.12",
       "kind": "term",
       "en": "Large Form",
       "fr": "Forme de géant",
-      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Grande forme"
+      ]
     },
     {
       "id": "species.heading.13",
       "kind": "term",
       "en": "Powerful Build",
       "fr": "Forte carrure",
-      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Puissante carrure"
+      ]
     },
     {
       "id": "species.heading.14",
@@ -223,56 +274,93 @@
       "kind": "term",
       "en": "Halfling Nimbleness",
       "fr": "Agilité halfeline",
-      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "usage": [
+        "search"
+      ]
     },
     {
       "id": "species.heading.27",
       "kind": "term",
       "en": "Naturally Stealthy",
       "fr": "Discrétion naturelle",
-      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "usage": [
+        "search"
+      ]
     },
     {
       "id": "species.heading.28",
       "kind": "term",
       "en": "Resourceful",
       "fr": "Ingénieux",
-      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "usage": [
+        "search"
+      ]
     },
     {
       "id": "species.heading.29",
       "kind": "term",
       "en": "Skillful",
       "fr": "Compétent",
-      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Talentueux"
+      ]
     },
     {
       "id": "species.heading.30",
       "kind": "term",
       "en": "Versatile",
       "fr": "Polyvalent",
-      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "usage": [
+        "name",
+        "search"
+      ],
+      "aliases": [
+        "Polyvalente"
+      ]
     },
     {
       "id": "species.heading.31",
       "kind": "term",
       "en": "Adrenaline Rush",
       "fr": "Poussée d’adrénaline",
-      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Montée d’adrénaline"
+      ]
     },
     {
       "id": "species.heading.32",
       "kind": "term",
       "en": "Relentless Endurance",
       "fr": "Acharnement",
-      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "usage": [
+        "search"
+      ]
     },
     {
       "id": "species.heading.33",
       "kind": "term",
       "en": "Fiendish Legacy",
       "fr": "Héritage fiélon",
-      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Ascendance fiélonne"
+      ]
     },
     {
       "id": "species.heading.34",
@@ -286,7 +374,13 @@
       "kind": "term",
       "en": "Otherworldly Presence",
       "fr": "Présence d’Outremonde",
-      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Présence surnaturelle"
+      ]
     },
     {
       "id": "species.2024.dragonborn.1",
@@ -484,7 +578,10 @@
       "id": "species.2024.common.33",
       "en": "You have Darkvision with a range of 60 feet.",
       "fr": "Vous disposez de la Vision dans le noir sur une portée de 60 feet.",
-      "source": "Traduction de textes de personnage 2024 · extraits utilisateur et SRD 5.2.1"
+      "source": "Traduction de textes de personnage 2024 · extraits utilisateur et SRD 5.2.1",
+      "usage": [
+        "inline"
+      ]
     },
     {
       "id": "species.2024.common.34",
@@ -914,21 +1011,33 @@
       "kind": "term",
       "en": "Abyssal Tiefling",
       "fr": "Tieffelin abyssal",
-      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "usage": [
+        "search"
+      ]
     },
     {
       "id": "species.heading.37",
       "kind": "term",
       "en": "Chthonic Tiefling",
       "fr": "Tieffelin chtonien",
-      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "usage": [
+        "search"
+      ],
+      "aliases": [
+        "Tieffelin chthonien"
+      ]
     },
     {
       "id": "species.heading.38",
       "kind": "term",
       "en": "Infernal Tiefling",
       "fr": "Tieffelin infernal",
-      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+      "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie des espèces AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd",
+      "usage": [
+        "search"
+      ]
     },
     {
       "id": "species.goliath.origin.cloud",
@@ -1198,6 +1307,17 @@
       "en": "You know the Chill Touch cantrip and can cast it at will. When you reach 3rd level you learn False Life and when you reach 5th level you learn Ray of Enfeeblement. You can cast each of these spells once per long rest without using a spell slot. You can also cast the spell using any spell slots you have of the appropriate level.",
       "fr": "Vous connaissez le sort mineur Contact glacial et pouvez le lancer à volonté. Au niveau 3, vous apprenez Simulacre de vie, puis Rayon affaiblissant au niveau 5. Vous pouvez lancer chacun de ces sorts une fois par Repos long sans dépenser d’emplacement de sort. Vous pouvez également les lancer en dépensant vos emplacements de sort du niveau approprié.",
       "source": "Traduction française proposée du texte Shard fourni par l’utilisateur · rapport de page visible 1.17.24 · D&D 2024 PHB · 16 octobre 2026"
+    },
+    {
+      "id": "corpus.d8b608966395e63a",
+      "kind": "description",
+      "en": "You don’t need to sleep, and magic can’t put you to sleep.",
+      "fr": "Vous n’avez pas besoin de dormir et la magie ne peut pas vous endormir.",
+      "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
+      "usage": [
+        "inline"
+      ],
+      "labelCategory": "description"
     }
   ]
 }

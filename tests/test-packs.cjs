@@ -1,5 +1,9 @@
 const fs=require('node:fs'),assert=require('node:assert/strict'),{JSDOM}=require('jsdom');
-const entries=require('./translation-fixtures.cjs').entries();
+const lexicon=new Map(JSON.parse(fs.readFileSync('outputs/lexique-en-fr.json','utf8')).entries.map(row=>[row.en.toLowerCase().replace(/[’‘ʼ]/g,"'"),row.fr]));
+// Le nom publié applique toujours la priorité AideDD aux anciens libellés migrés.
+// Les dictionnaires migrés ont leur contrôle d’équivalence dédié ; leurs champs
+// courts peuvent prendre une forme contextuelle (portée, durée, etc.).
+const entries=require('./translation-fixtures.cjs').entries().filter(row=>!row.id.startsWith('corpus.')).map(row=>({...row,fr:(row.kind==='term'||row.usage?.includes('inline'))?lexicon.get(row.en.toLowerCase().replace(/[’‘ʼ]/g,"'"))||row.fr:row.fr}));
 const w=new JSDOM('<main></main>',{url:'https://play.shardtabletop.com/#play?mode=character',runScripts:'outside-only',pretendToBeVisual:true}).window,d=w.document,main=d.querySelector('main');
 for(const entry of entries){const p=d.createElement('p');p.textContent=entry.en;p.innerHTML=p.innerHTML.replace(/\b(?:\d+)?d\d+\b/g,dice=>`<b class="dodieroll">${dice}</b>`);main.append(p);}
 const original=main.textContent,blocks=[...main.children],dice=[...main.querySelectorAll('.dodieroll')],values=dice.map(e=>e.textContent);let clicks=0;dice.forEach(e=>e.onclick=()=>clicks++);

@@ -5,20 +5,37 @@
   "objectifTraductionIntegrale": false,
   "traductionIntegraleValidee": false,
   "consultation": {
-    "date": "2026-10-14",
+    "date": "2026-10-16",
     "etat": "accessible",
     "constat": "L’introduction et les crédits indiquent que la majorité du contenu vient du SRD de cinquième édition, republié sous OGL. Ce guide ne doit pas être confondu avec les sources SRD 5.2.1 EN/FR du projet. Ce constat porte sur le guide consulté ; il ne certifie pas la couverture de tout le corpus 2014."
   },
-  "chapitresReleves": [],
+  "chapitresReleves": [
+    {
+      "titre": "Equipment",
+      "releve": "2026-10-16",
+      "controle": "audit/generes/guide-equipment.json"
+    },
+    {
+      "titre": "Magic Items",
+      "releve": "2026-10-16",
+      "notices": 239,
+      "controle": "audit/generes/guide-equipment.json"
+    },
+    {
+      "titre": "Equipment List",
+      "releve": "2026-10-16",
+      "fichesOuvertes": 1372,
+      "controle": "audit/generes/guide-equipment.json"
+    }
+  ],
   "aFaire": [
-    "Conserver la compatibilité des règles et noms historiques, après les priorités PHB et MM 2024.",
-    "Inventorier les chapitres et toutes les fiches liées ; distinguer les noms, présentations et contenus complets.",
-    "Réutiliser les traductions existantes sans dupliquer les noms partagés entre éditions.",
-    "Compléter les paragraphes, listes, options, tableaux, titres et variantes manquants, puis vérifier le rendu et les liens dans Shard."
+    "Conserver la compatibilité des règles et noms historiques.",
+    "Compléter et vérifier les autres chapitres du guide, notamment les sorts, classes et espèces, selon leurs formulations propres.",
+    "Vérifier les futurs ajouts Shard et le rendu de la version installée dans Tampermonkey."
   ],
   "limites": [
     "Le rangement éditorial ne prouve pas une présence exclusive dans un livre. Les noms partagés restent stockés une seule fois et leur édition any est conservée lorsqu’aucune version précise n’est établie.",
-    "Le nombre total de fiches et de blocs à traduire reste à établir ; aucun pourcentage de couverture intégrale n’est calculé."
+    "Le contrôle d’équipement concerne les deux chapitres et les 1 372 fiches du relevé du 16 octobre 2026 ; il ne valide pas les autres chapitres du guide ni tout le corpus 2014."
   ],
   "dossierTraductions": "translations/2014",
   "sourcesShard": [

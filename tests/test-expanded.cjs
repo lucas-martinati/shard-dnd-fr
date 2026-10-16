@@ -25,6 +25,8 @@ const isTranslated=(p,r)=>p.textContent.includes(r.fr);
  await wait(()=>thauma.every((r,i)=>d.getElementById('thauma'+i).textContent===r.fr),'Thaumaturgy bullets');
  await wait(()=>rage.filter(r=>r.id.includes('.rage.')).every((r,i)=>d.getElementById('rage'+i).textContent.includes(r.fr)),'Full Rage including labels');
  await wait(()=>weaponBlocks.every(({p,row})=>isTranslated(p,row)),'Old and new weapon properties');
+ for(const {p}of weaponBlocks)assert.doesNotMatch(p.textContent,/\.\s+e\.\s/,'Une terminaison féminine ne doit pas être séparée du titre');
+ assert.equal(weaponBlocks.find(({row})=>row.id==='proprietes-armes-2024.versatile').p.querySelector('strong').textContent,'Polyvalente.');
  await wait(()=>flightBlock.textContent===flight.fr,'Draconic Flight');
  assert.equal(d.getElementById('intro-fr').textContent,'Vous simulez une chose extraordinaire, un signe de puissance surnaturelle.');assert.equal(d.getElementById('spell-light').textContent,'Lumière');
  const oldLight=weaponBlocks.find(({row})=>row.id==='proprietes-armes-2014.light').p;assert.equal(oldLight.querySelector('strong').textContent,'Légère.');

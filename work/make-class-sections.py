@@ -1,29 +1,20 @@
 """Découper les aptitudes par titres bilingues et générer les variantes de référence Shard."""
 import json
 import re
-from translation_sources import tsv_sources
 from pathlib import Path
 from translation_packs import key, signature, load_packs
-from translation_sources import source as translation_source, DICTIONARIES
+from translation_sources import source as translation_source
 
 ROOT = Path(__file__).resolve().parent.parent
 TABLE = json.loads((ROOT/'translations/dnd-2024/phb/classes/sections-bilingues.json').read_text())['headings']
 ROWS = json.loads((ROOT/'work/generated/class-texts.json').read_text())
-existing_pairs={key(r['en']):r['fr'] for r in load_packs() if r['kind']=='description'}
+existing_pairs={key(r['en']):r['fr'] for r in load_packs() if r['kind']=='description' or ('inline' in r.get('usage',[]) and len(r['en'])>=35)}
 reserved=set(existing_pairs)
-for path in tsv_sources():
-    for line in path.read_text().splitlines():
-        if line.count('|')==1 and len(line.split('|')[0])>=35:
-            en,fr=line.split('|');reserved.add(key(en));existing_pairs.setdefault(key(en),fr)
 for filename in ['work/generated/feat-texts.json','translations/dnd-2024/phb/objets/descriptions-srd.json']:
     for row in json.loads((ROOT/filename).read_text()):
         reserved.add(key(row['en']));existing_pairs[key(row['en'])]=row['fr']
 pairs, ambiguous = {}, set()
 canonical={}
-for _,name in DICTIONARIES:
-    for line in translation_source(name+'.tsv').read_text().splitlines():
-        if line.count('|')==1:
-            en,fr=line.split('|');canonical[key(en)]=fr
 canonical.update({key(row['en']):row['fr'] for row in load_packs() if row['kind']=='term'})
 
 
@@ -55,8 +46,8 @@ def positions(text, language):
 
 
 class_order=list(dict.fromkeys(row['class'] for row in ROWS))
-subclass_names=[line.split('|') for line in translation_source('creation-2024.tsv').read_text().splitlines()[:48]]
-subclass_groups={cls:subclass_names[i*4:(i+1)*4] for i,cls in enumerate(class_order)}
+subclass_names=json.loads((ROOT/'translations/dnd-2024/phb/classes/sous-classes.json').read_text())
+subclass_groups={cls:[(en,canonical[key(en)]) for en in subclass_names[cls]] for cls in class_order}
 for row in ROWS:
     source='SRD 5.2.1 EN/FR · sous-section de '+row['class']+' / '+row['name']
     en,fr=row['en'],row['fr']

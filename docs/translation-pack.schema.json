@@ -59,9 +59,12 @@
             }
           },
           "aliases": {
-            "description": "Noms alternatifs de recherche pour un libellé, notamment ses anciennes traductions françaises.",
+            "description": "Noms français alternatifs pour la recherche et la conservation des liens ou emphases : anciens noms et variantes grammaticales.",
             "type": "array",
-            "items": { "type": "string", "minLength": 1 }
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
           },
           "source": {
             "type": "string",
@@ -73,6 +76,23 @@
               "2024",
               "any"
             ]
+          },
+          "usage": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "enum": [
+                "name",
+                "spell",
+                "search",
+                "inline"
+              ]
+            },
+            "description": "Comportements conservés : nom bilingue, nom de sort en prose, recherche et remplacement historique en ligne."
+          },
+          "labelCategory": {
+            "type": "string",
+            "minLength": 1
           }
         },
         "additionalProperties": false
@@ -83,8 +103,22 @@
     }
   },
   "anyOf": [
-    { "required": ["source"] },
-    { "properties": { "entries": { "items": { "required": ["source"] } } } }
+    {
+      "required": [
+        "source"
+      ]
+    },
+    {
+      "properties": {
+        "entries": {
+          "items": {
+            "required": [
+              "source"
+            ]
+          }
+        }
+      }
+    }
   ],
   "additionalProperties": false
 }

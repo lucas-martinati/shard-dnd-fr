@@ -7,7 +7,7 @@ const html=`<article><h2>Fire Bolt</h2><h3>Une aptitude mystérieuse</h3><div cl
 const w=new JSDOM(html,{url:'https://play.shardtabletop.com/#spell?private=PRIVATE_URL',runScripts:'outside-only',pretendToBeVisual:true}).window,d=w.document;
 const metadata=d.createElement('section');
 metadata.innerHTML='<button id="subclasses">Subclasses</button><div class="mv1 titletext"><i><b title="Unknown Adventure Guide">Source. </b><a>Unknown Adventure Guide</a></i></div><span title="D&amp;D 2024 PHB" aria-label="Shard Tabletop">Source:</span>';
-const ignoredLabels=['D&D 2024 PHB','D&D 2024 MM','D&D 2014 DMG','D&D 2024 Player’s Handbook','Monster Manual (2024)',"Shard Player’s Guide Volume 1",'SRD 5.2.1','Shard Tabletop','Shard Tabletap','Shard','Source','Source.','Sources:','Source. D&D 2024 PHB','Sources: Shard Tabletop','Source: Unknown Adventure Guide','Unknown Adventure Guide'];
+const ignoredLabels=['D&D 2024 PHB','D&D 2024 MM','D&D 2014 DMG','D&D 2024 Player’s Handbook','Monster Manual (2024)',"Shard Player’s Guide Volume 1",'SRD 5.2.1','Shard Tabletop','Shard Tabletap','Shard','Source','Source.','Sources:','Source. D&D 2024 PHB',"Source. Shard Player’s Guide Volume 1, D&D 2024 PHB", "Source. Shard Player’s Guide Volume 1, Shard Bestiary Volume 1",'Sources: Shard Tabletop','Source: Unknown Adventure Guide','Unknown Adventure Guide'];
 const ignoredNodes=ignoredLabels.map(text=>{const el=d.createElement('span');el.textContent=text;metadata.append(el);return el;});
 const bookMention='You gain a BOOK_MENTION unknown power from D&D 2024 PHB.';
 const appMention='You gain an APP_MENTION unknown power in Shard Tabletop.';

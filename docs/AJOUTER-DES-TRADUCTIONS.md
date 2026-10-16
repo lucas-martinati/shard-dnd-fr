@@ -25,7 +25,7 @@ Le schéma fournit l’aide à la saisie dans les éditeurs compatibles JSON Sch
 
 Pour un petit libellé, ajouter `"kind": "term"`. Pour une description, `kind` est facultatif. Les noms déjà référencés par AideDD conservent la priorité AideDD.
 
-Un libellé peut conserver des noms alternatifs de recherche avec `"aliases": ["Ancien nom français"]`. Ces noms n’ajoutent pas de traductions anglaises et ne remplacent pas le nom affiché. Les noms d’objets, armes, monstres, sorts, dons, aptitudes et espèces des packs alimentent aussi les suggestions FR → EN des champs Shard.
+Un libellé peut conserver des noms alternatifs de recherche avec `"aliases": ["Ancien nom français"]`. Ces noms n’ajoutent pas de traductions anglaises et ne remplacent pas le nom affiché. Les alias servent aussi à reconnaître les noms des liens et les variantes grammaticales des titres dans une description française, pour conserver les éléments interactifs et le gras. Les noms d’objets, armes, monstres, sorts, dons, aptitudes et espèces des packs alimentent aussi les suggestions FR → EN des champs Shard.
 
 ## Paragraphes, variantes et valeurs
 
@@ -94,7 +94,7 @@ Les poids isolés tels que `0.25 lb.` et les fragments composés uniquement de v
 
 `--labels` inclut les boutons, liens, options avec valeur et attributs d'affichage inconnus. Il sert à repérer les commandes de navigation que l'heuristique de prose ne voit pas. Ses candidats peuvent être des noms propres ou des textes déjà français : il faut les trier. Les valeurs des champs et les éditeurs restent exclus, et les noms du catalogue AideDD sont reconnus.
 
-Tous les dictionnaires et descriptions sont rangés dans les catégories de `translations/`. `work/` contient les outils ; leurs fichiers intermédiaires sont dans `work/generated/`. `sources-generation/` identifie les entrées techniques et `audit/` les inventaires et rapports. Les aptitudes et options issues du SRD sont éditables dans `translations/dnd-2024/phb/classes/descriptions-srd.json` et `options-srd.json`. Le build ne lit plus d’extraits PDF.
+Tous les libellés et descriptions sont rangés dans les catégories de `translations/`. `work/` contient les outils ; leurs fichiers intermédiaires sont dans `work/generated/`. `sources-generation/` identifie les entrées techniques et `audit/` les inventaires et rapports. Les aptitudes et options issues du SRD sont éditables dans `translations/dnd-2024/phb/classes/descriptions-srd.json` et `options-srd.json`. Le build ne lit plus d’extraits PDF.
 
 Les catégories sont `sorts`, `dons`, `classes`, `especes`, `objets`, `armes`, `monstres`, `regles` et `interface`. Il ne faut plus créer de fichier par personnage, niveau ou correction. Les aptitudes, sous-classes, métamagies et manifestations vont dans `classes/` ; les styles de combat et dons dans `dons/`.
 
@@ -149,3 +149,7 @@ Dans `options-srd.json`, chaque entrée possède son `kind` (`metamagic` ou `inv
 `npm run translations:check` valide aussi ces corpus : valeurs numériques, ordre des dés, identifiants, classes, niveaux et blocs obligatoires. Les générateurs préparent leurs copies dans `work/generated/` sans extraction de PDF. Modifier les sources dans le PHB, jamais les copies intermédiaires. Voir [l’attribution SRD](../translations/dnd-2024/phb/SOURCES-SRD.md).
 
 Les descriptions locales dont la source commence par « Traduction de » ou « Traduction proposée » ont priorité sur les paires distantes mises en cache. Cela maintient la cohérence entre un paragraphe corrigé et les liens qu’il contient. L’analyse de page attend que la file de traduction soit terminée ; effacer les résultats ou changer de page annule une analyse en attente.
+
+## Usages des entrées migrées
+
+Les anciens dictionnaires sont intégrés aux packs JSON. `usage` conserve leurs comportements : `name` pour le bilingue, `spell` pour les noms de sorts en prose, `search` pour les suggestions et `inline` pour les correspondances historiques également utilisées en remplacement de texte. `labelCategory` conserve, si nécessaire, la catégorie affichée du lexique. Une description avec `inline` peut conserver ses anciens `aliases`. Les nouvelles descriptions ordinaires n’ont pas besoin de ces champs. Voir [les données générées](DONNEES-GENEREES.md).
