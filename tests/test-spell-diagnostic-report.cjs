@@ -2,6 +2,8 @@ const fs=require('node:fs'),assert=require('node:assert/strict'),{JSDOM}=require
 const previous=JSON.parse(fs.readFileSync('tests/fixtures/diagnostic-spell-descriptions-11719.json','utf8'));
 const fixture=JSON.parse(fs.readFileSync('tests/fixtures/diagnostic-spell-descriptions-11720.json','utf8'));
 const cases=[...fixture.cases,...fixture.extraCases];
+const report11741=JSON.parse(fs.readFileSync('tests/fixtures/spell-report-11741.json','utf8'));
+assert.equal(report11741.cases.length,report11741.reportedMissingCount);cases.push(...report11741.cases);
 assert.equal(fixture.previouslyCovered,23);assert.equal(fixture.newCorrespondences,95);assert.equal(fixture.attachmentTruncated,true);
 for(const old of previous){const current=fixture.cases.find(row=>row.en===old.en);assert.ok(current);assert.equal(current.fr,old.fr,'Le lot précédent ne doit pas être réécrit');}
 const w=new JSDOM('<main class="pre-wrap"></main>',{url:'https://play.shardtabletop.com/#spell',runScripts:'outside-only',pretendToBeVisual:true}).window,d=w.document,main=d.querySelector('main');let blob;const dice=[],links=[];

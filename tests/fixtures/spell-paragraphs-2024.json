@@ -1,5 +1,23 @@
 [
   {
+    "id": "spell.2024.cloud-of-daggers.material",
+    "spell": "Cloud of Daggers",
+    "en": "a sliver of glass",
+    "fr": "un éclat de verre"
+  },
+  {
+    "id": "spell.2024.cloud-of-daggers.components-value",
+    "spell": "Cloud of Daggers",
+    "en": "V, S, M (a sliver of glass)",
+    "fr": "V, S, M (un éclat de verre)"
+  },
+  {
+    "id": "spell.2024.cloud-of-daggers.components",
+    "spell": "Cloud of Daggers",
+    "en": "Components: V, S, M (a sliver of glass)",
+    "fr": "Composantes : V, S, M (un éclat de verre)"
+  },
+  {
     "id": "spell.2024.speak-with-animals.communication",
     "spell": "Speak with Animals",
     "en": "For the duration, you can comprehend and verbally communicate with Beasts, and you can use any of the Influence action’s skill options with them.",

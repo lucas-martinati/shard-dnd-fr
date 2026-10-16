@@ -3,6 +3,27 @@
   "edition": "2024",
   "entries": [
     {
+      "id": "spell.2024.cloud-of-daggers.material",
+      "kind": "term",
+      "usage": [],
+      "labelCategory": "vocabulaire",
+      "en": "a sliver of glass",
+      "fr": "un éclat de verre",
+      "source": "Traduction proposée de l’extrait utilisateur · Nuée de dagues, composante matérielle · D&D 2024 PHB · 16 octobre 2026"
+    },
+    {
+      "id": "spell.2024.cloud-of-daggers.components-value",
+      "en": "V, S, M (a sliver of glass)",
+      "fr": "V, S, M (un éclat de verre)",
+      "source": "Traduction proposée de l’extrait utilisateur · Nuée de dagues, composantes · D&D 2024 PHB · 16 octobre 2026"
+    },
+    {
+      "id": "spell.2024.cloud-of-daggers.components",
+      "en": "Components: V, S, M (a sliver of glass)",
+      "fr": "Composantes : V, S, M (un éclat de verre)",
+      "source": "Traduction proposée de l’extrait utilisateur · Nuée de dagues, ligne complète des composantes · D&D 2024 PHB · 16 octobre 2026"
+    },
+    {
       "id": "spell.2024.speak-with-animals.communication",
       "en": "For the duration, you can comprehend and verbally communicate with Beasts, and you can use any of the Influence action’s skill options with them.",
       "fr": "Pendant toute la durée du sort, vous pouvez comprendre les Bêtes et communiquer verbalement avec elles. Vous pouvez utiliser avec elles toutes les options de compétence de l’action Influence.",

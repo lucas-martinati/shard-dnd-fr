@@ -31,6 +31,13 @@ const blocks = [...rows, monk].map(row => {
   section.append(title, p); main.append(section);
   return p;
 });
+// La fiche signalée a déjà son libellé français ; le matériau reste dans un autre nœud.
+const componentLayouts = ['Components:', 'Composantes:'].map(label => {
+  const p = d.createElement('p');
+  p.innerHTML = '<strong>' + label + '</strong> V, S, M (<span>a sliver of glass</span>)';
+  main.append(p);
+  return {p, heading: p.querySelector('strong'), material: p.querySelector('span')};
+});
 const unknown = d.createElement('p');
 // Une valeur de dé différente n’est pas une nouvelle règle à déduire automatiquement.
 unknown.textContent = rows.find(row => row.id === 'spell.2024.witch-bolt.subsequent-turns').en.replace('1d12', '1d20');
@@ -54,6 +61,11 @@ async function wait(predicate) {
   try {
     w.eval(fs.readFileSync('outputs/shard-dnd-fr.user.js', 'utf8'));
     await wait(() => blocks.every((p, i) => p.textContent === [...rows, monk][i].fr));
+    await wait(() => componentLayouts.every(({p}) => /^Composantes\s*: V, S, M \(un éclat de verre\)$/.test(p.textContent)));
+    for (const {p, heading, material} of componentLayouts) {
+      assert.equal(p.querySelector('strong'), heading);assert.equal(p.querySelector('span'), material);
+      assert.match(heading.textContent, /^Composantes\s*:$/);
+    }
     assert.equal(blocks.at(-1).parentElement.querySelector('h2').textContent, 'Niveau 18 : Défense supérieure');
     assert.equal(unknown.textContent, rows.find(row => row.id === 'spell.2024.witch-bolt.subsequent-turns').en.replace('1d12', '1d20'));
     dice.forEach((node, i) => {assert.ok(node.isConnected); assert.equal(node.textContent, diceText[i]); assert.ok(node.querySelector('svg'));});

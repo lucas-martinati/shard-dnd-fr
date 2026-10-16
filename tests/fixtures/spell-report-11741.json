@@ -1,0 +1,27 @@
+{
+  "scriptVersion": "1.17.41",
+  "scope": "visible-page",
+  "reportedMissingCount": 4,
+  "cases": [
+    {
+      "name": "Guardian of Faith",
+      "en": "A Large spectral guardian appears and hovers for the duration in an unoccupied space that you can see within range. The guardian occupies that space and is invulnerable, and it appears in a form appropriate for your deity or pantheon.",
+      "fr": "Un gardien spectral de taille G apparaît pour toute la durée et flotte en un espace inoccupé que vous voyez à portée. Le gardien, invulnérable, occupe cet espace et se présente sous une forme adaptée à votre divinité ou panthéon."
+    },
+    {
+      "name": "Guardian of Faith",
+      "en": "Any enemy that moves to a space within 10 feet of the guardian for the first time on a turn or starts its turn there makes a Dexterity saving throw, taking 20 Radiant damage on a failed save or half as much damage on a successful one. The guardian vanishes when it has dealt a total of 60 damage.",
+      "fr": "Tout ennemi qui se déplace dans un espace à 10 feet ou moins du gardien pour la première fois d’un tour ou qui y commence son tour effectue un jet de sauvegarde de Dextérité et subit 20 dégâts radiants en cas d’échec, la moitié en cas de réussite. Le gardien disparaît après avoir infligé un total de 60 dégâts."
+    },
+    {
+      "name": "Mass Suggestion",
+      "en": "You suggest a course of activity—described in no more than 25 words—to twelve or fewer creatures you can see within range that can hear and understand you. The suggestion must sound achievable and not involve anything that would obviously deal damage to any of the targets or their allies. For example, you could say, “Walk to the village down that road, and help the villagers there harvest crops until sunset.” Or you could say, “Now is not the time for violence. Drop your weapons, and dance! Stop in an hour.”",
+      "fr": "Vous suggérez une ligne de conduite par 25 mots ou moins afin d’influencer magiquement un maximum de douze créatures que vous voyez à portée et qui vous entendent et vous comprennent. La suggestion doit paraître raisonnable et ne pas présenter de risque évident d’infliger des dégâts aux cibles ni à leurs alliés. Vous pourriez ainsi dire : « Marchez jusqu’au village suivant pour aider la population à la moisson jusqu’au crépuscule. » Ou bien : « L’heure n’est pas à la violence. Lâchez vos armes et dansez ! Cessez dans une heure. »"
+    },
+    {
+      "name": "Mass Suggestion",
+      "en": "Each target must succeed on a Wisdom saving throw or have the Charmed condition for the duration or until you or your allies deal damage to the target. Each Charmed target pursues the suggestion to the best of its ability. The suggested activity can continue for the entire duration, but if the suggested activity can be completed in a shorter time, the spell ends for a target upon completing it.",
+      "fr": "Chaque cible doit réussir un jet de sauvegarde de Sagesse sous peine de subir l’état Charmé pour toute la durée ou jusqu’à ce que vous ou l’un de vos alliés lui infligiez des dégâts. Chaque cible Charmée se soumet à la suggestion de son mieux. L’activité suggérée peut s’étendre sur toute la durée, mais s’il est possible de l’accomplir plus tôt, le sort prend fin sur la cible dès qu’elle en a terminé."
+    }
+  ]
+}

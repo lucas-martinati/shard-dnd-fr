@@ -5,6 +5,10 @@ const unknown='Enemies immediately vanish beyond the silver moon.';
 const conflict='You invoke the unknown silver bell.';
 const html=`<article><h2>Fire Bolt</h2><h3>Une aptitude mystérieuse</h3><div class="pre-wrap" id="controls"><span>${known}</span><button id="button">Close</button><span>${known}</span><input id="field" placeholder="Name" value="PRIVATE_INPUT"><span>${known}</span><textarea>PRIVATE_TEXTAREA</textarea><span>${known}</span></div><p id="unknown">${unknown}</p><p>${unknown}</p><p id="conflict">${conflict}</p><p id="french">Une phrase française nouvelle.<span hidden>You gain PRIVATE_INLINE_HIDDEN</span></p><span id="label">Mystery category</span><input placeholder="Unknown filter" value="PRIVATE_VALUE"><p hidden>Enemies PRIVATE_HIDDEN</p><div style="display:none"><p>Enemies PRIVATE_CSS_HIDDEN</p></div><div contenteditable title="PRIVATE_TITLE">You gain PRIVATE_EDITOR</div><div role="textbox">You gain PRIVATE_ROLE</div><div class="ProseMirror">You gain PRIVATE_PROSEMIRROR</div><script>You gain PRIVATE_SCRIPT</script></article>`;
 const w=new JSDOM(html,{url:'https://play.shardtabletop.com/#spell?private=PRIVATE_URL',runScripts:'outside-only',pretendToBeVisual:true}).window,d=w.document;
+// Les matériaux brefs n’ont pas les mots-clés habituels des phrases de règles.
+const materials=d.createElement('section');
+materials.innerHTML='<p id="material-plain">a sliver of obsidian</p><p id="material-components">V, S, M (a sliver of obsidian)</p><p id="material-mixed"><b>Components:</b> V, S, M (a sliver of obsidian)</p><p id="material-french-label"><b>Composantes :</b> V, S, M (a pinch of starlight)</p><p id="material-known"><b>Components:</b> V, S, M (a sliver of glass)</p><p id="material-french">Composantes : V, S, M (un éclat de cristal)</p><p id="french-article">Il a besoin de repos.</p>';
+d.body.append(materials);
 const metadata=d.createElement('section');
 metadata.innerHTML='<button id="subclasses">Subclasses</button><div class="mv1 titletext"><i><b title="Unknown Adventure Guide">Source. </b><a>Unknown Adventure Guide</a></i></div><span title="D&amp;D 2024 PHB" aria-label="Shard Tabletop">Source:</span>';
 const ignoredLabels=['D&D 2024 PHB','D&D 2024 MM','D&D 2014 DMG','D&D 2024 Player’s Handbook','Monster Manual (2024)',"Shard Player’s Guide Volume 1",'SRD 5.2.1','Shard Tabletop','Shard Tabletap','Shard','Source','Source.','Sources:','Source. D&D 2024 PHB',"Source. Shard Player’s Guide Volume 1, D&D 2024 PHB", "Source. Shard Player’s Guide Volume 1, Shard Bestiary Volume 1",'Sources: Shard Tabletop','Source: Unknown Adventure Guide','Unknown Adventure Guide'];
@@ -29,6 +33,7 @@ async function exported(root){await wait(() => !root.getElementById('exportMissi
   w.eval(code);
   await wait(()=>[...controls.querySelectorAll('span')].every(el=>el.textContent.includes('contrôle')));
   await wait(()=>subclasses.textContent==='Sous-classes');subclasses.click();assert.equal(subclassClicks,1);
+  await wait(()=>materials.querySelector('#material-known').textContent==='Composantes : V, S, M (un éclat de verre)');
   assert.equal(d.getElementById('button'),button);assert.equal(d.getElementById('field'),field);assert.equal(field.value,'PRIVATE_INPUT');button.click();assert.equal(clicks,1);
   const root=[...d.querySelectorAll('[data-shard-fr-ignore]')].map(el=>el.shadowRoot).find(r=>r?.getElementById('scanMissing'));
   assert.equal(root.getElementById('exportMissing').disabled,true);
@@ -39,6 +44,10 @@ async function exported(root){await wait(() => !root.getElementById('exportMissi
   assert.equal(report.missing.find(row=>row.en===conflict).reason,'conflicting-translations');
   assert.ok(report.missing.some(row=>row.en==='Unknown filter'&&row.attribute==='placeholder'));
   assert.ok(report.missing.some(row=>row.en==='Mystery category'));
+  for(const material of ['a sliver of obsidian','V, S, M (a sliver of obsidian)','Composantes : V, S, M (a pinch of starlight)'])assert.ok(report.missing.some(row=>row.en===material),'Un matériau anglais bref reste détecté : '+material);
+  for(const id of ['material-plain','material-components','material-mixed','material-french-label'])assert.ok(d.getElementById(id).hasAttribute('data-shard-fr-diagnostic'),id);
+  for(const id of ['material-known','material-french','french-article'])assert.ok(!d.getElementById(id).hasAttribute('data-shard-fr-diagnostic'),'Aucun faux positif français : '+id);
+  assert.ok(!report.missing.some(row=>/un éclat de (?:verre|cristal)|Il a besoin de repos/.test(row.en)));
   for(const text of [bookMention,appMention,sourceMention])assert.ok(report.missing.some(row=>row.en===text),'Une règle citant une source reste analysée : '+text);
   assert.ok(report.missing.some(row=>row.en==='Mystery Manual'),'Un titre non reconnu comme source reste analysé');
   assert.ok(!report.missing.some(row=>ignoredLabels.includes(row.en)||row.en==='Subclasses'||row.en==='Source. Unknown Adventure Guide'),'Les métadonnées et le bouton traduit sont exclus');

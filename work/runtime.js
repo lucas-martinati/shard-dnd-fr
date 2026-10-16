@@ -1078,6 +1078,11 @@
   const diagnosticStyle=document.createElement('style');
   diagnosticStyle.textContent='[data-shard-fr-diagnostic]{outline:2px dashed #db921f!important;outline-offset:3px!important}[data-shard-fr-description-missing]{outline:2px solid #ef4444!important;outline-offset:-2px!important}';document.head.append(diagnosticStyle);
   const englishClue=/\b(?:the|this|these|those|you|your|when|whenever|choose|gain|spell|damage|saving|proficiency|prerequisite|enemies|enemy|target|creature|within|must|cannot|while|during|until|against|each|once|twice|unknown|missing)\b/i;
+  // Les matériaux brefs (« a sliver of glass », « a pinch of salt ») ne
+  // contiennent pas forcément de mot-clé de règles. L’article seul serait
+  // ambigu en français ; exiger aussi la construction anglaise « of/with ».
+  const englishFragmentClue=/\b(?:a|an)\s+[a-z][a-z'-]*(?:\s+[a-z][a-z'-]*){0,3}\s+(?:of|with)\s+[a-z][a-z'-]*\b/i;
+  const hasEnglishClue=source=>englishClue.test(source)||englishFragmentClue.test(source);
   const frenchClue=/[àâçéèêëîïôùûüÿœæ]|\b(?:le|la|les|des|du|une|un|vos|vous|votre|avec|pour|dans|sont)\b/i;
   const diagnosticSelector='p,li,td,th,h1,h2,h3,h4,h5,h6,[role="heading"],.titletext,button,label,option,.description,.pre-wrap,.stdcontent,div';
   const diagnosticIgnoredLabels=new Set(['source','sources','shard','shard tabletop','shard tabletap']);
@@ -1139,8 +1144,8 @@
       const current=attribute?el.getAttribute(attribute):(displayed??el.textContent);
       if(inlineKey(current||'')===inlineKey(expected)&&inlineKey(expected)!==inlineKey(source))return;
       const isLabel=attribute||source.length<100&&!el.matches('p,li,.description,.pre-wrap');
-      if(!isLabel&&!englishClue.test(source))return;
-      if(isLabel&&!englishClue.test(source)&&frenchClue.test(source))return;
+      if(!isLabel&&!hasEnglishClue(source))return;
+      if(isLabel&&!hasEnglishClue(source)&&frenchClue.test(source))return;
       const reason=diagnosticReason(el,source),key=inlineKey(source)+'|'+reason+'|'+(attribute||'');
       if(seen.has(key)){seen.get(key).occurrences++;}
       else{
@@ -1160,7 +1165,7 @@
       // Si une partie du bloc est déjà française, ne rapporter que le reliquat.
       const changed=nodes.some(n=>n.data!==originalNode(n));
       const remainder=changed?nodes.filter(n=>n.data===originalNode(n)).map(n=>n.data).join(''):source;
-      if(!changed||englishClue.test(remainder))add(el,remainder,null,nodes.map(n=>n.data).join(''));
+      if(!changed||hasEnglishClue(remainder))add(el,remainder,null,nodes.map(n=>n.data).join(''));
     }
     for(const el of attributes?root.querySelectorAll(ATTRS.map(attr=>'['+attr+']').join(',')):[]){
       if(++examined>nodeLimit){truncated=true;break;}

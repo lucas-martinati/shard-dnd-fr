@@ -114,12 +114,12 @@
             "blocs": 205
           },
           "sorts": {
-            "entreesRattachees": 1046,
-            "libelles": 390,
-            "blocs": 656
+            "entreesRattachees": 1049,
+            "libelles": 391,
+            "blocs": 658
           }
         },
-        "entreesRattachees": 4872
+        "entreesRattachees": 4875
       },
       {
         "id": "dnd-2024-mm",
@@ -524,8 +524,8 @@
   "categories": {
     "sorts": {
       "nomsCatalogueAideDD2024": 391,
-      "libellesEditables": 561,
-      "blocsEditables": 678
+      "libellesEditables": 562,
+      "blocsEditables": 680
     },
     "dons": {
       "nomsCatalogueAideDD2024": 75,
@@ -577,7 +577,7 @@
       "fichesOuvertes": 1372,
       "controle": "audit/generes/guide-equipment.json"
     },
-    "descriptionsEtChampsLocauxUniques": 9417,
+    "descriptionsEtChampsLocauxUniques": 9423,
     "presentationsShard": {
       "fichesRelevees": 153,
       "avecDescription": 149,

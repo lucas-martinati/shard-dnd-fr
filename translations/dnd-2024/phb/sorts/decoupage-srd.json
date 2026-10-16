@@ -1,6 +1,18 @@
 {
   "source": "SRD 5.2.1 EN et FR · CC-BY-4.0 · frontières de paragraphes vérifiées sémantiquement ; ne pas apparier les paragraphes par leur position",
   "paragraphs": {
+    "Guardian of Faith": [
+      {
+        "en": "Any enemy that moves",
+        "fr": "Tout ennemi qui se déplace"
+      }
+    ],
+    "Mass Suggestion": [
+      {
+        "en": "Each target must succeed",
+        "fr": "Chaque cible doit réussir"
+      }
+    ],
     "Dancing Lights": [
       {
         "en": "As a Bonus Action,",
@@ -783,6 +795,12 @@
     ]
   },
   "frenchReplacements": {
+    "Guardian of Faith": [
+      ["à 3 m ou moins", "à 10 feet ou moins"]
+    ],
+    "Mass Suggestion": [
+      ["jusqu’à que vous", "jusqu’à ce que vous"]
+    ],
     "Mage Hand": [
       [
         "5 kg",

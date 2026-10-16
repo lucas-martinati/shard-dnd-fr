@@ -1,5 +1,5 @@
 {
-  "version": "1.17.41",
+  "version": "1.17.42",
   "reference": "Noms AideDD 2024 prioritaires. Références SRD disponibles séparément. Autres entrées identifiées.",
   "license": "Code MIT ; contenu SRD CC-BY-4.0 https://creativecommons.org/licenses/by/4.0/",
   "sources": [
@@ -38125,6 +38125,13 @@
       "fr": "Hurlement psychique",
       "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
       "category": "sort",
+      "aliases": []
+    },
+    {
+      "en": "a sliver of glass",
+      "fr": "un éclat de verre",
+      "source": "Traduction proposée de l’extrait utilisateur · Nuée de dagues, composante matérielle · D&D 2024 PHB · 16 octobre 2026",
+      "category": "vocabulaire",
       "aliases": []
     },
     {
