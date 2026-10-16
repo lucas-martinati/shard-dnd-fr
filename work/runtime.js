@@ -346,17 +346,87 @@
   host.style.cssText='position:fixed;top:16px;right:16px;z-index:2147483647;';
   const shadow=host.attachShadow({mode:'open'});
   const style=document.createElement('style');
-  style.textContent=`:host{font:14px/1.5 system-ui,sans-serif;color:#e8edf4;color-scheme:dark}*{box-sizing:border-box}button,input,select{font:inherit}button{cursor:pointer;background:#263751;color:#fff;border:1px solid #607492;border-radius:8px;padding:9px 12px}button:hover{background:#3a5171}button:focus-visible,input:focus-visible,select:focus-visible,a:focus-visible{outline:2px solid #81ceff;outline-offset:3px}#badge{background:#19384c;font-weight:700;box-shadow:0 3px 16px #0006}#panel{background:#131e2d;border:1px solid #64758f;border-radius:16px;padding:20px;width:min(400px,calc(100vw - 32px));max-height:80vh;overflow:auto;box-shadow:0 6px 30px #0008;margin:8px 0}h2{font-size:18px;margin:20px 0 12px}p{margin:8px 0}label{display:block;margin:12px 0}input[type=search],input[type=number],select{width:100%;background:#0c1420;color:#fff;border:1px solid #64758f;border-radius:8px;padding:10px}input[type=checkbox]{accent-color:#57cda6;width:18px;height:18px;flex-shrink:0}.primary{margin:0;padding:15px;background:#123d37;border:1px solid #53b49a;border-radius:12px;display:flex;align-items:center;justify-content:space-between;gap:14px;font-size:18px;font-weight:700}.secondary{display:flex;align-items:flex-start;gap:10px}.secondary span{flex:1}small{color:#becbdb;font-size:12px}.row{display:flex;gap:8px;margin:12px 0}.row input{min-width:0;flex:1}.result{display:block;border:1px solid #34435a;border-radius:8px;padding:10px;margin:7px 0;color:#e8edf4;text-decoration:none}.result:hover{background:#263751}.result small{display:block}#searchStatus{color:#b5d9ea}footer{display:flex;justify-content:flex-end;margin-top:16px}[hidden]{display:none!important}`;
+  style.textContent=`
+    :host{--ink:#f3ead9;--muted:#b5aa99;--gold:#d7b777;--line:#b996583d;font:14px/1.5 system-ui,sans-serif;color:var(--ink);color-scheme:dark}
+    *{box-sizing:border-box}button,input,select{font:inherit}button,a,input,select,summary{-webkit-tap-highlight-color:transparent}
+    button{cursor:pointer;background:linear-gradient(135deg,#803c43,#612b35);color:#fff2e2;border:1px solid #b8766b;border-radius:8px;padding:10px 14px;font-weight:600;transition:background .16s,border-color .16s,box-shadow .16s}
+    button:hover{background:#91434b;border-color:var(--gold);box-shadow:0 2px 12px #0003}button:active{background:#602a34}
+    button:focus-visible,input:focus-visible,select:focus-visible,a:focus-visible,summary:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+    button:disabled{opacity:.4;cursor:default;box-shadow:none}button:disabled:hover{background:linear-gradient(135deg,#803c43,#612b35);border-color:#b8766b}
+    svg{display:block;flex-shrink:0;width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+    #badge{display:flex;align-items:center;gap:7px;min-height:36px;padding:6px 10px 6px 8px;font-size:12px;border:1px solid #bb945e;border-radius:9px;background:linear-gradient(135deg,#48252d,#241d24);color:#f3dfb4;box-shadow:inset 0 1px #f8dfad1c,0 5px 22px #0006;letter-spacing:.05em}
+    #badge:hover,#badge[aria-expanded=true]{background:linear-gradient(135deg,#6d303b,#35212b);border-color:#efd39a;box-shadow:0 0 0 3px #d7b77715,0 6px 24px #0006}
+    #badge .dice{width:22px;height:22px;color:var(--gold)}.badge-status{width:6px;height:6px;border-radius:50%;background:#91c2a4;box-shadow:0 0 7px #91c2a440}
+    #badge[data-enabled=false] .badge-status{background:#b5aa99;box-shadow:none}
+    #panel{width:min(420px,calc(100vw - 32px));max-height:calc(100vh - 106px);max-height:calc(100dvh - 106px);overflow:auto;overscroll-behavior:contain;scrollbar-width:thin;scrollbar-color:#796448 #211d22;margin:10px 0;border:1px solid #a58552;border-radius:16px;background:radial-gradient(ellipse at 10% 0,#6a30382b,transparent 65%),#211d22;box-shadow:inset 0 0 0 4px #d7b77706,0 16px 60px #0008;animation:grimoire-in .18s ease-out}
+    .panel-header{display:flex;align-items:center;gap:13px;padding:22px 22px 19px;border-bottom:1px solid var(--line);background:linear-gradient(110deg,#73333b20,transparent)}
+    .crest{display:grid;place-items:center;width:46px;height:52px;color:var(--gold);background:linear-gradient(145deg,#d7b7771c,#d7b77704);border:1px solid var(--line);border-radius:12px 12px 18px 18px}.crest svg{width:32px;height:32px}
+    .panel-heading{flex:1;min-width:0}.eyebrow{margin:0 0 3px;color:var(--gold);font-size:10px;font-weight:700;letter-spacing:.18em;text-transform:uppercase}
+    h2{font:600 25px/1.2 Georgia,'Times New Roman',serif;margin:0;letter-spacing:-.02em}h3{display:flex;align-items:center;gap:8px;font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);margin:0 0 16px}h3 svg{width:17px;height:17px}
+    #close{align-self:flex-start;display:grid;place-items:center;flex-shrink:0;width:30px;height:30px;padding:0;color:var(--muted);background:transparent;border:1px solid transparent;font-size:24px;font-weight:400;line-height:1}
+    #close:hover{color:var(--ink);border-color:var(--line);background:#ffffff08}
+    .panel-body{padding:20px 22px 4px}.primary{margin:0;padding:15px;background:linear-gradient(115deg,#30423870,#30423820);border:1px solid #7eaa8259;border-radius:10px;display:flex;align-items:center;justify-content:space-between;gap:14px;cursor:pointer}
+    .primary[data-enabled=false]{background:#ffffff03;border-color:var(--line)}#enabledLabel{display:block;font-weight:650;font-size:15px}.primary small{display:block;margin-top:3px;font-size:11px}
+    input[type=checkbox]{accent-color:var(--gold);width:18px;height:18px;margin:2px 0;flex-shrink:0;cursor:pointer}
+    #enabled{appearance:none;position:relative;display:block;width:40px;height:24px;margin:0;border:1px solid #8e8476;border-radius:20px;background:#433c40;transition:background .16s}
+    #enabled::before{content:'';position:absolute;top:3px;left:3px;width:16px;height:16px;border-radius:50%;background:#c8bfb2;transition:transform .16s}
+    #enabled:checked{background:#769b7b;border-color:#9ec4a2}#enabled:checked::before{transform:translateX(16px);background:#fff5e3}
+    label{display:block;margin:10px 0 7px;font-size:13px}.secondary{display:flex;align-items:flex-start;gap:10px;cursor:pointer}.secondary span{flex:1}.secondary small{display:block;margin-top:3px}
+    small{color:var(--muted);font-size:12px}p{margin:8px 0}.settings-section{border-bottom:1px solid var(--line);padding:21px 0}.settings-section:last-child{border-bottom:0;padding-bottom:12px}
+    input[type=search],input[type=number],select{width:100%;min-height:42px;background:#18161b;color:var(--ink);border:1px solid #756449;border-radius:8px;padding:10px 12px;transition:border-color .16s}
+    input::placeholder{color:#a59b8b;opacity:1}input:hover,select:hover{border-color:var(--gold)}select{cursor:pointer}select option{background:#211d22}
+    .position-heading{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:14px 0 8px;font-size:13px}
+    #buttonPosition{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+    .position-choice{display:flex;align-items:center;gap:8px;min-height:48px;padding:8px;font-size:12px;font-weight:500;background:#18161b;color:var(--muted);border-color:#756449}
+    .position-choice svg{width:24px;height:24px}.position-choice circle{fill:currentColor;stroke:none}
+    .position-choice:hover{background:#d7b7770d;color:var(--ink)}.position-choice[aria-pressed=true]{background:#d7b77716;border-color:var(--gold);color:var(--gold);box-shadow:inset 0 0 0 1px #d7b77730}
+    #hideButton{background:transparent;border-color:transparent;padding:4px 8px;font-size:11px;font-weight:500;color:var(--muted)}#hideButton:hover{background:#ffffff08;color:var(--ink)}#hideButton[aria-pressed=true]{border-color:var(--gold);color:var(--gold)}
+    .row{display:flex;gap:8px;margin:12px 0}.row input{min-width:0;flex:1}#referenceSearch .row{margin:8px 0 0}#referenceSearch button{white-space:nowrap}#referenceSearch label{color:var(--muted);font-size:12px}
+    #results:empty,#searchStatus:empty{display:none}.result{display:block;border:1px solid var(--line);border-radius:8px;padding:11px 12px;margin:8px 0;color:var(--ink);text-decoration:none;overflow-wrap:anywhere;background:#d7b77705}
+    .result:hover{border-color:var(--gold);background:#d7b77710}.result small{display:block;margin-top:3px}#searchStatus{color:var(--gold);font-size:12px}
+    details{margin:0 22px;border-top:1px solid var(--line);padding:16px 0}summary{display:flex;align-items:center;gap:8px;cursor:pointer;font-size:12px;font-weight:600;color:var(--muted);list-style:none}summary::-webkit-details-marker{display:none}
+    summary::before{content:'◇';color:var(--gold);font-size:18px}summary::after{content:'+';margin-left:auto;color:var(--gold);font-size:19px;font-weight:400}details[open]>summary::after{content:'−'}summary:hover{color:var(--ink)}
+    details p{font-size:12px;color:var(--muted)}fieldset{min-width:0;border:1px solid var(--line);border-radius:10px;padding:12px;margin:18px 0 4px}legend{font:600 17px Georgia,serif;color:var(--gold);padding:0 6px}
+    fieldset .row{flex-wrap:wrap}fieldset .row button{flex:1;min-width:110px;font-size:12px;padding:9px 10px}#clearMissing,#clearDescriptions,#stopDescriptions{background:transparent;border-color:#756449;color:var(--muted)}
+    #clearMissing:hover,#clearDescriptions:hover,#stopDescriptions:hover{background:#ffffff08;color:var(--ink)}
+    #missingResults,#descriptionResults{padding-left:22px;max-height:240px;overflow:auto;font-size:12px}#missingResults li,#descriptionResults li{margin:10px 0;overflow-wrap:anywhere}#missingResults small{display:block}#descriptionSummary{color:var(--muted)}#descriptionResults li[data-state="incomplete"]{border-left:3px solid #ef7773;padding-left:8px}
+    .panel-footer{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:13px 22px;border-top:1px solid var(--line);background:#15131755;color:var(--muted);font-size:10px;letter-spacing:.04em}
+    .shortcut{display:flex;align-items:center;gap:4px}kbd{font:10px system-ui,sans-serif;border:1px solid #756449;border-bottom-width:2px;border-radius:4px;padding:2px 4px;color:#d8c9ae}
+    [hidden]{display:none!important}@keyframes grimoire-in{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:translateY(0)}}
+    @media(max-width:380px){.panel-header{padding:17px 16px}.panel-body{padding:16px 16px 4px}details{margin:0 16px}.panel-footer{padding:12px 16px}h2{font-size:23px}.crest{width:40px}.primary{padding:12px}.panel-footer{letter-spacing:0}.position-choice{font-size:11px}}
+    @media(prefers-reduced-motion:reduce){*,*::before{animation:none!important;transition:none!important}}
+    @media(forced-colors:active){#enabled{appearance:auto}#enabled::before{display:none}.badge-status{background:ButtonText}}
+  `;
   shadow.append(style);
   const panel=document.createElement('section'); panel.id='panel'; panel.hidden=true; panel.setAttribute('aria-label','Traduction D&D en français');
   // Cette interface est créée une fois, à l’écart du DOM géré par Shard.
-  panel.innerHTML=`<label class="primary"><span id="enabledLabel">Traduction activée</span><input id="enabled" type="checkbox" role="switch" aria-label="Activer la traduction"></label><h2>D&D FR · Configuration</h2><label class="secondary"><input id="bilingual" type="checkbox"><span>Afficher aussi les noms anglais <small>(sorts, monstres, objets)</small></span></label><label for="buttonPosition">Bouton D&D FR</label><select id="buttonPosition"><option value="top-right">En haut à droite</option><option value="top-left">En haut à gauche</option><option value="bottom-right">En bas à droite</option><option value="bottom-left">En bas à gauche</option><option value="hidden">Ne pas afficher</option></select><p><small>Configuration accessible via le menu Tampermonkey ou Alt + Maj + F.</small></p><form id="referenceSearch"><label for="search">Rechercher une fiche AideDD</label><div class="row"><input id="search" type="search" placeholder="Nom français ou anglais…" autocomplete="off"><button type="submit">Ouvrir ↗</button></div></form><p id="searchStatus" role="status"></p><div id="results"></div>`;
+  const diceIcon='<svg class="dice" viewBox="0 0 32 36" aria-hidden="true"><path d="M16 2 30 10v16L16 34 2 26V10Z M16 2 9 14l14 0L16 2 M2 10l7 4-7 12 M30 10l-7 4 7 12 M9 14l7 14 7-14 M2 26l14 2 14-2 M16 28v6"/></svg>';
+  panel.innerHTML=`
+    <header class="panel-header"><div class="crest">${diceIcon}</div><div class="panel-heading"><p class="eyebrow">Shard Tabletop · D&D FR</p><h2>Grimoire français</h2></div><button id="close" type="button" aria-label="Fermer la configuration" title="Fermer (Échap)">×</button></header>
+    <div class="panel-body">
+      <label class="primary"><span><span id="enabledLabel">Traduction activée</span><small>Vos aventures, en français.</small></span><input id="enabled" type="checkbox" role="switch" aria-label="Activer la traduction"></label>
+      <section class="settings-section" aria-labelledby="displayHeading"><h3 id="displayHeading">Préférences d’affichage</h3>
+        <label class="secondary"><input id="bilingual" type="checkbox"><span>Afficher aussi les noms anglais<small>Sorts, monstres et objets</small></span></label>
+        <div class="position-heading"><span id="positionLabel">Emplacement du bouton</span><button id="hideButton" type="button" aria-pressed="false" title="Masquer le bouton ; le raccourci reste accessible">Masquer</button></div>
+        <div id="buttonPosition" role="group" aria-labelledby="positionLabel">
+          <button type="button" class="position-choice" data-position="top-left" aria-pressed="false" aria-label="Placer le bouton en haut à gauche"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="3" width="20" height="18" rx="3"/><circle cx="7" cy="8" r="2.5"/></svg><span>Haut gauche</span></button>
+          <button type="button" class="position-choice" data-position="top-right" aria-pressed="false" aria-label="Placer le bouton en haut à droite"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="3" width="20" height="18" rx="3"/><circle cx="17" cy="8" r="2.5"/></svg><span>Haut droite</span></button>
+          <button type="button" class="position-choice" data-position="bottom-left" aria-pressed="false" aria-label="Placer le bouton en bas à gauche"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="3" width="20" height="18" rx="3"/><circle cx="7" cy="16" r="2.5"/></svg><span>Bas gauche</span></button>
+          <button type="button" class="position-choice" data-position="bottom-right" aria-pressed="false" aria-label="Placer le bouton en bas à droite"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="3" width="20" height="18" rx="3"/><circle cx="17" cy="16" r="2.5"/></svg><span>Bas droite</span></button>
+        </div>
+      </section>
+      <section class="settings-section" aria-labelledby="referenceHeading"><h3 id="referenceHeading"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5C8 2 3 3 3 3v16s5-1 9 2c4-3 9-2 9-2V3s-5-1-9 2Zm0 0v16"/></svg>Les archives d’AideDD</h3>
+        <form id="referenceSearch"><label for="search">Rechercher une fiche en français ou en anglais</label><div class="row"><input id="search" type="search" placeholder="Boule de feu, dragon, épée…" autocomplete="off"><button type="submit">Ouvrir ↗</button></div></form><p id="searchStatus" role="status"></p><div id="results"></div>
+      </section>
+    </div>`;
   shadow.append(panel);
   const diagnostics=document.createElement('details');
   diagnostics.innerHTML="<summary>Repérer les traductions manquantes</summary>\n<p>Rapports locaux. Les résultats sont des candidats à vérifier ; les valeurs des champs et les éditeurs sont exclus.</p>\n<fieldset><legend>Page affichée</legend>\n<p>Analyse uniquement les textes actuellement visibles.</p>\n<label for=\"analysisResultLimit\">Nombre maximal de résultats (0 = sans limite)</label><input id=\"analysisResultLimit\" type=\"number\" min=\"0\" step=\"1\">\n<label for=\"analysisNodeLimit\">Éléments à examiner (0 = sans limite)</label><input id=\"analysisNodeLimit\" type=\"number\" min=\"0\" step=\"1\">\n<div class=\"row\"><button id=\"scanMissing\" type=\"button\">Analyser la page</button><button id=\"clearMissing\" type=\"button\">Effacer la page</button></div>\n<p id=\"missingStatus\" role=\"status\"></p><ol id=\"missingResults\"></ol>\n<button id=\"exportMissing\" type=\"button\" disabled>Exporter la page (JSON)</button>\n</fieldset>\n<fieldset><legend>Descriptions des fiches</legend>\n<label class=\"secondary\"><input id=\"showDescriptionStatus\" type=\"checkbox\"><span>Marquer les descriptions à compléter</span></label>\n<p>Les descriptions à compléter sont entourées en rouge. Le contrôle privilégie 2024 et parcourt les fiches déjà chargées. Tu peux l’arrêter ou ouvrir les fiches manuellement.</p>\n<label for=\"descriptionBatchLimit\">Fiches par passage (0 = toutes les fiches chargées)</label><input id=\"descriptionBatchLimit\" type=\"number\" min=\"0\" step=\"1\">\n<div class=\"row\"><button id=\"inspectDescriptions\" type=\"button\" disabled>Contrôler les fiches</button><button id=\"stopDescriptions\" type=\"button\" disabled>Arrêter</button></div>\n<p id=\"descriptionStatus\" role=\"status\"></p><p id=\"descriptionSummary\"></p><ol id=\"descriptionResults\"></ol>\n<div class=\"row\"><button id=\"exportDescriptions\" type=\"button\" disabled>Exporter les descriptions (JSON)</button><button id=\"clearDescriptions\" type=\"button\">Effacer les descriptions</button></div>\n</fieldset>\n";
   panel.append(diagnostics);
-  style.textContent+='details{margin-top:18px;border-top:1px solid #34435a;padding-top:12px}summary{cursor:pointer;font-weight:600}#missingResults,#descriptionResults{padding-left:22px;max-height:240px;overflow:auto}#missingResults li,#descriptionResults li{margin:10px 0;overflow-wrap:anywhere}#missingResults small{display:block}fieldset{min-width:0;border:1px solid #44566f;border-radius:10px;padding:12px;margin:16px 0}legend{font-size:16px;font-weight:700;padding:0 6px}#descriptionSummary{color:#becbdb}#descriptionResults li[data-state="incomplete"]{border-left:3px solid #ef4444;padding-left:8px}button:disabled{opacity:.5;cursor:default}';
-  const badge=document.createElement('button'); badge.id='badge'; badge.type='button'; badge.textContent='D&D FR'; badge.setAttribute('aria-label','Ouvrir les réglages de traduction'); shadow.append(badge);
+  const footer=document.createElement('footer');footer.className='panel-footer';
+  footer.innerHTML=`<span>D&D FR · v${SCRIPT_VERSION}</span><span class="shortcut" aria-label="Ouvrir ou fermer le panneau : Alt + Maj + F" title="Ouvrir ou fermer le panneau"><kbd>Alt</kbd> + <kbd>Maj</kbd> + <kbd>F</kbd></span>`;
+  footer.title='Configuration également accessible via le menu Tampermonkey';panel.append(footer);
+  const badge=document.createElement('button'); badge.id='badge'; badge.type='button'; badge.innerHTML=diceIcon+'<span id="badgeLabel">D&D FR</span><span class="badge-status" aria-hidden="true"></span>'; badge.setAttribute('aria-label','Ouvrir les réglages de traduction');badge.setAttribute('aria-controls','panel');badge.setAttribute('aria-expanded','false');badge.title='Ouvrir ou fermer le grimoire français · Alt + Maj + F';shadow.append(badge);
   document.body.append(host);
   const $=id=>shadow.getElementById(id);
   let aideddStatus='';
@@ -367,7 +437,7 @@
   searchHost.style.cssText='position:fixed;z-index:2147483647;display:none;';
   const searchRoot=searchHost.attachShadow({mode:'open'});
   const searchStyle=document.createElement('style');
-  searchStyle.textContent=`:host{font:14px/1.4 system-ui,sans-serif;color:#172635}section{box-sizing:border-box;background:#fff;border:1px solid #52738e;border-radius:9px;box-shadow:0 5px 24px #0004;max-height:310px;overflow:auto;padding:9px}p{font-size:12px;margin:3px 3px 8px;color:#41566a}button{display:block;text-align:left;box-sizing:border-box;width:100%;font:inherit;border:0;border-radius:5px;padding:8px;background:white;color:#152d40;cursor:pointer}button:hover,button:focus-visible,button.active{background:#dceefa;outline:2px solid #457da0;outline-offset:-2px}small{color:#4d6577}strong{display:block}`;
+  searchStyle.textContent=`:host{font:14px/1.4 system-ui,sans-serif;color:#f3ead9;color-scheme:dark}section{box-sizing:border-box;background:#211d22;border:1px solid #a58552;border-radius:10px;box-shadow:0 8px 28px #0006;max-height:310px;overflow:auto;padding:9px;scrollbar-width:thin;scrollbar-color:#796448 #211d22}p{font-size:12px;margin:3px 3px 8px;color:#b5aa99}button{display:block;text-align:left;box-sizing:border-box;width:100%;font:inherit;border:1px solid transparent;border-radius:6px;padding:9px;background:transparent;color:#f3ead9;cursor:pointer}button:hover,button:focus-visible,button.active{background:#d7b77712;outline:2px solid #d7b777;outline-offset:-2px}small{color:#b5aa99}strong{display:block;font-weight:600}`;
   const searchBox=document.createElement('section');searchBox.setAttribute('aria-label','Suggestions de recherche D&D en français');
   searchRoot.append(searchStyle,searchBox);document.body.append(searchHost);
   let nativeTarget=null, nativeHits=[], activeHit=-1, applyingSearch=false;
@@ -456,9 +526,11 @@
   function updateControls(){
     $('enabled').checked=enabled;$('bilingual').checked=bilingual;
     $('enabledLabel').textContent=enabled?'Traduction activée':'Traduction désactivée';
-    badge.textContent=enabled?'D&D FR':'D&D EN';
+    $('badgeLabel').textContent=enabled?'D&D FR':'D&D EN';
+    badge.dataset.enabled=String(enabled);$('enabled').closest('.primary').dataset.enabled=String(enabled);
   }
-  function openPanel(){panel.hidden=!panel.hidden;if(!panel.hidden)search();}
+  function closePanel(){panel.hidden=true;badge.setAttribute('aria-expanded','false');badge.setAttribute('aria-label','Ouvrir les réglages de traduction');if(!badge.hidden)badge.focus();}
+  function openPanel(){if(!panel.hidden){closePanel();return;}panel.hidden=false;badge.setAttribute('aria-expanded','true');badge.setAttribute('aria-label','Fermer les réglages de traduction');search();$('close').focus();}
   function referenceRows(source){
     const q=searchKey(source);
     if(!q)return [];
@@ -505,7 +577,7 @@
     const signature=rows.map(r=>r.url).join('|');
     if(existing?.isConnected&&existing.dataset.references===signature)return;
     existing?.remove();const box=document.createElement('span');box.setAttribute('data-shard-fr-ignore','');box.dataset.shardFrLink='';box.dataset.references=signature;box.className='self-center';box.style.cssText='display:inline-flex;align-self:center;align-items:center;vertical-align:middle;gap:6px;flex-wrap:wrap;margin:0 8px;flex-shrink:0;';
-    for(const row of rows){const link=referenceLink(row,'AideDD ↗'+(rows.length>1?' · '+AIDEDD_LABELS[row.kind]:''));link.setAttribute('aria-label',`Ouvrir ${row.fr} sur AideDD dans un nouvel onglet`);link.style.cssText='display:inline-flex;align-items:center;justify-content:center;white-space:nowrap;font:600 12px/1.4 system-ui;padding:5px 9px;border:1px solid #527b99;border-radius:6px;background:#17384c;color:#fff;text-decoration:none;';box.append(link);}
+    for(const row of rows){const link=referenceLink(row,'AideDD ↗'+(rows.length>1?' · '+AIDEDD_LABELS[row.kind]:''));link.setAttribute('aria-label',`Ouvrir ${row.fr} sur AideDD dans un nouvel onglet`);link.style.cssText='display:inline-flex;align-items:center;justify-content:center;white-space:nowrap;font:600 12px/1.4 system-ui;padding:5px 9px;border:1px solid #a58552;border-radius:6px;background:#38252d;color:#f3dfb4;text-decoration:none;';box.append(link);}
     title.after(box);directLinks.set(region,box);
   }
   document.addEventListener('click',event=>{
@@ -1363,11 +1435,15 @@
     const top=buttonPosition.startsWith('top'),right=buttonPosition.endsWith('right');
     host.style.top=top?'16px':'auto';host.style.bottom=top?'auto':'16px';host.style.left=right?'auto':'16px';host.style.right=right?'16px':'auto';
     host.style.display='flex';host.style.flexDirection=top?'column-reverse':'column';host.style.alignItems=right?'flex-end':'flex-start';
-    badge.hidden=!showButton;$('buttonPosition').value=showButton?buttonPosition:'hidden';
+    badge.hidden=!showButton;
+    for(const button of $('buttonPosition').querySelectorAll('[data-position]'))button.setAttribute('aria-pressed',String(showButton&&button.dataset.position===buttonPosition));
+    $('hideButton').setAttribute('aria-pressed',String(!showButton));
   }
-  $('buttonPosition').onchange=()=>{const value=$('buttonPosition').value;showButton=value!=='hidden';if(showButton)buttonPosition=value;persist();};
-  document.addEventListener('keydown',e=>{if(e.altKey&&e.shiftKey&&e.code==='KeyF'&&!e.ctrlKey&&!e.metaKey){e.preventDefault();panel.hidden=true;openPanel();}});
-  badge.onclick=openPanel;const closeButton=$('close');if(closeButton)closeButton.onclick=()=>{panel.hidden=true;};
+  for(const button of $('buttonPosition').querySelectorAll('[data-position]'))button.onclick=()=>{buttonPosition=button.dataset.position;showButton=true;persist();};
+  $('hideButton').onclick=()=>{showButton=!showButton;persist();};
+  document.addEventListener('keydown',e=>{if(e.altKey&&e.shiftKey&&e.code==='KeyF'&&!e.ctrlKey&&!e.metaKey){e.preventDefault();if(!e.repeat)openPanel();}});
+  badge.onclick=openPanel;$('close').onclick=closePanel;
+  shadow.addEventListener('keydown',e=>{if(e.key==='Escape'&&!panel.hidden){e.preventDefault();e.stopPropagation();closePanel();}});
   $('enabled').onchange=()=>{enabled=$('enabled').checked;persist();};
   $('bilingual').onchange=()=>{bilingual=$('bilingual').checked;persist();};
   $('search').oninput=search;

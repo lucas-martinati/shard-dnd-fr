@@ -13,13 +13,32 @@ function setup(settings={}){
  assert.equal(root.getElementById('panel').querySelector('input').id,'enabled');assert.deepEqual([...root.querySelectorAll('input[type=checkbox]')].map(el=>el.id),['enabled','bilingual','showDescriptionStatus']);
  for(const id of ['aideddAuto','aideddNames','aideddOnline','aideddInline','corrections','english','french','save','remove','json','import','export','reference','aideddReader'])assert.equal(root.getElementById(id),null,id);
  assert.equal(menus.size,3);assert.equal([...menus.keys()].filter(s=>/désactiver|masquer/.test(s)).length,2);
- const button=root.getElementById('badge');button.click();assert.equal(root.getElementById('panel').hidden,false);
- const pos=root.getElementById('buttonPosition');pos.value='hidden';pos.dispatchEvent(new w.Event('change'));assert.equal(button.hidden,true);(root.getElementById('close')||button).click();menus.get('D&D FR — Ouvrir la configuration')();assert.equal(root.getElementById('panel').hidden,false);assert.equal(button.hidden,true);
+ const button=root.getElementById('badge'),panel=root.getElementById('panel');
+ assert.equal(button.getAttribute('aria-controls'),'panel');assert.equal(button.getAttribute('aria-expanded'),'false');
+ const dice=button.querySelector('svg');assert.ok(dice);
+ button.click();assert.equal(panel.hidden,false);assert.equal(button.getAttribute('aria-expanded'),'true');assert.equal(root.activeElement,root.getElementById('close'));
+ root.getElementById('close').dispatchEvent(new w.KeyboardEvent('keydown',{key:'Escape',bubbles:true,cancelable:true}));
+ assert.equal(panel.hidden,true);assert.equal(button.getAttribute('aria-expanded'),'false');assert.equal(root.activeElement,button);
+ button.click();root.getElementById('close').click();assert.equal(panel.hidden,true);assert.equal(button.getAttribute('aria-expanded'),'false');button.click();
+ const pos=root.getElementById('buttonPosition'),hide=root.getElementById('hideButton');
+ assert.equal(pos.getAttribute('role'),'group');assert.deepEqual([...pos.querySelectorAll('button')].map(b=>b.dataset.position),['top-left','top-right','bottom-left','bottom-right']);
+ assert.equal(pos.querySelector('[aria-pressed="true"]').dataset.position,'top-right');
+ hide.click();assert.equal(button.hidden,true);assert.equal(hide.getAttribute('aria-pressed'),'true');assert.equal(pos.querySelector('[aria-pressed="true"]'),null);
+ (root.getElementById('close')||button).click();menus.get('D&D FR — Ouvrir la configuration')();assert.equal(root.getElementById('panel').hidden,false);assert.equal(button.hidden,true);
  (root.getElementById('close')||button).click();w.document.dispatchEvent(new w.KeyboardEvent('keydown',{altKey:true,shiftKey:true,code:'KeyF',bubbles:true}));assert.equal(root.getElementById('panel').hidden,false);
- for(const p of ['top-left','top-right','bottom-left','bottom-right']){pos.value=p;pos.dispatchEvent(new w.Event('change'));assert.equal(host.style[p.startsWith('top')?'top':'bottom'],'16px');assert.equal(host.style[p.endsWith('right')?'right':'left'],'16px');}
+ root.getElementById('close').dispatchEvent(new w.KeyboardEvent('keydown',{altKey:true,shiftKey:true,code:'KeyF',bubbles:true,composed:true}));
+ assert.equal(panel.hidden,true,'The same shortcut closes the panel when focus is inside it');assert.equal(button.getAttribute('aria-expanded'),'false');assert.equal(button.hidden,true,'The shortcut works with a hidden button');
+ w.document.dispatchEvent(new w.KeyboardEvent('keydown',{altKey:true,shiftKey:true,code:'KeyF',bubbles:true}));assert.equal(panel.hidden,false);
+ w.document.dispatchEvent(new w.KeyboardEvent('keydown',{altKey:true,shiftKey:true,code:'KeyF',bubbles:true,repeat:true}));assert.equal(panel.hidden,false,'Holding the shortcut does not toggle repeatedly');
+ w.document.dispatchEvent(new w.KeyboardEvent('keydown',{altKey:true,shiftKey:true,code:'KeyF',bubbles:true}));assert.equal(panel.hidden,true);
+ for(const p of ['top-left','top-right','bottom-left','bottom-right']){pos.querySelector('[data-position="'+p+'"]').click();assert.equal(host.style[p.startsWith('top')?'top':'bottom'],'16px');assert.equal(host.style[p.endsWith('right')?'right':'left'],'16px');assert.equal(button.hidden,false);assert.equal(hide.getAttribute('aria-pressed'),'false');assert.deepEqual([...pos.querySelectorAll('[aria-pressed="true"]')].map(b=>b.dataset.position),[p]);assert.equal(JSON.parse(saved.get('shard-fr-v1')).buttonPosition,p);}
+ hide.click();assert.equal(button.hidden,true);hide.click();assert.equal(button.hidden,false);assert.equal(pos.querySelector('[aria-pressed="true"]').dataset.position,'bottom-right','Showing the button restores its last corner');
+ menus.get('D&D FR — Afficher / masquer le bouton')();assert.equal(hide.getAttribute('aria-pressed'),'true');menus.get('D&D FR — Afficher / masquer le bouton')();assert.equal(pos.querySelector('[aria-pressed="true"]').dataset.position,'bottom-right');
  assert.equal(JSON.parse(saved.get('shard-fr-v1')).buttonPosition,'bottom-right');
  await wait(()=>w.document.querySelector('[data-shard-fr-link] a'));const direct=w.document.querySelector('[data-shard-fr-link] a');assert.equal(direct.href,'https://www.aidedd.org/spell/fr/trait-de-feu');assert.equal(direct.target,'_blank');assert.match(direct.rel,/noopener/);
- const en=root.getElementById('enabled');en.checked=false;en.dispatchEvent(new w.Event('change'));await wait(()=>w.document.querySelector('.titletext').textContent==='Fire Bolt');assert.ok(direct.isConnected);en.checked=true;en.dispatchEvent(new w.Event('change'));
+ const en=root.getElementById('enabled');en.checked=false;en.dispatchEvent(new w.Event('change'));await wait(()=>w.document.querySelector('.titletext').textContent==='Fire Bolt');assert.ok(direct.isConnected);
+ assert.equal(button.dataset.enabled,'false');assert.equal(root.getElementById('badgeLabel').textContent,'D&D EN');assert.equal(button.querySelector('svg'),dice,'The die survives language changes');
+ en.checked=true;en.dispatchEvent(new w.Event('change'));assert.equal(button.dataset.enabled,'true');assert.equal(root.getElementById('badgeLabel').textContent,'D&D FR');
  const bilingual=root.getElementById('bilingual');bilingual.checked=true;bilingual.dispatchEvent(new w.Event('change'));await wait(()=>w.document.querySelector('.titletext').textContent==='Trait de feu (Fire Bolt)');await wait(()=>/\(Backpack\)/.test(w.document.getElementById('backpack').textContent));assert.match(w.document.getElementById('backpack').textContent,/\(Backpack\)/);
  assert.equal(w.document.getElementById('range').textContent,'Portée : 120 feet');
  const search=root.getElementById('search'),form=root.getElementById('referenceSearch');
@@ -32,5 +51,5 @@ function setup(settings={}){
  assert.equal(JSON.parse(saved.get('shard-fr-v1')).custom['Fire Bolt'],'Traduction incorrecte','Old stored data retained without applying it');
  console.log('PASS 1.9: simplified UI, mandatory AideDD, two quick settings + configuration, hide/shortcut/menu/four corners, bilingual gear, feet, exact/ambiguous search, safe links, reused Shard dialog.');
  }finally{w.close();}
- const hidden=setup({showButton:false,buttonPosition:'top-left'});try{assert.equal(hidden.root.getElementById('badge').hidden,true);hidden.menus.get('D&D FR — Ouvrir la configuration')();assert.equal(hidden.root.getElementById('panel').hidden,false);assert.equal(hidden.host.style.left,'16px');}finally{hidden.w.close();}
+ const hidden=setup({showButton:false,buttonPosition:'top-left'});try{assert.equal(hidden.root.getElementById('badge').hidden,true);assert.equal(hidden.root.getElementById('hideButton').getAttribute('aria-pressed'),'true');hidden.menus.get('D&D FR — Ouvrir la configuration')();assert.equal(hidden.root.getElementById('panel').hidden,false);assert.equal(hidden.host.style.left,'16px');hidden.root.getElementById('hideButton').click();assert.equal(hidden.root.querySelector('#buttonPosition [aria-pressed="true"]').dataset.position,'top-left');}finally{hidden.w.close();}
 })().catch(e=>{console.error(e);process.exitCode=1});
