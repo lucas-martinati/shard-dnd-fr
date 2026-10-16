@@ -7,16 +7,15 @@ out=root/'outputs';work=root/'work'
 version=sync_lock(root)
 def norm(s):return re.sub(r'\s+',' ',re.sub('[‐‑–]','-',re.sub('[’‘ʼ]',"'",unicodedata.normalize('NFC',s)))).strip().lower()
 labels={'armes':'équipement','objets':'équipement','classes':'aptitude de classe','sorts':'sort','monstres':'monstre','dons':'don','especes':'trait d’espèce','regles':'règles','interface':'interface'}
-meta={};records={};terms=[]
+records={};terms=[]
 for row in load_packs():
  usage=row.get('usage', ['search'] if row['kind']=='term' and row['category'] in ['armes','objets','classes','sorts','monstres','dons','especes'] else [])
  if row['kind']!='term' and 'inline' not in usage:continue
  en,fr=row['en'],row['fr'];key=norm(en)
  category=row.get('labelCategory',labels.get(row['category'],'vocabulaire'))
  metadata={'source':row['source'],'category':category,'aliases':row.get('aliases',[]),'usage':usage}
- meta[key]=metadata
  records[key]={'en':en,'fr':fr,**{k:v for k,v in metadata.items() if k!='usage'}}
- terms.append([en,fr])
+ terms.append({'en':en,'fr':fr,**metadata})
 oldheader=(work/'header.txt').read_text().replace('{{VERSION}}',version)
 metadata=re.match(r'\A// ==UserScript==\r?\n[\s\S]*?^// ==/UserScript==\s*$',oldheader,re.M)
 if not metadata:raise ValueError('Bloc de métadonnées Tampermonkey absent de work/header.txt')
@@ -26,7 +25,6 @@ def emit_constant(name,value):
  parts.append('const '+name+' = '+literal+';\n')
 emit_constant('SCRIPT_VERSION',version)
 emit_constant('TRANSLATION_TERMS',terms)
-emit_constant('TERM_META',meta)
 catalog=json.loads((root/'sources-generation/catalogues/aidedd-2024.json').read_text())
 for r in catalog:
  if r['en']=='Witch Bolt':r['aliases'].append('Éclair de sorcière')

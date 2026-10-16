@@ -14,7 +14,7 @@ instrumented=instrumented.replace('    const knownFrench=new Set([...entries.val
 w.eval(instrumented);const api=w.__guide,failures=[],diagnostics=[],norm=text=>api.inlineKey(text).replace(/\s+/g,' ').trim();
 const sameLanguage=new Set(['Totem','Service','Communication','Face','Golem','Arcanaloth','Cambion','Dao','Mezzoloth','Nycaloth','Ultroloth'].map(norm));
 const constant=name=>JSON.parse(code.match(new RegExp('^const '+name+' = (.*);$','m'))[1]);
-for(const [en,fr] of constant('TRANSLATION_TERMS'))if(norm(en)===norm(fr))sameLanguage.add(norm(en));
+for(const {en,fr} of constant('TRANSLATION_TERMS'))if(norm(en)===norm(fr))sameLanguage.add(norm(en));
 for(const {en,fr} of [...constant('COMPLETE_TEXTS'),...constant('AIDEDD_CATALOG')])if(norm(en)===norm(fr))sameLanguage.add(norm(en));
 function shardHTML(){const copy=main.cloneNode(true);copy.querySelectorAll('[data-shard-fr-link]').forEach(node=>node.remove());return copy.innerHTML;}
 const notation=text=>sameLanguage.has(norm(text))||/^[\d\s.,/½¾¼×+–—-]+(?:lb\.?|ft\.?|feet|mph|ounces?|gallons?|quart)(?:\s*×\s*[\d\s.]+ft\.?)?$/i.test(text)||/^[\d\sd+×.,-]+$/i.test(text)||/^10 Piton$/.test(text)||!/[a-z]/i.test(text);

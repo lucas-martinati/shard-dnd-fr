@@ -48,7 +48,7 @@ Les traductions sont organisées dans `translations/dnd-2024/phb/`, `translation
 
 Les constantes de données du userscript sont toutes sérialisées au format JSON compact, une déclaration par ligne. Les fichiers sources JSON restent indentés pour faciliter leur édition ; les retours à la ligne contenus dans les traductions sont conservés sous forme échappée.
 
-Le [relevé des données embarquées](docs/DONNEES-GENEREES.md) décrit les sept constantes générées depuis les packs, les priorités et le retrait des anciens dictionnaires et index inutilisés. L’export `lexique-en-fr.json` contient le lexique ; les descriptions complètes sont assemblées dans `COMPLETE_TEXTS` et ne figurent pas toutes dans cet export.
+Le [relevé des données embarquées](docs/DONNEES-GENEREES.md) décrit les six constantes générées depuis les packs, les priorités et le retrait des anciens dictionnaires et index inutilisés. L’export `lexique-en-fr.json` contient le lexique ; les descriptions complètes sont assemblées dans `COMPLETE_TEXTS` et ne figurent pas toutes dans cet export.
 
 Les tests sont regroupés dans `tests/`, avec les extraits HTML dans `tests/fixtures/`. `npm test` lance les suites JavaScript et Python. Les tests inclus couvrent la configuration, la recherche et les liens, les aptitudes de personnages, les variantes de métamagie, les interactions, la migration du cache et le retour au texte anglais.
 
@@ -140,3 +140,5 @@ La 1.17.41 complète les textes MJ fournis pour le trésor et les rencontres sur
 La 1.17.42 traduit la composante matérielle de Nuée de dagues : « a sliver of glass → un éclat de verre ». Le contrôle des paragraphes de sorts couvre le matériau seul, les composantes complètes et leur libellé en gras, y compris lorsqu’il est déjà en français, avec restauration exacte de l’anglais.
 
 La 1.17.43 relie les paragraphes SRD de Gardien de la foi et Suggestion de groupe aux quatre passages du rapport utilisateur 1.17.41 ; les 10 feet et les valeurs 20, 60 et 25 sont conservés. Le diagnostic reconnaît aussi les fragments anglais courts tels que « a sliver of glass » et « a pinch of salt », y compris dans un bloc partiellement traduit. Les tests vérifient des matériaux inconnus, les libellés mixtes, l’absence de signalement sur les exemples français, la traduction des quatre passages et leur disparition du diagnostic, ainsi que la restauration exacte. Cette détection reste fondée sur des indices de langue et ne garantit pas de repérer tout fragment anglais.
+
+La 1.17.43 réunit également les traductions et leurs métadonnées dans une seule liste `TRANSLATION_TERMS`, composée d’objets `{ en, fr, source, category, aliases, usage }`. La constante `TERM_META` est retirée ; la recherche, les alias, les noms bilingues et les priorités AideDD utilisent cette liste commune.

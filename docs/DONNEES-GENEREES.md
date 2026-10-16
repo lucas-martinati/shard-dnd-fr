@@ -6,19 +6,20 @@ Les corrections se font dans les sources éditables, puis avec `npm run build`. 
 
 ## Les données réellement embarquées
 
-[work/build.py](../work/build.py) produit sept constantes :
+[work/build.py](../work/build.py) produit six constantes :
 
 | Constante | Source et rôle |
 | --- | --- |
 | `SCRIPT_VERSION` | Version de `package.json` |
-| `TRANSLATION_TERMS` | Libellés et correspondances historiques conservées, issus des packs `traductions.json` |
-| `TERM_META` | Provenance, catégorie, alias et usages des mêmes entrées ; recherche et priorités |
+| `TRANSLATION_TERMS` | Liste d’objets `{ en, fr, source, category, aliases, usage }`, issue des packs `traductions.json` : libellés, correspondances historiques, recherche et affichage bilingue |
 | `AIDEDD_CATALOG` | [Catalogue 2024](../sources-generation/catalogues/aidedd-2024.json) : noms prioritaires, liens, alias et recherche |
 | `REFERENCE_CATALOG_2014` | [Catalogue 2014](../sources-generation/catalogues/2014.json) : sélection des références anciennes, toujours utilisée |
 | `COMPLETE_TEXTS` | Paragraphes, champs et sections assemblés par [make-complete-texts.py](../work/make-complete-texts.py) |
 | `MONSTER_ACTION_TITLES` | [Titres bilingues d’aptitudes](../translations/dnd-2024/mm/monstres/titres-aptitudes.json) nécessaires à l’appariement des monstres |
 
 Les constantes sont des formats de livraison, pas des fichiers de maintenance supplémentaires. Les catalogues contiennent des noms et références ; ils ne constituent pas des traductions de descriptions.
+
+Depuis la 1.17.43, `TERM_META` est intégré à `TRANSLATION_TERMS`. Chaque traduction et ses métadonnées sont livrées ensemble. Le moteur construit un index en mémoire à partir de cette liste pour les remplacements, les alias et les usages `name`, `spell` et `search`. Les noms prioritaires du catalogue AideDD sont appliqués ensuite, comme auparavant.
 
 ## Migration des anciens lots
 

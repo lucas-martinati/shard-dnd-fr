@@ -30,6 +30,7 @@
   // Une ancienne synchronisation ne doit pas masquer les références ajoutées au script.
   let aideddRows=validRows(aideddCache.rows)?[...new Map([...AIDEDD_CATALOG,...aideddCache.rows].map(r=>[normalize(r.en)+'|'+r.kind,r])).values()]:AIDEDD_CATALOG;
   let entries, tokenRE, phraseRE, names, customKeys, effectiveMeta, aideddIndex;
+  const baseTerms=new Map(TRANSLATION_TERMS.map(row=>[normalize(row.en),row]));
   const bundledIndex=new Map(AIDEDD_CATALOG.map(row=>[normalize(row.en)+'|'+row.kind,row]));
   const legacyIndex=new Map();
   for(const row of REFERENCE_CATALOG_2014){
@@ -38,7 +39,7 @@
     legacyIndex.get(key).push(row);
   }
   let referenceIndex=new Map(),referenceSearchRows=[];
-  function termMeta(key){return effectiveMeta[key]||TERM_META[key]||{};}
+  function termMeta(key){return effectiveMeta[key]||baseTerms.get(key)||{};}
 
   const tokenState = new WeakMap();
   const attrState = new WeakMap();
@@ -46,10 +47,9 @@
   function compile() {
     aideddIndex=new Map();
     for(const row of aideddRows){const key=normalize(row.en);if(!aideddIndex.has(key))aideddIndex.set(key,[]);aideddIndex.get(key).push(row);}
-    entries = new Map();
+    entries = new Map(baseTerms);
     customKeys = new Set(Object.keys(custom).map(normalize));
-    for (const [en,fr] of TRANSLATION_TERMS) entries.set(normalize(en), {en,fr});
-    effectiveMeta={...TERM_META};
+    effectiveMeta=Object.fromEntries(baseTerms);
     if(aideddNames)for(const row of aideddRows){
       const key=normalize(row.en),previous=entries.get(key),old=effectiveMeta[key]||{};
       const bundled=bundledIndex.get(key+'|'+row.kind);
@@ -60,13 +60,13 @@
     for (const [en,fr] of Object.entries(custom)) {
       if (en.trim() && typeof fr === 'string') entries.set(normalize(en), {en,fr});
     }
-    names = new Set(Object.keys(TERM_META).filter(key=>TERM_META[key].usage.includes('name')));
+    names = new Set([...baseTerms].filter(([,row])=>row.usage.includes('name')).map(([key])=>key));
     if(aideddNames)for(const row of aideddRows)names.add(normalize(row.en));
     const keys = [...entries.keys()].sort((a,b) => b.length-a.length);
     // Un seul remplacement par passe : aucun remplacement récursif du français produit.
     tokenRE = new RegExp('(?<![\\p{L}\\p{N}_])(?:' + keys.map(pattern).join('|') + ')(?![\\p{L}\\p{N}_])', 'giu');
     // Dans une phrase inconnue, ne traduire que les groupes de mots D&D explicites.
-    const explicitNames = new Set(Object.keys(TERM_META).filter(key=>TERM_META[key].usage.includes('spell')));
+    const explicitNames = new Set([...baseTerms].filter(([,row])=>row.usage.includes('spell')).map(([key])=>key));
     if(aideddNames)for(const row of aideddRows)if(row.kind==='spell')explicitNames.add(normalize(row.en));
     // Les mots courants anglais pouvant aussi désigner un sort restent ambigus en prose.
     const ambiguous = new Set(['light','aid','alarm','command','friends','jump','sleep','fear','darkness','web','daylight','silence','message','wish','gate','hex','detect','move','charge']);
@@ -441,7 +441,7 @@
   const searchBox=document.createElement('section');searchBox.setAttribute('aria-label','Suggestions de recherche D&D en français');
   searchRoot.append(searchStyle,searchBox);document.body.append(searchHost);
   let nativeTarget=null, nativeHits=[], activeHit=-1, applyingSearch=false;
-  const searchableKeys=new Set(Object.keys(TERM_META).filter(key=>TERM_META[key].usage.includes('search')));
+  const searchableKeys=new Set([...baseTerms].filter(([,row])=>row.usage.includes('search')).map(([key])=>key));
   function isSearchInput(el) {
     if (!(el instanceof HTMLInputElement) || el.disabled || el.readOnly || el.closest('[data-shard-fr-ignore]')) return false;
     if (!['text','search'].includes(el.type)) return false;

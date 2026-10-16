@@ -29,6 +29,15 @@ for(const line of data.trim().split(/\r?\n/)){
   assert.ok(match,'Constante générée répartie sur plusieurs lignes : '+line.slice(0,100));
   constants.set(match[1],JSON.parse(match[2]));
 }
+assert.ok(!constants.has('TERM_META'),'Les métadonnées sont intégrées à chaque traduction');
+const terms=constants.get('TRANSLATION_TERMS');
+assert.ok(Array.isArray(terms)&&terms.length>0);
+for(const row of terms){
+  assert.deepEqual(Object.keys(row).sort(),['aliases','category','en','fr','source','usage']);
+  for(const key of ['en','fr','category','source'])assert.ok(typeof row[key]==='string'&&row[key].length>0);
+  assert.ok(Array.isArray(row.aliases)&&row.aliases.every(alias=>typeof alias==='string'));
+  assert.ok(Array.isArray(row.usage)&&row.usage.every(usage=>['name','spell','search','inline'].includes(usage)));
+}
 assert.deepEqual(constants.get('REFERENCE_CATALOG_2014'),JSON.parse(fs.readFileSync('sources-generation/catalogues/2014.json','utf8')));
 assert.deepEqual(constants.get('COMPLETE_TEXTS'),JSON.parse(fs.readFileSync('work/generated/complete-texts.json','utf8')));
 const base='https://raw.githubusercontent.com/lucas-martinati/shard-dnd-fr/main/outputs/';
