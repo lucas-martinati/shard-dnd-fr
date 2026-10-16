@@ -8,7 +8,7 @@ const pause=ms=>new Promise(r=>setTimeout(r,ms));async function wait(fn){for(let
 (async()=>{try{
  w.eval(fs.readFileSync('outputs/shard-dnd-fr.user.js','utf8'));await wait(()=>sentinel.textContent==='Fermer');
  for(const row of cases)assert.equal(row.el.textContent,row.fr,row.en.slice(0,100));
- const root=[...d.querySelectorAll('[data-shard-fr-ignore]')].map(e=>e.shadowRoot).find(r=>r?.getElementById('scanMissing'));root.getElementById('scanMissing').click();root.getElementById('exportMissing').click();const report=await new Promise(resolve=>{const reader=new w.FileReader();reader.onload=()=>resolve(JSON.parse(reader.result));reader.readAsText(blob);});
+ const root=[...d.querySelectorAll('[data-shard-fr-ignore]')].map(e=>e.shadowRoot).find(r=>r?.getElementById('scanMissing'));root.getElementById('scanMissing').click();await wait(() => !root.getElementById('exportMissing').disabled); root.getElementById('exportMissing').click();const report=await new Promise(resolve=>{const reader=new w.FileReader();reader.onload=()=>resolve(JSON.parse(reader.result));reader.readAsText(blob);});
  assert.equal(report.missingCount,0,'Les 93 candidats, dont les dés et le nom déjà connu, ne doivent plus être signalés');
  const enabled=root.getElementById('enabled');enabled.checked=false;enabled.dispatchEvent(new w.Event('change'));await wait(()=>sentinel.textContent==='Close');sentinel.remove();assert.equal(main.innerHTML,original);
  console.log('PASS rapport objets : 93 candidats, 90 correspondances, dés non signalés, retour exact à l’anglais.');

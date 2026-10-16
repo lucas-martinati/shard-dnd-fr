@@ -1,0 +1,566 @@
+{
+  "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds",
+  "htmlNote": "Structure de champs reconstruite d’après la fiche Acolyte ; textes des 16 fiches relevés dans Shard.",
+  "rows": [
+    {
+      "name": "Acolyte",
+      "fields": [
+        {
+          "label": "Ability Scores.",
+          "labelFr": "Valeurs de caractéristique.",
+          "en": "Intelligence, Wisdom, Charisma",
+          "fr": "Intelligence, Sagesse, Charisme"
+        },
+        {
+          "label": "Feat.",
+          "labelFr": "Don.",
+          "en": "Magic Initiate (Cleric)",
+          "fr": "Initié à la magie (clerc)"
+        },
+        {
+          "label": "Skill Proficiencies.",
+          "labelFr": "Maîtrises de compétences.",
+          "en": "Insight and Religion",
+          "fr": "Intuition et Religion"
+        },
+        {
+          "label": "Tool Proficiency.",
+          "labelFr": "Maîtrise d’outils.",
+          "en": "Calligrapher’s Supplies",
+          "fr": "Matériel de calligraphe"
+        },
+        {
+          "label": "Equipment.",
+          "labelFr": "Équipement.",
+          "en": "Choose A or B: (A) Calligrapher’s Supplies, Book (prayers), Holy Symbol, Parchment (10 sheets), Robe, 8 GP; or (B) 50 GP",
+          "fr": "Choisissez A ou B : (A) Matériel de calligraphe, livre (prières), symbole sacré, parchemin (10 feuilles), robe, 8 po ; ou (B) 50 po"
+        }
+      ]
+    },
+    {
+      "name": "Artisan",
+      "fields": [
+        {
+          "label": "Ability Scores.",
+          "labelFr": "Valeurs de caractéristique.",
+          "en": "Strength, Dexterity, Intelligence",
+          "fr": "Force, Dextérité, Intelligence"
+        },
+        {
+          "label": "Feat.",
+          "labelFr": "Don.",
+          "en": "Crafter",
+          "fr": "Façonneur"
+        },
+        {
+          "label": "Skill Proficiencies.",
+          "labelFr": "Maîtrises de compétences.",
+          "en": "Investigation, Persuasion",
+          "fr": "Investigation, Persuasion"
+        },
+        {
+          "label": "Tool Proficiency.",
+          "labelFr": "Maîtrise d’outils.",
+          "en": "Choose one kind of Artisan’s Tools",
+          "fr": "Choisissez un type d’outils d’artisan"
+        },
+        {
+          "label": "Equipment.",
+          "labelFr": "Équipement.",
+          "en": "Choose A or B: (A) Artisan’s Tools (same as above), 2 Pouches, Traveler’s Clothes, 32 GP; or (B) 50 GP",
+          "fr": "Choisissez A ou B : (A) Outils d’artisan (comme ci-dessus), 2 bourses, vêtements de voyage, 32 po ; ou (B) 50 po"
+        }
+      ]
+    },
+    {
+      "name": "Charlatan",
+      "fields": [
+        {
+          "label": "Ability Scores.",
+          "labelFr": "Valeurs de caractéristique.",
+          "en": "Dexterity, Constitution, Charisma",
+          "fr": "Dextérité, Constitution, Charisme"
+        },
+        {
+          "label": "Feat.",
+          "labelFr": "Don.",
+          "en": "Skilled",
+          "fr": "Doué"
+        },
+        {
+          "label": "Skill Proficiencies.",
+          "labelFr": "Maîtrises de compétences.",
+          "en": "Deception and Sleight of Hand",
+          "fr": "Tromperie et Escamotage"
+        },
+        {
+          "label": "Tool Proficiency.",
+          "labelFr": "Maîtrise d’outils.",
+          "en": "Forgery Kit",
+          "fr": "Matériel de contrefaçon"
+        },
+        {
+          "label": "Equipment.",
+          "labelFr": "Équipement.",
+          "en": "Choose A or B: (A) Forgery Kit, Costume, Fine Clothes, 15 GP; or (B) 50 GP",
+          "fr": "Choisissez A ou B : (A) Matériel de contrefaçon, costume, beaux vêtements, 15 po ; ou (B) 50 po"
+        }
+      ]
+    },
+    {
+      "name": "Criminal",
+      "fields": [
+        {
+          "label": "Ability Scores.",
+          "labelFr": "Valeurs de caractéristique.",
+          "en": "Dexterity, Constitution, Intelligence",
+          "fr": "Dextérité, Constitution, Intelligence"
+        },
+        {
+          "label": "Feat.",
+          "labelFr": "Don.",
+          "en": "Alert",
+          "fr": "Vigilant"
+        },
+        {
+          "label": "Skill Proficiencies.",
+          "labelFr": "Maîtrises de compétences.",
+          "en": "Sleight of Hand, Stealth",
+          "fr": "Escamotage, Discrétion"
+        },
+        {
+          "label": "Tool Proficiency.",
+          "labelFr": "Maîtrise d’outils.",
+          "en": "Thieves’ Tools",
+          "fr": "Outils de voleur"
+        },
+        {
+          "label": "Equipment.",
+          "labelFr": "Équipement.",
+          "en": "Choose A or B: (A) 2 Daggers, Thieves’ Tools, Crowbar, 2 Pouches, Traveler’s Clothes, 16 GP; or (B) 50 GP",
+          "fr": "Choisissez A ou B : (A) 2 dagues, outils de voleur, pied-de-biche, 2 bourses, vêtements de voyage, 16 po ; ou (B) 50 po"
+        }
+      ]
+    },
+    {
+      "name": "Entertainer",
+      "fields": [
+        {
+          "label": "Ability Scores.",
+          "labelFr": "Valeurs de caractéristique.",
+          "en": "Strength, Dexterity, Charisma",
+          "fr": "Force, Dextérité, Charisme"
+        },
+        {
+          "label": "Feat.",
+          "labelFr": "Don.",
+          "en": "Musician",
+          "fr": "Musicien"
+        },
+        {
+          "label": "Skill Proficiencies.",
+          "labelFr": "Maîtrises de compétences.",
+          "en": "Acrobatics and Performance",
+          "fr": "Acrobaties et Représentation"
+        },
+        {
+          "label": "Tool Proficiency.",
+          "labelFr": "Maîtrise d’outils.",
+          "en": "Choose one kind of Musical Instrument",
+          "fr": "Choisissez un type d’instrument de musique"
+        },
+        {
+          "label": "Equipment.",
+          "labelFr": "Équipement.",
+          "en": "Choose A or B: (A) Musical Instrument (same as above), 2 Costumes, Mirror, Perfume, Traveler’s Clothes, 11 GP; or (B) 50 GP",
+          "fr": "Choisissez A ou B : (A) Instrument de musique (comme ci-dessus), 2 costumes, miroir, parfum, vêtements de voyage, 11 po ; ou (B) 50 po"
+        }
+      ]
+    },
+    {
+      "name": "Farmer",
+      "fields": [
+        {
+          "label": "Ability Scores.",
+          "labelFr": "Valeurs de caractéristique.",
+          "en": "Strength, Constitution, Wisdom",
+          "fr": "Force, Constitution, Sagesse"
+        },
+        {
+          "label": "Feat.",
+          "labelFr": "Don.",
+          "en": "Tough",
+          "fr": "Robuste"
+        },
+        {
+          "label": "Skill Proficiencies.",
+          "labelFr": "Maîtrises de compétences.",
+          "en": "Animal Handling and Nature",
+          "fr": "Dressage et Nature"
+        },
+        {
+          "label": "Tool Proficiency.",
+          "labelFr": "Maîtrise d’outils.",
+          "en": "Carpenter’s Tools",
+          "fr": "Outils de menuisier"
+        },
+        {
+          "label": "Equipment.",
+          "labelFr": "Équipement.",
+          "en": "Choose A or B: (A) Sickle, Carpenter’s Tools, Healer’s Kit, Iron Pot, Shovel, Traveler’s Clothes, 30 GP; or (B) 50 GP",
+          "fr": "Choisissez A ou B : (A) Serpe, outils de menuisier, trousse de soins, marmite en fer, pelle, vêtements de voyage, 30 po ; ou (B) 50 po"
+        }
+      ]
+    },
+    {
+      "name": "Guard",
+      "fields": [
+        {
+          "label": "Ability Scores.",
+          "labelFr": "Valeurs de caractéristique.",
+          "en": "Strength, Intelligence, Wisdom",
+          "fr": "Force, Intelligence, Sagesse"
+        },
+        {
+          "label": "Feat.",
+          "labelFr": "Don.",
+          "en": "Alert",
+          "fr": "Vigilant"
+        },
+        {
+          "label": "Skill Proficiencies.",
+          "labelFr": "Maîtrises de compétences.",
+          "en": "Athletics and Perception",
+          "fr": "Athlétisme et Perception"
+        },
+        {
+          "label": "Tool Proficiency.",
+          "labelFr": "Maîtrise d’outils.",
+          "en": "Choose one kind of Gaming Set",
+          "fr": "Choisissez un type de jeu"
+        },
+        {
+          "label": "Equipment.",
+          "labelFr": "Équipement.",
+          "en": "Choose A or B: (A) Spear, Light Crossbow, 20 Bolts, Gaming Set (same as above), Hooded Lantern, Manacles, Quiver, Traveler’s Clothes, 12 GP; or (B) 50 GP",
+          "fr": "Choisissez A ou B : (A) Lance, arbalète légère, 20 carreaux, jeu (comme ci-dessus), lanterne à capote, menottes, carquois, vêtements de voyage, 12 po ; ou (B) 50 po"
+        }
+      ]
+    },
+    {
+      "name": "Guide",
+      "fields": [
+        {
+          "label": "Ability Scores.",
+          "labelFr": "Valeurs de caractéristique.",
+          "en": "Dexterity, Constitution, Wisdom",
+          "fr": "Dextérité, Constitution, Sagesse"
+        },
+        {
+          "label": "Feat.",
+          "labelFr": "Don.",
+          "en": "Magic Initiate (Druid)",
+          "fr": "Initié à la magie (druide)"
+        },
+        {
+          "label": "Skill Proficiencies.",
+          "labelFr": "Maîtrises de compétences.",
+          "en": "Stealth and Survival",
+          "fr": "Discrétion et Survie"
+        },
+        {
+          "label": "Tool Proficiency.",
+          "labelFr": "Maîtrise d’outils.",
+          "en": "Cartographer’s Tools",
+          "fr": "Outils de cartographe"
+        },
+        {
+          "label": "Equipment.",
+          "labelFr": "Équipement.",
+          "en": "Choose A or B: (A) Shortbow, 20 Arrows, Cartographer’s Tools, Bedroll, Quiver, Tent, Traveler’s Clothes, 3 GP; or (B) 50 GP",
+          "fr": "Choisissez A ou B : (A) Arc court, 20 flèches, outils de cartographe, sac de couchage, carquois, tente, vêtements de voyage, 3 po ; ou (B) 50 po"
+        }
+      ]
+    },
+    {
+      "name": "Hermit",
+      "fields": [
+        {
+          "label": "Ability Scores.",
+          "labelFr": "Valeurs de caractéristique.",
+          "en": "Constitution, Wisdom, Charisma",
+          "fr": "Constitution, Sagesse, Charisme"
+        },
+        {
+          "label": "Feat.",
+          "labelFr": "Don.",
+          "en": "Healer",
+          "fr": "Guérisseur"
+        },
+        {
+          "label": "Skill Proficiencies.",
+          "labelFr": "Maîtrises de compétences.",
+          "en": "Medicine, Religion",
+          "fr": "Médecine, Religion"
+        },
+        {
+          "label": "Tool Proficiency.",
+          "labelFr": "Maîtrise d’outils.",
+          "en": "Herbalism Kit",
+          "fr": "Matériel d’herboriste"
+        },
+        {
+          "label": "Equipment.",
+          "labelFr": "Équipement.",
+          "en": "Choose A or B: (A) Quarterstaff, Herbalism Kit, Bedroll, Book (philosophy), Lamp, Oil (3 flasks), Traveler’s Clothes, 16 GP; or (B) 50 GP",
+          "fr": "Choisissez A ou B : (A) Bâton de combat, matériel d’herboriste, sac de couchage, livre (philosophie), lampe, huile (3 flasques), vêtements de voyage, 16 po ; ou (B) 50 po"
+        }
+      ]
+    },
+    {
+      "name": "Merchant",
+      "fields": [
+        {
+          "label": "Ability Scores.",
+          "labelFr": "Valeurs de caractéristique.",
+          "en": "Constitution, Intelligence, Charisma",
+          "fr": "Constitution, Intelligence, Charisme"
+        },
+        {
+          "label": "Feat.",
+          "labelFr": "Don.",
+          "en": "Lucky",
+          "fr": "Chanceux"
+        },
+        {
+          "label": "Skill Proficiencies.",
+          "labelFr": "Maîtrises de compétences.",
+          "en": "Animal Handling and Persuasion",
+          "fr": "Dressage et Persuasion"
+        },
+        {
+          "label": "Tool Proficiency.",
+          "labelFr": "Maîtrise d’outils.",
+          "en": "Navigator’s Tools",
+          "fr": "Outils de navigateur"
+        },
+        {
+          "label": "Equipment.",
+          "labelFr": "Équipement.",
+          "en": "Choose A or B: (A) Navigator’s Tools, 2 Pouches, Traveler’s Clothes, 22 GP; or (B) 50 GP",
+          "fr": "Choisissez A ou B : (A) Outils de navigateur, 2 bourses, vêtements de voyage, 22 po ; ou (B) 50 po"
+        }
+      ]
+    },
+    {
+      "name": "Noble",
+      "fields": [
+        {
+          "label": "Ability Scores.",
+          "labelFr": "Valeurs de caractéristique.",
+          "en": "Strength, Intelligence, Charisma",
+          "fr": "Force, Intelligence, Charisme"
+        },
+        {
+          "label": "Feat.",
+          "labelFr": "Don.",
+          "en": "Skilled",
+          "fr": "Doué"
+        },
+        {
+          "label": "Skill Proficiencies.",
+          "labelFr": "Maîtrises de compétences.",
+          "en": "History, Persuasion",
+          "fr": "Histoire, Persuasion"
+        },
+        {
+          "label": "Tool Proficiency.",
+          "labelFr": "Maîtrise d’outils.",
+          "en": "Choose one kind of Gaming Set",
+          "fr": "Choisissez un type de jeu"
+        },
+        {
+          "label": "Equipment.",
+          "labelFr": "Équipement.",
+          "en": "Choose A or B: (A) Gaming Set (same as above), Fine Clothes, Perfume, 29 GP; or (B) 50 GP",
+          "fr": "Choisissez A ou B : (A) Jeu (comme ci-dessus), beaux vêtements, parfum, 29 po ; ou (B) 50 po"
+        }
+      ]
+    },
+    {
+      "name": "Sage",
+      "fields": [
+        {
+          "label": "Ability Scores.",
+          "labelFr": "Valeurs de caractéristique.",
+          "en": "Constitution, Intelligence, Wisdom",
+          "fr": "Constitution, Intelligence, Sagesse"
+        },
+        {
+          "label": "Feat.",
+          "labelFr": "Don.",
+          "en": "Magic Initiate (Wizard)",
+          "fr": "Initié à la magie (magicien)"
+        },
+        {
+          "label": "Skill Proficiencies.",
+          "labelFr": "Maîtrises de compétences.",
+          "en": "Arcana, History",
+          "fr": "Arcanes, Histoire"
+        },
+        {
+          "label": "Tool Proficiency.",
+          "labelFr": "Maîtrise d’outils.",
+          "en": "Calligrapher’s Supplies",
+          "fr": "Matériel de calligraphe"
+        },
+        {
+          "label": "Equipment.",
+          "labelFr": "Équipement.",
+          "en": "Choose A or B: (A) Quarterstaff, Calligrapher’s Supplies, Book (history), Parchment (8 sheets), Robe, 8 GP; or (B) 50 GP",
+          "fr": "Choisissez A ou B : (A) Bâton de combat, matériel de calligraphe, livre (histoire), parchemin (8 feuilles), robe, 8 po ; ou (B) 50 po"
+        }
+      ]
+    },
+    {
+      "name": "Sailor",
+      "fields": [
+        {
+          "label": "Ability Scores.",
+          "labelFr": "Valeurs de caractéristique.",
+          "en": "Strength, Dexterity, Wisdom",
+          "fr": "Force, Dextérité, Sagesse"
+        },
+        {
+          "label": "Feat.",
+          "labelFr": "Don.",
+          "en": "Tavern Brawler",
+          "fr": "Bagarreur de tavernes"
+        },
+        {
+          "label": "Skill Proficiencies.",
+          "labelFr": "Maîtrises de compétences.",
+          "en": "Acrobatics and Perception",
+          "fr": "Acrobaties et Perception"
+        },
+        {
+          "label": "Tool Proficiency.",
+          "labelFr": "Maîtrise d’outils.",
+          "en": "Navigator’s Tools",
+          "fr": "Outils de navigateur"
+        },
+        {
+          "label": "Equipment.",
+          "labelFr": "Équipement.",
+          "en": "Choose A or B: (A) Dagger, Navigator’s Tools, Rope, Traveler’s Clothes, 20 GP; or (B) 50 GP",
+          "fr": "Choisissez A ou B : (A) Dague, outils de navigateur, corde, vêtements de voyage, 20 po ; ou (B) 50 po"
+        }
+      ]
+    },
+    {
+      "name": "Scribe",
+      "fields": [
+        {
+          "label": "Ability Scores.",
+          "labelFr": "Valeurs de caractéristique.",
+          "en": "Dexterity, Intelligence, Wisdom",
+          "fr": "Dextérité, Intelligence, Sagesse"
+        },
+        {
+          "label": "Feat.",
+          "labelFr": "Don.",
+          "en": "Skilled",
+          "fr": "Doué"
+        },
+        {
+          "label": "Skill Proficiencies.",
+          "labelFr": "Maîtrises de compétences.",
+          "en": "Investigation and Perception",
+          "fr": "Investigation et Perception"
+        },
+        {
+          "label": "Tool Proficiency.",
+          "labelFr": "Maîtrise d’outils.",
+          "en": "Calligrapher’s Supplies",
+          "fr": "Matériel de calligraphe"
+        },
+        {
+          "label": "Equipment.",
+          "labelFr": "Équipement.",
+          "en": "Choose A or B: (A) Calligrapher’s Supplies, Fine Clothes, Lamp, Oil (3 flasks), Parchment (12 sheets), 23 GP; or (B) 50 GP",
+          "fr": "Choisissez A ou B : (A) Matériel de calligraphe, beaux vêtements, lampe, huile (3 flasques), parchemin (12 feuilles), 23 po ; ou (B) 50 po"
+        }
+      ]
+    },
+    {
+      "name": "Soldier",
+      "fields": [
+        {
+          "label": "Ability Scores.",
+          "labelFr": "Valeurs de caractéristique.",
+          "en": "Strength, Dexterity, Constitution",
+          "fr": "Force, Dextérité, Constitution"
+        },
+        {
+          "label": "Feat.",
+          "labelFr": "Don.",
+          "en": "Savage Attacker",
+          "fr": "Sauvagerie martiale"
+        },
+        {
+          "label": "Skill Proficiencies.",
+          "labelFr": "Maîtrises de compétences.",
+          "en": "Athletics, Intimidation",
+          "fr": "Athlétisme, Intimidation"
+        },
+        {
+          "label": "Tool Proficiency.",
+          "labelFr": "Maîtrise d’outils.",
+          "en": "Choose one kind of Gaming Set",
+          "fr": "Choisissez un type de jeu"
+        },
+        {
+          "label": "Equipment.",
+          "labelFr": "Équipement.",
+          "en": "Choose A or B: (A) Spear, Shortbow, 20 Arrows, Gaming Set (same as above), Healer’s Kit, Quiver, Traveler’s Clothes, 14 GP; or (B) 50 GP",
+          "fr": "Choisissez A ou B : (A) Lance, arc court, 20 flèches, jeu (comme ci-dessus), trousse de soins, carquois, vêtements de voyage, 14 po ; ou (B) 50 po"
+        }
+      ]
+    },
+    {
+      "name": "Wayfarer",
+      "fields": [
+        {
+          "label": "Ability Scores.",
+          "labelFr": "Valeurs de caractéristique.",
+          "en": "Dexterity, Wisdom, Charisma",
+          "fr": "Dextérité, Sagesse, Charisme"
+        },
+        {
+          "label": "Feat.",
+          "labelFr": "Don.",
+          "en": "Lucky",
+          "fr": "Chanceux"
+        },
+        {
+          "label": "Skill Proficiencies.",
+          "labelFr": "Maîtrises de compétences.",
+          "en": "Insight and Stealth",
+          "fr": "Intuition et Discrétion"
+        },
+        {
+          "label": "Tool Proficiency.",
+          "labelFr": "Maîtrise d’outils.",
+          "en": "Thieves’ Tools",
+          "fr": "Outils de voleur"
+        },
+        {
+          "label": "Equipment.",
+          "labelFr": "Équipement.",
+          "en": "Choose A or B: (A) 2 Daggers, Thieves’ Tools, Gaming Set (any), Bedroll, 2 Pouches, Traveler’s Clothes, 16 GP; or (B) 50 GP",
+          "fr": "Choisissez A ou B : (A) 2 dagues, outils de voleur, jeu (au choix), sac de couchage, 2 bourses, vêtements de voyage, 16 po ; ou (B) 50 po"
+        }
+      ]
+    }
+  ]
+}

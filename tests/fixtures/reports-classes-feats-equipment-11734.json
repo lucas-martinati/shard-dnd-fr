@@ -1,0 +1,1197 @@
+{
+  "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+  "reportedCounts": {
+    "classes": 17,
+    "dons": 11,
+    "equipements": 90
+  },
+  "cases": [
+    {
+      "group": "classes",
+      "en": "Show Map",
+      "fr": "Afficher la carte",
+      "kind": "term",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "classes",
+      "en": "Export",
+      "fr": "Exporter",
+      "kind": "term",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "classes",
+      "en": "The maneuvers are presented here in alphabetical order.",
+      "fr": "Les manœuvres sont présentées ici par ordre alphabétique.",
+      "kind": "description",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "classes",
+      "en": "Beast Companion Stat Blocks",
+      "fr": "Profils des compagnons bestiaux",
+      "kind": "term",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "classes",
+      "en": "MOD",
+      "fr": "MOD",
+      "kind": "term",
+      "occurrences": 6,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "classes",
+      "en": "Understands the languages you know",
+      "fr": "Comprend les langues que vous connaissez",
+      "kind": "term",
+      "occurrences": 3,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "classes",
+      "en": "Primal Bond. Add your Proficiency Bonus {proficiency} to any ability check or saving throw the beast makes.",
+      "fr": "Lien primal. Ajoutez votre bonus de maîtrise {proficiency} à tout test de caractéristique ou jet de sauvegarde effectué par la bête.",
+      "kind": "description",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "classes",
+      "en": "Beast’s Strike. Melee Attack Roll: {summoner wis}+{summoner proficiency}, reach 5 ft. Hit: 1d8 + 2 + {summoner wis} Bludgeoning damage (or Piercing / Slashing, your choice when you summon the beast). If the beast moved at least 20 feet straight toward the target before the hit, the target takes an extra 1d6 damage of the same type, and the target has the Prone condition if it is a Large or smaller creature.",
+      "fr": "Frappe de la bête. Jet d’attaque au corps à corps : {summoner wis}+{summoner proficiency}, allonge 5 ft. Touché : 1d8 + 2 + {summoner wis} dégâts contondants (ou perforants / tranchants, au choix lorsque vous invoquez la bête). Si la bête s’est déplacée d’au moins 20 feet en ligne droite vers la cible avant de la toucher, la cible subit 1d6 dégâts supplémentaires du même type et subit l’état À terre si elle est de taille Grande ou inférieure.",
+      "kind": "description",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "classes",
+      "en": "Amphibious. The beast can breathe air and water.",
+      "fr": "Amphibie. La bête peut respirer dans l’air et sous l’eau.",
+      "kind": "description",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "classes",
+      "en": "Primal Bond. Add {proficiency} to any ability check or saving throw the beast makes.",
+      "fr": "Lien primal. Ajoutez {proficiency} à tout test de caractéristique ou jet de sauvegarde effectué par la bête.",
+      "kind": "description",
+      "occurrences": 2,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "classes",
+      "en": "Beast’s Strike. Melee Attack Roll: {summoner wis}+{summoner proficiency}, reach 5 ft. Hit: 1d6 + 2 + {summoner wis} Bludgeoning damage (or Piercing, your choice when you summon the beast), and the target has the Grappled condition (escape DC 8+{summoner wis}+{summoner proficiency}).",
+      "fr": "Frappe de la bête. Jet d’attaque au corps à corps : {summoner wis}+{summoner proficiency}, allonge 5 ft. Touché : 1d6 + 2 + {summoner wis} dégâts contondants (ou perforants, au choix lorsque vous invoquez la bête), et la cible subit l’état Agrippé (évasion DD 8+{summoner wis}+{summoner proficiency}).",
+      "kind": "description",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "classes",
+      "en": "Flyby. The beast doesn’t provoke Opportunity Attacks when it flies out of an enemy’s reach.",
+      "fr": "Repli aérien. La bête ne provoque pas d’attaques d’opportunité lorsqu’elle quitte l’allonge d’un ennemi en volant.",
+      "kind": "description",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "classes",
+      "en": "Beast’s Strike.{summoner wis}+{summoner proficiency}1d4 + 3 + {summoner wis}",
+      "fr": "Frappe de la bête.{summoner wis}+{summoner proficiency}1d4 + 3 + {summoner wis}",
+      "kind": "description",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "classes",
+      "en": "The following options are available to your Metamagic feature. The options are presented in alphabetical order.",
+      "fr": "Les options suivantes sont disponibles pour votre aptitude Métamagie. Elles sont présentées par ordre alphabétique.",
+      "kind": "description",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "classes",
+      "en": "Poison.",
+      "fr": "Poison.",
+      "kind": "term",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "classes",
+      "en": "Eldritch Invocation Options",
+      "fr": "Options de manifestations occultes",
+      "kind": "term",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "classes",
+      "en": "A Warlock subclass is a specialization that grants you features at certain Warlock levels, as specified in the subclass. This section presents the Archfey Patron, Celestial Patron, Fiend Patron, and Great Old One Patron subclasses.",
+      "fr": "Une sous-classe d’Occultiste est une spécialisation qui vous confère des aptitudes à certains niveaux d’Occultiste, précisés dans sa description. Cette section présente les sous-classes Protecteur Archifée, Protecteur Céleste, Protecteur Fiélon et Protecteur Grand Ancien.",
+      "kind": "description",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "dons",
+      "en": "Show Map",
+      "fr": "Afficher la carte",
+      "kind": "term",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "dons",
+      "en": "Export",
+      "fr": "Exporter",
+      "kind": "term",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "dons",
+      "en": "These feats are in the Origin category.",
+      "fr": "Ces dons appartiennent à la catégorie Origine.",
+      "kind": "description",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "dons",
+      "en": "When you roll a d20 for a D20 Test, you can spend 1 Luck Point to give yourself Advantage on the roll.",
+      "fr": "Lorsque vous lancez un d20 pour un Test de d20, vous pouvez dépenser 1 Point de chance pour avoir l’Avantage à ce jet.",
+      "kind": "description",
+      "occurrences": 1,
+      "reason": "unrecognized-layout"
+    },
+    {
+      "group": "dons",
+      "en": "Five versions of the Skilled feat have been created to facilitate taking the feat as many times as possible, should you so choose to do so.",
+      "fr": "Cinq versions du don Doué ont été créées pour vous permettre de le prendre autant de fois que vous le souhaitez.",
+      "kind": "description",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "dons",
+      "en": "These feats are in the General category.",
+      "fr": "Ces dons appartiennent à la catégorie Générale.",
+      "kind": "description",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "dons",
+      "en": "ASI",
+      "fr": "Amélioration de caractéristique",
+      "kind": "term",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "dons",
+      "en": "A separate feat for each element is listed below.",
+      "fr": "Un don distinct pour chaque élément est présenté ci-dessous.",
+      "kind": "description",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "dons",
+      "en": "Constitution.",
+      "fr": "Constitution.",
+      "kind": "term",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "dons",
+      "en": "Intelligence.",
+      "fr": "Intelligence.",
+      "kind": "term",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "dons",
+      "en": "These feats are in the Fighting Style category.",
+      "fr": "Ces dons appartiennent à la catégorie Style de combat.",
+      "kind": "description",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "Show Map",
+      "fr": "Afficher la carte",
+      "kind": "term",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "Export",
+      "fr": "Exporter",
+      "kind": "term",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "Mounts and Vehicles",
+      "fr": "Montures et véhicules",
+      "kind": "term",
+      "occurrences": 2,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "The right equipment can make the difference between success and failure for adventurers. This chapter provides rules and prices for weapons, armor, and other kinds of equipment that characters might purchase or find.",
+      "fr": "Un équipement adapté peut faire la différence entre la réussite et l’échec pour les aventuriers. Ce chapitre présente les règles et les prix des armes, armures et autres équipements que les personnages peuvent acheter ou trouver.",
+      "kind": "description",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "Weapon",
+      "fr": "Arme",
+      "kind": "term",
+      "occurrences": 4,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "2 lb.",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 32,
+      "fr": "2 lb.",
+      "preservedWeight": true
+    },
+    {
+      "group": "equipements",
+      "en": "1 lb.",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 28,
+      "fr": "1 lb.",
+      "preservedWeight": true
+    },
+    {
+      "group": "equipements",
+      "en": "10 lb.",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 12,
+      "fr": "10 lb.",
+      "preservedWeight": true
+    },
+    {
+      "group": "equipements",
+      "en": "4 lb.",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 12,
+      "fr": "4 lb.",
+      "preservedWeight": true
+    },
+    {
+      "group": "equipements",
+      "en": "3 lb.",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 16,
+      "fr": "3 lb.",
+      "preservedWeight": true
+    },
+    {
+      "group": "equipements",
+      "en": "0.25 lb.",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 3,
+      "fr": "0.25 lb.",
+      "preservedWeight": true
+    },
+    {
+      "group": "equipements",
+      "en": "5 lb.",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 23,
+      "fr": "5 lb.",
+      "preservedWeight": true
+    },
+    {
+      "group": "equipements",
+      "en": "6 lb.",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 10,
+      "fr": "6 lb.",
+      "preservedWeight": true
+    },
+    {
+      "group": "equipements",
+      "en": "7 lb.",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 3,
+      "fr": "7 lb.",
+      "preservedWeight": true
+    },
+    {
+      "group": "equipements",
+      "en": "18 lb.",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 2,
+      "fr": "18 lb.",
+      "preservedWeight": true
+    },
+    {
+      "group": "equipements",
+      "en": "Selecting Mastery in a weapon unlocks a special attack from the list of Mastery Properties. Each weapon has a specific mastery property from the list.",
+      "fr": "Choisir la botte d’une arme débloque une attaque spéciale de la liste des propriétés de botte. Chaque arme possède une propriété de botte spécifique issue de cette liste.",
+      "kind": "description",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "Each weapon has a mastery property, which is usable only by a character who has a feature, such as Weapon Mastery, that unlocks the property for the character. The properties are defined below.",
+      "fr": "Chaque arme possède une propriété de botte, utilisable uniquement par un personnage doté d’une aptitude telle que Botte d’arme qui lui donne accès à cette propriété. Les propriétés sont définies ci-dessous.",
+      "kind": "description",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "The Armor table lists the game’s main armor. The table includes the cost and weight of armor, as well as the following details:",
+      "fr": "La table Armures présente les principales armures du jeu. Elle indique leur coût et leur poids, ainsi que les informations suivantes :",
+      "kind": "description",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "Category. Every type of armor falls into a category: Light, Medium, or Heavy. The category determines how long it takes to don or doff the armor.",
+      "fr": "Catégorie. Chaque type d’armure appartient à une catégorie : légère, intermédiaire ou lourde. La catégorie détermine le temps nécessaire pour enfiler ou retirer l’armure.",
+      "kind": "description",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "Armor Class (AC). The table’s Armor Class column tells you what your base AC is when you wear a type of armor. For example, if you wear Leather Armor, your base AC is 11 plus your Dexterity modifier, whereas your AC is 16 in Chain Mail.",
+      "fr": "Classe d’armure (CA). La colonne Classe d’armure de la table indique votre CA de base lorsque vous portez un type d’armure. Par exemple, une armure de cuir vous donne une CA de base de 11 + votre modificateur de Dextérité, tandis qu’une cotte de mailles vous donne une CA de 16.",
+      "kind": "description",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "Strength. If the table shows a Strength score in the Strength column for an armor type, that armor reduces the wearer’s speed by 10 feet unless the wearer has a Strength score equal to or higher than the listed score.",
+      "fr": "Force. Si la colonne Force de la table indique une valeur pour un type d’armure, celle-ci réduit la Vitesse du porteur de 10 feet, à moins que sa valeur de Force soit au moins égale à la valeur indiquée.",
+      "kind": "description",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "Stealth. If the table shows “Disadvantage” in the Stealth column for an armor type, the wearer has Disadvantage on Dexterity (Stealth) checks.",
+      "fr": "Discrétion. Si la colonne Discrétion de la table indique « Désavantage » pour un type d’armure, le porteur subit le Désavantage aux tests de Dextérité (Discrétion).",
+      "kind": "description",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "8 lb.",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 5,
+      "fr": "8 lb.",
+      "preservedWeight": true
+    },
+    {
+      "group": "equipements",
+      "en": "13 lb.",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 1,
+      "fr": "13 lb.",
+      "preservedWeight": true
+    },
+    {
+      "group": "equipements",
+      "en": "20 lb.",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 3,
+      "fr": "20 lb.",
+      "preservedWeight": true
+    },
+    {
+      "group": "equipements",
+      "en": "40 lb.",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 3,
+      "fr": "40 lb.",
+      "preservedWeight": true
+    },
+    {
+      "group": "equipements",
+      "en": "12 lb.",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 2,
+      "fr": "12 lb.",
+      "preservedWeight": true
+    },
+    {
+      "group": "equipements",
+      "en": "45 lb.",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 1,
+      "fr": "45 lb.",
+      "preservedWeight": true
+    },
+    {
+      "group": "equipements",
+      "en": "55 lb.",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 1,
+      "fr": "55 lb.",
+      "preservedWeight": true
+    },
+    {
+      "group": "equipements",
+      "en": "65 lb.",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 1,
+      "fr": "65 lb.",
+      "preservedWeight": true
+    },
+    {
+      "group": "equipements",
+      "en": "60 lb.",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 1,
+      "fr": "60 lb.",
+      "preservedWeight": true
+    },
+    {
+      "group": "equipements",
+      "en": "A tool helps you make specialized ability checks, craft certain items, or both. A tool’s description includes the tool’s cost and weight, as well as the following entries:",
+      "fr": "Un outil vous aide à effectuer des tests de caractéristique spécialisés, à fabriquer certains objets, ou les deux. Sa description indique son coût et son poids, ainsi que les rubriques suivantes :",
+      "kind": "description",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "Ability. This entry lists the ability to use when making an ability check with the tool.",
+      "fr": "Caractéristique. Cette rubrique indique la caractéristique à utiliser pour effectuer un test de caractéristique avec l’outil.",
+      "kind": "description",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "Utilize. This entry lists things you can do with the tool when you take the Utilize action. You can do one of those things each time you take the action. This entry also provides the DC for the action.",
+      "fr": "Utilisation. Cette rubrique indique ce que vous pouvez faire avec l’outil lorsque vous entreprenez l’action Utilisation. Chaque fois que vous entreprenez cette action, vous pouvez choisir une des possibilités indiquées. La rubrique précise aussi le DD de l’action.",
+      "kind": "description",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "Craft. This entry lists what, if anything, you can craft with the tool. For crafting rules, see “Crafting Equipment” later in the chapter.",
+      "fr": "Fabrication. Cette rubrique indique les objets que vous pouvez éventuellement fabriquer avec l’outil. Pour les règles de fabrication, voir « Fabrication d’équipement » plus loin dans ce chapitre.",
+      "kind": "description",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "This entry appears if the tool has variants, which are listed. Each requires a separate proficiency.",
+      "fr": "Cette rubrique apparaît si l’outil possède des variantes, qui y sont énumérées. Chacune nécessite une maîtrise distincte.",
+      "kind": "description",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "Artisan’s Tools are each focused on crafting items and pursuing a trade. Each of these tools requires a separate proficiency.",
+      "fr": "Chaque type d’outils d’artisan est destiné à la fabrication d’objets et à l’exercice d’un métier. Chacun nécessite une maîtrise distincte.",
+      "kind": "description",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "9 lb.",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 1,
+      "fr": "9 lb.",
+      "preservedWeight": true
+    },
+    {
+      "group": "equipements",
+      "en": "Write text with impressive flourishes that guard against forgery (DC 15) Craft:",
+      "fr": "Écrire un texte agrémenté de fioritures impressionnantes qui le protègent contre la contrefaçon (DD 15) Fabrication :",
+      "kind": "description",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "Modify footwear to give Advantage on the wearer’s next Dexterity (Acrobatics) check (DC 10) Craft:",
+      "fr": "Modifier des chaussures pour donner l’Avantage au prochain test de Dextérité (Acrobaties) de leur porteur (DD 10) Fabrication :",
+      "kind": "description",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "Intelligence Discern what a glass object held in the past 24 hours (DC 15) Craft:",
+      "fr": "Intelligence. Déterminer ce qu’un objet en verre a contenu au cours des dernières 24 heures (DD 15) Fabrication :",
+      "kind": "description",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "Ability: Wisdom Utilize: Paint a recognizable image of something you’ve seen (DC 10) Craft: Druidic Focus, Holy Symbol",
+      "fr": "Caractéristique : Sagesse. Utilisation : peindre une image reconnaissable de quelque chose que vous avez vu (DD 10). Fabrication : focaliseur druidique, symbole sacré",
+      "kind": "description",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "Intelligence Discern what a ceramic object held in the past 24 hours (DC 15) Craft:",
+      "fr": "Intelligence. Déterminer ce qu’un objet en céramique a contenu au cours des dernières 24 heures (DD 15) Fabrication :",
+      "kind": "description",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "Other Tools",
+      "fr": "Autres outils",
+      "kind": "term",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "These tools support adventure and other pursuits.",
+      "fr": "Ces outils sont utiles à l’aventure et à d’autres activités.",
+      "kind": "description",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "Gaming Set (Varies)",
+      "fr": "Jeu (prix variable)",
+      "kind": "term",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "Ability: Wisdom Utilize: Discern whether someone is cheating (DC 10), or win the game (DC 20) Variants: Dice (1 SP), dragonchess (1 GP), playing cards (5 SP), three-dragon ante (1 GP)",
+      "fr": "Caractéristique : Sagesse. Utilisation : déterminer si quelqu’un triche (DD 10) ou remporter la partie (DD 20). Variantes : dés (1 pa), échecs draconiques (1 po), cartes à jouer (5 pa), jeu des Trois Dragons (1 po)",
+      "kind": "description",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "0.5 lb.",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 5,
+      "fr": "0.5 lb.",
+      "preservedWeight": true
+    },
+    {
+      "group": "equipements",
+      "en": "Musical Instrument (Varies)",
+      "fr": "Instrument de musique (prix variable)",
+      "kind": "term",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "The Adventuring Gear table in this section includes gear that adventurers often find useful. These items are described here in alphabetical order, with an item’s price appearing after its name.",
+      "fr": "La table Matériel d’aventurier de cette section présente l’équipement souvent utile aux aventuriers. Les objets sont décrits ici par ordre alphabétique, avec leur prix après leur nom.",
+      "kind": "description",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "70 lb.",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 1,
+      "fr": "70 lb.",
+      "preservedWeight": true
+    },
+    {
+      "group": "equipements",
+      "en": "25 lb.",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 4,
+      "fr": "25 lb.",
+      "preservedWeight": true
+    },
+    {
+      "group": "equipements",
+      "en": "35 lb.",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 1,
+      "fr": "35 lb.",
+      "preservedWeight": true
+    },
+    {
+      "group": "equipements",
+      "en": "Ammunition (Varies)",
+      "fr": "Munitions (prix variable)",
+      "kind": "term",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "Ammunition is required by a weapon that has the Ammunition property. A weapon’s description specifies the type of ammunition used by the weapon. The Ammunition table lists the different types and the amount you get when you buy them. The table also lists the item that is typically used to store each type; storage must be bought separately.",
+      "fr": "Les armes dotées de la propriété Munitions nécessitent des munitions. La description d’une arme précise le type de munitions qu’elle utilise. La table Munitions indique les différents types et la quantité obtenue à l’achat. Elle indique aussi le contenant généralement utilisé pour chaque type ; ce contenant doit être acheté séparément.",
+      "kind": "description",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "1.5 lb.",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 2,
+      "fr": "1.5 lb.",
+      "preservedWeight": true
+    },
+    {
+      "group": "equipements",
+      "en": "Arcane Focus (Varies)",
+      "fr": "Focaliseur arcanique (prix variable)",
+      "kind": "term",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "An Arcane Focus takes one of the forms in the Arcane Focuses table and is bejeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus.",
+      "fr": "Un focaliseur arcanique prend l’une des formes de la table Focaliseurs arcaniques. Il est orné de pierres précieuses ou gravé pour canaliser la magie arcanique. Un Ensorceleur, un Occultiste ou un Magicien peut l’utiliser comme focaliseur d’incantation.",
+      "kind": "description",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "Arcane Focuses",
+      "fr": "Focaliseurs arcaniques",
+      "kind": "term",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "Druidic Focus (Varies)",
+      "fr": "Focaliseur druidique (prix variable)",
+      "kind": "term",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "A Druidic Focus takes one of the forms in the Druidic Focuses table and is carved, tied with ribbon, or painted to channel primal magic. A Druid or Ranger can use such an object as a Spellcasting Focus.",
+      "fr": "Un focaliseur druidique prend l’une des formes de la table Focaliseurs druidiques. Il est sculpté, orné de rubans ou peint pour canaliser la magie primale. Un Druide ou un Rôdeur peut l’utiliser comme focaliseur d’incantation.",
+      "kind": "description",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "Druidic Focuses",
+      "fr": "Focaliseurs druidiques",
+      "kind": "term",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "Holy Symbol (Varies)",
+      "fr": "Symbole sacré (prix variable)",
+      "kind": "term",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "A Holy Symbol takes one of the forms in the Holy Symbol table and is bejeweled or painted to channel divine magic. A Cleric or Paladin can use a Holy Symbol as a Spellcasting Focus.",
+      "fr": "Un symbole sacré prend l’une des formes de la table Symboles sacrés. Il est orné de pierres précieuses ou peint pour canaliser la magie divine. Un Clerc ou un Paladin peut l’utiliser comme focaliseur d’incantation.",
+      "kind": "description",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "The table indicates whether a Holy Symbol needs to be held, worn, or borne on fabric (such as a tabard or banner) or a Shield.",
+      "fr": "La table précise si un symbole sacré doit être tenu, porté ou arboré sur une pièce de tissu, comme un tabard ou une bannière, ou sur un bouclier.",
+      "kind": "description",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "Holy Symbols",
+      "fr": "Symboles sacrés",
+      "kind": "term",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "A mount can help you move more quickly through the wilderness, but its primary purpose is to carry gear that would otherwise slow you down. The Mounts and Other Animals table shows each animal’s carrying capacity. See appendix B for the animals’ stat blocks.",
+      "fr": "Une monture peut vous aider à traverser plus rapidement les terres sauvages, mais sert surtout à transporter l’équipement qui vous ralentirait autrement. La table Montures et autres animaux indique la capacité de charge de chaque animal. Leurs profils figurent à l’annexe B.",
+      "kind": "description",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "Mounts and Cargo",
+      "fr": "Montures et charges",
+      "kind": "term",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "An animal pulling a carriage, cart, chariot, sled, or wagon can move weight up to five times its base carrying capacity, including the weight of the vehicle. If multiple animals pull the same vehicle, add their carrying capacities together.",
+      "fr": "Un animal qui tire une voiture, une charrette, un char, un traîneau ou un chariot peut déplacer une charge allant jusqu’à cinq fois sa capacité de charge de base, poids du véhicule compris. Si plusieurs animaux tirent le même véhicule, additionnez leurs capacités de charge.",
+      "kind": "description",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "Barding",
+      "fr": "Barde",
+      "kind": "term",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "Barding is armor designed for a mount. Any type of armor on the Armor table in this chapter can be purchased as barding. The cost is four times the normal cost, and it weighs twice as much.",
+      "fr": "Une barde est une armure conçue pour une monture. Tout type d’armure de la table Armures de ce chapitre peut être acheté comme barde. Son coût est quatre fois le coût normal et son poids est doublé.",
+      "kind": "description",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "Feed and Saddles",
+      "fr": "Nourriture et selles",
+      "kind": "term",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "A saddle comes with a bit, a bridle, reins, and any other equipment needed to use the saddle. A Military Saddle gives Advantage on any ability check you make to remain mounted. An Exotic Saddle is required for riding an aquatic or a flying mount.",
+      "fr": "Une selle comprend un mors, une bride, des rênes et tout autre équipement nécessaire à son utilisation. Une selle militaire donne l’Avantage à tout test de caractéristique effectué pour rester en selle. Une selle exotique est nécessaire pour monter une créature aquatique ou volante.",
+      "kind": "description",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "Feed per day",
+      "fr": "Nourriture par jour",
+      "kind": "term",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "Saddle",
+      "fr": "Selle",
+      "kind": "term",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "Exotic",
+      "fr": "Exotique",
+      "kind": "term",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "Military",
+      "fr": "Militaire",
+      "kind": "term",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "30 lb.",
+      "kind": "term",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 1,
+      "fr": "30 lb.",
+      "preservedWeight": true
+    },
+    {
+      "group": "equipements",
+      "en": "Riding",
+      "fr": "D’équitation",
+      "kind": "term",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "Stabling per day",
+      "fr": "Écurie par jour",
+      "kind": "term",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "Air and Water Vehicles",
+      "fr": "Véhicules aériens et nautiques",
+      "kind": "term",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "The Airborne and Waterborne Vehicles table provides statistics for various types of large vehicles. The following notes apply.",
+      "fr": "La table Véhicules aériens et nautiques présente les caractéristiques de différents grands véhicules. Les remarques suivantes s’appliquent.",
+      "kind": "description",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "1 ton cargo, 20 passengers",
+      "fr": "1 ton de fret, 20 passagers",
+      "kind": "term",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "150 tons cargo",
+      "fr": "150 tons de fret",
+      "kind": "term",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "1/2 ton cargo, 6 passengers",
+      "fr": "1/2 ton de fret, 6 passagers",
+      "kind": "term",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "10 tons cargo, 150 passengers",
+      "fr": "10 tons de fret, 150 passagers",
+      "kind": "term",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "3 passengers",
+      "fr": "3 passagers",
+      "kind": "term",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "100 tons cargo, 20 passengers",
+      "fr": "100 tons de fret, 20 passagers",
+      "kind": "term",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "200 tons cargo, 60 passengers",
+      "fr": "200 tons de fret, 60 passagers",
+      "kind": "term",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    },
+    {
+      "group": "equipements",
+      "en": "Next Chapter: Spell Descriptions (A-M)",
+      "fr": "Chapitre suivant : Descriptions des sorts (A-M)",
+      "kind": "term",
+      "occurrences": 1,
+      "reason": "missing-translation"
+    }
+  ],
+  "skyAttack": {
+    "en": "Beast’s Strike. Melee Attack Roll: {summoner wis}+{summoner proficiency}, reach 5 ft. Hit: 1d4 + 3 + {summoner wis} Slashing damage.",
+    "fr": "Frappe de la bête. Jet d’attaque au corps à corps : {summoner wis}+{summoner proficiency}, allonge 5 ft. Touché : 1d4 + 3 + {summoner wis} dégâts tranchants."
+  },
+  "companions": {
+    "source": "Profils du chapitre Classes du PHB Shard examinés le 16 octobre 2026, structure et statistiques conservées ; images omises de la fixture.",
+    "rows": [
+      {
+        "name": "Beast of the Land",
+        "html": "<div class=\"pa1 mh1 mt1 mb2 monstersimple\"><div class=\"f5 nodrag\"><div class=\"titletext\">Beast of the Land</div><div class=\"i pb1\">Medium beast, Neutral</div><div class=\"mb1\"><b>AC</b> 13 <b>Initiative</b> +2 (12)</div><div class=\"mb1\"><b>HP</b> 4 (1d8)</div><div class=\"mb1\"><b>Speed</b> 40 ft., climb 40 ft.</div><div class=\"pt1 mb2 m24\"><table class=\"w-100 tc mb1 collapse\"><tbody><tr class=\"bg-transparent\"><td></td><td></td><td>MOD</td><td>SAVE</td><td class=\"mw1\"></td><td></td><td></td><td>MOD</td><td>SAVE</td></tr><tr class=\"bg-transparent\"><td class=\"m24c11 ttu b\">str</td><td class=\"m24c12\">14</td><td class=\"m24c12\">+2</td><td class=\"m24c12\">+4</td><td class=\"mw1\"></td><td class=\"m24c21 ttu b\">int</td><td class=\"m24c22\">8</td><td class=\"m24c22\">-1</td><td class=\"m24c22\">+1</td></tr><tr class=\"bg-transparent\"><td class=\"m24c11 ttu b\">dex</td><td class=\"m24c12\">14</td><td class=\"m24c12\">+2</td><td class=\"m24c12\">+4</td><td class=\"mw1\"></td><td class=\"m24c21 ttu b\">wis</td><td class=\"m24c22\">14</td><td class=\"m24c22\">+2</td><td class=\"m24c22\">+4</td></tr><tr class=\"bg-transparent\"><td class=\"m24c11 ttu b\">con</td><td class=\"m24c12\">15</td><td class=\"m24c12\">+2</td><td class=\"m24c12\">+4</td><td class=\"mw1\"></td><td class=\"m24c21 ttu b\">cha</td><td class=\"m24c22\">11</td><td class=\"m24c22\">+0</td><td class=\"m24c22\">+2</td></tr></tbody></table></div><div class=\"mb1\"><b>Senses</b> Passive Perception 12</div><div class=\"mb1\"><b>Languages</b> Understands the languages you know</div><div class=\"mv1\"><b>CR</b> 0 (0 or 10 XP; PB +2)</div></div><div class=\"stdcontent\"><h3 class=\"bb titleborder\">Traits</h3><div class=\"pre-wrap\"><span><p><i><strong>Primal Bond.</strong></i> Add your Proficiency Bonus <strong>{proficiency}</strong> to any ability check or saving throw the beast makes.</p></span></div></div><div class=\"stdcontent\"><h3 class=\"bb titleborder\">Actions</h3><div class=\"pre-wrap\"><span><p><i><strong>Beast’s Strike.</strong></i> Melee Attack Roll: <strong>{summoner wis}+{summoner proficiency}</strong>, reach 5 ft. Hit: <strong>1d8 + 2 + {summoner wis}</strong> Bludgeoning damage (or Piercing / Slashing, your choice when you summon the beast). If the beast moved at least 20 feet straight toward the target before the hit, the target takes an extra <strong class=\"dodieroll\">1d6</strong> damage of the same type, and the target has the <a href=\"#customlist?type=Conditions&amp;id=0jn05cqnggx41gu9\">Prone</a> condition if it is a Large or smaller creature.</p></span></div></div></div>",
+        "paragraphs": [
+          {
+            "group": "classes",
+            "en": "Primal Bond. Add your Proficiency Bonus {proficiency} to any ability check or saving throw the beast makes.",
+            "fr": "Lien primal. Ajoutez votre bonus de maîtrise {proficiency} à tout test de caractéristique ou jet de sauvegarde effectué par la bête.",
+            "kind": "description",
+            "occurrences": 1,
+            "reason": "missing-translation"
+          },
+          {
+            "group": "classes",
+            "en": "Beast’s Strike. Melee Attack Roll: {summoner wis}+{summoner proficiency}, reach 5 ft. Hit: 1d8 + 2 + {summoner wis} Bludgeoning damage (or Piercing / Slashing, your choice when you summon the beast). If the beast moved at least 20 feet straight toward the target before the hit, the target takes an extra 1d6 damage of the same type, and the target has the Prone condition if it is a Large or smaller creature.",
+            "fr": "Frappe de la bête. Jet d’attaque au corps à corps : {summoner wis}+{summoner proficiency}, allonge 5 ft. Touché : 1d8 + 2 + {summoner wis} dégâts contondants (ou perforants / tranchants, au choix lorsque vous invoquez la bête). Si la bête s’est déplacée d’au moins 20 feet en ligne droite vers la cible avant de la toucher, la cible subit 1d6 dégâts supplémentaires du même type et subit l’état À terre si elle est de taille Grande ou inférieure.",
+            "kind": "description",
+            "occurrences": 1,
+            "reason": "missing-translation"
+          }
+        ]
+      },
+      {
+        "name": "Beast of the Sea",
+        "html": "<div class=\"pa1 mh1 mt1 mb2 monstersimple\"><div class=\"f5 nodrag\"><div class=\"titletext\">Beast of the Sea</div><div class=\"i pb1\">Medium beast, Neutral</div><div class=\"mb1\"><b>AC</b> 13 <b>Initiative</b> +3 (13)</div><div class=\"mb1\"><b>HP</b> 4 (1d8)</div><div class=\"mb1\"><b>Speed</b> 5 ft., swim 60 ft.</div><div class=\"pt1 mb2 m24\"><table class=\"w-100 tc mb1 collapse\"><tbody><tr class=\"bg-transparent\"><td></td><td></td><td>MOD</td><td>SAVE</td><td class=\"mw1\"></td><td></td><td></td><td>MOD</td><td>SAVE</td></tr><tr class=\"bg-transparent\"><td class=\"m24c11 ttu b\">str</td><td class=\"m24c12\">6</td><td class=\"m24c12\">-2</td><td class=\"m24c12\">+0</td><td class=\"mw1\"></td><td class=\"m24c21 ttu b\">int</td><td class=\"m24c22\">8</td><td class=\"m24c22\">-1</td><td class=\"m24c22\">+1</td></tr><tr class=\"bg-transparent\"><td class=\"m24c11 ttu b\">dex</td><td class=\"m24c12\">16</td><td class=\"m24c12\">+3</td><td class=\"m24c12\">+5</td><td class=\"mw1\"></td><td class=\"m24c21 ttu b\">wis</td><td class=\"m24c22\">14</td><td class=\"m24c22\">+2</td><td class=\"m24c22\">+4</td></tr><tr class=\"bg-transparent\"><td class=\"m24c11 ttu b\">con</td><td class=\"m24c12\">13</td><td class=\"m24c12\">+1</td><td class=\"m24c12\">+3</td><td class=\"mw1\"></td><td class=\"m24c21 ttu b\">cha</td><td class=\"m24c22\">11</td><td class=\"m24c22\">+0</td><td class=\"m24c22\">+2</td></tr></tbody></table></div><div class=\"mb1\"><b>Senses</b> Passive Perception 12</div><div class=\"mb1\"><b>Languages</b> Understands the languages you know</div><div class=\"mv1\"><b>CR</b> 0 (0 or 10 XP; PB +2)</div></div><div class=\"stdcontent\"><h3 class=\"bb titleborder\">Traits</h3><div class=\"pre-wrap\"><span><p><i><strong>Amphibious.</strong></i> The beast can breathe air and water.</p><p><i><strong>Primal Bond.</strong></i> Add <strong>{proficiency}</strong> to any ability check or saving throw the beast makes.</p></span></div></div><div class=\"stdcontent\"><h3 class=\"bb titleborder\">Actions</h3><div class=\"pre-wrap\"><span><p><i><strong>Beast’s Strike.</strong></i> Melee Attack Roll: <strong>{summoner wis}+{summoner proficiency}</strong>, reach 5 ft. Hit: <strong>1d6 + 2 + {summoner wis}</strong> Bludgeoning damage (or Piercing, your choice when you summon the beast), and the target has the <a href=\"#customlist?type=Conditions&amp;id=a6e4lwi1jotp3mq5\">Grappled</a> condition (escape <strong>DC 8+{summoner wis}+{summoner proficiency}</strong>).</p></span></div></div></div>",
+        "paragraphs": [
+          {
+            "group": "classes",
+            "en": "Amphibious. The beast can breathe air and water.",
+            "fr": "Amphibie. La bête peut respirer dans l’air et sous l’eau.",
+            "kind": "description",
+            "occurrences": 1,
+            "reason": "missing-translation"
+          },
+          {
+            "group": "classes",
+            "en": "Primal Bond. Add {proficiency} to any ability check or saving throw the beast makes.",
+            "fr": "Lien primal. Ajoutez {proficiency} à tout test de caractéristique ou jet de sauvegarde effectué par la bête.",
+            "kind": "description",
+            "occurrences": 2,
+            "reason": "missing-translation"
+          },
+          {
+            "group": "classes",
+            "en": "Beast’s Strike. Melee Attack Roll: {summoner wis}+{summoner proficiency}, reach 5 ft. Hit: 1d6 + 2 + {summoner wis} Bludgeoning damage (or Piercing, your choice when you summon the beast), and the target has the Grappled condition (escape DC 8+{summoner wis}+{summoner proficiency}).",
+            "fr": "Frappe de la bête. Jet d’attaque au corps à corps : {summoner wis}+{summoner proficiency}, allonge 5 ft. Touché : 1d6 + 2 + {summoner wis} dégâts contondants (ou perforants, au choix lorsque vous invoquez la bête), et la cible subit l’état Agrippé (évasion DD 8+{summoner wis}+{summoner proficiency}).",
+            "kind": "description",
+            "occurrences": 1,
+            "reason": "missing-translation"
+          }
+        ]
+      },
+      {
+        "name": "Beast of the Sky",
+        "html": "<div class=\"pa1 mh1 mt1 mb2 monstersimple\"><div class=\"f5 nodrag\"><div class=\"titletext\">Beast of the Sky</div><div class=\"i pb1\">Small beast, Neutral</div><div class=\"mb1\"><b>AC</b> 13 <b>Initiative</b> +2 (12)</div><div class=\"mb1\"><b>HP</b> 4 (1d8)</div><div class=\"mb1\"><b>Speed</b> 10 ft., fly 60 ft.</div><div class=\"pt1 mb2 m24\"><table class=\"w-100 tc mb1 collapse\"><tbody><tr class=\"bg-transparent\"><td></td><td></td><td>MOD</td><td>SAVE</td><td class=\"mw1\"></td><td></td><td></td><td>MOD</td><td>SAVE</td></tr><tr class=\"bg-transparent\"><td class=\"m24c11 ttu b\">str</td><td class=\"m24c12\">14</td><td class=\"m24c12\">+2</td><td class=\"m24c12\">+4</td><td class=\"mw1\"></td><td class=\"m24c21 ttu b\">int</td><td class=\"m24c22\">8</td><td class=\"m24c22\">-1</td><td class=\"m24c22\">+1</td></tr><tr class=\"bg-transparent\"><td class=\"m24c11 ttu b\">dex</td><td class=\"m24c12\">14</td><td class=\"m24c12\">+2</td><td class=\"m24c12\">+4</td><td class=\"mw1\"></td><td class=\"m24c21 ttu b\">wis</td><td class=\"m24c22\">14</td><td class=\"m24c22\">+2</td><td class=\"m24c22\">+4</td></tr><tr class=\"bg-transparent\"><td class=\"m24c11 ttu b\">con</td><td class=\"m24c12\">15</td><td class=\"m24c12\">+2</td><td class=\"m24c12\">+4</td><td class=\"mw1\"></td><td class=\"m24c21 ttu b\">cha</td><td class=\"m24c22\">11</td><td class=\"m24c22\">+0</td><td class=\"m24c22\">+2</td></tr></tbody></table></div><div class=\"mb1\"><b>Senses</b> Passive Perception 12</div><div class=\"mb1\"><b>Languages</b> Understands the languages you know</div><div class=\"mv1\"><b>CR</b> 0 (0 or 10 XP; PB +2)</div></div><div class=\"stdcontent\"><h3 class=\"bb titleborder\">Traits</h3><div class=\"pre-wrap\"><span><p><i><strong>Flyby.</strong></i> The beast doesn’t provoke Opportunity Attacks when it flies out of an enemy’s reach.</p><p><i><strong>Primal Bond.</strong></i> Add <strong>{proficiency}</strong> to any ability check or saving throw the beast makes.</p></span></div></div><div class=\"stdcontent\"><h3 class=\"bb titleborder\">Actions</h3><div class=\"pre-wrap\"><span><p><i><strong>Beast’s Strike.</strong></i> Melee Attack Roll: <strong>{summoner wis}+{summoner proficiency}</strong>, reach 5 ft. Hit: <strong>1d4 + 3 + {summoner wis}</strong> Slashing damage.</p></span></div></div></div>",
+        "paragraphs": [
+          {
+            "group": "classes",
+            "en": "Flyby. The beast doesn’t provoke Opportunity Attacks when it flies out of an enemy’s reach.",
+            "fr": "Repli aérien. La bête ne provoque pas d’attaques d’opportunité lorsqu’elle quitte l’allonge d’un ennemi en volant.",
+            "kind": "description",
+            "occurrences": 1,
+            "reason": "missing-translation"
+          },
+          {
+            "group": "classes",
+            "en": "Primal Bond. Add {proficiency} to any ability check or saving throw the beast makes.",
+            "fr": "Lien primal. Ajoutez {proficiency} à tout test de caractéristique ou jet de sauvegarde effectué par la bête.",
+            "kind": "description",
+            "occurrences": 2,
+            "reason": "missing-translation"
+          },
+          {
+            "en": "Beast’s Strike. Melee Attack Roll: {summoner wis}+{summoner proficiency}, reach 5 ft. Hit: 1d4 + 3 + {summoner wis} Slashing damage.",
+            "fr": "Frappe de la bête. Jet d’attaque au corps à corps : {summoner wis}+{summoner proficiency}, allonge 5 ft. Touché : 1d4 + 3 + {summoner wis} dégâts tranchants."
+          }
+        ]
+      }
+    ]
+  },
+  "toolLayouts": [
+    {
+      "html": "<p><b>Ability:</b> Dexterity <br><b>Utilize:</b> Write text with impressive flourishes that guard against forgery (DC 15) <br><b>Craft:</b> Ink, Spell Scroll</p>",
+      "fields": [
+        {
+          "en": "Ability: Dexterity",
+          "fr": "Caractéristique : Dextérité"
+        },
+        {
+          "en": "Utilize: Write text with impressive flourishes that guard against forgery (DC 15)",
+          "fr": "Utilisation : Écrire un texte agrémenté de fioritures impressionnantes qui le protègent contre la contrefaçon (DD 15)"
+        },
+        {
+          "en": "Craft: Ink, Spell Scroll",
+          "fr": "Fabrication : encre, parchemin de sort"
+        }
+      ]
+    },
+    {
+      "html": "<p><b>Ability:</b> Dexterity <br><b>Utilize:</b> Modify footwear to give Advantage on the wearer’s next Dexterity (Acrobatics) check (DC 10) <br><b>Craft:</b> Climber’s Kit</p>",
+      "fields": [
+        {
+          "en": "Ability: Dexterity",
+          "fr": "Caractéristique : Dextérité"
+        },
+        {
+          "en": "Utilize: Modify footwear to give Advantage on the wearer’s next Dexterity (Acrobatics) check (DC 10)",
+          "fr": "Utilisation : Modifier des chaussures pour donner l’Avantage au prochain test de Dextérité (Acrobaties) de leur porteur (DD 10)"
+        },
+        {
+          "en": "Craft: Climber’s Kit",
+          "fr": "Fabrication : matériel d’escalade"
+        }
+      ]
+    },
+    {
+      "html": "<p><b>Ability:</b> Intelligence <br><b>Utilize:</b> Discern what a glass object held in the past 24 hours (DC 15) <br><b>Craft:</b> Glass Bottle, Magnifying Glass, Spyglass, Vial</p>",
+      "fields": [
+        {
+          "en": "Ability: Intelligence",
+          "fr": "Caractéristique : Intelligence"
+        },
+        {
+          "en": "Utilize: Discern what a glass object held in the past 24 hours (DC 15)",
+          "fr": "Utilisation : Déterminer ce qu’un objet en verre a contenu au cours des dernières 24 heures (DD 15)"
+        },
+        {
+          "en": "Craft: Glass Bottle, Magnifying Glass, Spyglass, Vial",
+          "fr": "Fabrication : bouteille en verre, loupe, longue-vue, fiole"
+        }
+      ]
+    },
+    {
+      "html": "<p><b>Ability:</b> Wisdom <br><b>Utilize:</b> Paint a recognizable image of something you’ve seen (DC 10) <br><b>Craft:</b> Druidic Focus, Holy Symbol</p>",
+      "fields": [
+        {
+          "en": "Ability: Wisdom",
+          "fr": "Caractéristique : Sagesse"
+        },
+        {
+          "en": "Utilize: Paint a recognizable image of something you’ve seen (DC 10)",
+          "fr": "Utilisation : Peindre une image reconnaissable de quelque chose que vous avez vu (DD 10)"
+        },
+        {
+          "en": "Craft: Druidic Focus, Holy Symbol",
+          "fr": "Fabrication : focaliseur druidique, symbole sacré"
+        }
+      ]
+    },
+    {
+      "html": "<p><b>Ability:</b> Intelligence <br><b>Utilize:</b> Discern what a ceramic object held in the past 24 hours (DC 15) <br><b>Craft:</b> Jug, Lamp</p>",
+      "fields": [
+        {
+          "en": "Ability: Intelligence",
+          "fr": "Caractéristique : Intelligence"
+        },
+        {
+          "en": "Utilize: Discern what a ceramic object held in the past 24 hours (DC 15)",
+          "fr": "Utilisation : Déterminer ce qu’un objet en céramique a contenu au cours des dernières 24 heures (DD 15)"
+        },
+        {
+          "en": "Craft: Jug, Lamp",
+          "fr": "Fabrication : cruche, lampe"
+        }
+      ]
+    },
+    {
+      "html": "<p><b>Ability:</b> Wisdom <br><b>Utilize:</b> Discern whether someone is cheating (DC 10), or win the game (DC 20) <br><b>Variants:</b> Dice (1 SP), dragonchess (1 GP), playing cards (5 SP), three-dragon ante (1 GP)</p>",
+      "fields": [
+        {
+          "en": "Ability: Wisdom",
+          "fr": "Caractéristique : Sagesse"
+        },
+        {
+          "en": "Utilize: Discern whether someone is cheating (DC 10), or win the game (DC 20)",
+          "fr": "Utilisation : Déterminer si quelqu’un triche (DD 10) ou remporter la partie (DD 20)"
+        },
+        {
+          "en": "Variants: Dice (1 SP), dragonchess (1 GP), playing cards (5 SP), three-dragon ante (1 GP)",
+          "fr": "Variantes : dés (1 pa), échecs draconiques (1 po), cartes à jouer (5 pa), jeu des Trois Dragons (1 po)"
+        }
+      ]
+    }
+  ]
+}

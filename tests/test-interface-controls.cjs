@@ -53,7 +53,8 @@ async function wait(f){for(let i=0;i<300&&!f();i++)await pause(25);assert.ok(f()
  for(const el of [...restButtons,...restLinks])el.click();assert.equal(restClicks,6);
  const restOptions=d.createElement('ul');restOptions.setAttribute('role','listbox');restOptions.innerHTML='<li role="option" data-value="0">Regains up to half of your Hit Dice (rules as written)</li><li role="option" data-value="1" aria-selected="true">Regain all of your Hit Dice</li>';rest.append(restOptions);
  const optionsOriginal=restOptions.innerHTML;
- await wait(()=>restOptions.children[0].textContent==='Récupérer jusqu’à la moitié de vos dés de vie (règles telles qu’écrites)');
+ // Le parcours peut céder la main entre les deux options : attendre les deux.
+ await wait(()=>restOptions.children[0].textContent==='Récupérer jusqu’à la moitié de vos dés de vie (règles telles qu’écrites)'&&restOptions.children[1].textContent==='Récupérer tous vos dés de vie');
  assert.equal(restOptions.children[1].textContent,'Récupérer tous vos dés de vie');assert.equal(restOptions.children[1].getAttribute('aria-selected'),'true');assert.equal(restOptions.children[1].getAttribute('data-value'),'1');
  const short=d.createElement('section');short.innerHTML=fs.readFileSync('tests/fixtures/short-rest.html','utf8');
  // Reproduire les nœuds texte séparés de React, sans commentaires entre eux.
@@ -77,10 +78,13 @@ async function wait(f){for(let i=0;i<300&&!f();i++)await pause(25);assert.ok(f()
  await wait(()=>whole.textContent==='Vous avez 8 points de vie sur un maximum de 12.');
  const root=[...d.querySelectorAll('[data-shard-fr-ignore]')].map(e=>e.shadowRoot).find(r=>r?.getElementById('enabled')),enabled=root.getElementById('enabled');
  enabled.checked=false;enabled.dispatchEvent(new w.Event('change'));
+ // Attendre la restauration du dernier bloc avant de retirer les dialogues :
+ // le parcours asynchrone utilise encore leurs nœuds pour atteindre ce bloc.
+ await wait(()=>whole.textContent==='You have 8 hit points out of a maximum of 12.');
  await wait(()=>menu.innerHTML===menuOriginal&&sheet.innerHTML===sheetOriginal);
  await wait(()=>treasure.innerHTML===treasureOriginal);treasure.remove();
  await wait(()=>restOptions.innerHTML===optionsOriginal);restOptions.remove();assert.equal(rest.innerHTML,restOriginal);rest.remove();
- await wait(()=>whole.textContent==='You have 8 hit points out of a maximum of 12.');whole.remove();assert.equal(short.innerHTML,shortOriginal);short.remove();
+ whole.remove();assert.equal(short.innerHTML,shortOriginal);short.remove();
  menu.remove();sheet.remove();assert.equal(main.innerHTML,original);
  console.log('PASS interface : campagne, menus dynamiques, fiche, repos court et long, compteurs React variables, infobulles, interactions et restauration exacte.');
 }finally{w.close();}})().catch(e=>{console.error(e);process.exitCode=1;});

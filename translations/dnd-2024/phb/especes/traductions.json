@@ -1045,6 +1045,159 @@
       "fr": "Drakéide blanc",
       "edition": "any",
       "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "phb.especes.visible-report-11724.02",
+      "kind": "term",
+      "en": "Chthonic",
+      "fr": "Chthonien",
+      "source": "Traduction française proposée du texte Shard fourni par l’utilisateur · rapport de page visible 1.17.24 · D&D 2024 PHB · 16 octobre 2026"
+    },
+    {
+      "id": "phb.especes.visible-report-11724.09",
+      "en": "You have resistance to necrotic damage and radiant damage.",
+      "fr": "Vous bénéficiez de la Résistance aux dégâts nécrotiques et radiants.",
+      "source": "Traduction française proposée du texte Shard fourni par l’utilisateur · rapport de page visible 1.17.24 · D&D 2024 PHB · 16 octobre 2026"
+    },
+    {
+      "id": "phb.especes.visible-report-11724.10",
+      "en": "As a Magic action, you touch a creature and roll a number of d4s equal to your Proficiency Bonus. The creature regains a number of Hit Points equal to the total rolled. Once you use this trait, you can’t use it again until you finish a Long Rest.",
+      "fr": "Par une action Magie, vous touchez une créature et lancez un nombre de d4 égal à votre bonus de maîtrise. La créature récupère un nombre de points de vie égal au total obtenu. Une fois ce trait utilisé, vous devez terminer un Repos long avant de pouvoir l’utiliser de nouveau.",
+      "source": "Traduction française proposée du texte Shard fourni par l’utilisateur · rapport de page visible 1.17.24 · D&D 2024 PHB · 16 octobre 2026"
+    },
+    {
+      "id": "phb.especes.visible-report-11724.11",
+      "en": "You know the light cantrip. Charisma is your spellcasting ability for it.",
+      "fr": "Vous connaissez le sort mineur Lumière. Le Charisme est votre caractéristique d’incantation pour ce sort.",
+      "source": "Traduction française proposée du texte Shard fourni par l’utilisateur · rapport de page visible 1.17.24 · D&D 2024 PHB · 16 octobre 2026"
+    },
+    {
+      "id": "phb.especes.visible-report-11724.12",
+      "en": "When you reach character level 3, you can transform as a Bonus Action using one of the options below (choose the option each time you transform). The transformation lasts for 1 minute or until you end it (no action required). Once you transform, you can’t do so again until you finish a Long Rest.",
+      "fr": "À partir du niveau 3 de personnage, vous pouvez vous transformer par une action Bonus en utilisant l’une des options ci-dessous, choisie à chaque transformation. La transformation dure 1 minute ou jusqu’à ce que vous y mettiez fin, sans action requise. Une fois transformé, vous devez terminer un Repos long avant de pouvoir vous transformer de nouveau.",
+      "source": "Traduction française proposée du texte Shard fourni par l’utilisateur · rapport de page visible 1.17.24 · D&D 2024 PHB · 16 octobre 2026"
+    },
+    {
+      "id": "phb.especes.visible-report-11724.13",
+      "en": "Once on each of your turns before the transformation ends, you can deal extra damage to one target when you deal damage to it with an attack or a spell. The extra damage equals your Proficiency Bonus, and the extra damage’s type is either Necrotic for Necrotic Shroud or Radiant for Heavenly Wings and Inner Radiance.",
+      "fr": "Une fois à chacun de vos tours avant la fin de la transformation, lorsque vous infligez des dégâts à une cible avec une attaque ou un sort, vous pouvez lui infliger des dégâts supplémentaires. Ces dégâts sont égaux à votre bonus de maîtrise et sont nécrotiques pour Linceul nécrotique, ou radiants pour Ailes célestes et Rayonnement intérieur.",
+      "source": "Traduction française proposée du texte Shard fourni par l’utilisateur · rapport de page visible 1.17.24 · D&D 2024 PHB · 16 octobre 2026"
+    },
+    {
+      "id": "phb.especes.visible-report-11724.14",
+      "en": "Your lineage stems from a dragon progenitor. Each sub-species of dragonborn gains a Breath Weapon and Damage Resistance based on that progenitor.",
+      "fr": "Votre lignée remonte à un ancêtre dragon. Chaque sous-espèce de drakéide reçoit un Souffle et une Résistance aux dégâts déterminés par cet ancêtre.",
+      "source": "Traduction française proposée du texte Shard fourni par l’utilisateur · rapport de page visible 1.17.24 · D&D 2024 PHB · 16 octobre 2026"
+    },
+    {
+      "id": "phb.especes.visible-report-11724.15",
+      "en": "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes1d10 acid damage. On a successful save, a creature takes half as much damage. This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10). You can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.",
+      "fr": "Lorsque vous entreprenez l’action Attaquer à votre tour, vous pouvez remplacer l’une de vos attaques par un souffle d’énergie magique dans un Cône de 15 feet ou une Ligne de 30 feet et de 5 feet de large, au choix à chaque utilisation. Chaque créature dans la zone doit effectuer un jet de sauvegarde de Dextérité dont le DD est égal à 8 + votre modificateur de Constitution + votre bonus de maîtrise. En cas d’échec, elle subit 1d10 dégâts d’acide. En cas de réussite, elle subit la moitié de ces dégâts. Les dégâts augmentent de 1d10 aux niveaux de personnage 5 (2d10), 11 (3d10) et 17 (4d10). Vous pouvez utiliser ce Souffle un nombre de fois égal à votre bonus de maîtrise et récupérez toutes les utilisations dépensées à la fin d’un Repos long.",
+      "source": "Traduction française proposée du texte Shard fourni par l’utilisateur · rapport de page visible 1.17.24 · D&D 2024 PHB · 16 octobre 2026"
+    },
+    {
+      "id": "phb.especes.visible-report-11724.16",
+      "en": "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes1d10 lightning damage. On a successful save, a creature takes half as much damage. This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10). You can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.",
+      "fr": "Lorsque vous entreprenez l’action Attaquer à votre tour, vous pouvez remplacer l’une de vos attaques par un souffle d’énergie magique dans un Cône de 15 feet ou une Ligne de 30 feet et de 5 feet de large, au choix à chaque utilisation. Chaque créature dans la zone doit effectuer un jet de sauvegarde de Dextérité dont le DD est égal à 8 + votre modificateur de Constitution + votre bonus de maîtrise. En cas d’échec, elle subit 1d10 dégâts de foudre. En cas de réussite, elle subit la moitié de ces dégâts. Les dégâts augmentent de 1d10 aux niveaux de personnage 5 (2d10), 11 (3d10) et 17 (4d10). Vous pouvez utiliser ce Souffle un nombre de fois égal à votre bonus de maîtrise et récupérez toutes les utilisations dépensées à la fin d’un Repos long.",
+      "source": "Traduction française proposée du texte Shard fourni par l’utilisateur · rapport de page visible 1.17.24 · D&D 2024 PHB · 16 octobre 2026"
+    },
+    {
+      "id": "phb.especes.visible-report-11724.17",
+      "en": "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes1d10 fire damage. On a successful save, a creature takes half as much damage. This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10). You can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.",
+      "fr": "Lorsque vous entreprenez l’action Attaquer à votre tour, vous pouvez remplacer l’une de vos attaques par un souffle d’énergie magique dans un Cône de 15 feet ou une Ligne de 30 feet et de 5 feet de large, au choix à chaque utilisation. Chaque créature dans la zone doit effectuer un jet de sauvegarde de Dextérité dont le DD est égal à 8 + votre modificateur de Constitution + votre bonus de maîtrise. En cas d’échec, elle subit 1d10 dégâts de feu. En cas de réussite, elle subit la moitié de ces dégâts. Les dégâts augmentent de 1d10 aux niveaux de personnage 5 (2d10), 11 (3d10) et 17 (4d10). Vous pouvez utiliser ce Souffle un nombre de fois égal à votre bonus de maîtrise et récupérez toutes les utilisations dépensées à la fin d’un Repos long.",
+      "source": "Traduction française proposée du texte Shard fourni par l’utilisateur · rapport de page visible 1.17.24 · D&D 2024 PHB · 16 octobre 2026"
+    },
+    {
+      "id": "phb.especes.visible-report-11724.18",
+      "en": "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes1d10 poison damage. On a successful save, a creature takes half as much damage. This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10). You can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.",
+      "fr": "Lorsque vous entreprenez l’action Attaquer à votre tour, vous pouvez remplacer l’une de vos attaques par un souffle d’énergie magique dans un Cône de 15 feet ou une Ligne de 30 feet et de 5 feet de large, au choix à chaque utilisation. Chaque créature dans la zone doit effectuer un jet de sauvegarde de Dextérité dont le DD est égal à 8 + votre modificateur de Constitution + votre bonus de maîtrise. En cas d’échec, elle subit 1d10 dégâts de poison. En cas de réussite, elle subit la moitié de ces dégâts. Les dégâts augmentent de 1d10 aux niveaux de personnage 5 (2d10), 11 (3d10) et 17 (4d10). Vous pouvez utiliser ce Souffle un nombre de fois égal à votre bonus de maîtrise et récupérez toutes les utilisations dépensées à la fin d’un Repos long.",
+      "source": "Traduction française proposée du texte Shard fourni par l’utilisateur · rapport de page visible 1.17.24 · D&D 2024 PHB · 16 octobre 2026"
+    },
+    {
+      "id": "phb.especes.visible-report-11724.19",
+      "en": "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes1d10 cold damage. On a successful save, a creature takes half as much damage. This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10). You can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.",
+      "fr": "Lorsque vous entreprenez l’action Attaquer à votre tour, vous pouvez remplacer l’une de vos attaques par un souffle d’énergie magique dans un Cône de 15 feet ou une Ligne de 30 feet et de 5 feet de large, au choix à chaque utilisation. Chaque créature dans la zone doit effectuer un jet de sauvegarde de Dextérité dont le DD est égal à 8 + votre modificateur de Constitution + votre bonus de maîtrise. En cas d’échec, elle subit 1d10 dégâts de froid. En cas de réussite, elle subit la moitié de ces dégâts. Les dégâts augmentent de 1d10 aux niveaux de personnage 5 (2d10), 11 (3d10) et 17 (4d10). Vous pouvez utiliser ce Souffle un nombre de fois égal à votre bonus de maîtrise et récupérez toutes les utilisations dépensées à la fin d’un Repos long.",
+      "source": "Traduction française proposée du texte Shard fourni par l’utilisateur · rapport de page visible 1.17.24 · D&D 2024 PHB · 16 octobre 2026"
+    },
+    {
+      "id": "phb.especes.visible-report-11724.20",
+      "kind": "term",
+      "en": "Superior Darkvision.",
+      "fr": "Vision dans le noir supérieure.",
+      "source": "Traduction française proposée du texte Shard fourni par l’utilisateur · rapport de page visible 1.17.24 · D&D 2024 PHB · 16 octobre 2026"
+    },
+    {
+      "id": "phb.especes.visible-report-11724.21",
+      "en": "The range of your Darkvision increases to 120 feet.",
+      "fr": "La portée de votre Vision dans le noir passe à 120 feet.",
+      "source": "Traduction française proposée du texte Shard fourni par l’utilisateur · rapport de page visible 1.17.24 · D&D 2024 PHB · 16 octobre 2026"
+    },
+    {
+      "id": "phb.especes.visible-report-11724.22",
+      "en": "You know the Dancing Lights cantrip and can cast it at will. When you reach 3rd level you learn Faerie Fire and when you reach 5th level you learn Darkness. You can cast each of these spells once per long rest without using a spell slot. You can also cast the spell using any spell slots you have of the appropriate level.",
+      "fr": "Vous connaissez le sort mineur Lumières dansantes et pouvez le lancer à volonté. Au niveau 3, vous apprenez Lueurs féeriques, puis Ténèbres au niveau 5. Vous pouvez lancer chacun de ces sorts une fois par Repos long sans dépenser d’emplacement de sort. Vous pouvez également les lancer en dépensant vos emplacements de sort du niveau approprié.",
+      "source": "Traduction française proposée du texte Shard fourni par l’utilisateur · rapport de page visible 1.17.24 · D&D 2024 PHB · 16 octobre 2026"
+    },
+    {
+      "id": "phb.especes.visible-report-11724.23",
+      "en": "You also know the Prestidigitation cantrip and can cast it at will. Once per long rest, you may replace it with a different cantrip of your choice from the Wizard spell list. When you reach 3rd level you learn Detect Magic and when you reach 5th level you learn Misty Step. You can cast each of these spells once per long rest without using a spell slot. You can also cast the spell using any spell slots you have of the appropriate level.",
+      "fr": "Vous connaissez également le sort mineur Prestidigitation et pouvez le lancer à volonté. Une fois par Repos long, vous pouvez le remplacer par un autre sort mineur de votre choix de la liste de sorts du Magicien. Au niveau 3, vous apprenez Détection de la magie, puis Foulée brumeuse au niveau 5. Vous pouvez lancer chacun de ces sorts une fois par Repos long sans dépenser d’emplacement de sort. Vous pouvez également les lancer en dépensant vos emplacements de sort du niveau approprié.",
+      "source": "Traduction française proposée du texte Shard fourni par l’utilisateur · rapport de page visible 1.17.24 · D&D 2024 PHB · 16 octobre 2026"
+    },
+    {
+      "id": "phb.especes.visible-report-11724.24",
+      "en": "Your walking speed is 35 ft.",
+      "fr": "Votre Vitesse de déplacement est de 35 feet.",
+      "source": "Traduction française proposée du texte Shard fourni par l’utilisateur · rapport de page visible 1.17.24 · D&D 2024 PHB · 16 octobre 2026"
+    },
+    {
+      "id": "phb.especes.visible-report-11724.25",
+      "en": "You also know the Druidcraft cantrip and can cast it at will. When you reach 3rd level you learn Longstrider and when you reach 5th level you learn Pass Without Trace. You can cast each of these spells once per long rest without using a spell slot. You can also cast the spell using any spell slots you have of the appropriate level.",
+      "fr": "Vous connaissez également le sort mineur Druidisme et pouvez le lancer à volonté. Au niveau 3, vous apprenez Grande foulée, puis Passage sans trace au niveau 5. Vous pouvez lancer chacun de ces sorts une fois par Repos long sans dépenser d’emplacement de sort. Vous pouvez également les lancer en dépensant vos emplacements de sort du niveau approprié.",
+      "source": "Traduction française proposée du texte Shard fourni par l’utilisateur · rapport de page visible 1.17.24 · D&D 2024 PHB · 16 octobre 2026"
+    },
+    {
+      "id": "phb.especes.visible-report-11724.26",
+      "en": "You know the Mending and Prestidigitation cantrips.",
+      "fr": "Vous connaissez les sorts mineurs Réparation et Prestidigitation.",
+      "source": "Traduction française proposée du texte Shard fourni par l’utilisateur · rapport de page visible 1.17.24 · D&D 2024 PHB · 16 octobre 2026"
+    },
+    {
+      "id": "phb.especes.visible-report-11724.27",
+      "kind": "term",
+      "en": "Create Clockwork Devices.",
+      "fr": "Création d’appareils mécaniques.",
+      "source": "Traduction française proposée du texte Shard fourni par l’utilisateur · rapport de page visible 1.17.24 · D&D 2024 PHB · 16 octobre 2026"
+    },
+    {
+      "id": "phb.especes.visible-report-11724.28",
+      "en": "You can spend 10 minutes casting Prestidigitation to create a Tiny clockwork device (AC 5, 1 HP), such as a toy, fire starter, or music box. When you create the device, you determine its function by choosing one effect from Prestidigitation; the device produces that effect whenever you or another creature takes a Bonus Action to activate it with a touch. If the chosen effect has options within it, you choose one of those options for the device when you create it. For example, if you choose the spell’s ignite-extinguish effect, you determine whether the device ignites or extinguishes fire; the device doesn’t do both. You can have three such devices in existence at a time, and each falls apart 8 hours after its creation or when you dismantle it with a touch as a Utilize action.",
+      "fr": "Vous pouvez consacrer 10 minutes à lancer Prestidigitation pour créer un appareil mécanique de taille Très petite (CA 5, 1 pv), tel qu’un jouet, un allume-feu ou une boîte à musique. À sa création, choisissez un effet de Prestidigitation : l’appareil le produit quand vous ou une autre créature l’activez par contact avec une action Bonus. Si cet effet comporte plusieurs options, choisissez celle de l’appareil à sa création. Par exemple, pour l’effet permettant d’allumer ou d’éteindre un feu, l’appareil doit faire l’un ou l’autre, jamais les deux. Vous pouvez avoir trois appareils de ce type à la fois. Chacun tombe en morceaux 8 heures après sa création ou lorsque vous le démantelez par contact avec l’action Utilisation.",
+      "source": "Traduction française proposée du texte Shard fourni par l’utilisateur · rapport de page visible 1.17.24 · D&D 2024 PHB · 16 octobre 2026"
+    },
+    {
+      "id": "phb.especes.visible-report-11724.29",
+      "en": "You gain an Origin feat of your choice. Skilled is recommended.",
+      "fr": "Vous gagnez un don d’origine de votre choix. Doué est recommandé.",
+      "source": "Traduction française proposée du texte Shard fourni par l’utilisateur · rapport de page visible 1.17.24 · D&D 2024 PHB · 16 octobre 2026"
+    },
+    {
+      "id": "phb.especes.visible-report-11724.30",
+      "en": "You know the Poison Spray cantrip and can cast it at will. When you reach 3rd level you learn Ray of Sickness and when you reach 5th level you learn Hold Person. You can cast each of these spells once per long rest without using a spell slot. You can also cast the spell using any spell slots you have of the appropriate level.",
+      "fr": "Vous connaissez le sort mineur Bouffée de poison et pouvez le lancer à volonté. Au niveau 3, vous apprenez Rayon empoisonné, puis Immobilisation de personne au niveau 5. Vous pouvez lancer chacun de ces sorts une fois par Repos long sans dépenser d’emplacement de sort. Vous pouvez également les lancer en dépensant vos emplacements de sort du niveau approprié.",
+      "source": "Traduction française proposée du texte Shard fourni par l’utilisateur · rapport de page visible 1.17.24 · D&D 2024 PHB · 16 octobre 2026"
+    },
+    {
+      "id": "phb.especes.visible-report-11724.31",
+      "en": "You have resistance to necrotic damage.",
+      "fr": "Vous bénéficiez de la Résistance aux dégâts nécrotiques.",
+      "source": "Traduction française proposée du texte Shard fourni par l’utilisateur · rapport de page visible 1.17.24 · D&D 2024 PHB · 16 octobre 2026"
+    },
+    {
+      "id": "phb.especes.visible-report-11724.32",
+      "en": "You know the Chill Touch cantrip and can cast it at will. When you reach 3rd level you learn False Life and when you reach 5th level you learn Ray of Enfeeblement. You can cast each of these spells once per long rest without using a spell slot. You can also cast the spell using any spell slots you have of the appropriate level.",
+      "fr": "Vous connaissez le sort mineur Contact glacial et pouvez le lancer à volonté. Au niveau 3, vous apprenez Simulacre de vie, puis Rayon affaiblissant au niveau 5. Vous pouvez lancer chacun de ces sorts une fois par Repos long sans dépenser d’emplacement de sort. Vous pouvez également les lancer en dépensant vos emplacements de sort du niveau approprié.",
+      "source": "Traduction française proposée du texte Shard fourni par l’utilisateur · rapport de page visible 1.17.24 · D&D 2024 PHB · 16 octobre 2026"
     }
   ]
 }

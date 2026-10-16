@@ -103,6 +103,41 @@
       "en": "You hurl a mote of fire at a creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 fire damage. A flammable object hit by this spell ignites if it isn't being worn or carried.",
       "fr": "Vous projetez une flammèche vers une créature ou un objet à portée. Effectuez une attaque de sort à distance contre la cible. Si l’attaque touche, la cible subit 1d10 dégâts de feu. Un objet inflammable touché par ce sort s’embrase s’il n’est ni porté ni transporté.",
       "source": "Traduction de l’extrait utilisateur · 2014"
+    },
+    {
+      "id": "spell.audit-11734.protection-from-evil-and-good.0",
+      "en": "The protection grants several benefits. Creatures of those types have disadvantage on attack rolls against the target. The target also can't be charmed, frightened, or possessed by them. If the target is already charmed, frightened, or possessed by such a creature, the target has advantage on any new saving throw against the relevant effect.",
+      "fr": "La protection confère plusieurs bénéfices. Les créatures de ces types subissent le Désavantage aux jets d’attaque contre la cible. Elles ne peuvent pas non plus la charmer, l’effrayer ou la posséder. Si la cible est déjà charmée, effrayée ou possédée par une telle créature, elle bénéficie de l’Avantage à tout nouveau jet de sauvegarde contre l’effet concerné.",
+      "source": "Traduction française proposée du paragraphe exact des fiches Shard PHB relevées le 15 octobre 2026 · audit hors ligne de la version 1.17.34 · formulation conservée indépendamment du livre affiché",
+      "edition": "any"
+    },
+    {
+      "id": "spell.audit-11734.shield.0",
+      "en": "An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from magic missile.",
+      "fr": "Une barrière invisible de force magique apparaît et vous protège. Jusqu’au début de votre prochain tour, vous bénéficiez d’un bonus de +5 à la CA, y compris contre l’attaque qui a déclenché le sort, et vous ne subissez aucun dégât de Projectile magique.",
+      "source": "Traduction française proposée du paragraphe exact des fiches Shard PHB relevées le 15 octobre 2026 · audit hors ligne de la version 1.17.34 · formulation conservée indépendamment du livre affiché",
+      "edition": "any"
+    },
+    {
+      "id": "spell.audit-11734.enlarge-reduce.0",
+      "en": "If the target is a creature, everything it is wearing and carrying changes size with it. Any item dropped by an affected creature returns to normal size at once.",
+      "fr": "Si la cible est une créature, tout ce qu’elle porte ou transporte change de taille avec elle. Tout objet lâché par une créature affectée reprend aussitôt sa taille normale.",
+      "source": "Traduction française proposée du paragraphe exact des fiches Shard PHB relevées le 15 octobre 2026 · audit hors ligne de la version 1.17.34 · formulation conservée indépendamment du livre affiché",
+      "edition": "any"
+    },
+    {
+      "id": "spell.audit-11734.enlarge-reduce.1",
+      "en": "Enlarge. The target's size doubles in all dimensions, and its weight is multiplied by eight. This growth increases its size by one category—from Medium to Large, for example. If there isn't enough room for the target to double its size, the creature or object attains the maximum possible size in the space available. Until the spell ends, the target also has advantage on Strength checks and Strength saving throws. The target's weapons also grow to match its new size. While these weapons are enlarged, the target's attacks with them deal 1d4 extra damage.",
+      "fr": "Agrandissement. La taille de la cible double dans toutes les dimensions et son poids est multiplié par huit. Cette croissance augmente sa catégorie de taille d’un cran, de Moyenne à Grande, par exemple. Si l’espace est insuffisant pour que la cible double de taille, la créature ou l’objet atteint la taille maximale permise par l’espace disponible. Jusqu’à la fin du sort, la cible bénéficie aussi de l’Avantage aux tests de Force et aux jets de sauvegarde de Force. Ses armes grandissent également pour s’adapter à sa nouvelle taille. Tant que ces armes sont agrandies, les attaques de la cible effectuées avec elles infligent 1d4 dégâts supplémentaires.",
+      "source": "Traduction française proposée du paragraphe exact des fiches Shard PHB relevées le 15 octobre 2026 · audit hors ligne de la version 1.17.34 · formulation conservée indépendamment du livre affiché",
+      "edition": "any"
+    },
+    {
+      "id": "spell.audit-11734.enlarge-reduce.2",
+      "en": "Reduce. The target's size is halved in all dimensions, and its weight is reduced to one-eighth of normal. This reduction decreases its size by one category—from Medium to Small, for example. Until the spell ends, the target also has disadvantage on Strength checks and Strength saving throws. The target's weapons also shrink to match its new size. While these weapons are reduced, the target's attacks with them deal 1d4 less damage (this can't reduce the damage below 1).",
+      "fr": "Rapetissement. La taille de la cible est divisée par deux dans toutes les dimensions et son poids est réduit au huitième de son poids normal. Cette réduction diminue sa catégorie de taille d’un cran, de Moyenne à Petite, par exemple. Jusqu’à la fin du sort, la cible subit aussi le Désavantage aux tests de Force et aux jets de sauvegarde de Force. Ses armes rétrécissent également pour s’adapter à sa nouvelle taille. Tant que ces armes sont rapetissées, les attaques de la cible effectuées avec elles infligent 1d4 dégâts de moins, sans que cela puisse réduire les dégâts en dessous de 1.",
+      "source": "Traduction française proposée du paragraphe exact des fiches Shard PHB relevées le 15 octobre 2026 · audit hors ligne de la version 1.17.34 · formulation conservée indépendamment du livre affiché",
+      "edition": "any"
     }
   ]
 }

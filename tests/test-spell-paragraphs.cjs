@@ -2,6 +2,7 @@ const fs = require('node:fs');
 const assert = require('node:assert/strict');
 const {JSDOM} = require('jsdom');
 const rows = JSON.parse(fs.readFileSync('tests/fixtures/spell-paragraphs-2024.json', 'utf8'));
+rows.push(...JSON.parse(fs.readFileSync('tests/fixtures/spell-audit-additions-11734.json', 'utf8')).cases.map((row, i) => ({ ...row, spell: row.name, id: 'spell.audit-11734.' + i })));
 // Shard Player’s Guide conserve aussi la formulation de 2014 : les dés
 // cliquables omis par le copier-coller doivent rester dans le texte traduit.
 rows.push({

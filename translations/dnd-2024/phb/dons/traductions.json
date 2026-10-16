@@ -2991,6 +2991,57 @@
       "fr": "Célérité.",
       "source": "Traduction proposée du texte observé sur Shard · Boon of Speed · relevé du 14 octobre 2026 · https://play.shardtabletop.com/",
       "edition": "any"
+    },
+    {
+      "id": "report.11734.dons.017",
+      "en": "These feats are in the Origin category.",
+      "fr": "Ces dons appartiennent à la catégorie Origine.",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés"
+    },
+    {
+      "id": "report.11734.dons.018",
+      "en": "Five versions of the Skilled feat have been created to facilitate taking the feat as many times as possible, should you so choose to do so.",
+      "fr": "Cinq versions du don Doué ont été créées pour vous permettre de le prendre autant de fois que vous le souhaitez.",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés"
+    },
+    {
+      "id": "report.11734.dons.019",
+      "en": "These feats are in the General category.",
+      "fr": "Ces dons appartiennent à la catégorie Générale.",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés"
+    },
+    {
+      "id": "report.11734.dons.020",
+      "en": "ASI",
+      "fr": "Amélioration de caractéristique",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "kind": "term"
+    },
+    {
+      "id": "report.11734.dons.021",
+      "en": "A separate feat for each element is listed below.",
+      "fr": "Un don distinct pour chaque élément est présenté ci-dessous.",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés"
+    },
+    {
+      "id": "report.11734.dons.022",
+      "en": "Constitution.",
+      "fr": "Constitution.",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "kind": "term"
+    },
+    {
+      "id": "report.11734.dons.023",
+      "en": "Intelligence.",
+      "fr": "Intelligence.",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "kind": "term"
+    },
+    {
+      "id": "report.11734.dons.024",
+      "en": "These feats are in the Fighting Style category.",
+      "fr": "Ces dons appartiennent à la catégorie Style de combat.",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés"
     }
   ]
 }

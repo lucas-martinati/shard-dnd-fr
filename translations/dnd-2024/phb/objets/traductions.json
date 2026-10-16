@@ -608,6 +608,568 @@
       "fr": "Zulkoon",
       "source": "Traduction proposée des noms du catalogue Shard · livre D&D 2024 PHB · relevé du 15 octobre 2026 ; noms d’instruments propres conservés lorsqu’aucun équivalent français n’est établi.",
       "edition": "any"
+    },
+    {
+      "id": "report.11734.objets.025",
+      "en": "Mounts and Vehicles",
+      "fr": "Montures et véhicules",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "kind": "term"
+    },
+    {
+      "id": "report.11734.objets.026",
+      "en": "The right equipment can make the difference between success and failure for adventurers. This chapter provides rules and prices for weapons, armor, and other kinds of equipment that characters might purchase or find.",
+      "fr": "Un équipement adapté peut faire la différence entre la réussite et l’échec pour les aventuriers. Ce chapitre présente les règles et les prix des armes, armures et autres équipements que les personnages peuvent acheter ou trouver.",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés"
+    },
+    {
+      "id": "report.11734.objets.027",
+      "en": "Weapon",
+      "fr": "Arme",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "kind": "term"
+    },
+    {
+      "id": "report.11734.objets.028",
+      "en": "Selecting Mastery in a weapon unlocks a special attack from the list of Mastery Properties. Each weapon has a specific mastery property from the list.",
+      "fr": "Choisir la botte d’une arme débloque une attaque spéciale de la liste des propriétés de botte. Chaque arme possède une propriété de botte spécifique issue de cette liste.",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés"
+    },
+    {
+      "id": "report.11734.objets.029",
+      "en": "Each weapon has a mastery property, which is usable only by a character who has a feature, such as Weapon Mastery, that unlocks the property for the character. The properties are defined below.",
+      "fr": "Chaque arme possède une propriété de botte, utilisable uniquement par un personnage doté d’une aptitude telle que Botte d’arme qui lui donne accès à cette propriété. Les propriétés sont définies ci-dessous.",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés"
+    },
+    {
+      "id": "report.11734.objets.030",
+      "en": "The Armor table lists the game’s main armor. The table includes the cost and weight of armor, as well as the following details:",
+      "fr": "La table Armures présente les principales armures du jeu. Elle indique leur coût et leur poids, ainsi que les informations suivantes :",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés"
+    },
+    {
+      "id": "report.11734.objets.031",
+      "en": "Category. Every type of armor falls into a category: Light, Medium, or Heavy. The category determines how long it takes to don or doff the armor.",
+      "fr": "Catégorie. Chaque type d’armure appartient à une catégorie : légère, intermédiaire ou lourde. La catégorie détermine le temps nécessaire pour enfiler ou retirer l’armure.",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés"
+    },
+    {
+      "id": "report.11734.objets.032",
+      "en": "Armor Class (AC). The table’s Armor Class column tells you what your base AC is when you wear a type of armor. For example, if you wear Leather Armor, your base AC is 11 plus your Dexterity modifier, whereas your AC is 16 in Chain Mail.",
+      "fr": "Classe d’armure (CA). La colonne Classe d’armure de la table indique votre CA de base lorsque vous portez un type d’armure. Par exemple, une armure de cuir vous donne une CA de base de 11 + votre modificateur de Dextérité, tandis qu’une cotte de mailles vous donne une CA de 16.",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés"
+    },
+    {
+      "id": "report.11734.objets.033",
+      "en": "Strength. If the table shows a Strength score in the Strength column for an armor type, that armor reduces the wearer’s speed by 10 feet unless the wearer has a Strength score equal to or higher than the listed score.",
+      "fr": "Force. Si la colonne Force de la table indique une valeur pour un type d’armure, celle-ci réduit la Vitesse du porteur de 10 feet, à moins que sa valeur de Force soit au moins égale à la valeur indiquée.",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés"
+    },
+    {
+      "id": "report.11734.objets.034",
+      "en": "Stealth. If the table shows “Disadvantage” in the Stealth column for an armor type, the wearer has Disadvantage on Dexterity (Stealth) checks.",
+      "fr": "Discrétion. Si la colonne Discrétion de la table indique « Désavantage » pour un type d’armure, le porteur subit le Désavantage aux tests de Dextérité (Discrétion).",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés"
+    },
+    {
+      "id": "report.11734.objets.035",
+      "en": "A tool helps you make specialized ability checks, craft certain items, or both. A tool’s description includes the tool’s cost and weight, as well as the following entries:",
+      "fr": "Un outil vous aide à effectuer des tests de caractéristique spécialisés, à fabriquer certains objets, ou les deux. Sa description indique son coût et son poids, ainsi que les rubriques suivantes :",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés"
+    },
+    {
+      "id": "report.11734.objets.036",
+      "en": "Ability. This entry lists the ability to use when making an ability check with the tool.",
+      "fr": "Caractéristique. Cette rubrique indique la caractéristique à utiliser pour effectuer un test de caractéristique avec l’outil.",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés"
+    },
+    {
+      "id": "report.11734.objets.037",
+      "en": "Utilize. This entry lists things you can do with the tool when you take the Utilize action. You can do one of those things each time you take the action. This entry also provides the DC for the action.",
+      "fr": "Utilisation. Cette rubrique indique ce que vous pouvez faire avec l’outil lorsque vous entreprenez l’action Utilisation. Chaque fois que vous entreprenez cette action, vous pouvez choisir une des possibilités indiquées. La rubrique précise aussi le DD de l’action.",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés"
+    },
+    {
+      "id": "report.11734.objets.038",
+      "en": "Craft. This entry lists what, if anything, you can craft with the tool. For crafting rules, see “Crafting Equipment” later in the chapter.",
+      "fr": "Fabrication. Cette rubrique indique les objets que vous pouvez éventuellement fabriquer avec l’outil. Pour les règles de fabrication, voir « Fabrication d’équipement » plus loin dans ce chapitre.",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés"
+    },
+    {
+      "id": "report.11734.objets.039",
+      "en": "This entry appears if the tool has variants, which are listed. Each requires a separate proficiency.",
+      "fr": "Cette rubrique apparaît si l’outil possède des variantes, qui y sont énumérées. Chacune nécessite une maîtrise distincte.",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés"
+    },
+    {
+      "id": "report.11734.objets.040",
+      "en": "Artisan’s Tools are each focused on crafting items and pursuing a trade. Each of these tools requires a separate proficiency.",
+      "fr": "Chaque type d’outils d’artisan est destiné à la fabrication d’objets et à l’exercice d’un métier. Chacun nécessite une maîtrise distincte.",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés"
+    },
+    {
+      "id": "report.11734.objets.041",
+      "en": "Write text with impressive flourishes that guard against forgery (DC 15) Craft:",
+      "fr": "Écrire un texte agrémenté de fioritures impressionnantes qui le protègent contre la contrefaçon (DD 15) Fabrication :",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés"
+    },
+    {
+      "id": "report.11734.objets.042",
+      "en": "Modify footwear to give Advantage on the wearer’s next Dexterity (Acrobatics) check (DC 10) Craft:",
+      "fr": "Modifier des chaussures pour donner l’Avantage au prochain test de Dextérité (Acrobaties) de leur porteur (DD 10) Fabrication :",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés"
+    },
+    {
+      "id": "report.11734.objets.043",
+      "en": "Intelligence Discern what a glass object held in the past 24 hours (DC 15) Craft:",
+      "fr": "Intelligence. Déterminer ce qu’un objet en verre a contenu au cours des dernières 24 heures (DD 15) Fabrication :",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés"
+    },
+    {
+      "id": "report.11734.objets.044",
+      "en": "Ability: Wisdom Utilize: Paint a recognizable image of something you’ve seen (DC 10) Craft: Druidic Focus, Holy Symbol",
+      "fr": "Caractéristique : Sagesse. Utilisation : peindre une image reconnaissable de quelque chose que vous avez vu (DD 10). Fabrication : focaliseur druidique, symbole sacré",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés"
+    },
+    {
+      "id": "report.11734.objets.045",
+      "en": "Intelligence Discern what a ceramic object held in the past 24 hours (DC 15) Craft:",
+      "fr": "Intelligence. Déterminer ce qu’un objet en céramique a contenu au cours des dernières 24 heures (DD 15) Fabrication :",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés"
+    },
+    {
+      "id": "report.11734.objets.046",
+      "en": "Other Tools",
+      "fr": "Autres outils",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "kind": "term"
+    },
+    {
+      "id": "report.11734.objets.047",
+      "en": "These tools support adventure and other pursuits.",
+      "fr": "Ces outils sont utiles à l’aventure et à d’autres activités.",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés"
+    },
+    {
+      "id": "report.11734.objets.048",
+      "en": "Gaming Set (Varies)",
+      "fr": "Jeu (prix variable)",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "kind": "term"
+    },
+    {
+      "id": "report.11734.objets.049",
+      "en": "Ability: Wisdom Utilize: Discern whether someone is cheating (DC 10), or win the game (DC 20) Variants: Dice (1 SP), dragonchess (1 GP), playing cards (5 SP), three-dragon ante (1 GP)",
+      "fr": "Caractéristique : Sagesse. Utilisation : déterminer si quelqu’un triche (DD 10) ou remporter la partie (DD 20). Variantes : dés (1 pa), échecs draconiques (1 po), cartes à jouer (5 pa), jeu des Trois Dragons (1 po)",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés"
+    },
+    {
+      "id": "report.11734.objets.050",
+      "en": "Musical Instrument (Varies)",
+      "fr": "Instrument de musique (prix variable)",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "kind": "term"
+    },
+    {
+      "id": "report.11734.objets.051",
+      "en": "The Adventuring Gear table in this section includes gear that adventurers often find useful. These items are described here in alphabetical order, with an item’s price appearing after its name.",
+      "fr": "La table Matériel d’aventurier de cette section présente l’équipement souvent utile aux aventuriers. Les objets sont décrits ici par ordre alphabétique, avec leur prix après leur nom.",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés"
+    },
+    {
+      "id": "report.11734.objets.052",
+      "en": "Ammunition (Varies)",
+      "fr": "Munitions (prix variable)",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "kind": "term"
+    },
+    {
+      "id": "report.11734.objets.053",
+      "en": "Ammunition is required by a weapon that has the Ammunition property. A weapon’s description specifies the type of ammunition used by the weapon. The Ammunition table lists the different types and the amount you get when you buy them. The table also lists the item that is typically used to store each type; storage must be bought separately.",
+      "fr": "Les armes dotées de la propriété Munitions nécessitent des munitions. La description d’une arme précise le type de munitions qu’elle utilise. La table Munitions indique les différents types et la quantité obtenue à l’achat. Elle indique aussi le contenant généralement utilisé pour chaque type ; ce contenant doit être acheté séparément.",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés"
+    },
+    {
+      "id": "report.11734.objets.054",
+      "en": "Arcane Focus (Varies)",
+      "fr": "Focaliseur arcanique (prix variable)",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "kind": "term"
+    },
+    {
+      "id": "report.11734.objets.055",
+      "en": "An Arcane Focus takes one of the forms in the Arcane Focuses table and is bejeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus.",
+      "fr": "Un focaliseur arcanique prend l’une des formes de la table Focaliseurs arcaniques. Il est orné de pierres précieuses ou gravé pour canaliser la magie arcanique. Un Ensorceleur, un Occultiste ou un Magicien peut l’utiliser comme focaliseur d’incantation.",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés"
+    },
+    {
+      "id": "report.11734.objets.056",
+      "en": "Arcane Focuses",
+      "fr": "Focaliseurs arcaniques",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "kind": "term"
+    },
+    {
+      "id": "report.11734.objets.057",
+      "en": "Druidic Focus (Varies)",
+      "fr": "Focaliseur druidique (prix variable)",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "kind": "term"
+    },
+    {
+      "id": "report.11734.objets.058",
+      "en": "A Druidic Focus takes one of the forms in the Druidic Focuses table and is carved, tied with ribbon, or painted to channel primal magic. A Druid or Ranger can use such an object as a Spellcasting Focus.",
+      "fr": "Un focaliseur druidique prend l’une des formes de la table Focaliseurs druidiques. Il est sculpté, orné de rubans ou peint pour canaliser la magie primale. Un Druide ou un Rôdeur peut l’utiliser comme focaliseur d’incantation.",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés"
+    },
+    {
+      "id": "report.11734.objets.059",
+      "en": "Druidic Focuses",
+      "fr": "Focaliseurs druidiques",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "kind": "term"
+    },
+    {
+      "id": "report.11734.objets.060",
+      "en": "Holy Symbol (Varies)",
+      "fr": "Symbole sacré (prix variable)",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "kind": "term"
+    },
+    {
+      "id": "report.11734.objets.061",
+      "en": "A Holy Symbol takes one of the forms in the Holy Symbol table and is bejeweled or painted to channel divine magic. A Cleric or Paladin can use a Holy Symbol as a Spellcasting Focus.",
+      "fr": "Un symbole sacré prend l’une des formes de la table Symboles sacrés. Il est orné de pierres précieuses ou peint pour canaliser la magie divine. Un Clerc ou un Paladin peut l’utiliser comme focaliseur d’incantation.",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés"
+    },
+    {
+      "id": "report.11734.objets.062",
+      "en": "The table indicates whether a Holy Symbol needs to be held, worn, or borne on fabric (such as a tabard or banner) or a Shield.",
+      "fr": "La table précise si un symbole sacré doit être tenu, porté ou arboré sur une pièce de tissu, comme un tabard ou une bannière, ou sur un bouclier.",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés"
+    },
+    {
+      "id": "report.11734.objets.063",
+      "en": "Holy Symbols",
+      "fr": "Symboles sacrés",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "kind": "term"
+    },
+    {
+      "id": "report.11734.objets.064",
+      "en": "A mount can help you move more quickly through the wilderness, but its primary purpose is to carry gear that would otherwise slow you down. The Mounts and Other Animals table shows each animal’s carrying capacity. See appendix B for the animals’ stat blocks.",
+      "fr": "Une monture peut vous aider à traverser plus rapidement les terres sauvages, mais sert surtout à transporter l’équipement qui vous ralentirait autrement. La table Montures et autres animaux indique la capacité de charge de chaque animal. Leurs profils figurent à l’annexe B.",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés"
+    },
+    {
+      "id": "report.11734.objets.065",
+      "en": "Mounts and Cargo",
+      "fr": "Montures et charges",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "kind": "term"
+    },
+    {
+      "id": "report.11734.objets.066",
+      "en": "An animal pulling a carriage, cart, chariot, sled, or wagon can move weight up to five times its base carrying capacity, including the weight of the vehicle. If multiple animals pull the same vehicle, add their carrying capacities together.",
+      "fr": "Un animal qui tire une voiture, une charrette, un char, un traîneau ou un chariot peut déplacer une charge allant jusqu’à cinq fois sa capacité de charge de base, poids du véhicule compris. Si plusieurs animaux tirent le même véhicule, additionnez leurs capacités de charge.",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés"
+    },
+    {
+      "id": "report.11734.objets.067",
+      "en": "Barding",
+      "fr": "Barde",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "kind": "term"
+    },
+    {
+      "id": "report.11734.objets.068",
+      "en": "Barding is armor designed for a mount. Any type of armor on the Armor table in this chapter can be purchased as barding. The cost is four times the normal cost, and it weighs twice as much.",
+      "fr": "Une barde est une armure conçue pour une monture. Tout type d’armure de la table Armures de ce chapitre peut être acheté comme barde. Son coût est quatre fois le coût normal et son poids est doublé.",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés"
+    },
+    {
+      "id": "report.11734.objets.069",
+      "en": "Feed and Saddles",
+      "fr": "Nourriture et selles",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "kind": "term"
+    },
+    {
+      "id": "report.11734.objets.070",
+      "en": "A saddle comes with a bit, a bridle, reins, and any other equipment needed to use the saddle. A Military Saddle gives Advantage on any ability check you make to remain mounted. An Exotic Saddle is required for riding an aquatic or a flying mount.",
+      "fr": "Une selle comprend un mors, une bride, des rênes et tout autre équipement nécessaire à son utilisation. Une selle militaire donne l’Avantage à tout test de caractéristique effectué pour rester en selle. Une selle exotique est nécessaire pour monter une créature aquatique ou volante.",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés"
+    },
+    {
+      "id": "report.11734.objets.071",
+      "en": "Feed per day",
+      "fr": "Nourriture par jour",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "kind": "term"
+    },
+    {
+      "id": "report.11734.objets.072",
+      "en": "Saddle",
+      "fr": "Selle",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "kind": "term"
+    },
+    {
+      "id": "report.11734.objets.073",
+      "en": "Exotic",
+      "fr": "Exotique",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "kind": "term"
+    },
+    {
+      "id": "report.11734.objets.074",
+      "en": "Military",
+      "fr": "Militaire",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "kind": "term"
+    },
+    {
+      "id": "report.11734.objets.075",
+      "en": "Riding",
+      "fr": "D’équitation",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "kind": "term"
+    },
+    {
+      "id": "report.11734.objets.076",
+      "en": "Stabling per day",
+      "fr": "Écurie par jour",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "kind": "term"
+    },
+    {
+      "id": "report.11734.objets.077",
+      "en": "Air and Water Vehicles",
+      "fr": "Véhicules aériens et nautiques",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "kind": "term"
+    },
+    {
+      "id": "report.11734.objets.078",
+      "en": "The Airborne and Waterborne Vehicles table provides statistics for various types of large vehicles. The following notes apply.",
+      "fr": "La table Véhicules aériens et nautiques présente les caractéristiques de différents grands véhicules. Les remarques suivantes s’appliquent.",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés"
+    },
+    {
+      "id": "report.11734.objets.079",
+      "en": "1 ton cargo, 20 passengers",
+      "fr": "1 ton de fret, 20 passagers",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "kind": "term"
+    },
+    {
+      "id": "report.11734.objets.080",
+      "en": "150 tons cargo",
+      "fr": "150 tons de fret",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "kind": "term"
+    },
+    {
+      "id": "report.11734.objets.081",
+      "en": "1/2 ton cargo, 6 passengers",
+      "fr": "1/2 ton de fret, 6 passagers",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "kind": "term"
+    },
+    {
+      "id": "report.11734.objets.082",
+      "en": "10 tons cargo, 150 passengers",
+      "fr": "10 tons de fret, 150 passagers",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "kind": "term"
+    },
+    {
+      "id": "report.11734.objets.083",
+      "en": "3 passengers",
+      "fr": "3 passagers",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "kind": "term"
+    },
+    {
+      "id": "report.11734.objets.084",
+      "en": "100 tons cargo, 20 passengers",
+      "fr": "100 tons de fret, 20 passagers",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "kind": "term"
+    },
+    {
+      "id": "report.11734.objets.085",
+      "en": "200 tons cargo, 60 passengers",
+      "fr": "200 tons de fret, 60 passagers",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "kind": "term"
+    },
+    {
+      "id": "report.11734.objets.086",
+      "en": "Next Chapter: Spell Descriptions (A-M)",
+      "fr": "Chapitre suivant : Descriptions des sorts (A-M)",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "kind": "term"
+    },
+    {
+      "id": "report.11734.objets.092",
+      "en": "Category.",
+      "fr": "Catégorie.",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "kind": "term"
+    },
+    {
+      "id": "report.11734.objets.093",
+      "en": "Armor Class (AC).",
+      "fr": "Classe d’armure (CA).",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "kind": "term"
+    },
+    {
+      "id": "report.11734.objets.094",
+      "en": "Stealth.",
+      "fr": "Discrétion.",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "kind": "term"
+    },
+    {
+      "id": "report.11734.objets.095",
+      "en": "Ability.",
+      "fr": "Caractéristique.",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "kind": "term"
+    },
+    {
+      "id": "report.11734.objets.096",
+      "en": "Utilize.",
+      "fr": "Utilisation.",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "kind": "term"
+    },
+    {
+      "id": "report.11734.objets.097",
+      "en": "Craft.",
+      "fr": "Fabrication.",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "kind": "term"
+    },
+    {
+      "id": "report.11734.objets.098",
+      "en": "Ability:",
+      "fr": "Caractéristique :",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "kind": "term"
+    },
+    {
+      "id": "report.11734.objets.099",
+      "en": "Utilize:",
+      "fr": "Utilisation :",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "kind": "term"
+    },
+    {
+      "id": "report.11734.objets.100",
+      "en": "Craft:",
+      "fr": "Fabrication :",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "kind": "term"
+    },
+    {
+      "id": "report.11734.tools.line.0",
+      "en": "Variants:",
+      "fr": "Variantes :",
+      "source": "Traduction proposée des lignes complètes d’outils du chapitre Équipement PHB Shard · HTML public examiné le 16 octobre 2026 pour compléter les fragments du rapport 1.17.34",
+      "kind": "term"
+    },
+    {
+      "id": "report.11734.tools.line.1",
+      "en": "Ability: Dexterity",
+      "fr": "Caractéristique : Dextérité",
+      "source": "Traduction proposée des lignes complètes d’outils du chapitre Équipement PHB Shard · HTML public examiné le 16 octobre 2026 pour compléter les fragments du rapport 1.17.34"
+    },
+    {
+      "id": "report.11734.tools.line.2",
+      "en": "Utilize: Write text with impressive flourishes that guard against forgery (DC 15)",
+      "fr": "Utilisation : Écrire un texte agrémenté de fioritures impressionnantes qui le protègent contre la contrefaçon (DD 15)",
+      "source": "Traduction proposée des lignes complètes d’outils du chapitre Équipement PHB Shard · HTML public examiné le 16 octobre 2026 pour compléter les fragments du rapport 1.17.34"
+    },
+    {
+      "id": "report.11734.tools.line.3",
+      "en": "Craft: Ink, Spell Scroll",
+      "fr": "Fabrication : encre, parchemin de sort",
+      "source": "Traduction proposée des lignes complètes d’outils du chapitre Équipement PHB Shard · HTML public examiné le 16 octobre 2026 pour compléter les fragments du rapport 1.17.34"
+    },
+    {
+      "id": "report.11734.tools.line.4",
+      "en": "Utilize: Modify footwear to give Advantage on the wearer’s next Dexterity (Acrobatics) check (DC 10)",
+      "fr": "Utilisation : Modifier des chaussures pour donner l’Avantage au prochain test de Dextérité (Acrobaties) de leur porteur (DD 10)",
+      "source": "Traduction proposée des lignes complètes d’outils du chapitre Équipement PHB Shard · HTML public examiné le 16 octobre 2026 pour compléter les fragments du rapport 1.17.34"
+    },
+    {
+      "id": "report.11734.tools.line.5",
+      "en": "Craft: Climber’s Kit",
+      "fr": "Fabrication : matériel d’escalade",
+      "source": "Traduction proposée des lignes complètes d’outils du chapitre Équipement PHB Shard · HTML public examiné le 16 octobre 2026 pour compléter les fragments du rapport 1.17.34"
+    },
+    {
+      "id": "report.11734.tools.line.6",
+      "en": "Ability: Intelligence",
+      "fr": "Caractéristique : Intelligence",
+      "source": "Traduction proposée des lignes complètes d’outils du chapitre Équipement PHB Shard · HTML public examiné le 16 octobre 2026 pour compléter les fragments du rapport 1.17.34"
+    },
+    {
+      "id": "report.11734.tools.line.7",
+      "en": "Utilize: Discern what a glass object held in the past 24 hours (DC 15)",
+      "fr": "Utilisation : Déterminer ce qu’un objet en verre a contenu au cours des dernières 24 heures (DD 15)",
+      "source": "Traduction proposée des lignes complètes d’outils du chapitre Équipement PHB Shard · HTML public examiné le 16 octobre 2026 pour compléter les fragments du rapport 1.17.34"
+    },
+    {
+      "id": "report.11734.tools.line.8",
+      "en": "Craft: Glass Bottle, Magnifying Glass, Spyglass, Vial",
+      "fr": "Fabrication : bouteille en verre, loupe, longue-vue, fiole",
+      "source": "Traduction proposée des lignes complètes d’outils du chapitre Équipement PHB Shard · HTML public examiné le 16 octobre 2026 pour compléter les fragments du rapport 1.17.34"
+    },
+    {
+      "id": "report.11734.tools.line.9",
+      "en": "Ability: Wisdom",
+      "fr": "Caractéristique : Sagesse",
+      "source": "Traduction proposée des lignes complètes d’outils du chapitre Équipement PHB Shard · HTML public examiné le 16 octobre 2026 pour compléter les fragments du rapport 1.17.34"
+    },
+    {
+      "id": "report.11734.tools.line.10",
+      "en": "Utilize: Paint a recognizable image of something you’ve seen (DC 10)",
+      "fr": "Utilisation : Peindre une image reconnaissable de quelque chose que vous avez vu (DD 10)",
+      "source": "Traduction proposée des lignes complètes d’outils du chapitre Équipement PHB Shard · HTML public examiné le 16 octobre 2026 pour compléter les fragments du rapport 1.17.34"
+    },
+    {
+      "id": "report.11734.tools.line.11",
+      "en": "Craft: Druidic Focus, Holy Symbol",
+      "fr": "Fabrication : focaliseur druidique, symbole sacré",
+      "source": "Traduction proposée des lignes complètes d’outils du chapitre Équipement PHB Shard · HTML public examiné le 16 octobre 2026 pour compléter les fragments du rapport 1.17.34"
+    },
+    {
+      "id": "report.11734.tools.line.12",
+      "en": "Utilize: Discern what a ceramic object held in the past 24 hours (DC 15)",
+      "fr": "Utilisation : Déterminer ce qu’un objet en céramique a contenu au cours des dernières 24 heures (DD 15)",
+      "source": "Traduction proposée des lignes complètes d’outils du chapitre Équipement PHB Shard · HTML public examiné le 16 octobre 2026 pour compléter les fragments du rapport 1.17.34"
+    },
+    {
+      "id": "report.11734.tools.line.13",
+      "en": "Craft: Jug, Lamp",
+      "fr": "Fabrication : cruche, lampe",
+      "source": "Traduction proposée des lignes complètes d’outils du chapitre Équipement PHB Shard · HTML public examiné le 16 octobre 2026 pour compléter les fragments du rapport 1.17.34"
+    },
+    {
+      "id": "report.11734.tools.line.14",
+      "en": "Utilize: Discern whether someone is cheating (DC 10), or win the game (DC 20)",
+      "fr": "Utilisation : Déterminer si quelqu’un triche (DD 10) ou remporter la partie (DD 20)",
+      "source": "Traduction proposée des lignes complètes d’outils du chapitre Équipement PHB Shard · HTML public examiné le 16 octobre 2026 pour compléter les fragments du rapport 1.17.34"
+    },
+    {
+      "id": "report.11734.tools.line.15",
+      "en": "Variants: Dice (1 SP), dragonchess (1 GP), playing cards (5 SP), three-dragon ante (1 GP)",
+      "fr": "Variantes : dés (1 pa), échecs draconiques (1 po), cartes à jouer (5 pa), jeu des Trois Dragons (1 po)",
+      "source": "Traduction proposée des lignes complètes d’outils du chapitre Équipement PHB Shard · HTML public examiné le 16 octobre 2026 pour compléter les fragments du rapport 1.17.34"
     }
   ]
 }

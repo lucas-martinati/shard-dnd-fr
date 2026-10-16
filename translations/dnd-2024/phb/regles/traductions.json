@@ -1113,6 +1113,511 @@
       "en": "Unaware. You’re unaware of your surroundings.",
       "fr": "Dénué de conscience. Vous n’avez pas conscience de ce qui vous entoure.",
       "source": "Traduction proposée du SRD 5.2.1 EN · CC-BY-4.0 · terminologie AideDD 2024 · distances conservées en feet · https://www.dndbeyond.com/srd"
+    },
+    {
+      "id": "phb.regles.visible-report-11724.01",
+      "kind": "term",
+      "en": "Disclaimer",
+      "fr": "Avertissement",
+      "source": "Traduction française proposée du texte Shard fourni par l’utilisateur · rapport de page visible 1.17.24 · D&D 2024 PHB · 16 octobre 2026"
+    },
+    {
+      "id": "phb.regles.visible-report-11724.03",
+      "kind": "term",
+      "en": "Spell Descriptions (A-M)",
+      "fr": "Descriptions des sorts (A-M)",
+      "source": "Traduction française proposée du texte Shard fourni par l’utilisateur · rapport de page visible 1.17.24 · D&D 2024 PHB · 16 octobre 2026"
+    },
+    {
+      "id": "phb.regles.visible-report-11724.04",
+      "kind": "term",
+      "en": "Spell Descriptions (N-Z)",
+      "fr": "Descriptions des sorts (N-Z)",
+      "source": "Traduction française proposée du texte Shard fourni par l’utilisateur · rapport de page visible 1.17.24 · D&D 2024 PHB · 16 octobre 2026"
+    },
+    {
+      "id": "phb.regles.visible-report-11724.05",
+      "kind": "term",
+      "en": "Appendix A: 5.5e Conditions and Ruleset",
+      "fr": "Annexe A : États et règles 5.5e",
+      "source": "Traduction française proposée du texte Shard fourni par l’utilisateur · rapport de page visible 1.17.24 · D&D 2024 PHB · 16 octobre 2026"
+    },
+    {
+      "id": "phb.regles.visible-report-11724.06",
+      "kind": "term",
+      "en": "Appendix B: Creature Stat Blocks",
+      "fr": "Annexe B : Profils de créatures",
+      "source": "Traduction française proposée du texte Shard fourni par l’utilisateur · rapport de page visible 1.17.24 · D&D 2024 PHB · 16 octobre 2026"
+    },
+    {
+      "id": "phb.regles.visible-report-11724.07",
+      "kind": "term",
+      "en": "Appendix C: Stat Blocks for Spells",
+      "fr": "Annexe C : Profils pour les sorts",
+      "source": "Traduction française proposée du texte Shard fourni par l’utilisateur · rapport de page visible 1.17.24 · D&D 2024 PHB · 16 octobre 2026"
+    },
+    {
+      "id": "phb.regles.visible-report-11724.08",
+      "kind": "term",
+      "en": "Appendix D: Legacy Stat Blocks for Spells",
+      "fr": "Annexe D : Anciens profils pour les sorts",
+      "source": "Traduction française proposée du texte Shard fourni par l’utilisateur · rapport de page visible 1.17.24 · D&D 2024 PHB · 16 octobre 2026"
+    },
+    {
+      "id": "background.phb2024.acolyte.0.heading",
+      "en": "Ability Scores.",
+      "fr": "Valeurs de caractéristique.",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds",
+      "kind": "term"
+    },
+    {
+      "id": "background.phb2024.acolyte.0.body",
+      "en": "Intelligence, Wisdom, Charisma",
+      "fr": "Intelligence, Sagesse, Charisme",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.acolyte.1.heading",
+      "en": "Feat.",
+      "fr": "Don.",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds",
+      "kind": "term"
+    },
+    {
+      "id": "background.phb2024.acolyte.1.body",
+      "en": "Magic Initiate (Cleric)",
+      "fr": "Initié à la magie (clerc)",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.acolyte.2.heading",
+      "en": "Skill Proficiencies.",
+      "fr": "Maîtrises de compétences.",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds",
+      "kind": "term"
+    },
+    {
+      "id": "background.phb2024.acolyte.2.body",
+      "en": "Insight and Religion",
+      "fr": "Intuition et Religion",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.acolyte.3.body",
+      "en": "Calligrapher’s Supplies",
+      "fr": "Matériel de calligraphe",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.acolyte.4.heading",
+      "en": "Equipment.",
+      "fr": "Équipement.",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds",
+      "kind": "term"
+    },
+    {
+      "id": "background.phb2024.acolyte.4.body",
+      "en": "Choose A or B: (A) Calligrapher’s Supplies, Book (prayers), Holy Symbol, Parchment (10 sheets), Robe, 8 GP; or (B) 50 GP",
+      "fr": "Choisissez A ou B : (A) Matériel de calligraphe, livre (prières), symbole sacré, parchemin (10 feuilles), robe, 8 po ; ou (B) 50 po",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.artisan.0.body",
+      "en": "Strength, Dexterity, Intelligence",
+      "fr": "Force, Dextérité, Intelligence",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.artisan.1.body",
+      "en": "Crafter",
+      "fr": "Façonneur",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.artisan.2.body",
+      "en": "Investigation, Persuasion",
+      "fr": "Investigation, Persuasion",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.artisan.3.body",
+      "en": "Choose one kind of Artisan’s Tools",
+      "fr": "Choisissez un type d’outils d’artisan",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.artisan.4.body",
+      "en": "Choose A or B: (A) Artisan’s Tools (same as above), 2 Pouches, Traveler’s Clothes, 32 GP; or (B) 50 GP",
+      "fr": "Choisissez A ou B : (A) Outils d’artisan (comme ci-dessus), 2 bourses, vêtements de voyage, 32 po ; ou (B) 50 po",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.charlatan.0.body",
+      "en": "Dexterity, Constitution, Charisma",
+      "fr": "Dextérité, Constitution, Charisme",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.charlatan.1.body",
+      "en": "Skilled",
+      "fr": "Doué",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.charlatan.2.body",
+      "en": "Deception and Sleight of Hand",
+      "fr": "Tromperie et Escamotage",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.charlatan.3.body",
+      "en": "Forgery Kit",
+      "fr": "Matériel de contrefaçon",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.charlatan.4.body",
+      "en": "Choose A or B: (A) Forgery Kit, Costume, Fine Clothes, 15 GP; or (B) 50 GP",
+      "fr": "Choisissez A ou B : (A) Matériel de contrefaçon, costume, beaux vêtements, 15 po ; ou (B) 50 po",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.criminal.0.body",
+      "en": "Dexterity, Constitution, Intelligence",
+      "fr": "Dextérité, Constitution, Intelligence",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.criminal.1.body",
+      "en": "Alert",
+      "fr": "Vigilant",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.criminal.2.body",
+      "en": "Sleight of Hand, Stealth",
+      "fr": "Escamotage, Discrétion",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.criminal.3.body",
+      "en": "Thieves’ Tools",
+      "fr": "Outils de voleur",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.criminal.4.body",
+      "en": "Choose A or B: (A) 2 Daggers, Thieves’ Tools, Crowbar, 2 Pouches, Traveler’s Clothes, 16 GP; or (B) 50 GP",
+      "fr": "Choisissez A ou B : (A) 2 dagues, outils de voleur, pied-de-biche, 2 bourses, vêtements de voyage, 16 po ; ou (B) 50 po",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.entertainer.0.body",
+      "en": "Strength, Dexterity, Charisma",
+      "fr": "Force, Dextérité, Charisme",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.entertainer.1.body",
+      "en": "Musician",
+      "fr": "Musicien",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.entertainer.2.body",
+      "en": "Acrobatics and Performance",
+      "fr": "Acrobaties et Représentation",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.entertainer.3.body",
+      "en": "Choose one kind of Musical Instrument",
+      "fr": "Choisissez un type d’instrument de musique",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.entertainer.4.body",
+      "en": "Choose A or B: (A) Musical Instrument (same as above), 2 Costumes, Mirror, Perfume, Traveler’s Clothes, 11 GP; or (B) 50 GP",
+      "fr": "Choisissez A ou B : (A) Instrument de musique (comme ci-dessus), 2 costumes, miroir, parfum, vêtements de voyage, 11 po ; ou (B) 50 po",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.farmer.0.body",
+      "en": "Strength, Constitution, Wisdom",
+      "fr": "Force, Constitution, Sagesse",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.farmer.1.body",
+      "en": "Tough",
+      "fr": "Robuste",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.farmer.2.body",
+      "en": "Animal Handling and Nature",
+      "fr": "Dressage et Nature",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.farmer.4.body",
+      "en": "Choose A or B: (A) Sickle, Carpenter’s Tools, Healer’s Kit, Iron Pot, Shovel, Traveler’s Clothes, 30 GP; or (B) 50 GP",
+      "fr": "Choisissez A ou B : (A) Serpe, outils de menuisier, trousse de soins, marmite en fer, pelle, vêtements de voyage, 30 po ; ou (B) 50 po",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.guard.0.body",
+      "en": "Strength, Intelligence, Wisdom",
+      "fr": "Force, Intelligence, Sagesse",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.guard.2.body",
+      "en": "Athletics and Perception",
+      "fr": "Athlétisme et Perception",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.guard.3.body",
+      "en": "Choose one kind of Gaming Set",
+      "fr": "Choisissez un type de jeu",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.guard.4.body",
+      "en": "Choose A or B: (A) Spear, Light Crossbow, 20 Bolts, Gaming Set (same as above), Hooded Lantern, Manacles, Quiver, Traveler’s Clothes, 12 GP; or (B) 50 GP",
+      "fr": "Choisissez A ou B : (A) Lance, arbalète légère, 20 carreaux, jeu (comme ci-dessus), lanterne à capote, menottes, carquois, vêtements de voyage, 12 po ; ou (B) 50 po",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.guide.0.body",
+      "en": "Dexterity, Constitution, Wisdom",
+      "fr": "Dextérité, Constitution, Sagesse",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.guide.1.body",
+      "en": "Magic Initiate (Druid)",
+      "fr": "Initié à la magie (druide)",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.guide.2.body",
+      "en": "Stealth and Survival",
+      "fr": "Discrétion et Survie",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.guide.3.body",
+      "en": "Cartographer’s Tools",
+      "fr": "Outils de cartographe",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.guide.4.body",
+      "en": "Choose A or B: (A) Shortbow, 20 Arrows, Cartographer’s Tools, Bedroll, Quiver, Tent, Traveler’s Clothes, 3 GP; or (B) 50 GP",
+      "fr": "Choisissez A ou B : (A) Arc court, 20 flèches, outils de cartographe, sac de couchage, carquois, tente, vêtements de voyage, 3 po ; ou (B) 50 po",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.hermit.0.body",
+      "en": "Constitution, Wisdom, Charisma",
+      "fr": "Constitution, Sagesse, Charisme",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.hermit.1.body",
+      "en": "Healer",
+      "fr": "Guérisseur",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.hermit.2.body",
+      "en": "Medicine, Religion",
+      "fr": "Médecine, Religion",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.hermit.3.body",
+      "en": "Herbalism Kit",
+      "fr": "Matériel d’herboriste",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.hermit.4.body",
+      "en": "Choose A or B: (A) Quarterstaff, Herbalism Kit, Bedroll, Book (philosophy), Lamp, Oil (3 flasks), Traveler’s Clothes, 16 GP; or (B) 50 GP",
+      "fr": "Choisissez A ou B : (A) Bâton de combat, matériel d’herboriste, sac de couchage, livre (philosophie), lampe, huile (3 flasques), vêtements de voyage, 16 po ; ou (B) 50 po",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.merchant.0.body",
+      "en": "Constitution, Intelligence, Charisma",
+      "fr": "Constitution, Intelligence, Charisme",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.merchant.1.body",
+      "en": "Lucky",
+      "fr": "Chanceux",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.merchant.2.body",
+      "en": "Animal Handling and Persuasion",
+      "fr": "Dressage et Persuasion",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.merchant.3.body",
+      "en": "Navigator’s Tools",
+      "fr": "Outils de navigateur",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.merchant.4.body",
+      "en": "Choose A or B: (A) Navigator’s Tools, 2 Pouches, Traveler’s Clothes, 22 GP; or (B) 50 GP",
+      "fr": "Choisissez A ou B : (A) Outils de navigateur, 2 bourses, vêtements de voyage, 22 po ; ou (B) 50 po",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.noble.0.body",
+      "en": "Strength, Intelligence, Charisma",
+      "fr": "Force, Intelligence, Charisme",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.noble.2.body",
+      "en": "History, Persuasion",
+      "fr": "Histoire, Persuasion",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.noble.4.body",
+      "en": "Choose A or B: (A) Gaming Set (same as above), Fine Clothes, Perfume, 29 GP; or (B) 50 GP",
+      "fr": "Choisissez A ou B : (A) Jeu (comme ci-dessus), beaux vêtements, parfum, 29 po ; ou (B) 50 po",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.sage.0.body",
+      "en": "Constitution, Intelligence, Wisdom",
+      "fr": "Constitution, Intelligence, Sagesse",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.sage.1.body",
+      "en": "Magic Initiate (Wizard)",
+      "fr": "Initié à la magie (magicien)",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.sage.2.body",
+      "en": "Arcana, History",
+      "fr": "Arcanes, Histoire",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.sage.4.body",
+      "en": "Choose A or B: (A) Quarterstaff, Calligrapher’s Supplies, Book (history), Parchment (8 sheets), Robe, 8 GP; or (B) 50 GP",
+      "fr": "Choisissez A ou B : (A) Bâton de combat, matériel de calligraphe, livre (histoire), parchemin (8 feuilles), robe, 8 po ; ou (B) 50 po",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.sailor.0.body",
+      "en": "Strength, Dexterity, Wisdom",
+      "fr": "Force, Dextérité, Sagesse",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.sailor.1.body",
+      "en": "Tavern Brawler",
+      "fr": "Bagarreur de tavernes",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.sailor.2.body",
+      "en": "Acrobatics and Perception",
+      "fr": "Acrobaties et Perception",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.sailor.4.body",
+      "en": "Choose A or B: (A) Dagger, Navigator’s Tools, Rope, Traveler’s Clothes, 20 GP; or (B) 50 GP",
+      "fr": "Choisissez A ou B : (A) Dague, outils de navigateur, corde, vêtements de voyage, 20 po ; ou (B) 50 po",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.scribe.0.body",
+      "en": "Dexterity, Intelligence, Wisdom",
+      "fr": "Dextérité, Intelligence, Sagesse",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.scribe.2.body",
+      "en": "Investigation and Perception",
+      "fr": "Investigation et Perception",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.scribe.4.body",
+      "en": "Choose A or B: (A) Calligrapher’s Supplies, Fine Clothes, Lamp, Oil (3 flasks), Parchment (12 sheets), 23 GP; or (B) 50 GP",
+      "fr": "Choisissez A ou B : (A) Matériel de calligraphe, beaux vêtements, lampe, huile (3 flasques), parchemin (12 feuilles), 23 po ; ou (B) 50 po",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.soldier.0.body",
+      "en": "Strength, Dexterity, Constitution",
+      "fr": "Force, Dextérité, Constitution",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.soldier.1.body",
+      "en": "Savage Attacker",
+      "fr": "Sauvagerie martiale",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.soldier.2.body",
+      "en": "Athletics, Intimidation",
+      "fr": "Athlétisme, Intimidation",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.soldier.4.body",
+      "en": "Choose A or B: (A) Spear, Shortbow, 20 Arrows, Gaming Set (same as above), Healer’s Kit, Quiver, Traveler’s Clothes, 14 GP; or (B) 50 GP",
+      "fr": "Choisissez A ou B : (A) Lance, arc court, 20 flèches, jeu (comme ci-dessus), trousse de soins, carquois, vêtements de voyage, 14 po ; ou (B) 50 po",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.wayfarer.0.body",
+      "en": "Dexterity, Wisdom, Charisma",
+      "fr": "Dextérité, Sagesse, Charisme",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.wayfarer.2.body",
+      "en": "Insight and Stealth",
+      "fr": "Intuition et Discrétion",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.wayfarer.4.body",
+      "en": "Choose A or B: (A) 2 Daggers, Thieves’ Tools, Gaming Set (any), Bedroll, 2 Pouches, Traveler’s Clothes, 16 GP; or (B) 50 GP",
+      "fr": "Choisissez A ou B : (A) 2 dagues, outils de voleur, jeu (au choix), sac de couchage, 2 bourses, vêtements de voyage, 16 po ; ou (B) 50 po",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "background.phb2024.choose-equipment.heading",
+      "kind": "term",
+      "en": "Choose A or B:",
+      "fr": "Choisissez A ou B :",
+      "source": "Traduction proposée du titre des choix d’équipement des historiques PHB 2024 relevé dans Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds"
+    },
+    {
+      "id": "report.11734.regles.091",
+      "en": "D20 Test",
+      "fr": "Test de d20",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "kind": "term"
     }
   ]
 }

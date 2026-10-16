@@ -103,6 +103,9 @@ for name,mapping in boundaries.items():
 for name,mapping in TABLE.items():
     row=refs[name]
     en_text,fr_text=row['englishBody'],row['frenchBody']
+    for before,after in segmentation.get('frenchReplacements',{}).get(name,[]):
+        fr_text=fr_text.replace(before,after)
+    table_source=f'SRD 5.2.1 FR · section de {name} adaptée aux valeurs et unités de Shard · CC-BY-4.0' if fr_text!=row['frenchBody'] else None
     if name=='Conjure Celestial':
         # Le paragraphe commun suit la dernière option, différente selon la langue.
         a_start=en_text.index('Until the spell ends, Bright Light fills the Cylinder')
@@ -114,12 +117,12 @@ for name,mapping in TABLE.items():
         fr_text=fr_text[:b_start]+fr_text[b_end:]
     en_intro,en_sections=sections(en_text,[a for a,b in mapping])
     fr_intro,fr_sections=sections(fr_text,[b for a,b in mapping])
-    add(en_intro,fr_intro,name)
+    add(en_intro,fr_intro,name,source=table_source)
     for en_label,fr_label in mapping:
         a,b=en_sections[en_label],fr_sections[fr_label]
-        add(a,b,name)
-        add(en_label+'. '+a,fr_label+'. '+b,name)
-        add(en_label+'.',fr_label+'.',name)
+        add(a,b,name,source=table_source)
+        add(en_label+'. '+a,fr_label+'. '+b,name,source=table_source)
+        add(en_label+'.',fr_label+'.',name,source=table_source)
 
 # Les quatre puces de Malédiction sont vérifiées dans le même ordre dans les SRD.
 row=refs['Bestow Curse']

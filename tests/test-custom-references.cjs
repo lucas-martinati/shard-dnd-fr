@@ -24,7 +24,7 @@ w.URL.createObjectURL = value => {blob = value; return 'blob:local-reference-aud
 w.URL.revokeObjectURL = () => {};
 w.HTMLAnchorElement.prototype.click = function () {};
 async function exported(root) {
-  root.getElementById('exportMissing').click();
+  await wait(() => !root.getElementById('exportMissing').disabled); root.getElementById('exportMissing').click();
   return new Promise((resolve, reject) => {
     const reader = new w.FileReader(); reader.onload = () => resolve(JSON.parse(reader.result)); reader.onerror = reject; reader.readAsText(blob);
   });

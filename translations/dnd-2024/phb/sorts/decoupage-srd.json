@@ -821,12 +821,34 @@
       [
         "épais de 6 mm",
         "épais de 1/4 inch"
+      ],
+      [
+        "dix pans de 3 m sur 3",
+        "dix pans de 10 feet sur 10 feet"
       ]
     ],
     "Create or Destroy Water": [
       [
         "40 litres",
         "10 gallons"
+      ]
+    ],
+    "Pass without Trace": [
+      [
+        "Pour toute la durée, chaque créature que vous désignez dans un rayon de 9 m (y compris vous) bénéficie d’un bonus de +10 aux tests de Dextérité (Discrétion) et ne laisse pas de traces.",
+        "Tant que vous et les créatures que vous choisissez êtes dans l’aura, vous bénéficiez d’un bonus de +10 aux tests de Dextérité (Discrétion) et ne laissez pas de traces."
+      ]
+    ],
+    "Prestidigitation": [
+      [
+        "30 litres (ou 0,03 m3)",
+        "1 cubic foot"
+      ]
+    ],
+    "Thaumaturgy": [
+      [
+        "trois de ces effets d’une minute",
+        "trois de ces effets de 1 minute"
       ]
     ]
   }

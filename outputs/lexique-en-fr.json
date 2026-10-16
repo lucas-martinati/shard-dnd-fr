@@ -1,5 +1,5 @@
 {
-  "version": "1.17.31",
+  "version": "1.17.36",
   "reference": "Noms AideDD 2024 prioritaires. Références SRD disponibles séparément. Autres entrées identifiées.",
   "license": "Code MIT ; contenu SRD CC-BY-4.0 https://creativecommons.org/licenses/by/4.0/",
   "sources": [
@@ -29382,6 +29382,62 @@
       "aliases": []
     },
     {
+      "en": "Beast Companion Stat Blocks",
+      "fr": "Profils des compagnons bestiaux",
+      "category": "aptitude de classe",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "aliases": []
+    },
+    {
+      "en": "MOD",
+      "fr": "MOD",
+      "category": "aptitude de classe",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "aliases": []
+    },
+    {
+      "en": "Understands the languages you know",
+      "fr": "Comprend les langues que vous connaissez",
+      "category": "aptitude de classe",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "aliases": []
+    },
+    {
+      "en": "Poison.",
+      "fr": "Poison.",
+      "category": "aptitude de classe",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "aliases": []
+    },
+    {
+      "en": "Eldritch Invocation Options",
+      "fr": "Options de manifestations occultes",
+      "category": "aptitude de classe",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "aliases": []
+    },
+    {
+      "en": "Primal Bond",
+      "fr": "Lien primal",
+      "category": "aptitude de classe",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "aliases": []
+    },
+    {
+      "en": "Beast’s Strike",
+      "fr": "Frappe de la bête",
+      "category": "aptitude de classe",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "aliases": []
+    },
+    {
+      "en": "DC 8+{summoner wis}+{summoner proficiency}",
+      "fr": "DD 8+{summoner wis}+{summoner proficiency}",
+      "category": "aptitude de classe",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "aliases": []
+    },
+    {
       "en": "(Prerequisite: Dexterity 13 or higher)",
       "fr": "(Prérequis : Dextérité 13 ou plus)",
       "category": "don",
@@ -30453,6 +30509,27 @@
       "aliases": []
     },
     {
+      "en": "ASI",
+      "fr": "Amélioration de caractéristique",
+      "category": "don",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "aliases": []
+    },
+    {
+      "en": "Constitution.",
+      "fr": "Constitution.",
+      "category": "don",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "aliases": []
+    },
+    {
+      "en": "Intelligence.",
+      "fr": "Intelligence.",
+      "category": "don",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "aliases": []
+    },
+    {
       "en": "Cavern Dwarf",
       "fr": "Nain des cavernes",
       "category": "trait d’espèce",
@@ -30709,6 +30786,34 @@
       "fr": "Drakéide blanc",
       "category": "trait d’espèce",
       "source": "Traduction proposée des libellés de catalogue Shard · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Chthonic",
+      "fr": "Chthonien",
+      "category": "trait d’espèce",
+      "source": "Traduction française proposée du texte Shard fourni par l’utilisateur · rapport de page visible 1.17.24 · D&D 2024 PHB · 16 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Superior Darkvision.",
+      "fr": "Vision dans le noir supérieure.",
+      "category": "trait d’espèce",
+      "source": "Traduction française proposée du texte Shard fourni par l’utilisateur · rapport de page visible 1.17.24 · D&D 2024 PHB · 16 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Create Clockwork Devices.",
+      "fr": "Création d’appareils mécaniques.",
+      "category": "trait d’espèce",
+      "source": "Traduction française proposée du texte Shard fourni par l’utilisateur · rapport de page visible 1.17.24 · D&D 2024 PHB · 16 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Subclasses",
+      "fr": "Sous-classes",
+      "category": "interface",
+      "source": "Traduction proposée du bouton Shard signalé par l’utilisateur · 16 octobre 2026 · https://play.shardtabletop.com/",
       "aliases": []
     },
     {
@@ -31759,6 +31864,20 @@
       "fr": "Changer le nom",
       "category": "interface",
       "source": "Traduction proposée des outils de carte et paramètres Shard · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
+      "aliases": []
+    },
+    {
+      "en": "Show Map",
+      "fr": "Afficher la carte",
+      "category": "interface",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "aliases": []
+    },
+    {
+      "en": "Export",
+      "fr": "Exporter",
+      "category": "interface",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
       "aliases": []
     },
     {
@@ -35715,6 +35834,286 @@
       "aliases": []
     },
     {
+      "en": "Mounts and Vehicles",
+      "fr": "Montures et véhicules",
+      "category": "équipement",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "aliases": []
+    },
+    {
+      "en": "Weapon",
+      "fr": "Arme",
+      "category": "équipement",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "aliases": []
+    },
+    {
+      "en": "Other Tools",
+      "fr": "Autres outils",
+      "category": "équipement",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "aliases": []
+    },
+    {
+      "en": "Gaming Set (Varies)",
+      "fr": "Jeu (prix variable)",
+      "category": "équipement",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "aliases": []
+    },
+    {
+      "en": "Musical Instrument (Varies)",
+      "fr": "Instrument de musique (prix variable)",
+      "category": "équipement",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "aliases": []
+    },
+    {
+      "en": "Ammunition (Varies)",
+      "fr": "Munitions (prix variable)",
+      "category": "équipement",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "aliases": []
+    },
+    {
+      "en": "Arcane Focus (Varies)",
+      "fr": "Focaliseur arcanique (prix variable)",
+      "category": "équipement",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "aliases": []
+    },
+    {
+      "en": "Arcane Focuses",
+      "fr": "Focaliseurs arcaniques",
+      "category": "équipement",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "aliases": []
+    },
+    {
+      "en": "Druidic Focus (Varies)",
+      "fr": "Focaliseur druidique (prix variable)",
+      "category": "équipement",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "aliases": []
+    },
+    {
+      "en": "Druidic Focuses",
+      "fr": "Focaliseurs druidiques",
+      "category": "équipement",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "aliases": []
+    },
+    {
+      "en": "Holy Symbol (Varies)",
+      "fr": "Symbole sacré (prix variable)",
+      "category": "équipement",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "aliases": []
+    },
+    {
+      "en": "Holy Symbols",
+      "fr": "Symboles sacrés",
+      "category": "équipement",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "aliases": []
+    },
+    {
+      "en": "Mounts and Cargo",
+      "fr": "Montures et charges",
+      "category": "équipement",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "aliases": []
+    },
+    {
+      "en": "Barding",
+      "fr": "Barde",
+      "category": "équipement",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "aliases": []
+    },
+    {
+      "en": "Feed and Saddles",
+      "fr": "Nourriture et selles",
+      "category": "équipement",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "aliases": []
+    },
+    {
+      "en": "Feed per day",
+      "fr": "Nourriture par jour",
+      "category": "équipement",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "aliases": []
+    },
+    {
+      "en": "Saddle",
+      "fr": "Selle",
+      "category": "équipement",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "aliases": []
+    },
+    {
+      "en": "Exotic",
+      "fr": "Exotique",
+      "category": "équipement",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "aliases": []
+    },
+    {
+      "en": "Military",
+      "fr": "Militaire",
+      "category": "équipement",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "aliases": []
+    },
+    {
+      "en": "Riding",
+      "fr": "D’équitation",
+      "category": "équipement",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "aliases": []
+    },
+    {
+      "en": "Stabling per day",
+      "fr": "Écurie par jour",
+      "category": "équipement",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "aliases": []
+    },
+    {
+      "en": "Air and Water Vehicles",
+      "fr": "Véhicules aériens et nautiques",
+      "category": "équipement",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "aliases": []
+    },
+    {
+      "en": "1 ton cargo, 20 passengers",
+      "fr": "1 ton de fret, 20 passagers",
+      "category": "équipement",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "aliases": []
+    },
+    {
+      "en": "150 tons cargo",
+      "fr": "150 tons de fret",
+      "category": "équipement",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "aliases": []
+    },
+    {
+      "en": "1/2 ton cargo, 6 passengers",
+      "fr": "1/2 ton de fret, 6 passagers",
+      "category": "équipement",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "aliases": []
+    },
+    {
+      "en": "10 tons cargo, 150 passengers",
+      "fr": "10 tons de fret, 150 passagers",
+      "category": "équipement",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "aliases": []
+    },
+    {
+      "en": "3 passengers",
+      "fr": "3 passagers",
+      "category": "équipement",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "aliases": []
+    },
+    {
+      "en": "100 tons cargo, 20 passengers",
+      "fr": "100 tons de fret, 20 passagers",
+      "category": "équipement",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "aliases": []
+    },
+    {
+      "en": "200 tons cargo, 60 passengers",
+      "fr": "200 tons de fret, 60 passagers",
+      "category": "équipement",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "aliases": []
+    },
+    {
+      "en": "Next Chapter: Spell Descriptions (A-M)",
+      "fr": "Chapitre suivant : Descriptions des sorts (A-M)",
+      "category": "équipement",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "aliases": []
+    },
+    {
+      "en": "Category.",
+      "fr": "Catégorie.",
+      "category": "équipement",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "aliases": []
+    },
+    {
+      "en": "Armor Class (AC).",
+      "fr": "Classe d’armure (CA).",
+      "category": "équipement",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "aliases": []
+    },
+    {
+      "en": "Stealth.",
+      "fr": "Discrétion.",
+      "category": "équipement",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "aliases": []
+    },
+    {
+      "en": "Ability.",
+      "fr": "Caractéristique.",
+      "category": "équipement",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "aliases": []
+    },
+    {
+      "en": "Utilize.",
+      "fr": "Utilisation.",
+      "category": "équipement",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "aliases": []
+    },
+    {
+      "en": "Craft.",
+      "fr": "Fabrication.",
+      "category": "équipement",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "aliases": []
+    },
+    {
+      "en": "Ability:",
+      "fr": "Caractéristique :",
+      "category": "équipement",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "aliases": []
+    },
+    {
+      "en": "Utilize:",
+      "fr": "Utilisation :",
+      "category": "équipement",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "aliases": []
+    },
+    {
+      "en": "Craft:",
+      "fr": "Fabrication :",
+      "category": "équipement",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "aliases": []
+    },
+    {
+      "en": "Variants:",
+      "fr": "Variantes :",
+      "category": "équipement",
+      "source": "Traduction proposée des lignes complètes d’outils du chapitre Équipement PHB Shard · HTML public examiné le 16 octobre 2026 pour compléter les fragments du rapport 1.17.34",
+      "aliases": []
+    },
+    {
       "en": "Enlarge",
       "fr": "Agrandissement",
       "category": "règles",
@@ -36149,6 +36548,97 @@
       "aliases": []
     },
     {
+      "en": "Disclaimer",
+      "fr": "Avertissement",
+      "category": "règles",
+      "source": "Traduction française proposée du texte Shard fourni par l’utilisateur · rapport de page visible 1.17.24 · D&D 2024 PHB · 16 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Spell Descriptions (A-M)",
+      "fr": "Descriptions des sorts (A-M)",
+      "category": "règles",
+      "source": "Traduction française proposée du texte Shard fourni par l’utilisateur · rapport de page visible 1.17.24 · D&D 2024 PHB · 16 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Spell Descriptions (N-Z)",
+      "fr": "Descriptions des sorts (N-Z)",
+      "category": "règles",
+      "source": "Traduction française proposée du texte Shard fourni par l’utilisateur · rapport de page visible 1.17.24 · D&D 2024 PHB · 16 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Appendix A: 5.5e Conditions and Ruleset",
+      "fr": "Annexe A : États et règles 5.5e",
+      "category": "règles",
+      "source": "Traduction française proposée du texte Shard fourni par l’utilisateur · rapport de page visible 1.17.24 · D&D 2024 PHB · 16 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Appendix B: Creature Stat Blocks",
+      "fr": "Annexe B : Profils de créatures",
+      "category": "règles",
+      "source": "Traduction française proposée du texte Shard fourni par l’utilisateur · rapport de page visible 1.17.24 · D&D 2024 PHB · 16 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Appendix C: Stat Blocks for Spells",
+      "fr": "Annexe C : Profils pour les sorts",
+      "category": "règles",
+      "source": "Traduction française proposée du texte Shard fourni par l’utilisateur · rapport de page visible 1.17.24 · D&D 2024 PHB · 16 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Appendix D: Legacy Stat Blocks for Spells",
+      "fr": "Annexe D : Anciens profils pour les sorts",
+      "category": "règles",
+      "source": "Traduction française proposée du texte Shard fourni par l’utilisateur · rapport de page visible 1.17.24 · D&D 2024 PHB · 16 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Ability Scores.",
+      "fr": "Valeurs de caractéristique.",
+      "category": "règles",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds",
+      "aliases": []
+    },
+    {
+      "en": "Feat.",
+      "fr": "Don.",
+      "category": "règles",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds",
+      "aliases": []
+    },
+    {
+      "en": "Skill Proficiencies.",
+      "fr": "Maîtrises de compétences.",
+      "category": "règles",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds",
+      "aliases": []
+    },
+    {
+      "en": "Equipment.",
+      "fr": "Équipement.",
+      "category": "règles",
+      "source": "Traduction française proposée des champs des 16 historiques du PHB 2024 relevés dans les fiches publiques Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds",
+      "aliases": []
+    },
+    {
+      "en": "Choose A or B:",
+      "fr": "Choisissez A ou B :",
+      "category": "règles",
+      "source": "Traduction proposée du titre des choix d’équipement des historiques PHB 2024 relevé dans Shard · 16 octobre 2026 · https://play.shardtabletop.com/#backgrounds",
+      "aliases": []
+    },
+    {
+      "en": "D20 Test",
+      "fr": "Test de d20",
+      "category": "règles",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "aliases": []
+    },
+    {
       "en": "Your Knowledge of the Target Is...",
       "fr": "Votre connaissance de la cible est…",
       "category": "sort",
@@ -36265,6 +36755,251 @@
       "fr": "Présages",
       "category": "sort",
       "source": "Traduction proposée des passages complets récupérés du rapport utilisateur 1.17.20 (collage coupé) · sorts PHB 2024 · 15 octobre 2026. Nombres, dés et unités Shard conservés ; les 23 correspondances déjà couvertes ne sont pas dupliquées.",
+      "aliases": []
+    },
+    {
+      "en": "Precipitation",
+      "fr": "Précipitations",
+      "category": "sort",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · rapport 1.17.35 du 16 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Temperature",
+      "fr": "Température",
+      "category": "sort",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · rapport 1.17.35 du 16 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Wind",
+      "fr": "Vent",
+      "category": "sort",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · rapport 1.17.35 du 16 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Materials",
+      "fr": "Matériaux",
+      "category": "sort",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · rapport 1.17.35 du 16 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Prismatic Rays",
+      "fr": "Rayons prismatiques",
+      "category": "sort",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · rapport 1.17.35 du 16 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Prismatic Layers",
+      "fr": "Couches prismatiques",
+      "category": "sort",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · rapport 1.17.35 du 16 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Teleportation Outcome",
+      "fr": "Résultat de téléportation",
+      "category": "sort",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · rapport 1.17.35 du 16 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Next Chapter: Appendix A: 5.5e Conditions and Ruleset",
+      "fr": "Chapitre suivant : Annexe A : États et règles 5.5e",
+      "category": "sort",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · rapport 1.17.35 du 16 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Spells (B)",
+      "fr": "Sorts (B)",
+      "category": "sort",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · rapport 1.17.35 du 16 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Spells (D)",
+      "fr": "Sorts (D)",
+      "category": "sort",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · rapport 1.17.35 du 16 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Spells (E)",
+      "fr": "Sorts (E)",
+      "category": "sort",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · rapport 1.17.35 du 16 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Spells (F)",
+      "fr": "Sorts (F)",
+      "category": "sort",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · rapport 1.17.35 du 16 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Spells (G)",
+      "fr": "Sorts (G)",
+      "category": "sort",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · rapport 1.17.35 du 16 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Spells (H)",
+      "fr": "Sorts (H)",
+      "category": "sort",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · rapport 1.17.35 du 16 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Spells (I)",
+      "fr": "Sorts (I)",
+      "category": "sort",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · rapport 1.17.35 du 16 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Spells (J)",
+      "fr": "Sorts (J)",
+      "category": "sort",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · rapport 1.17.35 du 16 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Spells (K)",
+      "fr": "Sorts (K)",
+      "category": "sort",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · rapport 1.17.35 du 16 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Spells (N)",
+      "fr": "Sorts (N)",
+      "category": "sort",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · rapport 1.17.35 du 16 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Spells (O)",
+      "fr": "Sorts (O)",
+      "category": "sort",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · rapport 1.17.35 du 16 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Spells (P)",
+      "fr": "Sorts (P)",
+      "category": "sort",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · rapport 1.17.35 du 16 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Spells (R)",
+      "fr": "Sorts (R)",
+      "category": "sort",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · rapport 1.17.35 du 16 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Spells (T)",
+      "fr": "Sorts (T)",
+      "category": "sort",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · rapport 1.17.35 du 16 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Spells (U)",
+      "fr": "Sorts (U)",
+      "category": "sort",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · rapport 1.17.35 du 16 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Spells (W)",
+      "fr": "Sorts (W)",
+      "category": "sort",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · rapport 1.17.35 du 16 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Spells (Y)",
+      "fr": "Sorts (Y)",
+      "category": "sort",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · rapport 1.17.35 du 16 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Spells (Z)",
+      "fr": "Sorts (Z)",
+      "category": "sort",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · rapport 1.17.35 du 16 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Components: V, S, M (a jewel worth 1,000+ GP, which the spell consumes)",
+      "fr": "Composantes : V, S, M (un joyau d’une valeur de 1,000+ po, que le sort détruit)",
+      "category": "sort",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · composantes et valeurs du rapport 1.17.35 du 16 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Components: V, S, M (rare oils worth 1,000+ GP, which the spell consumes)",
+      "fr": "Composantes : V, S, M (des huiles rares d’une valeur de 1,000+ po, que le sort détruit)",
+      "category": "sort",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · composantes et valeurs du rapport 1.17.35 du 16 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Components: V, S, M (a diamond worth 1,000+ GP, which the spell consumes)",
+      "fr": "Composantes : V, S, M (un diamant d’une valeur de 1,000+ po, que le sort détruit)",
+      "category": "sort",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · composantes et valeurs du rapport 1.17.35 du 16 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Components: V, S, M (a focus worth 1,000+ GP, such as a crystal ball, mirror, or water-filled font)",
+      "fr": "Composantes : V, S, M (un focaliseur d’une valeur de 1,000+ po, comme une boule de cristal, un miroir ou une vasque remplie d’eau)",
+      "category": "sort",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · composantes et valeurs du rapport 1.17.35 du 16 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Components: V, S, M (gem dust worth 5,000+ GP, which the spell consumes)",
+      "fr": "Composantes : V, S, M (de la poudre de gemmes d’une valeur de 5,000+ po, que le sort détruit)",
+      "category": "sort",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · composantes et valeurs du rapport 1.17.35 du 16 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Components: V, S, M (a jade circlet worth 1,500+ GP)",
+      "fr": "Composantes : V, S, M (un diadème de jade d’une valeur de 1,500+ po)",
+      "category": "sort",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · composantes et valeurs du rapport 1.17.35 du 16 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Components: V, S, M (powdered ruby worth 1,500+ GP, which the spell consumes)",
+      "fr": "Composantes : V, S, M (de la poudre de rubis d’une valeur de 1,500+ po, que le sort détruit)",
+      "category": "sort",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · composantes et valeurs du rapport 1.17.35 du 16 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Components: V, S, M (powdered diamond worth 1,000+ GP, which the spell consumes)",
+      "fr": "Composantes : V, S, M (de la poudre de diamant d’une valeur de 1,000+ po, que le sort détruit)",
+      "category": "sort",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · composantes et valeurs du rapport 1.17.35 du 16 octobre 2026",
+      "aliases": []
+    },
+    {
+      "en": "Components: V, S, M (diamonds worth 25,000+ GP, which the spell consumes)",
+      "fr": "Composantes : V, S, M (des diamants d’une valeur de 25,000+ po, que le sort détruit)",
+      "category": "sort",
+      "source": "Traduction de l’extrait utilisateur · D&D 2024 PHB · composantes et valeurs du rapport 1.17.35 du 16 octobre 2026",
       "aliases": []
     },
     {

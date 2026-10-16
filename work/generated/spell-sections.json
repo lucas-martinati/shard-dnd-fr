@@ -1116,7 +1116,7 @@
   },
   {
     "en": "An Invisible wall of force springs into existence at a point you choose within range. The wall appears in any orientation you choose, as a horizontal or vertical barrier or at an angle. It can be free floating or resting on a solid surface. You can form it into a hemispherical dome or a globe with a radius of up to 10 feet, or you can shape a flat surface made up of ten 10-foot-by-10-foot panels. Each panel must be contiguous with another panel. In any form, the wall is 1/4 inch thick and lasts for the duration. If the wall cuts through a creature’s space when it appears, the creature is pushed to one side of the wall (you choose which side).",
-    "fr": "Un mur de force invisible se matérialise en un point que vous choisissez à portée. Le mur se présente dans l’orientation de votre choix, horizontal ou vertical, voire complètement de biais. Il peut rester en suspension ou reposer sur une surface solide. Vous pouvez le façonner en dôme hémisphérique ou en globe d’un rayon maximal de 3 m, ou en faire une surface plane composée de dix pans de 3 m sur 3. Chaque pan doit être contigu avec un autre. Quelle que soit sa forme, le mur est épais de 1/4 inch et persiste pour toute la durée. Si le mur traverse l’espace d’une créature à son apparition, la créature est repoussée du côté du mur que vous choisissez.",
+    "fr": "Un mur de force invisible se matérialise en un point que vous choisissez à portée. Le mur se présente dans l’orientation de votre choix, horizontal ou vertical, voire complètement de biais. Il peut rester en suspension ou reposer sur une surface solide. Vous pouvez le façonner en dôme hémisphérique ou en globe d’un rayon maximal de 3 m, ou en faire une surface plane composée de dix pans de 10 feet sur 10 feet. Chaque pan doit être contigu avec un autre. Quelle que soit sa forme, le mur est épais de 1/4 inch et persiste pour toute la durée. Si le mur traverse l’espace d’une créature à son apparition, la créature est repoussée du côté du mur que vous choisissez.",
     "source": "SRD 5.2.1 FR · section de Wall of Force adaptée aux valeurs de Shard · CC-BY-4.0"
   },
   {
@@ -1306,38 +1306,38 @@
   },
   {
     "en": "You manifest a minor wonder within range. You create one of the effects below within range. If you cast this spell multiple times, you can have up to three of its 1-minute effects active at a time.",
-    "fr": "Vous engendrez une manifestation surnaturelle mineure. Vous créez l’un des effets magiques suivants à portée. Si vous lancez ce sort plusieurs fois, vous pouvez faire coexister jusqu’à trois de ces effets d’une minute.",
-    "source": "SRD officiel 5.2.1 FR · section de Thaumaturgy · CC-BY-4.0"
+    "fr": "Vous engendrez une manifestation surnaturelle mineure. Vous créez l’un des effets magiques suivants à portée. Si vous lancez ce sort plusieurs fois, vous pouvez faire coexister jusqu’à trois de ces effets de 1 minute.",
+    "source": "SRD 5.2.1 FR · section de Thaumaturgy adaptée aux valeurs et unités de Shard · CC-BY-4.0"
   },
   {
     "en": "Altered Eyes. You alter the appearance of your eyes for 1 minute.",
     "fr": "Yeux modifiés. Vous altérez l’aspect de vos yeux pendant 1 minute.",
-    "source": "SRD officiel 5.2.1 FR · section de Thaumaturgy · CC-BY-4.0"
+    "source": "SRD 5.2.1 FR · section de Thaumaturgy adaptée aux valeurs et unités de Shard · CC-BY-4.0"
   },
   {
     "en": "Altered Eyes.",
     "fr": "Yeux modifiés.",
-    "source": "SRD officiel 5.2.1 FR · section de Thaumaturgy · CC-BY-4.0"
+    "source": "SRD 5.2.1 FR · section de Thaumaturgy adaptée aux valeurs et unités de Shard · CC-BY-4.0"
   },
   {
     "en": "Your voice booms up to three times as loud as normal for 1 minute. For the duration, you have Advantage on Charisma (Intimidation) checks.",
     "fr": "Votre voix retentit jusqu’à trois fois plus fort que la normale pendant 1 minute. Pour toute la durée, vous avez l’Avantage aux tests de Charisme (Intimidation).",
-    "source": "SRD officiel 5.2.1 FR · section de Thaumaturgy · CC-BY-4.0"
+    "source": "SRD 5.2.1 FR · section de Thaumaturgy adaptée aux valeurs et unités de Shard · CC-BY-4.0"
   },
   {
     "en": "Booming Voice. Your voice booms up to three times as loud as normal for 1 minute. For the duration, you have Advantage on Charisma (Intimidation) checks.",
     "fr": "Voix retentissante. Votre voix retentit jusqu’à trois fois plus fort que la normale pendant 1 minute. Pour toute la durée, vous avez l’Avantage aux tests de Charisme (Intimidation).",
-    "source": "SRD officiel 5.2.1 FR · section de Thaumaturgy · CC-BY-4.0"
+    "source": "SRD 5.2.1 FR · section de Thaumaturgy adaptée aux valeurs et unités de Shard · CC-BY-4.0"
   },
   {
     "en": "Booming Voice.",
     "fr": "Voix retentissante.",
-    "source": "SRD officiel 5.2.1 FR · section de Thaumaturgy · CC-BY-4.0"
+    "source": "SRD 5.2.1 FR · section de Thaumaturgy adaptée aux valeurs et unités de Shard · CC-BY-4.0"
   },
   {
     "en": "Fire Play. You cause flames to flicker, brighten, dim, or change color for 1 minute.",
     "fr": "Jeu avec le feu. Vous manipulez des flammes pendant 1 minute : elles vacillent, s’intensifient, s’atténuent ou changent de couleur.",
-    "source": "SRD officiel 5.2.1 FR · section de Thaumaturgy · CC-BY-4.0"
+    "source": "SRD 5.2.1 FR · section de Thaumaturgy adaptée aux valeurs et unités de Shard · CC-BY-4.0"
   },
   {
     "en": "Fire Play.",
@@ -1347,47 +1347,47 @@
   {
     "en": "Invisible Hand. You instantaneously cause an unlocked door or window to fly open or slam shut.",
     "fr": "Main invisible. Vous provoquez l’ouverture soudaine d’une porte ou fenêtre non verrouillée ou la faites claquer.",
-    "source": "SRD officiel 5.2.1 FR · section de Thaumaturgy · CC-BY-4.0"
+    "source": "SRD 5.2.1 FR · section de Thaumaturgy adaptée aux valeurs et unités de Shard · CC-BY-4.0"
   },
   {
     "en": "Invisible Hand.",
     "fr": "Main invisible.",
-    "source": "SRD officiel 5.2.1 FR · section de Thaumaturgy · CC-BY-4.0"
+    "source": "SRD 5.2.1 FR · section de Thaumaturgy adaptée aux valeurs et unités de Shard · CC-BY-4.0"
   },
   {
     "en": "Phantom Sound. You create an instantaneous sound that originates from a point of your choice within range, such as a rumble of thunder, the cry of a raven, or ominous whispers.",
     "fr": "Bruit fantôme. Vous faites émaner un son bref d’un point que vous choisissez à portée, comme un grondement de tonnerre, un croassement ou des murmures inquiétants.",
-    "source": "SRD officiel 5.2.1 FR · section de Thaumaturgy · CC-BY-4.0"
+    "source": "SRD 5.2.1 FR · section de Thaumaturgy adaptée aux valeurs et unités de Shard · CC-BY-4.0"
   },
   {
     "en": "Phantom Sound.",
     "fr": "Bruit fantôme.",
-    "source": "SRD officiel 5.2.1 FR · section de Thaumaturgy · CC-BY-4.0"
+    "source": "SRD 5.2.1 FR · section de Thaumaturgy adaptée aux valeurs et unités de Shard · CC-BY-4.0"
   },
   {
     "en": "Tremors. You cause harmless tremors in the ground for 1 minute.",
     "fr": "Secousse. Vous provoquez un léger tremblement de terre inoffensif pendant 1 minute.",
-    "source": "SRD officiel 5.2.1 FR · section de Thaumaturgy · CC-BY-4.0"
+    "source": "SRD 5.2.1 FR · section de Thaumaturgy adaptée aux valeurs et unités de Shard · CC-BY-4.0"
   },
   {
     "en": "Tremors.",
     "fr": "Secousse.",
-    "source": "SRD officiel 5.2.1 FR · section de Thaumaturgy · CC-BY-4.0"
+    "source": "SRD 5.2.1 FR · section de Thaumaturgy adaptée aux valeurs et unités de Shard · CC-BY-4.0"
   },
   {
     "en": "You create a magical effect within range. Choose the effect from the options below. If you cast this spell multiple times, you can have up to three of its non-instantaneous effects active at a time.",
     "fr": "Vous produisez un effet magique à portée. Choisissez l’effet parmi les options ci-après. Si vous lancez ce sort plusieurs fois, vous pouvez faire coexister jusqu’à trois de ces effets non instantanés.",
-    "source": "SRD officiel 5.2.1 FR · section de Prestidigitation · CC-BY-4.0"
+    "source": "SRD 5.2.1 FR · section de Prestidigitation adaptée aux valeurs et unités de Shard · CC-BY-4.0"
   },
   {
     "en": "You create an instantaneous, harmless sensory effect, such as a shower of sparks, a puff of wind, faint musical notes, or an odd odor.",
     "fr": "Vous produisez un effet sensoriel instantané et inoffensif, comme une pluie d’étincelles, une petite rafale de vent, quelques notes de musique ou une odeur étrange.",
-    "source": "SRD officiel 5.2.1 FR · section de Prestidigitation · CC-BY-4.0"
+    "source": "SRD 5.2.1 FR · section de Prestidigitation adaptée aux valeurs et unités de Shard · CC-BY-4.0"
   },
   {
     "en": "Sensory Effect. You create an instantaneous, harmless sensory effect, such as a shower of sparks, a puff of wind, faint musical notes, or an odd odor.",
     "fr": "Effet sensoriel. Vous produisez un effet sensoriel instantané et inoffensif, comme une pluie d’étincelles, une petite rafale de vent, quelques notes de musique ou une odeur étrange.",
-    "source": "SRD officiel 5.2.1 FR · section de Prestidigitation · CC-BY-4.0"
+    "source": "SRD 5.2.1 FR · section de Prestidigitation adaptée aux valeurs et unités de Shard · CC-BY-4.0"
   },
   {
     "en": "Sensory Effect.",
@@ -1397,72 +1397,72 @@
   {
     "en": "You instantaneously light or snuff out a candle, a torch, or a small campfire.",
     "fr": "Vous allumez ou éteignez une bougie, une torche ou un petit feu de camp, en un instant.",
-    "source": "SRD officiel 5.2.1 FR · section de Prestidigitation · CC-BY-4.0"
+    "source": "SRD 5.2.1 FR · section de Prestidigitation adaptée aux valeurs et unités de Shard · CC-BY-4.0"
   },
   {
     "en": "Fire Play. You instantaneously light or snuff out a candle, a torch, or a small campfire.",
     "fr": "Jeu avec le feu. Vous allumez ou éteignez une bougie, une torche ou un petit feu de camp, en un instant.",
-    "source": "SRD officiel 5.2.1 FR · section de Prestidigitation · CC-BY-4.0"
+    "source": "SRD 5.2.1 FR · section de Prestidigitation adaptée aux valeurs et unités de Shard · CC-BY-4.0"
   },
   {
     "en": "You instantaneously clean or soil an object no larger than 1 cubic foot.",
-    "fr": "Vous nettoyez ou souillez en un instant un objet dont le volume ne dépasse pas 30 litres (ou 0,03 m3).",
-    "source": "SRD officiel 5.2.1 FR · section de Prestidigitation · CC-BY-4.0"
+    "fr": "Vous nettoyez ou souillez en un instant un objet dont le volume ne dépasse pas 1 cubic foot.",
+    "source": "SRD 5.2.1 FR · section de Prestidigitation adaptée aux valeurs et unités de Shard · CC-BY-4.0"
   },
   {
     "en": "Clean or Soil. You instantaneously clean or soil an object no larger than 1 cubic foot.",
-    "fr": "Nettoyage ou maculage. Vous nettoyez ou souillez en un instant un objet dont le volume ne dépasse pas 30 litres (ou 0,03 m3).",
-    "source": "SRD officiel 5.2.1 FR · section de Prestidigitation · CC-BY-4.0"
+    "fr": "Nettoyage ou maculage. Vous nettoyez ou souillez en un instant un objet dont le volume ne dépasse pas 1 cubic foot.",
+    "source": "SRD 5.2.1 FR · section de Prestidigitation adaptée aux valeurs et unités de Shard · CC-BY-4.0"
   },
   {
     "en": "Clean or Soil.",
     "fr": "Nettoyage ou maculage.",
-    "source": "SRD officiel 5.2.1 FR · section de Prestidigitation · CC-BY-4.0"
+    "source": "SRD 5.2.1 FR · section de Prestidigitation adaptée aux valeurs et unités de Shard · CC-BY-4.0"
   },
   {
     "en": "You chill, warm, or flavor up to 1 cubic foot of nonliving material for 1 hour.",
-    "fr": "Vous refroidissez, réchauffez ou parfumez de la matière inerte pendant 1 heure, à condition que son volume ne dépasse pas 30 litres (ou 0,03 m3).",
-    "source": "SRD officiel 5.2.1 FR · section de Prestidigitation · CC-BY-4.0"
+    "fr": "Vous refroidissez, réchauffez ou parfumez de la matière inerte pendant 1 heure, à condition que son volume ne dépasse pas 1 cubic foot.",
+    "source": "SRD 5.2.1 FR · section de Prestidigitation adaptée aux valeurs et unités de Shard · CC-BY-4.0"
   },
   {
     "en": "Minor Sensation. You chill, warm, or flavor up to 1 cubic foot of nonliving material for 1 hour.",
-    "fr": "Sensation mineure. Vous refroidissez, réchauffez ou parfumez de la matière inerte pendant 1 heure, à condition que son volume ne dépasse pas 30 litres (ou 0,03 m3).",
-    "source": "SRD officiel 5.2.1 FR · section de Prestidigitation · CC-BY-4.0"
+    "fr": "Sensation mineure. Vous refroidissez, réchauffez ou parfumez de la matière inerte pendant 1 heure, à condition que son volume ne dépasse pas 1 cubic foot.",
+    "source": "SRD 5.2.1 FR · section de Prestidigitation adaptée aux valeurs et unités de Shard · CC-BY-4.0"
   },
   {
     "en": "Minor Sensation.",
     "fr": "Sensation mineure.",
-    "source": "SRD officiel 5.2.1 FR · section de Prestidigitation · CC-BY-4.0"
+    "source": "SRD 5.2.1 FR · section de Prestidigitation adaptée aux valeurs et unités de Shard · CC-BY-4.0"
   },
   {
     "en": "You make a color, a small mark, or a symbol appear on an object or a surface for 1 hour.",
     "fr": "Vous faites apparaître pendant 1 heure, sur un objet ou une surface, une couleur, une petite marque ou un symbole.",
-    "source": "SRD officiel 5.2.1 FR · section de Prestidigitation · CC-BY-4.0"
+    "source": "SRD 5.2.1 FR · section de Prestidigitation adaptée aux valeurs et unités de Shard · CC-BY-4.0"
   },
   {
     "en": "Magic Mark. You make a color, a small mark, or a symbol appear on an object or a surface for 1 hour.",
     "fr": "Marque magique. Vous faites apparaître pendant 1 heure, sur un objet ou une surface, une couleur, une petite marque ou un symbole.",
-    "source": "SRD officiel 5.2.1 FR · section de Prestidigitation · CC-BY-4.0"
+    "source": "SRD 5.2.1 FR · section de Prestidigitation adaptée aux valeurs et unités de Shard · CC-BY-4.0"
   },
   {
     "en": "Magic Mark.",
     "fr": "Marque magique.",
-    "source": "SRD officiel 5.2.1 FR · section de Prestidigitation · CC-BY-4.0"
+    "source": "SRD 5.2.1 FR · section de Prestidigitation adaptée aux valeurs et unités de Shard · CC-BY-4.0"
   },
   {
     "en": "You create a nonmagical trinket or an illusory image that can fit in your hand. It lasts until the end of your next turn. A trinket can deal no damage and has no monetary worth.",
     "fr": "Vous créez une babiole non magique ou une image illusoire qui tient dans votre main. Elle persiste jusqu’à la fin de votre tour suivant. Une telle babiole ne peut pas infliger de dégâts et n’a aucune valeur monétaire.",
-    "source": "SRD officiel 5.2.1 FR · section de Prestidigitation · CC-BY-4.0"
+    "source": "SRD 5.2.1 FR · section de Prestidigitation adaptée aux valeurs et unités de Shard · CC-BY-4.0"
   },
   {
     "en": "Minor Creation. You create a nonmagical trinket or an illusory image that can fit in your hand. It lasts until the end of your next turn. A trinket can deal no damage and has no monetary worth.",
     "fr": "Création mineure. Vous créez une babiole non magique ou une image illusoire qui tient dans votre main. Elle persiste jusqu’à la fin de votre tour suivant. Une telle babiole ne peut pas infliger de dégâts et n’a aucune valeur monétaire.",
-    "source": "SRD officiel 5.2.1 FR · section de Prestidigitation · CC-BY-4.0"
+    "source": "SRD 5.2.1 FR · section de Prestidigitation adaptée aux valeurs et unités de Shard · CC-BY-4.0"
   },
   {
     "en": "Minor Creation.",
     "fr": "Création mineure.",
-    "source": "SRD officiel 5.2.1 FR · section de Prestidigitation · CC-BY-4.0"
+    "source": "SRD 5.2.1 FR · section de Prestidigitation adaptée aux valeurs et unités de Shard · CC-BY-4.0"
   },
   {
     "en": "Whispering to the spirits of nature, you create one of the following effects within range.",

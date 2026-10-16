@@ -72,9 +72,14 @@ def load_packs(directory=None):
                     raise ValueError(f'{where}: un libellé ne peut contenir de barre verticale ou de saut de ligne')
                 if signature(en) != signature(entry['fr']):
                     raise ValueError(f'{where}: nombres ou dés différents entre anglais et français')
-                dice = lambda text: sorted(re.findall(r'\b((?:\d+)?d\d+)s?\b', text.lower()))
+                # Shard peut coller un dé chiffré au mot précédent (takes1d10).
+                # Conserver le dé entier sans accepter un suffixe de 11d10.
+                dice = lambda text: sorted(re.findall(r'(?<!\d)(\d+d\d+|(?<!\w)d\d+)s?\b', text.lower()))
                 if dice(en) != dice(entry['fr']):
                     raise ValueError(f'{where}: dés différents entre anglais et français')
+                formulas = lambda text: sorted(re.findall(r'\{[^{}]*\}', text))
+                if formulas(en) != formulas(entry['fr']):
+                    raise ValueError(f'{where}: formules entre accolades différentes entre anglais et français')
                 normalized = key(en)
                 if normalized in seen:
                     old = seen[normalized]

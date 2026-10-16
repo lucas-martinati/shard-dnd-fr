@@ -1,0 +1,85 @@
+{
+  "source": "Audit hors ligne des 391 fiches Shard relevées le 15 octobre 2026 ; 8 sorts complétés le 16 octobre 2026.",
+  "cases": [
+    {
+      "name": "Protection from Evil and Good",
+      "en": "The protection grants several benefits. Creatures of those types have disadvantage on attack rolls against the target. The target also can't be charmed, frightened, or possessed by them. If the target is already charmed, frightened, or possessed by such a creature, the target has advantage on any new saving throw against the relevant effect.",
+      "fr": "La protection confère plusieurs bénéfices. Les créatures de ces types subissent le Désavantage aux jets d’attaque contre la cible. Elles ne peuvent pas non plus la charmer, l’effrayer ou la posséder. Si la cible est déjà charmée, effrayée ou possédée par une telle créature, elle bénéficie de l’Avantage à tout nouveau jet de sauvegarde contre l’effet concerné."
+    },
+    {
+      "name": "Shield",
+      "en": "An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from magic missile.",
+      "fr": "Une barrière invisible de force magique apparaît et vous protège. Jusqu’au début de votre prochain tour, vous bénéficiez d’un bonus de +5 à la CA, y compris contre l’attaque qui a déclenché le sort, et vous ne subissez aucun dégât de Projectile magique."
+    },
+    {
+      "name": "Beast Sense",
+      "en": "You touch a willing Beast. For the duration, you can perceive through the Beast’s senses as well as your own. When perceiving through the Beast’s senses, you benefit from any special senses it has.",
+      "fr": "Vous touchez une Bête consentante. Pour la durée, vous pouvez percevoir par les sens de cette Bête en plus des vôtres. Lorsque vous percevez par ses sens, vous bénéficiez de ses éventuels sens spéciaux."
+    },
+    {
+      "name": "Enlarge/Reduce",
+      "en": "If the target is a creature, everything it is wearing and carrying changes size with it. Any item dropped by an affected creature returns to normal size at once.",
+      "fr": "Si la cible est une créature, tout ce qu’elle porte ou transporte change de taille avec elle. Tout objet lâché par une créature affectée reprend aussitôt sa taille normale."
+    },
+    {
+      "name": "Enlarge/Reduce",
+      "en": "Enlarge. The target's size doubles in all dimensions, and its weight is multiplied by eight. This growth increases its size by one category—from Medium to Large, for example. If there isn't enough room for the target to double its size, the creature or object attains the maximum possible size in the space available. Until the spell ends, the target also has advantage on Strength checks and Strength saving throws. The target's weapons also grow to match its new size. While these weapons are enlarged, the target's attacks with them deal 1d4 extra damage.",
+      "fr": "Agrandissement. La taille de la cible double dans toutes les dimensions et son poids est multiplié par huit. Cette croissance augmente sa catégorie de taille d’un cran, de Moyenne à Grande, par exemple. Si l’espace est insuffisant pour que la cible double de taille, la créature ou l’objet atteint la taille maximale permise par l’espace disponible. Jusqu’à la fin du sort, la cible bénéficie aussi de l’Avantage aux tests de Force et aux jets de sauvegarde de Force. Ses armes grandissent également pour s’adapter à sa nouvelle taille. Tant que ces armes sont agrandies, les attaques de la cible effectuées avec elles infligent 1d4 dégâts supplémentaires."
+    },
+    {
+      "name": "Enlarge/Reduce",
+      "en": "Reduce. The target's size is halved in all dimensions, and its weight is reduced to one-eighth of normal. This reduction decreases its size by one category—from Medium to Small, for example. Until the spell ends, the target also has disadvantage on Strength checks and Strength saving throws. The target's weapons also shrink to match its new size. While these weapons are reduced, the target's attacks with them deal 1d4 less damage (this can't reduce the damage below 1).",
+      "fr": "Rapetissement. La taille de la cible est divisée par deux dans toutes les dimensions et son poids est réduit au huitième de son poids normal. Cette réduction diminue sa catégorie de taille d’un cran, de Moyenne à Petite, par exemple. Jusqu’à la fin du sort, la cible subit aussi le Désavantage aux tests de Force et aux jets de sauvegarde de Force. Ses armes rétrécissent également pour s’adapter à sa nouvelle taille. Tant que ces armes sont rapetissées, les attaques de la cible effectuées avec elles infligent 1d4 dégâts de moins, sans que cela puisse réduire les dégâts en dessous de 1."
+    },
+    {
+      "name": "Leomund’s Tiny Hut",
+      "en": "A 10-foot Emanation springs into existence around you and remains stationary for the duration. The spell fails when you cast it if the Emanation isn’t big enough to fully encapsulate all creatures in its area.",
+      "fr": "Une Émanation de 10 feet apparaît autour de vous et reste immobile pour la durée. Le sort échoue lors de son lancement si l’Émanation n’est pas assez grande pour englober entièrement toutes les créatures de sa zone."
+    },
+    {
+      "name": "Leomund’s Tiny Hut",
+      "en": "Creatures and objects within the Emanation when you cast the spell can move through it freely. All other creatures and objects are barred from passing through it. Spells of level 3 or lower can’t be cast through it, and the effects of such spells can’t extend into it.",
+      "fr": "Les créatures et objets présents dans l’Émanation au lancement du sort peuvent la traverser librement. Toutes les autres créatures et tous les autres objets ne peuvent pas la traverser. Les sorts de niveau 3 ou inférieur ne peuvent pas être lancés à travers elle et leurs effets ne peuvent pas s’étendre à l’intérieur."
+    },
+    {
+      "name": "Leomund’s Tiny Hut",
+      "en": "The atmosphere inside the Emanation is comfortable and dry, regardless of the weather outside. Until the spell ends, you can command the interior to have Dim Light or Darkness (no action required). The Emanation is opaque from the outside and of any color you choose, but it’s transparent from the inside.",
+      "fr": "L’atmosphère à l’intérieur de l’Émanation est confortable et sèche, quel que soit le temps à l’extérieur. Jusqu’à la fin du sort, vous pouvez rendre l’intérieur faiblement éclairé ou obscur, sans action requise. L’Émanation est opaque de l’extérieur et de la couleur de votre choix, mais elle est transparente de l’intérieur."
+    },
+    {
+      "name": "Leomund’s Tiny Hut",
+      "en": "The spell ends early if you leave the Emanation or if you cast it again.",
+      "fr": "Le sort prend fin prématurément si vous quittez l’Émanation ou si vous le lancez de nouveau."
+    },
+    {
+      "name": "Slow",
+      "en": "You alter time around up to six creatures of your choice in a 40-foot Cube within range. Each target must succeed on a Wisdom saving throw or be affected by this spell for the duration.",
+      "fr": "Vous altérez le cours du temps autour d’un maximum de six créatures de votre choix dans un Cube de 40 feet à portée. Chaque cible doit réussir un jet de sauvegarde de Sagesse sous peine d’être affectée par ce sort pour la durée."
+    },
+    {
+      "name": "Slow",
+      "en": "An affected target’s Speed is halved, it takes a −2 penalty to AC and Dexterity saving throws, and it can’t take Reactions. On its turns, it can take either an action or a Bonus Action, not both, and it can make only one attack if it takes the Attack action. If it casts a spell with a Somatic component, there is a 25 percent chance the spell fails as a result of the target making the spell’s gestures too slowly.",
+      "fr": "La Vitesse d’une cible affectée est divisée par deux. Elle subit un malus de −2 à la CA et aux jets de sauvegarde de Dextérité et ne peut pas jouer de Réaction. À chacun de ses tours, elle peut entreprendre une action ou une action Bonus, mais pas les deux, et elle ne peut effectuer qu’une seule attaque si elle entreprend l’action Attaquer. Si elle lance un sort doté d’une composante somatique, il y a 25 pour cent de chances que le sort échoue parce qu’elle exécute les gestes trop lentement."
+    },
+    {
+      "name": "Slow",
+      "en": "An affected target repeats the save at the end of each of its turns, ending the spell on itself on a success.",
+      "fr": "Une cible affectée réitère le jet de sauvegarde à la fin de chacun de ses tours et met fin au sort sur elle-même en cas de réussite."
+    },
+    {
+      "name": "Blight",
+      "en": "Alternatively, target a nonmagical plant that isn’t a creature, such as a tree or shrub. It doesn’t make a save; it simply withers and dies.",
+      "fr": "Vous pouvez à la place cibler une plante non magique qui n’est pas une créature, comme un arbre ou un arbuste. Elle n’effectue pas de jet de sauvegarde : elle se flétrit et meurt."
+    },
+    {
+      "name": "Compulsion",
+      "en": "Each creature of your choice that you can see within range must succeed on a Wisdom saving throw or have the Charmed condition until the spell ends.",
+      "fr": "Chaque créature de votre choix que vous voyez à portée doit réussir un jet de sauvegarde de Sagesse sous peine de subir l’état Charmé jusqu’à la fin du sort."
+    },
+    {
+      "name": "Compulsion",
+      "en": "For the duration, you can take a Bonus Action to designate a direction that is horizontal to you. Each Charmed target must use as much of its movement as possible to move in that direction on its next turn, taking the safest route. After moving in this way, a target repeats the save, ending the spell on itself on a success.",
+      "fr": "Pour la durée, vous pouvez entreprendre une action Bonus pour désigner une direction horizontale par rapport à vous. Chaque cible Charmée doit consacrer autant que possible son déplacement à suivre cette direction à son prochain tour, en empruntant le chemin le plus sûr. Après s’être déplacée ainsi, la cible réitère le jet de sauvegarde et met fin au sort sur elle-même en cas de réussite."
+    }
+  ]
+}

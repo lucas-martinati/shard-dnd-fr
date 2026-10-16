@@ -89,37 +89,37 @@
             "blocs": 66
           },
           "classes": {
-            "entreesRattachees": 1792,
-            "libelles": 215,
-            "blocs": 1577
+            "entreesRattachees": 1811,
+            "libelles": 223,
+            "blocs": 1588
           },
           "dons": {
-            "entreesRattachees": 453,
-            "libelles": 171,
-            "blocs": 282
+            "entreesRattachees": 461,
+            "libelles": 174,
+            "blocs": 287
           },
           "especes": {
-            "entreesRattachees": 163,
-            "libelles": 53,
-            "blocs": 110
+            "entreesRattachees": 188,
+            "libelles": 56,
+            "blocs": 132
           },
           "objets": {
-            "entreesRattachees": 76,
-            "libelles": 76,
-            "blocs": 0
+            "entreesRattachees": 163,
+            "libelles": 116,
+            "blocs": 47
           },
           "regles": {
-            "entreesRattachees": 177,
-            "libelles": 44,
-            "blocs": 133
+            "entreesRattachees": 259,
+            "libelles": 57,
+            "blocs": 202
           },
           "sorts": {
-            "entreesRattachees": 210,
-            "libelles": 17,
-            "blocs": 193
+            "entreesRattachees": 685,
+            "libelles": 52,
+            "blocs": 633
           }
         },
-        "entreesRattachees": 2984
+        "entreesRattachees": 3680
       },
       {
         "id": "dnd-2024-mm",
@@ -250,12 +250,12 @@
             "blocs": 78
           },
           "sorts": {
-            "entreesRattachees": 17,
+            "entreesRattachees": 22,
             "libelles": 0,
-            "blocs": 17
+            "blocs": 22
           }
         },
-        "entreesRattachees": 1451
+        "entreesRattachees": 1456
       }
     ],
     "regleClassement": "Un emplacement éditorial par texte : règles du joueur 2024 avec le PHB, bestiaire 2024 avec le MM, corpus historique et lexique non spécifique dans 2014. L’emplacement ne remplace pas la source précise ni l’édition portée par l’entrée.",
@@ -508,32 +508,32 @@
     "sorts": {
       "nomsCatalogueAideDD2024": 391,
       "entreesDictionnaires": 511,
-      "libellesEditables": 17,
-      "blocsEditables": 210
+      "libellesEditables": 52,
+      "blocsEditables": 655
     },
     "dons": {
       "nomsCatalogueAideDD2024": 75,
       "entreesDictionnaires": 0,
-      "libellesEditables": 182,
-      "blocsEditables": 331
+      "libellesEditables": 185,
+      "blocsEditables": 336
     },
     "classes": {
       "nomsCatalogueAideDD2024": 28,
       "entreesDictionnaires": 559,
-      "libellesEditables": 242,
-      "blocsEditables": 1682
+      "libellesEditables": 250,
+      "blocsEditables": 1693
     },
     "especes": {
       "nomsCatalogueAideDD2024": 0,
       "entreesDictionnaires": 0,
-      "libellesEditables": 58,
-      "blocsEditables": 146
+      "libellesEditables": 61,
+      "blocsEditables": 168
     },
     "objets": {
       "nomsCatalogueAideDD2024": 350,
       "entreesDictionnaires": 510,
-      "libellesEditables": 496,
-      "blocsEditables": 99
+      "libellesEditables": 536,
+      "blocsEditables": 146
     },
     "armes": {
       "nomsCatalogueAideDD2024": 0,
@@ -550,18 +550,18 @@
     "regles": {
       "nomsCatalogueAideDD2024": 0,
       "entreesDictionnaires": 1299,
-      "libellesEditables": 64,
-      "blocsEditables": 211
+      "libellesEditables": 77,
+      "blocsEditables": 280
     },
     "interface": {
       "nomsCatalogueAideDD2024": 0,
       "entreesDictionnaires": 218,
-      "libellesEditables": 159,
+      "libellesEditables": 162,
       "blocsEditables": 5
     }
   },
   "corpusLocaux": {
-    "descriptionsEtChampsLocauxUniques": 5569,
+    "descriptionsEtChampsLocauxUniques": 6168,
     "presentationsShard": {
       "fichesRelevees": 153,
       "avecDescription": 149,

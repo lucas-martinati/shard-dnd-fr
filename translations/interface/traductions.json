@@ -2,6 +2,13 @@
   "$schema": "../../docs/translation-pack.schema.json",
   "entries": [
     {
+      "id": "shard.interface.subclasses",
+      "kind": "term",
+      "en": "Subclasses",
+      "fr": "Sous-classes",
+      "source": "Traduction proposée du bouton Shard signalé par l’utilisateur · 16 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
       "id": "shard.interface.my-characters",
       "kind": "term",
       "en": "My Characters",
@@ -728,7 +735,9 @@
       "id": "shard.interface.controls.put-in-shared-treasure",
       "kind": "term",
       "en": "Put in Shared Treasure",
-      "variants": ["Put in the Shared Treasure"],
+      "variants": [
+        "Put in the Shared Treasure"
+      ],
       "fr": "Déposer dans le trésor partagé",
       "source": "Traduction proposée de l’action observée dans le menu d’équipement de la fiche de personnage Shard · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
       "edition": "any"
@@ -1260,6 +1269,20 @@
       "fr": "Changer le nom",
       "source": "Traduction proposée des outils de carte et paramètres Shard · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
       "edition": "any"
+    },
+    {
+      "id": "report.11734.interface.000",
+      "en": "Show Map",
+      "fr": "Afficher la carte",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "kind": "term"
+    },
+    {
+      "id": "report.11734.interface.001",
+      "en": "Export",
+      "fr": "Exporter",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "kind": "term"
     }
   ]
 }

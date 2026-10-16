@@ -40,9 +40,13 @@ function setup(kind='item',remote=false){
   // Une ligne réutilisée pour un autre nom ne garde pas le résultat précédent.
   t.cells[0].firstElementChild.firstChild.data='Mysterious Clock';t.cells[0].onclick=t.cells[1].onclick;
   t.root.getElementById('inspectDescriptions').click();await wait(()=>t.root.getElementById('descriptionStatus').textContent.includes('terminée'));assert.match(t.cells[0].textContent,/à compléter/);
-  // Un long paragraphe hors borne ne doit jamais devenir un succès silencieux.
+  // Un long paragraphe reste analysé et ne devient jamais un succès silencieux.
   t.cells[0].click();await wait(()=>t.d.querySelector('[role="dialog"] .pre-wrap p'));t.d.querySelector('[role="dialog"] .pre-wrap p').textContent=(unknown+' ').repeat(200);t.d.querySelectorAll('[role="dialog"] .pre-wrap p')[1].textContent='Une autre phrase française.';
-  await wait(()=>t.cells[0].textContent.includes('vérification impossible'));t.d.querySelector('[role="dialog"] .MuiDialogActions-root button:last-child').click();
+  let longReport;
+  for(let i=0;i<250;i++){longReport=await t.report();if(longReport.descriptions.some(row=>row.missing.some(item=>item.en.length>6000)))break;await pause(25);}
+  assert.ok(longReport.descriptions.some(row=>row.missing.some(item=>item.en.length>6000)),'Le rapport conserve le long paragraphe');
+  assert.ok(t.cells[0].textContent.includes('à compléter'));
+  t.d.querySelector('[role="dialog"] .MuiDialogActions-root button:last-child').click();
   t.root.getElementById('clearDescriptions').click();assert.equal(t.d.querySelectorAll('[data-shard-fr-description-status]').length,0);assert.equal(t.root.getElementById('exportDescriptions').disabled,true);assert.equal(t.d.querySelectorAll('[data-shard-fr-description-missing]').length,0);
   t.toggle(false);assert.equal(t.root.getElementById('inspectDescriptions').disabled,true);
  }finally{t.w.close();}
@@ -69,6 +73,11 @@ function setup(kind='item',remote=false){
   for(let i=0;i<101;i++){const row=bounded.d.createElement('tr');row.innerHTML='<td class="hoverhighlight w-100"><div>Extra Relic '+i+'</div></td>';bounded.d.querySelector('tbody').append(row);}
   bounded.toggle(true);bounded.root.getElementById('inspectDescriptions').click();assert.match(bounded.root.getElementById('descriptionStatus').textContent,/1 \/ 100/);
   bounded.root.getElementById('stopDescriptions').click();await wait(()=>bounded.root.getElementById('stopDescriptions').disabled);
+  for(const value of ['1000','0']){
+   const input=bounded.root.getElementById('descriptionBatchLimit');input.value=value;input.dispatchEvent(new bounded.w.Event('change'));
+   bounded.root.getElementById('inspectDescriptions').click();assert.match(bounded.root.getElementById('descriptionStatus').textContent,/1 \/ 105/);
+   assert.equal(input.disabled,true);bounded.root.getElementById('stopDescriptions').click();await wait(()=>bounded.root.getElementById('stopDescriptions').disabled);assert.equal(input.disabled,false);
+  }
  }finally{bounded.w.close();}
  console.log('PASS descriptions : option volontaire, badges, parcours automatique, traduction partielle, français, fiche vide, actualisation manuelle, export local, champs exclus, arrêt, navigation et aucune édition.');
 })().catch(e=>{console.error(e);process.exitCode=1;});

@@ -34,6 +34,7 @@ Un libellé peut conserver des noms alternatifs de recherche avec `"aliases": ["
 - Ajouter `"variants": ["Another exact English wording."]` uniquement si cette formulation a exactement la même traduction et les mêmes règles.
 - Les apostrophes, espaces, contractions anglaises reconnues et guillemets typographiques ne nécessitent pas de variantes.
 - Conserver les nombres écrits en chiffres et les dés dans la traduction. Les contrôles automatiques refusent leurs modifications ; ils ne remplacent pas une vérification du sens.
+- Recopier les variables Shard entre accolades à l’identique, comme `{summoner wis}` et `{summoner proficiency}`, avec le même nombre d’occurrences. Leur nom reste en anglais et ne doit pas être remplacé par une valeur calculée. La validation refuse les variables modifiées, ajoutées ou supprimées.
 - Conserver les distances en feet. Ne pas réécrire une ancienne règle avec les effets de sa version 2024.
 - Une négation, un coût, une durée ou un nombre de cibles différent exige une traduction distincte.
 
@@ -87,6 +88,10 @@ L’outil rassemble les textes des paragraphes malgré les balises et les dés, 
 
 Le traitement reste local. Les rapports peuvent contenir des textes de partie : les garder hors du dépôt et de `translations/` jusqu’à leur tri. Le rapport d’audit n’est pas un pack prêt à charger : il faut écrire les traductions et leur source.
 
+Dans le panneau, les limites de résultats, d’éléments examinés et de fiches par passage sont réglables et mémorisées. La valeur 0 supprime la limite correspondante ; elle n’ajoute pas les fiches que Shard n’a pas encore chargées. Les exports conservent les réglages, et chaque description examinée indique ses propres limites pour distinguer plusieurs passages.
+
+Les poids isolés tels que `0.25 lb.` et les fragments composés uniquement de variables, dés et calculs ne sont pas des traductions manquantes. Le diagnostic les ignore sans modifier leur affichage. Les phrases de règles contenant des poids ou des variables restent analysées. Les compagnons du rôdeur du PHB sont maintenus dans le pack de classes, même si Shard les affiche avec la structure d’un profil de monstre.
+
 `--labels` inclut les boutons, liens, options avec valeur et attributs d'affichage inconnus. Il sert à repérer les commandes de navigation que l'heuristique de prose ne voit pas. Ses candidats peuvent être des noms propres ou des textes déjà français : il faut les trier. Les valeurs des champs et les éditeurs restent exclus, et les noms du catalogue AideDD sont reconnus.
 
 Tous les dictionnaires et descriptions sont rangés dans les catégories de `translations/`. `work/` contient les outils ; leurs fichiers intermédiaires sont dans `work/generated/`. `sources-generation/` identifie les entrées techniques et `audit/` les inventaires et rapports. Les aptitudes et options issues du SRD sont éditables dans `translations/dnd-2024/phb/classes/descriptions-srd.json` et `options-srd.json`. Le build ne lit plus d’extraits PDF.
@@ -119,7 +124,7 @@ Le générateur conserve les traductions préexistantes et refuse les correspond
 
 ## Paragraphes des sorts et priorité des références
 
-Pour les dix types personnalisés, `tests/fixtures/custom-references.json` conserve les cartes et les fiches intégrales relevées, avec des attentes françaises figées. `npm run test:references` vérifie tous leurs blocs, les liens, les dés, la structure des tableaux et la restauration du HTML ; il exécute aussi l’analyseur du panneau et écrit `audit/generes/references-personnalisees.json`. Les noms des livres et la notation des dés sont conservés comme métadonnées à trier, sans les traduire artificiellement pour vider le rapport.
+Pour les dix types personnalisés, `tests/fixtures/custom-references.json` conserve les cartes et les fiches intégrales relevées, avec des attentes françaises figées. `npm run test:references` vérifie tous leurs blocs, les liens, les dés, la structure des tableaux et la restauration du HTML ; il exécute aussi l’analyseur du panneau et écrit `audit/generes/references-personnalisees.json`. Les noms des livres reconnus, les mentions Source/Sources, Shard Tabletop et la notation des dés sont ignorés par le diagnostic, sans modifier leur affichage. Les titres de suppléments sont aussi reconnus lorsqu’ils figurent dans l’attribut `title` d’une mention Source de Shard. Les exclusions portent sur les libellés complets ; une règle qui cite ces noms reste analysée.
 
 Les traductions restent dans les catégories de `translations/` : maladies historiques dans `2014/regles`, ascendances dans `2014/especes`, styles dans `2014/dons`, manifestations et pactes dans `classes`, manœuvres et Magie sauvage dans les classes du PHB, et descriptions de bottes dans ses armes. Le guide Shard n’est pas automatiquement attribué à l’édition 2014 : conserver `any` lorsque le livre affiché ne précise pas de millésime. Les prérequis des cartes entre parenthèses et ceux des fiches ouvertes peuvent nécessiter deux correspondances explicites.
 
@@ -142,3 +147,5 @@ Dans `translations/dnd-2024/phb/classes/descriptions-srd.json`, chaque entrée c
 Dans `options-srd.json`, chaque entrée possède son `kind` (`metamagic` ou `invocation`), ses titres `name`/`frName` et ses `blocks` EN/FR. Conserver les versions avec et sans coût/prérequis lorsqu’elles correspondent à des affichages différents. La source commune et l’édition figurent à la racine de ces deux fichiers.
 
 `npm run translations:check` valide aussi ces corpus : valeurs numériques, ordre des dés, identifiants, classes, niveaux et blocs obligatoires. Les générateurs préparent leurs copies dans `work/generated/` sans extraction de PDF. Modifier les sources dans le PHB, jamais les copies intermédiaires. Voir [l’attribution SRD](../translations/dnd-2024/phb/SOURCES-SRD.md).
+
+Les descriptions locales dont la source commence par « Traduction de » ou « Traduction proposée » ont priorité sur les paires distantes mises en cache. Cela maintient la cohérence entre un paragraphe corrigé et les liens qu’il contient. L’analyse de page attend que la file de traduction soit terminée ; effacer les résultats ou changer de page annule une analyse en attente.

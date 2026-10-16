@@ -12429,6 +12429,128 @@
       "en": "Strike Back",
       "fr": "Riposte",
       "source": "Traduction proposée des descriptions de sous-aptitudes observées dans Shard · modèle de Moine D&D 2024 PHB · relevé du 15 octobre 2026 · https://play.shardtabletop.com/"
+    },
+    {
+      "id": "report.11734.classes.002",
+      "en": "The maneuvers are presented here in alphabetical order.",
+      "fr": "Les manœuvres sont présentées ici par ordre alphabétique.",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés"
+    },
+    {
+      "id": "report.11734.classes.003",
+      "en": "Beast Companion Stat Blocks",
+      "fr": "Profils des compagnons bestiaux",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "kind": "term"
+    },
+    {
+      "id": "report.11734.classes.004",
+      "en": "MOD",
+      "fr": "MOD",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "kind": "term"
+    },
+    {
+      "id": "report.11734.classes.005",
+      "en": "Understands the languages you know",
+      "fr": "Comprend les langues que vous connaissez",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "kind": "term"
+    },
+    {
+      "id": "report.11734.classes.006",
+      "en": "Primal Bond. Add your Proficiency Bonus {proficiency} to any ability check or saving throw the beast makes.",
+      "fr": "Lien primal. Ajoutez votre bonus de maîtrise {proficiency} à tout test de caractéristique ou jet de sauvegarde effectué par la bête.",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés"
+    },
+    {
+      "id": "report.11734.classes.007",
+      "en": "Beast’s Strike. Melee Attack Roll: {summoner wis}+{summoner proficiency}, reach 5 ft. Hit: 1d8 + 2 + {summoner wis} Bludgeoning damage (or Piercing / Slashing, your choice when you summon the beast). If the beast moved at least 20 feet straight toward the target before the hit, the target takes an extra 1d6 damage of the same type, and the target has the Prone condition if it is a Large or smaller creature.",
+      "fr": "Frappe de la bête. Jet d’attaque au corps à corps : {summoner wis}+{summoner proficiency}, allonge 5 ft. Touché : 1d8 + 2 + {summoner wis} dégâts contondants (ou perforants / tranchants, au choix lorsque vous invoquez la bête). Si la bête s’est déplacée d’au moins 20 feet en ligne droite vers la cible avant de la toucher, la cible subit 1d6 dégâts supplémentaires du même type et subit l’état À terre si elle est de taille Grande ou inférieure.",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés"
+    },
+    {
+      "id": "report.11734.classes.008",
+      "en": "Amphibious. The beast can breathe air and water.",
+      "fr": "Amphibie. La bête peut respirer dans l’air et sous l’eau.",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés"
+    },
+    {
+      "id": "report.11734.classes.009",
+      "en": "Primal Bond. Add {proficiency} to any ability check or saving throw the beast makes.",
+      "fr": "Lien primal. Ajoutez {proficiency} à tout test de caractéristique ou jet de sauvegarde effectué par la bête.",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés"
+    },
+    {
+      "id": "report.11734.classes.010",
+      "en": "Beast’s Strike. Melee Attack Roll: {summoner wis}+{summoner proficiency}, reach 5 ft. Hit: 1d6 + 2 + {summoner wis} Bludgeoning damage (or Piercing, your choice when you summon the beast), and the target has the Grappled condition (escape DC 8+{summoner wis}+{summoner proficiency}).",
+      "fr": "Frappe de la bête. Jet d’attaque au corps à corps : {summoner wis}+{summoner proficiency}, allonge 5 ft. Touché : 1d6 + 2 + {summoner wis} dégâts contondants (ou perforants, au choix lorsque vous invoquez la bête), et la cible subit l’état Agrippé (évasion DD 8+{summoner wis}+{summoner proficiency}).",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés"
+    },
+    {
+      "id": "report.11734.classes.011",
+      "en": "Flyby. The beast doesn’t provoke Opportunity Attacks when it flies out of an enemy’s reach.",
+      "fr": "Repli aérien. La bête ne provoque pas d’attaques d’opportunité lorsqu’elle quitte l’allonge d’un ennemi en volant.",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés"
+    },
+    {
+      "id": "report.11734.classes.012",
+      "en": "Beast’s Strike.{summoner wis}+{summoner proficiency}1d4 + 3 + {summoner wis}",
+      "fr": "Frappe de la bête.{summoner wis}+{summoner proficiency}1d4 + 3 + {summoner wis}",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés"
+    },
+    {
+      "id": "report.11734.classes.013",
+      "en": "The following options are available to your Metamagic feature. The options are presented in alphabetical order.",
+      "fr": "Les options suivantes sont disponibles pour votre aptitude Métamagie. Elles sont présentées par ordre alphabétique.",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés"
+    },
+    {
+      "id": "report.11734.classes.014",
+      "en": "Poison.",
+      "fr": "Poison.",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "kind": "term"
+    },
+    {
+      "id": "report.11734.classes.015",
+      "en": "Eldritch Invocation Options",
+      "fr": "Options de manifestations occultes",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "kind": "term"
+    },
+    {
+      "id": "report.11734.classes.016",
+      "en": "A Warlock subclass is a specialization that grants you features at certain Warlock levels, as specified in the subclass. This section presents the Archfey Patron, Celestial Patron, Fiend Patron, and Great Old One Patron subclasses.",
+      "fr": "Une sous-classe d’Occultiste est une spécialisation qui vous confère des aptitudes à certains niveaux d’Occultiste, précisés dans sa description. Cette section présente les sous-classes Protecteur Archifée, Protecteur Céleste, Protecteur Fiélon et Protecteur Grand Ancien.",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés"
+    },
+    {
+      "id": "report.11734.classes.087",
+      "en": "Primal Bond",
+      "fr": "Lien primal",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "kind": "term"
+    },
+    {
+      "id": "report.11734.classes.088",
+      "en": "Beast’s Strike",
+      "fr": "Frappe de la bête",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "kind": "term"
+    },
+    {
+      "id": "report.11734.classes.089",
+      "en": "DC 8+{summoner wis}+{summoner proficiency}",
+      "fr": "DD 8+{summoner wis}+{summoner proficiency}",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés",
+      "kind": "term"
+    },
+    {
+      "id": "report.11734.classes.090",
+      "en": "Beast’s Strike. Melee Attack Roll: {summoner wis}+{summoner proficiency}, reach 5 ft. Hit: 1d4 + 3 + {summoner wis} Slashing damage.",
+      "fr": "Frappe de la bête. Jet d’attaque au corps à corps : {summoner wis}+{summoner proficiency}, allonge 5 ft. Touché : 1d4 + 3 + {summoner wis} dégâts tranchants.",
+      "source": "Traduction française proposée des rapports utilisateur classes, dons et équipement 1.17.34 · PHB Shard · 16 octobre 2026 ; formules, nombres, dés et unités conservés"
     }
   ]
 }

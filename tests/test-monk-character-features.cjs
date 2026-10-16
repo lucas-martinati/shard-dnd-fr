@@ -17,7 +17,7 @@ const pause=ms=>new Promise(r=>setTimeout(r,ms));async function wait(fn,label){f
 (async()=>{try{
  w.eval(code);await wait(()=>sentinel.textContent==='Fermer');
  const root=[...d.querySelectorAll('[data-shard-fr-ignore]')].map(e=>e.shadowRoot).find(r=>r?.getElementById('scanMissing'));
- root.getElementById('scanMissing').click();root.getElementById('exportMissing').click();
+ root.getElementById('scanMissing').click();await wait(() => !root.getElementById('exportMissing').disabled); root.getElementById('exportMissing').click();
  const report=await new Promise(resolve=>{const reader=new w.FileReader();reader.onload=()=>resolve(JSON.parse(reader.result));reader.readAsText(blob);});
  assert.equal(report.truncated,false,'L’audit doit couvrir toutes les descriptions');
  if(!auditOnly){

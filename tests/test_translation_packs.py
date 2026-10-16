@@ -70,6 +70,21 @@ class PacksTest(unittest.TestCase):
         self.write([self.entry(en='Roll d6s.', fr='Lancez des d6.')])
         self.assertEqual(len(load_packs(self.root)), 1)
 
+    def test_summoner_formulas_are_preserved_exactly(self):
+        self.write([self.entry(en='Add {summoner wis}+{summoner proficiency}.', fr='Ajoutez {summoner wis}+{summoner proficiency}.')])
+        self.assertEqual(len(load_packs(self.root)), 1)
+        for fr in ['Ajoutez {sagesse}+{summoner proficiency}.', 'Ajoutez {summoner wis}.', 'Ajoutez {summoner wis}+{summoner wis}.']:
+            self.write([self.entry(en='Add {summoner wis}+{summoner proficiency}.', fr=fr)])
+            with self.assertRaisesRegex(ValueError, 'formules entre accolades'):
+                load_packs(self.root)
+
+    def test_dice_attached_to_shard_text_are_still_checked(self):
+        self.write([self.entry(en='The creature takes1d10 damage.', fr='La créature subit 1d10 dégâts.')])
+        self.assertEqual(len(load_packs(self.root)), 1)
+        self.write([self.entry(en='The creature takes1d10 damage.', fr='La créature subit 10d1 dégâts.')])
+        with self.assertRaisesRegex(ValueError, 'dés différents'):
+            load_packs(self.root)
+
     def test_search_aliases_are_preserved_without_becoming_english_variants(self):
         self.write([self.entry(kind='term', en='Wand of Scowls', fr='Baguette du grincheux', aliases=['Baguette des grimaces'])])
         rows = load_packs(self.root)

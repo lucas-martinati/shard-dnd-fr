@@ -6,8 +6,11 @@ root=Path(__file__).resolve().parent/'generated';pairs=[]
 def add(en,fr,source):
  if en and fr:pairs.append({'en':en,'fr':fr,'source':source})
 def flat(s):return re.sub(r'\s+',' ',s).strip()
+adaptations=json.loads(translation_source('spell-reference.json').with_name('decoupage-srd.json').read_text()).get('frenchReplacements',{})
 for r in json.loads(translation_source('spell-reference.json').read_text()):
- add(r['englishBody'],r['frenchBody'],'SRD 5.2.1 FR')
+ fr_body=r['frenchBody']
+ for before,after in adaptations.get(r['en'],[]):fr_body=fr_body.replace(before,after)
+ add(r['englishBody'],fr_body,'SRD 5.2.1 FR · adapté aux valeurs et unités de Shard · CC-BY-4.0' if fr_body!=r['frenchBody'] else 'SRD 5.2.1 FR')
  en=flat(r['english']);fr=flat(r['french']);en=en.split(flat(r['englishBody'])[:70])[0];fr=fr.split(flat(r['frenchBody'])[:70])[0]
  labels=[('Casting Time','Temps d’incantation'),('Range','Portée'),('Components','Composantes'),('Duration','Durée')]
  for i,(a,b) in enumerate(labels):

@@ -12,14 +12,14 @@
 
 Dans le panneau D&D FR, ouvre **Repérer les traductions manquantes**. Deux sections conservent des résultats indépendants :
 
-- **Page affichée** : **Analyser la page** repère les noms et passages visibles à vérifier, avec des contours orange. **Exporter la page (JSON)** enregistre uniquement ce relevé dans `shard-dnd-fr-page.json`. **Effacer la page** retire uniquement ces repères et ce rapport.
+- **Page affichée** : **Analyser la page** attend la fin des traductions en cours, puis repère les noms et passages visibles à vérifier, avec des contours orange. **Exporter la page (JSON)** enregistre uniquement ce relevé dans `shard-dnd-fr-page.json`. **Effacer la page** retire uniquement ces repères et ce rapport.
 - **Descriptions des fiches** : coche **Marquer les descriptions à compléter**, puis lance **Contrôler les fiches**. Les descriptions incomplètes ont un contour rouge dans la liste. Les fiches sans manque repéré n’ajoutent pas de libellé sous leur nom. **Exporter les descriptions (JSON)** enregistre uniquement les fiches contrôlées dans `shard-dnd-fr-descriptions.json`. **Effacer les descriptions** retire ces résultats et contours, en conservant le relevé de page.
 
-Le contrôle ouvre puis referme les fiches chargées, par lots de 100 au maximum. **Arrêter** l’interrompt. Fais défiler la liste pour charger les suivantes, puis relance. Si Shard propose plusieurs sources, la version dont le livre principal est D&D 2024 est sélectionnée ; sans option 2024, l’entrée est signalée et le parcours continue. Le rapport conserve le livre choisi. Les fiches ouvertes manuellement sont aussi contrôlées quand le marquage est activé.
+Le contrôle ouvre puis referme les fiches chargées, par lots de 100 par défaut ; cette limite est réglable. **Arrêter** l’interrompt. Fais défiler la liste pour charger les suivantes, puis relance. Si Shard propose plusieurs sources, la version dont le livre principal est D&D 2024 est sélectionnée ; sans option 2024, l’entrée est signalée et le parcours continue. Le rapport conserve le livre choisi. Les fiches ouvertes manuellement sont aussi contrôlées quand le marquage est activé.
 
 La liste de résultats du panneau présente les fiches à compléter ou à examiner ; l’export des descriptions conserve également les fiches sans manque et celles sans description. Les repères sont des candidats à vérifier et ne certifient pas l’exactitude du français. Le mode par nom reste supprimé : les états proviennent du texte affiché.
 
-Les rapports restent locaux, sans valeurs de champs ni contenu des éditeurs. Ils peuvent contenir des noms propres ou du contenu personnalisé affiché : vérifie-les avant de les partager. Chaque analyse est bornée à 200 candidats par page ou description. Un changement de page ou la désactivation de la traduction remet les deux rapports à zéro.
+Les rapports restent locaux, sans valeurs de champs ni contenu des éditeurs. Ils peuvent contenir des noms propres ou du contenu personnalisé affiché : vérifie-les avant de les partager. Les limites sont réglables dans « Repérer les traductions manquantes » : résultats (200 par défaut), éléments examinés (10 000) et fiches par passage (100). Saisir 0 supprime la limite correspondante. Les réglages sont mémorisés ; le parcours reste limité aux fiches déjà chargées dans Shard. Un changement de page ou la désactivation de la traduction remet les deux rapports à zéro.
 
 ## Mises à jour suivantes
 
