@@ -1,0 +1,375 @@
+{
+  "source": "Extraits utilisateur du 17 octobre 2026 : 14 outils puis sept entrées du rapport visible-page 1.17.46 ; champs déjà traduits complétés par le relevé PHB 1.17.34",
+  "rows": [
+    {
+      "name": "Calligrapher's Supplies",
+      "price": 10,
+      "fields": [
+        {
+          "en": "Ability: Dexterity",
+          "fr": "Caractéristique : Dextérité"
+        },
+        {
+          "en": "Utilize: Write text with impressive flourishes that guard against forgery (DC 15)",
+          "fr": "Utilisation : Écrire un texte agrémenté de fioritures impressionnantes qui le protègent contre la contrefaçon (DD 15)"
+        },
+        {
+          "en": "Craft: Ink, Spell Scroll",
+          "fr": "Fabrication : encre, parchemin de sort"
+        }
+      ]
+    },
+    {
+      "name": "Carpenter's Tools",
+      "price": 8,
+      "fields": [
+        {
+          "en": "Ability: Strength",
+          "fr": "Caractéristique : Force"
+        },
+        {
+          "en": "Utilize: Seal or pry open a door or container (DC 20)",
+          "fr": "Utilisation : Sceller ou forcer une porte ou un contenant (DD 20)"
+        },
+        {
+          "en": "Craft: Club, Greatclub, Quarterstaff, Barrel, Chest, Ladder, Pole, Portable Ram, Torch",
+          "fr": "Fabrication : gourdin, massue, bâton, tonneau, coffre, échelle, perche, bélier portable, torche"
+        }
+      ]
+    },
+    {
+      "name": "Cartographer's Tools",
+      "price": 15,
+      "fields": [
+        {
+          "en": "Ability: Wisdom",
+          "fr": "Caractéristique : Sagesse"
+        },
+        {
+          "en": "Utilize: Draft a map of a small area (DC 15)",
+          "fr": "Utilisation : Tracer une carte d’une petite zone (DD 15)"
+        },
+        {
+          "en": "Craft: Map",
+          "fr": "Fabrication : carte"
+        }
+      ]
+    },
+    {
+      "name": "Cobbler's Tools",
+      "price": 5,
+      "fields": [
+        {
+          "en": "Ability: Dexterity",
+          "fr": "Caractéristique : Dextérité"
+        },
+        {
+          "en": "Utilize: Modify footwear to give Advantage on the wearer’s next Dexterity (Acrobatics) check (DC 10)",
+          "fr": "Utilisation : Modifier des chaussures pour donner l’Avantage au prochain test de Dextérité (Acrobaties) de leur porteur (DD 10)"
+        },
+        {
+          "en": "Craft: Climber’s Kit",
+          "fr": "Fabrication : matériel d’escalade"
+        }
+      ]
+    },
+    {
+      "name": "Cook's Utensils",
+      "price": 1,
+      "fields": [
+        {
+          "en": "Ability: Wisdom",
+          "fr": "Caractéristique : Sagesse"
+        },
+        {
+          "en": "Utilize: Improve food’s flavor (DC 10), or detect spoiled or poisoned food (DC 15)",
+          "fr": "Utilisation : Améliorer la saveur des aliments (DD 10) ou détecter des aliments avariés ou empoisonnés (DD 15)"
+        },
+        {
+          "en": "Craft: Rations",
+          "fr": "Fabrication : rations"
+        }
+      ]
+    },
+    {
+      "name": "Glassblower's Tools",
+      "price": 30,
+      "fields": [
+        {
+          "en": "Ability: Intelligence",
+          "fr": "Caractéristique : Intelligence"
+        },
+        {
+          "en": "Utilize: Discern what a glass object held in the past 24 hours (DC 15)",
+          "fr": "Utilisation : Déterminer ce qu’un objet en verre a contenu au cours des dernières 24 heures (DD 15)"
+        },
+        {
+          "en": "Craft: Glass Bottle, Magnifying Glass, Spyglass, Vial",
+          "fr": "Fabrication : bouteille en verre, loupe, longue-vue, fiole"
+        }
+      ]
+    },
+    {
+      "name": "Jeweler's Tools",
+      "price": 25,
+      "fields": [
+        {
+          "en": "Ability: Intelligence",
+          "fr": "Caractéristique : Intelligence"
+        },
+        {
+          "en": "Utilize: Discern a gem’s value (DC 15)",
+          "fr": "Utilisation : Déterminer la valeur d’une gemme (DD 15)"
+        },
+        {
+          "en": "Craft: Arcane Focus, Holy Symbol",
+          "fr": "Fabrication : focaliseur arcanique, symbole sacré"
+        }
+      ]
+    },
+    {
+      "name": "Leatherworker's Tools",
+      "price": 5,
+      "fields": [
+        {
+          "en": "Ability: Dexterity",
+          "fr": "Caractéristique : Dextérité"
+        },
+        {
+          "en": "Utilize: Add a design to a leather item (DC 10)",
+          "fr": "Utilisation : Ajouter un motif à un objet en cuir (DD 10)"
+        },
+        {
+          "en": "Craft: Sling, Whip, Hide Armor, Leather Armor, Studded Leather Armor, Backpack, Crossbow Bolt Case, Map or Scroll Case, Parchment, Pouch, Quiver, Waterskin",
+          "fr": "Fabrication : fronde, fouet, armure de peaux, armure de cuir, armure de cuir clouté, sac à dos, étui à carreaux d’arbalète, étui à cartes ou à parchemins, parchemin, bourse, carquois, outre"
+        }
+      ]
+    },
+    {
+      "name": "Mason's Tools",
+      "price": 10,
+      "fields": [
+        {
+          "en": "Ability: Strength",
+          "fr": "Caractéristique : Force"
+        },
+        {
+          "en": "Utilize: Chisel a symbol or hole in stone (DC 10)",
+          "fr": "Utilisation : Ciseler un symbole ou creuser un trou dans la pierre (DD 10)"
+        },
+        {
+          "en": "Craft: Block and Tackle",
+          "fr": "Fabrication : palan"
+        }
+      ]
+    },
+    {
+      "name": "Painter's Supplies",
+      "price": 10,
+      "fields": [
+        {
+          "en": "Ability: Wisdom",
+          "fr": "Caractéristique : Sagesse"
+        },
+        {
+          "en": "Utilize: Paint a recognizable image of something you’ve seen (DC 10)",
+          "fr": "Utilisation : Peindre une image reconnaissable de quelque chose que vous avez vu (DD 10)"
+        },
+        {
+          "en": "Craft: Druidic Focus, Holy Symbol",
+          "fr": "Fabrication : focaliseur druidique, symbole sacré"
+        }
+      ]
+    },
+    {
+      "name": "Potter's Tools",
+      "price": 10,
+      "fields": [
+        {
+          "en": "Ability: Intelligence",
+          "fr": "Caractéristique : Intelligence"
+        },
+        {
+          "en": "Utilize: Discern what a ceramic object held in the past 24 hours (DC 15)",
+          "fr": "Utilisation : Déterminer ce qu’un objet en céramique a contenu au cours des dernières 24 heures (DD 15)"
+        },
+        {
+          "en": "Craft: Jug, Lamp",
+          "fr": "Fabrication : cruche, lampe"
+        }
+      ]
+    },
+    {
+      "name": "Smith's Tools",
+      "price": 20,
+      "fields": [
+        {
+          "en": "Ability: Strength",
+          "fr": "Caractéristique : Force"
+        },
+        {
+          "en": "Utilize: Pry open a door or container (DC 20)",
+          "fr": "Utilisation : Forcer une porte ou un contenant (DD 20)"
+        },
+        {
+          "en": "Craft: Any Melee weapon (except Club, Greatclub, Quarterstaff, and Whip), Medium armor (except Hide), Heavy armor, Ball Bearings, Bucket, Caltrops, Chain, Crowbar, Firearm Bullets, Grappling Hook, Iron Pot, Iron Spikes, Sling Bullets",
+          "fr": "Fabrication : toute arme de corps à corps (sauf gourdin, massue, bâton et fouet), armure intermédiaire (sauf de peaux), armure lourde, billes métalliques, seau, chausse-trappes, chaîne, pied-de-biche, balles d’arme à feu, grappin, marmite en fer, pointes en fer, billes de fronde"
+        }
+      ]
+    },
+    {
+      "name": "Tinker's Tools",
+      "price": 50,
+      "fields": [
+        {
+          "en": "Ability: Dexterity",
+          "fr": "Caractéristique : Dextérité"
+        },
+        {
+          "en": "Utilize: Assemble a Tiny item composed of scrap, which falls apart in 1 minute (DC 20)",
+          "fr": "Utilisation : Assembler un objet de taille TP à partir de débris, qui se disloque au bout de 1 minute (DD 20)"
+        },
+        {
+          "en": "Craft: Musket, Pistol, Bell, Bullseye Lantern, Flask, Hooded Lantern, Hunter’s Trap, Lock, Manacles, Mirror, Shovel, Signal Whistle, Tinderbox",
+          "fr": "Fabrication : mousquet, pistolet, cloche, lanterne sourde, flasque, lanterne à capote, piège à mâchoires, serrure, menottes, miroir, pelle, sifflet, boîte à amadou"
+        }
+      ]
+    },
+    {
+      "name": "Weaver's Tools",
+      "price": 1,
+      "fields": [
+        {
+          "en": "Ability: Dexterity",
+          "fr": "Caractéristique : Dextérité"
+        },
+        {
+          "en": "Utilize: Mend a tear in clothing (DC 10), or sew a Tiny design (DC 10)",
+          "fr": "Utilisation : Raccommoder une déchirure dans un vêtement (DD 10) ou coudre un motif de taille TP (DD 10)"
+        },
+        {
+          "en": "Craft: Padded Armor, Basket, Bedroll, Blanket, Fine Clothes, Net, Robe, Rope, Sack, String, Tent, Traveler's Clothes",
+          "fr": "Fabrication : armure matelassée, panier, sac de couchage, couverture, vêtements de qualité, filet, robe, corde, sac, ficelle, tente, vêtements de voyage"
+        }
+      ]
+    },
+    {
+      "name": "Alchemist's Supplies",
+      "fields": [
+        {
+          "en": "Ability: Intelligence",
+          "fr": "Caractéristique : Intelligence"
+        },
+        {
+          "en": "Utilize: Identify a substance (DC 15), or start a fire (DC 15)",
+          "fr": "Utilisation : Identifier une substance (DD 15) ou allumer un feu (DD 15)"
+        },
+        {
+          "en": "Craft: Acid, Alchemist’s Fire, Component Pouch, Oil, Paper, Perfume",
+          "fr": "Fabrication : acide, feu grégeois, sacoche à composantes, huile, papier, parfum"
+        }
+      ],
+      "reportEn": "Ability: Intelligence Utilize: Identify a substance (DC 15), or start a fire (DC 15) Craft: Acid, Alchemist’s Fire, Component Pouch, Oil, Paper, Perfume"
+    },
+    {
+      "name": "Brewer's Supplies",
+      "fields": [
+        {
+          "en": "Ability: Intelligence",
+          "fr": "Caractéristique : Intelligence"
+        },
+        {
+          "en": "Utilize: Detect poisoned drink (DC 15), or identify alcohol (DC 10)",
+          "fr": "Utilisation : Détecter une boisson empoisonnée (DD 15) ou identifier un alcool (DD 10)"
+        },
+        {
+          "en": "Craft: Antitoxin",
+          "fr": "Fabrication : antitoxine"
+        }
+      ],
+      "reportEn": "Ability: Intelligence Utilize: Detect poisoned drink (DC 15), or identify alcohol (DC 10) Craft: Antitoxin"
+    },
+    {
+      "name": "Woodcarver’s Tools",
+      "fields": [
+        {
+          "en": "Ability: Dexterity",
+          "fr": "Caractéristique : Dextérité"
+        },
+        {
+          "en": "Utilize: Carve a pattern in wood (DC 10)",
+          "fr": "Utilisation : Sculpter un motif dans le bois (DD 10)"
+        },
+        {
+          "en": "Craft: Club, Greatclub, Quarterstaff, Ranged weapons (except Pistol, Musket, and Sling), Arcane Focus, Arrows, Bolts, Druidic Focus, Ink Pen, Needles",
+          "fr": "Fabrication : gourdin, massue, bâton, armes à distance (sauf pistolet, mousquet et fronde), focaliseur arcanique, flèches, carreaux, focaliseur druidique, plume d’écriture, aiguilles"
+        }
+      ],
+      "reportEn": "Ability: Dexterity Utilize: Carve a pattern in wood (DC 10) Craft: Club, Greatclub, Quarterstaff, Ranged weapons (except Pistol, Musket, and Sling), Arcane Focus, Arrows, Bolts, Druidic Focus, Ink Pen, Needles"
+    },
+    {
+      "name": "Forgery Kit",
+      "fields": [
+        {
+          "en": "Ability: Dexterity",
+          "fr": "Caractéristique : Dextérité"
+        },
+        {
+          "en": "Utilize: Mimic 10 or fewer words of someone else’s handwriting (DC 15), or duplicate a wax seal (DC 20)",
+          "fr": "Utilisation : Imiter 10 mots ou moins de l’écriture d’une autre personne (DD 15) ou reproduire un sceau de cire (DD 20)"
+        }
+      ],
+      "reportEn": "Ability: Dexterity Utilize: Mimic 10 or fewer words of someone else’s handwriting (DC 15), or duplicate a wax seal (DC 20)"
+    },
+    {
+      "name": "Musical Instrument",
+      "fields": [
+        {
+          "en": "Ability: Charisma",
+          "fr": "Caractéristique : Charisme"
+        },
+        {
+          "en": "Utilize: Play a known tune (DC 10), or improvise a song (DC 15)",
+          "fr": "Utilisation : Jouer un air connu (DD 10) ou improviser une chanson (DD 15)"
+        },
+        {
+          "en": "Variants: Bagpipes (30 GP, 6 lb.), drum (6 GP, 3 lb.), dulcimer (25 GP, 10 lb.), flute (2 GP, 1 lb.), horn (3 GP, 2 lb.), lute (35 GP, 2 lb.), lyre (30 GP, 2 lb.), pan flute (12 GP, 2 lb.), shawm (2 GP, 1 lb.), viol (30 GP, 1 lb.)",
+          "fr": "Variantes : cornemuse (30 po, 6 lb.), tambour (6 po, 3 lb.), tympanon (25 po, 10 lb.), flûte (2 po, 1 lb.), cor (3 po, 2 lb.), luth (35 po, 2 lb.), lyre (30 po, 2 lb.), flûte de Pan (12 po, 2 lb.), chalemie (2 po, 1 lb.), viole (30 po, 1 lb.)"
+        }
+      ],
+      "reportEn": "Ability: Charisma Utilize: Play a known tune (DC 10), or improvise a song (DC 15) Variants: Bagpipes (30 GP, 6 lb.), drum (6 GP, 3 lb.), dulcimer (25 GP, 10 lb.), flute (2 GP, 1 lb.), horn (3 GP, 2 lb.), lute (35 GP, 2 lb.), lyre (30 GP, 2 lb.), pan flute (12 GP, 2 lb.), shawm (2 GP, 1 lb.), viol (30 GP, 1 lb.)"
+    },
+    {
+      "name": "Poisoner's Kit",
+      "fields": [
+        {
+          "en": "Ability: Intelligence",
+          "fr": "Caractéristique : Intelligence"
+        },
+        {
+          "en": "Utilize: Detect a poisoned object (DC 10)",
+          "fr": "Utilisation : Détecter un objet empoisonné (DD 10)"
+        },
+        {
+          "en": "Craft: Basic Poison",
+          "fr": "Fabrication : poison basique"
+        }
+      ],
+      "reportEn": "Ability: Intelligence Utilize: Detect a poisoned object (DC 10) Craft: Basic Poison"
+    },
+    {
+      "name": "Thieves’ Tools",
+      "fields": [
+        {
+          "en": "Ability: Dexterity",
+          "fr": "Caractéristique : Dextérité"
+        },
+        {
+          "en": "Utilize: Pick a lock (DC 15), or disarm a trap (DC 15)",
+          "fr": "Utilisation : Crocheter une serrure (DD 15) ou désamorcer un piège (DD 15)"
+        }
+      ],
+      "reportEn": "Ability: Dexterity Utilize: Pick a lock (DC 15), or disarm a trap (DC 15)"
+    }
+  ]
+}

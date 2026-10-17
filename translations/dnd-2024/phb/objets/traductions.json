@@ -1182,6 +1182,509 @@
       "en": "Variants: Dice (1 SP), dragonchess (1 GP), playing cards (5 SP), three-dragon ante (1 GP)",
       "fr": "Variantes : dés (1 pa), échecs draconiques (1 po), cartes à jouer (5 pa), jeu des Trois Dragons (1 po)",
       "source": "Traduction proposée des lignes complètes d’outils du chapitre Équipement PHB Shard · HTML public examiné le 16 octobre 2026 pour compléter les fragments du rapport 1.17.34"
+    },
+    {
+      "id": "tools.2024.calligrapher-s-supplies.value.1",
+      "en": "Write text with impressive flourishes that guard against forgery (DC 15)",
+      "fr": "Écrire un texte agrémenté de fioritures impressionnantes qui le protègent contre la contrefaçon (DD 15)",
+      "source": "Traduction française proposée de l’extrait utilisateur sur les outils du PHB 2024 · 17 octobre 2026 ; prix, DD, durées, tailles et exceptions conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.calligrapher-s-supplies.value.2",
+      "en": "Ink, Spell Scroll",
+      "fr": "encre, parchemin de sort",
+      "source": "Traduction française proposée de l’extrait utilisateur sur les outils du PHB 2024 · 17 octobre 2026 ; prix, DD, durées, tailles et exceptions conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.carpenter-s-tools.field.0",
+      "en": "Ability: Strength",
+      "fr": "Caractéristique : Force",
+      "source": "Traduction française proposée de l’extrait utilisateur sur les outils du PHB 2024 · 17 octobre 2026 ; prix, DD, durées, tailles et exceptions conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.carpenter-s-tools.field.1",
+      "en": "Utilize: Seal or pry open a door or container (DC 20)",
+      "fr": "Utilisation : Sceller ou forcer une porte ou un contenant (DD 20)",
+      "source": "Traduction française proposée de l’extrait utilisateur sur les outils du PHB 2024 · 17 octobre 2026 ; prix, DD, durées, tailles et exceptions conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.carpenter-s-tools.value.1",
+      "en": "Seal or pry open a door or container (DC 20)",
+      "fr": "Sceller ou forcer une porte ou un contenant (DD 20)",
+      "source": "Traduction française proposée de l’extrait utilisateur sur les outils du PHB 2024 · 17 octobre 2026 ; prix, DD, durées, tailles et exceptions conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.carpenter-s-tools.field.2",
+      "en": "Craft: Club, Greatclub, Quarterstaff, Barrel, Chest, Ladder, Pole, Portable Ram, Torch",
+      "fr": "Fabrication : gourdin, massue, bâton, tonneau, coffre, échelle, perche, bélier portable, torche",
+      "source": "Traduction française proposée de l’extrait utilisateur sur les outils du PHB 2024 · 17 octobre 2026 ; prix, DD, durées, tailles et exceptions conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.carpenter-s-tools.value.2",
+      "en": "Club, Greatclub, Quarterstaff, Barrel, Chest, Ladder, Pole, Portable Ram, Torch",
+      "fr": "gourdin, massue, bâton, tonneau, coffre, échelle, perche, bélier portable, torche",
+      "source": "Traduction française proposée de l’extrait utilisateur sur les outils du PHB 2024 · 17 octobre 2026 ; prix, DD, durées, tailles et exceptions conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.cartographer-s-tools.field.1",
+      "en": "Utilize: Draft a map of a small area (DC 15)",
+      "fr": "Utilisation : Tracer une carte d’une petite zone (DD 15)",
+      "source": "Traduction française proposée de l’extrait utilisateur sur les outils du PHB 2024 · 17 octobre 2026 ; prix, DD, durées, tailles et exceptions conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.cartographer-s-tools.value.1",
+      "en": "Draft a map of a small area (DC 15)",
+      "fr": "Tracer une carte d’une petite zone (DD 15)",
+      "source": "Traduction française proposée de l’extrait utilisateur sur les outils du PHB 2024 · 17 octobre 2026 ; prix, DD, durées, tailles et exceptions conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.cartographer-s-tools.field.2",
+      "en": "Craft: Map",
+      "fr": "Fabrication : carte",
+      "source": "Traduction française proposée de l’extrait utilisateur sur les outils du PHB 2024 · 17 octobre 2026 ; prix, DD, durées, tailles et exceptions conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.cobbler-s-tools.value.1",
+      "en": "Modify footwear to give Advantage on the wearer’s next Dexterity (Acrobatics) check (DC 10)",
+      "fr": "Modifier des chaussures pour donner l’Avantage au prochain test de Dextérité (Acrobaties) de leur porteur (DD 10)",
+      "source": "Traduction française proposée de l’extrait utilisateur sur les outils du PHB 2024 · 17 octobre 2026 ; prix, DD, durées, tailles et exceptions conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.cook-s-utensils.field.1",
+      "en": "Utilize: Improve food’s flavor (DC 10), or detect spoiled or poisoned food (DC 15)",
+      "fr": "Utilisation : Améliorer la saveur des aliments (DD 10) ou détecter des aliments avariés ou empoisonnés (DD 15)",
+      "source": "Traduction française proposée de l’extrait utilisateur sur les outils du PHB 2024 · 17 octobre 2026 ; prix, DD, durées, tailles et exceptions conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.cook-s-utensils.value.1",
+      "en": "Improve food’s flavor (DC 10), or detect spoiled or poisoned food (DC 15)",
+      "fr": "Améliorer la saveur des aliments (DD 10) ou détecter des aliments avariés ou empoisonnés (DD 15)",
+      "source": "Traduction française proposée de l’extrait utilisateur sur les outils du PHB 2024 · 17 octobre 2026 ; prix, DD, durées, tailles et exceptions conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.cook-s-utensils.field.2",
+      "en": "Craft: Rations",
+      "fr": "Fabrication : rations",
+      "source": "Traduction française proposée de l’extrait utilisateur sur les outils du PHB 2024 · 17 octobre 2026 ; prix, DD, durées, tailles et exceptions conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.glassblower-s-tools.value.1",
+      "en": "Discern what a glass object held in the past 24 hours (DC 15)",
+      "fr": "Déterminer ce qu’un objet en verre a contenu au cours des dernières 24 heures (DD 15)",
+      "source": "Traduction française proposée de l’extrait utilisateur sur les outils du PHB 2024 · 17 octobre 2026 ; prix, DD, durées, tailles et exceptions conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.glassblower-s-tools.value.2",
+      "en": "Glass Bottle, Magnifying Glass, Spyglass, Vial",
+      "fr": "bouteille en verre, loupe, longue-vue, fiole",
+      "source": "Traduction française proposée de l’extrait utilisateur sur les outils du PHB 2024 · 17 octobre 2026 ; prix, DD, durées, tailles et exceptions conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.jeweler-s-tools.field.1",
+      "en": "Utilize: Discern a gem’s value (DC 15)",
+      "fr": "Utilisation : Déterminer la valeur d’une gemme (DD 15)",
+      "source": "Traduction française proposée de l’extrait utilisateur sur les outils du PHB 2024 · 17 octobre 2026 ; prix, DD, durées, tailles et exceptions conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.jeweler-s-tools.value.1",
+      "en": "Discern a gem’s value (DC 15)",
+      "fr": "Déterminer la valeur d’une gemme (DD 15)",
+      "source": "Traduction française proposée de l’extrait utilisateur sur les outils du PHB 2024 · 17 octobre 2026 ; prix, DD, durées, tailles et exceptions conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.jeweler-s-tools.field.2",
+      "en": "Craft: Arcane Focus, Holy Symbol",
+      "fr": "Fabrication : focaliseur arcanique, symbole sacré",
+      "source": "Traduction française proposée de l’extrait utilisateur sur les outils du PHB 2024 · 17 octobre 2026 ; prix, DD, durées, tailles et exceptions conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.jeweler-s-tools.value.2",
+      "en": "Arcane Focus, Holy Symbol",
+      "fr": "focaliseur arcanique, symbole sacré",
+      "source": "Traduction française proposée de l’extrait utilisateur sur les outils du PHB 2024 · 17 octobre 2026 ; prix, DD, durées, tailles et exceptions conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.leatherworker-s-tools.field.1",
+      "en": "Utilize: Add a design to a leather item (DC 10)",
+      "fr": "Utilisation : Ajouter un motif à un objet en cuir (DD 10)",
+      "source": "Traduction française proposée de l’extrait utilisateur sur les outils du PHB 2024 · 17 octobre 2026 ; prix, DD, durées, tailles et exceptions conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.leatherworker-s-tools.value.1",
+      "en": "Add a design to a leather item (DC 10)",
+      "fr": "Ajouter un motif à un objet en cuir (DD 10)",
+      "source": "Traduction française proposée de l’extrait utilisateur sur les outils du PHB 2024 · 17 octobre 2026 ; prix, DD, durées, tailles et exceptions conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.leatherworker-s-tools.field.2",
+      "en": "Craft: Sling, Whip, Hide Armor, Leather Armor, Studded Leather Armor, Backpack, Crossbow Bolt Case, Map or Scroll Case, Parchment, Pouch, Quiver, Waterskin",
+      "fr": "Fabrication : fronde, fouet, armure de peaux, armure de cuir, armure de cuir clouté, sac à dos, étui à carreaux d’arbalète, étui à cartes ou à parchemins, parchemin, bourse, carquois, outre",
+      "source": "Traduction française proposée de l’extrait utilisateur sur les outils du PHB 2024 · 17 octobre 2026 ; prix, DD, durées, tailles et exceptions conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.leatherworker-s-tools.value.2",
+      "en": "Sling, Whip, Hide Armor, Leather Armor, Studded Leather Armor, Backpack, Crossbow Bolt Case, Map or Scroll Case, Parchment, Pouch, Quiver, Waterskin",
+      "fr": "fronde, fouet, armure de peaux, armure de cuir, armure de cuir clouté, sac à dos, étui à carreaux d’arbalète, étui à cartes ou à parchemins, parchemin, bourse, carquois, outre",
+      "source": "Traduction française proposée de l’extrait utilisateur sur les outils du PHB 2024 · 17 octobre 2026 ; prix, DD, durées, tailles et exceptions conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.mason-s-tools.field.1",
+      "en": "Utilize: Chisel a symbol or hole in stone (DC 10)",
+      "fr": "Utilisation : Ciseler un symbole ou creuser un trou dans la pierre (DD 10)",
+      "source": "Traduction française proposée de l’extrait utilisateur sur les outils du PHB 2024 · 17 octobre 2026 ; prix, DD, durées, tailles et exceptions conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.mason-s-tools.value.1",
+      "en": "Chisel a symbol or hole in stone (DC 10)",
+      "fr": "Ciseler un symbole ou creuser un trou dans la pierre (DD 10)",
+      "source": "Traduction française proposée de l’extrait utilisateur sur les outils du PHB 2024 · 17 octobre 2026 ; prix, DD, durées, tailles et exceptions conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.mason-s-tools.field.2",
+      "en": "Craft: Block and Tackle",
+      "fr": "Fabrication : palan",
+      "source": "Traduction française proposée de l’extrait utilisateur sur les outils du PHB 2024 · 17 octobre 2026 ; prix, DD, durées, tailles et exceptions conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.painter-s-supplies.value.1",
+      "en": "Paint a recognizable image of something you’ve seen (DC 10)",
+      "fr": "Peindre une image reconnaissable de quelque chose que vous avez vu (DD 10)",
+      "source": "Traduction française proposée de l’extrait utilisateur sur les outils du PHB 2024 · 17 octobre 2026 ; prix, DD, durées, tailles et exceptions conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.painter-s-supplies.value.2",
+      "en": "Druidic Focus, Holy Symbol",
+      "fr": "focaliseur druidique, symbole sacré",
+      "source": "Traduction française proposée de l’extrait utilisateur sur les outils du PHB 2024 · 17 octobre 2026 ; prix, DD, durées, tailles et exceptions conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.potter-s-tools.value.1",
+      "en": "Discern what a ceramic object held in the past 24 hours (DC 15)",
+      "fr": "Déterminer ce qu’un objet en céramique a contenu au cours des dernières 24 heures (DD 15)",
+      "source": "Traduction française proposée de l’extrait utilisateur sur les outils du PHB 2024 · 17 octobre 2026 ; prix, DD, durées, tailles et exceptions conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.smith-s-tools.field.1",
+      "en": "Utilize: Pry open a door or container (DC 20)",
+      "fr": "Utilisation : Forcer une porte ou un contenant (DD 20)",
+      "source": "Traduction française proposée de l’extrait utilisateur sur les outils du PHB 2024 · 17 octobre 2026 ; prix, DD, durées, tailles et exceptions conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.smith-s-tools.value.1",
+      "en": "Pry open a door or container (DC 20)",
+      "fr": "Forcer une porte ou un contenant (DD 20)",
+      "source": "Traduction française proposée de l’extrait utilisateur sur les outils du PHB 2024 · 17 octobre 2026 ; prix, DD, durées, tailles et exceptions conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.smith-s-tools.field.2",
+      "en": "Craft: Any Melee weapon (except Club, Greatclub, Quarterstaff, and Whip), Medium armor (except Hide), Heavy armor, Ball Bearings, Bucket, Caltrops, Chain, Crowbar, Firearm Bullets, Grappling Hook, Iron Pot, Iron Spikes, Sling Bullets",
+      "fr": "Fabrication : toute arme de corps à corps (sauf gourdin, massue, bâton et fouet), armure intermédiaire (sauf de peaux), armure lourde, billes métalliques, seau, chausse-trappes, chaîne, pied-de-biche, balles d’arme à feu, grappin, marmite en fer, pointes en fer, billes de fronde",
+      "source": "Traduction française proposée de l’extrait utilisateur sur les outils du PHB 2024 · 17 octobre 2026 ; prix, DD, durées, tailles et exceptions conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.smith-s-tools.value.2",
+      "en": "Any Melee weapon (except Club, Greatclub, Quarterstaff, and Whip), Medium armor (except Hide), Heavy armor, Ball Bearings, Bucket, Caltrops, Chain, Crowbar, Firearm Bullets, Grappling Hook, Iron Pot, Iron Spikes, Sling Bullets",
+      "fr": "toute arme de corps à corps (sauf gourdin, massue, bâton et fouet), armure intermédiaire (sauf de peaux), armure lourde, billes métalliques, seau, chausse-trappes, chaîne, pied-de-biche, balles d’arme à feu, grappin, marmite en fer, pointes en fer, billes de fronde",
+      "source": "Traduction française proposée de l’extrait utilisateur sur les outils du PHB 2024 · 17 octobre 2026 ; prix, DD, durées, tailles et exceptions conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.tinker-s-tools.field.1",
+      "en": "Utilize: Assemble a Tiny item composed of scrap, which falls apart in 1 minute (DC 20)",
+      "fr": "Utilisation : Assembler un objet de taille TP à partir de débris, qui se disloque au bout de 1 minute (DD 20)",
+      "source": "Traduction française proposée de l’extrait utilisateur sur les outils du PHB 2024 · 17 octobre 2026 ; prix, DD, durées, tailles et exceptions conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.tinker-s-tools.value.1",
+      "en": "Assemble a Tiny item composed of scrap, which falls apart in 1 minute (DC 20)",
+      "fr": "Assembler un objet de taille TP à partir de débris, qui se disloque au bout de 1 minute (DD 20)",
+      "source": "Traduction française proposée de l’extrait utilisateur sur les outils du PHB 2024 · 17 octobre 2026 ; prix, DD, durées, tailles et exceptions conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.tinker-s-tools.field.2",
+      "en": "Craft: Musket, Pistol, Bell, Bullseye Lantern, Flask, Hooded Lantern, Hunter’s Trap, Lock, Manacles, Mirror, Shovel, Signal Whistle, Tinderbox",
+      "fr": "Fabrication : mousquet, pistolet, cloche, lanterne sourde, flasque, lanterne à capote, piège à mâchoires, serrure, menottes, miroir, pelle, sifflet, boîte à amadou",
+      "source": "Traduction française proposée de l’extrait utilisateur sur les outils du PHB 2024 · 17 octobre 2026 ; prix, DD, durées, tailles et exceptions conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.tinker-s-tools.value.2",
+      "en": "Musket, Pistol, Bell, Bullseye Lantern, Flask, Hooded Lantern, Hunter’s Trap, Lock, Manacles, Mirror, Shovel, Signal Whistle, Tinderbox",
+      "fr": "mousquet, pistolet, cloche, lanterne sourde, flasque, lanterne à capote, piège à mâchoires, serrure, menottes, miroir, pelle, sifflet, boîte à amadou",
+      "source": "Traduction française proposée de l’extrait utilisateur sur les outils du PHB 2024 · 17 octobre 2026 ; prix, DD, durées, tailles et exceptions conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.weaver-s-tools.field.1",
+      "en": "Utilize: Mend a tear in clothing (DC 10), or sew a Tiny design (DC 10)",
+      "fr": "Utilisation : Raccommoder une déchirure dans un vêtement (DD 10) ou coudre un motif de taille TP (DD 10)",
+      "source": "Traduction française proposée de l’extrait utilisateur sur les outils du PHB 2024 · 17 octobre 2026 ; prix, DD, durées, tailles et exceptions conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.weaver-s-tools.value.1",
+      "en": "Mend a tear in clothing (DC 10), or sew a Tiny design (DC 10)",
+      "fr": "Raccommoder une déchirure dans un vêtement (DD 10) ou coudre un motif de taille TP (DD 10)",
+      "source": "Traduction française proposée de l’extrait utilisateur sur les outils du PHB 2024 · 17 octobre 2026 ; prix, DD, durées, tailles et exceptions conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.weaver-s-tools.field.2",
+      "en": "Craft: Padded Armor, Basket, Bedroll, Blanket, Fine Clothes, Net, Robe, Rope, Sack, String, Tent, Traveler's Clothes",
+      "fr": "Fabrication : armure matelassée, panier, sac de couchage, couverture, vêtements de qualité, filet, robe, corde, sac, ficelle, tente, vêtements de voyage",
+      "source": "Traduction française proposée de l’extrait utilisateur sur les outils du PHB 2024 · 17 octobre 2026 ; prix, DD, durées, tailles et exceptions conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.weaver-s-tools.value.2",
+      "en": "Padded Armor, Basket, Bedroll, Blanket, Fine Clothes, Net, Robe, Rope, Sack, String, Tent, Traveler's Clothes",
+      "fr": "armure matelassée, panier, sac de couchage, couverture, vêtements de qualité, filet, robe, corde, sac, ficelle, tente, vêtements de voyage",
+      "source": "Traduction française proposée de l’extrait utilisateur sur les outils du PHB 2024 · 17 octobre 2026 ; prix, DD, durées, tailles et exceptions conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.name.hunter-s-trap",
+      "en": "Hunter’s Trap",
+      "fr": "Piège à mâchoires",
+      "source": "Traduction française proposée de l’extrait utilisateur sur les outils du PHB 2024 · 17 octobre 2026 ; prix, DD, durées, tailles et exceptions conservés",
+      "edition": "2024",
+      "kind": "term"
+    },
+    {
+      "id": "tools.2024.name.mirror",
+      "en": "Mirror",
+      "fr": "Miroir",
+      "source": "Traduction française proposée de l’extrait utilisateur sur les outils du PHB 2024 · 17 octobre 2026 ; prix, DD, durées, tailles et exceptions conservés",
+      "edition": "2024",
+      "kind": "term"
+    },
+    {
+      "id": "tools.2024.name.robe",
+      "en": "Robe",
+      "fr": "Robe",
+      "source": "Traduction française proposée de l’extrait utilisateur sur les outils du PHB 2024 · 17 octobre 2026 ; prix, DD, durées, tailles et exceptions conservés",
+      "edition": "2024",
+      "kind": "term"
+    },
+    {
+      "id": "tools.2024.report-11746.0.field.1",
+      "en": "Utilize: Identify a substance (DC 15), or start a fire (DC 15)",
+      "fr": "Utilisation : Identifier une substance (DD 15) ou allumer un feu (DD 15)",
+      "source": "Traduction française proposée du rapport utilisateur visible-page 1.17.46 · sept équipements et outils du PHB 2024 · 17 octobre 2026 ; DD, quantités, prix et poids conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.report-11746.0.value.1",
+      "en": "Identify a substance (DC 15), or start a fire (DC 15)",
+      "fr": "Identifier une substance (DD 15) ou allumer un feu (DD 15)",
+      "source": "Traduction française proposée du rapport utilisateur visible-page 1.17.46 · sept équipements et outils du PHB 2024 · 17 octobre 2026 ; DD, quantités, prix et poids conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.report-11746.0.field.2",
+      "en": "Craft: Acid, Alchemist’s Fire, Component Pouch, Oil, Paper, Perfume",
+      "fr": "Fabrication : acide, feu grégeois, sacoche à composantes, huile, papier, parfum",
+      "source": "Traduction française proposée du rapport utilisateur visible-page 1.17.46 · sept équipements et outils du PHB 2024 · 17 octobre 2026 ; DD, quantités, prix et poids conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.report-11746.0.value.2",
+      "en": "Acid, Alchemist’s Fire, Component Pouch, Oil, Paper, Perfume",
+      "fr": "acide, feu grégeois, sacoche à composantes, huile, papier, parfum",
+      "source": "Traduction française proposée du rapport utilisateur visible-page 1.17.46 · sept équipements et outils du PHB 2024 · 17 octobre 2026 ; DD, quantités, prix et poids conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.report-11746.1.field.1",
+      "en": "Utilize: Detect poisoned drink (DC 15), or identify alcohol (DC 10)",
+      "fr": "Utilisation : Détecter une boisson empoisonnée (DD 15) ou identifier un alcool (DD 10)",
+      "source": "Traduction française proposée du rapport utilisateur visible-page 1.17.46 · sept équipements et outils du PHB 2024 · 17 octobre 2026 ; DD, quantités, prix et poids conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.report-11746.1.value.1",
+      "en": "Detect poisoned drink (DC 15), or identify alcohol (DC 10)",
+      "fr": "Détecter une boisson empoisonnée (DD 15) ou identifier un alcool (DD 10)",
+      "source": "Traduction française proposée du rapport utilisateur visible-page 1.17.46 · sept équipements et outils du PHB 2024 · 17 octobre 2026 ; DD, quantités, prix et poids conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.report-11746.1.field.2",
+      "en": "Craft: Antitoxin",
+      "fr": "Fabrication : antitoxine",
+      "source": "Traduction française proposée du rapport utilisateur visible-page 1.17.46 · sept équipements et outils du PHB 2024 · 17 octobre 2026 ; DD, quantités, prix et poids conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.report-11746.2.field.1",
+      "en": "Utilize: Carve a pattern in wood (DC 10)",
+      "fr": "Utilisation : Sculpter un motif dans le bois (DD 10)",
+      "source": "Traduction française proposée du rapport utilisateur visible-page 1.17.46 · sept équipements et outils du PHB 2024 · 17 octobre 2026 ; DD, quantités, prix et poids conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.report-11746.2.value.1",
+      "en": "Carve a pattern in wood (DC 10)",
+      "fr": "Sculpter un motif dans le bois (DD 10)",
+      "source": "Traduction française proposée du rapport utilisateur visible-page 1.17.46 · sept équipements et outils du PHB 2024 · 17 octobre 2026 ; DD, quantités, prix et poids conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.report-11746.2.field.2",
+      "en": "Craft: Club, Greatclub, Quarterstaff, Ranged weapons (except Pistol, Musket, and Sling), Arcane Focus, Arrows, Bolts, Druidic Focus, Ink Pen, Needles",
+      "fr": "Fabrication : gourdin, massue, bâton, armes à distance (sauf pistolet, mousquet et fronde), focaliseur arcanique, flèches, carreaux, focaliseur druidique, plume d’écriture, aiguilles",
+      "source": "Traduction française proposée du rapport utilisateur visible-page 1.17.46 · sept équipements et outils du PHB 2024 · 17 octobre 2026 ; DD, quantités, prix et poids conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.report-11746.2.value.2",
+      "en": "Club, Greatclub, Quarterstaff, Ranged weapons (except Pistol, Musket, and Sling), Arcane Focus, Arrows, Bolts, Druidic Focus, Ink Pen, Needles",
+      "fr": "gourdin, massue, bâton, armes à distance (sauf pistolet, mousquet et fronde), focaliseur arcanique, flèches, carreaux, focaliseur druidique, plume d’écriture, aiguilles",
+      "source": "Traduction française proposée du rapport utilisateur visible-page 1.17.46 · sept équipements et outils du PHB 2024 · 17 octobre 2026 ; DD, quantités, prix et poids conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.report-11746.3.field.1",
+      "en": "Utilize: Mimic 10 or fewer words of someone else’s handwriting (DC 15), or duplicate a wax seal (DC 20)",
+      "fr": "Utilisation : Imiter 10 mots ou moins de l’écriture d’une autre personne (DD 15) ou reproduire un sceau de cire (DD 20)",
+      "source": "Traduction française proposée du rapport utilisateur visible-page 1.17.46 · sept équipements et outils du PHB 2024 · 17 octobre 2026 ; DD, quantités, prix et poids conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.report-11746.3.value.1",
+      "en": "Mimic 10 or fewer words of someone else’s handwriting (DC 15), or duplicate a wax seal (DC 20)",
+      "fr": "Imiter 10 mots ou moins de l’écriture d’une autre personne (DD 15) ou reproduire un sceau de cire (DD 20)",
+      "source": "Traduction française proposée du rapport utilisateur visible-page 1.17.46 · sept équipements et outils du PHB 2024 · 17 octobre 2026 ; DD, quantités, prix et poids conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.report-11746.4.field.0",
+      "en": "Ability: Charisma",
+      "fr": "Caractéristique : Charisme",
+      "source": "Traduction française proposée du rapport utilisateur visible-page 1.17.46 · sept équipements et outils du PHB 2024 · 17 octobre 2026 ; DD, quantités, prix et poids conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.report-11746.4.field.1",
+      "en": "Utilize: Play a known tune (DC 10), or improvise a song (DC 15)",
+      "fr": "Utilisation : Jouer un air connu (DD 10) ou improviser une chanson (DD 15)",
+      "source": "Traduction française proposée du rapport utilisateur visible-page 1.17.46 · sept équipements et outils du PHB 2024 · 17 octobre 2026 ; DD, quantités, prix et poids conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.report-11746.4.value.1",
+      "en": "Play a known tune (DC 10), or improvise a song (DC 15)",
+      "fr": "Jouer un air connu (DD 10) ou improviser une chanson (DD 15)",
+      "source": "Traduction française proposée du rapport utilisateur visible-page 1.17.46 · sept équipements et outils du PHB 2024 · 17 octobre 2026 ; DD, quantités, prix et poids conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.report-11746.4.field.2",
+      "en": "Variants: Bagpipes (30 GP, 6 lb.), drum (6 GP, 3 lb.), dulcimer (25 GP, 10 lb.), flute (2 GP, 1 lb.), horn (3 GP, 2 lb.), lute (35 GP, 2 lb.), lyre (30 GP, 2 lb.), pan flute (12 GP, 2 lb.), shawm (2 GP, 1 lb.), viol (30 GP, 1 lb.)",
+      "fr": "Variantes : cornemuse (30 po, 6 lb.), tambour (6 po, 3 lb.), tympanon (25 po, 10 lb.), flûte (2 po, 1 lb.), cor (3 po, 2 lb.), luth (35 po, 2 lb.), lyre (30 po, 2 lb.), flûte de Pan (12 po, 2 lb.), chalemie (2 po, 1 lb.), viole (30 po, 1 lb.)",
+      "source": "Traduction française proposée du rapport utilisateur visible-page 1.17.46 · sept équipements et outils du PHB 2024 · 17 octobre 2026 ; DD, quantités, prix et poids conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.report-11746.4.value.2",
+      "en": "Bagpipes (30 GP, 6 lb.), drum (6 GP, 3 lb.), dulcimer (25 GP, 10 lb.), flute (2 GP, 1 lb.), horn (3 GP, 2 lb.), lute (35 GP, 2 lb.), lyre (30 GP, 2 lb.), pan flute (12 GP, 2 lb.), shawm (2 GP, 1 lb.), viol (30 GP, 1 lb.)",
+      "fr": "cornemuse (30 po, 6 lb.), tambour (6 po, 3 lb.), tympanon (25 po, 10 lb.), flûte (2 po, 1 lb.), cor (3 po, 2 lb.), luth (35 po, 2 lb.), lyre (30 po, 2 lb.), flûte de Pan (12 po, 2 lb.), chalemie (2 po, 1 lb.), viole (30 po, 1 lb.)",
+      "source": "Traduction française proposée du rapport utilisateur visible-page 1.17.46 · sept équipements et outils du PHB 2024 · 17 octobre 2026 ; DD, quantités, prix et poids conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.report-11746.5.field.1",
+      "en": "Utilize: Detect a poisoned object (DC 10)",
+      "fr": "Utilisation : Détecter un objet empoisonné (DD 10)",
+      "source": "Traduction française proposée du rapport utilisateur visible-page 1.17.46 · sept équipements et outils du PHB 2024 · 17 octobre 2026 ; DD, quantités, prix et poids conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.report-11746.5.value.1",
+      "en": "Detect a poisoned object (DC 10)",
+      "fr": "Détecter un objet empoisonné (DD 10)",
+      "source": "Traduction française proposée du rapport utilisateur visible-page 1.17.46 · sept équipements et outils du PHB 2024 · 17 octobre 2026 ; DD, quantités, prix et poids conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.report-11746.5.field.2",
+      "en": "Craft: Basic Poison",
+      "fr": "Fabrication : poison basique",
+      "source": "Traduction française proposée du rapport utilisateur visible-page 1.17.46 · sept équipements et outils du PHB 2024 · 17 octobre 2026 ; DD, quantités, prix et poids conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.report-11746.6.field.1",
+      "en": "Utilize: Pick a lock (DC 15), or disarm a trap (DC 15)",
+      "fr": "Utilisation : Crocheter une serrure (DD 15) ou désamorcer un piège (DD 15)",
+      "source": "Traduction française proposée du rapport utilisateur visible-page 1.17.46 · sept équipements et outils du PHB 2024 · 17 octobre 2026 ; DD, quantités, prix et poids conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.report-11746.6.value.1",
+      "en": "Pick a lock (DC 15), or disarm a trap (DC 15)",
+      "fr": "Crocheter une serrure (DD 15) ou désamorcer un piège (DD 15)",
+      "source": "Traduction française proposée du rapport utilisateur visible-page 1.17.46 · sept équipements et outils du PHB 2024 · 17 octobre 2026 ; DD, quantités, prix et poids conservés",
+      "edition": "2024"
+    },
+    {
+      "id": "tools.2024.report-11746.alchemist-s-fire",
+      "en": "Alchemist’s Fire",
+      "fr": "Feu grégeois",
+      "source": "Traduction française proposée du rapport utilisateur visible-page 1.17.46 · sept équipements et outils du PHB 2024 · 17 octobre 2026 ; DD, quantités, prix et poids conservés",
+      "edition": "2024",
+      "kind": "term"
+    },
+    {
+      "id": "tools.2024.report-11746.bolts",
+      "en": "Bolts",
+      "fr": "Carreaux",
+      "source": "Traduction française proposée du rapport utilisateur visible-page 1.17.46 · sept équipements et outils du PHB 2024 · 17 octobre 2026 ; DD, quantités, prix et poids conservés",
+      "edition": "2024",
+      "kind": "term"
+    },
+    {
+      "id": "tools.2024.report-11746.needles",
+      "en": "Needles",
+      "fr": "Aiguilles",
+      "source": "Traduction française proposée du rapport utilisateur visible-page 1.17.46 · sept équipements et outils du PHB 2024 · 17 octobre 2026 ; DD, quantités, prix et poids conservés",
+      "edition": "2024",
+      "kind": "term"
     }
   ]
 }

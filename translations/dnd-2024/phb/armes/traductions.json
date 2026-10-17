@@ -995,6 +995,14 @@
       "fr": "La botte de cette arme (Fouet) permet d’utiliser la propriété Ralentissement.",
       "source": "Traduction proposée des fiches intégrales Shard · D&D 2024 PHB · Weapon Masteries · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
       "edition": "2024"
+    },
+    {
+      "id": "tools.2024.report-11746.ranged-weapons",
+      "kind": "term",
+      "en": "Ranged weapons",
+      "fr": "Armes à distance",
+      "source": "Traduction française proposée de la liste de fabrication des outils de sculpteur sur bois · rapport utilisateur visible-page 1.17.46 · 17 octobre 2026",
+      "edition": "2024"
     }
   ]
 }

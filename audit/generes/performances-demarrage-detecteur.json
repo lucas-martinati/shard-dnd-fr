@@ -1,0 +1,201 @@
+{
+  "date": "2026-10-17",
+  "baselineCommit": "ca3633d",
+  "baselineSHA256": "50330bc646d9bdccc9782c37583c7fa18533cdbe653a013fc1351d5f9f09ab20",
+  "workingTreeSHA256": "8dc75ff344da99c46a38cecce22c92f4e091ca83ce906c47f0076884b3392464",
+  "sameReportBeforeAfter": true,
+  "before": {
+    "scriptPath": "/tmp/shard-before.user.js",
+    "environment": "Chromium 154.0.8037.57",
+    "groups": 1000,
+    "blocks": 3000,
+    "measurements": [
+      {
+        "startupMs": 151.09999999962747,
+        "firstVisibleMs": 62.90000000037253,
+        "translationWaitMs": 18819.099999999627,
+        "analysisAndRenderMs": 2379.5,
+        "clickToReportMs": 21198.599999999627,
+        "missingCount": 1001,
+        "reportSHA256": "93a14dfab8308120add7d619efb770b5c8afc097a80d1ff8ccf997cbb518cc50"
+      },
+      {
+        "startupMs": 147.39999999990687,
+        "firstVisibleMs": 61.90000000037253,
+        "translationWaitMs": 19661.299999999814,
+        "analysisAndRenderMs": 2362.600000000093,
+        "clickToReportMs": 22023.899999999907,
+        "missingCount": 1001,
+        "reportSHA256": "93a14dfab8308120add7d619efb770b5c8afc097a80d1ff8ccf997cbb518cc50"
+      },
+      {
+        "startupMs": 143.10000000009313,
+        "firstVisibleMs": 60.299999999813735,
+        "translationWaitMs": 19284.600000000093,
+        "analysisAndRenderMs": 2378.600000000093,
+        "clickToReportMs": 21663.200000000186,
+        "missingCount": 1001,
+        "reportSHA256": "93a14dfab8308120add7d619efb770b5c8afc097a80d1ff8ccf997cbb518cc50"
+      }
+    ],
+    "medianTranslationWaitMs": 19284.600000000093,
+    "medianClickToReportMs": 21663.200000000186,
+    "note": "Même HTML hors ligne, limites désactivées. Clic dès le premier libellé visible traduit, avant la fin du parcours. Ne mesure ni Shard connecté ni les références réseau."
+  },
+  "after": {
+    "scriptPath": "outputs/shard-dnd-fr.user.js",
+    "environment": "Chromium 154.0.8037.57",
+    "groups": 1000,
+    "blocks": 3000,
+    "measurements": [
+      {
+        "startupMs": 160.5,
+        "firstVisibleMs": 60.89999999944121,
+        "translationWaitMs": 981.4000000003725,
+        "analysisAndRenderMs": 420.90000000037253,
+        "clickToReportMs": 1402.300000000745,
+        "missingCount": 1001,
+        "reportSHA256": "93a14dfab8308120add7d619efb770b5c8afc097a80d1ff8ccf997cbb518cc50"
+      },
+      {
+        "startupMs": 145.3999999994412,
+        "firstVisibleMs": 59.200000000186265,
+        "translationWaitMs": 990.4000000003725,
+        "analysisAndRenderMs": 421.29999999981374,
+        "clickToReportMs": 1411.7000000001863,
+        "missingCount": 1001,
+        "reportSHA256": "93a14dfab8308120add7d619efb770b5c8afc097a80d1ff8ccf997cbb518cc50"
+      },
+      {
+        "startupMs": 147,
+        "firstVisibleMs": 59.60000000055879,
+        "translationWaitMs": 999,
+        "analysisAndRenderMs": 413.79999999981374,
+        "clickToReportMs": 1412.7999999998137,
+        "missingCount": 1001,
+        "reportSHA256": "93a14dfab8308120add7d619efb770b5c8afc097a80d1ff8ccf997cbb518cc50"
+      }
+    ],
+    "medianTranslationWaitMs": 990.4000000003725,
+    "medianClickToReportMs": 1411.7000000001863,
+    "note": "Même HTML hors ligne, limites désactivées. Clic dès le premier libellé visible traduit, avant la fin du parcours. Ne mesure ni Shard connecté ni les références réseau."
+  },
+  "largePageAfter": {
+    "scriptPath": "outputs/shard-dnd-fr.user.js",
+    "environment": "Chromium 154.0.8037.57",
+    "groups": 2000,
+    "blocks": 6000,
+    "measurements": [
+      {
+        "startupMs": 158.40000000037253,
+        "firstVisibleMs": 60.700000000186265,
+        "translationWaitMs": 2091.5,
+        "analysisAndRenderMs": 740,
+        "clickToReportMs": 2831.5,
+        "missingCount": 2001,
+        "reportSHA256": "071852cf88edf77c2091a797aede913fc4f684d76ff6ab1540caa6ac62713e81"
+      },
+      {
+        "startupMs": 156.5,
+        "firstVisibleMs": 60.09999999962747,
+        "translationWaitMs": 2279,
+        "analysisAndRenderMs": 758,
+        "clickToReportMs": 3037,
+        "missingCount": 2001,
+        "reportSHA256": "071852cf88edf77c2091a797aede913fc4f684d76ff6ab1540caa6ac62713e81"
+      },
+      {
+        "startupMs": 153.29999999981374,
+        "firstVisibleMs": 60.700000000186265,
+        "translationWaitMs": 2222.2999999998137,
+        "analysisAndRenderMs": 743.9000000003725,
+        "clickToReportMs": 2966.2000000001863,
+        "missingCount": 2001,
+        "reportSHA256": "071852cf88edf77c2091a797aede913fc4f684d76ff6ab1540caa6ac62713e81"
+      }
+    ],
+    "medianTranslationWaitMs": 2222.2999999998137,
+    "medianClickToReportMs": 2966.2000000001863,
+    "note": "Même HTML hors ligne, limites désactivées. Clic dès le premier libellé visible traduit, avant la fin du parcours. Ne mesure ni Shard connecté ni les références réseau."
+  },
+  "initialOptimization": {
+    "workingTreeSHA256": "cf96d2d4739b1dce35b747a6f5dc2d77c8b581402b885f704446b243898fd93b",
+    "after": {
+      "scriptPath": "outputs/shard-dnd-fr.user.js",
+      "environment": "Chromium 154.0.8037.57",
+      "groups": 1000,
+      "blocks": 3000,
+      "measurements": [
+        {
+          "startupMs": 142.29999999981374,
+          "firstVisibleMs": 60.60000000009313,
+          "translationWaitMs": 941,
+          "analysisAndRenderMs": 385.8000000002794,
+          "clickToReportMs": 1326.8000000002794,
+          "missingCount": 1001,
+          "reportSHA256": "93a14dfab8308120add7d619efb770b5c8afc097a80d1ff8ccf997cbb518cc50"
+        },
+        {
+          "startupMs": 140.29999999981374,
+          "firstVisibleMs": 76.89999999990687,
+          "translationWaitMs": 979.2000000001863,
+          "analysisAndRenderMs": 388.10000000009313,
+          "clickToReportMs": 1367.3000000002794,
+          "missingCount": 1001,
+          "reportSHA256": "93a14dfab8308120add7d619efb770b5c8afc097a80d1ff8ccf997cbb518cc50"
+        },
+        {
+          "startupMs": 142.39999999990687,
+          "firstVisibleMs": 64,
+          "translationWaitMs": 969.8999999999069,
+          "analysisAndRenderMs": 396.40000000037253,
+          "clickToReportMs": 1366.3000000002794,
+          "missingCount": 1001,
+          "reportSHA256": "93a14dfab8308120add7d619efb770b5c8afc097a80d1ff8ccf997cbb518cc50"
+        }
+      ],
+      "medianTranslationWaitMs": 969.8999999999069,
+      "medianClickToReportMs": 1366.3000000002794,
+      "note": "Même HTML hors ligne, limites désactivées. Clic dès le premier libellé visible traduit, avant la fin du parcours. Ne mesure ni Shard connecté ni les références réseau."
+    },
+    "largePageAfter": {
+      "scriptPath": "outputs/shard-dnd-fr.user.js",
+      "environment": "Chromium 154.0.8037.57",
+      "groups": 2000,
+      "blocks": 6000,
+      "measurements": [
+        {
+          "startupMs": 149.70000000018626,
+          "firstVisibleMs": 60.60000000009313,
+          "translationWaitMs": 1843.8000000002794,
+          "analysisAndRenderMs": 691.6000000000931,
+          "clickToReportMs": 2535.4000000003725,
+          "missingCount": 2001,
+          "reportSHA256": "071852cf88edf77c2091a797aede913fc4f684d76ff6ab1540caa6ac62713e81"
+        },
+        {
+          "startupMs": 147.60000000009313,
+          "firstVisibleMs": 63.39999999990687,
+          "translationWaitMs": 2121.1999999997206,
+          "analysisAndRenderMs": 685.3999999999069,
+          "clickToReportMs": 2806.5999999996275,
+          "missingCount": 2001,
+          "reportSHA256": "071852cf88edf77c2091a797aede913fc4f684d76ff6ab1540caa6ac62713e81"
+        },
+        {
+          "startupMs": 146.40000000037253,
+          "firstVisibleMs": 70.39999999990687,
+          "translationWaitMs": 1861.2999999998137,
+          "analysisAndRenderMs": 683.5,
+          "clickToReportMs": 2544.7999999998137,
+          "missingCount": 2001,
+          "reportSHA256": "071852cf88edf77c2091a797aede913fc4f684d76ff6ab1540caa6ac62713e81"
+        }
+      ],
+      "medianTranslationWaitMs": 1861.2999999998137,
+      "medianClickToReportMs": 2544.7999999998137,
+      "note": "Même HTML hors ligne, limites désactivées. Clic dès le premier libellé visible traduit, avant la fin du parcours. Ne mesure ni Shard connecté ni les références réseau."
+    }
+  },
+  "scriptVersion": "1.17.46"
+}

@@ -51,7 +51,7 @@ const pause = ms => new Promise(resolve => setTimeout(resolve, ms));
 async function wait(check) { for (let i = 0; i < 1200 && !check(); i++) await pause(25); assert.ok(check(), JSON.stringify({ cases: cases.filter(row => row.el.textContent !== row.fr).map(row => ({ en: row.en, expected: row.fr, actual: row.el.textContent })), tools: tools.flatMap(row => row.nodeGroups.flatMap((nodes, i) => row.text(nodes) === row.fields[i].fr ? [] : [{ en: row.fields[i].en, expected: row.fields[i].fr, actual: row.text(nodes) }])) }, null, 2)); }
 (async () => { try {
   w.eval(fs.readFileSync('outputs/shard-dnd-fr.user.js', 'utf8'));
-  await wait(() => cases.every(row => row.el.textContent === row.fr) && tools.every(row => row.nodeGroups.every((nodes, i) => row.text(nodes) === row.fields[i].fr)) && save.textContent === 'Enregistrer' && companions.every(el => [...el.querySelectorAll('tr:first-child td')].filter(td => td.textContent === 'Sauvegarde').length === 2));
+  await wait(() => cases.every(row => row.el.textContent === row.fr) && tools.every(row => row.nodeGroups.every((nodes, i) => row.text(nodes) === row.fields[i].fr)) && save.textContent === 'Enregistrer' && ordinary.querySelector('td').textContent === 'Enregistrer' && companions.every(el => [...el.querySelectorAll('tr:first-child td')].filter(td => td.textContent === 'Sauvegarde').length === 2));
   assert.equal(ordinary.querySelector('td').textContent, 'Enregistrer');
   cases.forEach((row, i) => { assert.deepEqual(numbers(row.el.textContent), signatures[i], row.en); assert.deepEqual(formulas(row.el.textContent), variableSignatures[i], row.en); });
   numericCells.forEach((el, i) => assert.equal(el.textContent, cellValues[i]));

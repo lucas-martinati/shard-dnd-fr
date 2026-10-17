@@ -1,5 +1,5 @@
 {
-  "version": "1.17.45",
+  "version": "1.17.46",
   "reference": "Noms AideDD 2024 prioritaires. Références SRD disponibles séparément. Autres entrées identifiées.",
   "license": "Code MIT ; contenu SRD CC-BY-4.0 https://creativecommons.org/licenses/by/4.0/",
   "sources": [
@@ -3020,6 +3020,13 @@
       "en": "Pistol",
       "fr": "Pistolet",
       "source": "SRD officiel 5.2.1 FR · CC-BY-4.0 · noms d’armes",
+      "category": "équipement",
+      "aliases": []
+    },
+    {
+      "en": "Ranged weapons",
+      "fr": "Armes à distance",
+      "source": "Traduction française proposée de la liste de fabrication des outils de sculpteur sur bois · rapport utilisateur visible-page 1.17.46 · 17 octobre 2026",
       "category": "équipement",
       "aliases": []
     },
@@ -28221,6 +28228,48 @@
       "en": "Variants:",
       "fr": "Variantes :",
       "source": "Traduction proposée des lignes complètes d’outils du chapitre Équipement PHB Shard · HTML public examiné le 16 octobre 2026 pour compléter les fragments du rapport 1.17.34",
+      "category": "équipement",
+      "aliases": []
+    },
+    {
+      "en": "Hunter’s Trap",
+      "fr": "Piège à mâchoires",
+      "source": "Traduction française proposée de l’extrait utilisateur sur les outils du PHB 2024 · 17 octobre 2026 ; prix, DD, durées, tailles et exceptions conservés",
+      "category": "équipement",
+      "aliases": []
+    },
+    {
+      "en": "Mirror",
+      "fr": "Miroir",
+      "source": "Traduction française proposée de l’extrait utilisateur sur les outils du PHB 2024 · 17 octobre 2026 ; prix, DD, durées, tailles et exceptions conservés",
+      "category": "équipement",
+      "aliases": []
+    },
+    {
+      "en": "Robe",
+      "fr": "Robe",
+      "source": "Traduction française proposée de l’extrait utilisateur sur les outils du PHB 2024 · 17 octobre 2026 ; prix, DD, durées, tailles et exceptions conservés",
+      "category": "équipement",
+      "aliases": []
+    },
+    {
+      "en": "Alchemist’s Fire",
+      "fr": "Feu grégeois",
+      "source": "Traduction française proposée du rapport utilisateur visible-page 1.17.46 · sept équipements et outils du PHB 2024 · 17 octobre 2026 ; DD, quantités, prix et poids conservés",
+      "category": "équipement",
+      "aliases": []
+    },
+    {
+      "en": "Bolts",
+      "fr": "Carreaux",
+      "source": "Traduction française proposée du rapport utilisateur visible-page 1.17.46 · sept équipements et outils du PHB 2024 · 17 octobre 2026 ; DD, quantités, prix et poids conservés",
+      "category": "équipement",
+      "aliases": []
+    },
+    {
+      "en": "Needles",
+      "fr": "Aiguilles",
+      "source": "Traduction française proposée du rapport utilisateur visible-page 1.17.46 · sept équipements et outils du PHB 2024 · 17 octobre 2026 ; DD, quantités, prix et poids conservés",
       "category": "équipement",
       "aliases": []
     },

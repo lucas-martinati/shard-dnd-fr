@@ -84,8 +84,8 @@
         "descriptionsEnFichiersDedies": 71,
         "packsRattachesParCategorie": {
           "armes": {
-            "entreesRattachees": 113,
-            "libelles": 47,
+            "entreesRattachees": 114,
+            "libelles": 48,
             "blocs": 66
           },
           "classes": {
@@ -104,9 +104,9 @@
             "blocs": 133
           },
           "objets": {
-            "entreesRattachees": 163,
-            "libelles": 116,
-            "blocs": 47
+            "entreesRattachees": 234,
+            "libelles": 122,
+            "blocs": 112
           },
           "regles": {
             "entreesRattachees": 551,
@@ -119,7 +119,7 @@
             "blocs": 677
           }
         },
-        "entreesRattachees": 4900
+        "entreesRattachees": 4972
       },
       {
         "id": "dnd-2024-mm",
@@ -544,12 +544,12 @@
     },
     "objets": {
       "nomsCatalogueAideDD2024": 350,
-      "libellesEditables": 1556,
-      "blocsEditables": 3080
+      "libellesEditables": 1562,
+      "blocsEditables": 3145
     },
     "armes": {
       "nomsCatalogueAideDD2024": 0,
-      "libellesEditables": 430,
+      "libellesEditables": 431,
       "blocsEditables": 208
     },
     "monstres": {
@@ -577,7 +577,7 @@
       "fichesOuvertes": 1372,
       "controle": "audit/generes/guide-equipment.json"
     },
-    "descriptionsEtChampsLocauxUniques": 9456,
+    "descriptionsEtChampsLocauxUniques": 9521,
     "presentationsShard": {
       "fichesRelevees": 153,
       "avecDescription": 149,
