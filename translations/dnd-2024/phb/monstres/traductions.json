@@ -1,0 +1,356 @@
+{
+  "$schema": "../../../../docs/translation-pack.schema.json",
+  "edition": "2024",
+  "entries": [
+    {
+      "id": "phb.appendices.46ead4045fbadbc2",
+      "kind": "term",
+      "en": "Compression",
+      "fr": "Compression",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.257affedc7821135",
+      "kind": "term",
+      "en": "Long Jump",
+      "fr": "Saut en longueur",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.c06b087876f86211",
+      "kind": "term",
+      "en": "Ram",
+      "fr": "Coup de bélier",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.e48e075900825090",
+      "kind": "term",
+      "en": "Running Leap",
+      "fr": "Saut avec élan",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.9faa4862c9fa0d50",
+      "kind": "term",
+      "en": "Heart Sight",
+      "fr": "Perception du for intérieur",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.216009141e8453be",
+      "kind": "term",
+      "en": "Agile",
+      "fr": "Agile",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.b84d46129da360ae",
+      "kind": "description",
+      "en": "This appendix provides stat blocks for creatures mentioned elsewhere in the book, particularly in the class, equipment, and spell chapters. See the rules glossary for how to read a stat block, and see the Monster Manual for even more creatures.",
+      "fr": "Cette annexe fournit les profils de créatures mentionnées ailleurs dans le livre, notamment dans les chapitres consacrés aux classes, à l’équipement et aux sorts. Consultez le glossaire des règles pour savoir comment lire un profil, et le Manuel des Monstres pour découvrir davantage de créatures.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.d6c39fe10713198e",
+      "kind": "description",
+      "en": "The following stat blocks are presented in alphabetical order. When the Dungeon Master uses a stat block, the DM may change details in it.",
+      "fr": "Les profils suivants sont présentés par ordre alphabétique. Lorsqu’il utilise un profil, le maître du donjon peut en modifier certains détails.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.7973f6b25a73e881",
+      "kind": "description",
+      "en": "Gore. Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Piercing damage. If the target is a Medium or smaller creature and the boar moved 20+ feet straight toward it immediately before the hit, the target takes an extra 3 (1d6) Piercing damage and has the Prone condition.",
+      "fr": "Coup de corne. Jet d’attaque au corps à corps : +3, allonge 5 ft. Touché : 4 (1d6 + 1) dégâts perforants. Si la cible est une créature de taille M ou inférieure et que le sanglier s’est déplacé d’au moins 20 feet en ligne droite vers elle juste avant de la toucher, la cible subit 3 (1d6) dégâts perforants supplémentaires et l’état À terre.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.fab3afb1273757a6",
+      "kind": "description",
+      "en": "Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Piercing damage. If the target is a Medium or smaller creature and the boar moved 20+ feet straight toward it immediately before the hit, the target takes an extra 3 (1d6) Piercing damage and has the Prone condition.",
+      "fr": "Jet d’attaque au corps à corps : +3, allonge 5 ft. Touché : 4 (1d6 + 1) dégâts perforants. Si la cible est une créature de taille M ou inférieure et que le sanglier s’est déplacé d’au moins 20 feet en ligne droite vers elle juste avant de la toucher, la cible subit 3 (1d6) dégâts perforants supplémentaires et l’état À terre.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.b5e1c51baa6b2467",
+      "kind": "description",
+      "en": "Claw. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Slashing damage. If the target is a Large or smaller creature, it has the Prone condition.",
+      "fr": "Griffe. Jet d’attaque au corps à corps : +5, allonge 5 ft. Touché : 5 (1d4 + 3) dégâts tranchants. Si la cible est une créature de taille G ou inférieure, elle subit l’état À terre.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.9f6695cae58c2486",
+      "kind": "description",
+      "en": "Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Slashing damage. If the target is a Large or smaller creature, it has the Prone condition.",
+      "fr": "Jet d’attaque au corps à corps : +5, allonge 5 ft. Touché : 5 (1d4 + 3) dégâts tranchants. Si la cible est une créature de taille G ou inférieure, elle subit l’état À terre.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.4dbf69c83015e777",
+      "kind": "description",
+      "en": "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Piercing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 12). While Grappled, the target has the Restrained condition.",
+      "fr": "Morsure. Jet d’attaque au corps à corps : +4, allonge 5 ft. Touché : 6 (1d8 + 2) dégâts perforants. Si la cible est une créature de taille M ou inférieure, elle subit l’état Agrippé (évasion DD 12). Tant qu’elle subit l’état Agrippé, la cible subit l’état Entravé.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.7218a30133a8bb49",
+      "kind": "description",
+      "en": "Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Piercing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 12). While Grappled, the target has the Restrained condition.",
+      "fr": "Jet d’attaque au corps à corps : +4, allonge 5 ft. Touché : 6 (1d8 + 2) dégâts perforants. Si la cible est une créature de taille M ou inférieure, elle subit l’état Agrippé (évasion DD 12). Tant qu’elle subit l’état Agrippé, la cible subit l’état Entravé.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.8a2074c40fcc9355",
+      "kind": "description",
+      "en": "Gore. Melee Attack Roll: +8, reach 5 ft. Hit: 15 (2d8 + 6) Piercing damage. If the target is a Huge or smaller creature and the elephant moved 20+ feet straight toward it immediately before the hit, the target has the Prone condition.",
+      "fr": "Coup de corne. Jet d’attaque au corps à corps : +8, allonge 5 ft. Touché : 15 (2d8 + 6) dégâts perforants. Si la cible est une créature de taille TG ou inférieure et que l’éléphant s’est déplacé d’au moins 20 feet en ligne droite vers elle juste avant de la toucher, elle subit l’état À terre.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.b208e5a1f039940c",
+      "kind": "description",
+      "en": "Melee Attack Roll: +8, reach 5 ft. Hit: 15 (2d8 + 6) Piercing damage. If the target is a Huge or smaller creature and the elephant moved 20+ feet straight toward it immediately before the hit, the target has the Prone condition.",
+      "fr": "Jet d’attaque au corps à corps : +8, allonge 5 ft. Touché : 15 (2d8 + 6) dégâts perforants. Si la cible est une créature de taille TG ou inférieure et que l’éléphant s’est déplacé d’au moins 20 feet en ligne droite vers elle juste avant de la toucher, elle subit l’état À terre.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.912bd973583d5a00",
+      "kind": "description",
+      "en": "Ram. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Bludgeoning damage. If the target is a Large or smaller creature and the elk moved 20+ feet straight toward it immediately before the hit, the target takes an extra 3 (1d6) Bludgeoning damage and has the Prone condition.",
+      "fr": "Coup de bélier. Jet d’attaque au corps à corps : +5, allonge 5 ft. Touché : 6 (1d6 + 3) dégâts contondants. Si la cible est une créature de taille G ou inférieure et que l’élan s’est déplacé d’au moins 20 feet en ligne droite vers elle juste avant de la toucher, la cible subit 3 (1d6) dégâts contondants supplémentaires et l’état À terre.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.450acf193ce919d5",
+      "kind": "description",
+      "en": "Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Bludgeoning damage. If the target is a Large or smaller creature and the elk moved 20+ feet straight toward it immediately before the hit, the target takes an extra 3 (1d6) Bludgeoning damage and has the Prone condition.",
+      "fr": "Jet d’attaque au corps à corps : +5, allonge 5 ft. Touché : 6 (1d6 + 3) dégâts contondants. Si la cible est une créature de taille G ou inférieure et que l’élan s’est déplacé d’au moins 20 feet en ligne droite vers elle juste avant de la toucher, la cible subit 3 (1d6) dégâts contondants supplémentaires et l’état À terre.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.2a7bcdd745d39f2a",
+      "kind": "description",
+      "en": "Claw. Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 11) from one of two claws.",
+      "fr": "Pince. Jet d’attaque au corps à corps : +3, allonge 5 ft. Touché : 4 (1d6 + 1) dégâts contondants. Si la cible est une créature de taille M ou inférieure, elle subit l’état Agrippé (évasion DD 11) dans l’une des deux pinces.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.c99a51f5fe36a3e9",
+      "kind": "description",
+      "en": "Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 11) from one of two claws.",
+      "fr": "Jet d’attaque au corps à corps : +3, allonge 5 ft. Touché : 4 (1d6 + 1) dégâts contondants. Si la cible est une créature de taille M ou inférieure, elle subit l’état Agrippé (évasion DD 11) dans l’une des deux pinces.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.24eef749e010a950",
+      "kind": "description",
+      "en": "Ram. Melee Attack Roll: +2, reach 5 ft. Hit: 1 Bludgeoning damage, or 2 (1d4) Bludgeoning damage if the goat moved 20+ feet straight toward the target immediately before the hit.",
+      "fr": "Coup de bélier. Jet d’attaque au corps à corps : +2, allonge 5 ft. Touché : 1 dégât contondant, ou 2 (1d4) dégâts contondants si la chèvre s’est déplacée d’au moins 20 feet en ligne droite vers la cible juste avant de la toucher.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.3dfb7a3f7bda7383",
+      "kind": "description",
+      "en": "Melee Attack Roll: +2, reach 5 ft. Hit: 1 Bludgeoning damage, or 2 (1d4) Bludgeoning damage if the goat moved 20+ feet straight toward the target immediately before the hit.",
+      "fr": "Jet d’attaque au corps à corps : +2, allonge 5 ft. Touché : 1 dégât contondant, ou 2 (1d4) dégâts contondants si la chèvre s’est déplacée d’au moins 20 feet en ligne droite vers la cible juste avant de la toucher.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.2d178cb0fceacc78",
+      "kind": "description",
+      "en": "Shape-Shift. The imp shape-shifts to resemble a rat (Speed 20 ft.), a raven (20 ft., Fly 60 ft.), or a spider (20 ft., Climb 20 ft.), or it returns to its true form. Its statistics are the same in each form, except for its Speed. Any equipment it’s wearing or carrying isn’t transformed.",
+      "fr": "Métamorphose. Le diablotin se métamorphose pour ressembler à un rat (Vitesse 20 ft.), à un corbeau (20 ft., vol 60 ft.) ou à une araignée (20 ft., escalade 20 ft.), ou reprend sa véritable forme. Ses statistiques restent identiques sous toutes ses formes, à l’exception de sa Vitesse. L’équipement qu’il porte ou transporte n’est pas transformé.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.50164bdb9c3b0817",
+      "kind": "description",
+      "en": "The imp shape-shifts to resemble a rat (Speed 20 ft.), a raven (20 ft., Fly 60 ft.), or a spider (20 ft., Climb 20 ft.), or it returns to its true form. Its statistics are the same in each form, except for its Speed. Any equipment it’s wearing or carrying isn’t transformed.",
+      "fr": "Le diablotin se métamorphose pour ressembler à un rat (Vitesse 20 ft.), à un corbeau (20 ft., vol 60 ft.) ou à une araignée (20 ft., escalade 20 ft.), ou reprend sa véritable forme. Ses statistiques restent identiques sous toutes ses formes, à l’exception de sa Vitesse. L’équipement qu’il porte ou transporte n’est pas transformé.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.f530d05a8e09e3fe",
+      "kind": "description",
+      "en": "Running Leap. With a 10-foot running start, the lion can Long Jump up to 25 feet.",
+      "fr": "Saut avec élan. Avec un élan de 10 feet, le lion peut effectuer un Saut en longueur jusqu’à 25 feet.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.5cf6bbd3e92f5245",
+      "kind": "description",
+      "en": "With a 10-foot running start, the lion can Long Jump up to 25 feet.",
+      "fr": "Avec un élan de 10 feet, le lion peut effectuer un Saut en longueur jusqu’à 25 feet.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.69576dbb6b8430eb",
+      "kind": "description",
+      "en": "Multiattack. The lion makes two Rend attacks. It can replace one attack with a use of Roar.",
+      "fr": "Attaques multiples. Le lion effectue deux attaques de Saignée. Il peut remplacer une attaque par une utilisation de Rugissement.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.d01d6284ed471829",
+      "kind": "description",
+      "en": "The lion makes two Rend attacks. It can replace one attack with a use of Roar.",
+      "fr": "Le lion effectue deux attaques de Saignée. Il peut remplacer une attaque par une utilisation de Rugissement.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.ee41bd41472d4d1a",
+      "kind": "description",
+      "en": "Compression. The octopus can move through a space as narrow as 1 inch without expending extra movement to do so.",
+      "fr": "Compression. La pieuvre peut traverser un passage d’une largeur de seulement 1 inch sans dépenser de déplacement supplémentaire.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.e209ae3e5f282619",
+      "kind": "description",
+      "en": "The octopus can move through a space as narrow as 1 inch without expending extra movement to do so.",
+      "fr": "La pieuvre peut traverser un passage d’une largeur de seulement 1 inch sans dépenser de déplacement supplémentaire.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.5adc5067469f393e",
+      "kind": "description",
+      "en": "Sting. Constitution Saving Throw: DC 12, one creature the pseudodragon can see within 5 feet. Failure: 5 (2d4) Poison damage, and the target has the Poisoned condition for 1 hour. Failure by 5 or More: The Poisoned target also has the Unconscious condition until it takes damage or another creature takes an action to shake it awake.",
+      "fr": "Dard. Jet de sauvegarde de Constitution : DD 12, une créature que le pseudodragon voit à 5 feet ou moins. Échec : 5 (2d4) dégâts de poison, et la cible subit l’état Empoisonné pendant 1 heure. Échec de 5 ou plus : la cible Empoisonnée subit également l’état Inconscient jusqu’à ce qu’elle subisse des dégâts ou qu’une autre créature consacre une action à la secouer pour la réveiller.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.9c4f5c4d47281b1e",
+      "kind": "description",
+      "en": "Constitution Saving Throw: DC 12, one creature the pseudodragon can see within 5 feet. Failure: 5 (2d4) Poison damage, and the target has the Poisoned condition for 1 hour. Failure by 5 or More: The Poisoned target also has the Unconscious condition until it takes damage or another creature takes an action to shake it awake.",
+      "fr": "Jet de sauvegarde de Constitution : DD 12, une créature que le pseudodragon voit à 5 feet ou moins. Échec : 5 (2d4) dégâts de poison, et la cible subit l’état Empoisonné pendant 1 heure. Échec de 5 ou plus : la cible Empoisonnée subit également l’état Inconscient jusqu’à ce qu’elle subisse des dégâts ou qu’une autre créature consacre une action à la secouer pour la réveiller.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.94b7a82957fbce64",
+      "kind": "description",
+      "en": "Scare (1/Day). Wisdom Saving Throw: DC 10, one creature within 20 feet. Failure: The target has the Frightened condition. At the end of each of its turns, the target repeats the save, ending the effect on itself on a success. After 1 minute, it succeeds automatically.",
+      "fr": "Frayeur (1/jour). Jet de sauvegarde de Sagesse : DD 10, une créature à 20 feet ou moins. Échec : la cible subit l’état Effrayé. À la fin de chacun de ses tours, la cible réitère la sauvegarde et met fin à l’effet sur elle-même en cas de réussite. Au bout de 1 minute, elle réussit automatiquement.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.4b45701d7c3c23a0",
+      "kind": "description",
+      "en": "Wisdom Saving Throw: DC 10, one creature within 20 feet. Failure: The target has the Frightened condition. At the end of each of its turns, the target repeats the save, ending the effect on itself on a success. After 1 minute, it succeeds automatically.",
+      "fr": "Jet de sauvegarde de Sagesse : DD 10, une créature à 20 feet ou moins. Échec : la cible subit l’état Effrayé. À la fin de chacun de ses tours, la cible réitère la sauvegarde et met fin à l’effet sur elle-même en cas de réussite. Au bout de 1 minute, elle réussit automatiquement.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.5c77fc93c7a6a31e",
+      "kind": "description",
+      "en": "Shape-Shift. The quasit shape-shifts to resemble a bat (Speed 10 ft., Fly 40 ft.), a centipede (40 ft., Climb 40 ft.), or a toad (40 ft., Swim 40 ft.), or it returns to its true form. Its statistics are the same in each form, except for its Speed. Any equipment it’s wearing or carrying isn’t transformed.",
+      "fr": "Métamorphose. Le quasit se métamorphose pour ressembler à une chauve-souris (Vitesse 10 ft., vol 40 ft.), à un mille-pattes (40 ft., escalade 40 ft.) ou à un crapaud (40 ft., nage 40 ft.), ou reprend sa véritable forme. Ses statistiques restent identiques sous toutes ses formes, à l’exception de sa Vitesse. L’équipement qu’il porte ou transporte n’est pas transformé.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.efb027da466168d3",
+      "kind": "description",
+      "en": "The quasit shape-shifts to resemble a bat (Speed 10 ft., Fly 40 ft.), a centipede (40 ft., Climb 40 ft.), or a toad (40 ft., Swim 40 ft.), or it returns to its true form. Its statistics are the same in each form, except for its Speed. Any equipment it’s wearing or carrying isn’t transformed.",
+      "fr": "Le quasit se métamorphose pour ressembler à une chauve-souris (Vitesse 10 ft., vol 40 ft.), à un mille-pattes (40 ft., escalade 40 ft.) ou à un crapaud (40 ft., nage 40 ft.), ou reprend sa véritable forme. Ses statistiques restent identiques sous toutes ses formes, à l’exception de sa Vitesse. L’équipement qu’il porte ou transporte n’est pas transformé.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.24f56f9e78a39629",
+      "kind": "description",
+      "en": "Agile. The rat doesn’t provoke an Opportunity Attack when it moves out of an enemy’s reach.",
+      "fr": "Agile. Le rat ne provoque pas d’attaque d’opportunité lorsqu’il quitte l’allonge d’un ennemi.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.9717e47200ae9331",
+      "kind": "description",
+      "en": "The rat doesn’t provoke an Opportunity Attack when it moves out of an enemy’s reach.",
+      "fr": "Le rat ne provoque pas d’attaque d’opportunité lorsqu’il quitte l’allonge d’un ennemi.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.59864d071104efa9",
+      "kind": "description",
+      "en": "Understands the languages it knew in life but can’t speak",
+      "fr": "Comprend les langues qu’il connaissait de son vivant, mais ne peut pas parler",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.f6c2144d796607a7",
+      "kind": "description",
+      "en": "Heart Sight. Charisma Saving Throw: DC 10, one creature within 5 feet the sprite can see. Celestials, Fiends, and Undead automatically fail the save. Failure: The sprite knows the target’s emotions and alignment.",
+      "fr": "Perception du for intérieur. Jet de sauvegarde de Charisme : DD 10, une créature que l’esprit follet voit à 5 feet ou moins. Les Célestes, les Fiélons et les Morts-vivants ratent automatiquement la sauvegarde. Échec : l’esprit follet connaît les émotions et l’alignement de la cible.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.2bb233e93f9a5a08",
+      "kind": "description",
+      "en": "Charisma Saving Throw: DC 10, one creature within 5 feet the sprite can see. Celestials, Fiends, and Undead automatically fail the save. Failure: The sprite knows the target’s emotions and alignment.",
+      "fr": "Jet de sauvegarde de Charisme : DD 10, une créature que l’esprit follet voit à 5 feet ou moins. Les Célestes, les Fiélons et les Morts-vivants ratent automatiquement la sauvegarde. Échec : l’esprit follet connaît les émotions et l’alignement de la cible.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.b92456181accd2bb",
+      "kind": "description",
+      "en": "Hooves. Melee Attack Roll: +6, reach 5 ft. Hit: 9 (2d4 + 4) Bludgeoning damage. If the target is a Large or smaller creature and the horse moved 20+ feet straight toward it immediately before the hit, the target takes an extra 5 (2d4) Bludgeoning damage and has the Prone condition.",
+      "fr": "Sabots. Jet d’attaque au corps à corps : +6, allonge 5 ft. Touché : 9 (2d4 + 4) dégâts contondants. Si la cible est une créature de taille G ou inférieure et que le cheval s’est déplacé d’au moins 20 feet en ligne droite vers elle juste avant de la toucher, la cible subit 5 (2d4) dégâts contondants supplémentaires et l’état À terre.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.7b741e1fdae52375",
+      "kind": "description",
+      "en": "Melee Attack Roll: +6, reach 5 ft. Hit: 9 (2d4 + 4) Bludgeoning damage. If the target is a Large or smaller creature and the horse moved 20+ feet straight toward it immediately before the hit, the target takes an extra 5 (2d4) Bludgeoning damage and has the Prone condition.",
+      "fr": "Jet d’attaque au corps à corps : +6, allonge 5 ft. Touché : 9 (2d4 + 4) dégâts contondants. Si la cible est une créature de taille G ou inférieure et que le cheval s’est déplacé d’au moins 20 feet en ligne droite vers elle juste avant de la toucher, la cible subit 5 (2d4) dégâts contondants supplémentaires et l’état À terre.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.845d9108b844005b",
+      "kind": "description",
+      "en": "Undead Fortitude. If damage reduces the zombie to 0 Hit Points, it must make a Constitution saving throw with a DC of 5 plus the damage taken unless the damage is Radiant or from a Critical Hit. On a successful save, the zombie drops to 1 Hit Point instead.",
+      "fr": "Robustesse de la non-vie. Si des dégâts réduisent le zombie à 0 point de vie, il doit effectuer un jet de sauvegarde de Constitution dont le DD est égal à 5 plus les dégâts subis, sauf s’il s’agit de dégâts radiants ou d’un Coup critique. En cas de réussite, le zombie tombe à 1 point de vie à la place.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.d292ffa040c16b5a",
+      "kind": "description",
+      "en": "If damage reduces the zombie to 0 Hit Points, it must make a Constitution saving throw with a DC of 5 plus the damage taken unless the damage is Radiant or from a Critical Hit. On a successful save, the zombie drops to 1 Hit Point instead.",
+      "fr": "Si des dégâts réduisent le zombie à 0 point de vie, il doit effectuer un jet de sauvegarde de Constitution dont le DD est égal à 5 plus les dégâts subis, sauf s’il s’agit de dégâts radiants ou d’un Coup critique. En cas de réussite, le zombie tombe à 1 point de vie à la place.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.e9acd149e21c1f49",
+      "kind": "description",
+      "en": "Multiattack. The ape makes two Fist attacks.",
+      "fr": "Attaques multiples. Le singe effectue deux attaques de Poing.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.25095270b163877e",
+      "kind": "description",
+      "en": "The ape makes two Fist attacks.",
+      "fr": "Le singe effectue deux attaques de Poing.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.977816704977fb59",
+      "kind": "description",
+      "en": "Devil’s Sight. Magical Darkness doesn’t impede the imp’s Darkvision.",
+      "fr": "Vision du diable. Les Ténèbres magiques ne gênent pas la Vision dans le noir du diablotin.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.a07a75defcfbfe14",
+      "kind": "description",
+      "en": "Magical Darkness doesn’t impede the imp’s Darkvision.",
+      "fr": "Les Ténèbres magiques ne gênent pas la Vision dans le noir du diablotin.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.893f80e0a5d4da70",
+      "kind": "term",
+      "en": "Roar",
+      "fr": "Rugissement",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    }
+  ]
+}

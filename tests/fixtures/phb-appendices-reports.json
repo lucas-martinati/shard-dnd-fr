@@ -1,0 +1,2138 @@
+{
+  "date": "2026-10-19",
+  "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés.",
+  "reports": [
+    {
+      "name": "creatures",
+      "rows": [
+        {
+          "en": "This appendix provides stat blocks for creatures mentioned elsewhere in the book, particularly in the class, equipment, and spell chapters. See the rules glossary for how to read a stat block, and see the Monster Manual for even more creatures.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 1
+        },
+        {
+          "en": "The following stat blocks are presented in alphabetical order. When the Dungeon Master uses a stat block, the DM may change details in it.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 1
+        },
+        {
+          "en": ". The ape makes two Fist attacks.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 1
+        },
+        {
+          "en": "Gore. Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Piercing damage. If the target is a Medium or smaller creature and the boar moved 20+ feet straight toward it immediately before the hit, the target takes an extra 3 (1d6) Piercing damage and has the Prone condition.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 1
+        },
+        {
+          "en": "Claw. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Slashing damage. If the target is a Large or smaller creature, it has the Prone condition.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 1
+        },
+        {
+          "en": "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Piercing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 12). While Grappled, the target has the Restrained condition.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 1
+        },
+        {
+          "en": "Gore. Melee Attack Roll: +8, reach 5 ft. Hit: 15 (2d8 + 6) Piercing damage. If the target is a Huge or smaller creature and the elephant moved 20+ feet straight toward it immediately before the hit, the target has the Prone condition.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 1
+        },
+        {
+          "en": "Ram. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Bludgeoning damage. If the target is a Large or smaller creature and the elk moved 20+ feet straight toward it immediately before the hit, the target takes an extra 3 (1d6) Bludgeoning damage and has the Prone condition.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 1
+        },
+        {
+          "en": "Claw. Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 11) from one of two claws.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 1
+        },
+        {
+          "en": "Ram. Melee Attack Roll: +2, reach 5 ft. Hit: 1 Bludgeoning damage, or 2 (1d4) Bludgeoning damage if the goat moved 20+ feet straight toward the target immediately before the hit.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 1
+        },
+        {
+          "en": "Magical doesn’t impede the imp’s .",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 1
+        },
+        {
+          "en": "Shape-Shift. The imp shape-shifts to resemble a rat (Speed 20 ft.), a raven (20 ft., Fly 60 ft.), or a spider (20 ft., Climb 20 ft.), or it returns to its true form. Its statistics are the same in each form, except for its Speed. Any equipment it’s wearing or carrying isn’t transformed.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 1
+        },
+        {
+          "en": "Running Leap. With a 10-foot running start, the lion can Long Jump up to 25 feet.",
+          "kind": "description",
+          "reason": "conflicting-translations",
+          "context": "",
+          "occurrences": 1
+        },
+        {
+          "en": "Multiattack. The lion makes two Rend attacks. It can replace one attack with a use of Roar.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 1
+        },
+        {
+          "en": "Compression. The octopus can move through a space as narrow as 1 inch without expending extra movement to do so.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 1
+        },
+        {
+          "en": "Sting. Constitution Saving Throw: DC 12, one creature the pseudodragon can see within 5 feet. Failure: 5 (2d4) Poison damage, and the target has the Poisoned condition for 1 hour. Failure by 5 or More: The Poisoned target also has the Unconscious condition until it takes damage or another creature takes an action to shake it awake.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 1
+        },
+        {
+          "en": "Scare (1/Day). Wisdom Saving Throw: DC 10, one creature within 20 feet. Failure: The target has the Frightened condition. At the end of each of its turns, the target repeats the save, ending the effect on itself on a success. After 1 minute, it succeeds automatically.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 1
+        },
+        {
+          "en": "Shape-Shift. The quasit shape-shifts to resemble a bat (Speed 10 ft., Fly 40 ft.), a centipede (40 ft., Climb 40 ft.), or a toad (40 ft., Swim 40 ft.), or it returns to its true form. Its statistics are the same in each form, except for its Speed. Any equipment it’s wearing or carrying isn’t transformed.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 1
+        },
+        {
+          "en": "Agile. The rat doesn’t provoke an Opportunity Attack when it moves out of an enemy’s reach.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 1
+        },
+        {
+          "en": "Understands the languages it knew in life but can’t speak",
+          "kind": "term",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 2
+        },
+        {
+          "en": "Heart Sight. Charisma Saving Throw: DC 10, one creature within 5 feet the sprite can see. Celestials, Fiends, and Undead automatically fail the save. Failure: The sprite knows the target’s emotions and alignment.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 1
+        },
+        {
+          "en": "Hooves. Melee Attack Roll: +6, reach 5 ft. Hit: 9 (2d4 + 4) Bludgeoning damage. If the target is a Large or smaller creature and the horse moved 20+ feet straight toward it immediately before the hit, the target takes an extra 5 (2d4) Bludgeoning damage and has the Prone condition.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 1
+        },
+        {
+          "en": "Pack Tactics. The wolf has Advantage on attack rolls against a creature if at least one of the wolf’s allies is within 5 feet of the creature and the ally doesn’t have the Incapacitated condition.",
+          "kind": "description",
+          "reason": "unrecognized-layout",
+          "context": "",
+          "occurrences": 1
+        },
+        {
+          "en": "Undead Fortitude. If damage reduces the zombie to 0 Hit Points, it must make a Constitution saving throw with a DC of 5 plus the damage taken unless the damage is Radiant or from a Critical Hit. On a successful save, the zombie drops to 1 Hit Point instead.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 1
+        }
+      ],
+      "scriptVersion": "1.17.47",
+      "truncated": false
+    },
+    {
+      "name": "summons",
+      "rows": [
+        {
+          "en": "11 (+ the spell’s level)",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 16
+        },
+        {
+          "en": "The spirit makes",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 18
+        },
+        {
+          "en": "Eye Ray. {caster spell attack}",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 1
+        },
+        {
+          "en": "Whispering Aura. At the start of each of the spirit’s turns, the spirit emits psionic energy if it doesn’t have the Incapacitated condition. Wisdom Saving Throw: DC{caster spell save}, each creature (other than you) within 5 feet of the spirit. Failure: 2d6 Psychic damage.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 1
+        },
+        {
+          "en": "Regeneration. The spirit regains 5 Hit Points at the start of its turn if it has at least 1 Hit Point.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 1
+        },
+        {
+          "en": "Claw. Melee Attack Roll: {caster spell attack}, reach 5 ft. Hit: 1d10 + 3 + {cast spell level} Slashing damage, and the target can’t regain Hit Points until the start of the spirit’s next turn.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 1
+        },
+        {
+          "en": "Flyby. The spirit doesn’t provoke Opportunity Attacks when it flies out of an enemy’s reach.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 1
+        },
+        {
+          "en": "The spirit makes Rend attacks.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 3
+        },
+        {
+          "en": "Pack Tactics. The spirit has Advantage on an attack roll against a creature if at least one of the spirit’s allies is within 5 feet of the creature and the ally doesn’t have the Incapacitated condition.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 1
+        },
+        {
+          "en": "The spirit can breathe only underwater.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 1
+        },
+        {
+          "en": "Radiant Bow. : {caster spell attack}",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 1
+        },
+        {
+          "en": "Healing Touch (1/Day). The spirit touches another creature. The target regains Hit Points equal to 2d8 + {cast spell level}.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 2
+        },
+        {
+          "en": "Radiant Mace. Melee Attack Roll: {caster spell attack}, reach 5 ft. Hit: 1d10 + 3 + {cast spell level} Radiant damage, and the spirit can choose itself or another creature it can see within 10 feet of the target. The chosen creature gains 1d10 Temporary Hit Points.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 1
+        },
+        {
+          "en": "13 (+ the spell’s level)",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 3
+        },
+        {
+          "en": "Berserk Lashing. Trigger: The spirit takes damage from a creature. Response: The spirit makes a Slam attack against that creature if possible, or the spirit moves up to half its Speed toward that creature without provoking Opportunity Attacks.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 1
+        },
+        {
+          "en": "Heated Body. A creature that hits the spirit with a melee attack or that starts its turn in a grapple with the spirit takes 1d10 Fire damage.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 1
+        },
+        {
+          "en": "Stony Lethargy. When a creature starts its turn within 10 feet of the spirit, the spirit can target it with magical energy if the spirit can see it. Wisdom Saving Throw: DC{caster spell save} the target. Failure: Until the start of its next turn, the target can’t make Opportunity Attacks, and its Speed is halved.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 1
+        },
+        {
+          "en": "14 (+ the spell’s level)",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 10
+        },
+        {
+          "en": "Shared Resistances. You have to Acid.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 1
+        },
+        {
+          "en": "The spirit makes Rend attacks and it uses Breath Weapon.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 10
+        },
+        {
+          "en": "DC{caster spell save}, each creature in a 30-foot Cone. 2d6",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 10
+        },
+        {
+          "en": "Shared Resistances. You have to Lightning.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 2
+        },
+        {
+          "en": "Shared Resistances. You have Resistance to Fire damage until the spell ends.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 3
+        },
+        {
+          "en": "Shared Resistances. You have Resistance to Acid until the spell ends.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 1
+        },
+        {
+          "en": "Shared Resistances. You have Resistance to Poison until the spell ends.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 1
+        },
+        {
+          "en": "Shared Resistances. You have Resistance to Cold damage until the spell ends.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 2
+        },
+        {
+          "en": "Amorphous Form. The spirit can move through a space as narrow as 1 inch wide without it counting as Difficult Terrain.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 3
+        },
+        {
+          "en": "12 (+ the spell’s level)",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 6
+        },
+        {
+          "en": "30 (+ 10 for each spell level above 3)",
+          "kind": "term",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 3
+        },
+        {
+          "en": "The spirit makes Fey Blade attacks.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 3
+        },
+        {
+          "en": "Fey Blade. {caster spell attack}",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 3
+        },
+        {
+          "en": "Fuming Fey Step. The spirit magically teleports up to 30 feet to an unoccupied space it can see then the spirit has Advantage on the next attack roll it makes before the end of this turn.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 1
+        },
+        {
+          "en": "Mirthful Fey Step. The spirit magically teleports up to 30 feet to an unoccupied space it can see then Wisdom Saving Throw: DC{caster spell save}, one creature the spirit can see within 10 feet of itself. Failure: The target is Charmed by you and the spirit for 1 minute or until the target takes any damage.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 1
+        },
+        {
+          "en": "Tricksy Fey Step. The spirit magically teleports up to 30 feet to an unoccupied space it can see then the spirit fills a 10-foot Cube within 5 feet of it with magical Darkness, which lasts until the end of its next turn.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 1
+        },
+        {
+          "en": "Death Throes. When the spirit drops to 0 Hit Points or the spell ends, the spirit explodes. Dexterity Saving Throw: DC{caster spell save}, each creature in a 10-foot Emanation originating from the spirit. Failure: 2d10+{cast spell level} Fire damage. Success: Half damage.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 1
+        },
+        {
+          "en": "The spirit has Advantage on saving throws against spells and other magical effects.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 3
+        },
+        {
+          "en": "Magical Darkness doesn’t impede the spirit’s Darkvision.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 1
+        },
+        {
+          "en": "Fiery Strike. {caster spell attack}, reach 5 ft. or range 150 ft.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 1
+        },
+        {
+          "en": "Claws. Melee Attack Roll: {caster spell attack}, reach 5 ft. Hit: 1d8 + 3 + {cast spell level} Slashing damage. Immediately after the attack hits or misses, the spirit can teleport up to 30 feet to an unoccupied space it can see.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 1
+        },
+        {
+          "en": "The insect makes",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 3
+        },
+        {
+          "en": "Poison Jab. {caster spell attack} Piercing damage plus 1d4",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 3
+        },
+        {
+          "en": "Venomous Spew. Constitution Saving Throw: DC{caster spell save}, one creature the insect can see within 10 feet. Failure: The target has the Poisoned condition until the start of the insect’s next turn.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 1
+        },
+        {
+          "en": "Spider Climb. The insect can climb difficult surfaces, including along ceilings, without needing to make an ability check.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 1
+        },
+        {
+          "en": "Web Bolt. Ranged Attack Roll: {caster spell attack}, range 60 ft. Hit: 1d10 + 3 + {cast spell level} Bludgeoning damage, and the target’s Speed is reduced to 0 until the start of the insect’s next turn.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 1
+        },
+        {
+          "en": "10 (+ 1 per spell level)",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 3
+        },
+        {
+          "en": "Telepathy 1 mile (works only with you)",
+          "kind": "term",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 3
+        },
+        {
+          "en": "Life Bond. When you regain Hit Points from a level 1+ spell, the steed regains the same number of Hit Points if you’re within 5 feet of it.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 3
+        },
+        {
+          "en": "Otherworldly Slam. {caster spell attack} of Radiant damage.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 1
+        },
+        {
+          "en": "Healing Touch (Recharges after a Long Rest). One creature within 5 feet of the steed regains a number of Hit Points equal to 2d8+{cast spell level}.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 1
+        },
+        {
+          "en": "Otherworldly Slam. {caster spell attack}",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 2
+        },
+        {
+          "en": "Fey Step (Recharges after a Long Rest). The steed teleports, along with its rider, to an unoccupied space of your choice up to 60 feet away from itself.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 1
+        },
+        {
+          "en": "Fell Glare (Recharges after a Long Rest). Wisdom Saving Throw: DC{caster spell save} one creature within 60 feet the steed can see. Failure: The target has the Frightened condition until the end of your next turn.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 1
+        },
+        {
+          "en": "Incorporeal Passage. The spirit can move through other creatures and objects as if they were Difficult Terrain. If it ends its turn inside an object, it is shunted to the nearest unoccupied space and takes 1d10 Force damage for every 5 feet traveled.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 1
+        },
+        {
+          "en": "Deathly Touch. Melee Attack Roll: {caster spell attack}, reach 5 ft. Hit: 1d8 + 3 + {cast spell level} Necrotic damage, and the target has the Frightened condition until the end of its next turn.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 1
+        },
+        {
+          "en": "Festering Aura. Constitution Saving Throw: DC{caster spell save}, any creature (other than you) that starts its turn within a 5-foot Emanation originating from the spirit. Failure: The creature has the Poisoned condition until the start of its next turn.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 1
+        },
+        {
+          "en": "Rotting Claw. Melee Attack Roll: {caster spell attack}, reach 5 ft. Hit: 1d6 + 3 + {cast spell level} Slashing damage. If the target has the Poisoned condition, it has the Paralyzed condition until the end of its next turn.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 1
+        },
+        {
+          "en": "Grave Bolt. {caster spell attack}",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 1
+        }
+      ],
+      "scriptVersion": "1.17.47",
+      "truncated": false
+    },
+    {
+      "name": "labels",
+      "scriptVersion": "1.17.47",
+      "truncated": false,
+      "rows": [
+        {
+          "en": "Conditions",
+          "kind": "term",
+          "occurrences": 2
+        },
+        {
+          "en": "Special Conditions",
+          "kind": "term",
+          "occurrences": 2
+        },
+        {
+          "en": "D&D 2024 Ruleset",
+          "kind": "term",
+          "occurrences": 2
+        },
+        {
+          "en": "Wallpaper",
+          "kind": "term",
+          "occurrences": 2
+        },
+        {
+          "en": "Inspiration",
+          "kind": "term",
+          "occurrences": 1
+        },
+        {
+          "en": "Three Quarters Cover",
+          "kind": "term",
+          "occurrences": 1
+        },
+        {
+          "en": "D&D 2024",
+          "kind": "term",
+          "occurrences": 1
+        }
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "id": "b-00",
+      "en": "This appendix provides stat blocks for creatures mentioned elsewhere in the book, particularly in the class, equipment, and spell chapters. See the rules glossary for how to read a stat block, and see the Monster Manual for even more creatures.",
+      "fr": "Cette annexe fournit les profils de créatures mentionnées ailleurs dans le livre, notamment dans les chapitres consacrés aux classes, à l’équipement et aux sorts. Consultez le glossaire des règles pour savoir comment lire un profil, et le Manuel des Monstres pour découvrir davantage de créatures.",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "b-01",
+      "en": "The following stat blocks are presented in alphabetical order. When the Dungeon Master uses a stat block, the DM may change details in it.",
+      "fr": "Les profils suivants sont présentés par ordre alphabétique. Lorsqu’il utilise un profil, le maître du donjon peut en modifier certains détails.",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "b-03",
+      "en": "Gore. Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Piercing damage. If the target is a Medium or smaller creature and the boar moved 20+ feet straight toward it immediately before the hit, the target takes an extra 3 (1d6) Piercing damage and has the Prone condition.",
+      "fr": "Coup de corne. Jet d’attaque au corps à corps : +3, allonge 5 ft. Touché : 4 (1d6 + 1) dégâts perforants. Si la cible est une créature de taille M ou inférieure et que le sanglier s’est déplacé d’au moins 20 feet en ligne droite vers elle juste avant de la toucher, la cible subit 3 (1d6) dégâts perforants supplémentaires et l’état À terre.",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "b-04",
+      "en": "Claw. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Slashing damage. If the target is a Large or smaller creature, it has the Prone condition.",
+      "fr": "Griffe. Jet d’attaque au corps à corps : +5, allonge 5 ft. Touché : 5 (1d4 + 3) dégâts tranchants. Si la cible est une créature de taille G ou inférieure, elle subit l’état À terre.",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "b-05",
+      "en": "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Piercing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 12). While Grappled, the target has the Restrained condition.",
+      "fr": "Morsure. Jet d’attaque au corps à corps : +4, allonge 5 ft. Touché : 6 (1d8 + 2) dégâts perforants. Si la cible est une créature de taille M ou inférieure, elle subit l’état Agrippé (évasion DD 12). Tant qu’elle subit l’état Agrippé, la cible subit l’état Entravé.",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "b-06",
+      "en": "Gore. Melee Attack Roll: +8, reach 5 ft. Hit: 15 (2d8 + 6) Piercing damage. If the target is a Huge or smaller creature and the elephant moved 20+ feet straight toward it immediately before the hit, the target has the Prone condition.",
+      "fr": "Coup de corne. Jet d’attaque au corps à corps : +8, allonge 5 ft. Touché : 15 (2d8 + 6) dégâts perforants. Si la cible est une créature de taille TG ou inférieure et que l’éléphant s’est déplacé d’au moins 20 feet en ligne droite vers elle juste avant de la toucher, elle subit l’état À terre.",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "b-07",
+      "en": "Ram. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Bludgeoning damage. If the target is a Large or smaller creature and the elk moved 20+ feet straight toward it immediately before the hit, the target takes an extra 3 (1d6) Bludgeoning damage and has the Prone condition.",
+      "fr": "Coup de bélier. Jet d’attaque au corps à corps : +5, allonge 5 ft. Touché : 6 (1d6 + 3) dégâts contondants. Si la cible est une créature de taille G ou inférieure et que l’élan s’est déplacé d’au moins 20 feet en ligne droite vers elle juste avant de la toucher, la cible subit 3 (1d6) dégâts contondants supplémentaires et l’état À terre.",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "b-08",
+      "en": "Claw. Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 11) from one of two claws.",
+      "fr": "Pince. Jet d’attaque au corps à corps : +3, allonge 5 ft. Touché : 4 (1d6 + 1) dégâts contondants. Si la cible est une créature de taille M ou inférieure, elle subit l’état Agrippé (évasion DD 11) dans l’une des deux pinces.",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "b-09",
+      "en": "Ram. Melee Attack Roll: +2, reach 5 ft. Hit: 1 Bludgeoning damage, or 2 (1d4) Bludgeoning damage if the goat moved 20+ feet straight toward the target immediately before the hit.",
+      "fr": "Coup de bélier. Jet d’attaque au corps à corps : +2, allonge 5 ft. Touché : 1 dégât contondant, ou 2 (1d4) dégâts contondants si la chèvre s’est déplacée d’au moins 20 feet en ligne droite vers la cible juste avant de la toucher.",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "b-11",
+      "en": "Shape-Shift. The imp shape-shifts to resemble a rat (Speed 20 ft.), a raven (20 ft., Fly 60 ft.), or a spider (20 ft., Climb 20 ft.), or it returns to its true form. Its statistics are the same in each form, except for its Speed. Any equipment it’s wearing or carrying isn’t transformed.",
+      "fr": "Métamorphose. Le diablotin se métamorphose pour ressembler à un rat (Vitesse 20 ft.), à un corbeau (20 ft., vol 60 ft.) ou à une araignée (20 ft., escalade 20 ft.), ou reprend sa véritable forme. Ses statistiques restent identiques sous toutes ses formes, à l’exception de sa Vitesse. L’équipement qu’il porte ou transporte n’est pas transformé.",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "b-12",
+      "en": "Running Leap. With a 10-foot running start, the lion can Long Jump up to 25 feet.",
+      "fr": "Saut avec élan. Avec un élan de 10 feet, le lion peut effectuer un Saut en longueur jusqu’à 25 feet.",
+      "layout": "observed",
+      "html": "<p><b><i>Running Leap.</i></b> With a 10-foot running start, the lion can Long Jump up to 25 feet.</p>"
+    },
+    {
+      "id": "b-13",
+      "en": "Multiattack. The lion makes two Rend attacks. It can replace one attack with a use of Roar.",
+      "fr": "Attaques multiples. Le lion effectue deux attaques de Saignée. Il peut remplacer une attaque par une utilisation de Rugissement.",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "b-14",
+      "en": "Compression. The octopus can move through a space as narrow as 1 inch without expending extra movement to do so.",
+      "fr": "Compression. La pieuvre peut traverser un passage d’une largeur de seulement 1 inch sans dépenser de déplacement supplémentaire.",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "b-15",
+      "en": "Sting. Constitution Saving Throw: DC 12, one creature the pseudodragon can see within 5 feet. Failure: 5 (2d4) Poison damage, and the target has the Poisoned condition for 1 hour. Failure by 5 or More: The Poisoned target also has the Unconscious condition until it takes damage or another creature takes an action to shake it awake.",
+      "fr": "Dard. Jet de sauvegarde de Constitution : DD 12, une créature que le pseudodragon voit à 5 feet ou moins. Échec : 5 (2d4) dégâts de poison, et la cible subit l’état Empoisonné pendant 1 heure. Échec de 5 ou plus : la cible Empoisonnée subit également l’état Inconscient jusqu’à ce qu’elle subisse des dégâts ou qu’une autre créature consacre une action à la secouer pour la réveiller.",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "b-16",
+      "en": "Scare (1/Day). Wisdom Saving Throw: DC 10, one creature within 20 feet. Failure: The target has the Frightened condition. At the end of each of its turns, the target repeats the save, ending the effect on itself on a success. After 1 minute, it succeeds automatically.",
+      "fr": "Frayeur (1/jour). Jet de sauvegarde de Sagesse : DD 10, une créature à 20 feet ou moins. Échec : la cible subit l’état Effrayé. À la fin de chacun de ses tours, la cible réitère la sauvegarde et met fin à l’effet sur elle-même en cas de réussite. Au bout de 1 minute, elle réussit automatiquement.",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "b-17",
+      "en": "Shape-Shift. The quasit shape-shifts to resemble a bat (Speed 10 ft., Fly 40 ft.), a centipede (40 ft., Climb 40 ft.), or a toad (40 ft., Swim 40 ft.), or it returns to its true form. Its statistics are the same in each form, except for its Speed. Any equipment it’s wearing or carrying isn’t transformed.",
+      "fr": "Métamorphose. Le quasit se métamorphose pour ressembler à une chauve-souris (Vitesse 10 ft., vol 40 ft.), à un mille-pattes (40 ft., escalade 40 ft.) ou à un crapaud (40 ft., nage 40 ft.), ou reprend sa véritable forme. Ses statistiques restent identiques sous toutes ses formes, à l’exception de sa Vitesse. L’équipement qu’il porte ou transporte n’est pas transformé.",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "b-18",
+      "en": "Agile. The rat doesn’t provoke an Opportunity Attack when it moves out of an enemy’s reach.",
+      "fr": "Agile. Le rat ne provoque pas d’attaque d’opportunité lorsqu’il quitte l’allonge d’un ennemi.",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "b-19",
+      "en": "Understands the languages it knew in life but can’t speak",
+      "fr": "Comprend les langues qu’il connaissait de son vivant, mais ne peut pas parler",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "b-20",
+      "en": "Heart Sight. Charisma Saving Throw: DC 10, one creature within 5 feet the sprite can see. Celestials, Fiends, and Undead automatically fail the save. Failure: The sprite knows the target’s emotions and alignment.",
+      "fr": "Perception du for intérieur. Jet de sauvegarde de Charisme : DD 10, une créature que l’esprit follet voit à 5 feet ou moins. Les Célestes, les Fiélons et les Morts-vivants ratent automatiquement la sauvegarde. Échec : l’esprit follet connaît les émotions et l’alignement de la cible.",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "b-21",
+      "en": "Hooves. Melee Attack Roll: +6, reach 5 ft. Hit: 9 (2d4 + 4) Bludgeoning damage. If the target is a Large or smaller creature and the horse moved 20+ feet straight toward it immediately before the hit, the target takes an extra 5 (2d4) Bludgeoning damage and has the Prone condition.",
+      "fr": "Sabots. Jet d’attaque au corps à corps : +6, allonge 5 ft. Touché : 9 (2d4 + 4) dégâts contondants. Si la cible est une créature de taille G ou inférieure et que le cheval s’est déplacé d’au moins 20 feet en ligne droite vers elle juste avant de la toucher, la cible subit 5 (2d4) dégâts contondants supplémentaires et l’état À terre.",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "b-23",
+      "en": "Undead Fortitude. If damage reduces the zombie to 0 Hit Points, it must make a Constitution saving throw with a DC of 5 plus the damage taken unless the damage is Radiant or from a Critical Hit. On a successful save, the zombie drops to 1 Hit Point instead.",
+      "fr": "Robustesse de la non-vie. Si des dégâts réduisent le zombie à 0 point de vie, il doit effectuer un jet de sauvegarde de Constitution dont le DD est égal à 5 plus les dégâts subis, sauf s’il s’agit de dégâts radiants ou d’un Coup critique. En cas de réussite, le zombie tombe à 1 point de vie à la place.",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "b-ape-multi",
+      "en": "Multiattack. The ape makes two Fist attacks.",
+      "fr": "Attaques multiples. Le singe effectue deux attaques de Poing.",
+      "layout": "observed",
+      "html": "<p><b><i>Multiattack</i></b><b><i>.</i></b> The ape makes two Fist attacks.</p>"
+    },
+    {
+      "id": "b-imp-sight",
+      "en": "Devil’s Sight. Magical Darkness doesn’t impede the imp’s Darkvision.",
+      "fr": "Vision du diable. Les Ténèbres magiques ne gênent pas la Vision dans le noir du diablotin.",
+      "layout": "observed",
+      "html": "<p><b><i>Devil’s Sight.</i></b> Magical <a href=\"#spell?id=e26b0yq7manc7hc5\">Darkness</a> doesn’t impede the imp’s <a href=\"#spell?id=qscjdzawc6rwkk9y\">Darkvision</a>.</p>"
+    },
+    {
+      "id": "b-wolf-pack",
+      "en": "Pack Tactics. The wolf has Advantage on attack rolls against a creature if at least one of the wolf’s allies is within 5 feet of the creature and the ally doesn’t have the Incapacitated condition.",
+      "fr": "Tactique de meute. Cette créature a l’Avantage à un jet d’attaque contre une créature si au moins un de ses alliés est à 5 feet ou moins de la cible et que cet allié ne subit pas l’état Neutralisé.",
+      "layout": "observed",
+      "html": "<p><b><i>Pack Tactics.</i></b> The wolf has Advantage on attack rolls against a creature if at least one of the wolf’s allies is within 5 feet of the creature and the ally doesn’t have the <a href=\"#customlist?type=Conditions&amp;id=jhsnov3jlzaa62ub\">Incapacitated</a> condition.</p>"
+    },
+    {
+      "id": "c-03",
+      "en": "Whispering Aura. At the start of each of the spirit’s turns, the spirit emits psionic energy if it doesn’t have the Incapacitated condition. Wisdom Saving Throw: DC{caster spell save}, each creature (other than you) within 5 feet of the spirit. Failure: 2d6 Psychic damage.",
+      "fr": "Aura murmurante. Au début de chacun de ses tours, l’esprit émet une énergie psionique s’il ne subit pas l’état Neutralisé. Jet de sauvegarde de Sagesse : DD{caster spell save}, chaque créature (autre que vous) à 5 feet ou moins de l’esprit. Échec : 2d6 dégâts psychiques.",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "c-04",
+      "en": "Regeneration. The spirit regains 5 Hit Points at the start of its turn if it has at least 1 Hit Point.",
+      "fr": "Régénération. L’esprit récupère 5 points de vie au début de son tour s’il lui reste au moins 1 point de vie.",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "c-05",
+      "en": "Claw. Melee Attack Roll: {caster spell attack}, reach 5 ft. Hit: 1d10 + 3 + {cast spell level} Slashing damage, and the target can’t regain Hit Points until the start of the spirit’s next turn.",
+      "fr": "Griffe. Jet d’attaque au corps à corps : {caster spell attack}, allonge 5 ft. Touché : 1d10 + 3 + {cast spell level} dégâts tranchants, et la cible ne peut pas récupérer de points de vie jusqu’au début du prochain tour de l’esprit.",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "c-06",
+      "en": "Flyby. The spirit doesn’t provoke Opportunity Attacks when it flies out of an enemy’s reach.",
+      "fr": "Repli aérien. L’esprit ne provoque pas d’attaques d’opportunité lorsqu’il quitte l’allonge d’un ennemi en volant.",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "c-08",
+      "en": "Pack Tactics. The spirit has Advantage on an attack roll against a creature if at least one of the spirit’s allies is within 5 feet of the creature and the ally doesn’t have the Incapacitated condition.",
+      "fr": "Tactique de meute. L’esprit a l’Avantage à un jet d’attaque contre une créature si au moins un de ses alliés se trouve à 5 feet ou moins de cette créature et que cet allié ne subit pas l’état Neutralisé.",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "c-11",
+      "en": "Healing Touch (1/Day). The spirit touches another creature. The target regains Hit Points equal to 2d8 + {cast spell level}.",
+      "fr": "Contact guérisseur (1/jour). L’esprit touche une autre créature. La cible récupère un nombre de points de vie égal à 2d8 + {cast spell level}.",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "c-12",
+      "en": "Radiant Mace. Melee Attack Roll: {caster spell attack}, reach 5 ft. Hit: 1d10 + 3 + {cast spell level} Radiant damage, and the spirit can choose itself or another creature it can see within 10 feet of the target. The chosen creature gains 1d10 Temporary Hit Points.",
+      "fr": "Masse radiante. Jet d’attaque au corps à corps : {caster spell attack}, allonge 5 ft. Touché : 1d10 + 3 + {cast spell level} dégâts radiants, et l’esprit peut se choisir lui-même ou choisir une autre créature qu’il voit à 10 feet ou moins de la cible. La créature choisie reçoit 1d10 points de vie temporaires.",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "c-14",
+      "en": "Berserk Lashing. Trigger: The spirit takes damage from a creature. Response: The spirit makes a Slam attack against that creature if possible, or the spirit moves up to half its Speed toward that creature without provoking Opportunity Attacks.",
+      "fr": "Déchaînement furieux. Déclencheur : l’esprit subit des dégâts d’une créature. Réponse : l’esprit effectue une attaque de Coup contre cette créature si possible ; sinon, il se déplace vers elle d’une distance maximale égale à la moitié de sa Vitesse sans provoquer d’attaques d’opportunité.",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "c-15",
+      "en": "Heated Body. A creature that hits the spirit with a melee attack or that starts its turn in a grapple with the spirit takes 1d10 Fire damage.",
+      "fr": "Corps brûlant. Une créature qui touche l’esprit avec une attaque au corps à corps ou qui commence son tour engagée dans une lutte avec lui subit 1d10 dégâts de feu.",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "c-16",
+      "en": "Stony Lethargy. When a creature starts its turn within 10 feet of the spirit, the spirit can target it with magical energy if the spirit can see it. Wisdom Saving Throw: DC{caster spell save} the target. Failure: Until the start of its next turn, the target can’t make Opportunity Attacks, and its Speed is halved.",
+      "fr": "Léthargie pierreuse. Lorsqu’une créature commence son tour à 10 feet ou moins de l’esprit, celui-ci peut la cibler avec une énergie magique s’il la voit. Jet de sauvegarde de Sagesse : DD{caster spell save}, la cible. Échec : jusqu’au début de son prochain tour, la cible ne peut pas effectuer d’attaques d’opportunité et sa Vitesse est réduite de moitié.",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "c-22",
+      "en": "Shared Resistances. You have Resistance to Fire damage until the spell ends.",
+      "fr": "Résistances partagées. Vous avez la Résistance aux dégâts de feu jusqu’à la fin du sort.",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "c-23",
+      "en": "Shared Resistances. You have Resistance to Acid until the spell ends.",
+      "fr": "Résistances partagées. Vous avez la Résistance à l’acide jusqu’à la fin du sort.",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "c-24",
+      "en": "Shared Resistances. You have Resistance to Poison until the spell ends.",
+      "fr": "Résistances partagées. Vous avez la Résistance au poison jusqu’à la fin du sort.",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "c-25",
+      "en": "Shared Resistances. You have Resistance to Cold damage until the spell ends.",
+      "fr": "Résistances partagées. Vous avez la Résistance aux dégâts de froid jusqu’à la fin du sort.",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "c-26",
+      "en": "Amorphous Form. The spirit can move through a space as narrow as 1 inch wide without it counting as Difficult Terrain.",
+      "fr": "Forme amorphe. L’esprit peut traverser un passage d’une largeur de seulement 1 inch sans que celui-ci compte comme du Terrain difficile.",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "c-28",
+      "en": "30 (+ 10 for each spell level above 3)",
+      "fr": "30 (+ 10 pour chaque niveau de sort au-delà du 3e)",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "c-31",
+      "en": "Fuming Fey Step. The spirit magically teleports up to 30 feet to an unoccupied space it can see then the spirit has Advantage on the next attack roll it makes before the end of this turn.",
+      "fr": "Foulée féerique furieuse. L’esprit se téléporte magiquement d’un maximum de 30 feet vers un espace inoccupé qu’il voit, puis il bénéficie de l’Avantage au prochain jet d’attaque qu’il effectue avant la fin de ce tour.",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "c-32",
+      "en": "Mirthful Fey Step. The spirit magically teleports up to 30 feet to an unoccupied space it can see then Wisdom Saving Throw: DC{caster spell save}, one creature the spirit can see within 10 feet of itself. Failure: The target is Charmed by you and the spirit for 1 minute or until the target takes any damage.",
+      "fr": "Foulée féerique joyeuse. L’esprit se téléporte magiquement d’un maximum de 30 feet vers un espace inoccupé qu’il voit, puis produit l’effet suivant. Jet de sauvegarde de Sagesse : DD{caster spell save}, une créature que l’esprit voit à 10 feet ou moins de lui. Échec : la cible est Charmée par vous et l’esprit pendant 1 minute ou jusqu’à ce qu’elle subisse des dégâts.",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "c-33",
+      "en": "Tricksy Fey Step. The spirit magically teleports up to 30 feet to an unoccupied space it can see then the spirit fills a 10-foot Cube within 5 feet of it with magical Darkness, which lasts until the end of its next turn.",
+      "fr": "Foulée féerique malicieuse. L’esprit se téléporte magiquement d’un maximum de 30 feet vers un espace inoccupé qu’il voit, puis remplit de Ténèbres magiques un Cube de 10 feet situé à 5 feet ou moins de lui. Ces Ténèbres persistent jusqu’à la fin de son prochain tour.",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "c-34",
+      "en": "Death Throes. When the spirit drops to 0 Hit Points or the spell ends, the spirit explodes. Dexterity Saving Throw: DC{caster spell save}, each creature in a 10-foot Emanation originating from the spirit. Failure: 2d10+{cast spell level} Fire damage. Success: Half damage.",
+      "fr": "Spasmes d’agonie. Lorsque l’esprit tombe à 0 point de vie ou que le sort prend fin, l’esprit explose. Jet de sauvegarde de Dextérité : DD{caster spell save}, chaque créature dans une Émanation de 10 feet provenant de l’esprit. Échec : 2d10+{cast spell level} dégâts de feu. Réussite : demi-dégâts.",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "c-35",
+      "en": "The spirit has Advantage on saving throws against spells and other magical effects.",
+      "fr": "L’esprit a l’Avantage aux jets de sauvegarde contre les sorts et les autres effets magiques.",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "c-36",
+      "en": "Magical Darkness doesn’t impede the spirit’s Darkvision.",
+      "fr": "Les Ténèbres magiques ne gênent pas la Vision dans le noir de l’esprit.",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "c-38",
+      "en": "Claws. Melee Attack Roll: {caster spell attack}, reach 5 ft. Hit: 1d8 + 3 + {cast spell level} Slashing damage. Immediately after the attack hits or misses, the spirit can teleport up to 30 feet to an unoccupied space it can see.",
+      "fr": "Griffes. Jet d’attaque au corps à corps : {caster spell attack}, allonge 5 ft. Touché : 1d8 + 3 + {cast spell level} dégâts tranchants. Immédiatement après l’attaque, qu’elle touche ou rate, l’esprit peut se téléporter d’un maximum de 30 feet vers un espace inoccupé qu’il voit.",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "c-41",
+      "en": "Venomous Spew. Constitution Saving Throw: DC{caster spell save}, one creature the insect can see within 10 feet. Failure: The target has the Poisoned condition until the start of the insect’s next turn.",
+      "fr": "Crachat venimeux. Jet de sauvegarde de Constitution : DD{caster spell save}, une créature que l’insecte voit à 10 feet ou moins. Échec : la cible subit l’état Empoisonné jusqu’au début du prochain tour de l’insecte.",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "c-42",
+      "en": "Spider Climb. The insect can climb difficult surfaces, including along ceilings, without needing to make an ability check.",
+      "fr": "Pattes d’araignée. L’insecte peut escalader les surfaces difficiles, y compris les plafonds, sans effectuer de test de caractéristique.",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "c-43",
+      "en": "Web Bolt. Ranged Attack Roll: {caster spell attack}, range 60 ft. Hit: 1d10 + 3 + {cast spell level} Bludgeoning damage, and the target’s Speed is reduced to 0 until the start of the insect’s next turn.",
+      "fr": "Jet de toile. Jet d’attaque à distance : {caster spell attack}, portée 60 ft. Touché : 1d10 + 3 + {cast spell level} dégâts contondants, et la Vitesse de la cible est réduite à 0 jusqu’au début du prochain tour de l’insecte.",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "c-44",
+      "en": "10 (+ 1 per spell level)",
+      "fr": "10 (+ 1 par niveau de sort)",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "c-45",
+      "en": "Telepathy 1 mile (works only with you)",
+      "fr": "Télépathie 1 mile (fonctionne uniquement avec vous)",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "c-46",
+      "en": "Life Bond. When you regain Hit Points from a level 1+ spell, the steed regains the same number of Hit Points if you’re within 5 feet of it.",
+      "fr": "Lien vital. Lorsque vous récupérez des points de vie grâce à un sort de niveau 1+, la monture récupère le même nombre de points de vie si vous vous trouvez à 5 feet ou moins d’elle.",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "c-48",
+      "en": "Healing Touch (Recharges after a Long Rest). One creature within 5 feet of the steed regains a number of Hit Points equal to 2d8+{cast spell level}.",
+      "fr": "Contact guérisseur (recharge après un Repos long). Une créature à 5 feet ou moins de la monture récupère un nombre de points de vie égal à 2d8+{cast spell level}.",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "c-50",
+      "en": "Fey Step (Recharges after a Long Rest). The steed teleports, along with its rider, to an unoccupied space of your choice up to 60 feet away from itself.",
+      "fr": "Foulée féerique (recharge après un Repos long). La monture se téléporte avec son cavalier vers un espace inoccupé de votre choix situé à 60 feet ou moins d’elle.",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "c-51",
+      "en": "Fell Glare (Recharges after a Long Rest). Wisdom Saving Throw: DC{caster spell save} one creature within 60 feet the steed can see. Failure: The target has the Frightened condition until the end of your next turn.",
+      "fr": "Regard fiélon (recharge après un Repos long). Jet de sauvegarde de Sagesse : DD{caster spell save}, une créature à 60 feet ou moins que la monture voit. Échec : la cible subit l’état Effrayé jusqu’à la fin de votre prochain tour.",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "c-52",
+      "en": "Incorporeal Passage. The spirit can move through other creatures and objects as if they were Difficult Terrain. If it ends its turn inside an object, it is shunted to the nearest unoccupied space and takes 1d10 Force damage for every 5 feet traveled.",
+      "fr": "Traversée incorporelle. L’esprit peut traverser les autres créatures et les objets comme s’il s’agissait de Terrain difficile. S’il termine son tour à l’intérieur d’un objet, il est expulsé vers l’espace inoccupé le plus proche et subit 1d10 dégâts de force par tranche de 5 feet parcourus.",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "c-53",
+      "en": "Deathly Touch. Melee Attack Roll: {caster spell attack}, reach 5 ft. Hit: 1d8 + 3 + {cast spell level} Necrotic damage, and the target has the Frightened condition until the end of its next turn.",
+      "fr": "Contact mortel. Jet d’attaque au corps à corps : {caster spell attack}, allonge 5 ft. Touché : 1d8 + 3 + {cast spell level} dégâts nécrotiques, et la cible subit l’état Effrayé jusqu’à la fin de son prochain tour.",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "c-54",
+      "en": "Festering Aura. Constitution Saving Throw: DC{caster spell save}, any creature (other than you) that starts its turn within a 5-foot Emanation originating from the spirit. Failure: The creature has the Poisoned condition until the start of its next turn.",
+      "fr": "Aura putride. Jet de sauvegarde de Constitution : DD{caster spell save}, toute créature (autre que vous) qui commence son tour dans une Émanation de 5 feet provenant de l’esprit. Échec : la créature subit l’état Empoisonné jusqu’au début de son prochain tour.",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "c-55",
+      "en": "Rotting Claw. Melee Attack Roll: {caster spell attack}, reach 5 ft. Hit: 1d6 + 3 + {cast spell level} Slashing damage. If the target has the Poisoned condition, it has the Paralyzed condition until the end of its next turn.",
+      "fr": "Griffe pourrissante. Jet d’attaque au corps à corps : {caster spell attack}, allonge 5 ft. Touché : 1d6 + 3 + {cast spell level} dégâts tranchants. Si la cible subit l’état Empoisonné, elle subit l’état Paralysé jusqu’à la fin de son prochain tour.",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "c-00",
+      "en": "11 (+ the spell’s level)",
+      "fr": "11 (+ le niveau du sort)",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "c-09",
+      "en": "The spirit can breathe only underwater.",
+      "fr": "L’esprit ne peut respirer que sous l’eau.",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "c-13",
+      "en": "13 (+ the spell’s level)",
+      "fr": "13 (+ le niveau du sort)",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "c-17",
+      "en": "14 (+ the spell’s level)",
+      "fr": "14 (+ le niveau du sort)",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "c-27",
+      "en": "12 (+ the spell’s level)",
+      "fr": "12 (+ le niveau du sort)",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "c-multi-generic",
+      "en": "Multiattack. The spirit makes {cast spell level/2} attacks.",
+      "fr": "Attaques multiples. L’esprit effectue {cast spell level/2} attaques.",
+      "layout": "observed",
+      "html": "<p><i><strong>Multiattack.</strong></i> The spirit makes <strong>{cast spell level/2}</strong> attacks.</p>"
+    },
+    {
+      "id": "c-multi-rend",
+      "en": "Multiattack. The spirit makes {cast spell level/2} Rend attacks.",
+      "fr": "Attaques multiples. L’esprit effectue {cast spell level/2} attaques de Saignée.",
+      "layout": "observed",
+      "html": "<p><i><strong>Multiattack.</strong></i> The spirit makes <strong>{cast spell level/2}</strong> Rend attacks.</p>"
+    },
+    {
+      "id": "c-multi-slam",
+      "en": "Multiattack. The spirit makes {cast spell level/2} Slam attacks.",
+      "fr": "Attaques multiples. L’esprit effectue {cast spell level/2} attaques de Coup.",
+      "layout": "observed",
+      "html": "<p><i><strong>Multiattack.</strong></i> The spirit makes <strong>{cast spell level/2}</strong> Slam attacks.</p>"
+    },
+    {
+      "id": "c-multi-fey",
+      "en": "Multiattack. The spirit makes {cast spell level/2} Fey Blade attacks.",
+      "fr": "Attaques multiples. L’esprit effectue {cast spell level/2} attaques de Lame féerique.",
+      "layout": "observed",
+      "html": "<p><i><strong>Multiattack.</strong></i> The spirit makes <strong>{cast spell level/2}</strong> Fey Blade attacks.</p>"
+    },
+    {
+      "id": "c-multi-insect",
+      "en": "Multiattack. The insect makes {cast spell level/2} attacks.",
+      "fr": "Attaques multiples. L’insecte effectue {cast spell level/2} attaques.",
+      "layout": "observed",
+      "html": "<p><i><strong>Multiattack.</strong></i> The insect makes <strong>{cast spell level/2}</strong> attacks.</p>"
+    },
+    {
+      "id": "c-multi-dragon",
+      "en": "Multiattack. The spirit makes {cast spell level/2} Rend attacks and it uses Breath Weapon.",
+      "fr": "Attaques multiples. L’esprit effectue {cast spell level/2} attaques de Saignée et utilise Souffle.",
+      "layout": "observed",
+      "html": "<p><i><strong>Multiattack.</strong></i> The spirit makes <strong>{cast spell level/2}</strong> Rend attacks and it uses Breath Weapon.</p>"
+    },
+    {
+      "id": "c-eye",
+      "en": "Eye Ray. Ranged Attack Roll: {caster spell attack}, range 150 ft. Hit: 1d8 + 3 + {cast spell level} Psychic damage.",
+      "fr": "Rayon oculaire. Jet d’attaque à distance : {caster spell attack}, portée 150 ft. Touché : 1d8 + 3 + {cast spell level} dégâts psychiques.",
+      "layout": "observed",
+      "html": "<p><i><strong>Eye Ray.</strong></i> <i>Ranged Attack Roll:</i> <strong>{caster spell attack}</strong>, range 150 ft. <i>Hit:</i> <strong>1d8 + 3 + {cast spell level}</strong> Psychic damage.</p>"
+    },
+    {
+      "id": "c-bow",
+      "en": "Radiant Bow. Ranged Attack Roll: {caster spell attack}, range 600 ft. Hit: 2d6 + 2 + {cast spell level} Radiant damage.",
+      "fr": "Arc radiant. Jet d’attaque à distance : {caster spell attack}, portée 600 ft. Touché : 2d6 + 2 + {cast spell level} dégâts radiants.",
+      "layout": "observed",
+      "html": "<p><i><strong>Radiant Bow.</strong></i> <i>Ranged Attack Roll</i>: <strong>{caster spell attack}</strong>, range 600 ft. <i>Hit:</i> <strong>2d6 + 2 + {cast spell level}</strong> Radiant damage.</p>"
+    },
+    {
+      "id": "c-fey-blade",
+      "en": "Fey Blade. Melee Attack Roll: {caster spell attack}, reach 5 ft. Hit: 2d6 + 3 + {cast spell level} Force damage.",
+      "fr": "Lame féerique. Jet d’attaque au corps à corps : {caster spell attack}, allonge 5 ft. Touché : 2d6 + 3 + {cast spell level} dégâts de force.",
+      "layout": "observed",
+      "html": "<p><i><strong>Fey Blade.</strong></i> <i>Melee Attack Roll:</i> <strong>{caster spell attack}</strong>, reach 5 ft. <i>Hit:</i> <strong>2d6 + 3 + {cast spell level}</strong> Force damage.</p>"
+    },
+    {
+      "id": "c-fiery",
+      "en": "Fiery Strike. Melee or Ranged Attack Roll: {caster spell attack}, reach 5 ft. or range 150 ft. Hit: 2d6 + 3 + {cast spell level} Fire damage.",
+      "fr": "Frappe enflammée. Jet d’attaque au corps à corps ou à distance : {caster spell attack}, allonge 5 ft. ou portée 150 ft. Touché : 2d6 + 3 + {cast spell level} dégâts de feu.",
+      "layout": "observed",
+      "html": "<p><i><strong>Fiery Strike.</strong></i> <i>Melee or Ranged Attack Roll:</i> <strong>{caster spell attack}</strong>, reach 5 ft. or range 150 ft. <i>Hit:</i> <strong>2d6 + 3 + {cast spell level} </strong>Fire damage.</p>"
+    },
+    {
+      "id": "c-grave",
+      "en": "Grave Bolt. Ranged Attack Roll: {caster spell attack}, range 150 ft. Hit: 2d4 + 3 + {cast spell level} Necrotic damage.",
+      "fr": "Trait funèbre. Jet d’attaque à distance : {caster spell attack}, portée 150 ft. Touché : 2d4 + 3 + {cast spell level} dégâts nécrotiques.",
+      "layout": "observed",
+      "html": "<p><i><strong>Grave Bolt.</strong></i> <i>Ranged Attack Roll:</i> <strong>{caster spell attack}</strong>, range 150 ft. <i>Hit:</i> <strong>2d4 + 3 + {cast spell level}</strong> Necrotic damage.</p>"
+    },
+    {
+      "id": "c-shared-acid",
+      "en": "Shared Resistances. You have Resistance to Acid.",
+      "fr": "Résistances partagées. Vous avez la Résistance à l’acide.",
+      "layout": "observed",
+      "html": "<p><i><strong>Shared Resistances.</strong></i> You have <a href=\"#spell?id=8ap3zalqwne2iqw4\">Resistance</a> to Acid.</p>"
+    },
+    {
+      "id": "c-shared-lightning",
+      "en": "Shared Resistances. You have Resistance to Lightning.",
+      "fr": "Résistances partagées. Vous avez la Résistance à la foudre.",
+      "layout": "observed",
+      "html": "<p><i><strong>Shared Resistances.</strong></i> You have <a href=\"#spell?id=8ap3zalqwne2iqw4\">Resistance</a> to Lightning.</p>"
+    },
+    {
+      "id": "c-breath-acid1",
+      "en": "Breath Weapon. Dexterity Saving Throw: DC{caster spell save}, each creature in a 30-foot Cone. Failure: 2d6 Acid damage Success: Half damage",
+      "fr": "Souffle. Jet de sauvegarde de Dextérité : DD{caster spell save}, chaque créature dans un Cône de 30 feet. Échec : 2d6 dégâts d’acide Réussite : demi-dégâts",
+      "layout": "observed",
+      "html": "<p><i><strong>Breath Weapon. </strong>Dexterity Saving Throw:</i> <strong>DC{caster spell save}</strong>, each creature in a 30-foot Cone. <i>Failure:</i> <strong class=\"dodieroll\">2d6</strong> Acid damage <i>Success:</i> Half damage</p>"
+    },
+    {
+      "id": "c-breath-acid2",
+      "en": "Breath Weapon. Dexterity Saving Throw: DC{caster spell save}, each creature in a 30-foot Cone. Failure: 2d6 Acid damage. Success: Half damage",
+      "fr": "Souffle. Jet de sauvegarde de Dextérité : DD{caster spell save}, chaque créature dans un Cône de 30 feet. Échec : 2d6 dégâts d’acide. Réussite : demi-dégâts",
+      "layout": "observed",
+      "html": "<p><i><strong>Breath Weapon. </strong>Dexterity Saving Throw:</i> <strong>DC{caster spell save}</strong>, each creature in a 30-foot Cone. <i>Failure:</i> <strong class=\"dodieroll\">2d6</strong> Acid damage. <i>Success:</i> Half damage</p>"
+    },
+    {
+      "id": "c-breath-lightning1",
+      "en": "Breath Weapon. Dexterity Saving Throw: DC{caster spell save}, each creature in a 30-foot Cone. Failure: 2d6 Lightning damage Success: Half damage",
+      "fr": "Souffle. Jet de sauvegarde de Dextérité : DD{caster spell save}, chaque créature dans un Cône de 30 feet. Échec : 2d6 dégâts de foudre Réussite : demi-dégâts",
+      "layout": "observed",
+      "html": "<p><i><strong>Breath Weapon. </strong>Dexterity Saving Throw:</i> <strong>DC{caster spell save}</strong>, each creature in a 30-foot Cone. <i>Failure:</i> <strong class=\"dodieroll\">2d6</strong> Lightning damage <i>Success:</i> Half damage</p>"
+    },
+    {
+      "id": "c-breath-fire2",
+      "en": "Breath Weapon. Dexterity Saving Throw: DC{caster spell save}, each creature in a 30-foot Cone. Failure: 2d6 Fire damage. Success: Half damage",
+      "fr": "Souffle. Jet de sauvegarde de Dextérité : DD{caster spell save}, chaque créature dans un Cône de 30 feet. Échec : 2d6 dégâts de feu. Réussite : demi-dégâts",
+      "layout": "observed",
+      "html": "<p><i><strong>Breath Weapon. </strong>Dexterity Saving Throw:</i> <strong>DC{caster spell save}</strong>, each creature in a 30-foot Cone. <i>Failure:</i> <strong class=\"dodieroll\">2d6</strong> Fire damage. <i>Success:</i> Half damage</p>"
+    },
+    {
+      "id": "c-breath-poison2",
+      "en": "Breath Weapon. Dexterity Saving Throw: DC{caster spell save}, each creature in a 30-foot Cone. Failure: 2d6 Poison damage. Success: Half damage",
+      "fr": "Souffle. Jet de sauvegarde de Dextérité : DD{caster spell save}, chaque créature dans un Cône de 30 feet. Échec : 2d6 dégâts de poison. Réussite : demi-dégâts",
+      "layout": "observed",
+      "html": "<p><i><strong>Breath Weapon. </strong>Dexterity Saving Throw:</i> <strong>DC{caster spell save}</strong>, each creature in a 30-foot Cone. <i>Failure:</i> <strong class=\"dodieroll\">2d6</strong> Poison damage. <i>Success:</i> Half damage</p>"
+    },
+    {
+      "id": "c-breath-cold2",
+      "en": "Breath Weapon. Dexterity Saving Throw: DC{caster spell save}, each creature in a 30-foot Cone. Failure: 2d6 Cold damage. Success: Half damage",
+      "fr": "Souffle. Jet de sauvegarde de Dextérité : DD{caster spell save}, chaque créature dans un Cône de 30 feet. Échec : 2d6 dégâts de froid. Réussite : demi-dégâts",
+      "layout": "observed",
+      "html": "<p><i><strong>Breath Weapon. </strong>Dexterity Saving Throw:</i> <strong>DC{caster spell save}</strong>, each creature in a 30-foot Cone. <i>Failure:</i> <strong class=\"dodieroll\">2d6</strong> Cold damage. <i>Success:</i> Half damage</p>"
+    },
+    {
+      "id": "c-jab-centipede",
+      "en": "Poison Jab. Melee Attack Roll: {caster spell attack} reach 10 ft. Hit: 1d6 + 3 + {cast spell level} Piercing damage plus 1d4 Poison damage.",
+      "fr": "Piqûre toxique. Jet d’attaque au corps à corps : {caster spell attack}, allonge 10 ft. Touché : 1d6 + 3 + {cast spell level} dégâts perforants plus 1d4 dégâts de poison.",
+      "layout": "observed",
+      "html": "<p><i><strong>Poison Jab. </strong>Melee Attack Roll: <strong>{caster spell attack}</strong></i> reach 10 ft. <i>Hit:</i> <strong>1d6 + 3 + {cast spell level}</strong> Piercing damage plus <strong class=\"dodieroll\">1d4</strong> Poison damage.</p>"
+    },
+    {
+      "id": "c-jab-spider",
+      "en": "Poison Jab. Melee Attack Roll: {caster spell attack}, reach 10 ft. Hit: 1d6 + 3 +{cast spell level} Piercing damage plus 1d4 Poison damage.",
+      "fr": "Piqûre toxique. Jet d’attaque au corps à corps : {caster spell attack}, allonge 10 ft. Touché : 1d6 + 3 + {cast spell level} dégâts perforants plus 1d4 dégâts de poison.",
+      "layout": "observed",
+      "html": "<p><i><strong>Poison Jab. </strong>Melee Attack Roll: <strong>{caster spell attack}</strong></i>, reach 10 ft. <i>Hit:</i> <strong>1d6 + 3 +{cast spell level}</strong> Piercing damage plus <strong class=\"dodieroll\">1d4</strong> Poison damage.</p>"
+    },
+    {
+      "id": "c-slam-radiant",
+      "en": "Otherworldly Slam. Melee Attack Roll: {caster spell attack}, reach 5 ft. Hit: 1d8+{cast spell level} of Radiant damage.",
+      "fr": "Coup d’outre-monde. Jet d’attaque au corps à corps : {caster spell attack}, allonge 5 ft. Touché : 1d8+{cast spell level} dégâts radiants.",
+      "layout": "observed",
+      "html": "<p><i><strong>Otherworldly Slam.</strong></i> <i>Melee Attack Roll:</i> <strong>{caster spell attack}</strong>, reach 5 ft. <i>Hit:</i> <strong>1d8+{cast spell level}</strong> of Radiant damage.</p>"
+    },
+    {
+      "id": "c-slam-psychic",
+      "en": "Otherworldly Slam. Melee Attack Roll: {caster spell attack}, reach 5 ft. Hit: 1d8+{cast spell level} Psychic damage.",
+      "fr": "Coup d’outre-monde. Jet d’attaque au corps à corps : {caster spell attack}, allonge 5 ft. Touché : 1d8+{cast spell level} dégâts psychiques.",
+      "layout": "observed",
+      "html": "<p><i><strong>Otherworldly Slam.</strong></i> <i>Melee Attack Roll:</i> <strong>{caster spell attack}</strong>, reach 5 ft. <i>Hit:</i> <strong>1d8+{cast spell level}</strong> Psychic damage.</p>"
+    },
+    {
+      "id": "c-slam-necrotic",
+      "en": "Otherworldly Slam. Melee Attack Roll: {caster spell attack}, reach 5 ft. Hit: 1d8+{cast spell level} Necrotic damage.",
+      "fr": "Coup d’outre-monde. Jet d’attaque au corps à corps : {caster spell attack}, allonge 5 ft. Touché : 1d8+{cast spell level} dégâts nécrotiques.",
+      "layout": "observed",
+      "html": "<p><i><strong>Otherworldly Slam.</strong></i> <i>Melee Attack Roll:</i> <strong>{caster spell attack}</strong>, reach 5 ft. <i>Hit:</i> <strong>1d8+{cast spell level}</strong> Necrotic damage.</p>"
+    },
+    {
+      "id": "label-0",
+      "en": "Conditions",
+      "fr": "États",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "label-1",
+      "en": "Special Conditions",
+      "fr": "États spéciaux",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "label-2",
+      "en": "D&D 2024 Ruleset",
+      "fr": "Règles D&D 2024",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "label-3",
+      "en": "Wallpaper",
+      "fr": "Fond d’écran",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "label-4",
+      "en": "Inspiration",
+      "fr": "Inspiration",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "label-5",
+      "en": "Three Quarters Cover",
+      "fr": "Abri supérieur",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "label-6",
+      "en": "D&D 2024",
+      "fr": "D&D 2024",
+      "layout": "reconstructed"
+    },
+    {
+      "id": "c-jab-wasp",
+      "en": "Poison Jab. Melee Attack Roll: {caster spell attack} reach 10 ft. Hit: 1d6 + 3 +{cast spell level}  Piercing damage plus 1d4 Poison damage.",
+      "fr": "Piqûre toxique. Jet d’attaque au corps à corps : {caster spell attack}, allonge 10 ft. Touché : 1d6 + 3 + {cast spell level} dégâts perforants plus 1d4 dégâts de poison.",
+      "layout": "observed",
+      "html": "<p><i><strong>Poison Jab. </strong>Melee Attack Roll:</i> <strong>{caster spell attack}</strong> reach 10 ft. <i>Hit:</i> <strong>1d6 + 3 +{cast spell level}</strong> &nbsp;Piercing damage plus <strong class=\"dodieroll\">1d4</strong> Poison damage.</p>"
+    }
+  ],
+  "coverage": [
+    {
+      "report": "creatures",
+      "index": 0,
+      "en": "This appendix provides stat blocks for creatures mentioned elsewhere in the book, particularly in the class, equipment, and spell chapters. See the rules glossary for how to read a stat block, and see the Monster Manual for even more creatures.",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "b-00"
+      ]
+    },
+    {
+      "report": "creatures",
+      "index": 1,
+      "en": "The following stat blocks are presented in alphabetical order. When the Dungeon Master uses a stat block, the DM may change details in it.",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "b-01"
+      ]
+    },
+    {
+      "report": "creatures",
+      "index": 3,
+      "en": "Gore. Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Piercing damage. If the target is a Medium or smaller creature and the boar moved 20+ feet straight toward it immediately before the hit, the target takes an extra 3 (1d6) Piercing damage and has the Prone condition.",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "b-03"
+      ]
+    },
+    {
+      "report": "creatures",
+      "index": 4,
+      "en": "Claw. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Slashing damage. If the target is a Large or smaller creature, it has the Prone condition.",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "b-04"
+      ]
+    },
+    {
+      "report": "creatures",
+      "index": 5,
+      "en": "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Piercing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 12). While Grappled, the target has the Restrained condition.",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "b-05"
+      ]
+    },
+    {
+      "report": "creatures",
+      "index": 6,
+      "en": "Gore. Melee Attack Roll: +8, reach 5 ft. Hit: 15 (2d8 + 6) Piercing damage. If the target is a Huge or smaller creature and the elephant moved 20+ feet straight toward it immediately before the hit, the target has the Prone condition.",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "b-06"
+      ]
+    },
+    {
+      "report": "creatures",
+      "index": 7,
+      "en": "Ram. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Bludgeoning damage. If the target is a Large or smaller creature and the elk moved 20+ feet straight toward it immediately before the hit, the target takes an extra 3 (1d6) Bludgeoning damage and has the Prone condition.",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "b-07"
+      ]
+    },
+    {
+      "report": "creatures",
+      "index": 8,
+      "en": "Claw. Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 11) from one of two claws.",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "b-08"
+      ]
+    },
+    {
+      "report": "creatures",
+      "index": 9,
+      "en": "Ram. Melee Attack Roll: +2, reach 5 ft. Hit: 1 Bludgeoning damage, or 2 (1d4) Bludgeoning damage if the goat moved 20+ feet straight toward the target immediately before the hit.",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "b-09"
+      ]
+    },
+    {
+      "report": "creatures",
+      "index": 11,
+      "en": "Shape-Shift. The imp shape-shifts to resemble a rat (Speed 20 ft.), a raven (20 ft., Fly 60 ft.), or a spider (20 ft., Climb 20 ft.), or it returns to its true form. Its statistics are the same in each form, except for its Speed. Any equipment it’s wearing or carrying isn’t transformed.",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "b-11"
+      ]
+    },
+    {
+      "report": "creatures",
+      "index": 12,
+      "en": "Running Leap. With a 10-foot running start, the lion can Long Jump up to 25 feet.",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "b-12"
+      ]
+    },
+    {
+      "report": "creatures",
+      "index": 13,
+      "en": "Multiattack. The lion makes two Rend attacks. It can replace one attack with a use of Roar.",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "b-13"
+      ]
+    },
+    {
+      "report": "creatures",
+      "index": 14,
+      "en": "Compression. The octopus can move through a space as narrow as 1 inch without expending extra movement to do so.",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "b-14"
+      ]
+    },
+    {
+      "report": "creatures",
+      "index": 15,
+      "en": "Sting. Constitution Saving Throw: DC 12, one creature the pseudodragon can see within 5 feet. Failure: 5 (2d4) Poison damage, and the target has the Poisoned condition for 1 hour. Failure by 5 or More: The Poisoned target also has the Unconscious condition until it takes damage or another creature takes an action to shake it awake.",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "b-15"
+      ]
+    },
+    {
+      "report": "creatures",
+      "index": 16,
+      "en": "Scare (1/Day). Wisdom Saving Throw: DC 10, one creature within 20 feet. Failure: The target has the Frightened condition. At the end of each of its turns, the target repeats the save, ending the effect on itself on a success. After 1 minute, it succeeds automatically.",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "b-16"
+      ]
+    },
+    {
+      "report": "creatures",
+      "index": 17,
+      "en": "Shape-Shift. The quasit shape-shifts to resemble a bat (Speed 10 ft., Fly 40 ft.), a centipede (40 ft., Climb 40 ft.), or a toad (40 ft., Swim 40 ft.), or it returns to its true form. Its statistics are the same in each form, except for its Speed. Any equipment it’s wearing or carrying isn’t transformed.",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "b-17"
+      ]
+    },
+    {
+      "report": "creatures",
+      "index": 18,
+      "en": "Agile. The rat doesn’t provoke an Opportunity Attack when it moves out of an enemy’s reach.",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "b-18"
+      ]
+    },
+    {
+      "report": "creatures",
+      "index": 19,
+      "en": "Understands the languages it knew in life but can’t speak",
+      "kind": "term",
+      "occurrences": 2,
+      "targets": [
+        "b-19"
+      ]
+    },
+    {
+      "report": "creatures",
+      "index": 20,
+      "en": "Heart Sight. Charisma Saving Throw: DC 10, one creature within 5 feet the sprite can see. Celestials, Fiends, and Undead automatically fail the save. Failure: The sprite knows the target’s emotions and alignment.",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "b-20"
+      ]
+    },
+    {
+      "report": "creatures",
+      "index": 21,
+      "en": "Hooves. Melee Attack Roll: +6, reach 5 ft. Hit: 9 (2d4 + 4) Bludgeoning damage. If the target is a Large or smaller creature and the horse moved 20+ feet straight toward it immediately before the hit, the target takes an extra 5 (2d4) Bludgeoning damage and has the Prone condition.",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "b-21"
+      ]
+    },
+    {
+      "report": "creatures",
+      "index": 23,
+      "en": "Undead Fortitude. If damage reduces the zombie to 0 Hit Points, it must make a Constitution saving throw with a DC of 5 plus the damage taken unless the damage is Radiant or from a Critical Hit. On a successful save, the zombie drops to 1 Hit Point instead.",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "b-23"
+      ]
+    },
+    {
+      "report": "creatures",
+      "index": 2,
+      "en": ". The ape makes two Fist attacks.",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "b-ape-multi"
+      ]
+    },
+    {
+      "report": "creatures",
+      "index": 10,
+      "en": "Magical doesn’t impede the imp’s .",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "b-imp-sight"
+      ]
+    },
+    {
+      "report": "creatures",
+      "index": 22,
+      "en": "Pack Tactics. The wolf has Advantage on attack rolls against a creature if at least one of the wolf’s allies is within 5 feet of the creature and the ally doesn’t have the Incapacitated condition.",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "b-wolf-pack"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 3,
+      "en": "Whispering Aura. At the start of each of the spirit’s turns, the spirit emits psionic energy if it doesn’t have the Incapacitated condition. Wisdom Saving Throw: DC{caster spell save}, each creature (other than you) within 5 feet of the spirit. Failure: 2d6 Psychic damage.",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "c-03"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 4,
+      "en": "Regeneration. The spirit regains 5 Hit Points at the start of its turn if it has at least 1 Hit Point.",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "c-04"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 5,
+      "en": "Claw. Melee Attack Roll: {caster spell attack}, reach 5 ft. Hit: 1d10 + 3 + {cast spell level} Slashing damage, and the target can’t regain Hit Points until the start of the spirit’s next turn.",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "c-05"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 6,
+      "en": "Flyby. The spirit doesn’t provoke Opportunity Attacks when it flies out of an enemy’s reach.",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "c-06"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 8,
+      "en": "Pack Tactics. The spirit has Advantage on an attack roll against a creature if at least one of the spirit’s allies is within 5 feet of the creature and the ally doesn’t have the Incapacitated condition.",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "c-08"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 11,
+      "en": "Healing Touch (1/Day). The spirit touches another creature. The target regains Hit Points equal to 2d8 + {cast spell level}.",
+      "kind": "description",
+      "occurrences": 2,
+      "targets": [
+        "c-11"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 12,
+      "en": "Radiant Mace. Melee Attack Roll: {caster spell attack}, reach 5 ft. Hit: 1d10 + 3 + {cast spell level} Radiant damage, and the spirit can choose itself or another creature it can see within 10 feet of the target. The chosen creature gains 1d10 Temporary Hit Points.",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "c-12"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 14,
+      "en": "Berserk Lashing. Trigger: The spirit takes damage from a creature. Response: The spirit makes a Slam attack against that creature if possible, or the spirit moves up to half its Speed toward that creature without provoking Opportunity Attacks.",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "c-14"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 15,
+      "en": "Heated Body. A creature that hits the spirit with a melee attack or that starts its turn in a grapple with the spirit takes 1d10 Fire damage.",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "c-15"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 16,
+      "en": "Stony Lethargy. When a creature starts its turn within 10 feet of the spirit, the spirit can target it with magical energy if the spirit can see it. Wisdom Saving Throw: DC{caster spell save} the target. Failure: Until the start of its next turn, the target can’t make Opportunity Attacks, and its Speed is halved.",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "c-16"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 22,
+      "en": "Shared Resistances. You have Resistance to Fire damage until the spell ends.",
+      "kind": "description",
+      "occurrences": 3,
+      "targets": [
+        "c-22"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 23,
+      "en": "Shared Resistances. You have Resistance to Acid until the spell ends.",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "c-23"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 24,
+      "en": "Shared Resistances. You have Resistance to Poison until the spell ends.",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "c-24"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 25,
+      "en": "Shared Resistances. You have Resistance to Cold damage until the spell ends.",
+      "kind": "description",
+      "occurrences": 2,
+      "targets": [
+        "c-25"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 26,
+      "en": "Amorphous Form. The spirit can move through a space as narrow as 1 inch wide without it counting as Difficult Terrain.",
+      "kind": "description",
+      "occurrences": 3,
+      "targets": [
+        "c-26"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 28,
+      "en": "30 (+ 10 for each spell level above 3)",
+      "kind": "term",
+      "occurrences": 3,
+      "targets": [
+        "c-28"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 31,
+      "en": "Fuming Fey Step. The spirit magically teleports up to 30 feet to an unoccupied space it can see then the spirit has Advantage on the next attack roll it makes before the end of this turn.",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "c-31"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 32,
+      "en": "Mirthful Fey Step. The spirit magically teleports up to 30 feet to an unoccupied space it can see then Wisdom Saving Throw: DC{caster spell save}, one creature the spirit can see within 10 feet of itself. Failure: The target is Charmed by you and the spirit for 1 minute or until the target takes any damage.",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "c-32"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 33,
+      "en": "Tricksy Fey Step. The spirit magically teleports up to 30 feet to an unoccupied space it can see then the spirit fills a 10-foot Cube within 5 feet of it with magical Darkness, which lasts until the end of its next turn.",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "c-33"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 34,
+      "en": "Death Throes. When the spirit drops to 0 Hit Points or the spell ends, the spirit explodes. Dexterity Saving Throw: DC{caster spell save}, each creature in a 10-foot Emanation originating from the spirit. Failure: 2d10+{cast spell level} Fire damage. Success: Half damage.",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "c-34"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 35,
+      "en": "The spirit has Advantage on saving throws against spells and other magical effects.",
+      "kind": "description",
+      "occurrences": 3,
+      "targets": [
+        "c-35"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 36,
+      "en": "Magical Darkness doesn’t impede the spirit’s Darkvision.",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "c-36"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 38,
+      "en": "Claws. Melee Attack Roll: {caster spell attack}, reach 5 ft. Hit: 1d8 + 3 + {cast spell level} Slashing damage. Immediately after the attack hits or misses, the spirit can teleport up to 30 feet to an unoccupied space it can see.",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "c-38"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 41,
+      "en": "Venomous Spew. Constitution Saving Throw: DC{caster spell save}, one creature the insect can see within 10 feet. Failure: The target has the Poisoned condition until the start of the insect’s next turn.",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "c-41"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 42,
+      "en": "Spider Climb. The insect can climb difficult surfaces, including along ceilings, without needing to make an ability check.",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "c-42"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 43,
+      "en": "Web Bolt. Ranged Attack Roll: {caster spell attack}, range 60 ft. Hit: 1d10 + 3 + {cast spell level} Bludgeoning damage, and the target’s Speed is reduced to 0 until the start of the insect’s next turn.",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "c-43"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 44,
+      "en": "10 (+ 1 per spell level)",
+      "kind": "description",
+      "occurrences": 3,
+      "targets": [
+        "c-44"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 45,
+      "en": "Telepathy 1 mile (works only with you)",
+      "kind": "term",
+      "occurrences": 3,
+      "targets": [
+        "c-45"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 46,
+      "en": "Life Bond. When you regain Hit Points from a level 1+ spell, the steed regains the same number of Hit Points if you’re within 5 feet of it.",
+      "kind": "description",
+      "occurrences": 3,
+      "targets": [
+        "c-46"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 48,
+      "en": "Healing Touch (Recharges after a Long Rest). One creature within 5 feet of the steed regains a number of Hit Points equal to 2d8+{cast spell level}.",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "c-48"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 50,
+      "en": "Fey Step (Recharges after a Long Rest). The steed teleports, along with its rider, to an unoccupied space of your choice up to 60 feet away from itself.",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "c-50"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 51,
+      "en": "Fell Glare (Recharges after a Long Rest). Wisdom Saving Throw: DC{caster spell save} one creature within 60 feet the steed can see. Failure: The target has the Frightened condition until the end of your next turn.",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "c-51"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 52,
+      "en": "Incorporeal Passage. The spirit can move through other creatures and objects as if they were Difficult Terrain. If it ends its turn inside an object, it is shunted to the nearest unoccupied space and takes 1d10 Force damage for every 5 feet traveled.",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "c-52"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 53,
+      "en": "Deathly Touch. Melee Attack Roll: {caster spell attack}, reach 5 ft. Hit: 1d8 + 3 + {cast spell level} Necrotic damage, and the target has the Frightened condition until the end of its next turn.",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "c-53"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 54,
+      "en": "Festering Aura. Constitution Saving Throw: DC{caster spell save}, any creature (other than you) that starts its turn within a 5-foot Emanation originating from the spirit. Failure: The creature has the Poisoned condition until the start of its next turn.",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "c-54"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 55,
+      "en": "Rotting Claw. Melee Attack Roll: {caster spell attack}, reach 5 ft. Hit: 1d6 + 3 + {cast spell level} Slashing damage. If the target has the Poisoned condition, it has the Paralyzed condition until the end of its next turn.",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "c-55"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 0,
+      "en": "11 (+ the spell’s level)",
+      "kind": "description",
+      "occurrences": 16,
+      "targets": [
+        "c-00"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 9,
+      "en": "The spirit can breathe only underwater.",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "c-09"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 13,
+      "en": "13 (+ the spell’s level)",
+      "kind": "description",
+      "occurrences": 3,
+      "targets": [
+        "c-13"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 17,
+      "en": "14 (+ the spell’s level)",
+      "kind": "description",
+      "occurrences": 10,
+      "targets": [
+        "c-17"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 27,
+      "en": "12 (+ the spell’s level)",
+      "kind": "description",
+      "occurrences": 6,
+      "targets": [
+        "c-27"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 1,
+      "en": "The spirit makes",
+      "kind": "description",
+      "occurrences": 18,
+      "targets": [
+        "c-multi-generic",
+        "c-multi-slam"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 7,
+      "en": "The spirit makes Rend attacks.",
+      "kind": "description",
+      "occurrences": 3,
+      "targets": [
+        "c-multi-rend"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 29,
+      "en": "The spirit makes Fey Blade attacks.",
+      "kind": "description",
+      "occurrences": 3,
+      "targets": [
+        "c-multi-fey"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 39,
+      "en": "The insect makes",
+      "kind": "description",
+      "occurrences": 3,
+      "targets": [
+        "c-multi-insect"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 19,
+      "en": "The spirit makes Rend attacks and it uses Breath Weapon.",
+      "kind": "description",
+      "occurrences": 10,
+      "targets": [
+        "c-multi-dragon"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 2,
+      "en": "Eye Ray. {caster spell attack}",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "c-eye"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 10,
+      "en": "Radiant Bow. : {caster spell attack}",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "c-bow"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 30,
+      "en": "Fey Blade. {caster spell attack}",
+      "kind": "description",
+      "occurrences": 3,
+      "targets": [
+        "c-fey-blade"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 37,
+      "en": "Fiery Strike. {caster spell attack}, reach 5 ft. or range 150 ft.",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "c-fiery"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 56,
+      "en": "Grave Bolt. {caster spell attack}",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "c-grave"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 18,
+      "en": "Shared Resistances. You have to Acid.",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "c-shared-acid"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 21,
+      "en": "Shared Resistances. You have to Lightning.",
+      "kind": "description",
+      "occurrences": 2,
+      "targets": [
+        "c-shared-lightning"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 20,
+      "en": "DC{caster spell save}, each creature in a 30-foot Cone. 2d6",
+      "kind": "description",
+      "occurrences": 10,
+      "targets": [
+        "c-breath-acid1",
+        "c-breath-acid2",
+        "c-breath-lightning1",
+        "c-breath-fire2",
+        "c-breath-poison2",
+        "c-breath-cold2"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 40,
+      "en": "Poison Jab. {caster spell attack} Piercing damage plus 1d4",
+      "kind": "description",
+      "occurrences": 3,
+      "targets": [
+        "c-jab-centipede",
+        "c-jab-spider",
+        "c-jab-wasp"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 47,
+      "en": "Otherworldly Slam. {caster spell attack} of Radiant damage.",
+      "kind": "description",
+      "occurrences": 1,
+      "targets": [
+        "c-slam-radiant"
+      ]
+    },
+    {
+      "report": "summons",
+      "index": 49,
+      "en": "Otherworldly Slam. {caster spell attack}",
+      "kind": "description",
+      "occurrences": 2,
+      "targets": [
+        "c-slam-psychic",
+        "c-slam-necrotic"
+      ]
+    },
+    {
+      "report": "labels",
+      "index": 0,
+      "en": "Conditions",
+      "kind": "term",
+      "occurrences": 2,
+      "targets": [
+        "label-0"
+      ]
+    },
+    {
+      "report": "labels",
+      "index": 1,
+      "en": "Special Conditions",
+      "kind": "term",
+      "occurrences": 2,
+      "targets": [
+        "label-1"
+      ]
+    },
+    {
+      "report": "labels",
+      "index": 2,
+      "en": "D&D 2024 Ruleset",
+      "kind": "term",
+      "occurrences": 2,
+      "targets": [
+        "label-2"
+      ]
+    },
+    {
+      "report": "labels",
+      "index": 3,
+      "en": "Wallpaper",
+      "kind": "term",
+      "occurrences": 2,
+      "targets": [
+        "label-3"
+      ]
+    },
+    {
+      "report": "labels",
+      "index": 4,
+      "en": "Inspiration",
+      "kind": "term",
+      "occurrences": 1,
+      "targets": [
+        "label-4"
+      ]
+    },
+    {
+      "report": "labels",
+      "index": 5,
+      "en": "Three Quarters Cover",
+      "kind": "term",
+      "occurrences": 1,
+      "targets": [
+        "label-5"
+      ]
+    },
+    {
+      "report": "labels",
+      "index": 6,
+      "en": "D&D 2024",
+      "kind": "term",
+      "occurrences": 1,
+      "targets": [
+        "label-6"
+      ]
+    }
+  ],
+  "notes": [
+    "88 signalements fournis, avec leurs occurrences. Les fragments incomplets sont associés aux paragraphes réellement relevés, sans ajouter de règle supposée au fragment seul.",
+    "Les layouts observed reproduisent le HTML lu dans le PHB ; les autres dispositions seront reconstituées à partir des textes du rapport.",
+    "Les corrections déjà disponibles pour le Loup, la respiration aquatique et quatre valeurs de CA sont conservées et retestées. Inspiration et D&D 2024 gardent leur graphie."
+  ]
+}

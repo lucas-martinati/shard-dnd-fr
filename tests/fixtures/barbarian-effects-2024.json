@@ -1,0 +1,148 @@
+{
+  "date": "2026-10-19",
+  "source": "Consultation directe de Shard : source D&D 2024 PHB attestée dans la fiche du Berserker ; effet Frenzy Damage ouvert dans Set Toggle Effect, effets de Rage et action Reckless Attack inspectés via User Action. Aucune sauvegarde sur le site.",
+  "book": "https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv",
+  "limite": "Relevé ciblé du Barbare et du Berserker ; les effets imbriqués des autres classes, sorts et objets restent à examiner.",
+  "cases": [
+    {
+      "id": "frenzy.description",
+      "en": "Add additional damage to your first attack each round while using Reckless Attack.",
+      "fr": "Ajoutez des dégâts supplémentaires à votre première attaque de chaque round lorsque vous utilisez Attaque téméraire."
+    },
+    {
+      "id": "frenzy.modifier",
+      "en": "You gain an extra {rage damage}d6 default to damage rolls with melee weapons unarmed strikes",
+      "fr": "Vous ajoutez {rage damage}d6 dégâts du type par défaut aux jets de dégâts des armes de corps à corps et des frappes à mains nues"
+    },
+    {
+      "id": "frenzy.summary",
+      "en": "You gain an extra {rage damage}d6 default to damage rolls with melee weapons unarmed strikes.",
+      "fr": "Vous ajoutez {rage damage}d6 dégâts du type par défaut aux jets de dégâts des armes de corps à corps et des frappes à mains nues."
+    },
+    {
+      "id": "rage.modifier",
+      "en": "You gain an extra {rage damage} default to damage rolls with melee weapons unarmed strikes",
+      "fr": "Vous ajoutez {rage damage} dégâts du type par défaut aux jets de dégâts des armes de corps à corps et des frappes à mains nues"
+    },
+    {
+      "id": "rage.summary",
+      "en": "You have resistance to bludgeoning, piercing and slashing damage. You gain an extra {rage damage} default to damage rolls with melee weapons unarmed strikes.",
+      "fr": "Vous avez la Résistance aux dégâts contondants, perforants et tranchants. Vous ajoutez {rage damage} dégâts du type par défaut aux jets de dégâts des armes de corps à corps et des frappes à mains nues."
+    },
+    {
+      "id": "reckless.duration",
+      "en": "Reckless Attack for 1 round",
+      "fr": "Attaque téméraire pendant 1 round"
+    }
+  ],
+  "labels": [
+    {
+      "en": "Feature Options",
+      "fr": "Options d’aptitude"
+    },
+    {
+      "en": "Action Configuration",
+      "fr": "Configuration de l’action"
+    },
+    {
+      "en": "Set Toggle Effect",
+      "fr": "Définir un effet activable"
+    },
+    {
+      "en": "Toggle effect configured",
+      "fr": "Effet activable configuré"
+    },
+    {
+      "en": "Action configured",
+      "fr": "Action configurée"
+    },
+    {
+      "en": "Activated Abilities",
+      "fr": "Aptitudes activées"
+    },
+    {
+      "en": "Activate Ability",
+      "fr": "Activer une aptitude"
+    },
+    {
+      "en": "Deactivate Conditions",
+      "fr": "États à la désactivation"
+    },
+    {
+      "en": "Deactivate Add Uses",
+      "fr": "Utilisations ajoutées à la désactivation"
+    },
+    {
+      "en": "Activation Name",
+      "fr": "Nom de l’activation"
+    },
+    {
+      "en": "Deactivate roll",
+      "fr": "Jet à la désactivation"
+    },
+    {
+      "en": "Deactivate type",
+      "fr": "Type de désactivation"
+    },
+    {
+      "en": "Consume count",
+      "fr": "Nombre à dépenser"
+    },
+    {
+      "en": "Consume on action",
+      "fr": "Ressource dépensée par l’action"
+    },
+    {
+      "en": "Display feature on character sheet",
+      "fr": "Afficher l’aptitude sur la fiche de personnage"
+    },
+    {
+      "en": "Do not display feature on character sheet",
+      "fr": "Ne pas afficher l’aptitude sur la fiche de personnage"
+    },
+    {
+      "en": "Display Values by Level",
+      "fr": "Afficher les valeurs par niveau"
+    },
+    {
+      "en": "Subfeatures",
+      "fr": "Sous-aptitudes"
+    },
+    {
+      "en": "Show Proficiencies",
+      "fr": "Afficher les maîtrises"
+    },
+    {
+      "en": "Show as Attribute",
+      "fr": "Afficher comme attribut"
+    },
+    {
+      "en": "Usage Name",
+      "fr": "Nom des utilisations"
+    },
+    {
+      "en": "Action Notes",
+      "fr": "Notes de l’action"
+    },
+    {
+      "en": "Action Options",
+      "fr": "Options de l’action"
+    },
+    {
+      "en": "Autoset Description",
+      "fr": "Générer la description"
+    },
+    {
+      "en": "Roll Modifier",
+      "fr": "Modificateur de jet"
+    },
+    {
+      "en": "Item Modifiers",
+      "fr": "Modificateurs d’objets"
+    },
+    {
+      "en": "Deactivation changes happen when the activated ability gets deactivated.",
+      "fr": "Les changements de désactivation s’appliquent lorsque l’aptitude activée est désactivée."
+    }
+  ]
+}

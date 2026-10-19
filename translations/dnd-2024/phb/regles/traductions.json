@@ -54,13 +54,6 @@
       "source": "Traductions proposées de libellés SRD 5.2.1 EN · https://www.dndbeyond.com/srd"
     },
     {
-      "id": "ui.additional.1",
-      "kind": "term",
-      "en": "Frenzy Damage",
-      "fr": "Dégâts de Frénésie",
-      "source": "Traductions proposées de libellés SRD 5.2.1 EN · https://www.dndbeyond.com/srd"
-    },
-    {
       "id": "ui.additional.2",
       "kind": "term",
       "en": "Strength Advantage",
@@ -4722,6 +4715,34 @@
         "inline"
       ],
       "labelCategory": "description"
+    },
+    {
+      "id": "phb.appendices.7c5f9bf2be71af9a",
+      "kind": "term",
+      "en": "D&D 2024 Ruleset",
+      "fr": "Règles D&D 2024",
+      "source": "Traduction proposée ou graphie française conservée des libellés du rapport utilisateur 1.17.47 · D&D 2024 PHB, annexe A et ressources du livre · 19 octobre 2026. Les noms D&D 2024 et Inspiration restent inchangés ; les identifiants et champs éditables ne sont pas traduits."
+    },
+    {
+      "id": "phb.appendices.2868202fbdaf8776",
+      "kind": "term",
+      "en": "Inspiration",
+      "fr": "Inspiration",
+      "source": "Traduction proposée ou graphie française conservée des libellés du rapport utilisateur 1.17.47 · D&D 2024 PHB, annexe A et ressources du livre · 19 octobre 2026. Les noms D&D 2024 et Inspiration restent inchangés ; les identifiants et champs éditables ne sont pas traduits."
+    },
+    {
+      "id": "phb.appendices.4c6af2132aab4808",
+      "kind": "term",
+      "en": "Three Quarters Cover",
+      "fr": "Abri supérieur",
+      "source": "Traduction proposée ou graphie française conservée des libellés du rapport utilisateur 1.17.47 · D&D 2024 PHB, annexe A et ressources du livre · 19 octobre 2026. Les noms D&D 2024 et Inspiration restent inchangés ; les identifiants et champs éditables ne sont pas traduits."
+    },
+    {
+      "id": "phb.appendices.538164b6a08ddecb",
+      "kind": "term",
+      "en": "D&D 2024",
+      "fr": "D&D 2024",
+      "source": "Traduction proposée ou graphie française conservée des libellés du rapport utilisateur 1.17.47 · D&D 2024 PHB, annexe A et ressources du livre · 19 octobre 2026. Les noms D&D 2024 et Inspiration restent inchangés ; les identifiants et champs éditables ne sont pas traduits."
     }
   ]
 }

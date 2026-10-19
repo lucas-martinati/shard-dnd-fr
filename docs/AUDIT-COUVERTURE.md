@@ -17,6 +17,7 @@ Le [suivi du PHB](../audit/livres/phb.json) conserve les chapitres relevés et l
 | Dons | 75 dons 2024, 131 cartes, 223 extraits et 739 blocs ou champs | `tests/test-feat-catalog.cjs` |
 | Armes | 38 armes SRD, propriétés et bottes ; 450 noms du catalogue Shard | `tests/test-weapons.cjs`, `tests/test-shard-catalogue.cjs` |
 | Conditions | 48 fiches Shard, états anciens et 2024, tableaux et effets supplémentaires | `tests/test-condition-catalog.cjs` |
+| Rapports des annexes PHB du 19 octobre | 88 signalements / 187 occurrences, 97 cas complets ; créatures de l’annexe B, profils de sorts de l’annexe C et libellés de ressources | `npm run test:phb-appendices` |
 | Derniers rapports | 17 candidats de classes, 11 de dons, 90 d’équipement, puis 1 033 et 23 signalements de sorts | `npm run test:book-reports` |
 
 Les derniers rapports sont conservés dans les fixtures `reports-classes-feats-equipment-11734.json` et `spell-book-reports-11735.json`, complétées par `spell-book-report-11736.json` pour les 12 sorts du dernier rapport. Les trois compagnons du rôdeur restent dans les classes du PHB. Les poids, statistiques et variables Shard sont conservés. Chanceux est testé avec un ancien cache distant ; sa correction locale et son lien Test de d20 restent cohérents.
@@ -25,6 +26,16 @@ Le [rapport des sorts](../audit/generes/sorts-phb-2024.json) est régénéré pa
 
 Le [relevé des noms d’équipement PHB](../audit/inventaires/phb/objets-noms-2024.json) conserve 237 noms, dont les 77 libellés examinés lors du premier lot. Il ne valide pas toutes les descriptions d’objets.
 
+Le [relevé des rapports d’annexes](../tests/fixtures/phb-appendices-reports.json) conserve les trois listes reçues (24, 57 et 7 candidats), leurs occurrences et les liens entre fragments et paragraphes complets. Les introductions et profils de créatures restent dans le PHB, indépendamment de leur présence éventuelle dans le MM. Les formulations abrégées telles que « The spirit makes » ou « Magical doesn’t impede the imp’s . » sont traitées à partir du HTML contenant leurs formules ou liens, sans inventer une règle pour le fragment seul. Les corrections déjà présentes depuis la 1.17.48 sont conservées. Les noms identiques dans les deux langues, Inspiration et D&D 2024, sont déclarés comme tels. Le test de Saut avec élan vérifie que la correction locale prend le pas sur un conflit distant mémorisé. Le contrôle porte sur les passages fournis et les variantes complètes relevées, sans valider toutes les fiches des annexes B, C ou D.
+
+### Effets et actions imbriqués — complément du 19 octobre 2026
+
+La fiche du Berserker atteste la source **D&D 2024 PHB**. Son aptitude « Level 3: Frenzy » contient un effet activable distinct, « Frenzy Damage », dont la description courte n’était pas couverte par la traduction du texte principal. Les effets activés de Rage et l’action Attaque téméraire sont également définis dans des dialogues séparés. Les contrôles des descriptions de classe et du catalogue Conditions ne constituent donc pas un inventaire de ces textes imbriqués.
+
+La 1.17.49 ajoute six descriptions ou résumés relevés dans ces dialogues et 27 libellés d’interface. La [fixture ciblée](../tests/fixtures/barbarian-effects-2024.json) conserve leur provenance et les textes exacts. `npm run test:effects` vérifie deux dispositions d’affichage, les liens, `{rage damage}`, les nombres, les infobulles, le diagnostic et la restauration. Les champs et éditeurs restent exclus de la traduction. Les inspections du site ont été quittées sans enregistrement.
+
+Ce relevé couvre le cas signalé et les textes voisins inspectés du Barbare et du Berserker. Les effets activables, sous-aptitudes, notes d’action et résumés générés des autres classes, sorts et objets restent à inventorier ; aucun décompte de leurs traductions intégrales n’est établi.
+
 ## Bestiaire 2024
 
 L’[inventaire Shard du MM](../audit/inventaires/mm/shard-2024.json) recense 469 profils et 2 557 paragraphes relevés dans 24 chapitres ou sections. Le livre était accessible lors du relevé du 15 octobre ; l’ancien constat « Unknown book » n’est plus un blocage actuel.
@@ -32,6 +43,18 @@ L’[inventaire Shard du MM](../audit/inventaires/mm/shard-2024.json) recense 46
 Les contrôles locaux couvrent la tarasque entière, dix profils MM complets (33 paragraphes), et 217 traits communs de 183 créatures. Ils vérifient aussi les tableaux, les dés, les liens, les titres en gras ou italique, les unités, les exceptions inconnues et le retour à l’anglais. Voir `npm run test:mm`, `tests/test-monster-actions.cjs` et `tests/test-monster-common.cjs`.
 
 L’index contient 628 titres bilingues d’aptitudes. Le [relevé de références](../audit/inventaires/mm/references-2024.json) conserve les 498 références comparées : 2 171 blocs anglais, 1 912 appariements et 259 blocs à vérifier. Ces associations historiques ne prouvent pas leur acceptation par le moteur actuel ni la traduction des 469 profils Shard. Les actions distantes exigent un titre bilingue attesté et des règles compatibles. Le [suivi du MM](../audit/livres/mm.json) conserve les travaux restants.
+
+### Rapports MM du 19 octobre 2026
+
+Le premier complément MM du 19 octobre traite cinq rapports utilisateur en version 1.17.47, non tronqués : 354 lignes, 392 occurrences et 285 textes anglais distincts. Les 262 descriptions correspondent aux paragraphes et listes des chapitres A à E consultés dans le livre Shard ; les 23 autres textes sont des titres de chapitre ou lignes d’équipement. Les fragments de rapport omettant les liens ou les dés sont reliés à leur paragraphe complet, notamment les attaques, listes de sorts et rayons. Le lot ajoute 644 correspondances locales de titres, corps et paragraphes dans le pack MM 2024.
+
+La [fixture des rapports](../tests/fixtures/mm-reports-20261019.json) conserve les signalements, leur nombre d’occurrences, le HTML relevé et les traductions attendues. `npm run test:mm-reports` contrôle chaque cas et chaque occurrence avec le script généré, un cache en conflit, les nombres et dés, les liens et leurs interactions, le diagnostic et le retour exact à l’anglais. Les rayons du tyrannœil et du tyramort restent distincts, ainsi que les valeurs des profils adultes et vénérables des dragons. Les titres répartis sur des balises imbriquées et les auto-liens ambigus de Shard (« blight » pour le lierreux, « Sleep » dans « Sleep Breath ») sont reconnus dans leur contexte, sans changer les sorts isolés ni les cibles des liens. Les distances anglaises sont conservées. Cette validation couvre les extraits reçus ; elle ne constitue pas une validation des chapitres complets ni des 469 profils du MM.
+
+### Complément des chapitres F à L
+
+Les trois fichiers et deux rapports collés suivants, produits en 1.17.51 et non tronqués, apportent 139 signalements et 157 occurrences. Les 134 descriptions sont reliées aux paragraphes du livre Shard consultés ; les cinq libellés concernent l’équipement et l’origine draconique. Le lot ajoute 312 correspondances de titres, corps, paragraphes et précisions de déplacement ou de Main de mage. Les quatre conflits concernent Imitation du kenku, Sensibilité au soleil du kobold, Apnée et Têtes réactives de l’hydre. Les neuf cas « unrecognized-layout » sont testés avec leurs liens et emphases observés, dont Magie protectrice de la liche.
+
+La [fixture du complément](../tests/fixtures/mm-followup-20261019.json) conserve les cinq rapports et leurs paragraphes complets. `npm run test:mm-followup` couvre 143 cas (dont les quatre corps en conflit isolés), chaque occurrence, un cache de conflits, les valeurs et dés, les liens, le diagnostic et le retour exact à l’anglais. Le périmètre reste celui des extraits reçus. La version de travail est ramenée à 1.17.50 à la demande du mainteneur ; les changements de version suivants sont réservés à la préparation du commit de publication.
 
 ## Objectif minimal : toutes les références accessibles depuis l’accueil
 

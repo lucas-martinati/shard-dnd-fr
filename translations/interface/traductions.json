@@ -19,7 +19,10 @@
       "id": "shard.interface.encounters.pick-encounter",
       "kind": "term",
       "en": "Pick Encounter",
-      "variants": ["Choose Encounter", "Select Encounter"],
+      "variants": [
+        "Choose Encounter",
+        "Select Encounter"
+      ],
       "fr": "Choisir une rencontre",
       "source": "Traduction proposée du sélecteur de rencontre signalé par l’utilisateur ; variantes de libellé équivalentes · 16 octobre 2026 · https://play.shardtabletop.com/"
     },
@@ -56,14 +59,18 @@
     {
       "id": "shard.interface.encounters.prepare-treasure",
       "en": "To prepare treasure add treasure to creatures or treasure tokens in planned enounters.",
-      "variants": ["To prepare treasure add treasure to creatures or treasure tokens in planned encounters."],
+      "variants": [
+        "To prepare treasure add treasure to creatures or treasure tokens in planned encounters."
+      ],
       "fr": "Pour le préparer, ajoutez du trésor aux créatures ou aux pions de trésor des rencontres prévues.",
       "source": "Traduction proposée du texte MJ fourni par l’utilisateur, avec et sans la coquille anglaise enounters · 16 octobre 2026 · https://play.shardtabletop.com/"
     },
     {
       "id": "shard.interface.encounters.no-treasure-help",
       "en": "No treasure has been defined for this encounter. To prepare treasure add treasure to creatures or treasure tokens in planned enounters.",
-      "variants": ["No treasure has been defined for this encounter. To prepare treasure add treasure to creatures or treasure tokens in planned encounters."],
+      "variants": [
+        "No treasure has been defined for this encounter. To prepare treasure add treasure to creatures or treasure tokens in planned encounters."
+      ],
       "fr": "Aucun trésor n’a été défini pour cette rencontre. Pour le préparer, ajoutez du trésor aux créatures ou aux pions de trésor des rencontres prévues.",
       "source": "Traduction proposée du texte MJ fourni par l’utilisateur, découpé par paragraphe, avec et sans la coquille anglaise enounters · 16 octobre 2026 · https://play.shardtabletop.com/"
     },
@@ -873,7 +880,9 @@
       "id": "shard.interface.controls.no-treasure-has-been-defined-for-this-encounter-to-prepare-treasure-add-treasure-to-creatures-or-tre",
       "kind": "description",
       "en": "No treasure has been defined for this encounter. To prepare treasure add treasure to creatures or treasure tokens in planned enounters. You can directly add treasure now.",
-      "variants": ["No treasure has been defined for this encounter. To prepare treasure add treasure to creatures or treasure tokens in planned encounters. You can directly add treasure now."],
+      "variants": [
+        "No treasure has been defined for this encounter. To prepare treasure add treasure to creatures or treasure tokens in planned encounters. You can directly add treasure now."
+      ],
       "fr": "Aucun trésor n’a été défini pour cette rencontre. Pour le préparer, ajoutez du trésor aux créatures ou aux pions de trésor des rencontres prévues. Vous pouvez aussi ajouter du trésor directement maintenant.",
       "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
       "edition": "any"
@@ -1100,7 +1109,10 @@
       "en": "Attach",
       "fr": "Rattacher",
       "source": "Traduction proposée des libellés Shard : paramètres de campagne, fiche de personnage et menus du MJ · relevé du 15 octobre 2026 · https://play.shardtabletop.com/",
-      "edition": "any"
+      "edition": "any",
+      "aliases": [
+        "Fixation"
+      ]
     },
     {
       "id": "shard.interface.controls.set-inactive",
@@ -3185,6 +3197,216 @@
       "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
       "usage": [],
       "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "ui.feature-effects.1",
+      "kind": "term",
+      "en": "Feature Options",
+      "fr": "Options d’aptitude",
+      "source": "Traduction proposée des libellés Shard · éditeurs Feature Options et Action Configuration, consultés depuis les classes du PHB 2024 le 19 octobre 2026. Champs et valeurs éditables exclus."
+    },
+    {
+      "id": "ui.feature-effects.2",
+      "kind": "term",
+      "en": "Action Configuration",
+      "fr": "Configuration de l’action",
+      "source": "Traduction proposée des libellés Shard · éditeurs Feature Options et Action Configuration, consultés depuis les classes du PHB 2024 le 19 octobre 2026. Champs et valeurs éditables exclus."
+    },
+    {
+      "id": "ui.feature-effects.3",
+      "kind": "term",
+      "en": "Set Toggle Effect",
+      "fr": "Définir un effet activable",
+      "source": "Traduction proposée des libellés Shard · éditeurs Feature Options et Action Configuration, consultés depuis les classes du PHB 2024 le 19 octobre 2026. Champs et valeurs éditables exclus."
+    },
+    {
+      "id": "ui.feature-effects.4",
+      "kind": "term",
+      "en": "Toggle effect configured",
+      "fr": "Effet activable configuré",
+      "source": "Traduction proposée des libellés Shard · éditeurs Feature Options et Action Configuration, consultés depuis les classes du PHB 2024 le 19 octobre 2026. Champs et valeurs éditables exclus."
+    },
+    {
+      "id": "ui.feature-effects.5",
+      "kind": "term",
+      "en": "Action configured",
+      "fr": "Action configurée",
+      "source": "Traduction proposée des libellés Shard · éditeurs Feature Options et Action Configuration, consultés depuis les classes du PHB 2024 le 19 octobre 2026. Champs et valeurs éditables exclus."
+    },
+    {
+      "id": "ui.feature-effects.6",
+      "kind": "term",
+      "en": "Activated Abilities",
+      "fr": "Aptitudes activées",
+      "source": "Traduction proposée des libellés Shard · éditeurs Feature Options et Action Configuration, consultés depuis les classes du PHB 2024 le 19 octobre 2026. Champs et valeurs éditables exclus."
+    },
+    {
+      "id": "ui.feature-effects.7",
+      "kind": "term",
+      "en": "Activate Ability",
+      "fr": "Activer une aptitude",
+      "source": "Traduction proposée des libellés Shard · éditeurs Feature Options et Action Configuration, consultés depuis les classes du PHB 2024 le 19 octobre 2026. Champs et valeurs éditables exclus."
+    },
+    {
+      "id": "ui.feature-effects.8",
+      "kind": "term",
+      "en": "Deactivate Conditions",
+      "fr": "États à la désactivation",
+      "source": "Traduction proposée des libellés Shard · éditeurs Feature Options et Action Configuration, consultés depuis les classes du PHB 2024 le 19 octobre 2026. Champs et valeurs éditables exclus."
+    },
+    {
+      "id": "ui.feature-effects.9",
+      "kind": "term",
+      "en": "Deactivate Add Uses",
+      "fr": "Utilisations ajoutées à la désactivation",
+      "source": "Traduction proposée des libellés Shard · éditeurs Feature Options et Action Configuration, consultés depuis les classes du PHB 2024 le 19 octobre 2026. Champs et valeurs éditables exclus."
+    },
+    {
+      "id": "ui.feature-effects.10",
+      "kind": "term",
+      "en": "Activation Name",
+      "fr": "Nom de l’activation",
+      "source": "Traduction proposée des libellés Shard · éditeurs Feature Options et Action Configuration, consultés depuis les classes du PHB 2024 le 19 octobre 2026. Champs et valeurs éditables exclus."
+    },
+    {
+      "id": "ui.feature-effects.11",
+      "kind": "term",
+      "en": "Deactivate roll",
+      "fr": "Jet à la désactivation",
+      "source": "Traduction proposée des libellés Shard · éditeurs Feature Options et Action Configuration, consultés depuis les classes du PHB 2024 le 19 octobre 2026. Champs et valeurs éditables exclus."
+    },
+    {
+      "id": "ui.feature-effects.12",
+      "kind": "term",
+      "en": "Deactivate type",
+      "fr": "Type de désactivation",
+      "source": "Traduction proposée des libellés Shard · éditeurs Feature Options et Action Configuration, consultés depuis les classes du PHB 2024 le 19 octobre 2026. Champs et valeurs éditables exclus."
+    },
+    {
+      "id": "ui.feature-effects.13",
+      "kind": "term",
+      "en": "Consume count",
+      "fr": "Nombre à dépenser",
+      "source": "Traduction proposée des libellés Shard · éditeurs Feature Options et Action Configuration, consultés depuis les classes du PHB 2024 le 19 octobre 2026. Champs et valeurs éditables exclus."
+    },
+    {
+      "id": "ui.feature-effects.14",
+      "kind": "term",
+      "en": "Consume on action",
+      "fr": "Ressource dépensée par l’action",
+      "source": "Traduction proposée des libellés Shard · éditeurs Feature Options et Action Configuration, consultés depuis les classes du PHB 2024 le 19 octobre 2026. Champs et valeurs éditables exclus."
+    },
+    {
+      "id": "ui.feature-effects.15",
+      "kind": "term",
+      "en": "Display feature on character sheet",
+      "fr": "Afficher l’aptitude sur la fiche de personnage",
+      "source": "Traduction proposée des libellés Shard · éditeurs Feature Options et Action Configuration, consultés depuis les classes du PHB 2024 le 19 octobre 2026. Champs et valeurs éditables exclus."
+    },
+    {
+      "id": "ui.feature-effects.16",
+      "kind": "term",
+      "en": "Do not display feature on character sheet",
+      "fr": "Ne pas afficher l’aptitude sur la fiche de personnage",
+      "source": "Traduction proposée des libellés Shard · éditeurs Feature Options et Action Configuration, consultés depuis les classes du PHB 2024 le 19 octobre 2026. Champs et valeurs éditables exclus."
+    },
+    {
+      "id": "ui.feature-effects.17",
+      "kind": "term",
+      "en": "Display Values by Level",
+      "fr": "Afficher les valeurs par niveau",
+      "source": "Traduction proposée des libellés Shard · éditeurs Feature Options et Action Configuration, consultés depuis les classes du PHB 2024 le 19 octobre 2026. Champs et valeurs éditables exclus."
+    },
+    {
+      "id": "ui.feature-effects.18",
+      "kind": "term",
+      "en": "Subfeatures",
+      "fr": "Sous-aptitudes",
+      "source": "Traduction proposée des libellés Shard · éditeurs Feature Options et Action Configuration, consultés depuis les classes du PHB 2024 le 19 octobre 2026. Champs et valeurs éditables exclus."
+    },
+    {
+      "id": "ui.feature-effects.19",
+      "kind": "term",
+      "en": "Show Proficiencies",
+      "fr": "Afficher les maîtrises",
+      "source": "Traduction proposée des libellés Shard · éditeurs Feature Options et Action Configuration, consultés depuis les classes du PHB 2024 le 19 octobre 2026. Champs et valeurs éditables exclus."
+    },
+    {
+      "id": "ui.feature-effects.20",
+      "kind": "term",
+      "en": "Show as Attribute",
+      "fr": "Afficher comme attribut",
+      "source": "Traduction proposée des libellés Shard · éditeurs Feature Options et Action Configuration, consultés depuis les classes du PHB 2024 le 19 octobre 2026. Champs et valeurs éditables exclus."
+    },
+    {
+      "id": "ui.feature-effects.21",
+      "kind": "term",
+      "en": "Usage Name",
+      "fr": "Nom des utilisations",
+      "source": "Traduction proposée des libellés Shard · éditeurs Feature Options et Action Configuration, consultés depuis les classes du PHB 2024 le 19 octobre 2026. Champs et valeurs éditables exclus."
+    },
+    {
+      "id": "ui.feature-effects.22",
+      "kind": "term",
+      "en": "Action Notes",
+      "fr": "Notes de l’action",
+      "source": "Traduction proposée des libellés Shard · éditeurs Feature Options et Action Configuration, consultés depuis les classes du PHB 2024 le 19 octobre 2026. Champs et valeurs éditables exclus."
+    },
+    {
+      "id": "ui.feature-effects.23",
+      "kind": "term",
+      "en": "Action Options",
+      "fr": "Options de l’action",
+      "source": "Traduction proposée des libellés Shard · éditeurs Feature Options et Action Configuration, consultés depuis les classes du PHB 2024 le 19 octobre 2026. Champs et valeurs éditables exclus."
+    },
+    {
+      "id": "ui.feature-effects.24",
+      "kind": "term",
+      "en": "Autoset Description",
+      "fr": "Générer la description",
+      "source": "Traduction proposée des libellés Shard · éditeurs Feature Options et Action Configuration, consultés depuis les classes du PHB 2024 le 19 octobre 2026. Champs et valeurs éditables exclus."
+    },
+    {
+      "id": "ui.feature-effects.25",
+      "kind": "term",
+      "en": "Roll Modifier",
+      "fr": "Modificateur de jet",
+      "source": "Traduction proposée des libellés Shard · éditeurs Feature Options et Action Configuration, consultés depuis les classes du PHB 2024 le 19 octobre 2026. Champs et valeurs éditables exclus."
+    },
+    {
+      "id": "ui.feature-effects.26",
+      "kind": "term",
+      "en": "Item Modifiers",
+      "fr": "Modificateurs d’objets",
+      "source": "Traduction proposée des libellés Shard · éditeurs Feature Options et Action Configuration, consultés depuis les classes du PHB 2024 le 19 octobre 2026. Champs et valeurs éditables exclus."
+    },
+    {
+      "id": "ui.feature-effects.27",
+      "kind": "term",
+      "en": "Deactivation changes happen when the activated ability gets deactivated.",
+      "fr": "Les changements de désactivation s’appliquent lorsque l’aptitude activée est désactivée.",
+      "source": "Traduction proposée des libellés Shard · éditeurs Feature Options et Action Configuration, consultés depuis les classes du PHB 2024 le 19 octobre 2026. Champs et valeurs éditables exclus."
+    },
+    {
+      "id": "phb.appendices.5506eb6161a07356",
+      "kind": "term",
+      "en": "Conditions",
+      "fr": "États",
+      "source": "Traduction proposée ou graphie française conservée des libellés du rapport utilisateur 1.17.47 · D&D 2024 PHB, annexe A et ressources du livre · 19 octobre 2026. Les noms D&D 2024 et Inspiration restent inchangés ; les identifiants et champs éditables ne sont pas traduits."
+    },
+    {
+      "id": "phb.appendices.743f8128f49cc33a",
+      "kind": "term",
+      "en": "Special Conditions",
+      "fr": "États spéciaux",
+      "source": "Traduction proposée ou graphie française conservée des libellés du rapport utilisateur 1.17.47 · D&D 2024 PHB, annexe A et ressources du livre · 19 octobre 2026. Les noms D&D 2024 et Inspiration restent inchangés ; les identifiants et champs éditables ne sont pas traduits."
+    },
+    {
+      "id": "phb.appendices.466891e2b8048f61",
+      "kind": "term",
+      "en": "Wallpaper",
+      "fr": "Fond d’écran",
+      "source": "Traduction proposée ou graphie française conservée des libellés du rapport utilisateur 1.17.47 · D&D 2024 PHB, annexe A et ressources du livre · 19 octobre 2026. Les noms D&D 2024 et Inspiration restent inchangés ; les identifiants et champs éditables ne sont pas traduits."
     }
   ]
 }

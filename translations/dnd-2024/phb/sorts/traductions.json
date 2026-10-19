@@ -9059,6 +9059,1049 @@
         "spell"
       ],
       "labelCategory": "sort"
+    },
+    {
+      "id": "spell.bestial-spirit.rend.term",
+      "kind": "term",
+      "en": "Rend",
+      "fr": "Saignée",
+      "source": "Traduction proposée de l’extrait utilisateur · Esprit bestial (aquatique), Convocation bestiale · 19 octobre 2026 ; expressions Shard conservées à l’identique. Terminologie Saignée : profil de l’Esprit draconique, SRD 5.2.1 EN/FR."
+    },
+    {
+      "id": "spell.bestial-spirit.spell-level.term",
+      "kind": "term",
+      "en": "the spell’s level",
+      "fr": "le niveau du sort",
+      "source": "Traduction proposée de l’extrait utilisateur · Esprit bestial (aquatique), Convocation bestiale · 19 octobre 2026 ; expressions Shard conservées à l’identique. Terminologie Saignée : profil de l’Esprit draconique, SRD 5.2.1 EN/FR."
+    },
+    {
+      "id": "spell.bestial-spirit.water-breathing.body",
+      "kind": "description",
+      "en": "The spirit can breathe only underwater.",
+      "fr": "L’esprit ne peut respirer que sous l’eau.",
+      "source": "Traduction proposée de l’extrait utilisateur · Esprit bestial (aquatique), Convocation bestiale · 19 octobre 2026 ; expressions Shard conservées à l’identique. Terminologie Saignée : profil de l’Esprit draconique, SRD 5.2.1 EN/FR."
+    },
+    {
+      "id": "spell.bestial-spirit.water-breathing.full",
+      "kind": "description",
+      "en": "Water Breathing. The spirit can breathe only underwater.",
+      "fr": "Respiration aquatique. L’esprit ne peut respirer que sous l’eau.",
+      "source": "Traduction proposée de l’extrait utilisateur · Esprit bestial (aquatique), Convocation bestiale · 19 octobre 2026 ; expressions Shard conservées à l’identique. Terminologie Saignée : profil de l’Esprit draconique, SRD 5.2.1 EN/FR."
+    },
+    {
+      "id": "spell.bestial-spirit.multiattack.body",
+      "kind": "description",
+      "en": "The spirit makes {Cast Spell Level/2} Rend attacks.",
+      "fr": "L’esprit effectue {Cast Spell Level/2} attaques de Saignée.",
+      "source": "Traduction proposée de l’extrait utilisateur · Esprit bestial (aquatique), Convocation bestiale · 19 octobre 2026 ; expressions Shard conservées à l’identique. Terminologie Saignée : profil de l’Esprit draconique, SRD 5.2.1 EN/FR."
+    },
+    {
+      "id": "spell.bestial-spirit.multiattack.full",
+      "kind": "description",
+      "en": "Multiattack. The spirit makes {Cast Spell Level/2} Rend attacks.",
+      "fr": "Attaques multiples. L’esprit effectue {Cast Spell Level/2} attaques de Saignée.",
+      "source": "Traduction proposée de l’extrait utilisateur · Esprit bestial (aquatique), Convocation bestiale · 19 octobre 2026 ; expressions Shard conservées à l’identique. Terminologie Saignée : profil de l’Esprit draconique, SRD 5.2.1 EN/FR."
+    },
+    {
+      "id": "spell.bestial-spirit.rend.body",
+      "kind": "description",
+      "en": "Melee Attack Roll: {caster spell attack}, reach 5 ft. Hit: 1d8 + 4 + {Cast Spell Level} Piercing damage.",
+      "fr": "Jet d’attaque au corps à corps : {caster spell attack}, allonge 5 ft. Touché : 1d8 + 4 + {Cast Spell Level} dégâts perforants.",
+      "source": "Traduction proposée de l’extrait utilisateur · Esprit bestial (aquatique), Convocation bestiale · 19 octobre 2026 ; expressions Shard conservées à l’identique. Terminologie Saignée : profil de l’Esprit draconique, SRD 5.2.1 EN/FR."
+    },
+    {
+      "id": "spell.bestial-spirit.rend.full",
+      "kind": "description",
+      "en": "Rend. Melee Attack Roll: {caster spell attack}, reach 5 ft. Hit: 1d8 + 4 + {Cast Spell Level} Piercing damage.",
+      "fr": "Saignée. Jet d’attaque au corps à corps : {caster spell attack}, allonge 5 ft. Touché : 1d8 + 4 + {Cast Spell Level} dégâts perforants.",
+      "source": "Traduction proposée de l’extrait utilisateur · Esprit bestial (aquatique), Convocation bestiale · 19 octobre 2026 ; expressions Shard conservées à l’identique. Terminologie Saignée : profil de l’Esprit draconique, SRD 5.2.1 EN/FR."
+    },
+    {
+      "id": "phb.appendices.b82339c76efc0c41",
+      "kind": "term",
+      "en": "Amorphous Form",
+      "fr": "Forme amorphe",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.88173155fcb53cd4",
+      "kind": "term",
+      "en": "Berserk Lashing",
+      "fr": "Déchaînement furieux",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.81d7481435d2232c",
+      "kind": "term",
+      "en": "Deathly Touch",
+      "fr": "Contact mortel",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.00cc456d51d84e2c",
+      "kind": "term",
+      "en": "Eye Ray",
+      "fr": "Rayon oculaire",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.82a76a61225332e2",
+      "kind": "term",
+      "en": "Fell Glare (Recharges after a Long Rest)",
+      "fr": "Regard fiélon (recharge après un Repos long)",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.348c9a6ef94712f4",
+      "kind": "term",
+      "en": "Festering Aura",
+      "fr": "Aura putride",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.4b020871362c68d2",
+      "kind": "term",
+      "en": "Fey Blade",
+      "fr": "Lame féerique",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.18a517cb78c11441",
+      "kind": "term",
+      "en": "Fey Step (Recharges after a Long Rest)",
+      "fr": "Foulée féerique (recharge après un Repos long)",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.95dca8e18cb00092",
+      "kind": "term",
+      "en": "Fiery Strike",
+      "fr": "Frappe enflammée",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.db154c92372ee5cb",
+      "kind": "term",
+      "en": "Fuming Fey Step",
+      "fr": "Foulée féerique furieuse",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.76b6cfbe82a071e9",
+      "kind": "term",
+      "en": "Grave Bolt",
+      "fr": "Trait funèbre",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.97fd88dc35a0defc",
+      "kind": "term",
+      "en": "Healing Touch (1/Day)",
+      "fr": "Contact guérisseur (1/jour)",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.686eb49355aa78eb",
+      "kind": "term",
+      "en": "Healing Touch (Recharges after a Long Rest)",
+      "fr": "Contact guérisseur (recharge après un Repos long)",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.e3696e9d1bb03599",
+      "kind": "term",
+      "en": "Incorporeal Passage",
+      "fr": "Traversée incorporelle",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.7b115e5d343f5bf1",
+      "kind": "term",
+      "en": "Life Bond",
+      "fr": "Lien vital",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.a5e75aaef6dd0aef",
+      "kind": "term",
+      "en": "Mirthful Fey Step",
+      "fr": "Foulée féerique joyeuse",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.c57cb1faa660dc89",
+      "kind": "term",
+      "en": "Otherworldly Slam",
+      "fr": "Coup d’outre-monde",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.7efc9cf618e66c3c",
+      "kind": "term",
+      "en": "Poison Jab",
+      "fr": "Piqûre toxique",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.e7372d96e25184e7",
+      "kind": "term",
+      "en": "Radiant Bow",
+      "fr": "Arc radiant",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.df3d0adeba9074da",
+      "kind": "term",
+      "en": "Radiant Mace",
+      "fr": "Masse radiante",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.c9cfbac7613c725b",
+      "kind": "term",
+      "en": "Rotting Claw",
+      "fr": "Griffe pourrissante",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.b047695a82a55ddd",
+      "kind": "term",
+      "en": "Scare (1/Day)",
+      "fr": "Frayeur (1/jour)",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.6f9dd2c5a06c06e1",
+      "kind": "term",
+      "en": "Shared Resistances",
+      "fr": "Résistances partagées",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.424889536a24ad07",
+      "kind": "term",
+      "en": "Stony Lethargy",
+      "fr": "Léthargie pierreuse",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.ffd6ff9d060192e3",
+      "kind": "term",
+      "en": "Tricksy Fey Step",
+      "fr": "Foulée féerique malicieuse",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.f418649085b41745",
+      "kind": "term",
+      "en": "Venomous Spew",
+      "fr": "Crachat venimeux",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.5987348a5c478500",
+      "kind": "term",
+      "en": "Web Bolt",
+      "fr": "Jet de toile",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.dba040be269d20c9",
+      "kind": "term",
+      "en": "Whispering Aura",
+      "fr": "Aura murmurante",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.97957810f6b004de",
+      "kind": "description",
+      "en": "Whispering Aura. At the start of each of the spirit’s turns, the spirit emits psionic energy if it doesn’t have the Incapacitated condition. Wisdom Saving Throw: DC{caster spell save}, each creature (other than you) within 5 feet of the spirit. Failure: 2d6 Psychic damage.",
+      "fr": "Aura murmurante. Au début de chacun de ses tours, l’esprit émet une énergie psionique s’il ne subit pas l’état Neutralisé. Jet de sauvegarde de Sagesse : DD{caster spell save}, chaque créature (autre que vous) à 5 feet ou moins de l’esprit. Échec : 2d6 dégâts psychiques.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.81f09c8be1eb2de5",
+      "kind": "description",
+      "en": "At the start of each of the spirit’s turns, the spirit emits psionic energy if it doesn’t have the Incapacitated condition. Wisdom Saving Throw: DC{caster spell save}, each creature (other than you) within 5 feet of the spirit. Failure: 2d6 Psychic damage.",
+      "fr": "Au début de chacun de ses tours, l’esprit émet une énergie psionique s’il ne subit pas l’état Neutralisé. Jet de sauvegarde de Sagesse : DD{caster spell save}, chaque créature (autre que vous) à 5 feet ou moins de l’esprit. Échec : 2d6 dégâts psychiques.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.569fe37c3e544dc2",
+      "kind": "description",
+      "en": "Regeneration. The spirit regains 5 Hit Points at the start of its turn if it has at least 1 Hit Point.",
+      "fr": "Régénération. L’esprit récupère 5 points de vie au début de son tour s’il lui reste au moins 1 point de vie.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.d91a54f6b0f6a9c8",
+      "kind": "description",
+      "en": "The spirit regains 5 Hit Points at the start of its turn if it has at least 1 Hit Point.",
+      "fr": "L’esprit récupère 5 points de vie au début de son tour s’il lui reste au moins 1 point de vie.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.a3e3e60d72b8406a",
+      "kind": "description",
+      "en": "Claw. Melee Attack Roll: {caster spell attack}, reach 5 ft. Hit: 1d10 + 3 + {cast spell level} Slashing damage, and the target can’t regain Hit Points until the start of the spirit’s next turn.",
+      "fr": "Griffe. Jet d’attaque au corps à corps : {caster spell attack}, allonge 5 ft. Touché : 1d10 + 3 + {cast spell level} dégâts tranchants, et la cible ne peut pas récupérer de points de vie jusqu’au début du prochain tour de l’esprit.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.ee3072e4cc2642f0",
+      "kind": "description",
+      "en": "Melee Attack Roll: {caster spell attack}, reach 5 ft. Hit: 1d10 + 3 + {cast spell level} Slashing damage, and the target can’t regain Hit Points until the start of the spirit’s next turn.",
+      "fr": "Jet d’attaque au corps à corps : {caster spell attack}, allonge 5 ft. Touché : 1d10 + 3 + {cast spell level} dégâts tranchants, et la cible ne peut pas récupérer de points de vie jusqu’au début du prochain tour de l’esprit.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.d6a64892350db20d",
+      "kind": "description",
+      "en": "Flyby. The spirit doesn’t provoke Opportunity Attacks when it flies out of an enemy’s reach.",
+      "fr": "Repli aérien. L’esprit ne provoque pas d’attaques d’opportunité lorsqu’il quitte l’allonge d’un ennemi en volant.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.80846b84e5b3ff30",
+      "kind": "description",
+      "en": "The spirit doesn’t provoke Opportunity Attacks when it flies out of an enemy’s reach.",
+      "fr": "L’esprit ne provoque pas d’attaques d’opportunité lorsqu’il quitte l’allonge d’un ennemi en volant.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.c2a75a4e92c95ce4",
+      "kind": "description",
+      "en": "Pack Tactics. The spirit has Advantage on an attack roll against a creature if at least one of the spirit’s allies is within 5 feet of the creature and the ally doesn’t have the Incapacitated condition.",
+      "fr": "Tactique de meute. L’esprit a l’Avantage à un jet d’attaque contre une créature si au moins un de ses alliés se trouve à 5 feet ou moins de cette créature et que cet allié ne subit pas l’état Neutralisé.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.76a662dcc84baaac",
+      "kind": "description",
+      "en": "The spirit has Advantage on an attack roll against a creature if at least one of the spirit’s allies is within 5 feet of the creature and the ally doesn’t have the Incapacitated condition.",
+      "fr": "L’esprit a l’Avantage à un jet d’attaque contre une créature si au moins un de ses alliés se trouve à 5 feet ou moins de cette créature et que cet allié ne subit pas l’état Neutralisé.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.03df466d7904e87a",
+      "kind": "description",
+      "en": "Healing Touch (1/Day). The spirit touches another creature. The target regains Hit Points equal to 2d8 + {cast spell level}.",
+      "fr": "Contact guérisseur (1/jour). L’esprit touche une autre créature. La cible récupère un nombre de points de vie égal à 2d8 + {cast spell level}.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.7df79740a734fd4e",
+      "kind": "description",
+      "en": "The spirit touches another creature. The target regains Hit Points equal to 2d8 + {cast spell level}.",
+      "fr": "L’esprit touche une autre créature. La cible récupère un nombre de points de vie égal à 2d8 + {cast spell level}.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.0486e9086f372a9a",
+      "kind": "description",
+      "en": "Radiant Mace. Melee Attack Roll: {caster spell attack}, reach 5 ft. Hit: 1d10 + 3 + {cast spell level} Radiant damage, and the spirit can choose itself or another creature it can see within 10 feet of the target. The chosen creature gains 1d10 Temporary Hit Points.",
+      "fr": "Masse radiante. Jet d’attaque au corps à corps : {caster spell attack}, allonge 5 ft. Touché : 1d10 + 3 + {cast spell level} dégâts radiants, et l’esprit peut se choisir lui-même ou choisir une autre créature qu’il voit à 10 feet ou moins de la cible. La créature choisie reçoit 1d10 points de vie temporaires.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.56eea3f0e8d7bc12",
+      "kind": "description",
+      "en": "Melee Attack Roll: {caster spell attack}, reach 5 ft. Hit: 1d10 + 3 + {cast spell level} Radiant damage, and the spirit can choose itself or another creature it can see within 10 feet of the target. The chosen creature gains 1d10 Temporary Hit Points.",
+      "fr": "Jet d’attaque au corps à corps : {caster spell attack}, allonge 5 ft. Touché : 1d10 + 3 + {cast spell level} dégâts radiants, et l’esprit peut se choisir lui-même ou choisir une autre créature qu’il voit à 10 feet ou moins de la cible. La créature choisie reçoit 1d10 points de vie temporaires.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.f306b4e409608c87",
+      "kind": "description",
+      "en": "Berserk Lashing. Trigger: The spirit takes damage from a creature. Response: The spirit makes a Slam attack against that creature if possible, or the spirit moves up to half its Speed toward that creature without provoking Opportunity Attacks.",
+      "fr": "Déchaînement furieux. Déclencheur : l’esprit subit des dégâts d’une créature. Réponse : l’esprit effectue une attaque de Coup contre cette créature si possible ; sinon, il se déplace vers elle d’une distance maximale égale à la moitié de sa Vitesse sans provoquer d’attaques d’opportunité.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.c9fbcf947fe3a49f",
+      "kind": "description",
+      "en": "Trigger: The spirit takes damage from a creature. Response: The spirit makes a Slam attack against that creature if possible, or the spirit moves up to half its Speed toward that creature without provoking Opportunity Attacks.",
+      "fr": "Déclencheur : l’esprit subit des dégâts d’une créature. Réponse : l’esprit effectue une attaque de Coup contre cette créature si possible ; sinon, il se déplace vers elle d’une distance maximale égale à la moitié de sa Vitesse sans provoquer d’attaques d’opportunité.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.7383ebceb3dedb03",
+      "kind": "description",
+      "en": "Heated Body. A creature that hits the spirit with a melee attack or that starts its turn in a grapple with the spirit takes 1d10 Fire damage.",
+      "fr": "Corps brûlant. Une créature qui touche l’esprit avec une attaque au corps à corps ou qui commence son tour engagée dans une lutte avec lui subit 1d10 dégâts de feu.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.4fbed591ba45a08f",
+      "kind": "description",
+      "en": "A creature that hits the spirit with a melee attack or that starts its turn in a grapple with the spirit takes 1d10 Fire damage.",
+      "fr": "Une créature qui touche l’esprit avec une attaque au corps à corps ou qui commence son tour engagée dans une lutte avec lui subit 1d10 dégâts de feu.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.6746001abe32adc0",
+      "kind": "description",
+      "en": "Stony Lethargy. When a creature starts its turn within 10 feet of the spirit, the spirit can target it with magical energy if the spirit can see it. Wisdom Saving Throw: DC{caster spell save} the target. Failure: Until the start of its next turn, the target can’t make Opportunity Attacks, and its Speed is halved.",
+      "fr": "Léthargie pierreuse. Lorsqu’une créature commence son tour à 10 feet ou moins de l’esprit, celui-ci peut la cibler avec une énergie magique s’il la voit. Jet de sauvegarde de Sagesse : DD{caster spell save}, la cible. Échec : jusqu’au début de son prochain tour, la cible ne peut pas effectuer d’attaques d’opportunité et sa Vitesse est réduite de moitié.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.36016ae828e57608",
+      "kind": "description",
+      "en": "When a creature starts its turn within 10 feet of the spirit, the spirit can target it with magical energy if the spirit can see it. Wisdom Saving Throw: DC{caster spell save} the target. Failure: Until the start of its next turn, the target can’t make Opportunity Attacks, and its Speed is halved.",
+      "fr": "Lorsqu’une créature commence son tour à 10 feet ou moins de l’esprit, celui-ci peut la cibler avec une énergie magique s’il la voit. Jet de sauvegarde de Sagesse : DD{caster spell save}, la cible. Échec : jusqu’au début de son prochain tour, la cible ne peut pas effectuer d’attaques d’opportunité et sa Vitesse est réduite de moitié.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.e10203ea48419a42",
+      "kind": "description",
+      "en": "Shared Resistances. You have Resistance to Fire damage until the spell ends.",
+      "fr": "Résistances partagées. Vous avez la Résistance aux dégâts de feu jusqu’à la fin du sort.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.2f1b23a2cf179c1c",
+      "kind": "description",
+      "en": "You have Resistance to Fire damage until the spell ends.",
+      "fr": "Vous avez la Résistance aux dégâts de feu jusqu’à la fin du sort.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.022d604e62d79a76",
+      "kind": "description",
+      "en": "Shared Resistances. You have Resistance to Acid until the spell ends.",
+      "fr": "Résistances partagées. Vous avez la Résistance à l’acide jusqu’à la fin du sort.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.8ba16606465f3aad",
+      "kind": "description",
+      "en": "You have Resistance to Acid until the spell ends.",
+      "fr": "Vous avez la Résistance à l’acide jusqu’à la fin du sort.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.f992cc1d3a63b251",
+      "kind": "description",
+      "en": "Shared Resistances. You have Resistance to Poison until the spell ends.",
+      "fr": "Résistances partagées. Vous avez la Résistance au poison jusqu’à la fin du sort.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.4533d559ae39544d",
+      "kind": "description",
+      "en": "You have Resistance to Poison until the spell ends.",
+      "fr": "Vous avez la Résistance au poison jusqu’à la fin du sort.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.4e2aa7b7f8b0de0d",
+      "kind": "description",
+      "en": "Shared Resistances. You have Resistance to Cold damage until the spell ends.",
+      "fr": "Résistances partagées. Vous avez la Résistance aux dégâts de froid jusqu’à la fin du sort.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.cad2683b49854798",
+      "kind": "description",
+      "en": "You have Resistance to Cold damage until the spell ends.",
+      "fr": "Vous avez la Résistance aux dégâts de froid jusqu’à la fin du sort.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.420809dce72c33aa",
+      "kind": "description",
+      "en": "Amorphous Form. The spirit can move through a space as narrow as 1 inch wide without it counting as Difficult Terrain.",
+      "fr": "Forme amorphe. L’esprit peut traverser un passage d’une largeur de seulement 1 inch sans que celui-ci compte comme du Terrain difficile.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.3de51e88116fa3f6",
+      "kind": "description",
+      "en": "The spirit can move through a space as narrow as 1 inch wide without it counting as Difficult Terrain.",
+      "fr": "L’esprit peut traverser un passage d’une largeur de seulement 1 inch sans que celui-ci compte comme du Terrain difficile.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.a4c7d1260ee4d94b",
+      "kind": "description",
+      "en": "30 (+ 10 for each spell level above 3)",
+      "fr": "30 (+ 10 pour chaque niveau de sort au-delà du 3e)",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.0f1879987f9a6e6c",
+      "kind": "description",
+      "en": "Fuming Fey Step. The spirit magically teleports up to 30 feet to an unoccupied space it can see then the spirit has Advantage on the next attack roll it makes before the end of this turn.",
+      "fr": "Foulée féerique furieuse. L’esprit se téléporte magiquement d’un maximum de 30 feet vers un espace inoccupé qu’il voit, puis il bénéficie de l’Avantage au prochain jet d’attaque qu’il effectue avant la fin de ce tour.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.be3fadd2f3cd177e",
+      "kind": "description",
+      "en": "The spirit magically teleports up to 30 feet to an unoccupied space it can see then the spirit has Advantage on the next attack roll it makes before the end of this turn.",
+      "fr": "L’esprit se téléporte magiquement d’un maximum de 30 feet vers un espace inoccupé qu’il voit, puis il bénéficie de l’Avantage au prochain jet d’attaque qu’il effectue avant la fin de ce tour.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.a4300cc8b1de997b",
+      "kind": "description",
+      "en": "Mirthful Fey Step. The spirit magically teleports up to 30 feet to an unoccupied space it can see then Wisdom Saving Throw: DC{caster spell save}, one creature the spirit can see within 10 feet of itself. Failure: The target is Charmed by you and the spirit for 1 minute or until the target takes any damage.",
+      "fr": "Foulée féerique joyeuse. L’esprit se téléporte magiquement d’un maximum de 30 feet vers un espace inoccupé qu’il voit, puis produit l’effet suivant. Jet de sauvegarde de Sagesse : DD{caster spell save}, une créature que l’esprit voit à 10 feet ou moins de lui. Échec : la cible est Charmée par vous et l’esprit pendant 1 minute ou jusqu’à ce qu’elle subisse des dégâts.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.874daa1b79e77bbd",
+      "kind": "description",
+      "en": "The spirit magically teleports up to 30 feet to an unoccupied space it can see then Wisdom Saving Throw: DC{caster spell save}, one creature the spirit can see within 10 feet of itself. Failure: The target is Charmed by you and the spirit for 1 minute or until the target takes any damage.",
+      "fr": "L’esprit se téléporte magiquement d’un maximum de 30 feet vers un espace inoccupé qu’il voit, puis produit l’effet suivant. Jet de sauvegarde de Sagesse : DD{caster spell save}, une créature que l’esprit voit à 10 feet ou moins de lui. Échec : la cible est Charmée par vous et l’esprit pendant 1 minute ou jusqu’à ce qu’elle subisse des dégâts.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.22408376dc702377",
+      "kind": "description",
+      "en": "Tricksy Fey Step. The spirit magically teleports up to 30 feet to an unoccupied space it can see then the spirit fills a 10-foot Cube within 5 feet of it with magical Darkness, which lasts until the end of its next turn.",
+      "fr": "Foulée féerique malicieuse. L’esprit se téléporte magiquement d’un maximum de 30 feet vers un espace inoccupé qu’il voit, puis remplit de Ténèbres magiques un Cube de 10 feet situé à 5 feet ou moins de lui. Ces Ténèbres persistent jusqu’à la fin de son prochain tour.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.499f0dc75e1a012e",
+      "kind": "description",
+      "en": "The spirit magically teleports up to 30 feet to an unoccupied space it can see then the spirit fills a 10-foot Cube within 5 feet of it with magical Darkness, which lasts until the end of its next turn.",
+      "fr": "L’esprit se téléporte magiquement d’un maximum de 30 feet vers un espace inoccupé qu’il voit, puis remplit de Ténèbres magiques un Cube de 10 feet situé à 5 feet ou moins de lui. Ces Ténèbres persistent jusqu’à la fin de son prochain tour.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.103de314e74defbe",
+      "kind": "description",
+      "en": "Death Throes. When the spirit drops to 0 Hit Points or the spell ends, the spirit explodes. Dexterity Saving Throw: DC{caster spell save}, each creature in a 10-foot Emanation originating from the spirit. Failure: 2d10+{cast spell level} Fire damage. Success: Half damage.",
+      "fr": "Spasmes d’agonie. Lorsque l’esprit tombe à 0 point de vie ou que le sort prend fin, l’esprit explose. Jet de sauvegarde de Dextérité : DD{caster spell save}, chaque créature dans une Émanation de 10 feet provenant de l’esprit. Échec : 2d10+{cast spell level} dégâts de feu. Réussite : demi-dégâts.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.475eb23611302984",
+      "kind": "description",
+      "en": "When the spirit drops to 0 Hit Points or the spell ends, the spirit explodes. Dexterity Saving Throw: DC{caster spell save}, each creature in a 10-foot Emanation originating from the spirit. Failure: 2d10+{cast spell level} Fire damage. Success: Half damage.",
+      "fr": "Lorsque l’esprit tombe à 0 point de vie ou que le sort prend fin, l’esprit explose. Jet de sauvegarde de Dextérité : DD{caster spell save}, chaque créature dans une Émanation de 10 feet provenant de l’esprit. Échec : 2d10+{cast spell level} dégâts de feu. Réussite : demi-dégâts.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.cc1df8996eae18f0",
+      "kind": "description",
+      "en": "The spirit has Advantage on saving throws against spells and other magical effects.",
+      "fr": "L’esprit a l’Avantage aux jets de sauvegarde contre les sorts et les autres effets magiques.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.c210aefd2e2906c6",
+      "kind": "description",
+      "en": "Magical Darkness doesn’t impede the spirit’s Darkvision.",
+      "fr": "Les Ténèbres magiques ne gênent pas la Vision dans le noir de l’esprit.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.fe2597d6b5c3457d",
+      "kind": "description",
+      "en": "Claws. Melee Attack Roll: {caster spell attack}, reach 5 ft. Hit: 1d8 + 3 + {cast spell level} Slashing damage. Immediately after the attack hits or misses, the spirit can teleport up to 30 feet to an unoccupied space it can see.",
+      "fr": "Griffes. Jet d’attaque au corps à corps : {caster spell attack}, allonge 5 ft. Touché : 1d8 + 3 + {cast spell level} dégâts tranchants. Immédiatement après l’attaque, qu’elle touche ou rate, l’esprit peut se téléporter d’un maximum de 30 feet vers un espace inoccupé qu’il voit.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.19d396086d3e9927",
+      "kind": "description",
+      "en": "Melee Attack Roll: {caster spell attack}, reach 5 ft. Hit: 1d8 + 3 + {cast spell level} Slashing damage. Immediately after the attack hits or misses, the spirit can teleport up to 30 feet to an unoccupied space it can see.",
+      "fr": "Jet d’attaque au corps à corps : {caster spell attack}, allonge 5 ft. Touché : 1d8 + 3 + {cast spell level} dégâts tranchants. Immédiatement après l’attaque, qu’elle touche ou rate, l’esprit peut se téléporter d’un maximum de 30 feet vers un espace inoccupé qu’il voit.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.f234f33c4578938b",
+      "kind": "description",
+      "en": "Venomous Spew. Constitution Saving Throw: DC{caster spell save}, one creature the insect can see within 10 feet. Failure: The target has the Poisoned condition until the start of the insect’s next turn.",
+      "fr": "Crachat venimeux. Jet de sauvegarde de Constitution : DD{caster spell save}, une créature que l’insecte voit à 10 feet ou moins. Échec : la cible subit l’état Empoisonné jusqu’au début du prochain tour de l’insecte.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.3c96b2859e0eb0cd",
+      "kind": "description",
+      "en": "Constitution Saving Throw: DC{caster spell save}, one creature the insect can see within 10 feet. Failure: The target has the Poisoned condition until the start of the insect’s next turn.",
+      "fr": "Jet de sauvegarde de Constitution : DD{caster spell save}, une créature que l’insecte voit à 10 feet ou moins. Échec : la cible subit l’état Empoisonné jusqu’au début du prochain tour de l’insecte.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.396b7c92437ec784",
+      "kind": "description",
+      "en": "Spider Climb. The insect can climb difficult surfaces, including along ceilings, without needing to make an ability check.",
+      "fr": "Pattes d’araignée. L’insecte peut escalader les surfaces difficiles, y compris les plafonds, sans effectuer de test de caractéristique.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.828df7740d299601",
+      "kind": "description",
+      "en": "The insect can climb difficult surfaces, including along ceilings, without needing to make an ability check.",
+      "fr": "L’insecte peut escalader les surfaces difficiles, y compris les plafonds, sans effectuer de test de caractéristique.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.7548ae0df8c77390",
+      "kind": "description",
+      "en": "Web Bolt. Ranged Attack Roll: {caster spell attack}, range 60 ft. Hit: 1d10 + 3 + {cast spell level} Bludgeoning damage, and the target’s Speed is reduced to 0 until the start of the insect’s next turn.",
+      "fr": "Jet de toile. Jet d’attaque à distance : {caster spell attack}, portée 60 ft. Touché : 1d10 + 3 + {cast spell level} dégâts contondants, et la Vitesse de la cible est réduite à 0 jusqu’au début du prochain tour de l’insecte.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.7682ff19359dcbca",
+      "kind": "description",
+      "en": "Ranged Attack Roll: {caster spell attack}, range 60 ft. Hit: 1d10 + 3 + {cast spell level} Bludgeoning damage, and the target’s Speed is reduced to 0 until the start of the insect’s next turn.",
+      "fr": "Jet d’attaque à distance : {caster spell attack}, portée 60 ft. Touché : 1d10 + 3 + {cast spell level} dégâts contondants, et la Vitesse de la cible est réduite à 0 jusqu’au début du prochain tour de l’insecte.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.5da74ae42cd7777d",
+      "kind": "description",
+      "en": "10 (+ 1 per spell level)",
+      "fr": "10 (+ 1 par niveau de sort)",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.f948dcd192af5417",
+      "kind": "description",
+      "en": "Telepathy 1 mile (works only with you)",
+      "fr": "Télépathie 1 mile (fonctionne uniquement avec vous)",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.88f4f5c4863fbb3d",
+      "kind": "description",
+      "en": "Life Bond. When you regain Hit Points from a level 1+ spell, the steed regains the same number of Hit Points if you’re within 5 feet of it.",
+      "fr": "Lien vital. Lorsque vous récupérez des points de vie grâce à un sort de niveau 1+, la monture récupère le même nombre de points de vie si vous vous trouvez à 5 feet ou moins d’elle.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.51f7ddc65114d955",
+      "kind": "description",
+      "en": "When you regain Hit Points from a level 1+ spell, the steed regains the same number of Hit Points if you’re within 5 feet of it.",
+      "fr": "Lorsque vous récupérez des points de vie grâce à un sort de niveau 1+, la monture récupère le même nombre de points de vie si vous vous trouvez à 5 feet ou moins d’elle.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.6bed8d95807b443f",
+      "kind": "description",
+      "en": "Healing Touch (Recharges after a Long Rest). One creature within 5 feet of the steed regains a number of Hit Points equal to 2d8+{cast spell level}.",
+      "fr": "Contact guérisseur (recharge après un Repos long). Une créature à 5 feet ou moins de la monture récupère un nombre de points de vie égal à 2d8+{cast spell level}.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.1c34e6f1129d3b3a",
+      "kind": "description",
+      "en": "One creature within 5 feet of the steed regains a number of Hit Points equal to 2d8+{cast spell level}.",
+      "fr": "Une créature à 5 feet ou moins de la monture récupère un nombre de points de vie égal à 2d8+{cast spell level}.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.7533765436f5d379",
+      "kind": "description",
+      "en": "Fey Step (Recharges after a Long Rest). The steed teleports, along with its rider, to an unoccupied space of your choice up to 60 feet away from itself.",
+      "fr": "Foulée féerique (recharge après un Repos long). La monture se téléporte avec son cavalier vers un espace inoccupé de votre choix situé à 60 feet ou moins d’elle.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.1ada0a5921f47975",
+      "kind": "description",
+      "en": "The steed teleports, along with its rider, to an unoccupied space of your choice up to 60 feet away from itself.",
+      "fr": "La monture se téléporte avec son cavalier vers un espace inoccupé de votre choix situé à 60 feet ou moins d’elle.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.8fe4bcecfd95c18a",
+      "kind": "description",
+      "en": "Fell Glare (Recharges after a Long Rest). Wisdom Saving Throw: DC{caster spell save} one creature within 60 feet the steed can see. Failure: The target has the Frightened condition until the end of your next turn.",
+      "fr": "Regard fiélon (recharge après un Repos long). Jet de sauvegarde de Sagesse : DD{caster spell save}, une créature à 60 feet ou moins que la monture voit. Échec : la cible subit l’état Effrayé jusqu’à la fin de votre prochain tour.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.d29a7ac6745c1595",
+      "kind": "description",
+      "en": "Wisdom Saving Throw: DC{caster spell save} one creature within 60 feet the steed can see. Failure: The target has the Frightened condition until the end of your next turn.",
+      "fr": "Jet de sauvegarde de Sagesse : DD{caster spell save}, une créature à 60 feet ou moins que la monture voit. Échec : la cible subit l’état Effrayé jusqu’à la fin de votre prochain tour.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.4464c5678299943b",
+      "kind": "description",
+      "en": "Incorporeal Passage. The spirit can move through other creatures and objects as if they were Difficult Terrain. If it ends its turn inside an object, it is shunted to the nearest unoccupied space and takes 1d10 Force damage for every 5 feet traveled.",
+      "fr": "Traversée incorporelle. L’esprit peut traverser les autres créatures et les objets comme s’il s’agissait de Terrain difficile. S’il termine son tour à l’intérieur d’un objet, il est expulsé vers l’espace inoccupé le plus proche et subit 1d10 dégâts de force par tranche de 5 feet parcourus.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.b8dc31e47bed4097",
+      "kind": "description",
+      "en": "The spirit can move through other creatures and objects as if they were Difficult Terrain. If it ends its turn inside an object, it is shunted to the nearest unoccupied space and takes 1d10 Force damage for every 5 feet traveled.",
+      "fr": "L’esprit peut traverser les autres créatures et les objets comme s’il s’agissait de Terrain difficile. S’il termine son tour à l’intérieur d’un objet, il est expulsé vers l’espace inoccupé le plus proche et subit 1d10 dégâts de force par tranche de 5 feet parcourus.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.ce5a406f8b71e1e0",
+      "kind": "description",
+      "en": "Deathly Touch. Melee Attack Roll: {caster spell attack}, reach 5 ft. Hit: 1d8 + 3 + {cast spell level} Necrotic damage, and the target has the Frightened condition until the end of its next turn.",
+      "fr": "Contact mortel. Jet d’attaque au corps à corps : {caster spell attack}, allonge 5 ft. Touché : 1d8 + 3 + {cast spell level} dégâts nécrotiques, et la cible subit l’état Effrayé jusqu’à la fin de son prochain tour.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.b911be5372c5c2fe",
+      "kind": "description",
+      "en": "Melee Attack Roll: {caster spell attack}, reach 5 ft. Hit: 1d8 + 3 + {cast spell level} Necrotic damage, and the target has the Frightened condition until the end of its next turn.",
+      "fr": "Jet d’attaque au corps à corps : {caster spell attack}, allonge 5 ft. Touché : 1d8 + 3 + {cast spell level} dégâts nécrotiques, et la cible subit l’état Effrayé jusqu’à la fin de son prochain tour.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.88f473b740c73473",
+      "kind": "description",
+      "en": "Festering Aura. Constitution Saving Throw: DC{caster spell save}, any creature (other than you) that starts its turn within a 5-foot Emanation originating from the spirit. Failure: The creature has the Poisoned condition until the start of its next turn.",
+      "fr": "Aura putride. Jet de sauvegarde de Constitution : DD{caster spell save}, toute créature (autre que vous) qui commence son tour dans une Émanation de 5 feet provenant de l’esprit. Échec : la créature subit l’état Empoisonné jusqu’au début de son prochain tour.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.50ccc9c5f09e4da1",
+      "kind": "description",
+      "en": "Constitution Saving Throw: DC{caster spell save}, any creature (other than you) that starts its turn within a 5-foot Emanation originating from the spirit. Failure: The creature has the Poisoned condition until the start of its next turn.",
+      "fr": "Jet de sauvegarde de Constitution : DD{caster spell save}, toute créature (autre que vous) qui commence son tour dans une Émanation de 5 feet provenant de l’esprit. Échec : la créature subit l’état Empoisonné jusqu’au début de son prochain tour.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.64951a5028dd134a",
+      "kind": "description",
+      "en": "Rotting Claw. Melee Attack Roll: {caster spell attack}, reach 5 ft. Hit: 1d6 + 3 + {cast spell level} Slashing damage. If the target has the Poisoned condition, it has the Paralyzed condition until the end of its next turn.",
+      "fr": "Griffe pourrissante. Jet d’attaque au corps à corps : {caster spell attack}, allonge 5 ft. Touché : 1d6 + 3 + {cast spell level} dégâts tranchants. Si la cible subit l’état Empoisonné, elle subit l’état Paralysé jusqu’à la fin de son prochain tour.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.dd01f95763f9d2ff",
+      "kind": "description",
+      "en": "Melee Attack Roll: {caster spell attack}, reach 5 ft. Hit: 1d6 + 3 + {cast spell level} Slashing damage. If the target has the Poisoned condition, it has the Paralyzed condition until the end of its next turn.",
+      "fr": "Jet d’attaque au corps à corps : {caster spell attack}, allonge 5 ft. Touché : 1d6 + 3 + {cast spell level} dégâts tranchants. Si la cible subit l’état Empoisonné, elle subit l’état Paralysé jusqu’à la fin de son prochain tour.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.7780ad10c7678892",
+      "kind": "description",
+      "en": "Multiattack. The spirit makes {cast spell level/2} attacks.",
+      "fr": "Attaques multiples. L’esprit effectue {cast spell level/2} attaques.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.8878e6bd355fc4c8",
+      "kind": "description",
+      "en": "The spirit makes {cast spell level/2} attacks.",
+      "fr": "L’esprit effectue {cast spell level/2} attaques.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.48799c88fe9fbfe4",
+      "kind": "description",
+      "en": "Multiattack. The spirit makes {cast spell level/2} Slam attacks.",
+      "fr": "Attaques multiples. L’esprit effectue {cast spell level/2} attaques de Coup.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.1a428a496c341c6c",
+      "kind": "description",
+      "en": "The spirit makes {cast spell level/2} Slam attacks.",
+      "fr": "L’esprit effectue {cast spell level/2} attaques de Coup.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.9ef9bade5217ef8e",
+      "kind": "description",
+      "en": "Multiattack. The spirit makes {cast spell level/2} Fey Blade attacks.",
+      "fr": "Attaques multiples. L’esprit effectue {cast spell level/2} attaques de Lame féerique.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.f1e2adda37ebc20a",
+      "kind": "description",
+      "en": "The spirit makes {cast spell level/2} Fey Blade attacks.",
+      "fr": "L’esprit effectue {cast spell level/2} attaques de Lame féerique.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.698fa920be54023f",
+      "kind": "description",
+      "en": "Multiattack. The insect makes {cast spell level/2} attacks.",
+      "fr": "Attaques multiples. L’insecte effectue {cast spell level/2} attaques.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.5122da30ef861fcb",
+      "kind": "description",
+      "en": "The insect makes {cast spell level/2} attacks.",
+      "fr": "L’insecte effectue {cast spell level/2} attaques.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.42c7ae182d3709b3",
+      "kind": "description",
+      "en": "Multiattack. The spirit makes {cast spell level/2} Rend attacks and it uses Breath Weapon.",
+      "fr": "Attaques multiples. L’esprit effectue {cast spell level/2} attaques de Saignée et utilise Souffle.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.1a6e0ebfa8e807bd",
+      "kind": "description",
+      "en": "The spirit makes {cast spell level/2} Rend attacks and it uses Breath Weapon.",
+      "fr": "L’esprit effectue {cast spell level/2} attaques de Saignée et utilise Souffle.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.a72738a902f93b82",
+      "kind": "description",
+      "en": "Eye Ray. Ranged Attack Roll: {caster spell attack}, range 150 ft. Hit: 1d8 + 3 + {cast spell level} Psychic damage.",
+      "fr": "Rayon oculaire. Jet d’attaque à distance : {caster spell attack}, portée 150 ft. Touché : 1d8 + 3 + {cast spell level} dégâts psychiques.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.a013e5f0cb192031",
+      "kind": "description",
+      "en": "Ranged Attack Roll: {caster spell attack}, range 150 ft. Hit: 1d8 + 3 + {cast spell level} Psychic damage.",
+      "fr": "Jet d’attaque à distance : {caster spell attack}, portée 150 ft. Touché : 1d8 + 3 + {cast spell level} dégâts psychiques.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.67ca26223d28ccd3",
+      "kind": "description",
+      "en": "Radiant Bow. Ranged Attack Roll: {caster spell attack}, range 600 ft. Hit: 2d6 + 2 + {cast spell level} Radiant damage.",
+      "fr": "Arc radiant. Jet d’attaque à distance : {caster spell attack}, portée 600 ft. Touché : 2d6 + 2 + {cast spell level} dégâts radiants.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.3ad5e21c0735c80d",
+      "kind": "description",
+      "en": "Ranged Attack Roll: {caster spell attack}, range 600 ft. Hit: 2d6 + 2 + {cast spell level} Radiant damage.",
+      "fr": "Jet d’attaque à distance : {caster spell attack}, portée 600 ft. Touché : 2d6 + 2 + {cast spell level} dégâts radiants.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.7c1c8716442e6808",
+      "kind": "description",
+      "en": "Fey Blade. Melee Attack Roll: {caster spell attack}, reach 5 ft. Hit: 2d6 + 3 + {cast spell level} Force damage.",
+      "fr": "Lame féerique. Jet d’attaque au corps à corps : {caster spell attack}, allonge 5 ft. Touché : 2d6 + 3 + {cast spell level} dégâts de force.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.7dc9cff58cdf0b66",
+      "kind": "description",
+      "en": "Melee Attack Roll: {caster spell attack}, reach 5 ft. Hit: 2d6 + 3 + {cast spell level} Force damage.",
+      "fr": "Jet d’attaque au corps à corps : {caster spell attack}, allonge 5 ft. Touché : 2d6 + 3 + {cast spell level} dégâts de force.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.16fe6bb43517388a",
+      "kind": "description",
+      "en": "Fiery Strike. Melee or Ranged Attack Roll: {caster spell attack}, reach 5 ft. or range 150 ft. Hit: 2d6 + 3 + {cast spell level} Fire damage.",
+      "fr": "Frappe enflammée. Jet d’attaque au corps à corps ou à distance : {caster spell attack}, allonge 5 ft. ou portée 150 ft. Touché : 2d6 + 3 + {cast spell level} dégâts de feu.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.d3e8f9d382ec2ea1",
+      "kind": "description",
+      "en": "Melee or Ranged Attack Roll: {caster spell attack}, reach 5 ft. or range 150 ft. Hit: 2d6 + 3 + {cast spell level} Fire damage.",
+      "fr": "Jet d’attaque au corps à corps ou à distance : {caster spell attack}, allonge 5 ft. ou portée 150 ft. Touché : 2d6 + 3 + {cast spell level} dégâts de feu.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.c2cc8daa908751e8",
+      "kind": "description",
+      "en": "Grave Bolt. Ranged Attack Roll: {caster spell attack}, range 150 ft. Hit: 2d4 + 3 + {cast spell level} Necrotic damage.",
+      "fr": "Trait funèbre. Jet d’attaque à distance : {caster spell attack}, portée 150 ft. Touché : 2d4 + 3 + {cast spell level} dégâts nécrotiques.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.1ead3eb002caa85f",
+      "kind": "description",
+      "en": "Ranged Attack Roll: {caster spell attack}, range 150 ft. Hit: 2d4 + 3 + {cast spell level} Necrotic damage.",
+      "fr": "Jet d’attaque à distance : {caster spell attack}, portée 150 ft. Touché : 2d4 + 3 + {cast spell level} dégâts nécrotiques.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.1cf6ab8a85e41855",
+      "kind": "description",
+      "en": "Shared Resistances. You have Resistance to Acid.",
+      "fr": "Résistances partagées. Vous avez la Résistance à l’acide.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.6f8709aa8fb6f68c",
+      "kind": "description",
+      "en": "You have Resistance to Acid.",
+      "fr": "Vous avez la Résistance à l’acide.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.5de1fa8162e46637",
+      "kind": "description",
+      "en": "Shared Resistances. You have Resistance to Lightning.",
+      "fr": "Résistances partagées. Vous avez la Résistance à la foudre.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.1e6124dcf6733c37",
+      "kind": "description",
+      "en": "You have Resistance to Lightning.",
+      "fr": "Vous avez la Résistance à la foudre.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.b704e0cc083729fb",
+      "kind": "description",
+      "en": "Breath Weapon. Dexterity Saving Throw: DC{caster spell save}, each creature in a 30-foot Cone. Failure: 2d6 Acid damage Success: Half damage",
+      "fr": "Souffle. Jet de sauvegarde de Dextérité : DD{caster spell save}, chaque créature dans un Cône de 30 feet. Échec : 2d6 dégâts d’acide Réussite : demi-dégâts",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.154528b3b54cb508",
+      "kind": "description",
+      "en": "Dexterity Saving Throw: DC{caster spell save}, each creature in a 30-foot Cone. Failure: 2d6 Acid damage Success: Half damage",
+      "fr": "Jet de sauvegarde de Dextérité : DD{caster spell save}, chaque créature dans un Cône de 30 feet. Échec : 2d6 dégâts d’acide Réussite : demi-dégâts",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.281c3b768723f389",
+      "kind": "description",
+      "en": "Breath Weapon. Dexterity Saving Throw: DC{caster spell save}, each creature in a 30-foot Cone. Failure: 2d6 Acid damage. Success: Half damage",
+      "fr": "Souffle. Jet de sauvegarde de Dextérité : DD{caster spell save}, chaque créature dans un Cône de 30 feet. Échec : 2d6 dégâts d’acide. Réussite : demi-dégâts",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.05395c4463305e6e",
+      "kind": "description",
+      "en": "Dexterity Saving Throw: DC{caster spell save}, each creature in a 30-foot Cone. Failure: 2d6 Acid damage. Success: Half damage",
+      "fr": "Jet de sauvegarde de Dextérité : DD{caster spell save}, chaque créature dans un Cône de 30 feet. Échec : 2d6 dégâts d’acide. Réussite : demi-dégâts",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.6281f5a82fb13481",
+      "kind": "description",
+      "en": "Breath Weapon. Dexterity Saving Throw: DC{caster spell save}, each creature in a 30-foot Cone. Failure: 2d6 Lightning damage Success: Half damage",
+      "fr": "Souffle. Jet de sauvegarde de Dextérité : DD{caster spell save}, chaque créature dans un Cône de 30 feet. Échec : 2d6 dégâts de foudre Réussite : demi-dégâts",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.63b53d44538de599",
+      "kind": "description",
+      "en": "Dexterity Saving Throw: DC{caster spell save}, each creature in a 30-foot Cone. Failure: 2d6 Lightning damage Success: Half damage",
+      "fr": "Jet de sauvegarde de Dextérité : DD{caster spell save}, chaque créature dans un Cône de 30 feet. Échec : 2d6 dégâts de foudre Réussite : demi-dégâts",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.b3e59f1b733203a0",
+      "kind": "description",
+      "en": "Breath Weapon. Dexterity Saving Throw: DC{caster spell save}, each creature in a 30-foot Cone. Failure: 2d6 Fire damage. Success: Half damage",
+      "fr": "Souffle. Jet de sauvegarde de Dextérité : DD{caster spell save}, chaque créature dans un Cône de 30 feet. Échec : 2d6 dégâts de feu. Réussite : demi-dégâts",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.677d0eeb93af94bd",
+      "kind": "description",
+      "en": "Dexterity Saving Throw: DC{caster spell save}, each creature in a 30-foot Cone. Failure: 2d6 Fire damage. Success: Half damage",
+      "fr": "Jet de sauvegarde de Dextérité : DD{caster spell save}, chaque créature dans un Cône de 30 feet. Échec : 2d6 dégâts de feu. Réussite : demi-dégâts",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.2e3069c289cb9a02",
+      "kind": "description",
+      "en": "Breath Weapon. Dexterity Saving Throw: DC{caster spell save}, each creature in a 30-foot Cone. Failure: 2d6 Poison damage. Success: Half damage",
+      "fr": "Souffle. Jet de sauvegarde de Dextérité : DD{caster spell save}, chaque créature dans un Cône de 30 feet. Échec : 2d6 dégâts de poison. Réussite : demi-dégâts",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.eb795714e837ec75",
+      "kind": "description",
+      "en": "Dexterity Saving Throw: DC{caster spell save}, each creature in a 30-foot Cone. Failure: 2d6 Poison damage. Success: Half damage",
+      "fr": "Jet de sauvegarde de Dextérité : DD{caster spell save}, chaque créature dans un Cône de 30 feet. Échec : 2d6 dégâts de poison. Réussite : demi-dégâts",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.221547c22a2a9c82",
+      "kind": "description",
+      "en": "Breath Weapon. Dexterity Saving Throw: DC{caster spell save}, each creature in a 30-foot Cone. Failure: 2d6 Cold damage. Success: Half damage",
+      "fr": "Souffle. Jet de sauvegarde de Dextérité : DD{caster spell save}, chaque créature dans un Cône de 30 feet. Échec : 2d6 dégâts de froid. Réussite : demi-dégâts",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.037ed6fac7b9a133",
+      "kind": "description",
+      "en": "Dexterity Saving Throw: DC{caster spell save}, each creature in a 30-foot Cone. Failure: 2d6 Cold damage. Success: Half damage",
+      "fr": "Jet de sauvegarde de Dextérité : DD{caster spell save}, chaque créature dans un Cône de 30 feet. Échec : 2d6 dégâts de froid. Réussite : demi-dégâts",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.acfed7a05b45b640",
+      "kind": "description",
+      "en": "Poison Jab. Melee Attack Roll: {caster spell attack} reach 10 ft. Hit: 1d6 + 3 + {cast spell level} Piercing damage plus 1d4 Poison damage.",
+      "fr": "Piqûre toxique. Jet d’attaque au corps à corps : {caster spell attack}, allonge 10 ft. Touché : 1d6 + 3 + {cast spell level} dégâts perforants plus 1d4 dégâts de poison.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.96fb05dc0e0f00a6",
+      "kind": "description",
+      "en": "Melee Attack Roll: {caster spell attack} reach 10 ft. Hit: 1d6 + 3 + {cast spell level} Piercing damage plus 1d4 Poison damage.",
+      "fr": "Jet d’attaque au corps à corps : {caster spell attack}, allonge 10 ft. Touché : 1d6 + 3 + {cast spell level} dégâts perforants plus 1d4 dégâts de poison.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.4ce146c7e73dad14",
+      "kind": "description",
+      "en": "Poison Jab. Melee Attack Roll: {caster spell attack}, reach 10 ft. Hit: 1d6 + 3 +{cast spell level} Piercing damage plus 1d4 Poison damage.",
+      "fr": "Piqûre toxique. Jet d’attaque au corps à corps : {caster spell attack}, allonge 10 ft. Touché : 1d6 + 3 + {cast spell level} dégâts perforants plus 1d4 dégâts de poison.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.5b230075550148d7",
+      "kind": "description",
+      "en": "Melee Attack Roll: {caster spell attack}, reach 10 ft. Hit: 1d6 + 3 +{cast spell level} Piercing damage plus 1d4 Poison damage.",
+      "fr": "Jet d’attaque au corps à corps : {caster spell attack}, allonge 10 ft. Touché : 1d6 + 3 + {cast spell level} dégâts perforants plus 1d4 dégâts de poison.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.1dc3bd72daa1ce4c",
+      "kind": "description",
+      "en": "Otherworldly Slam. Melee Attack Roll: {caster spell attack}, reach 5 ft. Hit: 1d8+{cast spell level} of Radiant damage.",
+      "fr": "Coup d’outre-monde. Jet d’attaque au corps à corps : {caster spell attack}, allonge 5 ft. Touché : 1d8+{cast spell level} dégâts radiants.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.7968caa440e93fa9",
+      "kind": "description",
+      "en": "Melee Attack Roll: {caster spell attack}, reach 5 ft. Hit: 1d8+{cast spell level} of Radiant damage.",
+      "fr": "Jet d’attaque au corps à corps : {caster spell attack}, allonge 5 ft. Touché : 1d8+{cast spell level} dégâts radiants.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.267808b0e784756a",
+      "kind": "description",
+      "en": "Otherworldly Slam. Melee Attack Roll: {caster spell attack}, reach 5 ft. Hit: 1d8+{cast spell level} Psychic damage.",
+      "fr": "Coup d’outre-monde. Jet d’attaque au corps à corps : {caster spell attack}, allonge 5 ft. Touché : 1d8+{cast spell level} dégâts psychiques.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.ba8cd3565498c7b3",
+      "kind": "description",
+      "en": "Melee Attack Roll: {caster spell attack}, reach 5 ft. Hit: 1d8+{cast spell level} Psychic damage.",
+      "fr": "Jet d’attaque au corps à corps : {caster spell attack}, allonge 5 ft. Touché : 1d8+{cast spell level} dégâts psychiques.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.0a42b0e5efc8ce10",
+      "kind": "description",
+      "en": "Otherworldly Slam. Melee Attack Roll: {caster spell attack}, reach 5 ft. Hit: 1d8+{cast spell level} Necrotic damage.",
+      "fr": "Coup d’outre-monde. Jet d’attaque au corps à corps : {caster spell attack}, allonge 5 ft. Touché : 1d8+{cast spell level} dégâts nécrotiques.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "phb.appendices.3f05de4af9995ec9",
+      "kind": "description",
+      "en": "Melee Attack Roll: {caster spell attack}, reach 5 ft. Hit: 1d8+{cast spell level} Necrotic damage.",
+      "fr": "Jet d’attaque au corps à corps : {caster spell attack}, allonge 5 ft. Touché : 1d8+{cast spell level} dégâts nécrotiques.",
+      "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
     }
   ]
 }

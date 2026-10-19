@@ -1,0 +1,57 @@
+{
+  "source": "Reconstitution des extraits utilisateur du 19 octobre 2026 ; paragraphes et actions complétés depuis les références publiques AideDD MM 2024. La structure HTML des tests reprend les profils Shard existants, sans prétendre être un nouveau relevé en direct.",
+  "profiles": [
+    {
+      "name": "Water Elemental",
+      "paragraphs": [
+        {
+          "heading": "Freeze",
+          "frHeading": "Gel",
+          "en": "If the elemental takes Cold damage, its Speed decreases by 20 feet until the end of its next turn.",
+          "fr": "Si l’élémentaire subit des dégâts de froid, sa Vitesse diminue de 20 feet jusqu’à la fin de son prochain tour."
+        },
+        {
+          "heading": "Water Form",
+          "frHeading": "Corps d’eau",
+          "en": "The elemental can enter an enemy’s space and stop there. It can move through a space as narrow as 1 inch without expending extra movement to do so.",
+          "fr": "L’élémentaire peut entrer dans l’espace d’un ennemi et s’y arrêter. Il peut se déplacer dans un passage d’une largeur de seulement 1 inch sans dépenser de déplacement supplémentaire."
+        },
+        {
+          "heading": "Multiattack",
+          "frHeading": "Attaques multiples",
+          "en": "The elemental makes two Slam attacks.",
+          "fr": "L’élémentaire effectue deux attaques de Coup."
+        },
+        {
+          "heading": "Slam",
+          "frHeading": "Coup",
+          "en": "Melee Attack Roll: +7, reach 5 ft. Hit: 13 (2d8 + 4) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Prone condition.",
+          "fr": "Jet d’attaque au corps à corps : +7, allonge 5 ft. Touché : 13 (2d8 + 4) dégâts contondants. Si la cible est une créature de taille M ou inférieure, elle subit l’état À terre."
+        },
+        {
+          "heading": "Whelm (Recharge 4–6)",
+          "frHeading": "Déluge (recharge 4–6)",
+          "en": "Strength Saving Throw: DC 15, each creature in the elemental’s space. Failure: 22 (4d8 + 4) Bludgeoning damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 14). Until the grapple ends, the target has the Restrained condition, is suffocating unless it can breathe water, and takes 9 (2d8) Bludgeoning damage at the start of each of the elemental’s turns.",
+          "fr": "Jet de sauvegarde de Force : DD 15, chaque créature dans l’espace de l’élémentaire. Échec : 22 (4d8 + 4) dégâts contondants. Si la cible est une créature de taille G ou inférieure, elle subit l’état Agrippé (évasion DD 14). Jusqu’à la fin de cette lutte, la cible subit l’état Entravé, suffoque à moins de pouvoir respirer sous l’eau et subit 9 (2d8) dégâts contondants au début de chacun des tours de l’élémentaire."
+        },
+        {
+          "heading": "",
+          "frHeading": "",
+          "en": "The elemental can grapple one Large creature or up to two Medium or smaller creatures at a time with Whelm. As an action, a creature within 5 feet of the elemental can pull a creature out of it by succeeding on a DC 14 Strength (Athletics) check. Success: Half damage only.",
+          "fr": "L’élémentaire peut agripper une créature de taille G ou jusqu’à deux créatures de taille M ou inférieure à la fois avec Déluge. Au prix d’une action, une créature à 5 feet ou moins de l’élémentaire peut en extraire une créature en réussissant un test de Force (Athlétisme) DD 14. Réussite : demi-dégâts uniquement."
+        }
+      ]
+    },
+    {
+      "name": "Wolf",
+      "paragraphs": [
+        {
+          "heading": "Bite",
+          "frHeading": "Morsure",
+          "en": "Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage. If the target is a Medium or smaller creature, it has the Prone condition.",
+          "fr": "Jet d’attaque au corps à corps : +4, allonge 5 ft. Touché : 5 (1d6 + 2) dégâts perforants. Si la cible est une créature de taille M ou inférieure, elle subit l’état À terre."
+        }
+      ]
+    }
+  ]
+}

@@ -140,6 +140,15 @@
     });
   }
   const weaponMasteryContext=text=>/(?:\bmastery\b|bottes? d.armes?|propriétés? (?:de )?botte|this weapon|cette arme|slashing|piercing|bludgeoning|tranchant|perforant|contondant|two-handed|à deux mains)/i.test(text);
+  function preserveFormulas(source,translated){
+    const formulas=text=>text.match(/\{[^{}]*\}/g)||[],originals=formulas(source),outputs=formulas(translated);
+    if(originals.length!==outputs.length)return null;
+    const available=new Map();
+    for(const value of originals){const key=normalize(value);if(!available.has(key))available.set(key,[]);available.get(key).push(value);}
+    let valid=true;
+    const result=translated.replace(/\{[^{}]*\}/g,value=>{const matches=available.get(normalize(value));if(!matches?.length){valid=false;return value;}return matches.shift();});
+    return valid?result:null;
+  }
   const translationCache=new Map();let translationCacheRevision=-1,translationCacheBilingual=null,translationCacheRoute='';
   function translate(source, context = source) {
     if (!enabled || !source.trim() || source.length > 50000) return source;
@@ -150,7 +159,7 @@
     }
     const cacheable=source.length<=4000&&context.length<=4000,contexts=cacheable?translationCache.get(source):null;
     if(contexts?.has(context))return contexts.get(context);
-    const translated=translateUncached(source,context);
+    const translated=preserveFormulas(source,translateUncached(source,context))??source;
     if(cacheable){
       const values=contexts||new Map();
       if(!contexts){if(translationCache.size>=256)translationCache.delete(translationCache.keys().next().value);translationCache.set(source,values);}
@@ -183,6 +192,15 @@
       return entry.fr + (allowBilingual && bilingual && names.has(normalize(matched)) && normalize(entry.fr) !== normalize(matched) ? ` (${entry.en})` : '');
     };
     if (exact) return source.match(/^\s*/)[0] + output(exact, source.trim(), true) + source.match(/\s*$/)[0];
+    // Les expressions Shard sont des valeurs opaques, même si leurs noms
+    // contiennent des mots du lexique (Cast Spell, Level, etc.).
+    if(/\{[^{}]*\}/.test(source)){
+      const placeholders=[];let index=0;
+      const masked=source.replace(/\{[^{}]*\}/g,formula=>{let marker;do{marker=String.fromCodePoint(0xF0000+index++);}while(source.includes(marker));placeholders.push([marker,formula]);return marker;});
+      let result=translateUncached(masked,context);
+      for(const [marker,formula]of placeholders)result=result.split(marker).join(formula);
+      return result;
+    }
     const cast=/^Cast\s+(?:Level\s+)?([1-9])(?:st|nd|rd|th)?(?:[- ]level)?\s+Spell\s*:\s*(.+)$/i.exec(source.trim());
     if(cast)return `Lancer le sort de niveau ${cast[1]} : ${translate(cast[2])}`;
     source = source.replace(/\bCast\s+(?:Level\s+)?([1-9])(?:st|nd|rd|th)?(?:[- ]level)?\s+Spell\s*:/gi, (_,n) => `Lancer le sort de niveau ${n} :`).replace(/\b([1-9])(?:st|nd|rd|th)[-\s]level\b/gi, (_,n) => `Niveau ${n}`).replace(/\bDC(?=\d)/g, 'DD');
@@ -220,7 +238,35 @@
     return !el || !!el.closest(SKIP) || el.isContentEditable || (el.tagName === 'OPTION' && !el.hasAttribute('value'));
   }
   function creatureSavingThrowCell(el,source){
-    return normalize(source)==='save'&&el?.matches('td,th')&&!!el.closest('.monstersimple .m24 table');
+    if(normalize(source)!=='save'||el?.closest('button,[role="button"],a'))return false;
+    const cell=el?.closest('td,th'),table=cell?.closest('table');
+    if(!table)return false;
+    if(table.closest('.monstersimple .m24'))return true;
+    // Les fiches de créatures et les profils intégrés n'ont pas tous les
+    // mêmes classes. Reconnaître leurs colonnes, même avec un titre en span.
+    const labels=[...table.querySelectorAll('td,th')].filter(c=>c.closest('table')===table).map(c=>normalize(blockEnglish(c)));
+    const abilities=new Set(labels.filter(label=>/^(str|dex|con|int|wis|cha|for|sag)$/.test(label)));
+    return abilities.size>=4&&labels.includes('mod');
+  }
+  const formulaTraversalCache=new WeakMap();
+  function splitFormulaNode(node,visited=new WeakSet()){
+    const scope=node.parentElement.closest('p,li,td,th')||node.parentElement.closest('div')||node.parentElement;
+    let scopes=formulaTraversalCache.get(visited);
+    if(!scopes){scopes=new WeakMap();formulaTraversalCache.set(visited,scopes);}
+    if(!scopes.has(scope)){
+      const protectedNodes=new WeakSet();scopes.set(scope,protectedNodes);
+      if(scope.textContent.includes('{')){
+        const spans=[];let text='';
+        for(const item of blockNodes(scope)){const start=text.length;text+=originalNode(item);spans.push({node:item,start,end:text.length});}
+        let cursor=0;
+        for(const match of text.matchAll(/\{[^{}]*\}/g)){
+          const end=match.index+match[0].length;
+          while(cursor<spans.length&&spans[cursor].end<=match.index)cursor++;
+          for(let i=cursor;i<spans.length&&spans[i].start<end;i++)if(spans[i].start>match.index||spans[i].end<end)protectedNodes.add(spans[i].node);
+        }
+      }
+    }
+    return scopes.get(scope).has(node);
   }
   function processText(node,inlineVisited) {
     if(maintainInline(node))return;
@@ -230,6 +276,11 @@
     const prev = tokenState.get(node);
     if (prev && current === prev.output && prev.revision === revision && prev.enabled === enabled && prev.bilingual === bilingual) return;
     const original = prev && current === prev.output ? prev.original : current;
+    if(splitFormulaNode(node,inlineVisited)){
+      tokenState.set(node,{original,output:original,revision,enabled,bilingual});
+      if(current!==original)node.data=original;
+      return;
+    }
     // Contexte court seulement : ne pas confondre le sort Lumière avec une propriété d’arme.
     let context = original;
     if (/\b(light|slow|save|tough|piercer|versatile)\b/i.test(original) && original.length < 100) {
@@ -495,7 +546,7 @@
     </div>`;
   shadow.append(panel);
   const diagnostics=document.createElement('details');
-  diagnostics.innerHTML="<summary>Repérer les traductions manquantes</summary>\n<p>Rapports locaux. Les résultats sont des candidats à vérifier ; les valeurs des champs et les éditeurs sont exclus.</p>\n<fieldset><legend>Page affichée</legend>\n<p>Analyse uniquement les textes actuellement visibles.</p>\n<label for=\"analysisResultLimit\">Nombre maximal de résultats (0 = sans limite)</label><input id=\"analysisResultLimit\" type=\"number\" min=\"0\" step=\"1\">\n<label for=\"analysisNodeLimit\">Éléments à examiner (0 = sans limite)</label><input id=\"analysisNodeLimit\" type=\"number\" min=\"0\" step=\"1\">\n<div class=\"row\"><button id=\"scanMissing\" type=\"button\">Analyser la page</button><button id=\"clearMissing\" type=\"button\">Effacer la page</button></div>\n<p id=\"missingStatus\" role=\"status\"></p><ol id=\"missingResults\"></ol>\n<button id=\"exportMissing\" type=\"button\" disabled>Exporter la page (JSON)</button>\n</fieldset>\n<fieldset><legend>Descriptions des fiches</legend>\n<label class=\"secondary\"><input id=\"showDescriptionStatus\" type=\"checkbox\"><span>Marquer les descriptions à compléter</span></label>\n<p>Les descriptions à compléter sont entourées en rouge. Le contrôle privilégie 2024 et parcourt les fiches déjà chargées. Tu peux l’arrêter ou ouvrir les fiches manuellement.</p>\n<label for=\"descriptionBatchLimit\">Fiches par passage (0 = toutes les fiches chargées)</label><input id=\"descriptionBatchLimit\" type=\"number\" min=\"0\" step=\"1\">\n<div class=\"row\"><button id=\"inspectDescriptions\" type=\"button\" disabled>Contrôler les fiches</button><button id=\"stopDescriptions\" type=\"button\" disabled>Arrêter</button></div>\n<p id=\"descriptionStatus\" role=\"status\"></p><p id=\"descriptionSummary\"></p><ol id=\"descriptionResults\"></ol>\n<div class=\"row\"><button id=\"exportDescriptions\" type=\"button\" disabled>Exporter les descriptions (JSON)</button><button id=\"clearDescriptions\" type=\"button\">Effacer les descriptions</button></div>\n</fieldset>\n";
+  diagnostics.innerHTML="<summary>Repérer les traductions manquantes</summary>\n<p>Rapports locaux. Les résultats sont des candidats à vérifier ; les valeurs des champs et les éditeurs sont exclus.</p>\n<fieldset><legend>Page affichée</legend>\n<p>Analyse uniquement les textes actuellement visibles.</p>\n<label for=\"analysisResultLimit\">Nombre maximal de résultats (0 = sans limite)</label><input id=\"analysisResultLimit\" type=\"number\" min=\"0\" step=\"1\">\n<label for=\"analysisNodeLimit\">Éléments à examiner (0 = sans limite)</label><input id=\"analysisNodeLimit\" type=\"number\" min=\"0\" step=\"1\">\n<div class=\"row\"><button id=\"scanMissing\" type=\"button\">Analyser la page</button><button id=\"clearMissing\" type=\"button\">Effacer la page</button></div>\n<p id=\"missingStatus\" role=\"status\"></p><ol id=\"missingResults\"></ol>\n<div class=\"row\"><button id=\"copyMissing\" type=\"button\" disabled>Copier la page (JSON)</button><button id=\"exportMissing\" type=\"button\" disabled>Exporter la page (JSON)</button></div>\n<p id=\"copyMissingStatus\" role=\"status\"></p>\n</fieldset>\n<fieldset><legend>Descriptions des fiches</legend>\n<label class=\"secondary\"><input id=\"showDescriptionStatus\" type=\"checkbox\"><span>Marquer les descriptions à compléter</span></label>\n<p>Les descriptions à compléter sont entourées en rouge. Le contrôle privilégie 2024 et parcourt les fiches déjà chargées. Tu peux l’arrêter ou ouvrir les fiches manuellement.</p>\n<label for=\"descriptionBatchLimit\">Fiches par passage (0 = toutes les fiches chargées)</label><input id=\"descriptionBatchLimit\" type=\"number\" min=\"0\" step=\"1\">\n<div class=\"row\"><button id=\"inspectDescriptions\" type=\"button\" disabled>Contrôler les fiches</button><button id=\"stopDescriptions\" type=\"button\" disabled>Arrêter</button></div>\n<p id=\"descriptionStatus\" role=\"status\"></p><p id=\"descriptionSummary\"></p><ol id=\"descriptionResults\"></ol>\n<div class=\"row\"><button id=\"copyDescriptions\" type=\"button\" disabled>Copier les descriptions (JSON)</button><button id=\"exportDescriptions\" type=\"button\" disabled>Exporter les descriptions (JSON)</button></div>\n<p id=\"copyDescriptionsStatus\" role=\"status\"></p>\n<button id=\"clearDescriptions\" type=\"button\">Effacer les descriptions</button>\n</fieldset>\n";
   panel.append(diagnostics);
   const footer=document.createElement('footer');footer.className='panel-footer';
   footer.innerHTML=`<span>D&D FR · v${SCRIPT_VERSION}</span><span class="shortcut" aria-label="Ouvrir ou fermer le panneau : Alt + Maj + F" title="Ouvrir ou fermer le panneau"><kbd>Alt</kbd> + <kbd>Maj</kbd> + <kbd>F</kbd></span>`;
@@ -763,6 +814,13 @@
     releaseInline(record);return false;
   }
   function restoreInline(){for(const record of [...inlineBlocks])releaseInline(record);}
+  function creatureTypeTranslation(el,source){
+    if(!el.matches('.monstersimple .i.pb1'))return null;
+    const match=/^\s*(Tiny|Small|Medium|Large|Huge|Gargantuan)\s+(Aberration|Beast|Celestial|Construct|Dragon|Elemental|Fey|Fiend|Giant|Humanoid|Monstrosity|Ooze|Plant|Undead),\s*(Lawful Good|Neutral Good|Chaotic Good|Lawful Neutral|Neutral|Chaotic Neutral|Lawful Evil|Neutral Evil|Chaotic Evil|Unaligned)\s*$/i.exec(source);
+    if(!match)return null;
+    const sizes={tiny:'TP',small:'P',medium:'M',large:'G',huge:'TG',gargantuan:'Gig'};
+    return translate(match[2])+' de taille '+sizes[normalize(match[1])]+', '+translate(match[3]);
+  }
   function processInline(el,visited){
     // Un échec sur un paragraphe inconnu vaut pour tout ce parcours, pas pour
     // chaque nœud et chacun de ses ancêtres. Une mutation ouvre un nouveau parcours.
@@ -772,9 +830,10 @@
     // Certaines lignes Shard sont des DIV sans classe contenant uniquement
     // des spans/gras/liens. Les traiter comme un paragraphe de la description.
     const descriptionLine=el.tagName==='DIV'&&el.closest('.description,.pre-wrap,.stdcontent')&&!el.querySelector('div,p,li,table');
-    if(!descriptionLine&&!el.matches('p,li,td,th,.description,.pre-wrap,.stdcontent'))return;
+    const creatureTypeLine=el.matches('.monstersimple .i.pb1');
+    if(!descriptionLine&&!creatureTypeLine&&!el.matches('p,li,td,th,.description,.pre-wrap,.stdcontent'))return;
     const visible=el.textContent;if(visible.length>50000)return;
-    if(visible.length<35&&!completePairs.has(inlineKey(visible))&&!inlinePairs.has(inlineKey(visible)))return;
+    if(visible.length<35&&!creatureTypeLine&&!completePairs.has(inlineKey(visible))&&!inlinePairs.has(inlineKey(visible)))return;
     const nodes=blockNodes(el);if(!nodes.length||nodes.length>300)return;
     // Une fiche inchangée peut être visitée par plusieurs racines de mutation.
     // Éviter de recalculer tous ses blocs à chaque passage.
@@ -814,8 +873,8 @@
   }
   function processInlineNodes(el,nodes,source,visualGroups=null){
     if(nodes.some(n=>maintainInline(n)))return;
-    const key=inlineKey(source),translated=lookupPair(key)||lookupFieldPair(key)||translateDuration(source)||translateHeading(source,blockEnglish(el))||translateCompleteBlock(source);
-    const fr=translated&&preserveFeet(source,translated);
+    const key=inlineKey(source),translated=creatureTypeTranslation(el,source)||lookupPair(key)||lookupFieldPair(key)||translateDuration(source)||translateHeading(source,blockEnglish(el))||translateCompleteBlock(source);
+    const fr=translated&&preserveFormulas(source,preserveFeet(source,translated));
     if(!fr||customKeys.has(normalize(source))||nodes.some(n=>customKeys.has(normalize(originalNode(n)))))return;
     const formatGroups=new Map();
     const ownerContains=(owner,node)=>(formatGroups.get(owner)||[owner]).some(part=>part.contains(node));
@@ -833,12 +892,17 @@
       // alors que le SRD et les paragraphes utilisent « l’action Esquive ».
       const actionNoun=normalize(match[1])==='dodge'?'Esquive':null;
       const armorHide=normalize(match[1])==='hide'&&/\bmedium armor\b/i.test(source)?'peaux':null;
+      // L’auto-lien Shard peut prendre un nom de créature pour un sort, ou
+      // ne lier que « Sleep » dans le titre « Sleep Breath ». Ces variantes
+      // restent limitées aux aptitudes concernées, sans renommer les sorts.
+      const creatureBlight=normalize(match[1])==='blight'&&/\b(?:Constricting Vine|Entangling Plants)\b/.test(source)?'lierreux':null;
+      const sleepBreath=normalize(match[1])==='sleep'&&/\bSleep Breath\b/.test(source)?'soporifique':null;
       const aliases=(termMeta(normalize(match[1])).aliases||[]).map(alias=>alias+match[2]);
       // Un lien Shard peut porter le possessif anglais d’un nom propre.
       // Le français conserve le nom, mais exprime la possession hors du lien.
       const possessive=/^([\p{L} -]+)['’]s$/u.exec(match[1]);
       const properName=possessive&&(entries.has(normalize(possessive[1]))||/^[A-Z]/.test(possessive[1]))?translate(possessive[1],source):null;
-      const values=[translate(en,source),armorHide,actionNoun?actionNoun+match[2]:null,heading?heading+match[2]:null,entry?entry.fr+match[2]:null,...aliases,properName,...(heading&&match[2]?[heading+'.',heading+':']:[]),...(/[,;]/.test(match[2])?[heading,entry?.fr]:[]),en,en.replace(/[\uE000-\uF8FF]/g,'')].filter(Boolean);
+      const values=[translate(en,source),armorHide,creatureBlight,sleepBreath,actionNoun?actionNoun+match[2]:null,heading?heading+match[2]:null,entry?entry.fr+match[2]:null,...aliases,properName,...(heading&&match[2]?[heading+'.',heading+':']:[]),...(/[,;]/.test(match[2])?[heading,entry?.fr]:[]),en,en.replace(/[\uE000-\uF8FF]/g,'')].filter(Boolean);
       // Le SRD écrit « œil » là où certains noms AideDD emploient « oeil ».
       // Reconnaître les deux graphies pour garder le lien dans le paragraphe traduit.
       return [...new Set(values.flatMap(value=>[value,value.replace(/œ/gi,'oe'),value.replace(/oe/gi,'œ')]).map(s=>s.trim()))];
@@ -847,7 +911,10 @@
     const inlinePattern=value=>pattern(value).replace(/:/g,'\\s*:');
     const formatted=[];
     for(const node of nodes){
-      const owner=node.parentElement.closest('strong,b,em,i,u,mark,.b,.i');
+      let owner=node.parentElement.closest('strong,b,em,i,u,mark,.b,.i');
+      // Les titres <b><i>Antimagic</i></b><b><i> Cone.</i></b>
+      // doivent être réunis au niveau des balises extérieures adjacentes.
+      while(owner?.parentElement!==el&&owner?.parentElement?.matches('strong,b,em,i,u,mark,.b,.i'))owner=owner.parentElement;
       if(!owner||owner===el||!el.contains(owner)||formatted.some(p=>ownerContains(p,owner))||protectedElements.some(p=>p.contains(owner)||owner.contains(p)))continue;
       // Shard peut découper un seul titre entre plusieurs emphases :
       // <strong>Patient </strong><strong>Defense.</strong><strong> </strong>.
@@ -897,10 +964,11 @@
       let found=null;
       for(const value of variants){const re=new RegExp(inlinePattern(value.trim()).replace(/\\\+/g,'\\s*\\+\\s*'),'iu');const m=re.exec(fr.slice(cursor));if(m){const text=m[0].trim(),index=m.index+m[0].length-m[0].trimStart().length;if(!found||index<found.index)found={index,text};}}
       if(!found)return;
-      // Deux spans d’emphase adjacents peuvent porter leur espace dans le
-      // second span. Garder cet espace sans créer de nœud ni modifier un dé.
+      // Deux emphases peuvent être collées dans le HTML anglais, alors que
+      // le français exige une espace. La conserver dans l’emphase suivante,
+      // sans créer de nœud ni modifier un dé.
       const gap=fr.slice(cursor,cursor+found.index);
-      if(gap&&!gap.trim()&&lastIndex===first&&/^\s/.test(en)&&!owner.matches('.dodieroll')){
+      if(gap&&!gap.trim()&&lastIndex===first&&(/^\s/.test(en)||formatted.includes(owner))&&!owner.matches('.dodieroll')){
         found.text=gap+found.text;found.index=0;
       }
       if(!assign(fr.slice(cursor,cursor+found.index),lastIndex,first))return;
@@ -1185,7 +1253,7 @@
   }catch{}
 
   // Diagnostic local, volontaire : aucune persistance ni envoi du rapport.
-  const diagnosticMarks=new Set();let pageDiagnosticReport=null,descriptionDiagnosticReport=null,pageScanToken=0;
+  const diagnosticMarks=new Set(),diagnosticCopies=new Map();let pageDiagnosticReport=null,descriptionDiagnosticReport=null,pageScanToken=0;
   const diagnosticStyle=document.createElement('style');
   diagnosticStyle.textContent='[data-shard-fr-diagnostic]{outline:2px dashed #db921f!important;outline-offset:3px!important}[data-shard-fr-description-missing]{outline:2px solid #ef4444!important;outline-offset:-2px!important}';document.head.append(diagnosticStyle);
   const englishClue=/\b(?:the|this|these|those|you|your|when|whenever|choose|gain|spell|damage|saving|proficiency|prerequisite|enemies|enemy|target|creature|within|must|cannot|while|during|until|against|each|once|twice|unknown|missing)\b/i;
@@ -1249,6 +1317,7 @@
     pageScanToken++;pageScanWaiting=false;$('scanMissing').disabled=!!descriptionRun;
     for(const el of diagnosticMarks)el.removeAttribute('data-shard-fr-diagnostic');
     diagnosticMarks.clear();pageDiagnosticReport=null;$('missingResults').replaceChildren();$('missingStatus').textContent='';$('exportMissing').disabled=true;
+    resetDiagnosticCopy('Missing');
   }
   function diagnosticVisible(el,cache){
     if(!el)return true;
@@ -1282,7 +1351,16 @@
   function collectDiagnostics(root=document.body,mark=true,attributes=true){
     const resultLimit=analysisResultLimit||Infinity,nodeLimit=analysisNodeLimit||Infinity;
     const knownFrench=knownDiagnosticFrench();
-    const missing=[],seen=new Map(),visibleCache=new WeakMap(),blockContexts=new WeakMap();let examined=0,truncated=false;
+    const missing=[],seen=new Map(),visibleCache=new WeakMap(),blockContexts=new WeakMap(),originalBlocks=new WeakMap(),regionContexts=new WeakMap();let examined=0,truncated=false;
+    function contextFor(el){
+      const region=el.closest('.monstersimple,article,[role="dialog"],section');
+      if(!region)return '';
+      if(!regionContexts.has(region)){
+        const heading=region.querySelector('h1,h2,h3,[role="heading"],.titletext');
+        regionContexts.set(region,heading&&diagnosticVisible(heading,visibleCache)?blockNodes(heading).filter(n=>diagnosticVisible(n.parentElement,visibleCache)).map(originalNode).join('').trim().slice(0,150):'');
+      }
+      return regionContexts.get(region);
+    }
     const books=new Set();
     // Les titres de suppléments inconnus sont attestés par la mention Source de Shard.
     for(const el of document.querySelectorAll('.titletext[title],.titletext [title]')){
@@ -1301,14 +1379,25 @@
       if(!isLabel&&!english)return;
       if(isLabel&&!english&&frenchClue.test(source))return;
       const reason=residual?'unrecognized-layout':diagnosticReason(el,source),key=inlineKey(source)+'|'+reason+'|'+(attribute||'');
-      if(seen.has(key)){seen.get(key).occurrences++;}
+      let row=seen.get(key);
+      if(row){row.occurrences++;}
       else{
         if(missing.length>=resultLimit){truncated=true;return;}
-        const region=el.closest('article,[role="dialog"],section'),heading=region?.querySelector('h1,h2,h3,[role="heading"],.titletext');
-        const context=heading&&diagnosticVisible(heading,visibleCache)?blockNodes(heading).filter(n=>diagnosticVisible(n.parentElement,visibleCache)).map(originalNode).join('').trim().slice(0,150):'';
-        const row={en:source,kind:isLabel?'term':'description',reason,context,occurrences:1};
+        row={en:source,kind:isLabel?'term':'description',reason,context:contextFor(el),occurrences:1};
         if(attribute)row.attribute=attribute;
         seen.set(key,row);missing.push(row);
+      }
+      // Un reliquat omet parfois les liens, le titre ou les dés déjà traduits.
+      // Conserver le paragraphe original visible, sans champs ni notes privées.
+      const block=!attribute&&el.closest('p,li');
+      if(block){
+        if(!originalBlocks.has(block))originalBlocks.set(block,blockNodes(block).filter(n=>diagnosticVisible(n.parentElement,visibleCache)).map(originalNode).join('').replace(/[\uE000-\uF8FF]/g,'').replace(/\s+/g,' ').trim());
+        const full=originalBlocks.get(block);
+        if(full&&inlineKey(full)!==inlineKey(source)){
+          const context=contextFor(block);
+          const blocks=row.blocks||(row.blocks=[]);
+          if(!blocks.some(item=>item.en===full&&item.context===context))blocks.push({en:full,context});
+        }
       }
       if(mark){el.setAttribute('data-shard-fr-diagnostic','');diagnosticMarks.add(el);}
     };
@@ -1362,6 +1451,7 @@
       $('missingStatus').textContent=missing.length+' candidat(s) à vérifier.'+(truncated?' Analyse limitée : augmente les limites ou saisis 0 pour les supprimer, puis relance.':'')+(!enabled?' Active la traduction, puis relance l’analyse.':'');
       for(const row of missing){const item=document.createElement('li'),text=document.createElement('span'),detail=document.createElement('small');text.textContent=row.en;detail.textContent=diagnosticLabels[row.reason]+(row.context?' · '+row.context:'')+(row.occurrences>1?' · '+row.occurrences+' occurrences':'');item.append(text,detail);$('missingResults').append(item);}
       $('exportMissing').disabled=false;$('scanMissing').disabled=false;
+      resetDiagnosticCopy('Missing',true);
     }
     pageScanWaiting=true;$('scanMissing').disabled=true;
     $('missingStatus').textContent='Traduction de la page en cours… Analyse dès la fin du traitement.';
@@ -1403,6 +1493,7 @@
     for(const badge of descriptionBadges)badge.remove();descriptionBadges.clear();
     for(const cell of descriptionMarkedCells)cell.removeAttribute('data-shard-fr-description-missing');descriptionMarkedCells.clear();
     descriptionDiagnosticReport=null;$('exportDescriptions').disabled=true;
+    resetDiagnosticCopy('Descriptions');
     $('descriptionResults').replaceChildren();$('descriptionStatus').textContent='';$('descriptionSummary').textContent='';
   }
   function descriptionDialog(entry){
@@ -1471,6 +1562,7 @@
     descriptionDiagnosticReport={schemaVersion:1,scriptVersion:SCRIPT_VERSION,scope:'catalogue-descriptions',translationEnabled:enabled,limits:analysisLimits(),truncated:descriptions.some(row=>row.truncated),missingCount:missing.length,missing,descriptions};
     $('descriptionSummary').textContent=descriptions.length+' fiche(s) contrôlée(s) · '+descriptions.filter(row=>row.status==='incomplete').length+' à compléter.';
     $('exportDescriptions').disabled=false;
+    resetDiagnosticCopy('Descriptions',true);
   }
   function scheduleDescriptionStatus(){
     if(!enabled||!$('showDescriptionStatus').checked||descriptionTimer)return;
@@ -1602,13 +1694,45 @@
   },true);
 
   $('scanMissing').onclick=scanDiagnostics;$('clearMissing').onclick=clearPageDiagnostics;$('clearDescriptions').onclick=clearDescriptionDiagnostics;
+  const diagnosticJSON=report=>JSON.stringify(report,null,2)+'\n';
+  function resetDiagnosticCopy(kind,available=false){
+    diagnosticCopies.delete(kind);$('copy'+kind).disabled=!available;$('copy'+kind+'Status').textContent='';
+  }
+  async function writeDiagnosticClipboard(text){
+    if(typeof GM_setClipboard==='function'){
+      try{
+        await new Promise((resolve,reject)=>{
+          const result=GM_setClipboard(text,'text',resolve);
+          if(result?.then)result.then(resolve,reject);
+        });
+        return;
+      }catch(error){if(!navigator.clipboard?.writeText)throw error;}
+    }
+    if(!navigator.clipboard?.writeText)throw new Error('Presse-papiers indisponible');
+    await navigator.clipboard.writeText(text);
+  }
+  async function copyDiagnosticReport(report,kind){
+    if(!report)return;
+    const job={};diagnosticCopies.set(kind,job);$('copy'+kind).disabled=true;
+    const status=$('copy'+kind+'Status');status.textContent='Copie en cours…';
+    try{
+      await writeDiagnosticClipboard(diagnosticJSON(report));
+      if(diagnosticCopies.get(kind)===job)status.textContent='Analyse copiée dans le presse-papiers.';
+    }catch{
+      if(diagnosticCopies.get(kind)===job)status.textContent='Copie impossible. Réessaie ou utilise l’export JSON.';
+    }finally{
+      if(diagnosticCopies.get(kind)===job){diagnosticCopies.delete(kind);$('copy'+kind).disabled=false;}
+    }
+  }
   function exportDiagnosticReport(report,filename){
     if(!report)return;
-    const url=URL.createObjectURL(new Blob([JSON.stringify(report,null,2)+'\n'],{type:'application/json'}));
+    const url=URL.createObjectURL(new Blob([diagnosticJSON(report)],{type:'application/json'}));
     const link=document.createElement('a');link.href=url;link.download=filename;link.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
   }
   $('exportMissing').onclick=()=>exportDiagnosticReport(pageDiagnosticReport,'shard-dnd-fr-page.json');
   $('exportDescriptions').onclick=()=>exportDiagnosticReport(descriptionDiagnosticReport,'shard-dnd-fr-descriptions.json');
+  $('copyMissing').onclick=()=>copyDiagnosticReport(pageDiagnosticReport,'Missing');
+  $('copyDescriptions').onclick=()=>copyDiagnosticReport(descriptionDiagnosticReport,'Descriptions');
   window.addEventListener('hashchange',clearDiagnostics);
 
   function applyPlacement(){

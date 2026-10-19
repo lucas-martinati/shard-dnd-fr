@@ -18635,6 +18635,49 @@
       "source": "AideDD · index des dons 2014 (nom)",
       "usage": [],
       "labelCategory": "vocabulaire"
+    },
+    {
+      "id": "ui.additional.1",
+      "kind": "term",
+      "en": "Frenzy Damage",
+      "fr": "Dégâts de Frénésie",
+      "source": "Traduction proposée des effets et résumés affichés dans Shard · D&D 2024 PHB, Barbare et Voie du Berserker · consultation directe du 19 octobre 2026 : Classes > Barbarian > Path of the Berserker > Level 3: Frenzy > Set Toggle Effect ; Rage et Reckless Attack > User Action · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Les formulations Shard restent distinctes du texte complet des aptitudes ; expressions conservées."
+    },
+    {
+      "id": "class.barbarian.effect.frenzy.description",
+      "en": "Add additional damage to your first attack each round while using Reckless Attack.",
+      "fr": "Ajoutez des dégâts supplémentaires à votre première attaque de chaque round lorsque vous utilisez Attaque téméraire.",
+      "source": "Traduction proposée des effets et résumés affichés dans Shard · D&D 2024 PHB, Barbare et Voie du Berserker · consultation directe du 19 octobre 2026 : Classes > Barbarian > Path of the Berserker > Level 3: Frenzy > Set Toggle Effect ; Rage et Reckless Attack > User Action · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Les formulations Shard restent distinctes du texte complet des aptitudes ; expressions conservées."
+    },
+    {
+      "id": "class.barbarian.effect.frenzy.modifier",
+      "en": "You gain an extra {rage damage}d6 default to damage rolls with melee weapons unarmed strikes",
+      "fr": "Vous ajoutez {rage damage}d6 dégâts du type par défaut aux jets de dégâts des armes de corps à corps et des frappes à mains nues",
+      "source": "Traduction proposée des effets et résumés affichés dans Shard · D&D 2024 PHB, Barbare et Voie du Berserker · consultation directe du 19 octobre 2026 : Classes > Barbarian > Path of the Berserker > Level 3: Frenzy > Set Toggle Effect ; Rage et Reckless Attack > User Action · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Les formulations Shard restent distinctes du texte complet des aptitudes ; expressions conservées."
+    },
+    {
+      "id": "class.barbarian.effect.frenzy.summary",
+      "en": "You gain an extra {rage damage}d6 default to damage rolls with melee weapons unarmed strikes.",
+      "fr": "Vous ajoutez {rage damage}d6 dégâts du type par défaut aux jets de dégâts des armes de corps à corps et des frappes à mains nues.",
+      "source": "Traduction proposée des effets et résumés affichés dans Shard · D&D 2024 PHB, Barbare et Voie du Berserker · consultation directe du 19 octobre 2026 : Classes > Barbarian > Path of the Berserker > Level 3: Frenzy > Set Toggle Effect ; Rage et Reckless Attack > User Action · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Les formulations Shard restent distinctes du texte complet des aptitudes ; expressions conservées."
+    },
+    {
+      "id": "class.barbarian.effect.rage.modifier",
+      "en": "You gain an extra {rage damage} default to damage rolls with melee weapons unarmed strikes",
+      "fr": "Vous ajoutez {rage damage} dégâts du type par défaut aux jets de dégâts des armes de corps à corps et des frappes à mains nues",
+      "source": "Traduction proposée des effets et résumés affichés dans Shard · D&D 2024 PHB, Barbare et Voie du Berserker · consultation directe du 19 octobre 2026 : Classes > Barbarian > Path of the Berserker > Level 3: Frenzy > Set Toggle Effect ; Rage et Reckless Attack > User Action · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Les formulations Shard restent distinctes du texte complet des aptitudes ; expressions conservées."
+    },
+    {
+      "id": "class.barbarian.effect.rage.summary",
+      "en": "You have resistance to bludgeoning, piercing and slashing damage. You gain an extra {rage damage} default to damage rolls with melee weapons unarmed strikes.",
+      "fr": "Vous avez la Résistance aux dégâts contondants, perforants et tranchants. Vous ajoutez {rage damage} dégâts du type par défaut aux jets de dégâts des armes de corps à corps et des frappes à mains nues.",
+      "source": "Traduction proposée des effets et résumés affichés dans Shard · D&D 2024 PHB, Barbare et Voie du Berserker · consultation directe du 19 octobre 2026 : Classes > Barbarian > Path of the Berserker > Level 3: Frenzy > Set Toggle Effect ; Rage et Reckless Attack > User Action · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Les formulations Shard restent distinctes du texte complet des aptitudes ; expressions conservées."
+    },
+    {
+      "id": "class.barbarian.effect.reckless.duration",
+      "en": "Reckless Attack for 1 round",
+      "fr": "Attaque téméraire pendant 1 round",
+      "source": "Traduction proposée des effets et résumés affichés dans Shard · D&D 2024 PHB, Barbare et Voie du Berserker · consultation directe du 19 octobre 2026 : Classes > Barbarian > Path of the Berserker > Level 3: Frenzy > Set Toggle Effect ; Rage et Reckless Attack > User Action · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Les formulations Shard restent distinctes du texte complet des aptitudes ; expressions conservées."
     }
   ]
 }

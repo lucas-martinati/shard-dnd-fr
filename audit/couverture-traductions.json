@@ -89,9 +89,9 @@
             "blocs": 66
           },
           "classes": {
-            "entreesRattachees": 2349,
-            "libelles": 697,
-            "blocs": 1652
+            "entreesRattachees": 2356,
+            "libelles": 698,
+            "blocs": 1658
           },
           "dons": {
             "entreesRattachees": 461,
@@ -103,23 +103,28 @@
             "libelles": 56,
             "blocs": 133
           },
+          "monstres": {
+            "entreesRattachees": 50,
+            "libelles": 7,
+            "blocs": 43
+          },
           "objets": {
             "entreesRattachees": 234,
             "libelles": 122,
             "blocs": 112
           },
           "regles": {
-            "entreesRattachees": 551,
-            "libelles": 346,
+            "entreesRattachees": 554,
+            "libelles": 349,
             "blocs": 205
           },
           "sorts": {
-            "entreesRattachees": 1074,
-            "libelles": 397,
-            "blocs": 677
+            "entreesRattachees": 1223,
+            "libelles": 427,
+            "blocs": 796
           }
         },
-        "entreesRattachees": 4972
+        "entreesRattachees": 5181
       },
       {
         "id": "dnd-2024-mm",
@@ -175,12 +180,12 @@
         "descriptionsEnFichiersDedies": 0,
         "packsRattachesParCategorie": {
           "monstres": {
-            "entreesRattachees": 344,
-            "libelles": 17,
-            "blocs": 327
+            "entreesRattachees": 1316,
+            "libelles": 237,
+            "blocs": 1079
           }
         },
-        "entreesRattachees": 344
+        "entreesRattachees": 1316
       },
       {
         "id": "dnd-2014",
@@ -524,8 +529,8 @@
   "categories": {
     "sorts": {
       "nomsCatalogueAideDD2024": 391,
-      "libellesEditables": 568,
-      "blocsEditables": 713
+      "libellesEditables": 598,
+      "blocsEditables": 832
     },
     "dons": {
       "nomsCatalogueAideDD2024": 75,
@@ -534,8 +539,8 @@
     },
     "classes": {
       "nomsCatalogueAideDD2024": 28,
-      "libellesEditables": 724,
-      "blocsEditables": 1769
+      "libellesEditables": 725,
+      "blocsEditables": 1775
     },
     "especes": {
       "nomsCatalogueAideDD2024": 0,
@@ -554,17 +559,17 @@
     },
     "monstres": {
       "nomsCatalogueAideDD2024": 498,
-      "libellesEditables": 452,
-      "blocsEditables": 327
+      "libellesEditables": 679,
+      "blocsEditables": 1154
     },
     "regles": {
       "nomsCatalogueAideDD2024": 0,
-      "libellesEditables": 1064,
+      "libellesEditables": 1067,
       "blocsEditables": 503
     },
     "interface": {
       "nomsCatalogueAideDD2024": 0,
-      "libellesEditables": 364,
+      "libellesEditables": 394,
       "blocsEditables": 19
     }
   },
@@ -577,7 +582,7 @@
       "fichesOuvertes": 1372,
       "controle": "audit/generes/guide-equipment.json"
     },
-    "descriptionsEtChampsLocauxUniques": 9521,
+    "descriptionsEtChampsLocauxUniques": 10473,
     "presentationsShard": {
       "fichesRelevees": 153,
       "avecDescription": 149,
