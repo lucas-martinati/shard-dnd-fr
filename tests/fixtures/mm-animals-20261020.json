@@ -159,6 +159,138 @@
           "occurrences": 2
         }
       ]
+    },
+    {
+      "name": "animals-more",
+      "truncated": false,
+      "rows": [
+        {
+          "en": "Multiattack. The elephant makes two Gore attacks.",
+          "kind": "description",
+          "reason": "unrecognized-layout",
+          "context": "Elephant",
+          "occurrences": 1
+        },
+        {
+          "en": "Trample. Dexterity Saving Throw: DC 16, one creature within 5 feet that has the Prone condition. Failure: 17 (2d10 + 6) Bludgeoning damage. Success: Half damage.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "Elephant",
+          "occurrences": 1
+        },
+        {
+          "en": "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 1 Piercing damage plus 5 (2d4) Poison damage.",
+          "kind": "description",
+          "reason": "unrecognized-layout",
+          "context": "Flying Snake",
+          "occurrences": 1
+        },
+        {
+          "en": "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Piercing damage, and the target has the Poisoned condition until the start of the centipede’s next turn.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "Giant Centipede",
+          "occurrences": 1
+        },
+        {
+          "en": "Standing Leap. The frog’s Long Jump is up to 20 feet and its High Jump is up to 10 feet with or without a running start.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "Giant Frog",
+          "occurrences": 1
+        },
+        {
+          "en": "Bite. Melee Attack Roll: +3, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 11).",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "Giant Frog",
+          "occurrences": 1
+        },
+        {
+          "en": "Web Walker. The spider ignores movement restrictions caused by webs, and it knows the location of any other creature in contact with the same web.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "Giant Spider",
+          "occurrences": 1
+        },
+        {
+          "en": "Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage plus 7 (2d6) Poison damage.",
+          "kind": "description",
+          "reason": "unrecognized-layout",
+          "context": "Giant Spider",
+          "occurrences": 1
+        },
+        {
+          "en": "Web (Recharge 5–6). Dexterity Saving Throw: DC 13, one creature the spider can see within 60 feet. Failure: The target has the Restrained condition until the web is destroyed (AC 10; HP 5; Vulnerability to Fire damage; Immunity to Poison and Psychic damage).",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "Giant Spider",
+          "occurrences": 1
+        },
+        {
+          "en": "Hold Breath. The hippopotamus can hold its breath for 10 minutes.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "Hippopotamus",
+          "occurrences": 1
+        },
+        {
+          "en": "Multiattack. The hippopotamus makes two Bite attacks.",
+          "kind": "description",
+          "reason": "unrecognized-layout",
+          "context": "Hippopotamus",
+          "occurrences": 1
+        },
+        {
+          "en": "Bite. Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Piercing damage. If the target is a Medium or smaller creature, it has the Prone condition.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "Mastiff",
+          "occurrences": 1
+        },
+        {
+          "en": "Spider Climb. If the swarm has a Climb Speed, the swarm can climb difficult surfaces, including along ceilings, without needing to make an ability check.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "Swarm of Insects",
+          "occurrences": 1
+        },
+        {
+          "en": "Swarm. The swarm can occupy another creature’s space and vice versa, and the swarm can move through any opening large enough for a Tiny snake. The swarm can’t regain Hit Points or gain Temporary Hit Points.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "Swarm of Venomous Snakes",
+          "occurrences": 1
+        },
+        {
+          "en": "Bites. Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 4) Piercing damage—or 6 (1d4 + 4) Piercing damage if the swarm is Bloodied—plus 10 (3d6) Poison damage.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "Swarm of Venomous Snakes",
+          "occurrences": 1
+        },
+        {
+          "en": "Multiattack. The tyrannosaurus makes one Bite attack and one Tail attack.",
+          "kind": "description",
+          "reason": "unrecognized-layout",
+          "context": "Tyrannosaurus Rex",
+          "occurrences": 1
+        },
+        {
+          "en": "Bite. Melee Attack Roll: +10, reach 10 ft. Hit: 33 (4d12 + 7) Piercing damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 17). While Grappled, the target has the Restrained condition and can’t be targeted by the tyrannosaurus’s Tail.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "Tyrannosaurus Rex",
+          "occurrences": 1
+        },
+        {
+          "en": "Tail. Melee Attack Roll: +10, reach 15 ft. Hit: 25 (4d8 + 7) Bludgeoning damage. If the target is a Huge or smaller creature, it has the Prone condition.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "Tyrannosaurus Rex",
+          "occurrences": 1
+        }
+      ]
     }
   ],
   "cases": [
@@ -406,6 +538,168 @@
       "layout": "observed",
       "name": "Crocodile",
       "html": "<p><b><i>Hold Breath.</i></b> The crocodile can hold its breath for 1 hour.</p>"
+    },
+    {
+      "id": "mm-animals-more-20261020-000",
+      "kind": "description",
+      "en": "Multiattack. The elephant makes two Gore attacks.",
+      "fr": "Attaques multiples. L’éléphant effectue deux attaques de Coup de corne.",
+      "layout": "observed",
+      "name": "Elephant",
+      "html": "<p><b><i>Multiattack</i></b><b><i>.</i></b> The elephant makes two Gore attacks.</p>"
+    },
+    {
+      "id": "mm-animals-more-20261020-001",
+      "kind": "description",
+      "en": "Trample. Dexterity Saving Throw: DC 16, one creature within 5 feet that has the Prone condition. Failure: 17 (2d10 + 6) Bludgeoning damage. Success: Half damage.",
+      "fr": "Piétinement. Jet de sauvegarde de Dextérité : DD 16, une créature à 5 feet ou moins qui subit l’état À terre. Échec : 17 (2d10 + 6) dégâts contondants. Réussite : La moitié des dégâts.",
+      "layout": "observed",
+      "name": "Elephant",
+      "html": "<p><b><i>Trample.</i></b> <i>Dexterity Saving Throw:</i> DC 16, one creature within 5 feet that has the <a href=\"#customlist?type=Conditions&amp;id=0jn05cqnggx41gu9\">Prone</a> condition. <i>Failure:</i> 17 (<b class=\"dodieroll\">2d10 + 6</b>) Bludgeoning damage. <i>Success:</i> Half damage.</p>"
+    },
+    {
+      "id": "mm-animals-more-20261020-002",
+      "kind": "description",
+      "en": "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 1 Piercing damage plus 5 (2d4) Poison damage.",
+      "fr": "Morsure. Jet d’attaque au corps à corps : +4, allonge 5 ft. Touché : 1 dégât perforant plus 5 (2d4) dégâts de poison.",
+      "layout": "observed",
+      "name": "Flying Snake",
+      "html": "<p><b><i>Bite.</i></b> <i>Melee Attack Roll:</i> <b class=\"dodieroll\">+4</b>, reach 5 ft. <i>Hit:</i> 1 Piercing damage plus 5 (<b class=\"dodieroll\">2d4</b>) Poison damage.</p>"
+    },
+    {
+      "id": "mm-animals-more-20261020-003",
+      "kind": "description",
+      "en": "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Piercing damage, and the target has the Poisoned condition until the start of the centipede’s next turn.",
+      "fr": "Morsure. Jet d’attaque au corps à corps : +4, allonge 5 ft. Touché : 4 (1d4 + 2) dégâts perforants, et la cible subit l’état Empoisonné jusqu’au début du prochain tour du mille-pattes.",
+      "layout": "observed",
+      "name": "Giant Centipede",
+      "html": "<p><b><i>Bite.</i></b> <i>Melee Attack Roll:</i> <b class=\"dodieroll\">+4</b>, reach 5 ft. <i>Hit:</i> 4 (<b class=\"dodieroll\">1d4 + 2</b>) Piercing damage, and the target has the <a href=\"#customlist?type=Conditions&amp;id=azq2e3z55z2fgs2q\">Poisoned</a> condition until the start of the centipede’s next turn.</p>"
+    },
+    {
+      "id": "mm-animals-more-20261020-004",
+      "kind": "description",
+      "en": "Standing Leap. The frog’s Long Jump is up to 20 feet and its High Jump is up to 10 feet with or without a running start.",
+      "fr": "Saut sans élan. Le saut en longueur de la grenouille peut atteindre 20 feet et son saut en hauteur peut atteindre 10 feet, avec ou sans course d’élan.",
+      "layout": "observed",
+      "name": "Giant Frog",
+      "html": "<p><b><i>Standing Leap.</i></b> The frog’s Long Jump is up to 20 feet and its High Jump is up to 10 feet with or without a running start.</p>"
+    },
+    {
+      "id": "mm-animals-more-20261020-005",
+      "kind": "description",
+      "en": "Bite. Melee Attack Roll: +3, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 11).",
+      "fr": "Morsure. Jet d’attaque au corps à corps : +3, allonge 5 ft. Touché : 5 (1d6 + 2) dégâts perforants. Si la cible est une créature de taille M ou inférieure, elle subit l’état Agrippé (évasion DD 11).",
+      "layout": "observed",
+      "name": "Giant Frog",
+      "html": "<p><b><i>Bite.</i></b> <i>Melee Attack Roll:</i> <b class=\"dodieroll\">+3</b>, reach 5 ft. <i>Hit:</i> 5 (<b class=\"dodieroll\">1d6 + 2</b>) Piercing damage. If the target is a Medium or smaller creature, it has the <a href=\"#customlist?type=Conditions&amp;id=a6e4lwi1jotp3mq5\">Grappled</a> condition (escape DC 11).</p>"
+    },
+    {
+      "id": "mm-animals-more-20261020-006",
+      "kind": "description",
+      "en": "Web Walker. The spider ignores movement restrictions caused by webs, and it knows the location of any other creature in contact with the same web.",
+      "fr": "Marche sur les toiles. L’araignée ignore les restrictions de déplacement causées par les toiles et connaît la position de toute autre créature en contact avec la même toile.",
+      "layout": "observed",
+      "name": "Giant Spider",
+      "html": "<p><b><i>Web Walker.</i></b> The spider ignores movement restrictions caused by webs, and it knows the location of any other creature in contact with the same web.</p>"
+    },
+    {
+      "id": "mm-animals-more-20261020-007",
+      "kind": "description",
+      "en": "Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage plus 7 (2d6) Poison damage.",
+      "fr": "Morsure. Jet d’attaque au corps à corps : +5, allonge 5 ft. Touché : 7 (1d8 + 3) dégâts perforants plus 7 (2d6) dégâts de poison.",
+      "layout": "observed",
+      "name": "Giant Spider",
+      "html": "<p><b><i>Bite.</i></b> <i>Melee Attack Roll:</i> <b class=\"dodieroll\">+5</b>, reach 5 ft. <i>Hit:</i> 7 (<b class=\"dodieroll\">1d8 + 3</b>) Piercing damage plus 7 (<b class=\"dodieroll\">2d6</b>) Poison damage.</p>"
+    },
+    {
+      "id": "mm-animals-more-20261020-008",
+      "kind": "description",
+      "en": "Web (Recharge 5–6). Dexterity Saving Throw: DC 13, one creature the spider can see within 60 feet. Failure: The target has the Restrained condition until the web is destroyed (AC 10; HP 5; Vulnerability to Fire damage; Immunity to Poison and Psychic damage).",
+      "fr": "Toile (recharge 5–6). Jet de sauvegarde de Dextérité : DD 13, une créature que l’araignée peut voir dans un rayon de 60 feet. Échec : La cible subit l’état Entravé jusqu’à la destruction de la toile (CA 10 ; PV 5 ; vulnérabilité aux dégâts de feu ; immunité contre les dégâts de poison et psychiques).",
+      "layout": "observed",
+      "name": "Giant Spider",
+      "html": "<p><b><i>Web (Recharge 5–6).</i></b> <i>Dexterity Saving Throw:</i> DC 13, one creature the spider can see within 60 feet. <i>Failure:</i> The target has the <a href=\"#customlist?type=Conditions&amp;id=pzyh8kckn2x92l3p\">Restrained</a> condition until the web is destroyed (AC 10; HP 5; Vulnerability to Fire damage; Immunity to Poison and Psychic damage).</p>"
+    },
+    {
+      "id": "mm-animals-more-20261020-009",
+      "kind": "description",
+      "en": "Hold Breath. The hippopotamus can hold its breath for 10 minutes.",
+      "fr": "Apnée. L’hippopotame peut retenir sa respiration pendant 10 minutes.",
+      "layout": "observed",
+      "name": "Hippopotamus",
+      "html": "<p><b><i>Hold Breath.</i></b> The hippopotamus can hold its breath for 10 minutes.</p>"
+    },
+    {
+      "id": "mm-animals-more-20261020-010",
+      "kind": "description",
+      "en": "Multiattack. The hippopotamus makes two Bite attacks.",
+      "fr": "Attaques multiples. L’hippopotame effectue deux attaques de Morsure.",
+      "layout": "observed",
+      "name": "Hippopotamus",
+      "html": "<p><b><i>Multiattack</i></b><b><i>.</i></b> The hippopotamus makes two Bite attacks.</p>"
+    },
+    {
+      "id": "mm-animals-more-20261020-011",
+      "kind": "description",
+      "en": "Bite. Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Piercing damage. If the target is a Medium or smaller creature, it has the Prone condition.",
+      "fr": "Morsure. Jet d’attaque au corps à corps : +3, allonge 5 ft. Touché : 4 (1d6 + 1) dégâts perforants. Si la cible est une créature de taille M ou inférieure, elle subit l’état À terre.",
+      "layout": "observed",
+      "name": "Mastiff",
+      "html": "<p><b><i>Bite.</i></b> <i>Melee Attack Roll:</i> <b class=\"dodieroll\">+3</b>, reach 5 ft. <i>Hit:</i> 4 (<b class=\"dodieroll\">1d6 + 1</b>) Piercing damage. If the target is a Medium or smaller creature, it has the <a href=\"#customlist?type=Conditions&amp;id=0jn05cqnggx41gu9\">Prone</a> condition.</p>"
+    },
+    {
+      "id": "mm-animals-more-20261020-012",
+      "kind": "description",
+      "en": "Spider Climb. If the swarm has a Climb Speed, the swarm can climb difficult surfaces, including along ceilings, without needing to make an ability check.",
+      "fr": "Pattes d’araignée. Si la nuée possède une vitesse d’escalade, elle peut escalader les surfaces difficiles, y compris les plafonds, sans effectuer de test de caractéristique.",
+      "layout": "observed",
+      "name": "Swarm of Insects",
+      "html": "<p><b><i>Spider Climb.</i></b> If the swarm has a Climb Speed, the swarm can climb difficult surfaces, including along ceilings, without needing to make an ability check.</p>"
+    },
+    {
+      "id": "mm-animals-more-20261020-013",
+      "kind": "description",
+      "en": "Swarm. The swarm can occupy another creature’s space and vice versa, and the swarm can move through any opening large enough for a Tiny snake. The swarm can’t regain Hit Points or gain Temporary Hit Points.",
+      "fr": "Nuée. La nuée peut occuper l’espace d’une autre créature et réciproquement, et elle peut traverser toute ouverture assez grande pour laisser passer un serpent de taille TP. La nuée ne peut pas récupérer de points de vie ni gagner de points de vie temporaires.",
+      "layout": "observed",
+      "name": "Swarm of Venomous Snakes",
+      "html": "<p><b><i>Swarm.</i></b> The swarm can occupy another creature’s space and vice versa, and the swarm can move through any opening large enough for a Tiny snake. The swarm can’t regain Hit Points or gain Temporary Hit Points.</p>"
+    },
+    {
+      "id": "mm-animals-more-20261020-014",
+      "kind": "description",
+      "en": "Bites. Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 4) Piercing damage—or 6 (1d4 + 4) Piercing damage if the swarm is Bloodied—plus 10 (3d6) Poison damage.",
+      "fr": "Morsures. Jet d’attaque au corps à corps : +6, allonge 5 ft. Touché : 8 (1d8 + 4) dégâts perforants — ou 6 (1d4 + 4) dégâts perforants si la nuée est En sang — plus 10 (3d6) dégâts de poison.",
+      "layout": "observed",
+      "name": "Swarm of Venomous Snakes",
+      "html": "<p><b><i>Bites.</i></b> <i>Melee Attack Roll:</i> <b class=\"dodieroll\">+6</b>, reach 5 ft. <i>Hit:</i> 8 (<b class=\"dodieroll\">1d8 + 4</b>) Piercing damage—or 6 (<b class=\"dodieroll\">1d4 + 4</b>) Piercing damage if the swarm is Bloodied—plus 10 (<b class=\"dodieroll\">3d6</b>) Poison damage.</p>"
+    },
+    {
+      "id": "mm-animals-more-20261020-015",
+      "kind": "description",
+      "en": "Multiattack. The tyrannosaurus makes one Bite attack and one Tail attack.",
+      "fr": "Attaques multiples. Le tyrannosaure effectue une attaque de Morsure et une attaque de Queue.",
+      "layout": "observed",
+      "name": "Tyrannosaurus Rex",
+      "html": "<p><b><i>Multiattack</i></b><b><i>.</i></b> The tyrannosaurus makes one Bite attack and one Tail attack.</p>"
+    },
+    {
+      "id": "mm-animals-more-20261020-016",
+      "kind": "description",
+      "en": "Bite. Melee Attack Roll: +10, reach 10 ft. Hit: 33 (4d12 + 7) Piercing damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 17). While Grappled, the target has the Restrained condition and can’t be targeted by the tyrannosaurus’s Tail.",
+      "fr": "Morsure. Jet d’attaque au corps à corps : +10, allonge 10 ft. Touché : 33 (4d12 + 7) dégâts perforants. Si la cible est une créature de taille G ou inférieure, elle subit l’état Agrippé (évasion DD 17). Tant qu’elle subit l’état Agrippé, la cible subit l’état Entravé et ne peut pas être prise pour cible par la Queue du tyrannosaure.",
+      "layout": "observed",
+      "name": "Tyrannosaurus Rex",
+      "html": "<p><b><i>Bite.</i></b> <i>Melee Attack Roll:</i> <b class=\"dodieroll\">+10</b>, reach 10 ft. <i>Hit:</i> 33 (<b class=\"dodieroll\">4d12 + 7</b>) Piercing damage. If the target is a Large or smaller creature, it has the <a href=\"#customlist?type=Conditions&amp;id=a6e4lwi1jotp3mq5\">Grappled</a> condition (escape DC 17). While <a href=\"#customlist?type=Conditions&amp;id=a6e4lwi1jotp3mq5\">Grappled</a>, the target has the <a href=\"#customlist?type=Conditions&amp;id=pzyh8kckn2x92l3p\">Restrained</a> condition and can’t be targeted by the tyrannosaurus’s Tail.</p>"
+    },
+    {
+      "id": "mm-animals-more-20261020-017",
+      "kind": "description",
+      "en": "Tail. Melee Attack Roll: +10, reach 15 ft. Hit: 25 (4d8 + 7) Bludgeoning damage. If the target is a Huge or smaller creature, it has the Prone condition.",
+      "fr": "Queue. Jet d’attaque au corps à corps : +10, allonge 15 ft. Touché : 25 (4d8 + 7) dégâts contondants. Si la cible est une créature de taille TG ou inférieure, elle subit l’état À terre.",
+      "layout": "observed",
+      "name": "Tyrannosaurus Rex",
+      "html": "<p><b><i>Tail.</i></b> <i>Melee Attack Roll:</i> <b class=\"dodieroll\">+10</b>, reach 15 ft. <i>Hit:</i> 25 (<b class=\"dodieroll\">4d8 + 7</b>) Bludgeoning damage. If the target is a Huge or smaller creature, it has the <a href=\"#customlist?type=Conditions&amp;id=0jn05cqnggx41gu9\">Prone</a> condition.</p>"
     }
   ],
   "coverage": [
@@ -659,6 +953,222 @@
       "occurrences": 2,
       "targets": [
         "mm-animals-followup-20261020-001"
+      ]
+    },
+    {
+      "report": "animals-more",
+      "index": 0,
+      "en": "Multiattack. The elephant makes two Gore attacks.",
+      "kind": "description",
+      "reason": "unrecognized-layout",
+      "context": "Elephant",
+      "occurrences": 1,
+      "targets": [
+        "mm-animals-more-20261020-000"
+      ]
+    },
+    {
+      "report": "animals-more",
+      "index": 1,
+      "en": "Trample. Dexterity Saving Throw: DC 16, one creature within 5 feet that has the Prone condition. Failure: 17 (2d10 + 6) Bludgeoning damage. Success: Half damage.",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "Elephant",
+      "occurrences": 1,
+      "targets": [
+        "mm-animals-more-20261020-001"
+      ]
+    },
+    {
+      "report": "animals-more",
+      "index": 2,
+      "en": "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 1 Piercing damage plus 5 (2d4) Poison damage.",
+      "kind": "description",
+      "reason": "unrecognized-layout",
+      "context": "Flying Snake",
+      "occurrences": 1,
+      "targets": [
+        "mm-animals-more-20261020-002"
+      ]
+    },
+    {
+      "report": "animals-more",
+      "index": 3,
+      "en": "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Piercing damage, and the target has the Poisoned condition until the start of the centipede’s next turn.",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "Giant Centipede",
+      "occurrences": 1,
+      "targets": [
+        "mm-animals-more-20261020-003"
+      ]
+    },
+    {
+      "report": "animals-more",
+      "index": 4,
+      "en": "Standing Leap. The frog’s Long Jump is up to 20 feet and its High Jump is up to 10 feet with or without a running start.",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "Giant Frog",
+      "occurrences": 1,
+      "targets": [
+        "mm-animals-more-20261020-004"
+      ]
+    },
+    {
+      "report": "animals-more",
+      "index": 5,
+      "en": "Bite. Melee Attack Roll: +3, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 11).",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "Giant Frog",
+      "occurrences": 1,
+      "targets": [
+        "mm-animals-more-20261020-005"
+      ]
+    },
+    {
+      "report": "animals-more",
+      "index": 6,
+      "en": "Web Walker. The spider ignores movement restrictions caused by webs, and it knows the location of any other creature in contact with the same web.",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "Giant Spider",
+      "occurrences": 1,
+      "targets": [
+        "mm-animals-more-20261020-006"
+      ]
+    },
+    {
+      "report": "animals-more",
+      "index": 7,
+      "en": "Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage plus 7 (2d6) Poison damage.",
+      "kind": "description",
+      "reason": "unrecognized-layout",
+      "context": "Giant Spider",
+      "occurrences": 1,
+      "targets": [
+        "mm-animals-more-20261020-007"
+      ]
+    },
+    {
+      "report": "animals-more",
+      "index": 8,
+      "en": "Web (Recharge 5–6). Dexterity Saving Throw: DC 13, one creature the spider can see within 60 feet. Failure: The target has the Restrained condition until the web is destroyed (AC 10; HP 5; Vulnerability to Fire damage; Immunity to Poison and Psychic damage).",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "Giant Spider",
+      "occurrences": 1,
+      "targets": [
+        "mm-animals-more-20261020-008"
+      ]
+    },
+    {
+      "report": "animals-more",
+      "index": 9,
+      "en": "Hold Breath. The hippopotamus can hold its breath for 10 minutes.",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "Hippopotamus",
+      "occurrences": 1,
+      "targets": [
+        "mm-animals-more-20261020-009"
+      ]
+    },
+    {
+      "report": "animals-more",
+      "index": 10,
+      "en": "Multiattack. The hippopotamus makes two Bite attacks.",
+      "kind": "description",
+      "reason": "unrecognized-layout",
+      "context": "Hippopotamus",
+      "occurrences": 1,
+      "targets": [
+        "mm-animals-more-20261020-010"
+      ]
+    },
+    {
+      "report": "animals-more",
+      "index": 11,
+      "en": "Bite. Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Piercing damage. If the target is a Medium or smaller creature, it has the Prone condition.",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "Mastiff",
+      "occurrences": 1,
+      "targets": [
+        "mm-animals-more-20261020-011"
+      ]
+    },
+    {
+      "report": "animals-more",
+      "index": 12,
+      "en": "Spider Climb. If the swarm has a Climb Speed, the swarm can climb difficult surfaces, including along ceilings, without needing to make an ability check.",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "Swarm of Insects",
+      "occurrences": 1,
+      "targets": [
+        "mm-animals-more-20261020-012"
+      ]
+    },
+    {
+      "report": "animals-more",
+      "index": 13,
+      "en": "Swarm. The swarm can occupy another creature’s space and vice versa, and the swarm can move through any opening large enough for a Tiny snake. The swarm can’t regain Hit Points or gain Temporary Hit Points.",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "Swarm of Venomous Snakes",
+      "occurrences": 1,
+      "targets": [
+        "mm-animals-more-20261020-013"
+      ]
+    },
+    {
+      "report": "animals-more",
+      "index": 14,
+      "en": "Bites. Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 4) Piercing damage—or 6 (1d4 + 4) Piercing damage if the swarm is Bloodied—plus 10 (3d6) Poison damage.",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "Swarm of Venomous Snakes",
+      "occurrences": 1,
+      "targets": [
+        "mm-animals-more-20261020-014"
+      ]
+    },
+    {
+      "report": "animals-more",
+      "index": 15,
+      "en": "Multiattack. The tyrannosaurus makes one Bite attack and one Tail attack.",
+      "kind": "description",
+      "reason": "unrecognized-layout",
+      "context": "Tyrannosaurus Rex",
+      "occurrences": 1,
+      "targets": [
+        "mm-animals-more-20261020-015"
+      ]
+    },
+    {
+      "report": "animals-more",
+      "index": 16,
+      "en": "Bite. Melee Attack Roll: +10, reach 10 ft. Hit: 33 (4d12 + 7) Piercing damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 17). While Grappled, the target has the Restrained condition and can’t be targeted by the tyrannosaurus’s Tail.",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "Tyrannosaurus Rex",
+      "occurrences": 1,
+      "targets": [
+        "mm-animals-more-20261020-016"
+      ]
+    },
+    {
+      "report": "animals-more",
+      "index": 17,
+      "en": "Tail. Melee Attack Roll: +10, reach 15 ft. Hit: 25 (4d8 + 7) Bludgeoning damage. If the target is a Huge or smaller creature, it has the Prone condition.",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "Tyrannosaurus Rex",
+      "occurrences": 1,
+      "targets": [
+        "mm-animals-more-20261020-017"
       ]
     }
   ]

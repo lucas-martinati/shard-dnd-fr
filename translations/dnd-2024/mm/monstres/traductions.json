@@ -14767,6 +14767,279 @@
       "en": "Hold Breath. The crocodile can hold its breath for 1 hour.",
       "fr": "Apnée. Le crocodile peut retenir sa respiration pendant 1 heure.",
       "source": "Traduction proposée du complément utilisateur MM 2024 en version 1.17.51 · Faucon de sang, Crocodile et Crocodile géant ; HTML relevé dans Shard, annexe A Animaux · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026"
+    },
+    {
+      "id": "mm-animals-more-20261020-000.body",
+      "kind": "description",
+      "en": "The elephant makes two Gore attacks.",
+      "fr": "L’éléphant effectue deux attaques de Coup de corne.",
+      "source": "Traduction proposée du rapport utilisateur MM 2024 en version 1.17.51 · complément de 18 textes ; HTML relevé dans Shard, annexe A Animaux · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026"
+    },
+    {
+      "id": "mm-animals-more-20261020-000.full",
+      "kind": "description",
+      "en": "Multiattack. The elephant makes two Gore attacks.",
+      "fr": "Attaques multiples. L’éléphant effectue deux attaques de Coup de corne.",
+      "source": "Traduction proposée du rapport utilisateur MM 2024 en version 1.17.51 · complément de 18 textes ; HTML relevé dans Shard, annexe A Animaux · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026"
+    },
+    {
+      "id": "mm-animals-more-20261020-001.heading",
+      "kind": "term",
+      "en": "Trample",
+      "fr": "Piétinement",
+      "source": "Traduction proposée du rapport utilisateur MM 2024 en version 1.17.51 · complément de 18 textes ; HTML relevé dans Shard, annexe A Animaux · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026"
+    },
+    {
+      "id": "mm-animals-more-20261020-001.body",
+      "kind": "description",
+      "en": "Dexterity Saving Throw: DC 16, one creature within 5 feet that has the Prone condition. Failure: 17 (2d10 + 6) Bludgeoning damage. Success: Half damage.",
+      "fr": "Jet de sauvegarde de Dextérité : DD 16, une créature à 5 feet ou moins qui subit l’état À terre. Échec : 17 (2d10 + 6) dégâts contondants. Réussite : La moitié des dégâts.",
+      "source": "Traduction proposée du rapport utilisateur MM 2024 en version 1.17.51 · complément de 18 textes ; HTML relevé dans Shard, annexe A Animaux · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026"
+    },
+    {
+      "id": "mm-animals-more-20261020-001.full",
+      "kind": "description",
+      "en": "Trample. Dexterity Saving Throw: DC 16, one creature within 5 feet that has the Prone condition. Failure: 17 (2d10 + 6) Bludgeoning damage. Success: Half damage.",
+      "fr": "Piétinement. Jet de sauvegarde de Dextérité : DD 16, une créature à 5 feet ou moins qui subit l’état À terre. Échec : 17 (2d10 + 6) dégâts contondants. Réussite : La moitié des dégâts.",
+      "source": "Traduction proposée du rapport utilisateur MM 2024 en version 1.17.51 · complément de 18 textes ; HTML relevé dans Shard, annexe A Animaux · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026"
+    },
+    {
+      "id": "mm-animals-more-20261020-002.body",
+      "kind": "description",
+      "en": "Melee Attack Roll: +4, reach 5 ft. Hit: 1 Piercing damage plus 5 (2d4) Poison damage.",
+      "fr": "Jet d’attaque au corps à corps : +4, allonge 5 ft. Touché : 1 dégât perforant plus 5 (2d4) dégâts de poison.",
+      "source": "Traduction proposée du rapport utilisateur MM 2024 en version 1.17.51 · complément de 18 textes ; HTML relevé dans Shard, annexe A Animaux · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026"
+    },
+    {
+      "id": "mm-animals-more-20261020-002.full",
+      "kind": "description",
+      "en": "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 1 Piercing damage plus 5 (2d4) Poison damage.",
+      "fr": "Morsure. Jet d’attaque au corps à corps : +4, allonge 5 ft. Touché : 1 dégât perforant plus 5 (2d4) dégâts de poison.",
+      "source": "Traduction proposée du rapport utilisateur MM 2024 en version 1.17.51 · complément de 18 textes ; HTML relevé dans Shard, annexe A Animaux · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026"
+    },
+    {
+      "id": "mm-animals-more-20261020-003.body",
+      "kind": "description",
+      "en": "Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Piercing damage, and the target has the Poisoned condition until the start of the centipede’s next turn.",
+      "fr": "Jet d’attaque au corps à corps : +4, allonge 5 ft. Touché : 4 (1d4 + 2) dégâts perforants, et la cible subit l’état Empoisonné jusqu’au début du prochain tour du mille-pattes.",
+      "source": "Traduction proposée du rapport utilisateur MM 2024 en version 1.17.51 · complément de 18 textes ; HTML relevé dans Shard, annexe A Animaux · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026"
+    },
+    {
+      "id": "mm-animals-more-20261020-003.full",
+      "kind": "description",
+      "en": "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Piercing damage, and the target has the Poisoned condition until the start of the centipede’s next turn.",
+      "fr": "Morsure. Jet d’attaque au corps à corps : +4, allonge 5 ft. Touché : 4 (1d4 + 2) dégâts perforants, et la cible subit l’état Empoisonné jusqu’au début du prochain tour du mille-pattes.",
+      "source": "Traduction proposée du rapport utilisateur MM 2024 en version 1.17.51 · complément de 18 textes ; HTML relevé dans Shard, annexe A Animaux · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026"
+    },
+    {
+      "id": "mm-animals-more-20261020-004.heading",
+      "kind": "term",
+      "en": "Standing Leap",
+      "fr": "Saut sans élan",
+      "source": "Traduction proposée du rapport utilisateur MM 2024 en version 1.17.51 · complément de 18 textes ; HTML relevé dans Shard, annexe A Animaux · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026"
+    },
+    {
+      "id": "mm-animals-more-20261020-004.body",
+      "kind": "description",
+      "en": "The frog’s Long Jump is up to 20 feet and its High Jump is up to 10 feet with or without a running start.",
+      "fr": "Le saut en longueur de la grenouille peut atteindre 20 feet et son saut en hauteur peut atteindre 10 feet, avec ou sans course d’élan.",
+      "source": "Traduction proposée du rapport utilisateur MM 2024 en version 1.17.51 · complément de 18 textes ; HTML relevé dans Shard, annexe A Animaux · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026"
+    },
+    {
+      "id": "mm-animals-more-20261020-004.full",
+      "kind": "description",
+      "en": "Standing Leap. The frog’s Long Jump is up to 20 feet and its High Jump is up to 10 feet with or without a running start.",
+      "fr": "Saut sans élan. Le saut en longueur de la grenouille peut atteindre 20 feet et son saut en hauteur peut atteindre 10 feet, avec ou sans course d’élan.",
+      "source": "Traduction proposée du rapport utilisateur MM 2024 en version 1.17.51 · complément de 18 textes ; HTML relevé dans Shard, annexe A Animaux · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026"
+    },
+    {
+      "id": "mm-animals-more-20261020-005.body",
+      "kind": "description",
+      "en": "Melee Attack Roll: +3, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 11).",
+      "fr": "Jet d’attaque au corps à corps : +3, allonge 5 ft. Touché : 5 (1d6 + 2) dégâts perforants. Si la cible est une créature de taille M ou inférieure, elle subit l’état Agrippé (évasion DD 11).",
+      "source": "Traduction proposée du rapport utilisateur MM 2024 en version 1.17.51 · complément de 18 textes ; HTML relevé dans Shard, annexe A Animaux · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026"
+    },
+    {
+      "id": "mm-animals-more-20261020-005.full",
+      "kind": "description",
+      "en": "Bite. Melee Attack Roll: +3, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 11).",
+      "fr": "Morsure. Jet d’attaque au corps à corps : +3, allonge 5 ft. Touché : 5 (1d6 + 2) dégâts perforants. Si la cible est une créature de taille M ou inférieure, elle subit l’état Agrippé (évasion DD 11).",
+      "source": "Traduction proposée du rapport utilisateur MM 2024 en version 1.17.51 · complément de 18 textes ; HTML relevé dans Shard, annexe A Animaux · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026"
+    },
+    {
+      "id": "mm-animals-more-20261020-006.body",
+      "kind": "description",
+      "en": "The spider ignores movement restrictions caused by webs, and it knows the location of any other creature in contact with the same web.",
+      "fr": "L’araignée ignore les restrictions de déplacement causées par les toiles et connaît la position de toute autre créature en contact avec la même toile.",
+      "source": "Traduction proposée du rapport utilisateur MM 2024 en version 1.17.51 · complément de 18 textes ; HTML relevé dans Shard, annexe A Animaux · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026"
+    },
+    {
+      "id": "mm-animals-more-20261020-006.full",
+      "kind": "description",
+      "en": "Web Walker. The spider ignores movement restrictions caused by webs, and it knows the location of any other creature in contact with the same web.",
+      "fr": "Marche sur les toiles. L’araignée ignore les restrictions de déplacement causées par les toiles et connaît la position de toute autre créature en contact avec la même toile.",
+      "source": "Traduction proposée du rapport utilisateur MM 2024 en version 1.17.51 · complément de 18 textes ; HTML relevé dans Shard, annexe A Animaux · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026"
+    },
+    {
+      "id": "mm-animals-more-20261020-007.body",
+      "kind": "description",
+      "en": "Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage plus 7 (2d6) Poison damage.",
+      "fr": "Jet d’attaque au corps à corps : +5, allonge 5 ft. Touché : 7 (1d8 + 3) dégâts perforants plus 7 (2d6) dégâts de poison.",
+      "source": "Traduction proposée du rapport utilisateur MM 2024 en version 1.17.51 · complément de 18 textes ; HTML relevé dans Shard, annexe A Animaux · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026"
+    },
+    {
+      "id": "mm-animals-more-20261020-007.full",
+      "kind": "description",
+      "en": "Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage plus 7 (2d6) Poison damage.",
+      "fr": "Morsure. Jet d’attaque au corps à corps : +5, allonge 5 ft. Touché : 7 (1d8 + 3) dégâts perforants plus 7 (2d6) dégâts de poison.",
+      "source": "Traduction proposée du rapport utilisateur MM 2024 en version 1.17.51 · complément de 18 textes ; HTML relevé dans Shard, annexe A Animaux · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026"
+    },
+    {
+      "id": "mm-animals-more-20261020-008.heading",
+      "kind": "term",
+      "en": "Web (Recharge 5–6)",
+      "fr": "Toile (recharge 5–6)",
+      "source": "Traduction proposée du rapport utilisateur MM 2024 en version 1.17.51 · complément de 18 textes ; HTML relevé dans Shard, annexe A Animaux · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026"
+    },
+    {
+      "id": "mm-animals-more-20261020-008.body",
+      "kind": "description",
+      "en": "Dexterity Saving Throw: DC 13, one creature the spider can see within 60 feet. Failure: The target has the Restrained condition until the web is destroyed (AC 10; HP 5; Vulnerability to Fire damage; Immunity to Poison and Psychic damage).",
+      "fr": "Jet de sauvegarde de Dextérité : DD 13, une créature que l’araignée peut voir dans un rayon de 60 feet. Échec : La cible subit l’état Entravé jusqu’à la destruction de la toile (CA 10 ; PV 5 ; vulnérabilité aux dégâts de feu ; immunité contre les dégâts de poison et psychiques).",
+      "source": "Traduction proposée du rapport utilisateur MM 2024 en version 1.17.51 · complément de 18 textes ; HTML relevé dans Shard, annexe A Animaux · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026"
+    },
+    {
+      "id": "mm-animals-more-20261020-008.full",
+      "kind": "description",
+      "en": "Web (Recharge 5–6). Dexterity Saving Throw: DC 13, one creature the spider can see within 60 feet. Failure: The target has the Restrained condition until the web is destroyed (AC 10; HP 5; Vulnerability to Fire damage; Immunity to Poison and Psychic damage).",
+      "fr": "Toile (recharge 5–6). Jet de sauvegarde de Dextérité : DD 13, une créature que l’araignée peut voir dans un rayon de 60 feet. Échec : La cible subit l’état Entravé jusqu’à la destruction de la toile (CA 10 ; PV 5 ; vulnérabilité aux dégâts de feu ; immunité contre les dégâts de poison et psychiques).",
+      "source": "Traduction proposée du rapport utilisateur MM 2024 en version 1.17.51 · complément de 18 textes ; HTML relevé dans Shard, annexe A Animaux · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026"
+    },
+    {
+      "id": "mm-animals-more-20261020-009.body",
+      "kind": "description",
+      "en": "The hippopotamus can hold its breath for 10 minutes.",
+      "fr": "L’hippopotame peut retenir sa respiration pendant 10 minutes.",
+      "source": "Traduction proposée du rapport utilisateur MM 2024 en version 1.17.51 · complément de 18 textes ; HTML relevé dans Shard, annexe A Animaux · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026"
+    },
+    {
+      "id": "mm-animals-more-20261020-009.full",
+      "kind": "description",
+      "en": "Hold Breath. The hippopotamus can hold its breath for 10 minutes.",
+      "fr": "Apnée. L’hippopotame peut retenir sa respiration pendant 10 minutes.",
+      "source": "Traduction proposée du rapport utilisateur MM 2024 en version 1.17.51 · complément de 18 textes ; HTML relevé dans Shard, annexe A Animaux · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026"
+    },
+    {
+      "id": "mm-animals-more-20261020-010.body",
+      "kind": "description",
+      "en": "The hippopotamus makes two Bite attacks.",
+      "fr": "L’hippopotame effectue deux attaques de Morsure.",
+      "source": "Traduction proposée du rapport utilisateur MM 2024 en version 1.17.51 · complément de 18 textes ; HTML relevé dans Shard, annexe A Animaux · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026"
+    },
+    {
+      "id": "mm-animals-more-20261020-010.full",
+      "kind": "description",
+      "en": "Multiattack. The hippopotamus makes two Bite attacks.",
+      "fr": "Attaques multiples. L’hippopotame effectue deux attaques de Morsure.",
+      "source": "Traduction proposée du rapport utilisateur MM 2024 en version 1.17.51 · complément de 18 textes ; HTML relevé dans Shard, annexe A Animaux · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026"
+    },
+    {
+      "id": "mm-animals-more-20261020-011.body",
+      "kind": "description",
+      "en": "Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Piercing damage. If the target is a Medium or smaller creature, it has the Prone condition.",
+      "fr": "Jet d’attaque au corps à corps : +3, allonge 5 ft. Touché : 4 (1d6 + 1) dégâts perforants. Si la cible est une créature de taille M ou inférieure, elle subit l’état À terre.",
+      "source": "Traduction proposée du rapport utilisateur MM 2024 en version 1.17.51 · complément de 18 textes ; HTML relevé dans Shard, annexe A Animaux · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026"
+    },
+    {
+      "id": "mm-animals-more-20261020-011.full",
+      "kind": "description",
+      "en": "Bite. Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Piercing damage. If the target is a Medium or smaller creature, it has the Prone condition.",
+      "fr": "Morsure. Jet d’attaque au corps à corps : +3, allonge 5 ft. Touché : 4 (1d6 + 1) dégâts perforants. Si la cible est une créature de taille M ou inférieure, elle subit l’état À terre.",
+      "source": "Traduction proposée du rapport utilisateur MM 2024 en version 1.17.51 · complément de 18 textes ; HTML relevé dans Shard, annexe A Animaux · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026"
+    },
+    {
+      "id": "mm-animals-more-20261020-012.body",
+      "kind": "description",
+      "en": "If the swarm has a Climb Speed, the swarm can climb difficult surfaces, including along ceilings, without needing to make an ability check.",
+      "fr": "Si la nuée possède une vitesse d’escalade, elle peut escalader les surfaces difficiles, y compris les plafonds, sans effectuer de test de caractéristique.",
+      "source": "Traduction proposée du rapport utilisateur MM 2024 en version 1.17.51 · complément de 18 textes ; HTML relevé dans Shard, annexe A Animaux · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026"
+    },
+    {
+      "id": "mm-animals-more-20261020-012.full",
+      "kind": "description",
+      "en": "Spider Climb. If the swarm has a Climb Speed, the swarm can climb difficult surfaces, including along ceilings, without needing to make an ability check.",
+      "fr": "Pattes d’araignée. Si la nuée possède une vitesse d’escalade, elle peut escalader les surfaces difficiles, y compris les plafonds, sans effectuer de test de caractéristique.",
+      "source": "Traduction proposée du rapport utilisateur MM 2024 en version 1.17.51 · complément de 18 textes ; HTML relevé dans Shard, annexe A Animaux · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026"
+    },
+    {
+      "id": "mm-animals-more-20261020-013.body",
+      "kind": "description",
+      "en": "The swarm can occupy another creature’s space and vice versa, and the swarm can move through any opening large enough for a Tiny snake. The swarm can’t regain Hit Points or gain Temporary Hit Points.",
+      "fr": "La nuée peut occuper l’espace d’une autre créature et réciproquement, et elle peut traverser toute ouverture assez grande pour laisser passer un serpent de taille TP. La nuée ne peut pas récupérer de points de vie ni gagner de points de vie temporaires.",
+      "source": "Traduction proposée du rapport utilisateur MM 2024 en version 1.17.51 · complément de 18 textes ; HTML relevé dans Shard, annexe A Animaux · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026"
+    },
+    {
+      "id": "mm-animals-more-20261020-013.full",
+      "kind": "description",
+      "en": "Swarm. The swarm can occupy another creature’s space and vice versa, and the swarm can move through any opening large enough for a Tiny snake. The swarm can’t regain Hit Points or gain Temporary Hit Points.",
+      "fr": "Nuée. La nuée peut occuper l’espace d’une autre créature et réciproquement, et elle peut traverser toute ouverture assez grande pour laisser passer un serpent de taille TP. La nuée ne peut pas récupérer de points de vie ni gagner de points de vie temporaires.",
+      "source": "Traduction proposée du rapport utilisateur MM 2024 en version 1.17.51 · complément de 18 textes ; HTML relevé dans Shard, annexe A Animaux · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026"
+    },
+    {
+      "id": "mm-animals-more-20261020-014.body",
+      "kind": "description",
+      "en": "Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 4) Piercing damage—or 6 (1d4 + 4) Piercing damage if the swarm is Bloodied—plus 10 (3d6) Poison damage.",
+      "fr": "Jet d’attaque au corps à corps : +6, allonge 5 ft. Touché : 8 (1d8 + 4) dégâts perforants — ou 6 (1d4 + 4) dégâts perforants si la nuée est En sang — plus 10 (3d6) dégâts de poison.",
+      "source": "Traduction proposée du rapport utilisateur MM 2024 en version 1.17.51 · complément de 18 textes ; HTML relevé dans Shard, annexe A Animaux · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026"
+    },
+    {
+      "id": "mm-animals-more-20261020-014.full",
+      "kind": "description",
+      "en": "Bites. Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 4) Piercing damage—or 6 (1d4 + 4) Piercing damage if the swarm is Bloodied—plus 10 (3d6) Poison damage.",
+      "fr": "Morsures. Jet d’attaque au corps à corps : +6, allonge 5 ft. Touché : 8 (1d8 + 4) dégâts perforants — ou 6 (1d4 + 4) dégâts perforants si la nuée est En sang — plus 10 (3d6) dégâts de poison.",
+      "source": "Traduction proposée du rapport utilisateur MM 2024 en version 1.17.51 · complément de 18 textes ; HTML relevé dans Shard, annexe A Animaux · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026"
+    },
+    {
+      "id": "mm-animals-more-20261020-015.body",
+      "kind": "description",
+      "en": "The tyrannosaurus makes one Bite attack and one Tail attack.",
+      "fr": "Le tyrannosaure effectue une attaque de Morsure et une attaque de Queue.",
+      "source": "Traduction proposée du rapport utilisateur MM 2024 en version 1.17.51 · complément de 18 textes ; HTML relevé dans Shard, annexe A Animaux · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026"
+    },
+    {
+      "id": "mm-animals-more-20261020-015.full",
+      "kind": "description",
+      "en": "Multiattack. The tyrannosaurus makes one Bite attack and one Tail attack.",
+      "fr": "Attaques multiples. Le tyrannosaure effectue une attaque de Morsure et une attaque de Queue.",
+      "source": "Traduction proposée du rapport utilisateur MM 2024 en version 1.17.51 · complément de 18 textes ; HTML relevé dans Shard, annexe A Animaux · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026"
+    },
+    {
+      "id": "mm-animals-more-20261020-016.body",
+      "kind": "description",
+      "en": "Melee Attack Roll: +10, reach 10 ft. Hit: 33 (4d12 + 7) Piercing damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 17). While Grappled, the target has the Restrained condition and can’t be targeted by the tyrannosaurus’s Tail.",
+      "fr": "Jet d’attaque au corps à corps : +10, allonge 10 ft. Touché : 33 (4d12 + 7) dégâts perforants. Si la cible est une créature de taille G ou inférieure, elle subit l’état Agrippé (évasion DD 17). Tant qu’elle subit l’état Agrippé, la cible subit l’état Entravé et ne peut pas être prise pour cible par la Queue du tyrannosaure.",
+      "source": "Traduction proposée du rapport utilisateur MM 2024 en version 1.17.51 · complément de 18 textes ; HTML relevé dans Shard, annexe A Animaux · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026"
+    },
+    {
+      "id": "mm-animals-more-20261020-016.full",
+      "kind": "description",
+      "en": "Bite. Melee Attack Roll: +10, reach 10 ft. Hit: 33 (4d12 + 7) Piercing damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 17). While Grappled, the target has the Restrained condition and can’t be targeted by the tyrannosaurus’s Tail.",
+      "fr": "Morsure. Jet d’attaque au corps à corps : +10, allonge 10 ft. Touché : 33 (4d12 + 7) dégâts perforants. Si la cible est une créature de taille G ou inférieure, elle subit l’état Agrippé (évasion DD 17). Tant qu’elle subit l’état Agrippé, la cible subit l’état Entravé et ne peut pas être prise pour cible par la Queue du tyrannosaure.",
+      "source": "Traduction proposée du rapport utilisateur MM 2024 en version 1.17.51 · complément de 18 textes ; HTML relevé dans Shard, annexe A Animaux · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026"
+    },
+    {
+      "id": "mm-animals-more-20261020-017.body",
+      "kind": "description",
+      "en": "Melee Attack Roll: +10, reach 15 ft. Hit: 25 (4d8 + 7) Bludgeoning damage. If the target is a Huge or smaller creature, it has the Prone condition.",
+      "fr": "Jet d’attaque au corps à corps : +10, allonge 15 ft. Touché : 25 (4d8 + 7) dégâts contondants. Si la cible est une créature de taille TG ou inférieure, elle subit l’état À terre.",
+      "source": "Traduction proposée du rapport utilisateur MM 2024 en version 1.17.51 · complément de 18 textes ; HTML relevé dans Shard, annexe A Animaux · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026"
+    },
+    {
+      "id": "mm-animals-more-20261020-017.full",
+      "kind": "description",
+      "en": "Tail. Melee Attack Roll: +10, reach 15 ft. Hit: 25 (4d8 + 7) Bludgeoning damage. If the target is a Huge or smaller creature, it has the Prone condition.",
+      "fr": "Queue. Jet d’attaque au corps à corps : +10, allonge 15 ft. Touché : 25 (4d8 + 7) dégâts contondants. Si la cible est une créature de taille TG ou inférieure, elle subit l’état À terre.",
+      "source": "Traduction proposée du rapport utilisateur MM 2024 en version 1.17.51 · complément de 18 textes ; HTML relevé dans Shard, annexe A Animaux · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026"
     }
   ]
 }

@@ -1,8 +1,8 @@
 const fs = require('node:fs'), assert = require('node:assert/strict'), { JSDOM } = require('jsdom');
 const fixture = JSON.parse(fs.readFileSync('tests/fixtures/mm-animals-20261020.json', 'utf8'));
-assert.equal(fixture.coverage.length, 21); assert.equal(fixture.coverage.reduce((sum, row) => sum + row.occurrences, 0), 23);
-assert.equal(fixture.cases.length, 28);
-assert.equal(fixture.cases.filter(row => row.layout === 'observed').length, 21);
+assert.equal(fixture.coverage.length, 39); assert.equal(fixture.coverage.reduce((sum, row) => sum + row.occurrences, 0), 41);
+assert.equal(fixture.cases.length, 46);
+assert.equal(fixture.cases.filter(row => row.layout === 'observed').length, 39);
 const byId = new Map(fixture.cases.map(row => [row.id, row]));
 // Le rapport peut omettre les textes des liens et dés, jamais inventer un fragment.
 const plain = text => text.replace(/[\uE000-\uF8FF]/g, '').replace(/\s+/g, ' ').trim();
@@ -68,5 +68,5 @@ async function wait(check) { for (let i = 0; i < 1600 && !check(); i++) await pa
   assert.deepEqual(report.missing.filter(row => row.en !== unknown.textContent), [], 'Aucun reliquat sur les signalements MM corrigés');
   cases.forEach(row => assert.equal(row.el.hasAttribute('data-shard-fr-diagnostic'), false, row.id));
   const enabled = root.getElementById('enabled'); enabled.checked = false; enabled.dispatchEvent(new w.Event('change')); await wait(() => main.innerHTML === original);
-  console.log(`PASS animaux MM : 21 signalements / 23 occurrences, ${fixture.cases.length} cas complets, fragments reliés au HTML, annexe A, attaques, engloutissement, apnée, illumination et quatre nuées, caches en conflit, nombres/formules/balises/liens, diagnostic et restauration exacte.`);
+  console.log(`PASS animaux MM : 39 signalements / 41 occurrences, ${fixture.cases.length} cas complets, fragments reliés au HTML, annexe A, attaques, engloutissement, apnée, illumination, toiles, tyrannosaure et nuées, caches en conflit, nombres/formules/balises/liens, diagnostic et restauration exacte.`);
 } finally { w.close(); } })().catch(error => { console.error(error); process.exitCode = 1; });

@@ -180,12 +180,12 @@
         "descriptionsEnFichiersDedies": 0,
         "packsRattachesParCategorie": {
           "monstres": {
-            "entreesRattachees": 2092,
-            "libelles": 392,
-            "blocs": 1700
+            "entreesRattachees": 2131,
+            "libelles": 395,
+            "blocs": 1736
           }
         },
-        "entreesRattachees": 2092
+        "entreesRattachees": 2131
       },
       {
         "id": "dnd-2014",
@@ -559,8 +559,8 @@
     },
     "monstres": {
       "nomsCatalogueAideDD2024": 498,
-      "libellesEditables": 834,
-      "blocsEditables": 1775
+      "libellesEditables": 837,
+      "blocsEditables": 1811
     },
     "regles": {
       "nomsCatalogueAideDD2024": 0,
@@ -582,7 +582,7 @@
       "fichesOuvertes": 1372,
       "controle": "audit/generes/guide-equipment.json"
     },
-    "descriptionsEtChampsLocauxUniques": 11094,
+    "descriptionsEtChampsLocauxUniques": 11130,
     "presentationsShard": {
       "fichesRelevees": 153,
       "avecDescription": 149,

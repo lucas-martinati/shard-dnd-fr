@@ -66,6 +66,8 @@ Les deux fichiers et trois rapports complémentaires du même jour contiennent 6
 
 Le rapport Animaux en version 1.17.51 contient 19 signalements distincts et 20 occurrences. La [fixture des animaux](../tests/fixtures/mm-animals-20261020.json) conserve le rapport et les 19 HTML observés dans l’annexe A, plus sept corps de traits pour tester les conflits indépendamment des titres. Les 38 correspondances locales ajoutées couvrent uniquement les extraits reçus. `npm run test:mm-animals` vérifie les occurrences, les caches contradictoires, les valeurs et liens, les balises et le retour exact à l’anglais ; la version de travail reste 1.17.51 à la demande du mainteneur.
 
+Les deux compléments Animaux suivants apportent deux puis 18 textes, soit quatre puis 39 correspondances locales. La même fixture conserve désormais les trois rapports, 39 HTML observés et sept corps isolés ; le test couvre 39 signalements et 41 occurrences. Les nouveaux paragraphes comprennent le Bec conditionnel du faucon de sang, l’Apnée des crocodiles, la toile de l’araignée géante, les morsures de la nuée de serpents et les attaques du tyrannosaure. La condition En sang ne réduit pas les dégâts de poison de cette nuée.
+
 ## Objectif minimal : toutes les références accessibles depuis l’accueil
 
 Le [périmètre structuré](../audit/perimetre-references.json) distingue six catégories de personnage — historiques, classes, dons, espèces, sorts et équipement — et dix types personnalisés. Le PHB puis le MM 2024 restent prioritaires ; le corpus 2014 apporte la compatibilité historique.
