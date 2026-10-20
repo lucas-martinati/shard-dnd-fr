@@ -1,7 +1,7 @@
 const fs = require('node:fs'), assert = require('node:assert/strict'), { JSDOM } = require('jsdom');
 const body = 'The creature uses 2 unknown arcs with Fire Bolt.';
 const full = 'Multiattack. ' + body;
-const profile = name => `<div class="monstersimple"><div class="titletext">${name}</div><p><b><i>Multiattack.</i></b> The creature uses <b class="dodieroll">2</b> unknown arcs with <a href="#spell?id=bolt">Fire Bolt</a>.<span hidden>PRIVATE_HIDDEN</span><span style="display:none">PRIVATE_CSS</span><input value="PRIVATE_INPUT"><span contenteditable="true">PRIVATE_EDITOR</span></p></div>`;
+const profile = name => `<div class="monstersimple"><div class="titletext">${name}</div><p><b class="titletext"><i>Multiattack.</i></b> The creature uses <b class="dodieroll">2</b> unknown arcs with <a href="#spell?id=bolt">Fire Bolt</a>.<span hidden>PRIVATE_HIDDEN</span><span style="display:none">PRIVATE_CSS</span><input value="PRIVATE_INPUT"><span contenteditable="true">PRIVATE_EDITOR</span></p></div>`;
 const w = new JSDOM(profile('Wolf') + profile('Ape') + '<table><tbody><tr><td class="hoverhighlight w-100"><div>Quartz Relic</div></td></tr></tbody></table>', { url: 'https://play.shardtabletop.com/#item?private=PRIVATE_URL', runScripts: 'outside-only', pretendToBeVisual: true }).window;
 const d = w.document, copied = [], native = [], pending = [];
 let blob, downloads = 0, requests = 0;

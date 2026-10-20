@@ -1,0 +1,665 @@
+{
+  "source": "Traduction proposée du rapport utilisateur MM 2024 en version 1.17.51 · paragraphes et HTML vérifiés dans Shard, annexe A Animaux · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+  "reports": [
+    {
+      "name": "animals",
+      "truncated": false,
+      "rows": [
+        {
+          "en": "This appendix provides stat blocks for animals of the Beast type—along with many of their gigantic or mythologized kin—in alphabetical order.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "",
+          "occurrences": 1
+        },
+        {
+          "en": "Claws. Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 4) Slashing damage. If the target is a Large or smaller creature and the allosaurus moved 30+ feet straight toward it immediately before the hit, the target has the Prone condition, and the allosaurus can make one Bite attack against it.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "Allosaurus",
+          "occurrences": 1
+        },
+        {
+          "en": "Multiattack. The ankylosaurus makes two Tail attacks.",
+          "kind": "description",
+          "reason": "unrecognized-layout",
+          "context": "Ankylosaurus",
+          "occurrences": 1
+        },
+        {
+          "en": "Tail. Melee Attack Roll: +6, reach 10 ft. Hit: 9 (1d10 + 4) Bludgeoning damage. If the target is a Huge or smaller creature, it has the Prone condition.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "Ankylosaurus",
+          "occurrences": 1
+        },
+        {
+          "en": "Multiattack. The archelon makes two Bite attacks.",
+          "kind": "description",
+          "reason": "unrecognized-layout",
+          "context": "Archelon",
+          "occurrences": 1
+        },
+        {
+          "en": "Multiattack. The bear makes two Rend attacks.",
+          "kind": "description",
+          "reason": "unrecognized-layout",
+          "context": "Black Bear",
+          "occurrences": 2
+        },
+        {
+          "en": "Gore. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Piercing damage. If the target is a Large or smaller creature and the boar moved 20+ feet straight toward it immediately before the hit, the target takes an extra 7 (2d6) Piercing damage and has the Prone condition.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "Giant Boar",
+          "occurrences": 1
+        },
+        {
+          "en": "Ram. Melee Attack Roll: +6, reach 10 ft. Hit: 11 (2d6 + 4) Bludgeoning damage plus 5 (2d4) Radiant damage. If the target is a Huge or smaller creature and the elk moved 20+ feet straight toward it immediately before the hit, the target takes an extra 5 (2d4) Bludgeoning damage and has the Prone condition.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "Giant Elk",
+          "occurrences": 1
+        },
+        {
+          "en": "Illumination. The beetle sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet.",
+          "kind": "description",
+          "reason": "conflicting-translations",
+          "context": "Giant Fire Beetle",
+          "occurrences": 1
+        },
+        {
+          "en": "Swallow. The frog swallows a Small or smaller target it is grappling. While swallowed, the target isn’t Grappled but has the Blinded and Restrained conditions, and it has Total Cover against attacks and other effects outside the frog. While swallowing the target, the frog can’t use Bite, and if the frog dies, the swallowed target is no longer Restrained and can escape from the corpse using 5 feet of movement, exiting with the Prone condition.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "Giant Frog",
+          "occurrences": 1
+        },
+        {
+          "en": "At the end of the frog’s next turn, the swallowed target takes 5 (2d4) Acid damage. If that damage doesn’t kill it, the frog disgorges it, causing it to exit Prone.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "Giant Frog",
+          "occurrences": 1
+        },
+        {
+          "en": "Hold Breath. The whale can hold its breath for 30 minutes.",
+          "kind": "description",
+          "reason": "conflicting-translations",
+          "context": "Killer Whale",
+          "occurrences": 1
+        },
+        {
+          "en": "Gore. Melee Attack Roll: +10, reach 10 ft. Hit: 18 (2d10 + 7) Piercing damage. If the target is a Huge or smaller creature and the mammoth moved 20+ feet straight toward it immediately before the hit, the target has the Prone condition.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "Mammoth",
+          "occurrences": 1
+        },
+        {
+          "en": "Hold Breath. The plesiosaurus can hold its breath for 1 hour.",
+          "kind": "description",
+          "reason": "conflicting-translations",
+          "context": "Plesiosaurus",
+          "occurrences": 1
+        },
+        {
+          "en": "Swarm. The swarm can occupy another creature’s space and vice versa, and the swarm can move through any opening large enough for a Tiny bat. The swarm can’t regain Hit Points or gain Temporary Hit Points.",
+          "kind": "description",
+          "reason": "conflicting-translations",
+          "context": "Swarm of Bats",
+          "occurrences": 1
+        },
+        {
+          "en": "Swarm. The swarm can occupy another creature’s space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can’t regain Hit Points or gain Temporary Hit Points.",
+          "kind": "description",
+          "reason": "conflicting-translations",
+          "context": "Swarm of Insects",
+          "occurrences": 1
+        },
+        {
+          "en": "Bites. Melee Attack Roll: +3, reach 5 ft. Hit: 6 (2d4 + 1) Poison damage, or 3 (1d4 + 1) Poison damage if the swarm is Bloodied.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "Swarm of Insects",
+          "occurrences": 1
+        },
+        {
+          "en": "Swarm. The swarm can occupy another creature’s space and vice versa, and the swarm can move through any opening large enough for a Tiny rat. The swarm can’t regain Hit Points or gain Temporary Hit Points.",
+          "kind": "description",
+          "reason": "conflicting-translations",
+          "context": "Swarm of Rats",
+          "occurrences": 1
+        },
+        {
+          "en": "Swarm. The swarm can occupy another creature’s space and vice versa, and the swarm can move through any opening large enough for a Tiny raven. The swarm can’t regain Hit Points or gain Temporary Hit Points.",
+          "kind": "description",
+          "reason": "conflicting-translations",
+          "context": "Swarm of Ravens",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "name": "animals-followup",
+      "truncated": false,
+      "rows": [
+        {
+          "en": "Beak. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Piercing damage, or 6 (1d8 + 2) Piercing damage if the target is Bloodied.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "Blood Hawk",
+          "occurrences": 1
+        },
+        {
+          "en": "Hold Breath. The crocodile can hold its breath for 1 hour.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "Crocodile",
+          "occurrences": 2
+        }
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "id": "mm-animals-20261020-000",
+      "kind": "description",
+      "en": "This appendix provides stat blocks for animals of the Beast type—along with many of their gigantic or mythologized kin—in alphabetical order.",
+      "fr": "Cette annexe présente, par ordre alphabétique, les profils des animaux de type Bête, ainsi que ceux de nombreux parents gigantesques ou mythologiques.",
+      "layout": "observed",
+      "name": "",
+      "html": "<p>This appendix provides stat blocks for animals of the Beast type—along with many of their gigantic or mythologized kin—in alphabetical order. </p>"
+    },
+    {
+      "id": "mm-animals-20261020-001",
+      "kind": "description",
+      "en": "Claws. Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 4) Slashing damage. If the target is a Large or smaller creature and the allosaurus moved 30+ feet straight toward it immediately before the hit, the target has the Prone condition, and the allosaurus can make one Bite attack against it.",
+      "fr": "Griffes. Jet d’attaque au corps à corps : +6, allonge 5 ft. Touché : 8 (1d8 + 4) dégâts tranchants. Si la cible est une créature de taille G ou inférieure et que l’allosaure s’est déplacé de 30+ feet en ligne droite vers elle juste avant de la toucher, la cible subit l’état À terre et l’allosaure peut effectuer une attaque de Morsure contre elle.",
+      "layout": "observed",
+      "name": "Allosaurus",
+      "html": "<p><b><i>Claws.</i></b> <i>Melee Attack Roll:</i> <b class=\"dodieroll\">+6</b>, reach 5 ft. <i>Hit:</i> 8 (<b class=\"dodieroll\">1d8 + 4</b>) Slashing damage. If the target is a Large or smaller creature and the allosaurus moved 30+ feet straight toward it immediately before the hit, the target has the <a href=\"#customlist?type=Conditions&amp;id=0jn05cqnggx41gu9\">Prone</a> condition, and the allosaurus can make one Bite attack against it.</p>"
+    },
+    {
+      "id": "mm-animals-20261020-002",
+      "kind": "description",
+      "en": "Multiattack. The ankylosaurus makes two Tail attacks.",
+      "fr": "Attaques multiples. L’ankylosaure effectue deux attaques de Queue.",
+      "layout": "observed",
+      "name": "Ankylosaurus",
+      "html": "<p><b><i>Multiattack</i></b><b><i>.</i></b> The ankylosaurus makes two Tail attacks.</p>"
+    },
+    {
+      "id": "mm-animals-20261020-003",
+      "kind": "description",
+      "en": "Tail. Melee Attack Roll: +6, reach 10 ft. Hit: 9 (1d10 + 4) Bludgeoning damage. If the target is a Huge or smaller creature, it has the Prone condition.",
+      "fr": "Queue. Jet d’attaque au corps à corps : +6, allonge 10 ft. Touché : 9 (1d10 + 4) dégâts contondants. Si la cible est une créature de taille TG ou inférieure, elle subit l’état À terre.",
+      "layout": "observed",
+      "name": "Ankylosaurus",
+      "html": "<p><b><i>Tail.</i></b> <i>Melee Attack Roll:</i> <b class=\"dodieroll\">+6</b>, reach 10 ft. <i>Hit:</i> 9 (<b class=\"dodieroll\">1d10 + 4</b>) Bludgeoning damage. If the target is a Huge or smaller creature, it has the <a href=\"#customlist?type=Conditions&amp;id=0jn05cqnggx41gu9\">Prone</a> condition.</p>"
+    },
+    {
+      "id": "mm-animals-20261020-004",
+      "kind": "description",
+      "en": "Multiattack. The archelon makes two Bite attacks.",
+      "fr": "Attaques multiples. L’archélon effectue deux attaques de Morsure.",
+      "layout": "observed",
+      "name": "Archelon",
+      "html": "<p><b><i>Multiattack</i></b><b><i>.</i></b> The archelon makes two Bite attacks.</p>"
+    },
+    {
+      "id": "mm-animals-20261020-005",
+      "kind": "description",
+      "en": "Multiattack. The bear makes two Rend attacks.",
+      "fr": "Attaques multiples. L’ours effectue deux attaques de Saignée.",
+      "layout": "observed",
+      "name": "Black Bear",
+      "html": "<p><b><i>Multiattack</i></b><b><i>.</i></b> The bear makes two Rend attacks.</p>"
+    },
+    {
+      "id": "mm-animals-20261020-006",
+      "kind": "description",
+      "en": "Gore. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Piercing damage. If the target is a Large or smaller creature and the boar moved 20+ feet straight toward it immediately before the hit, the target takes an extra 7 (2d6) Piercing damage and has the Prone condition.",
+      "fr": "Coup de corne. Jet d’attaque au corps à corps : +5, allonge 5 ft. Touché : 10 (2d6 + 3) dégâts perforants. Si la cible est une créature de taille G ou inférieure et que le sanglier s’est déplacé de 20+ feet en ligne droite vers elle juste avant de la toucher, la cible subit 7 (2d6) dégâts perforants supplémentaires et l’état À terre.",
+      "layout": "observed",
+      "name": "Giant Boar",
+      "html": "<p><b><i>Gore.</i></b> <i>Melee Attack Roll:</i> <b class=\"dodieroll\">+5</b>, reach 5 ft. <i>Hit:</i> 10 (<b class=\"dodieroll\">2d6 + 3</b>) Piercing damage. If the target is a Large or smaller creature and the boar moved 20+ feet straight toward it immediately before the hit, the target takes an extra 7 (<b class=\"dodieroll\">2d6</b>) Piercing damage and has the <a href=\"#customlist?type=Conditions&amp;id=0jn05cqnggx41gu9\">Prone</a> condition.</p>"
+    },
+    {
+      "id": "mm-animals-20261020-007",
+      "kind": "description",
+      "en": "Ram. Melee Attack Roll: +6, reach 10 ft. Hit: 11 (2d6 + 4) Bludgeoning damage plus 5 (2d4) Radiant damage. If the target is a Huge or smaller creature and the elk moved 20+ feet straight toward it immediately before the hit, the target takes an extra 5 (2d4) Bludgeoning damage and has the Prone condition.",
+      "fr": "Coup de bélier. Jet d’attaque au corps à corps : +6, allonge 10 ft. Touché : 11 (2d6 + 4) dégâts contondants plus 5 (2d4) dégâts radiants. Si la cible est une créature de taille TG ou inférieure et que le cervidé s’est déplacé de 20+ feet en ligne droite vers elle juste avant de la toucher, la cible subit 5 (2d4) dégâts contondants supplémentaires et l’état À terre.",
+      "layout": "observed",
+      "name": "Giant Elk",
+      "html": "<p><b><i>Ram.</i></b> <i>Melee Attack Roll:</i> <b class=\"dodieroll\">+6</b>, reach 10 ft. <i>Hit:</i> 11 (<b class=\"dodieroll\">2d6 + 4</b>) Bludgeoning damage plus 5 (<b class=\"dodieroll\">2d4</b>) Radiant damage. If the target is a Huge or smaller creature and the elk moved 20+ feet straight toward it immediately before the hit, the target takes an extra 5 (<b class=\"dodieroll\">2d4</b>) Bludgeoning damage and has the <a href=\"#customlist?type=Conditions&amp;id=0jn05cqnggx41gu9\">Prone</a> condition.</p>"
+    },
+    {
+      "id": "mm-animals-20261020-008-body",
+      "kind": "description",
+      "en": "The beetle sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet.",
+      "fr": "Le scarabée émet une lumière vive dans un rayon de 10 feet et une lumière faible sur 10 feet supplémentaires.",
+      "layout": "body",
+      "html": "<p>The beetle sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet.</p>"
+    },
+    {
+      "id": "mm-animals-20261020-008",
+      "kind": "description",
+      "en": "Illumination. The beetle sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet.",
+      "fr": "Illumination. Le scarabée émet une lumière vive dans un rayon de 10 feet et une lumière faible sur 10 feet supplémentaires.",
+      "layout": "observed",
+      "name": "Giant Fire Beetle",
+      "html": "<p><b><i>Illumination.</i></b> The beetle sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet.</p>"
+    },
+    {
+      "id": "mm-animals-20261020-009",
+      "kind": "description",
+      "en": "Swallow. The frog swallows a Small or smaller target it is grappling. While swallowed, the target isn’t Grappled but has the Blinded and Restrained conditions, and it has Total Cover against attacks and other effects outside the frog. While swallowing the target, the frog can’t use Bite, and if the frog dies, the swallowed target is no longer Restrained and can escape from the corpse using 5 feet of movement, exiting with the Prone condition.",
+      "fr": "Engloutissement. La grenouille engloutit une cible de taille P ou inférieure qu’elle agrippe. Tant qu’elle est engloutie, la cible n’est plus Agrippée mais subit les états Aveuglé et Entravé, et bénéficie d’un Abri total contre les attaques et autres effets provenant de l’extérieur de la grenouille. Tant que la cible reste engloutie, la grenouille ne peut pas utiliser Morsure. Si la grenouille meurt, la cible engloutie n’est plus Entravée et peut s’échapper du cadavre en dépensant 5 feet de déplacement, sortant avec l’état À terre.",
+      "layout": "observed",
+      "name": "Giant Frog",
+      "html": "<p><b><i>Swallow.</i></b> The frog swallows a Small or smaller target it is grappling. While swallowed, the target isn’t <a href=\"#customlist?type=Conditions&amp;id=a6e4lwi1jotp3mq5\">Grappled</a> but has the <a href=\"#customlist?type=Conditions&amp;id=hm9mtg9ffw5qp78o\">Blinded</a> and <a href=\"#customlist?type=Conditions&amp;id=pzyh8kckn2x92l3p\">Restrained</a> conditions, and it has Total Cover against attacks and other effects outside the frog. While swallowing the target, the frog can’t use Bite, and if the frog dies, the swallowed target is no longer <a href=\"#customlist?type=Conditions&amp;id=pzyh8kckn2x92l3p\">Restrained</a> and can escape from the corpse using 5 feet of movement, exiting with the <a href=\"#customlist?type=Conditions&amp;id=0jn05cqnggx41gu9\">Prone</a> condition.</p>"
+    },
+    {
+      "id": "mm-animals-20261020-010",
+      "kind": "description",
+      "en": "At the end of the frog’s next turn, the swallowed target takes 5 (2d4) Acid damage. If that damage doesn’t kill it, the frog disgorges it, causing it to exit Prone.",
+      "fr": "À la fin du prochain tour de la grenouille, la cible engloutie subit 5 (2d4) dégâts d’acide. Si ces dégâts ne la tuent pas, la grenouille la régurgite, et elle en sort À terre.",
+      "layout": "observed",
+      "name": "Giant Frog",
+      "html": "<p>At the end of the frog’s next turn, the swallowed target takes 5 (2d4) Acid damage. If that damage doesn’t kill it, the frog disgorges it, causing it to exit Prone.</p>"
+    },
+    {
+      "id": "mm-animals-20261020-011-body",
+      "kind": "description",
+      "en": "The whale can hold its breath for 30 minutes.",
+      "fr": "L’épaulard peut retenir sa respiration pendant 30 minutes.",
+      "layout": "body",
+      "html": "<p>The whale can hold its breath for 30 minutes.</p>"
+    },
+    {
+      "id": "mm-animals-20261020-011",
+      "kind": "description",
+      "en": "Hold Breath. The whale can hold its breath for 30 minutes.",
+      "fr": "Apnée. L’épaulard peut retenir sa respiration pendant 30 minutes.",
+      "layout": "observed",
+      "name": "Killer Whale",
+      "html": "<p><b><i>Hold Breath.</i></b> The whale can hold its breath for 30 minutes.</p>"
+    },
+    {
+      "id": "mm-animals-20261020-012",
+      "kind": "description",
+      "en": "Gore. Melee Attack Roll: +10, reach 10 ft. Hit: 18 (2d10 + 7) Piercing damage. If the target is a Huge or smaller creature and the mammoth moved 20+ feet straight toward it immediately before the hit, the target has the Prone condition.",
+      "fr": "Coup de corne. Jet d’attaque au corps à corps : +10, allonge 10 ft. Touché : 18 (2d10 + 7) dégâts perforants. Si la cible est une créature de taille TG ou inférieure et que le mammouth s’est déplacé de 20+ feet en ligne droite vers elle juste avant de la toucher, la cible subit l’état À terre.",
+      "layout": "observed",
+      "name": "Mammoth",
+      "html": "<p><b><i>Gore.</i></b> <i>Melee Attack Roll:</i> <b class=\"dodieroll\">+10</b>, reach 10 ft. <i>Hit:</i> 18 (<b class=\"dodieroll\">2d10 + 7</b>) Piercing damage. If the target is a Huge or smaller creature and the mammoth moved 20+ feet straight toward it immediately before the hit, the target has the <a href=\"#customlist?type=Conditions&amp;id=0jn05cqnggx41gu9\">Prone</a> condition.</p>"
+    },
+    {
+      "id": "mm-animals-20261020-013-body",
+      "kind": "description",
+      "en": "The plesiosaurus can hold its breath for 1 hour.",
+      "fr": "Le plésiosaure peut retenir sa respiration pendant 1 heure.",
+      "layout": "body",
+      "html": "<p>The plesiosaurus can hold its breath for 1 hour.</p>"
+    },
+    {
+      "id": "mm-animals-20261020-013",
+      "kind": "description",
+      "en": "Hold Breath. The plesiosaurus can hold its breath for 1 hour.",
+      "fr": "Apnée. Le plésiosaure peut retenir sa respiration pendant 1 heure.",
+      "layout": "observed",
+      "name": "Plesiosaurus",
+      "html": "<p><b><i>Hold Breath.</i></b> The plesiosaurus can hold its breath for 1 hour.</p>"
+    },
+    {
+      "id": "mm-animals-20261020-014-body",
+      "kind": "description",
+      "en": "The swarm can occupy another creature’s space and vice versa, and the swarm can move through any opening large enough for a Tiny bat. The swarm can’t regain Hit Points or gain Temporary Hit Points.",
+      "fr": "La nuée peut occuper l’espace d’une autre créature et réciproquement, et elle peut traverser toute ouverture assez grande pour laisser passer une chauve-souris de taille TP. La nuée ne peut pas récupérer de points de vie ni gagner de points de vie temporaires.",
+      "layout": "body",
+      "html": "<p>The swarm can occupy another creature’s space and vice versa, and the swarm can move through any opening large enough for a Tiny bat. The swarm can’t regain Hit Points or gain Temporary Hit Points.</p>"
+    },
+    {
+      "id": "mm-animals-20261020-014",
+      "kind": "description",
+      "en": "Swarm. The swarm can occupy another creature’s space and vice versa, and the swarm can move through any opening large enough for a Tiny bat. The swarm can’t regain Hit Points or gain Temporary Hit Points.",
+      "fr": "Nuée. La nuée peut occuper l’espace d’une autre créature et réciproquement, et elle peut traverser toute ouverture assez grande pour laisser passer une chauve-souris de taille TP. La nuée ne peut pas récupérer de points de vie ni gagner de points de vie temporaires.",
+      "layout": "observed",
+      "name": "Swarm of Bats",
+      "html": "<p><b><i>Swarm.</i></b> The swarm can occupy another creature’s space and vice versa, and the swarm can move through any opening large enough for a Tiny bat. The swarm can’t regain Hit Points or gain Temporary Hit Points.</p>"
+    },
+    {
+      "id": "mm-animals-20261020-015-body",
+      "kind": "description",
+      "en": "The swarm can occupy another creature’s space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can’t regain Hit Points or gain Temporary Hit Points.",
+      "fr": "La nuée peut occuper l’espace d’une autre créature et réciproquement, et elle peut traverser toute ouverture assez grande pour laisser passer un insecte de taille TP. La nuée ne peut pas récupérer de points de vie ni gagner de points de vie temporaires.",
+      "layout": "body",
+      "html": "<p>The swarm can occupy another creature’s space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can’t regain Hit Points or gain Temporary Hit Points.</p>"
+    },
+    {
+      "id": "mm-animals-20261020-015",
+      "kind": "description",
+      "en": "Swarm. The swarm can occupy another creature’s space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can’t regain Hit Points or gain Temporary Hit Points.",
+      "fr": "Nuée. La nuée peut occuper l’espace d’une autre créature et réciproquement, et elle peut traverser toute ouverture assez grande pour laisser passer un insecte de taille TP. La nuée ne peut pas récupérer de points de vie ni gagner de points de vie temporaires.",
+      "layout": "observed",
+      "name": "Swarm of Insects",
+      "html": "<p><b><i>Swarm.</i></b> The swarm can occupy another creature’s space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can’t regain Hit Points or gain Temporary Hit Points.</p>"
+    },
+    {
+      "id": "mm-animals-20261020-016",
+      "kind": "description",
+      "en": "Bites. Melee Attack Roll: +3, reach 5 ft. Hit: 6 (2d4 + 1) Poison damage, or 3 (1d4 + 1) Poison damage if the swarm is Bloodied.",
+      "fr": "Morsures. Jet d’attaque au corps à corps : +3, allonge 5 ft. Touché : 6 (2d4 + 1) dégâts de poison, ou 3 (1d4 + 1) dégâts de poison si la nuée est En sang.",
+      "layout": "observed",
+      "name": "Swarm of Insects",
+      "html": "<p><b><i>Bites.</i></b> <i>Melee Attack Roll:</i> <b class=\"dodieroll\">+3</b>, reach 5 ft. <i>Hit:</i> 6 (<b class=\"dodieroll\">2d4 + 1</b>) Poison damage, or 3 (<b class=\"dodieroll\">1d4 + 1</b>) Poison damage if the swarm is Bloodied.</p>"
+    },
+    {
+      "id": "mm-animals-20261020-017-body",
+      "kind": "description",
+      "en": "The swarm can occupy another creature’s space and vice versa, and the swarm can move through any opening large enough for a Tiny rat. The swarm can’t regain Hit Points or gain Temporary Hit Points.",
+      "fr": "La nuée peut occuper l’espace d’une autre créature et réciproquement, et elle peut traverser toute ouverture assez grande pour laisser passer un rat de taille TP. La nuée ne peut pas récupérer de points de vie ni gagner de points de vie temporaires.",
+      "layout": "body",
+      "html": "<p>The swarm can occupy another creature’s space and vice versa, and the swarm can move through any opening large enough for a Tiny rat. The swarm can’t regain Hit Points or gain Temporary Hit Points.</p>"
+    },
+    {
+      "id": "mm-animals-20261020-017",
+      "kind": "description",
+      "en": "Swarm. The swarm can occupy another creature’s space and vice versa, and the swarm can move through any opening large enough for a Tiny rat. The swarm can’t regain Hit Points or gain Temporary Hit Points.",
+      "fr": "Nuée. La nuée peut occuper l’espace d’une autre créature et réciproquement, et elle peut traverser toute ouverture assez grande pour laisser passer un rat de taille TP. La nuée ne peut pas récupérer de points de vie ni gagner de points de vie temporaires.",
+      "layout": "observed",
+      "name": "Swarm of Rats",
+      "html": "<p><b><i>Swarm.</i></b> The swarm can occupy another creature’s space and vice versa, and the swarm can move through any opening large enough for a Tiny rat. The swarm can’t regain Hit Points or gain Temporary Hit Points.</p>"
+    },
+    {
+      "id": "mm-animals-20261020-018-body",
+      "kind": "description",
+      "en": "The swarm can occupy another creature’s space and vice versa, and the swarm can move through any opening large enough for a Tiny raven. The swarm can’t regain Hit Points or gain Temporary Hit Points.",
+      "fr": "La nuée peut occuper l’espace d’une autre créature et réciproquement, et elle peut traverser toute ouverture assez grande pour laisser passer un corbeau de taille TP. La nuée ne peut pas récupérer de points de vie ni gagner de points de vie temporaires.",
+      "layout": "body",
+      "html": "<p>The swarm can occupy another creature’s space and vice versa, and the swarm can move through any opening large enough for a Tiny raven. The swarm can’t regain Hit Points or gain Temporary Hit Points.</p>"
+    },
+    {
+      "id": "mm-animals-20261020-018",
+      "kind": "description",
+      "en": "Swarm. The swarm can occupy another creature’s space and vice versa, and the swarm can move through any opening large enough for a Tiny raven. The swarm can’t regain Hit Points or gain Temporary Hit Points.",
+      "fr": "Nuée. La nuée peut occuper l’espace d’une autre créature et réciproquement, et elle peut traverser toute ouverture assez grande pour laisser passer un corbeau de taille TP. La nuée ne peut pas récupérer de points de vie ni gagner de points de vie temporaires.",
+      "layout": "observed",
+      "name": "Swarm of Ravens",
+      "html": "<p><b><i>Swarm.</i></b> The swarm can occupy another creature’s space and vice versa, and the swarm can move through any opening large enough for a Tiny raven. The swarm can’t regain Hit Points or gain Temporary Hit Points.</p>"
+    },
+    {
+      "id": "mm-animals-followup-20261020-000",
+      "kind": "description",
+      "en": "Beak. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Piercing damage, or 6 (1d8 + 2) Piercing damage if the target is Bloodied.",
+      "fr": "Bec. Jet d’attaque au corps à corps : +4, allonge 5 ft. Touché : 4 (1d4 + 2) dégâts perforants, ou 6 (1d8 + 2) dégâts perforants si la cible est En sang.",
+      "layout": "observed",
+      "name": "Blood Hawk",
+      "html": "<p><b><i>Beak.</i></b> <i>Melee Attack Roll:</i> <b class=\"dodieroll\">+4</b>, reach 5 ft. <i>Hit:</i> 4 (<b class=\"dodieroll\">1d4 + 2</b>) Piercing damage, or 6 (<b class=\"dodieroll\">1d8 + 2</b>) Piercing damage if the target is Bloodied.</p>"
+    },
+    {
+      "id": "mm-animals-followup-20261020-001",
+      "kind": "description",
+      "en": "Hold Breath. The crocodile can hold its breath for 1 hour.",
+      "fr": "Apnée. Le crocodile peut retenir sa respiration pendant 1 heure.",
+      "layout": "observed",
+      "name": "Crocodile",
+      "html": "<p><b><i>Hold Breath.</i></b> The crocodile can hold its breath for 1 hour.</p>"
+    }
+  ],
+  "coverage": [
+    {
+      "report": "animals",
+      "index": 0,
+      "en": "This appendix provides stat blocks for animals of the Beast type—along with many of their gigantic or mythologized kin—in alphabetical order.",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "",
+      "occurrences": 1,
+      "targets": [
+        "mm-animals-20261020-000"
+      ]
+    },
+    {
+      "report": "animals",
+      "index": 1,
+      "en": "Claws. Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 4) Slashing damage. If the target is a Large or smaller creature and the allosaurus moved 30+ feet straight toward it immediately before the hit, the target has the Prone condition, and the allosaurus can make one Bite attack against it.",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "Allosaurus",
+      "occurrences": 1,
+      "targets": [
+        "mm-animals-20261020-001"
+      ]
+    },
+    {
+      "report": "animals",
+      "index": 2,
+      "en": "Multiattack. The ankylosaurus makes two Tail attacks.",
+      "kind": "description",
+      "reason": "unrecognized-layout",
+      "context": "Ankylosaurus",
+      "occurrences": 1,
+      "targets": [
+        "mm-animals-20261020-002"
+      ]
+    },
+    {
+      "report": "animals",
+      "index": 3,
+      "en": "Tail. Melee Attack Roll: +6, reach 10 ft. Hit: 9 (1d10 + 4) Bludgeoning damage. If the target is a Huge or smaller creature, it has the Prone condition.",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "Ankylosaurus",
+      "occurrences": 1,
+      "targets": [
+        "mm-animals-20261020-003"
+      ]
+    },
+    {
+      "report": "animals",
+      "index": 4,
+      "en": "Multiattack. The archelon makes two Bite attacks.",
+      "kind": "description",
+      "reason": "unrecognized-layout",
+      "context": "Archelon",
+      "occurrences": 1,
+      "targets": [
+        "mm-animals-20261020-004"
+      ]
+    },
+    {
+      "report": "animals",
+      "index": 5,
+      "en": "Multiattack. The bear makes two Rend attacks.",
+      "kind": "description",
+      "reason": "unrecognized-layout",
+      "context": "Black Bear",
+      "occurrences": 2,
+      "targets": [
+        "mm-animals-20261020-005"
+      ]
+    },
+    {
+      "report": "animals",
+      "index": 6,
+      "en": "Gore. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Piercing damage. If the target is a Large or smaller creature and the boar moved 20+ feet straight toward it immediately before the hit, the target takes an extra 7 (2d6) Piercing damage and has the Prone condition.",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "Giant Boar",
+      "occurrences": 1,
+      "targets": [
+        "mm-animals-20261020-006"
+      ]
+    },
+    {
+      "report": "animals",
+      "index": 7,
+      "en": "Ram. Melee Attack Roll: +6, reach 10 ft. Hit: 11 (2d6 + 4) Bludgeoning damage plus 5 (2d4) Radiant damage. If the target is a Huge or smaller creature and the elk moved 20+ feet straight toward it immediately before the hit, the target takes an extra 5 (2d4) Bludgeoning damage and has the Prone condition.",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "Giant Elk",
+      "occurrences": 1,
+      "targets": [
+        "mm-animals-20261020-007"
+      ]
+    },
+    {
+      "report": "animals",
+      "index": 8,
+      "en": "Illumination. The beetle sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet.",
+      "kind": "description",
+      "reason": "conflicting-translations",
+      "context": "Giant Fire Beetle",
+      "occurrences": 1,
+      "targets": [
+        "mm-animals-20261020-008"
+      ]
+    },
+    {
+      "report": "animals",
+      "index": 9,
+      "en": "Swallow. The frog swallows a Small or smaller target it is grappling. While swallowed, the target isn’t Grappled but has the Blinded and Restrained conditions, and it has Total Cover against attacks and other effects outside the frog. While swallowing the target, the frog can’t use Bite, and if the frog dies, the swallowed target is no longer Restrained and can escape from the corpse using 5 feet of movement, exiting with the Prone condition.",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "Giant Frog",
+      "occurrences": 1,
+      "targets": [
+        "mm-animals-20261020-009"
+      ]
+    },
+    {
+      "report": "animals",
+      "index": 10,
+      "en": "At the end of the frog’s next turn, the swallowed target takes 5 (2d4) Acid damage. If that damage doesn’t kill it, the frog disgorges it, causing it to exit Prone.",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "Giant Frog",
+      "occurrences": 1,
+      "targets": [
+        "mm-animals-20261020-010"
+      ]
+    },
+    {
+      "report": "animals",
+      "index": 11,
+      "en": "Hold Breath. The whale can hold its breath for 30 minutes.",
+      "kind": "description",
+      "reason": "conflicting-translations",
+      "context": "Killer Whale",
+      "occurrences": 1,
+      "targets": [
+        "mm-animals-20261020-011"
+      ]
+    },
+    {
+      "report": "animals",
+      "index": 12,
+      "en": "Gore. Melee Attack Roll: +10, reach 10 ft. Hit: 18 (2d10 + 7) Piercing damage. If the target is a Huge or smaller creature and the mammoth moved 20+ feet straight toward it immediately before the hit, the target has the Prone condition.",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "Mammoth",
+      "occurrences": 1,
+      "targets": [
+        "mm-animals-20261020-012"
+      ]
+    },
+    {
+      "report": "animals",
+      "index": 13,
+      "en": "Hold Breath. The plesiosaurus can hold its breath for 1 hour.",
+      "kind": "description",
+      "reason": "conflicting-translations",
+      "context": "Plesiosaurus",
+      "occurrences": 1,
+      "targets": [
+        "mm-animals-20261020-013"
+      ]
+    },
+    {
+      "report": "animals",
+      "index": 14,
+      "en": "Swarm. The swarm can occupy another creature’s space and vice versa, and the swarm can move through any opening large enough for a Tiny bat. The swarm can’t regain Hit Points or gain Temporary Hit Points.",
+      "kind": "description",
+      "reason": "conflicting-translations",
+      "context": "Swarm of Bats",
+      "occurrences": 1,
+      "targets": [
+        "mm-animals-20261020-014"
+      ]
+    },
+    {
+      "report": "animals",
+      "index": 15,
+      "en": "Swarm. The swarm can occupy another creature’s space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can’t regain Hit Points or gain Temporary Hit Points.",
+      "kind": "description",
+      "reason": "conflicting-translations",
+      "context": "Swarm of Insects",
+      "occurrences": 1,
+      "targets": [
+        "mm-animals-20261020-015"
+      ]
+    },
+    {
+      "report": "animals",
+      "index": 16,
+      "en": "Bites. Melee Attack Roll: +3, reach 5 ft. Hit: 6 (2d4 + 1) Poison damage, or 3 (1d4 + 1) Poison damage if the swarm is Bloodied.",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "Swarm of Insects",
+      "occurrences": 1,
+      "targets": [
+        "mm-animals-20261020-016"
+      ]
+    },
+    {
+      "report": "animals",
+      "index": 17,
+      "en": "Swarm. The swarm can occupy another creature’s space and vice versa, and the swarm can move through any opening large enough for a Tiny rat. The swarm can’t regain Hit Points or gain Temporary Hit Points.",
+      "kind": "description",
+      "reason": "conflicting-translations",
+      "context": "Swarm of Rats",
+      "occurrences": 1,
+      "targets": [
+        "mm-animals-20261020-017"
+      ]
+    },
+    {
+      "report": "animals",
+      "index": 18,
+      "en": "Swarm. The swarm can occupy another creature’s space and vice versa, and the swarm can move through any opening large enough for a Tiny raven. The swarm can’t regain Hit Points or gain Temporary Hit Points.",
+      "kind": "description",
+      "reason": "conflicting-translations",
+      "context": "Swarm of Ravens",
+      "occurrences": 1,
+      "targets": [
+        "mm-animals-20261020-018"
+      ]
+    },
+    {
+      "report": "animals-followup",
+      "index": 0,
+      "en": "Beak. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Piercing damage, or 6 (1d8 + 2) Piercing damage if the target is Bloodied.",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "Blood Hawk",
+      "occurrences": 1,
+      "targets": [
+        "mm-animals-followup-20261020-000"
+      ]
+    },
+    {
+      "report": "animals-followup",
+      "index": 1,
+      "en": "Hold Breath. The crocodile can hold its breath for 1 hour.",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "Crocodile",
+      "occurrences": 2,
+      "targets": [
+        "mm-animals-followup-20261020-001"
+      ]
+    }
+  ]
+}

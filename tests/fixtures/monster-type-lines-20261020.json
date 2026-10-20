@@ -1,0 +1,872 @@
+[
+  {
+    "en": "Medium or small humanoid (Wizard), Neutral",
+    "html": "<div class=\"i pb1\"><span>Medium or small </span><span>humanoid (Wizard)</span><span>, Neutral</span></div>",
+    "name": "Mage Apprentice"
+  },
+  {
+    "en": "Medium or small humanoid (Wizard), Neutral",
+    "html": "<div class=\"i pb1\"><span>Medium or small </span><span>humanoid (Wizard)</span><span>, Neutral</span></div>",
+    "name": "Mage"
+  },
+  {
+    "en": "Medium or small humanoid (Wizard), Neutral",
+    "html": "<div class=\"i pb1\"><span>Medium or small </span><span>humanoid (Wizard)</span><span>, Neutral</span></div>",
+    "name": "Archmage"
+  },
+  {
+    "en": "Small  elemental, Chaotic Neutral",
+    "html": "<div class=\"i pb1\"><span>Small  </span><span>elemental</span><span>, Chaotic Neutral</span></div>",
+    "name": "Magmin"
+  },
+  {
+    "en": "Small  fiend (demon), Chaotic Evil",
+    "html": "<div class=\"i pb1\"><span>Small  </span><span>fiend (demon)</span><span>, Chaotic Evil</span></div>",
+    "name": "Manes"
+  },
+  {
+    "en": "Medium  fiend (demon), Chaotic Evil",
+    "html": "<div class=\"i pb1\"><span>Medium  </span><span>fiend (demon)</span><span>, Chaotic Evil</span></div>",
+    "name": "Manes Vaporspawn"
+  },
+  {
+    "en": "Large  monstrosity, Lawful Evil",
+    "html": "<div class=\"i pb1\"><span>Large  </span><span>monstrosity</span><span>, Lawful Evil</span></div>",
+    "name": "Manticore"
+  },
+  {
+    "en": "Large  elemental (genie), Chaotic Neutral",
+    "html": "<div class=\"i pb1\"><span>Large  </span><span>elemental (genie)</span><span>, Chaotic Neutral</span></div>",
+    "name": "Marid"
+  },
+  {
+    "en": "Large  fiend (demon), Chaotic Evil",
+    "html": "<div class=\"i pb1\"><span>Large  </span><span>fiend (demon)</span><span>, Chaotic Evil</span></div>",
+    "name": "Marilith"
+  },
+  {
+    "en": "Medium  monstrosity, Lawful Evil",
+    "html": "<div class=\"i pb1\"><span>Medium  </span><span>monstrosity</span><span>, Lawful Evil</span></div>",
+    "name": "Medusa"
+  },
+  {
+    "en": "Small  elemental, Neutral Evil",
+    "html": "<div class=\"i pb1\"><span>Small  </span><span>elemental</span><span>, Neutral Evil</span></div>",
+    "name": "Dust Mephit"
+  },
+  {
+    "en": "Small  elemental, Neutral Evil",
+    "html": "<div class=\"i pb1\"><span>Small  </span><span>elemental</span><span>, Neutral Evil</span></div>",
+    "name": "Ice Mephit"
+  },
+  {
+    "en": "Small  elemental, Neutral Evil",
+    "html": "<div class=\"i pb1\"><span>Small  </span><span>elemental</span><span>, Neutral Evil</span></div>",
+    "name": "Magma Mephit"
+  },
+  {
+    "en": "Small  elemental, Neutral Evil",
+    "html": "<div class=\"i pb1\"><span>Small  </span><span>elemental</span><span>, Neutral Evil</span></div>",
+    "name": "Mud Mephit"
+  },
+  {
+    "en": "Small  elemental, Neutral Evil",
+    "html": "<div class=\"i pb1\"><span>Small  </span><span>elemental</span><span>, Neutral Evil</span></div>",
+    "name": "Smoke Mephit"
+  },
+  {
+    "en": "Small  elemental, Neutral Evil",
+    "html": "<div class=\"i pb1\"><span>Small  </span><span>elemental</span><span>, Neutral Evil</span></div>",
+    "name": "Steam Mephit"
+  },
+  {
+    "en": "Medium  elemental, Neutral",
+    "html": "<div class=\"i pb1\"><span>Medium  </span><span>elemental</span><span>, Neutral</span></div>",
+    "name": "Merfolk Skirmisher"
+  },
+  {
+    "en": "Medium  elemental, Neutral",
+    "html": "<div class=\"i pb1\"><span>Medium  </span><span>elemental</span><span>, Neutral</span></div>",
+    "name": "Merfolk Wavebender"
+  },
+  {
+    "en": "Large  monstrosity, Chaotic Evil",
+    "html": "<div class=\"i pb1\"><span>Large  </span><span>monstrosity</span><span>, Chaotic Evil</span></div>",
+    "name": "Merrow"
+  },
+  {
+    "en": "Medium  fiend (yugoloth), Neutral Evil",
+    "html": "<div class=\"i pb1\"><span>Medium  </span><span>fiend (yugoloth)</span><span>, Neutral Evil</span></div>",
+    "name": "Mezzoloth"
+  },
+  {
+    "en": "Medium  monstrosity, Neutral",
+    "html": "<div class=\"i pb1\"><span>Medium  </span><span>monstrosity</span><span>, Neutral</span></div>",
+    "name": "Mimic"
+  },
+  {
+    "en": "Medium  aberration, Lawful Evil",
+    "html": "<div class=\"i pb1\"><span>Medium  </span><span>aberration</span><span>, Lawful Evil</span></div>",
+    "name": "Mind Flayer"
+  },
+  {
+    "en": "Medium  aberration, Lawful Evil",
+    "html": "<div class=\"i pb1\"><span>Medium  </span><span>aberration</span><span>, Lawful Evil</span></div>",
+    "name": "Mind Flayer Arcanist"
+  },
+  {
+    "en": "Large  monstrosity, Chaotic Evil",
+    "html": "<div class=\"i pb1\"><span>Large  </span><span>monstrosity</span><span>, Chaotic Evil</span></div>",
+    "name": "Minotaur of Baphomet"
+  },
+  {
+    "en": "Medium  construct, Lawful Neutral",
+    "html": "<div class=\"i pb1\"><span>Medium  </span><span>construct</span><span>, Lawful Neutral</span></div>",
+    "name": "Modron Monodrone"
+  },
+  {
+    "en": "Medium  construct, Lawful Neutral",
+    "html": "<div class=\"i pb1\"><span>Medium  </span><span>construct</span><span>, Lawful Neutral</span></div>",
+    "name": "Modron Duodrone"
+  },
+  {
+    "en": "Medium  construct, Lawful Neutral",
+    "html": "<div class=\"i pb1\"><span>Medium  </span><span>construct</span><span>, Lawful Neutral</span></div>",
+    "name": "Modron Tridrone"
+  },
+  {
+    "en": "Medium  construct, Lawful Neutral",
+    "html": "<div class=\"i pb1\"><span>Medium  </span><span>construct</span><span>, Lawful Neutral</span></div>",
+    "name": "Modron Quadrone"
+  },
+  {
+    "en": "Large  construct, Lawful Neutral",
+    "html": "<div class=\"i pb1\"><span>Large  </span><span>construct</span><span>, Lawful Neutral</span></div>",
+    "name": "Modron Pentadrone"
+  },
+  {
+    "en": "Medium or small undead, Lawful Evil",
+    "html": "<div class=\"i pb1\"><span>Medium or small </span><span>undead</span><span>, Lawful Evil</span></div>",
+    "name": "Mummy"
+  },
+  {
+    "en": "Medium or small undead (Cleric), Lawful Evil",
+    "html": "<div class=\"i pb1\"><span>Medium or small </span><span>undead (Cleric)</span><span>, Lawful Evil</span></div>",
+    "name": "Mummy Lord"
+  },
+  {
+    "en": "Small  plant, Lawful Neutral",
+    "html": "<div class=\"i pb1\"><span>Small  </span><span>plant</span><span>, Lawful Neutral</span></div>",
+    "name": "Myconid Sprout"
+  },
+  {
+    "en": "Medium  plant, Lawful Neutral",
+    "html": "<div class=\"i pb1\"><span>Medium  </span><span>plant</span><span>, Lawful Neutral</span></div>",
+    "name": "Myconid Adult"
+  },
+  {
+    "en": "Medium or small plant, Unaligned",
+    "html": "<div class=\"i pb1\"><span>Medium or small </span><span>plant</span><span>, Unaligned</span></div>",
+    "name": "Myconid Spore Servant"
+  },
+  {
+    "en": "Large  plant, Lawful Neutral",
+    "html": "<div class=\"i pb1\"><span>Large  </span><span>plant</span><span>, Lawful Neutral</span></div>",
+    "name": "Myconid Sovereign"
+  },
+  {
+    "en": "Large  fiend (demon), Chaotic Evil",
+    "html": "<div class=\"i pb1\"><span>Large  </span><span>fiend (demon)</span><span>, Chaotic Evil</span></div>",
+    "name": "Nalfeshnee"
+  },
+  {
+    "en": "Medium  fiend, Neutral Evil",
+    "html": "<div class=\"i pb1\"><span>Medium  </span><span>fiend</span><span>, Neutral Evil</span></div>",
+    "name": "Night Hag"
+  },
+  {
+    "en": "Large  fiend, Neutral Evil",
+    "html": "<div class=\"i pb1\"><span>Large  </span><span>fiend</span><span>, Neutral Evil</span></div>",
+    "name": "Nightmare"
+  },
+  {
+    "en": "Medium or small humanoid, Neutral",
+    "html": "<div class=\"i pb1\"><span>Medium or small </span><span>humanoid</span><span>, Neutral</span></div>",
+    "name": "Noble"
+  },
+  {
+    "en": "Medium or small humanoid, Neutral",
+    "html": "<div class=\"i pb1\"><span>Medium or small </span><span>humanoid</span><span>, Neutral</span></div>",
+    "name": "Noble Prodigy"
+  },
+  {
+    "en": "Medium  aberration, Neutral Evil",
+    "html": "<div class=\"i pb1\"><span>Medium  </span><span>aberration</span><span>, Neutral Evil</span></div>",
+    "name": "Nothic"
+  },
+  {
+    "en": "Large  fiend (yugoloth), Neutral Evil",
+    "html": "<div class=\"i pb1\"><span>Large  </span><span>fiend (yugoloth)</span><span>, Neutral Evil</span></div>",
+    "name": "Nycaloth"
+  },
+  {
+    "en": "Large  ooze, Unaligned",
+    "html": "<div class=\"i pb1\"><span>Large  </span><span>ooze</span><span>, Unaligned</span></div>",
+    "name": "Ochre Jelly"
+  },
+  {
+    "en": "Large  giant, Chaotic Evil",
+    "html": "<div class=\"i pb1\"><span>Large  </span><span>giant</span><span>, Chaotic Evil</span></div>",
+    "name": "Ogre"
+  },
+  {
+    "en": "Large  giant, Chaotic Evil",
+    "html": "<div class=\"i pb1\"><span>Large  </span><span>giant</span><span>, Chaotic Evil</span></div>",
+    "name": "Ogrillon Ogre"
+  },
+  {
+    "en": "Large  fiend, Lawful Evil",
+    "html": "<div class=\"i pb1\"><span>Large  </span><span>fiend</span><span>, Lawful Evil</span></div>",
+    "name": "Oni"
+  },
+  {
+    "en": "Large  aberration, Neutral",
+    "html": "<div class=\"i pb1\"><span>Large  </span><span>aberration</span><span>, Neutral</span></div>",
+    "name": "Otyugh"
+  },
+  {
+    "en": "Large  monstrosity, Unaligned",
+    "html": "<div class=\"i pb1\"><span>Large  </span><span>monstrosity</span><span>, Unaligned</span></div>",
+    "name": "Owlbear"
+  },
+  {
+    "en": "Huge  monstrosity, Unaligned",
+    "html": "<div class=\"i pb1\"><span>Huge  </span><span>monstrosity</span><span>, Unaligned</span></div>",
+    "name": "Primeval Owlbear"
+  },
+  {
+    "en": "Large  celestial, Chaotic Good",
+    "html": "<div class=\"i pb1\"><span>Large  </span><span>celestial</span><span>, Chaotic Good</span></div>",
+    "name": "Pegasus"
+  },
+  {
+    "en": "Medium or small humanoid, Neutral",
+    "html": "<div class=\"i pb1\"><span>Medium or small </span><span>humanoid</span><span>, Neutral</span></div>",
+    "name": "Performer"
+  },
+  {
+    "en": "Medium or small humanoid, Neutral",
+    "html": "<div class=\"i pb1\"><span>Medium or small </span><span>humanoid</span><span>, Neutral</span></div>",
+    "name": "Performer Maestro"
+  },
+  {
+    "en": "Medium or small humanoid, Neutral",
+    "html": "<div class=\"i pb1\"><span>Medium or small </span><span>humanoid</span><span>, Neutral</span></div>",
+    "name": "Performer Legend"
+  },
+  {
+    "en": "Medium  monstrosity, Chaotic Evil",
+    "html": "<div class=\"i pb1\"><span>Medium  </span><span>monstrosity</span><span>, Chaotic Evil</span></div>",
+    "name": "Peryton"
+  },
+  {
+    "en": "Large  monstrosity, Unaligned",
+    "html": "<div class=\"i pb1\"><span>Large  </span><span>monstrosity</span><span>, Unaligned</span></div>",
+    "name": "Phase Spider"
+  },
+  {
+    "en": "Medium  aberration, Unaligned",
+    "html": "<div class=\"i pb1\"><span>Medium  </span><span>aberration</span><span>, Unaligned</span></div>",
+    "name": "Piercer"
+  },
+  {
+    "en": "Medium or small humanoid, Neutral",
+    "html": "<div class=\"i pb1\"><span>Medium or small </span><span>humanoid</span><span>, Neutral</span></div>",
+    "name": "Pirate"
+  },
+  {
+    "en": "Medium or small humanoid, Neutral",
+    "html": "<div class=\"i pb1\"><span>Medium or small </span><span>humanoid</span><span>, Neutral</span></div>",
+    "name": "Pirate Captain"
+  },
+  {
+    "en": "Medium or small humanoid, Neutral",
+    "html": "<div class=\"i pb1\"><span>Medium or small </span><span>humanoid</span><span>, Neutral</span></div>",
+    "name": "Pirate Admiral"
+  },
+  {
+    "en": "Large  fiend (devil), Lawful Evil",
+    "html": "<div class=\"i pb1\"><span>Large  </span><span>fiend (devil)</span><span>, Lawful Evil</span></div>",
+    "name": "Pit Fiend"
+  },
+  {
+    "en": "Tiny  fey, Neutral Good",
+    "html": "<div class=\"i pb1\"><span>Tiny  </span><span>fey</span><span>, Neutral Good</span></div>",
+    "name": "Pixie"
+  },
+  {
+    "en": "Tiny  fey, Neutral Good",
+    "html": "<div class=\"i pb1\"><span>Tiny  </span><span>fey</span><span>, Neutral Good</span></div>",
+    "name": "Pixie Wonderbringer"
+  },
+  {
+    "en": "Large  celestial (angel), Lawful Good",
+    "html": "<div class=\"i pb1\"><span>Large  </span><span>celestial (angel)</span><span>, Lawful Good</span></div>",
+    "name": "Planetar"
+  },
+  {
+    "en": "Medium or small undead, Chaotic Neutral",
+    "html": "<div class=\"i pb1\"><span>Medium or small </span><span>undead</span><span>, Chaotic Neutral</span></div>",
+    "name": "Poltergeist"
+  },
+  {
+    "en": "Medium or small humanoid (Cleric), Neutral",
+    "html": "<div class=\"i pb1\"><span>Medium or small </span><span>humanoid (Cleric)</span><span>, Neutral</span></div>",
+    "name": "Priest Acolyte"
+  },
+  {
+    "en": "Medium or small humanoid (Cleric), Neutral",
+    "html": "<div class=\"i pb1\"><span>Medium or small </span><span>humanoid (Cleric)</span><span>, Neutral</span></div>",
+    "name": "Priest"
+  },
+  {
+    "en": "Medium or small humanoid (Cleric), Neutral",
+    "html": "<div class=\"i pb1\"><span>Medium or small </span><span>humanoid (Cleric)</span><span>, Neutral</span></div>",
+    "name": "Archpriest"
+  },
+  {
+    "en": "Tiny  dragon, Neutral Good",
+    "html": "<div class=\"i pb1\"><span>Tiny  </span><span>dragon</span><span>, Neutral Good</span></div>",
+    "name": "Pseudodragon"
+  },
+  {
+    "en": "Gargantuan  monstrosity, Unaligned",
+    "html": "<div class=\"i pb1\"><span>Gargantuan  </span><span>monstrosity</span><span>, Unaligned</span></div>",
+    "name": "Purple Worm"
+  },
+  {
+    "en": "Medium  monstrosity, Chaotic Neutral",
+    "html": "<div class=\"i pb1\"><span>Medium  </span><span>monstrosity</span><span>, Chaotic Neutral</span></div>",
+    "name": "Quaggoth"
+  },
+  {
+    "en": "Medium  monstrosity, Chaotic Neutral",
+    "html": "<div class=\"i pb1\"><span>Medium  </span><span>monstrosity</span><span>, Chaotic Neutral</span></div>",
+    "name": "Quaggoth Thonot"
+  },
+  {
+    "en": "Tiny  fiend (demon), Chaotic Evil",
+    "html": "<div class=\"i pb1\"><span>Tiny  </span><span>fiend (demon)</span><span>, Chaotic Evil</span></div>",
+    "name": "Quasit"
+  },
+  {
+    "en": "Medium  fiend, Lawful Evil",
+    "html": "<div class=\"i pb1\"><span>Medium  </span><span>fiend</span><span>, Lawful Evil</span></div>",
+    "name": "Rakshasa"
+  },
+  {
+    "en": "Medium  dragon (chromatic), Chaotic Evil",
+    "html": "<div class=\"i pb1\"><span>Medium  </span><span>dragon (chromatic)</span><span>, Chaotic Evil</span></div>",
+    "name": "Red Dragon Wyrmling"
+  },
+  {
+    "en": "Large  dragon (chromatic), Chaotic Evil",
+    "html": "<div class=\"i pb1\"><span>Large  </span><span>dragon (chromatic)</span><span>, Chaotic Evil</span></div>",
+    "name": "Young Red Dragon"
+  },
+  {
+    "en": "Huge  dragon (chromatic), Chaotic Evil",
+    "html": "<div class=\"i pb1\"><span>Huge  </span><span>dragon (chromatic)</span><span>, Chaotic Evil</span></div>",
+    "name": "Adult Red Dragon"
+  },
+  {
+    "en": "Gargantuan  dragon (chromatic), Chaotic Evil",
+    "html": "<div class=\"i pb1\"><span>Gargantuan  </span><span>dragon (chromatic)</span><span>, Chaotic Evil</span></div>",
+    "name": "Ancient Red Dragon"
+  },
+  {
+    "en": "Large  monstrosity, Unaligned",
+    "html": "<div class=\"i pb1\"><span>Large  </span><span>monstrosity</span><span>, Unaligned</span></div>",
+    "name": "Young Remorhaz"
+  },
+  {
+    "en": "Huge  monstrosity, Unaligned",
+    "html": "<div class=\"i pb1\"><span>Huge  </span><span>monstrosity</span><span>, Unaligned</span></div>",
+    "name": "Remorhaz"
+  },
+  {
+    "en": "Medium  undead, Neutral",
+    "html": "<div class=\"i pb1\"><span>Medium  </span><span>undead</span><span>, Neutral</span></div>",
+    "name": "Revenant"
+  },
+  {
+    "en": "Huge  undead, Neutral",
+    "html": "<div class=\"i pb1\"><span>Huge  </span><span>undead</span><span>, Neutral</span></div>",
+    "name": "Graveyard Revenant"
+  },
+  {
+    "en": "Gargantuan  undead, Neutral",
+    "html": "<div class=\"i pb1\"><span>Gargantuan  </span><span>undead</span><span>, Neutral</span></div>",
+    "name": "Haunting Revenant"
+  },
+  {
+    "en": "Gargantuan  monstrosity, Unaligned",
+    "html": "<div class=\"i pb1\"><span>Gargantuan  </span><span>monstrosity</span><span>, Unaligned</span></div>",
+    "name": "Roc"
+  },
+  {
+    "en": "Large  aberration, Neutral Evil",
+    "html": "<div class=\"i pb1\"><span>Large  </span><span>aberration</span><span>, Neutral Evil</span></div>",
+    "name": "Roper"
+  },
+  {
+    "en": "Medium  monstrosity, Unaligned",
+    "html": "<div class=\"i pb1\"><span>Medium  </span><span>monstrosity</span><span>, Unaligned</span></div>",
+    "name": "Rust Monster"
+  },
+  {
+    "en": "Medium  fiend, Lawful Evil",
+    "html": "<div class=\"i pb1\"><span>Medium  </span><span>fiend</span><span>, Lawful Evil</span></div>",
+    "name": "Sahuagin Warrior"
+  },
+  {
+    "en": "Medium  fiend, Lawful Evil",
+    "html": "<div class=\"i pb1\"><span>Medium  </span><span>fiend</span><span>, Lawful Evil</span></div>",
+    "name": "Sahuagin Priest"
+  },
+  {
+    "en": "Large  fiend, Lawful Evil",
+    "html": "<div class=\"i pb1\"><span>Large  </span><span>fiend</span><span>, Lawful Evil</span></div>",
+    "name": "Sahuagin Baron"
+  },
+  {
+    "en": "Medium  elemental, Neutral Evil",
+    "html": "<div class=\"i pb1\"><span>Medium  </span><span>elemental</span><span>, Neutral Evil</span></div>",
+    "name": "Salamander Fire Snake"
+  },
+  {
+    "en": "Large  elemental, Neutral Evil",
+    "html": "<div class=\"i pb1\"><span>Large  </span><span>elemental</span><span>, Neutral Evil</span></div>",
+    "name": "Salamander"
+  },
+  {
+    "en": "Large  elemental, Neutral Evil",
+    "html": "<div class=\"i pb1\"><span>Large  </span><span>elemental</span><span>, Neutral Evil</span></div>",
+    "name": "Salamander Inferno Master"
+  },
+  {
+    "en": "Medium  fey, Chaotic Neutral",
+    "html": "<div class=\"i pb1\"><span>Medium  </span><span>fey</span><span>, Chaotic Neutral</span></div>",
+    "name": "Satyr"
+  },
+  {
+    "en": "Medium  fey, Chaotic Neutral",
+    "html": "<div class=\"i pb1\"><span>Medium  </span><span>fey</span><span>, Chaotic Neutral</span></div>",
+    "name": "Satyr Revelmaster"
+  },
+  {
+    "en": "Medium  construct, Chaotic Evil",
+    "html": "<div class=\"i pb1\"><span>Medium  </span><span>construct</span><span>, Chaotic Evil</span></div>",
+    "name": "Scarecrow"
+  },
+  {
+    "en": "Medium or small humanoid, Neutral",
+    "html": "<div class=\"i pb1\"><span>Medium or small </span><span>humanoid</span><span>, Neutral</span></div>",
+    "name": "Scout"
+  },
+  {
+    "en": "Medium or small humanoid, Neutral",
+    "html": "<div class=\"i pb1\"><span>Medium or small </span><span>humanoid</span><span>, Neutral</span></div>",
+    "name": "Scout Captain"
+  },
+  {
+    "en": "Medium  fey, Chaotic Evil",
+    "html": "<div class=\"i pb1\"><span>Medium  </span><span>fey</span><span>, Chaotic Evil</span></div>",
+    "name": "Sea Hag"
+  },
+  {
+    "en": "Medium  undead, Chaotic Evil",
+    "html": "<div class=\"i pb1\"><span>Medium  </span><span>undead</span><span>, Chaotic Evil</span></div>",
+    "name": "Shadow"
+  },
+  {
+    "en": "Medium  fiend (demon), Chaotic Evil",
+    "html": "<div class=\"i pb1\"><span>Medium  </span><span>fiend (demon)</span><span>, Chaotic Evil</span></div>",
+    "name": "Shadow Demon"
+  },
+  {
+    "en": "Medium  dragon, Chaotic Evil",
+    "html": "<div class=\"i pb1\"><span>Medium  </span><span>dragon</span><span>, Chaotic Evil</span></div>",
+    "name": "Juvenile Shadow Dragon"
+  },
+  {
+    "en": "Huge or large dragon, Chaotic Evil",
+    "html": "<div class=\"i pb1\"><span>Huge or large </span><span>dragon</span><span>, Chaotic Evil</span></div>",
+    "name": "Shadow Dragon"
+  },
+  {
+    "en": "Large  plant, Unaligned",
+    "html": "<div class=\"i pb1\"><span>Large  </span><span>plant</span><span>, Unaligned</span></div>",
+    "name": "Shambling Mound"
+  },
+  {
+    "en": "Large  construct, Unaligned",
+    "html": "<div class=\"i pb1\"><span>Large  </span><span>construct</span><span>, Unaligned</span></div>",
+    "name": "Shield Guardian"
+  },
+  {
+    "en": "Medium  dragon (metallic), Lawful Good",
+    "html": "<div class=\"i pb1\"><span>Medium  </span><span>dragon (metallic)</span><span>, Lawful Good</span></div>",
+    "name": "Silver Dragon Wyrmling"
+  },
+  {
+    "en": "Large  dragon (metallic), Lawful Good",
+    "html": "<div class=\"i pb1\"><span>Large  </span><span>dragon (metallic)</span><span>, Lawful Good</span></div>",
+    "name": "Young Silver Dragon"
+  },
+  {
+    "en": "Huge  dragon (metallic), Lawful Good",
+    "html": "<div class=\"i pb1\"><span>Huge  </span><span>dragon (metallic)</span><span>, Lawful Good</span></div>",
+    "name": "Adult Silver Dragon"
+  },
+  {
+    "en": "Gargantuan  dragon (metallic), Lawful Good",
+    "html": "<div class=\"i pb1\"><span>Gargantuan  </span><span>dragon (metallic)</span><span>, Lawful Good</span></div>",
+    "name": "Ancient Silver Dragon"
+  },
+  {
+    "en": "Medium  undead, Lawful Evil",
+    "html": "<div class=\"i pb1\"><span>Medium  </span><span>undead</span><span>, Lawful Evil</span></div>",
+    "name": "Skeleton"
+  },
+  {
+    "en": "Large  undead, Lawful Evil",
+    "html": "<div class=\"i pb1\"><span>Large  </span><span>undead</span><span>, Lawful Evil</span></div>",
+    "name": "Warhorse Skeleton"
+  },
+  {
+    "en": "Large  undead, Lawful Evil",
+    "html": "<div class=\"i pb1\"><span>Large  </span><span>undead</span><span>, Lawful Evil</span></div>",
+    "name": "Minotaur Skeleton"
+  },
+  {
+    "en": "Medium  undead, Lawful Evil",
+    "html": "<div class=\"i pb1\"><span>Medium  </span><span>undead</span><span>, Lawful Evil</span></div>",
+    "name": "Flaming Skeleton"
+  },
+  {
+    "en": "Tiny  aberration, Chaotic Neutral",
+    "html": "<div class=\"i pb1\"><span>Tiny  </span><span>aberration</span><span>, Chaotic Neutral</span></div>",
+    "name": "Slaad Tadpole"
+  },
+  {
+    "en": "Large  aberration, Chaotic Neutral",
+    "html": "<div class=\"i pb1\"><span>Large  </span><span>aberration</span><span>, Chaotic Neutral</span></div>",
+    "name": "Red Slaad"
+  },
+  {
+    "en": "Large  aberration, Chaotic Neutral",
+    "html": "<div class=\"i pb1\"><span>Large  </span><span>aberration</span><span>, Chaotic Neutral</span></div>",
+    "name": "Blue Slaad"
+  },
+  {
+    "en": "Large  aberration, Chaotic Neutral",
+    "html": "<div class=\"i pb1\"><span>Large  </span><span>aberration</span><span>, Chaotic Neutral</span></div>",
+    "name": "Green Slaad"
+  },
+  {
+    "en": "Medium  aberration, Chaotic Neutral",
+    "html": "<div class=\"i pb1\"><span>Medium  </span><span>aberration</span><span>, Chaotic Neutral</span></div>",
+    "name": "Gray Slaad"
+  },
+  {
+    "en": "Medium  aberration, Chaotic Evil",
+    "html": "<div class=\"i pb1\"><span>Medium  </span><span>aberration</span><span>, Chaotic Evil</span></div>",
+    "name": "Death Slaad"
+  },
+  {
+    "en": "Large  celestial (angel), Lawful Good",
+    "html": "<div class=\"i pb1\"><span>Large  </span><span>celestial (angel)</span><span>, Lawful Good</span></div>",
+    "name": "Solar"
+  },
+  {
+    "en": "Medium  aberration (beholder), Lawful Neutral",
+    "html": "<div class=\"i pb1\"><span>Medium  </span><span>aberration (beholder)</span><span>, Lawful Neutral</span></div>",
+    "name": "Spectator"
+  },
+  {
+    "en": "Medium  undead, Chaotic Evil",
+    "html": "<div class=\"i pb1\"><span>Medium  </span><span>undead</span><span>, Chaotic Evil</span></div>",
+    "name": "Specter"
+  },
+  {
+    "en": "Tiny  celestial, Lawful Good",
+    "html": "<div class=\"i pb1\"><span>Tiny  </span><span>celestial</span><span>, Lawful Good</span></div>",
+    "name": "Sphinx of Wonder"
+  },
+  {
+    "en": "Large  celestial, Lawful Neutral",
+    "html": "<div class=\"i pb1\"><span>Large  </span><span>celestial</span><span>, Lawful Neutral</span></div>",
+    "name": "Sphinx of Secrets"
+  },
+  {
+    "en": "Large  celestial, Lawful Neutral",
+    "html": "<div class=\"i pb1\"><span>Large  </span><span>celestial</span><span>, Lawful Neutral</span></div>",
+    "name": "Sphinx of Lore"
+  },
+  {
+    "en": "Large  celestial, Lawful Neutral",
+    "html": "<div class=\"i pb1\"><span>Large  </span><span>celestial</span><span>, Lawful Neutral</span></div>",
+    "name": "Sphinx of Valor"
+  },
+  {
+    "en": "Medium or small humanoid, Neutral",
+    "html": "<div class=\"i pb1\"><span>Medium or small </span><span>humanoid</span><span>, Neutral</span></div>",
+    "name": "Spy"
+  },
+  {
+    "en": "Medium or small humanoid, Neutral",
+    "html": "<div class=\"i pb1\"><span>Medium or small </span><span>humanoid</span><span>, Neutral</span></div>",
+    "name": "Spy Master"
+  },
+  {
+    "en": "Small  fiend (devil), Lawful Evil",
+    "html": "<div class=\"i pb1\"><span>Small  </span><span>fiend (devil)</span><span>, Lawful Evil</span></div>",
+    "name": "Spined Devil"
+  },
+  {
+    "en": "Large  fiend, Chaotic Evil",
+    "html": "<div class=\"i pb1\"><span>Large  </span><span>fiend</span><span>, Chaotic Evil</span></div>",
+    "name": "Spirit Naga"
+  },
+  {
+    "en": "Tiny  fey, Neutral Good",
+    "html": "<div class=\"i pb1\"><span>Tiny  </span><span>fey</span><span>, Neutral Good</span></div>",
+    "name": "Sprite"
+  },
+  {
+    "en": "Tiny  monstrosity, Unaligned",
+    "html": "<div class=\"i pb1\"><span>Tiny  </span><span>monstrosity</span><span>, Unaligned</span></div>",
+    "name": "Stirge"
+  },
+  {
+    "en": "Medium  swarm (of tiny monstrosities), Unaligned",
+    "html": "<div class=\"i pb1\"><span>Medium  </span><span>swarm (of tiny monstrosities)</span><span>, Unaligned</span></div>",
+    "name": "Swarm of Stirges"
+  },
+  {
+    "en": "Huge  giant, Neutral",
+    "html": "<div class=\"i pb1\"><span>Huge  </span><span>giant</span><span>, Neutral</span></div>",
+    "name": "Stone Giant"
+  },
+  {
+    "en": "Large  construct, Unaligned",
+    "html": "<div class=\"i pb1\"><span>Large  </span><span>construct</span><span>, Unaligned</span></div>",
+    "name": "Stone Golem"
+  },
+  {
+    "en": "Huge  giant, Chaotic Good",
+    "html": "<div class=\"i pb1\"><span>Huge  </span><span>giant</span><span>, Chaotic Good</span></div>",
+    "name": "Storm Giant"
+  },
+  {
+    "en": "Medium  fiend, Neutral Evil",
+    "html": "<div class=\"i pb1\"><span>Medium  </span><span>fiend</span><span>, Neutral Evil</span></div>",
+    "name": "Succubus"
+  },
+  {
+    "en": "Gargantuan  monstrosity (titan), Unaligned",
+    "html": "<div class=\"i pb1\"><span>Gargantuan  </span><span>monstrosity (titan)</span><span>, Unaligned</span></div>",
+    "name": "Tarrasque"
+  },
+  {
+    "en": "Medium  monstrosity, Neutral",
+    "html": "<div class=\"i pb1\"><span>Medium  </span><span>monstrosity</span><span>, Neutral</span></div>",
+    "name": "Thri-kreen Marauder"
+  },
+  {
+    "en": "Medium  monstrosity, Neutral",
+    "html": "<div class=\"i pb1\"><span>Medium  </span><span>monstrosity</span><span>, Neutral</span></div>",
+    "name": "Thri-kreen Psion"
+  },
+  {
+    "en": "Medium or small humanoid, Neutral",
+    "html": "<div class=\"i pb1\"><span>Medium or small </span><span>humanoid</span><span>, Neutral</span></div>",
+    "name": "Tough"
+  },
+  {
+    "en": "Medium or small humanoid, Neutral",
+    "html": "<div class=\"i pb1\"><span>Medium or small </span><span>humanoid</span><span>, Neutral</span></div>",
+    "name": "Tough Boss"
+  },
+  {
+    "en": "Huge  plant, Chaotic Good",
+    "html": "<div class=\"i pb1\"><span>Huge  </span><span>plant</span><span>, Chaotic Good</span></div>",
+    "name": "Treant"
+  },
+  {
+    "en": "Medium  monstrosity, Chaotic Evil",
+    "html": "<div class=\"i pb1\"><span>Medium  </span><span>monstrosity</span><span>, Chaotic Evil</span></div>",
+    "name": "Troglodyte"
+  },
+  {
+    "en": "Large  giant, Chaotic Evil",
+    "html": "<div class=\"i pb1\"><span>Large  </span><span>giant</span><span>, Chaotic Evil</span></div>",
+    "name": "Troll"
+  },
+  {
+    "en": "Small  giant, Chaotic Evil",
+    "html": "<div class=\"i pb1\"><span>Small  </span><span>giant</span><span>, Chaotic Evil</span></div>",
+    "name": "Troll Limb"
+  },
+  {
+    "en": "Medium  fiend (yugoloth), Neutral Evil",
+    "html": "<div class=\"i pb1\"><span>Medium  </span><span>fiend (yugoloth)</span><span>, Neutral Evil</span></div>",
+    "name": "Ultroloth"
+  },
+  {
+    "en": "Large  monstrosity, Chaotic Evil",
+    "html": "<div class=\"i pb1\"><span>Large  </span><span>monstrosity</span><span>, Chaotic Evil</span></div>",
+    "name": "Umber Hulk"
+  },
+  {
+    "en": "Large  celestial, Lawful Good",
+    "html": "<div class=\"i pb1\"><span>Large  </span><span>celestial</span><span>, Lawful Good</span></div>",
+    "name": "Unicorn"
+  },
+  {
+    "en": "Medium or small humanoid, Neutral Evil",
+    "html": "<div class=\"i pb1\"><span>Medium or small </span><span>humanoid</span><span>, Neutral Evil</span></div>",
+    "name": "Vampire Familiar"
+  },
+  {
+    "en": "Medium or small undead, Neutral Evil",
+    "html": "<div class=\"i pb1\"><span>Medium or small </span><span>undead</span><span>, Neutral Evil</span></div>",
+    "name": "Vampire Spawn"
+  },
+  {
+    "en": "Medium or small undead, Neutral Evil",
+    "html": "<div class=\"i pb1\"><span>Medium or small </span><span>undead</span><span>, Neutral Evil</span></div>",
+    "name": "Vampire Nightbringer"
+  },
+  {
+    "en": "Medium or small undead, Lawful Evil",
+    "html": "<div class=\"i pb1\"><span>Medium or small </span><span>undead</span><span>, Lawful Evil</span></div>",
+    "name": "Vampire"
+  },
+  {
+    "en": "Medium or small undead, Lawful Evil",
+    "html": "<div class=\"i pb1\"><span>Medium or small </span><span>undead</span><span>, Lawful Evil</span></div>",
+    "name": "Vampire Umbral Lord"
+  },
+  {
+    "en": "Large  fiend (demon), Chaotic Evil",
+    "html": "<div class=\"i pb1\"><span>Large  </span><span>fiend (demon)</span><span>, Chaotic Evil</span></div>",
+    "name": "Vrock"
+  },
+  {
+    "en": "Medium or small humanoid, Neutral",
+    "html": "<div class=\"i pb1\"><span>Medium or small </span><span>humanoid</span><span>, Neutral</span></div>",
+    "name": "Warrior Infantry"
+  },
+  {
+    "en": "Medium or small humanoid, Neutral",
+    "html": "<div class=\"i pb1\"><span>Medium or small </span><span>humanoid</span><span>, Neutral</span></div>",
+    "name": "Warrior Veteran"
+  },
+  {
+    "en": "Medium or small humanoid, Neutral",
+    "html": "<div class=\"i pb1\"><span>Medium or small </span><span>humanoid</span><span>, Neutral</span></div>",
+    "name": "Warrior Commander"
+  },
+  {
+    "en": "Large  elemental, Neutral",
+    "html": "<div class=\"i pb1\"><span>Large  </span><span>elemental</span><span>, Neutral</span></div>",
+    "name": "Water Elemental"
+  },
+  {
+    "en": "Large  elemental, Neutral",
+    "html": "<div class=\"i pb1\"><span>Large  </span><span>elemental</span><span>, Neutral</span></div>",
+    "name": "Water Weird"
+  },
+  {
+    "en": "Medium or small monstrosity (lycanthrope), Neutral Good",
+    "html": "<div class=\"i pb1\"><span>Medium or small </span><span>monstrosity (lycanthrope)</span><span>, Neutral Good</span></div>",
+    "name": "Werebear"
+  },
+  {
+    "en": "Medium or small monstrosity (lycanthrope), Neutral Evil",
+    "html": "<div class=\"i pb1\"><span>Medium or small </span><span>monstrosity (lycanthrope)</span><span>, Neutral Evil</span></div>",
+    "name": "Wereboar"
+  },
+  {
+    "en": "Medium or small monstrosity (lycanthrope), Lawful Evil",
+    "html": "<div class=\"i pb1\"><span>Medium or small </span><span>monstrosity (lycanthrope)</span><span>, Lawful Evil</span></div>",
+    "name": "Wererat"
+  },
+  {
+    "en": "Medium or small monstrosity (lycanthrope), Neutral",
+    "html": "<div class=\"i pb1\"><span>Medium or small </span><span>monstrosity (lycanthrope)</span><span>, Neutral</span></div>",
+    "name": "Weretiger"
+  },
+  {
+    "en": "Medium or small monstrosity (lycanthrope), Chaotic Evil",
+    "html": "<div class=\"i pb1\"><span>Medium or small </span><span>monstrosity (lycanthrope)</span><span>, Chaotic Evil</span></div>",
+    "name": "Werewolf"
+  },
+  {
+    "en": "Medium  dragon (chromatic), Chaotic Evil",
+    "html": "<div class=\"i pb1\"><span>Medium  </span><span>dragon (chromatic)</span><span>, Chaotic Evil</span></div>",
+    "name": "White Dragon Wyrmling"
+  },
+  {
+    "en": "Large  dragon (chromatic), Chaotic Evil",
+    "html": "<div class=\"i pb1\"><span>Large  </span><span>dragon (chromatic)</span><span>, Chaotic Evil</span></div>",
+    "name": "Young White Dragon"
+  },
+  {
+    "en": "Huge  dragon (chromatic), Chaotic Evil",
+    "html": "<div class=\"i pb1\"><span>Huge  </span><span>dragon (chromatic)</span><span>, Chaotic Evil</span></div>",
+    "name": "Adult White Dragon"
+  },
+  {
+    "en": "Gargantuan  dragon (chromatic), Chaotic Evil",
+    "html": "<div class=\"i pb1\"><span>Gargantuan  </span><span>dragon (chromatic)</span><span>, Chaotic Evil</span></div>",
+    "name": "Ancient White Dragon"
+  },
+  {
+    "en": "Medium  undead, Neutral Evil",
+    "html": "<div class=\"i pb1\"><span>Medium  </span><span>undead</span><span>, Neutral Evil</span></div>",
+    "name": "Wight"
+  },
+  {
+    "en": "Tiny  undead, Chaotic Evil",
+    "html": "<div class=\"i pb1\"><span>Tiny  </span><span>undead</span><span>, Chaotic Evil</span></div>",
+    "name": "Will-o’-Wisp"
+  },
+  {
+    "en": "Large  monstrosity, Neutral Evil",
+    "html": "<div class=\"i pb1\"><span>Large  </span><span>monstrosity</span><span>, Neutral Evil</span></div>",
+    "name": "Winter Wolf"
+  },
+  {
+    "en": "Large  fey, Neutral Evil",
+    "html": "<div class=\"i pb1\"><span>Large  </span><span>fey</span><span>, Neutral Evil</span></div>",
+    "name": "Worg"
+  },
+  {
+    "en": "Huge  fey, Neutral Evil",
+    "html": "<div class=\"i pb1\"><span>Huge  </span><span>fey</span><span>, Neutral Evil</span></div>",
+    "name": "Dire Worg"
+  },
+  {
+    "en": "Medium or small undead, Neutral Evil",
+    "html": "<div class=\"i pb1\"><span>Medium or small </span><span>undead</span><span>, Neutral Evil</span></div>",
+    "name": "Wraith"
+  },
+  {
+    "en": "Large  dragon, Unaligned",
+    "html": "<div class=\"i pb1\"><span>Large  </span><span>dragon</span><span>, Unaligned</span></div>",
+    "name": "Wyvern"
+  }
+]

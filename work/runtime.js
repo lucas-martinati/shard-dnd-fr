@@ -20,6 +20,7 @@
   let analysisResultLimit=readAnalysisLimit(settings.analysisResultLimit,200);
   let analysisNodeLimit=readAnalysisLimit(settings.analysisNodeLimit,10000);
   let descriptionBatchLimit=readAnalysisLimit(settings.descriptionBatchLimit,100);
+  let analysisDeep=settings.analysisDeep===true;
   const analysisLimits=()=>({results:analysisResultLimit,elements:analysisNodeLimit,descriptions:descriptionBatchLimit});
   const AIDEDD_CACHE_KEY='shard-fr-aidedd-v1';
   const AIDEDD_LABELS={spell:'sort',monster:'monstre',feat:'don',invocation:'manifestation','magic-item':'objet magique'};
@@ -546,7 +547,7 @@
     </div>`;
   shadow.append(panel);
   const diagnostics=document.createElement('details');
-  diagnostics.innerHTML="<summary>Repérer les traductions manquantes</summary>\n<p>Rapports locaux. Les résultats sont des candidats à vérifier ; les valeurs des champs et les éditeurs sont exclus.</p>\n<fieldset><legend>Page affichée</legend>\n<p>Analyse uniquement les textes actuellement visibles.</p>\n<label for=\"analysisResultLimit\">Nombre maximal de résultats (0 = sans limite)</label><input id=\"analysisResultLimit\" type=\"number\" min=\"0\" step=\"1\">\n<label for=\"analysisNodeLimit\">Éléments à examiner (0 = sans limite)</label><input id=\"analysisNodeLimit\" type=\"number\" min=\"0\" step=\"1\">\n<div class=\"row\"><button id=\"scanMissing\" type=\"button\">Analyser la page</button><button id=\"clearMissing\" type=\"button\">Effacer la page</button></div>\n<p id=\"missingStatus\" role=\"status\"></p><ol id=\"missingResults\"></ol>\n<div class=\"row\"><button id=\"copyMissing\" type=\"button\" disabled>Copier la page (JSON)</button><button id=\"exportMissing\" type=\"button\" disabled>Exporter la page (JSON)</button></div>\n<p id=\"copyMissingStatus\" role=\"status\"></p>\n</fieldset>\n<fieldset><legend>Descriptions des fiches</legend>\n<label class=\"secondary\"><input id=\"showDescriptionStatus\" type=\"checkbox\"><span>Marquer les descriptions à compléter</span></label>\n<p>Les descriptions à compléter sont entourées en rouge. Le contrôle privilégie 2024 et parcourt les fiches déjà chargées. Tu peux l’arrêter ou ouvrir les fiches manuellement.</p>\n<label for=\"descriptionBatchLimit\">Fiches par passage (0 = toutes les fiches chargées)</label><input id=\"descriptionBatchLimit\" type=\"number\" min=\"0\" step=\"1\">\n<div class=\"row\"><button id=\"inspectDescriptions\" type=\"button\" disabled>Contrôler les fiches</button><button id=\"stopDescriptions\" type=\"button\" disabled>Arrêter</button></div>\n<p id=\"descriptionStatus\" role=\"status\"></p><p id=\"descriptionSummary\"></p><ol id=\"descriptionResults\"></ol>\n<div class=\"row\"><button id=\"copyDescriptions\" type=\"button\" disabled>Copier les descriptions (JSON)</button><button id=\"exportDescriptions\" type=\"button\" disabled>Exporter les descriptions (JSON)</button></div>\n<p id=\"copyDescriptionsStatus\" role=\"status\"></p>\n<button id=\"clearDescriptions\" type=\"button\">Effacer les descriptions</button>\n</fieldset>\n";
+  diagnostics.innerHTML="<summary>Repérer les traductions manquantes</summary>\n<p>Rapports locaux. Les résultats sont des candidats à vérifier ; les valeurs des champs et les éditeurs sont exclus.</p>\n<label class=\"secondary\"><input id=\"analysisDeep\" type=\"checkbox\"><span>Analyse approfondie<small>Inclure aussi les textes non reconnus sans indice anglais. Peut inclure du français et des noms propres.</small></span></label>\n<fieldset><legend>Page affichée</legend>\n<p>Analyse uniquement les textes actuellement visibles.</p>\n<label for=\"analysisResultLimit\">Nombre maximal de résultats (0 = sans limite)</label><input id=\"analysisResultLimit\" type=\"number\" min=\"0\" step=\"1\">\n<label for=\"analysisNodeLimit\">Éléments à examiner (0 = sans limite)</label><input id=\"analysisNodeLimit\" type=\"number\" min=\"0\" step=\"1\">\n<div class=\"row\"><button id=\"scanMissing\" type=\"button\">Analyser la page</button><button id=\"clearMissing\" type=\"button\">Effacer la page</button></div>\n<p id=\"missingStatus\" role=\"status\"></p><ol id=\"missingResults\"></ol>\n<div class=\"row\"><button id=\"copyMissing\" type=\"button\" disabled>Copier la page (JSON)</button><button id=\"exportMissing\" type=\"button\" disabled>Exporter la page (JSON)</button></div>\n<p id=\"copyMissingStatus\" role=\"status\"></p>\n</fieldset>\n<fieldset><legend>Descriptions des fiches</legend>\n<label class=\"secondary\"><input id=\"showDescriptionStatus\" type=\"checkbox\"><span>Marquer les descriptions à compléter</span></label>\n<p>Les descriptions à compléter sont entourées en rouge. Le contrôle privilégie 2024 et parcourt les fiches déjà chargées. Tu peux l’arrêter ou ouvrir les fiches manuellement.</p>\n<label for=\"descriptionBatchLimit\">Fiches par passage (0 = toutes les fiches chargées)</label><input id=\"descriptionBatchLimit\" type=\"number\" min=\"0\" step=\"1\">\n<div class=\"row\"><button id=\"inspectDescriptions\" type=\"button\" disabled>Contrôler les fiches</button><button id=\"stopDescriptions\" type=\"button\" disabled>Arrêter</button></div>\n<p id=\"descriptionStatus\" role=\"status\"></p><p id=\"descriptionSummary\"></p><ol id=\"descriptionResults\"></ol>\n<div class=\"row\"><button id=\"copyDescriptions\" type=\"button\" disabled>Copier les descriptions (JSON)</button><button id=\"exportDescriptions\" type=\"button\" disabled>Exporter les descriptions (JSON)</button></div>\n<p id=\"copyDescriptionsStatus\" role=\"status\"></p>\n<button id=\"clearDescriptions\" type=\"button\">Effacer les descriptions</button>\n</fieldset>\n";
   panel.append(diagnostics);
   const footer=document.createElement('footer');footer.className='panel-footer';
   footer.innerHTML=`<span>D&D FR · v${SCRIPT_VERSION}</span><span class="shortcut" aria-label="Ouvrir ou fermer le panneau : Alt + Maj + F" title="Ouvrir ou fermer le panneau"><kbd>Alt</kbd> + <kbd>Maj</kbd> + <kbd>F</kbd></span>`;
@@ -641,7 +642,7 @@
 
   function persist() {
     // Les anciennes corrections restent sauvegardées mais ne remplacent plus AideDD.
-    settings={...settings,enabled,bilingual,showButton,buttonPosition,analysisResultLimit,analysisNodeLimit,descriptionBatchLimit};
+    settings={...settings,enabled,bilingual,showButton,buttonPosition,analysisResultLimit,analysisNodeLimit,descriptionBatchLimit,analysisDeep};
     GM_setValue(KEY,JSON.stringify(settings));
     updateControls();hideNativeSearch();
     clearDiagnostics();
@@ -816,10 +817,14 @@
   function restoreInline(){for(const record of [...inlineBlocks])releaseInline(record);}
   function creatureTypeTranslation(el,source){
     if(!el.matches('.monstersimple .i.pb1'))return null;
-    const match=/^\s*(Tiny|Small|Medium|Large|Huge|Gargantuan)\s+(Aberration|Beast|Celestial|Construct|Dragon|Elemental|Fey|Fiend|Giant|Humanoid|Monstrosity|Ooze|Plant|Undead),\s*(Lawful Good|Neutral Good|Chaotic Good|Lawful Neutral|Neutral|Chaotic Neutral|Lawful Evil|Neutral Evil|Chaotic Evil|Unaligned)\s*$/i.exec(source);
-    if(!match)return null;
     const sizes={tiny:'TP',small:'P',medium:'M',large:'G',huge:'TG',gargantuan:'Gig'};
-    return translate(match[2])+' de taille '+sizes[normalize(match[1])]+', '+translate(match[3]);
+    const match=/^\s*(Tiny|Small|Medium|Large|Huge|Gargantuan)(?:\s+(or|and)\s+(Tiny|Small|Medium|Large|Huge|Gargantuan))?\s+(Aberration|Beast|Celestial|Construct|Dragon|Elemental|Fey|Fiend|Giant|Humanoid|Monstrosity|Ooze|Plant|Undead)(?:\s*\(([^()]+)\))?,\s*(Lawful Good|Neutral Good|Chaotic Good|Lawful Neutral|Neutral|Chaotic Neutral|Lawful Evil|Neutral Evil|Chaotic Evil|Unaligned)\s*$/i.exec(source);
+    if(match)return translate(match[4]).replace(/^\p{L}/u,c=>c.toLocaleUpperCase('fr'))+(match[5]?' ('+translate(match[5])+')':'')+' de taille '+sizes[normalize(match[1])]+(match[3]?(normalize(match[2])==='or'?' ou ':' et ')+sizes[normalize(match[3])]:'')+', '+translate(match[6]);
+    // Shard ajoute parfois le sous-type sans parenthèses : « small fiends demon ».
+    const swarm=/^\s*(Tiny|Small|Medium|Large|Huge|Gargantuan)\s+swarm\s*\(of\s+(tiny|small|medium|large|huge|gargantuan)\s+(aberrations|beasts|celestials|constructs|dragons|elementals|fey|fiends|giants|humanoids|monstrosities|oozes|plants|undead)(?:\s+(demons?|devils?))?\),\s*(Unaligned|Lawful Good|Neutral Good|Chaotic Good|Lawful Neutral|Neutral|Chaotic Neutral|Lawful Evil|Neutral Evil|Chaotic Evil)\s*$/i.exec(source);
+    const plurals={aberrations:'Aberrations',beasts:'Bêtes',celestials:'Célestes',constructs:'Artificiels',dragons:'Dragons',elementals:'Élémentaires',fey:'Fées',fiends:'Fiélons',giants:'Géants',humanoids:'Humanoïdes',monstrosities:'Monstruosités',oozes:'Vases',plants:'Plantes',undead:'Morts-vivants'};
+    const subtype=swarm?.[4]?(/demons?/i.test(swarm[4])?' (Démons)':' (Diables)'):'';
+    return swarm?'Nuée de taille '+sizes[normalize(swarm[1])]+' de '+plurals[normalize(swarm[3])]+subtype+' de taille '+sizes[normalize(swarm[2])]+', '+translate(swarm[5]):null;
   }
   function processInline(el,visited){
     // Un échec sur un paragraphe inconnu vaut pour tout ce parcours, pas pour
@@ -897,12 +902,14 @@
       // restent limitées aux aptitudes concernées, sans renommer les sorts.
       const creatureBlight=normalize(match[1])==='blight'&&/\b(?:Constricting Vine|Entangling Plants)\b/.test(source)?'lierreux':null;
       const sleepBreath=normalize(match[1])==='sleep'&&/\bSleep Breath\b/.test(source)?'soporifique':null;
+      // Shard lie aussi le verbe « can teleport » au sort Téléportation.
+      const teleportVerb=normalize(match[1])==='teleport'&&/\bcan teleport\b/i.test(source)?'téléporter':null;
       const aliases=(termMeta(normalize(match[1])).aliases||[]).map(alias=>alias+match[2]);
       // Un lien Shard peut porter le possessif anglais d’un nom propre.
       // Le français conserve le nom, mais exprime la possession hors du lien.
       const possessive=/^([\p{L} -]+)['’]s$/u.exec(match[1]);
       const properName=possessive&&(entries.has(normalize(possessive[1]))||/^[A-Z]/.test(possessive[1]))?translate(possessive[1],source):null;
-      const values=[translate(en,source),armorHide,creatureBlight,sleepBreath,actionNoun?actionNoun+match[2]:null,heading?heading+match[2]:null,entry?entry.fr+match[2]:null,...aliases,properName,...(heading&&match[2]?[heading+'.',heading+':']:[]),...(/[,;]/.test(match[2])?[heading,entry?.fr]:[]),en,en.replace(/[\uE000-\uF8FF]/g,'')].filter(Boolean);
+      const values=[translate(en,source),armorHide,creatureBlight,sleepBreath,teleportVerb,actionNoun?actionNoun+match[2]:null,heading?heading+match[2]:null,entry?entry.fr+match[2]:null,...aliases,properName,...(heading&&match[2]?[heading+'.',heading+':']:[]),...(/[,;]/.test(match[2])?[heading,entry?.fr]:[]),en,en.replace(/[\uE000-\uF8FF]/g,'')].filter(Boolean);
       // Le SRD écrit « œil » là où certains noms AideDD emploient « oeil ».
       // Reconnaître les deux graphies pour garder le lien dans le paragraphe traduit.
       return [...new Set(values.flatMap(value=>[value,value.replace(/œ/gi,'oe'),value.replace(/oe/gi,'œ')]).map(s=>s.trim()))];
@@ -1286,8 +1293,20 @@
     if(!equipmentEnglishLabel.test(source)&&!equipmentInstruction.test(source)&&!englishValue)return false;
     return equipmentFieldStart.test(source)||equipmentFieldStart.test(diagnosticBlockContext(el,contexts,visibleCache));
   }
+  function diagnosticLanguageProbe(source){
+    // Les formules sont opaques ; les noms anglais entre parenthèses sont
+    // autorisés lorsqu’ils suivent leur traduction dans le mode bilingue.
+    source=source.replace(/\{[^{}]*\}/g,'');
+    return source.replace(/\(([^()]{1,150})\)/g,(all,en,offset)=>{
+      const entry=entries.get(normalize(en));
+      return entry&&names.has(normalize(en))&&inlineKey(source.slice(0,offset).trimEnd()).endsWith(inlineKey(entry.fr))?'':all;
+    });
+  }
   function hasDiagnosticEnglish(source,el,contexts,visibleCache){
-    if(hasEnglishClue(source)||hasEquipmentEnglish(source,el,contexts,visibleCache))return true;
+    source=diagnosticLanguageProbe(source);
+    const fragments=/\b(?:tiny|small|gargantuan|unaligned|undead|humanoid|monstrosit(?:y|ies)|oozes?|slashing|piercing|bludgeoning|darkvision|blindsight|tremorsense|telepathy|burrow|hover|grappled|restrained|incapacitated|unconscious|frightened|poisoned|paralyzed|petrified|stunned|charmed|deafened|lightning|necrotic|psychic|thunder)\b|\b(?:or|and)\s+(?:medium|large|huge|beast|plant|construct)\b|\b(?:self only|at will|up to|per day|as a bonus action)\b/i;
+    const mixedSizes=/\b(?:TP|P|M|G|TG|Gig|petite?|moyen(?:ne)?|grande?|gigantesque)\s+(?:or|and)\s+(?:TP|P|M|G|TG|Gig|petite?|moyen(?:ne)?|grande?|gigantesque)\b/i;
+    if(hasEnglishClue(source)||fragments.test(source)||mixedSizes.test(source)||hasEquipmentEnglish(source,el,contexts,visibleCache))return true;
     const material=diagnosticMaterialValue.exec(source);
     if(material)return looksEnglishMaterial(material[1]);
     if(!looksEnglishMaterial(source))return false;
@@ -1338,7 +1357,7 @@
     if(states.includes('error'))return 'reference-unavailable';
     return 'missing-translation';
   }
-  const diagnosticLabels={'translation-disabled':'Traduction désactivée','conflicting-translations':'Traductions contradictoires','unrecognized-layout':'Traduction connue, structure à vérifier','reference-loading':'Référence en cours de chargement','reference-unavailable':'Référence distante indisponible','missing-translation':'Correspondance absente ou formulation différente'};
+  const diagnosticLabels={'translation-disabled':'Traduction désactivée','conflicting-translations':'Traductions contradictoires','unrecognized-layout':'Traduction connue, structure à vérifier','reference-loading':'Référence en cours de chargement','reference-unavailable':'Référence distante indisponible','missing-translation':'Correspondance absente ou formulation différente','language-unverified':'Texte non reconnu, langue à vérifier'};
   let diagnosticFrenchRevision=-1,diagnosticFrenchValues=new Set();
   function knownDiagnosticFrench(){
     if(diagnosticFrenchRevision!==revision){
@@ -1371,14 +1390,18 @@
     const add=(el,source,attribute=null,displayed=null,residual=false)=>{
       source=source.replace(/\s+/g,' ').trim();
       if(!source||!/[a-zA-Z]/.test(source)||/^(?:\d+)?d\d+$/i.test(source)||/^\d+(?:[.,]\d+)?\s*lb\.?$/i.test(source)||diagnosticFormulaOnly(source)||knownFrench.has(inlineKey(source))||ignoredDiagnosticLabel(source,books))return;
-      const expected=lookupPair(inlineKey(source))||translate(source,creatureSavingThrowCell(el,source)?'creature ability saving throws':source);
+      if(knownFrench.has(inlineKey(diagnosticLanguageProbe(source))))return;
+      const typeTranslation=creatureTypeTranslation(el,source);
+      const expected=typeTranslation||lookupPair(inlineKey(source))||translate(source,creatureSavingThrowCell(el,source)?'creature ability saving throws':source);
       const current=attribute?el.getAttribute(attribute):(displayed??el.textContent);
+      if(typeTranslation&&inlineKey(current||'')===inlineKey(typeTranslation))return;
       if(!residual&&inlineKey(current||'')===inlineKey(expected)&&inlineKey(expected)!==inlineKey(source))return;
       const isLabel=attribute||source.length<100&&!el.matches('p,li,.description,.pre-wrap');
       const english=hasDiagnosticEnglish(source,el,blockContexts,visibleCache);
-      if(!isLabel&&!english)return;
-      if(isLabel&&!english&&frenchClue.test(source))return;
-      const reason=residual?'unrecognized-layout':diagnosticReason(el,source),key=inlineKey(source)+'|'+reason+'|'+(attribute||'');
+      if(!analysisDeep&&!isLabel&&!english)return;
+      if(!analysisDeep&&isLabel&&!english&&frenchClue.test(source))return;
+      if(analysisDeep&&!english&&!/\p{L}/u.test(structuredRemainder(source)))return;
+      const reason=!english&&analysisDeep?'language-unverified':residual?'unrecognized-layout':diagnosticReason(el,source),key=inlineKey(source)+'|'+reason+'|'+(attribute||'');
       let row=seen.get(key);
       if(row){row.occurrences++;}
       else{
@@ -1422,7 +1445,7 @@
       const displayed=nodes.map(n=>n.data).join(''),material=changed?diagnosticMaterialValue.exec(displayed.trim()):null;
       // Une substitution de quelques mots dans un même nœud ne prouve pas que
       // tout le champ est traduit. Conserver l’anglais original dans le rapport.
-      if(changed&&!knownFrench.has(inlineKey(displayed))&&((material&&looksEnglishMaterial(material[1]))||hasEquipmentEnglish(displayed,el,blockContexts,visibleCache)))add(el,source,null,displayed,true);
+      if(changed&&!knownFrench.has(inlineKey(displayed))&&(analysisDeep||(material&&looksEnglishMaterial(material[1]))||hasDiagnosticEnglish(displayed,el,blockContexts,visibleCache)))add(el,source,null,displayed,true);
       else if(!changed||hasDiagnosticEnglish(remainder,el,blockContexts,visibleCache))add(el,remainder,null,displayed);
     }
     for(const el of attributes?root.querySelectorAll(ATTRS.map(attr=>'['+attr+']').join(',')):[]){
@@ -1447,7 +1470,7 @@
       if(scheduled){setTimeout(finish,30);return;}
       pageScanWaiting=false;
       const {missing,truncated}=collectDiagnostics();
-      pageDiagnosticReport={schemaVersion:1,scriptVersion:SCRIPT_VERSION,scope:'visible-page',translationEnabled:enabled,limits:analysisLimits(),truncated,missingCount:missing.length,missing};
+      pageDiagnosticReport={schemaVersion:1,scriptVersion:SCRIPT_VERSION,scope:'visible-page',analysisMode:analysisDeep?'deep':'standard',translationEnabled:enabled,limits:analysisLimits(),truncated,missingCount:missing.length,missing};
       $('missingStatus').textContent=missing.length+' candidat(s) à vérifier.'+(truncated?' Analyse limitée : augmente les limites ou saisis 0 pour les supprimer, puis relance.':'')+(!enabled?' Active la traduction, puis relance l’analyse.':'');
       for(const row of missing){const item=document.createElement('li'),text=document.createElement('span'),detail=document.createElement('small');text.textContent=row.en;detail.textContent=diagnosticLabels[row.reason]+(row.context?' · '+row.context:'')+(row.occurrences>1?' · '+row.occurrences+' occurrences':'');item.append(text,detail);$('missingResults').append(item);}
       $('exportMissing').disabled=false;$('scanMissing').disabled=false;
@@ -1559,7 +1582,7 @@
     }
     // Même format de candidats que l’analyse de page, plus l’état de chaque fiche.
     const missing=descriptions.flatMap(row=>row.missing);
-    descriptionDiagnosticReport={schemaVersion:1,scriptVersion:SCRIPT_VERSION,scope:'catalogue-descriptions',translationEnabled:enabled,limits:analysisLimits(),truncated:descriptions.some(row=>row.truncated),missingCount:missing.length,missing,descriptions};
+    descriptionDiagnosticReport={schemaVersion:1,scriptVersion:SCRIPT_VERSION,scope:'catalogue-descriptions',analysisMode:analysisDeep?'deep':'standard',translationEnabled:enabled,limits:analysisLimits(),truncated:descriptions.some(row=>row.truncated),missingCount:missing.length,missing,descriptions};
     $('descriptionSummary').textContent=descriptions.length+' fiche(s) contrôlée(s) · '+descriptions.filter(row=>row.status==='incomplete').length+' à compléter.';
     $('exportDescriptions').disabled=false;
     resetDiagnosticCopy('Descriptions',true);
@@ -1597,7 +1620,7 @@
     if(!entries.length){$('descriptionStatus').textContent=all.length?'Toutes les entrées chargées ont été vérifiées. Fais défiler la liste pour charger les suivantes.':'Ouvre une liste de sorts, objets, monstres ou dons.';return;}
     const run={cancelled:false,discard:false,close:true,hash:location.hash,dialog:null,entry:null,sourceMenu:null,menusBefore:null,sourceBook:null,skipped:0};descriptionRun=run;
     $('inspectDescriptions').disabled=true;$('stopDescriptions').disabled=false;$('scanMissing').disabled=true;
-    for(const id of ['analysisResultLimit','analysisNodeLimit','descriptionBatchLimit'])$(id).disabled=true;
+    for(const id of ['analysisResultLimit','analysisNodeLimit','descriptionBatchLimit','analysisDeep'])$(id).disabled=true;
     let checked=0;
     try{
       for(const entry of entries){
@@ -1660,9 +1683,11 @@
         $('descriptionStatus').textContent=(run.cancelled?'Vérification arrêtée. ':'Vérification terminée. ')+checked+' / '+entries.length+' fiche(s) vérifiée(s).'+(run.skipped?' '+run.skipped+' sans version 2024.':'')+(batchLimit&&pendingEntries.length>batchLimit?' Limite de '+batchLimit+' fiches par passage ; augmente-la ou relance pour poursuivre.':' Fais défiler la liste pour charger les suivantes.');
       }
       descriptionRun=null;$('inspectDescriptions').disabled=!$('showDescriptionStatus').checked;$('stopDescriptions').disabled=true;$('scanMissing').disabled=false;descriptionSelection=null;
-      for(const id of ['analysisResultLimit','analysisNodeLimit','descriptionBatchLimit'])$(id).disabled=false;
+      for(const id of ['analysisResultLimit','analysisNodeLimit','descriptionBatchLimit','analysisDeep'])$(id).disabled=false;
     }
   }
+  $('analysisDeep').checked=analysisDeep;
+  $('analysisDeep').onchange=()=>{analysisDeep=$('analysisDeep').checked;clearDiagnostics();settings={...settings,analysisDeep};GM_setValue(KEY,JSON.stringify(settings));};
   $('showDescriptionStatus').onchange=()=>{
     if(!$('showDescriptionStatus').checked)clearDescriptionDiagnostics();
     $('inspectDescriptions').disabled=!$('showDescriptionStatus').checked||!!descriptionRun;scheduleDescriptionStatus();

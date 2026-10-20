@@ -1,0 +1,1813 @@
+{
+  "source": "Traduction proposée des cinq rapports utilisateur MM 2024 en version 1.17.50 · HTML vérifié dans Shard, chapitres S, T, V et X–Z · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · complément du 20 octobre 2026",
+  "reports": [
+    {
+      "name": "attachment-1",
+      "truncated": false,
+      "rows": [
+        {
+          "en": "Multiattack. The dragon makes three Rend attacks.",
+          "kind": "description",
+          "reason": "unrecognized-layout",
+          "context": "Shadow Dragon",
+          "occurrences": 1
+        },
+        {
+          "en": "Bound. The guardian is magically bound to an amulet. While the guardian and its amulet are on the same plane of existence, the amulet’s wearer can telepathically call the guardian to travel to it, and the guardian knows the distance and direction to the amulet. If the guardian is within 60 feet of the amulet’s wearer, half of any damage the wearer takes (round up) is transferred to the guardian.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "Shield Guardian",
+          "occurrences": 1
+        },
+        {
+          "en": "Regeneration. The guardian regains 10 Hit Points at the start of each of its turns if it has at least 1 Hit Point.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "Shield Guardian",
+          "occurrences": 1
+        },
+        {
+          "en": "Spell Storing. A spellcaster who wears the guardian’s amulet can cause the guardian to store one spell of level 4 or lower. To do so, the wearer must cast the spell on the guardian while within 5 feet of it. The spell has no effect but is stored within the guardian. Any previously stored spell is lost when a new spell is stored. The guardian can cast the spell stored with any parameters set by the original caster, requiring no spell components and using the caster’s spellcasting ability. The stored spell is then lost.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "Shield Guardian",
+          "occurrences": 1
+        },
+        {
+          "en": "Fist. Melee Attack Roll: +7, reach 10 ft. Hit: 11 (2d6 + 4) Bludgeoning damage plus 7 (2d6) Force damage.",
+          "kind": "description",
+          "reason": "unrecognized-layout",
+          "context": "Shield Guardian",
+          "occurrences": 1
+        },
+        {
+          "en": "Protection. Trigger: An attack roll hits the wearer of the guardian’s amulet while the wearer is within 5 feet of the guardian. Response: The wearer gains a +5 bonus to AC, including against the triggering attack and possibly causing it to miss, until the start of the guardian’s next turn.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "Shield Guardian",
+          "occurrences": 1
+        },
+        {
+          "en": "Multiattack. The dragon makes three Rend attacks. It can replace one attack with a use of (A) Paralyzing Breath or (B) Spellcasting to cast Ice Knife.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "Adult Silver Dragon",
+          "occurrences": 1
+        },
+        {
+          "en": "Rend. Melee Attack Roll: +13, reach 10 ft. Hit: 17 (2d8 + 8) Slashing damage plus 4 (1d8) Cold damage.",
+          "kind": "description",
+          "reason": "unrecognized-layout",
+          "context": "Adult Silver Dragon",
+          "occurrences": 1
+        },
+        {
+          "en": "Cold Breath (Recharge 5–6). Constitution Saving Throw: DC 20, each creature in a 60-foot Cone. Failure: 54 (12d8) Cold damage. Success: Half damage.",
+          "kind": "description",
+          "reason": "unrecognized-layout",
+          "context": "Adult Silver Dragon",
+          "occurrences": 1
+        },
+        {
+          "en": "Spellcasting. The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 19, +11 to hit with spell attacks):",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "Adult Silver Dragon",
+          "occurrences": 1
+        },
+        {
+          "en": "Languages Slaad; telepathy 60 ft.",
+          "kind": "term",
+          "reason": "unrecognized-layout",
+          "context": "Red Slaad",
+          "occurrences": 2
+        },
+        {
+          "en": "Languages Common, Slaad; telepathy 60 ft.",
+          "kind": "term",
+          "reason": "unrecognized-layout",
+          "context": "Green Slaad",
+          "occurrences": 3
+        },
+        {
+          "en": "1/Day Each: Fireball, Invisibility (self only)",
+          "kind": "description",
+          "reason": "unrecognized-layout",
+          "context": "Green Slaad",
+          "occurrences": 1
+        },
+        {
+          "en": "At Will: Detect Magic, Detect Thoughts, Invisibility (self only), Mage Hand, Major Image",
+          "kind": "description",
+          "reason": "unrecognized-layout",
+          "context": "Gray Slaad",
+          "occurrences": 2
+        },
+        {
+          "en": "1/Day Each: Cloudkill, Fly, Plane Shift (self only), Tongues",
+          "kind": "description",
+          "reason": "unrecognized-layout",
+          "context": "Gray Slaad",
+          "occurrences": 1
+        },
+        {
+          "en": "Multiattack. The slaad makes two Chaos Blade attacks.",
+          "kind": "description",
+          "reason": "unrecognized-layout",
+          "context": "Death Slaad",
+          "occurrences": 1
+        },
+        {
+          "en": "Sunlight Sensitivity. While in sunlight, the specter has Disadvantage on ability checks and attack rolls.",
+          "kind": "description",
+          "reason": "unrecognized-layout",
+          "context": "Specter",
+          "occurrences": 1
+        },
+        {
+          "en": "Life Drain. Melee Attack Roll: +4, reach 5 ft. Hit: 7 (2d6) Necrotic damage. If the target is a creature, its Hit Point maximum decreases by an amount equal to the damage taken.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "Specter",
+          "occurrences": 1
+        },
+        {
+          "en": "Inscrutable. No magic can observe the sphinx remotely or detect its thoughts without its permission. Wisdom (Insight) checks made to ascertain its intentions or sincerity are made with Disadvantage.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "Sphinx of Secrets",
+          "occurrences": 3
+        },
+        {
+          "en": "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature’s turn, the sphinx can expend a use to take one of the following actions. The sphinx regains all expended uses at the start of each of its turns.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "Sphinx of Lore",
+          "occurrences": 2
+        },
+        {
+          "en": "Multiattack. The sphinx makes two Claw attacks and uses Roar.",
+          "kind": "description",
+          "reason": "unrecognized-layout",
+          "context": "Sphinx of Valor",
+          "occurrences": 1
+        },
+        {
+          "en": "Roar (3/Day). The sphinx emits a magical roar. Whenever it roars, the roar has a different effect, as detailed below (the sequence resets when it takes a Long Rest):",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "Sphinx of Valor",
+          "occurrences": 1
+        },
+        {
+          "en": "Spellcasting. The sphinx casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save DC 20):",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "Sphinx of Valor",
+          "occurrences": 1
+        },
+        {
+          "en": "Senses Darkvision 120 ft. (unimpeded by magical Darkness);, Passive Perception 12",
+          "kind": "term",
+          "reason": "unrecognized-layout",
+          "context": "Spined Devil",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "name": "attachment-2",
+      "truncated": false,
+      "rows": [
+        {
+          "en": "Immunities Charmed (except from its vampire master)",
+          "kind": "term",
+          "reason": "unrecognized-layout",
+          "context": "Vampire Familiar",
+          "occurrences": 1
+        },
+        {
+          "en": "Vampiric Connection. While the familiar and its vampire master are on the same plane of existence, the vampire can communicate with the familiar telepathically, and the vampire can perceive through the familiar’s senses.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "Vampire Familiar",
+          "occurrences": 1
+        },
+        {
+          "en": "Multiattack. The familiar makes two Umbral Dagger attacks.",
+          "kind": "description",
+          "reason": "unrecognized-layout",
+          "context": "Vampire Familiar",
+          "occurrences": 1
+        },
+        {
+          "en": "Umbral Dagger. Melee or Ranged Attack Roll: +5, reach 5 ft. or range 20/60 ft. Hit: 5 (1d4 + 3) Piercing damage plus 7 (3d4) Necrotic damage. If the target is reduced to 0 Hit Points by this attack, the target becomes Stable but has the Poisoned condition for 1 hour. While it has the Poisoned condition, the target has the Paralyzed condition.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "Vampire Familiar",
+          "occurrences": 1
+        },
+        {
+          "en": "Deathless Agility. The familiar takes the Dash or Disengage action.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "Vampire Familiar",
+          "occurrences": 1
+        },
+        {
+          "en": "Vampire Weakness. The vampire has these weaknesses:",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "Vampire Spawn",
+          "occurrences": 3
+        },
+        {
+          "en": "Forbiddance. The vampire can’t enter a residence without an invitation from an occupant.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "Vampire Spawn",
+          "occurrences": 3
+        },
+        {
+          "en": "Running Water. The vampire takes 20 Acid damage if it ends its turn in running water.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "Vampire Spawn",
+          "occurrences": 3
+        },
+        {
+          "en": "Sunlight. The vampire takes 20 Radiant damage if it starts its turn in sunlight. While in sunlight, it has Disadvantage on attack rolls and ability checks.",
+          "kind": "description",
+          "reason": "unrecognized-layout",
+          "context": "Vampire Spawn",
+          "occurrences": 3
+        },
+        {
+          "en": "Multiattack. The vampire makes two Claw attacks and uses Bite.",
+          "kind": "description",
+          "reason": "unrecognized-layout",
+          "context": "Vampire Spawn",
+          "occurrences": 1
+        },
+        {
+          "en": "Claw. Melee Attack Roll: +6, reach 5 ft. Hit: 8 (2d4 + 3) Slashing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 13) from one of two claws.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "Vampire Spawn",
+          "occurrences": 1
+        },
+        {
+          "en": "Deathless Agility. The vampire takes the Dash or Disengage action.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "Vampire Spawn",
+          "occurrences": 1
+        },
+        {
+          "en": "Multiattack (Vampire Form Only). The vampire makes two Grave Strike attacks and uses Bite.",
+          "kind": "description",
+          "reason": "unrecognized-layout",
+          "context": "Vampire",
+          "occurrences": 1
+        },
+        {
+          "en": "Grave Strike (Vampire Form Only). Melee Attack Roll: +9, reach 5 ft. Hit: 8 (1d8 + 4) Bludgeoning damage plus 7 (2d6) Necrotic damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 14) from one of two hands.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "Vampire",
+          "occurrences": 1
+        },
+        {
+          "en": "Charm (Recharge 5–6). The vampire casts Charm Person, requiring no spell components and using Charisma as the spellcasting ability (spell save DC 17), and the duration is 24 hours. The Charmed target is a willing recipient of the vampire’s Bite, the damage of which doesn’t end the spell. When the spell ends, the target is unaware it was Charmed by the vampire.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "Vampire",
+          "occurrences": 1
+        },
+        {
+          "en": "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature’s turn, the vampire can expend a use to take one of the following actions. The vampire regains all expended uses at the start of each of its turns.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "Vampire",
+          "occurrences": 2
+        },
+        {
+          "en": "Beguile. The vampire casts Command, requiring no spell components and using Charisma as the spellcasting ability (spell save DC 17). The vampire can’t take this action again until the start of its next turn.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "Vampire",
+          "occurrences": 1
+        },
+        {
+          "en": "Deathless Strike. The vampire moves up to half its Speed, and it makes one Grave Strike attack.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "Vampire",
+          "occurrences": 1
+        },
+        {
+          "en": "Demonic Restoration. If the vrock dies outside the Abyss, its body dissolves into ichor, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Abyss.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "Vrock",
+          "occurrences": 1
+        },
+        {
+          "en": "Multiattack. The vrock makes two Shred attacks.",
+          "kind": "description",
+          "reason": "unrecognized-layout",
+          "context": "Vrock",
+          "occurrences": 1
+        },
+        {
+          "en": "Shred. Melee Attack Roll: +6, reach 5 ft. Hit: 10 (2d6 + 3) Piercing damage plus 10 (3d6) Poison damage.",
+          "kind": "description",
+          "reason": "unrecognized-layout",
+          "context": "Vrock",
+          "occurrences": 1
+        },
+        {
+          "en": "Spores (Recharge 6). Constitution Saving Throw: DC 15, each creature in a 20-foot Emanation originating from the vrock. Failure: The target has the Poisoned condition and repeats the save at the end of each of its turns, ending the effect on itself on a success. While Poisoned, the target takes 5 (1d10) Poison damage at the start of each of its turns. Emptying a flask of Holy Water on the target ends the effect early.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "Vrock",
+          "occurrences": 1
+        },
+        {
+          "en": "Stunning Screech (1/Day). Constitution Saving Throw: DC 15, each creature in a 20-foot Emanation originating from the vrock (demons succeed automatically). Failure: 10 (3d6) Thunder damage, and the target has the Stunned condition until the end of the vrock’s next turn.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "Vrock",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "name": "pasted-vampires",
+      "truncated": false,
+      "rows": [
+        {
+          "en": "Immunities Charmed (except from its vampire master)",
+          "kind": "term",
+          "reason": "unrecognized-layout",
+          "context": "Vampire Familiar",
+          "occurrences": 1
+        },
+        {
+          "en": "Deathless Agility. The vampire takes the Dash or Disengage action.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "Vampire Spawn",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "name": "pasted-xy",
+      "truncated": false,
+      "rows": [
+        {
+          "en": "Earth Glide. The xorn can burrow through nonmagical, unworked earth and stone. While doing so, the xorn doesn’t disturb the material it moves through.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "Xorn",
+          "occurrences": 1
+        },
+        {
+          "en": "Ice Throw. Ranged Attack Roll: +6, range 30/120 ft. Hit: 6 (1d4 + 4) Bludgeoning damage plus 2 (1d4) Cold damage.",
+          "kind": "description",
+          "reason": "unrecognized-layout",
+          "context": "Yeti",
+          "occurrences": 1
+        },
+        {
+          "en": "Chilling Gaze. Constitution Saving Throw: DC 13, one creature the yeti can see within 30 feet. Failure: 5 (2d4) Cold damage, and the target has the Paralyzed condition until the start of the yeti’s next turn unless the target has Immunity to Cold damage. Success: The target is immune to the Chilling Gaze of all yetis (but not abominable yetis) for 1 hour.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "Yeti",
+          "occurrences": 1
+        },
+        {
+          "en": "Ice Throw. Ranged Attack Roll: +11, range 60/240 ft. Hit: 12 (2d4 + 7) Bludgeoning damage plus 7 (2d6) Cold damage.",
+          "kind": "description",
+          "reason": "unrecognized-layout",
+          "context": "Abominable Yeti",
+          "occurrences": 1
+        },
+        {
+          "en": "Web Walker. The yochlol ignores movement restrictions caused by webs.",
+          "kind": "description",
+          "reason": "unrecognized-layout",
+          "context": "Yochlol",
+          "occurrences": 1
+        },
+        {
+          "en": "Caustic Lash. Melee or Ranged Attack Roll: +8, reach 10 ft. or range 120 ft. Hit: 25 (6d6 + 4) Acid damage.",
+          "kind": "description",
+          "reason": "unrecognized-layout",
+          "context": "Yochlol",
+          "occurrences": 1
+        },
+        {
+          "en": "At Will: Detect Thoughts, Gaseous Form (self only), Web",
+          "kind": "description",
+          "reason": "unrecognized-layout",
+          "context": "Yochlol",
+          "occurrences": 1
+        },
+        {
+          "en": "Shape-Shift. The yochlol shape-shifts into a Medium Humanoid or a Medium spider or back into its true form. Its game statistics are the same in each form. Any equipment it is wearing or carrying isn’t transformed.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "Yochlol",
+          "occurrences": 1
+        },
+        {
+          "en": "Toxic Escape. Trigger: The yochlol is hit by an attack roll. Response: The yochlol halves the attack’s damage to itself (round down), and it teleports to an unoccupied space it can see within 30 feet of itself. Constitution Saving Throw: DC 15, each creature within 5 feet of the yochlol’s destination space. Failure: The target has the Poisoned condition until the end of its next turn. While Poisoned, it has the Incapacitated condition.",
+          "kind": "description",
+          "reason": "unrecognized-layout",
+          "context": "Yochlol",
+          "occurrences": 1
+        },
+        {
+          "en": "Stealth+4 (+6 while in snake form)",
+          "kind": "description",
+          "reason": "unrecognized-layout",
+          "context": "Yuan-ti Malison (Type 1)",
+          "occurrences": 3
+        },
+        {
+          "en": "Spellcasting (Yuan-ti Form Only). The yuan-ti casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save DC 13):",
+          "kind": "description",
+          "reason": "conflicting-translations",
+          "context": "Yuan-ti Malison (Type 1)",
+          "occurrences": 3
+        },
+        {
+          "en": "Shape-Shift. The yuan-ti shape-shifts into a Medium snake or returns to its true form. If it dies, it stays in its current form. The yuan-ti’s game statistics are the same in each form, except where noted. Any equipment it is wearing or carrying isn’t transformed.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "Yuan-ti Malison (Type 1)",
+          "occurrences": 3
+        },
+        {
+          "en": "Shape-Shift. The yuan-ti shape-shifts into a Large snake or returns to its true form. If it dies, it stays in its current form. The yuan-ti’s game statistics are the same in each form, except where noted. Any equipment it is wearing or carrying isn’t transformed.",
+          "kind": "description",
+          "reason": "missing-translation",
+          "context": "Yuan-ti Abomination",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "name": "pasted-thri-kreen",
+      "truncated": false,
+      "rows": [
+        {
+          "en": "Languages Thri-kreen; telepathy 60 ft.",
+          "kind": "term",
+          "reason": "unrecognized-layout",
+          "context": "Thri-kreen Marauder",
+          "occurrences": 1
+        },
+        {
+          "en": "Languages Thri-kreen; telepathy 120 ft.",
+          "kind": "term",
+          "reason": "unrecognized-layout",
+          "context": "Thri-kreen Psion",
+          "occurrences": 1
+        }
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "id": "mm-final-20261020-000",
+      "kind": "description",
+      "en": "Multiattack. The dragon makes three Rend attacks.",
+      "fr": "Attaques multiples. Le dragon effectue trois attaques de Saignée.",
+      "layout": "observed",
+      "name": "Shadow Dragon",
+      "html": "<p><b><i>Multiattack</i></b><b><i>.</i></b> The dragon makes three Rend attacks.</p>"
+    },
+    {
+      "id": "mm-final-20261020-001",
+      "kind": "description",
+      "en": "Bound. The guardian is magically bound to an amulet. While the guardian and its amulet are on the same plane of existence, the amulet’s wearer can telepathically call the guardian to travel to it, and the guardian knows the distance and direction to the amulet. If the guardian is within 60 feet of the amulet’s wearer, half of any damage the wearer takes (round up) is transferred to the guardian.",
+      "fr": "Lié. Le gardien est lié magiquement à une amulette. Tant que le gardien et son amulette se trouvent sur le même plan d’existence, le porteur de l’amulette peut appeler télépathiquement le gardien pour qu’il le rejoigne, et le gardien connaît la distance et la direction de l’amulette. Si le gardien se trouve à 60 feet ou moins du porteur de l’amulette, la moitié des dégâts subis par le porteur (arrondie au supérieur) est transférée au gardien.",
+      "layout": "observed",
+      "name": "Shield Guardian",
+      "html": "<p><b><i>Bound.</i></b> The guardian is magically bound to an amulet. While the guardian and its amulet are on the same plane of existence, the amulet’s wearer can telepathically call the guardian to travel to it, and the guardian knows the distance and direction to the amulet. If the guardian is within 60 feet of the amulet’s wearer, half of any damage the wearer takes (round up) is transferred to the guardian.</p>"
+    },
+    {
+      "id": "mm-final-20261020-002",
+      "kind": "description",
+      "en": "Regeneration. The guardian regains 10 Hit Points at the start of each of its turns if it has at least 1 Hit Point.",
+      "fr": "Régénération. Le gardien récupère 10 points de vie au début de chacun de ses tours s’il lui reste au moins 1 point de vie.",
+      "layout": "observed",
+      "name": "Shield Guardian",
+      "html": "<p><b><i>Regeneration.</i></b> The guardian regains 10 Hit Points at the start of each of its turns if it has at least 1 Hit Point.</p>"
+    },
+    {
+      "id": "mm-final-20261020-003",
+      "kind": "description",
+      "en": "Spell Storing. A spellcaster who wears the guardian’s amulet can cause the guardian to store one spell of level 4 or lower. To do so, the wearer must cast the spell on the guardian while within 5 feet of it. The spell has no effect but is stored within the guardian. Any previously stored spell is lost when a new spell is stored. The guardian can cast the spell stored with any parameters set by the original caster, requiring no spell components and using the caster’s spellcasting ability. The stored spell is then lost.",
+      "fr": "Stockage de sort. Un lanceur de sorts qui porte l’amulette du gardien peut amener celui-ci à stocker un sort de niveau 4 ou inférieur. Pour ce faire, le porteur doit lancer le sort sur le gardien en se tenant à 5 feet ou moins de lui. Le sort ne produit aucun effet, mais est stocké dans le gardien. Tout sort précédemment stocké est perdu lorsqu’un nouveau sort est stocké. Le gardien peut lancer le sort stocké selon les paramètres définis par le lanceur d’origine, sans composantes de sort et en utilisant la caractéristique d’incantation de ce lanceur. Le sort stocké est alors perdu.",
+      "layout": "observed",
+      "name": "Shield Guardian",
+      "html": "<p><b><i>Spell Storing.</i></b> A spellcaster who wears the guardian’s amulet can cause the guardian to store one spell of level 4 or lower. To do so, the wearer must cast the spell on the guardian while within 5 feet of it. The spell has no effect but is stored within the guardian. Any previously stored spell is lost when a new spell is stored. The guardian can cast the spell stored with any parameters set by the original caster, requiring no spell components and using the caster’s spellcasting ability. The stored spell is then lost.</p>"
+    },
+    {
+      "id": "mm-final-20261020-004",
+      "kind": "description",
+      "en": "Fist. Melee Attack Roll: +7, reach 10 ft. Hit: 11 (2d6 + 4) Bludgeoning damage plus 7 (2d6) Force damage.",
+      "fr": "Poing. Jet d’attaque au corps à corps : +7, allonge 10 ft. Touché : 11 (2d6 + 4) dégâts contondants plus 7 (2d6) dégâts de force.",
+      "layout": "observed",
+      "name": "Shield Guardian",
+      "html": "<p><b><i>Fist.</i></b> <i>Melee Attack Roll:</i> <b class=\"dodieroll\">+7</b>, reach 10 ft. <i>Hit:</i> 11 (<b class=\"dodieroll\">2d6 + 4</b>) Bludgeoning damage plus 7 (<b class=\"dodieroll\">2d6</b>) Force damage.</p>"
+    },
+    {
+      "id": "mm-final-20261020-005",
+      "kind": "description",
+      "en": "Protection. Trigger: An attack roll hits the wearer of the guardian’s amulet while the wearer is within 5 feet of the guardian. Response: The wearer gains a +5 bonus to AC, including against the triggering attack and possibly causing it to miss, until the start of the guardian’s next turn.",
+      "fr": "Protection. Déclencheur : Un jet d’attaque touche le porteur de l’amulette du gardien alors que ce porteur se trouve à 5 feet ou moins du gardien. Réponse : Le porteur bénéficie d’un bonus de +5 à la CA, y compris contre l’attaque déclenchante, ce qui peut la faire rater, jusqu’au début du prochain tour du gardien.",
+      "layout": "observed",
+      "name": "Shield Guardian",
+      "html": "<p><b><i>Protection.</i></b> <i>Trigger:</i> An attack roll hits the wearer of the guardian’s amulet while the wearer is within 5 feet of the guardian. <i>Response:</i> The wearer gains a <b class=\"dodieroll\">+5</b> bonus to AC, including against the triggering attack and possibly causing it to miss, until the start of the guardian’s next turn.</p>"
+    },
+    {
+      "id": "mm-final-20261020-006",
+      "kind": "description",
+      "en": "Multiattack. The dragon makes three Rend attacks. It can replace one attack with a use of (A) Paralyzing Breath or (B) Spellcasting to cast Ice Knife.",
+      "fr": "Attaques multiples. Le dragon effectue trois attaques de Saignée. Il peut remplacer une attaque par une utilisation de (A) Souffle paralysant ou de (B) Sorts pour lancer Couteau de glace.",
+      "layout": "observed",
+      "name": "Adult Silver Dragon",
+      "html": "<p><b><i>Multiattack</i></b><b><i>.</i></b> The dragon makes three Rend attacks. It can replace one attack with a use of (A) Paralyzing Breath or (B) Spellcasting to cast <a href=\"#spell?id=srexeaer49s2xifj\">Ice Knife</a>.</p>"
+    },
+    {
+      "id": "mm-final-20261020-007",
+      "kind": "description",
+      "en": "Rend. Melee Attack Roll: +13, reach 10 ft. Hit: 17 (2d8 + 8) Slashing damage plus 4 (1d8) Cold damage.",
+      "fr": "Saignée. Jet d’attaque au corps à corps : +13, allonge 10 ft. Touché : 17 (2d8 + 8) dégâts tranchants plus 4 (1d8) dégâts de froid.",
+      "layout": "observed",
+      "name": "Adult Silver Dragon",
+      "html": "<p><b><i>Rend.</i></b> <i>Melee Attack Roll:</i> <b class=\"dodieroll\">+13</b>, reach 10 ft. <i>Hit:</i> 17 (<b class=\"dodieroll\">2d8 + 8</b>) Slashing damage plus 4 (<b class=\"dodieroll\">1d8</b>) Cold damage.</p>"
+    },
+    {
+      "id": "mm-final-20261020-008",
+      "kind": "description",
+      "en": "Cold Breath (Recharge 5–6). Constitution Saving Throw: DC 20, each creature in a 60-foot Cone. Failure: 54 (12d8) Cold damage. Success: Half damage.",
+      "fr": "Souffle glacial (recharge 5–6). Jet de sauvegarde de Constitution : DD 20, chaque créature dans un cône de 60 feet. Échec : 54 (12d8) dégâts de froid. Réussite : La moitié des dégâts.",
+      "layout": "observed",
+      "name": "Adult Silver Dragon",
+      "html": "<p><b><i>Cold Breath (Recharge 5–6)</i></b><b>.</b> <i>Constitution Saving Throw:</i> DC 20, each creature in a 60-foot Cone. <i>Failure:</i> 54 (<b class=\"dodieroll\">12d8</b>) Cold damage. <i>Success:</i> Half damage.</p>"
+    },
+    {
+      "id": "mm-final-20261020-009",
+      "kind": "description",
+      "en": "Spellcasting. The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 19, +11 to hit with spell attacks):",
+      "fr": "Sorts. Le dragon lance l’un des sorts suivants, sans composantes matérielles et en utilisant le Charisme comme caractéristique d’incantation (DD de sauvegarde des sorts 19, +11 pour toucher avec les attaques de sort) :",
+      "layout": "observed",
+      "name": "Adult Silver Dragon",
+      "html": "<p><b><i>Spellcasting.</i></b> The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 19, <b class=\"dodieroll\">+11</b> to hit with spell attacks):</p>"
+    },
+    {
+      "id": "mm-final-20261020-010",
+      "kind": "term",
+      "en": "Languages Slaad; telepathy 60 ft.",
+      "fr": "Langues Slaad ; télépathie 60 ft.",
+      "layout": "observed",
+      "name": "Red Slaad",
+      "html": "<div class=\"mb1\"><span><span class=\"\"><b>Languages </b>Slaad; telepathy 60 ft.</span></span></div>"
+    },
+    {
+      "id": "mm-final-20261020-011",
+      "kind": "term",
+      "en": "Languages Common, Slaad; telepathy 60 ft.",
+      "fr": "Langues Commun, Slaad ; télépathie 60 ft.",
+      "layout": "observed",
+      "name": "Green Slaad",
+      "html": "<div class=\"mb1\"><span><span class=\"\"><b>Languages </b>Common, Slaad; telepathy 60 ft.</span></span></div>"
+    },
+    {
+      "id": "mm-final-20261020-012",
+      "kind": "description",
+      "en": "1/Day Each: Fireball, Invisibility (self only)",
+      "fr": "1/jour chacun : Boule de feu, Invisibilité (soi uniquement)",
+      "layout": "observed",
+      "name": "Green Slaad",
+      "html": "<p><b>1/Day Each:</b> <a href=\"#spell?id=zswrgnlsocpin38w\">Fireball</a>, <a href=\"#spell?id=q5kedn4yl6krzi41\">Invisibility</a> (self only)</p>"
+    },
+    {
+      "id": "mm-final-20261020-013",
+      "kind": "description",
+      "en": "At Will: Detect Magic, Detect Thoughts, Invisibility (self only), Mage Hand, Major Image",
+      "fr": "À volonté : Détection de la magie, Détection des pensées, Invisibilité (soi uniquement), Main de mage, Image majeure",
+      "layout": "observed",
+      "name": "Gray Slaad",
+      "html": "<p><b>At Will:</b> <a href=\"#spell?id=tcsmo1771o5525ss\">Detect Magic</a>, <a href=\"#spell?id=3yqlgh2w4pduabe8\">Detect Thoughts</a>, <a href=\"#spell?id=q5kedn4yl6krzi41\">Invisibility</a> (self only), <a href=\"#spell?id=v3mxi9q3q4unoepx\">Mage Hand</a>, <a href=\"#spell?id=ydbgech922ogz4zb\">Major Image</a></p>"
+    },
+    {
+      "id": "mm-final-20261020-014",
+      "kind": "description",
+      "en": "1/Day Each: Cloudkill, Fly, Plane Shift (self only), Tongues",
+      "fr": "1/jour chacun : Brume mortelle, Vol, Changement de plan (soi uniquement), Don des langues",
+      "layout": "observed",
+      "name": "Gray Slaad",
+      "html": "<p><b>1/Day Each:</b> <a href=\"#spell?id=h35gk2jds96n88he\">Cloudkill</a>, <a href=\"#spell?id=8wox7teu7lvkmaxm\">Fly</a>, <a href=\"#spell?id=cgqhxsg4ukhdobm5\">Plane Shift</a> (self only), <a href=\"#spell?id=yl6ydzq54w1g3zqi\">Tongues</a></p>"
+    },
+    {
+      "id": "mm-final-20261020-015",
+      "kind": "description",
+      "en": "Multiattack. The slaad makes two Chaos Blade attacks.",
+      "fr": "Attaques multiples. Le slaad effectue deux attaques de Lame du chaos.",
+      "layout": "observed",
+      "name": "Death Slaad",
+      "html": "<p><b><i>Multiattack</i></b><b><i>.</i></b> The slaad makes two Chaos Blade attacks.</p>"
+    },
+    {
+      "id": "mm-final-20261020-016",
+      "kind": "description",
+      "en": "Sunlight Sensitivity. While in sunlight, the specter has Disadvantage on ability checks and attack rolls.",
+      "fr": "Sensibilité au soleil. Lorsqu’il est exposé au soleil, le spectre est désavantagé aux tests de caractéristique et aux jets d’attaque.",
+      "layout": "observed",
+      "name": "Specter",
+      "html": "<p><b><i>Sunlight Sensitivity.</i></b> While in sunlight, the specter has Disadvantage on ability checks and attack rolls.</p>"
+    },
+    {
+      "id": "mm-final-20261020-017",
+      "kind": "description",
+      "en": "Life Drain. Melee Attack Roll: +4, reach 5 ft. Hit: 7 (2d6) Necrotic damage. If the target is a creature, its Hit Point maximum decreases by an amount equal to the damage taken.",
+      "fr": "Absorption de vie. Jet d’attaque au corps à corps : +4, allonge 5 ft. Touché : 7 (2d6) dégâts nécrotiques. Si la cible est une créature, son maximum de points de vie est réduit d’un montant égal aux dégâts subis.",
+      "layout": "observed",
+      "name": "Specter",
+      "html": "<p><b><i>Life Drain.</i></b> <i>Melee Attack Roll:</i> <b class=\"dodieroll\">+4</b>, reach 5 ft. <i>Hit:</i> 7 (<b class=\"dodieroll\">2d6</b>) Necrotic damage. If the target is a creature, its Hit Point maximum decreases by an amount equal to the damage taken.</p>"
+    },
+    {
+      "id": "mm-final-20261020-018",
+      "kind": "description",
+      "en": "Inscrutable. No magic can observe the sphinx remotely or detect its thoughts without its permission. Wisdom (Insight) checks made to ascertain its intentions or sincerity are made with Disadvantage.",
+      "fr": "Impénétrable. Aucune magie ne peut observer le sphinx à distance ou détecter ses pensées sans sa permission. Les tests de Sagesse (Intuition) effectués pour déterminer ses intentions ou sa sincérité sont faits avec un désavantage.",
+      "layout": "observed",
+      "name": "Sphinx of Secrets",
+      "html": "<p><b><i>Inscrutable.</i></b> No magic can observe the sphinx remotely or detect its thoughts without its permission. Wisdom (Insight) checks made to ascertain its intentions or sincerity are made with Disadvantage.</p>"
+    },
+    {
+      "id": "mm-final-20261020-019",
+      "kind": "description",
+      "en": "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature’s turn, the sphinx can expend a use to take one of the following actions. The sphinx regains all expended uses at the start of each of its turns.",
+      "fr": "Utilisations d’actions légendaires : 3 (4 dans son antre). Immédiatement après le tour d’une autre créature, le sphinx peut dépenser une utilisation pour effectuer l’une des actions suivantes. Le sphinx récupère toutes les utilisations dépensées au début de chacun de ses tours.",
+      "layout": "observed",
+      "name": "Sphinx of Lore",
+      "html": "<p><b><i>Legendary Action Uses: 3 (4 in Lair).</i></b> Immediately after another creature’s turn, the sphinx can expend a use to take one of the following actions. The sphinx regains all expended uses at the start of each of its turns.</p>"
+    },
+    {
+      "id": "mm-final-20261020-020",
+      "kind": "description",
+      "en": "Multiattack. The sphinx makes two Claw attacks and uses Roar.",
+      "fr": "Attaques multiples. Le sphinx effectue deux attaques de Griffe et utilise Rugissement.",
+      "layout": "observed",
+      "name": "Sphinx of Valor",
+      "html": "<p><b><i>Multiattack</i></b><b><i>.</i></b> The sphinx makes two Claw attacks and uses Roar.</p>"
+    },
+    {
+      "id": "mm-final-20261020-021",
+      "kind": "description",
+      "en": "Roar (3/Day). The sphinx emits a magical roar. Whenever it roars, the roar has a different effect, as detailed below (the sequence resets when it takes a Long Rest):",
+      "fr": "Rugissement (3/jour). Le sphinx émet un rugissement magique. Chaque rugissement produit un effet différent, comme indiqué ci-dessous (la séquence recommence lorsqu’il prend un repos long) :",
+      "layout": "observed",
+      "name": "Sphinx of Valor",
+      "html": "<p><b><i>Roar (3/Day).</i></b> The sphinx emits a magical roar. Whenever it roars, the roar has a different effect, as detailed below (the sequence resets when it takes a Long Rest):</p>"
+    },
+    {
+      "id": "mm-final-20261020-022",
+      "kind": "description",
+      "en": "Spellcasting. The sphinx casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save DC 20):",
+      "fr": "Sorts. Le sphinx lance l’un des sorts suivants, sans composantes matérielles et en utilisant la Sagesse comme caractéristique d’incantation (DD de sauvegarde des sorts 20) :",
+      "layout": "observed",
+      "name": "Sphinx of Valor",
+      "html": "<p><b><i>Spellcasting.</i></b> The sphinx casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save DC 20):</p>"
+    },
+    {
+      "id": "mm-final-20261020-023",
+      "kind": "term",
+      "en": "Senses Darkvision 120 ft. (unimpeded by magical Darkness);, Passive Perception 12",
+      "fr": "Sens Vision dans le noir 120 ft. (non entravée par les ténèbres magiques), Perception passive 12",
+      "layout": "observed",
+      "name": "Spined Devil",
+      "html": "<div class=\"mb1\"><span><span class=\"\"><b>Senses </b>Darkvision 120 ft. (unimpeded by magical Darkness);</span><span>, Passive Perception 12</span></span></div>"
+    },
+    {
+      "id": "mm-final-20261020-024",
+      "kind": "term",
+      "en": "Immunities Charmed (except from its vampire master)",
+      "fr": "Immunités Charmé (sauf par son maître vampire)",
+      "layout": "observed",
+      "name": "Vampire Familiar",
+      "html": "<div class=\"mb1\"><span><span class=\"\"><b>Immunities </b>Charmed (except from its vampire master)</span></span></div>"
+    },
+    {
+      "id": "mm-final-20261020-025",
+      "kind": "description",
+      "en": "Vampiric Connection. While the familiar and its vampire master are on the same plane of existence, the vampire can communicate with the familiar telepathically, and the vampire can perceive through the familiar’s senses.",
+      "fr": "Lien vampirique. Tant que le familier et son maître vampire se trouvent sur le même plan d’existence, le vampire peut communiquer télépathiquement avec le familier et percevoir par les sens de celui-ci.",
+      "layout": "observed",
+      "name": "Vampire Familiar",
+      "html": "<p><b><i>Vampiric Connection.</i></b> While the familiar and its vampire master are on the same plane of existence, the vampire can communicate with the familiar telepathically, and the vampire can perceive through the familiar’s senses.</p>"
+    },
+    {
+      "id": "mm-final-20261020-026",
+      "kind": "description",
+      "en": "Multiattack. The familiar makes two Umbral Dagger attacks.",
+      "fr": "Attaques multiples. Le familier effectue deux attaques de Dague d’ombre.",
+      "layout": "observed",
+      "name": "Vampire Familiar",
+      "html": "<p><b><i>Multiattack</i></b><b><i>.</i></b> The familiar makes two Umbral Dagger attacks.</p>"
+    },
+    {
+      "id": "mm-final-20261020-027",
+      "kind": "description",
+      "en": "Umbral Dagger. Melee or Ranged Attack Roll: +5, reach 5 ft. or range 20/60 ft. Hit: 5 (1d4 + 3) Piercing damage plus 7 (3d4) Necrotic damage. If the target is reduced to 0 Hit Points by this attack, the target becomes Stable but has the Poisoned condition for 1 hour. While it has the Poisoned condition, the target has the Paralyzed condition.",
+      "fr": "Dague d’ombre. Jet d’attaque au corps à corps ou à distance : +5, allonge 5 ft. ou portée 20/60 ft. Touché : 5 (1d4 + 3) dégâts perforants plus 7 (3d4) dégâts nécrotiques. Si cette attaque réduit la cible à 0 point de vie, la cible devient stable mais subit l’état Empoisonné pendant 1 heure. Tant qu’elle subit l’état Empoisonné, la cible subit l’état Paralysé.",
+      "layout": "observed",
+      "name": "Vampire Familiar",
+      "html": "<p><b><i>Umbral Dagger.</i></b> <i>Melee or Ranged Attack Roll:</i> <b class=\"dodieroll\">+5</b>, reach 5 ft. or range 20/60 ft. <i>Hit:</i> 5 (<b class=\"dodieroll\">1d4 + 3</b>) Piercing damage plus 7 (<b class=\"dodieroll\">3d4</b>) Necrotic damage. If the target is reduced to 0 Hit Points by this attack, the target becomes Stable but has the <a href=\"#customlist?type=Conditions&amp;id=azq2e3z55z2fgs2q\">Poisoned</a> condition for 1 hour. While it has the <a href=\"#customlist?type=Conditions&amp;id=azq2e3z55z2fgs2q\">Poisoned</a> condition, the target has the <a href=\"#customlist?type=Conditions&amp;id=kggadddfcqwjvbmg\">Paralyzed</a> condition.</p>"
+    },
+    {
+      "id": "mm-final-20261020-028",
+      "kind": "description",
+      "en": "Deathless Agility. The familiar takes the Dash or Disengage action.",
+      "fr": "Agilité impérissable. Le familier effectue l’action Foncer ou Se désengager.",
+      "layout": "observed",
+      "name": "Vampire Familiar",
+      "html": "<p><b><i>Deathless Agility.</i></b> The familiar takes the Dash or Disengage action.</p>"
+    },
+    {
+      "id": "mm-final-20261020-029",
+      "kind": "description",
+      "en": "Vampire Weakness. The vampire has these weaknesses:",
+      "fr": "Faiblesse du vampire. Le vampire présente les faiblesses suivantes :",
+      "layout": "observed",
+      "name": "Vampire Spawn",
+      "html": "<p><b><i>Vampire Weakness.</i></b> The vampire has these weaknesses:</p>"
+    },
+    {
+      "id": "mm-final-20261020-030",
+      "kind": "description",
+      "en": "Forbiddance. The vampire can’t enter a residence without an invitation from an occupant.",
+      "fr": "Interdiction. Le vampire ne peut entrer dans une résidence sans une invitation d’un occupant.",
+      "layout": "observed",
+      "name": "Vampire Spawn",
+      "html": "<p><b>Forbiddance.</b> The vampire can’t enter a residence without an invitation from an occupant.</p>"
+    },
+    {
+      "id": "mm-final-20261020-031",
+      "kind": "description",
+      "en": "Running Water. The vampire takes 20 Acid damage if it ends its turn in running water.",
+      "fr": "Eau courante. Le vampire subit 20 dégâts d’acide s’il termine son tour dans de l’eau courante.",
+      "layout": "observed",
+      "name": "Vampire Spawn",
+      "html": "<p><b>Running Water.</b> The vampire takes 20 Acid damage if it ends its turn in running water.</p>"
+    },
+    {
+      "id": "mm-final-20261020-032",
+      "kind": "description",
+      "en": "Sunlight. The vampire takes 20 Radiant damage if it starts its turn in sunlight. While in sunlight, it has Disadvantage on attack rolls and ability checks.",
+      "fr": "Lumière du soleil. Le vampire subit 20 dégâts radiants s’il commence son tour à la lumière du soleil. Lorsqu’il est exposé au soleil, il est désavantagé aux jets d’attaque et aux tests de caractéristique.",
+      "layout": "observed",
+      "name": "Vampire Spawn",
+      "html": "<p><b>Sunlight.</b> The vampire takes 20 Radiant damage if it starts its turn in sunlight. While in sunlight, it has Disadvantage on attack rolls and ability checks.</p>"
+    },
+    {
+      "id": "mm-final-20261020-033",
+      "kind": "description",
+      "en": "Multiattack. The vampire makes two Claw attacks and uses Bite.",
+      "fr": "Attaques multiples. Le vampire effectue deux attaques de Griffe et utilise Morsure.",
+      "layout": "observed",
+      "name": "Vampire Spawn",
+      "html": "<p><b><i>Multiattack</i></b><b><i>.</i></b> The vampire makes two Claw attacks and uses Bite.</p>"
+    },
+    {
+      "id": "mm-final-20261020-034",
+      "kind": "description",
+      "en": "Claw. Melee Attack Roll: +6, reach 5 ft. Hit: 8 (2d4 + 3) Slashing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 13) from one of two claws.",
+      "fr": "Griffe. Jet d’attaque au corps à corps : +6, allonge 5 ft. Touché : 8 (2d4 + 3) dégâts tranchants. Si la cible est une créature de taille M ou inférieure, elle subit l’état Agrippé (évasion DD 13) par l’une des deux griffes.",
+      "layout": "observed",
+      "name": "Vampire Spawn",
+      "html": "<p><b><i>Claw.</i></b> <i>Melee Attack Roll:</i> <b class=\"dodieroll\">+6</b>, reach 5 ft. <i>Hit:</i> 8 (<b class=\"dodieroll\">2d4 + 3</b>) Slashing damage. If the target is a Medium or smaller creature, it has the <a href=\"#customlist?type=Conditions&amp;id=a6e4lwi1jotp3mq5\">Grappled</a> condition (escape DC 13) from one of two claws.</p>"
+    },
+    {
+      "id": "mm-final-20261020-035",
+      "kind": "description",
+      "en": "Deathless Agility. The vampire takes the Dash or Disengage action.",
+      "fr": "Agilité impérissable. Le vampire effectue l’action Foncer ou Se désengager.",
+      "layout": "observed",
+      "name": "Vampire Spawn",
+      "html": "<p><b><i>Deathless Agility.</i></b> The vampire takes the Dash or Disengage action.</p>"
+    },
+    {
+      "id": "mm-final-20261020-036",
+      "kind": "description",
+      "en": "Multiattack (Vampire Form Only). The vampire makes two Grave Strike attacks and uses Bite.",
+      "fr": "Attaques multiples (forme de vampire uniquement). Le vampire effectue deux attaques de Frappe funéraire et utilise Morsure.",
+      "layout": "observed",
+      "name": "Vampire",
+      "html": "<p><b><i>Multiattack</i></b><b><i> (Vampire Form Only).</i></b> The vampire makes two Grave Strike attacks and uses Bite.</p>"
+    },
+    {
+      "id": "mm-final-20261020-037",
+      "kind": "description",
+      "en": "Grave Strike (Vampire Form Only). Melee Attack Roll: +9, reach 5 ft. Hit: 8 (1d8 + 4) Bludgeoning damage plus 7 (2d6) Necrotic damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 14) from one of two hands.",
+      "fr": "Frappe funéraire (forme de vampire uniquement). Jet d’attaque au corps à corps : +9, allonge 5 ft. Touché : 8 (1d8 + 4) dégâts contondants plus 7 (2d6) dégâts nécrotiques. Si la cible est une créature de taille G ou inférieure, elle subit l’état Agrippé (évasion DD 14) par l’une des deux mains.",
+      "layout": "observed",
+      "name": "Vampire",
+      "html": "<p><b><i>Grave Strike (Vampire Form Only).</i></b> <i>Melee Attack Roll:</i> <b class=\"dodieroll\">+9</b>, reach 5 ft. <i>Hit:</i> 8 (<b class=\"dodieroll\">1d8 + 4</b>) Bludgeoning damage plus 7 (<b class=\"dodieroll\">2d6</b>) Necrotic damage. If the target is a Large or smaller creature, it has the <a href=\"#customlist?type=Conditions&amp;id=a6e4lwi1jotp3mq5\">Grappled</a> condition (escape DC 14) from one of two hands.</p>"
+    },
+    {
+      "id": "mm-final-20261020-038",
+      "kind": "description",
+      "en": "Charm (Recharge 5–6). The vampire casts Charm Person, requiring no spell components and using Charisma as the spellcasting ability (spell save DC 17), and the duration is 24 hours. The Charmed target is a willing recipient of the vampire’s Bite, the damage of which doesn’t end the spell. When the spell ends, the target is unaware it was Charmed by the vampire.",
+      "fr": "Charme (recharge 5–6). Le vampire lance Charme-personne, sans composantes de sort et en utilisant le Charisme comme caractéristique d’incantation (DD de sauvegarde des sorts 17), et la durée est de 24 heures. La cible Charmée consent à subir la Morsure du vampire, dont les dégâts ne mettent pas fin au sort. Quand le sort prend fin, la cible ignore qu’elle a été Charmée par le vampire.",
+      "layout": "observed",
+      "name": "Vampire",
+      "html": "<p><b><i>Charm (Recharge 5–6).</i></b> The vampire casts <a href=\"#spell?id=0afi9oc0s7bsuzct\">Charm Person</a>, requiring no spell components and using Charisma as the spellcasting ability (spell save DC 17), and the duration is 24 hours. The Charmed target is a willing recipient of the vampire’s Bite, the damage of which doesn’t end the spell. When the spell ends, the target is unaware it was Charmed by the vampire.</p>"
+    },
+    {
+      "id": "mm-final-20261020-039",
+      "kind": "description",
+      "en": "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature’s turn, the vampire can expend a use to take one of the following actions. The vampire regains all expended uses at the start of each of its turns.",
+      "fr": "Utilisations d’actions légendaires : 3 (4 dans son antre). Immédiatement après le tour d’une autre créature, le vampire peut dépenser une utilisation pour effectuer l’une des actions suivantes. Le vampire récupère toutes les utilisations dépensées au début de chacun de ses tours.",
+      "layout": "observed",
+      "name": "Vampire",
+      "html": "<p><b><i>Legendary Action Uses: 3 (4 in Lair).</i></b> Immediately after another creature’s turn, the vampire can expend a use to take one of the following actions. The vampire regains all expended uses at the start of each of its turns.</p>"
+    },
+    {
+      "id": "mm-final-20261020-040",
+      "kind": "description",
+      "en": "Beguile. The vampire casts Command, requiring no spell components and using Charisma as the spellcasting ability (spell save DC 17). The vampire can’t take this action again until the start of its next turn.",
+      "fr": "Subjugation. Le vampire lance Injonction, sans composantes de sort et en utilisant le Charisme comme caractéristique d’incantation (DD de sauvegarde des sorts 17). Le vampire ne peut pas effectuer de nouveau cette action avant le début de son prochain tour.",
+      "layout": "observed",
+      "name": "Vampire",
+      "html": "<p><b><i>Beguile.</i></b> The vampire casts <a href=\"#spell?id=pzxvn0uequp6iws0\">Command</a>, requiring no spell components and using Charisma as the spellcasting ability (spell save DC 17). The vampire can’t take this action again until the start of its next turn.</p>"
+    },
+    {
+      "id": "mm-final-20261020-041",
+      "kind": "description",
+      "en": "Deathless Strike. The vampire moves up to half its Speed, and it makes one Grave Strike attack.",
+      "fr": "Frappe impérissable. Le vampire se déplace jusqu’à la moitié de sa vitesse et effectue une attaque de Frappe funéraire.",
+      "layout": "observed",
+      "name": "Vampire",
+      "html": "<p><b><i>Deathless Strike.</i></b> The vampire moves up to half its Speed, and it makes one Grave Strike attack.</p>"
+    },
+    {
+      "id": "mm-final-20261020-042",
+      "kind": "description",
+      "en": "Demonic Restoration. If the vrock dies outside the Abyss, its body dissolves into ichor, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Abyss.",
+      "fr": "Restauration démoniaque. Si le vrock meurt en dehors des Abysses, son corps se dissout en ichor et il obtient instantanément un nouveau corps, revenant à la vie avec tous ses points de vie quelque part dans les Abysses.",
+      "layout": "observed",
+      "name": "Vrock",
+      "html": "<p><b><i>Demonic Restoration.</i></b> If the vrock dies outside the Abyss, its body dissolves into ichor, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Abyss.</p>"
+    },
+    {
+      "id": "mm-final-20261020-043",
+      "kind": "description",
+      "en": "Multiattack. The vrock makes two Shred attacks.",
+      "fr": "Attaques multiples. Le vrock effectue deux attaques de Déchiquetage.",
+      "layout": "observed",
+      "name": "Vrock",
+      "html": "<p><b><i>Multiattack</i></b><b><i>.</i></b> The vrock makes two Shred attacks.</p>"
+    },
+    {
+      "id": "mm-final-20261020-044",
+      "kind": "description",
+      "en": "Shred. Melee Attack Roll: +6, reach 5 ft. Hit: 10 (2d6 + 3) Piercing damage plus 10 (3d6) Poison damage.",
+      "fr": "Déchiquetage. Jet d’attaque au corps à corps : +6, allonge 5 ft. Touché : 10 (2d6 + 3) dégâts perforants plus 10 (3d6) dégâts de poison.",
+      "layout": "observed",
+      "name": "Vrock",
+      "html": "<p><b><i>Shred.</i></b> <i>Melee Attack Roll:</i> <b class=\"dodieroll\">+6</b>, reach 5 ft. <i>Hit:</i> 10 (<b class=\"dodieroll\">2d6 + 3</b>) Piercing damage plus 10 (<b class=\"dodieroll\">3d6</b>) Poison damage.</p>"
+    },
+    {
+      "id": "mm-final-20261020-045",
+      "kind": "description",
+      "en": "Spores (Recharge 6). Constitution Saving Throw: DC 15, each creature in a 20-foot Emanation originating from the vrock. Failure: The target has the Poisoned condition and repeats the save at the end of each of its turns, ending the effect on itself on a success. While Poisoned, the target takes 5 (1d10) Poison damage at the start of each of its turns. Emptying a flask of Holy Water on the target ends the effect early.",
+      "fr": "Spores (recharge 6). Jet de sauvegarde de Constitution : DD 15, chaque créature dans une émanation de 20 feet provenant du vrock. Échec : La cible subit l’état Empoisonné et répète le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l’effet sur elle-même en cas de réussite. Tant qu’elle est Empoisonnée, la cible subit 5 (1d10) dégâts de poison au début de chacun de ses tours. Vider une flasque d’Eau bénite sur la cible met fin à l’effet prématurément.",
+      "layout": "observed",
+      "name": "Vrock",
+      "html": "<p><b><i>Spores (Recharge 6).</i></b> <i>Constitution Saving Throw:</i> DC 15, each creature in a 20-foot Emanation originating from the vrock. <i>Failure:</i> The target has the <a href=\"#customlist?type=Conditions&amp;id=azq2e3z55z2fgs2q\">Poisoned</a> condition and repeats the save at the end of each of its turns, ending the effect on itself on a success. While <a href=\"#customlist?type=Conditions&amp;id=azq2e3z55z2fgs2q\">Poisoned</a>, the target takes 5 (<b class=\"dodieroll\">1d10</b>) Poison damage at the start of each of its turns. Emptying a flask of Holy Water on the target ends the effect early.</p>"
+    },
+    {
+      "id": "mm-final-20261020-046",
+      "kind": "description",
+      "en": "Stunning Screech (1/Day). Constitution Saving Throw: DC 15, each creature in a 20-foot Emanation originating from the vrock (demons succeed automatically). Failure: 10 (3d6) Thunder damage, and the target has the Stunned condition until the end of the vrock’s next turn.",
+      "fr": "Cri étourdissant (1/jour). Jet de sauvegarde de Constitution : DD 15, chaque créature dans une émanation de 20 feet provenant du vrock (les démons réussissent automatiquement). Échec : 10 (3d6) dégâts de tonnerre, et la cible subit l’état Étourdi jusqu’à la fin du prochain tour du vrock.",
+      "layout": "observed",
+      "name": "Vrock",
+      "html": "<p><b><i>Stunning Screech (1/Day).</i></b> <i>Constitution Saving Throw:</i> DC 15, each creature in a 20-foot Emanation originating from the vrock (demons succeed automatically). <i>Failure:</i> 10 (<b class=\"dodieroll\">3d6</b>) Thunder damage, and the target has the <a href=\"#customlist?type=Conditions&amp;id=8mrl00ipelcjvww7\">Stunned</a> condition until the end of the vrock’s next turn.</p>"
+    },
+    {
+      "id": "mm-final-20261020-047",
+      "kind": "description",
+      "en": "Earth Glide. The xorn can burrow through nonmagical, unworked earth and stone. While doing so, the xorn doesn’t disturb the material it moves through.",
+      "fr": "Déplacement tellurique. Le xorn peut creuser à travers la terre et la pierre non magiques et non travaillées. Ce faisant, le xorn ne perturbe pas la matière qu’il traverse.",
+      "layout": "observed",
+      "name": "Xorn",
+      "html": "<p><b><i>Earth Glide.</i></b> The xorn can burrow through nonmagical, unworked earth and stone. While doing so, the xorn doesn’t disturb the material it moves through.</p>"
+    },
+    {
+      "id": "mm-final-20261020-048",
+      "kind": "description",
+      "en": "Ice Throw. Ranged Attack Roll: +6, range 30/120 ft. Hit: 6 (1d4 + 4) Bludgeoning damage plus 2 (1d4) Cold damage.",
+      "fr": "Jet de glace. Jet d’attaque à distance : +6, portée 30/120 ft. Touché : 6 (1d4 + 4) dégâts contondants plus 2 (1d4) dégâts de froid.",
+      "layout": "observed",
+      "name": "Yeti",
+      "html": "<p><b><i>Ice Throw.</i></b> <i>Ranged Attack Roll:</i> <b class=\"dodieroll\">+6</b>, range 30/120 ft. <i>Hit:</i> 6 (<b class=\"dodieroll\">1d4 + 4</b>) Bludgeoning damage plus 2 (<b class=\"dodieroll\">1d4</b>) Cold damage.</p>"
+    },
+    {
+      "id": "mm-final-20261020-049",
+      "kind": "description",
+      "en": "Chilling Gaze. Constitution Saving Throw: DC 13, one creature the yeti can see within 30 feet. Failure: 5 (2d4) Cold damage, and the target has the Paralyzed condition until the start of the yeti’s next turn unless the target has Immunity to Cold damage. Success: The target is immune to the Chilling Gaze of all yetis (but not abominable yetis) for 1 hour.",
+      "fr": "Regard glaçant. Jet de sauvegarde de Constitution : DD 13, une créature que le yéti peut voir dans un rayon de 30 feet. Échec : 5 (2d4) dégâts de froid, et la cible subit l’état Paralysé jusqu’au début du prochain tour du yéti, sauf si elle est immunisée contre les dégâts de froid. Réussite : La cible est immunisée contre le Regard glaçant de tous les yétis (mais pas des yétis abominables) pendant 1 heure.",
+      "layout": "observed",
+      "name": "Yeti",
+      "html": "<p><b><i>Chilling Gaze.</i></b> <i>Constitution Saving Throw:</i> DC 13, one creature the yeti can see within 30 feet. <i>Failure:</i> 5 (<b class=\"dodieroll\">2d4</b>) Cold damage, and the target has the <a href=\"#customlist?type=Conditions&amp;id=kggadddfcqwjvbmg\">Paralyzed</a> condition until the start of the yeti’s next turn unless the target has Immunity to Cold damage. <i>Success:</i> The target is immune to the Chilling Gaze of all yetis (but not abominable yetis) for 1 hour.</p>"
+    },
+    {
+      "id": "mm-final-20261020-050",
+      "kind": "description",
+      "en": "Ice Throw. Ranged Attack Roll: +11, range 60/240 ft. Hit: 12 (2d4 + 7) Bludgeoning damage plus 7 (2d6) Cold damage.",
+      "fr": "Jet de glace. Jet d’attaque à distance : +11, portée 60/240 ft. Touché : 12 (2d4 + 7) dégâts contondants plus 7 (2d6) dégâts de froid.",
+      "layout": "observed",
+      "name": "Abominable Yeti",
+      "html": "<p><b><i>Ice Throw.</i></b> <i>Ranged Attack Roll:</i> <b class=\"dodieroll\">+11</b>, range 60/240 ft. <i>Hit:</i> 12 (<b class=\"dodieroll\">2d4 + 7</b>) Bludgeoning damage plus 7 (<b class=\"dodieroll\">2d6</b>) Cold damage.</p>"
+    },
+    {
+      "id": "mm-final-20261020-051",
+      "kind": "description",
+      "en": "Web Walker. The yochlol ignores movement restrictions caused by webs.",
+      "fr": "Marche sur les toiles. Le yochlol ignore les restrictions de déplacement causées par les toiles.",
+      "layout": "observed",
+      "name": "Yochlol",
+      "html": "<p><b><i>Web Walker.</i></b> The yochlol ignores movement restrictions caused by webs.</p>"
+    },
+    {
+      "id": "mm-final-20261020-052",
+      "kind": "description",
+      "en": "Caustic Lash. Melee or Ranged Attack Roll: +8, reach 10 ft. or range 120 ft. Hit: 25 (6d6 + 4) Acid damage.",
+      "fr": "Fouet caustique. Jet d’attaque au corps à corps ou à distance : +8, allonge 10 ft. ou portée 120 ft. Touché : 25 (6d6 + 4) dégâts d’acide.",
+      "layout": "observed",
+      "name": "Yochlol",
+      "html": "<p><b><i>Caustic Lash.</i></b> <i>Melee or Ranged Attack Roll:</i> <b class=\"dodieroll\">+8</b>, reach 10 ft. or range 120 ft. <i>Hit:</i> 25 (<b class=\"dodieroll\">6d6 + 4</b>) Acid damage.</p>"
+    },
+    {
+      "id": "mm-final-20261020-053",
+      "kind": "description",
+      "en": "At Will: Detect Thoughts, Gaseous Form (self only), Web",
+      "fr": "À volonté : Détection des pensées, Forme gazeuse (soi uniquement), Toile d’araignée",
+      "layout": "observed",
+      "name": "Yochlol",
+      "html": "<p><b>At Will:</b> <a href=\"#spell?id=3yqlgh2w4pduabe8\">Detect Thoughts</a>, <a href=\"#spell?id=6l9bvu20kyq36asz\">Gaseous Form</a> (self only), <a href=\"#spell?id=8recq1xyfepcsnj2\">Web</a></p>"
+    },
+    {
+      "id": "mm-final-20261020-054",
+      "kind": "description",
+      "en": "Shape-Shift. The yochlol shape-shifts into a Medium Humanoid or a Medium spider or back into its true form. Its game statistics are the same in each form. Any equipment it is wearing or carrying isn’t transformed.",
+      "fr": "Métamorphose. Le yochlol se métamorphose en Humanoïde de taille M ou en araignée de taille M, ou reprend sa forme véritable. Ses statistiques de jeu sont les mêmes sous chaque forme. L’équipement qu’il porte ou transporte n’est pas transformé.",
+      "layout": "observed",
+      "name": "Yochlol",
+      "html": "<p><b><i>Shape-Shift.</i></b> The yochlol shape-shifts into a Medium Humanoid or a Medium spider or back into its true form. Its game statistics are the same in each form. Any equipment it is wearing or carrying isn’t transformed.</p>"
+    },
+    {
+      "id": "mm-final-20261020-055",
+      "kind": "description",
+      "en": "Toxic Escape. Trigger: The yochlol is hit by an attack roll. Response: The yochlol halves the attack’s damage to itself (round down), and it teleports to an unoccupied space it can see within 30 feet of itself. Constitution Saving Throw: DC 15, each creature within 5 feet of the yochlol’s destination space. Failure: The target has the Poisoned condition until the end of its next turn. While Poisoned, it has the Incapacitated condition.",
+      "fr": "Fuite toxique. Déclencheur : Le yochlol est touché par un jet d’attaque. Réponse : Le yochlol réduit de moitié les dégâts que lui inflige l’attaque (arrondis à l’inférieur) et se téléporte dans un espace inoccupé qu’il peut voir dans un rayon de 30 feet. Jet de sauvegarde de Constitution : DD 15, chaque créature à 5 feet ou moins de l’espace d’arrivée du yochlol. Échec : La cible subit l’état Empoisonné jusqu’à la fin de son prochain tour. Tant qu’elle est Empoisonnée, elle subit l’état Neutralisé.",
+      "layout": "observed",
+      "name": "Yochlol",
+      "html": "<p><b><i>Toxic Escape.</i></b> <i>Trigger:</i> The yochlol is hit by an attack roll. <i>Response:</i> The yochlol halves the attack’s damage to itself (round down), and it teleports to an unoccupied space it can see within 30 feet of itself. <i>Constitution Saving Throw:</i> DC 15, each creature within 5 feet of the yochlol’s destination space. <i>Failure</i>: The target has the <a href=\"#customlist?type=Conditions&amp;id=azq2e3z55z2fgs2q\">Poisoned</a> condition until the end of its next turn. While <a href=\"#customlist?type=Conditions&amp;id=azq2e3z55z2fgs2q\">Poisoned</a>, it has the <a href=\"#customlist?type=Conditions&amp;id=jhsnov3jlzaa62ub\">Incapacitated</a> condition.</p>"
+    },
+    {
+      "id": "mm-final-20261020-056",
+      "kind": "description",
+      "en": "Stealth+4 (+6 while in snake form)",
+      "fr": "Discrétion+4 (+6 sous forme de serpent)",
+      "layout": "observed",
+      "name": "Yuan-ti Malison (Type 1)",
+      "html": "<p>Stealth<b class=\"dodieroll\">+4</b> (<b class=\"dodieroll\">+6</b> while in snake form)</p>"
+    },
+    {
+      "id": "mm-final-20261020-057",
+      "kind": "description",
+      "en": "Spellcasting (Yuan-ti Form Only). The yuan-ti casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save DC 13):",
+      "fr": "Sorts (forme de yuan-ti uniquement). Le yuan-ti lance l’un des sorts suivants, sans composantes matérielles et en utilisant la Sagesse comme caractéristique d’incantation (DD de sauvegarde des sorts 13) :",
+      "layout": "observed",
+      "name": "Yuan-ti Malison (Type 1)",
+      "html": "<p><b><i>Spellcasting (Yuan-</i></b><b><i>ti</i></b><b><i> Form Only).</i></b> The yuan-ti casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save DC 13):</p>"
+    },
+    {
+      "id": "mm-final-20261020-058",
+      "kind": "description",
+      "en": "Shape-Shift. The yuan-ti shape-shifts into a Medium snake or returns to its true form. If it dies, it stays in its current form. The yuan-ti’s game statistics are the same in each form, except where noted. Any equipment it is wearing or carrying isn’t transformed.",
+      "fr": "Métamorphose. Le yuan-ti se métamorphose en serpent de taille M ou reprend sa forme véritable. S’il meurt, il conserve sa forme actuelle. Les statistiques de jeu du yuan-ti sont les mêmes sous chaque forme, sauf indication contraire. L’équipement qu’il porte ou transporte n’est pas transformé.",
+      "layout": "observed",
+      "name": "Yuan-ti Malison (Type 1)",
+      "html": "<p><b><i>Shape-Shift.</i></b> The yuan-ti shape-shifts into a Medium snake or returns to its true form. If it dies, it stays in its current form. The yuan-ti’s game statistics are the same in each form, except where noted. Any equipment it is wearing or carrying isn’t transformed.</p>"
+    },
+    {
+      "id": "mm-final-20261020-059",
+      "kind": "description",
+      "en": "Shape-Shift. The yuan-ti shape-shifts into a Large snake or returns to its true form. If it dies, it stays in its current form. The yuan-ti’s game statistics are the same in each form, except where noted. Any equipment it is wearing or carrying isn’t transformed.",
+      "fr": "Métamorphose. Le yuan-ti se métamorphose en serpent de taille G ou reprend sa forme véritable. S’il meurt, il conserve sa forme actuelle. Les statistiques de jeu du yuan-ti sont les mêmes sous chaque forme, sauf indication contraire. L’équipement qu’il porte ou transporte n’est pas transformé.",
+      "layout": "observed",
+      "name": "Yuan-ti Abomination",
+      "html": "<p><b><i>Shape-Shift.</i></b> The yuan-ti shape-shifts into a Large snake or returns to its true form. If it dies, it stays in its current form. The yuan-ti’s game statistics are the same in each form, except where noted. Any equipment it is wearing or carrying isn’t transformed.</p>"
+    },
+    {
+      "id": "mm-final-20261020-060",
+      "kind": "term",
+      "en": "Languages Thri-kreen; telepathy 60 ft.",
+      "fr": "Langues Thri-kreen ; télépathie 60 ft.",
+      "layout": "observed",
+      "name": "Thri-kreen Marauder",
+      "html": "<div class=\"mb1\"><span><span class=\"\"><b>Languages </b>Thri-kreen; telepathy 60 ft.</span></span></div>"
+    },
+    {
+      "id": "mm-final-20261020-061",
+      "kind": "term",
+      "en": "Languages Thri-kreen; telepathy 120 ft.",
+      "fr": "Langues Thri-kreen ; télépathie 120 ft.",
+      "layout": "observed",
+      "name": "Thri-kreen Psion",
+      "html": "<div class=\"mb1\"><span><span class=\"\"><b>Languages </b>Thri-kreen; telepathy 120 ft.</span></span></div>"
+    }
+  ],
+  "coverage": [
+    {
+      "report": "attachment-1",
+      "index": 0,
+      "en": "Multiattack. The dragon makes three Rend attacks.",
+      "kind": "description",
+      "reason": "unrecognized-layout",
+      "context": "Shadow Dragon",
+      "occurrences": 1,
+      "targets": [
+        "mm-final-20261020-000"
+      ]
+    },
+    {
+      "report": "attachment-1",
+      "index": 1,
+      "en": "Bound. The guardian is magically bound to an amulet. While the guardian and its amulet are on the same plane of existence, the amulet’s wearer can telepathically call the guardian to travel to it, and the guardian knows the distance and direction to the amulet. If the guardian is within 60 feet of the amulet’s wearer, half of any damage the wearer takes (round up) is transferred to the guardian.",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "Shield Guardian",
+      "occurrences": 1,
+      "targets": [
+        "mm-final-20261020-001"
+      ]
+    },
+    {
+      "report": "attachment-1",
+      "index": 2,
+      "en": "Regeneration. The guardian regains 10 Hit Points at the start of each of its turns if it has at least 1 Hit Point.",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "Shield Guardian",
+      "occurrences": 1,
+      "targets": [
+        "mm-final-20261020-002"
+      ]
+    },
+    {
+      "report": "attachment-1",
+      "index": 3,
+      "en": "Spell Storing. A spellcaster who wears the guardian’s amulet can cause the guardian to store one spell of level 4 or lower. To do so, the wearer must cast the spell on the guardian while within 5 feet of it. The spell has no effect but is stored within the guardian. Any previously stored spell is lost when a new spell is stored. The guardian can cast the spell stored with any parameters set by the original caster, requiring no spell components and using the caster’s spellcasting ability. The stored spell is then lost.",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "Shield Guardian",
+      "occurrences": 1,
+      "targets": [
+        "mm-final-20261020-003"
+      ]
+    },
+    {
+      "report": "attachment-1",
+      "index": 4,
+      "en": "Fist. Melee Attack Roll: +7, reach 10 ft. Hit: 11 (2d6 + 4) Bludgeoning damage plus 7 (2d6) Force damage.",
+      "kind": "description",
+      "reason": "unrecognized-layout",
+      "context": "Shield Guardian",
+      "occurrences": 1,
+      "targets": [
+        "mm-final-20261020-004"
+      ]
+    },
+    {
+      "report": "attachment-1",
+      "index": 5,
+      "en": "Protection. Trigger: An attack roll hits the wearer of the guardian’s amulet while the wearer is within 5 feet of the guardian. Response: The wearer gains a +5 bonus to AC, including against the triggering attack and possibly causing it to miss, until the start of the guardian’s next turn.",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "Shield Guardian",
+      "occurrences": 1,
+      "targets": [
+        "mm-final-20261020-005"
+      ]
+    },
+    {
+      "report": "attachment-1",
+      "index": 6,
+      "en": "Multiattack. The dragon makes three Rend attacks. It can replace one attack with a use of (A) Paralyzing Breath or (B) Spellcasting to cast Ice Knife.",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "Adult Silver Dragon",
+      "occurrences": 1,
+      "targets": [
+        "mm-final-20261020-006"
+      ]
+    },
+    {
+      "report": "attachment-1",
+      "index": 7,
+      "en": "Rend. Melee Attack Roll: +13, reach 10 ft. Hit: 17 (2d8 + 8) Slashing damage plus 4 (1d8) Cold damage.",
+      "kind": "description",
+      "reason": "unrecognized-layout",
+      "context": "Adult Silver Dragon",
+      "occurrences": 1,
+      "targets": [
+        "mm-final-20261020-007"
+      ]
+    },
+    {
+      "report": "attachment-1",
+      "index": 8,
+      "en": "Cold Breath (Recharge 5–6). Constitution Saving Throw: DC 20, each creature in a 60-foot Cone. Failure: 54 (12d8) Cold damage. Success: Half damage.",
+      "kind": "description",
+      "reason": "unrecognized-layout",
+      "context": "Adult Silver Dragon",
+      "occurrences": 1,
+      "targets": [
+        "mm-final-20261020-008"
+      ]
+    },
+    {
+      "report": "attachment-1",
+      "index": 9,
+      "en": "Spellcasting. The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 19, +11 to hit with spell attacks):",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "Adult Silver Dragon",
+      "occurrences": 1,
+      "targets": [
+        "mm-final-20261020-009"
+      ]
+    },
+    {
+      "report": "attachment-1",
+      "index": 10,
+      "en": "Languages Slaad; telepathy 60 ft.",
+      "kind": "term",
+      "reason": "unrecognized-layout",
+      "context": "Red Slaad",
+      "occurrences": 2,
+      "targets": [
+        "mm-final-20261020-010"
+      ]
+    },
+    {
+      "report": "attachment-1",
+      "index": 11,
+      "en": "Languages Common, Slaad; telepathy 60 ft.",
+      "kind": "term",
+      "reason": "unrecognized-layout",
+      "context": "Green Slaad",
+      "occurrences": 3,
+      "targets": [
+        "mm-final-20261020-011"
+      ]
+    },
+    {
+      "report": "attachment-1",
+      "index": 12,
+      "en": "1/Day Each: Fireball, Invisibility (self only)",
+      "kind": "description",
+      "reason": "unrecognized-layout",
+      "context": "Green Slaad",
+      "occurrences": 1,
+      "targets": [
+        "mm-final-20261020-012"
+      ]
+    },
+    {
+      "report": "attachment-1",
+      "index": 13,
+      "en": "At Will: Detect Magic, Detect Thoughts, Invisibility (self only), Mage Hand, Major Image",
+      "kind": "description",
+      "reason": "unrecognized-layout",
+      "context": "Gray Slaad",
+      "occurrences": 2,
+      "targets": [
+        "mm-final-20261020-013"
+      ]
+    },
+    {
+      "report": "attachment-1",
+      "index": 14,
+      "en": "1/Day Each: Cloudkill, Fly, Plane Shift (self only), Tongues",
+      "kind": "description",
+      "reason": "unrecognized-layout",
+      "context": "Gray Slaad",
+      "occurrences": 1,
+      "targets": [
+        "mm-final-20261020-014"
+      ]
+    },
+    {
+      "report": "attachment-1",
+      "index": 15,
+      "en": "Multiattack. The slaad makes two Chaos Blade attacks.",
+      "kind": "description",
+      "reason": "unrecognized-layout",
+      "context": "Death Slaad",
+      "occurrences": 1,
+      "targets": [
+        "mm-final-20261020-015"
+      ]
+    },
+    {
+      "report": "attachment-1",
+      "index": 16,
+      "en": "Sunlight Sensitivity. While in sunlight, the specter has Disadvantage on ability checks and attack rolls.",
+      "kind": "description",
+      "reason": "unrecognized-layout",
+      "context": "Specter",
+      "occurrences": 1,
+      "targets": [
+        "mm-final-20261020-016"
+      ]
+    },
+    {
+      "report": "attachment-1",
+      "index": 17,
+      "en": "Life Drain. Melee Attack Roll: +4, reach 5 ft. Hit: 7 (2d6) Necrotic damage. If the target is a creature, its Hit Point maximum decreases by an amount equal to the damage taken.",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "Specter",
+      "occurrences": 1,
+      "targets": [
+        "mm-final-20261020-017"
+      ]
+    },
+    {
+      "report": "attachment-1",
+      "index": 18,
+      "en": "Inscrutable. No magic can observe the sphinx remotely or detect its thoughts without its permission. Wisdom (Insight) checks made to ascertain its intentions or sincerity are made with Disadvantage.",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "Sphinx of Secrets",
+      "occurrences": 3,
+      "targets": [
+        "mm-final-20261020-018"
+      ]
+    },
+    {
+      "report": "attachment-1",
+      "index": 19,
+      "en": "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature’s turn, the sphinx can expend a use to take one of the following actions. The sphinx regains all expended uses at the start of each of its turns.",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "Sphinx of Lore",
+      "occurrences": 2,
+      "targets": [
+        "mm-final-20261020-019"
+      ]
+    },
+    {
+      "report": "attachment-1",
+      "index": 20,
+      "en": "Multiattack. The sphinx makes two Claw attacks and uses Roar.",
+      "kind": "description",
+      "reason": "unrecognized-layout",
+      "context": "Sphinx of Valor",
+      "occurrences": 1,
+      "targets": [
+        "mm-final-20261020-020"
+      ]
+    },
+    {
+      "report": "attachment-1",
+      "index": 21,
+      "en": "Roar (3/Day). The sphinx emits a magical roar. Whenever it roars, the roar has a different effect, as detailed below (the sequence resets when it takes a Long Rest):",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "Sphinx of Valor",
+      "occurrences": 1,
+      "targets": [
+        "mm-final-20261020-021"
+      ]
+    },
+    {
+      "report": "attachment-1",
+      "index": 22,
+      "en": "Spellcasting. The sphinx casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save DC 20):",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "Sphinx of Valor",
+      "occurrences": 1,
+      "targets": [
+        "mm-final-20261020-022"
+      ]
+    },
+    {
+      "report": "attachment-1",
+      "index": 23,
+      "en": "Senses Darkvision 120 ft. (unimpeded by magical Darkness);, Passive Perception 12",
+      "kind": "term",
+      "reason": "unrecognized-layout",
+      "context": "Spined Devil",
+      "occurrences": 1,
+      "targets": [
+        "mm-final-20261020-023"
+      ]
+    },
+    {
+      "report": "attachment-2",
+      "index": 0,
+      "en": "Immunities Charmed (except from its vampire master)",
+      "kind": "term",
+      "reason": "unrecognized-layout",
+      "context": "Vampire Familiar",
+      "occurrences": 1,
+      "targets": [
+        "mm-final-20261020-024"
+      ]
+    },
+    {
+      "report": "attachment-2",
+      "index": 1,
+      "en": "Vampiric Connection. While the familiar and its vampire master are on the same plane of existence, the vampire can communicate with the familiar telepathically, and the vampire can perceive through the familiar’s senses.",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "Vampire Familiar",
+      "occurrences": 1,
+      "targets": [
+        "mm-final-20261020-025"
+      ]
+    },
+    {
+      "report": "attachment-2",
+      "index": 2,
+      "en": "Multiattack. The familiar makes two Umbral Dagger attacks.",
+      "kind": "description",
+      "reason": "unrecognized-layout",
+      "context": "Vampire Familiar",
+      "occurrences": 1,
+      "targets": [
+        "mm-final-20261020-026"
+      ]
+    },
+    {
+      "report": "attachment-2",
+      "index": 3,
+      "en": "Umbral Dagger. Melee or Ranged Attack Roll: +5, reach 5 ft. or range 20/60 ft. Hit: 5 (1d4 + 3) Piercing damage plus 7 (3d4) Necrotic damage. If the target is reduced to 0 Hit Points by this attack, the target becomes Stable but has the Poisoned condition for 1 hour. While it has the Poisoned condition, the target has the Paralyzed condition.",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "Vampire Familiar",
+      "occurrences": 1,
+      "targets": [
+        "mm-final-20261020-027"
+      ]
+    },
+    {
+      "report": "attachment-2",
+      "index": 4,
+      "en": "Deathless Agility. The familiar takes the Dash or Disengage action.",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "Vampire Familiar",
+      "occurrences": 1,
+      "targets": [
+        "mm-final-20261020-028"
+      ]
+    },
+    {
+      "report": "attachment-2",
+      "index": 5,
+      "en": "Vampire Weakness. The vampire has these weaknesses:",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "Vampire Spawn",
+      "occurrences": 3,
+      "targets": [
+        "mm-final-20261020-029"
+      ]
+    },
+    {
+      "report": "attachment-2",
+      "index": 6,
+      "en": "Forbiddance. The vampire can’t enter a residence without an invitation from an occupant.",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "Vampire Spawn",
+      "occurrences": 3,
+      "targets": [
+        "mm-final-20261020-030"
+      ]
+    },
+    {
+      "report": "attachment-2",
+      "index": 7,
+      "en": "Running Water. The vampire takes 20 Acid damage if it ends its turn in running water.",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "Vampire Spawn",
+      "occurrences": 3,
+      "targets": [
+        "mm-final-20261020-031"
+      ]
+    },
+    {
+      "report": "attachment-2",
+      "index": 8,
+      "en": "Sunlight. The vampire takes 20 Radiant damage if it starts its turn in sunlight. While in sunlight, it has Disadvantage on attack rolls and ability checks.",
+      "kind": "description",
+      "reason": "unrecognized-layout",
+      "context": "Vampire Spawn",
+      "occurrences": 3,
+      "targets": [
+        "mm-final-20261020-032"
+      ]
+    },
+    {
+      "report": "attachment-2",
+      "index": 9,
+      "en": "Multiattack. The vampire makes two Claw attacks and uses Bite.",
+      "kind": "description",
+      "reason": "unrecognized-layout",
+      "context": "Vampire Spawn",
+      "occurrences": 1,
+      "targets": [
+        "mm-final-20261020-033"
+      ]
+    },
+    {
+      "report": "attachment-2",
+      "index": 10,
+      "en": "Claw. Melee Attack Roll: +6, reach 5 ft. Hit: 8 (2d4 + 3) Slashing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 13) from one of two claws.",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "Vampire Spawn",
+      "occurrences": 1,
+      "targets": [
+        "mm-final-20261020-034"
+      ]
+    },
+    {
+      "report": "attachment-2",
+      "index": 11,
+      "en": "Deathless Agility. The vampire takes the Dash or Disengage action.",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "Vampire Spawn",
+      "occurrences": 1,
+      "targets": [
+        "mm-final-20261020-035"
+      ]
+    },
+    {
+      "report": "attachment-2",
+      "index": 12,
+      "en": "Multiattack (Vampire Form Only). The vampire makes two Grave Strike attacks and uses Bite.",
+      "kind": "description",
+      "reason": "unrecognized-layout",
+      "context": "Vampire",
+      "occurrences": 1,
+      "targets": [
+        "mm-final-20261020-036"
+      ]
+    },
+    {
+      "report": "attachment-2",
+      "index": 13,
+      "en": "Grave Strike (Vampire Form Only). Melee Attack Roll: +9, reach 5 ft. Hit: 8 (1d8 + 4) Bludgeoning damage plus 7 (2d6) Necrotic damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 14) from one of two hands.",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "Vampire",
+      "occurrences": 1,
+      "targets": [
+        "mm-final-20261020-037"
+      ]
+    },
+    {
+      "report": "attachment-2",
+      "index": 14,
+      "en": "Charm (Recharge 5–6). The vampire casts Charm Person, requiring no spell components and using Charisma as the spellcasting ability (spell save DC 17), and the duration is 24 hours. The Charmed target is a willing recipient of the vampire’s Bite, the damage of which doesn’t end the spell. When the spell ends, the target is unaware it was Charmed by the vampire.",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "Vampire",
+      "occurrences": 1,
+      "targets": [
+        "mm-final-20261020-038"
+      ]
+    },
+    {
+      "report": "attachment-2",
+      "index": 15,
+      "en": "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature’s turn, the vampire can expend a use to take one of the following actions. The vampire regains all expended uses at the start of each of its turns.",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "Vampire",
+      "occurrences": 2,
+      "targets": [
+        "mm-final-20261020-039"
+      ]
+    },
+    {
+      "report": "attachment-2",
+      "index": 16,
+      "en": "Beguile. The vampire casts Command, requiring no spell components and using Charisma as the spellcasting ability (spell save DC 17). The vampire can’t take this action again until the start of its next turn.",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "Vampire",
+      "occurrences": 1,
+      "targets": [
+        "mm-final-20261020-040"
+      ]
+    },
+    {
+      "report": "attachment-2",
+      "index": 17,
+      "en": "Deathless Strike. The vampire moves up to half its Speed, and it makes one Grave Strike attack.",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "Vampire",
+      "occurrences": 1,
+      "targets": [
+        "mm-final-20261020-041"
+      ]
+    },
+    {
+      "report": "attachment-2",
+      "index": 18,
+      "en": "Demonic Restoration. If the vrock dies outside the Abyss, its body dissolves into ichor, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Abyss.",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "Vrock",
+      "occurrences": 1,
+      "targets": [
+        "mm-final-20261020-042"
+      ]
+    },
+    {
+      "report": "attachment-2",
+      "index": 19,
+      "en": "Multiattack. The vrock makes two Shred attacks.",
+      "kind": "description",
+      "reason": "unrecognized-layout",
+      "context": "Vrock",
+      "occurrences": 1,
+      "targets": [
+        "mm-final-20261020-043"
+      ]
+    },
+    {
+      "report": "attachment-2",
+      "index": 20,
+      "en": "Shred. Melee Attack Roll: +6, reach 5 ft. Hit: 10 (2d6 + 3) Piercing damage plus 10 (3d6) Poison damage.",
+      "kind": "description",
+      "reason": "unrecognized-layout",
+      "context": "Vrock",
+      "occurrences": 1,
+      "targets": [
+        "mm-final-20261020-044"
+      ]
+    },
+    {
+      "report": "attachment-2",
+      "index": 21,
+      "en": "Spores (Recharge 6). Constitution Saving Throw: DC 15, each creature in a 20-foot Emanation originating from the vrock. Failure: The target has the Poisoned condition and repeats the save at the end of each of its turns, ending the effect on itself on a success. While Poisoned, the target takes 5 (1d10) Poison damage at the start of each of its turns. Emptying a flask of Holy Water on the target ends the effect early.",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "Vrock",
+      "occurrences": 1,
+      "targets": [
+        "mm-final-20261020-045"
+      ]
+    },
+    {
+      "report": "attachment-2",
+      "index": 22,
+      "en": "Stunning Screech (1/Day). Constitution Saving Throw: DC 15, each creature in a 20-foot Emanation originating from the vrock (demons succeed automatically). Failure: 10 (3d6) Thunder damage, and the target has the Stunned condition until the end of the vrock’s next turn.",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "Vrock",
+      "occurrences": 1,
+      "targets": [
+        "mm-final-20261020-046"
+      ]
+    },
+    {
+      "report": "pasted-vampires",
+      "index": 0,
+      "en": "Immunities Charmed (except from its vampire master)",
+      "kind": "term",
+      "reason": "unrecognized-layout",
+      "context": "Vampire Familiar",
+      "occurrences": 1,
+      "targets": [
+        "mm-final-20261020-024"
+      ]
+    },
+    {
+      "report": "pasted-vampires",
+      "index": 1,
+      "en": "Deathless Agility. The vampire takes the Dash or Disengage action.",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "Vampire Spawn",
+      "occurrences": 1,
+      "targets": [
+        "mm-final-20261020-035"
+      ]
+    },
+    {
+      "report": "pasted-xy",
+      "index": 0,
+      "en": "Earth Glide. The xorn can burrow through nonmagical, unworked earth and stone. While doing so, the xorn doesn’t disturb the material it moves through.",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "Xorn",
+      "occurrences": 1,
+      "targets": [
+        "mm-final-20261020-047"
+      ]
+    },
+    {
+      "report": "pasted-xy",
+      "index": 1,
+      "en": "Ice Throw. Ranged Attack Roll: +6, range 30/120 ft. Hit: 6 (1d4 + 4) Bludgeoning damage plus 2 (1d4) Cold damage.",
+      "kind": "description",
+      "reason": "unrecognized-layout",
+      "context": "Yeti",
+      "occurrences": 1,
+      "targets": [
+        "mm-final-20261020-048"
+      ]
+    },
+    {
+      "report": "pasted-xy",
+      "index": 2,
+      "en": "Chilling Gaze. Constitution Saving Throw: DC 13, one creature the yeti can see within 30 feet. Failure: 5 (2d4) Cold damage, and the target has the Paralyzed condition until the start of the yeti’s next turn unless the target has Immunity to Cold damage. Success: The target is immune to the Chilling Gaze of all yetis (but not abominable yetis) for 1 hour.",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "Yeti",
+      "occurrences": 1,
+      "targets": [
+        "mm-final-20261020-049"
+      ]
+    },
+    {
+      "report": "pasted-xy",
+      "index": 3,
+      "en": "Ice Throw. Ranged Attack Roll: +11, range 60/240 ft. Hit: 12 (2d4 + 7) Bludgeoning damage plus 7 (2d6) Cold damage.",
+      "kind": "description",
+      "reason": "unrecognized-layout",
+      "context": "Abominable Yeti",
+      "occurrences": 1,
+      "targets": [
+        "mm-final-20261020-050"
+      ]
+    },
+    {
+      "report": "pasted-xy",
+      "index": 4,
+      "en": "Web Walker. The yochlol ignores movement restrictions caused by webs.",
+      "kind": "description",
+      "reason": "unrecognized-layout",
+      "context": "Yochlol",
+      "occurrences": 1,
+      "targets": [
+        "mm-final-20261020-051"
+      ]
+    },
+    {
+      "report": "pasted-xy",
+      "index": 5,
+      "en": "Caustic Lash. Melee or Ranged Attack Roll: +8, reach 10 ft. or range 120 ft. Hit: 25 (6d6 + 4) Acid damage.",
+      "kind": "description",
+      "reason": "unrecognized-layout",
+      "context": "Yochlol",
+      "occurrences": 1,
+      "targets": [
+        "mm-final-20261020-052"
+      ]
+    },
+    {
+      "report": "pasted-xy",
+      "index": 6,
+      "en": "At Will: Detect Thoughts, Gaseous Form (self only), Web",
+      "kind": "description",
+      "reason": "unrecognized-layout",
+      "context": "Yochlol",
+      "occurrences": 1,
+      "targets": [
+        "mm-final-20261020-053"
+      ]
+    },
+    {
+      "report": "pasted-xy",
+      "index": 7,
+      "en": "Shape-Shift. The yochlol shape-shifts into a Medium Humanoid or a Medium spider or back into its true form. Its game statistics are the same in each form. Any equipment it is wearing or carrying isn’t transformed.",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "Yochlol",
+      "occurrences": 1,
+      "targets": [
+        "mm-final-20261020-054"
+      ]
+    },
+    {
+      "report": "pasted-xy",
+      "index": 8,
+      "en": "Toxic Escape. Trigger: The yochlol is hit by an attack roll. Response: The yochlol halves the attack’s damage to itself (round down), and it teleports to an unoccupied space it can see within 30 feet of itself. Constitution Saving Throw: DC 15, each creature within 5 feet of the yochlol’s destination space. Failure: The target has the Poisoned condition until the end of its next turn. While Poisoned, it has the Incapacitated condition.",
+      "kind": "description",
+      "reason": "unrecognized-layout",
+      "context": "Yochlol",
+      "occurrences": 1,
+      "targets": [
+        "mm-final-20261020-055"
+      ]
+    },
+    {
+      "report": "pasted-xy",
+      "index": 9,
+      "en": "Stealth+4 (+6 while in snake form)",
+      "kind": "description",
+      "reason": "unrecognized-layout",
+      "context": "Yuan-ti Malison (Type 1)",
+      "occurrences": 3,
+      "targets": [
+        "mm-final-20261020-056"
+      ]
+    },
+    {
+      "report": "pasted-xy",
+      "index": 10,
+      "en": "Spellcasting (Yuan-ti Form Only). The yuan-ti casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save DC 13):",
+      "kind": "description",
+      "reason": "conflicting-translations",
+      "context": "Yuan-ti Malison (Type 1)",
+      "occurrences": 3,
+      "targets": [
+        "mm-final-20261020-057"
+      ]
+    },
+    {
+      "report": "pasted-xy",
+      "index": 11,
+      "en": "Shape-Shift. The yuan-ti shape-shifts into a Medium snake or returns to its true form. If it dies, it stays in its current form. The yuan-ti’s game statistics are the same in each form, except where noted. Any equipment it is wearing or carrying isn’t transformed.",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "Yuan-ti Malison (Type 1)",
+      "occurrences": 3,
+      "targets": [
+        "mm-final-20261020-058"
+      ]
+    },
+    {
+      "report": "pasted-xy",
+      "index": 12,
+      "en": "Shape-Shift. The yuan-ti shape-shifts into a Large snake or returns to its true form. If it dies, it stays in its current form. The yuan-ti’s game statistics are the same in each form, except where noted. Any equipment it is wearing or carrying isn’t transformed.",
+      "kind": "description",
+      "reason": "missing-translation",
+      "context": "Yuan-ti Abomination",
+      "occurrences": 1,
+      "targets": [
+        "mm-final-20261020-059"
+      ]
+    },
+    {
+      "report": "pasted-thri-kreen",
+      "index": 0,
+      "en": "Languages Thri-kreen; telepathy 60 ft.",
+      "kind": "term",
+      "reason": "unrecognized-layout",
+      "context": "Thri-kreen Marauder",
+      "occurrences": 1,
+      "targets": [
+        "mm-final-20261020-060"
+      ]
+    },
+    {
+      "report": "pasted-thri-kreen",
+      "index": 1,
+      "en": "Languages Thri-kreen; telepathy 120 ft.",
+      "kind": "term",
+      "reason": "unrecognized-layout",
+      "context": "Thri-kreen Psion",
+      "occurrences": 1,
+      "targets": [
+        "mm-final-20261020-061"
+      ]
+    }
+  ]
+}

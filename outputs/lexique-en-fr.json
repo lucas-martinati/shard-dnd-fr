@@ -1,5 +1,5 @@
 {
-  "version": "1.17.50",
+  "version": "1.17.51",
   "reference": "Noms AideDD 2024 prioritaires. Références SRD disponibles séparément. Autres entrées identifiées.",
   "license": "Code MIT ; contenu SRD CC-BY-4.0 https://creativecommons.org/licenses/by/4.0/",
   "sources": [
@@ -18560,6 +18560,1091 @@
       "en": "Dexterity Saving Throw",
       "fr": "Jet de sauvegarde de Dextérité",
       "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.51 · paragraphes et HTML vérifiés dans Shard, chapitres F à L · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 19 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Protective Magic (3/Day)",
+      "fr": "Magie protectrice (3/jour)",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Contortionist",
+      "fr": "Contorsionniste",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Sickening Vapors",
+      "fr": "Vapeurs nauséabondes",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Shadow Stealth",
+      "fr": "Discrétion dans les ombres",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Blurred Form",
+      "fr": "Forme floue",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Arcane Tentacles",
+      "fr": "Tentacules arcaniques",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Mind Burst (Recharge 5–6)",
+      "fr": "Explosion mentale (recharge 5–6)",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Shield (2/Day)",
+      "fr": "Bouclier (2/jour)",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Gore (Recharge 5–6)",
+      "fr": "Coup de corne (recharge 5–6)",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Disintegration",
+      "fr": "Désintégration",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Clockwork Blade",
+      "fr": "Lame mécanique",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Clockwork Spear",
+      "fr": "Lance mécanique",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Paralysis Gas (Recharge 5–6)",
+      "fr": "Gaz paralysant (recharge 5–6)",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Dread Command",
+      "fr": "Injonction effroyable",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Necrotic Strike",
+      "fr": "Frappe nécrotique",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Cursed Fate",
+      "fr": "Destin maudit",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Soul Drain",
+      "fr": "Drain d’âme",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Sun Sickness",
+      "fr": "Soleillite aiguë",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Rapport Spores",
+      "fr": "Spores de communication",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Drop",
+      "fr": "Chute",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Fear Aura",
+      "fr": "Aura de terreur",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Faerie Dust",
+      "fr": "Poussière féerique",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Burst of Wonder (Recharge 5–6)",
+      "fr": "Éclat merveilleux (recharge 5–6)",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Divine Aid (3/Day)",
+      "fr": "Soutien divin (3/jour)",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Tunneler",
+      "fr": "Fouisseur",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Piercing damage from weapons wielded by creatures under the effect of a Bless spell",
+      "fr": "Dégâts perforants des armes maniées par des créatures sous l’effet d’un sort de Bénédiction",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Baleful Command (Recharge 5–6)",
+      "fr": "Injonction lugubre (recharge 5–6)",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Fiery Rays",
+      "fr": "Rayons ignés",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Burning Heat",
+      "fr": "Chaleur brûlante",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Smoldering Haze",
+      "fr": "Brume de braises",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Heat Aura",
+      "fr": "Aura de chaleur",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Undead Restoration",
+      "fr": "Restauration funeste",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Suffocate",
+      "fr": "Suffocation",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Haunting Glare (Recharge 5–6)",
+      "fr": "Regard obsédant (recharge 5–6)",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Haunted Zone",
+      "fr": "Zone hantée",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Object Slam",
+      "fr": "Frappe d’objet",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Invitation",
+      "fr": "Invitation",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Destroy Metal",
+      "fr": "Destruction du métal",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Limited Amphibiousness",
+      "fr": "Amphibiose partielle",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Shark Telepathy",
+      "fr": "Télépathie avec les requins",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Aquatic Charge",
+      "fr": "Charge aquatique",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Fiendish Aid (2/Day)",
+      "fr": "Assistance fiélonne (2/jour)",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Fiendish Blood",
+      "fr": "Sang fiélon",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Flame Spear",
+      "fr": "Lance de flammes",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Flame Trident",
+      "fr": "Trident de flammes",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Inferno Blast (Recharge 5–6)",
+      "fr": "Décharge des fournaises (recharge 5–6)",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Blazing Movement",
+      "fr": "Déplacement ardent",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Mockery",
+      "fr": "Moquerie",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Prance",
+      "fr": "Galipette",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Fey Melody (Recharge 4–6)",
+      "fr": "Mélodie féerique (recharge 4–6)",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Charming",
+      "fr": "Charmant",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Frightening",
+      "fr": "Effrayant",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Fearsome Claw",
+      "fr": "Griffe effroyable",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Terrifying Glare",
+      "fr": "Regard terrifiant",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Vile Appearance",
+      "fr": "Laideur effroyable",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Death Glare (Recharge 5–6)",
+      "fr": "Regard mortel (recharge 5–6)",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Illusory Appearance",
+      "fr": "Apparence illusoire",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Light Sensitivity",
+      "fr": "Sensibilité à la lumière",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Living Shadow",
+      "fr": "Ombre vivante",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Shadow Breath (Recharge 5–6)",
+      "fr": "Souffle d’ombre (recharge 5–6)",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Veil of Shadow",
+      "fr": "Voile d’ombre",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Stifling Shadows",
+      "fr": "Ombres étouffantes",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Cold Breath (Recharge 5–6)",
+      "fr": "Souffle glacial (recharge 5–6)",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Chill",
+      "fr": "Froid mordant",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Cold Gale",
+      "fr": "Rafale gelée",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Gentle Gusts",
+      "fr": "Brises douces",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Injecting Claw",
+      "fr": "Griffe d’inoculation",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Over 2d4 × 10 days, the egg gestates",
+      "fr": "L’œuf se développe durant 2d4 × 10 jours",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Chaos Claw",
+      "fr": "Griffe du chaos",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Chaos Blade",
+      "fr": "Lame du chaos",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Divine Awareness",
+      "fr": "Vigilance divine",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Exalted Restoration",
+      "fr": "Restauration exaltée",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Slaying Bow",
+      "fr": "Arc tueur",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Blinding Gaze",
+      "fr": "Regard aveuglant",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Radiant Teleport",
+      "fr": "Téléportation radiante",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Confusion Ray",
+      "fr": "Rayon de confusion",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Curse of the Riddle",
+      "fr": "Malédiction de l’énigme",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Mind-Rending Roar (Recharge 5–6)",
+      "fr": "Rugissement débilitant (recharge 5–6)",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Weight of Years",
+      "fr": "Poids des années",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Distant Sight",
+      "fr": "Vision lointaine",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Infusion of Knowledge",
+      "fr": "Infusion de savoir",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "First Roar",
+      "fr": "Premier rugissement",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Second Roar",
+      "fr": "Deuxième rugissement",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Third Roar",
+      "fr": "Troisième rugissement",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Proboscis",
+      "fr": "Trompe",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Swarm of Proboscises",
+      "fr": "Nuée de trompes",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Thunderbolt",
+      "fr": "Foudroiement",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Stake to the Heart",
+      "fr": "Pieu dans le coeur",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Shadow Strike",
+      "fr": "Frappe d’ombre",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Bite (Bat or Vampire Form Only)",
+      "fr": "Morsure (forme de chauve-souris ou de vampire uniquement)",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Children of the Night",
+      "fr": "Enfants de la nuit",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Looming Shadows",
+      "fr": "Ombres menaçantes",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Mists",
+      "fr": "Brumes",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Shadow Escape",
+      "fr": "Évasion dans l’ombre",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Grave Strike",
+      "fr": "Frappe funéraire",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Hunger of Hadar (Recharge 5–6)",
+      "fr": "Voracité de Hadar (recharge 5–6)",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Sanguine Drain",
+      "fr": "Drain sanguin",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Beguile",
+      "fr": "Subjugation",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Umbral Strike",
+      "fr": "Frappe d’ombre funeste",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Tusk (Boar or Hybrid Form Only)",
+      "fr": "Défense (forme de sanglier ou hybride uniquement)",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Freezing Burst",
+      "fr": "Décharge de gel",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Frigid Cold",
+      "fr": "Froid glacial",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Glacial Gloom",
+      "fr": "Obscurité glaciale",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Life Drain",
+      "fr": "Absorption de vie",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Ephemeral",
+      "fr": "Fugace",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Create Specter",
+      "fr": "Création de spectre",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Horror Nimbus (Recharge 5–6)",
+      "fr": "Halo d’épouvante (recharge 5–6)",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Soul Bag",
+      "fr": "Sac d’âmes",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Otyugh; telepathy 120 ft. (doesn’t allow the receiving creature to respond telepathically)",
+      "fr": "Otyugh ; télépathie 120 ft. (ne permet pas à la créature qui reçoit le message de répondre par télépathie)",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Ravage",
+      "fr": "Ravage",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Screech (Recharge 5–6)",
+      "fr": "Cri perçant (recharge 5–6)",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Psionic Defense (3/Day)",
+      "fr": "Défense psionique (3/jour)",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Mercurial Whip",
+      "fr": "Fouet labile",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Unicorn’s Blessing (3/Day)",
+      "fr": "Faveur de la licorne (3/jour)",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Shimmering Shield",
+      "fr": "Pavois chatoyant",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Obscuring Foliage",
+      "fr": "Feuillage dissimulant",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Positive Energy",
+      "fr": "Énergie positive",
+      "source": "Traduction proposée des rapports utilisateur MM 2024 en version 1.17.50 · paragraphes et HTML vérifiés dans Shard, chapitres M à W · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Bound",
+      "fr": "Lié",
+      "source": "Traduction proposée des cinq rapports utilisateur MM 2024 en version 1.17.50 · HTML vérifié dans Shard, chapitres S, T, V et X–Z · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · complément du 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Spell Storing",
+      "fr": "Stockage de sort",
+      "source": "Traduction proposée des cinq rapports utilisateur MM 2024 en version 1.17.50 · HTML vérifié dans Shard, chapitres S, T, V et X–Z · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · complément du 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Languages Slaad; telepathy 60 ft.",
+      "fr": "Langues Slaad ; télépathie 60 ft.",
+      "source": "Traduction proposée des cinq rapports utilisateur MM 2024 en version 1.17.50 · HTML vérifié dans Shard, chapitres S, T, V et X–Z · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · complément du 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Slaad; telepathy 60 ft.",
+      "fr": "Slaad ; télépathie 60 ft.",
+      "source": "Traduction proposée des cinq rapports utilisateur MM 2024 en version 1.17.50 · HTML vérifié dans Shard, chapitres S, T, V et X–Z · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · complément du 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Languages Common, Slaad; telepathy 60 ft.",
+      "fr": "Langues Commun, Slaad ; télépathie 60 ft.",
+      "source": "Traduction proposée des cinq rapports utilisateur MM 2024 en version 1.17.50 · HTML vérifié dans Shard, chapitres S, T, V et X–Z · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · complément du 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Common, Slaad; telepathy 60 ft.",
+      "fr": "Commun, Slaad ; télépathie 60 ft.",
+      "source": "Traduction proposée des cinq rapports utilisateur MM 2024 en version 1.17.50 · HTML vérifié dans Shard, chapitres S, T, V et X–Z · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · complément du 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Inscrutable",
+      "fr": "Impénétrable",
+      "source": "Traduction proposée des cinq rapports utilisateur MM 2024 en version 1.17.50 · HTML vérifié dans Shard, chapitres S, T, V et X–Z · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · complément du 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Roar (3/Day)",
+      "fr": "Rugissement (3/jour)",
+      "source": "Traduction proposée des cinq rapports utilisateur MM 2024 en version 1.17.50 · HTML vérifié dans Shard, chapitres S, T, V et X–Z · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · complément du 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Senses Darkvision 120 ft. (unimpeded by magical Darkness);, Passive Perception 12",
+      "fr": "Sens Vision dans le noir 120 ft. (non entravée par les ténèbres magiques), Perception passive 12",
+      "source": "Traduction proposée des cinq rapports utilisateur MM 2024 en version 1.17.50 · HTML vérifié dans Shard, chapitres S, T, V et X–Z · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · complément du 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Darkvision 120 ft. (unimpeded by magical Darkness);",
+      "fr": "Vision dans le noir 120 ft. (non entravée par les ténèbres magiques)",
+      "source": "Traduction proposée des cinq rapports utilisateur MM 2024 en version 1.17.50 · HTML vérifié dans Shard, chapitres S, T, V et X–Z · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · complément du 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Immunities Charmed (except from its vampire master)",
+      "fr": "Immunités Charmé (sauf par son maître vampire)",
+      "source": "Traduction proposée des cinq rapports utilisateur MM 2024 en version 1.17.50 · HTML vérifié dans Shard, chapitres S, T, V et X–Z · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · complément du 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Charmed (except from its vampire master)",
+      "fr": "Charmé (sauf par son maître vampire)",
+      "source": "Traduction proposée des cinq rapports utilisateur MM 2024 en version 1.17.50 · HTML vérifié dans Shard, chapitres S, T, V et X–Z · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · complément du 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Vampiric Connection",
+      "fr": "Lien vampirique",
+      "source": "Traduction proposée des cinq rapports utilisateur MM 2024 en version 1.17.50 · HTML vérifié dans Shard, chapitres S, T, V et X–Z · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · complément du 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Umbral Dagger",
+      "fr": "Dague d’ombre",
+      "source": "Traduction proposée des cinq rapports utilisateur MM 2024 en version 1.17.50 · HTML vérifié dans Shard, chapitres S, T, V et X–Z · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · complément du 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Deathless Agility",
+      "fr": "Agilité impérissable",
+      "source": "Traduction proposée des cinq rapports utilisateur MM 2024 en version 1.17.50 · HTML vérifié dans Shard, chapitres S, T, V et X–Z · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · complément du 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Vampire Weakness",
+      "fr": "Faiblesse du vampire",
+      "source": "Traduction proposée des cinq rapports utilisateur MM 2024 en version 1.17.50 · HTML vérifié dans Shard, chapitres S, T, V et X–Z · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · complément du 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Running Water",
+      "fr": "Eau courante",
+      "source": "Traduction proposée des cinq rapports utilisateur MM 2024 en version 1.17.50 · HTML vérifié dans Shard, chapitres S, T, V et X–Z · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · complément du 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Sunlight",
+      "fr": "Lumière du soleil",
+      "source": "Traduction proposée des cinq rapports utilisateur MM 2024 en version 1.17.50 · HTML vérifié dans Shard, chapitres S, T, V et X–Z · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · complément du 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Multiattack (Vampire Form Only)",
+      "fr": "Attaques multiples (forme de vampire uniquement)",
+      "source": "Traduction proposée des cinq rapports utilisateur MM 2024 en version 1.17.50 · HTML vérifié dans Shard, chapitres S, T, V et X–Z · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · complément du 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Grave Strike (Vampire Form Only)",
+      "fr": "Frappe funéraire (forme de vampire uniquement)",
+      "source": "Traduction proposée des cinq rapports utilisateur MM 2024 en version 1.17.50 · HTML vérifié dans Shard, chapitres S, T, V et X–Z · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · complément du 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Charm (Recharge 5–6)",
+      "fr": "Charme (recharge 5–6)",
+      "source": "Traduction proposée des cinq rapports utilisateur MM 2024 en version 1.17.50 · HTML vérifié dans Shard, chapitres S, T, V et X–Z · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · complément du 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Deathless Strike",
+      "fr": "Frappe impérissable",
+      "source": "Traduction proposée des cinq rapports utilisateur MM 2024 en version 1.17.50 · HTML vérifié dans Shard, chapitres S, T, V et X–Z · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · complément du 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Shred",
+      "fr": "Déchiquetage",
+      "source": "Traduction proposée des cinq rapports utilisateur MM 2024 en version 1.17.50 · HTML vérifié dans Shard, chapitres S, T, V et X–Z · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · complément du 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Spores (Recharge 6)",
+      "fr": "Spores (recharge 6)",
+      "source": "Traduction proposée des cinq rapports utilisateur MM 2024 en version 1.17.50 · HTML vérifié dans Shard, chapitres S, T, V et X–Z · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · complément du 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Stunning Screech (1/Day)",
+      "fr": "Cri étourdissant (1/jour)",
+      "source": "Traduction proposée des cinq rapports utilisateur MM 2024 en version 1.17.50 · HTML vérifié dans Shard, chapitres S, T, V et X–Z · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · complément du 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Ice Throw",
+      "fr": "Jet de glace",
+      "source": "Traduction proposée des cinq rapports utilisateur MM 2024 en version 1.17.50 · HTML vérifié dans Shard, chapitres S, T, V et X–Z · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · complément du 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Chilling Gaze",
+      "fr": "Regard glaçant",
+      "source": "Traduction proposée des cinq rapports utilisateur MM 2024 en version 1.17.50 · HTML vérifié dans Shard, chapitres S, T, V et X–Z · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · complément du 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Caustic Lash",
+      "fr": "Fouet caustique",
+      "source": "Traduction proposée des cinq rapports utilisateur MM 2024 en version 1.17.50 · HTML vérifié dans Shard, chapitres S, T, V et X–Z · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · complément du 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Toxic Escape",
+      "fr": "Fuite toxique",
+      "source": "Traduction proposée des cinq rapports utilisateur MM 2024 en version 1.17.50 · HTML vérifié dans Shard, chapitres S, T, V et X–Z · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · complément du 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Spellcasting (Yuan-ti Form Only)",
+      "fr": "Sorts (forme de yuan-ti uniquement)",
+      "source": "Traduction proposée des cinq rapports utilisateur MM 2024 en version 1.17.50 · HTML vérifié dans Shard, chapitres S, T, V et X–Z · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · complément du 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Languages Thri-kreen; telepathy 60 ft.",
+      "fr": "Langues Thri-kreen ; télépathie 60 ft.",
+      "source": "Traduction proposée des cinq rapports utilisateur MM 2024 en version 1.17.50 · HTML vérifié dans Shard, chapitres S, T, V et X–Z · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · complément du 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Thri-kreen; telepathy 60 ft.",
+      "fr": "Thri-kreen ; télépathie 60 ft.",
+      "source": "Traduction proposée des cinq rapports utilisateur MM 2024 en version 1.17.50 · HTML vérifié dans Shard, chapitres S, T, V et X–Z · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · complément du 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Languages Thri-kreen; telepathy 120 ft.",
+      "fr": "Langues Thri-kreen ; télépathie 120 ft.",
+      "source": "Traduction proposée des cinq rapports utilisateur MM 2024 en version 1.17.50 · HTML vérifié dans Shard, chapitres S, T, V et X–Z · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · complément du 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Thri-kreen; telepathy 120 ft.",
+      "fr": "Thri-kreen ; télépathie 120 ft.",
+      "source": "Traduction proposée des cinq rapports utilisateur MM 2024 en version 1.17.50 · HTML vérifié dans Shard, chapitres S, T, V et X–Z · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · complément du 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Swarm",
+      "fr": "Nuée",
+      "source": "Traduction proposée du rapport utilisateur MM 2024 en version 1.17.51 · paragraphes et HTML vérifiés dans Shard, annexe A Animaux · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Bites",
+      "fr": "Morsures",
+      "source": "Traduction proposée du rapport utilisateur MM 2024 en version 1.17.51 · paragraphes et HTML vérifiés dans Shard, annexe A Animaux · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Languages Abyssal; telepathy 60 ft. (works only with creatures that understand Abyssal)",
+      "fr": "Langues Abyssal ; télépathie 60 ft. (uniquement avec les créatures qui comprennent l’abyssal)",
+      "source": "Traduction proposée du rapport utilisateur MM 2024 en version 1.17.51 · Dretch, langues et télépathie conditionnelle · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Abyssal; telepathy 60 ft. (works only with creatures that understand Abyssal)",
+      "fr": "Abyssal ; télépathie 60 ft. (uniquement avec les créatures qui comprennent l’abyssal)",
+      "source": "Traduction proposée du rapport utilisateur MM 2024 en version 1.17.51 · Dretch, langues et télépathie conditionnelle · 20 octobre 2026",
       "category": "monstre",
       "aliases": []
     },
