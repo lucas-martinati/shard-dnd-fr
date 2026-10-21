@@ -15040,6 +15040,118 @@
       "en": "Tail. Melee Attack Roll: +10, reach 15 ft. Hit: 25 (4d8 + 7) Bludgeoning damage. If the target is a Huge or smaller creature, it has the Prone condition.",
       "fr": "Queue. Jet d’attaque au corps à corps : +10, allonge 15 ft. Touché : 25 (4d8 + 7) dégâts contondants. Si la cible est une créature de taille TG ou inférieure, elle subit l’état À terre.",
       "source": "Traduction proposée du rapport utilisateur MM 2024 en version 1.17.51 · complément de 18 textes ; HTML relevé dans Shard, annexe A Animaux · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026"
+    },
+    {
+      "id": "mm-annotations-20261021-00",
+      "kind": "term",
+      "en": "Gear",
+      "fr": "Équipement",
+      "source": "Traduction proposée des annotations et attaques du rapport utilisateur MM 2024 en version 1.17.51 · 21 octobre 2026"
+    },
+    {
+      "id": "mm-annotations-20261021-01",
+      "kind": "term",
+      "en": "self only",
+      "fr": "soi uniquement",
+      "source": "Traduction proposée des annotations et attaques du rapport utilisateur MM 2024 en version 1.17.51 · 21 octobre 2026"
+    },
+    {
+      "id": "mm-annotations-20261021-02",
+      "kind": "term",
+      "en": "faerie dragons only",
+      "fr": "dragons féeriques uniquement",
+      "source": "Traduction proposée des annotations et attaques du rapport utilisateur MM 2024 en version 1.17.51 · 21 octobre 2026"
+    },
+    {
+      "id": "mm-annotations-20261021-03",
+      "kind": "term",
+      "en": "unimpeded by magical Darkness",
+      "fr": "non entravée par les ténèbres magiques",
+      "source": "Traduction proposée des annotations et attaques du rapport utilisateur MM 2024 en version 1.17.51 · 21 octobre 2026"
+    },
+    {
+      "id": "mm-annotations-20261021-04",
+      "kind": "term",
+      "en": "can appear as a Large or Medium biped",
+      "fr": "peut prendre l’apparence d’un bipède de taille G ou M",
+      "source": "Traduction proposée des annotations et attaques du rapport utilisateur MM 2024 en version 1.17.51 · 21 octobre 2026"
+    },
+    {
+      "id": "mm-annotations-20261021-05",
+      "kind": "term",
+      "en": "with Mind Blank",
+      "fr": "avec Esprit impénétrable",
+      "source": "Traduction proposée des annotations et attaques du rapport utilisateur MM 2024 en version 1.17.51 · 21 octobre 2026"
+    },
+    {
+      "id": "mm-annotations-20261021-attack-15.heading",
+      "kind": "term",
+      "en": "Conjure Slimy Glob",
+      "fr": "Invocation de globule visqueux",
+      "source": "Traduction proposée des annotations et attaques du rapport utilisateur MM 2024 en version 1.17.51 · 21 octobre 2026"
+    },
+    {
+      "id": "mm-annotations-20261021-attack-15.body",
+      "kind": "description",
+      "en": "Ranged Attack Roll: +4, range 60 ft. Hit: 9 (3d4 + 2) Acid damage.",
+      "fr": "Jet d’attaque à distance : +4, portée 60 ft. Touché : 9 (3d4 + 2) dégâts d’acide.",
+      "source": "Traduction proposée des annotations et attaques du rapport utilisateur MM 2024 en version 1.17.51 · 21 octobre 2026"
+    },
+    {
+      "id": "mm-annotations-20261021-attack-15.full",
+      "kind": "description",
+      "en": "Conjure Slimy Glob. Ranged Attack Roll: +4, range 60 ft. Hit: 9 (3d4 + 2) Acid damage.",
+      "fr": "Invocation de globule visqueux. Jet d’attaque à distance : +4, portée 60 ft. Touché : 9 (3d4 + 2) dégâts d’acide.",
+      "source": "Traduction proposée des annotations et attaques du rapport utilisateur MM 2024 en version 1.17.51 · 21 octobre 2026"
+    },
+    {
+      "id": "mm-annotations-20261021-attack-16.heading",
+      "kind": "term",
+      "en": "Strange Scepter",
+      "fr": "Sceptre étrange",
+      "source": "Traduction proposée des annotations et attaques du rapport utilisateur MM 2024 en version 1.17.51 · 21 octobre 2026"
+    },
+    {
+      "id": "mm-annotations-20261021-attack-16.body",
+      "kind": "description",
+      "en": "Melee or Ranged Attack Roll: +6, reach 5 ft. or range 120 ft. Hit: 20 (5d6 + 3) Lightning damage.",
+      "fr": "Jet d’attaque au corps à corps ou à distance : +6, allonge 5 ft. ou portée 120 ft. Touché : 20 (5d6 + 3) dégâts de foudre.",
+      "source": "Traduction proposée des annotations et attaques du rapport utilisateur MM 2024 en version 1.17.51 · 21 octobre 2026"
+    },
+    {
+      "id": "mm-annotations-20261021-attack-16.full",
+      "kind": "description",
+      "en": "Strange Scepter. Melee or Ranged Attack Roll: +6, reach 5 ft. or range 120 ft. Hit: 20 (5d6 + 3) Lightning damage.",
+      "fr": "Sceptre étrange. Jet d’attaque au corps à corps ou à distance : +6, allonge 5 ft. ou portée 120 ft. Touché : 20 (5d6 + 3) dégâts de foudre.",
+      "source": "Traduction proposée des annotations et attaques du rapport utilisateur MM 2024 en version 1.17.51 · 21 octobre 2026"
+    },
+    {
+      "id": "mm-helmed-horror-20261021-0.body",
+      "kind": "description",
+      "en": "The helmed horror makes two Arcane Sword attacks.",
+      "fr": "L’horreur casquée effectue deux attaques d’Épée arcanique.",
+      "source": "Traduction proposée du rapport utilisateur MM 2024 en version 1.17.52 · Horreur casquée, deux actions partiellement traduites ; HTML relevé dans Shard, chapitre H–J · 21 octobre 2026"
+    },
+    {
+      "id": "mm-helmed-horror-20261021-0.full",
+      "kind": "description",
+      "en": "Multiattack. The helmed horror makes two Arcane Sword attacks.",
+      "fr": "Attaques multiples. L’horreur casquée effectue deux attaques d’Épée arcanique.",
+      "source": "Traduction proposée du rapport utilisateur MM 2024 en version 1.17.52 · Horreur casquée, deux actions partiellement traduites ; HTML relevé dans Shard, chapitre H–J · 21 octobre 2026"
+    },
+    {
+      "id": "mm-helmed-horror-20261021-1.body",
+      "kind": "description",
+      "en": "Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 4) Slashing damage plus 5 (1d10) Force damage.",
+      "fr": "Jet d’attaque au corps à corps : +6, allonge 5 ft. Touché : 8 (1d8 + 4) dégâts tranchants plus 5 (1d10) dégâts de force.",
+      "source": "Traduction proposée du rapport utilisateur MM 2024 en version 1.17.52 · Horreur casquée, deux actions partiellement traduites ; HTML relevé dans Shard, chapitre H–J · 21 octobre 2026"
+    },
+    {
+      "id": "mm-helmed-horror-20261021-1.full",
+      "kind": "description",
+      "en": "Arcane Sword. Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 4) Slashing damage plus 5 (1d10) Force damage.",
+      "fr": "Épée arcanique. Jet d’attaque au corps à corps : +6, allonge 5 ft. Touché : 8 (1d8 + 4) dégâts tranchants plus 5 (1d10) dégâts de force.",
+      "source": "Traduction proposée du rapport utilisateur MM 2024 en version 1.17.52 · Horreur casquée, deux actions partiellement traduites ; HTML relevé dans Shard, chapitre H–J · 21 octobre 2026"
     }
   ]
 }

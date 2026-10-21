@@ -1,0 +1,207 @@
+{
+  "source": "Rapports utilisateur MM 2024, versions 1.17.51 et 1.17.52 · HTML observé dans Shard, chapitres B à N · 21 octobre 2026",
+  "cases": [
+    {
+      "id": 0,
+      "name": "Barlgura",
+      "en": "2/Day Each: Disguise Self, Invisibility (self only)",
+      "fr": "2/jour chacun : Déguisement, Invisibilité (soi uniquement)",
+      "occurrences": 1,
+      "html": "<p><b>2/Day Each:</b> <a href=\"#spell?id=4pe6e7mftsl9cnso\">Disguise Self</a>, <a href=\"#spell?id=q5kedn4yl6krzi41\">Invisibility</a> (self only)</p>"
+    },
+    {
+      "id": 1,
+      "name": "Bugbear Warrior",
+      "en": "Gear Hide Armor, Light Hammers (3)",
+      "fr": "Équipement Armure de peaux, Marteaux légers (3)",
+      "occurrences": 1,
+      "html": "<div class=\"mb1\"><span><span class=\"\"><b>Gear </b>Hide Armor, Light Hammers (3)</span></span></div>"
+    },
+    {
+      "id": 2,
+      "name": "Cambion",
+      "en": "1/Day Each: Dominate Person (level 8 version), Plane Shift (self only)",
+      "fr": "1/jour chacun : Domination de personne (version de niveau 8), Changement de plan (soi uniquement)",
+      "occurrences": 1,
+      "html": "<p><b>1/Day Each:</b> <a href=\"#spell?id=xwo3yytrmstluwoa\">Dominate Person</a> (level 8 version), <a href=\"#spell?id=cgqhxsg4ukhdobm5\">Plane Shift</a> (self only)</p>"
+    },
+    {
+      "id": 3,
+      "name": "Fiend Cultist",
+      "en": "Senses Darkvision 90 ft. (unimpeded by magical Darkness);, Passive Perception 17",
+      "fr": "Sens Vision dans le noir 90 ft. (non entravée par les ténèbres magiques), Perception passive 17",
+      "occurrences": 1,
+      "html": "<div class=\"mb1\"><span><span class=\"\"><b>Senses </b>Darkvision 90 ft. (unimpeded by magical Darkness);</span><span>, Passive Perception 17</span></span></div>"
+    },
+    {
+      "id": 4,
+      "name": "Dretch",
+      "en": "Languages Abyssal; telepathy 60 ft. (works only with creatures that understand Abyssal)",
+      "fr": "Langues Abyssal ; télépathie 60 ft. (uniquement avec les créatures qui comprennent l’abyssal)",
+      "occurrences": 2,
+      "html": "<div class=\"mb1\"><span><span class=\"\"><b>Languages </b>Abyssal; telepathy 60 ft. (works only with creatures that understand Abyssal)</span></span></div>"
+    },
+    {
+      "id": 5,
+      "name": "Swarm of Dretches",
+      "en": "Large swarm (of small fiends demon), Chaotic Evil",
+      "fr": "Nuée de taille G de Fiélons (Démons) de taille P, Chaotique mauvais",
+      "occurrences": 1,
+      "html": "<div class=\"i pb1\"><span>Large  </span><span>swarm (of small fiends demon)</span><span>, Chaotic Evil</span></div>"
+    },
+    {
+      "id": 6,
+      "name": "Faerie Dragon Adult",
+      "en": "Languages Draconic, Sylvan; telepathy 60 ft. (faerie dragons only)",
+      "fr": "Langues Draconique, Sylvestre ; Télépathie 60 ft. (dragons féeriques uniquement)",
+      "occurrences": 2,
+      "html": "<div class=\"mb1\"><span><span class=\"\"><b>Languages </b>Draconic, Sylvan; telepathy 60 ft. (faerie dragons only)</span></span></div>"
+    },
+    {
+      "id": 7,
+      "name": "Flumph",
+      "en": "Languages Understands Undercommon but can’t speak; telepathy 60 ft.",
+      "fr": "Langues Comprend Commun des profondeurs mais ne peut pas parler ; télépathie 60 ft.",
+      "occurrences": 1,
+      "html": "<div class=\"mb1\"><span><span class=\"\"><b>Languages </b>Understands Undercommon but can’t speak; telepathy 60 ft.</span></span></div>"
+    },
+    {
+      "id": 8,
+      "name": "Githyanki Warrior",
+      "en": "Gear Half-Plate Armor",
+      "fr": "Équipement Demi-plate",
+      "occurrences": 1,
+      "html": "<div class=\"mb1\"><span><span class=\"\"><b>Gear </b>Half-Plate Armor</span></span></div>"
+    },
+    {
+      "id": 9,
+      "name": "Githyanki Warrior",
+      "en": "2/Day: Nondetection (self only)",
+      "fr": "2/jour : Antidétection (soi uniquement)",
+      "occurrences": 1,
+      "html": "<p><b>2/Day:</b> <a href=\"#spell?id=le03y5s3cnes3v7u\">Nondetection</a> (self only)</p>"
+    },
+    {
+      "id": 10,
+      "name": "Githyanki Knight",
+      "en": "2/Day Each: Nondetection (self only), Tongues",
+      "fr": "2/jour chacun : Antidétection (soi uniquement), Don des langues",
+      "occurrences": 1,
+      "html": "<p><b>2/Day Each:</b> <a href=\"#spell?id=le03y5s3cnes3v7u\">Nondetection</a> (self only), <a href=\"#spell?id=yl6ydzq54w1g3zqi\">Tongues</a></p>"
+    },
+    {
+      "id": 11,
+      "name": "Githyanki Dracomancer",
+      "en": "2/Day Each: Nondetection (self only), Plane Shift, Tongues",
+      "fr": "2/jour chacun : Antidétection (soi uniquement), Changement de plan, Don des langues",
+      "occurrences": 1,
+      "html": "<p><b>2/Day Each:</b> <a href=\"#spell?id=le03y5s3cnes3v7u\">Nondetection</a> (self only), <a href=\"#spell?id=cgqhxsg4ukhdobm5\">Plane Shift</a>, <a href=\"#spell?id=yl6ydzq54w1g3zqi\">Tongues</a></p>"
+    },
+    {
+      "id": 12,
+      "name": "Horned Devil",
+      "en": "Senses Darkvision 150 ft. (unimpeded by magical Darkness);, Passive Perception 13",
+      "fr": "Sens Vision dans le noir 150 ft. (non entravée par les ténèbres magiques), Perception passive 13",
+      "occurrences": 1,
+      "html": "<div class=\"mb1\"><span><span class=\"\"><b>Senses </b>Darkvision 150 ft. (unimpeded by magical Darkness);</span><span>, Passive Perception 13</span></span></div>"
+    },
+    {
+      "id": 13,
+      "name": "Intellect Devourer",
+      "en": "Languages Understands Deep Speech but can’t speak; telepathy 60 ft.",
+      "fr": "Langues Comprend Profond mais ne peut pas parler ; télépathie 60 ft.",
+      "occurrences": 1,
+      "html": "<div class=\"mb1\"><span><span class=\"\"><b>Languages </b>Understands Deep Speech but can’t speak; telepathy 60 ft.</span></span></div>"
+    },
+    {
+      "id": 14,
+      "name": "Kraken",
+      "en": "Languages Understands Abyssal, Celestial, Infernal, and Primordial but can’t speak; telepathy 120 ft.",
+      "fr": "Langues Comprend Abyssal, Céleste, Infernal et Primordial mais ne peut pas parler ; télépathie 120 ft.",
+      "occurrences": 1,
+      "html": "<div class=\"mb1\"><span><span class=\"\"><b>Languages </b>Understands Abyssal, Celestial, Infernal, and Primordial but can’t speak; telepathy 120 ft.</span></span></div>"
+    },
+    {
+      "id": 15,
+      "name": "Kuo-toa Whip",
+      "en": "Conjure Slimy Glob. Ranged Attack Roll: +4, range 60 ft. Hit: 9 (3d4 + 2) Acid damage.",
+      "fr": "Invocation de globule visqueux. Jet d’attaque à distance : +4, portée 60 ft. Touché : 9 (3d4 + 2) dégâts d’acide.",
+      "occurrences": 1,
+      "html": "<p><b><i>Conjure Slimy Glob.</i></b> <i>Ranged Attack Roll:</i> <b>+4</b>, range 60 ft. <i>Hit:</i> 9 (<b>3d4 + 2</b>) Acid damage.</p>"
+    },
+    {
+      "id": 16,
+      "name": "Kuo-toa Archpriest",
+      "en": "Strange Scepter. Melee or Ranged Attack Roll: +6, reach 5 ft. or range 120 ft. Hit: 20 (5d6 + 3) Lightning damage.",
+      "fr": "Sceptre étrange. Jet d’attaque au corps à corps ou à distance : +6, allonge 5 ft. ou portée 120 ft. Touché : 20 (5d6 + 3) dégâts de foudre.",
+      "occurrences": 1,
+      "html": "<p><b><i>Strange Scepter.</i></b> <i>Melee or Ranged Attack Roll:</i> <b>+6</b>, reach 5 ft. or range 120 ft. <i>Hit:</i> 20 (<b>5d6 + 3</b>) Lightning damage.</p>"
+    },
+    {
+      "id": 17,
+      "name": "Lamia",
+      "en": "At Will: Disguise Self (can appear as a Large or Medium biped), Minor Illusion",
+      "fr": "À volonté : Déguisement (peut prendre l’apparence d’un bipède de taille G ou M), Illusion mineure",
+      "occurrences": 1,
+      "html": "<p><b>At Will:</b> <a href=\"#spell?id=4pe6e7mftsl9cnso\">Disguise Self</a> (can appear as a Large or Medium biped), <a href=\"#spell?id=la10c86la3alv81w\">Minor Illusion</a></p>"
+    },
+    {
+      "id": 18,
+      "name": "Archmage",
+      "en": "Condition Immunities Charmed (with Mind Blank)",
+      "fr": "Immunités aux états Charmé (avec Esprit impénétrable)",
+      "occurrences": 1,
+      "html": "<div class=\"mb1\"><span><span class=\"\"><b>Condition Immunities </b>Charmed (with Mind Blank)</span></span></div>"
+    },
+    {
+      "id": 19,
+      "name": "Marid",
+      "en": "At Will: Create or Destroy Water, Detect Evil and Good, Detect Magic, Purify Food and Drink",
+      "fr": "À volonté : Création ou destruction d’eau, Détection du mal et du bien, Détection de la magie, Purification de la nourriture et de l’eau",
+      "occurrences": 1,
+      "html": "<p><b>At Will:</b> <a href=\"#spell?id=e0afy8qmagk9dem9\">Create or Destroy Water</a>, <a href=\"#spell?id=l1ndymnfrifsyyz0\">Detect Evil and Good</a>, <a href=\"#spell?id=tcsmo1771o5525ss\">Detect Magic</a>, <a href=\"#spell?id=ey2gk6iam7wklx1b\">Purify Food and Drink</a></p>"
+    },
+    {
+      "id": 20,
+      "name": "Mind Flayer",
+      "en": "1/Day Each: Dominate Monster, Plane Shift (self only)",
+      "fr": "1/jour chacun : Domination de monstre, Changement de plan (soi uniquement)",
+      "occurrences": 1,
+      "html": "<p><b>1/Day Each:</b> <a href=\"#spell?id=cyr9uhveu1ji865o\">Dominate Monster</a>, <a href=\"#spell?id=cgqhxsg4ukhdobm5\">Plane Shift</a> (self only)</p>"
+    },
+    {
+      "id": 21,
+      "name": "Mind Flayer Arcanist",
+      "en": "1/Day Each: Clairvoyance, Dimension Door, Fireball (level 5 version), Lightning Bolt (level 5 version), Plane Shift (self only), Sending",
+      "fr": "1/jour chacun : Clairvoyance, Porte dimensionnelle, Boule de feu (version de niveau 5), Éclair (version de niveau 5), Changement de plan (soi uniquement), Communication à distance",
+      "occurrences": 1,
+      "html": "<p><b>1/Day Each:</b> <a href=\"#spell?id=my87ijnxod42xs69\">Clairvoyance</a>, <a href=\"#spell?id=pi9p9dzkwgc1xzin\">Dimension Door</a>, <a href=\"#spell?id=zswrgnlsocpin38w\">Fireball</a> (level 5 version), <a href=\"#spell?id=5dds3aauj5ztyw1j\">Lightning Bolt</a> (level 5 version), <a href=\"#spell?id=cgqhxsg4ukhdobm5\">Plane Shift</a> (self only), <a href=\"#spell?id=l6ddg4rm6fgky8d0\">Sending</a></p>"
+    },
+    {
+      "id": 22,
+      "name": "Night Hag",
+      "en": "2/Day Each: Phantasmal Killer, Plane Shift (self only)",
+      "fr": "2/jour chacun : Assassin imaginaire, Changement de plan (soi uniquement)",
+      "occurrences": 1,
+      "html": "<p><b>2/Day Each:</b> <a href=\"#spell?id=9ni2b00ofpb0otxk\">Phantasmal Killer</a>, <a href=\"#spell?id=cgqhxsg4ukhdobm5\">Plane Shift</a> (self only)</p>"
+    },
+    {
+      "id": 23,
+      "name": "Helmed Horror",
+      "en": "Multiattack. The helmed horror makes two Arcane Sword attacks.",
+      "fr": "Attaques multiples. L’horreur casquée effectue deux attaques d’Épée arcanique.",
+      "previouslyDisplayed": "Attaques multiples. The helmed horror makes two Arcane Sword attacks.",
+      "occurrences": 1,
+      "html": "<p><b><i>Multiattack</i></b><b><i>.</i></b> The helmed horror makes two Arcane Sword attacks.</p>"
+    },
+    {
+      "id": 24,
+      "name": "Helmed Horror",
+      "en": "Arcane Sword. Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 4) Slashing damage plus 5 (1d10) Force damage.",
+      "fr": "Épée arcanique. Jet d’attaque au corps à corps : +6, allonge 5 ft. Touché : 8 (1d8 + 4) dégâts tranchants plus 5 (1d10) dégâts de force.",
+      "previouslyDisplayed": "Épée arcanique. Jet d’attaque au corps à corps: +6, allonge 5 ft. Touché : 8 (1d8 + 4) Slashing damage plus 5 (1d10) dégâts de force.",
+      "occurrences": 1,
+      "html": "<p><b><i>Arcane Sword.</i></b> <i>Melee Attack Roll:</i> <b>+6</b>, reach 5 ft. <i>Hit:</i> 8 (<b>1d8 + 4</b>) Slashing damage plus 5 (<b>1d10</b>) Force damage.</p>"
+    }
+  ]
+}

@@ -30,7 +30,9 @@ async function wait(check) { for (let i = 0; i < 500 && !check(); i++) await pau
   const pageJSON = await exported('exportMissing'), page = JSON.parse(pageJSON);
   const fragment = page.missing.find(row => row.blocks?.some(block => block.en === full)); assert.ok(fragment, 'Le paragraphe complet accompagne le fragment');
   assert.notEqual(fragment.en, full); assert.equal(fragment.occurrences, 2); assert.equal(fragment.context, 'Wolf');
-  assert.deepEqual(fragment.blocks, [{ en: full, context: 'Wolf' }, { en: full, context: 'Ape' }]);
+  assert.deepEqual(fragment.blocks.map(({en,context})=>({en,context})), [{ en: full, context: 'Wolf' }, { en: full, context: 'Ape' }]);
+  assert.equal(typeof fragment.displayed, 'string'); assert.match(fragment.displayed, /Trait de feu/);
+  fragment.blocks.forEach(block=>{ assert.match(block.displayed, /Attaques multiples/); assert.match(block.displayed, /Trait de feu/); });
   assert.doesNotMatch(pageJSON, /PRIVATE_/); assert.equal(page.scope, 'visible-page');
   const beforeRequests = requests, beforeDownloads = downloads;
   copyPage(); await wait(() => el('copyMissingStatus').textContent.includes('Analyse copiée'));
@@ -39,7 +41,7 @@ async function wait(check) { for (let i = 0; i < 500 && !check(); i++) await pau
   const toggle = el('showDescriptionStatus'); toggle.checked = true; toggle.dispatchEvent(new w.Event('change')); el('inspectDescriptions').click();
   await wait(() => el('descriptionStatus').textContent.includes('terminée'));
   const descriptionJSON = await exported('exportDescriptions'); el('copyDescriptions').click(); await wait(() => el('copyDescriptionsStatus').textContent.includes('Analyse copiée'));
-  assert.equal(copied.at(-1), descriptionJSON); assert.equal(JSON.parse(descriptionJSON).scope, 'catalogue-descriptions'); assert.doesNotMatch(descriptionJSON, /PRIVATE_/);
+  assert.equal(copied.at(-1), descriptionJSON); assert.equal(JSON.parse(descriptionJSON).scope, 'catalogue-descriptions'); assert.ok(JSON.parse(descriptionJSON).missing.every(row=>typeof row.displayed==='string')); assert.doesNotMatch(descriptionJSON, /PRIVATE_/);
   assert.equal(await exported('exportMissing'), pageJSON, 'Les deux analyses restent séparées');
   // Repli natif si l’API de l’extension manque ou lève une erreur.
   w.GM_setClipboard = undefined; copyPage(); await wait(() => !el('copyMissing').disabled); assert.equal(native.at(-1), pageJSON);

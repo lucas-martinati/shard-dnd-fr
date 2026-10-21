@@ -68,6 +68,8 @@ Le rapport Animaux en version 1.17.51 contient 19 signalements distincts et 20 o
 
 Les deux compléments Animaux suivants apportent deux puis 18 textes, soit quatre puis 39 correspondances locales. La même fixture conserve désormais les trois rapports, 39 HTML observés et sept corps isolés ; le test couvre 39 signalements et 41 occurrences. Les nouveaux paragraphes comprennent le Bec conditionnel du faucon de sang, l’Apnée des crocodiles, la toile de l’araignée géante, les morsures de la nuée de serpents et les attaques du tyrannosaure. La condition En sang ne réduit pas les dégâts de poison de cette nuée.
 
+Le [lot des annotations du 21 octobre](../tests/fixtures/mm-annotations-20261021.json) couvre 23 signalements et 25 occurrences, dont les deux cas du dretch déjà résolus, à partir des HTML observés des chapitres B à N. Les corrections privilégient la composition : annotations courtes, versions paramétrées des sorts, champs de statistiques et langues comprises. Douze entrées sont ajoutées (six libellés ou annotations et les titres, corps et paragraphes des deux attaques kuo-toas), sans dupliquer les listes de sorts. Le JSON conserve la source et ajoute le texte affiché, avec les variantes observées et les affichages des paragraphes complets, sans étendre la lecture aux champs privés.
+
 ## Objectif minimal : toutes les références accessibles depuis l’accueil
 
 Le [périmètre structuré](../audit/perimetre-references.json) distingue six catégories de personnage — historiques, classes, dons, espèces, sorts et équipement — et dix types personnalisés. Le PHB puis le MM 2024 restent prioritaires ; le corpus 2014 apporte la compatibilité historique.

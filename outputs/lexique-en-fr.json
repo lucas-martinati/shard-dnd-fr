@@ -1,5 +1,5 @@
 {
-  "version": "1.17.51",
+  "version": "1.17.52",
   "reference": "Noms AideDD 2024 prioritaires. Références SRD disponibles séparément. Autres entrées identifiées.",
   "license": "Code MIT ; contenu SRD CC-BY-4.0 https://creativecommons.org/licenses/by/4.0/",
   "sources": [
@@ -19666,6 +19666,62 @@
       "en": "Web (Recharge 5–6)",
       "fr": "Toile (recharge 5–6)",
       "source": "Traduction proposée du rapport utilisateur MM 2024 en version 1.17.51 · complément de 18 textes ; HTML relevé dans Shard, annexe A Animaux · https://play.shardtabletop.com/#book?id=42kx3bk4mrh7f61i · 20 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Gear",
+      "fr": "Équipement",
+      "source": "Traduction proposée des annotations et attaques du rapport utilisateur MM 2024 en version 1.17.51 · 21 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "self only",
+      "fr": "soi uniquement",
+      "source": "Traduction proposée des annotations et attaques du rapport utilisateur MM 2024 en version 1.17.51 · 21 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "faerie dragons only",
+      "fr": "dragons féeriques uniquement",
+      "source": "Traduction proposée des annotations et attaques du rapport utilisateur MM 2024 en version 1.17.51 · 21 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "unimpeded by magical Darkness",
+      "fr": "non entravée par les ténèbres magiques",
+      "source": "Traduction proposée des annotations et attaques du rapport utilisateur MM 2024 en version 1.17.51 · 21 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "can appear as a Large or Medium biped",
+      "fr": "peut prendre l’apparence d’un bipède de taille G ou M",
+      "source": "Traduction proposée des annotations et attaques du rapport utilisateur MM 2024 en version 1.17.51 · 21 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "with Mind Blank",
+      "fr": "avec Esprit impénétrable",
+      "source": "Traduction proposée des annotations et attaques du rapport utilisateur MM 2024 en version 1.17.51 · 21 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Conjure Slimy Glob",
+      "fr": "Invocation de globule visqueux",
+      "source": "Traduction proposée des annotations et attaques du rapport utilisateur MM 2024 en version 1.17.51 · 21 octobre 2026",
+      "category": "monstre",
+      "aliases": []
+    },
+    {
+      "en": "Strange Scepter",
+      "fr": "Sceptre étrange",
+      "source": "Traduction proposée des annotations et attaques du rapport utilisateur MM 2024 en version 1.17.51 · 21 octobre 2026",
       "category": "monstre",
       "aliases": []
     },

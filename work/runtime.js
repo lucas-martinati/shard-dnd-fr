@@ -150,6 +150,18 @@
     const result=translated.replace(/\{[^{}]*\}/g,value=>{const matches=available.get(normalize(value));if(!matches?.length){valid=false;return value;}return matches.shift();});
     return valid?result:null;
   }
+  function formRestrictionTranslation(source){
+    const match=/^(.{1,100}?)\s+Forms? Only$/i.exec(source.trim());if(!match)return null;
+    const forms=match[1].split(/\s+or\s+/i);if(forms.length>4)return null;
+    const translated=forms.map(form=>{
+      const key=normalize(form);
+      if(key==='human')return 'humaine';if(key==='hybrid')return 'hybride';
+      const entry=entries.get(key);if(!entry)return null;
+      const name=entry.fr.toLocaleLowerCase('fr');
+      return (/^[aeiouyàâéèêëîïôöùûüœæ]/u.test(name)?'d’':'de ')+name;
+    });
+    return translated.every(Boolean)?(forms.length>1?'formes ':'forme ')+translated.join(' ou ')+' uniquement':null;
+  }
   const translationCache=new Map();let translationCacheRevision=-1,translationCacheBilingual=null,translationCacheRoute='';
   function translate(source, context = source) {
     if (!enabled || !source.trim() || source.length > 50000) return source;
@@ -200,6 +212,30 @@
       const masked=source.replace(/\{[^{}]*\}/g,formula=>{let marker;do{marker=String.fromCodePoint(0xF0000+index++);}while(source.includes(marker));placeholders.push([marker,formula]);return marker;});
       let result=translateUncached(masked,context);
       for(const [marker,formula]of placeholders)result=result.split(marker).join(formula);
+      return result;
+    }
+    // Les restrictions de forme sont des annotations, pas des noms d’attaques.
+    // Ne composer que les formes reconnues ; une forme inconnue reste à signaler.
+    if(/\([^()]*\bForms? Only\)/i.test(source)){
+      const annotations=[];let index=0;
+      const masked=source.replace(/\(([^()]*\bForms? Only)\)/gi,(whole,restriction)=>{
+        const french=formRestrictionTranslation(restriction);if(!french)return whole;
+        let marker;do{marker=String.fromCodePoint(0xF2000+index++);}while(source.includes(marker));annotations.push([marker,'('+french+')']);return marker;
+      });
+      if(annotations.length){
+        let result=translateUncached(masked,context);
+        if(result===masked&&/\p{L}/u.test(structuredRemainder(masked)))return originalSource;
+        for(const [marker,french]of annotations)result=result.split(marker).join(french);
+        return result;
+      }
+    }
+    // Annotation des listes de sorts : une règle suffit pour tous les niveaux.
+    if(/\blevel [1-9] version\b/i.test(source)){
+      const annotations=[];let index=0;
+      const masked=source.replace(/\blevel ([1-9]) version\b/gi,(_,level)=>{let marker;do{marker=String.fromCodePoint(0xF1000+index++);}while(source.includes(marker));annotations.push([marker,'version de niveau '+level]);return marker;});
+      let result=translateUncached(masked,context);
+      if(result===masked&&/\p{L}/u.test(structuredRemainder(masked)))return originalSource;
+      for(const [marker,french]of annotations)result=result.split(marker).join(french);
       return result;
     }
     const cast=/^Cast\s+(?:Level\s+)?([1-9])(?:st|nd|rd|th)?(?:[- ]level)?\s+Spell\s*:\s*(.+)$/i.exec(source.trim());
@@ -271,6 +307,8 @@
   }
   function processText(node,inlineVisited) {
     if(maintainInline(node))return;
+    const statField=node.parentElement?.closest('.monstersimple .mb1');
+    if(statField){processInline(statField,inlineVisited);if(maintainInline(node))return;}
     if(node.parentElement?.closest('p,li,td,th,.description,.pre-wrap,.stdcontent')){let el=node.parentElement;for(let depth=0;el&&depth<3;depth++,el=el.parentElement){processInline(el,inlineVisited);if(maintainInline(node))return;}}
     if (!node.isConnected || excluded(node.parentElement)) return;
     const current = node.data;
@@ -306,7 +344,8 @@
     if(node.parentElement.closest('h1,h2,h3,h4,h5,h6,[role="heading"],.titletext,button'))prose=null;
     const proseText=prose?blockEnglish(prose):'';
     const fragments=proseText.match(/\b(?:the|you|your|a|an|can|must|within|that|of|is|to|and|or|for|with)\b/gi)||[];
-    const partialProse=fragments.length>=3 && proseText.length>35 && proseText.length<6000 && inlineKey(proseText)!==inlineKey(original) && !completePairs.has(inlineKey(proseText));
+    const spellList=/^\s*(?:At Will|\d+\/Day(?: Each)?)\s*:/i.test(proseText);
+    const partialProse=!spellList && fragments.length>=3 && proseText.length>35 && proseText.length<6000 && inlineKey(proseText)!==inlineKey(original) && !completePairs.has(inlineKey(proseText));
     const translated=partialProse&&!completePairs.has(inlineKey(original))&&!customKeys.has(normalize(original))?original:translate(original,context);
     tokenState.set(node,{original,output:translated,revision,enabled,bilingual});
     if (translated !== current) node.data = translated;
@@ -784,7 +823,12 @@
     return headingEntries.get(inlineKey(match[1]));
   }
   function translateHeading(source,context=source){
-    const entry=knownHeading(source);if(!entry)return null;
+    const entry=knownHeading(source);
+    if(!entry){
+      const form=/^(\s*)(.{1,100}?)\s*\(([^()]*\bForms? Only)\)([.:])(\s*)$/i.exec(source);
+      const restriction=form&&formRestrictionTranslation(form[3]);
+      return restriction&&entries.has(normalize(form[2]))?form[1]+translate(form[2],context)+' ('+restriction+')'+form[4]+form[5]:null;
+    }
     const punctuation=/([.:])\s*$/.exec(source)[1];
     return source.match(/^\s*/)[0]+translate(entry.en,context)+punctuation+source.match(/\s*$/)[0];
   }
@@ -826,6 +870,22 @@
     const subtype=swarm?.[4]?(/demons?/i.test(swarm[4])?' (Démons)':' (Diables)'):'';
     return swarm?'Nuée de taille '+sizes[normalize(swarm[1])]+' de '+plurals[normalize(swarm[3])]+subtype+' de taille '+sizes[normalize(swarm[2])]+', '+translate(swarm[5]):null;
   }
+  function creatureFieldTranslation(el,source){
+    if(!enabled||!el.matches('.monstersimple .mb1')||el.querySelector('div,p,li,table,input,textarea,select,button,[contenteditable]'))return null;
+    if(!/^\s*(?:Gear|Languages|Senses|Immunities|Condition Immunities)\b/i.test(source))return null;
+    // Réutiliser les correspondances complètes déjà présentes, même courtes.
+    if(entries.has(normalize(source)))return translate(source);
+    const understood=/^Languages\s+Understands\s+(.+?)\s+but (?:can['’]t|cannot) speak(?:;\s*telepathy\s+(\d+)\s+(ft\.?|feet))?\s*$/i.exec(source);
+    if(understood){
+      const languages=understood[1].split(/,\s*(?:and\s+)?|\s+and\s+/i);
+      if(!languages.every(name=>entries.has(normalize(name))))return null;
+      const french=languages.map(name=>translate(name));
+      const list=french.length>1?french.slice(0,-1).join(', ')+' et '+french.at(-1):french[0];
+      return 'Langues Comprend '+list+' mais ne peut pas parler'+(understood[2]?' ; télépathie '+understood[2]+' '+understood[3]:'');
+    }
+    const translated=translate(source);
+    return translated!==source?translated.replace(/;\s*,/g,','):null;
+  }
   function processInline(el,visited){
     // Un échec sur un paragraphe inconnu vaut pour tout ce parcours, pas pour
     // chaque nœud et chacun de ses ancêtres. Une mutation ouvre un nouveau parcours.
@@ -836,9 +896,11 @@
     // des spans/gras/liens. Les traiter comme un paragraphe de la description.
     const descriptionLine=el.tagName==='DIV'&&el.closest('.description,.pre-wrap,.stdcontent')&&!el.querySelector('div,p,li,table');
     const creatureTypeLine=el.matches('.monstersimple .i.pb1');
-    if(!descriptionLine&&!creatureTypeLine&&!el.matches('p,li,td,th,.description,.pre-wrap,.stdcontent'))return;
+    const creatureFieldLine=el.matches('.monstersimple .mb1')&&!el.querySelector('div,p,li,table');
+    if(!descriptionLine&&!creatureTypeLine&&!creatureFieldLine&&!el.matches('p,li,td,th,.description,.pre-wrap,.stdcontent'))return;
     const visible=el.textContent;if(visible.length>50000)return;
-    if(visible.length<35&&!creatureTypeLine&&!completePairs.has(inlineKey(visible))&&!inlinePairs.has(inlineKey(visible)))return;
+    const formHeading=/\bForms? Only\)/i.test(visible)&&translateHeading(visible);
+    if(visible.length<35&&!creatureTypeLine&&!creatureFieldLine&&!formHeading&&!completePairs.has(inlineKey(visible))&&!inlinePairs.has(inlineKey(visible)))return;
     const nodes=blockNodes(el);if(!nodes.length||nodes.length>300)return;
     // Une fiche inchangée peut être visitée par plusieurs racines de mutation.
     // Éviter de recalculer tous ses blocs à chaque passage.
@@ -878,7 +940,7 @@
   }
   function processInlineNodes(el,nodes,source,visualGroups=null){
     if(nodes.some(n=>maintainInline(n)))return;
-    const key=inlineKey(source),translated=creatureTypeTranslation(el,source)||lookupPair(key)||lookupFieldPair(key)||translateDuration(source)||translateHeading(source,blockEnglish(el))||translateCompleteBlock(source);
+    const key=inlineKey(source),translated=creatureTypeTranslation(el,source)||creatureFieldTranslation(el,source)||lookupPair(key)||lookupFieldPair(key)||translateDuration(source)||translateHeading(source,blockEnglish(el))||translateCompleteBlock(source);
     const fr=translated&&preserveFormulas(source,preserveFeet(source,translated));
     if(!fr||customKeys.has(normalize(source))||nodes.some(n=>customKeys.has(normalize(originalNode(n)))))return;
     const formatGroups=new Map();
@@ -1306,7 +1368,10 @@
     source=diagnosticLanguageProbe(source);
     const fragments=/\b(?:tiny|small|gargantuan|unaligned|undead|humanoid|monstrosit(?:y|ies)|oozes?|slashing|piercing|bludgeoning|darkvision|blindsight|tremorsense|telepathy|burrow|hover|grappled|restrained|incapacitated|unconscious|frightened|poisoned|paralyzed|petrified|stunned|charmed|deafened|lightning|necrotic|psychic|thunder)\b|\b(?:or|and)\s+(?:medium|large|huge|beast|plant|construct)\b|\b(?:self only|at will|up to|per day|as a bonus action)\b/i;
     const mixedSizes=/\b(?:TP|P|M|G|TG|Gig|petite?|moyen(?:ne)?|grande?|gigantesque)\s+(?:or|and)\s+(?:TP|P|M|G|TG|Gig|petite?|moyen(?:ne)?|grande?|gigantesque)\b/i;
-    if(hasEnglishClue(source)||fragments.test(source)||mixedSizes.test(source)||hasEquipmentEnglish(source,el,contexts,visibleCache))return true;
+    const heading=/^\s*([^.!?:()]{1,100}?)(?:\s*\([^()]*\))?[.:](?:\s|$)/.exec(source);
+    const headingEntry=heading&&entries.get(normalize(heading[1]));
+    const englishHeading=headingEntry&&!names.has(normalize(heading[1]))&&normalize(headingEntry.en)!==normalize(headingEntry.fr);
+    if(hasEnglishClue(source)||fragments.test(source)||mixedSizes.test(source)||/\bForms? Only\b/i.test(source)||englishHeading||hasEquipmentEnglish(source,el,contexts,visibleCache))return true;
     const material=diagnosticMaterialValue.exec(source);
     if(material)return looksEnglishMaterial(material[1]);
     if(!looksEnglishMaterial(source))return false;
@@ -1370,7 +1435,8 @@
   function collectDiagnostics(root=document.body,mark=true,attributes=true){
     const resultLimit=analysisResultLimit||Infinity,nodeLimit=analysisNodeLimit||Infinity;
     const knownFrench=knownDiagnosticFrench();
-    const missing=[],seen=new Map(),visibleCache=new WeakMap(),blockContexts=new WeakMap(),originalBlocks=new WeakMap(),regionContexts=new WeakMap();let examined=0,truncated=false;
+    const missing=[],seen=new Map(),visibleCache=new WeakMap(),blockContexts=new WeakMap(),originalBlocks=new WeakMap(),displayedBlocks=new WeakMap(),regionContexts=new WeakMap();let examined=0,truncated=false;
+    const cleanDisplayed=text=>String(text??'').replace(/[\uE000-\uF8FF]/g,'').replace(/\s+/g,' ').trim();
     function contextFor(el){
       const region=el.closest('.monstersimple,article,[role="dialog"],section');
       if(!region)return '';
@@ -1391,10 +1457,14 @@
       source=source.replace(/\s+/g,' ').trim();
       if(!source||!/[a-zA-Z]/.test(source)||/^(?:\d+)?d\d+$/i.test(source)||/^\d+(?:[.,]\d+)?\s*lb\.?$/i.test(source)||diagnosticFormulaOnly(source)||knownFrench.has(inlineKey(source))||ignoredDiagnosticLabel(source,books))return;
       if(knownFrench.has(inlineKey(diagnosticLanguageProbe(source))))return;
-      const typeTranslation=creatureTypeTranslation(el,source);
+      const typeTranslation=creatureTypeTranslation(el,source)||creatureFieldTranslation(el,source);
       const expected=typeTranslation||lookupPair(inlineKey(source))||translate(source,creatureSavingThrowCell(el,source)?'creature ability saving throws':source);
       const current=attribute?el.getAttribute(attribute):(displayed??el.textContent);
       if(typeTranslation&&inlineKey(current||'')===inlineKey(typeTranslation))return;
+      if((/^\s*(?:At Will|\d+\/Day(?: Each)?)\s*:/i.test(source)||/\([^()]*\bForms? Only\)/i.test(source))&&inlineKey(expected)!==inlineKey(source)&&inlineKey(current||'')===inlineKey(expected)){
+        const masked=source.replace(/\{[^{}]*\}/g,'').replace(/\blevel [1-9] version\b/gi,'').replace(/\(([^()]*\bForms? Only)\)/gi,(whole,restriction)=>formRestrictionTranslation(restriction)?'':whole);
+        if(!/\p{L}/u.test(structuredRemainder(masked.replace(textMatcher(masked),''))))return;
+      }
       if(!residual&&inlineKey(current||'')===inlineKey(expected)&&inlineKey(expected)!==inlineKey(source))return;
       const isLabel=attribute||source.length<100&&!el.matches('p,li,.description,.pre-wrap');
       const english=hasDiagnosticEnglish(source,el,blockContexts,visibleCache);
@@ -1402,11 +1472,12 @@
       if(!analysisDeep&&isLabel&&!english&&frenchClue.test(source))return;
       if(analysisDeep&&!english&&!/\p{L}/u.test(structuredRemainder(source)))return;
       const reason=!english&&analysisDeep?'language-unverified':residual?'unrecognized-layout':diagnosticReason(el,source),key=inlineKey(source)+'|'+reason+'|'+(attribute||'');
+      const rendered=cleanDisplayed(current);
       let row=seen.get(key);
-      if(row){row.occurrences++;}
+      if(row){row.occurrences++;if(row.displayed!==rendered){const variants=row.displayedVariants||(row.displayedVariants=[row.displayed]);if(!variants.includes(rendered))variants.push(rendered);}}
       else{
         if(missing.length>=resultLimit){truncated=true;return;}
-        row={en:source,kind:isLabel?'term':'description',reason,context:contextFor(el),occurrences:1};
+        row={en:source,displayed:rendered,kind:isLabel?'term':'description',reason,context:contextFor(el),occurrences:1};
         if(attribute)row.attribute=attribute;
         seen.set(key,row);missing.push(row);
       }
@@ -1414,12 +1485,17 @@
       // Conserver le paragraphe original visible, sans champs ni notes privées.
       const block=!attribute&&el.closest('p,li');
       if(block){
-        if(!originalBlocks.has(block))originalBlocks.set(block,blockNodes(block).filter(n=>diagnosticVisible(n.parentElement,visibleCache)).map(originalNode).join('').replace(/[\uE000-\uF8FF]/g,'').replace(/\s+/g,' ').trim());
+        if(!originalBlocks.has(block)){
+          const visibleNodes=blockNodes(block).filter(n=>diagnosticVisible(n.parentElement,visibleCache));
+          originalBlocks.set(block,cleanDisplayed(visibleNodes.map(originalNode).join('')));
+          displayedBlocks.set(block,cleanDisplayed(visibleNodes.map(n=>n.data).join('')));
+        }
         const full=originalBlocks.get(block);
         if(full&&inlineKey(full)!==inlineKey(source)){
           const context=contextFor(block);
           const blocks=row.blocks||(row.blocks=[]);
-          if(!blocks.some(item=>item.en===full&&item.context===context))blocks.push({en:full,context});
+          const displayed=displayedBlocks.get(block);
+          if(!blocks.some(item=>item.en===full&&item.context===context&&item.displayed===displayed))blocks.push({en:full,displayed,context});
         }
       }
       if(mark){el.setAttribute('data-shard-fr-diagnostic','');diagnosticMarks.add(el);}
