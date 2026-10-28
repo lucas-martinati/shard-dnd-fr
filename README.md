@@ -11,6 +11,10 @@ Script Tampermonkey de traduction française pour [Shard Tabletop](https://play.
 
 Consulter le [guide complet](outputs/INSTALLATION.md) pour les réglages, les recherches en français et les liens AideDD.
 
+## Interface visuelle indépendante
+
+Un second userscript optionnel, [`outputs/shard-ui.user.js`](outputs/shard-ui.user.js), améliore la lisibilité de Shard en conservant ses couleurs et son identité visuelle. Il conserve la densité native, affine les fiches de personnage et ajoute des chevrons de repli intégrés aux sections, sans panneau de réglages. Il s’installe à côté du script français. Voir [son installation et ses limites](ui/README.md).
+
 ## Mises à jour automatiques
 
 `npm run build` génère aussi `outputs/shard-dnd-fr.meta.js`, qui contient uniquement le header du script, avec la même version et les mêmes métadonnées. Tampermonkey consulte ce petit fichier via `@updateURL`, puis télécharge le script complet via `@downloadURL` lorsqu’une nouvelle version est disponible.
