@@ -1,5 +1,5 @@
 {
-  "version": "1.17.52",
+  "version": "1.17.53",
   "reference": "Noms AideDD 2024 prioritaires. Références SRD disponibles séparément. Autres entrées identifiées.",
   "license": "Code MIT ; contenu SRD CC-BY-4.0 https://creativecommons.org/licenses/by/4.0/",
   "sources": [
@@ -32701,70 +32701,110 @@
       "fr": "Aveuglé",
       "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
       "category": "vocabulaire",
-      "aliases": []
+      "aliases": [
+        "Aveuglée",
+        "Aveuglés",
+        "Aveuglées"
+      ]
     },
     {
       "en": "Charmed",
       "fr": "Charmé",
       "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
       "category": "vocabulaire",
-      "aliases": []
+      "aliases": [
+        "Charmée",
+        "Charmés",
+        "Charmées"
+      ]
     },
     {
       "en": "Deafened",
       "fr": "Assourdi",
       "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
       "category": "vocabulaire",
-      "aliases": []
+      "aliases": [
+        "Assourdie",
+        "Assourdis",
+        "Assourdies"
+      ]
     },
     {
       "en": "Frightened",
       "fr": "Effrayé",
       "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
       "category": "vocabulaire",
-      "aliases": []
+      "aliases": [
+        "Effrayée",
+        "Effrayés",
+        "Effrayées"
+      ]
     },
     {
       "en": "Grappled",
       "fr": "Agrippé",
       "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
       "category": "vocabulaire",
-      "aliases": []
+      "aliases": [
+        "Agrippée",
+        "Agrippés",
+        "Agrippées"
+      ]
     },
     {
       "en": "Incapacitated",
       "fr": "Neutralisé",
       "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
       "category": "vocabulaire",
-      "aliases": []
+      "aliases": [
+        "Neutralisée",
+        "Neutralisés",
+        "Neutralisées",
+        "Incapable d’agir",
+        "Incapables d’agir"
+      ]
     },
     {
       "en": "Invisible",
       "fr": "Invisible",
       "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
       "category": "vocabulaire",
-      "aliases": []
+      "aliases": [
+        "Invisibles"
+      ]
     },
     {
       "en": "Paralyzed",
       "fr": "Paralysé",
       "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
       "category": "vocabulaire",
-      "aliases": []
+      "aliases": [
+        "Paralysée",
+        "Paralysés",
+        "Paralysées"
+      ]
     },
     {
       "en": "Petrified",
       "fr": "Pétrifié",
       "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
       "category": "vocabulaire",
-      "aliases": []
+      "aliases": [
+        "Pétrifiée",
+        "Pétrifiés",
+        "Pétrifiées"
+      ]
     },
     {
       "en": "Poisoned",
       "fr": "Empoisonné",
       "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
       "category": "vocabulaire",
-      "aliases": []
+      "aliases": [
+        "Empoisonnée",
+        "Empoisonnés",
+        "Empoisonnées"
+      ]
     },
     {
       "en": "Prone",
@@ -32778,21 +32818,33 @@
       "fr": "Entravé",
       "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
       "category": "vocabulaire",
-      "aliases": []
+      "aliases": [
+        "Entravée",
+        "Entravés",
+        "Entravées"
+      ]
     },
     {
       "en": "Stunned",
       "fr": "Étourdi",
       "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
       "category": "vocabulaire",
-      "aliases": []
+      "aliases": [
+        "Étourdie",
+        "Étourdis",
+        "Étourdies"
+      ]
     },
     {
       "en": "Unconscious",
       "fr": "Inconscient",
       "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
       "category": "vocabulaire",
-      "aliases": []
+      "aliases": [
+        "Inconsciente",
+        "Inconscients",
+        "Inconscientes"
+      ]
     },
     {
       "en": "Exhaustion",
@@ -41170,6 +41222,27 @@
       "aliases": []
     },
     {
+      "en": "Antipathy",
+      "fr": "Antipathie",
+      "source": "Traduction proposée de la fiche Shard · Antipathy/Sympathy · formulation importée de Shard Player's Guide Volume 1 dans D&D 2024 PHB · règles, nombres, dés et distances conservés",
+      "category": "vocabulaire",
+      "aliases": []
+    },
+    {
+      "en": "Sympathy",
+      "fr": "Sympathie",
+      "source": "Traduction proposée de la fiche Shard · Antipathy/Sympathy · formulation importée de Shard Player's Guide Volume 1 dans D&D 2024 PHB · règles, nombres, dés et distances conservés",
+      "category": "vocabulaire",
+      "aliases": []
+    },
+    {
+      "en": "Ending the Effect",
+      "fr": "Mettre fin à l’effet",
+      "source": "SRD officiel 5.2.1 FR · Aversion/attirance · CC-BY-4.0",
+      "category": "vocabulaire",
+      "aliases": []
+    },
+    {
       "en": "a sliver of glass",
       "fr": "un éclat de verre",
       "source": "Traduction proposée de l’extrait utilisateur · Nuée de dagues, composante matérielle · D&D 2024 PHB · 16 octobre 2026",
@@ -44591,6 +44664,272 @@
       "fr": "Aura murmurante",
       "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés.",
       "category": "sort",
+      "aliases": []
+    },
+    {
+      "en": "some makeup",
+      "fr": "un peu de maquillage",
+      "source": "Traduction proposée de la fiche Shard · Friends · D&D 2024 PHB · audit des sorts PHB 2024",
+      "category": "vocabulaire",
+      "aliases": []
+    },
+    {
+      "en": "an ornamental braid",
+      "fr": "une tresse ornementale",
+      "source": "Traduction proposée de la fiche Shard · Cordon of Arrows · D&D 2024 PHB · audit des sorts PHB 2024",
+      "category": "vocabulaire",
+      "aliases": []
+    },
+    {
+      "en": "Omen",
+      "fr": "Présage",
+      "source": "SRD officiel 5.2.1 FR · Augure · CC-BY-4.0",
+      "category": "vocabulaire",
+      "aliases": []
+    },
+    {
+      "en": "Weal",
+      "fr": "Fortune",
+      "source": "SRD officiel 5.2.1 FR · Augure · CC-BY-4.0",
+      "category": "vocabulaire",
+      "aliases": []
+    },
+    {
+      "en": "Woe",
+      "fr": "Misère",
+      "source": "SRD officiel 5.2.1 FR · Augure · CC-BY-4.0",
+      "category": "vocabulaire",
+      "aliases": []
+    },
+    {
+      "en": "Good",
+      "fr": "Bon",
+      "source": "SRD officiel 5.2.1 FR · Augure · CC-BY-4.0",
+      "category": "vocabulaire",
+      "aliases": []
+    },
+    {
+      "en": "Bad",
+      "fr": "Mauvais",
+      "source": "SRD officiel 5.2.1 FR · Augure · CC-BY-4.0",
+      "category": "vocabulaire",
+      "aliases": []
+    },
+    {
+      "en": "Weal and woe",
+      "fr": "Fortune et misère",
+      "source": "SRD officiel 5.2.1 FR · Augure · CC-BY-4.0",
+      "category": "vocabulaire",
+      "aliases": []
+    },
+    {
+      "en": "Good and bad",
+      "fr": "Favorable et défavorable",
+      "source": "SRD officiel 5.2.1 FR · Augure · CC-BY-4.0",
+      "category": "vocabulaire",
+      "aliases": []
+    },
+    {
+      "en": "Indifference",
+      "fr": "Indifférence",
+      "source": "SRD officiel 5.2.1 FR · Augure · CC-BY-4.0",
+      "category": "vocabulaire",
+      "aliases": []
+    },
+    {
+      "en": "Vegetable matter",
+      "fr": "Matière végétale",
+      "source": "SRD officiel 5.2.1 FR · Création · CC-BY-4.0",
+      "category": "vocabulaire",
+      "aliases": []
+    },
+    {
+      "en": "Stone or crystal",
+      "fr": "Pierre ou cristal",
+      "source": "SRD officiel 5.2.1 FR · Création · CC-BY-4.0",
+      "category": "vocabulaire",
+      "aliases": []
+    },
+    {
+      "en": "Precious metals",
+      "fr": "Métaux précieux",
+      "source": "SRD officiel 5.2.1 FR · Création · CC-BY-4.0",
+      "category": "vocabulaire",
+      "aliases": []
+    },
+    {
+      "en": "Gems",
+      "fr": "Gemmes",
+      "source": "SRD officiel 5.2.1 FR · Création · CC-BY-4.0",
+      "category": "vocabulaire",
+      "aliases": []
+    },
+    {
+      "en": "Adamantine or mithral",
+      "fr": "Adamantium ou mithral",
+      "source": "SRD officiel 5.2.1 FR · Création · CC-BY-4.0",
+      "category": "vocabulaire",
+      "aliases": []
+    },
+    {
+      "en": "Ray",
+      "fr": "Rayon",
+      "source": "SRD officiel 5.2.1 FR · Rayon prismatique · CC-BY-4.0",
+      "category": "vocabulaire",
+      "aliases": []
+    },
+    {
+      "en": "Familiarity",
+      "fr": "Familiarité",
+      "source": "SRD officiel 5.2.1 FR · Téléportation · CC-BY-4.0",
+      "category": "vocabulaire",
+      "aliases": []
+    },
+    {
+      "en": "Mishap",
+      "fr": "Incident",
+      "source": "SRD officiel 5.2.1 FR · Téléportation · CC-BY-4.0",
+      "category": "vocabulaire",
+      "aliases": []
+    },
+    {
+      "en": "Similar Area",
+      "fr": "Zone comparable",
+      "source": "SRD officiel 5.2.1 FR · Téléportation · CC-BY-4.0",
+      "category": "vocabulaire",
+      "aliases": []
+    },
+    {
+      "en": "Permanent circle",
+      "fr": "Cercle permanent",
+      "source": "SRD officiel 5.2.1 FR · Téléportation · CC-BY-4.0",
+      "category": "vocabulaire",
+      "aliases": []
+    },
+    {
+      "en": "Linked object",
+      "fr": "Objet lié",
+      "source": "SRD officiel 5.2.1 FR · Téléportation · CC-BY-4.0",
+      "category": "vocabulaire",
+      "aliases": []
+    },
+    {
+      "en": "Very familiar",
+      "fr": "Grande familiarité",
+      "source": "SRD officiel 5.2.1 FR · Téléportation · CC-BY-4.0",
+      "category": "vocabulaire",
+      "aliases": []
+    },
+    {
+      "en": "Seen casually",
+      "fr": "Vu plusieurs fois",
+      "source": "SRD officiel 5.2.1 FR · Téléportation · CC-BY-4.0",
+      "category": "vocabulaire",
+      "aliases": []
+    },
+    {
+      "en": "False destination",
+      "fr": "Destination factice",
+      "source": "SRD officiel 5.2.1 FR · Téléportation · CC-BY-4.0",
+      "category": "vocabulaire",
+      "aliases": []
+    },
+    {
+      "en": "Stage",
+      "fr": "Stade",
+      "source": "SRD officiel 5.2.1 FR · Contrôle du climat · CC-BY-4.0",
+      "category": "vocabulaire",
+      "aliases": []
+    },
+    {
+      "en": "Light clouds",
+      "fr": "Quelques nuages",
+      "source": "SRD officiel 5.2.1 FR · Contrôle du climat · CC-BY-4.0",
+      "category": "vocabulaire",
+      "aliases": []
+    },
+    {
+      "en": "Rain, hail, or snow",
+      "fr": "Pluie, grêle ou neige",
+      "source": "SRD officiel 5.2.1 FR · Contrôle du climat · CC-BY-4.0",
+      "category": "vocabulaire",
+      "aliases": []
+    },
+    {
+      "en": "Heat wave",
+      "fr": "Caniculaire",
+      "source": "SRD officiel 5.2.1 FR · Contrôle du climat · CC-BY-4.0",
+      "category": "vocabulaire",
+      "aliases": []
+    },
+    {
+      "en": "Hot",
+      "fr": "Chaud",
+      "source": "SRD officiel 5.2.1 FR · Contrôle du climat · CC-BY-4.0",
+      "category": "vocabulaire",
+      "aliases": []
+    },
+    {
+      "en": "Warm",
+      "fr": "Doux",
+      "source": "SRD officiel 5.2.1 FR · Contrôle du climat · CC-BY-4.0",
+      "category": "vocabulaire",
+      "aliases": []
+    },
+    {
+      "en": "Cool",
+      "fr": "Frais",
+      "source": "SRD officiel 5.2.1 FR · Contrôle du climat · CC-BY-4.0",
+      "category": "vocabulaire",
+      "aliases": []
+    },
+    {
+      "en": "Freezing",
+      "fr": "Glacial",
+      "source": "SRD officiel 5.2.1 FR · Contrôle du climat · CC-BY-4.0",
+      "category": "vocabulaire",
+      "aliases": []
+    },
+    {
+      "en": "Calm",
+      "fr": "Calme",
+      "source": "SRD officiel 5.2.1 FR · Contrôle du climat · CC-BY-4.0",
+      "category": "vocabulaire",
+      "aliases": []
+    },
+    {
+      "en": "Moderate wind",
+      "fr": "Vent modéré",
+      "source": "SRD officiel 5.2.1 FR · Contrôle du climat · CC-BY-4.0",
+      "category": "vocabulaire",
+      "aliases": []
+    },
+    {
+      "en": "Strong wind",
+      "fr": "Vent fort",
+      "source": "SRD officiel 5.2.1 FR · Contrôle du climat · CC-BY-4.0",
+      "category": "vocabulaire",
+      "aliases": []
+    },
+    {
+      "en": "Gale",
+      "fr": "Vent violent",
+      "source": "SRD officiel 5.2.1 FR · Contrôle du climat · CC-BY-4.0",
+      "category": "vocabulaire",
+      "aliases": []
+    },
+    {
+      "en": "Storm",
+      "fr": "Tempête",
+      "source": "SRD officiel 5.2.1 FR · Contrôle du climat · CC-BY-4.0",
+      "category": "vocabulaire",
+      "aliases": []
+    },
+    {
+      "en": "Order",
+      "fr": "Ordre",
+      "source": "SRD officiel 5.2.1 FR · Mur prismatique · CC-BY-4.0",
+      "category": "vocabulaire",
       "aliases": []
     },
     {

@@ -1,11 +1,11 @@
 {
   "date": "2026-10-15",
   "source": "Fiches Shard du livre D&D 2024 PHB relevées le 15 octobre 2026",
-  "scriptVersion": "1.17.37",
+  "scriptVersion": "1.17.53",
   "fiches": 391,
   "paragraphes": 1309,
-  "paragraphesInchanges": 68,
-  "fichesAvecCandidats": 18,
+  "paragraphesInchanges": 9,
+  "fichesAvecCandidats": 4,
   "note": "Candidats : textes anglais inchangés, y compris légendes, noms propres ou formulations anciennes importées. Ce compteur ne prouve pas à lui seul qu’une fiche est intégralement traduite.",
   "aVerifier": [
     {
@@ -13,92 +13,8 @@
       "en": "IGNATIUS BUDI A tiefling Sorcerer unleashes Vitriolic Sphere on nothics "
     },
     {
-      "sort": "Augury",
-      "en": "Omen"
-    },
-    {
-      "sort": "Augury",
-      "en": "For Results That Will Be..."
-    },
-    {
-      "sort": "Augury",
-      "en": "Weal"
-    },
-    {
-      "sort": "Augury",
-      "en": "Good"
-    },
-    {
-      "sort": "Augury",
-      "en": "Weal and woe"
-    },
-    {
-      "sort": "Augury",
-      "en": "Good and bad"
-    },
-    {
-      "sort": "Augury",
-      "en": "Indifference"
-    },
-    {
-      "sort": "Augury",
-      "en": "Neither good nor bad"
-    },
-    {
-      "sort": "Divination",
-      "en": "The spell doesn't take into account any possible circumstances that might change the outcome, such as the casting of additional spells or the loss or gain of a companion."
-    },
-    {
-      "sort": "Divination",
-      "en": "If you cast the spell two or more times before finishing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get a random reading. The DM makes this roll in secret."
-    },
-    {
-      "sort": "Guardian of Faith",
-      "en": "A Large spectral guardian appears and hovers for the duration in an unoccupied space that you can see within range. The guardian occupies that space and is invulnerable, and it appears in a form appropriate for your deity or pantheon."
-    },
-    {
-      "sort": "Guardian of Faith",
-      "en": "Any enemy that moves to a space within 10 feet of the guardian for the first time on a turn or starts its turn there makes a Dexterity saving throw, taking 20 Radiant damage on a failed save or half as much damage on a successful one. The guardian vanishes when it has dealt a total of 60 damage."
-    },
-    {
-      "sort": "Commune with Nature",
-      "en": "Locations of settlements"
-    },
-    {
-      "sort": "Commune with Nature",
-      "en": "Locations of portals to other planes of existence"
-    },
-    {
-      "sort": "Commune with Nature",
-      "en": "Locations of bodies of water"
-    },
-    {
-      "sort": "Cone of Cold",
-      "en": "A creature killed by this spell becomes a frozen statue until it thaws."
-    },
-    {
-      "sort": "Creation",
-      "en": "Vegetable matter"
-    },
-    {
-      "sort": "Creation",
-      "en": "Stone or crystal"
-    },
-    {
-      "sort": "Creation",
-      "en": "Precious metals"
-    },
-    {
-      "sort": "Creation",
-      "en": "Gems"
-    },
-    {
       "sort": "Creation",
       "en": "10 minutes"
-    },
-    {
-      "sort": "Creation",
-      "en": "Adamantine or mithral"
     },
     {
       "sort": "Creation",
@@ -117,84 +33,8 @@
       "en": "Goliath"
     },
     {
-      "sort": "Contingency",
-      "en": "Choose a spell of level 5 or lower that you can cast, that has a casting time of an action, and that can target you. You cast that spell—called the contingent spell—as part of casting Contingency, expending spell slots for both, but the contingent spell doesn’t come into effect. Instead, it takes effect when a certain trigger occurs. You describe that trigger when you cast the two spells. For example, a Contingency cast with Water Breathing might stipulate that Water Breathing comes into effect when you are engulfed in water or a similar liquid."
-    },
-    {
-      "sort": "Guards and Wards",
-      "en": "Magic Mouth in two locations"
-    },
-    {
-      "sort": "Mass Suggestion",
-      "en": "You suggest a course of activity—described in no more than 25 words—to twelve or fewer creatures you can see within range that can hear and understand you. The suggestion must sound achievable and not involve anything that would obviously deal damage to any of the targets or their allies. For example, you could say, “Walk to the village down that road, and help the villagers there harvest crops until sunset.” Or you could say, “Now is not the time for violence. Drop your weapons, and dance! Stop in an hour.”"
-    },
-    {
-      "sort": "Mass Suggestion",
-      "en": "Each target must succeed on a Wisdom saving throw or have the Charmed condition for the duration or until you or your allies deal damage to the target. Each Charmed target pursues the suggestion to the best of its ability. The suggested activity can continue for the entire duration, but if the suggested activity can be completed in a shorter time, the spell ends for a target upon completing it."
-    },
-    {
-      "sort": "Sunbeam",
-      "en": "You can create a new line of radiance as your action on any turn until the spell ends."
-    },
-    {
-      "sort": "Sunbeam",
-      "en": "For the duration, a mote of brilliant radiance shines in your hand. It sheds bright light in a 30-foot radius and dim light for an additional 30 feet. This light is sunlight."
-    },
-    {
-      "sort": "Teleport",
-      "en": "Familiarity"
-    },
-    {
-      "sort": "Teleport",
-      "en": "Mishap"
-    },
-    {
-      "sort": "Teleport",
-      "en": "Similar Area"
-    },
-    {
-      "sort": "Teleport",
-      "en": "Permanent circle"
-    },
-    {
-      "sort": "Teleport",
-      "en": "Linked object"
-    },
-    {
-      "sort": "Teleport",
-      "en": "Very familiar"
-    },
-    {
-      "sort": "Teleport",
-      "en": "Seen casually"
-    },
-    {
-      "sort": "Teleport",
-      "en": "False destination"
-    },
-    {
-      "sort": "Antipathy/Sympathy",
-      "en": "Antipathy. The enchantment causes creatures of the kind you designated to feel an intense urge to leave the area and avoid the target. When such a creature can see the target or comes within 60 feet of it, the creature must succeed on a Wisdom saving throw or become frightened. The creature remains frightened while it can see the target or is within 60 feet of it. While frightened by the target, the creature must use its movement to move to the nearest safe spot from which it can't see the target. If the creature moves more than 60 feet from the target and can't see it, the creature is no longer frightened, but the creature becomes frightened again if it regains sight of the target or moves within 60 feet of it."
-    },
-    {
-      "sort": "Antipathy/Sympathy",
-      "en": "Sympathy. The enchantment causes the specified creatures to feel an intense urge to approach the target while within 60 feet of it or able to see it. When such a creature can see the target or comes within 60 feet of it, the creature must succeed on a Wisdom saving throw or use its movement on each of its turns to enter the area or move within reach of the target. When the creature has done so, it can't willingly move away from the target."
-    },
-    {
-      "sort": "Antipathy/Sympathy",
-      "en": "If the target damages or otherwise harms an affected creature, the affected creature can make a Wisdom saving throw to end the effect, as described below."
-    },
-    {
-      "sort": "Antipathy/Sympathy",
-      "en": "Ending the Effect. If an affected creature ends its turn while not within 60 feet of the target or able to see it, the creature makes a Wisdom saving throw. On a successful save, the creature is no longer affected by the target and recognizes the feeling of repugnance or attraction as magical. In addition, a creature affected by the spell is allowed another Wisdom saving throw every 24 hours while the spell persists."
-    },
-    {
-      "sort": "Antipathy/Sympathy",
-      "en": "A creature that successfully saves against this effect is immune to it for 1 minute, after which time it can be affected again."
-    },
-    {
       "sort": "Control Weather",
-      "en": "Stage"
+      "en": "Condition"
     },
     {
       "sort": "Control Weather",
@@ -202,83 +42,7 @@
     },
     {
       "sort": "Control Weather",
-      "en": "Light clouds"
-    },
-    {
-      "sort": "Control Weather",
-      "en": "Overcast or ground fog"
-    },
-    {
-      "sort": "Control Weather",
-      "en": "Rain, hail, or snow"
-    },
-    {
-      "sort": "Control Weather",
-      "en": "Torrential rain, driving hail, or blizzard"
-    },
-    {
-      "sort": "Control Weather",
-      "en": "Stage"
-    },
-    {
-      "sort": "Control Weather",
       "en": "Condition"
-    },
-    {
-      "sort": "Control Weather",
-      "en": "Heat wave"
-    },
-    {
-      "sort": "Control Weather",
-      "en": "Warm"
-    },
-    {
-      "sort": "Control Weather",
-      "en": "Cool"
-    },
-    {
-      "sort": "Control Weather",
-      "en": "Freezing"
-    },
-    {
-      "sort": "Control Weather",
-      "en": "Stage"
-    },
-    {
-      "sort": "Control Weather",
-      "en": "Condition"
-    },
-    {
-      "sort": "Control Weather",
-      "en": "Calm"
-    },
-    {
-      "sort": "Control Weather",
-      "en": "Strong wind"
-    },
-    {
-      "sort": "Control Weather",
-      "en": "Gale"
-    },
-    {
-      "sort": "Control Weather",
-      "en": "Storm"
-    },
-    {
-      "sort": "Sunburst",
-      "en": "A creature blinded by this spell makes another Constitution saving throw at the end of each of its turns. On a successful save, it is no longer blinded."
-    },
-    {
-      "sort": "Sunburst",
-      "en": "This spell dispels any darkness in its area that was created by a spell."
-    },
-    {
-      "sort": "Prismatic Wall",
-      "en": "Order"
-    },
-    {
-      "sort": "Time Stop",
-      "en": "You briefly stop the flow of time for everyone but yourself. No time passes for other creatures, while you take 1d4 + 1 turns in a row, during which you can use actions and move as normal."
     }
   ]
 }

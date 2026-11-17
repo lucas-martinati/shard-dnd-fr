@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Shard Tabletop — Interface Confort
 // @namespace    local.shard.ui
-// @version      0.6.1
+// @version      0.6.2
 // @description  Fiches, listes et contrôles plus nets, compacts et fidèles à Shard. Sans panneau ni réglages.
 // @match        https://play.shardtabletop.com/*
 // @run-at       document-idle
@@ -97,7 +97,7 @@ body {
 .characterSheet .statBlock .titlecolor { color: var(--mainHighlightColor); }
 .characterSheet .theader {
   background-color: var(--sui-sheet-wash);
-  box-shadow: inset 0 -1px var(--sui-sheet-line);
+  box-shadow: inset 3px 0 var(--sui-sheet-line), inset 0 -1px var(--sui-sheet-line);
   color: var(--mainHighlightColor); border-radius: 3px 3px 0 0;
 }
 .characterSheet :is(.modifier, .score, .savingThrow, .hoverroll) { font-variant-numeric: tabular-nums; }
@@ -105,10 +105,9 @@ body {
   background-image: none !important; background-color: var(--mainBackgroundColor);
   border-radius: 8px; box-shadow: inset 0 0 0 1px var(--sui-sheet-line);
 }
-.characterSheet .score { box-shadow: inset 0 0 0 1px var(--sui-sheet-line); }
+.characterSheet .score { background-color: var(--mainBackgroundColor); box-shadow: inset 0 0 0 1px var(--sui-sheet-line); }
 .characterSheet .modifier { font-weight: 700; color: var(--mainTextColor); }
 .characterSheet .ability { color: var(--mainHighlightColor); }
-.characterSheet .score { background-color: var(--mainBackgroundColor); }
 .characterSheet .skillBlock .gray-90 { color: var(--lightMainTextColor) !important; }
 .characterSheet .skillBlock .backgroundborder { border-color: var(--sui-sheet-line); }
 .characterSheet :is(.hoverroll, .hover-bg-contrast):hover {
@@ -146,17 +145,11 @@ body {
 .tourAdventureTracker .encountertable td:nth-child(6) { font-weight: 700; }
 .tourAdventureTracker .encountertable td:nth-child(2) { line-height: 1.25; }
 .tourAdventureTracker .encountertable td:nth-child(2) .draginfo { font-weight: 600; }
-.tourAdventureTracker .encountertable tr:has(.fa-arrow-right) > td {
-  background-color: color-mix(in srgb, #62b881 14%, var(--mainBackgroundColor));
-}
 .tourAdventureTracker .encountertable tr:has(.fa-arrow-right) > td:first-child {
   box-shadow: inset 3px 0 #62b881;
 }
 .tourAdventureTracker .encountertable tr:has(td:first-child .fa-check-square) > td {
   box-shadow: inset 0 1px var(--mainHighlightColor), inset 0 -1px var(--mainHighlightColor);
-}
-.tourAdventureTracker .encountertable tbody tr:hover > td {
-  background-color: color-mix(in srgb, var(--mainHighlightColor) 12%, var(--mainBackgroundColor));
 }
 /* Separate borders allow rounded row ends without changing cell spacing. */
 .tourAdventureTracker .encountertable { border-collapse: separate; border-spacing: 0; }
@@ -228,7 +221,13 @@ body:has(.tourAdventureMap) .MuiPopover-paper .MuiMenuItem-root:focus-visible {
   border-radius: 6px; padding: 5px 9px; font: 12px/1.4 system-ui;
   max-width: min(280px,calc(100vw - 16px)); box-shadow: 0 4px 12px #0006;
 }
-#sui-map-hint[hidden] { display: none; }
+#sui-map-hint[hidden], #sui-selection-box[hidden] { display: none; }
+#sui-selection-box {
+  position: fixed; z-index: 2147483646; pointer-events: none;
+  border: 1px solid var(--sui-accent, #62b881);
+  background: color-mix(in srgb, var(--sui-accent, #62b881) 16%, transparent);
+  border-radius: 3px;
+}
 /* Compact navigation: one scrollable row, a persistent active-tab marker. */
 .tourAdventureTabs .tourTabList {
   flex-wrap: nowrap !important; overflow-x: auto; overflow-y: hidden;
@@ -279,7 +278,6 @@ body:has(.tourAdventureMap) .MuiPopover-paper .MuiMenuItem-root:focus-visible {
 }
 :is(.MuiDialogContent-root, .overflow-y-auto, .overflow-x-auto, .overflow-auto)::-webkit-scrollbar-corner { background: transparent; }
 /* Distinguish sections from column labels without taller rows. */
-.characterSheet .theader { box-shadow: inset 3px 0 var(--sui-sheet-line), inset 0 -1px var(--sui-sheet-line); }
 .characterSheet :is(.spellBlock, .equipmentBlock) tr > td[colspan] {
   box-shadow: inset 0 -1px var(--sui-sheet-line);
 }
@@ -470,9 +468,117 @@ button.sui-fold:hover { background: var(--hoverhighlightColor); box-shadow: inse
       stage.batchDraw();
     }
   }
+  function installCanvasSelection() {
+    if (installCanvasSelection.installed) return;
+    installCanvasSelection.installed = true;
+    let gesture = null, box = null;
+    function hideBox() {
+      if (box) box.hidden = true;
+    }
+    function cancel() {
+      gesture = null;
+      hideBox();
+    }
+    function tokenGroup(node) {
+      let cur = node;
+      while (cur && cur.cInfo?.tokenType !== 'nametoken') cur = cur.getParent?.();
+      return cur?.cInfo?.tokenType === 'nametoken' ? cur : null;
+    }
+    function trackerCheckbox(group) {
+      const info = group?.cInfo;
+      if (!info) return null;
+      const rows = [...document.querySelectorAll('.tourAdventureTracker .encountertable tbody tr')];
+      const num = info.number != null ? String(info.number) : null;
+      const match = rows.find(tr => {
+        const name = tr.querySelector('td:nth-child(2) .draginfo')?.textContent.trim();
+        if (name !== info.displayName) return false;
+        if (!num) return true;
+        const first = tr.querySelector('td:first-child')?.textContent.trim() || '';
+        return first === num || first.startsWith(num + ' ') || new RegExp(`\\b${num}\\b`).test(first);
+      });
+      return match?.querySelector('td:first-child .fa-square, td:first-child .fa-check-square') || null;
+    }
+    function toStage(g, clientX, clientY) {
+      const r = g.surface.getBoundingClientRect();
+      if (!r.width || !r.height) return null;
+      return {
+        x: (clientX - r.left) * g.stage.width() / r.width,
+        y: (clientY - r.top) * g.stage.height() / r.height
+      };
+    }
+    document.addEventListener('pointerdown', event => {
+      if (event.button !== 0 || event.altKey || !(event.shiftKey || event.ctrlKey || event.metaKey)) return;
+      const canvas = event.target?.closest?.('.tourAdventureMap .konvajs-content canvas');
+      if (!canvas) return;
+      const map = canvas.closest('.tourAdventureMap');
+      if (!map?.querySelector('.maptool .toolselect .fa-arrows-alt')) return;
+      const surface = canvas.closest('.konvajs-content');
+      const stage = window.Konva?.stages?.find(s => s.container?.() === surface);
+      if (!stage || !document.querySelector('.tourAdventureTracker .encountertable')) return;
+      event.preventDefault();
+      event.stopPropagation();
+      if (typeof hideMapHint === 'function') hideMapHint();
+      gesture = {pointerId: event.pointerId, surface, stage, startX: event.clientX, startY: event.clientY, x: event.clientX, y: event.clientY, dragged: false};
+    }, true);
+    document.addEventListener('pointermove', event => {
+      if (!gesture || (event.pointerId !== undefined && gesture.pointerId !== undefined && event.pointerId !== gesture.pointerId)) return;
+      event.preventDefault();
+      event.stopPropagation();
+      gesture.x = event.clientX;
+      gesture.y = event.clientY;
+      if (!gesture.dragged && Math.hypot(gesture.x - gesture.startX, gesture.y - gesture.startY) <= 6) return;
+      gesture.dragged = true;
+      if (!box) {
+        box = document.createElement('div');
+        box.id = 'sui-selection-box';
+        box.setAttribute('data-shard-fr-ignore', '');
+        document.body.append(box);
+      }
+      const left = Math.min(gesture.startX, gesture.x), top = Math.min(gesture.startY, gesture.y);
+      box.style.left = left + 'px';
+      box.style.top = top + 'px';
+      box.style.width = Math.abs(gesture.x - gesture.startX) + 'px';
+      box.style.height = Math.abs(gesture.y - gesture.startY) + 'px';
+      box.hidden = false;
+    }, true);
+    document.addEventListener('pointerup', event => {
+      if (!gesture || (event.pointerId !== undefined && gesture.pointerId !== undefined && event.pointerId !== gesture.pointerId)) return;
+      const g = gesture;
+      cancel();
+      event.preventDefault();
+      event.stopPropagation();
+      if (!g.dragged) {
+        const pt = toStage(g, event.clientX, event.clientY);
+        if (!pt) return;
+        const group = tokenGroup(g.stage.getIntersection?.(pt));
+        trackerCheckbox(group)?.click();
+        return;
+      }
+      const a = toStage(g, g.startX, g.startY), b = toStage(g, event.clientX, event.clientY);
+      if (!a || !b) return;
+      const minX = Math.min(a.x, b.x), maxX = Math.max(a.x, b.x), minY = Math.min(a.y, b.y), maxY = Math.max(a.y, b.y);
+      for (const group of g.stage.find?.('Group') || []) {
+        if (group.cInfo?.tokenType !== 'nametoken' || group.isVisible?.() === false) continue;
+        const pos = group.getAbsolutePosition?.();
+        if (!pos || pos.x < minX || pos.x > maxX || pos.y < minY || pos.y > maxY) continue;
+        const checkbox = trackerCheckbox(group);
+        if (checkbox?.classList.contains('fa-square')) checkbox.click();
+      }
+    }, true);
+    document.addEventListener('pointercancel', cancel, true);
+    document.addEventListener('keydown', event => {
+      if (gesture && event.key === 'Escape') {
+        event.preventDefault();
+        event.stopPropagation();
+        cancel();
+      }
+    }, true);
+    window.addEventListener('blur', cancel);
+  }
   function scan(root) {
     if (root.nodeType !== 1 && root !== document) return;
     installTokenOutlines();
+    installCanvasSelection();
     enhanceTracker(root);
     enhanceMap(root);
     if (root.matches?.(selector)) enhance(root);
@@ -496,7 +602,7 @@ button.sui-fold:hover { background: var(--hoverhighlightColor); box-shadow: inse
   const observer = new MutationObserver(records => {
     if (hintOwner && !hintOwner.isConnected) hideMapHint();
     for (const record of records) {
-      const elements = [...record.addedNodes].filter(node => node.nodeType === 1 && !node.matches('.sui-fold, .sui-column-label, #sui-map-hint'));
+      const elements = [...record.addedNodes].filter(node => node.nodeType === 1 && !node.matches('.sui-fold, .sui-column-label, #sui-map-hint, #sui-selection-box'));
       for (const node of elements) pending.add(node);
       // React may replace the heading while leaving the section itself mounted.
       if (elements.length || [...record.removedNodes].some(node => node.nodeType === 1 && node.matches('.sui-fold, [data-sui-heading]'))) {

@@ -10102,6 +10102,450 @@
       "en": "Melee Attack Roll: {caster spell attack}, reach 5 ft. Hit: 1d8+{cast spell level} Necrotic damage.",
       "fr": "Jet d’attaque au corps à corps : {caster spell attack}, allonge 5 ft. Touché : 1d8+{cast spell level} dégâts nécrotiques.",
       "source": "Traduction proposée des rapports utilisateur 1.17.47 · D&D 2024 PHB, annexes B (créatures) et C (profils de sorts) · 19 octobre 2026 ; fragments rapprochés de leurs paragraphes complets dans le livre Shard consulté directement · https://play.shardtabletop.com/#book?id=7uiobn2myo8nmfdv. Nombres, dés, distances et expressions Shard conservés."
+    },
+    {
+      "id": "spell.2024.friends.material",
+      "kind": "term",
+      "usage": [],
+      "labelCategory": "vocabulaire",
+      "en": "some makeup",
+      "fr": "un peu de maquillage",
+      "source": "Traduction proposée de la fiche Shard · Friends · D&D 2024 PHB · audit des sorts PHB 2024"
+    },
+    {
+      "id": "spell.2024.friends.components-value",
+      "en": "S, M (some makeup)",
+      "fr": "S, M (un peu de maquillage)",
+      "source": "Traduction proposée de la fiche Shard · Friends · D&D 2024 PHB · audit des sorts PHB 2024"
+    },
+    {
+      "id": "spell.2024.friends.components",
+      "en": "Components: S, M (some makeup)",
+      "variants": [
+        "Composantes: S, M (some makeup)"
+      ],
+      "fr": "Composantes : S, M (un peu de maquillage)",
+      "source": "Traduction proposée de la fiche Shard · Friends · D&D 2024 PHB · audit des sorts PHB 2024"
+    },
+    {
+      "id": "spell.2024.friends.components-singular",
+      "en": "Component: S, M (some makeup)",
+      "variants": [
+        "Composante: S, M (some makeup)"
+      ],
+      "fr": "Composante : S, M (un peu de maquillage)",
+      "source": "Traduction proposée de la fiche Shard · Friends · D&D 2024 PHB · audit des sorts PHB 2024"
+    },
+    {
+      "id": "spell.2024.cordon-of-arrows.material",
+      "kind": "term",
+      "usage": [],
+      "labelCategory": "vocabulaire",
+      "en": "an ornamental braid",
+      "fr": "une tresse ornementale",
+      "source": "Traduction proposée de la fiche Shard · Cordon of Arrows · D&D 2024 PHB · audit des sorts PHB 2024"
+    },
+    {
+      "id": "spell.2024.cordon-of-arrows.components-value",
+      "en": "V, S, M (an ornamental braid)",
+      "fr": "V, S, M (une tresse ornementale)",
+      "source": "Traduction proposée de la fiche Shard · Cordon of Arrows · D&D 2024 PHB · audit des sorts PHB 2024"
+    },
+    {
+      "id": "spell.2024.cordon-of-arrows.components",
+      "en": "Components: V, S, M (an ornamental braid)",
+      "variants": [
+        "Composantes: V, S, M (an ornamental braid)"
+      ],
+      "fr": "Composantes : V, S, M (une tresse ornementale)",
+      "source": "Traduction proposée de la fiche Shard · Cordon of Arrows · D&D 2024 PHB · audit des sorts PHB 2024"
+    },
+    {
+      "id": "spell.2024.cordon-of-arrows.components-singular",
+      "en": "Component: V, S, M (an ornamental braid)",
+      "variants": [
+        "Composante: V, S, M (an ornamental braid)"
+      ],
+      "fr": "Composante : V, S, M (une tresse ornementale)",
+      "source": "Traduction proposée de la fiche Shard · Cordon of Arrows · D&D 2024 PHB · audit des sorts PHB 2024"
+    },
+    {
+      "id": "spell.2024.augury.omen",
+      "kind": "term",
+      "usage": [],
+      "labelCategory": "vocabulaire",
+      "en": "Omen",
+      "fr": "Présage",
+      "source": "SRD officiel 5.2.1 FR · Augure · CC-BY-4.0"
+    },
+    {
+      "id": "spell.2024.augury.results-header",
+      "en": "For Results That Will Be...",
+      "fr": "Pour une issue qui s’annonce…",
+      "source": "SRD officiel 5.2.1 FR · Augure · CC-BY-4.0"
+    },
+    {
+      "id": "spell.2024.augury.weal",
+      "kind": "term",
+      "usage": [],
+      "labelCategory": "vocabulaire",
+      "en": "Weal",
+      "fr": "Fortune",
+      "source": "SRD officiel 5.2.1 FR · Augure · CC-BY-4.0"
+    },
+    {
+      "id": "spell.2024.augury.woe",
+      "kind": "term",
+      "usage": [],
+      "labelCategory": "vocabulaire",
+      "en": "Woe",
+      "fr": "Misère",
+      "source": "SRD officiel 5.2.1 FR · Augure · CC-BY-4.0"
+    },
+    {
+      "id": "spell.2024.augury.good",
+      "kind": "term",
+      "usage": [],
+      "labelCategory": "vocabulaire",
+      "en": "Good",
+      "fr": "Bon",
+      "source": "SRD officiel 5.2.1 FR · Augure · CC-BY-4.0"
+    },
+    {
+      "id": "spell.2024.augury.bad",
+      "kind": "term",
+      "usage": [],
+      "labelCategory": "vocabulaire",
+      "en": "Bad",
+      "fr": "Mauvais",
+      "source": "SRD officiel 5.2.1 FR · Augure · CC-BY-4.0"
+    },
+    {
+      "id": "spell.2024.augury.weal-and-woe",
+      "kind": "term",
+      "usage": [],
+      "labelCategory": "vocabulaire",
+      "en": "Weal and woe",
+      "fr": "Fortune et misère",
+      "source": "SRD officiel 5.2.1 FR · Augure · CC-BY-4.0"
+    },
+    {
+      "id": "spell.2024.augury.good-and-bad",
+      "kind": "term",
+      "usage": [],
+      "labelCategory": "vocabulaire",
+      "en": "Good and bad",
+      "fr": "Favorable et défavorable",
+      "source": "SRD officiel 5.2.1 FR · Augure · CC-BY-4.0"
+    },
+    {
+      "id": "spell.2024.augury.indifference",
+      "kind": "term",
+      "usage": [],
+      "labelCategory": "vocabulaire",
+      "en": "Indifference",
+      "fr": "Indifférence",
+      "source": "SRD officiel 5.2.1 FR · Augure · CC-BY-4.0"
+    },
+    {
+      "id": "spell.2024.augury.neither-good-nor-bad",
+      "en": "Neither good nor bad",
+      "fr": "Ni favorable ni défavorable",
+      "source": "SRD officiel 5.2.1 FR · Augure · CC-BY-4.0"
+    },
+    {
+      "id": "spell.2024.commune-with-nature.settlements",
+      "en": "Locations of settlements",
+      "fr": "Position des communautés implantées",
+      "source": "SRD officiel 5.2.1 FR · Communion avec la nature · CC-BY-4.0"
+    },
+    {
+      "id": "spell.2024.commune-with-nature.portals",
+      "en": "Locations of portals to other planes of existence",
+      "fr": "Position des portails vers d’autres plans d’existence",
+      "source": "SRD officiel 5.2.1 FR · Communion avec la nature · CC-BY-4.0"
+    },
+    {
+      "id": "spell.2024.commune-with-nature.water",
+      "en": "Locations of bodies of water",
+      "fr": "Localisation des plans et cours d’eau",
+      "source": "SRD officiel 5.2.1 FR · Communion avec la nature · CC-BY-4.0"
+    },
+    {
+      "id": "spell.2024.creation.vegetable-matter",
+      "kind": "term",
+      "usage": [],
+      "labelCategory": "vocabulaire",
+      "en": "Vegetable matter",
+      "fr": "Matière végétale",
+      "source": "SRD officiel 5.2.1 FR · Création · CC-BY-4.0"
+    },
+    {
+      "id": "spell.2024.creation.stone-or-crystal",
+      "kind": "term",
+      "usage": [],
+      "labelCategory": "vocabulaire",
+      "en": "Stone or crystal",
+      "fr": "Pierre ou cristal",
+      "source": "SRD officiel 5.2.1 FR · Création · CC-BY-4.0"
+    },
+    {
+      "id": "spell.2024.creation.precious-metals",
+      "kind": "term",
+      "usage": [],
+      "labelCategory": "vocabulaire",
+      "en": "Precious metals",
+      "fr": "Métaux précieux",
+      "source": "SRD officiel 5.2.1 FR · Création · CC-BY-4.0"
+    },
+    {
+      "id": "spell.2024.creation.gems",
+      "kind": "term",
+      "usage": [],
+      "labelCategory": "vocabulaire",
+      "en": "Gems",
+      "fr": "Gemmes",
+      "source": "SRD officiel 5.2.1 FR · Création · CC-BY-4.0"
+    },
+    {
+      "id": "spell.2024.creation.adamantine-or-mithral",
+      "kind": "term",
+      "usage": [],
+      "labelCategory": "vocabulaire",
+      "en": "Adamantine or mithral",
+      "fr": "Adamantium ou mithral",
+      "source": "SRD officiel 5.2.1 FR · Création · CC-BY-4.0"
+    },
+    {
+      "id": "spell.2024.contingency.p1",
+      "en": "Choose a spell of level 5 or lower that you can cast, that has a casting time of an action, and that can target you. You cast that spell—called the contingent spell—as part of casting Contingency, expending spell slots for both, but the contingent spell doesn’t come into effect. Instead, it takes effect when a certain trigger occurs. You describe that trigger when you cast the two spells. For example, a Contingency cast with Water Breathing might stipulate that Water Breathing comes into effect when you are engulfed in water or a similar liquid.",
+      "fr": "Choisissez un sort du 5e niveau ou inférieur que vous pouvez lancer, dont le temps d’incantation est d’une action et qui peut vous cibler. Vous lancez le sort concerné, qu’on appellera « sort prémédité », dans le cadre de l’incantation de Préméditation, et acquittez les emplacements des deux sorts. Le sort prémédité n’agit toutefois pas aussitôt. Au lieu de cela, il ne prendra effet que lorsqu’un déclencheur précis se présentera. Vous décrivez ce déclencheur à l’incantation des deux sorts. Exemple : une Préméditation lancée en conjonction avec Respiration aquatique pourrait stipuler que Respiration aquatique prendra effet lorsque vous serez englouti par les eaux ou un liquide comparable.",
+      "source": "SRD officiel 5.2.1 FR · Préméditation · CC-BY-4.0"
+    },
+    {
+      "id": "spell.2024.guards-and-wards.magic-mouth",
+      "en": "Magic Mouth in two locations",
+      "fr": "Bouche magique en deux endroits",
+      "source": "SRD officiel 5.2.1 FR · Protections et sceaux · CC-BY-4.0"
+    },
+    {
+      "id": "spell.2024.prismatic-spray.ray",
+      "kind": "term",
+      "usage": [],
+      "labelCategory": "vocabulaire",
+      "en": "Ray",
+      "fr": "Rayon",
+      "source": "SRD officiel 5.2.1 FR · Rayon prismatique · CC-BY-4.0"
+    },
+    {
+      "id": "spell.2024.teleport.familiarity",
+      "kind": "term",
+      "usage": [],
+      "labelCategory": "vocabulaire",
+      "en": "Familiarity",
+      "fr": "Familiarité",
+      "source": "SRD officiel 5.2.1 FR · Téléportation · CC-BY-4.0"
+    },
+    {
+      "id": "spell.2024.teleport.mishap",
+      "kind": "term",
+      "usage": [],
+      "labelCategory": "vocabulaire",
+      "en": "Mishap",
+      "fr": "Incident",
+      "source": "SRD officiel 5.2.1 FR · Téléportation · CC-BY-4.0"
+    },
+    {
+      "id": "spell.2024.teleport.similar-area",
+      "kind": "term",
+      "usage": [],
+      "labelCategory": "vocabulaire",
+      "en": "Similar Area",
+      "fr": "Zone comparable",
+      "source": "SRD officiel 5.2.1 FR · Téléportation · CC-BY-4.0"
+    },
+    {
+      "id": "spell.2024.teleport.permanent-circle",
+      "kind": "term",
+      "usage": [],
+      "labelCategory": "vocabulaire",
+      "en": "Permanent circle",
+      "fr": "Cercle permanent",
+      "source": "SRD officiel 5.2.1 FR · Téléportation · CC-BY-4.0"
+    },
+    {
+      "id": "spell.2024.teleport.linked-object",
+      "kind": "term",
+      "usage": [],
+      "labelCategory": "vocabulaire",
+      "en": "Linked object",
+      "fr": "Objet lié",
+      "source": "SRD officiel 5.2.1 FR · Téléportation · CC-BY-4.0"
+    },
+    {
+      "id": "spell.2024.teleport.very-familiar",
+      "kind": "term",
+      "usage": [],
+      "labelCategory": "vocabulaire",
+      "en": "Very familiar",
+      "fr": "Grande familiarité",
+      "source": "SRD officiel 5.2.1 FR · Téléportation · CC-BY-4.0"
+    },
+    {
+      "id": "spell.2024.teleport.seen-casually",
+      "kind": "term",
+      "usage": [],
+      "labelCategory": "vocabulaire",
+      "en": "Seen casually",
+      "fr": "Vu plusieurs fois",
+      "source": "SRD officiel 5.2.1 FR · Téléportation · CC-BY-4.0"
+    },
+    {
+      "id": "spell.2024.teleport.false-destination",
+      "kind": "term",
+      "usage": [],
+      "labelCategory": "vocabulaire",
+      "en": "False destination",
+      "fr": "Destination factice",
+      "source": "SRD officiel 5.2.1 FR · Téléportation · CC-BY-4.0"
+    },
+    {
+      "id": "spell.2024.control-weather.stage",
+      "kind": "term",
+      "usage": [],
+      "labelCategory": "vocabulaire",
+      "en": "Stage",
+      "fr": "Stade",
+      "source": "SRD officiel 5.2.1 FR · Contrôle du climat · CC-BY-4.0"
+    },
+    {
+      "id": "spell.2024.control-weather.light-clouds",
+      "kind": "term",
+      "usage": [],
+      "labelCategory": "vocabulaire",
+      "en": "Light clouds",
+      "fr": "Quelques nuages",
+      "source": "SRD officiel 5.2.1 FR · Contrôle du climat · CC-BY-4.0"
+    },
+    {
+      "id": "spell.2024.control-weather.overcast",
+      "en": "Overcast or ground fog",
+      "fr": "Ciel chargé ou brume au sol",
+      "source": "SRD officiel 5.2.1 FR · Contrôle du climat · CC-BY-4.0"
+    },
+    {
+      "id": "spell.2024.control-weather.rain",
+      "kind": "term",
+      "usage": [],
+      "labelCategory": "vocabulaire",
+      "en": "Rain, hail, or snow",
+      "fr": "Pluie, grêle ou neige",
+      "source": "SRD officiel 5.2.1 FR · Contrôle du climat · CC-BY-4.0"
+    },
+    {
+      "id": "spell.2024.control-weather.blizzard",
+      "en": "Torrential rain, driving hail, or blizzard",
+      "fr": "Pluie torrentielle, grêle battante ou blizzard",
+      "source": "SRD officiel 5.2.1 FR · Contrôle du climat · CC-BY-4.0"
+    },
+    {
+      "id": "spell.2024.control-weather.heat-wave",
+      "kind": "term",
+      "usage": [],
+      "labelCategory": "vocabulaire",
+      "en": "Heat wave",
+      "fr": "Caniculaire",
+      "source": "SRD officiel 5.2.1 FR · Contrôle du climat · CC-BY-4.0"
+    },
+    {
+      "id": "spell.2024.control-weather.hot",
+      "kind": "term",
+      "usage": [],
+      "labelCategory": "vocabulaire",
+      "en": "Hot",
+      "fr": "Chaud",
+      "source": "SRD officiel 5.2.1 FR · Contrôle du climat · CC-BY-4.0"
+    },
+    {
+      "id": "spell.2024.control-weather.warm",
+      "kind": "term",
+      "usage": [],
+      "labelCategory": "vocabulaire",
+      "en": "Warm",
+      "fr": "Doux",
+      "source": "SRD officiel 5.2.1 FR · Contrôle du climat · CC-BY-4.0"
+    },
+    {
+      "id": "spell.2024.control-weather.cool",
+      "kind": "term",
+      "usage": [],
+      "labelCategory": "vocabulaire",
+      "en": "Cool",
+      "fr": "Frais",
+      "source": "SRD officiel 5.2.1 FR · Contrôle du climat · CC-BY-4.0"
+    },
+    {
+      "id": "spell.2024.control-weather.freezing",
+      "kind": "term",
+      "usage": [],
+      "labelCategory": "vocabulaire",
+      "en": "Freezing",
+      "fr": "Glacial",
+      "source": "SRD officiel 5.2.1 FR · Contrôle du climat · CC-BY-4.0"
+    },
+    {
+      "id": "spell.2024.control-weather.calm",
+      "kind": "term",
+      "usage": [],
+      "labelCategory": "vocabulaire",
+      "en": "Calm",
+      "fr": "Calme",
+      "source": "SRD officiel 5.2.1 FR · Contrôle du climat · CC-BY-4.0"
+    },
+    {
+      "id": "spell.2024.control-weather.moderate-wind",
+      "kind": "term",
+      "usage": [],
+      "labelCategory": "vocabulaire",
+      "en": "Moderate wind",
+      "fr": "Vent modéré",
+      "source": "SRD officiel 5.2.1 FR · Contrôle du climat · CC-BY-4.0"
+    },
+    {
+      "id": "spell.2024.control-weather.strong-wind",
+      "kind": "term",
+      "usage": [],
+      "labelCategory": "vocabulaire",
+      "en": "Strong wind",
+      "fr": "Vent fort",
+      "source": "SRD officiel 5.2.1 FR · Contrôle du climat · CC-BY-4.0"
+    },
+    {
+      "id": "spell.2024.control-weather.gale",
+      "kind": "term",
+      "usage": [],
+      "labelCategory": "vocabulaire",
+      "en": "Gale",
+      "fr": "Vent violent",
+      "source": "SRD officiel 5.2.1 FR · Contrôle du climat · CC-BY-4.0"
+    },
+    {
+      "id": "spell.2024.control-weather.storm",
+      "kind": "term",
+      "usage": [],
+      "labelCategory": "vocabulaire",
+      "en": "Storm",
+      "fr": "Tempête",
+      "source": "SRD officiel 5.2.1 FR · Contrôle du climat · CC-BY-4.0"
+    },
+    {
+      "id": "spell.2024.prismatic-wall.order",
+      "kind": "term",
+      "usage": [],
+      "labelCategory": "vocabulaire",
+      "en": "Order",
+      "fr": "Ordre",
+      "source": "SRD officiel 5.2.1 FR · Mur prismatique · CC-BY-4.0"
     }
   ]
 }

@@ -1,5 +1,27 @@
 # Performances du moteur et détection
 
+## Optimisations complémentaires : version 1.17.53
+
+Une passe de profilage CPU supplémentaire a éliminé plusieurs goulets d’étranglement résiduels :
+
+- **Exclusion DOM sans sélecteurs CSS répétés** : `excluded` et `scan` remplacent les appels répétés à `el.closest(SKIP)` (20 sélecteurs évalués jusqu’à la racine à chaque nœud) par une vérification directe des balises et attributs, avec contrôle local `excludedSelf` dans le `TreeWalker`. `processAttrs` ignore immédiatement les éléments dépourvus d’attributs traduisibles sans allouer d’entrée `Map`.
+- **Chemins rapides pour `normalize` et `inlineKey`** : l’appel ICU `normalize('NFC')` et les expressions régulières de contractions ou d’unités (`foot`/`ft`) ne sont exécutés que lorsque les caractères ou motifs correspondants sont réellement présents.
+- **Pré-filtrage exact de couverture par trigrammes alphabétiques** : lorsqu’une ligne ou une phrase exige une couverture intégrale par le lexique (`structured` ou `phraseMatcherIndex`), la présence d’un seul trigramme `[a-z]{3}` absent de tous les motifs candidats rejette immédiatement la chaîne en temps linéaire sans construire ni compiler d’expression régulière Unicode. Le calcul inutile de `tokens` au-delà de 450 caractères est également supprimé, et le cache de résultats passe de 256 à 2 048 entrées.
+- **Indexation paresseuse et restauration directe** : les index de recherche AideDD, de suggestions FR → EN et de titres d’actions de monstres sont construits à la première utilisation par révision. La désactivation de la traduction restaure directement les nœuds et attributs suivis sans reparcourir les heuristiques de prose. Dans `collectDiagnostics`, les conteneurs sans nœuds texte propres sont écartés après le décompte `nodeLimit`, et `diagnosticVisible` court-circuite avant `getComputedStyle`.
+
+Mesures comparatives hors ligne sur la même machine (Node.js v22.23.2 / JSDOM 30.1.2, empreinte SHA-256 du rapport de diagnostic identique avant/après : `9542a270427dac7d9fbe1da0bd10fae4e2735d6490540cd184de0d52f1ba425c`) :
+
+| Scénario | Avant | Après | Gain |
+| --- | ---: | ---: | ---: |
+| Initialisation seule (médiane) | 180 ms | 123 ms | −31 % |
+| Première traduction de 400 libellés | 1 128 ms | 238 ms | −79 % |
+| Mise à jour de 100 libellés | 400 ms | 91 ms | −77 % |
+| Restauration de l’anglais (400 libellés) | 849 ms | 41 ms | −95 % |
+| Première traduction de 60 descriptions imbriquées | 876 ms | 166 ms | −81 % |
+| Analyses des descriptions (médiane) | 85 ms | 49 ms | −42 % |
+| Détecteur 600 blocs : attente file (`translationWaitMs`) | 1 473 ms | 275 ms | −81 % |
+| Détecteur 600 blocs : clic → rapport (`clickToReportMs`) | 2 457 ms | 850 ms | −65 % |
+
 ## Démarrage du détecteur sur les grandes pages
 
 Le bouton « Analyser la page » attend que `scheduled` repasse à `false`, donc que le parcours de traduction soit terminé. Un premier libellé traduit ne signifie pas que les descriptions plus bas dans le DOM ont été traitées. Le délai observé se situe principalement dans cette file, avant `collectDiagnostics`, et non dans une attente des références AideDD.

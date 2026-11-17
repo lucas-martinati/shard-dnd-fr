@@ -14,10 +14,13 @@ for r in json.loads(translation_source('spell-reference.json').read_text()):
  en=flat(r['english']);fr=flat(r['french']);en=en.split(flat(r['englishBody'])[:70])[0];fr=fr.split(flat(r['frenchBody'])[:70])[0]
  labels=[('Casting Time','Temps d’incantation'),('Range','Portée'),('Components','Composantes'),('Duration','Durée')]
  for i,(a,b) in enumerate(labels):
-  ae=re.escape(labels[i+1][0])+r'\s*:' if i<3 else '$';be=re.escape(labels[i+1][1])+r'\s*:' if i<3 else '$'
-  x=re.search(re.escape(a)+r'\s*:\s*(.*?)(?='+ae+')',en);y=re.search(re.escape(b)+r'\s*:\s*(.*?)(?='+be+')',fr)
+  ae=(r'Components?' if i<3 and labels[i+1][0]=='Components' else (re.escape(labels[i+1][0]) if i<3 else ''))+(r'\s*:' if i<3 else '$');be=re.escape(labels[i+1][1])+r'\s*:' if i<3 else '$'
+  ap=r'Components?' if a=='Components' else re.escape(a)
+  x=re.search(ap+r'\s*:\s*(.*?)(?='+ae+')',en);y=re.search(re.escape(b)+r'\s*:\s*(.*?)(?='+be+')',fr)
   if x and y:
-   v=x[1].strip();w=y[1].strip();add(a+': '+v,b+' : '+w,'SRD 5.2.1 FR');add(v,w,'SRD 5.2.1 FR')
+   v=x[1].strip();w=y[1].strip();add(a+': '+v,b+' : '+w,'SRD 5.2.1 FR')
+   if a=='Components' and x[0].startswith('Component:'):add('Component: '+v,'Composante : '+w,'SRD 5.2.1 FR')
+   add(v,w,'SRD 5.2.1 FR')
 for row in json.loads(translation_source('equipment-texts.json').read_text()):add(row['en'],row['fr'],row['source'])
 for row in json.loads(translation_source('feat-texts.json').read_text()):add(row['en'],row['fr'],row['source'])
 for row in json.loads((root/'spell-sections.json').read_text()):add(row['en'],row['fr'],row['source'])

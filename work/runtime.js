@@ -2,7 +2,14 @@
 (() => {
   'use strict';
   const KEY = 'shard-fr-v1';
-  const normalize = s => String(s).normalize('NFC').replace(/[’‘ʼ]/g, "'").replace(/[‐‑–]/g, '-').replace(/\s+/g, ' ').trim().toLowerCase();
+  const NON_ASCII_RE = /[^\x00-\x7f]/;
+  const MULTI_SPACE_RE = /[^\S ]|  /;
+  function normalize(s) {
+    let str = typeof s === 'string' ? s : String(s);
+    if (NON_ASCII_RE.test(str)) str = str.normalize('NFC').replace(/[’‘ʼ]/g, "'").replace(/[‐‑–]/g, '-');
+    if (MULTI_SPACE_RE.test(str)) str = str.replace(/\s+/g, ' ');
+    return str.trim().toLowerCase();
+  }
   const searchKey=s=>normalize(s).normalize('NFD').replace(/\p{M}/gu,'').replace(/œ/g,'oe').replace(/æ/g,'ae');
   const escapeRE = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   const pattern = s => escapeRE(s).replace(/'/g, "['’‘ʼ]").replace(/ /g, '\\s+').replace(/-/g, '[-‐‑–]');
@@ -39,15 +46,32 @@
   function indexTextMatchers(keys){
     // Une ancre ASCII littérale est nécessaire, jamais suffisante. Les espaces,
     // apostrophes et tirets restent vérifiés par le motif exact d’origine.
-    const anchors=keys.map(key=>[...new Set(key.match(/[a-z0-9]{3}/g)||[])]),frequencies=new Map();
+    const anchors=keys.map(key=>[...new Set(key.match(/[a-z0-9]{3}/g)||[])]),frequencies=new Map(),alphaGrams=new Set();
     for(const grams of anchors)for(const gram of grams)frequencies.set(gram,(frequencies.get(gram)||0)+1);
+    for(const key of keys){
+      const folded=NON_ASCII_RE.test(key)?key.toLowerCase().replace(/ſ/g,'s'):key;
+      for(let i=0;i<=folded.length-3;i++){
+        const c0=folded.charCodeAt(i),c1=folded.charCodeAt(i+1),c2=folded.charCodeAt(i+2);
+        if(c0>=97&&c0<=122&&c1>=97&&c1<=122&&c2>=97&&c2<=122)alphaGrams.add(folded.slice(i,i+3));
+      }
+    }
     const buckets=new Map(),fallback=[];
     anchors.forEach((grams,i)=>{
       if(!grams.length){fallback.push(i);return;}
       const anchor=grams.reduce((best,gram)=>frequencies.get(gram)<frequencies.get(best)?gram:best);
       if(!buckets.has(anchor))buckets.set(anchor,[]);buckets.get(anchor).push(i);
     });
-    return {keys,buckets,fallback};
+    return {keys,buckets,fallback,alphaGrams};
+  }
+  function hasUncoveredAlpha3(source,index){
+    const text=NON_ASCII_RE.test(source)?source.toLowerCase().replace(/ſ/g,'s'):source.toLowerCase();
+    for(let i=0;i<=text.length-3;i++){
+      const c0=text.charCodeAt(i);if(c0<97||c0>122)continue;
+      const c1=text.charCodeAt(i+1);if(c1<97||c1>122){i++;continue;}
+      const c2=text.charCodeAt(i+2);if(c2<97||c2>122){i+=2;continue;}
+      if(!index.alphaGrams.has(text.slice(i,i+3)))return true;
+    }
+    return false;
   }
   function textMatcher(source,prose=false){
     const index=prose?phraseMatcherIndex:tokenMatcherIndex,candidates=new Set(index.fallback),visited=new Set();
@@ -76,8 +100,21 @@
     if(!legacyIndex.has(key))legacyIndex.set(key,[]);
     legacyIndex.get(key).push(row);
   }
-  let referenceIndex=new Map(),referenceSearchRows=[];
+  let referenceIndex=new Map(),referenceSearchRows=[],referenceIndexRevision=-1;
   function termMeta(key){return effectiveMeta[key]||baseTerms.get(key)||{};}
+  function ensureReferenceIndex(){
+    if(referenceIndexRevision===revision)return;
+    referenceIndex=new Map();
+    referenceSearchRows=aideddRows.map(row=>{
+      const labels=[...new Set([row.en,row.fr,...(row.aliases||[]),...(termMeta(normalize(row.en)).aliases||[])].map(searchKey))];
+      for(const label of labels){
+        if(!referenceIndex.has(label))referenceIndex.set(label,[]);
+        referenceIndex.get(label).push(row);
+      }
+      return {row,labels};
+    });
+    referenceIndexRevision=revision;
+  }
 
   const tokenState = new WeakMap();
   const attrState = new WeakMap();
@@ -109,15 +146,6 @@
     const ambiguous = new Set(['light','aid','alarm','command','friends','jump','sleep','fear','darkness','web','daylight','silence','message','wish','gate','hex','detect','move','charge']);
     const proseKeys = keys.filter(k => k === 'hit:' || (explicitNames.has(k) && !ambiguous.has(k)) || (k.includes(' ') && (k.length > 30 || !/^(pick |select |add |remove |new |set |show |at |per )/.test(k))));
     phraseMatcherIndex=indexTextMatchers(proseKeys);
-    referenceIndex=new Map();
-    referenceSearchRows=aideddRows.map(row=>{
-      const labels=[...new Set([row.en,row.fr,...(row.aliases||[]),...(termMeta(normalize(row.en)).aliases||[])].map(searchKey))];
-      for(const label of labels){
-        if(!referenceIndex.has(label))referenceIndex.set(label,[]);
-        referenceIndex.get(label).push(row);
-      }
-      return {row,labels};
-    });
     revision++;
   }
   const ordinal = n => n === '1' ? '1er' : n+'e';
@@ -175,7 +203,7 @@
     const translated=preserveFormulas(source,translateUncached(source,context))??source;
     if(cacheable){
       const values=contexts||new Map();
-      if(!contexts){if(translationCache.size>=256)translationCache.delete(translationCache.keys().next().value);translationCache.set(source,values);}
+      if(!contexts){if(translationCache.size>=2048)translationCache.delete(translationCache.keys().next().value);translationCache.set(source,values);}
       if(values.size>=4)values.delete(values.keys().next().value);
       values.set(context,translated);
     }
@@ -198,6 +226,9 @@
         if (key === 'light' && /(?:slashing|piercing|bludgeoning|tranchant|perforant|contondant|armor|armure|finesse|two-handed|à deux mains|light weapon|arme légère)/i.test(context)) return 'Légère';
         if (key === 'slow' && weaponMasteryContext(context)) return 'Ralentissement';
         if (key === 'versatile' && weaponMasteryContext(context)) return 'Polyvalente';
+        if (key === 'clear' && /(?:precipitation|précipitations|light clouds|quelques nuages)/i.test(context)) return 'Ciel dégagé';
+        if (key === 'good' && /(?:omen|présage|weal|fortune)/i.test(context)) return 'Favorable';
+        if (key === 'bad' && /(?:omen|présage|woe|misère)/i.test(context)) return 'Défavorable';
         if (key === 'hide' && context === 'map token visibility') return 'Masquer';
         if (key === 'save' && (context === 'creature ability saving throws' || /\b(?:STR|DEX|CON|INT|WIS|CHA|FOR|SAG)\s*(?:DC|DD|[0-9])/i.test(context))) return 'Sauvegarde';
       }
@@ -242,16 +273,21 @@
     if(cast)return `Lancer le sort de niveau ${cast[1]} : ${translate(cast[2])}`;
     source = source.replace(/\bCast\s+(?:Level\s+)?([1-9])(?:st|nd|rd|th)?(?:[- ]level)?\s+Spell\s*:/gi, (_,n) => `Lancer le sort de niveau ${n} :`).replace(/\b([1-9])(?:st|nd|rd|th)[-\s]level\b/gi, (_,n) => `Niveau ${n}`).replace(/\bDC(?=\d)/g, 'DD');
     // Reconnaître les lignes de statistiques uniquement si tous les mots sont connus.
-    const tokens=textMatcher(source);
-    const residual = structuredRemainder(source.replace(tokens,'')).replace(/[^\p{L}]/gu,'');
-    const structured = source.length < 450 && residual.length === 0;
+    const remSource = source.length < 450 ? structuredRemainder(source) : '';
+    const canBeStructured = source.length < 450 && (source.includes('Lancer le sort de niveau ') || !hasUncoveredAlpha3(remSource, tokenMatcherIndex));
+    const tokens = canBeStructured ? textMatcher(source) : null;
+    const residual = tokens ? structuredRemainder(source.replace(tokens,'')).replace(/[^\p{L}]/gu,'') : 'x';
+    const structured = canBeStructured && residual.length === 0;
     // Une phrase inconnue reste entière en anglais. Ne jamais produire un mélange de langues.
+    let proseMatcher = null;
     if(!structured){
       const duration=translateDuration(source);if(duration!==null)return duration;
-      const covered=source.replace(textMatcher(source,true),'').replace(/[^\p{L}]/gu,'');
+      if(hasUncoveredAlpha3(source, phraseMatcherIndex))return originalSource;
+      proseMatcher = textMatcher(source,true);
+      const covered=source.replace(proseMatcher,'').replace(/[^\p{L}]/gu,'');
       if(covered)return originalSource;
     }
-    const matcher = structured ? tokens : textMatcher(source,true);
+    const matcher = structured ? tokens : proseMatcher;
     // Conserver les chiffres et les unités de jeu ; ft et lb ne sont pas convertis.
     const segments = [];
     let last = 0;
@@ -269,10 +305,25 @@
   }
   compile();
 
-  const SKIP = 'script,style,noscript,template,textarea,input,code,pre,kbd,samp,svg,canvas,iframe,[contenteditable]:not([contenteditable="false"]),[role="textbox"],.ql-editor,.ProseMirror,.CodeMirror,.monaco-editor,[data-shard-fr-ignore]';
+  const SKIP_TAGS = new Set(['SCRIPT','STYLE','NOSCRIPT','TEMPLATE','TEXTAREA','INPUT','CODE','PRE','KBD','SAMP','SVG','CANVAS','IFRAME']);
+  const ATTR_SKIP_TAGS = new Set(['SCRIPT','STYLE','IFRAME','SVG']);
   const ATTRS = ['title','aria-label','placeholder','alt'];
+  function excludedElement(el) {
+    if (SKIP_TAGS.has(el.tagName) || el.namespaceURI === 'http://www.w3.org/2000/svg') return true;
+    if (!el.hasAttributes()) return false;
+    if (el.hasAttribute('data-shard-fr-ignore') || el.getAttribute('role') === 'textbox') return true;
+    const ce = el.getAttribute('contenteditable');
+    if (ce !== null && ce !== 'false') return true;
+    const cls = el.getAttribute('class');
+    return !!(cls && (cls.includes('editor') || cls.includes('Mirror')) && (el.classList.contains('ql-editor') || el.classList.contains('ProseMirror') || el.classList.contains('CodeMirror') || el.classList.contains('monaco-editor')));
+  }
+  function excludedSelf(el) {
+    return excludedElement(el) || el.isContentEditable || (el.tagName === 'OPTION' && !el.hasAttribute('value'));
+  }
   function excluded(el) {
-    return !el || !!el.closest(SKIP) || el.isContentEditable || (el.tagName === 'OPTION' && !el.hasAttribute('value'));
+    if (!el || el.isContentEditable || (el.tagName === 'OPTION' && !el.hasAttribute('value'))) return true;
+    for (let cur = el; cur; cur = cur.parentElement) if (excludedElement(cur)) return true;
+    return false;
   }
   function creatureSavingThrowCell(el,source){
     if(normalize(source)!=='save'||el?.closest('button,[role="button"],a'))return false;
@@ -305,12 +356,20 @@
     }
     return scopes.get(scope).has(node);
   }
-  function processText(node,inlineVisited) {
+  function processText(node,inlineVisited,trustedParent=false) {
     if(maintainInline(node))return;
+    if(!enabled){
+      const prev=tokenState.get(node);
+      if(!prev)return;
+      const current=node.data,original=current===prev.output?prev.original:current;
+      tokenState.set(node,{original,output:original,revision,enabled,bilingual});
+      if(current!==original)node.data=original;
+      return;
+    }
     const statField=node.parentElement?.closest('.monstersimple .mb1');
     if(statField){processInline(statField,inlineVisited);if(maintainInline(node))return;}
     if(node.parentElement?.closest('p,li,td,th,.description,.pre-wrap,.stdcontent')){let el=node.parentElement;for(let depth=0;el&&depth<3;depth++,el=el.parentElement){processInline(el,inlineVisited);if(maintainInline(node))return;}}
-    if (!node.isConnected || excluded(node.parentElement)) return;
+    if (!node.isConnected || (!trustedParent && excluded(node.parentElement))) return;
     const current = node.data;
     const prev = tokenState.get(node);
     if (prev && current === prev.output && prev.revision === revision && prev.enabled === enabled && prev.bilingual === bilingual) return;
@@ -322,12 +381,13 @@
     }
     // Contexte court seulement : ne pas confondre le sort Lumière avec une propriété d’arme.
     let context = original;
-    if (/\b(light|slow|save|tough|piercer|versatile)\b/i.test(original) && original.length < 100) {
+    if (/\b(light|slow|save|tough|piercer|versatile|clear|good|bad)\b/i.test(original) && original.length < 100) {
+      const deepContext = /\b(?:slow|clear|good|bad)\b/i.test(original);
       let el=node.parentElement;
-      for (let depth=0; el && depth<(/\bslow\b/i.test(original)?4:3); depth++,el=el.parentElement) {
-        if (el.textContent.length > (/\bslow\b/i.test(original)?600:240) || el.matches('button,[role="button"]')) break;
+      for (let depth=0; el && depth<(deepContext?5:3); depth++,el=el.parentElement) {
+        if (el.textContent.length > (deepContext?600:240) || el.matches('button,[role="button"]')) break;
         context=el.textContent;
-        if(/\bslow\b/i.test(original)&&el.matches('article,[role="dialog"],tr,.stdcontent'))break;
+        if(deepContext&&el.matches('article,[role="dialog"],table,.stdcontent'))break;
       }
     }
     if(creatureSavingThrowCell(node.parentElement,original))context='creature ability saving throws';
@@ -345,13 +405,18 @@
     const proseText=prose?blockEnglish(prose):'';
     const fragments=proseText.match(/\b(?:the|you|your|a|an|can|must|within|that|of|is|to|and|or|for|with)\b/gi)||[];
     const spellList=/^\s*(?:At Will|\d+\/Day(?: Each)?)\s*:/i.test(proseText);
-    const partialProse=!spellList && fragments.length>=3 && proseText.length>35 && proseText.length<6000 && inlineKey(proseText)!==inlineKey(original) && !completePairs.has(inlineKey(proseText));
-    const translated=partialProse&&!completePairs.has(inlineKey(original))&&!customKeys.has(normalize(original))?original:translate(original,context);
+    const proseKey=proseText.length>35&&proseText.length<6000&&!spellList&&fragments.length>=3?inlineKey(proseText):null;
+    const origKey=proseKey!==null?inlineKey(original):null;
+    const partialProse=proseKey!==null && proseKey!==origKey && !completePairs.has(proseKey);
+    const translated=partialProse&&!completePairs.has(origKey)&&!customKeys.has(normalize(original))?original:translate(original,context);
     tokenState.set(node,{original,output:translated,revision,enabled,bilingual});
     if (translated !== current) node.data = translated;
   }
   function processRestLabel(node){
-    if(!enabled||excluded(node.parentElement))return false;
+    if(!enabled)return false;
+    const hasSiblingText=node.previousSibling?.nodeType===3||node.nextSibling?.nodeType===3;
+    if(!hasSiblingText&&!/^\s*(?:with\s+\d+\s+left|You have \d+ hit points out of a maximum of \d+\.|You are at maximum hit points\s+\d+\.)\s*$/i.test(originalNode(node)))return false;
+    if(excluded(node.parentElement))return false;
     const dialog=node.parentElement.closest('[role="dialog"]'),title=dialog?.querySelector('.MuiDialogTitle-root,.titletext');
     if(!title||!/^short rest$/i.test(blockEnglish(title).trim()))return false;
     // React sépare les nombres du texte. Garder chaque nœud pour ses mises à jour.
@@ -386,8 +451,28 @@
     return true;
   }
   function processAttrs(el) {
-    if (!el.isConnected || el.closest('[data-shard-fr-ignore],script,style,iframe,svg')) return;
+    if (!el.isConnected) return;
     let states = attrState.get(el);
+    if (!enabled) {
+      if (!states) return;
+      for (const key of ATTRS) {
+        const current = el.getAttribute(key);
+        if (current === null) { states.delete(key); continue; }
+        const prev = states.get(key);
+        if (prev && current === prev.output && prev.output !== prev.original) el.setAttribute(key, prev.original);
+        if (prev) states.set(key, {original: prev.original, output: prev.original});
+      }
+      return;
+    }
+    if (!states) {
+      if (!el.hasAttributes()) return;
+      let hasAny = false;
+      for (const key of ATTRS) if (el.hasAttribute(key)) { hasAny = true; break; }
+      if (!hasAny) return;
+    }
+    for (let cur = el; cur; cur = cur.parentElement) {
+      if (ATTR_SKIP_TAGS.has(cur.tagName) || cur.namespaceURI === 'http://www.w3.org/2000/svg' || cur.hasAttribute('data-shard-fr-ignore')) return;
+    }
     if (!states) { states = new Map(); attrState.set(el,states); }
     for (const key of ATTRS) {
       const current = el.getAttribute(key);
@@ -400,6 +485,13 @@
       if (translated !== current) el.setAttribute(key,translated);
     }
   }
+  function isRegionCandidate(el) {
+    if (el.tagName === 'ARTICLE') return true;
+    if (!el.hasAttributes()) return false;
+    if (el.getAttribute('role') === 'dialog') return true;
+    const cls = el.getAttribute('class');
+    return !!(cls && (el.classList.contains('pre-wrap') || el.classList.contains('stdcontent') || el.classList.contains('description')));
+  }
   function* scan(root) {
     const inlineVisited=new WeakSet();
     if (!root || !root.isConnected) return;
@@ -411,7 +503,7 @@
     if (excluded(root)) return;
     const walker = document.createTreeWalker(root,NodeFilter.SHOW_ELEMENT | NodeFilter.SHOW_TEXT,{
       acceptNode(node) {
-        if (node.nodeType === Node.ELEMENT_NODE && excluded(node)) {
+        if (node.nodeType === Node.ELEMENT_NODE && excludedSelf(node)) {
           // Les attributs des champs sont traduisibles, jamais leurs valeurs.
           processAttrs(node);
           return NodeFilter.FILTER_REJECT;
@@ -421,8 +513,8 @@
     });
     let node;
     while ((node=walker.nextNode())) {
-      if (node.nodeType === Node.TEXT_NODE) processText(node,inlineVisited);
-      else {if(node.matches('article,[role="dialog"],.pre-wrap,.stdcontent,.description'))discoverRegion(node);processAttrs(node);processInline(node,inlineVisited);}
+      if (node.nodeType === Node.TEXT_NODE) processText(node,inlineVisited,true);
+      else {if(isRegionCandidate(node))discoverRegion(node);processAttrs(node);processInline(node,inlineVisited);}
       yield;
     }
   }
@@ -636,16 +728,29 @@
     input.dispatchEvent(new Event('change',{bubbles:true}));
     hideNativeSearch();input.focus();applyingSearch=false;
   }
+  let nativeSearchRows=[],nativeSearchRevision=-1;
+  function ensureNativeSearchRows(){
+    if(nativeSearchRevision===revision)return nativeSearchRows;
+    nativeSearchRows=[];
+    for(const [key,e]of entries.entries()){
+      if(e.en.length>=100||!(searchableKeys.has(key)||customKeys.has(key)||(aideddNames&&aideddIndex.has(key))))continue;
+      const frKey=searchKey(e.fr),enKey=searchKey(e.en);
+      const labels=[frKey,enKey,...(termMeta(key).aliases||[]).map(searchKey)];
+      nativeSearchRows.push({entry:e,frKey,enKey,labels});
+    }
+    nativeSearchRevision=revision;
+    return nativeSearchRows;
+  }
   function suggestNativeSearch(input){
     if (applyingSearch || !enabled || !searchAssist || !isSearchInput(input)) return hideNativeSearch();
     nativeTarget=input;
     const q=searchKey(input.value);
     if(q.length<2) return hideNativeSearch();
     const words=q.split(/\s+/);
-    const candidates=[...entries.entries()].filter(([key,e])=>(searchableKeys.has(key)||customKeys.has(key)||(aideddNames&&aideddIndex.has(key))) && e.en.length<100 && words.every(word=>[e.fr,e.en,...(termMeta(key).aliases||[])].some(value=>searchKey(value).includes(word))));
-    const rank=e=>searchKey(e.fr)===q?0:searchKey(e.en)===q?1:searchKey(e.fr).startsWith(q)?2:3;
-    candidates.sort((a,b)=>rank(a[1])-rank(b[1]) || a[1].fr.length-b[1].fr.length || a[1].en.localeCompare(b[1].en));
-    nativeHits=candidates.slice(0,20).map(([,e])=>e);activeHit=-1;
+    const candidates=ensureNativeSearchRows().filter(item=>words.every(word=>item.labels.some(value=>value.includes(word))));
+    const rank=item=>item.frKey===q?0:item.enKey===q?1:item.frKey.startsWith(q)?2:3;
+    candidates.sort((a,b)=>rank(a)-rank(b) || a.entry.fr.length-b.entry.fr.length || a.entry.en.localeCompare(b.entry.en));
+    nativeHits=candidates.slice(0,20).map(item=>item.entry);activeHit=-1;
     if(!nativeHits.length)return hideNativeSearch();
     searchBox.replaceChildren();
     const note=document.createElement('p');note.textContent='Recherche FR → EN · choisis un nom (↑ ↓ Entrée). Échap ferme. Ces suggestions viennent du lexique ; les résultats disponibles dépendent de tes livres et filtres.';searchBox.append(note);
@@ -699,10 +804,12 @@
   function referenceRows(source){
     const q=searchKey(source);
     if(!q)return [];
+    ensureReferenceIndex();
     return referenceIndex.get(q)||[];
   }
   function searchMatches(){
     const q=searchKey($('search').value);if(!q)return [];
+    ensureReferenceIndex();
     return referenceSearchRows.filter(({labels})=>labels.some(label=>label.includes(q))).map(({row})=>row);
   }
   function referenceLink(row,label){
@@ -777,11 +884,12 @@
     const rows=[];
     try {
       // Une seule requête à la fois ; mise à jour atomique si les cinq index sont valides.
+      const previousByKey=new Map(aideddRows.map(r=>[r.en+'|'+r.kind,r]));
       for(const kind of AIDEDD_KINDS){
         if(!aideddOnline || !enabled)throw Error('Synchronisation interrompue.');
         const found=parseAideDDCatalog(await requestAideDD(`https://www.aidedd.org/${kind}/fr/`,kind,true),kind);
         if(found.length < AIDEDD_CATALOG.filter(r=>r.kind===kind).length*0.8)throw Error('Index AideDD anormalement incomplet ; catalogue précédent conservé.');
-        for(const row of found){const previous=aideddRows.find(r=>r.en===row.en&&r.kind===row.kind);if(previous)row.aliases=[...new Set([...row.aliases,...(previous.aliases||[]),previous.fr])].filter(a=>a!==row.fr);}
+        for(const row of found){const previous=previousByKey.get(row.en+'|'+row.kind);if(previous)row.aliases=[...new Set([...row.aliases,...(previous.aliases||[]),previous.fr])].filter(a=>a!==row.fr);}
         rows.push(...found);
       }
       if(!aideddOnline || !enabled)return;
@@ -803,9 +911,18 @@
   const inlineLoads=new Map(), inlineJobs=[];let inlineBusy=false;
   // Reconnaître les contractions non ambiguës, sans toucher au texte affiché
   // ni rapprocher des valeurs ou des règles différentes (2014 / 2024).
-  const contractions={"you've":"you have","we've":"we have","they've":"they have","can't":"cannot","cannot":"cannot","don't":"do not","doesn't":"does not","didn't":"did not","isn't":"is not","aren't":"are not","wasn't":"was not","weren't":"were not","hasn't":"has not","haven't":"have not","hadn't":"had not","won't":"will not","wouldn't":"would not","couldn't":"could not","shouldn't":"should not","mustn't":"must not"};
+  const contractions={"you've":"you have","we've":"we have","they've":"they have","can't":"cannot","don't":"do not","doesn't":"does not","didn't":"did not","isn't":"is not","aren't":"are not","wasn't":"was not","weren't":"were not","hasn't":"has not","haven't":"have not","hadn't":"had not","won't":"will not","wouldn't":"would not","couldn't":"could not","shouldn't":"should not","mustn't":"must not"};
   const contractionRE=new RegExp('\\b(?:'+Object.keys(contractions).map(escapeRE).join('|')+')\\b','g');
-  const inlineKey=s=>normalize(s).replace(/[\uE000-\uF8FF]/g,'').replace(/[“”]/g,'"').replace(contractionRE,m=>contractions[m]).replace(/\b(\d+(?:\.\d+)?)\s*-\s*foot\b/g,'$1 feet').replace(/\b(?:ft|feet|foot)\b\.?/g,'feet').replace(/\s*([.,;:!?()+])\s*/g,'$1').replace(/\s+/g,' ');
+  const PUNCT_SPACE_RE=/\s*([.,;:!?()+])\s*/g;
+  function inlineKey(s){
+    const raw=typeof s==='string'?s:String(s);
+    let str=normalize(raw);
+    if(NON_ASCII_RE.test(raw))str=str.replace(/[\uE000-\uF8FF]/g,'').replace(/[“”]/g,'"');
+    if(str.includes("n't")||str.includes("'ve"))str=str.replace(contractionRE,m=>contractions[m]);
+    if(str.includes('foot')||str.includes('ft')||str.includes('feet.'))str=str.replace(/\b(\d+(?:\.\d+)?)\s*-\s*foot\b/g,'$1 feet').replace(/\b(?:ft|feet|foot)\b\.?/g,'feet');
+    str=str.replace(PUNCT_SPACE_RE,'$1');
+    return MULTI_SPACE_RE.test(str)?str.replace(/\s+/g,' ').trim():str.trim();
+  }
   function inlinePriority(key){return inlineSources.has(key)&&(key.length>=35||/[.:]$/.test(key)||key.includes(':')||!entries.has(normalize(key)));}
   function lookupPair(key){
     // Une correction vérifiée du texte utilisateur reste prioritaire sur le cache distant.
@@ -836,9 +953,10 @@
     // Un libellé déjà français ne change pas l’identité de sa valeur anglaise.
     // Réutiliser seulement une paire exacte du champ complet, sans traduire
     // des morceaux arbitraires d’une phrase ni changer ses règles.
-    const field=/^(caractéristique|utilisation|fabrication|variantes):(.+)$/.exec(key);
+    const field=/^(caractéristique|utilisation|fabrication|variantes|composantes|composante|temps d'incantation|portée|durée):(.+)$/.exec(key);
     if(!field)return null;
-    const labels={'caractéristique':'ability',utilisation:'utilize',fabrication:'craft',variantes:'variants'};
+    if(field[1]==='composante')return lookupPair('component:'+field[2])||lookupPair('components:'+field[2])?.replace(/^Composantes\s*:/,'Composante :')||null;
+    const labels={'caractéristique':'ability',utilisation:'utilize',fabrication:'craft',variantes:'variants',composantes:'components',"temps d'incantation":'casting time','portée':'range','durée':'duration'};
     return lookupPair(labels[field[1]]+':'+field[2]);
   }
   function blockNodes(el){
@@ -933,7 +1051,12 @@
     visit(el);
     // Traduire les paragraphes et options avant d’envisager un bloc complet.
     // Une traduction FR peut ordonner les effets différemment de la fiche EN.
-    for(const group of groups)processInlineNodes(el,group.nodes,group.nodes.map(originalNode).join(''));
+    const scopeCounts=new Map();
+    for(const group of groups)scopeCounts.set(group.scope,(scopeCounts.get(group.scope)||0)+1);
+    for(const group of groups){
+      processInlineNodes(el,group.nodes,group.nodes.map(originalNode).join(''));
+      if(group.scope!==el&&scopeCounts.get(group.scope)===1&&/^(?:P|LI|TD|TH)$/.test(group.scope.tagName)&&!group.scope.querySelector('div,p,li,table'))visited?.add(group.scope);
+    }
     // La référence peut ne fournir qu’un texte complet. Aucun tableau ne doit
     // être aplati : les cellules et leurs valeurs restent à leur place.
     if(groups.length>1&&!el.querySelector('table,input,textarea,select,button,[role="button"],[role="textbox"],[contenteditable]:not([contenteditable="false"])')&&!nodes.some(n=>inlineOwners.has(n)))processInlineNodes(el,nodes,blockEnglish(el),groups);
@@ -966,12 +1089,14 @@
       const sleepBreath=normalize(match[1])==='sleep'&&/\bSleep Breath\b/.test(source)?'soporifique':null;
       // Shard lie aussi le verbe « can teleport » au sort Téléportation.
       const teleportVerb=normalize(match[1])==='teleport'&&/\bcan teleport\b/i.test(source)?'téléporter':null;
+      const charmVerb=normalize(match[1])==='charmed'&&/\b(?:can['’]?t|cannot) be charmed\b/i.test(source)?'charmer':null;
+      const frightenVerb=normalize(match[1])==='frightened'&&/\b(?:can['’]?t|cannot) be (?:charmed,\s*)?frightened\b/i.test(source)?'effrayer':null;
       const aliases=(termMeta(normalize(match[1])).aliases||[]).map(alias=>alias+match[2]);
       // Un lien Shard peut porter le possessif anglais d’un nom propre.
       // Le français conserve le nom, mais exprime la possession hors du lien.
       const possessive=/^([\p{L} -]+)['’]s$/u.exec(match[1]);
       const properName=possessive&&(entries.has(normalize(possessive[1]))||/^[A-Z]/.test(possessive[1]))?translate(possessive[1],source):null;
-      const values=[translate(en,source),armorHide,creatureBlight,sleepBreath,teleportVerb,actionNoun?actionNoun+match[2]:null,heading?heading+match[2]:null,entry?entry.fr+match[2]:null,...aliases,properName,...(heading&&match[2]?[heading+'.',heading+':']:[]),...(/[,;]/.test(match[2])?[heading,entry?.fr]:[]),en,en.replace(/[\uE000-\uF8FF]/g,'')].filter(Boolean);
+      const values=[translate(en,source),armorHide,creatureBlight,sleepBreath,teleportVerb,charmVerb,frightenVerb,actionNoun?actionNoun+match[2]:null,heading?heading+match[2]:null,entry?entry.fr+match[2]:null,...aliases,properName,...(heading&&match[2]?[heading+'.',heading+':']:[]),...(/[,;]/.test(match[2])?[heading,entry?.fr]:[]),en,en.replace(/[\uE000-\uF8FF]/g,'')].filter(Boolean);
       // Le SRD écrit « œil » là où certains noms AideDD emploient « oeil ».
       // Reconnaître les deux graphies pour garder le lien dans le paragraphe traduit.
       return [...new Set(values.flatMap(value=>[value,value.replace(/œ/gi,'oe'),value.replace(/oe/gi,'œ')]).map(s=>s.trim()))];
@@ -1031,7 +1156,7 @@
       const owned=nodes.filter(n=>ownerContains(owner,n)),first=nodes.indexOf(owned[0]),last=nodes.indexOf(owned.at(-1));
       const en=owned.map(originalNode).join(''),variants=inlineVariants(en);
       let found=null;
-      for(const value of variants){const re=new RegExp(inlinePattern(value.trim()).replace(/\\\+/g,'\\s*\\+\\s*'),'iu');const m=re.exec(fr.slice(cursor));if(m){const text=m[0].trim(),index=m.index+m[0].length-m[0].trimStart().length;if(!found||index<found.index)found={index,text};}}
+      for(const value of variants){const re=new RegExp(inlinePattern(value.trim()).replace(/(?:\\s\+)*\\\+(?:\\s\+)*/g,'\\s*\\+\\s*'),'iu');const m=re.exec(fr.slice(cursor));if(m){const text=m[0].trim(),index=m.index+m[0].length-m[0].trimStart().length;if(!found||index<found.index||(index===found.index&&text.length>found.text.length))found={index,text};}}
       if(!found)return;
       // Deux emphases peuvent être collées dans le HTML anglais, alors que
       // le français exige une espace. La conserver dans l’emphase suivante,
@@ -1071,8 +1196,13 @@
     return sections.map(section=>({...section,text:section.paragraphs.map(p=>p.text).join(' '),body:section.paragraphs.map((p,i)=>i===0&&section.heading?p.body:p.text).join(' ').trim()}));
   }
   const referenceTitle=s=>inlineKey(s.replace(/[.\s:]+$/,''));
-  const monsterTitleIndex=new Map();
-  for(const row of MONSTER_ACTION_TITLES){const key=referenceTitle(row.en),labels=monsterTitleIndex.get(key)||[];labels.push(referenceTitle(row.fr));monsterTitleIndex.set(key,labels);}
+  let monsterTitleIndex=null;
+  function ensureMonsterTitleIndex(){
+    if(monsterTitleIndex)return monsterTitleIndex;
+    monsterTitleIndex=new Map();
+    for(const row of MONSTER_ACTION_TITLES){const key=referenceTitle(row.en),labels=monsterTitleIndex.get(key)||[];labels.push(referenceTitle(row.fr));monsterTitleIndex.set(key,labels);}
+    return monsterTitleIndex;
+  }
   function referenceNumbers(text){return (text.match(/\d+(?:[.,]\d+)?/g)||[]).map(v=>Number(v.replace(',','.'))).sort((a,b)=>a-b).join(',');}
   function referenceDice(text){return (text.match(/\b(?:\d+)?d\d+s?\b/gi)||[]).map(s=>s.toLowerCase().replace(/s$/,'')).sort().join(',');}
   function referenceCompatible(en,fr){
@@ -1084,8 +1214,8 @@
     return negativeEN===negativeFR&&referenceNumbers(en)===referenceNumbers(adapted)&&referenceDice(en)===referenceDice(adapted)&&completeSentenceCoverage(en,adapted);
   }
   function matchMonsterActions(english,french){
-    const matches=new Map(),used=new Set();
-    const candidates=a=>{const labels=[...headingAliases(a.heading),...(monsterTitleIndex.get(referenceTitle(a.heading))||[])];return french.filter(b=>!used.has(b)&&a.group===b.group&&referenceCompatible(a.text,b.text)&&labels.includes(referenceTitle(b.heading)));};
+    const titleIndex=ensureMonsterTitleIndex(),matches=new Map(),used=new Set();
+    const candidates=a=>{const labels=[...headingAliases(a.heading),...(titleIndex.get(referenceTitle(a.heading))||[])];return french.filter(b=>!used.has(b)&&a.group===b.group&&referenceCompatible(a.text,b.text)&&labels.includes(referenceTitle(b.heading)));};
     // Un titre bilingue attesté est obligatoire. Des nombres uniques ne
     // suffisent pas à associer deux aptitudes qui peuvent avoir un autre effet.
     for(const a of english){
@@ -1406,8 +1536,9 @@
   function diagnosticVisible(el,cache){
     if(!el)return true;
     if(cache.has(el))return cache.get(el);
+    if(el.hidden||el.getAttribute('aria-hidden')==='true'||!diagnosticVisible(el.parentElement,cache)){cache.set(el,false);return false;}
     const css=getComputedStyle(el);
-    const visible=!el.hidden&&el.getAttribute('aria-hidden')!=='true'&&css.display!=='none'&&css.visibility!=='hidden'&&css.visibility!=='collapse'&&diagnosticVisible(el.parentElement,cache);
+    const visible=css.display!=='none'&&css.visibility!=='hidden'&&css.visibility!=='collapse';
     cache.set(el,visible);return visible;
   }
   function diagnosticReason(el,source){
@@ -1502,19 +1633,39 @@
     };
     // Attribuer chaque nœud à son bloc une seule fois, au lieu de reparcourir
     // le sous-arbre de chacun de ses ancêtres (livres et dialogues imbriqués).
-    const ownedNodes=new Map(),walker=document.createTreeWalker(root,NodeFilter.SHOW_ELEMENT|NodeFilter.SHOW_TEXT,{acceptNode:n=>{
-      if(n.nodeType===1)return excluded(n)||!diagnosticVisible(n,visibleCache)?NodeFilter.FILTER_REJECT:NodeFilter.FILTER_SKIP;
-      return NodeFilter.FILTER_ACCEPT;
-    }});
-    let node;while((node=walker.nextNode())){
-      if(excluded(node.parentElement)||!diagnosticVisible(node.parentElement,visibleCache))continue;
-      const owner=node.parentElement.closest(diagnosticSelector)||node.parentElement.closest('span,a');
-      if(!owner)continue;if(!ownedNodes.has(owner))ownedNodes.set(owner,[]);ownedNodes.get(owner).push(node);
+    const DIAGNOSTIC_TAGS=new Set(['P','LI','TD','TH','H1','H2','H3','H4','H5','H6','BUTTON','LABEL','OPTION','DIV']);
+    function isDiagnosticBlock(el){
+      if(DIAGNOSTIC_TAGS.has(el.tagName))return true;
+      if(!el.hasAttributes())return false;
+      if(el.getAttribute('role')==='heading')return true;
+      const cls=el.getAttribute('class');
+      return !!(cls&&(el.classList.contains('titletext')||el.classList.contains('description')||el.classList.contains('pre-wrap')||el.classList.contains('stdcontent')));
+    }
+    function diagnosticOwner(start){
+      let fallback=null;
+      for(let cur=start;cur;cur=cur.parentElement){
+        if(isDiagnosticBlock(cur))return cur;
+        if(!fallback&&(cur.tagName==='SPAN'||cur.tagName==='A'))fallback=cur;
+      }
+      return fallback;
+    }
+    const ownedNodes=new Map();
+    if(!excluded(root)&&diagnosticVisible(root,visibleCache)){
+      const walker=document.createTreeWalker(root,NodeFilter.SHOW_ELEMENT|NodeFilter.SHOW_TEXT,{acceptNode:n=>{
+        if(n.nodeType===1)return excludedSelf(n)||!diagnosticVisible(n,visibleCache)?NodeFilter.FILTER_REJECT:NodeFilter.FILTER_SKIP;
+        return NodeFilter.FILTER_ACCEPT;
+      }});
+      let node;while((node=walker.nextNode())){
+        const owner=diagnosticOwner(node.parentElement);
+        if(!owner)continue;if(!ownedNodes.has(owner))ownedNodes.set(owner,[]);ownedNodes.get(owner).push(node);
+      }
     }
     for(const el of [root,...root.querySelectorAll(diagnosticSelector+',span,a')]){
       if(++examined>nodeLimit){truncated=true;break;}
+      const nodes=ownedNodes.get(el);
+      if(!nodes?.length)continue;
       if(excluded(el)||!diagnosticVisible(el,visibleCache))continue;
-      const nodes=ownedNodes.get(el)||[],source=nodes.map(originalNode).join('');
+      const source=nodes.map(originalNode).join('');
       // Si une partie du bloc est déjà française, ne rapporter que le reliquat.
       const changed=nodes.some(n=>n.data!==originalNode(n));
       const remainder=changed?nodes.filter(n=>n.data===originalNode(n)).map(n=>n.data).join(''):source;

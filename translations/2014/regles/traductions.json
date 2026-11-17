@@ -2921,6 +2921,11 @@
       "kind": "term",
       "en": "Blinded",
       "fr": "Aveuglé",
+      "aliases": [
+        "Aveuglée",
+        "Aveuglés",
+        "Aveuglées"
+      ],
       "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
       "usage": [
         "search"
@@ -2933,6 +2938,11 @@
       "kind": "term",
       "en": "Charmed",
       "fr": "Charmé",
+      "aliases": [
+        "Charmée",
+        "Charmés",
+        "Charmées"
+      ],
       "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
       "usage": [
         "search"
@@ -2945,6 +2955,11 @@
       "kind": "term",
       "en": "Deafened",
       "fr": "Assourdi",
+      "aliases": [
+        "Assourdie",
+        "Assourdis",
+        "Assourdies"
+      ],
       "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
       "usage": [
         "search"
@@ -2957,6 +2972,11 @@
       "kind": "term",
       "en": "Frightened",
       "fr": "Effrayé",
+      "aliases": [
+        "Effrayée",
+        "Effrayés",
+        "Effrayées"
+      ],
       "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
       "usage": [
         "search"
@@ -2969,6 +2989,11 @@
       "kind": "term",
       "en": "Grappled",
       "fr": "Agrippé",
+      "aliases": [
+        "Agrippée",
+        "Agrippés",
+        "Agrippées"
+      ],
       "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
       "usage": [
         "search"
@@ -2981,6 +3006,13 @@
       "kind": "term",
       "en": "Incapacitated",
       "fr": "Neutralisé",
+      "aliases": [
+        "Neutralisée",
+        "Neutralisés",
+        "Neutralisées",
+        "Incapable d’agir",
+        "Incapables d’agir"
+      ],
       "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
       "usage": [
         "search"
@@ -2993,6 +3025,9 @@
       "kind": "term",
       "en": "Invisible",
       "fr": "Invisible",
+      "aliases": [
+        "Invisibles"
+      ],
       "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
       "usage": [
         "search"
@@ -3005,6 +3040,11 @@
       "kind": "term",
       "en": "Paralyzed",
       "fr": "Paralysé",
+      "aliases": [
+        "Paralysée",
+        "Paralysés",
+        "Paralysées"
+      ],
       "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
       "usage": [
         "search"
@@ -3017,6 +3057,11 @@
       "kind": "term",
       "en": "Petrified",
       "fr": "Pétrifié",
+      "aliases": [
+        "Pétrifiée",
+        "Pétrifiés",
+        "Pétrifiées"
+      ],
       "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
       "usage": [
         "search"
@@ -3029,6 +3074,11 @@
       "kind": "term",
       "en": "Poisoned",
       "fr": "Empoisonné",
+      "aliases": [
+        "Empoisonnée",
+        "Empoisonnés",
+        "Empoisonnées"
+      ],
       "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
       "usage": [
         "search"
@@ -3053,6 +3103,11 @@
       "kind": "term",
       "en": "Restrained",
       "fr": "Entravé",
+      "aliases": [
+        "Entravée",
+        "Entravés",
+        "Entravées"
+      ],
       "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
       "usage": [
         "search"
@@ -3065,6 +3120,11 @@
       "kind": "term",
       "en": "Stunned",
       "fr": "Étourdi",
+      "aliases": [
+        "Étourdie",
+        "Étourdis",
+        "Étourdies"
+      ],
       "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
       "usage": [
         "search"
@@ -3077,6 +3137,11 @@
       "kind": "term",
       "en": "Unconscious",
       "fr": "Inconscient",
+      "aliases": [
+        "Inconsciente",
+        "Inconscients",
+        "Inconscientes"
+      ],
       "source": "Traduction proposée ou usuelle (non vérifiée intégralement)",
       "usage": [
         "search"

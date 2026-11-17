@@ -6,6 +6,7 @@ Tous les fichiers JavaScript et JSON de ce dossier sont reconstruits par `npm ru
 | --- | --- |
 | `shard-dnd-fr.user.js` | Userscript autonome à installer dans Tampermonkey ; contient les traductions et références nécessaires |
 | `shard-dnd-fr.meta.js` | Métadonnées utilisées par Tampermonkey pour vérifier les mises à jour |
+| `shard-ui.user.js` | Userscript visuel optionnel et indépendant : confort de lecture, sections repliables sur les fiches, contours de jetons et sélection multiple sur la carte |
 | `lexique-en-fr.json` | Export du lexique après priorité AideDD : noms, libellés, sources, alias et liens ; les descriptions complètes ne sont pas toutes incluses |
 | `catalogue-aidedd-2024.json` | Export des références AideDD 2024 : noms EN/FR, types, alias et liens |
 | `corrections-srd-2024.json` | Export des correspondances françaises officielles SRD, avant la priorité des noms AideDD dans le lexique final |

@@ -119,12 +119,12 @@
             "blocs": 205
           },
           "sorts": {
-            "entreesRattachees": 1223,
-            "libelles": 427,
-            "blocs": 796
+            "entreesRattachees": 1276,
+            "libelles": 465,
+            "blocs": 811
           }
         },
-        "entreesRattachees": 5181
+        "entreesRattachees": 5234
       },
       {
         "id": "dnd-2024-mm",
@@ -272,12 +272,12 @@
             "blocs": 298
           },
           "sorts": {
-            "entreesRattachees": 193,
-            "libelles": 171,
-            "blocs": 22
+            "entreesRattachees": 231,
+            "libelles": 174,
+            "blocs": 57
           }
         },
-        "entreesRattachees": 6884
+        "entreesRattachees": 6922
       }
     ],
     "regleClassement": "Un emplacement éditorial par texte : règles du joueur 2024 avec le PHB, bestiaire 2024 avec le MM, corpus historique et lexique non spécifique dans 2014. L’emplacement ne remplace pas la source précise ni l’édition portée par l’entrée.",
@@ -529,8 +529,8 @@
   "categories": {
     "sorts": {
       "nomsCatalogueAideDD2024": 391,
-      "libellesEditables": 598,
-      "blocsEditables": 832
+      "libellesEditables": 639,
+      "blocsEditables": 891
     },
     "dons": {
       "nomsCatalogueAideDD2024": 75,
@@ -582,7 +582,7 @@
       "fichesOuvertes": 1372,
       "controle": "audit/generes/guide-equipment.json"
     },
-    "descriptionsEtChampsLocauxUniques": 11138,
+    "descriptionsEtChampsLocauxUniques": 11202,
     "presentationsShard": {
       "fichesRelevees": 153,
       "avecDescription": 149,
