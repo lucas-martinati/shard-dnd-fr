@@ -73,6 +73,45 @@ const pause = ms => new Promise(resolve => setTimeout(resolve, ms));
   native.innerHTML = '<div><div class="theader"><span class="fa-minus-square"></span>Spells</div><p>Existing accordion</p></div>';
   added.append(native); await pause(60);
   assert.equal(native.querySelector('.sui-fold'), null, 'Do not duplicate a native accordion');
+  const siblingNative = d.createElement('div'); siblingNative.className = 'spellBlock';
+  siblingNative.innerHTML = '<div><div class="flex items-center"><div class="flex-auto theader">Class Features</div><div><span class="fa-minus-square"></span></div></div><p>Sibling native accordion</p></div>';
+  added.append(siblingNative); await pause(60);
+  assert.equal(siblingNative.querySelector('.sui-fold'), null, 'Do not duplicate a sibling native accordion');
+  const extraBlocks = [
+    ['savingThrows', 'Jets de sauvegarde'],
+    ['attuneBlock', 'Harmonisation'],
+    ['profBlock', 'Maîtrises'],
+    ['companionBlock', 'Compagnons']
+  ];
+  for (const [cls, label] of extraBlocks) {
+    const blk = d.createElement('div'); blk.className = cls;
+    blk.innerHTML = `<div><div class="theader">${label}</div><div>Contenu</div></div>`;
+    added.append(blk);
+  }
+  await pause(60);
+  for (const [cls] of extraBlocks) {
+    const foldBtn = added.querySelector(`.${cls} .sui-fold`);
+    assert.ok(foldBtn, `Extended section .${cls} receives accordion`);
+  }
+  const css = d.querySelector('style#shard-ui-theme').textContent;
+  assert.ok(css.includes('--bookChapterColor'), 'Dark book TOC contrast fix included');
+  assert.ok(css.includes('body.darkT .m24:not(.lightT .m24) .m24c11'), 'Dark 2024 statblock excludes nested .lightT');
+  assert.ok(css.includes('.stdcontent table:not(.m24 table)'), 'Reference table spacing included');
+  assert.ok(css.includes('translateY(-50%)'), 'Fold button centers vertically on tall headers');
+  // Verify Shard's outer .darkT wrapper never forces light text onto nested .lightT statblocks.
+  const shell = d.createElement('div');
+  shell.className = 'darkT';
+  shell.innerHTML = '<div class="lightT"><div class="m24"><table><tbody><tr><td>MOD</td></tr><tr><td class="m24c11">20</td></tr></tbody></table></div></div><div class="m24 darkOnly"><table><tbody><tr><td>MOD</td></tr><tr><td class="m24c11">20</td></tr></tbody></table></div>';
+  d.body.append(shell);
+  const parchmentCell = shell.querySelector('.lightT .m24c11');
+  const darkCell = shell.querySelector('.darkOnly .m24c11');
+  d.body.className = 'lightT';
+  assert.equal(w.getComputedStyle(parchmentCell).color, 'rgb(27, 25, 22)', 'Light mode book statblock keeps dark ink despite outer .darkT');
+  d.body.className = 'darkT';
+  assert.equal(w.getComputedStyle(parchmentCell).color, 'rgb(27, 25, 22)', 'Nested .lightT statblock inside dark mode keeps dark ink');
+  assert.equal(w.getComputedStyle(darkCell).color, 'rgb(242, 236, 224)', 'True dark statblock receives high-contrast light ink');
+  d.body.removeAttribute('class');
+  shell.remove();
   const tracker = d.createElement('section'); tracker.className = 'tourAdventureTracker';
   tracker.innerHTML = '<table class="encountertable"><thead><tr><th><i class="fas fa-heart" title="Hit Points"></i></th></tr></thead><tbody><tr><td><button>24</button></td></tr></tbody></table>';
   d.body.append(tracker); await pause(60);
@@ -86,9 +125,10 @@ const pause = ms => new Promise(resolve => setTimeout(resolve, ms));
   assert.equal(tracker.querySelector('button'), hpButton);
   tracker.remove();
   const map = d.createElement('section'); map.className = 'tourAdventureMap';
-  map.innerHTML = '<div class="maptool"><span class="toolnormal"><span title="Mesurer"></span></span></div><canvas></canvas>';
+  map.innerHTML = '<div class="maptool"><span class="toolnormal"><span title="Mesurer"></span></span><span class="toolnormal" title="Grille"></span></div><canvas></canvas>';
   d.body.append(map); await pause(60);
-  const tool = map.querySelector('.toolnormal'), canvas = map.querySelector('canvas');
+  const [tool, directTool] = map.querySelectorAll('.toolnormal'), canvas = map.querySelector('canvas');
+  assert.equal(directTool.getAttribute('aria-label'), 'Grille', 'Direct title on map tool supported');
   let actions = 0; tool.onclick = () => actions++;
   assert.equal(tool.getAttribute('aria-label'), 'Mesurer');
   assert.equal(tool.tabIndex, 0);
@@ -117,5 +157,24 @@ const pause = ms => new Promise(resolve => setTimeout(resolve, ms));
   assert.equal(input.value, 'Valeur utilisateur');
   button.click(); assert.equal(clicks, 2);
   assert.equal(d.querySelectorAll('#shard-ui-controls').length, 0);
+  const liveTracker = d.createElement('aside'); liveTracker.className = 'tourAdventureTracker';
+  liveTracker.innerHTML = '<table class="encountertable"><tbody><tr><td>1 <span class="fa-square"></span></td><td><span class="draginfo">Wolf</span></td></tr></tbody></table>';
+  const liveMap = d.createElement('section'); liveMap.className = 'tourAdventureMap';
+  liveMap.innerHTML = '<div class="maptool"><span class="toolselect"><i class="fa-arrows-alt"></i></span></div><div class="konvajs-content"><canvas></canvas></div>';
+  d.body.append(liveTracker, liveMap);
+  const liveBox = liveTracker.querySelector('.fa-square');
+  liveBox.onclick = () => { liveBox.className = liveBox.classList.contains('fa-check-square') ? 'fa-square' : 'fa-check-square'; };
+  const surface = liveMap.querySelector('.konvajs-content'), liveCanvas = liveMap.querySelector('canvas');
+  surface.getBoundingClientRect = () => ({left: 0, top: 0, right: 200, bottom: 200, width: 200, height: 200});
+  const wolfGroup = {cInfo: {tokenType: 'nametoken', number: 1, displayName: 'Wolf'}, isVisible: () => true, getAbsolutePosition: () => ({x: 50, y: 50})};
+  w.Konva = {stages: [{container: () => surface, width: () => 200, height: () => 200, find: () => [wolfGroup], getIntersection: () => wolfGroup}]};
+  for (let i = 0; i < 80 && liveTracker.querySelector('.draginfo').textContent !== 'Loup'; i++) await pause(25);
+  assert.equal(liveTracker.querySelector('.draginfo').textContent, 'Loup', 'Tracker monster translated to French');
+  for (const type of ['pointerdown', 'pointerup']) {
+    const ev = new w.MouseEvent(type, {bubbles: true, cancelable: true, clientX: 50, clientY: 50, button: 0, shiftKey: true});
+    Object.defineProperties(ev, {pointerId: {value: 1}, pointerType: {value: 'mouse'}});
+    liveCanvas.dispatchEvent(ev);
+  }
+  assert.ok(liveBox.classList.contains('fa-check-square'), 'Canvas selection still matches Wolf after French translation');
   console.log('PASS UI: no settings, preserved values/handlers, dynamic accordions, React updates, native navigation, translation coexistence');
 } finally { w.close(); } })().catch(error => { console.error(error); process.exitCode = 1; });

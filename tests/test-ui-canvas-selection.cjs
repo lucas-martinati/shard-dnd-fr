@@ -6,7 +6,7 @@ const adapter = source.slice(source.indexOf('  function installCanvasSelection()
 const w = new JSDOM(`<main><aside class="tourAdventureTracker"><table class="encountertable"><tbody>
 <tr><td>1 <span class="fa-check-square"></span></td><td><span class="draginfo">A</span></td></tr>
 <tr><td>2 <span class="fa-square"></span></td><td><span class="draginfo">B</span></td></tr>
-<tr><td>3 <span class="fa-square"></span></td><td><span class="draginfo">C</span></td></tr>
+<tr><td>3 <span class="fa-square"></span></td><td><span class="draginfo">Loup (C)</span></td></tr>
 </tbody></table></aside><div><section class="tourAdventureMap"><div class="maptool"><span class="toolselect"><i class="fa-arrows-alt"></i></span></div><div class="konvajs-content"><canvas></canvas></div></section></div></main>`,{runScripts:'outside-only',pretendToBeVisual:true}).window;
 const d=w.document, surface=d.querySelector('.konvajs-content'), canvas=d.querySelector('canvas');
 surface.getBoundingClientRect=()=>({left:100,top:100,right:500,bottom:500,width:400,height:400});

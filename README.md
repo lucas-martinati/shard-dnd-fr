@@ -13,7 +13,7 @@ Consulter le [guide complet](outputs/INSTALLATION.md) pour les réglages, les re
 
 ## Interface visuelle indépendante
 
-Un second userscript optionnel, [`outputs/shard-ui.user.js`](outputs/shard-ui.user.js), améliore la lisibilité de Shard en conservant ses couleurs et son identité visuelle. Il conserve la densité native, affine les fiches de personnage, ajoute des chevrons de repli intégrés aux sections et facilite la sélection multiple sur la carte, sans panneau de réglages. Il s’installe à côté du script français. Voir la [liste des fichiers distribués](outputs/README.md).
+Un second userscript optionnel, [`outputs/shard-ui.user.js`](outputs/shard-ui.user.js), améliore la lisibilité de Shard en conservant ses couleurs et son identité visuelle. Il conserve la densité native, affine les fiches de personnage, les grilles de références, les tableaux de livres et les profils 2024 en mode sombre, ajoute des chevrons de repli intégrés aux sections et facilite la sélection multiple sur la carte (y compris lorsque les noms de monstres sont traduits), sans panneau de réglages. Il s’installe à côté du script français. Voir la [liste des fichiers distribués](outputs/README.md).
 
 ## Mises à jour automatiques
 

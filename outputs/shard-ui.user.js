@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Shard Tabletop — Interface Confort
 // @namespace    local.shard.ui
-// @version      0.6.2
-// @description  Fiches, listes et contrôles plus nets, compacts et fidèles à Shard. Sans panneau ni réglages.
+// @version      0.7.1
+// @description  Fiches, listes, livres et contrôles plus nets, compacts et fidèles à Shard. Sans panneau ni réglages.
 // @match        https://play.shardtabletop.com/*
 // @run-at       document-idle
 // @grant        none
@@ -16,11 +16,18 @@
   style.id = 'shard-ui-theme';
   // Keep React-owned nodes and game handlers in place. No settings or network requests.
   style.textContent = `
-/* Native palette, with theme-relative separators. No global theme replacement. */
-body {
+/* Native palette, with theme-relative separators recomputed on every .darkT/.lightT boundary. */
+:is(body, .darkT, .lightT) {
   --sui-line: color-mix(in srgb, var(--mainTextColor, #bbb) 24%, transparent);
+  --sui-soft: color-mix(in srgb, var(--mainTextColor, #bbb) 12%, transparent);
   --sui-wash: color-mix(in srgb, var(--mainTextColor, #bbb) 6%, transparent);
   --sui-accent: var(--mainHighlightColor, currentColor);
+}
+/* Readable chapter links and floating-surface ink in dark mode without leaking into nested .lightT panes. */
+body.darkT { --bookChapterColor: #7ab3ef; }
+body.darkT :is(.MuiDialog-paper, .MuiPopover-paper, .MuiMenu-paper, .MuiDrawer-paper):not(.lightT, .lightT *) {
+  --mainTextColor: #d9ddda;
+  --lightMainTextColor: #adb5b1;
 }
 /* Keep the original homepage footprint and artwork. */
 :is(#tourCharacters, #tourCampaign, #tourLibrary, #tourReference) {
@@ -31,15 +38,25 @@ body {
   box-shadow: 0 1px 0 var(--sui-line);
 }
 .homepageblock .titleborder { border-color: var(--sui-line); }
+.homepageblock .br3.shadow-3 {
+  border-radius: 7px !important;
+  box-shadow: 0 1px 4px #0004, inset 0 0 0 1px var(--sui-line) !important;
+}
+.homepageblock a { border-radius: 4px; text-underline-offset: 2px; }
 #shardheader { box-shadow: 0 1px 0 var(--sui-line), 0 2px 8px #0002; }
+#shardheader .MuiButton-root { margin-inline-start: 6px; }
+#shardheader .hoverhighlight { border-radius: 5px; }
 
 /* Common surfaces: rounding without changing padding, width, height or typography. */
 :is(.MuiDialog-paper, .MuiMenu-paper, .MuiPopover-paper, .MuiAutocomplete-paper) {
   border-radius: 9px !important;
   box-shadow: 0 12px 36px #0005, 0 0 0 1px var(--sui-line) !important;
 }
-.darkT .MuiDialog-paper { --mainTextColor: #d9ddda; --lightMainTextColor: #adb5b1; }
+.MuiDrawer-paper {
+  box-shadow: 0 12px 36px #0005, 0 0 0 1px var(--sui-line) !important;
+}
 .MuiDialogTitle-root { box-shadow: 0 1px 0 var(--sui-line); }
+.MuiDialogTitle-root .fa-times { border-radius: 5px; cursor: pointer; }
 .MuiDialogActions-root { box-shadow: 0 -1px 0 var(--sui-line); }
 .MuiButton-root { border-radius: 5px !important; }
 .MuiButton-outlined:not(.Mui-disabled):hover { box-shadow: inset 0 0 0 1px currentColor; }
@@ -48,12 +65,40 @@ body {
 .MuiOutlinedInput-root { border-radius: 5px !important; }
 .MuiMenuItem-root:not(.Mui-disabled):hover { box-shadow: inset 3px 0 var(--sui-accent); }
 .MuiMenuItem-root.Mui-selected { box-shadow: inset 3px 0 var(--sui-accent); }
+.MuiMenuItem-root.Mui-disabled { box-shadow: none; }
+.hk-well { border-radius: 6px; box-shadow: inset 0 0 0 1px var(--sui-line); }
+.hk-well .infoheader { color: var(--mainHighlightColor); font-weight: 600; }
+.ba.b--gray-60 { border-color: var(--sui-line) !important; border-radius: 5px; }
 :is(a, button, input, select, textarea, [tabindex]):focus-visible {
   outline: 2px solid var(--sui-accent) !important; outline-offset: 2px;
 }
 
-/* Catalogues: retain row height and grouping, distinguish supporting labels. */
-.stdlist { border-spacing: 0; }
+/* Split-pane handles: subtle hairline at rest, clear accent when dragged. */
+.drag-v { background: linear-gradient(var(--sui-line), var(--sui-line)) center / 1px 100% no-repeat; }
+.drag-v:is(:hover, :active) { background: linear-gradient(var(--sui-accent), var(--sui-accent)) center / 2px 100% no-repeat !important; }
+.drag-h { background: linear-gradient(var(--sui-line), var(--sui-line)) center / 100% 1px no-repeat; }
+.drag-h:is(:hover, :active) { background: linear-gradient(var(--sui-accent), var(--sui-accent)) center / 100% 2px no-repeat !important; }
+
+/* Interactive dice triggers and roll-result popovers. */
+:is(.dodieroll, .hoverroll) { font-variant-numeric: tabular-nums; border-radius: 3px; cursor: pointer; }
+:is(.dodieroll, .hoverroll):hover {
+  background-color: var(--hoverrollColor, var(--sui-wash));
+  box-shadow: inset 0 0 0 1px var(--sui-line);
+}
+.MuiPopover-paper.whiteshadow {
+  box-shadow: 0 10px 28px #0008, 0 0 0 1px #eee7cd33 !important;
+}
+.bkdice { font-variant-numeric: tabular-nums; border-radius: 8px; }
+.bkdice :is(.bb, .bt) { border-color: #eee7cd2e !important; }
+.bkdice .mwdice { gap: 4px; }
+.bkdice .bt.f1 { font-weight: 700; letter-spacing: -0.01em; }
+
+/* Catalogues, card grids, sticky filter bars, books and statblocks. */
+.stdlist { border-spacing: 0; font-variant-numeric: tabular-nums; }
+.stdlist > thead > tr > th {
+  position: sticky; top: 0; z-index: 2;
+  background: var(--mainBackgroundColor); box-shadow: inset 0 -2px var(--sui-line);
+}
 .stdlist > tbody > tr > td.hoverhighlight {
   box-shadow: inset 0 -1px var(--sui-line);
 }
@@ -61,15 +106,68 @@ body {
   background-color: var(--hoverhighlightColor) !important;
   box-shadow: inset 3px 0 var(--sui-accent), inset 0 -1px var(--sui-line);
 }
-.darkT .stdlist :is(.near-black, .gray-90) { color: #b3b9b8 !important; }
-.lightT .stdlist :is(.near-black, .gray-90) { color: #555b59 !important; }
+.stdlist td .f8.i { color: var(--lightMainTextColor); }
+body.darkT :is(.stdlist, .stdcontent, .notecontent, .MuiDialog-paper, .MuiPopover-paper) :is(.near-black, .gray-90):not(.lightT, .lightT *) { color: #b3b9b8 !important; }
+.lightT :is(.near-black, .gray-90) { color: #555b59 !important; }
+:is(.stdcontent, .notecontent).br3.shadow-3 {
+  border-radius: 8px !important;
+  box-shadow: 0 2px 8px #0003, inset 0 0 0 1px var(--sui-line) !important;
+}
+:is(.stdcontent, .notecontent).br3.shadow-3:is(.hoverhighlight:hover, :has(> .hoverhighlight:hover)) {
+  box-shadow: 0 4px 14px #0005, inset 0 0 0 1px var(--sui-accent) !important;
+}
+:is(.stdcontent, .notecontent) .titleborder { border-color: var(--sui-line) !important; }
+.defaultbackground.sticktop {
+  box-shadow: 0 3px 10px #0003, 0 1px 0 var(--sui-line) !important;
+}
+.defaultbackground.sticktop.br3 {
+  border-radius: 8px !important;
+  box-shadow: 0 4px 12px #0004, inset 0 0 0 1px var(--sui-line) !important;
+}
+.stdcontent table:not(.m24 table) {
+  border-collapse: collapse; font-variant-numeric: tabular-nums;
+}
+.stdcontent table:not(.m24 table) :is(th, td) { padding: 4px 8px; }
+.stdcontent table:not(.m24 table) :is(thead th, tbody tr:first-child:has(> td.b) > td) {
+  box-shadow: inset 0 -2px var(--sui-line); text-align: left;
+}
+.stdcontent table:not(.m24 table) tbody tr:not(:first-child:has(> td.b)) > td {
+  box-shadow: inset 0 -1px var(--sui-wash);
+}
+.stdcontent table:not(.m24 table) tbody tr:not(.hoverhighlight):not(:first-child:has(> td.b)):hover > td {
+  background-color: var(--sui-wash);
+}
+:is(.stdcontent, .notecontent) blockquote {
+  border-inline-start: 3px solid var(--sui-accent);
+  border-radius: 0 6px 6px 0;
+  box-shadow: inset 0 0 0 1px var(--sui-line);
+}
+.monstersimple img { border-radius: 6px; }
+.monstersimple .titleborder { border-color: var(--monsterBlockBorderColor, var(--sui-line)) !important; }
+.monsterblockbackground { border-radius: 8px; box-shadow: inset 0 0 0 1px var(--sui-line); }
+.m24 table { font-variant-numeric: tabular-nums; border-collapse: separate; border-spacing: 0 2px; }
+.m24 td { padding: 2px 5px; }
+.m24 tr:first-child td:not([class^="m24c"]) { font-size: 11px; font-weight: 600; color: var(--lightMainTextColor); }
+.m24 :is(.m24c11, .m24c21).ttu { border-radius: 4px 0 0 4px; }
+.m24 td.m24c12 + td.m24c12, .m24 td.m24c22 + td.m24c22 { border-radius: 0 4px 4px 0; }
+/* Parchment .lightT statblocks (including inside Shard's outer .darkT shell) keep crisp dark ink. */
+.m24 :is(.m24c11, .m24c12, .m24c21, .m24c22) { color: #1b1916; }
+.m24 .m24c11 { background-color: rgba(180, 152, 108, .26); }
+.m24 .m24c12 { background-color: rgba(165, 130, 85, .38); font-weight: 600; }
+.m24 .m24c21 { background-color: rgba(110, 134, 152, .22); }
+.m24 .m24c22 { background-color: rgba(96, 122, 145, .34); font-weight: 600; }
+body.darkT .m24:not(.lightT .m24) .m24c11 { background-color: rgba(196, 168, 122, .20); color: #f2ece0; }
+body.darkT .m24:not(.lightT .m24) .m24c12 { background-color: rgba(196, 168, 122, .32); color: #faf5ea; }
+body.darkT .m24:not(.lightT .m24) .m24c21 { background-color: rgba(132, 164, 198, .20); color: #e8f0f8; }
+body.darkT .m24:not(.lightT .m24) .m24c22 { background-color: rgba(132, 164, 198, .32); color: #f2f7fc; }
 
 /* Character sheets: readable ink, quieter frames, existing grid and sizes. */
-.darkT :is(.characterSheet, .characterHeader) {
+body.darkT :is(.characterSheet, .characterHeader):not(.lightT, .lightT *) {
   --mainTextColor: #e0e3df !important;
   --lightMainTextColor: #b2bab7 !important;
   --tableAltRowColor: rgba(168, 177, 170, .08) !important;
 }
+.characterHeader .tourCharacterConfig .hk-well { padding: 2px 7px; border-radius: 5px; }
 .characterSheet {
   --sui-sheet-line: color-mix(in srgb, var(--mainBorderColor, #aaa) 45%, transparent);
   --sui-sheet-wash: color-mix(in srgb, var(--mainTextColor) 7%, var(--mainBackgroundColor));
@@ -110,6 +208,13 @@ body {
 .characterSheet .ability { color: var(--mainHighlightColor); }
 .characterSheet .skillBlock .gray-90 { color: var(--lightMainTextColor) !important; }
 .characterSheet .skillBlock .backgroundborder { border-color: var(--sui-sheet-line); }
+.characterSheet .coinBlock {
+  font-variant-numeric: tabular-nums; border-radius: 5px;
+  box-shadow: inset 0 0 0 1px var(--sui-sheet-line);
+}
+.characterSheet .currentLogBlock .titlebordercolor.bb {
+  border-color: var(--sui-sheet-line) !important; padding-bottom: 3px;
+}
 .characterSheet :is(.hoverroll, .hover-bg-contrast):hover {
   box-shadow: inset 0 0 0 1px var(--sui-sheet-line); border-radius: 3px;
 }
@@ -127,14 +232,19 @@ body {
   text-decoration-color: currentColor;
 }
 /* Native sticky navigation remains functional and at its original height. */
-.tourCharacterNav .texttools { border-radius: 6px 6px 0 0; box-shadow: 0 2px 5px #0002; }
-.tourCharacterNav td { border-radius: 4px; }
+.tourCharacterNav .texttools {
+  border-radius: 6px 6px 0 0;
+  box-shadow: 0 2px 8px #0003, inset 0 0 0 1px var(--sui-line);
+}
+.tourCharacterNav td { border-radius: 4px; white-space: nowrap; cursor: pointer; }
+.tourCharacterNav td + td { box-shadow: inset 1px 0 #ffffff14; }
 .tourCharacterNav td:hover { box-shadow: inset 0 -2px var(--sui-accent); }
+
 /* GM tracker: compact columns, independent selection and current-turn markers. */
 .tourAdventureTracker { background-color: var(--mainBackgroundColor) !important; }
-.tourAdventureTracker .encountertable { font-variant-numeric: tabular-nums; }
+.tourAdventureTracker .encountertable { font-variant-numeric: tabular-nums; border-collapse: separate; border-spacing: 0; }
 .tourAdventureTracker .encountertable th {
-  font-size: 11px; color: var(--mainTextColor); z-index: 2;
+  position: sticky; top: 0; font-size: 11px; color: var(--mainTextColor); z-index: 2;
   background: var(--mainBackgroundColor); box-shadow: inset 0 -2px var(--sui-line);
 }
 .tourAdventureTracker .encountertable td { box-shadow: inset 0 -1px var(--sui-wash); }
@@ -143,8 +253,12 @@ body {
   text-align: center; white-space: nowrap;
 }
 .tourAdventureTracker .encountertable td:nth-child(6) { font-weight: 700; }
-.tourAdventureTracker .encountertable td:nth-child(2) { line-height: 1.25; }
-.tourAdventureTracker .encountertable td:nth-child(2) .draginfo { font-weight: 600; }
+.tourAdventureTracker .encountertable td:nth-child(2) {
+  line-height: 1.25; word-break: normal; overflow-wrap: anywhere;
+}
+.tourAdventureTracker .encountertable td:nth-child(2) .draginfo {
+  font-weight: 600; word-break: normal; overflow-wrap: normal;
+}
 .tourAdventureTracker .encountertable tr:has(.fa-arrow-right) > td:first-child {
   box-shadow: inset 3px 0 #62b881;
 }
@@ -152,7 +266,6 @@ body {
   box-shadow: inset 0 1px var(--mainHighlightColor), inset 0 -1px var(--mainHighlightColor);
 }
 /* Separate borders allow rounded row ends without changing cell spacing. */
-.tourAdventureTracker .encountertable { border-collapse: separate; border-spacing: 0; }
 .tourAdventureTracker .encountertable tbody tr { background: transparent; }
 .tourAdventureTracker .encountertable tbody tr.encountertableeven > td { background-color: var(--tableAltRowColor); }
 .tourAdventureTracker .encountertable tbody tr > td:first-child { border-radius: 6px 0 0 6px; }
@@ -176,6 +289,10 @@ body {
 .tourAdventureTracker .encountertable .fa-caret-square-down { border-radius: 3px; }
 .tourAdventureTracker .encountertable .fa-caret-square-down:hover { outline: 1px solid currentColor; }
 .sui-column-label { font: 600 10px/1.2 system-ui; }
+.diceTrayBox :is(.equipc, .chat, .textc, .spellc, .actionc, .refc, .handoutc) {
+  border-radius: 6px !important; box-shadow: inset 0 0 0 1px #ffffff1f;
+}
+.diceTrayBox .dimchat { font-variant-numeric: tabular-nums; }
 .maptool { box-shadow: 0 1px 0 var(--sui-line); }
 .maptool > :is(.toolnormal,.toolselect) { border-radius: 5px !important; }
 .maptool > .toolselect { box-shadow: inset 0 -2px currentColor, inset 0 0 0 1px var(--sui-line); }
@@ -231,11 +348,12 @@ body:has(.tourAdventureMap) .MuiPopover-paper .MuiMenuItem-root:focus-visible {
 /* Compact navigation: one scrollable row, a persistent active-tab marker. */
 .tourAdventureTabs .tourTabList {
   flex-wrap: nowrap !important; overflow-x: auto; overflow-y: hidden;
+  gap: 2px; padding: 2px 4px 0;
   scrollbar-width: thin; background: var(--mainBackgroundColor);
   box-shadow: inset 0 -1px var(--sui-line);
 }
 .tourAdventureTabs .tourTabList > div {
-  flex: 0 0 auto; padding-inline: 6px; white-space: nowrap; cursor: pointer; border-radius: 5px 5px 0 0;
+  flex: 0 0 auto; padding-inline: 7px; white-space: nowrap; cursor: pointer; border-radius: 5px 5px 0 0;
   color: var(--mainTextColor);
 }
 .tourAdventureTabs .tourTabList > .defaultbackground {
@@ -246,13 +364,6 @@ body:has(.tourAdventureMap) .MuiPopover-paper .MuiMenuItem-root:focus-visible {
   background: var(--sui-wash); box-shadow: inset 0 -2px var(--sui-line);
 }
 .tourCharacterNav { overflow-x: auto; scrollbar-width: thin; }
-.tourCharacterNav td { white-space: nowrap; cursor: pointer; }
-.tourAdventureTracker .encountertable td:nth-child(2) {
-  word-break: normal; overflow-wrap: anywhere;
-}
-.tourAdventureTracker .encountertable td:nth-child(2) .draginfo {
-  word-break: normal; overflow-wrap: normal;
-}
 .characterSheet [data-sui-heading]:hover {
   box-shadow: inset 3px 0 var(--mainHighlightColor), inset 0 -1px var(--sui-sheet-line);
 }
@@ -262,21 +373,25 @@ body:has(.tourAdventureMap) .MuiPopover-paper .MuiMenuItem-root:focus-visible {
 .characterSheet :is(.equipmentBlock, .spellBlock, .weaponsBlock) td {
   font-variant-numeric: tabular-nums;
 }
-.MuiMenuItem-root.Mui-disabled { box-shadow: none; }
 /* Visible, theme-aware scroll handles; no invisible scrollbars or layout animation. */
-:is(.MuiDialogContent-root, .overflow-y-auto, .overflow-x-auto, .overflow-auto) {
+:is(body, .MuiDialogContent-root, .MuiPopover-paper, .MuiDrawer-paper, .stdcontent, .notecontent,
+  .tourAdventureTracker, .diceTrayBox, .overflow-y-auto, .overflow-x-auto, .overflow-auto) {
   scrollbar-width: thin;
   scrollbar-color: color-mix(in srgb, var(--mainHighlightColor, #aaa) 55%, transparent) transparent;
 }
-:is(.MuiDialogContent-root, .overflow-y-auto, .overflow-x-auto, .overflow-auto)::-webkit-scrollbar { width: 9px; height: 9px; }
-:is(.MuiDialogContent-root, .overflow-y-auto, .overflow-x-auto, .overflow-auto)::-webkit-scrollbar-thumb {
+:is(body, .MuiDialogContent-root, .MuiPopover-paper, .MuiDrawer-paper, .stdcontent, .notecontent,
+  .tourAdventureTracker, .diceTrayBox, .overflow-y-auto, .overflow-x-auto, .overflow-auto)::-webkit-scrollbar { width: 9px; height: 9px; }
+:is(body, .MuiDialogContent-root, .MuiPopover-paper, .MuiDrawer-paper, .stdcontent, .notecontent,
+  .tourAdventureTracker, .diceTrayBox, .overflow-y-auto, .overflow-x-auto, .overflow-auto)::-webkit-scrollbar-thumb {
   background: color-mix(in srgb, var(--mainHighlightColor, #aaa) 55%, transparent);
   border: 2px solid transparent; background-clip: padding-box; border-radius: 8px;
 }
-:is(.MuiDialogContent-root, .overflow-y-auto, .overflow-x-auto, .overflow-auto)::-webkit-scrollbar-thumb:hover {
+:is(body, .MuiDialogContent-root, .MuiPopover-paper, .MuiDrawer-paper, .stdcontent, .notecontent,
+  .tourAdventureTracker, .diceTrayBox, .overflow-y-auto, .overflow-x-auto, .overflow-auto)::-webkit-scrollbar-thumb:hover {
   background-color: var(--mainHighlightColor, #aaa);
 }
-:is(.MuiDialogContent-root, .overflow-y-auto, .overflow-x-auto, .overflow-auto)::-webkit-scrollbar-corner { background: transparent; }
+:is(body, .MuiDialogContent-root, .MuiPopover-paper, .MuiDrawer-paper, .stdcontent, .notecontent,
+  .tourAdventureTracker, .diceTrayBox, .overflow-y-auto, .overflow-x-auto, .overflow-auto)::-webkit-scrollbar-corner { background: transparent; }
 /* Distinguish sections from column labels without taller rows. */
 .characterSheet :is(.spellBlock, .equipmentBlock) tr > td[colspan] {
   box-shadow: inset 0 -1px var(--sui-sheet-line);
@@ -288,11 +403,11 @@ body:has(.tourAdventureMap) .MuiPopover-paper .MuiMenuItem-root:focus-visible {
 .characterSheet .featureBlock :is(.fa-minus-square, .fa-plus-square) {
   border-radius: 4px; box-shadow: inset 0 0 0 1px var(--sui-sheet-line);
 }
-.characterSheet [data-sui-heading] { position: relative; padding-inline: 4px 23px; min-height: 18px; cursor: pointer; }
+.characterSheet [data-sui-heading] { position: relative; padding-inline: 6px 26px; min-height: 20px; cursor: pointer; }
 button.sui-fold {
-  position: absolute; inset-inline-end: 1px; top: 0; width: 20px; height: 18px;
-  padding: 0; border: 0; border-radius: 3px; font: 14px/18px system-ui;
-  background: transparent; color: inherit; cursor: pointer;
+  position: absolute; inset-inline-end: 3px; top: 50%; transform: translateY(-50%);
+  width: 20px; height: 20px; padding: 0; border: 0; border-radius: 4px;
+  font: 14px/20px system-ui; background: transparent; color: inherit; cursor: pointer;
 }
 button.sui-fold:hover { background: var(--hoverhighlightColor); box-shadow: inset 0 0 0 1px var(--sui-sheet-line); }
 [data-sui-folded] > :not([data-sui-heading]) { display: none !important; }
@@ -303,22 +418,33 @@ button.sui-fold:hover { background: var(--hoverhighlightColor); box-shadow: inse
   [data-sui-folded] > :not([data-sui-heading]) { display: revert !important; }
   .sui-fold { display: none !important; }
   .characterSheet :is(.statBlock, .savingThrows, .skillBlock, .weaponsBlock, .featureBlock,
-    .spellBlock, .equipmentBlock, .traitBlock) { box-shadow: none; }
+    .spellBlock, .equipmentBlock, .traitBlock, .currentLogBlock, .attuneBlock,
+    .createItemBlock, .companionBlock, .shapeBlock, .profBlock, .descBlock, .logBlock) { box-shadow: none; }
 }
 `;
   document.head.append(style);
 
-  // Limit enhancement to known, simple sections. Native feature accordions stay native.
+  // Limit enhancement to known sections with direct .theader headers. Native feature accordions stay native.
   const sections = [
     ['skillBlock', 'compétences'],
+    ['savingThrows', 'jets de sauvegarde'],
     ['spellBlock', 'sorts'],
     ['equipmentBlock', 'équipement'],
+    ['attuneBlock', 'harmonisation'],
+    ['profBlock', 'maîtrises'],
+    ['companionBlock', 'compagnons'],
+    ['shapeBlock', 'formes'],
+    ['createItemBlock', 'création d’objets'],
+    ['descBlock', 'description'],
+    ['logBlock', 'journal'],
     ['traitBlock', 'traits'],
+    ['weaponsBlock', 'armes et armures'],
     ['tourCharacterWeapons', 'armes et armures']
   ];
   const selector = sections.map(([cls]) => '.characterSheet .' + cls).join(',');
   const states = new WeakMap();
   const boundHeadings = new WeakSet();
+  const trackerNames = new WeakMap();
   function expand(block, open) {
     const body = block.firstElementChild;
     if (!body) return;
@@ -337,6 +463,7 @@ button.sui-fold:hover { background: var(--hoverhighlightColor); box-shadow: inse
     const heading = body?.firstElementChild;
     if (!heading?.matches('.theader') || !heading.nextElementSibling) return;
     if (heading.querySelector('.sui-fold, .fa-minus-square, .fa-plus-square, [aria-expanded]')) return;
+    if (body.querySelector(':scope > .flex .fa-minus-square, :scope > .flex .fa-plus-square')) return;
     const spec = sections.find(([cls]) => block.classList.contains(cls));
     if (!spec) return;
     heading.setAttribute('data-sui-heading', '');
@@ -363,7 +490,17 @@ button.sui-fold:hover { background: var(--hoverhighlightColor); box-shadow: inse
     }
     expand(block, states.get(block) !== false);
   }
+  function rememberTrackerNames(root) {
+    if (root.nodeType !== 1 && root !== document) return;
+    const items = root.matches?.('.tourAdventureTracker .encountertable .draginfo') ? [root] : [];
+    items.push(...root.querySelectorAll('.tourAdventureTracker .encountertable .draginfo'));
+    for (const el of items) {
+      const raw = el.textContent.trim();
+      if (raw && !trackerNames.has(el)) trackerNames.set(el, raw);
+    }
+  }
   function enhanceTracker(root) {
+    rememberTrackerNames(root);
     const tables = root.matches?.('.tourAdventureTracker .encountertable') ? [root] : [];
     tables.push(...root.querySelectorAll('.tourAdventureTracker .encountertable'));
     for (const table of tables) {
@@ -398,7 +535,7 @@ button.sui-fold:hover { background: var(--hoverhighlightColor); box-shadow: inse
     bars.push(...root.querySelectorAll('.tourAdventureMap .maptool'));
     for (const bar of bars) for (const control of bar.children) {
       if (!control.matches('.toolnormal,.toolselect,.toolhp') || mapControls.has(control)) continue;
-      const nativeTitle = control.querySelector('[title]')?.getAttribute('title');
+      const nativeTitle = control.getAttribute('title') || control.querySelector('[title]')?.getAttribute('title');
       if (!nativeTitle) continue; // No guessed command names.
       mapControls.add(control);
       if (!control.hasAttribute('tabindex')) control.tabIndex = 0;
@@ -411,7 +548,7 @@ button.sui-fold:hover { background: var(--hoverhighlightColor); box-shadow: inse
           hint.setAttribute('data-shard-fr-ignore', ''); hint.setAttribute('role', 'tooltip');
           document.body.append(hint);
         }
-        hint.textContent = control.querySelector('[title]')?.getAttribute('title') || control.getAttribute('aria-label');
+        hint.textContent = control.getAttribute('title') || control.querySelector('[title]')?.getAttribute('title') || control.getAttribute('aria-label');
         control.setAttribute('aria-label', hint.textContent);
         hintOwner = control;
         const ids = new Set((control.getAttribute('aria-describedby') || '').split(/\s+/).filter(Boolean));
@@ -490,8 +627,11 @@ button.sui-fold:hover { background: var(--hoverhighlightColor); box-shadow: inse
       const rows = [...document.querySelectorAll('.tourAdventureTracker .encountertable tbody tr')];
       const num = info.number != null ? String(info.number) : null;
       const match = rows.find(tr => {
-        const name = tr.querySelector('td:nth-child(2) .draginfo')?.textContent.trim();
-        if (name !== info.displayName) return false;
+        const drag = tr.querySelector('td:nth-child(2) .draginfo');
+        const name = drag?.textContent.trim();
+        const original = typeof trackerNames !== 'undefined' && drag ? trackerNames.get(drag) : undefined;
+        if (name !== info.displayName && original !== info.displayName &&
+            !(info.displayName && name?.endsWith(' (' + info.displayName + ')'))) return false;
         if (!num) return true;
         const first = tr.querySelector('td:first-child')?.textContent.trim() || '';
         return first === num || first.startsWith(num + ' ') || new RegExp(`\\b${num}\\b`).test(first);
@@ -603,7 +743,10 @@ button.sui-fold:hover { background: var(--hoverhighlightColor); box-shadow: inse
     if (hintOwner && !hintOwner.isConnected) hideMapHint();
     for (const record of records) {
       const elements = [...record.addedNodes].filter(node => node.nodeType === 1 && !node.matches('.sui-fold, .sui-column-label, #sui-map-hint, #sui-selection-box'));
-      for (const node of elements) pending.add(node);
+      for (const node of elements) {
+        rememberTrackerNames(node);
+        pending.add(node);
+      }
       // React may replace the heading while leaving the section itself mounted.
       if (elements.length || [...record.removedNodes].some(node => node.nodeType === 1 && node.matches('.sui-fold, [data-sui-heading]'))) {
         const block = record.target.closest?.(selector);
@@ -621,7 +764,7 @@ button.sui-fold:hover { background: var(--hoverhighlightColor); box-shadow: inse
   document.addEventListener('click', event => {
     const nav = event.target.closest?.('.tourCharacterNav');
     if (!nav) return;
-    const sheet = nav.parentElement.querySelector('.characterSheet');
+    const sheet = nav.parentElement?.querySelector('.characterSheet') || document.querySelector('.characterSheet');
     sheet?.querySelectorAll('[data-sui-folded]').forEach(body => expand(body.parentElement, true));
   }, true);
 })();
